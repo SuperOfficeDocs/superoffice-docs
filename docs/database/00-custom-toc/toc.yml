@@ -1,0 +1,64 @@
+items:
+- name: Introduction
+  href: ../index.md
+- name: Getting started
+  href: ../getting-started/index.md
+  items:
+  - name: Overview
+    href: ../getting-started/overview.md
+  - name: SuperOffice view of the world
+    href: ../getting-started/so-view-of-the-world.md
+  - name: Main tables
+    href: ../getting-started/main-tables.md
+  - name: Special tables
+    href: ../getting-started/special-tables.md
+  - name: Naming conventions
+    href: ../getting-started/naming-conventions.md
+  - name: Table ID sequence
+    href: ../getting-started/table-id-sequence.md
+- name: Security
+  href: ../security/index.md
+  items:
+  - name: Single database user
+    href: ../security/single-database-user.md
+- name: Dictionary
+  href: ../dictionary/index.md
+  items:
+  - name: Dictionary steps
+    href: ../dictionary/dictionary-steps.md
+  - name: How to make database changes
+    href: ../dictionary/howto-make-db-changes.md
+  - name: Imp file format
+    href: ../dictionary/imp-file-format.md
+  - name: Methods
+  - name: Custompriming
+    href: ../dictionary/custompriming-method.md
+  - name: Impfilenames
+    href: ../dictionary/impfilenames-method.md
+  - name: Structure
+    href: ../dictionary/structure-method.md
+- name: Travel
+  href: ../travel/index.md
+  items:
+  - name: Transaction log
+    href: ../travel/transaction-log.md
+- name: Reference
+  href: ../tables/toc.yml
+  topicHref: ../tables/index.md
+- name: Whats new
+  href: ../whats-new/index.md
+  items:
+  - name: Changes 6 7
+    href: ../whats-new/changes-6-7.md
+  - name: Changes 7
+    href: ../whats-new/changes-7.md
+  - name: Changes 70 71
+    href: ../whats-new/changes-70-71.md
+  - name: Changes 71 75
+    href: ../whats-new/changes-71-75.md
+  - name: Changes 75 80
+    href: ../whats-new/changes-75-80.md
+  - name: Changes 81
+    href: ../whats-new/changes-81.md
+  - name: Whats New in 9.8.7717.1401
+    href: ../whats-new/Whats New in 9.8.7717.1401.md

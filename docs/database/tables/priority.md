@@ -1,7 +1,7 @@
 ---
 uid: table-priority
 title: priority table
-description: Priority list table. Used with appointments: low, high.
+description: Priority list table. Used with appointments - low, high.
 so.generated: true
 keywords:
   - "database"

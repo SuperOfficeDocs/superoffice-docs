@@ -1,7 +1,7 @@
 ---
 uid: table-addressformat
 title: addressformat table
-description: Address formats for GUI and labels. See more information: Addressformat on http://techdoc.superoffice.com
+description: Address formats for GUI and labels. See more information in Addressformat on http://techdoc.superoffice.com
 so.generated: true
 keywords:
   - "database"
