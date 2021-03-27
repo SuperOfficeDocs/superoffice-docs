@@ -1,3 +1,4 @@
+items:
 - name: NetServer Core
   href: core/index.md
 - name: NetServer Services
