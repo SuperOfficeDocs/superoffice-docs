@@ -8,6 +8,7 @@ items:
 # Will apps be included in API toc?
 - name: Apps
   href: ../02-apps/toc.yml
+# Will authentication be included in API toc?
 - name: Authentication
   href: ../authentication/access-token.md
   items:
@@ -88,6 +89,9 @@ items:
       href: ../authentication/system-user/system-user-token.md
 - name: Automation
   href: ../04-automation/toc.yml
+# TBD: chat, company and contact, custom fields, dashboards
+- name: Diary
+  href: ../08-diary/toc.yml
 - name: Marketing
   href: ../marketing/index.md
   items:
