@@ -92,6 +92,8 @@ items:
 # TBD: chat, company and contact, custom fields, dashboards
 - name: Diary
   href: ../08-diary/toc.yml
+- name: Documents
+  href: ../09-documents/toc.yml
 - name: Marketing
   href: ../marketing/index.md
   items:
