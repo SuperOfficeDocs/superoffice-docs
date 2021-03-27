@@ -1,2 +1,5 @@
-# [REST](rest/)
-# [SOAP](soap/)
+# [NetServer](netserver/toc.md)
+# [RESTful Services](restful/toc.md)
+# [SOAP](soap/toc.yml)
+# [Web Application](web/toc.yml)
+# [WebApi Client](webapi/toc.yml)
