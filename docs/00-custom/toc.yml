@@ -4,13 +4,7 @@ items:
 - name: Setup
   href: ../01-setup/toc.yml
 - name: AI services
-  href: ../ai-services/index.md
-  items:
-  - name: Configuration AI
-    href: ../ai-services/configuration-ai/index.md
-    items:
-    - name: Getting started
-      href: ../ai-services/configuration-ai/getting-started.md
+  href: ../07-ai/toc.yml
 # Will apps be included in API toc?
 - name: Apps
   href: ../02-apps/toc.yml
