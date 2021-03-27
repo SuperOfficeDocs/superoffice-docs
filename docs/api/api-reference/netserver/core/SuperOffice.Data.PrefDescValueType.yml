@@ -1,0 +1,859 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.PrefDescValueType
+  commentId: T:SuperOffice.Data.PrefDescValueType
+  id: PrefDescValueType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.PrefDescValueType.Bool
+  - SuperOffice.Data.PrefDescValueType.ContactID
+  - SuperOffice.Data.PrefDescValueType.ListOfValues
+  - SuperOffice.Data.PrefDescValueType.ListTableRef
+  - SuperOffice.Data.PrefDescValueType.MultiLineText
+  - SuperOffice.Data.PrefDescValueType.Number
+  - SuperOffice.Data.PrefDescValueType.Password
+  - SuperOffice.Data.PrefDescValueType.PersonID
+  - SuperOffice.Data.PrefDescValueType.PosSize
+  - SuperOffice.Data.PrefDescValueType.ProjectID
+  - SuperOffice.Data.PrefDescValueType.SelectionID
+  - SuperOffice.Data.PrefDescValueType.Text
+  - SuperOffice.Data.PrefDescValueType.Time
+  - SuperOffice.Data.PrefDescValueType.TimeList
+  - SuperOffice.Data.PrefDescValueType.TimeZone
+  - SuperOffice.Data.PrefDescValueType.Unknown
+  langs:
+  - csharp
+  - vb
+  name: PrefDescValueType
+  nameWithType: PrefDescValueType
+  fullName: SuperOffice.Data.PrefDescValueType
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;valueType&apos; in table &apos;prefdesc&apos;.\nThis Enum is used by:  PrefDesc.valueType\n"
+  syntax:
+    content: 'public enum PrefDescValueType : short'
+    content.vb: Public Enum PrefDescValueType As Short
+  extensionMethods:
+  - SuperOffice.Data.PrefDescValueType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.PrefDescValueType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PrefDescValueType)
+  - SuperOffice.Data.PrefDescValueType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.PrefDescValueType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.PrefDescValueType.Unknown
+  commentId: F:SuperOffice.Data.PrefDescValueType.Unknown
+  id: Unknown
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: PrefDescValueType.Unknown
+  fullName: SuperOffice.Data.PrefDescValueType.Unknown
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Unknown - used when initializing\n"
+  syntax:
+    content: Unknown = 0
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.Number
+  commentId: F:SuperOffice.Data.PrefDescValueType.Number
+  id: Number
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: PrefDescValueType.Number
+  fullName: SuperOffice.Data.PrefDescValueType.Number
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Preference value is a number\n"
+  syntax:
+    content: Number = 1
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.Text
+  commentId: F:SuperOffice.Data.PrefDescValueType.Text
+  id: Text
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: PrefDescValueType.Text
+  fullName: SuperOffice.Data.PrefDescValueType.Text
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Preference value is a text (max len 99 characters)\n"
+  syntax:
+    content: Text = 2
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.Bool
+  commentId: F:SuperOffice.Data.PrefDescValueType.Bool
+  id: Bool
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: PrefDescValueType.Bool
+  fullName: SuperOffice.Data.PrefDescValueType.Bool
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Preference value is Boolean\n"
+  syntax:
+    content: Bool = 3
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.ListOfValues
+  commentId: F:SuperOffice.Data.PrefDescValueType.ListOfValues
+  id: ListOfValues
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: ListOfValues
+  nameWithType: PrefDescValueType.ListOfValues
+  fullName: SuperOffice.Data.PrefDescValueType.ListOfValues
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Preference value is a list of separate value\n"
+  syntax:
+    content: ListOfValues = 4
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.ListTableRef
+  commentId: F:SuperOffice.Data.PrefDescValueType.ListTableRef
+  id: ListTableRef
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: ListTableRef
+  nameWithType: PrefDescValueType.ListTableRef
+  fullName: SuperOffice.Data.PrefDescValueType.ListTableRef
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Preference value is a record ID in the given MDO list table; maxValue contains the tablenumberø\n"
+  syntax:
+    content: ListTableRef = 5
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.TimeList
+  commentId: F:SuperOffice.Data.PrefDescValueType.TimeList
+  id: TimeList
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: TimeList
+  nameWithType: PrefDescValueType.TimeList
+  fullName: SuperOffice.Data.PrefDescValueType.TimeList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Preference value is a time, value is seconds since midnight (28800 = 08:00)\n"
+  syntax:
+    content: TimeList = 6
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.ContactID
+  commentId: F:SuperOffice.Data.PrefDescValueType.ContactID
+  id: ContactID
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: ContactID
+  nameWithType: PrefDescValueType.ContactID
+  fullName: SuperOffice.Data.PrefDescValueType.ContactID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n7: Preference value is a contact ID\n"
+  syntax:
+    content: ContactID = 7
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.PersonID
+  commentId: F:SuperOffice.Data.PrefDescValueType.PersonID
+  id: PersonID
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: PersonID
+  nameWithType: PrefDescValueType.PersonID
+  fullName: SuperOffice.Data.PrefDescValueType.PersonID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Preference value is a person ID\n"
+  syntax:
+    content: PersonID = 8
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.ProjectID
+  commentId: F:SuperOffice.Data.PrefDescValueType.ProjectID
+  id: ProjectID
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: ProjectID
+  nameWithType: PrefDescValueType.ProjectID
+  fullName: SuperOffice.Data.PrefDescValueType.ProjectID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n9: Preference value is a project ID\n"
+  syntax:
+    content: ProjectID = 9
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.SelectionID
+  commentId: F:SuperOffice.Data.PrefDescValueType.SelectionID
+  id: SelectionID
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: SelectionID
+  nameWithType: PrefDescValueType.SelectionID
+  fullName: SuperOffice.Data.PrefDescValueType.SelectionID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n10: Preference value is a selection ID\n"
+  syntax:
+    content: SelectionID = 10
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.PosSize
+  commentId: F:SuperOffice.Data.PrefDescValueType.PosSize
+  id: PosSize
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: PosSize
+  nameWithType: PrefDescValueType.PosSize
+  fullName: SuperOffice.Data.PrefDescValueType.PosSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n11: Obsolete: Windows position and size\n"
+  syntax:
+    content: PosSize = 11
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.TimeZone
+  commentId: F:SuperOffice.Data.PrefDescValueType.TimeZone
+  id: TimeZone
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: PrefDescValueType.TimeZone
+  fullName: SuperOffice.Data.PrefDescValueType.TimeZone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n12: TimeZone location\n"
+  syntax:
+    content: TimeZone = 12
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.Time
+  commentId: F:SuperOffice.Data.PrefDescValueType.Time
+  id: Time
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: PrefDescValueType.Time
+  fullName: SuperOffice.Data.PrefDescValueType.Time
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n13: Time, preference value is 13:45:50\n"
+  syntax:
+    content: Time = 13
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.Password
+  commentId: F:SuperOffice.Data.PrefDescValueType.Password
+  id: Password
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: PrefDescValueType.Password
+  fullName: SuperOffice.Data.PrefDescValueType.Password
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n14: Password, stored as plain text but shown with dots\n"
+  syntax:
+    content: Password = 14
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PrefDescValueType.MultiLineText
+  commentId: F:SuperOffice.Data.PrefDescValueType.MultiLineText
+  id: MultiLineText
+  parent: SuperOffice.Data.PrefDescValueType
+  langs:
+  - csharp
+  - vb
+  name: MultiLineText
+  nameWithType: PrefDescValueType.MultiLineText
+  fullName: SuperOffice.Data.PrefDescValueType.MultiLineText
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n15: Multi-line text that preserves line breaks\n"
+  syntax:
+    content: MultiLineText = 15
+    return:
+      type: SuperOffice.Data.PrefDescValueType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.PrefDescValueType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PrefDescValueType, To>()
+  nameWithType: EnumUtil.MapEnums<PrefDescValueType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescValueType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PrefDescValueType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescValueType, To)()
+  name.vb: MapEnums(Of PrefDescValueType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PrefDescValueType, To>
+    nameWithType: EnumUtil.MapEnums<PrefDescValueType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.PrefDescValueType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PrefDescValueType, To)
+    nameWithType: EnumUtil.MapEnums(Of PrefDescValueType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.PrefDescValueType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PrefDescValueType.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PrefDescValueType)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PrefDescValueType>(PrefDescValueType)
+  nameWithType: ObjectExtensions.AssignByReflection<PrefDescValueType>(PrefDescValueType)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PrefDescValueType>(SuperOffice.Data.PrefDescValueType)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PrefDescValueType)(PrefDescValueType)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PrefDescValueType)(SuperOffice.Data.PrefDescValueType)
+  name.vb: AssignByReflection(Of PrefDescValueType)(PrefDescValueType)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PrefDescValueType>
+    nameWithType: ObjectExtensions.AssignByReflection<PrefDescValueType>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PrefDescValueType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PrefDescValueType
+    name: PrefDescValueType
+    nameWithType: PrefDescValueType
+    fullName: SuperOffice.Data.PrefDescValueType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PrefDescValueType)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PrefDescValueType)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PrefDescValueType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PrefDescValueType
+    name: PrefDescValueType
+    nameWithType: PrefDescValueType
+    fullName: SuperOffice.Data.PrefDescValueType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PrefDescValueType.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PrefDescValueType>()
+  nameWithType: ObjectExtensions.GraphCopy<PrefDescValueType>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PrefDescValueType>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PrefDescValueType)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PrefDescValueType)()
+  name.vb: GraphCopy(Of PrefDescValueType)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PrefDescValueType>
+    nameWithType: ObjectExtensions.GraphCopy<PrefDescValueType>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PrefDescValueType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PrefDescValueType)
+    nameWithType: ObjectExtensions.GraphCopy(Of PrefDescValueType)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PrefDescValueType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PrefDescValueType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PrefDescValueType, To>()
+  nameWithType: Converters.MapEnums<PrefDescValueType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescValueType, To>()
+  nameWithType.vb: Converters.MapEnums(Of PrefDescValueType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescValueType, To)()
+  name.vb: MapEnums(Of PrefDescValueType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PrefDescValueType, To>
+    nameWithType: Converters.MapEnums<PrefDescValueType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PrefDescValueType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PrefDescValueType, To)
+    nameWithType: Converters.MapEnums(Of PrefDescValueType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PrefDescValueType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.PrefDescValueType
+  commentId: T:SuperOffice.Data.PrefDescValueType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PrefDescValueType
+  nameWithType: PrefDescValueType
+  fullName: SuperOffice.Data.PrefDescValueType

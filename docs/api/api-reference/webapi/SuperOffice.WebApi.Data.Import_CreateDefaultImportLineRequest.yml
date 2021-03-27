@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest
+  commentId: T:SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest
+  id: Import_CreateDefaultImportLineRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.#ctor
+  - SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns
+  langs:
+  - csharp
+  - vb
+  name: Import_CreateDefaultImportLineRequest
+  nameWithType: Import_CreateDefaultImportLineRequest
+  fullName: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Import_CreateDefaultImportLineRequest : Object'
+    content.vb: >-
+      Public Class Import_CreateDefaultImportLineRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest
+  langs:
+  - csharp
+  - vb
+  name: Import_CreateDefaultImportLineRequest()
+  nameWithType: Import_CreateDefaultImportLineRequest.Import_CreateDefaultImportLineRequest()
+  fullName: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.Import_CreateDefaultImportLineRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Import_CreateDefaultImportLineRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns
+  commentId: P:SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns
+  id: CountColumns
+  parent: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest
+  langs:
+  - csharp
+  - vb
+  name: CountColumns
+  nameWithType: Import_CreateDefaultImportLineRequest.CountColumns
+  fullName: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int CountColumns { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CountColumns As Integer
+  overload: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.#ctor
+  isExternal: true
+  name: Import_CreateDefaultImportLineRequest
+  nameWithType: Import_CreateDefaultImportLineRequest.Import_CreateDefaultImportLineRequest
+  fullName: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.Import_CreateDefaultImportLineRequest
+- uid: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns*
+  commentId: Overload:SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns
+  isExternal: true
+  name: CountColumns
+  nameWithType: Import_CreateDefaultImportLineRequest.CountColumns
+  fullName: SuperOffice.WebApi.Data.Import_CreateDefaultImportLineRequest.CountColumns
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

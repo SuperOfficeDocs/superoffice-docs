@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.Util
+  commentId: N:SuperOffice.CRM.Services.Util
+  id: SuperOffice.CRM.Services.Util
+  children:
+  - SuperOffice.CRM.Services.Util.SerializationHelper
+  - SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Services.Util
+  nameWithType: SuperOffice.CRM.Services.Util
+  fullName: SuperOffice.CRM.Services.Util
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.CRM.Services.Util.SerializationHelper
+  commentId: T:SuperOffice.CRM.Services.Util.SerializationHelper
+  isExternal: true
+  name: SerializationHelper
+  nameWithType: SerializationHelper
+  fullName: SuperOffice.CRM.Services.Util.SerializationHelper
+- uid: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
+  commentId: T:SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
+  parent: SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: SerializationHelper.ReadXmlHelper
+  nameWithType: SerializationHelper.ReadXmlHelper
+  fullName: SuperOffice.CRM.Services.Util.SerializationHelper.ReadXmlHelper
+- uid: SuperOffice.CRM.Services.Util
+  commentId: N:SuperOffice.CRM.Services.Util
+  isExternal: true
+  name: SuperOffice.CRM.Services.Util
+  nameWithType: SuperOffice.CRM.Services.Util
+  fullName: SuperOffice.CRM.Services.Util

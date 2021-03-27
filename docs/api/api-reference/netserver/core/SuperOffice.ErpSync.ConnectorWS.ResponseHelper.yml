@@ -1,0 +1,612 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  id: ResponseHelper
+  parent: SuperOffice.ErpSync.ConnectorWS
+  children:
+  - SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse``1
+  - SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse``1(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  - SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse``1(System.Exception)
+  - SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse``1(SuperOffice.CRM.PluginResponseInfo)
+  - SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse``1(System.Exception)
+  langs:
+  - csharp
+  - vb
+  name: ResponseHelper
+  nameWithType: ResponseHelper
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nStatic class with a collection of helper methods used in creating response objects\n"
+  syntax:
+    content: public static class ResponseHelper
+    content.vb: Public Module ResponseHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse``1(SuperOffice.CRM.PluginResponseInfo)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse``1(SuperOffice.CRM.PluginResponseInfo)
+  id: CreateWSResponse``1(SuperOffice.CRM.PluginResponseInfo)
+  parent: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateWSResponse<R>(PluginResponseInfo)
+  nameWithType: ResponseHelper.CreateWSResponse<R>(PluginResponseInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse<R>(SuperOffice.CRM.PluginResponseInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nCreate a WCF response object based on a PluginResponseInfo\n"
+  syntax:
+    content: >-
+      public static R CreateWSResponse<R>(PluginResponseInfo implementationResponse)
+          where R : ConnectorResultBaseWS, new()
+    parameters:
+    - id: implementationResponse
+      type: SuperOffice.CRM.PluginResponseInfo
+      description: Response object to translate
+    typeParameters:
+    - id: R
+      description: Actual response object type
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function CreateWSResponse(Of R As {ConnectorResultBaseWS, New})(implementationResponse As PluginResponseInfo) As R
+  overload: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse*
+  nameWithType.vb: ResponseHelper.CreateWSResponse(Of R)(PluginResponseInfo)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse(Of R)(SuperOffice.CRM.PluginResponseInfo)
+  name.vb: CreateWSResponse(Of R)(PluginResponseInfo)
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse``1(System.Exception)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse``1(System.Exception)
+  id: CreateWSResponse``1(System.Exception)
+  parent: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateWSResponse<R>(Exception)
+  nameWithType: ResponseHelper.CreateWSResponse<R>(Exception)
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse<R>(System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nCreate a WCF response object based on an Exception\n"
+  syntax:
+    content: >-
+      public static R CreateWSResponse<R>(Exception crash)
+          where R : ConnectorResultBaseWS, new()
+    parameters:
+    - id: crash
+      type: System.Exception
+      description: Exception to translate
+    typeParameters:
+    - id: R
+      description: Actual response object type
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function CreateWSResponse(Of R As {ConnectorResultBaseWS, New})(crash As Exception) As R
+  overload: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse*
+  nameWithType.vb: ResponseHelper.CreateWSResponse(Of R)(Exception)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse(Of R)(System.Exception)
+  name.vb: CreateWSResponse(Of R)(Exception)
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse``1(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse``1(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  id: CreateResponse``1(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  parent: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateResponse<R>(ConnectorResultBaseWS)
+  nameWithType: ResponseHelper.CreateResponse<R>(ConnectorResultBaseWS)
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse<R>(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nCreate a PluginResponseInfo object based on a WCF ConnectorResultBaseWS\n"
+  syntax:
+    content: >-
+      public static R CreateResponse<R>(ConnectorResultBaseWS wsResult)
+          where R : PluginResponseInfo, new()
+    parameters:
+    - id: wsResult
+      type: SuperOffice.ErpSync.ConnectorResultBaseWS
+      description: ConnectorResultBaseWS to translate
+    typeParameters:
+    - id: R
+      description: Actual response object type
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function CreateResponse(Of R As {PluginResponseInfo, New})(wsResult As ConnectorResultBaseWS) As R
+  overload: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse*
+  nameWithType.vb: ResponseHelper.CreateResponse(Of R)(ConnectorResultBaseWS)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse(Of R)(SuperOffice.ErpSync.ConnectorResultBaseWS)
+  name.vb: CreateResponse(Of R)(ConnectorResultBaseWS)
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse``1(System.Exception)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse``1(System.Exception)
+  id: CreateResponse``1(System.Exception)
+  parent: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateResponse<R>(Exception)
+  nameWithType: ResponseHelper.CreateResponse<R>(Exception)
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse<R>(System.Exception)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nCreate a PluginResponseInfo object based on a Exception\n"
+  syntax:
+    content: >-
+      public static R CreateResponse<R>(Exception crash)
+          where R : PluginResponseInfo, new()
+    parameters:
+    - id: crash
+      type: System.Exception
+      description: Exception to translate
+    typeParameters:
+    - id: R
+      description: Actual response object type
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function CreateResponse(Of R As {PluginResponseInfo, New})(crash As Exception) As R
+  overload: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse*
+  nameWithType.vb: ResponseHelper.CreateResponse(Of R)(Exception)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse(Of R)(System.Exception)
+  name.vb: CreateResponse(Of R)(Exception)
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse``1
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse``1
+  id: CreateOkResponse``1
+  parent: SuperOffice.ErpSync.ConnectorWS.ResponseHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateOkResponse<R>()
+  nameWithType: ResponseHelper.CreateOkResponse<R>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse<R>()
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync.ConnectorWS
+  summary: "\nCreate a PluginResponseInfo where everything is OK\n"
+  syntax:
+    content: >-
+      public static R CreateOkResponse<R>()
+          where R : PluginResponseInfo, new()
+    typeParameters:
+    - id: R
+      description: Actual response object type
+    return:
+      type: '{R}'
+    content.vb: Public Shared Function CreateOkResponse(Of R As {PluginResponseInfo, New}) As R
+  overload: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse*
+  nameWithType.vb: ResponseHelper.CreateOkResponse(Of R)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse(Of R)()
+  name.vb: CreateOkResponse(Of R)()
+references:
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse
+  isExternal: true
+  name: CreateWSResponse
+  nameWithType: ResponseHelper.CreateWSResponse
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateWSResponse
+- uid: SuperOffice.CRM.PluginResponseInfo
+  commentId: T:SuperOffice.CRM.PluginResponseInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: PluginResponseInfo
+  nameWithType: PluginResponseInfo
+  fullName: SuperOffice.CRM.PluginResponseInfo
+- uid: '{R}'
+  commentId: '!:R'
+  definition: R
+  name: R
+  nameWithType: R
+  fullName: R
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: R
+  name: R
+  nameWithType: R
+  fullName: R
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse
+  isExternal: true
+  name: CreateResponse
+  nameWithType: ResponseHelper.CreateResponse
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateResponse
+- uid: SuperOffice.ErpSync.ConnectorResultBaseWS
+  commentId: T:SuperOffice.ErpSync.ConnectorResultBaseWS
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: ConnectorResultBaseWS
+  nameWithType: ConnectorResultBaseWS
+  fullName: SuperOffice.ErpSync.ConnectorResultBaseWS
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse*
+  commentId: Overload:SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse
+  isExternal: true
+  name: CreateOkResponse
+  nameWithType: ResponseHelper.CreateOkResponse
+  fullName: SuperOffice.ErpSync.ConnectorWS.ResponseHelper.CreateOkResponse

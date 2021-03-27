@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
+  commentId: T:SuperOffice.IO.IOwnedDataSerializableAndRecreatable
+  id: IOwnedDataSerializableAndRecreatable
+  parent: SuperOffice.IO
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IOwnedDataSerializableAndRecreatable
+  nameWithType: IOwnedDataSerializableAndRecreatable
+  fullName: SuperOffice.IO.IOwnedDataSerializableAndRecreatable
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAllows a class to specify that it can be recreated during deserialization using a default constructor\nand then calling DeserializeOwnedData()\n"
+  syntax:
+    content: 'public interface IOwnedDataSerializableAndRecreatable : IOwnedDataSerializable'
+    content.vb: >-
+      Public Interface IOwnedDataSerializableAndRecreatable
+          Inherits IOwnedDataSerializable
+  inheritedMembers:
+  - SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter,System.Object)
+  - SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData(SuperOffice.IO.SerializationReader,System.Object)
+  extensionMethods:
+  - SuperOffice.IO.IOwnedDataSerializableAndRecreatable.EnumUtil.MapEnums``2
+  - SuperOffice.IO.IOwnedDataSerializableAndRecreatable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter,System.Object)
+  commentId: M:SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter,System.Object)
+  parent: SuperOffice.IO.IOwnedDataSerializable
+  isExternal: true
+  name: SerializeOwnedData(SerializationWriter, Object)
+  nameWithType: IOwnedDataSerializable.SerializeOwnedData(SerializationWriter, Object)
+  fullName: SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter,System.Object)
+    name: SerializeOwnedData
+    nameWithType: IOwnedDataSerializable.SerializeOwnedData
+    fullName: SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.SerializationWriter
+    name: SerializationWriter
+    nameWithType: SerializationWriter
+    fullName: SuperOffice.IO.SerializationWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData(SuperOffice.IO.SerializationWriter,System.Object)
+    name: SerializeOwnedData
+    nameWithType: IOwnedDataSerializable.SerializeOwnedData
+    fullName: SuperOffice.IO.IOwnedDataSerializable.SerializeOwnedData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.SerializationWriter
+    name: SerializationWriter
+    nameWithType: SerializationWriter
+    fullName: SuperOffice.IO.SerializationWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData(SuperOffice.IO.SerializationReader,System.Object)
+  commentId: M:SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData(SuperOffice.IO.SerializationReader,System.Object)
+  parent: SuperOffice.IO.IOwnedDataSerializable
+  isExternal: true
+  name: DeserializeOwnedData(SerializationReader, Object)
+  nameWithType: IOwnedDataSerializable.DeserializeOwnedData(SerializationReader, Object)
+  fullName: SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData(SuperOffice.IO.SerializationReader, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData(SuperOffice.IO.SerializationReader,System.Object)
+    name: DeserializeOwnedData
+    nameWithType: IOwnedDataSerializable.DeserializeOwnedData
+    fullName: SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.SerializationReader
+    name: SerializationReader
+    nameWithType: SerializationReader
+    fullName: SuperOffice.IO.SerializationReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData(SuperOffice.IO.SerializationReader,System.Object)
+    name: DeserializeOwnedData
+    nameWithType: IOwnedDataSerializable.DeserializeOwnedData
+    fullName: SuperOffice.IO.IOwnedDataSerializable.DeserializeOwnedData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.IO.SerializationReader
+    name: SerializationReader
+    nameWithType: SerializationReader
+    fullName: SuperOffice.IO.SerializationReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.IOwnedDataSerializableAndRecreatable.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IOwnedDataSerializableAndRecreatable, To>()
+  nameWithType: EnumUtil.MapEnums<IOwnedDataSerializableAndRecreatable, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IOwnedDataSerializableAndRecreatable, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To)()
+  name.vb: MapEnums(Of IOwnedDataSerializableAndRecreatable, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IOwnedDataSerializableAndRecreatable, To>
+    nameWithType: EnumUtil.MapEnums<IOwnedDataSerializableAndRecreatable, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IOwnedDataSerializableAndRecreatable, To)
+    nameWithType: EnumUtil.MapEnums(Of IOwnedDataSerializableAndRecreatable, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.IOwnedDataSerializableAndRecreatable.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IOwnedDataSerializableAndRecreatable, To>()
+  nameWithType: Converters.MapEnums<IOwnedDataSerializableAndRecreatable, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To>()
+  nameWithType.vb: Converters.MapEnums(Of IOwnedDataSerializableAndRecreatable, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To)()
+  name.vb: MapEnums(Of IOwnedDataSerializableAndRecreatable, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IOwnedDataSerializableAndRecreatable, To>
+    nameWithType: Converters.MapEnums<IOwnedDataSerializableAndRecreatable, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IOwnedDataSerializableAndRecreatable, To)
+    nameWithType: Converters.MapEnums(Of IOwnedDataSerializableAndRecreatable, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.IOwnedDataSerializableAndRecreatable, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.IOwnedDataSerializable
+  commentId: T:SuperOffice.IO.IOwnedDataSerializable
+  parent: SuperOffice.IO
+  isExternal: true
+  name: IOwnedDataSerializable
+  nameWithType: IOwnedDataSerializable
+  fullName: SuperOffice.IO.IOwnedDataSerializable
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS

@@ -1,0 +1,487 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ConsentSource
+  commentId: T:SuperOffice.CRM.Services.ConsentSource
+  id: ConsentSource
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ConsentSource.#ctor
+  - SuperOffice.CRM.Services.ConsentSource.ConsentSourceId
+  - SuperOffice.CRM.Services.ConsentSource.Deleted
+  - SuperOffice.CRM.Services.ConsentSource.Key
+  - SuperOffice.CRM.Services.ConsentSource.MailTemplateId
+  - SuperOffice.CRM.Services.ConsentSource.Name
+  - SuperOffice.CRM.Services.ConsentSource.Rank
+  - SuperOffice.CRM.Services.ConsentSource.Tooltip
+  - SuperOffice.CRM.Services.ConsentSource.ToString
+  - SuperOffice.CRM.Services.ConsentSource.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ConsentSource
+  nameWithType: ConsentSource
+  fullName: SuperOffice.CRM.Services.ConsentSource
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for ConsentSource.\nServices for the ConsentSource Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ConsentSource 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var consentSource = agent.GetConsentSource( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class ConsentSource : Carrier'
+    content.vb: >-
+      Public Class ConsentSource
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ConsentSource.#ctor
+  commentId: M:SuperOffice.CRM.Services.ConsentSource.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: ConsentSource()
+  nameWithType: ConsentSource.ConsentSource()
+  fullName: SuperOffice.CRM.Services.ConsentSource.ConsentSource()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ConsentSource()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ConsentSource.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConsentSource.ToString
+  commentId: M:SuperOffice.CRM.Services.ConsentSource.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ConsentSource.ToString()
+  fullName: SuperOffice.CRM.Services.ConsentSource.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ConsentSource.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ConsentSource.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ConsentSource.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ConsentSource.ToString(String)
+  fullName: SuperOffice.CRM.Services.ConsentSource.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ConsentSource.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ConsentSource.ConsentSourceId
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.ConsentSourceId
+  id: ConsentSourceId
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: ConsentSourceId
+  nameWithType: ConsentSource.ConsentSourceId
+  fullName: SuperOffice.CRM.Services.ConsentSource.ConsentSourceId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ConsentSourceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ConsentSourceId As Integer
+  overload: SuperOffice.CRM.Services.ConsentSource.ConsentSourceId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ConsentSource.Name
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ConsentSource.Name
+  fullName: SuperOffice.CRM.Services.ConsentSource.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of consent source \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ConsentSource.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ConsentSource.Tooltip
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ConsentSource.Tooltip
+  fullName: SuperOffice.CRM.Services.ConsentSource.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip for this consent source \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.ConsentSource.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ConsentSource.Rank
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ConsentSource.Rank
+  fullName: SuperOffice.CRM.Services.ConsentSource.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRank of this consent source \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.ConsentSource.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ConsentSource.Key
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: ConsentSource.Key
+  fullName: SuperOffice.CRM.Services.ConsentSource.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe key used to uniquely identify this consent source \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.ConsentSource.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ConsentSource.MailTemplateId
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.MailTemplateId
+  id: MailTemplateId
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: MailTemplateId
+  nameWithType: ConsentSource.MailTemplateId
+  fullName: SuperOffice.CRM.Services.ConsentSource.MailTemplateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe mail template to use when automatically sending emails to new persons created with this consent source. \n"
+  syntax:
+    content: public virtual int MailTemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MailTemplateId As Integer
+  overload: SuperOffice.CRM.Services.ConsentSource.MailTemplateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ConsentSource.Deleted
+  commentId: P:SuperOffice.CRM.Services.ConsentSource.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.ConsentSource
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ConsentSource.Deleted
+  fullName: SuperOffice.CRM.Services.ConsentSource.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ntrue if the ConsentSource is deleted \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.ConsentSource.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ConsentSource.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.#ctor
+  isExternal: true
+  name: ConsentSource
+  nameWithType: ConsentSource.ConsentSource
+  fullName: SuperOffice.CRM.Services.ConsentSource.ConsentSource
+- uid: SuperOffice.CRM.Services.ConsentSource.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ConsentSource.ToString
+  fullName: SuperOffice.CRM.Services.ConsentSource.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ConsentSource.ConsentSourceId*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.ConsentSourceId
+  isExternal: true
+  name: ConsentSourceId
+  nameWithType: ConsentSource.ConsentSourceId
+  fullName: SuperOffice.CRM.Services.ConsentSource.ConsentSourceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ConsentSource.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.Name
+  isExternal: true
+  name: Name
+  nameWithType: ConsentSource.Name
+  fullName: SuperOffice.CRM.Services.ConsentSource.Name
+- uid: SuperOffice.CRM.Services.ConsentSource.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ConsentSource.Tooltip
+  fullName: SuperOffice.CRM.Services.ConsentSource.Tooltip
+- uid: SuperOffice.CRM.Services.ConsentSource.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ConsentSource.Rank
+  fullName: SuperOffice.CRM.Services.ConsentSource.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.ConsentSource.Key*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.Key
+  isExternal: true
+  name: Key
+  nameWithType: ConsentSource.Key
+  fullName: SuperOffice.CRM.Services.ConsentSource.Key
+- uid: SuperOffice.CRM.Services.ConsentSource.MailTemplateId*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.MailTemplateId
+  isExternal: true
+  name: MailTemplateId
+  nameWithType: ConsentSource.MailTemplateId
+  fullName: SuperOffice.CRM.Services.ConsentSource.MailTemplateId
+- uid: SuperOffice.CRM.Services.ConsentSource.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.ConsentSource.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ConsentSource.Deleted
+  fullName: SuperOffice.CRM.Services.ConsentSource.Deleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

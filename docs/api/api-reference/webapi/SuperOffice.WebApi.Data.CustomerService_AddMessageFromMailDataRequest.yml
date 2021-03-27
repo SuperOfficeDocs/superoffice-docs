@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest
+  id: CustomerService_AddMessageFromMailDataRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data
+  - SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_AddMessageFromMailDataRequest
+  nameWithType: CustomerService_AddMessageFromMailDataRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_AddMessageFromMailDataRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_AddMessageFromMailDataRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_AddMessageFromMailDataRequest()
+  nameWithType: CustomerService_AddMessageFromMailDataRequest.CustomerService_AddMessageFromMailDataRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.CustomerService_AddMessageFromMailDataRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_AddMessageFromMailDataRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: CustomerService_AddMessageFromMailDataRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data
+  id: Data
+  parent: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: CustomerService_AddMessageFromMailDataRequest.Data
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Data { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Data As String
+  overload: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.#ctor
+  isExternal: true
+  name: CustomerService_AddMessageFromMailDataRequest
+  nameWithType: CustomerService_AddMessageFromMailDataRequest.CustomerService_AddMessageFromMailDataRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.CustomerService_AddMessageFromMailDataRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: CustomerService_AddMessageFromMailDataRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data
+  isExternal: true
+  name: Data
+  nameWithType: CustomerService_AddMessageFromMailDataRequest.Data
+  fullName: SuperOffice.WebApi.Data.CustomerService_AddMessageFromMailDataRequest.Data
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

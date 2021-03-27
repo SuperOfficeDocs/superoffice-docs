@@ -1,0 +1,886 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  id: RestrictionStorageFactory
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RestrictionStorageFactory
+  nameWithType: RestrictionStorageFactory
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFactory class for restriction storage providers. This class will scan for plugins of type \n<see cref=\"!:SuperOffice.CRM.Services.Implementation.DCF.ArchiveLists.IRestrictionStorage\"></see> and return\na provider for a particular storage type on request.\n"
+  syntax:
+    content: public static class RestrictionStorageFactory
+    content.vb: Public Module RestrictionStorageFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String,System.String)
+  id: GetProvider(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetProvider(String, String)
+  nameWithType: RestrictionStorageFactory.GetProvider(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn a singleton restriction storage provider for the given storageType, or null if no provider exists.\n"
+  syntax:
+    content: public static IRestrictionStorage GetProvider(string storageType, string context)
+    parameters:
+    - id: storageType
+      type: System.String
+      description: >-
+        Case-insensitive name of the desired storage type. Initially valid types are
+
+        &apos;Criteria&apos; and &apos;Reporter&apos;.
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
+      description: Storage provider, or null
+    content.vb: Public Shared Function GetProvider(storageType As String, context As String) As IRestrictionStorage
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String)
+  id: GetProvider(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetProvider(String)
+  nameWithType: RestrictionStorageFactory.GetProvider(String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static IRestrictionStorage GetProvider(string storageType)
+    parameters:
+    - id: storageType
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
+    content.vb: Public Shared Function GetProvider(storageType As String) As IRestrictionStorage
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  id: GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionViaStorage(ArchiveRestrictionInfo[], String, String, String, String)
+  nameWithType: RestrictionStorageFactory.GetRestrictionViaStorage(ArchiveRestrictionInfo[], String, String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveRestrictionInfo[] GetRestrictionViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: providerName
+      type: System.String
+    - id: storageType
+      type: System.String
+    - id: storageKeyRestrictionName
+      type: System.String
+    - id: restrictionStorageKey
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Shared Function GetRestrictionViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage*
+  nameWithType.vb: RestrictionStorageFactory.GetRestrictionViaStorage(ArchiveRestrictionInfo(), String, String, String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String, System.String, System.String)
+  name.vb: GetRestrictionViaStorage(ArchiveRestrictionInfo(), String, String, String, String)
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  id: GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionViaStorage(ArchiveRestrictionInfo[], String, String, String, String, String)
+  nameWithType: RestrictionStorageFactory.GetRestrictionViaStorage(ArchiveRestrictionInfo[], String, String, String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveRestrictionInfo[] GetRestrictionViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey, string context)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: providerName
+      type: System.String
+    - id: storageType
+      type: System.String
+    - id: storageKeyRestrictionName
+      type: System.String
+    - id: restrictionStorageKey
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Shared Function GetRestrictionViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String, context As String) As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage*
+  nameWithType.vb: RestrictionStorageFactory.GetRestrictionViaStorage(ArchiveRestrictionInfo(), String, String, String, String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String, System.String, System.String, System.String)
+  name.vb: GetRestrictionViaStorage(ArchiveRestrictionInfo(), String, String, String, String, String)
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  id: GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[], String, String, String, String)
+  nameWithType: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[], String, String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveRestrictionInfo[][] GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: providerName
+      type: System.String
+    - id: storageType
+      type: System.String
+    - id: storageKeyRestrictionName
+      type: System.String
+    - id: restrictionStorageKey
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[][]
+    content.vb: Public Shared Function GetRestrictionFromAllGroupsViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String) As ArchiveRestrictionInfo()()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage*
+  nameWithType.vb: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo(), String, String, String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String, System.String, System.String)
+  name.vb: GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo(), String, String, String, String)
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  id: GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[], String, String, String, String, String)
+  nameWithType: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[], String, String, String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String, System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveRestrictionInfo[][] GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo[] restrictions, string providerName, string storageType, string storageKeyRestrictionName, string restrictionStorageKey, string context)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    - id: providerName
+      type: System.String
+    - id: storageType
+      type: System.String
+    - id: storageKeyRestrictionName
+      type: System.String
+    - id: restrictionStorageKey
+      type: System.String
+    - id: context
+      type: System.String
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[][]
+    content.vb: Public Shared Function GetRestrictionFromAllGroupsViaStorage(restrictions As ArchiveRestrictionInfo(), providerName As String, storageType As String, storageKeyRestrictionName As String, restrictionStorageKey As String, context As String) As ArchiveRestrictionInfo()()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage*
+  nameWithType.vb: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo(), String, String, String, String, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String, System.String, System.String, System.String, System.String)
+  name.vb: GetRestrictionFromAllGroupsViaStorage(ArchiveRestrictionInfo(), String, String, String, String, String)
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping(System.String,System.String)
+  id: GetMapping(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory
+  langs:
+  - csharp
+  - vb
+  name: GetMapping(String, String)
+  nameWithType: RestrictionStorageFactory.GetMapping(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn the criterion mapping information - if any - for the given combination of storage type and provider name\n"
+  syntax:
+    content: public static Dictionary<string, Dictionary<string, string>> GetMapping(string storageType, string xPath)
+    parameters:
+    - id: storageType
+      type: System.String
+      description: >-
+        Case-insensitive name of the desired storage type. Initially valid types are
+
+        &apos;Criteria&apos; and &apos;Reporter&apos;.
+    - id: xPath
+      type: System.String
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+      description: Mapping information, typically an XML string
+    content.vb: Public Shared Function GetMapping(storageType As String, xPath As String) As Dictionary(Of String, Dictionary(Of String, String))
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider
+  isExternal: true
+  name: GetProvider
+  nameWithType: RestrictionStorageFactory.GetProvider
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
+  commentId: T:SuperOffice.CRM.ArchiveLists.IRestrictionStorage
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IRestrictionStorage
+  nameWithType: IRestrictionStorage
+  fullName: SuperOffice.CRM.ArchiveLists.IRestrictionStorage
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage
+  isExternal: true
+  name: GetRestrictionViaStorage
+  nameWithType: RestrictionStorageFactory.GetRestrictionViaStorage
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionViaStorage
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage
+  isExternal: true
+  name: GetRestrictionFromAllGroupsViaStorage
+  nameWithType: RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetRestrictionFromAllGroupsViaStorage
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[][]
+  isExternal: true
+  name: ArchiveRestrictionInfo[][]
+  nameWithType: ArchiveRestrictionInfo[][]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[][]
+  nameWithType.vb: ArchiveRestrictionInfo()()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()()
+  name.vb: ArchiveRestrictionInfo()()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping
+  isExternal: true
+  name: GetMapping
+  nameWithType: RestrictionStorageFactory.GetMapping
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionStorageFactory.GetMapping
+- uid: System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.Dictionary{System.String,System.String}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, Dictionary<String, String>>
+  nameWithType: Dictionary<String, Dictionary<String, String>>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.Collections.Generic.Dictionary<System.String, System.String>>
+  nameWithType.vb: Dictionary(Of String, Dictionary(Of String, String))
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: Dictionary(Of String, Dictionary(Of String, String))
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

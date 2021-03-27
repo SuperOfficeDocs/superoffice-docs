@@ -1,0 +1,1138 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  commentId: T:SuperOffice.CRM.Rows.TZStdRuleRecordData
+  id: TZStdRuleRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.#ctor
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.Bias
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.Description
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.IsBuiltIn
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.Registered
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.TZLocationId
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.TZStdRuleId
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.Updated
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.ValidFrom
+  langs:
+  - csharp
+  - vb
+  name: TZStdRuleRecordData
+  nameWithType: TZStdRuleRecordData
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the TZStdRule table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.TZStdRuleRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.TZStdRuleTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class TZStdRuleRecordData
+    content.vb: Public Class TZStdRuleRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.TZStdRuleId
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.TZStdRuleId
+  id: TZStdRuleId
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: TZStdRuleId
+  nameWithType: TZStdRuleRecordData.TZStdRuleId
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.TZStdRuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int TZStdRuleId
+    return:
+      type: System.Int32
+    content.vb: Public TZStdRuleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.TZLocationId
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.TZLocationId
+  id: TZLocationId
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: TZLocationId
+  nameWithType: TZStdRuleRecordData.TZLocationId
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.TZLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLocation that this rule is valid for - one location has at least one rule; multiple rules are discerned by their validFrom dates \n"
+  syntax:
+    content: public int TZLocationId
+    return:
+      type: System.Int32
+    content.vb: Public TZLocationId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.ValidFrom
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: TZStdRuleRecordData.ValidFrom
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.ValidFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDate this rule is valid from \n"
+  syntax:
+    content: public DateTime ValidFrom
+    return:
+      type: System.DateTime
+    content.vb: Public ValidFrom As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.Bias
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.Bias
+  id: Bias
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Bias
+  nameWithType: TZStdRuleRecordData.Bias
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.Bias
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nnumber of minutes bias relative to UTC time \n"
+  syntax:
+    content: public short Bias
+    return:
+      type: System.Int16
+    content.vb: Public Bias As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TZStdRuleRecordData.Description
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescription, for identifying the rule in SoAdmin \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: TZStdRuleRecordData.IsBuiltIn
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs this row part of SuperOffice priming data \n"
+  syntax:
+    content: public short IsBuiltIn
+    return:
+      type: System.Int16
+    content.vb: Public IsBuiltIn As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TZStdRuleRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: TZStdRuleRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: TZStdRuleRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: TZStdRuleRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: TZStdRuleRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: TZStdRuleRecordData()
+  nameWithType: TZStdRuleRecordData.TZStdRuleRecordData()
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.TZStdRuleRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public TZStdRuleRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.TZStdRuleRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TZStdRuleRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<TZStdRuleRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TZStdRuleRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TZStdRuleRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TZStdRuleRecordData, To)()
+  name.vb: MapEnums(Of TZStdRuleRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TZStdRuleRecordData, To>
+    nameWithType: EnumUtil.MapEnums<TZStdRuleRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.TZStdRuleRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TZStdRuleRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of TZStdRuleRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.TZStdRuleRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<TZStdRuleRecordData>(TZStdRuleRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<TZStdRuleRecordData>(TZStdRuleRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TZStdRuleRecordData>(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of TZStdRuleRecordData)(TZStdRuleRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TZStdRuleRecordData)(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  name.vb: AssignByReflection(Of TZStdRuleRecordData)(TZStdRuleRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<TZStdRuleRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<TZStdRuleRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.TZStdRuleRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    name: TZStdRuleRecordData
+    nameWithType: TZStdRuleRecordData
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of TZStdRuleRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of TZStdRuleRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.TZStdRuleRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    name: TZStdRuleRecordData
+    nameWithType: TZStdRuleRecordData
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<TZStdRuleRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<TZStdRuleRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TZStdRuleRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of TZStdRuleRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TZStdRuleRecordData)()
+  name.vb: GraphCopy(Of TZStdRuleRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<TZStdRuleRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<TZStdRuleRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.TZStdRuleRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of TZStdRuleRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of TZStdRuleRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.TZStdRuleRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  parent: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  name: ToInsert()
+  nameWithType: TZStdRuleRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TZStdRuleRecordData, To>()
+  nameWithType: Converters.MapEnums<TZStdRuleRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TZStdRuleRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of TZStdRuleRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TZStdRuleRecordData, To)()
+  name.vb: MapEnums(Of TZStdRuleRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TZStdRuleRecordData, To>
+    nameWithType: Converters.MapEnums<TZStdRuleRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.TZStdRuleRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TZStdRuleRecordData, To)
+    nameWithType: Converters.MapEnums(Of TZStdRuleRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.TZStdRuleRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  commentId: M:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  isExternal: true
+  name: ToInsert(TZStdRuleRecordData)
+  nameWithType: TZStdRuleRecordDataExtensions.ToInsert(TZStdRuleRecordData)
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+    name: ToInsert
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    name: TZStdRuleRecordData
+    nameWithType: TZStdRuleRecordData
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.TZStdRuleRecordData)
+    name: ToInsert
+    nameWithType: TZStdRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    name: TZStdRuleRecordData
+    nameWithType: TZStdRuleRecordData
+    fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TZStdRuleRecordDataExtensions
+  nameWithType: TZStdRuleRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Rows.TZStdRuleRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.TZStdRuleRecordData.#ctor
+  isExternal: true
+  name: TZStdRuleRecordData
+  nameWithType: TZStdRuleRecordData.TZStdRuleRecordData
+  fullName: SuperOffice.CRM.Rows.TZStdRuleRecordData.TZStdRuleRecordData

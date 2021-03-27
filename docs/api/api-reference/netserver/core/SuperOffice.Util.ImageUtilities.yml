@@ -1,0 +1,982 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ImageUtilities
+  commentId: T:SuperOffice.Util.ImageUtilities
+  id: ImageUtilities
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
+  - SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
+  - SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
+  - SuperOffice.Util.ImageUtilities.ProductImageSize
+  - SuperOffice.Util.ImageUtilities.Resize(System.Windows.Media.ImageSource,System.Int32,System.Int32,System.Windows.Media.BitmapScalingMode)
+  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
+  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  - SuperOffice.Util.ImageUtilities.ThumbnailSize
+  - SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ImageUtilities
+  nameWithType: ImageUtilities
+  fullName: SuperOffice.Util.ImageUtilities
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static class ImageUtilities
+    content.vb: Public Module ImageUtilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.ImageUtilities.ThumbnailSize
+  commentId: F:SuperOffice.Util.ImageUtilities.ThumbnailSize
+  id: ThumbnailSize
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: ThumbnailSize
+  nameWithType: ImageUtilities.ThumbnailSize
+  fullName: SuperOffice.Util.ImageUtilities.ThumbnailSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDefault thumbnail size\n"
+  syntax:
+    content: public const int ThumbnailSize = 150
+    return:
+      type: System.Int32
+    content.vb: Public Const ThumbnailSize As Integer = 150
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.ImageUtilities.ProductImageSize
+  commentId: F:SuperOffice.Util.ImageUtilities.ProductImageSize
+  id: ProductImageSize
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: ProductImageSize
+  nameWithType: ImageUtilities.ProductImageSize
+  fullName: SuperOffice.Util.ImageUtilities.ProductImageSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDefault max size for product images (largest edge)\n"
+  syntax:
+    content: public const int ProductImageSize = 2000
+    return:
+      type: System.Int32
+    content.vb: Public Const ProductImageSize As Integer = 2000
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  id: FitTo(System.Drawing.Image,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: FitTo(Image, Int32, Int32)
+  nameWithType: ImageUtilities.FitTo(Image, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nIf needed, resize the image to make it fit the given dimensions, while keeping the aspect ratio.\n<p></p>If you are creating thumbnails, please use the <xref href=\"SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>, which is more efficient for\nradical scaling of that sort.\n"
+  syntax:
+    content: public static Image FitTo(this Image image, int width, int height)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: Source image
+    - id: width
+      type: System.Int32
+      description: Maximum width
+    - id: height
+      type: System.Int32
+      description: Maximum height
+    return:
+      type: System.Drawing.Image
+      description: Possibly rescaled image
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FitTo(image As Image, width As Integer, height As Integer) As Image
+  overload: SuperOffice.Util.ImageUtilities.FitTo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  id: GetThumbnailImage(System.IO.Stream,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetThumbnailImage(Stream, Int32, Int32)
+  nameWithType: ImageUtilities.GetThumbnailImage(Stream, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.IO.Stream, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static Image GetThumbnailImage(this Stream input, int width = 150, int height = 150)
+    parameters:
+    - id: input
+      type: System.IO.Stream
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    return:
+      type: System.Drawing.Image
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetThumbnailImage(input As Stream, width As Integer = 150, height As Integer = 150) As Image
+  overload: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
+  id: GetBytes(System.Drawing.Image)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(Image)
+  nameWithType: ImageUtilities.GetBytes(Image)
+  fullName: SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static byte[] GetBytes(this Image input)
+    parameters:
+    - id: input
+      type: System.Drawing.Image
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBytes(input As Image) As Byte()
+  overload: SuperOffice.Util.ImageUtilities.GetBytes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+  id: GetThumbnail(System.Drawing.Image,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetThumbnail(Image, Int32, Int32)
+  nameWithType: ImageUtilities.GetThumbnail(Image, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.Drawing.Image, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet a thumbnail of the incoming image; the quiality of the scaling is not quite as good as for\n<xref href=\"SuperOffice.Util.ImageUtilities.FitTo(System.Drawing.Image%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref>, but is more efficient. Aspect ratio is maintained.\n"
+  syntax:
+    content: public static Image GetThumbnail(this Image image, int width = 150, int height = 150)
+    parameters:
+    - id: image
+      type: System.Drawing.Image
+      description: Source image
+    - id: width
+      type: System.Int32
+      description: Maximum width, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
+    - id: height
+      type: System.Int32
+      description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.Drawing.Image
+      description: Thumbnail image
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetThumbnail(image As Image, width As Integer = 150, height As Integer = 150) As Image
+  overload: SuperOffice.Util.ImageUtilities.GetThumbnail*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnail(System.String,System.Int32,System.Int32)
+  id: GetThumbnail(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetThumbnail(String, Int32, Int32)
+  nameWithType: ImageUtilities.GetThumbnail(String, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet a thumbnail from a string-encoded image; output size is not guaranteed as short input strings\nwill cause an immediate return in the interest of performance (a string of less than 1500 can&apos;t be a big image!)\n"
+  syntax:
+    content: public static string GetThumbnail(string input, int width = 150, int height = 150)
+    parameters:
+    - id: input
+      type: System.String
+      description: Source image as base-64 encoded string
+    - id: width
+      type: System.Int32
+      description: Maximum width, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
+    - id: height
+      type: System.Int32
+      description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetThumbnail(input As String, width As Integer = 150, height As Integer = 150) As String
+  overload: SuperOffice.Util.ImageUtilities.GetThumbnail*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String,System.Int32,System.Int32)
+  id: GetThumbnailImage(System.String,System.Int32,System.Int32)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetThumbnailImage(String, Int32, Int32)
+  nameWithType: ImageUtilities.GetThumbnailImage(String, Int32, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet a thumbnail from a string-encoded image; output size is not guaranteed as short input strings\nwill cause an immediate return in the interest of performance (a string of less than 1500 can&apos;t be a big image!)\n"
+  syntax:
+    content: public static Image GetThumbnailImage(string input, int width = 150, int height = 150)
+    parameters:
+    - id: input
+      type: System.String
+      description: Source image as base-64 encoded string
+    - id: width
+      type: System.Int32
+      description: Maximum width, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
+    - id: height
+      type: System.Int32
+      description: Maximum height, default <xref href="SuperOffice.Util.ImageUtilities.ThumbnailSize" data-throw-if-not-resolved="false"></xref>
+    return:
+      type: System.Drawing.Image
+    content.vb: Public Shared Function GetThumbnailImage(input As String, width As Integer = 150, height As Integer = 150) As Image
+  overload: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
+  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String,System.Int32)
+  id: ResolveUrlOrBase64Image(System.String,System.Int32)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: ResolveUrlOrBase64Image(String, Int32)
+  nameWithType: ImageUtilities.ResolveUrlOrBase64Image(String, Int32)
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image(System.String, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\nImages are scaled down to 1000/1000 if needed\n"
+  remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
+  syntax:
+    content: public static string ResolveUrlOrBase64Image(string input, int maxPixelSize = 2000)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input, which may be a base64 encoded image or a URL
+    - id: maxPixelSize
+      type: System.Int32
+      description: >-
+        Maximum image size, of longest side. Images larger than this in any direction
+
+        will be shrunk (keeping the aspect ratio intact). Stretching will never occur.
+    return:
+      type: System.String
+    content.vb: Public Shared Function ResolveUrlOrBase64Image(input As String, maxPixelSize As Integer = 2000) As String
+  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  id: ResolveUrlOrBase64ImageNoReduction(System.String)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: ResolveUrlOrBase64ImageNoReduction(String)
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction(String)
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nIf the input is a well-formed absolute URI, then assume that it leads to an image, and fetch that image; otherwise just pass the input straight out again.\n"
+  remarks: "\nEventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly\n"
+  syntax:
+    content: public static string ResolveUrlOrBase64ImageNoReduction(string input)
+    parameters:
+    - id: input
+      type: System.String
+      description: The input, which may be a base64 encoded image or a URL
+    return:
+      type: System.String
+    content.vb: Public Shared Function ResolveUrlOrBase64ImageNoReduction(input As String) As String
+  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
+  id: GetImageTypeFromBase64String(System.String,System.String)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetImageTypeFromBase64String(String, String)
+  nameWithType: ImageUtilities.GetImageTypeFromBase64String(String, String)
+  fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static string GetImageTypeFromBase64String(string base64String, string defaultType)
+    parameters:
+    - id: base64String
+      type: System.String
+    - id: defaultType
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetImageTypeFromBase64String(base64String As String, defaultType As String) As String
+  overload: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  id: TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: TryFitImage(Byte[], Int32, Int32, Boolean)
+  nameWithType: ImageUtilities.TryFitImage(Byte[], Int32, Int32, Boolean)
+  fullName: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[], System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static byte[] TryFitImage(byte[] imageData, int maxWidth, int maxHeight, bool alwaysTryConvert = false)
+    parameters:
+    - id: imageData
+      type: System.Byte[]
+    - id: maxWidth
+      type: System.Int32
+    - id: maxHeight
+      type: System.Int32
+    - id: alwaysTryConvert
+      type: System.Boolean
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function TryFitImage(imageData As Byte(), maxWidth As Integer, maxHeight As Integer, alwaysTryConvert As Boolean = False) As Byte()
+  overload: SuperOffice.Util.ImageUtilities.TryFitImage*
+  nameWithType.vb: ImageUtilities.TryFitImage(Byte(), Int32, Int32, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte(), System.Int32, System.Int32, System.Boolean)
+  name.vb: TryFitImage(Byte(), Int32, Int32, Boolean)
+- uid: SuperOffice.Util.ImageUtilities.Resize(System.Windows.Media.ImageSource,System.Int32,System.Int32,System.Windows.Media.BitmapScalingMode)
+  commentId: M:SuperOffice.Util.ImageUtilities.Resize(System.Windows.Media.ImageSource,System.Int32,System.Int32,System.Windows.Media.BitmapScalingMode)
+  id: Resize(System.Windows.Media.ImageSource,System.Int32,System.Int32,System.Windows.Media.BitmapScalingMode)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: Resize(ImageSource, Int32, Int32, BitmapScalingMode)
+  nameWithType: ImageUtilities.Resize(ImageSource, Int32, Int32, BitmapScalingMode)
+  fullName: SuperOffice.Util.ImageUtilities.Resize(System.Windows.Media.ImageSource, System.Int32, System.Int32, System.Windows.Media.BitmapScalingMode)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public static BitmapFrame Resize(ImageSource photo, int width, int height, BitmapScalingMode scalingMode)
+    parameters:
+    - id: photo
+      type: System.Windows.Media.ImageSource
+    - id: width
+      type: System.Int32
+    - id: height
+      type: System.Int32
+    - id: scalingMode
+      type: System.Windows.Media.BitmapScalingMode
+    return:
+      type: System.Windows.Media.Imaging.BitmapFrame
+    content.vb: Public Shared Function Resize(photo As ImageSource, width As Integer, height As Integer, scalingMode As BitmapScalingMode) As BitmapFrame
+  overload: SuperOffice.Util.ImageUtilities.Resize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Util.ImageUtilities.FitTo*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.FitTo
+  isExternal: true
+  name: FitTo
+  nameWithType: ImageUtilities.FitTo
+  fullName: SuperOffice.Util.ImageUtilities.FitTo
+- uid: System.Drawing.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnailImage*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetThumbnailImage
+  isExternal: true
+  name: GetThumbnailImage
+  nameWithType: ImageUtilities.GetThumbnailImage
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnailImage
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.Util.ImageUtilities.GetBytes*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetBytes
+  isExternal: true
+  name: GetBytes
+  nameWithType: ImageUtilities.GetBytes
+  fullName: SuperOffice.Util.ImageUtilities.GetBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.ImageUtilities.GetThumbnail*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetThumbnail
+  isExternal: true
+  name: GetThumbnail
+  nameWithType: ImageUtilities.GetThumbnail
+  fullName: SuperOffice.Util.ImageUtilities.GetThumbnail
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image
+  isExternal: true
+  name: ResolveUrlOrBase64Image
+  nameWithType: ImageUtilities.ResolveUrlOrBase64Image
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64Image
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
+  isExternal: true
+  name: ResolveUrlOrBase64ImageNoReduction
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
+- uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String
+  isExternal: true
+  name: GetImageTypeFromBase64String
+  nameWithType: ImageUtilities.GetImageTypeFromBase64String
+  fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String
+- uid: SuperOffice.Util.ImageUtilities.TryFitImage*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.TryFitImage
+  isExternal: true
+  name: TryFitImage
+  nameWithType: ImageUtilities.TryFitImage
+  fullName: SuperOffice.Util.ImageUtilities.TryFitImage
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.ImageUtilities.Resize*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.Resize
+  isExternal: true
+  name: Resize
+  nameWithType: ImageUtilities.Resize
+  fullName: SuperOffice.Util.ImageUtilities.Resize
+- uid: System.Windows.Media.ImageSource
+  commentId: '!:System.Windows.Media.ImageSource'
+  isExternal: true
+  name: ImageSource
+  nameWithType: ImageSource
+  fullName: System.Windows.Media.ImageSource
+- uid: System.Windows.Media.BitmapScalingMode
+  commentId: '!:System.Windows.Media.BitmapScalingMode'
+  isExternal: true
+  name: BitmapScalingMode
+  nameWithType: BitmapScalingMode
+  fullName: System.Windows.Media.BitmapScalingMode
+- uid: System.Windows.Media.Imaging.BitmapFrame
+  commentId: '!:System.Windows.Media.Imaging.BitmapFrame'
+  isExternal: true
+  name: BitmapFrame
+  nameWithType: BitmapFrame
+  fullName: System.Windows.Media.Imaging.BitmapFrame

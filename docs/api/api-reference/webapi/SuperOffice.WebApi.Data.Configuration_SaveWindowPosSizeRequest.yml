@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
+  commentId: T:SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
+  id: Configuration_SaveWindowPosSizeRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.#ctor
+  - SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  langs:
+  - csharp
+  - vb
+  name: Configuration_SaveWindowPosSizeRequest
+  nameWithType: Configuration_SaveWindowPosSizeRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Configuration_SaveWindowPosSizeRequest : Object'
+    content.vb: >-
+      Public Class Configuration_SaveWindowPosSizeRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
+  langs:
+  - csharp
+  - vb
+  name: Configuration_SaveWindowPosSizeRequest()
+  nameWithType: Configuration_SaveWindowPosSizeRequest.Configuration_SaveWindowPosSizeRequest()
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.Configuration_SaveWindowPosSizeRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Configuration_SaveWindowPosSizeRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  commentId: P:SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  id: WindowPosSize
+  parent: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest
+  langs:
+  - csharp
+  - vb
+  name: WindowPosSize
+  nameWithType: Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public WindowPosSize WindowPosSize { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.WindowPosSize
+    content.vb: Public Property WindowPosSize As WindowPosSize
+  overload: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.#ctor
+  isExternal: true
+  name: Configuration_SaveWindowPosSizeRequest
+  nameWithType: Configuration_SaveWindowPosSizeRequest.Configuration_SaveWindowPosSizeRequest
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.Configuration_SaveWindowPosSizeRequest
+- uid: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize*
+  commentId: Overload:SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  isExternal: true
+  name: WindowPosSize
+  nameWithType: Configuration_SaveWindowPosSizeRequest.WindowPosSize
+  fullName: SuperOffice.WebApi.Data.Configuration_SaveWindowPosSizeRequest.WindowPosSize
+- uid: SuperOffice.WebApi.Data.WindowPosSize
+  commentId: T:SuperOffice.WebApi.Data.WindowPosSize
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: WindowPosSize
+  nameWithType: WindowPosSize
+  fullName: SuperOffice.WebApi.Data.WindowPosSize

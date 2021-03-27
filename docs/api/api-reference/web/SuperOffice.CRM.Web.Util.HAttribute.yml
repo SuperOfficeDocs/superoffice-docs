@@ -1,0 +1,858 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.HAttribute
+  commentId: T:SuperOffice.CRM.Web.Util.HAttribute
+  id: HAttribute
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.HAttribute.Class(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.Create(System.String,System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.Id(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.Name
+  - SuperOffice.CRM.Web.Util.HAttribute.OnBlur(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.OnClick(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.OnFocus(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.Util.HAttribute.SoId(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.Type(System.String)
+  - SuperOffice.CRM.Web.Util.HAttribute.Value
+  langs:
+  - csharp
+  - vb
+  name: HAttribute
+  nameWithType: HAttribute
+  fullName: SuperOffice.CRM.Web.Util.HAttribute
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class HAttribute
+    content.vb: Public Class HAttribute
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: HAttribute.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Public Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Render*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Create(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.Create(System.String,System.String)
+  id: Create(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Create(String, String)
+  nameWithType: HAttribute.Create(String, String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Create(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute Create(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function Create(name As String, value As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Class(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.Class(System.String)
+  id: Class(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Class(String)
+  nameWithType: HAttribute.Class(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Class(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute Class(string className)
+    parameters:
+    - id: className
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function Class(className As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Class*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut(System.String)
+  id: OnMouseOut(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: OnMouseOut(String)
+  nameWithType: HAttribute.OnMouseOut(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute OnMouseOut(string javascript)
+    parameters:
+    - id: javascript
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function OnMouseOut(javascript As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove(System.String)
+  id: OnMouseMove(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: OnMouseMove(String)
+  nameWithType: HAttribute.OnMouseMove(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute OnMouseMove(string javascript)
+    parameters:
+    - id: javascript
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function OnMouseMove(javascript As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Id(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.Id(System.String)
+  id: Id(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Id(String)
+  nameWithType: HAttribute.Id(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Id(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute Id(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function Id(id As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Id*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.SoId(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.SoId(System.String)
+  id: SoId(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoId(String)
+  nameWithType: HAttribute.SoId(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.SoId(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute SoId(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function SoId(id As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.SoId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnClick(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.OnClick(System.String)
+  id: OnClick(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: OnClick(String)
+  nameWithType: HAttribute.OnClick(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnClick(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute OnClick(string onClick)
+    parameters:
+    - id: onClick
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function OnClick(onClick As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.OnClick*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Type(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.Type(System.String)
+  id: Type(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Type(String)
+  nameWithType: HAttribute.Type(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Type(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute Type(string type)
+    parameters:
+    - id: type
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function Type(type As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Type*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnBlur(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.OnBlur(System.String)
+  id: OnBlur(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: OnBlur(String)
+  nameWithType: HAttribute.OnBlur(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnBlur(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute OnBlur(string js)
+    parameters:
+    - id: js
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function OnBlur(js As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.OnBlur*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnFocus(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HAttribute.OnFocus(System.String)
+  id: OnFocus(System.String)
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: OnFocus(String)
+  nameWithType: HAttribute.OnFocus(String)
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnFocus(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static HAttribute OnFocus(string js)
+    parameters:
+    - id: js
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Util.HAttribute
+    content.vb: Public Shared Function OnFocus(js As String) As HAttribute
+  overload: SuperOffice.CRM.Web.Util.HAttribute.OnFocus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Name
+  commentId: P:SuperOffice.CRM.Web.Util.HAttribute.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: HAttribute.Name
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Name
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Value
+  commentId: P:SuperOffice.CRM.Web.Util.HAttribute.Value
+  id: Value
+  parent: SuperOffice.CRM.Web.Util.HAttribute
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: HAttribute.Value
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Value
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: SuperOffice.CRM.Web.Util.HAttribute.Value*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Render*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Render
+  isExternal: true
+  name: Render
+  nameWithType: HAttribute.Render
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Create*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Create
+  isExternal: true
+  name: Create
+  nameWithType: HAttribute.Create
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.HAttribute
+  commentId: T:SuperOffice.CRM.Web.Util.HAttribute
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: HAttribute
+  nameWithType: HAttribute
+  fullName: SuperOffice.CRM.Web.Util.HAttribute
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Class*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Class
+  isExternal: true
+  name: Class
+  nameWithType: HAttribute.Class
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Class
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut
+  isExternal: true
+  name: OnMouseOut
+  nameWithType: HAttribute.OnMouseOut
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnMouseOut
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove
+  isExternal: true
+  name: OnMouseMove
+  nameWithType: HAttribute.OnMouseMove
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnMouseMove
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Id*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Id
+  isExternal: true
+  name: Id
+  nameWithType: HAttribute.Id
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Id
+- uid: SuperOffice.CRM.Web.Util.HAttribute.SoId*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.SoId
+  isExternal: true
+  name: SoId
+  nameWithType: HAttribute.SoId
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.SoId
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnClick*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.OnClick
+  isExternal: true
+  name: OnClick
+  nameWithType: HAttribute.OnClick
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnClick
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Type*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Type
+  isExternal: true
+  name: Type
+  nameWithType: HAttribute.Type
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Type
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnBlur*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.OnBlur
+  isExternal: true
+  name: OnBlur
+  nameWithType: HAttribute.OnBlur
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnBlur
+- uid: SuperOffice.CRM.Web.Util.HAttribute.OnFocus*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.OnFocus
+  isExternal: true
+  name: OnFocus
+  nameWithType: HAttribute.OnFocus
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.OnFocus
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Name*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Name
+  isExternal: true
+  name: Name
+  nameWithType: HAttribute.Name
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Name
+- uid: SuperOffice.CRM.Web.Util.HAttribute.Value*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HAttribute.Value
+  isExternal: true
+  name: Value
+  nameWithType: HAttribute.Value
+  fullName: SuperOffice.CRM.Web.Util.HAttribute.Value

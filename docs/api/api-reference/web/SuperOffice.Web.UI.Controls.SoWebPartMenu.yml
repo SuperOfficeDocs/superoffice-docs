@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  commentId: T:SuperOffice.Web.UI.Controls.SoWebPartMenu
+  id: SoWebPartMenu
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.#ctor
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClicked
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked(SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: SoWebPartMenu
+  nameWithType: SoWebPartMenu
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoWebPartMenu : SoControl, INamingContainer'
+    content.vb: >-
+      Public Class SoWebPartMenu
+          Inherits SoControl
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.UI.Controls.SoControl
+  implements:
+  - System.Web.UI.INamingContainer
+  inheritedMembers:
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: SoWebPartMenu()
+  nameWithType: SoWebPartMenu.SoWebPartMenu()
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.SoWebPartMenu()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoWebPartMenu()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoWebPartMenu.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked(SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked(SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  id: OnMenuClicked(SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: OnMenuClicked(SoMenuEventArgs)
+  nameWithType: SoWebPartMenu.OnMenuClicked(SoMenuEventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked(SuperOffice.Web.UI.Controls.SoMenuEventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void OnMenuClicked(SoMenuEventArgs e)
+    parameters:
+    - id: e
+      type: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+    content.vb: Protected Overridable Sub OnMenuClicked(e As SoMenuEventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl
+  commentId: P:SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl
+  id: ImageUrl
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: ImageUrl
+  nameWithType: SoWebPartMenu.ImageUrl
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string ImageUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageUrl As String
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth
+  id: PanelWidth
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: PanelWidth
+  nameWithType: SoWebPartMenu.PanelWidth
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string PanelWidth { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PanelWidth As String
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight
+  commentId: P:SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight
+  id: PanelHeight
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: PanelHeight
+  nameWithType: SoWebPartMenu.PanelHeight
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public string PanelHeight { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PanelHeight As String
+  overload: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClicked
+  commentId: E:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClicked
+  id: MenuClicked
+  parent: SuperOffice.Web.UI.Controls.SoWebPartMenu
+  langs:
+  - csharp
+  - vb
+  name: MenuClicked
+  nameWithType: SoWebPartMenu.MenuClicked
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClicked
+  type: Event
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public event SoWebPartMenu.MenuClickEventHandler MenuClicked
+    return:
+      type: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+    content.vb: Public Event MenuClicked As SoWebPartMenu.MenuClickEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.#ctor
+  isExternal: true
+  name: SoWebPartMenu
+  nameWithType: SoWebPartMenu.SoWebPartMenu
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.SoWebPartMenu
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoWebPartMenu.Render
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked
+  isExternal: true
+  name: OnMenuClicked
+  nameWithType: SoWebPartMenu.OnMenuClicked
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.OnMenuClicked
+- uid: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+  commentId: T:SuperOffice.Web.UI.Controls.SoMenuEventArgs
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoMenuEventArgs
+  nameWithType: SoMenuEventArgs
+  fullName: SuperOffice.Web.UI.Controls.SoMenuEventArgs
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl
+  isExternal: true
+  name: ImageUrl
+  nameWithType: SoWebPartMenu.ImageUrl
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.ImageUrl
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth
+  isExternal: true
+  name: PanelWidth
+  nameWithType: SoWebPartMenu.PanelWidth
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelWidth
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight
+  isExternal: true
+  name: PanelHeight
+  nameWithType: SoWebPartMenu.PanelHeight
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.PanelHeight
+- uid: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  commentId: T:SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoWebPartMenu.MenuClickEventHandler
+  nameWithType: SoWebPartMenu.MenuClickEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoWebPartMenu.MenuClickEventHandler

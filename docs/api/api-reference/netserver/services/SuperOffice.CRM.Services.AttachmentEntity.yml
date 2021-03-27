@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AttachmentEntity
+  commentId: T:SuperOffice.CRM.Services.AttachmentEntity
+  id: AttachmentEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AttachmentEntity.#ctor
+  - SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
+  - SuperOffice.CRM.Services.AttachmentEntity.AttSize
+  - SuperOffice.CRM.Services.AttachmentEntity.ContentType
+  - SuperOffice.CRM.Services.AttachmentEntity.Name
+  - SuperOffice.CRM.Services.AttachmentEntity.ToString
+  - SuperOffice.CRM.Services.AttachmentEntity.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity
+  fullName: SuperOffice.CRM.Services.AttachmentEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Attachment carrier represent meta data for a Service attachment\n<p></p>\nCarrier object for AttachmentEntity.\nServices for the AttachmentEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITicketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet AttachmentEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new TicketAgent();\n    var attachmentEntity = agent.GetAttachmentEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class AttachmentEntity : Carrier'
+    content.vb: >-
+      Public Class AttachmentEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TicketAgent
+    commentId: T:SuperOffice.CRM.Services.TicketAgent
+  - linkId: SuperOffice.CRM.Services.ITicketAgent
+    commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AttachmentEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.AttachmentEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AttachmentEntity()
+  nameWithType: AttachmentEntity.AttachmentEntity()
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AttachmentEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public AttachmentEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AttachmentEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AttachmentEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.AttachmentEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: AttachmentEntity.ToString()
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.AttachmentEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.AttachmentEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.AttachmentEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: AttachmentEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.AttachmentEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
+  commentId: P:SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: AttachmentEntity.AttachmentId
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public virtual int AttachmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AttachmentId As Integer
+  overload: SuperOffice.CRM.Services.AttachmentEntity.AttachmentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AttachmentEntity.Name
+  commentId: P:SuperOffice.CRM.Services.AttachmentEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AttachmentEntity.Name
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe filename for the attachment. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.AttachmentEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AttachmentEntity.ContentType
+  commentId: P:SuperOffice.CRM.Services.AttachmentEntity.ContentType
+  id: ContentType
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: ContentType
+  nameWithType: AttachmentEntity.ContentType
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.ContentType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe content type for the attachment (e.g. &amp;apos;applaction/octet-stream&amp;apos; or &amp;apos;application/vnd.openxmlformats-officedocument.wordprocessingml.document&amp;apos;). \n"
+  syntax:
+    content: public virtual string ContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContentType As String
+  overload: SuperOffice.CRM.Services.AttachmentEntity.ContentType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.AttachmentEntity.AttSize
+  commentId: P:SuperOffice.CRM.Services.AttachmentEntity.AttSize
+  id: AttSize
+  parent: SuperOffice.CRM.Services.AttachmentEntity
+  langs:
+  - csharp
+  - vb
+  name: AttSize
+  nameWithType: AttachmentEntity.AttSize
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AttSize
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe size (in bytes) for the attachment. \n"
+  syntax:
+    content: public virtual int AttSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AttSize As Integer
+  overload: SuperOffice.CRM.Services.AttachmentEntity.AttSize*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.TicketAgent
+  commentId: T:SuperOffice.CRM.Services.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.CRM.Services.TicketAgent
+- uid: SuperOffice.CRM.Services.ITicketAgent
+  commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITicketAgent
+  nameWithType: ITicketAgent
+  fullName: SuperOffice.CRM.Services.ITicketAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AttachmentEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.#ctor
+  isExternal: true
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity.AttachmentEntity
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AttachmentEntity
+- uid: SuperOffice.CRM.Services.AttachmentEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: AttachmentEntity.ToString
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.AttachmentEntity.AttachmentId*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
+  isExternal: true
+  name: AttachmentId
+  nameWithType: AttachmentEntity.AttachmentId
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AttachmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.AttachmentEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: AttachmentEntity.Name
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.Name
+- uid: SuperOffice.CRM.Services.AttachmentEntity.ContentType*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.ContentType
+  isExternal: true
+  name: ContentType
+  nameWithType: AttachmentEntity.ContentType
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.ContentType
+- uid: SuperOffice.CRM.Services.AttachmentEntity.AttSize*
+  commentId: Overload:SuperOffice.CRM.Services.AttachmentEntity.AttSize
+  isExternal: true
+  name: AttSize
+  nameWithType: AttachmentEntity.AttSize
+  fullName: SuperOffice.CRM.Services.AttachmentEntity.AttSize

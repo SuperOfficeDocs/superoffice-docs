@@ -1,0 +1,636 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  id: Constants.ReporterOperatorTypes
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Bool
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarMonth
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarWeek
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Date
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.List
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Number
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.ReporterUnlimitedDate
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Selection
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.String
+  - SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Tree
+  langs:
+  - csharp
+  - vb
+  name: Constants.ReporterOperatorTypes
+  nameWithType: Constants.ReporterOperatorTypes
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static class ReporterOperatorTypes
+    content.vb: Public Module ReporterOperatorTypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Tree
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Tree
+  id: Tree
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: Tree
+  nameWithType: Constants.ReporterOperatorTypes.Tree
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Tree
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Tree = "tree"
+    return:
+      type: System.String
+    content.vb: Public Const Tree As String = "tree"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Bool
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Bool
+  id: Bool
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: Constants.ReporterOperatorTypes.Bool
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Bool
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Bool = "boolean"
+    return:
+      type: System.String
+    content.vb: Public Const Bool As String = "boolean"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Date
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Date
+  id: Date
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: Constants.ReporterOperatorTypes.Date
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Date
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Date = "date"
+    return:
+      type: System.String
+    content.vb: Public Const Date As String = "date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Number
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Number
+  id: Number
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: Constants.ReporterOperatorTypes.Number
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Number
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Number = "number"
+    return:
+      type: System.String
+    content.vb: Public Const Number As String = "number"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.List
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.List
+  id: List
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: List
+  nameWithType: Constants.ReporterOperatorTypes.List
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.List
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string List = "list"
+    return:
+      type: System.String
+    content.vb: Public Const List As String = "list"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Selection
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Selection
+  id: Selection
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: Selection
+  nameWithType: Constants.ReporterOperatorTypes.Selection
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.Selection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string Selection = "selection"
+    return:
+      type: System.String
+    content.vb: Public Const Selection As String = "selection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarWeek
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarWeek
+  id: CalendarWeek
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: CalendarWeek
+  nameWithType: Constants.ReporterOperatorTypes.CalendarWeek
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarWeek
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string CalendarWeek = "calendarw"
+    return:
+      type: System.String
+    content.vb: Public Const CalendarWeek As String = "calendarw"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarMonth
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarMonth
+  id: CalendarMonth
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: CalendarMonth
+  nameWithType: Constants.ReporterOperatorTypes.CalendarMonth
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.CalendarMonth
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string CalendarMonth = "calendarm"
+    return:
+      type: System.String
+    content.vb: Public Const CalendarMonth As String = "calendarm"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.String
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.String
+  id: String
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: Constants.ReporterOperatorTypes.String
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.String
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string String = "string"
+    return:
+      type: System.String
+    content.vb: Public Const String As String = "string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.ReporterUnlimitedDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.ReporterUnlimitedDate
+  id: ReporterUnlimitedDate
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes
+  langs:
+  - csharp
+  - vb
+  name: ReporterUnlimitedDate
+  nameWithType: Constants.ReporterOperatorTypes.ReporterUnlimitedDate
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ReporterOperatorTypes.ReporterUnlimitedDate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ReporterUnlimitedDate = "reporterUnlimitedDate"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterUnlimitedDate As String = "reporterUnlimitedDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

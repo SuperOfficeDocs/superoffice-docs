@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary
+  commentId: T:SuperOffice.CRM.Services.ErpSyncActorSummary
+  id: ErpSyncActorSummary
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.#ctor
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.ToString
+  - SuperOffice.CRM.Services.ErpSyncActorSummary.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorSummary
+  nameWithType: ErpSyncActorSummary
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSummary of the current setup of the ERP Integration, for one ERP actor\n<p></p>\nCarrier object for ErpSyncActorSummary.\nServices for the ErpSyncActorSummary Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ErpSyncActorSummary : Carrier'
+    content.vb: >-
+      Public Class ErpSyncActorSummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  - linkId: SuperOffice.CRM.Services.IErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.#ctor
+  commentId: M:SuperOffice.CRM.Services.ErpSyncActorSummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncActorSummary()
+  nameWithType: ErpSyncActorSummary.ErpSyncActorSummary()
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ErpSyncActorSummary()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ErpSyncActorSummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString
+  commentId: M:SuperOffice.CRM.Services.ErpSyncActorSummary.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ErpSyncActorSummary.ToString()
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncActorSummary.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ErpSyncActorSummary.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType
+  commentId: P:SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType
+  id: ActorType
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: ActorType
+  nameWithType: ErpSyncActorSummary.ActorType
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActor type \n"
+  syntax:
+    content: public virtual ErpActorType ActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ErpActorType
+    content.vb: Public Overridable Property ActorType As ErpActorType
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings
+  commentId: P:SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings
+  id: HasMappings
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: HasMappings
+  nameWithType: ErpSyncActorSummary.HasMappings
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes this actor type have field mappings \n"
+  syntax:
+    content: public virtual bool HasMappings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasMappings As Boolean
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults
+  commentId: P:SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults
+  id: Defaults
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: Defaults
+  nameWithType: ErpSyncActorSummary.Defaults
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA summary of fields that have defaults/rules for link creation \n"
+  syntax:
+    content: public virtual string Defaults { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Defaults As String
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings
+  commentId: P:SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings
+  id: Mappings
+  parent: SuperOffice.CRM.Services.ErpSyncActorSummary
+  langs:
+  - csharp
+  - vb
+  name: Mappings
+  nameWithType: ErpSyncActorSummary.Mappings
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA summary of fields that have mappings to or from the ERP system \n"
+  syntax:
+    content: public virtual string Mappings { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mappings As String
+  overload: SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent
+- uid: SuperOffice.CRM.Services.IErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IErpSyncAgent
+  nameWithType: IErpSyncAgent
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorSummary.#ctor
+  isExternal: true
+  name: ErpSyncActorSummary
+  nameWithType: ErpSyncActorSummary.ErpSyncActorSummary
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ErpSyncActorSummary
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorSummary.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ErpSyncActorSummary.ToString
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType
+  isExternal: true
+  name: ActorType
+  nameWithType: ErpSyncActorSummary.ActorType
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.ActorType
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings
+  isExternal: true
+  name: HasMappings
+  nameWithType: ErpSyncActorSummary.HasMappings
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.HasMappings
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults
+  isExternal: true
+  name: Defaults
+  nameWithType: ErpSyncActorSummary.Defaults
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.Defaults
+- uid: SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings
+  isExternal: true
+  name: Mappings
+  nameWithType: ErpSyncActorSummary.Mappings
+  fullName: SuperOffice.CRM.Services.ErpSyncActorSummary.Mappings

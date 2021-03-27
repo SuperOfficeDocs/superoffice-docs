@@ -1,0 +1,1721 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  id: FieldRight
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.FieldRight.#ctor
+  - SuperOffice.CRM.Security.FieldRight.#ctor(SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.#ctor(SuperOffice.Data.EFieldRight,System.String)
+  - SuperOffice.CRM.Security.FieldRight.And(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.CanDo(SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.CanDoAll(SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.CanUIRead
+  - SuperOffice.CRM.Security.FieldRight.CanUIUpdate
+  - SuperOffice.CRM.Security.FieldRight.Clone
+  - SuperOffice.CRM.Security.FieldRight.DemandAllRights(SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.DemandRight(SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.HasAll
+  - SuperOffice.CRM.Security.FieldRight.HasNone
+  - SuperOffice.CRM.Security.FieldRight.IgnoreReason
+  - SuperOffice.CRM.Security.FieldRight.IsActive
+  - SuperOffice.CRM.Security.FieldRight.IsMandatory
+  - SuperOffice.CRM.Security.FieldRight.IsUIMandatory
+  - SuperOffice.CRM.Security.FieldRight.IsVisible
+  - SuperOffice.CRM.Security.FieldRight.Mask
+  - SuperOffice.CRM.Security.FieldRight.op_BitwiseAnd(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  - SuperOffice.CRM.Security.FieldRight.op_BitwiseOr(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  - SuperOffice.CRM.Security.FieldRight.Or(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  - SuperOffice.CRM.Security.FieldRight.ToString
+  langs:
+  - csharp
+  - vb
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nWraps the field right together with an explanatory reason.\nAlso adds logical operators to the field rights so that they can be easily combined.\n"
+  remarks: "\nUsually obtained from the SuperOffice.CRM.Security.RightsFactory rather than created directly by the client.\n"
+  syntax:
+    content: 'public sealed class FieldRight : ItemRight, ICloneable'
+    content.vb: >-
+      Public NotInheritable Class FieldRight
+          Inherits ItemRight
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Security.GenericRight
+  - SuperOffice.CRM.Security.ItemRight
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.CRM.Security.GenericRight._reason
+  - SuperOffice.CRM.Security.GenericRight.Reason
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.FieldRight.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.FieldRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FieldRight)
+  - SuperOffice.CRM.Security.FieldRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.FieldRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Security.FieldRight.Clone
+  commentId: M:SuperOffice.CRM.Security.FieldRight.Clone
+  id: Clone
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: FieldRight.Clone()
+  fullName: SuperOffice.CRM.Security.FieldRight.Clone()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturn a new instance of the field right object.\n"
+  syntax:
+    content: public object Clone()
+    return:
+      type: System.Object
+      description: Copy of the field right
+    content.vb: Public Function Clone As Object
+  overload: SuperOffice.CRM.Security.FieldRight.Clone*
+  implements:
+  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.#ctor
+  commentId: M:SuperOffice.CRM.Security.FieldRight.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: FieldRight()
+  nameWithType: FieldRight.FieldRight()
+  fullName: SuperOffice.CRM.Security.FieldRight.FieldRight()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a blank field-right with no permissions.\n"
+  syntax:
+    content: public FieldRight()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Security.FieldRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.#ctor(SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.#ctor(SuperOffice.Data.EFieldRight)
+  id: '#ctor(SuperOffice.Data.EFieldRight)'
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: FieldRight(EFieldRight)
+  nameWithType: FieldRight.FieldRight(EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.FieldRight(SuperOffice.Data.EFieldRight)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a field right with the given permission.\n"
+  syntax:
+    content: public FieldRight(EFieldRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.EFieldRight
+      description: Bitflag of field permissions
+    content.vb: Public Sub New(right As EFieldRight)
+  overload: SuperOffice.CRM.Security.FieldRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.#ctor(SuperOffice.Data.EFieldRight,System.String)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.#ctor(SuperOffice.Data.EFieldRight,System.String)
+  id: '#ctor(SuperOffice.Data.EFieldRight,System.String)'
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: FieldRight(EFieldRight, String)
+  nameWithType: FieldRight.FieldRight(EFieldRight, String)
+  fullName: SuperOffice.CRM.Security.FieldRight.FieldRight(SuperOffice.Data.EFieldRight, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a field right with the given permission.\n"
+  syntax:
+    content: public FieldRight(EFieldRight right, string theReason)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.EFieldRight
+      description: Bitflag of field permissions
+    - id: theReason
+      type: System.String
+      description: Description of why permissions are restricted
+    content.vb: Public Sub New(right As EFieldRight, theReason As String)
+  overload: SuperOffice.CRM.Security.FieldRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.CanDo(SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.CanDo(SuperOffice.Data.EFieldRight)
+  id: CanDo(SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: CanDo(EFieldRight)
+  nameWithType: FieldRight.CanDo(EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.CanDo(SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturn true if the any of the specified permissions are active.\n"
+  syntax:
+    content: public bool CanDo(EFieldRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.EFieldRight
+      description: Bitflag of permissions
+    return:
+      type: System.Boolean
+      description: True if any of the bits in the parameter are set in this right.
+    content.vb: Public Function CanDo(right As EFieldRight) As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.CanDo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.CanDoAll(SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.CanDoAll(SuperOffice.Data.EFieldRight)
+  id: CanDoAll(SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: CanDoAll(EFieldRight)
+  nameWithType: FieldRight.CanDoAll(EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.CanDoAll(SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturn true if all of the specified permissions are active.\n"
+  syntax:
+    content: public bool CanDoAll(EFieldRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.EFieldRight
+      description: Bitflag of permissions
+    return:
+      type: System.Boolean
+      description: True if all of the bits in the parameter are set in this right
+    content.vb: Public Function CanDoAll(right As EFieldRight) As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.CanDoAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.DemandRight(SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.DemandRight(SuperOffice.Data.EFieldRight)
+  id: DemandRight(SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: DemandRight(EFieldRight)
+  nameWithType: FieldRight.DemandRight(EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.DemandRight(SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if none of the specified rights are set.\n"
+  syntax:
+    content: public void DemandRight(EFieldRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.EFieldRight
+      description: Bitflag
+    content.vb: Public Sub DemandRight(right As EFieldRight)
+  overload: SuperOffice.CRM.Security.FieldRight.DemandRight*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.DemandAllRights(SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.DemandAllRights(SuperOffice.Data.EFieldRight)
+  id: DemandAllRights(SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: DemandAllRights(EFieldRight)
+  nameWithType: FieldRight.DemandAllRights(EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.DemandAllRights(SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nTest the permissions and throw a <xref href=\"SuperOffice.Exceptions.SoSentryException\" data-throw-if-not-resolved=\"false\"></xref> if not all of the specified rights are set.\n"
+  syntax:
+    content: public void DemandAllRights(EFieldRight right)
+    parameters:
+    - id: right
+      type: SuperOffice.Data.EFieldRight
+      description: Bitflag of rights
+    content.vb: Public Sub DemandAllRights(right As EFieldRight)
+  overload: SuperOffice.CRM.Security.FieldRight.DemandAllRights*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FieldRight.op_BitwiseAnd(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.op_BitwiseAnd(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  id: op_BitwiseAnd(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: BitwiseAnd(FieldRight, FieldRight)
+  nameWithType: FieldRight.BitwiseAnd(FieldRight, FieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.BitwiseAnd(SuperOffice.CRM.Security.FieldRight, SuperOffice.CRM.Security.FieldRight)
+  type: Operator
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static FieldRight operator &(FieldRight f1, FieldRight f2)
+    parameters:
+    - id: f1
+      type: SuperOffice.CRM.Security.FieldRight
+    - id: f2
+      type: SuperOffice.CRM.Security.FieldRight
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Public Shared Operator And(f1 As FieldRight, f2 As FieldRight) As FieldRight
+  overload: SuperOffice.CRM.Security.FieldRight.op_BitwiseAnd*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.FieldRight.op_BitwiseOr(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.op_BitwiseOr(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  id: op_BitwiseOr(SuperOffice.CRM.Security.FieldRight,SuperOffice.CRM.Security.FieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: BitwiseOr(FieldRight, FieldRight)
+  nameWithType: FieldRight.BitwiseOr(FieldRight, FieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.BitwiseOr(SuperOffice.CRM.Security.FieldRight, SuperOffice.CRM.Security.FieldRight)
+  type: Operator
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public static FieldRight operator |(FieldRight f1, FieldRight f2)
+    parameters:
+    - id: f1
+      type: SuperOffice.CRM.Security.FieldRight
+    - id: f2
+      type: SuperOffice.CRM.Security.FieldRight
+    return:
+      type: SuperOffice.CRM.Security.FieldRight
+    content.vb: Public Shared Operator Or(f1 As FieldRight, f2 As FieldRight) As FieldRight
+  overload: SuperOffice.CRM.Security.FieldRight.op_BitwiseOr*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.FieldRight.ToString
+  commentId: M:SuperOffice.CRM.Security.FieldRight.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FieldRight.ToString()
+  fullName: SuperOffice.CRM.Security.FieldRight.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Security.FieldRight.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.FieldRight.And(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.And(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  id: And(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: And(EFieldRight, EFieldRight)
+  nameWithType: FieldRight.And(EFieldRight, EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.And(SuperOffice.Data.EFieldRight, SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCombine two field rights returning the intersection of the two rights.\n"
+  remarks: Read and Writhe rights are ANDed and UIHints are ORed
+  syntax:
+    content: public static EFieldRight And(EFieldRight r1, EFieldRight r2)
+    parameters:
+    - id: r1
+      type: SuperOffice.Data.EFieldRight
+      description: The first right.
+    - id: r2
+      type: SuperOffice.Data.EFieldRight
+      description: The second right.
+    return:
+      type: SuperOffice.Data.EFieldRight
+      description: The resulting right.
+    content.vb: Public Shared Function And(r1 As EFieldRight, r2 As EFieldRight) As EFieldRight
+  overload: SuperOffice.CRM.Security.FieldRight.And*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.FieldRight.Or(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  commentId: M:SuperOffice.CRM.Security.FieldRight.Or(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  id: Or(SuperOffice.Data.EFieldRight,SuperOffice.Data.EFieldRight)
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: Or(EFieldRight, EFieldRight)
+  nameWithType: FieldRight.Or(EFieldRight, EFieldRight)
+  fullName: SuperOffice.CRM.Security.FieldRight.Or(SuperOffice.Data.EFieldRight, SuperOffice.Data.EFieldRight)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCombine two field rights rturning the union of the two rights.\n"
+  remarks: Read and Writhe rights are ORed and UIHints are ANDed
+  syntax:
+    content: public static EFieldRight Or(EFieldRight r1, EFieldRight r2)
+    parameters:
+    - id: r1
+      type: SuperOffice.Data.EFieldRight
+      description: The first right.
+    - id: r2
+      type: SuperOffice.Data.EFieldRight
+      description: The second right.
+    return:
+      type: SuperOffice.Data.EFieldRight
+      description: The resulting right.
+    content.vb: Public Shared Function Or(r1 As EFieldRight, r2 As EFieldRight) As EFieldRight
+  overload: SuperOffice.CRM.Security.FieldRight.Or*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Security.FieldRight.Mask
+  commentId: P:SuperOffice.CRM.Security.FieldRight.Mask
+  id: Mask
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: FieldRight.Mask
+  fullName: SuperOffice.CRM.Security.FieldRight.Mask
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns the bitflag of permissions.\n"
+  syntax:
+    content: public EFieldRight Mask { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EFieldRight
+    content.vb: Public ReadOnly Property Mask As EFieldRight
+  overload: SuperOffice.CRM.Security.FieldRight.Mask*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.HasAll
+  commentId: P:SuperOffice.CRM.Security.FieldRight.HasAll
+  id: HasAll
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: HasAll
+  nameWithType: FieldRight.HasAll
+  fullName: SuperOffice.CRM.Security.FieldRight.HasAll
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when all of Read, Write permissions are available.\nRequired permissions are ignored. Equivalent to the <xref href=\"SuperOffice.CRM.Security.FieldRight.IsActive\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  syntax:
+    content: public override bool HasAll { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasAll As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.HasAll
+  overload: SuperOffice.CRM.Security.FieldRight.HasAll*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.IgnoreReason
+  commentId: P:SuperOffice.CRM.Security.FieldRight.IgnoreReason
+  id: IgnoreReason
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: IgnoreReason
+  nameWithType: FieldRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.FieldRight.IgnoreReason
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override bool IgnoreReason { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property IgnoreReason As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  overload: SuperOffice.CRM.Security.FieldRight.IgnoreReason*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.HasNone
+  commentId: P:SuperOffice.CRM.Security.FieldRight.HasNone
+  id: HasNone
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: HasNone
+  nameWithType: FieldRight.HasNone
+  fullName: SuperOffice.CRM.Security.FieldRight.HasNone
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when no permissions are available. No read, write or required permissions.\n"
+  syntax:
+    content: public override bool HasNone { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasNone As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.HasNone
+  overload: SuperOffice.CRM.Security.FieldRight.HasNone*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.IsActive
+  commentId: P:SuperOffice.CRM.Security.FieldRight.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: FieldRight.IsActive
+  fullName: SuperOffice.CRM.Security.FieldRight.IsActive
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when the field is editable. (Read+Write permissions). \nEquivalent to the <xref href=\"SuperOffice.CRM.Security.FieldRight.HasAll\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  syntax:
+    content: public override bool IsActive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsActive As Boolean
+  overridden: SuperOffice.CRM.Security.ItemRight.IsActive
+  overload: SuperOffice.CRM.Security.FieldRight.IsActive*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.IsMandatory
+  commentId: P:SuperOffice.CRM.Security.FieldRight.IsMandatory
+  id: IsMandatory
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: IsMandatory
+  nameWithType: FieldRight.IsMandatory
+  fullName: SuperOffice.CRM.Security.FieldRight.IsMandatory
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when the field must be filled out. \n"
+  syntax:
+    content: public bool IsMandatory { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMandatory As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.IsMandatory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.IsVisible
+  commentId: P:SuperOffice.CRM.Security.FieldRight.IsVisible
+  id: IsVisible
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: IsVisible
+  nameWithType: FieldRight.IsVisible
+  fullName: SuperOffice.CRM.Security.FieldRight.IsVisible
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when the field is readable. \n"
+  syntax:
+    content: public bool IsVisible { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsVisible As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.IsVisible*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.CanUIRead
+  commentId: P:SuperOffice.CRM.Security.FieldRight.CanUIRead
+  id: CanUIRead
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: CanUIRead
+  nameWithType: FieldRight.CanUIRead
+  fullName: SuperOffice.CRM.Security.FieldRight.CanUIRead
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCan this field be read in the user interface.\n"
+  syntax:
+    content: public bool CanUIRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CanUIRead As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.CanUIRead*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.CanUIUpdate
+  commentId: P:SuperOffice.CRM.Security.FieldRight.CanUIUpdate
+  id: CanUIUpdate
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: CanUIUpdate
+  nameWithType: FieldRight.CanUIUpdate
+  fullName: SuperOffice.CRM.Security.FieldRight.CanUIUpdate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCan this field be updated in the user interface.\n"
+  syntax:
+    content: public bool CanUIUpdate { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CanUIUpdate As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.CanUIUpdate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FieldRight.IsUIMandatory
+  commentId: P:SuperOffice.CRM.Security.FieldRight.IsUIMandatory
+  id: IsUIMandatory
+  parent: SuperOffice.CRM.Security.FieldRight
+  langs:
+  - csharp
+  - vb
+  name: IsUIMandatory
+  nameWithType: FieldRight.IsUIMandatory
+  fullName: SuperOffice.CRM.Security.FieldRight.IsUIMandatory
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nIs it mandatory to fill in htis field in the user interface.\n"
+  syntax:
+    content: public bool IsUIMandatory { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsUIMandatory As Boolean
+  overload: SuperOffice.CRM.Security.FieldRight.IsUIMandatory*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.GenericRight
+  commentId: T:SuperOffice.CRM.Security.GenericRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: GenericRight
+  nameWithType: GenericRight
+  fullName: SuperOffice.CRM.Security.GenericRight
+- uid: SuperOffice.CRM.Security.ItemRight
+  commentId: T:SuperOffice.CRM.Security.ItemRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ItemRight
+  nameWithType: ItemRight
+  fullName: SuperOffice.CRM.Security.ItemRight
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.CRM.Security.GenericRight._reason
+  commentId: F:SuperOffice.CRM.Security.GenericRight._reason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: _reason
+  nameWithType: GenericRight._reason
+  fullName: SuperOffice.CRM.Security.GenericRight._reason
+- uid: SuperOffice.CRM.Security.GenericRight.Reason
+  commentId: P:SuperOffice.CRM.Security.GenericRight.Reason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: Reason
+  nameWithType: GenericRight.Reason
+  fullName: SuperOffice.CRM.Security.GenericRight.Reason
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRight.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FieldRight, To>()
+  nameWithType: EnumUtil.MapEnums<FieldRight, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FieldRight, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FieldRight, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FieldRight, To)()
+  name.vb: MapEnums(Of FieldRight, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FieldRight, To>
+    nameWithType: EnumUtil.MapEnums<FieldRight, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FieldRight, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FieldRight, To)
+    nameWithType: EnumUtil.MapEnums(Of FieldRight, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FieldRight, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FieldRight)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FieldRight>(FieldRight)
+  nameWithType: ObjectExtensions.AssignByReflection<FieldRight>(FieldRight)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.FieldRight>(SuperOffice.CRM.Security.FieldRight)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FieldRight)(FieldRight)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.FieldRight)(SuperOffice.CRM.Security.FieldRight)
+  name.vb: AssignByReflection(Of FieldRight)(FieldRight)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FieldRight>
+    nameWithType: ObjectExtensions.AssignByReflection<FieldRight>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.FieldRight>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FieldRight)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FieldRight)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.FieldRight)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.FieldRight
+    name: FieldRight
+    nameWithType: FieldRight
+    fullName: SuperOffice.CRM.Security.FieldRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FieldRight>()
+  nameWithType: ObjectExtensions.GraphCopy<FieldRight>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.FieldRight>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FieldRight)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.FieldRight)()
+  name.vb: GraphCopy(Of FieldRight)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FieldRight>
+    nameWithType: ObjectExtensions.GraphCopy<FieldRight>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.FieldRight>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FieldRight)
+    nameWithType: ObjectExtensions.GraphCopy(Of FieldRight)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.FieldRight)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FieldRight, To>()
+  nameWithType: Converters.MapEnums<FieldRight, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FieldRight, To>()
+  nameWithType.vb: Converters.MapEnums(Of FieldRight, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FieldRight, To)()
+  name.vb: MapEnums(Of FieldRight, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FieldRight, To>
+    nameWithType: Converters.MapEnums<FieldRight, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FieldRight, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FieldRight, To)
+    nameWithType: Converters.MapEnums(Of FieldRight, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FieldRight, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.FieldRight.Clone*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: FieldRight.Clone
+  fullName: SuperOffice.CRM.Security.FieldRight.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRight.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.#ctor
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight.FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight.FieldRight
+- uid: SuperOffice.Data.EFieldRight
+  commentId: T:SuperOffice.Data.EFieldRight
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EFieldRight
+  nameWithType: EFieldRight
+  fullName: SuperOffice.Data.EFieldRight
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.FieldRight.CanDo*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.CanDo
+  isExternal: true
+  name: CanDo
+  nameWithType: FieldRight.CanDo
+  fullName: SuperOffice.CRM.Security.FieldRight.CanDo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.FieldRight.CanDoAll*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.CanDoAll
+  isExternal: true
+  name: CanDoAll
+  nameWithType: FieldRight.CanDoAll
+  fullName: SuperOffice.CRM.Security.FieldRight.CanDoAll
+- uid: SuperOffice.CRM.Security.FieldRight.DemandRight*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.DemandRight
+  isExternal: true
+  name: DemandRight
+  nameWithType: FieldRight.DemandRight
+  fullName: SuperOffice.CRM.Security.FieldRight.DemandRight
+- uid: SuperOffice.CRM.Security.FieldRight.DemandAllRights*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.DemandAllRights
+  isExternal: true
+  name: DemandAllRights
+  nameWithType: FieldRight.DemandAllRights
+  fullName: SuperOffice.CRM.Security.FieldRight.DemandAllRights
+- uid: SuperOffice.CRM.Security.FieldRight.op_BitwiseAnd*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.op_BitwiseAnd
+  isExternal: true
+  name: BitwiseAnd
+  nameWithType: FieldRight.BitwiseAnd
+  fullName: SuperOffice.CRM.Security.FieldRight.BitwiseAnd
+- uid: SuperOffice.CRM.Security.FieldRight
+  commentId: T:SuperOffice.CRM.Security.FieldRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: FieldRight
+  nameWithType: FieldRight
+  fullName: SuperOffice.CRM.Security.FieldRight
+- uid: SuperOffice.CRM.Security.FieldRight.op_BitwiseOr*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.op_BitwiseOr
+  isExternal: true
+  name: BitwiseOr
+  nameWithType: FieldRight.BitwiseOr
+  fullName: SuperOffice.CRM.Security.FieldRight.BitwiseOr
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FieldRight.ToString*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FieldRight.ToString
+  fullName: SuperOffice.CRM.Security.FieldRight.ToString
+- uid: SuperOffice.CRM.Security.FieldRight.And*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.And
+  isExternal: true
+  name: And
+  nameWithType: FieldRight.And
+  fullName: SuperOffice.CRM.Security.FieldRight.And
+- uid: SuperOffice.CRM.Security.FieldRight.Or*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.Or
+  isExternal: true
+  name: Or
+  nameWithType: FieldRight.Or
+  fullName: SuperOffice.CRM.Security.FieldRight.Or
+- uid: SuperOffice.CRM.Security.FieldRight.Mask*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.Mask
+  isExternal: true
+  name: Mask
+  nameWithType: FieldRight.Mask
+  fullName: SuperOffice.CRM.Security.FieldRight.Mask
+- uid: SuperOffice.CRM.Security.GenericRight.HasAll
+  commentId: P:SuperOffice.CRM.Security.GenericRight.HasAll
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: HasAll
+  nameWithType: GenericRight.HasAll
+  fullName: SuperOffice.CRM.Security.GenericRight.HasAll
+- uid: SuperOffice.CRM.Security.FieldRight.HasAll*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.HasAll
+  isExternal: true
+  name: HasAll
+  nameWithType: FieldRight.HasAll
+  fullName: SuperOffice.CRM.Security.FieldRight.HasAll
+- uid: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  commentId: P:SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: IgnoreReason
+  nameWithType: GenericRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+- uid: SuperOffice.CRM.Security.FieldRight.IgnoreReason*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.IgnoreReason
+  isExternal: true
+  name: IgnoreReason
+  nameWithType: FieldRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.FieldRight.IgnoreReason
+- uid: SuperOffice.CRM.Security.GenericRight.HasNone
+  commentId: P:SuperOffice.CRM.Security.GenericRight.HasNone
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: HasNone
+  nameWithType: GenericRight.HasNone
+  fullName: SuperOffice.CRM.Security.GenericRight.HasNone
+- uid: SuperOffice.CRM.Security.FieldRight.HasNone*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.HasNone
+  isExternal: true
+  name: HasNone
+  nameWithType: FieldRight.HasNone
+  fullName: SuperOffice.CRM.Security.FieldRight.HasNone
+- uid: SuperOffice.CRM.Security.ItemRight.IsActive
+  commentId: P:SuperOffice.CRM.Security.ItemRight.IsActive
+  parent: SuperOffice.CRM.Security.ItemRight
+  isExternal: true
+  name: IsActive
+  nameWithType: ItemRight.IsActive
+  fullName: SuperOffice.CRM.Security.ItemRight.IsActive
+- uid: SuperOffice.CRM.Security.FieldRight.IsActive*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: FieldRight.IsActive
+  fullName: SuperOffice.CRM.Security.FieldRight.IsActive
+- uid: SuperOffice.CRM.Security.FieldRight.IsMandatory*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.IsMandatory
+  isExternal: true
+  name: IsMandatory
+  nameWithType: FieldRight.IsMandatory
+  fullName: SuperOffice.CRM.Security.FieldRight.IsMandatory
+- uid: SuperOffice.CRM.Security.FieldRight.IsVisible*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.IsVisible
+  isExternal: true
+  name: IsVisible
+  nameWithType: FieldRight.IsVisible
+  fullName: SuperOffice.CRM.Security.FieldRight.IsVisible
+- uid: SuperOffice.CRM.Security.FieldRight.CanUIRead*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.CanUIRead
+  isExternal: true
+  name: CanUIRead
+  nameWithType: FieldRight.CanUIRead
+  fullName: SuperOffice.CRM.Security.FieldRight.CanUIRead
+- uid: SuperOffice.CRM.Security.FieldRight.CanUIUpdate*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.CanUIUpdate
+  isExternal: true
+  name: CanUIUpdate
+  nameWithType: FieldRight.CanUIUpdate
+  fullName: SuperOffice.CRM.Security.FieldRight.CanUIUpdate
+- uid: SuperOffice.CRM.Security.FieldRight.IsUIMandatory*
+  commentId: Overload:SuperOffice.CRM.Security.FieldRight.IsUIMandatory
+  isExternal: true
+  name: IsUIMandatory
+  nameWithType: FieldRight.IsUIMandatory
+  fullName: SuperOffice.CRM.Security.FieldRight.IsUIMandatory

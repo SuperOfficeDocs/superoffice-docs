@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  commentId: T:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  id: ForeignSystem_AddForeignKeyRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.#ctor
+  - SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName
+  - SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  - SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName
+  - SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_AddForeignKeyRequest
+  nameWithType: ForeignSystem_AddForeignKeyRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ForeignSystem_AddForeignKeyRequest : Object'
+    content.vb: >-
+      Public Class ForeignSystem_AddForeignKeyRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_AddForeignKeyRequest()
+  nameWithType: ForeignSystem_AddForeignKeyRequest.ForeignSystem_AddForeignKeyRequest()
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignSystem_AddForeignKeyRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignSystem_AddForeignKeyRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey
+  id: ForeignKey
+  parent: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignKey
+  nameWithType: ForeignSystem_AddForeignKeyRequest.ForeignKey
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignKey ForeignKey { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ForeignKey
+    content.vb: Public Property ForeignKey As ForeignKey
+  overload: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ForeignSystem_AddForeignKeyRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName
+  id: DeviceName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: DeviceName
+  nameWithType: ForeignSystem_AddForeignKeyRequest.DeviceName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DeviceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  id: DeviceIdentifier
+  parent: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest
+  langs:
+  - csharp
+  - vb
+  name: DeviceIdentifier
+  nameWithType: ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string DeviceIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceIdentifier As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.#ctor
+  isExternal: true
+  name: ForeignSystem_AddForeignKeyRequest
+  nameWithType: ForeignSystem_AddForeignKeyRequest.ForeignSystem_AddForeignKeyRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignSystem_AddForeignKeyRequest
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey
+  isExternal: true
+  name: ForeignKey
+  nameWithType: ForeignSystem_AddForeignKeyRequest.ForeignKey
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ForeignKey
+- uid: SuperOffice.WebApi.Data.ForeignKey
+  commentId: T:SuperOffice.WebApi.Data.ForeignKey
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ForeignKey
+  nameWithType: ForeignKey
+  fullName: SuperOffice.WebApi.Data.ForeignKey
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ForeignSystem_AddForeignKeyRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName
+  isExternal: true
+  name: DeviceName
+  nameWithType: ForeignSystem_AddForeignKeyRequest.DeviceName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceName
+- uid: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  isExternal: true
+  name: DeviceIdentifier
+  nameWithType: ForeignSystem_AddForeignKeyRequest.DeviceIdentifier
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_AddForeignKeyRequest.DeviceIdentifier

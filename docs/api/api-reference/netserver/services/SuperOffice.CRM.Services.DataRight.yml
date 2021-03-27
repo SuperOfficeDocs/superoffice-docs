@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DataRight
+  commentId: T:SuperOffice.CRM.Services.DataRight
+  id: DataRight
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DataRight.#ctor
+  - SuperOffice.CRM.Services.DataRight.Description
+  - SuperOffice.CRM.Services.DataRight.ToString
+  - SuperOffice.CRM.Services.DataRight.ToString(System.String)
+  - SuperOffice.CRM.Services.DataRight.Value
+  langs:
+  - csharp
+  - vb
+  name: DataRight
+  nameWithType: DataRight
+  fullName: SuperOffice.CRM.Services.DataRight
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for DataRight.\nServices for the DataRight Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class DataRight : Carrier'
+    content.vb: >-
+      Public Class DataRight
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.UserAgent
+    commentId: T:SuperOffice.CRM.Services.UserAgent
+  - linkId: SuperOffice.CRM.Services.IUserAgent
+    commentId: T:SuperOffice.CRM.Services.IUserAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DataRight.#ctor
+  commentId: M:SuperOffice.CRM.Services.DataRight.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DataRight
+  langs:
+  - csharp
+  - vb
+  name: DataRight()
+  nameWithType: DataRight.DataRight()
+  fullName: SuperOffice.CRM.Services.DataRight.DataRight()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DataRight()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DataRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DataRight.ToString
+  commentId: M:SuperOffice.CRM.Services.DataRight.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DataRight
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DataRight.ToString()
+  fullName: SuperOffice.CRM.Services.DataRight.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DataRight.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DataRight.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DataRight.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DataRight
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DataRight.ToString(String)
+  fullName: SuperOffice.CRM.Services.DataRight.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DataRight.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DataRight.Value
+  commentId: P:SuperOffice.CRM.Services.DataRight.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.DataRight
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DataRight.Value
+  fullName: SuperOffice.CRM.Services.DataRight.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.CRM.Services.DataRight.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DataRight.Description
+  commentId: P:SuperOffice.CRM.Services.DataRight.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.DataRight
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DataRight.Description
+  fullName: SuperOffice.CRM.Services.DataRight.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.DataRight.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.UserAgent
+  commentId: T:SuperOffice.CRM.Services.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.CRM.Services.UserAgent
+- uid: SuperOffice.CRM.Services.IUserAgent
+  commentId: T:SuperOffice.CRM.Services.IUserAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUserAgent
+  nameWithType: IUserAgent
+  fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DataRight.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DataRight.#ctor
+  isExternal: true
+  name: DataRight
+  nameWithType: DataRight.DataRight
+  fullName: SuperOffice.CRM.Services.DataRight.DataRight
+- uid: SuperOffice.CRM.Services.DataRight.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DataRight.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DataRight.ToString
+  fullName: SuperOffice.CRM.Services.DataRight.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DataRight.Value*
+  commentId: Overload:SuperOffice.CRM.Services.DataRight.Value
+  isExternal: true
+  name: Value
+  nameWithType: DataRight.Value
+  fullName: SuperOffice.CRM.Services.DataRight.Value
+- uid: SuperOffice.CRM.Services.DataRight.Description*
+  commentId: Overload:SuperOffice.CRM.Services.DataRight.Description
+  isExternal: true
+  name: Description
+  nameWithType: DataRight.Description
+  fullName: SuperOffice.CRM.Services.DataRight.Description

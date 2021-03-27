@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  id: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  - SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest()
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  id: SuggestedAppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  langs:
+  - csharp
+  - vb
+  name: SuggestedAppointmentId
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SuggestedAppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SuggestedAppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  id: SaleId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SaleId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  id: CreateNow
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  langs:
+  - csharp
+  - vb
+  name: CreateNow
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool CreateNow { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CreateNow As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  id: OwnerId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  langs:
+  - csharp
+  - vb
+  name: OwnerId
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int OwnerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OwnerId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.#ctor
+  isExternal: true
+  name: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  isExternal: true
+  name: SuggestedAppointmentId
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SuggestedAppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.SaleId
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  isExternal: true
+  name: CreateNow
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.CreateNow
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  isExternal: true
+  name: OwnerId
+  nameWithType: Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateDefaultAppointmentEntityFromSaleSuggestionRequest.OwnerId

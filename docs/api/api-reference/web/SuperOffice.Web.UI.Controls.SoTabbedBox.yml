@@ -1,0 +1,1065 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox
+  commentId: T:SuperOffice.Web.UI.Controls.SoTabbedBox
+  id: SoTabbedBox
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.#ctor
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.Height
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad(System.EventArgs)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked(SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean)
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.TabClicked
+  - SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SoTabbedBox
+  nameWithType: SoTabbedBox
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoTabbedBox : SoContentBox, INamingContainer'
+    content.vb: >-
+      Public Class SoTabbedBox
+          Inherits SoContentBox
+          Implements INamingContainer
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.UI.Controls.SoControl
+  - SuperOffice.Web.UI.Controls.SoContentBox
+  implements:
+  - System.Web.UI.INamingContainer
+  inheritedMembers:
+  - SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  - SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  - SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: SoTabbedBox()
+  nameWithType: SoTabbedBox.SoTabbedBox()
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.SoTabbedBox()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoTabbedBox()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad(System.EventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad(System.EventArgs)
+  id: OnLoad(System.EventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: OnLoad(EventArgs)
+  nameWithType: SoTabbedBox.OnLoad(EventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad(System.EventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void OnLoad(EventArgs e)
+    parameters:
+    - id: e
+      type: System.EventArgs
+    content.vb: Protected Overrides Sub OnLoad(e As EventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked(SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked(SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  id: OnTabClicked(SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: OnTabClicked(TabCommandEventArgs)
+  nameWithType: SoTabbedBox.OnTabClicked(TabCommandEventArgs)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked(SuperOffice.Web.UI.Controls.TabCommandEventArgs)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void OnTabClicked(TabCommandEventArgs e)
+    parameters:
+    - id: e
+      type: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+    content.vb: Protected Overridable Sub OnTabClicked(e As TabCommandEventArgs)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript
+  id: GetOnLoadClientScript
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: GetOnLoadClientScript()
+  nameWithType: SoTabbedBox.GetOnLoadClientScript()
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript()
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public virtual string GetOnLoadClientScript()
+    return:
+      type: System.String
+    content.vb: Public Overridable Function GetOnLoadClientScript As String
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: SoTabbedBox.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overridden: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender(System.Web.UI.HtmlTextWriter)
+  id: ClientScriptRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: ClientScriptRender(HtmlTextWriter)
+  nameWithType: SoTabbedBox.ClientScriptRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void ClientScriptRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub ClientScriptRender(writer As HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean,System.Boolean)
+  id: TabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean,System.Boolean)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: TabRender(HtmlTextWriter, SoTabItem, Boolean, Boolean)
+  nameWithType: SoTabbedBox.TabRender(HtmlTextWriter, SoTabItem, Boolean, Boolean)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender(System.Web.UI.HtmlTextWriter, SuperOffice.Web.UI.Controls.SoTabItem, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void TabRender(HtmlTextWriter writer, SoTabItem tab, bool isFirstTab, bool isLastTab)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    - id: tab
+      type: SuperOffice.Web.UI.Controls.SoTabItem
+    - id: isFirstTab
+      type: System.Boolean
+    - id: isLastTab
+      type: System.Boolean
+    content.vb: Protected Overridable Sub TabRender(writer As HtmlTextWriter, tab As SoTabItem, isFirstTab As Boolean, isLastTab As Boolean)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean)
+  id: SelectedTabRender(System.Web.UI.HtmlTextWriter,SuperOffice.Web.UI.Controls.SoTabItem,System.Boolean)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: SelectedTabRender(HtmlTextWriter, SoTabItem, Boolean)
+  nameWithType: SoTabbedBox.SelectedTabRender(HtmlTextWriter, SoTabItem, Boolean)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender(System.Web.UI.HtmlTextWriter, SuperOffice.Web.UI.Controls.SoTabItem, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected virtual void SelectedTabRender(HtmlTextWriter writer, SoTabItem tab, bool isLastTab)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    - id: tab
+      type: SuperOffice.Web.UI.Controls.SoTabItem
+    - id: isLastTab
+      type: System.Boolean
+    content.vb: Protected Overridable Sub SelectedTabRender(writer As HtmlTextWriter, tab As SoTabItem, isLastTab As Boolean)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  id: HeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: HeadingRender(HtmlTextWriter)
+  nameWithType: SoTabbedBox.HeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void HeadingRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub HeadingRender(writer As HtmlTextWriter)
+  overridden: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  id: ContentboxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: ContentboxRender(HtmlTextWriter)
+  nameWithType: SoTabbedBox.ContentboxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void ContentboxRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub ContentboxRender(writer As HtmlTextWriter)
+  overridden: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  id: PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: PostContentBoxRender(HtmlTextWriter)
+  nameWithType: SoTabbedBox.PostContentBoxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected override void PostContentBoxRender(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub PostContentBoxRender(writer As HtmlTextWriter)
+  overridden: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.Height
+  commentId: P:SuperOffice.Web.UI.Controls.SoTabbedBox.Height
+  id: Height
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: SoTabbedBox.Height
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.Height
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public Unit Height { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property Height As Unit
+  overload: SuperOffice.Web.UI.Controls.SoTabbedBox.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabClicked
+  commentId: E:SuperOffice.Web.UI.Controls.SoTabbedBox.TabClicked
+  id: TabClicked
+  parent: SuperOffice.Web.UI.Controls.SoTabbedBox
+  langs:
+  - csharp
+  - vb
+  name: TabClicked
+  nameWithType: SoTabbedBox.TabClicked
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabClicked
+  type: Event
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public event SoTabbedBox.TabCommandEventHandler TabClicked
+    return:
+      type: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+    content.vb: Public Event TabClicked As SoTabbedBox.TabCommandEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+- uid: SuperOffice.Web.UI.Controls.SoContentBox
+  commentId: T:SuperOffice.Web.UI.Controls.SoContentBox
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoContentBox
+  nameWithType: SoContentBox
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: PreContentBoxRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PreContentBoxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+    name: PreContentBoxRender
+    nameWithType: SoContentBox.PreContentBoxRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender(System.Web.UI.HtmlTextWriter)
+    name: PreContentBoxRender
+    nameWithType: SoContentBox.PreContentBoxRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreContentBoxRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: PreHeadingRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PreHeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+    name: PreHeadingRender
+    nameWithType: SoContentBox.PreHeadingRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender(System.Web.UI.HtmlTextWriter)
+    name: PreHeadingRender
+    nameWithType: SoContentBox.PreHeadingRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreHeadingRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: PostHeadingRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PostHeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+    name: PostHeadingRender
+    nameWithType: SoContentBox.PostHeadingRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender(System.Web.UI.HtmlTextWriter)
+    name: PostHeadingRender
+    nameWithType: SoContentBox.PostHeadingRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostHeadingRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: PreFooterRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PreFooterRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+    name: PreFooterRender
+    nameWithType: SoContentBox.PreFooterRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender(System.Web.UI.HtmlTextWriter)
+    name: PreFooterRender
+    nameWithType: SoContentBox.PreFooterRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PreFooterRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: FooterRender(HtmlTextWriter)
+  nameWithType: SoContentBox.FooterRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+    name: FooterRender
+    nameWithType: SoContentBox.FooterRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender(System.Web.UI.HtmlTextWriter)
+    name: FooterRender
+    nameWithType: SoContentBox.FooterRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.FooterRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: PostFooterRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PostFooterRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+    name: PostFooterRender
+    nameWithType: SoContentBox.PostFooterRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender(System.Web.UI.HtmlTextWriter)
+    name: PostFooterRender
+    nameWithType: SoContentBox.PostFooterRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostFooterRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  commentId: P:SuperOffice.Web.UI.Controls.SoContentBox.Heading
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: Heading
+  nameWithType: SoContentBox.Heading
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Heading
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  commentId: P:SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: HeadingWidth
+  nameWithType: SoContentBox.HeadingWidth
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingWidth
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  commentId: P:SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoContentBox.Tooltip
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Tooltip
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.#ctor
+  isExternal: true
+  name: SoTabbedBox
+  nameWithType: SoTabbedBox.SoTabbedBox
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.SoTabbedBox
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad
+  isExternal: true
+  name: OnLoad
+  nameWithType: SoTabbedBox.OnLoad
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.OnLoad
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked
+  isExternal: true
+  name: OnTabClicked
+  nameWithType: SoTabbedBox.OnTabClicked
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.OnTabClicked
+- uid: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+  commentId: T:SuperOffice.Web.UI.Controls.TabCommandEventArgs
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: TabCommandEventArgs
+  nameWithType: TabCommandEventArgs
+  fullName: SuperOffice.Web.UI.Controls.TabCommandEventArgs
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript
+  isExternal: true
+  name: GetOnLoadClientScript
+  nameWithType: SoTabbedBox.GetOnLoadClientScript
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.GetOnLoadClientScript
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: SoContentBox.Render(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: SoContentBox.Render
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: SoContentBox.Render
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.Render*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.Render
+  isExternal: true
+  name: Render
+  nameWithType: SoTabbedBox.Render
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender
+  isExternal: true
+  name: ClientScriptRender
+  nameWithType: SoTabbedBox.ClientScriptRender
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.ClientScriptRender
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender
+  isExternal: true
+  name: TabRender
+  nameWithType: SoTabbedBox.TabRender
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabRender
+- uid: SuperOffice.Web.UI.Controls.SoTabItem
+  commentId: T:SuperOffice.Web.UI.Controls.SoTabItem
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoTabItem
+  nameWithType: SoTabItem
+  fullName: SuperOffice.Web.UI.Controls.SoTabItem
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender
+  isExternal: true
+  name: SelectedTabRender
+  nameWithType: SoTabbedBox.SelectedTabRender
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.SelectedTabRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: HeadingRender(HtmlTextWriter)
+  nameWithType: SoContentBox.HeadingRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+    name: HeadingRender
+    nameWithType: SoContentBox.HeadingRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender(System.Web.UI.HtmlTextWriter)
+    name: HeadingRender
+    nameWithType: SoContentBox.HeadingRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.HeadingRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender
+  isExternal: true
+  name: HeadingRender
+  nameWithType: SoTabbedBox.HeadingRender
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.HeadingRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: ContentboxRender(HtmlTextWriter)
+  nameWithType: SoContentBox.ContentboxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+    name: ContentboxRender
+    nameWithType: SoContentBox.ContentboxRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender(System.Web.UI.HtmlTextWriter)
+    name: ContentboxRender
+    nameWithType: SoContentBox.ContentboxRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.ContentboxRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender
+  isExternal: true
+  name: ContentboxRender
+  nameWithType: SoTabbedBox.ContentboxRender
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.ContentboxRender
+- uid: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.Web.UI.Controls.SoContentBox
+  isExternal: true
+  name: PostContentBoxRender(HtmlTextWriter)
+  nameWithType: SoContentBox.PostContentBoxRender(HtmlTextWriter)
+  fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+    name: PostContentBoxRender
+    nameWithType: SoContentBox.PostContentBoxRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender(System.Web.UI.HtmlTextWriter)
+    name: PostContentBoxRender
+    nameWithType: SoContentBox.PostContentBoxRender
+    fullName: SuperOffice.Web.UI.Controls.SoContentBox.PostContentBoxRender
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender
+  isExternal: true
+  name: PostContentBoxRender
+  nameWithType: SoTabbedBox.PostContentBoxRender
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.PostContentBoxRender
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.Height*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoTabbedBox.Height
+  isExternal: true
+  name: Height
+  nameWithType: SoTabbedBox.Height
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.Height
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit
+- uid: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  commentId: T:SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoTabbedBox.TabCommandEventHandler
+  nameWithType: SoTabbedBox.TabCommandEventHandler
+  fullName: SuperOffice.Web.UI.Controls.SoTabbedBox.TabCommandEventHandler

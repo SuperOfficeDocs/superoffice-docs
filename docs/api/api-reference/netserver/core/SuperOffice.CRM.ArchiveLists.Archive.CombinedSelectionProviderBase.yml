@@ -1,0 +1,2510 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  id: CombinedSelectionProviderBase
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  children:
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.#ctor(System.Boolean,System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  langs:
+  - csharp
+  - vb
+  name: CombinedSelectionProviderBase
+  nameWithType: CombinedSelectionProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nImplements the base functionality for selections of type Combined\n"
+  syntax:
+    content: 'public abstract class CombinedSelectionProviderBase : IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin'
+    content.vb: >-
+      Public MustInherit Class CombinedSelectionProviderBase
+          Implements IArchiveProvider, IArchiveProviderHasRows, IArchiveProviderHasColumns, IArchiveProviderHasEntities, IPlugin
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.AppointmentSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.AppointmentShadowSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.AppointmentShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ContactPersonSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentShadowSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.DocumentShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.ProjectSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.ProjectShadowSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.ProjectShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.QuoteLineSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.QuoteLineSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.QuoteLineShadowSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.QuoteLineShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.SaleShadowSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.SaleShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.SelectionSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketShadowSelectionCombinedProvider
+  - SuperOffice.CRM.ArchiveLists.Archive.TicketShadowSelectionCombinedProviderV2
+  - SuperOffice.CRM.ArchiveLists.SelectionCombinedProvider
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  id: ColSelectionId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColSelectionId
+  nameWithType: CombinedSelectionProviderBase.ColSelectionId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColSelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColSelectionId = "selectionId"
+    return:
+      type: System.String
+    content.vb: Public Const ColSelectionId As String = "selectionId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  id: ColLeftId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColLeftId
+  nameWithType: CombinedSelectionProviderBase.ColLeftId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColLeftId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColLeftId = "leftId"
+    return:
+      type: System.String
+    content.vb: Public Const ColLeftId As String = "leftId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  id: ColRightId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColRightId
+  nameWithType: CombinedSelectionProviderBase.ColRightId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColRightId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColRightId = "rightId"
+    return:
+      type: System.String
+    content.vb: Public Const ColRightId As String = "rightId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  id: ColTargetTableNumber
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColTargetTableNumber
+  nameWithType: CombinedSelectionProviderBase.ColTargetTableNumber
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColTargetTableNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColTargetTableNumber = "targetTableNumber"
+    return:
+      type: System.String
+    content.vb: Public Const ColTargetTableNumber As String = "targetTableNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  id: ColCombineType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColCombineType
+  nameWithType: CombinedSelectionProviderBase.ColCombineType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCombineType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColCombineType = "combineType"
+    return:
+      type: System.String
+    content.vb: Public Const ColCombineType As String = "combineType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  id: ColCompanyUnique
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColCompanyUnique
+  nameWithType: CombinedSelectionProviderBase.ColCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColCompanyUnique
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColCompanyUnique = "companyUnique"
+    return:
+      type: System.String
+    content.vb: Public Const ColCompanyUnique As String = "companyUnique"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  id: ColIsShadow
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: ColIsShadow
+  nameWithType: CombinedSelectionProviderBase.ColIsShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.ColIsShadow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  syntax:
+    content: public const string ColIsShadow = "isShadow"
+    return:
+      type: System.String
+    content.vb: Public Const ColIsShadow As String = "isShadow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  id: _leftProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _leftProvider
+  nameWithType: CombinedSelectionProviderBase._leftProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftProvider
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSub-provider on the left hand side of the combine operation\n"
+  syntax:
+    content: protected IArchiveProvider _leftProvider
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Protected _leftProvider As IArchiveProvider
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  id: _rightProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _rightProvider
+  nameWithType: CombinedSelectionProviderBase._rightProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightProvider
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSub-provider on the right-hand side of the combination operation\n"
+  syntax:
+    content: protected IArchiveProvider _rightProvider
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Protected _rightProvider As IArchiveProvider
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  id: _isShadow
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _isShadow
+  nameWithType: CombinedSelectionProviderBase._isShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isShadow
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nTrue/False depending on wether or not we&apos;re to use shadow sub-providers or not.\n"
+  syntax:
+    content: protected bool _isShadow
+    return:
+      type: System.Boolean
+    content.vb: Protected _isShadow As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  id: _isCompanyUnique
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _isCompanyUnique
+  nameWithType: CombinedSelectionProviderBase._isCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._isCompanyUnique
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nTrue/False depending on wether or not the companyUnique flag is set\n"
+  syntax:
+    content: protected bool _isCompanyUnique
+    return:
+      type: System.Boolean
+    content.vb: Protected _isCompanyUnique As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  id: _leftId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _leftId
+  nameWithType: CombinedSelectionProviderBase._leftId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._leftId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nIdentifier of the left sub-provider\n"
+  syntax:
+    content: protected int _leftId
+    return:
+      type: System.Int32
+    content.vb: Protected _leftId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  id: _rightId
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _rightId
+  nameWithType: CombinedSelectionProviderBase._rightId
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._rightId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nIdentifier of the right sub-provider\n"
+  syntax:
+    content: protected int _rightId
+    return:
+      type: System.Int32
+    content.vb: Protected _rightId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  id: _entityType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _entityType
+  nameWithType: CombinedSelectionProviderBase._entityType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._entityType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nType of entity\n"
+  syntax:
+    content: protected string _entityType
+    return:
+      type: System.String
+    content.vb: Protected _entityType As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  id: _combineType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: _combineType
+  nameWithType: CombinedSelectionProviderBase._combineType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase._combineType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nType of combination operation\n"
+  syntax:
+    content: protected int _combineType
+    return:
+      type: System.Int32
+    content.vb: Protected _combineType As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.#ctor(System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.#ctor(System.Boolean,System.String)
+  id: '#ctor(System.Boolean,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: CombinedSelectionProviderBase(Boolean, String)
+  nameWithType: CombinedSelectionProviderBase.CombinedSelectionProviderBase(Boolean, String)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.CombinedSelectionProviderBase(System.Boolean, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nConstructor for the combined selection provider\n"
+  syntax:
+    content: public CombinedSelectionProviderBase(bool isShadow, string providerName)
+    parameters:
+    - id: isShadow
+      type: System.Boolean
+      description: True/false to override if we should use the shadow sub-providers or not.
+    - id: providerName
+      type: System.String
+    content.vb: Public Sub New(isShadow As Boolean, providerName As String)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  id: GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetReader(String)
+  nameWithType: CombinedSelectionProviderBase.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nStart the provider, returning an IDataReader compatible object to the client for row enumeration and data access\n"
+  syntax:
+    content: public virtual IDataReader GetReader(string options)
+    parameters:
+    - id: options
+      type: System.String
+      description: Options, passed to the internal GetRows method
+    return:
+      type: System.Data.IDataReader
+      description: IDataReader primed to provide results
+    content.vb: Public Overridable Function GetReader(options As String) As IDataReader
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  id: GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetRows(String)
+  nameWithType: CombinedSelectionProviderBase.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nReturns the enumeration of archiverows from the provider.\n"
+  syntax:
+    content: public IEnumerable<ArchiveRow> GetRows(string options)
+    parameters:
+    - id: options
+      type: System.String
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+    content.vb: Public Function GetRows(options As String) As IEnumerable(Of ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  id: GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetResultInformation()
+  nameWithType: CombinedSelectionProviderBase.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nDelegate the call to the combinator\n"
+  syntax:
+    content: public ArchiveResultInformation GetResultInformation()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+    content.vb: Public Function GetResultInformation As ArchiveResultInformation
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  id: Close
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: Close()
+  nameWithType: CombinedSelectionProviderBase.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nCloses the provider and the sub-providers\n"
+  syntax:
+    content: public void Close()
+    content.vb: Public Sub Close
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32,System.Int32)
+  id: SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: CombinedSelectionProviderBase.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSet paging information. \n"
+  syntax:
+    content: public void SetPagingInfo(int pageSize, int pageNumber)
+    parameters:
+    - id: pageSize
+      type: System.Int32
+    - id: pageNumber
+      type: System.Int32
+    content.vb: Public Sub SetPagingInfo(pageSize As Integer, pageNumber As Integer)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  id: GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableColumns()
+  nameWithType: CombinedSelectionProviderBase.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nReturns a list of the available columns.  \n"
+  syntax:
+    content: public List<ArchiveColumnInfo> GetAvailableColumns()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public Function GetAvailableColumns As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  id: SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredColumns(String[])
+  nameWithType: CombinedSelectionProviderBase.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSets the desired columns\n"
+  syntax:
+    content: public void SetDesiredColumns(params string[] columnIds)
+    parameters:
+    - id: columnIds
+      type: System.String[]
+      description: array of columns to set
+    content.vb: Public Sub SetDesiredColumns(ParamArray columnIds As String())
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  id: SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: CombinedSelectionProviderBase.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSet sort order in sub-providers and in the combinator.\n"
+  syntax:
+    content: public void SetOrderBy(params ArchiveOrderByInfo[] orderBy)
+    parameters:
+    - id: orderBy
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+    content.vb: Public Sub SetOrderBy(ParamArray orderBy As ArchiveOrderByInfo())
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetOrderBy(ArchiveOrderByInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  id: SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: CombinedSelectionProviderBase.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSets the restrictions for the provider.\n"
+  syntax:
+    content: public bool SetRestriction(params ArchiveRestrictionInfo[] restrictions)
+    parameters:
+    - id: restrictions
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    return:
+      type: System.Boolean
+    content.vb: Public Function SetRestriction(ParamArray restrictions As ArchiveRestrictionInfo()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetRestriction(ArchiveRestrictionInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  id: GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableEntities()
+  nameWithType: CombinedSelectionProviderBase.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nReturns the available entities (in the left sub-provider)\n"
+  syntax:
+    content: public virtual List<ArchiveRowTypeInfo> GetAvailableEntities()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+    content.vb: Public Overridable Function GetAvailableEntities As List(Of ArchiveRowTypeInfo)
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  id: SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredEntities(String[])
+  nameWithType: CombinedSelectionProviderBase.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nSets the desired entities in the left/right sub-provider\n"
+  syntax:
+    content: public virtual void SetDesiredEntities(params string[] entities)
+    parameters:
+    - id: entities
+      type: System.String[]
+    content.vb: Public Overridable Sub SetDesiredEntities(ParamArray entities As String())
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  nameWithType.vb: CombinedSelectionProviderBase.SetDesiredEntities(String())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  id: IsShadow
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: IsShadow
+  nameWithType: CombinedSelectionProviderBase.IsShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nreturns true if the provider is a shadow provider\n"
+  syntax:
+    content: public bool IsShadow { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsShadow As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  id: IsCompanyUnique
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: IsCompanyUnique
+  nameWithType: CombinedSelectionProviderBase.IsCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nreturns true if the companyUnique flag is set on the combined selection\n"
+  syntax:
+    content: public bool IsCompanyUnique { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsCompanyUnique As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: CombinedSelectionProviderBase.EntityType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nreturns the entitytype for this provider\n"
+  syntax:
+    content: public string EntityType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EntityType As String
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  id: Combinator
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: Combinator
+  nameWithType: CombinedSelectionProviderBase.Combinator
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nReturns the Combinator for this selection\n"
+  syntax:
+    content: protected Combinator Combinator { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+    content.vb: Protected ReadOnly Property Combinator As Combinator
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  id: LeftProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: LeftProvider
+  nameWithType: CombinedSelectionProviderBase.LeftProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nReturns the left archive provider\n"
+  syntax:
+    content: protected IArchiveProvider LeftProvider { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Protected ReadOnly Property LeftProvider As IArchiveProvider
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  commentId: P:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  id: RightProvider
+  parent: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase
+  langs:
+  - csharp
+  - vb
+  name: RightProvider
+  nameWithType: CombinedSelectionProviderBase.RightProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Archive
+  summary: "\nReturns the right provider\n"
+  syntax:
+    content: protected IArchiveProvider RightProvider { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+    content.vb: Protected ReadOnly Property RightProvider As IArchiveProvider
+  overload: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Archive
+  commentId: N:SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists.Archive
+  nameWithType: SuperOffice.CRM.ArchiveLists.Archive
+  fullName: SuperOffice.CRM.ArchiveLists.Archive
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProvider
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProvider
+  nameWithType: IArchiveProvider
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProvider
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasRows
+  nameWithType: IArchiveProviderHasRows
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasEntities
+  nameWithType: IArchiveProviderHasEntities
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CombinedSelectionProviderBase, To>()
+  nameWithType: EnumUtil.MapEnums<CombinedSelectionProviderBase, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CombinedSelectionProviderBase, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To)()
+  name.vb: MapEnums(Of CombinedSelectionProviderBase, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CombinedSelectionProviderBase, To>
+    nameWithType: EnumUtil.MapEnums<CombinedSelectionProviderBase, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CombinedSelectionProviderBase, To)
+    nameWithType: EnumUtil.MapEnums(Of CombinedSelectionProviderBase, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CombinedSelectionProviderBase, To>()
+  nameWithType: Converters.MapEnums<CombinedSelectionProviderBase, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To>()
+  nameWithType.vb: Converters.MapEnums(Of CombinedSelectionProviderBase, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To)()
+  name.vb: MapEnums(Of CombinedSelectionProviderBase, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CombinedSelectionProviderBase, To>
+    nameWithType: Converters.MapEnums<CombinedSelectionProviderBase, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CombinedSelectionProviderBase, To)
+    nameWithType: Converters.MapEnums(Of CombinedSelectionProviderBase, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.#ctor
+  isExternal: true
+  name: CombinedSelectionProviderBase
+  nameWithType: CombinedSelectionProviderBase.CombinedSelectionProviderBase
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.CombinedSelectionProviderBase
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader
+  isExternal: true
+  name: GetReader
+  nameWithType: CombinedSelectionProviderBase.GetReader
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetReader
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: GetReader(String)
+  nameWithType: IArchiveProviderHasRows.GetReader(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+    name: GetReader
+    nameWithType: IArchiveProviderHasRows.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader(System.String)
+    name: GetReader
+    nameWithType: IArchiveProviderHasRows.GetReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Data.IDataReader
+  isExternal: true
+  name: IDataReader
+  nameWithType: IDataReader
+  fullName: System.Data.IDataReader
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows
+  isExternal: true
+  name: GetRows
+  nameWithType: CombinedSelectionProviderBase.GetRows
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetRows
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: GetRows(String)
+  nameWithType: IArchiveProviderHasRows.GetRows(String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+    name: GetRows
+    nameWithType: IArchiveProviderHasRows.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows(System.String)
+    name: GetRows
+    nameWithType: IArchiveProviderHasRows.GetRows
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetRows
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.ArchiveLists.ArchiveRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ArchiveRow>
+  nameWithType: IEnumerable<ArchiveRow>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.ArchiveLists.ArchiveRow>
+  nameWithType.vb: IEnumerable(Of ArchiveRow)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  name.vb: IEnumerable(Of ArchiveRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+  isExternal: true
+  name: GetResultInformation
+  nameWithType: CombinedSelectionProviderBase.GetResultInformation
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetResultInformation
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: GetResultInformation()
+  nameWithType: IArchiveProviderHasRows.GetResultInformation()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    name: GetResultInformation
+    nameWithType: IArchiveProviderHasRows.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    name: GetResultInformation
+    nameWithType: IArchiveProviderHasRows.GetResultInformation
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.GetResultInformation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveResultInformation
+  nameWithType: ArchiveResultInformation
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveResultInformation
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+  isExternal: true
+  name: Close
+  nameWithType: CombinedSelectionProviderBase.Close
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Close
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: Close()
+  nameWithType: IArchiveProviderHasRows.Close()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    name: Close
+    nameWithType: IArchiveProviderHasRows.Close
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    name: Close
+    nameWithType: IArchiveProviderHasRows.Close
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo
+  isExternal: true
+  name: SetPagingInfo
+  nameWithType: CombinedSelectionProviderBase.SetPagingInfo
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetPagingInfo
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows
+  isExternal: true
+  name: SetPagingInfo(Int32, Int32)
+  nameWithType: IArchiveProviderHasRows.SetPagingInfo(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: IArchiveProviderHasRows.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo(System.Int32,System.Int32)
+    name: SetPagingInfo
+    nameWithType: IArchiveProviderHasRows.SetPagingInfo
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasRows.SetPagingInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+  isExternal: true
+  name: GetAvailableColumns
+  nameWithType: CombinedSelectionProviderBase.GetAvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: IArchiveProviderHasColumns.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveColumnInfo>
+  nameWithType: List<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: List(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: List(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns
+  isExternal: true
+  name: SetDesiredColumns
+  nameWithType: CombinedSelectionProviderBase.SetDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: IArchiveProviderHasColumns.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy
+  isExternal: true
+  name: SetOrderBy
+  nameWithType: CombinedSelectionProviderBase.SetOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction
+  isExternal: true
+  name: SetRestriction
+  nameWithType: CombinedSelectionProviderBase.SetRestriction
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetRestriction
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities
+  nameWithType: CombinedSelectionProviderBase.GetAvailableEntities
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.GetAvailableEntities
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  isExternal: true
+  name: GetAvailableEntities()
+  nameWithType: IArchiveProviderHasEntities.GetAvailableEntities()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: IArchiveProviderHasEntities.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    name: GetAvailableEntities
+    nameWithType: IArchiveProviderHasEntities.GetAvailableEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.GetAvailableEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveRowTypeInfo>
+  nameWithType: List<ArchiveRowTypeInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo>
+  nameWithType.vb: List(Of ArchiveRowTypeInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo)
+  name.vb: List(Of ArchiveRowTypeInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    name: ArchiveRowTypeInfo
+    nameWithType: ArchiveRowTypeInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRowTypeInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities
+  isExternal: true
+  name: SetDesiredEntities
+  nameWithType: CombinedSelectionProviderBase.SetDesiredEntities
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.SetDesiredEntities
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
+  isExternal: true
+  name: SetDesiredEntities(String[])
+  nameWithType: IArchiveProviderHasEntities.SetDesiredEntities(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+  nameWithType.vb: IArchiveProviderHasEntities.SetDesiredEntities(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String())
+  name.vb: SetDesiredEntities(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: IArchiveProviderHasEntities.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities(System.String[])
+    name: SetDesiredEntities
+    nameWithType: IArchiveProviderHasEntities.SetDesiredEntities
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities.SetDesiredEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+  isExternal: true
+  name: IsShadow
+  nameWithType: CombinedSelectionProviderBase.IsShadow
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsShadow
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+  isExternal: true
+  name: IsCompanyUnique
+  nameWithType: CombinedSelectionProviderBase.IsCompanyUnique
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.IsCompanyUnique
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+  isExternal: true
+  name: EntityType
+  nameWithType: CombinedSelectionProviderBase.EntityType
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.EntityType
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+  isExternal: true
+  name: Combinator
+  nameWithType: CombinedSelectionProviderBase.Combinator
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.Combinator
+- uid: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+  commentId: T:SuperOffice.CRM.ArchiveLists.Archive.Combinator
+  parent: SuperOffice.CRM.ArchiveLists.Archive
+  isExternal: true
+  name: Combinator
+  nameWithType: Combinator
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.Combinator
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+  isExternal: true
+  name: LeftProvider
+  nameWithType: CombinedSelectionProviderBase.LeftProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.LeftProvider
+- uid: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider
+  isExternal: true
+  name: RightProvider
+  nameWithType: CombinedSelectionProviderBase.RightProvider
+  fullName: SuperOffice.CRM.ArchiveLists.Archive.CombinedSelectionProviderBase.RightProvider

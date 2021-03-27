@@ -1,0 +1,1315 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.System
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.System
+  id: UserPreferenceStrings.System
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.System.AllowCentralLogin
+  - SuperOffice.CRM.UserPreferenceStrings.System.AllowForcedLogin
+  - SuperOffice.CRM.UserPreferenceStrings.System.BaseCurrencyId
+  - SuperOffice.CRM.UserPreferenceStrings.System.CRMBaseURL
+  - SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  - SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  - SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  - SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionperson
+  - SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionproject
+  - SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionsale
+  - SuperOffice.CRM.UserPreferenceStrings.System.DefaultDocPlugin
+  - SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  - SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.System.EnableCurrency
+  - SuperOffice.CRM.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  - SuperOffice.CRM.UserPreferenceStrings.System.FulltextIndexing
+  - SuperOffice.CRM.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  - SuperOffice.CRM.UserPreferenceStrings.System.LastFetchedTimezones
+  - SuperOffice.CRM.UserPreferenceStrings.System.NoDbUsers
+  - SuperOffice.CRM.UserPreferenceStrings.System.NotesIniPath
+  - SuperOffice.CRM.UserPreferenceStrings.System.NotesSODbName
+  - SuperOffice.CRM.UserPreferenceStrings.System.OurCurrencyId
+  - SuperOffice.CRM.UserPreferenceStrings.System.OwnCountry
+  - SuperOffice.CRM.UserPreferenceStrings.System.PasswordPolicy
+  - SuperOffice.CRM.UserPreferenceStrings.System.PreferDocLanguage
+  - SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesDocServer
+  - SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesMailServer
+  - SuperOffice.CRM.UserPreferenceStrings.System.ReplicateSelection
+  - SuperOffice.CRM.UserPreferenceStrings.System.Section
+  - SuperOffice.CRM.UserPreferenceStrings.System.SoftDeleteRetention
+  - SuperOffice.CRM.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  - SuperOffice.CRM.UserPreferenceStrings.System.WebAppUsage
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.System
+  nameWithType: UserPreferenceStrings.System
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSystem\n"
+  syntax:
+    content: public static class System
+    content.vb: Public Module System
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.System.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "System"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "System"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.FulltextIndexing
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.FulltextIndexing
+  id: FulltextIndexing
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: FulltextIndexing
+  nameWithType: UserPreferenceStrings.System.FulltextIndexing
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.FulltextIndexing
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSaint period length, add 1, 2 or 3 for the period number to get the complete key\n"
+  remarks: "\nOBSOLETE as of dictionary step SuperOffice/20\n"
+  syntax:
+    content: public const string FulltextIndexing = "FulltextIndexing"
+    return:
+      type: System.String
+    content.vb: Public Const FulltextIndexing As String = "FulltextIndexing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  id: IgnoreADUsernameAuthentication
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: IgnoreADUsernameAuthentication
+  nameWithType: UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.IgnoreADUsernameAuthentication
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIgnore Username and Password authentication with Active Directory \n"
+  syntax:
+    content: public const string IgnoreADUsernameAuthentication = "IgnoreADUsernameAuthentication"
+    return:
+      type: System.String
+    content.vb: Public Const IgnoreADUsernameAuthentication As String = "IgnoreADUsernameAuthentication"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.AllowCentralLogin
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.AllowCentralLogin
+  id: AllowCentralLogin
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: AllowCentralLogin
+  nameWithType: UserPreferenceStrings.System.AllowCentralLogin
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.AllowCentralLogin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTravel users allowed to log into the central database (Default = No)\n<p></p>Control type: List, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AllowCentralLogin = "AllowCentralLogin"
+    return:
+      type: System.String
+    content.vb: Public Const AllowCentralLogin As String = "AllowCentralLogin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.AllowForcedLogin
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.AllowForcedLogin
+  id: AllowForcedLogin
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: AllowForcedLogin
+  nameWithType: UserPreferenceStrings.System.AllowForcedLogin
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.AllowForcedLogin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAllow users to log on to the system even if they are already logged in on another computer (Default = No)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AllowForcedLogin = "AllowForcedLogin"
+    return:
+      type: System.String
+    content.vb: Public Const AllowForcedLogin As String = "AllowForcedLogin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.BaseCurrencyId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.BaseCurrencyId
+  id: BaseCurrencyId
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: BaseCurrencyId
+  nameWithType: UserPreferenceStrings.System.BaseCurrencyId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.BaseCurrencyId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nBase currency for your system. This is a common currency for reports etc.\n<p></p>Control type: ListTableRef, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string BaseCurrencyId = "BaseCurrencyId"
+    return:
+      type: System.String
+    content.vb: Public Const BaseCurrencyId As String = "BaseCurrencyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  id: CurrentUdefVersioncontact
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersioncontact
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersioncontact
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersioncontact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe current version number for user-defined fields in the Company screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersioncontact = "CurrentUdefVersioncontact"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersioncontact As String = "CurrentUdefVersioncontact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionperson
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionperson
+  id: CurrentUdefVersionperson
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionperson
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionperson
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionperson
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe current version number for user-defined fields in the Contact dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionperson = "CurrentUdefVersionperson"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionperson As String = "CurrentUdefVersionperson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionproject
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionproject
+  id: CurrentUdefVersionproject
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionproject
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionproject
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionproject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe current version number for user-defined fields in the Project screen\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionproject = "CurrentUdefVersionproject"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionproject As String = "CurrentUdefVersionproject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionsale
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionsale
+  id: CurrentUdefVersionsale
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionsale
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionsale
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionsale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe current version number for user-defined fields in the Sale dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionsale = "CurrentUdefVersionsale"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionsale As String = "CurrentUdefVersionsale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  id: CurrentUdefVersionappointment
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersionappointment
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersionappointment
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersionappointment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe current version number for user-defined fields in the Appointment dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersionappointment = "CurrentUdefVersionappointment"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersionappointment As String = "CurrentUdefVersionappointment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  id: CurrentUdefVersiondocument
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CurrentUdefVersiondocument
+  nameWithType: UserPreferenceStrings.System.CurrentUdefVersiondocument
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CurrentUdefVersiondocument
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe current version number for user-defined fields in the Document dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string CurrentUdefVersiondocument = "CurrentUdefVersiondocument"
+    return:
+      type: System.String
+    content.vb: Public Const CurrentUdefVersiondocument As String = "CurrentUdefVersiondocument"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.DefaultDocPlugin
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.DefaultDocPlugin
+  id: DefaultDocPlugin
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocPlugin
+  nameWithType: UserPreferenceStrings.System.DefaultDocPlugin
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.DefaultDocPlugin
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault document management system to be used by SuperOffice CRM.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocPlugin = "DefaultDocPlugin"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocPlugin As String = "DefaultDocPlugin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  id: DisableDynamicSelectionInMailings
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: DisableDynamicSelectionInMailings
+  nameWithType: UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDisables mailing tasks for dynamic selections\n<p></p>Control type: Bool\n"
+  syntax:
+    content: public const string DisableDynamicSelectionInMailings = "DisableDynamicSelectionInMailings"
+    return:
+      type: System.String
+    content.vb: Public Const DisableDynamicSelectionInMailings As String = "DisableDynamicSelectionInMailings"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  id: DisableDynamicSelectionInMailings_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: DisableDynamicSelectionInMailings_HardDefault
+  nameWithType: UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.DisableDynamicSelectionInMailings_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard default for: Disables mailing tasks for dynamic selections\n"
+  syntax:
+    content: public const bool DisableDynamicSelectionInMailings_HardDefault = false
+    return:
+      type: System.Boolean
+    content.vb: Public Const DisableDynamicSelectionInMailings_HardDefault As Boolean = False
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.PreferDocLanguage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.PreferDocLanguage
+  id: PreferDocLanguage
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PreferDocLanguage
+  nameWithType: UserPreferenceStrings.System.PreferDocLanguage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.PreferDocLanguage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreferred document language. Default blank = current UI language.\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string PreferDocLanguage = "PreferDocLanguage"
+    return:
+      type: System.String
+    content.vb: Public Const PreferDocLanguage As String = "PreferDocLanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.EnableCurrency
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.EnableCurrency
+  id: EnableCurrency
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: EnableCurrency
+  nameWithType: UserPreferenceStrings.System.EnableCurrency
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.EnableCurrency
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAllow sales to be recorded in another currency\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnableCurrency = "EnableCurrency"
+    return:
+      type: System.String
+    content.vb: Public Const EnableCurrency As String = "EnableCurrency"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.NotesIniPath
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.NotesIniPath
+  id: NotesIniPath
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: NotesIniPath
+  nameWithType: UserPreferenceStrings.System.NotesIniPath
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.NotesIniPath
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSets the path to the Notes.ini file\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string NotesIniPath = "NotesIniPath"
+    return:
+      type: System.String
+    content.vb: Public Const NotesIniPath As String = "NotesIniPath"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.NotesSODbName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.NotesSODbName
+  id: NotesSODbName
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: NotesSODbName
+  nameWithType: UserPreferenceStrings.System.NotesSODbName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.NotesSODbName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe name of the database in SuperOffice CRM where Lotus Notes e-mail is saved (default: SOCONFIG\\SoMailArchive.nsf )\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NotesSODbName = "NotesSODbName"
+    return:
+      type: System.String
+    content.vb: Public Const NotesSODbName As String = "NotesSODbName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.OurCurrencyId
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.OurCurrencyId
+  id: OurCurrencyId
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: OurCurrencyId
+  nameWithType: UserPreferenceStrings.System.OurCurrencyId
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.OurCurrencyId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault currency for new sales\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string OurCurrencyId = "OurCurrencyId"
+    return:
+      type: System.String
+    content.vb: Public Const OurCurrencyId As String = "OurCurrencyId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.OwnCountry
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.OwnCountry
+  id: OwnCountry
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: OwnCountry
+  nameWithType: UserPreferenceStrings.System.OwnCountry
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.OwnCountry
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nWhich country you are currently located in. This affects phone number prefixes and the suggested country when entering a new company.\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string OwnCountry = "OwnCountry"
+    return:
+      type: System.String
+    content.vb: Public Const OwnCountry As String = "OwnCountry"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesDocServer
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesDocServer
+  id: PreferredNotesDocServer
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PreferredNotesDocServer
+  nameWithType: UserPreferenceStrings.System.PreferredNotesDocServer
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesDocServer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreferred server name of the Lotus Notes document server\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string PreferredNotesDocServer = "PreferredNotesDocServer"
+    return:
+      type: System.String
+    content.vb: Public Const PreferredNotesDocServer As String = "PreferredNotesDocServer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesMailServer
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesMailServer
+  id: PreferredNotesMailServer
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PreferredNotesMailServer
+  nameWithType: UserPreferenceStrings.System.PreferredNotesMailServer
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.PreferredNotesMailServer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreferred e-mail server name for Lotus Notes\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string PreferredNotesMailServer = "PreferredNotesMailServer"
+    return:
+      type: System.String
+    content.vb: Public Const PreferredNotesMailServer As String = "PreferredNotesMailServer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.ReplicateSelection
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.ReplicateSelection
+  id: ReplicateSelection
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: ReplicateSelection
+  nameWithType: UserPreferenceStrings.System.ReplicateSelection
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.ReplicateSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nReplicates selection members to Travel and satellite databases. After changing this preference you need to regenerate satellites and create new prototypes. This will reduce performance. Default: No\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ReplicateSelection = "ReplicateSelection"
+    return:
+      type: System.String
+    content.vb: Public Const ReplicateSelection As String = "ReplicateSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  id: UpdateStatusMonitorsRealTime
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: UpdateStatusMonitorsRealTime
+  nameWithType: UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.UpdateStatusMonitorsRealTime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUpdate StatusMonitors in real time.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string UpdateStatusMonitorsRealTime = "UpdateStatusMonitorsRealTime"
+    return:
+      type: System.String
+    content.vb: Public Const UpdateStatusMonitorsRealTime As String = "UpdateStatusMonitorsRealTime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.NoDbUsers
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.NoDbUsers
+  id: NoDbUsers
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: NoDbUsers
+  nameWithType: UserPreferenceStrings.System.NoDbUsers
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.NoDbUsers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nBlock creation/maintenance of db users for application users. Present in SaaS installations\n"
+  syntax:
+    content: public const string NoDbUsers = "NoDbUsers"
+    return:
+      type: System.String
+    content.vb: Public Const NoDbUsers As String = "NoDbUsers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.PasswordPolicy
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.PasswordPolicy
+  id: PasswordPolicy
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: PasswordPolicy
+  nameWithType: UserPreferenceStrings.System.PasswordPolicy
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.PasswordPolicy
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSet a password policy: MinTotal=&lt;n>&amp;MinNum=&lt;n>&amp;MinSpec=&lt;n>&amp;MinLC=&lt;n>&amp;MinUC=&lt;n>&amp;Msg=&lt;message>; governs the password-policy check\n"
+  syntax:
+    content: public const string PasswordPolicy = "PasswordPolicy"
+    return:
+      type: System.String
+    content.vb: Public Const PasswordPolicy As String = "PasswordPolicy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.WebAppUsage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.WebAppUsage
+  id: WebAppUsage
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsage
+  nameWithType: UserPreferenceStrings.System.WebAppUsage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.WebAppUsage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnable/disable logging to WebAppUsage\n"
+  syntax:
+    content: public const string WebAppUsage = "WebAppUsage"
+    return:
+      type: System.String
+    content.vb: Public Const WebAppUsage As String = "WebAppUsage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.LastFetchedTimezones
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.LastFetchedTimezones
+  id: LastFetchedTimezones
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: LastFetchedTimezones
+  nameWithType: UserPreferenceStrings.System.LastFetchedTimezones
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.LastFetchedTimezones
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLast fetch of timezone data\n"
+  syntax:
+    content: public const string LastFetchedTimezones = "LastFetchedTimezones"
+    return:
+      type: System.String
+    content.vb: Public Const LastFetchedTimezones As String = "LastFetchedTimezones"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  id: ForceSinglePhaseArchives
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: ForceSinglePhaseArchives
+  nameWithType: UserPreferenceStrings.System.ForceSinglePhaseArchives
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.ForceSinglePhaseArchives
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nForce single-phase queries (like the Win client uses) in archives, instead of two-phase\nwhere we first determine primary keys, and use a second query to get the full-width rows afterwards\n"
+  syntax:
+    content: public const string ForceSinglePhaseArchives = "ForceSinglePhase"
+    return:
+      type: System.String
+    content.vb: Public Const ForceSinglePhaseArchives As String = "ForceSinglePhase"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.CRMBaseURL
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.CRMBaseURL
+  id: CRMBaseURL
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: CRMBaseURL
+  nameWithType: UserPreferenceStrings.System.CRMBaseURL
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.CRMBaseURL
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nStore the base URL to CRM, so it can be used by for example CS to generate CRM URLs\n"
+  syntax:
+    content: public const string CRMBaseURL = "CRMBaseURL"
+    return:
+      type: System.String
+    content.vb: Public Const CRMBaseURL As String = "CRMBaseURL"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.System.SoftDeleteRetention
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.System.SoftDeleteRetention
+  id: SoftDeleteRetention
+  parent: SuperOffice.CRM.UserPreferenceStrings.System
+  langs:
+  - csharp
+  - vb
+  name: SoftDeleteRetention
+  nameWithType: UserPreferenceStrings.System.SoftDeleteRetention
+  fullName: SuperOffice.CRM.UserPreferenceStrings.System.SoftDeleteRetention
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFor how long are deleted person/companies kept before hard delete\n"
+  syntax:
+    content: public const string SoftDeleteRetention = "SoftDeleteRetention"
+    return:
+      type: System.String
+    content.vb: Public Const SoftDeleteRetention As String = "SoftDeleteRetention"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

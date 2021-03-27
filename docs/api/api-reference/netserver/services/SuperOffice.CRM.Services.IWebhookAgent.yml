@@ -1,0 +1,414 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IWebhookAgent
+  commentId: T:SuperOffice.CRM.Services.IWebhookAgent
+  id: IWebhookAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook
+  - SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook(System.Int32)
+  - SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks(System.String,System.String,SuperOffice.Data.WebhookState)
+  - SuperOffice.CRM.Services.IWebhookAgent.GetLastError(System.Int32)
+  - SuperOffice.CRM.Services.IWebhookAgent.GetWebhook(System.Int32)
+  - SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook(SuperOffice.CRM.Services.Webhook)
+  - SuperOffice.CRM.Services.IWebhookAgent.SignalEvent(System.String,System.Int32,SuperOffice.CRM.Services.StringObjectDictionary)
+  - SuperOffice.CRM.Services.IWebhookAgent.TestWebhook(SuperOffice.CRM.Services.Webhook)
+  langs:
+  - csharp
+  - vb
+  name: IWebhookAgent
+  nameWithType: IWebhookAgent
+  fullName: SuperOffice.CRM.Services.IWebhookAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Webhook Agent\nWebhook definitions - webhooks signal other systems about events inside NetServer\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (WebhookAgent agent = new WebhookAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Webhook Agent", "Interface for the Webhook Agent. Webhook definitions - webhooks signal other systems about events inside NetServer")]
+
+      public interface IWebhookAgent : IAgent
+    content.vb: >-
+      <Agent("Webhook Agent", "Interface for the Webhook Agent. Webhook definitions - webhooks signal other systems about events inside NetServer")>
+
+      Public Interface IWebhookAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Webhook Agent
+    - type: System.String
+      value: Interface for the Webhook Agent. Webhook definitions - webhooks signal other systems about events inside NetServer
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook
+  id: CreateDefaultWebhook
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWebhook()
+  nameWithType: IWebhookAgent.CreateDefaultWebhook()
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new Webhook.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: Webhook CreateDefaultWebhook()
+    return:
+      type: SuperOffice.CRM.Services.Webhook
+      description: New Webhook with default values
+    content.vb: Function CreateDefaultWebhook As Webhook
+  overload: SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook(SuperOffice.CRM.Services.Webhook)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook(SuperOffice.CRM.Services.Webhook)
+  id: SaveWebhook(SuperOffice.CRM.Services.Webhook)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWebhook(Webhook)
+  nameWithType: IWebhookAgent.SaveWebhook(Webhook)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook(SuperOffice.CRM.Services.Webhook)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing Webhook or creates a new Webhook if the id parameter is empty\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: Webhook SaveWebhook(Webhook webhook)
+    parameters:
+    - id: webhook
+      type: SuperOffice.CRM.Services.Webhook
+      description: The Webhook that is saved.
+    return:
+      type: SuperOffice.CRM.Services.Webhook
+      description: New or updated Webhook
+    content.vb: Function SaveWebhook(webhook As Webhook) As Webhook
+  overload: SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook(System.Int32)
+  id: DeleteWebhook(System.Int32)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWebhook(Int32)
+  nameWithType: IWebhookAgent.DeleteWebhook(Int32)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the Webhook\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: void DeleteWebhook(int webhookId)
+    parameters:
+    - id: webhookId
+      type: System.Int32
+      description: The identity of the Webhook
+    content.vb: Sub DeleteWebhook(webhookId As Integer)
+  overload: SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.GetWebhook(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.GetWebhook(System.Int32)
+  id: GetWebhook(System.Int32)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: GetWebhook(Int32)
+  nameWithType: IWebhookAgent.GetWebhook(Int32)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.GetWebhook(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Webhook object.                        \n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: Webhook GetWebhook(int webhookId)
+    parameters:
+    - id: webhookId
+      type: System.Int32
+      description: The identifier of the Webhook object
+    return:
+      type: SuperOffice.CRM.Services.Webhook
+      description: Webhook
+    content.vb: Function GetWebhook(webhookId As Integer) As Webhook
+  overload: SuperOffice.CRM.Services.IWebhookAgent.GetWebhook*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks(System.String,System.String,SuperOffice.Data.WebhookState)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks(System.String,System.String,SuperOffice.Data.WebhookState)
+  id: GetAllWebhooks(System.String,System.String,SuperOffice.Data.WebhookState)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllWebhooks(String, String, WebhookState)
+  nameWithType: IWebhookAgent.GetAllWebhooks(String, String, WebhookState)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks(System.String, System.String, SuperOffice.Data.WebhookState)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all webhooks, according to filter criteria\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: Webhook[] GetAllWebhooks(string nameFilter, string eventFilter, WebhookState statusFilter)
+    parameters:
+    - id: nameFilter
+      type: System.String
+      description: Only return hooks with this name. Default NULL = no filter
+    - id: eventFilter
+      type: System.String
+      description: Only return hooks responding to this event name. Default NULL = no filter
+    - id: statusFilter
+      type: SuperOffice.Data.WebhookState
+      description: Only return hooks with this status. Default Unknown = no filter, returns all.
+    return:
+      type: SuperOffice.CRM.Services.Webhook[]
+      description: Array of all webhooks, filtered according to given criteria.
+    content.vb: Function GetAllWebhooks(nameFilter As String, eventFilter As String, statusFilter As WebhookState) As Webhook()
+  overload: SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.TestWebhook(SuperOffice.CRM.Services.Webhook)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.TestWebhook(SuperOffice.CRM.Services.Webhook)
+  id: TestWebhook(SuperOffice.CRM.Services.Webhook)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: TestWebhook(Webhook)
+  nameWithType: IWebhookAgent.TestWebhook(Webhook)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.TestWebhook(SuperOffice.CRM.Services.Webhook)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPings a webhook with a &apos;test&apos; event, returns SUCCESS(true) or FAILURE(false) + the response from the webhook target.\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: WebhookResult TestWebhook(Webhook webhook)
+    parameters:
+    - id: webhook
+      type: SuperOffice.CRM.Services.Webhook
+      description: Webhook definition to ping. Must contain a valid TargetUrl.
+    return:
+      type: SuperOffice.CRM.Services.WebhookResult
+      description: Result of calling webhook. Sucess=true/false + Error message
+    content.vb: Function TestWebhook(webhook As Webhook) As WebhookResult
+  overload: SuperOffice.CRM.Services.IWebhookAgent.TestWebhook*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.SignalEvent(System.String,System.Int32,SuperOffice.CRM.Services.StringObjectDictionary)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.SignalEvent(System.String,System.Int32,SuperOffice.CRM.Services.StringObjectDictionary)
+  id: SignalEvent(System.String,System.Int32,SuperOffice.CRM.Services.StringObjectDictionary)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: SignalEvent(String, Int32, StringObjectDictionary)
+  nameWithType: IWebhookAgent.SignalEvent(String, Int32, StringObjectDictionary)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.SignalEvent(System.String, System.Int32, SuperOffice.CRM.Services.StringObjectDictionary)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSignal webhooks that an event has occurred. All webhooks listening for the event will be notified.\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: void SignalEvent(string eventName, int primaryKey, StringObjectDictionary data)
+    parameters:
+    - id: eventName
+      type: System.String
+      description: 'Name of event to fire. &apos;entity.verb&apos; For example: &apos;window.closed&apos;, &apos;button.clicked&apos;.'
+    - id: primaryKey
+      type: System.Int32
+      description: (Optional) Id of entity that is firing event. Can be 0 if not used.
+    - id: data
+      type: SuperOffice.CRM.Services.StringObjectDictionary
+      description: 'Event data. Not all the data values may be posted to the webhook, depending in webhook type: { &apos;windowName&apos;: &apos;foo&apos;, &apos;widgets&apos;: 123 }'
+    content.vb: Sub SignalEvent(eventName As String, primaryKey As Integer, data As StringObjectDictionary)
+  overload: SuperOffice.CRM.Services.IWebhookAgent.SignalEvent*
+- uid: SuperOffice.CRM.Services.IWebhookAgent.GetLastError(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IWebhookAgent.GetLastError(System.Int32)
+  id: GetLastError(System.Int32)
+  parent: SuperOffice.CRM.Services.IWebhookAgent
+  langs:
+  - csharp
+  - vb
+  name: GetLastError(Int32)
+  nameWithType: IWebhookAgent.GetLastError(Int32)
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.GetLastError(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn the most recent error message received when calling this webhook.\n<p></p>\n<strong>Online Restricted:</strong> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.\n"
+  syntax:
+    content: string GetLastError(int webhookId)
+    parameters:
+    - id: webhookId
+      type: System.Int32
+      description: Webhook to get error message for.
+    return:
+      type: System.String
+      description: Error message, or empty string if no errors received
+    content.vb: Function GetLastError(webhookId As Integer) As String
+  overload: SuperOffice.CRM.Services.IWebhookAgent.GetLastError*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook
+  isExternal: true
+  name: CreateDefaultWebhook
+  nameWithType: IWebhookAgent.CreateDefaultWebhook
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.CreateDefaultWebhook
+- uid: SuperOffice.CRM.Services.Webhook
+  commentId: T:SuperOffice.CRM.Services.Webhook
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Webhook
+  nameWithType: Webhook
+  fullName: SuperOffice.CRM.Services.Webhook
+- uid: SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook
+  isExternal: true
+  name: SaveWebhook
+  nameWithType: IWebhookAgent.SaveWebhook
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.SaveWebhook
+- uid: SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook
+  isExternal: true
+  name: DeleteWebhook
+  nameWithType: IWebhookAgent.DeleteWebhook
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhook
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IWebhookAgent.GetWebhook*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.GetWebhook
+  isExternal: true
+  name: GetWebhook
+  nameWithType: IWebhookAgent.GetWebhook
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.GetWebhook
+- uid: SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks
+  isExternal: true
+  name: GetAllWebhooks
+  nameWithType: IWebhookAgent.GetAllWebhooks
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.GetAllWebhooks
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.WebhookState
+  isExternal: true
+  name: WebhookState
+  nameWithType: WebhookState
+  fullName: SuperOffice.Data.WebhookState
+- uid: SuperOffice.CRM.Services.Webhook[]
+  isExternal: true
+  name: Webhook[]
+  nameWithType: Webhook[]
+  fullName: SuperOffice.CRM.Services.Webhook[]
+  nameWithType.vb: Webhook()
+  fullName.vb: SuperOffice.CRM.Services.Webhook()
+  name.vb: Webhook()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Services.Webhook
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Webhook
+    name: Webhook
+    nameWithType: Webhook
+    fullName: SuperOffice.CRM.Services.Webhook
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IWebhookAgent.TestWebhook*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.TestWebhook
+  isExternal: true
+  name: TestWebhook
+  nameWithType: IWebhookAgent.TestWebhook
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.TestWebhook
+- uid: SuperOffice.CRM.Services.WebhookResult
+  commentId: T:SuperOffice.CRM.Services.WebhookResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: WebhookResult
+  nameWithType: WebhookResult
+  fullName: SuperOffice.CRM.Services.WebhookResult
+- uid: SuperOffice.CRM.Services.IWebhookAgent.SignalEvent*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.SignalEvent
+  isExternal: true
+  name: SignalEvent
+  nameWithType: IWebhookAgent.SignalEvent
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.SignalEvent
+- uid: SuperOffice.CRM.Services.StringObjectDictionary
+  isExternal: true
+  name: StringObjectDictionary
+  nameWithType: StringObjectDictionary
+  fullName: SuperOffice.CRM.Services.StringObjectDictionary
+- uid: SuperOffice.CRM.Services.IWebhookAgent.GetLastError*
+  commentId: Overload:SuperOffice.CRM.Services.IWebhookAgent.GetLastError
+  isExternal: true
+  name: GetLastError
+  nameWithType: IWebhookAgent.GetLastError
+  fullName: SuperOffice.CRM.Services.IWebhookAgent.GetLastError

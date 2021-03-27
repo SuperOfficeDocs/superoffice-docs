@@ -1,0 +1,2573 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData
+  commentId: T:SuperOffice.CRM.Rows.AddressFormatRecordData
+  id: AddressFormatRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.#ctor
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Flags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Leadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Length
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Line
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Mask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Subpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Zip
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Flags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Leadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Length
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Line
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Mask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Subpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Zip
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Flags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Leadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Length
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Line
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Mask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Subpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Zip
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.AddressformatId
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.AtypeIdx
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CityFlags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CityLeadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CityLength
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CityLine
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CityMask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CitySubpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CityZip
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountyFlags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLeadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLength
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLine
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountyMask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountySubpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.CountyZip
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ExtraFlags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.IsBuiltIn
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout2
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.LayoutId
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Name
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Registered
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateFlags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateLeadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateLength
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateLine
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateMask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateSubpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.StateZip
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.Updated
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipFlags
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLeadtext
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLength
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLine
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipMask
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipSubpos
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.ZipZip
+  langs:
+  - csharp
+  - vb
+  name: AddressFormatRecordData
+  nameWithType: AddressFormatRecordData
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the AddressFormat table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.AddressFormatRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.AddressFormatTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class AddressFormatRecordData
+    content.vb: Public Class AddressFormatRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.AddressformatId
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.AddressformatId
+  id: AddressformatId
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: AddressformatId
+  nameWithType: AddressFormatRecordData.AddressformatId
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.AddressformatId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int AddressformatId
+    return:
+      type: System.Int32
+    content.vb: Public AddressformatId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Name
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Name
+  id: Name
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: AddressFormatRecordData.Name
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nName of address format (descriptive, multi-language) \n"
+  syntax:
+    content: public string Name
+    return:
+      type: System.String
+    content.vb: Public Name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.LayoutId
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.LayoutId
+  id: LayoutId
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: LayoutId
+  nameWithType: AddressFormatRecordData.LayoutId
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.LayoutId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCorresponds to Country.layout_id \n"
+  syntax:
+    content: public short LayoutId
+    return:
+      type: System.Int16
+    content.vb: Public LayoutId As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.AtypeIdx
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.AtypeIdx
+  id: AtypeIdx
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: AtypeIdx
+  nameWithType: AddressFormatRecordData.AtypeIdx
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.AtypeIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCorresponds to Address.atype_idx \n"
+  syntax:
+    content: public short AtypeIdx
+    return:
+      type: System.Int16
+    content.vb: Public AtypeIdx As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Line
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Line
+  id: Address1Line
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Line
+  nameWithType: AddressFormatRecordData.Address1Line
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Line
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for address1 field, 0 if not shown \n"
+  syntax:
+    content: public short Address1Line
+    return:
+      type: System.Int16
+    content.vb: Public Address1Line As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Subpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Subpos
+  id: Address1Subpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Subpos
+  nameWithType: AddressFormatRecordData.Address1Subpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Subpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for address1 field \n"
+  syntax:
+    content: public short Address1Subpos
+    return:
+      type: System.Int16
+    content.vb: Public Address1Subpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Leadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Leadtext
+  id: Address1Leadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Leadtext
+  nameWithType: AddressFormatRecordData.Address1Leadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Leadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for address1 field, 0 = no leadtext \n"
+  syntax:
+    content: public int Address1Leadtext
+    return:
+      type: System.Int32
+    content.vb: Public Address1Leadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Zip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Zip
+  id: Address1Zip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Zip
+  nameWithType: AddressFormatRecordData.Address1Zip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Zip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for address1 field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short Address1Zip
+    return:
+      type: System.Int16
+    content.vb: Public Address1Zip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Length
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Length
+  id: Address1Length
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Length
+  nameWithType: AddressFormatRecordData.Address1Length
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Length
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for address1 field \n"
+  syntax:
+    content: public short Address1Length
+    return:
+      type: System.Int16
+    content.vb: Public Address1Length As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Flags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Flags
+  id: Address1Flags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Flags
+  nameWithType: AddressFormatRecordData.Address1Flags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for address1 field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short Address1Flags
+    return:
+      type: System.Int16
+    content.vb: Public Address1Flags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Mask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Mask
+  id: Address1Mask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address1Mask
+  nameWithType: AddressFormatRecordData.Address1Mask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address1Mask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for address1 field \n"
+  syntax:
+    content: public string Address1Mask
+    return:
+      type: System.String
+    content.vb: Public Address1Mask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Line
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Line
+  id: Address2Line
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Line
+  nameWithType: AddressFormatRecordData.Address2Line
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Line
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for address2 field, 0 if not shown \n"
+  syntax:
+    content: public short Address2Line
+    return:
+      type: System.Int16
+    content.vb: Public Address2Line As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Subpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Subpos
+  id: Address2Subpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Subpos
+  nameWithType: AddressFormatRecordData.Address2Subpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Subpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for address2 field \n"
+  syntax:
+    content: public short Address2Subpos
+    return:
+      type: System.Int16
+    content.vb: Public Address2Subpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Leadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Leadtext
+  id: Address2Leadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Leadtext
+  nameWithType: AddressFormatRecordData.Address2Leadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Leadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for address2 field, 0 = no leadtext \n"
+  syntax:
+    content: public int Address2Leadtext
+    return:
+      type: System.Int32
+    content.vb: Public Address2Leadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Zip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Zip
+  id: Address2Zip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Zip
+  nameWithType: AddressFormatRecordData.Address2Zip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Zip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for address2 field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short Address2Zip
+    return:
+      type: System.Int16
+    content.vb: Public Address2Zip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Length
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Length
+  id: Address2Length
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Length
+  nameWithType: AddressFormatRecordData.Address2Length
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Length
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for address2 field \n"
+  syntax:
+    content: public short Address2Length
+    return:
+      type: System.Int16
+    content.vb: Public Address2Length As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Flags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Flags
+  id: Address2Flags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Flags
+  nameWithType: AddressFormatRecordData.Address2Flags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for address2 field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short Address2Flags
+    return:
+      type: System.Int16
+    content.vb: Public Address2Flags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Mask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Mask
+  id: Address2Mask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address2Mask
+  nameWithType: AddressFormatRecordData.Address2Mask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address2Mask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for address2 field \n"
+  syntax:
+    content: public string Address2Mask
+    return:
+      type: System.String
+    content.vb: Public Address2Mask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Line
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Line
+  id: Address3Line
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Line
+  nameWithType: AddressFormatRecordData.Address3Line
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Line
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for address3 field, 0 if not shown \n"
+  syntax:
+    content: public short Address3Line
+    return:
+      type: System.Int16
+    content.vb: Public Address3Line As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Subpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Subpos
+  id: Address3Subpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Subpos
+  nameWithType: AddressFormatRecordData.Address3Subpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Subpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for address3 field \n"
+  syntax:
+    content: public short Address3Subpos
+    return:
+      type: System.Int16
+    content.vb: Public Address3Subpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Leadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Leadtext
+  id: Address3Leadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Leadtext
+  nameWithType: AddressFormatRecordData.Address3Leadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Leadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for address3 field, 0 = no leadtext \n"
+  syntax:
+    content: public int Address3Leadtext
+    return:
+      type: System.Int32
+    content.vb: Public Address3Leadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Zip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Zip
+  id: Address3Zip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Zip
+  nameWithType: AddressFormatRecordData.Address3Zip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Zip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for address3 field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short Address3Zip
+    return:
+      type: System.Int16
+    content.vb: Public Address3Zip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Length
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Length
+  id: Address3Length
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Length
+  nameWithType: AddressFormatRecordData.Address3Length
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Length
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for address3 field \n"
+  syntax:
+    content: public short Address3Length
+    return:
+      type: System.Int16
+    content.vb: Public Address3Length As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Flags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Flags
+  id: Address3Flags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Flags
+  nameWithType: AddressFormatRecordData.Address3Flags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for address3 field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short Address3Flags
+    return:
+      type: System.Int16
+    content.vb: Public Address3Flags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Mask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Mask
+  id: Address3Mask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Address3Mask
+  nameWithType: AddressFormatRecordData.Address3Mask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Address3Mask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for address3 field \n"
+  syntax:
+    content: public string Address3Mask
+    return:
+      type: System.String
+    content.vb: Public Address3Mask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CityLine
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CityLine
+  id: CityLine
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CityLine
+  nameWithType: AddressFormatRecordData.CityLine
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CityLine
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for city field, 0 if not shown \n"
+  syntax:
+    content: public short CityLine
+    return:
+      type: System.Int16
+    content.vb: Public CityLine As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CitySubpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CitySubpos
+  id: CitySubpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CitySubpos
+  nameWithType: AddressFormatRecordData.CitySubpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CitySubpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for city field \n"
+  syntax:
+    content: public short CitySubpos
+    return:
+      type: System.Int16
+    content.vb: Public CitySubpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CityLeadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CityLeadtext
+  id: CityLeadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CityLeadtext
+  nameWithType: AddressFormatRecordData.CityLeadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CityLeadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for city field, 0 = no leadtext \n"
+  syntax:
+    content: public int CityLeadtext
+    return:
+      type: System.Int32
+    content.vb: Public CityLeadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CityZip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CityZip
+  id: CityZip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CityZip
+  nameWithType: AddressFormatRecordData.CityZip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CityZip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for city field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short CityZip
+    return:
+      type: System.Int16
+    content.vb: Public CityZip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CityLength
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CityLength
+  id: CityLength
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CityLength
+  nameWithType: AddressFormatRecordData.CityLength
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CityLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for city field \n"
+  syntax:
+    content: public short CityLength
+    return:
+      type: System.Int16
+    content.vb: Public CityLength As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CityFlags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CityFlags
+  id: CityFlags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CityFlags
+  nameWithType: AddressFormatRecordData.CityFlags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CityFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for city field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short CityFlags
+    return:
+      type: System.Int16
+    content.vb: Public CityFlags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CityMask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CityMask
+  id: CityMask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CityMask
+  nameWithType: AddressFormatRecordData.CityMask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CityMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for city field \n"
+  syntax:
+    content: public string CityMask
+    return:
+      type: System.String
+    content.vb: Public CityMask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLine
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLine
+  id: CountyLine
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountyLine
+  nameWithType: AddressFormatRecordData.CountyLine
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLine
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for county field, 0 if not shown \n"
+  syntax:
+    content: public short CountyLine
+    return:
+      type: System.Int16
+    content.vb: Public CountyLine As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountySubpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountySubpos
+  id: CountySubpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountySubpos
+  nameWithType: AddressFormatRecordData.CountySubpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountySubpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for county field \n"
+  syntax:
+    content: public short CountySubpos
+    return:
+      type: System.Int16
+    content.vb: Public CountySubpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLeadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLeadtext
+  id: CountyLeadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountyLeadtext
+  nameWithType: AddressFormatRecordData.CountyLeadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLeadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for county field, 0 = no leadtext \n"
+  syntax:
+    content: public int CountyLeadtext
+    return:
+      type: System.Int32
+    content.vb: Public CountyLeadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyZip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountyZip
+  id: CountyZip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountyZip
+  nameWithType: AddressFormatRecordData.CountyZip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyZip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for county field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short CountyZip
+    return:
+      type: System.Int16
+    content.vb: Public CountyZip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLength
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLength
+  id: CountyLength
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountyLength
+  nameWithType: AddressFormatRecordData.CountyLength
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for county field \n"
+  syntax:
+    content: public short CountyLength
+    return:
+      type: System.Int16
+    content.vb: Public CountyLength As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyFlags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountyFlags
+  id: CountyFlags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountyFlags
+  nameWithType: AddressFormatRecordData.CountyFlags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for county field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short CountyFlags
+    return:
+      type: System.Int16
+    content.vb: Public CountyFlags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyMask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.CountyMask
+  id: CountyMask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: CountyMask
+  nameWithType: AddressFormatRecordData.CountyMask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.CountyMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for county field \n"
+  syntax:
+    content: public string CountyMask
+    return:
+      type: System.String
+    content.vb: Public CountyMask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateLine
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateLine
+  id: StateLine
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateLine
+  nameWithType: AddressFormatRecordData.StateLine
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateLine
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for state field, 0 if not shown \n"
+  syntax:
+    content: public short StateLine
+    return:
+      type: System.Int16
+    content.vb: Public StateLine As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateSubpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateSubpos
+  id: StateSubpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateSubpos
+  nameWithType: AddressFormatRecordData.StateSubpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateSubpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for state field \n"
+  syntax:
+    content: public short StateSubpos
+    return:
+      type: System.Int16
+    content.vb: Public StateSubpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateLeadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateLeadtext
+  id: StateLeadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateLeadtext
+  nameWithType: AddressFormatRecordData.StateLeadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateLeadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for state field, 0 = no leadtext \n"
+  syntax:
+    content: public int StateLeadtext
+    return:
+      type: System.Int32
+    content.vb: Public StateLeadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateZip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateZip
+  id: StateZip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateZip
+  nameWithType: AddressFormatRecordData.StateZip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateZip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for state field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short StateZip
+    return:
+      type: System.Int16
+    content.vb: Public StateZip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateLength
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateLength
+  id: StateLength
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateLength
+  nameWithType: AddressFormatRecordData.StateLength
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for state field \n"
+  syntax:
+    content: public short StateLength
+    return:
+      type: System.Int16
+    content.vb: Public StateLength As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateFlags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateFlags
+  id: StateFlags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateFlags
+  nameWithType: AddressFormatRecordData.StateFlags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for state field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short StateFlags
+    return:
+      type: System.Int16
+    content.vb: Public StateFlags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.StateMask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.StateMask
+  id: StateMask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: StateMask
+  nameWithType: AddressFormatRecordData.StateMask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.StateMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for state field \n"
+  syntax:
+    content: public string StateMask
+    return:
+      type: System.String
+    content.vb: Public StateMask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLine
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLine
+  id: ZipLine
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipLine
+  nameWithType: AddressFormatRecordData.ZipLine
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLine
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLine no. for zip field, 0 if not shown \n"
+  syntax:
+    content: public short ZipLine
+    return:
+      type: System.Int16
+    content.vb: Public ZipLine As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipSubpos
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipSubpos
+  id: ZipSubpos
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipSubpos
+  nameWithType: AddressFormatRecordData.ZipSubpos
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipSubpos
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPosition within line for zip field \n"
+  syntax:
+    content: public short ZipSubpos
+    return:
+      type: System.Int16
+    content.vb: Public ZipSubpos As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLeadtext
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLeadtext
+  id: ZipLeadtext
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipLeadtext
+  nameWithType: AddressFormatRecordData.ZipLeadtext
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLeadtext
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLead text resource ID for zip field, 0 = no leadtext \n"
+  syntax:
+    content: public int ZipLeadtext
+    return:
+      type: System.Int32
+    content.vb: Public ZipLeadtext As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipZip
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipZip
+  id: ZipZip
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipZip
+  nameWithType: AddressFormatRecordData.ZipZip
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipZip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nZip lookup functionality for zip field: 0 = none, 1 = source, 2 = target \n"
+  syntax:
+    content: public short ZipZip
+    return:
+      type: System.Int16
+    content.vb: Public ZipZip As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLength
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLength
+  id: ZipLength
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipLength
+  nameWithType: AddressFormatRecordData.ZipLength
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipLength
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField length in characters for zip field \n"
+  syntax:
+    content: public short ZipLength
+    return:
+      type: System.Int16
+    content.vb: Public ZipLength As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipFlags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipFlags
+  id: ZipFlags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipFlags
+  nameWithType: AddressFormatRecordData.ZipFlags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nField flags for zip field: See EAddrFormatFlags enum \n"
+  syntax:
+    content: public short ZipFlags
+    return:
+      type: System.Int16
+    content.vb: Public ZipFlags As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipMask
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ZipMask
+  id: ZipMask
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ZipMask
+  nameWithType: AddressFormatRecordData.ZipMask
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ZipMask
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormatting mask for zip field \n"
+  syntax:
+    content: public string ZipMask
+    return:
+      type: System.String
+    content.vb: Public ZipMask As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.ExtraFlags
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.ExtraFlags
+  id: ExtraFlags
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: ExtraFlags
+  nameWithType: AddressFormatRecordData.ExtraFlags
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.ExtraFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOBSOLETE: Extra flags for tag substitution mechanism, see idb.h. This function has been taken over by the tag-based formatting, controlled by the labelLayout and labelLayout2 fields \n"
+  syntax:
+    content: public uint ExtraFlags
+    return:
+      type: System.UInt32
+    content.vb: Public ExtraFlags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout
+  id: LabelLayout
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: LabelLayout
+  nameWithType: AddressFormatRecordData.LabelLayout
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nFormat specification for labels, uses standard tags \n"
+  syntax:
+    content: public string LabelLayout
+    return:
+      type: System.String
+    content.vb: Public LabelLayout As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: AddressFormatRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: AddressFormatRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: AddressFormatRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: AddressFormatRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: AddressFormatRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout2
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout2
+  id: LabelLayout2
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: LabelLayout2
+  nameWithType: AddressFormatRecordData.LabelLayout2
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.LabelLayout2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPart two of format specification, concatenated with part one above \n"
+  syntax:
+    content: public string LabelLayout2
+    return:
+      type: System.String
+    content.vb: Public LabelLayout2 As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.IsBuiltIn
+  commentId: F:SuperOffice.CRM.Rows.AddressFormatRecordData.IsBuiltIn
+  id: IsBuiltIn
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: IsBuiltIn
+  nameWithType: AddressFormatRecordData.IsBuiltIn
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.IsBuiltIn
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs this row populated by SuperOffice? \n"
+  syntax:
+    content: public short IsBuiltIn
+    return:
+      type: System.Int16
+    content.vb: Public IsBuiltIn As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.AddressFormatRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordData
+  langs:
+  - csharp
+  - vb
+  name: AddressFormatRecordData()
+  nameWithType: AddressFormatRecordData.AddressFormatRecordData()
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.AddressFormatRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public AddressFormatRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.AddressFormatRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AddressFormatRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<AddressFormatRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AddressFormatRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AddressFormatRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AddressFormatRecordData, To)()
+  name.vb: MapEnums(Of AddressFormatRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AddressFormatRecordData, To>
+    nameWithType: EnumUtil.MapEnums<AddressFormatRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.AddressFormatRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AddressFormatRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of AddressFormatRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.AddressFormatRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AddressFormatRecordData>(AddressFormatRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<AddressFormatRecordData>(AddressFormatRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AddressFormatRecordData>(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AddressFormatRecordData)(AddressFormatRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AddressFormatRecordData)(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  name.vb: AssignByReflection(Of AddressFormatRecordData)(AddressFormatRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AddressFormatRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<AddressFormatRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.AddressFormatRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordData
+    name: AddressFormatRecordData
+    nameWithType: AddressFormatRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AddressFormatRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AddressFormatRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.AddressFormatRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordData
+    name: AddressFormatRecordData
+    nameWithType: AddressFormatRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AddressFormatRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<AddressFormatRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AddressFormatRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AddressFormatRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AddressFormatRecordData)()
+  name.vb: GraphCopy(Of AddressFormatRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AddressFormatRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<AddressFormatRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.AddressFormatRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AddressFormatRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of AddressFormatRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.AddressFormatRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  parent: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  name: ToInsert()
+  nameWithType: AddressFormatRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: AddressFormatRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: AddressFormatRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AddressFormatRecordData, To>()
+  nameWithType: Converters.MapEnums<AddressFormatRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AddressFormatRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of AddressFormatRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AddressFormatRecordData, To)()
+  name.vb: MapEnums(Of AddressFormatRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AddressFormatRecordData, To>
+    nameWithType: Converters.MapEnums<AddressFormatRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.AddressFormatRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AddressFormatRecordData, To)
+    nameWithType: Converters.MapEnums(Of AddressFormatRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.AddressFormatRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  commentId: M:SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  isExternal: true
+  name: ToInsert(AddressFormatRecordData)
+  nameWithType: AddressFormatRecordDataExtensions.ToInsert(AddressFormatRecordData)
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+    name: ToInsert
+    nameWithType: AddressFormatRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordData
+    name: AddressFormatRecordData
+    nameWithType: AddressFormatRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.AddressFormatRecordData)
+    name: ToInsert
+    nameWithType: AddressFormatRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.AddressFormatRecordData
+    name: AddressFormatRecordData
+    nameWithType: AddressFormatRecordData
+    fullName: SuperOffice.CRM.Rows.AddressFormatRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AddressFormatRecordDataExtensions
+  nameWithType: AddressFormatRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.AddressFormatRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.AddressFormatRecordData.#ctor
+  isExternal: true
+  name: AddressFormatRecordData
+  nameWithType: AddressFormatRecordData.AddressFormatRecordData
+  fullName: SuperOffice.CRM.Rows.AddressFormatRecordData.AddressFormatRecordData

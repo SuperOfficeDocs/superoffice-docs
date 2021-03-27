@@ -1,0 +1,1187 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ProjectMember
+  commentId: T:SuperOffice.CRM.Services.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ProjectMember.#ctor
+  - SuperOffice.CRM.Services.ProjectMember.Comment
+  - SuperOffice.CRM.Services.ProjectMember.ContactDepartment
+  - SuperOffice.CRM.Services.ProjectMember.ContactId
+  - SuperOffice.CRM.Services.ProjectMember.ContactName
+  - SuperOffice.CRM.Services.ProjectMember.CountryId
+  - SuperOffice.CRM.Services.ProjectMember.EmailAddress
+  - SuperOffice.CRM.Services.ProjectMember.EmailAddressName
+  - SuperOffice.CRM.Services.ProjectMember.EmailId
+  - SuperOffice.CRM.Services.ProjectMember.Firstname
+  - SuperOffice.CRM.Services.ProjectMember.FullName
+  - SuperOffice.CRM.Services.ProjectMember.Lastname
+  - SuperOffice.CRM.Services.ProjectMember.MiddleName
+  - SuperOffice.CRM.Services.ProjectMember.Mrmrs
+  - SuperOffice.CRM.Services.ProjectMember.PersonId
+  - SuperOffice.CRM.Services.ProjectMember.Phone
+  - SuperOffice.CRM.Services.ProjectMember.PhoneId
+  - SuperOffice.CRM.Services.ProjectMember.ProjectId
+  - SuperOffice.CRM.Services.ProjectMember.ProjectmemberId
+  - SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId
+  - SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName
+  - SuperOffice.CRM.Services.ProjectMember.ProjectName
+  - SuperOffice.CRM.Services.ProjectMember.ToString
+  - SuperOffice.CRM.Services.ProjectMember.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Services.ProjectMember
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA person can be a member of multiple projects, with a different comment and member type in each project.\n<p></p>\nCarrier object for ProjectMember.\nServices for the ProjectMember Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IProjectAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ProjectMember 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ProjectAgent();\n    var projectMember = agent.GetProjectMember( 123 );\n }</code></pre>\n\nFind all ProjectMember, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;ProjectMember&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class ProjectMember : Carrier'
+    content.vb: >-
+      Public Class ProjectMember
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ProjectAgent
+    commentId: T:SuperOffice.CRM.Services.ProjectAgent
+  - linkId: SuperOffice.CRM.Services.IProjectAgent
+    commentId: T:SuperOffice.CRM.Services.IProjectAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ProjectMember.#ctor
+  commentId: M:SuperOffice.CRM.Services.ProjectMember.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember()
+  nameWithType: ProjectMember.ProjectMember()
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectMember()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ProjectMember()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ProjectMember.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ProjectMember.ToString
+  commentId: M:SuperOffice.CRM.Services.ProjectMember.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ProjectMember.ToString()
+  fullName: SuperOffice.CRM.Services.ProjectMember.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ProjectMember.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ProjectMember.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ProjectMember.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ProjectMember.ToString(String)
+  fullName: SuperOffice.CRM.Services.ProjectMember.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ProjectMember.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectmemberId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ProjectmemberId
+  id: ProjectmemberId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectmemberId
+  nameWithType: ProjectMember.ProjectmemberId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectmemberId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ProjectmemberId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectmemberId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.ProjectmemberId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ContactId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: ProjectMember.ContactId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ContactId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact ID of person who is the project member \n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: ProjectMember.ProjectId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nParent project - the project this project member belongs to. \n"
+  syntax:
+    content: public virtual int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.ProjectId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ContactName
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ContactName
+  id: ContactName
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: ProjectMember.ContactName
+  fullName: SuperOffice.CRM.Services.ProjectMember.ContactName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact name \n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.CRM.Services.ProjectMember.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ContactDepartment
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: ProjectMember.ContactDepartment
+  fullName: SuperOffice.CRM.Services.ProjectMember.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContact department \n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.CRM.Services.ProjectMember.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectName
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ProjectName
+  id: ProjectName
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectName
+  nameWithType: ProjectMember.ProjectName
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the project this project member belongs to. \n"
+  syntax:
+    content: public virtual string ProjectName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectName As String
+  overload: SuperOffice.CRM.Services.ProjectMember.ProjectName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.EmailId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.EmailId
+  id: EmailId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: EmailId
+  nameWithType: ProjectMember.EmailId
+  fullName: SuperOffice.CRM.Services.ProjectMember.EmailId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s email address id \n"
+  syntax:
+    content: public virtual int EmailId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EmailId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.EmailId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.EmailAddress
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.EmailAddress
+  id: EmailAddress
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: EmailAddress
+  nameWithType: ProjectMember.EmailAddress
+  fullName: SuperOffice.CRM.Services.ProjectMember.EmailAddress
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe e-mail address \n"
+  syntax:
+    content: public virtual string EmailAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddress As String
+  overload: SuperOffice.CRM.Services.ProjectMember.EmailAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.CountryId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: ProjectMember.CountryId
+  fullName: SuperOffice.CRM.Services.ProjectMember.CountryId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCountry \n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.Firstname
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: ProjectMember.Firstname
+  fullName: SuperOffice.CRM.Services.ProjectMember.Firstname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFirst name \n"
+  syntax:
+    content: public virtual string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Firstname As String
+  overload: SuperOffice.CRM.Services.ProjectMember.Firstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.MiddleName
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: ProjectMember.MiddleName
+  fullName: SuperOffice.CRM.Services.ProjectMember.MiddleName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMiddle name or &apos;van&apos; etc. \n"
+  syntax:
+    content: public virtual string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MiddleName As String
+  overload: SuperOffice.CRM.Services.ProjectMember.MiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.Lastname
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: ProjectMember.Lastname
+  fullName: SuperOffice.CRM.Services.ProjectMember.Lastname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast name \n"
+  syntax:
+    content: public virtual string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Lastname As String
+  overload: SuperOffice.CRM.Services.ProjectMember.Lastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.PersonId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ProjectMember.PersonId
+  fullName: SuperOffice.CRM.Services.ProjectMember.PersonId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s id - primary key \n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.Mrmrs
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: ProjectMember.Mrmrs
+  fullName: SuperOffice.CRM.Services.ProjectMember.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\ne.g. Mrs, Dr, Ms. \n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.CRM.Services.ProjectMember.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName
+  id: ProjectMemberTypeName
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberTypeName
+  nameWithType: ProjectMember.ProjectMemberTypeName
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe projectmembers type name: &apos;secretary&apos;, &apos;member&apos;, etc. \n"
+  syntax:
+    content: public virtual string ProjectMemberTypeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProjectMemberTypeName As String
+  overload: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.Phone
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.Phone
+  id: Phone
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: ProjectMember.Phone
+  fullName: SuperOffice.CRM.Services.ProjectMember.Phone
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPhone number \n"
+  syntax:
+    content: public virtual string Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Phone As String
+  overload: SuperOffice.CRM.Services.ProjectMember.Phone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.PhoneId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.PhoneId
+  id: PhoneId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: PhoneId
+  nameWithType: ProjectMember.PhoneId
+  fullName: SuperOffice.CRM.Services.ProjectMember.PhoneId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe phone id \n"
+  syntax:
+    content: public virtual int PhoneId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PhoneId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.PhoneId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId
+  id: ProjectMemberTypeId
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectMemberTypeId
+  nameWithType: ProjectMember.ProjectMemberTypeId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nProjectMember Type Id - from the ProjectMemberType list. \n<p>Use MDO List name &quot;PMembType&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual int ProjectMemberTypeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ProjectMemberTypeId As Integer
+  overload: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.EmailAddressName
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.EmailAddressName
+  id: EmailAddressName
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: EmailAddressName
+  nameWithType: ProjectMember.EmailAddressName
+  fullName: SuperOffice.CRM.Services.ProjectMember.EmailAddressName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe e-mail address description \n"
+  syntax:
+    content: public virtual string EmailAddressName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailAddressName As String
+  overload: SuperOffice.CRM.Services.ProjectMember.EmailAddressName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.Comment
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.Comment
+  id: Comment
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ProjectMember.Comment
+  fullName: SuperOffice.CRM.Services.ProjectMember.Comment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nComment text on the project membership \n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.CRM.Services.ProjectMember.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ProjectMember.FullName
+  commentId: P:SuperOffice.CRM.Services.ProjectMember.FullName
+  id: FullName
+  parent: SuperOffice.CRM.Services.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: ProjectMember.FullName
+  fullName: SuperOffice.CRM.Services.ProjectMember.FullName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe person&apos;s full name localized to the current culture/country.  (internal name used in clients for employees) \n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.CRM.Services.ProjectMember.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ProjectAgent
+  commentId: T:SuperOffice.CRM.Services.ProjectAgent
+  isExternal: true
+  name: ProjectAgent
+  nameWithType: ProjectAgent
+  fullName: SuperOffice.CRM.Services.ProjectAgent
+- uid: SuperOffice.CRM.Services.IProjectAgent
+  commentId: T:SuperOffice.CRM.Services.IProjectAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IProjectAgent
+  nameWithType: IProjectAgent
+  fullName: SuperOffice.CRM.Services.IProjectAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.ProjectMember.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.#ctor
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember.ProjectMember
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectMember
+- uid: SuperOffice.CRM.Services.ProjectMember.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ProjectMember.ToString
+  fullName: SuperOffice.CRM.Services.ProjectMember.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectmemberId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ProjectmemberId
+  isExternal: true
+  name: ProjectmemberId
+  nameWithType: ProjectMember.ProjectmemberId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectmemberId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ProjectMember.ContactId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: ProjectMember.ContactId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ContactId
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: ProjectMember.ProjectId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectId
+- uid: SuperOffice.CRM.Services.ProjectMember.ContactName*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: ProjectMember.ContactName
+  fullName: SuperOffice.CRM.Services.ProjectMember.ContactName
+- uid: SuperOffice.CRM.Services.ProjectMember.ContactDepartment*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: ProjectMember.ContactDepartment
+  fullName: SuperOffice.CRM.Services.ProjectMember.ContactDepartment
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectName*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ProjectName
+  isExternal: true
+  name: ProjectName
+  nameWithType: ProjectMember.ProjectName
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectName
+- uid: SuperOffice.CRM.Services.ProjectMember.EmailId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.EmailId
+  isExternal: true
+  name: EmailId
+  nameWithType: ProjectMember.EmailId
+  fullName: SuperOffice.CRM.Services.ProjectMember.EmailId
+- uid: SuperOffice.CRM.Services.ProjectMember.EmailAddress*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.EmailAddress
+  isExternal: true
+  name: EmailAddress
+  nameWithType: ProjectMember.EmailAddress
+  fullName: SuperOffice.CRM.Services.ProjectMember.EmailAddress
+- uid: SuperOffice.CRM.Services.ProjectMember.CountryId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: ProjectMember.CountryId
+  fullName: SuperOffice.CRM.Services.ProjectMember.CountryId
+- uid: SuperOffice.CRM.Services.ProjectMember.Firstname*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.Firstname
+  isExternal: true
+  name: Firstname
+  nameWithType: ProjectMember.Firstname
+  fullName: SuperOffice.CRM.Services.ProjectMember.Firstname
+- uid: SuperOffice.CRM.Services.ProjectMember.MiddleName*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: ProjectMember.MiddleName
+  fullName: SuperOffice.CRM.Services.ProjectMember.MiddleName
+- uid: SuperOffice.CRM.Services.ProjectMember.Lastname*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.Lastname
+  isExternal: true
+  name: Lastname
+  nameWithType: ProjectMember.Lastname
+  fullName: SuperOffice.CRM.Services.ProjectMember.Lastname
+- uid: SuperOffice.CRM.Services.ProjectMember.PersonId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ProjectMember.PersonId
+  fullName: SuperOffice.CRM.Services.ProjectMember.PersonId
+- uid: SuperOffice.CRM.Services.ProjectMember.Mrmrs*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: ProjectMember.Mrmrs
+  fullName: SuperOffice.CRM.Services.ProjectMember.Mrmrs
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName
+  isExternal: true
+  name: ProjectMemberTypeName
+  nameWithType: ProjectMember.ProjectMemberTypeName
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeName
+- uid: SuperOffice.CRM.Services.ProjectMember.Phone*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.Phone
+  isExternal: true
+  name: Phone
+  nameWithType: ProjectMember.Phone
+  fullName: SuperOffice.CRM.Services.ProjectMember.Phone
+- uid: SuperOffice.CRM.Services.ProjectMember.PhoneId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.PhoneId
+  isExternal: true
+  name: PhoneId
+  nameWithType: ProjectMember.PhoneId
+  fullName: SuperOffice.CRM.Services.ProjectMember.PhoneId
+- uid: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId
+  isExternal: true
+  name: ProjectMemberTypeId
+  nameWithType: ProjectMember.ProjectMemberTypeId
+  fullName: SuperOffice.CRM.Services.ProjectMember.ProjectMemberTypeId
+- uid: SuperOffice.CRM.Services.ProjectMember.EmailAddressName*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.EmailAddressName
+  isExternal: true
+  name: EmailAddressName
+  nameWithType: ProjectMember.EmailAddressName
+  fullName: SuperOffice.CRM.Services.ProjectMember.EmailAddressName
+- uid: SuperOffice.CRM.Services.ProjectMember.Comment*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: ProjectMember.Comment
+  fullName: SuperOffice.CRM.Services.ProjectMember.Comment
+- uid: SuperOffice.CRM.Services.ProjectMember.FullName*
+  commentId: Overload:SuperOffice.CRM.Services.ProjectMember.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: ProjectMember.FullName
+  fullName: SuperOffice.CRM.Services.ProjectMember.FullName

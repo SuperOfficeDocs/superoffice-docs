@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
+  id: UserPreferenceStrings.FieldLabels
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.LastLanguage
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.ShowCustomFieldLabels
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.FieldLabels
+  nameWithType: UserPreferenceStrings.FieldLabels
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField labels\n"
+  syntax:
+    content: 'public static class FieldLabels : Object'
+    content.vb: >-
+      Public Module FieldLabels
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.FieldLabels.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "FieldLabels"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "FieldLabels"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.LastLanguage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.LastLanguage
+  id: LastLanguage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
+  langs:
+  - csharp
+  - vb
+  name: LastLanguage
+  nameWithType: UserPreferenceStrings.FieldLabels.LastLanguage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.LastLanguage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast-used language for field labels\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string LastLanguage = "LastLanguage"
+    return:
+      type: System.String
+    content.vb: Public Const LastLanguage As String = "LastLanguage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.ShowCustomFieldLabels
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.ShowCustomFieldLabels
+  id: ShowCustomFieldLabels
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels
+  langs:
+  - csharp
+  - vb
+  name: ShowCustomFieldLabels
+  nameWithType: UserPreferenceStrings.FieldLabels.ShowCustomFieldLabels
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.FieldLabels.ShowCustomFieldLabels
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnabling this setting will allow you to edit field labels in the system\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string ShowCustomFieldLabels = "ShowCustomFieldLabels"
+    return:
+      type: System.String
+    content.vb: Public Const ShowCustomFieldLabels As String = "ShowCustomFieldLabels"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

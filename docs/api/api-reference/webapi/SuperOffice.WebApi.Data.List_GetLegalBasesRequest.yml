@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetLegalBasesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetLegalBasesRequest
+  id: List_GetLegalBasesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetLegalBasesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetLegalBasesRequest
+  nameWithType: List_GetLegalBasesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetLegalBasesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetLegalBasesRequest : Object'
+    content.vb: >-
+      Public Class List_GetLegalBasesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetLegalBasesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetLegalBasesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetLegalBasesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetLegalBasesRequest()
+  nameWithType: List_GetLegalBasesRequest.List_GetLegalBasesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetLegalBasesRequest.List_GetLegalBasesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetLegalBasesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetLegalBasesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetLegalBasesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetLegalBasesRequest.#ctor
+  isExternal: true
+  name: List_GetLegalBasesRequest
+  nameWithType: List_GetLegalBasesRequest.List_GetLegalBasesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetLegalBasesRequest.List_GetLegalBasesRequest

@@ -1,0 +1,1804 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  commentId: T:SuperOffice.CRM.Notification.PushNotificationServiceManager
+  id: PushNotificationServiceManager
+  parent: SuperOffice.CRM.Notification
+  children:
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.#ctor(System.Int32)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString(System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount(System.Int32)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(CentralServices.Data.Pocket.PushNotificationType)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(System.Collections.Generic.IEnumerable{System.Int32},CentralServices.Data.Pocket.PushNotificationType,System.Boolean)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices(System.Int32)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType(CentralServices.Data.Pocket.PushNotificationType)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.Int32,System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles(SuperOffice.Data.NotificationPlatform)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices(System.TimeSpan)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice(SuperOffice.CRM.Notification.DeviceInfo)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow},CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32,CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.Int32,System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.String,System.String)
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: PushNotificationServiceManager
+  nameWithType: PushNotificationServiceManager
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public class PushNotificationServiceManager
+    content.vb: Public Class PushNotificationServiceManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Notification.PushNotificationServiceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.#ctor(System.Int32)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: PushNotificationServiceManager(Int32)
+  nameWithType: PushNotificationServiceManager.PushNotificationServiceManager(Int32)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.PushNotificationServiceManager(System.Int32)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public PushNotificationServiceManager(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    content.vb: Public Sub New(associateId As Integer)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(CentralServices.Data.Pocket.PushNotificationType)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(CentralServices.Data.Pocket.PushNotificationType)
+  id: GetPushNotificationRows(CentralServices.Data.Pocket.PushNotificationType)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetPushNotificationRows(PushNotificationType)
+  nameWithType: PushNotificationServiceManager.GetPushNotificationRows(PushNotificationType)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(CentralServices.Data.Pocket.PushNotificationType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public List<PushNotificationServiceRow> GetPushNotificationRows(PushNotificationType type)
+    parameters:
+    - id: type
+      type: CentralServices.Data.Pocket.PushNotificationType
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+    content.vb: Public Function GetPushNotificationRows(type As PushNotificationType) As List(Of PushNotificationServiceRow)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(System.Collections.Generic.IEnumerable{System.Int32},CentralServices.Data.Pocket.PushNotificationType,System.Boolean)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(System.Collections.Generic.IEnumerable{System.Int32},CentralServices.Data.Pocket.PushNotificationType,System.Boolean)
+  id: GetPushNotificationRows(System.Collections.Generic.IEnumerable{System.Int32},CentralServices.Data.Pocket.PushNotificationType,System.Boolean)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetPushNotificationRows(IEnumerable<Int32>, PushNotificationType, Boolean)
+  nameWithType: PushNotificationServiceManager.GetPushNotificationRows(IEnumerable<Int32>, PushNotificationType, Boolean)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(System.Collections.Generic.IEnumerable<System.Int32>, CentralServices.Data.Pocket.PushNotificationType, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public List<PushNotificationServiceRow> GetPushNotificationRows(IEnumerable<int> associateIds, PushNotificationType type, bool overrideTagSettings)
+    parameters:
+    - id: associateIds
+      type: System.Collections.Generic.IEnumerable{System.Int32}
+    - id: type
+      type: CentralServices.Data.Pocket.PushNotificationType
+    - id: overrideTagSettings
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+    content.vb: Public Function GetPushNotificationRows(associateIds As IEnumerable(Of Integer), type As PushNotificationType, overrideTagSettings As Boolean) As List(Of PushNotificationServiceRow)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows*
+  nameWithType.vb: PushNotificationServiceManager.GetPushNotificationRows(IEnumerable(Of Int32), PushNotificationType, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows(System.Collections.Generic.IEnumerable(Of System.Int32), CentralServices.Data.Pocket.PushNotificationType, System.Boolean)
+  name.vb: GetPushNotificationRows(IEnumerable(Of Int32), PushNotificationType, Boolean)
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles(SuperOffice.Data.NotificationPlatform)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles(SuperOffice.Data.NotificationPlatform)
+  id: PNSHandles(SuperOffice.Data.NotificationPlatform)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: PNSHandles(NotificationPlatform)
+  nameWithType: PushNotificationServiceManager.PNSHandles(NotificationPlatform)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles(SuperOffice.Data.NotificationPlatform)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public IEnumerable<string> PNSHandles(NotificationPlatform platform)
+    parameters:
+    - id: platform
+      type: SuperOffice.Data.NotificationPlatform
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Function PNSHandles(platform As NotificationPlatform) As IEnumerable(Of String)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices(System.Int32)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices(System.Int32)
+  id: GetRegisteredDevices(System.Int32)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetRegisteredDevices(Int32)
+  nameWithType: PushNotificationServiceManager.GetRegisteredDevices(Int32)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public IEnumerable<DeviceInfo> GetRegisteredDevices(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Notification.DeviceInfo}
+    content.vb: Public Function GetRegisteredDevices(associateId As Integer) As IEnumerable(Of DeviceInfo)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice(SuperOffice.CRM.Notification.DeviceInfo)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice(SuperOffice.CRM.Notification.DeviceInfo)
+  id: RegisterDevice(SuperOffice.CRM.Notification.DeviceInfo)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: RegisterDevice(DeviceInfo)
+  nameWithType: PushNotificationServiceManager.RegisterDevice(DeviceInfo)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice(SuperOffice.CRM.Notification.DeviceInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void RegisterDevice(DeviceInfo deviceInfo)
+    parameters:
+    - id: deviceInfo
+      type: SuperOffice.CRM.Notification.DeviceInfo
+    content.vb: Public Sub RegisterDevice(deviceInfo As DeviceInfo)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices(System.TimeSpan)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices(System.TimeSpan)
+  id: PurgeOldDevices(System.TimeSpan)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: PurgeOldDevices(TimeSpan)
+  nameWithType: PushNotificationServiceManager.PurgeOldDevices(TimeSpan)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices(System.TimeSpan)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nWill delete all registerred devices for the associate, with an handler update date older than current time - specified age\n"
+  syntax:
+    content: public void PurgeOldDevices(TimeSpan age)
+    parameters:
+    - id: age
+      type: System.TimeSpan
+    content.vb: Public Sub PurgeOldDevices(age As TimeSpan)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount(System.String,System.Int32)
+  id: UpdateSentNotificationCount(System.String,System.Int32)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateSentNotificationCount(String, Int32)
+  nameWithType: PushNotificationServiceManager.UpdateSentNotificationCount(String, Int32)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void UpdateSentNotificationCount(string deviceIdentifier, int notificationCount)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+    - id: notificationCount
+      type: System.Int32
+    content.vb: Public Sub UpdateSentNotificationCount(deviceIdentifier As String, notificationCount As Integer)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.String)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.String)
+  id: GetTags(System.String)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetTags(String)
+  nameWithType: PushNotificationServiceManager.GetTags(String)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public string GetTags(string deviceIdentifier)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetTags(deviceIdentifier As String) As String
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.Int32,System.String)
+  id: GetTags(System.Int32,System.String)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetTags(Int32, String)
+  nameWithType: PushNotificationServiceManager.GetTags(Int32, String)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public string GetTags(int associateId, string deviceIdentifier)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: deviceIdentifier
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetTags(associateId As Integer, deviceIdentifier As String) As String
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.Int32,System.String)
+  id: SetTags(System.Int32,System.String)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SetTags(Int32, String)
+  nameWithType: PushNotificationServiceManager.SetTags(Int32, String)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void SetTags(int associateId, string tags)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: tags
+      type: System.String
+    content.vb: Public Sub SetTags(associateId As Integer, tags As String)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.String,System.String)
+  id: SetTags(System.String,System.String)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SetTags(String, String)
+  nameWithType: PushNotificationServiceManager.SetTags(String, String)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void SetTags(string deviceIdentifier, string tags)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+    - id: tags
+      type: System.String
+    content.vb: Public Sub SetTags(deviceIdentifier As String, tags As String)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString(System.String)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString(System.String)
+  id: GetCompleteTagString(System.String)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetCompleteTagString(String)
+  nameWithType: PushNotificationServiceManager.GetCompleteTagString(String)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: protected string GetCompleteTagString(string inputTags)
+    parameters:
+    - id: inputTags
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Protected Function GetCompleteTagString(inputTags As String) As String
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType(CentralServices.Data.Pocket.PushNotificationType)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType(CentralServices.Data.Pocket.PushNotificationType)
+  id: GetTagFromPushNotificationType(CentralServices.Data.Pocket.PushNotificationType)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetTagFromPushNotificationType(PushNotificationType)
+  nameWithType: PushNotificationServiceManager.GetTagFromPushNotificationType(PushNotificationType)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType(CentralServices.Data.Pocket.PushNotificationType)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public static string GetTagFromPushNotificationType(PushNotificationType type)
+    parameters:
+    - id: type
+      type: CentralServices.Data.Pocket.PushNotificationType
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetTagFromPushNotificationType(type As PushNotificationType) As String
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags
+  id: GetAvailableTags
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableTags()
+  nameWithType: PushNotificationServiceManager.GetAvailableTags()
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: protected string[] GetAvailableTags()
+    return:
+      type: System.String[]
+    content.vb: Protected Function GetAvailableTags As String()
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32,CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32,CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  id: SendMessage(System.Int32,CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(Int32, PushNotificationMessage, Boolean)
+  nameWithType: PushNotificationServiceManager.SendMessage(Int32, PushNotificationMessage, Boolean)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32, CentralServices.Data.Pocket.PushNotificationMessage, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void SendMessage(int associateId, PushNotificationMessage message, bool overrideTagSettings)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: message
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+    - id: overrideTagSettings
+      type: System.Boolean
+    content.vb: Public Sub SendMessage(associateId As Integer, message As PushNotificationMessage, overrideTagSettings As Boolean)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
+  id: GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage,System.String)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetTranslatedMessage(PushNotificationMessage, String)
+  nameWithType: PushNotificationServiceManager.GetTranslatedMessage(PushNotificationMessage, String)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage(CentralServices.Data.Pocket.PushNotificationMessage, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: protected PushNotificationMessage GetTranslatedMessage(PushNotificationMessage originalMessage, string language)
+    parameters:
+    - id: originalMessage
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+    - id: language
+      type: System.String
+    return:
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+    content.vb: Protected Function GetTranslatedMessage(originalMessage As PushNotificationMessage, language As String) As PushNotificationMessage
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)
+  id: SendMessage(System.Int32[],CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(Int32[], PushNotificationMessage, Boolean, Boolean)
+  nameWithType: PushNotificationServiceManager.SendMessage(Int32[], PushNotificationMessage, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32[], CentralServices.Data.Pocket.PushNotificationMessage, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nSends a push notification message to associates that have devices added in the PushNotificationService table\n"
+  syntax:
+    content: public void SendMessage(int[] associateIds, PushNotificationMessage message, bool usePredefinedMessageValues, bool overrideTagSettings)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Who should receive the message
+    - id: message
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+      description: The message to send
+    - id: usePredefinedMessageValues
+      type: System.Boolean
+      description: If this is true, we will look up and replace the message title based on the NotificationMessageType. If no url is provided, a default value will be assigned
+    - id: overrideTagSettings
+      type: System.Boolean
+      description: If true, ignore possible tag settings about disabling certain message types
+    content.vb: Public Sub SendMessage(associateIds As Integer(), message As PushNotificationMessage, usePredefinedMessageValues As Boolean, overrideTagSettings As Boolean)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage*
+  nameWithType.vb: PushNotificationServiceManager.SendMessage(Int32(), PushNotificationMessage, Boolean, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Int32(), CentralServices.Data.Pocket.PushNotificationMessage, System.Boolean, System.Boolean)
+  name.vb: SendMessage(Int32(), PushNotificationMessage, Boolean, Boolean)
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow},CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow},CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  id: SendMessage(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow},CentralServices.Data.Pocket.PushNotificationMessage,System.Boolean)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SendMessage(IEnumerable<PushNotificationServiceRow>, PushNotificationMessage, Boolean)
+  nameWithType: PushNotificationServiceManager.SendMessage(IEnumerable<PushNotificationServiceRow>, PushNotificationMessage, Boolean)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PushNotificationServiceRow>, CentralServices.Data.Pocket.PushNotificationMessage, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public void SendMessage(IEnumerable<PushNotificationServiceRow> rows, PushNotificationMessage message, bool usePredefinedMessageValues)
+    parameters:
+    - id: rows
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+    - id: message
+      type: CentralServices.Data.Pocket.PushNotificationMessage
+    - id: usePredefinedMessageValues
+      type: System.Boolean
+    content.vb: Public Sub SendMessage(rows As IEnumerable(Of PushNotificationServiceRow), message As PushNotificationMessage, usePredefinedMessageValues As Boolean)
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage*
+  nameWithType.vb: PushNotificationServiceManager.SendMessage(IEnumerable(Of PushNotificationServiceRow), PushNotificationMessage, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PushNotificationServiceRow), CentralServices.Data.Pocket.PushNotificationMessage, System.Boolean)
+  name.vb: SendMessage(IEnumerable(Of PushNotificationServiceRow), PushNotificationMessage, Boolean)
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount(System.Int32)
+  commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount(System.Int32)
+  id: GetInvitationCount(System.Int32)
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: GetInvitationCount(Int32)
+  nameWithType: PushNotificationServiceManager.GetInvitationCount(Int32)
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public int GetInvitationCount(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetInvitationCount(associateId As Integer) As Integer
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions
+  commentId: P:SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions
+  id: SilentExceptions
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SilentExceptions
+  nameWithType: PushNotificationServiceManager.SilentExceptions
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nIf true, exceptions are being catched and logged instead of thrown\n"
+  syntax:
+    content: public bool SilentExceptions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SilentExceptions As Boolean
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself
+  commentId: P:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself
+  id: SendMessageToOurself
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: SendMessageToOurself
+  nameWithType: PushNotificationServiceManager.SendMessageToOurself
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nIf true, we will also send messages to logged in user if specified as recipient\nIf false, we will filter out logged in user\n"
+  syntax:
+    content: public bool SendMessageToOurself { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SendMessageToOurself As Boolean
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  commentId: P:SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  id: IncludeUpdatedInvitationCount
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: IncludeUpdatedInvitationCount
+  nameWithType: PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public bool IncludeUpdatedInvitationCount { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeUpdatedInvitationCount As Boolean
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters
+  commentId: P:SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters
+  id: UpdateSentMessageCounters
+  parent: SuperOffice.CRM.Notification.PushNotificationServiceManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateSentMessageCounters
+  nameWithType: PushNotificationServiceManager.UpdateSentMessageCounters
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public bool UpdateSentMessageCounters { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UpdateSentMessageCounters As Boolean
+  overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  isExternal: true
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PushNotificationServiceManager, To>()
+  nameWithType: EnumUtil.MapEnums<PushNotificationServiceManager, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.PushNotificationServiceManager, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PushNotificationServiceManager, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.PushNotificationServiceManager, To)()
+  name.vb: MapEnums(Of PushNotificationServiceManager, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PushNotificationServiceManager, To>
+    nameWithType: EnumUtil.MapEnums<PushNotificationServiceManager, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.PushNotificationServiceManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PushNotificationServiceManager, To)
+    nameWithType: EnumUtil.MapEnums(Of PushNotificationServiceManager, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.PushNotificationServiceManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PushNotificationServiceManager, To>()
+  nameWithType: Converters.MapEnums<PushNotificationServiceManager, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.PushNotificationServiceManager, To>()
+  nameWithType.vb: Converters.MapEnums(Of PushNotificationServiceManager, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.PushNotificationServiceManager, To)()
+  name.vb: MapEnums(Of PushNotificationServiceManager, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PushNotificationServiceManager, To>
+    nameWithType: Converters.MapEnums<PushNotificationServiceManager, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.PushNotificationServiceManager, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PushNotificationServiceManager, To)
+    nameWithType: Converters.MapEnums(Of PushNotificationServiceManager, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.PushNotificationServiceManager, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.#ctor*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.#ctor
+  isExternal: true
+  name: PushNotificationServiceManager
+  nameWithType: PushNotificationServiceManager.PushNotificationServiceManager
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.PushNotificationServiceManager
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows
+  isExternal: true
+  name: GetPushNotificationRows
+  nameWithType: PushNotificationServiceManager.GetPushNotificationRows
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetPushNotificationRows
+- uid: CentralServices.Data.Pocket.PushNotificationType
+  isExternal: true
+  name: PushNotificationType
+  nameWithType: PushNotificationType
+  fullName: CentralServices.Data.Pocket.PushNotificationType
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<PushNotificationServiceRow>
+  nameWithType: List<PushNotificationServiceRow>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Rows.PushNotificationServiceRow>
+  nameWithType.vb: List(Of PushNotificationServiceRow)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Rows.PushNotificationServiceRow)
+  name.vb: List(Of PushNotificationServiceRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    name: PushNotificationServiceRow
+    nameWithType: PushNotificationServiceRow
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    name: PushNotificationServiceRow
+    nameWithType: PushNotificationServiceRow
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.IEnumerable{System.Int32}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Int32}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<Int32>
+  nameWithType: IEnumerable<Int32>
+  fullName: System.Collections.Generic.IEnumerable<System.Int32>
+  nameWithType.vb: IEnumerable(Of Int32)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Int32)
+  name.vb: IEnumerable(Of Int32)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles
+  isExternal: true
+  name: PNSHandles
+  nameWithType: PushNotificationServiceManager.PNSHandles
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.PNSHandles
+- uid: SuperOffice.Data.NotificationPlatform
+  commentId: T:SuperOffice.Data.NotificationPlatform
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotificationPlatform
+  nameWithType: NotificationPlatform
+  fullName: SuperOffice.Data.NotificationPlatform
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices
+  isExternal: true
+  name: GetRegisteredDevices
+  nameWithType: PushNotificationServiceManager.GetRegisteredDevices
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetRegisteredDevices
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Notification.DeviceInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Notification.DeviceInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<DeviceInfo>
+  nameWithType: IEnumerable<DeviceInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Notification.DeviceInfo>
+  nameWithType.vb: IEnumerable(Of DeviceInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Notification.DeviceInfo)
+  name.vb: IEnumerable(Of DeviceInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Notification.DeviceInfo
+    name: DeviceInfo
+    nameWithType: DeviceInfo
+    fullName: SuperOffice.CRM.Notification.DeviceInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Notification.DeviceInfo
+    name: DeviceInfo
+    nameWithType: DeviceInfo
+    fullName: SuperOffice.CRM.Notification.DeviceInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice
+  isExternal: true
+  name: RegisterDevice
+  nameWithType: PushNotificationServiceManager.RegisterDevice
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.RegisterDevice
+- uid: SuperOffice.CRM.Notification.DeviceInfo
+  commentId: T:SuperOffice.CRM.Notification.DeviceInfo
+  parent: SuperOffice.CRM.Notification
+  isExternal: true
+  name: DeviceInfo
+  nameWithType: DeviceInfo
+  fullName: SuperOffice.CRM.Notification.DeviceInfo
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices
+  isExternal: true
+  name: PurgeOldDevices
+  nameWithType: PushNotificationServiceManager.PurgeOldDevices
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.PurgeOldDevices
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount
+  isExternal: true
+  name: UpdateSentNotificationCount
+  nameWithType: PushNotificationServiceManager.UpdateSentNotificationCount
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentNotificationCount
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags
+  isExternal: true
+  name: GetTags
+  nameWithType: PushNotificationServiceManager.GetTags
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTags
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags
+  isExternal: true
+  name: SetTags
+  nameWithType: PushNotificationServiceManager.SetTags
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SetTags
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString
+  isExternal: true
+  name: GetCompleteTagString
+  nameWithType: PushNotificationServiceManager.GetCompleteTagString
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetCompleteTagString
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType
+  isExternal: true
+  name: GetTagFromPushNotificationType
+  nameWithType: PushNotificationServiceManager.GetTagFromPushNotificationType
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags
+  isExternal: true
+  name: GetAvailableTags
+  nameWithType: PushNotificationServiceManager.GetAvailableTags
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage
+  isExternal: true
+  name: SendMessage
+  nameWithType: PushNotificationServiceManager.SendMessage
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessage
+- uid: CentralServices.Data.Pocket.PushNotificationMessage
+  isExternal: true
+  name: PushNotificationMessage
+  nameWithType: PushNotificationMessage
+  fullName: CentralServices.Data.Pocket.PushNotificationMessage
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage
+  isExternal: true
+  name: GetTranslatedMessage
+  nameWithType: PushNotificationServiceManager.GetTranslatedMessage
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTranslatedMessage
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.PushNotificationServiceRow}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PushNotificationServiceRow>
+  nameWithType: IEnumerable<PushNotificationServiceRow>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.PushNotificationServiceRow>
+  nameWithType.vb: IEnumerable(Of PushNotificationServiceRow)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.PushNotificationServiceRow)
+  name.vb: IEnumerable(Of PushNotificationServiceRow)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    name: PushNotificationServiceRow
+    nameWithType: PushNotificationServiceRow
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    name: PushNotificationServiceRow
+    nameWithType: PushNotificationServiceRow
+    fullName: SuperOffice.CRM.Rows.PushNotificationServiceRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount
+  isExternal: true
+  name: GetInvitationCount
+  nameWithType: PushNotificationServiceManager.GetInvitationCount
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetInvitationCount
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions
+  isExternal: true
+  name: SilentExceptions
+  nameWithType: PushNotificationServiceManager.SilentExceptions
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SilentExceptions
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself
+  isExternal: true
+  name: SendMessageToOurself
+  nameWithType: PushNotificationServiceManager.SendMessageToOurself
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.SendMessageToOurself
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  isExternal: true
+  name: IncludeUpdatedInvitationCount
+  nameWithType: PushNotificationServiceManager.IncludeUpdatedInvitationCount
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.IncludeUpdatedInvitationCount
+- uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters*
+  commentId: Overload:SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters
+  isExternal: true
+  name: UpdateSentMessageCounters
+  nameWithType: PushNotificationServiceManager.UpdateSentMessageCounters
+  fullName: SuperOffice.CRM.Notification.PushNotificationServiceManager.UpdateSentMessageCounters

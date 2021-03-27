@@ -1,0 +1,2616 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.TicketAgent
+  commentId: T:SuperOffice.WebApi.Agents.TicketAgent
+  id: TicketAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.TicketAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.TicketAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync(SuperOffice.WebApi.Data.AttachmentEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync(SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync(SuperOffice.WebApi.Data.TicketMessageEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent used for Ticket functions\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (TicketAgent agent = new TicketAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class TicketAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class TicketAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.TicketAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: TicketAgent(HttpClient)
+  nameWithType: TicketAgent.TicketAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.TicketAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Agent used for Ticket functions\n"
+  syntax:
+    content: public TicketAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: TicketAgent(WebApiOptions, HttpClient)
+  nameWithType: TicketAgent.TicketAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.TicketAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Agent used for Ticket functions\n"
+  syntax:
+    content: public TicketAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTicketEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketEntityAsync(RequestOptions)
+  nameWithType: TicketAgent.CreateDefaultTicketEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TicketEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<TicketEntity> CreateDefaultTicketEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketEntity}
+      description: A blank TicketEntity
+    content.vb: Public Function CreateDefaultTicketEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of TicketEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync(SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync(SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveTicketEntityAsync(SuperOffice.WebApi.Data.TicketEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketEntityAsync(TicketEntity, RequestOptions)
+  nameWithType: TicketAgent.SaveTicketEntityAsync(TicketEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync(SuperOffice.WebApi.Data.TicketEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing TicketEntity or creates a new TicketEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<TicketEntity> SaveTicketEntityAsync(TicketEntity ticketEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntity
+      type: SuperOffice.WebApi.Data.TicketEntity
+      description: The TicketEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketEntity}
+      description: New or updated TicketEntity
+    content.vb: Public Function SaveTicketEntityAsync(ticketEntity As TicketEntity, requestOptions As RequestOptions = Nothing) As Task(Of TicketEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultTicketMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketMessageEntityAsync(RequestOptions)
+  nameWithType: TicketAgent.CreateDefaultTicketMessageEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new TicketMessageEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<TicketMessageEntity> CreateDefaultTicketMessageEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessageEntity}
+      description: A blank TicketMessageEntity
+    content.vb: Public Function CreateDefaultTicketMessageEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of TicketMessageEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync(SuperOffice.WebApi.Data.TicketMessageEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync(SuperOffice.WebApi.Data.TicketMessageEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveTicketMessageEntityAsync(SuperOffice.WebApi.Data.TicketMessageEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketMessageEntityAsync(TicketMessageEntity, RequestOptions)
+  nameWithType: TicketAgent.SaveTicketMessageEntityAsync(TicketMessageEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync(SuperOffice.WebApi.Data.TicketMessageEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<TicketMessageEntity> SaveTicketMessageEntityAsync(TicketMessageEntity ticketMessageEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageEntity
+      type: SuperOffice.WebApi.Data.TicketMessageEntity
+      description: The TicketMessageEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessageEntity}
+      description: New or updated TicketMessageEntity
+    content.vb: Public Function SaveTicketMessageEntityAsync(ticketMessageEntity As TicketMessageEntity, requestOptions As RequestOptions = Nothing) As Task(Of TicketMessageEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultAttachmentEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAttachmentEntityAsync(RequestOptions)
+  nameWithType: TicketAgent.CreateDefaultAttachmentEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new AttachmentEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<AttachmentEntity> CreateDefaultAttachmentEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity}
+      description: A blank AttachmentEntity
+    content.vb: Public Function CreateDefaultAttachmentEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of AttachmentEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync(SuperOffice.WebApi.Data.AttachmentEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync(SuperOffice.WebApi.Data.AttachmentEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveAttachmentEntityAsync(SuperOffice.WebApi.Data.AttachmentEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAttachmentEntityAsync(AttachmentEntity, RequestOptions)
+  nameWithType: TicketAgent.SaveAttachmentEntityAsync(AttachmentEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync(SuperOffice.WebApi.Data.AttachmentEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is 0. \n"
+  syntax:
+    content: public Task<AttachmentEntity> SaveAttachmentEntityAsync(AttachmentEntity attachmentEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: attachmentEntity
+      type: SuperOffice.WebApi.Data.AttachmentEntity
+      description: The AttachmentEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity}
+      description: New or updated AttachmentEntity
+    content.vb: Public Function SaveAttachmentEntityAsync(attachmentEntity As AttachmentEntity, requestOptions As RequestOptions = Nothing) As Task(Of AttachmentEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketEntityAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetTicketEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific TicketEntity object.                        \n"
+  syntax:
+    content: public Task<TicketEntity> GetTicketEntityAsync(int ticketEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The identifier of the TicketEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketEntity}
+      description: TicketEntity
+    content.vb: Public Function GetTicketEntityAsync(ticketEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTicketEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketEntityAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.DeleteTicketEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete a ticket\n"
+  syntax:
+    content: public Task DeleteTicketEntityAsync(int ticketEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The ticket to delete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: returns void
+    content.vb: Public Function DeleteTicketEntityAsync(ticketEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: NotifyNewTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotifyNewTicketAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.NotifyNewTicketAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nNotify user agents about the creation of a new ticket\n"
+  syntax:
+    content: public Task NotifyNewTicketAsync(int ticketEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The id of the ticket to notify about
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function NotifyNewTicketAsync(ticketEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: NotifyNewTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: NotifyNewTicketMessageAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.NotifyNewTicketMessageAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nNotify user agents about the creation of a new message on a ticket\n"
+  syntax:
+    content: public Task NotifyNewTicketMessageAsync(int ticketEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The id of the ticket to notify about
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function NotifyNewTicketMessageAsync(ticketEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketAttachmentsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketAttachmentsAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetTicketAttachmentsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet attachment infos for all attachments connected to messages in specified ticket\n"
+  syntax:
+    content: public Task<AttachmentEntity[]> GetTicketAttachmentsAsync(int ticketEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+      description: The id of the ticket to get attachment infos from
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity[]}
+      description: An array containing attachment info objects for all the attachments
+    content.vb: Public Function GetTicketAttachmentsAsync(ticketEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AttachmentEntity())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketMessageEntityAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetTicketMessageEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific TicketMessageEntity object.                        \n"
+  syntax:
+    content: public Task<TicketMessageEntity> GetTicketMessageEntityAsync(int ticketMessageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The identifier of the TicketMessageEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessageEntity}
+      description: TicketMessageEntity
+    content.vb: Public Function GetTicketMessageEntityAsync(ticketMessageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketMessageEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteTicketMessageEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTicketMessageEntityAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.DeleteTicketMessageEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete a ticket message\n"
+  syntax:
+    content: public Task DeleteTicketMessageEntityAsync(int ticketMessageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The ticket message to delete
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: returns void
+    content.vb: Public Function DeleteTicketMessageEntityAsync(ticketMessageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: SanitizeMailContentAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SanitizeMailContentAsync(String, RequestOptions)
+  nameWithType: TicketAgent.SanitizeMailContentAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove harmful HTML tags and attributes from an email\n"
+  syntax:
+    content: public Task<string> SanitizeMailContentAsync(string content, RequestOptions requestOptions = null)
+    parameters:
+    - id: content
+      type: System.String
+      description: The email content to sanitize
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The sanitized email content
+    content.vb: Public Function SanitizeMailContentAsync(content As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  id: SanitizeMailContentsAsync(System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SanitizeMailContentsAsync(String[], RequestOptions)
+  nameWithType: TicketAgent.SanitizeMailContentsAsync(String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync(System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove harmful HTML tags and attributes from an email\n"
+  syntax:
+    content: public Task<string[]> SanitizeMailContentsAsync(string[] contents, RequestOptions requestOptions = null)
+    parameters:
+    - id: contents
+      type: System.String[]
+      description: The email contents to sanitize
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: The sanitized email contents
+    content.vb: Public Function SanitizeMailContentsAsync(contents As String(), requestOptions As RequestOptions = Nothing) As Task(Of String())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync*
+  nameWithType.vb: TicketAgent.SanitizeMailContentsAsync(String(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync(System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SanitizeMailContentsAsync(String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: Html2TextAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: Html2TextAsync(String, RequestOptions)
+  nameWithType: TicketAgent.Html2TextAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate a plain text version of the html, suitable for email\n"
+  syntax:
+    content: public Task<string> Html2TextAsync(string content, RequestOptions requestOptions = null)
+    parameters:
+    - id: content
+      type: System.String
+      description: The html version
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: The plain text version
+    content.vb: Public Function Html2TextAsync(content As String, requestOptions As RequestOptions = Nothing) As Task(Of String)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAttachmentInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentInfoAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetAttachmentInfoAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a list with meta data for all attached attachments\n"
+  syntax:
+    content: public Task<AttachmentEntity[]> GetAttachmentInfoAsync(int ticketMessageEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The id of the ticket message to get attachment infos
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity[]}
+      description: An array with AttachmentEntity objects, describing each attachment
+    content.vb: Public Function GetAttachmentInfoAsync(ticketMessageEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AttachmentEntity())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: AddAttachmentsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: AddAttachmentsAsync(Int32, Int32[], RequestOptions)
+  nameWithType: TicketAgent.AddAttachmentsAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConnect existing attachments with this TicketMessage. Can connect multiple attachments\n"
+  syntax:
+    content: public Task AddAttachmentsAsync(int ticketMessageEntityId, int[] attachmentIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The id of the ticket message to connect the attachments to
+    - id: attachmentIds
+      type: System.Int32[]
+      description: An array of attachments to connect to this TicketMessage
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function AddAttachmentsAsync(ticketMessageEntityId As Integer, attachmentIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync*
+  nameWithType.vb: TicketAgent.AddAttachmentsAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AddAttachmentsAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: SendTicketMessageAsync(System.Int32,System.String[],System.String[],System.String[],System.String,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SendTicketMessageAsync(Int32, String[], String[], String[], String, Int32, String, RequestOptions)
+  nameWithType: TicketAgent.SendTicketMessageAsync(Int32, String[], String[], String[], String, Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32, System.String[], System.String[], System.String[], System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSend a message to recipients, e.g. by email or sms\n"
+  syntax:
+    content: public Task SendTicketMessageAsync(int ticketMessageEntityId, string[] to, string[] cc, string[] bcc, string subject, int replyTemplateId, string gdprSource, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageEntityId
+      type: System.Int32
+      description: The id of the ticket message to send
+    - id: to
+      type: System.String[]
+      description: The To-recipients. Each recipient must be in correct format
+    - id: cc
+      type: System.String[]
+      description: The Cc-recipients. Each recipient must be in correct format
+    - id: bcc
+      type: System.String[]
+      description: The Bcc-recipients. Each recipient must be in correct format
+    - id: subject
+      type: System.String
+      description: The subject
+    - id: replyTemplateId
+      type: System.Int32
+      description: Optional ID of reply template to merge message with. &lt;= 0 to skip.
+    - id: gdprSource
+      type: System.String
+      description: 'Optional GdprSource string which will be stored for newly created Persons. Blank value will give Gdpr source: API.'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SendTicketMessageAsync(ticketMessageEntityId As Integer, to As String(), cc As String(), bcc As String(), subject As String, replyTemplateId As Integer, gdprSource As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync*
+  nameWithType.vb: TicketAgent.SendTicketMessageAsync(Int32, String(), String(), String(), String, Int32, String, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync(System.Int32, System.String(), System.String(), System.String(), System.String, System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  name.vb: SendTicketMessageAsync(Int32, String(), String(), String(), String, Int32, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetTicketAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific Ticket object.                        \n"
+  syntax:
+    content: public Task<Ticket> GetTicketAsync(int ticketId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The identifier of the Ticket object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Ticket}
+      description: Ticket
+    content.vb: Public Function GetTicketAsync(ticketId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Ticket)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketsAsync(Int32[], RequestOptions)
+  nameWithType: TicketAgent.GetTicketsAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet multiple tickets\n"
+  syntax:
+    content: public Task<Ticket[]> GetTicketsAsync(int[] ticketIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: The ids of tickets to get
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Ticket[]}
+      description: Returns array of tickets in same order as input ids
+    content.vb: Public Function GetTicketsAsync(ticketIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Ticket())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync*
+  nameWithType.vb: TicketAgent.GetTicketsAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetTicketsAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTicketMessageAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetTicketMessageAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific TicketMessage object.                        \n"
+  syntax:
+    content: public Task<TicketMessage> GetTicketMessageAsync(int ticketMessageId, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketMessageId
+      type: System.Int32
+      description: The identifier of the TicketMessage object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessage}
+      description: TicketMessage
+    content.vb: Public Function GetTicketMessageAsync(ticketMessageId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of TicketMessage)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetAttachmentEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentEntityAsync(Int32, RequestOptions)
+  nameWithType: TicketAgent.GetAttachmentEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific AttachmentEntity object.                        \n"
+  syntax:
+    content: public Task<AttachmentEntity> GetAttachmentEntityAsync(int attachmentEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: attachmentEntityId
+      type: System.Int32
+      description: The identifier of the AttachmentEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity}
+      description: AttachmentEntity
+    content.vb: Public Function GetAttachmentEntityAsync(attachmentEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of AttachmentEntity)
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  id: UploadAttachmentAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: UploadAttachmentAsync(Int32, Byte[], RequestOptions)
+  nameWithType: TicketAgent.UploadAttachmentAsync(Int32, Byte[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32, System.Byte[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpload an attachment and return the attachment id\n"
+  syntax:
+    content: public Task UploadAttachmentAsync(int attachmentId, byte[] content, RequestOptions requestOptions = null)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+      description: The id of the attachment row, for which to attach the upload data
+    - id: content
+      type: System.Byte[]
+      description: A stream to the content to be uploaded
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function UploadAttachmentAsync(attachmentId As Integer, content As Byte(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync*
+  nameWithType.vb: TicketAgent.UploadAttachmentAsync(Int32, Byte(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync(System.Int32, System.Byte(), SuperOffice.WebApi.RequestOptions)
+  name.vb: UploadAttachmentAsync(Int32, Byte(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetAttachmentStreamAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAttachmentStreamAsync(Int32, String, RequestOptions)
+  nameWithType: TicketAgent.GetAttachmentStreamAsync(Int32, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync(System.Int32, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the content of an attachment\n"
+  syntax:
+    content: public Task<byte[]> GetAttachmentStreamAsync(int attachmentId, string returnContentType = "application/octet-stream", RequestOptions requestOptions = null)
+    parameters:
+    - id: attachmentId
+      type: System.Int32
+      description: The id of the attachment to retrieve
+    - id: returnContentType
+      type: System.String
+      description: Accept content-type. Default &quot;application/octet-stream&quot;. Could also be &quot;application/pdf&quot;, &quot;text/plain&quot;, &quot;text/html&quot;, or &quot;multipart/related&quot;
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Byte[]}
+      description: A stream to the attachment content
+    content.vb: Public Function GetAttachmentStreamAsync(attachmentId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.TicketAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.#ctor
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent.TicketAgent
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.TicketAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync
+  isExternal: true
+  name: CreateDefaultTicketEntityAsync
+  nameWithType: TicketAgent.CreateDefaultTicketEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketEntity>
+  nameWithType: Task<TicketEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketEntity>
+  nameWithType.vb: Task(Of TicketEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketEntity)
+  name.vb: Task(Of TicketEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketEntity
+    name: TicketEntity
+    nameWithType: TicketEntity
+    fullName: SuperOffice.WebApi.Data.TicketEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketEntity
+    name: TicketEntity
+    nameWithType: TicketEntity
+    fullName: SuperOffice.WebApi.Data.TicketEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync
+  isExternal: true
+  name: SaveTicketEntityAsync
+  nameWithType: TicketAgent.SaveTicketEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketEntityAsync
+- uid: SuperOffice.WebApi.Data.TicketEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.WebApi.Data.TicketEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync
+  isExternal: true
+  name: CreateDefaultTicketMessageEntityAsync
+  nameWithType: TicketAgent.CreateDefaultTicketMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultTicketMessageEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessageEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessageEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketMessageEntity>
+  nameWithType: Task<TicketMessageEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketMessageEntity>
+  nameWithType.vb: Task(Of TicketMessageEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketMessageEntity)
+  name.vb: Task(Of TicketMessageEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketMessageEntity
+    name: TicketMessageEntity
+    nameWithType: TicketMessageEntity
+    fullName: SuperOffice.WebApi.Data.TicketMessageEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketMessageEntity
+    name: TicketMessageEntity
+    nameWithType: TicketMessageEntity
+    fullName: SuperOffice.WebApi.Data.TicketMessageEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync
+  isExternal: true
+  name: SaveTicketMessageEntityAsync
+  nameWithType: TicketAgent.SaveTicketMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SaveTicketMessageEntityAsync
+- uid: SuperOffice.WebApi.Data.TicketMessageEntity
+  commentId: T:SuperOffice.WebApi.Data.TicketMessageEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity
+  fullName: SuperOffice.WebApi.Data.TicketMessageEntity
+- uid: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync
+  isExternal: true
+  name: CreateDefaultAttachmentEntityAsync
+  nameWithType: TicketAgent.CreateDefaultAttachmentEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.CreateDefaultAttachmentEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AttachmentEntity>
+  nameWithType: Task<AttachmentEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AttachmentEntity>
+  nameWithType.vb: Task(Of AttachmentEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AttachmentEntity)
+  name.vb: Task(Of AttachmentEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync
+  isExternal: true
+  name: SaveAttachmentEntityAsync
+  nameWithType: TicketAgent.SaveAttachmentEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SaveAttachmentEntityAsync
+- uid: SuperOffice.WebApi.Data.AttachmentEntity
+  commentId: T:SuperOffice.WebApi.Data.AttachmentEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AttachmentEntity
+  nameWithType: AttachmentEntity
+  fullName: SuperOffice.WebApi.Data.AttachmentEntity
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync
+  isExternal: true
+  name: GetTicketEntityAsync
+  nameWithType: TicketAgent.GetTicketEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync
+  isExternal: true
+  name: DeleteTicketEntityAsync
+  nameWithType: TicketAgent.DeleteTicketEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketEntityAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync
+  isExternal: true
+  name: NotifyNewTicketAsync
+  nameWithType: TicketAgent.NotifyNewTicketAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync
+  isExternal: true
+  name: NotifyNewTicketMessageAsync
+  nameWithType: TicketAgent.NotifyNewTicketMessageAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.NotifyNewTicketMessageAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync
+  isExternal: true
+  name: GetTicketAttachmentsAsync
+  nameWithType: TicketAgent.GetTicketAttachmentsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAttachmentsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.AttachmentEntity[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<AttachmentEntity[]>
+  nameWithType: Task<AttachmentEntity[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.AttachmentEntity[]>
+  nameWithType.vb: Task(Of AttachmentEntity())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.AttachmentEntity())
+  name.vb: Task(Of AttachmentEntity())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.AttachmentEntity
+    name: AttachmentEntity
+    nameWithType: AttachmentEntity
+    fullName: SuperOffice.WebApi.Data.AttachmentEntity
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync
+  isExternal: true
+  name: GetTicketMessageEntityAsync
+  nameWithType: TicketAgent.GetTicketMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageEntityAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync
+  isExternal: true
+  name: DeleteTicketMessageEntityAsync
+  nameWithType: TicketAgent.DeleteTicketMessageEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.DeleteTicketMessageEntityAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync
+  isExternal: true
+  name: SanitizeMailContentAsync
+  nameWithType: TicketAgent.SanitizeMailContentAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: '!:System.Threading.Tasks.Task{System.String}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync
+  isExternal: true
+  name: SanitizeMailContentsAsync
+  nameWithType: TicketAgent.SanitizeMailContentsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SanitizeMailContentsAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync
+  isExternal: true
+  name: Html2TextAsync
+  nameWithType: TicketAgent.Html2TextAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.Html2TextAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync
+  isExternal: true
+  name: GetAttachmentInfoAsync
+  nameWithType: TicketAgent.GetAttachmentInfoAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentInfoAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync
+  isExternal: true
+  name: AddAttachmentsAsync
+  nameWithType: TicketAgent.AddAttachmentsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync
+  isExternal: true
+  name: SendTicketMessageAsync
+  nameWithType: TicketAgent.SendTicketMessageAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.SendTicketMessageAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync
+  isExternal: true
+  name: GetTicketAsync
+  nameWithType: TicketAgent.GetTicketAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Ticket}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Ticket}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Ticket>
+  nameWithType: Task<Ticket>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Ticket>
+  nameWithType.vb: Task(Of Ticket)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Ticket)
+  name.vb: Task(Of Ticket)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Ticket
+    name: Ticket
+    nameWithType: Ticket
+    fullName: SuperOffice.WebApi.Data.Ticket
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Ticket
+    name: Ticket
+    nameWithType: Ticket
+    fullName: SuperOffice.WebApi.Data.Ticket
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync
+  isExternal: true
+  name: GetTicketsAsync
+  nameWithType: TicketAgent.GetTicketsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Ticket[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.Ticket[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Ticket[]>
+  nameWithType: Task<Ticket[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.Ticket[]>
+  nameWithType.vb: Task(Of Ticket())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.Ticket())
+  name.vb: Task(Of Ticket())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.Ticket
+    name: Ticket
+    nameWithType: Ticket
+    fullName: SuperOffice.WebApi.Data.Ticket
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.Ticket
+    name: Ticket
+    nameWithType: Ticket
+    fullName: SuperOffice.WebApi.Data.Ticket
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync
+  isExternal: true
+  name: GetTicketMessageAsync
+  nameWithType: TicketAgent.GetTicketMessageAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessage}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.TicketMessage}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<TicketMessage>
+  nameWithType: Task<TicketMessage>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.TicketMessage>
+  nameWithType.vb: Task(Of TicketMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.TicketMessage)
+  name.vb: Task(Of TicketMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TicketMessage
+    name: TicketMessage
+    nameWithType: TicketMessage
+    fullName: SuperOffice.WebApi.Data.TicketMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TicketMessage
+    name: TicketMessage
+    nameWithType: TicketMessage
+    fullName: SuperOffice.WebApi.Data.TicketMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync
+  isExternal: true
+  name: GetAttachmentEntityAsync
+  nameWithType: TicketAgent.GetAttachmentEntityAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentEntityAsync
+- uid: SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync
+  isExternal: true
+  name: UploadAttachmentAsync
+  nameWithType: TicketAgent.UploadAttachmentAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.UploadAttachmentAsync
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync
+  isExternal: true
+  name: GetAttachmentStreamAsync
+  nameWithType: TicketAgent.GetAttachmentStreamAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetAttachmentStreamAsync
+- uid: System.Threading.Tasks.Task{System.Byte[]}
+  commentId: '!:System.Threading.Tasks.Task{System.Byte[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Byte[]>
+  nameWithType: Task<Byte[]>
+  fullName: System.Threading.Tasks.Task<System.Byte[]>
+  nameWithType.vb: Task(Of Byte())
+  fullName.vb: System.Threading.Tasks.Task(Of System.Byte())
+  name.vb: Task(Of Byte())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,1097 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.DummyField
+  commentId: T:SuperOffice.CRM.Globalization.DummyField
+  id: DummyField
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.DummyField.#ctor
+  - SuperOffice.CRM.Globalization.DummyField.AddressType
+  - SuperOffice.CRM.Globalization.DummyField.Flags
+  - SuperOffice.CRM.Globalization.DummyField.Label
+  - SuperOffice.CRM.Globalization.DummyField.Name
+  - SuperOffice.CRM.Globalization.DummyField.Tooltip
+  - SuperOffice.CRM.Globalization.DummyField.Value
+  - SuperOffice.CRM.Globalization.DummyField.ValueLength
+  langs:
+  - csharp
+  - vb
+  name: DummyField
+  nameWithType: DummyField
+  fullName: SuperOffice.CRM.Globalization.DummyField
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: 'public sealed class DummyField : IFormattedField'
+    content.vb: >-
+      Public NotInheritable Class DummyField
+          Implements IFormattedField
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.DummyField.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.DummyField.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Globalization.DummyField)
+  - SuperOffice.CRM.Globalization.DummyField.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Globalization.DummyField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Globalization.DummyField.#ctor
+  commentId: M:SuperOffice.CRM.Globalization.DummyField.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: DummyField()
+  nameWithType: DummyField.DummyField()
+  fullName: SuperOffice.CRM.Globalization.DummyField.DummyField()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public DummyField()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Globalization.DummyField.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.DummyField.Name
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.Name
+  id: Name
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DummyField.Name
+  fullName: SuperOffice.CRM.Globalization.DummyField.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Globalization.DummyField.Name*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.Name
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.DummyField.Value
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.Value
+  id: Value
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DummyField.Value
+  fullName: SuperOffice.CRM.Globalization.DummyField.Value
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: public string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Value As String
+  overload: SuperOffice.CRM.Globalization.DummyField.Value*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.Value
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Globalization.DummyField.Tooltip
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DummyField.Tooltip
+  fullName: SuperOffice.CRM.Globalization.DummyField.Tooltip
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: public string Tooltip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Tooltip As String
+  overload: SuperOffice.CRM.Globalization.DummyField.Tooltip*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.DummyField.Label
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.Label
+  id: Label
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: DummyField.Label
+  fullName: SuperOffice.CRM.Globalization.DummyField.Label
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: public string Label { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Label As String
+  overload: SuperOffice.CRM.Globalization.DummyField.Label*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.Label
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.DummyField.ValueLength
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.ValueLength
+  id: ValueLength
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: ValueLength
+  nameWithType: DummyField.ValueLength
+  fullName: SuperOffice.CRM.Globalization.DummyField.ValueLength
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: public int ValueLength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ValueLength As Integer
+  overload: SuperOffice.CRM.Globalization.DummyField.ValueLength*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.DummyField.Flags
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: DummyField.Flags
+  fullName: SuperOffice.CRM.Globalization.DummyField.Flags
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: public FormattedFieldFlags Flags { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: Public ReadOnly Property Flags As FormattedFieldFlags
+  overload: SuperOffice.CRM.Globalization.DummyField.Flags*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.Flags
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.DummyField.AddressType
+  commentId: P:SuperOffice.CRM.Globalization.DummyField.AddressType
+  id: AddressType
+  parent: SuperOffice.CRM.Globalization.DummyField
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: DummyField.AddressType
+  fullName: SuperOffice.CRM.Globalization.DummyField.AddressType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: public AddressType AddressType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AddressType
+    content.vb: Public ReadOnly Property AddressType As AddressType
+  overload: SuperOffice.CRM.Globalization.DummyField.AddressType*
+  implements:
+  - SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Globalization.IFormattedField
+  commentId: T:SuperOffice.CRM.Globalization.IFormattedField
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: IFormattedField
+  nameWithType: IFormattedField
+  fullName: SuperOffice.CRM.Globalization.IFormattedField
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.DummyField.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DummyField, To>()
+  nameWithType: EnumUtil.MapEnums<DummyField, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.DummyField, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DummyField, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.DummyField, To)()
+  name.vb: MapEnums(Of DummyField, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DummyField, To>
+    nameWithType: EnumUtil.MapEnums<DummyField, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.DummyField, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DummyField, To)
+    nameWithType: EnumUtil.MapEnums(Of DummyField, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.DummyField, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.DummyField.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Globalization.DummyField)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DummyField>(DummyField)
+  nameWithType: ObjectExtensions.AssignByReflection<DummyField>(DummyField)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Globalization.DummyField>(SuperOffice.CRM.Globalization.DummyField)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DummyField)(DummyField)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Globalization.DummyField)(SuperOffice.CRM.Globalization.DummyField)
+  name.vb: AssignByReflection(Of DummyField)(DummyField)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DummyField>
+    nameWithType: ObjectExtensions.AssignByReflection<DummyField>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Globalization.DummyField>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Globalization.DummyField
+    name: DummyField
+    nameWithType: DummyField
+    fullName: SuperOffice.CRM.Globalization.DummyField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DummyField)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DummyField)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Globalization.DummyField)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Globalization.DummyField
+    name: DummyField
+    nameWithType: DummyField
+    fullName: SuperOffice.CRM.Globalization.DummyField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.DummyField.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DummyField>()
+  nameWithType: ObjectExtensions.GraphCopy<DummyField>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Globalization.DummyField>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DummyField)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Globalization.DummyField)()
+  name.vb: GraphCopy(Of DummyField)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DummyField>
+    nameWithType: ObjectExtensions.GraphCopy<DummyField>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Globalization.DummyField>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DummyField)
+    nameWithType: ObjectExtensions.GraphCopy(Of DummyField)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Globalization.DummyField)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.DummyField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DummyField, To>()
+  nameWithType: Converters.MapEnums<DummyField, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.DummyField, To>()
+  nameWithType.vb: Converters.MapEnums(Of DummyField, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.DummyField, To)()
+  name.vb: MapEnums(Of DummyField, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DummyField, To>
+    nameWithType: Converters.MapEnums<DummyField, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.DummyField, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DummyField, To)
+    nameWithType: Converters.MapEnums(Of DummyField, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.DummyField, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.DummyField.#ctor*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.#ctor
+  isExternal: true
+  name: DummyField
+  nameWithType: DummyField.DummyField
+  fullName: SuperOffice.CRM.Globalization.DummyField.DummyField
+- uid: SuperOffice.CRM.Globalization.DummyField.Name*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.Name
+  isExternal: true
+  name: Name
+  nameWithType: DummyField.Name
+  fullName: SuperOffice.CRM.Globalization.DummyField.Name
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Name
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Name
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: Name
+  nameWithType: IFormattedField.Name
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Globalization.DummyField.Value*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.Value
+  isExternal: true
+  name: Value
+  nameWithType: DummyField.Value
+  fullName: SuperOffice.CRM.Globalization.DummyField.Value
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Value
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Value
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: Value
+  nameWithType: IFormattedField.Value
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Value
+- uid: SuperOffice.CRM.Globalization.DummyField.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: DummyField.Tooltip
+  fullName: SuperOffice.CRM.Globalization.DummyField.Tooltip
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: Tooltip
+  nameWithType: IFormattedField.Tooltip
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+- uid: SuperOffice.CRM.Globalization.DummyField.Label*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.Label
+  isExternal: true
+  name: Label
+  nameWithType: DummyField.Label
+  fullName: SuperOffice.CRM.Globalization.DummyField.Label
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Label
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Label
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: Label
+  nameWithType: IFormattedField.Label
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Label
+- uid: SuperOffice.CRM.Globalization.DummyField.ValueLength*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.ValueLength
+  isExternal: true
+  name: ValueLength
+  nameWithType: DummyField.ValueLength
+  fullName: SuperOffice.CRM.Globalization.DummyField.ValueLength
+- uid: SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: ValueLength
+  nameWithType: IFormattedField.ValueLength
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.DummyField.Flags*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: DummyField.Flags
+  fullName: SuperOffice.CRM.Globalization.DummyField.Flags
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Flags
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Flags
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: Flags
+  nameWithType: IFormattedField.Flags
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Flags
+- uid: SuperOffice.CRM.Globalization.FormattedFieldFlags
+  commentId: T:SuperOffice.CRM.Globalization.FormattedFieldFlags
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: FormattedFieldFlags
+  nameWithType: FormattedFieldFlags
+  fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags
+- uid: SuperOffice.CRM.Globalization.DummyField.AddressType*
+  commentId: Overload:SuperOffice.CRM.Globalization.DummyField.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: DummyField.AddressType
+  fullName: SuperOffice.CRM.Globalization.DummyField.AddressType
+- uid: SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  isExternal: true
+  name: AddressType
+  nameWithType: IFormattedField.AddressType
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.AddressType
+- uid: SuperOffice.Data.AddressType
+  commentId: T:SuperOffice.Data.AddressType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: SuperOffice.Data.AddressType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data

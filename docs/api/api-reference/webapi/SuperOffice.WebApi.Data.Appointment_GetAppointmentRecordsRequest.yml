@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+  id: Appointment_GetAppointmentRecordsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentRecordsRequest
+  nameWithType: Appointment_GetAppointmentRecordsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetAppointmentRecordsRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetAppointmentRecordsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentRecordsRequest()
+  nameWithType: Appointment_GetAppointmentRecordsRequest.Appointment_GetAppointmentRecordsRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.Appointment_GetAppointmentRecordsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetAppointmentRecordsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId
+  id: MotherId
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+  langs:
+  - csharp
+  - vb
+  name: MotherId
+  nameWithType: Appointment_GetAppointmentRecordsRequest.MotherId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MotherId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MotherId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  id: RecurrenceRuleId
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleId
+  nameWithType: Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RecurrenceRuleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RecurrenceRuleId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.#ctor
+  isExternal: true
+  name: Appointment_GetAppointmentRecordsRequest
+  nameWithType: Appointment_GetAppointmentRecordsRequest.Appointment_GetAppointmentRecordsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.Appointment_GetAppointmentRecordsRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId
+  isExternal: true
+  name: MotherId
+  nameWithType: Appointment_GetAppointmentRecordsRequest.MotherId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.MotherId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  isExternal: true
+  name: RecurrenceRuleId
+  nameWithType: Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentRecordsRequest.RecurrenceRuleId

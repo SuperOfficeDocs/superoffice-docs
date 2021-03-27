@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest
+  id: Quote_DeleteConnectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteConnectionRequest
+  nameWithType: Quote_DeleteConnectionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_DeleteConnectionRequest : Object'
+    content.vb: >-
+      Public Class Quote_DeleteConnectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_DeleteConnectionRequest()
+  nameWithType: Quote_DeleteConnectionRequest.Quote_DeleteConnectionRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.Quote_DeleteConnectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_DeleteConnectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId
+  id: QuoteConnectionId
+  parent: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteConnectionId
+  nameWithType: Quote_DeleteConnectionRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteConnectionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.#ctor
+  isExternal: true
+  name: Quote_DeleteConnectionRequest
+  nameWithType: Quote_DeleteConnectionRequest.Quote_DeleteConnectionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.Quote_DeleteConnectionRequest
+- uid: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId
+  isExternal: true
+  name: QuoteConnectionId
+  nameWithType: Quote_DeleteConnectionRequest.QuoteConnectionId
+  fullName: SuperOffice.WebApi.Data.Quote_DeleteConnectionRequest.QuoteConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.AppAvailState
+  commentId: T:SuperOffice.Data.AppAvailState
+  id: AppAvailState
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.AppAvailState.Always
+  - SuperOffice.Data.AppAvailState.CentralDb
+  - SuperOffice.Data.AppAvailState.SalesMarketingPocket
+  - SuperOffice.Data.AppAvailState.SalesMarketingWeb
+  - SuperOffice.Data.AppAvailState.SatelliteDb
+  - SuperOffice.Data.AppAvailState.TravelDb
+  langs:
+  - csharp
+  - vb
+  name: AppAvailState
+  nameWithType: AppAvailState
+  fullName: SuperOffice.Data.AppAvailState
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for the availableInState field in table externalapplication\nThis Enum is used by:  ExtApp.availableInState\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum AppAvailState : short
+    content.vb: >-
+      <Flags>
+
+      Public Enum AppAvailState As Short
+  extensionMethods:
+  - SuperOffice.Data.AppAvailState.EnumUtil.MapEnums``2
+  - SuperOffice.Data.AppAvailState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppAvailState)
+  - SuperOffice.Data.AppAvailState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.AppAvailState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.AppAvailState.Always
+  commentId: F:SuperOffice.Data.AppAvailState.Always
+  id: Always
+  parent: SuperOffice.Data.AppAvailState
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: AppAvailState.Always
+  fullName: SuperOffice.Data.AppAvailState.Always
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: This application is always available\n"
+  syntax:
+    content: Always = 0
+    return:
+      type: SuperOffice.Data.AppAvailState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppAvailState.CentralDb
+  commentId: F:SuperOffice.Data.AppAvailState.CentralDb
+  id: CentralDb
+  parent: SuperOffice.Data.AppAvailState
+  langs:
+  - csharp
+  - vb
+  name: CentralDb
+  nameWithType: AppAvailState.CentralDb
+  fullName: SuperOffice.Data.AppAvailState.CentralDb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: This application is only available on the Central database\n"
+  syntax:
+    content: CentralDb = 1
+    return:
+      type: SuperOffice.Data.AppAvailState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppAvailState.SatelliteDb
+  commentId: F:SuperOffice.Data.AppAvailState.SatelliteDb
+  id: SatelliteDb
+  parent: SuperOffice.Data.AppAvailState
+  langs:
+  - csharp
+  - vb
+  name: SatelliteDb
+  nameWithType: AppAvailState.SatelliteDb
+  fullName: SuperOffice.Data.AppAvailState.SatelliteDb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: This application is only available on a Satellite database\n"
+  syntax:
+    content: SatelliteDb = 2
+    return:
+      type: SuperOffice.Data.AppAvailState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppAvailState.TravelDb
+  commentId: F:SuperOffice.Data.AppAvailState.TravelDb
+  id: TravelDb
+  parent: SuperOffice.Data.AppAvailState
+  langs:
+  - csharp
+  - vb
+  name: TravelDb
+  nameWithType: AppAvailState.TravelDb
+  fullName: SuperOffice.Data.AppAvailState.TravelDb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: This application is only available on a Travel database\n"
+  syntax:
+    content: TravelDb = 4
+    return:
+      type: SuperOffice.Data.AppAvailState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppAvailState.SalesMarketingWeb
+  commentId: F:SuperOffice.Data.AppAvailState.SalesMarketingWeb
+  id: SalesMarketingWeb
+  parent: SuperOffice.Data.AppAvailState
+  langs:
+  - csharp
+  - vb
+  name: SalesMarketingWeb
+  nameWithType: AppAvailState.SalesMarketingWeb
+  fullName: SuperOffice.Data.AppAvailState.SalesMarketingWeb
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n8: This application is available on Sales Marketing Web\n"
+  syntax:
+    content: SalesMarketingWeb = 8
+    return:
+      type: SuperOffice.Data.AppAvailState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppAvailState.SalesMarketingPocket
+  commentId: F:SuperOffice.Data.AppAvailState.SalesMarketingPocket
+  id: SalesMarketingPocket
+  parent: SuperOffice.Data.AppAvailState
+  langs:
+  - csharp
+  - vb
+  name: SalesMarketingPocket
+  nameWithType: AppAvailState.SalesMarketingPocket
+  fullName: SuperOffice.Data.AppAvailState.SalesMarketingPocket
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n16: This application is available on Sales Marketing Pocket\n"
+  syntax:
+    content: SalesMarketingPocket = 16
+    return:
+      type: SuperOffice.Data.AppAvailState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.AppAvailState.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppAvailState, To>()
+  nameWithType: EnumUtil.MapEnums<AppAvailState, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.AppAvailState, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppAvailState, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AppAvailState, To)()
+  name.vb: MapEnums(Of AppAvailState, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppAvailState, To>
+    nameWithType: EnumUtil.MapEnums<AppAvailState, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.AppAvailState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppAvailState, To)
+    nameWithType: EnumUtil.MapEnums(Of AppAvailState, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AppAvailState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AppAvailState.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.AppAvailState)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<AppAvailState>(AppAvailState)
+  nameWithType: ObjectExtensions.AssignByReflection<AppAvailState>(AppAvailState)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppAvailState>(SuperOffice.Data.AppAvailState)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of AppAvailState)(AppAvailState)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppAvailState)(SuperOffice.Data.AppAvailState)
+  name.vb: AssignByReflection(Of AppAvailState)(AppAvailState)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<AppAvailState>
+    nameWithType: ObjectExtensions.AssignByReflection<AppAvailState>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.AppAvailState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AppAvailState
+    name: AppAvailState
+    nameWithType: AppAvailState
+    fullName: SuperOffice.Data.AppAvailState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of AppAvailState)
+    nameWithType: ObjectExtensions.AssignByReflection(Of AppAvailState)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.AppAvailState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.AppAvailState
+    name: AppAvailState
+    nameWithType: AppAvailState
+    fullName: SuperOffice.Data.AppAvailState
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AppAvailState.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<AppAvailState>()
+  nameWithType: ObjectExtensions.GraphCopy<AppAvailState>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppAvailState>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of AppAvailState)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppAvailState)()
+  name.vb: GraphCopy(Of AppAvailState)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<AppAvailState>
+    nameWithType: ObjectExtensions.GraphCopy<AppAvailState>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.AppAvailState>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of AppAvailState)
+    nameWithType: ObjectExtensions.GraphCopy(Of AppAvailState)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.AppAvailState)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AppAvailState.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppAvailState, To>()
+  nameWithType: Converters.MapEnums<AppAvailState, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppAvailState, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppAvailState, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppAvailState, To)()
+  name.vb: MapEnums(Of AppAvailState, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppAvailState, To>
+    nameWithType: Converters.MapEnums<AppAvailState, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppAvailState, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppAvailState, To)
+    nameWithType: Converters.MapEnums(Of AppAvailState, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppAvailState, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.AppAvailState
+  commentId: T:SuperOffice.Data.AppAvailState
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppAvailState
+  nameWithType: AppAvailState
+  fullName: SuperOffice.Data.AppAvailState

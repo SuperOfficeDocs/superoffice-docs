@@ -1,0 +1,3969 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.ProjectMember
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember
+  id: ProjectMember
+  parent: SuperOffice.CRM.Entities
+  children:
+  - SuperOffice.CRM.Entities.ProjectMember.#ctor(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  - SuperOffice.CRM.Entities.ProjectMember.#ctor(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  - SuperOffice.CRM.Entities.ProjectMember._contact
+  - SuperOffice.CRM.Entities.ProjectMember._createdAssociate
+  - SuperOffice.CRM.Entities.ProjectMember._memberType
+  - SuperOffice.CRM.Entities.ProjectMember._person
+  - SuperOffice.CRM.Entities.ProjectMember._project
+  - SuperOffice.CRM.Entities.ProjectMember._row
+  - SuperOffice.CRM.Entities.ProjectMember._rowIdx
+  - SuperOffice.CRM.Entities.ProjectMember._text
+  - SuperOffice.CRM.Entities.ProjectMember._updatedAssociate
+  - SuperOffice.CRM.Entities.ProjectMember.Contact
+  - SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate
+  - SuperOffice.CRM.Entities.ProjectMember.CreateNew
+  - SuperOffice.CRM.Entities.ProjectMember.CreateNew(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  - SuperOffice.CRM.Entities.ProjectMember.Delete
+  - SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate
+  - SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow)
+  - SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  - SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch(SuperOffice.CRM.Entities.ProjectMember.CustomSearch)
+  - SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId(System.Int32)
+  - SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  - SuperOffice.CRM.Entities.ProjectMember.IsDeleted
+  - SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete
+  - SuperOffice.CRM.Entities.ProjectMember.IsNew
+  - SuperOffice.CRM.Entities.ProjectMember.MainRow
+  - SuperOffice.CRM.Entities.ProjectMember.MemberType
+  - SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate
+  - SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe
+  - SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate
+  - SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe
+  - SuperOffice.CRM.Entities.ProjectMember.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded
+  - SuperOffice.CRM.Entities.ProjectMember.op_Explicit(SuperOffice.CRM.Rows.ProjectMemberRow)~SuperOffice.CRM.Entities.ProjectMember
+  - SuperOffice.CRM.Entities.ProjectMember.Person
+  - SuperOffice.CRM.Entities.ProjectMember.Project
+  - SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId
+  - SuperOffice.CRM.Entities.ProjectMember.Rank
+  - SuperOffice.CRM.Entities.ProjectMember.Registered
+  - SuperOffice.CRM.Entities.ProjectMember.Row
+  - SuperOffice.CRM.Entities.ProjectMember.SetDefaults
+  - SuperOffice.CRM.Entities.ProjectMember.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  - SuperOffice.CRM.Entities.ProjectMember.TableInfo
+  - SuperOffice.CRM.Entities.ProjectMember.Text
+  - SuperOffice.CRM.Entities.ProjectMember.Updated
+  - SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate
+  - SuperOffice.CRM.Entities.ProjectMember.UpdatedCount
+  - SuperOffice.CRM.Entities.ProjectMember.Validate
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Entities.ProjectMember
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\n<p>Link-table between person and project  </p>\nEntity Object for table &apos;projectmember&apos;. Entity objects represent full entities with both the base table object and all\nrelated objects, such as  and things like\nowner associate and whatever else is logically related to the base object.\n"
+  remarks: "\nEntity objects can be created in several ways. \n<ul><li>Use the static <xref href=\"SuperOffice.CRM.Entities.ProjectMember.CreateNew\" data-throw-if-not-resolved=\"false\"></xref> method to create a new, empty object. After populating it with values,\nyou call the <see cref=\"!:SuperOffice.CRM.Data.ProjectMember.Save\"></see> method and corresponding row(s) in the database are created, and the objects&apos; primary key field updated.\nThis is the preferred way to <strong>insert new entities</strong> into the database.</li><li>You can create a (nested) ProjectMember <xref href=\"SuperOffice.CRM.Entities.ProjectMember.CustomSearch\" data-throw-if-not-resolved=\"false\"></xref> object to obtain a query pre-populated with\nthe correct tableinfo and return fields. This query can be modified with restrictions, etc. Then, use the static <xref href=\"SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch(SuperOffice.CRM.Entities.ProjectMember.CustomSearch)\" data-throw-if-not-resolved=\"false\"></xref> method\nto apply the query to the database and obtain the result as an Entity object. This is how you <strong>select existing entities</strong> from the database when\nyou have a query that does not correspond to any of the existing database indexes.</li><li>For each unique index defined for the table, there is a corresponding GetFromIdx method to make retrieving data via the indexes easy. \nNote that if you try to fetch a row that does not exist (for instance, by using the primary key index and specifying a primary key that does\nnot exist in the database), you will get a Row object with the <see cref=\"!:SuperOffice.CRM.Data.ProjectMember.IsNew\"></see> and \n<see cref=\"!:SuperOffice.CRM.Data.ProjectMember.IsDirty\"></see> properties set to true. Such an Entity object is called a &apos;ghost&apos; and\ncannot be updated, saved or deleted. You can also get a ghost if the row does exist in the database, but the Sentry system denies Select\nrights to the row.</li></ul>\nNon-unique indexes are handled through the <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection\" data-throw-if-not-resolved=\"false\"></xref> collection,\nwhich has nested classes and GetFromIdx methods for each non-unique index. There are no &apos;GetFromReader&apos; methods, since that would be rather complex (multiple TableInfo objects required).\n<p></p>Unique indexes on ProjectMember are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>ProjectmemberId</td><td>ProjectmemberId: <p>Primary key  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.ProjectMember.IdxProjectmemberId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>Non-unique indexes on table ProjectMember are: <table><thead><tr><th>Index fields</th><th>Nested index class name</th></tr></thead><tbody><tr><td>PersonId</td><td>PersonId: <p>person_id  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection.IdxPersonId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection.GetFromIdxPersonId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ContactId</td><td>ContactId: <p>contact_id of person (denormalisation!)  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection.IdxContactId\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection.GetFromIdxContactId(System.Int32)\" data-throw-if-not-resolved=\"false\"></xref></td></tr><tr><td>ProjectId, Rank</td><td>ProjectId: <p>Parent project  </p>Rank: <p>Rank in list (starts over for each project)  </p>Nested index class: <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection.IdxProjectIdRank\" data-throw-if-not-resolved=\"false\"></xref><p></p>Static Get method: <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection.GetFromIdxProjectIdRank(System.Int32%2cSystem.Int16)\" data-throw-if-not-resolved=\"false\"></xref></td></tr></tbody></table>\n<p></p>\n"
+  syntax:
+    content: 'public class ProjectMember : EntityBase, INestedPersist, ISoItem, ITableRowLoadHandler'
+    content.vb: >-
+      Public Class ProjectMember
+          Inherits EntityBase
+          Implements INestedPersist, ISoItem, ITableRowLoadHandler
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.NestedPersist
+  - SuperOffice.CRM.Entities.EntityBase
+  implements:
+  - SuperOffice.Data.INestedPersist
+  - SuperOffice.Data.ISoItem
+  - SuperOffice.CRM.Rows.ITableRowLoadHandler
+  inheritedMembers:
+  - SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
+  - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+  - SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  - SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+  - SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+  - SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Entities.EntityBase.IsDirty
+  - SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
+  - SuperOffice.Data.NestedPersist._saveOwner
+  - SuperOffice.Data.NestedPersist._isSaving
+  - SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  - SuperOffice.Data.NestedPersist.Save
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  - SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  - SuperOffice.Data.NestedPersist.IsSaving
+  - SuperOffice.Data.NestedPersist.OnElementSaved
+  - SuperOffice.Data.NestedPersist.OnElementIdUpdate
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Entities.ProjectMember.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.ProjectMember.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Entities.ProjectMember._row
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._row
+  id: _row
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _row
+  nameWithType: ProjectMember._row
+  fullName: SuperOffice.CRM.Entities.ProjectMember._row
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHDB object this entity is a facade for.\n"
+  syntax:
+    content: protected ProjectMemberRow _row
+    return:
+      type: SuperOffice.CRM.Rows.ProjectMemberRow
+    content.vb: Protected _row As ProjectMemberRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._rowIdx
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._rowIdx
+  id: _rowIdx
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _rowIdx
+  nameWithType: ProjectMember._rowIdx
+  fullName: SuperOffice.CRM.Entities.ProjectMember._rowIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected ProjectMember.ProjectMemberIdxBase _rowIdx
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+    content.vb: Protected _rowIdx As ProjectMember.ProjectMemberIdxBase
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._person
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._person
+  id: _person
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _person
+  nameWithType: ProjectMember._person
+  fullName: SuperOffice.CRM.Entities.ProjectMember._person
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected Person _person
+    return:
+      type: SuperOffice.CRM.Entities.Person
+    content.vb: Protected _person As Person
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._contact
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._contact
+  id: _contact
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _contact
+  nameWithType: ProjectMember._contact
+  fullName: SuperOffice.CRM.Entities.ProjectMember._contact
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected Contact _contact
+    return:
+      type: SuperOffice.CRM.Entities.Contact
+    content.vb: Protected _contact As Contact
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._createdAssociate
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._createdAssociate
+  id: _createdAssociate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _createdAssociate
+  nameWithType: ProjectMember._createdAssociate
+  fullName: SuperOffice.CRM.Entities.ProjectMember._createdAssociate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected AssociateRow _createdAssociate
+    return:
+      type: SuperOffice.CRM.Rows.AssociateRow
+    content.vb: Protected _createdAssociate As AssociateRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._updatedAssociate
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._updatedAssociate
+  id: _updatedAssociate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _updatedAssociate
+  nameWithType: ProjectMember._updatedAssociate
+  fullName: SuperOffice.CRM.Entities.ProjectMember._updatedAssociate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected AssociateRow _updatedAssociate
+    return:
+      type: SuperOffice.CRM.Rows.AssociateRow
+    content.vb: Protected _updatedAssociate As AssociateRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._text
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._text
+  id: _text
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _text
+  nameWithType: ProjectMember._text
+  fullName: SuperOffice.CRM.Entities.ProjectMember._text
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected TextRow _text
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Protected _text As TextRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._memberType
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._memberType
+  id: _memberType
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _memberType
+  nameWithType: ProjectMember._memberType
+  fullName: SuperOffice.CRM.Entities.ProjectMember._memberType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected PMembTypeRow _memberType
+    return:
+      type: SuperOffice.CRM.Rows.PMembTypeRow
+    content.vb: Protected _memberType As PMembTypeRow
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember._project
+  commentId: F:SuperOffice.CRM.Entities.ProjectMember._project
+  id: _project
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: _project
+  nameWithType: ProjectMember._project
+  fullName: SuperOffice.CRM.Entities.ProjectMember._project
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated HDB object(s).\n"
+  syntax:
+    content: protected Project _project
+    return:
+      type: SuperOffice.CRM.Entities.Project
+    content.vb: Protected _project As Project
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember.#ctor(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.#ctor(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  id: '#ctor(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)'
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember(ProjectMember.ProjectMemberIdxBase)
+  nameWithType: ProjectMember.ProjectMember(ProjectMember.ProjectMemberIdxBase)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMember(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nConstructor for class ProjectMember.  \nThis object represents a row in table &apos;projectmember&apos;.\nTable contact: Project members\n"
+  syntax:
+    content: protected ProjectMember(ProjectMember.ProjectMemberIdxBase idx)
+    parameters:
+    - id: idx
+      type: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+      description: ContactRowProjectMemberRow.ProjectMemberRowIdx object that the Contact encapsulates.
+    content.vb: Protected Sub New(idx As ProjectMember.ProjectMemberIdxBase)
+  overload: SuperOffice.CRM.Entities.ProjectMember.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember.#ctor(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.#ctor(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  id: '#ctor(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)'
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectMember(ProjectMemberRow, ProjectMember.ProjectMemberIdxBase)
+  nameWithType: ProjectMember.ProjectMember(ProjectMemberRow, ProjectMember.ProjectMemberIdxBase)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMember(SuperOffice.CRM.Rows.ProjectMemberRow, SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: protected ProjectMember(ProjectMemberRow row, ProjectMember.ProjectMemberIdxBase idx)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.ProjectMemberRow
+    - id: idx
+      type: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+    content.vb: Protected Sub New(row As ProjectMemberRow, idx As ProjectMember.ProjectMemberIdxBase)
+  overload: SuperOffice.CRM.Entities.ProjectMember.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Entities.ProjectMember.CreateNew
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.CreateNew
+  id: CreateNew
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: CreateNew()
+  nameWithType: ProjectMember.CreateNew()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CreateNew()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCreate a new instance of the ProjectMember entity.\n"
+  syntax:
+    content: public static ProjectMember CreateNew()
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: A new instance of the ProjectMember entity.
+    content.vb: Public Shared Function CreateNew As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.CreateNew*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ProjectMember.CreateNew(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.CreateNew(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  id: CreateNew(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: CreateNew(ProjectMember.ProjectMemberIdxBase)
+  nameWithType: ProjectMember.CreateNew(ProjectMember.ProjectMemberIdxBase)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CreateNew(SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCreate a new instance of the ProjectMember entity, by reading from the\ndatabase using the specified index (represented by a nested index class).\n"
+  syntax:
+    content: public static ProjectMember CreateNew(ProjectMember.ProjectMemberIdxBase idx)
+    parameters:
+    - id: idx
+      type: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+      description: >-
+        Index search, represented by a subclass if the <xref href="SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase" data-throw-if-not-resolved="false"></xref>
+
+        nested index class
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: A new instance of the ProjectMember entity.
+    content.vb: Public Shared Function CreateNew(idx As ProjectMember.ProjectMemberIdxBase) As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.CreateNew*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch(SuperOffice.CRM.Entities.ProjectMember.CustomSearch)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch(SuperOffice.CRM.Entities.ProjectMember.CustomSearch)
+  id: GetFromCustomSearch(SuperOffice.CRM.Entities.ProjectMember.CustomSearch)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: GetFromCustomSearch(ProjectMember.CustomSearch)
+  nameWithType: ProjectMember.GetFromCustomSearch(ProjectMember.CustomSearch)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch(SuperOffice.CRM.Entities.ProjectMember.CustomSearch)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCreate a new instance of the ProjectMember object, and populate it with data from a custom search.\nIf the search returns no results, an empty entity will be returned; if the result contains\nrows, one ProjectMember object representing the first row will be returned. Any\nfurther rows in the result will be ignored.\n"
+  syntax:
+    content: public static ProjectMember GetFromCustomSearch(ProjectMember.CustomSearch query)
+    parameters:
+    - id: query
+      type: SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+      description: The custom search to execute against the database
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: A new instance of the ProjectMember object, reflecting the result of the query.
+    content.vb: Public Shared Function GetFromCustomSearch(query As ProjectMember.CustomSearch) As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId(System.Int32)
+  id: GetFromIdxProjectmemberId(System.Int32)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxProjectmemberId(Int32)
+  nameWithType: ProjectMember.GetFromIdxProjectmemberId(Int32)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCreate a new instance of the ProjectMember object, by querying the database table via the index &apos;IDXPmembId&apos;.\nThis method is intended to make it easy to use efficient queries that match a database index.\n"
+  remarks: "\nThis method represents one of the unique indexes on the ProjectMember table. Non-unique indexes have corresponding inner classes\nand methods in the <xref href=\"SuperOffice.CRM.Entities.ProjectMemberCollection\" data-throw-if-not-resolved=\"false\"></xref> collection, since they may return more than one row.\n"
+  syntax:
+    content: public static ProjectMember GetFromIdxProjectmemberId(int projectmemberId)
+    parameters:
+    - id: projectmemberId
+      type: System.Int32
+      description: <p>Primary key  </p>
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: "Row object that represents the result of the search. <xref href=\"SuperOffice.CRM.Entities.ProjectMember.IsNew\" data-throw-if-not-resolved=\"false\"></xref> will be true if \nthe query did not match any row in the table"
+    content.vb: Public Shared Function GetFromIdxProjectmemberId(projectmemberId As Integer) As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  id: OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: ProjectMember.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nEvent raised when the row is loaded from the database\n"
+  syntax:
+    content: protected override void OnRowLoad(SoDataReader reader, TableRowBase row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Protected Overrides Sub OnRowLoad(reader As SoDataReader, row As TableRowBase)
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  overload: SuperOffice.CRM.Entities.ProjectMember.OnRowLoad*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded
+  id: OnRowLoaded
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: OnRowLoaded()
+  nameWithType: ProjectMember.OnRowLoaded()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\n\n"
+  syntax:
+    content: protected override void OnRowLoaded()
+    content.vb: Protected Overrides Sub OnRowLoaded
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+  overload: SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.SetDefaults
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.SetDefaults
+  id: SetDefaults
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults()
+  nameWithType: ProjectMember.SetDefaults()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.SetDefaults()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity.\n"
+  syntax:
+    content: public void SetDefaults()
+    content.vb: Public Sub SetDefaults
+  overload: SuperOffice.CRM.Entities.ProjectMember.SetDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  id: SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: SetDefaults(DefaulterStrategy)
+  nameWithType: ProjectMember.SetDefaults(DefaulterStrategy)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.SetDefaults(SuperOffice.CRM.Rows.DefaulterStrategy)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nSet default values for the entity.\n"
+  syntax:
+    content: public void SetDefaults(DefaulterStrategy strategy)
+    parameters:
+    - id: strategy
+      type: SuperOffice.CRM.Rows.DefaulterStrategy
+      description: Strategy used when appliying default values.
+    content.vb: Public Sub SetDefaults(strategy As DefaulterStrategy)
+  overload: SuperOffice.CRM.Entities.ProjectMember.SetDefaults*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  id: GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: GetRelatedNestedPersist(List<INestedPersist>, Boolean)
+  nameWithType: ProjectMember.GetRelatedNestedPersist(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nAppend all the related objects to a list of <xref href=\"SuperOffice.Data.INestedPersist\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected override void GetRelatedNestedPersist(List<INestedPersist> relatedObjects, bool lacyFetchIfNeeded)
+    parameters:
+    - id: relatedObjects
+      type: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+      description: List to append related objects to.
+    - id: lacyFetchIfNeeded
+      type: System.Boolean
+    content.vb: Protected Overrides Sub GetRelatedNestedPersist(relatedObjects As List(Of INestedPersist), lacyFetchIfNeeded As Boolean)
+  overridden: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  overload: SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist*
+  nameWithType.vb: ProjectMember.GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
+  name.vb: GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate
+  id: OnPreIdUpdate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: OnPreIdUpdate()
+  nameWithType: ProjectMember.OnPreIdUpdate()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nAllow for &quot;fake id&apos;s&quot; to be forced upon related objects.\n"
+  remarks: "\nIn order to figure out which objects taking part of the nested save operation that \nactually needs to be saved, this method allows for &quot;fake id&apos;s&quot; to be \nforced upon related objects. Upon receiving the &quot;fake id&quot;, the \nobjects receiving such an id can determine if they needs to be persisted (e.g. \nsaved) to the database.  However, the fake id&apos;s forced upon related objects must \nbe set to correct id&apos;s in the OnIdUpdate method taking place later in the save \noperation.\n"
+  syntax:
+    content: protected override void OnPreIdUpdate()
+    content.vb: Protected Overrides Sub OnPreIdUpdate
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+  overload: SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate
+  id: OnIdUpdate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: OnIdUpdate()
+  nameWithType: ProjectMember.OnIdUpdate()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nUpdate related objects with correct id&apos;s to make sure that relations are consistent \nbefore saving to the database.\n"
+  syntax:
+    content: protected override void OnIdUpdate()
+    content.vb: Protected Overrides Sub OnIdUpdate
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+  overload: SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.Delete
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.Delete
+  id: Delete
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Delete()
+  nameWithType: ProjectMember.Delete()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Delete()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nDelete the row.\n"
+  syntax:
+    content: public override void Delete()
+    content.vb: Public Overrides Sub Delete
+  overridden: SuperOffice.CRM.Entities.EntityBase.Delete
+  overload: SuperOffice.CRM.Entities.ProjectMember.Delete*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe
+  id: OnPreSaveMe
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: OnPreSaveMe()
+  nameWithType: ProjectMember.OnPreSaveMe()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHandle actions needed to be taken after objects this object \ndepends on have been saved, but before this object is saved.\n"
+  syntax:
+    content: protected virtual void OnPreSaveMe()
+    content.vb: Protected Overridable Sub OnPreSaveMe
+  overload: SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe
+  id: OnPostSaveMe
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: OnPostSaveMe()
+  nameWithType: ProjectMember.OnPostSaveMe()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nHandle actions needed to be taken after this object has been \nsaved, but before saving objects depending upon this one.\n"
+  syntax:
+    content: protected virtual void OnPostSaveMe()
+    content.vb: Protected Overridable Sub OnPostSaveMe
+  overload: SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Entities.ProjectMember.op_Explicit(SuperOffice.CRM.Rows.ProjectMemberRow)~SuperOffice.CRM.Entities.ProjectMember
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.op_Explicit(SuperOffice.CRM.Rows.ProjectMemberRow)~SuperOffice.CRM.Entities.ProjectMember
+  id: op_Explicit(SuperOffice.CRM.Rows.ProjectMemberRow)~SuperOffice.CRM.Entities.ProjectMember
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Explicit(ProjectMemberRow to ProjectMember)
+  nameWithType: ProjectMember.Explicit(ProjectMemberRow to ProjectMember)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Explicit(SuperOffice.CRM.Rows.ProjectMemberRow to SuperOffice.CRM.Entities.ProjectMember)
+  type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nOperator assigning a ProjectMember from a ProjectMemberRow.\n"
+  syntax:
+    content: public static explicit operator ProjectMember(ProjectMemberRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.ProjectMemberRow
+      description: ProjectMemberRow object
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: ProjectMember Entity
+    content.vb: Public Shared Narrowing Operator CType(row As ProjectMemberRow) As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.op_Explicit*
+  nameWithType.vb: ProjectMember.Narrowing(ProjectMemberRow to ProjectMember)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMember.Narrowing(SuperOffice.CRM.Rows.ProjectMemberRow to SuperOffice.CRM.Entities.ProjectMember)
+  name.vb: Narrowing(ProjectMemberRow to ProjectMember)
+- uid: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow)
+  id: FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: FromProjectMemberRow(ProjectMemberRow)
+  nameWithType: ProjectMember.FromProjectMemberRow(ProjectMemberRow)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nOperator asigning a ProjectMember from a ProjectMemberRow.\n"
+  syntax:
+    content: public static ProjectMember FromProjectMemberRow(ProjectMemberRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.ProjectMemberRow
+      description: ProjectMemberRow object
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+      description: ProjectMember Entity
+    content.vb: Public Shared Function FromProjectMemberRow(row As ProjectMemberRow) As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  id: FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow,SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: FromProjectMemberRow(ProjectMemberRow, ProjectMember.ProjectMemberIdxBase)
+  nameWithType: ProjectMember.FromProjectMemberRow(ProjectMemberRow, ProjectMember.ProjectMemberIdxBase)
+  fullName: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow(SuperOffice.CRM.Rows.ProjectMemberRow, SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static ProjectMember FromProjectMemberRow(ProjectMemberRow row, ProjectMember.ProjectMemberIdxBase idx)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.ProjectMemberRow
+    - id: idx
+      type: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+    return:
+      type: SuperOffice.CRM.Entities.ProjectMember
+    content.vb: Public Shared Function FromProjectMemberRow(row As ProjectMemberRow, idx As ProjectMember.ProjectMemberIdxBase) As ProjectMember
+  overload: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate
+  id: ForceEntityUpdate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ForceEntityUpdate()
+  nameWithType: ProjectMember.ForceEntityUpdate()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nForce Updated and UpdatedAssociate to be updated with current time and \nCurrently logged in associate.  This will again be overridden in the \nDatabase update operation by a query processor.\n"
+  syntax:
+    content: protected override void ForceEntityUpdate()
+    content.vb: Protected Overrides Sub ForceEntityUpdate
+  overridden: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+  overload: SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.Validate
+  commentId: M:SuperOffice.CRM.Entities.ProjectMember.Validate
+  id: Validate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Validate()
+  nameWithType: ProjectMember.Validate()
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Validate()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nCheck the entity and related objects for consistency and required fields, and return fields and error messages.\n"
+  syntax:
+    content: public override Dictionary<string, string> Validate()
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Field names and error messages
+    content.vb: Public Overrides Function Validate As Dictionary(Of String, String)
+  overridden: SuperOffice.CRM.Entities.EntityBase.Validate
+  overload: SuperOffice.CRM.Entities.ProjectMember.Validate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.Row
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Row
+  id: Row
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Row
+  nameWithType: ProjectMember.Row
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Row
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nThe encapsulated object ProjectMemberRow.\n"
+  syntax:
+    content: public ProjectMemberRow Row { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.ProjectMemberRow
+    content.vb: Public ReadOnly Property Row As ProjectMemberRow
+  overload: SuperOffice.CRM.Entities.ProjectMember.Row*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.ProjectMember.TableInfo
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.TableInfo
+  id: TableInfo
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: TableInfo
+  nameWithType: ProjectMember.TableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.TableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGet a <xref href=\"SuperOffice.CRM.Entities.ProjectMember.TableInfo\" data-throw-if-not-resolved=\"false\"></xref> object for the projectMember table.\n"
+  syntax:
+    content: public ProjectMemberTableInfo TableInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Data.ProjectMemberTableInfo
+    content.vb: Public ReadOnly Property TableInfo As ProjectMemberTableInfo
+  overload: SuperOffice.CRM.Entities.ProjectMember.TableInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId
+  id: ProjectmemberId
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: ProjectmemberId
+  nameWithType: ProjectMember.ProjectmemberId
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public int ProjectmemberId { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ProjectmemberId As Integer
+  overload: SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.ProjectMember.Rank
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: ProjectMember.Rank
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Rank
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRank in list\n"
+  syntax:
+    content: public short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property Rank As Short
+  overload: SuperOffice.CRM.Entities.ProjectMember.Rank*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.Registered
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ProjectMember.Registered
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Registered As Date
+  overload: SuperOffice.CRM.Entities.ProjectMember.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.Updated
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ProjectMember.Updated
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Updated As Date
+  overload: SuperOffice.CRM.Entities.ProjectMember.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.UpdatedCount
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ProjectMember.UpdatedCount
+  fullName: SuperOffice.CRM.Entities.ProjectMember.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\n\n"
+  syntax:
+    content: public short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property UpdatedCount As Short
+  overload: SuperOffice.CRM.Entities.ProjectMember.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.Person
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Person
+  id: Person
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: ProjectMember.Person
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Person
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object Person: Persons in a company or an organisation\n"
+  syntax:
+    content: public Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Person
+    content.vb: Public Property Person As Person
+  overload: SuperOffice.CRM.Entities.ProjectMember.Person*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.Contact
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: ProjectMember.Contact
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Contact
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object Contact: Companies and Organisations\n"
+  syntax:
+    content: public Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Contact
+    content.vb: Public Property Contact As Contact
+  overload: SuperOffice.CRM.Entities.ProjectMember.Contact*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate
+  id: CreatedAssociate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: CreatedAssociate
+  nameWithType: ProjectMember.CreatedAssociate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object AssociateRow: Employees, resources and other users - except for External persons\n"
+  syntax:
+    content: public AssociateRow CreatedAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AssociateRow
+    content.vb: Public Property CreatedAssociate As AssociateRow
+  overload: SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate
+  id: UpdatedAssociate
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociate
+  nameWithType: ProjectMember.UpdatedAssociate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object AssociateRow: Employees, resources and other users - except for External persons\n"
+  syntax:
+    content: public AssociateRow UpdatedAssociate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AssociateRow
+    content.vb: Public Property UpdatedAssociate As AssociateRow
+  overload: SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.Text
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Text
+  id: Text
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ProjectMember.Text
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Text
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object TextRow: Long text fields from all over the system\n"
+  syntax:
+    content: public TextRow Text { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TextRow
+    content.vb: Public Property Text As TextRow
+  overload: SuperOffice.CRM.Entities.ProjectMember.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.MemberType
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.MemberType
+  id: MemberType
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: MemberType
+  nameWithType: ProjectMember.MemberType
+  fullName: SuperOffice.CRM.Entities.ProjectMember.MemberType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object PMembTypeRow: PMembType list table\n"
+  syntax:
+    content: public PMembTypeRow MemberType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.PMembTypeRow
+    content.vb: Public Property MemberType As PMembTypeRow
+  overload: SuperOffice.CRM.Entities.ProjectMember.MemberType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.Project
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.Project
+  id: Project
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: ProjectMember.Project
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Project
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nRelated object Project: Projects\n"
+  syntax:
+    content: public Project Project { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Entities.Project
+    content.vb: Public Property Project As Project
+  overload: SuperOffice.CRM.Entities.ProjectMember.Project*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.ProjectMember.IsDeleted
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.IsDeleted
+  id: IsDeleted
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: IsDeleted
+  nameWithType: ProjectMember.IsDeleted
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IsDeleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nIs the row deleted?\n"
+  syntax:
+    content: public override bool IsDeleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsDeleted As Boolean
+  overridden: SuperOffice.Data.NestedPersist.IsDeleted
+  overload: SuperOffice.CRM.Entities.ProjectMember.IsDeleted*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete
+  id: IsMarkedForDelete
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: IsMarkedForDelete
+  nameWithType: ProjectMember.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nGets or sets a value indicating whether this instance is marked for delete.\n"
+  syntax:
+    content: public override bool IsMarkedForDelete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+      description: "\n<code>true</code> if this instance is marked for delete; otherwise, <code>false</code>.\n"
+    content.vb: Public Overrides Property IsMarkedForDelete As Boolean
+  overridden: SuperOffice.Data.NestedPersist.IsMarkedForDelete
+  overload: SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Entities.ProjectMember.IsNew
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.IsNew
+  id: IsNew
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: IsNew
+  nameWithType: ProjectMember.IsNew
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IsNew
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nIs the row new, e.g. not been inserted to the database?\n"
+  syntax:
+    content: public override bool IsNew { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsNew As Boolean
+  overridden: SuperOffice.CRM.Entities.EntityBase.IsNew
+  overload: SuperOffice.CRM.Entities.ProjectMember.IsNew*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Entities.ProjectMember.MainRow
+  commentId: P:SuperOffice.CRM.Entities.ProjectMember.MainRow
+  id: MainRow
+  parent: SuperOffice.CRM.Entities.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: MainRow
+  nameWithType: ProjectMember.MainRow
+  fullName: SuperOffice.CRM.Entities.ProjectMember.MainRow
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: "\nReturn the main row for the Entity.\n"
+  syntax:
+    content: protected override TableRowBase MainRow { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Protected Overrides ReadOnly Property MainRow As TableRowBase
+  overridden: SuperOffice.CRM.Entities.EntityBase.MainRow
+  overload: SuperOffice.CRM.Entities.ProjectMember.MainRow*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.NestedPersist
+  commentId: T:SuperOffice.Data.NestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NestedPersist
+  nameWithType: NestedPersist
+  fullName: SuperOffice.Data.NestedPersist
+- uid: SuperOffice.CRM.Entities.EntityBase
+  commentId: T:SuperOffice.CRM.Entities.EntityBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: EntityBase
+  nameWithType: EntityBase
+  fullName: SuperOffice.CRM.Entities.EntityBase
+- uid: SuperOffice.Data.INestedPersist
+  commentId: T:SuperOffice.Data.INestedPersist
+  parent: SuperOffice.Data
+  isExternal: true
+  name: INestedPersist
+  nameWithType: INestedPersist
+  fullName: SuperOffice.Data.INestedPersist
+- uid: SuperOffice.Data.ISoItem
+  commentId: T:SuperOffice.Data.ISoItem
+  parent: SuperOffice.Data
+  isExternal: true
+  name: ISoItem
+  nameWithType: ISoItem
+  fullName: SuperOffice.Data.ISoItem
+- uid: SuperOffice.CRM.Rows.ITableRowLoadHandler
+  commentId: T:SuperOffice.CRM.Rows.ITableRowLoadHandler
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ITableRowLoadHandler
+  nameWithType: ITableRowLoadHandler
+  fullName: SuperOffice.CRM.Rows.ITableRowLoadHandler
+- uid: SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
+  commentId: F:SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: _onGetRelatedObjects
+  nameWithType: EntityBase._onGetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.EntityBase._onGetRelatedObjects
+- uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, Boolean)
+  nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
+  nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(List(Of INestedPersist), Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
+  name.vb: GetAdditionalRelatedNestedPersistViaBaseClass(List(Of INestedPersist), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+    name: GetAdditionalRelatedNestedPersistViaBaseClass
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+    name: GetAdditionalRelatedNestedPersistViaBaseClass
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClass
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
+  nameWithType: EntityBase.GetAdditionalRelatedNestedPersist(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
+  nameWithType.vb: EntityBase.GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
+  name.vb: GetAdditionalRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+    name: GetAdditionalRelatedNestedPersist
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersist
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+    name: GetAdditionalRelatedNestedPersist
+    nameWithType: EntityBase.GetAdditionalRelatedNestedPersist
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersist
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnPrimaryKeyRequest(PKContainer)
+  nameWithType: EntityBase.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: EntityBase.OnPrimaryKeyRequest
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyRequest
+    nameWithType: EntityBase.OnPrimaryKeyRequest
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: EntityBase.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: EntityBase.OnPrimaryKeyUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: OnPrimaryKeyUpdate
+    nameWithType: EntityBase.OnPrimaryKeyUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnSave(BatchSave)
+  nameWithType: EntityBase.OnSave(BatchSave)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: EntityBase.OnSave
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: OnSave
+    nameWithType: EntityBase.OnSave
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnSaved(Boolean)
+  nameWithType: EntityBase.OnSaved(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: EntityBase.OnSaved
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaved(System.Boolean)
+    name: OnSaved
+    nameWithType: EntityBase.OnSaved
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: SetMarkedForDeleteOnRelatedObjects(Boolean)
+  nameWithType: EntityBase.SetMarkedForDeleteOnRelatedObjects(Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+    name: SetMarkedForDeleteOnRelatedObjects
+    nameWithType: EntityBase.SetMarkedForDeleteOnRelatedObjects
+    fullName: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
+    name: SetMarkedForDeleteOnRelatedObjects
+    nameWithType: EntityBase.SetMarkedForDeleteOnRelatedObjects
+    fullName: SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  nameWithType.vb: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  name.vb: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad(SoDataReader, TableRowBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: ITableRowLoadHandler.OnRowLoad
+    nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoad
+    fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    nameWithType: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: ITableRowLoadHandler.OnRowLoaded()
+  nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoaded()
+  fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  nameWithType.vb: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  name.vb: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+    name: ITableRowLoadHandler.OnRowLoaded
+    nameWithType: EntityBase.ITableRowLoadHandler.OnRowLoaded
+    fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.SuperOffice#CRM#Rows#ITableRowLoadHandler#OnRowLoaded
+    name: SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    nameWithType: EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    fullName: SuperOffice.CRM.Entities.EntityBase.SuperOffice.CRM.Rows.ITableRowLoadHandler.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnPreIdUpdateImplementation()
+  nameWithType: EntityBase.OnPreIdUpdateImplementation()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+    name: OnPreIdUpdateImplementation
+    nameWithType: EntityBase.OnPreIdUpdateImplementation
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+    name: OnPreIdUpdateImplementation
+    nameWithType: EntityBase.OnPreIdUpdateImplementation
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnIdUpdateImplementation()
+  nameWithType: EntityBase.OnIdUpdateImplementation()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+    name: OnIdUpdateImplementation
+    nameWithType: EntityBase.OnIdUpdateImplementation
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+    name: OnIdUpdateImplementation
+    nameWithType: EntityBase.OnIdUpdateImplementation
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdateImplementation
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SentryCollection, TableInfo)
+  nameWithType: EntityBase.UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SentryCollection, TableInfo)
+  fullName: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance<MainTableInfoType>(SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.TableInfo)
+  nameWithType.vb: EntityBase.UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)(SentryCollection, TableInfo)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)(SuperOffice.CRM.Security.SentryCollection, SuperOffice.Data.SQL.TableInfo)
+  name.vb: UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)(SentryCollection, TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
+    name: UpdateSentryRelatedTableInfoInstance<MainTableInfoType>
+    nameWithType: EntityBase.UpdateSentryRelatedTableInfoInstance<MainTableInfoType>
+    fullName: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance<MainTableInfoType>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance``1(SuperOffice.CRM.Security.SentryCollection,SuperOffice.Data.SQL.TableInfo)
+    name: UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)
+    nameWithType: EntityBase.UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)
+    fullName: SuperOffice.CRM.Entities.EntityBase.UpdateSentryRelatedTableInfoInstance(Of MainTableInfoType)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.SentryCollection
+    name: SentryCollection
+    nameWithType: SentryCollection
+    fullName: SuperOffice.CRM.Security.SentryCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.EntityBase.IsDirty
+  commentId: P:SuperOffice.CRM.Entities.EntityBase.IsDirty
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: IsDirty
+  nameWithType: EntityBase.IsDirty
+  fullName: SuperOffice.CRM.Entities.EntityBase.IsDirty
+- uid: SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
+  commentId: E:SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnGetRelatedObjects
+  nameWithType: EntityBase.OnGetRelatedObjects
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnGetRelatedObjects
+- uid: SuperOffice.Data.NestedPersist._saveOwner
+  commentId: F:SuperOffice.Data.NestedPersist._saveOwner
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: _saveOwner
+  nameWithType: NestedPersist._saveOwner
+  fullName: SuperOffice.Data.NestedPersist._saveOwner
+- uid: SuperOffice.Data.NestedPersist._isSaving
+  commentId: F:SuperOffice.Data.NestedPersist._isSaving
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: _isSaving
+  nameWithType: NestedPersist._isSaving
+  fullName: SuperOffice.Data.NestedPersist._isSaving
+- uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  commentId: M:SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: SetSaveOwner(INestedPersist)
+  nameWithType: NestedPersist.SetSaveOwner(INestedPersist)
+  fullName: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SetSaveOwner(SuperOffice.Data.INestedPersist)
+    name: SetSaveOwner
+    nameWithType: NestedPersist.SetSaveOwner
+    fullName: SuperOffice.Data.NestedPersist.SetSaveOwner
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.Save
+  commentId: M:SuperOffice.Data.NestedPersist.Save
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: Save()
+  nameWithType: NestedPersist.Save()
+  fullName: SuperOffice.Data.NestedPersist.Save()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.Save
+    name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.Save
+    name: Save
+    nameWithType: NestedPersist.Save
+    fullName: SuperOffice.Data.NestedPersist.Save
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPreIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPreIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyRequest(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  name.vb: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate(PKContainer)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnPrimaryKeyUpdate(SuperOffice.Data.PKContainer)
+    name: SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnPrimaryKeyUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PKContainer
+    name: PKContainer
+    nameWithType: PKContainer
+    fullName: SuperOffice.Data.PKContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnIdUpdate()
+  nameWithType: NestedPersist.INestedPersist.OnIdUpdate()
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate()
+  name.vb: SuperOffice.Data.INestedPersist.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnIdUpdate
+    name: SuperOffice.Data.INestedPersist.OnIdUpdate
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSave(BatchSave)
+  nameWithType: NestedPersist.INestedPersist.OnSave(BatchSave)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave(SuperOffice.Data.SQL.BatchSave)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  name.vb: SuperOffice.Data.INestedPersist.OnSave(BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: INestedPersist.OnSave
+    nameWithType: NestedPersist.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSave(SuperOffice.Data.SQL.BatchSave)
+    name: SuperOffice.Data.INestedPersist.OnSave
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSave
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    nameWithType: BatchSave
+    fullName: SuperOffice.Data.SQL.BatchSave
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  commentId: M:SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: INestedPersist.OnSaved(Boolean)
+  nameWithType: NestedPersist.INestedPersist.OnSaved(Boolean)
+  fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(System.Boolean)
+  nameWithType.vb: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  name.vb: SuperOffice.Data.INestedPersist.OnSaved(Boolean)
+  spec.csharp:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: INestedPersist.OnSaved
+    nameWithType: NestedPersist.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.NestedPersist.SuperOffice#Data#INestedPersist#OnSaved(System.Boolean)
+    name: SuperOffice.Data.INestedPersist.OnSaved
+    nameWithType: NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    fullName: SuperOffice.Data.NestedPersist.SuperOffice.Data.INestedPersist.OnSaved
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NestedPersist.IsSaving
+  commentId: P:SuperOffice.Data.NestedPersist.IsSaving
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: IsSaving
+  nameWithType: NestedPersist.IsSaving
+  fullName: SuperOffice.Data.NestedPersist.IsSaving
+- uid: SuperOffice.Data.NestedPersist.OnElementSaved
+  commentId: E:SuperOffice.Data.NestedPersist.OnElementSaved
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: OnElementSaved
+  nameWithType: NestedPersist.OnElementSaved
+  fullName: SuperOffice.Data.NestedPersist.OnElementSaved
+- uid: SuperOffice.Data.NestedPersist.OnElementIdUpdate
+  commentId: E:SuperOffice.Data.NestedPersist.OnElementIdUpdate
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: OnElementIdUpdate
+  nameWithType: NestedPersist.OnElementIdUpdate
+  fullName: SuperOffice.Data.NestedPersist.OnElementIdUpdate
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ProjectMember, To>()
+  nameWithType: EnumUtil.MapEnums<ProjectMember, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ProjectMember, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ProjectMember, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ProjectMember, To)()
+  name.vb: MapEnums(Of ProjectMember, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ProjectMember, To>
+    nameWithType: EnumUtil.MapEnums<ProjectMember, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.ProjectMember, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ProjectMember, To)
+    nameWithType: EnumUtil.MapEnums(Of ProjectMember, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.ProjectMember, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ProjectMember, To>()
+  nameWithType: Converters.MapEnums<ProjectMember, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ProjectMember, To>()
+  nameWithType.vb: Converters.MapEnums(Of ProjectMember, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ProjectMember, To)()
+  name.vb: MapEnums(Of ProjectMember, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ProjectMember, To>
+    nameWithType: Converters.MapEnums<ProjectMember, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.ProjectMember, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ProjectMember, To)
+    nameWithType: Converters.MapEnums(Of ProjectMember, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.ProjectMember, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.ProjectMemberRow
+  commentId: T:SuperOffice.CRM.Rows.ProjectMemberRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ProjectMemberRow
+  nameWithType: ProjectMemberRow
+  fullName: SuperOffice.CRM.Rows.ProjectMemberRow
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember.ProjectMemberIdxBase
+  nameWithType: ProjectMember.ProjectMemberIdxBase
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMemberIdxBase
+- uid: SuperOffice.CRM.Entities.Person
+  commentId: T:SuperOffice.CRM.Entities.Person
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Entities.Person
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: SuperOffice.CRM.Rows.AssociateRow
+  commentId: T:SuperOffice.CRM.Rows.AssociateRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: AssociateRow
+  nameWithType: AssociateRow
+  fullName: SuperOffice.CRM.Rows.AssociateRow
+- uid: SuperOffice.CRM.Rows.TextRow
+  commentId: T:SuperOffice.CRM.Rows.TextRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TextRow
+  nameWithType: TextRow
+  fullName: SuperOffice.CRM.Rows.TextRow
+- uid: SuperOffice.CRM.Rows.PMembTypeRow
+  commentId: T:SuperOffice.CRM.Rows.PMembTypeRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: PMembTypeRow
+  nameWithType: PMembTypeRow
+  fullName: SuperOffice.CRM.Rows.PMembTypeRow
+- uid: SuperOffice.CRM.Entities.Project
+  commentId: T:SuperOffice.CRM.Entities.Project
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Entities.Project
+- uid: SuperOffice.CRM.Entities.ProjectMember.#ctor*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.#ctor
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember.ProjectMember
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectMember
+- uid: SuperOffice.CRM.Entities.ProjectMember.CreateNew*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.CreateNew
+  isExternal: true
+  name: CreateNew
+  nameWithType: ProjectMember.CreateNew
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CreateNew
+- uid: SuperOffice.CRM.Entities.ProjectMember
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Entities.ProjectMember
+- uid: SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch
+  isExternal: true
+  name: GetFromCustomSearch
+  nameWithType: ProjectMember.GetFromCustomSearch
+  fullName: SuperOffice.CRM.Entities.ProjectMember.GetFromCustomSearch
+- uid: SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+  commentId: T:SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: ProjectMember.CustomSearch
+  nameWithType: ProjectMember.CustomSearch
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CustomSearch
+- uid: SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId
+  isExternal: true
+  name: GetFromIdxProjectmemberId
+  nameWithType: ProjectMember.GetFromIdxProjectmemberId
+  fullName: SuperOffice.CRM.Entities.ProjectMember.GetFromIdxProjectmemberId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnRowLoad(SoDataReader, TableRowBase)
+  nameWithType: EntityBase.OnRowLoad(SoDataReader, TableRowBase)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader, SuperOffice.CRM.Rows.TableRowBase)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: OnRowLoad
+    nameWithType: EntityBase.OnRowLoad
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
+    name: OnRowLoad
+    nameWithType: EntityBase.OnRowLoad
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoad
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Rows.TableRowBase
+    name: TableRowBase
+    nameWithType: TableRowBase
+    fullName: SuperOffice.CRM.Rows.TableRowBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnRowLoad*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.OnRowLoad
+  isExternal: true
+  name: OnRowLoad
+  nameWithType: ProjectMember.OnRowLoad
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnRowLoad
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnRowLoaded()
+  nameWithType: EntityBase.OnRowLoaded()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+    name: OnRowLoaded
+    nameWithType: EntityBase.OnRowLoaded
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+    name: OnRowLoaded
+    nameWithType: EntityBase.OnRowLoaded
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnRowLoaded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded
+  isExternal: true
+  name: OnRowLoaded
+  nameWithType: ProjectMember.OnRowLoaded
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnRowLoaded
+- uid: SuperOffice.CRM.Entities.ProjectMember.SetDefaults*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.SetDefaults
+  isExternal: true
+  name: SetDefaults
+  nameWithType: ProjectMember.SetDefaults
+  fullName: SuperOffice.CRM.Entities.ProjectMember.SetDefaults
+- uid: SuperOffice.CRM.Rows.DefaulterStrategy
+  commentId: T:SuperOffice.CRM.Rows.DefaulterStrategy
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: DefaulterStrategy
+  nameWithType: DefaulterStrategy
+  fullName: SuperOffice.CRM.Rows.DefaulterStrategy
+- uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: GetRelatedNestedPersist(List<INestedPersist>, Boolean)
+  nameWithType: EntityBase.GetRelatedNestedPersist(List<INestedPersist>, Boolean)
+  fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List<SuperOffice.Data.INestedPersist>, System.Boolean)
+  nameWithType.vb: EntityBase.GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  fullName.vb: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), System.Boolean)
+  name.vb: GetRelatedNestedPersist(List(Of INestedPersist), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+    name: GetRelatedNestedPersist
+    nameWithType: EntityBase.GetRelatedNestedPersist
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean)
+    name: GetRelatedNestedPersist
+    nameWithType: EntityBase.GetRelatedNestedPersist
+    fullName: SuperOffice.CRM.Entities.EntityBase.GetRelatedNestedPersist
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist
+  isExternal: true
+  name: GetRelatedNestedPersist
+  nameWithType: ProjectMember.GetRelatedNestedPersist
+  fullName: SuperOffice.CRM.Entities.ProjectMember.GetRelatedNestedPersist
+- uid: System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Data.INestedPersist}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<INestedPersist>
+  nameWithType: List<INestedPersist>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.INestedPersist>
+  nameWithType.vb: List(Of INestedPersist)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist)
+  name.vb: List(Of INestedPersist)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.INestedPersist
+    name: INestedPersist
+    nameWithType: INestedPersist
+    fullName: SuperOffice.Data.INestedPersist
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnPreIdUpdate()
+  nameWithType: EntityBase.OnPreIdUpdate()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: EntityBase.OnPreIdUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+    name: OnPreIdUpdate
+    nameWithType: EntityBase.OnPreIdUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate
+  isExternal: true
+  name: OnPreIdUpdate
+  nameWithType: ProjectMember.OnPreIdUpdate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnPreIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: OnIdUpdate()
+  nameWithType: EntityBase.OnIdUpdate()
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: EntityBase.OnIdUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+    name: OnIdUpdate
+    nameWithType: EntityBase.OnIdUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.OnIdUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate
+  isExternal: true
+  name: OnIdUpdate
+  nameWithType: ProjectMember.OnIdUpdate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnIdUpdate
+- uid: SuperOffice.CRM.Entities.EntityBase.Delete
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.Delete
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: Delete()
+  nameWithType: EntityBase.Delete()
+  fullName: SuperOffice.CRM.Entities.EntityBase.Delete()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.Delete
+    name: Delete
+    nameWithType: EntityBase.Delete
+    fullName: SuperOffice.CRM.Entities.EntityBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.Delete
+    name: Delete
+    nameWithType: EntityBase.Delete
+    fullName: SuperOffice.CRM.Entities.EntityBase.Delete
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.Delete*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: ProjectMember.Delete
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Delete
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe
+  isExternal: true
+  name: OnPreSaveMe
+  nameWithType: ProjectMember.OnPreSaveMe
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnPreSaveMe
+- uid: SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe
+  isExternal: true
+  name: OnPostSaveMe
+  nameWithType: ProjectMember.OnPostSaveMe
+  fullName: SuperOffice.CRM.Entities.ProjectMember.OnPostSaveMe
+- uid: SuperOffice.CRM.Entities.ProjectMember.op_Explicit*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.op_Explicit
+  isExternal: true
+  name: Explicit
+  nameWithType: ProjectMember.Explicit
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Explicit
+  nameWithType.vb: ProjectMember.Narrowing
+  fullName.vb: SuperOffice.CRM.Entities.ProjectMember.Narrowing
+  name.vb: Narrowing
+- uid: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow
+  isExternal: true
+  name: FromProjectMemberRow
+  nameWithType: ProjectMember.FromProjectMemberRow
+  fullName: SuperOffice.CRM.Entities.ProjectMember.FromProjectMemberRow
+- uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: ForceEntityUpdate()
+  nameWithType: EntityBase.ForceEntityUpdate()
+  fullName: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+    name: ForceEntityUpdate
+    nameWithType: EntityBase.ForceEntityUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+    name: ForceEntityUpdate
+    nameWithType: EntityBase.ForceEntityUpdate
+    fullName: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate
+  isExternal: true
+  name: ForceEntityUpdate
+  nameWithType: ProjectMember.ForceEntityUpdate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ForceEntityUpdate
+- uid: SuperOffice.CRM.Entities.EntityBase.Validate
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.Validate
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: Validate()
+  nameWithType: EntityBase.Validate()
+  fullName: SuperOffice.CRM.Entities.EntityBase.Validate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.Validate
+    name: Validate
+    nameWithType: EntityBase.Validate
+    fullName: SuperOffice.CRM.Entities.EntityBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.Validate
+    name: Validate
+    nameWithType: EntityBase.Validate
+    fullName: SuperOffice.CRM.Entities.EntityBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.Validate*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Validate
+  isExternal: true
+  name: Validate
+  nameWithType: ProjectMember.Validate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Validate
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.ProjectMember.Row*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Row
+  isExternal: true
+  name: Row
+  nameWithType: ProjectMember.Row
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Row
+- uid: SuperOffice.CRM.Entities.ProjectMember.TableInfo*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.TableInfo
+  isExternal: true
+  name: TableInfo
+  nameWithType: ProjectMember.TableInfo
+  fullName: SuperOffice.CRM.Entities.ProjectMember.TableInfo
+- uid: SuperOffice.CRM.Data.ProjectMemberTableInfo
+  commentId: T:SuperOffice.CRM.Data.ProjectMemberTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: ProjectMemberTableInfo
+  nameWithType: ProjectMemberTableInfo
+  fullName: SuperOffice.CRM.Data.ProjectMemberTableInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId
+  isExternal: true
+  name: ProjectmemberId
+  nameWithType: ProjectMember.ProjectmemberId
+  fullName: SuperOffice.CRM.Entities.ProjectMember.ProjectmemberId
+- uid: SuperOffice.CRM.Entities.ProjectMember.Rank*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: ProjectMember.Rank
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Rank
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Entities.ProjectMember.Registered*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: ProjectMember.Registered
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Entities.ProjectMember.Updated*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: ProjectMember.Updated
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Updated
+- uid: SuperOffice.CRM.Entities.ProjectMember.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: ProjectMember.UpdatedCount
+  fullName: SuperOffice.CRM.Entities.ProjectMember.UpdatedCount
+- uid: SuperOffice.CRM.Entities.ProjectMember.Person*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Person
+  isExternal: true
+  name: Person
+  nameWithType: ProjectMember.Person
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Person
+- uid: SuperOffice.CRM.Entities.ProjectMember.Contact*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: ProjectMember.Contact
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Contact
+- uid: SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate
+  isExternal: true
+  name: CreatedAssociate
+  nameWithType: ProjectMember.CreatedAssociate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.CreatedAssociate
+- uid: SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate
+  isExternal: true
+  name: UpdatedAssociate
+  nameWithType: ProjectMember.UpdatedAssociate
+  fullName: SuperOffice.CRM.Entities.ProjectMember.UpdatedAssociate
+- uid: SuperOffice.CRM.Entities.ProjectMember.Text*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Text
+  isExternal: true
+  name: Text
+  nameWithType: ProjectMember.Text
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Text
+- uid: SuperOffice.CRM.Entities.ProjectMember.MemberType*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.MemberType
+  isExternal: true
+  name: MemberType
+  nameWithType: ProjectMember.MemberType
+  fullName: SuperOffice.CRM.Entities.ProjectMember.MemberType
+- uid: SuperOffice.CRM.Entities.ProjectMember.Project*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.Project
+  isExternal: true
+  name: Project
+  nameWithType: ProjectMember.Project
+  fullName: SuperOffice.CRM.Entities.ProjectMember.Project
+- uid: SuperOffice.Data.NestedPersist.IsDeleted
+  commentId: P:SuperOffice.Data.NestedPersist.IsDeleted
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: IsDeleted
+  nameWithType: NestedPersist.IsDeleted
+  fullName: SuperOffice.Data.NestedPersist.IsDeleted
+- uid: SuperOffice.CRM.Entities.ProjectMember.IsDeleted*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.IsDeleted
+  isExternal: true
+  name: IsDeleted
+  nameWithType: ProjectMember.IsDeleted
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IsDeleted
+- uid: SuperOffice.Data.NestedPersist.IsMarkedForDelete
+  commentId: P:SuperOffice.Data.NestedPersist.IsMarkedForDelete
+  parent: SuperOffice.Data.NestedPersist
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: NestedPersist.IsMarkedForDelete
+  fullName: SuperOffice.Data.NestedPersist.IsMarkedForDelete
+- uid: SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete
+  isExternal: true
+  name: IsMarkedForDelete
+  nameWithType: ProjectMember.IsMarkedForDelete
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IsMarkedForDelete
+- uid: SuperOffice.CRM.Entities.EntityBase.IsNew
+  commentId: P:SuperOffice.CRM.Entities.EntityBase.IsNew
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: IsNew
+  nameWithType: EntityBase.IsNew
+  fullName: SuperOffice.CRM.Entities.EntityBase.IsNew
+- uid: SuperOffice.CRM.Entities.ProjectMember.IsNew*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.IsNew
+  isExternal: true
+  name: IsNew
+  nameWithType: ProjectMember.IsNew
+  fullName: SuperOffice.CRM.Entities.ProjectMember.IsNew
+- uid: SuperOffice.CRM.Entities.EntityBase.MainRow
+  commentId: P:SuperOffice.CRM.Entities.EntityBase.MainRow
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  name: MainRow
+  nameWithType: EntityBase.MainRow
+  fullName: SuperOffice.CRM.Entities.EntityBase.MainRow
+- uid: SuperOffice.CRM.Entities.ProjectMember.MainRow*
+  commentId: Overload:SuperOffice.CRM.Entities.ProjectMember.MainRow
+  isExternal: true
+  name: MainRow
+  nameWithType: ProjectMember.MainRow
+  fullName: SuperOffice.CRM.Entities.ProjectMember.MainRow

@@ -1,0 +1,1126 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Messaging
+  commentId: T:SuperOffice.Configuration.ConfigFile.Messaging
+  id: ConfigFile.Messaging
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
+  - SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
+  - SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
+  - SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
+  - SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
+  - SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Messaging
+  nameWithType: ConfigFile.Messaging
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration values for SuperOffice.CRM.Messaging and the SoMessaging.dll.\n"
+  syntax:
+    content: public static class Messaging
+    content.vb: Public Module Messaging
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
+  id: MessagingSoAuthentication
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: MessagingSoAuthentication
+  nameWithType: ConfigFile.Messaging.MessagingSoAuthentication
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFalse will indicate process being authenticated with NetServer or Anonymous user\n"
+  syntax:
+    content: public static bool MessagingSoAuthentication { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property MessagingSoAuthentication As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
+  id: MessagingSoUser
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: MessagingSoUser
+  nameWithType: ConfigFile.Messaging.MessagingSoUser
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSuperOffice user to authenticate with.\n"
+  syntax:
+    content: public static string MessagingSoUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property MessagingSoUser As String
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
+  id: MessagingSoPassword
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: MessagingSoPassword
+  nameWithType: ConfigFile.Messaging.MessagingSoPassword
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPassword for <xref href=\"SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static string MessagingSoPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property MessagingSoPassword As String
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
+  id: BrokerBroadcastAddress
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerBroadcastAddress
+  nameWithType: ConfigFile.Messaging.BrokerBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBroadcast address for the message broker to send to other machines.  Default is broadcast address: 255.255.255.255\n"
+  syntax:
+    content: public static IPAddress BrokerBroadcastAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Shared Property BrokerBroadcastAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
+  id: BrokerExternalListeningAddress
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerExternalListeningAddress
+  nameWithType: ConfigFile.Messaging.BrokerExternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress the message broker is listening on for external messages. Default value is Any IP address: 0.0.0.0\n"
+  syntax:
+    content: public static IPAddress BrokerExternalListeningAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Shared Property BrokerExternalListeningAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
+  id: BrokerInternalListeningAddress
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerInternalListeningAddress
+  nameWithType: ConfigFile.Messaging.BrokerInternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress the message broker is listening on for internal messages.  Default value is Loopback adapter: 127.0.0.1\n"
+  syntax:
+    content: public static IPAddress BrokerInternalListeningAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Shared Property BrokerInternalListeningAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
+  id: ClientBroadcastAddress
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientBroadcastAddress
+  nameWithType: ConfigFile.Messaging.ClientBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress ther message clients (normally sending messages through the message broker) is broadcasting on.  Default value is Loopback adapter: 127.0.0.1\n"
+  syntax:
+    content: public static IPAddress ClientBroadcastAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Shared Property ClientBroadcastAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
+  id: ClientListeningAddress
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientListeningAddress
+  nameWithType: ConfigFile.Messaging.ClientListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAddress the message clients (noirmally recieving messages from the message broker) is listening on.  Default value is Any IP address: 0.0.0.0\n"
+  syntax:
+    content: public static IPAddress ClientListeningAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public Shared Property ClientListeningAddress As IPAddress
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
+  id: BrokerBroadcastPort
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerBroadcastPort
+  nameWithType: ConfigFile.Messaging.BrokerBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message broker is sending messages on to other machines.  Default value is port 19107\n"
+  syntax:
+    content: public static int BrokerBroadcastPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property BrokerBroadcastPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
+  id: BrokerExternalListeningPort
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerExternalListeningPort
+  nameWithType: ConfigFile.Messaging.BrokerExternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message broker is listening for messages from other machines.  Default value is port 19107\n"
+  syntax:
+    content: public static int BrokerExternalListeningPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property BrokerExternalListeningPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
+  id: BrokerInternalListeningPort
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerInternalListeningPort
+  nameWithType: ConfigFile.Messaging.BrokerInternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message broker is listening for messages from internal clients.  Default value is port 19108\n"
+  syntax:
+    content: public static int BrokerInternalListeningPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property BrokerInternalListeningPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
+  id: ClientBroadcastPort
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientBroadcastPort
+  nameWithType: ConfigFile.Messaging.ClientBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe port the message client is broadcasting messages on (normally to the message broker).  Default value is port 19108\n"
+  syntax:
+    content: public static int ClientBroadcastPort { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ClientBroadcastPort As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
+  id: ClientListeningPortStart
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientListeningPortStart
+  nameWithType: ConfigFile.Messaging.ClientListeningPortStart
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe start of the range clients listen to messages on (normally from the message broker).  Default value is 19109\n"
+  syntax:
+    content: public static int ClientListeningPortStart { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ClientListeningPortStart As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
+  id: ClientListeningPortEnd
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientListeningPortEnd
+  nameWithType: ConfigFile.Messaging.ClientListeningPortEnd
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe end of the range clients listen to messages on (normally from the message broker).  Default value is 19999\n"
+  syntax:
+    content: public static int ClientListeningPortEnd { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ClientListeningPortEnd As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
+  id: ClientAutoCreateBroker
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientAutoCreateBroker
+  nameWithType: ConfigFile.Messaging.ClientAutoCreateBroker
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould the message client automatically create a local message broker if one does not exsist?  Default value is true.\n"
+  syntax:
+    content: public static bool ClientAutoCreateBroker { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ClientAutoCreateBroker As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
+  id: BrokerAutoAliveMessage
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerAutoAliveMessage
+  nameWithType: ConfigFile.Messaging.BrokerAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould the message broker autiomatically send alive messages?  Default value is true.\n"
+  syntax:
+    content: public static bool BrokerAutoAliveMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property BrokerAutoAliveMessage As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
+  id: ClientAutoAliveMessage
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientAutoAliveMessage
+  nameWithType: ConfigFile.Messaging.ClientAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSould the message client automatically send alive messages?  Default value is true.\n"
+  syntax:
+    content: public static bool ClientAutoAliveMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property ClientAutoAliveMessage As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  id: BrokerAutoAliveMessageInterval
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: BrokerAutoAliveMessageInterval
+  nameWithType: ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInterval for the mesage broker to send alive messages.  Default value is 60 (sec).\n"
+  syntax:
+    content: public static int BrokerAutoAliveMessageInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property BrokerAutoAliveMessageInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  commentId: P:SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  id: ClientAutoAliveMessageInterval
+  parent: SuperOffice.Configuration.ConfigFile.Messaging
+  langs:
+  - csharp
+  - vb
+  name: ClientAutoAliveMessageInterval
+  nameWithType: ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInterval for the mesage client to send alive messages.  Default value is 60 (sec).\n"
+  syntax:
+    content: public static int ClientAutoAliveMessageInterval { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property ClientAutoAliveMessageInterval As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
+  isExternal: true
+  name: MessagingSoAuthentication
+  nameWithType: ConfigFile.Messaging.MessagingSoAuthentication
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoAuthentication
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
+  isExternal: true
+  name: MessagingSoUser
+  nameWithType: ConfigFile.Messaging.MessagingSoUser
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoUser
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
+  isExternal: true
+  name: MessagingSoPassword
+  nameWithType: ConfigFile.Messaging.MessagingSoPassword
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.MessagingSoPassword
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
+  isExternal: true
+  name: BrokerBroadcastAddress
+  nameWithType: ConfigFile.Messaging.BrokerBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastAddress
+- uid: System.Net.IPAddress
+  isExternal: true
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: System.Net.IPAddress
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
+  isExternal: true
+  name: BrokerExternalListeningAddress
+  nameWithType: ConfigFile.Messaging.BrokerExternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningAddress
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
+  isExternal: true
+  name: BrokerInternalListeningAddress
+  nameWithType: ConfigFile.Messaging.BrokerInternalListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningAddress
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
+  isExternal: true
+  name: ClientBroadcastAddress
+  nameWithType: ConfigFile.Messaging.ClientBroadcastAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastAddress
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
+  isExternal: true
+  name: ClientListeningAddress
+  nameWithType: ConfigFile.Messaging.ClientListeningAddress
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningAddress
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
+  isExternal: true
+  name: BrokerBroadcastPort
+  nameWithType: ConfigFile.Messaging.BrokerBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerBroadcastPort
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
+  isExternal: true
+  name: BrokerExternalListeningPort
+  nameWithType: ConfigFile.Messaging.BrokerExternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerExternalListeningPort
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
+  isExternal: true
+  name: BrokerInternalListeningPort
+  nameWithType: ConfigFile.Messaging.BrokerInternalListeningPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerInternalListeningPort
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
+  isExternal: true
+  name: ClientBroadcastPort
+  nameWithType: ConfigFile.Messaging.ClientBroadcastPort
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientBroadcastPort
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
+  isExternal: true
+  name: ClientListeningPortStart
+  nameWithType: ConfigFile.Messaging.ClientListeningPortStart
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortStart
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
+  isExternal: true
+  name: ClientListeningPortEnd
+  nameWithType: ConfigFile.Messaging.ClientListeningPortEnd
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientListeningPortEnd
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
+  isExternal: true
+  name: ClientAutoCreateBroker
+  nameWithType: ConfigFile.Messaging.ClientAutoCreateBroker
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoCreateBroker
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
+  isExternal: true
+  name: BrokerAutoAliveMessage
+  nameWithType: ConfigFile.Messaging.BrokerAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessage
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
+  isExternal: true
+  name: ClientAutoAliveMessage
+  nameWithType: ConfigFile.Messaging.ClientAutoAliveMessage
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessage
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  isExternal: true
+  name: BrokerAutoAliveMessageInterval
+  nameWithType: ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.BrokerAutoAliveMessageInterval
+- uid: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  isExternal: true
+  name: ClientAutoAliveMessageInterval
+  nameWithType: ConfigFile.Messaging.ClientAutoAliveMessageInterval
+  fullName: SuperOffice.Configuration.ConfigFile.Messaging.ClientAutoAliveMessageInterval

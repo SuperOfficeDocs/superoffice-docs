@@ -1,0 +1,1778 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.SoListItem
+  commentId: T:SuperOffice.CRM.Lists.SoListItem
+  id: SoListItem
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.SoListItem.#ctor
+  - SuperOffice.CRM.Lists.SoListItem.#ctor(SuperOffice.CRM.Lists.ISoListItem)
+  - SuperOffice.CRM.Lists.SoListItem.#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Lists.SoListItem.#ctor(System.Int32,System.String,System.String,System.String)
+  - SuperOffice.CRM.Lists.SoListItem.Color
+  - SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  - SuperOffice.CRM.Lists.SoListItem.Deleted
+  - SuperOffice.CRM.Lists.SoListItem.ExtraInfo
+  - SuperOffice.CRM.Lists.SoListItem.FullName
+  - SuperOffice.CRM.Lists.SoListItem.GetHashCode
+  - SuperOffice.CRM.Lists.SoListItem.IconHint
+  - SuperOffice.CRM.Lists.SoListItem.Id
+  - SuperOffice.CRM.Lists.SoListItem.Name
+  - SuperOffice.CRM.Lists.SoListItem.Rank
+  - SuperOffice.CRM.Lists.SoListItem.StyleHint
+  - SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo(System.Object)
+  - SuperOffice.CRM.Lists.SoListItem.Tooltip
+  - SuperOffice.CRM.Lists.SoListItem.ToString
+  - SuperOffice.CRM.Lists.SoListItem.Type
+  langs:
+  - csharp
+  - vb
+  name: SoListItem
+  nameWithType: SoListItem
+  fullName: SuperOffice.CRM.Lists.SoListItem
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nDefault ListProvider item\n"
+  syntax:
+    content: 'public class SoListItem : ISoListItem, IComparable<ISoListItem>, IComparable'
+    content.vb: >-
+      Public Class SoListItem
+          Implements ISoListItem, IComparable(Of ISoListItem), IComparable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Lists.MenuListItem
+  - SuperOffice.CRM.Lists.SelectableListItem
+  - SuperOffice.CRM.Lists.SoListItemDeep
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem
+  - System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
+  - System.IComparable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Lists.SoListItem.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.SoListItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SoListItem)
+  - SuperOffice.CRM.Lists.SoListItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Lists.SoListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Lists.SoListItem.#ctor
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: SoListItem()
+  nameWithType: SoListItem.SoListItem()
+  fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SoListItem()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Lists.SoListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String,System.Int16,System.Boolean,System.String,System.Int32,System.String,System.String,System.String,System.String)'
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: SoListItem(Int32, String, String, Int16, Boolean, String, Int32, String, String, String, String)
+  nameWithType: SoListItem.SoListItem(Int32, String, String, Int16, Boolean, String, Int32, String, String, String, String)
+  fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem(System.Int32, System.String, System.String, System.Int16, System.Boolean, System.String, System.Int32, System.String, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SoListItem(int Id, string Name, string Tooltip, short Rank, bool Deleted, string Type, int Color, string IconHint, string StyleHint, string ExtraInfo, string FullName = "")
+    parameters:
+    - id: Id
+      type: System.Int32
+      description: Primary key
+    - id: Name
+      type: System.String
+      description: Visible item name
+    - id: Tooltip
+      type: System.String
+      description: Visible item tooltip
+    - id: Rank
+      type: System.Int16
+      description: Item rank (lowest first in sort order)
+    - id: Deleted
+      type: System.Boolean
+      description: Deleted flag (deleted if true)
+    - id: Type
+      type: System.String
+      description: Item type, interpretation depends on list
+    - id: Color
+      type: System.Int32
+      description: Item color
+    - id: IconHint
+      type: System.String
+      description: Suggested item icon
+    - id: StyleHint
+      type: System.String
+    - id: ExtraInfo
+      type: System.String
+    - id: FullName
+      type: System.String
+    content.vb: Public Sub New(Id As Integer, Name As String, Tooltip As String, Rank As Short, Deleted As Boolean, Type As String, Color As Integer, IconHint As String, StyleHint As String, ExtraInfo As String, FullName As String = "")
+  overload: SuperOffice.CRM.Lists.SoListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.#ctor(SuperOffice.CRM.Lists.ISoListItem)
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.#ctor(SuperOffice.CRM.Lists.ISoListItem)
+  id: '#ctor(SuperOffice.CRM.Lists.ISoListItem)'
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: SoListItem(ISoListItem)
+  nameWithType: SoListItem.SoListItem(ISoListItem)
+  fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem(SuperOffice.CRM.Lists.ISoListItem)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n&apos;Copy&apos; constructor to make a deep copy of a list item.\n"
+  syntax:
+    content: public SoListItem(ISoListItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Lists.ISoListItem
+    content.vb: Public Sub New(item As ISoListItem)
+  overload: SuperOffice.CRM.Lists.SoListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.#ctor(System.Int32,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.#ctor(System.Int32,System.String,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String,System.String)'
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: SoListItem(Int32, String, String, String)
+  nameWithType: SoListItem.SoListItem(Int32, String, String, String)
+  fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem(System.Int32, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nSimplified constructor, where everything except id, name and tooltip defaults to empty. The rank is set\nthe same as the ID, and deleted is set to false.\n"
+  syntax:
+    content: public SoListItem(int Id, string Name, string Tooltip, string ExtraInfo)
+    parameters:
+    - id: Id
+      type: System.Int32
+      description: Primary key
+    - id: Name
+      type: System.String
+      description: Visible item name
+    - id: Tooltip
+      type: System.String
+      description: Visible item tooltip
+    - id: ExtraInfo
+      type: System.String
+    content.vb: Public Sub New(Id As Integer, Name As String, Tooltip As String, ExtraInfo As String)
+  overload: SuperOffice.CRM.Lists.SoListItem.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.ToString
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SoListItem.ToString()
+  fullName: SuperOffice.CRM.Lists.SoListItem.ToString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Lists.SoListItem.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  id: CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: CompareTo(ISoListItem)
+  nameWithType: SoListItem.CompareTo(ISoListItem)
+  fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nCompare the rank of this item to the rank of another item.\n"
+  syntax:
+    content: public int CompareTo(ISoListItem other)
+    parameters:
+    - id: other
+      type: SuperOffice.CRM.Lists.ISoListItem
+      description: Item to compare Rank with.
+    return:
+      type: System.Int32
+      description: Rank compared to other&apos;s rank.
+    content.vb: Public Function CompareTo(other As ISoListItem) As Integer
+  overload: SuperOffice.CRM.Lists.SoListItem.CompareTo*
+  implements:
+  - System.IComparable{SuperOffice.CRM.Lists.ISoListItem}.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.GetHashCode
+  id: GetHashCode
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: SoListItem.GetHashCode()
+  fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: SuperOffice.CRM.Lists.SoListItem.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo(System.Object)
+  commentId: M:SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo(System.Object)
+  id: System#IComparable#CompareTo(System.Object)
+  isEii: true
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: IComparable.CompareTo(Object)
+  nameWithType: SoListItem.IComparable.CompareTo(Object)
+  fullName: SuperOffice.CRM.Lists.SoListItem.System.IComparable.CompareTo(System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: int IComparable.CompareTo(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Int32
+    content.vb: Function System.IComparable.CompareTo(obj As Object) As Integer Implements IComparable.CompareTo
+  overload: SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo*
+  implements:
+  - System.IComparable.CompareTo(System.Object)
+  nameWithType.vb: SoListItem.System.IComparable.CompareTo(Object)
+  name.vb: System.IComparable.CompareTo(Object)
+- uid: SuperOffice.CRM.Lists.SoListItem.Id
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Id
+  id: Id
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SoListItem.Id
+  fullName: SuperOffice.CRM.Lists.SoListItem.Id
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: SuperOffice.CRM.Lists.SoListItem.Id*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.Name
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Name
+  id: Name
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SoListItem.Name
+  fullName: SuperOffice.CRM.Lists.SoListItem.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Lists.SoListItem.Name*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.Tooltip
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: SoListItem.Tooltip
+  fullName: SuperOffice.CRM.Lists.SoListItem.Tooltip
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Tooltip As String
+  overload: SuperOffice.CRM.Lists.SoListItem.Tooltip*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.Rank
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: SoListItem.Rank
+  fullName: SuperOffice.CRM.Lists.SoListItem.Rank
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property Rank As Short
+  overload: SuperOffice.CRM.Lists.SoListItem.Rank*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Rank
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.Deleted
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: SoListItem.Deleted
+  fullName: SuperOffice.CRM.Lists.SoListItem.Deleted
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Deleted As Boolean
+  overload: SuperOffice.CRM.Lists.SoListItem.Deleted*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Deleted
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.Type
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Type
+  id: Type
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: SoListItem.Type
+  fullName: SuperOffice.CRM.Lists.SoListItem.Type
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.CRM.Lists.SoListItem.Type*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.Color
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.Color
+  id: Color
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: SoListItem.Color
+  fullName: SuperOffice.CRM.Lists.SoListItem.Color
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public int Color { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Color As Integer
+  overload: SuperOffice.CRM.Lists.SoListItem.Color*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.Color
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.IconHint
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.IconHint
+  id: IconHint
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: SoListItem.IconHint
+  fullName: SuperOffice.CRM.Lists.SoListItem.IconHint
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IconHint As String
+  overload: SuperOffice.CRM.Lists.SoListItem.IconHint*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.IconHint
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.StyleHint
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.StyleHint
+  id: StyleHint
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: StyleHint
+  nameWithType: SoListItem.StyleHint
+  fullName: SuperOffice.CRM.Lists.SoListItem.StyleHint
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public string StyleHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StyleHint As String
+  overload: SuperOffice.CRM.Lists.SoListItem.StyleHint*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.ExtraInfo
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: SoListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Lists.SoListItem.ExtraInfo
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  summary: "\n\n"
+  syntax:
+    content: public string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtraInfo As String
+  overload: SuperOffice.CRM.Lists.SoListItem.ExtraInfo*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Lists.SoListItem.FullName
+  commentId: P:SuperOffice.CRM.Lists.SoListItem.FullName
+  id: FullName
+  parent: SuperOffice.CRM.Lists.SoListItem
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: SoListItem.FullName
+  fullName: SuperOffice.CRM.Lists.SoListItem.FullName
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullName As String
+  overload: SuperOffice.CRM.Lists.SoListItem.FullName*
+  implements:
+  - SuperOffice.CRM.Lists.ISoListItem.FullName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Lists.ISoListItem
+  commentId: T:SuperOffice.CRM.Lists.ISoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListItem
+  nameWithType: ISoListItem
+  fullName: SuperOffice.CRM.Lists.ISoListItem
+- uid: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System
+  definition: System.IComparable`1
+  name: IComparable<ISoListItem>
+  nameWithType: IComparable<ISoListItem>
+  fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: IComparable(Of ISoListItem)
+  fullName.vb: System.IComparable(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: IComparable(Of ISoListItem)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IComparable
+  commentId: T:System.IComparable
+  parent: System
+  isExternal: true
+  name: IComparable
+  nameWithType: IComparable
+  fullName: System.IComparable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoListItem, To>()
+  nameWithType: EnumUtil.MapEnums<SoListItem, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.SoListItem, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoListItem, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.SoListItem, To)()
+  name.vb: MapEnums(Of SoListItem, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoListItem, To>
+    nameWithType: EnumUtil.MapEnums<SoListItem, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.SoListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoListItem, To)
+    nameWithType: EnumUtil.MapEnums(Of SoListItem, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.SoListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Lists.SoListItem)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoListItem>(SoListItem)
+  nameWithType: ObjectExtensions.AssignByReflection<SoListItem>(SoListItem)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.SoListItem>(SuperOffice.CRM.Lists.SoListItem)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoListItem)(SoListItem)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.SoListItem)(SuperOffice.CRM.Lists.SoListItem)
+  name.vb: AssignByReflection(Of SoListItem)(SoListItem)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoListItem>
+    nameWithType: ObjectExtensions.AssignByReflection<SoListItem>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Lists.SoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoListItem)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoListItem)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Lists.SoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.SoListItem
+    name: SoListItem
+    nameWithType: SoListItem
+    fullName: SuperOffice.CRM.Lists.SoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoListItem>()
+  nameWithType: ObjectExtensions.GraphCopy<SoListItem>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.SoListItem>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoListItem)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.SoListItem)()
+  name.vb: GraphCopy(Of SoListItem)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoListItem>
+    nameWithType: ObjectExtensions.GraphCopy<SoListItem>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Lists.SoListItem>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoListItem)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoListItem)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Lists.SoListItem)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoListItem, To>()
+  nameWithType: Converters.MapEnums<SoListItem, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.SoListItem, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoListItem, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.SoListItem, To)()
+  name.vb: MapEnums(Of SoListItem, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoListItem, To>
+    nameWithType: Converters.MapEnums<SoListItem, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.SoListItem, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoListItem, To)
+    nameWithType: Converters.MapEnums(Of SoListItem, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.SoListItem, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IComparable`1
+  commentId: T:System.IComparable`1
+  isExternal: true
+  name: IComparable<T>
+  nameWithType: IComparable<T>
+  fullName: System.IComparable<T>
+  nameWithType.vb: IComparable(Of T)
+  fullName.vb: System.IComparable(Of T)
+  name.vb: IComparable(Of T)
+  spec.csharp:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.IComparable`1
+    name: IComparable
+    nameWithType: IComparable
+    fullName: System.IComparable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.SoListItem.#ctor*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.#ctor
+  isExternal: true
+  name: SoListItem
+  nameWithType: SoListItem.SoListItem
+  fullName: SuperOffice.CRM.Lists.SoListItem.SoListItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.ToString*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SoListItem.ToString
+  fullName: SuperOffice.CRM.Lists.SoListItem.ToString
+- uid: SuperOffice.CRM.Lists.SoListItem.CompareTo*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.CompareTo
+  isExternal: true
+  name: CompareTo
+  nameWithType: SoListItem.CompareTo
+  fullName: SuperOffice.CRM.Lists.SoListItem.CompareTo
+- uid: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  commentId: M:System.IComparable{SuperOffice.CRM.Lists.ISoListItem}.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  parent: System.IComparable{SuperOffice.CRM.Lists.ISoListItem}
+  definition: System.IComparable`1.CompareTo(`0)
+  name: CompareTo(ISoListItem)
+  nameWithType: IComparable<ISoListItem>.CompareTo(ISoListItem)
+  fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>.CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  nameWithType.vb: IComparable(Of ISoListItem).CompareTo(ISoListItem)
+  fullName.vb: System.IComparable(Of SuperOffice.CRM.Lists.ISoListItem).CompareTo(SuperOffice.CRM.Lists.ISoListItem)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable<ISoListItem>.CompareTo
+    fullName: System.IComparable<SuperOffice.CRM.Lists.ISoListItem>.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable(Of ISoListItem).CompareTo
+    fullName: System.IComparable(Of SuperOffice.CRM.Lists.ISoListItem).CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IComparable`1.CompareTo(`0)
+  commentId: M:System.IComparable`1.CompareTo(`0)
+  isExternal: true
+  name: CompareTo(T)
+  nameWithType: IComparable<T>.CompareTo(T)
+  fullName: System.IComparable<T>.CompareTo(T)
+  nameWithType.vb: IComparable(Of T).CompareTo(T)
+  fullName.vb: System.IComparable(Of T).CompareTo(T)
+  spec.csharp:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable<T>.CompareTo
+    fullName: System.IComparable<T>.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable`1.CompareTo(`0)
+    name: CompareTo
+    nameWithType: IComparable(Of T).CompareTo
+    fullName: System.IComparable(Of T).CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.GetHashCode*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.GetHashCode
+  isExternal: true
+  name: GetHashCode
+  nameWithType: SoListItem.GetHashCode
+  fullName: SuperOffice.CRM.Lists.SoListItem.GetHashCode
+- uid: SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.System#IComparable#CompareTo
+  isExternal: true
+  name: IComparable.CompareTo
+  nameWithType: SoListItem.IComparable.CompareTo
+  fullName: SuperOffice.CRM.Lists.SoListItem.System.IComparable.CompareTo
+  nameWithType.vb: SoListItem.System.IComparable.CompareTo
+  name.vb: System.IComparable.CompareTo
+- uid: System.IComparable.CompareTo(System.Object)
+  commentId: M:System.IComparable.CompareTo(System.Object)
+  parent: System.IComparable
+  isExternal: true
+  name: CompareTo(Object)
+  nameWithType: IComparable.CompareTo(Object)
+  fullName: System.IComparable.CompareTo(System.Object)
+  spec.csharp:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IComparable.CompareTo(System.Object)
+    name: CompareTo
+    nameWithType: IComparable.CompareTo
+    fullName: System.IComparable.CompareTo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.SoListItem.Id*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Id
+  isExternal: true
+  name: Id
+  nameWithType: SoListItem.Id
+  fullName: SuperOffice.CRM.Lists.SoListItem.Id
+- uid: SuperOffice.CRM.Lists.ISoListItem.Id
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Id
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Id
+  nameWithType: ISoListItem.Id
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Id
+- uid: SuperOffice.CRM.Lists.SoListItem.Name*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Name
+  isExternal: true
+  name: Name
+  nameWithType: SoListItem.Name
+  fullName: SuperOffice.CRM.Lists.SoListItem.Name
+- uid: SuperOffice.CRM.Lists.ISoListItem.Name
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Name
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Name
+  nameWithType: ISoListItem.Name
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Name
+- uid: SuperOffice.CRM.Lists.SoListItem.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: SoListItem.Tooltip
+  fullName: SuperOffice.CRM.Lists.SoListItem.Tooltip
+- uid: SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Tooltip
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Tooltip
+  nameWithType: ISoListItem.Tooltip
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Tooltip
+- uid: SuperOffice.CRM.Lists.SoListItem.Rank*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: SoListItem.Rank
+  fullName: SuperOffice.CRM.Lists.SoListItem.Rank
+- uid: SuperOffice.CRM.Lists.ISoListItem.Rank
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Rank
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Rank
+  nameWithType: ISoListItem.Rank
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Rank
+- uid: SuperOffice.CRM.Lists.SoListItem.Deleted*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: SoListItem.Deleted
+  fullName: SuperOffice.CRM.Lists.SoListItem.Deleted
+- uid: SuperOffice.CRM.Lists.ISoListItem.Deleted
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Deleted
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Deleted
+  nameWithType: ISoListItem.Deleted
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Deleted
+- uid: SuperOffice.CRM.Lists.SoListItem.Type*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Type
+  isExternal: true
+  name: Type
+  nameWithType: SoListItem.Type
+  fullName: SuperOffice.CRM.Lists.SoListItem.Type
+- uid: SuperOffice.CRM.Lists.ISoListItem.Type
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Type
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Type
+  nameWithType: ISoListItem.Type
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Type
+- uid: SuperOffice.CRM.Lists.SoListItem.Color*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.Color
+  isExternal: true
+  name: Color
+  nameWithType: SoListItem.Color
+  fullName: SuperOffice.CRM.Lists.SoListItem.Color
+- uid: SuperOffice.CRM.Lists.ISoListItem.Color
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.Color
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: Color
+  nameWithType: ISoListItem.Color
+  fullName: SuperOffice.CRM.Lists.ISoListItem.Color
+- uid: SuperOffice.CRM.Lists.SoListItem.IconHint*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: SoListItem.IconHint
+  fullName: SuperOffice.CRM.Lists.SoListItem.IconHint
+- uid: SuperOffice.CRM.Lists.ISoListItem.IconHint
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.IconHint
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: IconHint
+  nameWithType: ISoListItem.IconHint
+  fullName: SuperOffice.CRM.Lists.ISoListItem.IconHint
+- uid: SuperOffice.CRM.Lists.SoListItem.StyleHint*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.StyleHint
+  isExternal: true
+  name: StyleHint
+  nameWithType: SoListItem.StyleHint
+  fullName: SuperOffice.CRM.Lists.SoListItem.StyleHint
+- uid: SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.StyleHint
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: StyleHint
+  nameWithType: ISoListItem.StyleHint
+  fullName: SuperOffice.CRM.Lists.ISoListItem.StyleHint
+- uid: SuperOffice.CRM.Lists.SoListItem.ExtraInfo*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: SoListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Lists.SoListItem.ExtraInfo
+- uid: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: ISoListItem.ExtraInfo
+  fullName: SuperOffice.CRM.Lists.ISoListItem.ExtraInfo
+- uid: SuperOffice.CRM.Lists.SoListItem.FullName*
+  commentId: Overload:SuperOffice.CRM.Lists.SoListItem.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: SoListItem.FullName
+  fullName: SuperOffice.CRM.Lists.SoListItem.FullName
+- uid: SuperOffice.CRM.Lists.ISoListItem.FullName
+  commentId: P:SuperOffice.CRM.Lists.ISoListItem.FullName
+  parent: SuperOffice.CRM.Lists.ISoListItem
+  isExternal: true
+  name: FullName
+  nameWithType: ISoListItem.FullName
+  fullName: SuperOffice.CRM.Lists.ISoListItem.FullName

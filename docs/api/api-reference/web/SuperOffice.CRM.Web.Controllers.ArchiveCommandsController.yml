@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  commentId: T:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  id: ArchiveCommandsController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.#ctor
+  - SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest)
+  - SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText(System.String)
+  - SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveCommandsController
+  nameWithType: ArchiveCommandsController
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class ArchiveCommandsController : ApiController'
+    content.vb: >-
+      Public Class ArchiveCommandsController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest)
+  id: DeleteFromLinkHint(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  langs:
+  - csharp
+  - vb
+  name: DeleteFromLinkHint(ArchiveCommandsController.DeleteFromLinkHintRequest)
+  nameWithType: ArchiveCommandsController.DeleteFromLinkHint(ArchiveCommandsController.DeleteFromLinkHintRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public AppointmentJsonObject DeleteFromLinkHint(ArchiveCommandsController.DeleteFromLinkHintRequest deleteFromLinkHintRequest)
+    parameters:
+    - id: deleteFromLinkHintRequest
+      type: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest
+    return:
+      type: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+    content.vb: Public Function DeleteFromLinkHint(deleteFromLinkHintRequest As ArchiveCommandsController.DeleteFromLinkHintRequest) As AppointmentJsonObject
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText(System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText(System.String)
+  id: GetDeleteConfirmText(System.String)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  langs:
+  - csharp
+  - vb
+  name: GetDeleteConfirmText(String)
+  nameWithType: ArchiveCommandsController.GetDeleteConfirmText(String)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ArchiveCommandsController.DeleteConfirmTextResponse GetDeleteConfirmText(string linkHintString)
+    parameters:
+    - id: linkHintString
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteConfirmTextResponse
+    content.vb: Public Function GetDeleteConfirmText(linkHintString As String) As ArchiveCommandsController.DeleteConfirmTextResponse
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust)
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust)
+  id: ToggleActivities(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust)
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  langs:
+  - csharp
+  - vb
+  name: ToggleActivities(ArchiveCommandsController.ToggleActivitiesReqeust)
+  nameWithType: ArchiveCommandsController.ToggleActivities(ArchiveCommandsController.ToggleActivitiesReqeust)
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities(SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string ToggleActivities(ArchiveCommandsController.ToggleActivitiesReqeust toggleActivitiesReqeust)
+    parameters:
+    - id: toggleActivitiesReqeust
+      type: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust
+    return:
+      type: System.String
+    content.vb: Public Function ToggleActivities(toggleActivitiesReqeust As ArchiveCommandsController.ToggleActivitiesReqeust) As String
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController
+  langs:
+  - csharp
+  - vb
+  name: ArchiveCommandsController()
+  nameWithType: ArchiveCommandsController.ArchiveCommandsController()
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ArchiveCommandsController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public ArchiveCommandsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint
+  isExternal: true
+  name: DeleteFromLinkHint
+  nameWithType: ArchiveCommandsController.DeleteFromLinkHint
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHint
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: ArchiveCommandsController.DeleteFromLinkHintRequest
+  nameWithType: ArchiveCommandsController.DeleteFromLinkHintRequest
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteFromLinkHintRequest
+- uid: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+  commentId: T:SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+  parent: SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: AppointmentJsonObject
+  nameWithType: AppointmentJsonObject
+  fullName: SuperOffice.CRM.Web.AjaxMethods.AppointmentJsonObject
+- uid: SuperOffice.CRM.Web.AjaxMethods
+  commentId: N:SuperOffice.CRM.Web.AjaxMethods
+  isExternal: true
+  name: SuperOffice.CRM.Web.AjaxMethods
+  nameWithType: SuperOffice.CRM.Web.AjaxMethods
+  fullName: SuperOffice.CRM.Web.AjaxMethods
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText
+  isExternal: true
+  name: GetDeleteConfirmText
+  nameWithType: ArchiveCommandsController.GetDeleteConfirmText
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.GetDeleteConfirmText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteConfirmTextResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteConfirmTextResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: ArchiveCommandsController.DeleteConfirmTextResponse
+  nameWithType: ArchiveCommandsController.DeleteConfirmTextResponse
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.DeleteConfirmTextResponse
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities
+  isExternal: true
+  name: ToggleActivities
+  nameWithType: ArchiveCommandsController.ToggleActivities
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivities
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust
+  commentId: T:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: ArchiveCommandsController.ToggleActivitiesReqeust
+  nameWithType: ArchiveCommandsController.ToggleActivitiesReqeust
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ToggleActivitiesReqeust
+- uid: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.#ctor
+  isExternal: true
+  name: ArchiveCommandsController
+  nameWithType: ArchiveCommandsController.ArchiveCommandsController
+  fullName: SuperOffice.CRM.Web.Controllers.ArchiveCommandsController.ArchiveCommandsController

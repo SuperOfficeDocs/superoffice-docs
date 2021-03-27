@@ -1,0 +1,766 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity
+  commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
+  id: TriggerScriptEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TriggerScriptEntity.#ctor
+  - SuperOffice.CRM.Services.TriggerScriptEntity.Enabled
+  - SuperOffice.CRM.Services.TriggerScriptEntity.Name
+  - SuperOffice.CRM.Services.TriggerScriptEntity.Registered
+  - SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId
+  - SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId
+  - SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType
+  - SuperOffice.CRM.Services.TriggerScriptEntity.Source
+  - SuperOffice.CRM.Services.TriggerScriptEntity.ToString
+  - SuperOffice.CRM.Services.TriggerScriptEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier
+  - SuperOffice.CRM.Services.TriggerScriptEntity.Updated
+  - SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId
+  langs:
+  - csharp
+  - vb
+  name: TriggerScriptEntity
+  nameWithType: TriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCRM Trigger Script - The script runs when a given event fires.\n<p></p>\nCarrier object for TriggerScriptEntity.\nServices for the TriggerScriptEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet TriggerScriptEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new CRMScriptAgent();\n    var triggerScriptEntity = agent.GetTriggerScriptEntity( 123 );\n }</code></pre>\n\nFind all TriggerScriptEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;EventHandler&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class TriggerScriptEntity : Carrier'
+    content.vb: >-
+      Public Class TriggerScriptEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.TriggerScriptEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: TriggerScriptEntity()
+  nameWithType: TriggerScriptEntity.TriggerScriptEntity()
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.TriggerScriptEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TriggerScriptEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.TriggerScriptEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TriggerScriptEntity.ToString()
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TriggerScriptEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TriggerScriptEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId
+  id: ScreenChooserId
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: ScreenChooserId
+  nameWithType: TriggerScriptEntity.ScreenChooserId
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ScreenChooserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ScreenChooserId As Integer
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Name
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TriggerScriptEntity.Name
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOptional description of what this script is used for. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType
+  id: ScreenType
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: ScreenType
+  nameWithType: TriggerScriptEntity.ScreenType
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEvent id that triggers script.  See EventHandlerType enum. \n"
+  syntax:
+    content: public virtual EventHandlerType ScreenType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: Public Overridable Property ScreenType As EventHandlerType
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Enabled
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.Enabled
+  id: Enabled
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: TriggerScriptEntity.Enabled
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Enabled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhether this screen chooser is enabled or not \n"
+  syntax:
+    content: public virtual bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Enabled As Boolean
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.Enabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier
+  id: UniqueIdentifier
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: UniqueIdentifier
+  nameWithType: TriggerScriptEntity.UniqueIdentifier
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGlobal unique identifier, accross customers/tenants \n"
+  syntax:
+    content: public virtual string UniqueIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UniqueIdentifier As String
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Source
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: TriggerScriptEntity.Source
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Source
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe CRMscript code for this event handler \n"
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Registered
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: TriggerScriptEntity.Registered
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As Date
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: TriggerScriptEntity.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Updated
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: TriggerScriptEntity.Updated
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Services.TriggerScriptEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: TriggerScriptEntity.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICRMScriptAgent
+  nameWithType: ICRMScriptAgent
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.#ctor
+  isExternal: true
+  name: TriggerScriptEntity
+  nameWithType: TriggerScriptEntity.TriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.TriggerScriptEntity
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TriggerScriptEntity.ToString
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId
+  isExternal: true
+  name: ScreenChooserId
+  nameWithType: TriggerScriptEntity.ScreenChooserId
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenChooserId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: TriggerScriptEntity.Name
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Name
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType
+  isExternal: true
+  name: ScreenType
+  nameWithType: TriggerScriptEntity.ScreenType
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.ScreenType
+- uid: SuperOffice.Data.EventHandlerType
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.Data.EventHandlerType
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Enabled*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.Enabled
+  isExternal: true
+  name: Enabled
+  nameWithType: TriggerScriptEntity.Enabled
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier
+  isExternal: true
+  name: UniqueIdentifier
+  nameWithType: TriggerScriptEntity.UniqueIdentifier
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.UniqueIdentifier
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Source*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.Source
+  isExternal: true
+  name: Source
+  nameWithType: TriggerScriptEntity.Source
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Source
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Registered*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: TriggerScriptEntity.Registered
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: TriggerScriptEntity.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.RegisteredAssociateId
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: TriggerScriptEntity.Updated
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.Updated
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: TriggerScriptEntity.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity.UpdatedAssociateId

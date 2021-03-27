@@ -1,0 +1,926 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile
+  commentId: T:SuperOffice.Configuration.ConfigFile
+  id: ConfigFile
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.AddOverride(System.String,System.String,System.String)
+  - SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[0:,0:])
+  - SuperOffice.Configuration.ConfigFile.GetAllOverrides
+  - SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
+  - SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
+  - SuperOffice.Configuration.ConfigFile.HasOverride(System.String,System.String)
+  - SuperOffice.Configuration.ConfigFile.RemoveAllOverrides
+  - SuperOffice.Configuration.ConfigFile.RemoveOverride(System.String,System.String)
+  - SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
+  - SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
+  - SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile
+  nameWithType: ConfigFile
+  fullName: SuperOffice.Configuration.ConfigFile
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access the SuperOffice entry in the Config file.\n"
+  remarks: "\nIMPORTANT:<p></p>\nAvoid reading directly from configurationfile like this;\n<pre><code>_values = (NameValueCollection)ConfigurationSettings.GetConfig(&quot;SuperOffice/Security/Sentry&quot;);</code></pre>\n\nInstead use this;\n<pre><code>_values = (NameValueCollection)ConfigFile.GetConfig(&quot;SuperOffice/Diagnostics&quot;);</code></pre>\n\nThis enables the code to check for missing configuration files, and missing xml sections,\nthus, enabling the code to throw appropriate exceptions.\n"
+  syntax:
+    content: public static class ConfigFile
+    content.vb: Public Module ConfigFile
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.AddOverride(System.String,System.String,System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.AddOverride(System.String,System.String,System.String)
+  id: AddOverride(System.String,System.String,System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: AddOverride(String, String, String)
+  nameWithType: ConfigFile.AddOverride(String, String, String)
+  fullName: SuperOffice.Configuration.ConfigFile.AddOverride(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSet an override for a Config file value. All such overrides should be made before the\nfirst call to SoSession.Authenticate, as later calls may not be honoured (no retroactive\neffects!).\n"
+  syntax:
+    content: public static bool AddOverride(string path, string name, string value)
+    parameters:
+    - id: path
+      type: System.String
+      description: Path of config item, such as &apos;SuperOffice/Data/Database&apos;
+    - id: name
+      type: System.String
+      description: Name of value to be overridden, such as &apos;Server&apos;
+    - id: value
+      type: System.String
+      description: Value to substitute over the config file value, such as &apos;myTestServer&apos;
+    return:
+      type: System.Boolean
+      description: >-
+        true if there was already an override for this path/name combination, false if not. The last
+
+        call to AddOverride wins!
+    content.vb: Public Shared Function AddOverride(path As String, name As String, value As String) As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.AddOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[0:,0:])
+  commentId: M:SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[0:,0:])
+  id: AddOverrides(System.String[0:,0:])
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: AddOverrides(String[,])
+  nameWithType: ConfigFile.AddOverrides(String[,])
+  fullName: SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[,])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nAdd multiple overrides in one batch. The last call to AddOverride wins!\n"
+  syntax:
+    content: public static bool AddOverrides(string[, ] overrides)
+    parameters:
+    - id: overrides
+      type: System.String[,]
+      description: 'Multi-dimensional array of overrides: ((&quot;path&quot;, &quot;key&quot;, &quot;val&quot;),(&quot;path2&quot;, &quot;key2&quot;, &quot;val2&quot;), etc)'
+    return:
+      type: System.Boolean
+      description: "True if there was already an override for one of the path/name combinations, false if not. \n"
+    content.vb: Public Shared Function AddOverrides(overrides As String(,)) As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.AddOverrides*
+  nameWithType.vb: ConfigFile.AddOverrides(String(,))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Configuration.ConfigFile.AddOverrides(System.String(,))
+  name.vb: AddOverrides(String(,))
+- uid: SuperOffice.Configuration.ConfigFile.GetAllOverrides
+  commentId: M:SuperOffice.Configuration.ConfigFile.GetAllOverrides
+  id: GetAllOverrides
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: GetAllOverrides()
+  nameWithType: ConfigFile.GetAllOverrides()
+  fullName: SuperOffice.Configuration.ConfigFile.GetAllOverrides()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nGet all overrides added to config as multi-dimensional string array.\n"
+  syntax:
+    content: public static string[, ] GetAllOverrides()
+    return:
+      type: System.String[,]
+      description: 'string multi-dimensional array: ((&quot;path/to/key&quot;, &quot;name&quot;, &quot;value&quot;),(&quot;path/to/key&quot;, &quot;name2&quot;, &quot;value2&quot;))'
+    content.vb: Public Shared Function GetAllOverrides As String(,)
+  overload: SuperOffice.Configuration.ConfigFile.GetAllOverrides*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.HasOverride(System.String,System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.HasOverride(System.String,System.String)
+  id: HasOverride(System.String,System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: HasOverride(String, String)
+  nameWithType: ConfigFile.HasOverride(String, String)
+  fullName: SuperOffice.Configuration.ConfigFile.HasOverride(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCheck if the config value is overrided. This is needed in some cases where we don&apos;t want to override the overrides.\n"
+  syntax:
+    content: public static bool HasOverride(string path, string keyName)
+    parameters:
+    - id: path
+      type: System.String
+    - id: keyName
+      type: System.String
+    return:
+      type: System.Boolean
+      description: bool true if the config value is overrided
+    content.vb: Public Shared Function HasOverride(path As String, keyName As String) As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.HasOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.RemoveAllOverrides
+  commentId: M:SuperOffice.Configuration.ConfigFile.RemoveAllOverrides
+  id: RemoveAllOverrides
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllOverrides()
+  nameWithType: ConfigFile.RemoveAllOverrides()
+  fullName: SuperOffice.Configuration.ConfigFile.RemoveAllOverrides()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRemove all overrides that have been set for config values. Remember that this is not\nretroactive for values that have already been read by business logic code.\n"
+  syntax:
+    content: public static void RemoveAllOverrides()
+    content.vb: Public Shared Sub RemoveAllOverrides
+  overload: SuperOffice.Configuration.ConfigFile.RemoveAllOverrides*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.RemoveOverride(System.String,System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.RemoveOverride(System.String,System.String)
+  id: RemoveOverride(System.String,System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: RemoveOverride(String, String)
+  nameWithType: ConfigFile.RemoveOverride(String, String)
+  fullName: SuperOffice.Configuration.ConfigFile.RemoveOverride(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRemove one override. If not found, nothing happens\n"
+  syntax:
+    content: public static void RemoveOverride(string path, string name)
+    parameters:
+    - id: path
+      type: System.String
+    - id: name
+      type: System.String
+    content.vb: Public Shared Sub RemoveOverride(path As String, name As String)
+  overload: SuperOffice.Configuration.ConfigFile.RemoveOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
+  commentId: M:SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
+  id: GetEffectiveConfig
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: GetEffectiveConfig()
+  nameWithType: ConfigFile.GetEffectiveConfig()
+  fullName: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static string GetEffectiveConfig()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetEffectiveConfig As String
+  overload: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
+  id: SaveEffectiveConfig(System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: SaveEffectiveConfig(String)
+  nameWithType: ConfigFile.SaveEffectiveConfig(String)
+  fullName: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConstruct the &quot;effective&quot; config, including overrides, and write it to the given file\n"
+  remarks: "\nNo file is written if the file already exists and has the correct content.\nIf the existing file does not exist or cannot be opened, then writing will be attempted.\nIf writing fails, then the method will wait for one second and try again\n(in case of conflict with another process); after five attempts it gives up.\nNo exceptions are thrown, regardless of outcome.\n"
+  syntax:
+    content: public static void SaveEffectiveConfig(string fullPath)
+    parameters:
+    - id: fullPath
+      type: System.String
+    content.vb: Public Shared Sub SaveEffectiveConfig(fullPath As String)
+  overload: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
+  id: GetConfig(System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: GetConfig(String)
+  nameWithType: ConfigFile.GetConfig(String)
+  fullName: SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nRead a section of the config file, apply overrides and return the set of name/value pairs\n"
+  syntax:
+    content: public static NameValueCollection GetConfig(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: Section path, such as &quot;SuperOffice/Data/Explicit&quot;
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+      description: Collection of name/value, including overrides
+    content.vb: Public Shared Function GetConfig(key As String) As NameValueCollection
+  overload: SuperOffice.Configuration.ConfigFile.GetConfig*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
+  id: SetConfigFile(System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: SetConfigFile(String)
+  nameWithType: ConfigFile.SetConfigFile(String)
+  fullName: SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nSet the name of the .config file that NetServer is to use from now on. Previously\nread items will still be retained; new lookups will come from here.\n"
+  remarks: "\nThis method should be used <strong>before</strong> proper NetServer startup/authentication. As with the\n<xref href=\"SuperOffice.Configuration.ConfigFile.AddOverride(System.String%2cSystem.String%2cSystem.String)\" data-throw-if-not-resolved=\"false\"></xref> method, it updates internal structures, but does not flush already-read\nconfiguration information (which of course influence things like assmelby loading etc; no way we\ncould retroactively change those).\n"
+  syntax:
+    content: public static void SetConfigFile(string filePath)
+    parameters:
+    - id: filePath
+      type: System.String
+    content.vb: Public Shared Sub SetConfigFile(filePath As String)
+  overload: SuperOffice.Configuration.ConfigFile.SetConfigFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
+  id: ToValueList(System.Collections.Specialized.NameValueCollection)
+  isExtensionMethod: true
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: ToValueList(NameValueCollection)
+  nameWithType: ConfigFile.ToValueList(NameValueCollection)
+  fullName: SuperOffice.Configuration.ConfigFile.ToValueList(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  syntax:
+    content: public static List<string> ToValueList(this NameValueCollection col)
+    parameters:
+    - id: col
+      type: System.Collections.Specialized.NameValueCollection
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToValueList(col As NameValueCollection) As List(Of String)
+  overload: SuperOffice.Configuration.ConfigFile.ToValueList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.AddOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.AddOverride
+  isExternal: true
+  name: AddOverride
+  nameWithType: ConfigFile.AddOverride
+  fullName: SuperOffice.Configuration.ConfigFile.AddOverride
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.AddOverrides*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.AddOverrides
+  isExternal: true
+  name: AddOverrides
+  nameWithType: ConfigFile.AddOverrides
+  fullName: SuperOffice.Configuration.ConfigFile.AddOverrides
+- uid: System.String[,]
+  isExternal: true
+  name: String[,]
+  nameWithType: String[,]
+  fullName: System.String[,]
+  nameWithType.vb: String(,)
+  fullName.vb: System.String(,)
+  name.vb: String(,)
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[,]'
+    nameWithType: '[,]'
+    fullName: '[,]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: (,)
+    nameWithType: (,)
+    fullName: (,)
+- uid: SuperOffice.Configuration.ConfigFile.GetAllOverrides*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.GetAllOverrides
+  isExternal: true
+  name: GetAllOverrides
+  nameWithType: ConfigFile.GetAllOverrides
+  fullName: SuperOffice.Configuration.ConfigFile.GetAllOverrides
+- uid: SuperOffice.Configuration.ConfigFile.HasOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.HasOverride
+  isExternal: true
+  name: HasOverride
+  nameWithType: ConfigFile.HasOverride
+  fullName: SuperOffice.Configuration.ConfigFile.HasOverride
+- uid: SuperOffice.Configuration.ConfigFile.RemoveAllOverrides*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.RemoveAllOverrides
+  isExternal: true
+  name: RemoveAllOverrides
+  nameWithType: ConfigFile.RemoveAllOverrides
+  fullName: SuperOffice.Configuration.ConfigFile.RemoveAllOverrides
+- uid: SuperOffice.Configuration.ConfigFile.RemoveOverride*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.RemoveOverride
+  isExternal: true
+  name: RemoveOverride
+  nameWithType: ConfigFile.RemoveOverride
+  fullName: SuperOffice.Configuration.ConfigFile.RemoveOverride
+- uid: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
+  isExternal: true
+  name: GetEffectiveConfig
+  nameWithType: ConfigFile.GetEffectiveConfig
+  fullName: SuperOffice.Configuration.ConfigFile.GetEffectiveConfig
+- uid: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig
+  isExternal: true
+  name: SaveEffectiveConfig
+  nameWithType: ConfigFile.SaveEffectiveConfig
+  fullName: SuperOffice.Configuration.ConfigFile.SaveEffectiveConfig
+- uid: SuperOffice.Configuration.ConfigFile.GetConfig*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.GetConfig
+  isExternal: true
+  name: GetConfig
+  nameWithType: ConfigFile.GetConfig
+  fullName: SuperOffice.Configuration.ConfigFile.GetConfig
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Configuration.ConfigFile.SetConfigFile*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.SetConfigFile
+  isExternal: true
+  name: SetConfigFile
+  nameWithType: ConfigFile.SetConfigFile
+  fullName: SuperOffice.Configuration.ConfigFile.SetConfigFile
+- uid: SuperOffice.Configuration.ConfigFile.ToValueList*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.ToValueList
+  isExternal: true
+  name: ToValueList
+  nameWithType: ConfigFile.ToValueList
+  fullName: SuperOffice.Configuration.ConfigFile.ToValueList
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

@@ -1,0 +1,277 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  id: ApplicationUtility.CacheTypeFlags
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.All
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.AllExceptNetServer
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.Configuration
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.FieldLabels
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.NetServer
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.None
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.SuperState
+  - SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.WebCache
+  langs:
+  - csharp
+  - vb
+  name: ApplicationUtility.CacheTypeFlags
+  nameWithType: ApplicationUtility.CacheTypeFlags
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  type: Enum
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum CacheTypeFlags
+    content.vb: >-
+      <Flags>
+
+      Public Enum CacheTypeFlags
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.None
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.None
+  id: None
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ApplicationUtility.CacheTypeFlags.None
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.None
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: None = 0
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.NetServer
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.NetServer
+  id: NetServer
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: NetServer
+  nameWithType: ApplicationUtility.CacheTypeFlags.NetServer
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.NetServer
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: NetServer = 1
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.SuperState
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.SuperState
+  id: SuperState
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: SuperState
+  nameWithType: ApplicationUtility.CacheTypeFlags.SuperState
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.SuperState
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: SuperState = 2
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.Configuration
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.Configuration
+  id: Configuration
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: ApplicationUtility.CacheTypeFlags.Configuration
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.Configuration
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: Configuration = 4
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.WebCache
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.WebCache
+  id: WebCache
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: WebCache
+  nameWithType: ApplicationUtility.CacheTypeFlags.WebCache
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.WebCache
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: WebCache = 8
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.FieldLabels
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.FieldLabels
+  id: FieldLabels
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: FieldLabels
+  nameWithType: ApplicationUtility.CacheTypeFlags.FieldLabels
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.FieldLabels
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: FieldLabels = 16
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.All
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.All
+  id: All
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: ApplicationUtility.CacheTypeFlags.All
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.All
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: All = 31
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.AllExceptNetServer
+  commentId: F:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.AllExceptNetServer
+  id: AllExceptNetServer
+  parent: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  langs:
+  - csharp
+  - vb
+  name: AllExceptNetServer
+  nameWithType: ApplicationUtility.CacheTypeFlags.AllExceptNetServer
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags.AllExceptNetServer
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: AllExceptNetServer = 30
+    return:
+      type: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  commentId: T:SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ApplicationUtility.CacheTypeFlags
+  nameWithType: ApplicationUtility.CacheTypeFlags
+  fullName: SuperOffice.DCF.Web.ApplicationUtility.CacheTypeFlags

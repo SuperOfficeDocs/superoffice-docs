@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  commentId: T:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  id: SoWebObjectAttribute
+  parent: SuperOffice.DCF.Web.Factory
+  children:
+  - SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+  - SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String,System.Int32)
+  - SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName
+  langs:
+  - csharp
+  - vb
+  name: SoWebObjectAttribute
+  nameWithType: SoWebObjectAttribute
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Factory
+  syntax:
+    content: >-
+      [AttributeUsage(AttributeTargets.Class, Inherited = false, AllowMultiple = false)]
+
+      public class SoWebObjectAttribute : PrioritizedPluginAttribute
+    content.vb: >-
+      <AttributeUsage(AttributeTargets.Class, Inherited:=False, AllowMultiple:=False)>
+
+      Public Class SoWebObjectAttribute
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.SoCriteriaEditAttribute
+  attributes:
+  - type: System.AttributeUsageAttribute
+    ctor: System.AttributeUsageAttribute.#ctor(System.AttributeTargets)
+    arguments:
+    - type: System.AttributeTargets
+      value: 4
+    namedArguments:
+    - name: Inherited
+      type: System.Boolean
+      value: false
+    - name: AllowMultiple
+      type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoWebObjectAttribute(String)
+  nameWithType: SoWebObjectAttribute.SoWebObjectAttribute(String)
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.SoWebObjectAttribute(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Factory
+  syntax:
+    content: public SoWebObjectAttribute(string mappingName)
+    parameters:
+    - id: mappingName
+      type: System.String
+    content.vb: Public Sub New(mappingName As String)
+  overload: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: SoWebObjectAttribute(String, Int32)
+  nameWithType: SoWebObjectAttribute.SoWebObjectAttribute(String, Int32)
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.SoWebObjectAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Factory
+  syntax:
+    content: public SoWebObjectAttribute(string mappingName, int priority)
+    parameters:
+    - id: mappingName
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(mappingName As String, priority As Integer)
+  overload: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName
+  commentId: P:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName
+  id: MappingName
+  parent: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute
+  langs:
+  - csharp
+  - vb
+  name: MappingName
+  nameWithType: SoWebObjectAttribute.MappingName
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.Factory
+  syntax:
+    content: public string MappingName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MappingName As String
+  overload: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.Factory
+  commentId: N:SuperOffice.DCF.Web.Factory
+  isExternal: true
+  name: SuperOffice.DCF.Web.Factory
+  nameWithType: SuperOffice.DCF.Web.Factory
+  fullName: SuperOffice.DCF.Web.Factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.#ctor
+  isExternal: true
+  name: SoWebObjectAttribute
+  nameWithType: SoWebObjectAttribute.SoWebObjectAttribute
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.SoWebObjectAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName*
+  commentId: Overload:SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName
+  isExternal: true
+  name: MappingName
+  nameWithType: SoWebObjectAttribute.MappingName
+  fullName: SuperOffice.DCF.Web.Factory.SoWebObjectAttribute.MappingName

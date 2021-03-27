@@ -1,0 +1,860 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.RoleEntity
+  commentId: T:SuperOffice.CRM.Services.RoleEntity
+  id: RoleEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.RoleEntity.#ctor
+  - SuperOffice.CRM.Services.RoleEntity.Created
+  - SuperOffice.CRM.Services.RoleEntity.CreatedBy
+  - SuperOffice.CRM.Services.RoleEntity.DataRights
+  - SuperOffice.CRM.Services.RoleEntity.Deleted
+  - SuperOffice.CRM.Services.RoleEntity.Name
+  - SuperOffice.CRM.Services.RoleEntity.Rank
+  - SuperOffice.CRM.Services.RoleEntity.RoleId
+  - SuperOffice.CRM.Services.RoleEntity.RoleType
+  - SuperOffice.CRM.Services.RoleEntity.Tooltip
+  - SuperOffice.CRM.Services.RoleEntity.ToString
+  - SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.RoleEntity.Updated
+  - SuperOffice.CRM.Services.RoleEntity.UpdatedBy
+  - SuperOffice.CRM.Services.RoleEntity.UseCategories
+  langs:
+  - csharp
+  - vb
+  name: RoleEntity
+  nameWithType: RoleEntity
+  fullName: SuperOffice.CRM.Services.RoleEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for RoleEntity.\nServices for the RoleEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IUserAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet RoleEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new UserAgent();\n    var roleEntity = agent.GetRoleEntity( 123 );\n }</code></pre>\n\nFind all RoleEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;Role&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class RoleEntity : Carrier'
+    content.vb: >-
+      Public Class RoleEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.UserAgent
+    commentId: T:SuperOffice.CRM.Services.UserAgent
+  - linkId: SuperOffice.CRM.Services.IUserAgent
+    commentId: T:SuperOffice.CRM.Services.IUserAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.RoleEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.RoleEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: RoleEntity()
+  nameWithType: RoleEntity.RoleEntity()
+  fullName: SuperOffice.CRM.Services.RoleEntity.RoleEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public RoleEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.RoleEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.RoleEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.RoleEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: RoleEntity.ToString()
+  fullName: SuperOffice.CRM.Services.RoleEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.RoleEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: RoleEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.RoleEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.RoleEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.RoleEntity.RoleId
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.RoleId
+  id: RoleId
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: RoleId
+  nameWithType: RoleEntity.RoleId
+  fullName: SuperOffice.CRM.Services.RoleEntity.RoleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int RoleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RoleId As Integer
+  overload: SuperOffice.CRM.Services.RoleEntity.RoleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.Name
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: RoleEntity.Name
+  fullName: SuperOffice.CRM.Services.RoleEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nVisible role name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.RoleEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.Tooltip
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: RoleEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.RoleEntity.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDescription of the role. \n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.CRM.Services.RoleEntity.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.RoleType
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.RoleType
+  id: RoleType
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: RoleType
+  nameWithType: RoleEntity.RoleType
+  fullName: SuperOffice.CRM.Services.RoleEntity.RoleType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe role type. Note that changing this field has no effect, so treat this as a read-only field.  \n"
+  syntax:
+    content: public virtual RoleType RoleType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.RoleType
+    content.vb: Public Overridable Property RoleType As RoleType
+  overload: SuperOffice.CRM.Services.RoleEntity.RoleType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.Deleted
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: RoleEntity.Deleted
+  fullName: SuperOffice.CRM.Services.RoleEntity.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n1 if role has been deleted (we do not actually delete) \n"
+  syntax:
+    content: public virtual short Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Deleted As Short
+  overload: SuperOffice.CRM.Services.RoleEntity.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.Rank
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: RoleEntity.Rank
+  fullName: SuperOffice.CRM.Services.RoleEntity.Rank
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSorting rank of this role in lists \n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.CRM.Services.RoleEntity.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.Created
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.Created
+  id: Created
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: RoleEntity.Created
+  fullName: SuperOffice.CRM.Services.RoleEntity.Created
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Created { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Created As Date
+  overload: SuperOffice.CRM.Services.RoleEntity.Created*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.UseCategories
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.UseCategories
+  id: UseCategories
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: UseCategories
+  nameWithType: RoleEntity.UseCategories
+  fullName: SuperOffice.CRM.Services.RoleEntity.UseCategories
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nApply role category membership to users \n"
+  syntax:
+    content: public virtual short UseCategories { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UseCategories As Short
+  overload: SuperOffice.CRM.Services.RoleEntity.UseCategories*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: RoleEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.RoleEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreated by user \n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.RoleEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.Updated
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: RoleEntity.Updated
+  fullName: SuperOffice.CRM.Services.RoleEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.RoleEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: RoleEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.RoleEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated by user \n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.RoleEntity.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.RoleEntity.DataRights
+  commentId: P:SuperOffice.CRM.Services.RoleEntity.DataRights
+  id: DataRights
+  parent: SuperOffice.CRM.Services.RoleEntity
+  langs:
+  - csharp
+  - vb
+  name: DataRights
+  nameWithType: RoleEntity.DataRights
+  fullName: SuperOffice.CRM.Services.RoleEntity.DataRights
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nData rights matrix - defines role&apos;s access to data owned by current user, users in same group, and other users. \n"
+  syntax:
+    content: public virtual DataRights DataRights { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.DataRights
+    content.vb: Public Overridable Property DataRights As DataRights
+  overload: SuperOffice.CRM.Services.RoleEntity.DataRights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.UserAgent
+  commentId: T:SuperOffice.CRM.Services.UserAgent
+  isExternal: true
+  name: UserAgent
+  nameWithType: UserAgent
+  fullName: SuperOffice.CRM.Services.UserAgent
+- uid: SuperOffice.CRM.Services.IUserAgent
+  commentId: T:SuperOffice.CRM.Services.IUserAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUserAgent
+  nameWithType: IUserAgent
+  fullName: SuperOffice.CRM.Services.IUserAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.RoleEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.#ctor
+  isExternal: true
+  name: RoleEntity
+  nameWithType: RoleEntity.RoleEntity
+  fullName: SuperOffice.CRM.Services.RoleEntity.RoleEntity
+- uid: SuperOffice.CRM.Services.RoleEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: RoleEntity.ToString
+  fullName: SuperOffice.CRM.Services.RoleEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.RoleEntity.RoleId*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.RoleId
+  isExternal: true
+  name: RoleId
+  nameWithType: RoleEntity.RoleId
+  fullName: SuperOffice.CRM.Services.RoleEntity.RoleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.RoleEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: RoleEntity.Name
+  fullName: SuperOffice.CRM.Services.RoleEntity.Name
+- uid: SuperOffice.CRM.Services.RoleEntity.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: RoleEntity.Tooltip
+  fullName: SuperOffice.CRM.Services.RoleEntity.Tooltip
+- uid: SuperOffice.CRM.Services.RoleEntity.RoleType*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleEntity.RoleType
+  fullName: SuperOffice.CRM.Services.RoleEntity.RoleType
+- uid: SuperOffice.Data.RoleType
+  isExternal: true
+  name: RoleType
+  nameWithType: RoleType
+  fullName: SuperOffice.Data.RoleType
+- uid: SuperOffice.CRM.Services.RoleEntity.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: RoleEntity.Deleted
+  fullName: SuperOffice.CRM.Services.RoleEntity.Deleted
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.RoleEntity.Rank*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: RoleEntity.Rank
+  fullName: SuperOffice.CRM.Services.RoleEntity.Rank
+- uid: SuperOffice.CRM.Services.RoleEntity.Created*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Created
+  isExternal: true
+  name: Created
+  nameWithType: RoleEntity.Created
+  fullName: SuperOffice.CRM.Services.RoleEntity.Created
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.RoleEntity.UseCategories*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.UseCategories
+  isExternal: true
+  name: UseCategories
+  nameWithType: RoleEntity.UseCategories
+  fullName: SuperOffice.CRM.Services.RoleEntity.UseCategories
+- uid: SuperOffice.CRM.Services.RoleEntity.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: RoleEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.RoleEntity.CreatedBy
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.RoleEntity.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: RoleEntity.Updated
+  fullName: SuperOffice.CRM.Services.RoleEntity.Updated
+- uid: SuperOffice.CRM.Services.RoleEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: RoleEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.RoleEntity.UpdatedBy
+- uid: SuperOffice.CRM.Services.RoleEntity.DataRights*
+  commentId: Overload:SuperOffice.CRM.Services.RoleEntity.DataRights
+  isExternal: true
+  name: DataRights
+  nameWithType: RoleEntity.DataRights
+  fullName: SuperOffice.CRM.Services.RoleEntity.DataRights
+- uid: SuperOffice.CRM.Services.DataRights
+  commentId: T:SuperOffice.CRM.Services.DataRights
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DataRights
+  nameWithType: DataRights
+  fullName: SuperOffice.CRM.Services.DataRights

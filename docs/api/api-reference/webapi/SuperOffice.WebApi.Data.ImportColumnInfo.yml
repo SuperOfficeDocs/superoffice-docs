@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo
+  commentId: T:SuperOffice.WebApi.Data.ImportColumnInfo
+  id: ImportColumnInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ImportColumnInfo.#ctor
+  - SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName
+  - SuperOffice.WebApi.Data.ImportColumnInfo.Locked
+  - SuperOffice.WebApi.Data.ImportColumnInfo.Name
+  langs:
+  - csharp
+  - vb
+  name: ImportColumnInfo
+  nameWithType: ImportColumnInfo
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ImportColumnInfo.\nColumn info for importlines.    \n"
+  syntax:
+    content: 'public class ImportColumnInfo : Carrier'
+    content.vb: >-
+      Public Class ImportColumnInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ImportAgent
+    commentId: T:SuperOffice.WebApi.Agents.ImportAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ImportColumnInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ImportColumnInfo
+  langs:
+  - csharp
+  - vb
+  name: ImportColumnInfo()
+  nameWithType: ImportColumnInfo.ImportColumnInfo()
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.ImportColumnInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ImportColumnInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ImportColumnInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.Name
+  commentId: P:SuperOffice.WebApi.Data.ImportColumnInfo.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.ImportColumnInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ImportColumnInfo.Name
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the column\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.ImportColumnInfo.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName
+  commentId: P:SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName
+  id: DisplayName
+  parent: SuperOffice.WebApi.Data.ImportColumnInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ImportColumnInfo.DisplayName
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay name of the column\n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.Locked
+  commentId: P:SuperOffice.WebApi.Data.ImportColumnInfo.Locked
+  id: Locked
+  parent: SuperOffice.WebApi.Data.ImportColumnInfo
+  langs:
+  - csharp
+  - vb
+  name: Locked
+  nameWithType: ImportColumnInfo.Locked
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.Locked
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf true disable the option of choose column\n"
+  syntax:
+    content: public virtual bool Locked { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Locked As Boolean
+  overload: SuperOffice.WebApi.Data.ImportColumnInfo.Locked*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ImportAgent
+  commentId: T:SuperOffice.WebApi.Agents.ImportAgent
+  isExternal: true
+  name: ImportAgent
+  nameWithType: ImportAgent
+  fullName: SuperOffice.WebApi.Agents.ImportAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportColumnInfo.#ctor
+  isExternal: true
+  name: ImportColumnInfo
+  nameWithType: ImportColumnInfo.ImportColumnInfo
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.ImportColumnInfo
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportColumnInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: ImportColumnInfo.Name
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ImportColumnInfo.DisplayName
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.DisplayName
+- uid: SuperOffice.WebApi.Data.ImportColumnInfo.Locked*
+  commentId: Overload:SuperOffice.WebApi.Data.ImportColumnInfo.Locked
+  isExternal: true
+  name: Locked
+  nameWithType: ImportColumnInfo.Locked
+  fullName: SuperOffice.WebApi.Data.ImportColumnInfo.Locked
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

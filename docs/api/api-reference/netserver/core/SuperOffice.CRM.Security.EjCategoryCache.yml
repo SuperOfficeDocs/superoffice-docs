@@ -1,0 +1,1409 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.EjCategoryCache
+  commentId: T:SuperOffice.CRM.Security.EjCategoryCache
+  id: EjCategoryCache
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers
+  - SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
+  - SuperOffice.CRM.Security.EjCategoryCache.GetFlags(System.Int32)
+  - SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId(System.Int32)
+  - SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory(System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory(System.Int32,System.Int32)
+  - SuperOffice.CRM.Security.EjCategoryCache.OnFlush
+  - SuperOffice.CRM.Security.EjCategoryCache.OnRefresh
+  langs:
+  - csharp
+  - vb
+  name: EjCategoryCache
+  nameWithType: EjCategoryCache
+  fullName: SuperOffice.CRM.Security.EjCategoryCache
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCache holding information about the ejcategories and category memberships\n"
+  syntax:
+    content: 'public class EjCategoryCache : CacheBase, IDisposable, IFlushable'
+    content.vb: >-
+      Public Class EjCategoryCache
+          Inherits CacheBase
+          Implements IDisposable, IFlushable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.Cache.CacheBase
+  implements:
+  - System.IDisposable
+  - SuperOffice.Data.Cache.IFlushable
+  inheritedMembers:
+  - SuperOffice.Data.Cache.CacheBase._lastUpdated
+  - SuperOffice.Data.Cache.CacheBase._cacheState
+  - SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  - SuperOffice.Data.Cache.CacheBase.Dispose
+  - SuperOffice.Data.Cache.CacheBase.Validate
+  - SuperOffice.Data.Cache.CacheBase.Refresh
+  - SuperOffice.Data.Cache.CacheBase.Flush
+  - SuperOffice.Data.Cache.CacheBase.OnExpired
+  - SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  - SuperOffice.Data.Cache.CacheBase.OnFlushed
+  - SuperOffice.Data.Cache.CacheBase.OnDisposed
+  - SuperOffice.Data.Cache.CacheBase.Lock
+  - SuperOffice.Data.Cache.CacheBase.Name
+  - SuperOffice.Data.Cache.CacheBase.CacheType
+  - SuperOffice.Data.Cache.CacheBase.Timeout
+  - SuperOffice.Data.Cache.CacheBase.State
+  - SuperOffice.Data.Cache.CacheBase.IsValid
+  - SuperOffice.Data.Cache.CacheBase.Expired
+  - SuperOffice.Data.Cache.CacheBase.Refreshed
+  - SuperOffice.Data.Cache.CacheBase.Flushed
+  - SuperOffice.Data.Cache.CacheBase.Disposed
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.EjCategoryCache.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.EjCategoryCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetFlags(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.GetFlags(System.Int32)
+  id: GetFlags(System.Int32)
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: GetFlags(Int32)
+  nameWithType: EjCategoryCache.GetFlags(Int32)
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetFlags(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the access level for an ejCategory\n"
+  syntax:
+    content: public int GetFlags(int ejCategoryId)
+    parameters:
+    - id: ejCategoryId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Function GetFlags(ejCategoryId As Integer) As Integer
+  overload: SuperOffice.CRM.Security.EjCategoryCache.GetFlags*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory(System.Int32,System.Int32)
+  id: IsMemberOfCategory(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: IsMemberOfCategory(Int32, Int32)
+  nameWithType: EjCategoryCache.IsMemberOfCategory(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCheck if the ejuser is member of a given ejCategory.\n"
+  syntax:
+    content: public bool IsMemberOfCategory(int ejCategoryId, int ejUserId)
+    parameters:
+    - id: ejCategoryId
+      type: System.Int32
+    - id: ejUserId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsMemberOfCategory(ejCategoryId As Integer, ejUserId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory(System.Int32,System.Int32)
+  id: IsMemberOrMasterOfCategory(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: IsMemberOrMasterOfCategory(Int32, Int32)
+  nameWithType: EjCategoryCache.IsMemberOrMasterOfCategory(Int32, Int32)
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCheck if the ejuser is member or master of a given ejCategory.\n"
+  syntax:
+    content: public bool IsMemberOrMasterOfCategory(int ejCategoryId, int ejUserId)
+    parameters:
+    - id: ejCategoryId
+      type: System.Int32
+    - id: ejUserId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function IsMemberOrMasterOfCategory(ejCategoryId As Integer, ejUserId As Integer) As Boolean
+  overload: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId(System.Int32)
+  id: GetOwnCategoriesFromEjUserId(System.Int32)
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: GetOwnCategoriesFromEjUserId(Int32)
+  nameWithType: EjCategoryCache.GetOwnCategoriesFromEjUserId(Int32)
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the categories that the given userId is a member of\n"
+  syntax:
+    content: public int[] GetOwnCategoriesFromEjUserId(int ejUserId)
+    parameters:
+    - id: ejUserId
+      type: System.Int32
+    return:
+      type: System.Int32[]
+    content.vb: Public Function GetOwnCategoriesFromEjUserId(ejUserId As Integer) As Integer()
+  overload: SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers
+  id: GetCachedTableNumbers
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: GetCachedTableNumbers()
+  nameWithType: EjCategoryCache.GetCachedTableNumbers()
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: public override int[] GetCachedTableNumbers()
+    return:
+      type: System.Int32[]
+    content.vb: Public Overrides Function GetCachedTableNumbers As Integer()
+  overridden: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  overload: SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Security.EjCategoryCache.OnFlush
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.OnFlush
+  id: OnFlush
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: OnFlush()
+  nameWithType: EjCategoryCache.OnFlush()
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.OnFlush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHandle flushing of the cache.\n"
+  syntax:
+    content: protected override void OnFlush()
+    content.vb: Protected Overrides Sub OnFlush
+  overridden: SuperOffice.Data.Cache.CacheBase.OnFlush
+  overload: SuperOffice.CRM.Security.EjCategoryCache.OnFlush*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.EjCategoryCache.OnRefresh
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.OnRefresh
+  id: OnRefresh
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: OnRefresh()
+  nameWithType: EjCategoryCache.OnRefresh()
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.OnRefresh()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nHandle refreshing the cache.\n"
+  syntax:
+    content: protected override void OnRefresh()
+    content.vb: Protected Overrides Sub OnRefresh
+  overridden: SuperOffice.Data.Cache.CacheBase.OnRefresh
+  overload: SuperOffice.CRM.Security.EjCategoryCache.OnRefresh*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
+  commentId: M:SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.Security.EjCategoryCache
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: EjCategoryCache.GetCurrent()
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nObtain an instance of the cache\n"
+  syntax:
+    content: public static EjCategoryCache GetCurrent()
+    return:
+      type: SuperOffice.CRM.Security.EjCategoryCache
+    content.vb: Public Shared Function GetCurrent As EjCategoryCache
+  overload: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.Cache.CacheBase
+  commentId: T:SuperOffice.Data.Cache.CacheBase
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: CacheBase
+  nameWithType: CacheBase
+  fullName: SuperOffice.Data.Cache.CacheBase
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.Data.Cache.IFlushable
+  commentId: T:SuperOffice.Data.Cache.IFlushable
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  name: IFlushable
+  nameWithType: IFlushable
+  fullName: SuperOffice.Data.Cache.IFlushable
+- uid: SuperOffice.Data.Cache.CacheBase._lastUpdated
+  commentId: F:SuperOffice.Data.Cache.CacheBase._lastUpdated
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: _lastUpdated
+  nameWithType: CacheBase._lastUpdated
+  fullName: SuperOffice.Data.Cache.CacheBase._lastUpdated
+- uid: SuperOffice.Data.Cache.CacheBase._cacheState
+  commentId: F:SuperOffice.Data.Cache.CacheBase._cacheState
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: _cacheState
+  nameWithType: CacheBase._cacheState
+  fullName: SuperOffice.Data.Cache.CacheBase._cacheState
+- uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  commentId: M:SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: IsCacheInvalidated(Int32, SqlType, Int32)
+  nameWithType: CacheBase.IsCacheInvalidated(Int32, SqlType, Int32)
+  fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32, SuperOffice.Data.SQL.SqlType, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: CacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated(System.Int32,SuperOffice.Data.SQL.SqlType,System.Int32)
+    name: IsCacheInvalidated
+    nameWithType: CacheBase.IsCacheInvalidated
+    fullName: SuperOffice.Data.Cache.CacheBase.IsCacheInvalidated
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SQL.SqlType
+    name: SqlType
+    nameWithType: SqlType
+    fullName: SuperOffice.Data.SQL.SqlType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Dispose
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Dispose
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: CacheBase.Dispose()
+  fullName: SuperOffice.Data.Cache.CacheBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+    name: Dispose
+    nameWithType: CacheBase.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Dispose
+    name: Dispose
+    nameWithType: CacheBase.Dispose
+    fullName: SuperOffice.Data.Cache.CacheBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Validate
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Validate
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Validate()
+  nameWithType: CacheBase.Validate()
+  fullName: SuperOffice.Data.Cache.CacheBase.Validate()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Validate
+    name: Validate
+    nameWithType: CacheBase.Validate
+    fullName: SuperOffice.Data.Cache.CacheBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Validate
+    name: Validate
+    nameWithType: CacheBase.Validate
+    fullName: SuperOffice.Data.Cache.CacheBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Refresh
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Refresh
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Refresh()
+  nameWithType: CacheBase.Refresh()
+  fullName: SuperOffice.Data.Cache.CacheBase.Refresh()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
+    name: Refresh
+    nameWithType: CacheBase.Refresh
+    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Refresh
+    name: Refresh
+    nameWithType: CacheBase.Refresh
+    fullName: SuperOffice.Data.Cache.CacheBase.Refresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Flush
+  commentId: M:SuperOffice.Data.Cache.CacheBase.Flush
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Flush()
+  nameWithType: CacheBase.Flush()
+  fullName: SuperOffice.Data.Cache.CacheBase.Flush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+    name: Flush
+    nameWithType: CacheBase.Flush
+    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.Flush
+    name: Flush
+    nameWithType: CacheBase.Flush
+    fullName: SuperOffice.Data.Cache.CacheBase.Flush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnExpired
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnExpired()
+  nameWithType: CacheBase.OnExpired()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnExpired()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+    name: OnExpired
+    nameWithType: CacheBase.OnExpired
+    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnExpired
+    name: OnExpired
+    nameWithType: CacheBase.OnExpired
+    fullName: SuperOffice.Data.Cache.CacheBase.OnExpired
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefreshed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnRefreshed()
+  nameWithType: CacheBase.OnRefreshed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    name: OnRefreshed
+    nameWithType: CacheBase.OnRefreshed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    name: OnRefreshed
+    nameWithType: CacheBase.OnRefreshed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefreshed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlushed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnFlushed()
+  nameWithType: CacheBase.OnFlushed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    name: OnFlushed
+    nameWithType: CacheBase.OnFlushed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    name: OnFlushed
+    nameWithType: CacheBase.OnFlushed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlushed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnDisposed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnDisposed()
+  nameWithType: CacheBase.OnDisposed()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    name: OnDisposed
+    nameWithType: CacheBase.OnDisposed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    name: OnDisposed
+    nameWithType: CacheBase.OnDisposed
+    fullName: SuperOffice.Data.Cache.CacheBase.OnDisposed
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Cache.CacheBase.Lock
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Lock
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Lock
+  nameWithType: CacheBase.Lock
+  fullName: SuperOffice.Data.Cache.CacheBase.Lock
+- uid: SuperOffice.Data.Cache.CacheBase.Name
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Name
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Name
+  nameWithType: CacheBase.Name
+  fullName: SuperOffice.Data.Cache.CacheBase.Name
+- uid: SuperOffice.Data.Cache.CacheBase.CacheType
+  commentId: P:SuperOffice.Data.Cache.CacheBase.CacheType
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: CacheType
+  nameWithType: CacheBase.CacheType
+  fullName: SuperOffice.Data.Cache.CacheBase.CacheType
+- uid: SuperOffice.Data.Cache.CacheBase.Timeout
+  commentId: P:SuperOffice.Data.Cache.CacheBase.Timeout
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Timeout
+  nameWithType: CacheBase.Timeout
+  fullName: SuperOffice.Data.Cache.CacheBase.Timeout
+- uid: SuperOffice.Data.Cache.CacheBase.State
+  commentId: P:SuperOffice.Data.Cache.CacheBase.State
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: State
+  nameWithType: CacheBase.State
+  fullName: SuperOffice.Data.Cache.CacheBase.State
+- uid: SuperOffice.Data.Cache.CacheBase.IsValid
+  commentId: P:SuperOffice.Data.Cache.CacheBase.IsValid
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: IsValid
+  nameWithType: CacheBase.IsValid
+  fullName: SuperOffice.Data.Cache.CacheBase.IsValid
+- uid: SuperOffice.Data.Cache.CacheBase.Expired
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Expired
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Expired
+  nameWithType: CacheBase.Expired
+  fullName: SuperOffice.Data.Cache.CacheBase.Expired
+- uid: SuperOffice.Data.Cache.CacheBase.Refreshed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Refreshed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Refreshed
+  nameWithType: CacheBase.Refreshed
+  fullName: SuperOffice.Data.Cache.CacheBase.Refreshed
+- uid: SuperOffice.Data.Cache.CacheBase.Flushed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Flushed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Flushed
+  nameWithType: CacheBase.Flushed
+  fullName: SuperOffice.Data.Cache.CacheBase.Flushed
+- uid: SuperOffice.Data.Cache.CacheBase.Disposed
+  commentId: E:SuperOffice.Data.Cache.CacheBase.Disposed
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: Disposed
+  nameWithType: CacheBase.Disposed
+  fullName: SuperOffice.Data.Cache.CacheBase.Disposed
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EjCategoryCache.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EjCategoryCache, To>()
+  nameWithType: EnumUtil.MapEnums<EjCategoryCache, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.EjCategoryCache, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EjCategoryCache, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.EjCategoryCache, To)()
+  name.vb: MapEnums(Of EjCategoryCache, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EjCategoryCache, To>
+    nameWithType: EnumUtil.MapEnums<EjCategoryCache, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.EjCategoryCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EjCategoryCache, To)
+    nameWithType: EnumUtil.MapEnums(Of EjCategoryCache, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.EjCategoryCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EjCategoryCache.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EjCategoryCache, To>()
+  nameWithType: Converters.MapEnums<EjCategoryCache, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.EjCategoryCache, To>()
+  nameWithType.vb: Converters.MapEnums(Of EjCategoryCache, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.EjCategoryCache, To)()
+  name.vb: MapEnums(Of EjCategoryCache, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EjCategoryCache, To>
+    nameWithType: Converters.MapEnums<EjCategoryCache, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.EjCategoryCache, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EjCategoryCache, To)
+    nameWithType: Converters.MapEnums(Of EjCategoryCache, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.EjCategoryCache, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetFlags*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.GetFlags
+  isExternal: true
+  name: GetFlags
+  nameWithType: EjCategoryCache.GetFlags
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetFlags
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory
+  isExternal: true
+  name: IsMemberOfCategory
+  nameWithType: EjCategoryCache.IsMemberOfCategory
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOfCategory
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory
+  isExternal: true
+  name: IsMemberOrMasterOfCategory
+  nameWithType: EjCategoryCache.IsMemberOrMasterOfCategory
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.IsMemberOrMasterOfCategory
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId
+  isExternal: true
+  name: GetOwnCategoriesFromEjUserId
+  nameWithType: EjCategoryCache.GetOwnCategoriesFromEjUserId
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetOwnCategoriesFromEjUserId
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  commentId: M:SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: GetCachedTableNumbers()
+  nameWithType: CacheBase.GetCachedTableNumbers()
+  fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: CacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    name: GetCachedTableNumbers
+    nameWithType: CacheBase.GetCachedTableNumbers
+    fullName: SuperOffice.Data.Cache.CacheBase.GetCachedTableNumbers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers
+  isExternal: true
+  name: GetCachedTableNumbers
+  nameWithType: EjCategoryCache.GetCachedTableNumbers
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCachedTableNumbers
+- uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnFlush
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnFlush()
+  nameWithType: CacheBase.OnFlush()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnFlush()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+    name: OnFlush
+    nameWithType: CacheBase.OnFlush
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnFlush
+    name: OnFlush
+    nameWithType: CacheBase.OnFlush
+    fullName: SuperOffice.Data.Cache.CacheBase.OnFlush
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EjCategoryCache.OnFlush*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.OnFlush
+  isExternal: true
+  name: OnFlush
+  nameWithType: EjCategoryCache.OnFlush
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.OnFlush
+- uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+  commentId: M:SuperOffice.Data.Cache.CacheBase.OnRefresh
+  parent: SuperOffice.Data.Cache.CacheBase
+  isExternal: true
+  name: OnRefresh()
+  nameWithType: CacheBase.OnRefresh()
+  fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh()
+  spec.csharp:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    name: OnRefresh
+    nameWithType: CacheBase.OnRefresh
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    name: OnRefresh
+    nameWithType: CacheBase.OnRefresh
+    fullName: SuperOffice.Data.Cache.CacheBase.OnRefresh
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EjCategoryCache.OnRefresh*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.OnRefresh
+  isExternal: true
+  name: OnRefresh
+  nameWithType: EjCategoryCache.OnRefresh
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.OnRefresh
+- uid: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: EjCategoryCache.GetCurrent
+  fullName: SuperOffice.CRM.Security.EjCategoryCache.GetCurrent
+- uid: SuperOffice.CRM.Security.EjCategoryCache
+  commentId: T:SuperOffice.CRM.Security.EjCategoryCache
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: EjCategoryCache
+  nameWithType: EjCategoryCache
+  fullName: SuperOffice.CRM.Security.EjCategoryCache

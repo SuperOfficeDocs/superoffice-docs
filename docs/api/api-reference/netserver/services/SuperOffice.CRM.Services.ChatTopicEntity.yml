@@ -1,0 +1,1055 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ChatTopicEntity
+  commentId: T:SuperOffice.CRM.Services.ChatTopicEntity
+  id: ChatTopicEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ChatTopicEntity.#ctor
+  - SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient
+  - SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate
+  - SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader
+  - SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
+  - SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText
+  - SuperOffice.CRM.Services.ChatTopicEntity.Description
+  - SuperOffice.CRM.Services.ChatTopicEntity.Flags
+  - SuperOffice.CRM.Services.ChatTopicEntity.Language
+  - SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
+  - SuperOffice.CRM.Services.ChatTopicEntity.Name
+  - SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
+  - SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
+  - SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
+  - SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory
+  - SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled
+  - SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
+  - SuperOffice.CRM.Services.ChatTopicEntity.ToString
+  - SuperOffice.CRM.Services.ChatTopicEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds
+  - SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds
+  - SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
+  - SuperOffice.CRM.Services.ChatTopicEntity.Widget
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChat topics define who is assigned, when the channel is open for business, and look of the chat widget.\n<p></p>\nCarrier object for ChatTopicEntity.\nServices for the ChatTopicEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IChatAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ChatTopicEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ChatAgent();\n    var chatTopicEntity = agent.GetChatTopicEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class ChatTopicEntity : Carrier'
+    content.vb: >-
+      Public Class ChatTopicEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ChatAgent
+    commentId: T:SuperOffice.CRM.Services.ChatAgent
+  - linkId: SuperOffice.CRM.Services.IChatAgent
+    commentId: T:SuperOffice.CRM.Services.IChatAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ChatTopicEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicEntity()
+  nameWithType: ChatTopicEntity.ChatTopicEntity()
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ChatTopicEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ChatTopicEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ChatTopicEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ChatTopicEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ChatTopicEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
+  id: ChatTopicId
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: ChatTopicId
+  nameWithType: ChatTopicEntity.ChatTopicId
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public virtual int ChatTopicId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ChatTopicId As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Name
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ChatTopicEntity.Name
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of this chat topic \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Description
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.Description
+  id: Description
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: ChatTopicEntity.Description
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Description
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe descriptiong for this topic. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
+  id: WelcomeMessage
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WelcomeMessage
+  nameWithType: ChatTopicEntity.WelcomeMessage
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe welcome message sent to the customer when the chat session starts. \n"
+  syntax:
+    content: public virtual string WelcomeMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property WelcomeMessage As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Language
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.Language
+  id: Language
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: ChatTopicEntity.Language
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Language
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCustomer language used in this topic. Optional \n"
+  syntax:
+    content: public virtual CustomerLanguage Language { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.CustomerLanguage
+    content.vb: Public Overridable Property Language As CustomerLanguage
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.Language*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
+  id: LastAccept
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: LastAccept
+  nameWithType: ChatTopicEntity.LastAccept
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe last time a session was accepted from the inside for this topic. \n"
+  syntax:
+    content: public virtual DateTime LastAccept { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property LastAccept As Date
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
+  id: SecondsPrAccept
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: SecondsPrAccept
+  nameWithType: ChatTopicEntity.SecondsPrAccept
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe average number of seconds per accept for this topic. \n"
+  syntax:
+    content: public virtual int SecondsPrAccept { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SecondsPrAccept As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient
+  id: AlertRecipient
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertRecipient
+  nameWithType: ChatTopicEntity.AlertRecipient
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe recipient(s) for the alert template \n"
+  syntax:
+    content: public virtual string AlertRecipient { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AlertRecipient As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate
+  id: AlertTemplate
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: AlertTemplate
+  nameWithType: ChatTopicEntity.AlertTemplate
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTemplate to use for alerts. \n"
+  syntax:
+    content: public virtual ReplyTemplate AlertTemplate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ReplyTemplate
+    content.vb: Public Overridable Property AlertTemplate As ReplyTemplate
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Flags
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ChatTopicEntity.Flags
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Flags
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAlert by e-mail, popup, etc.  \n"
+  syntax:
+    content: public virtual ChatTopicFlag Flags { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ChatTopicFlag
+    content.vb: Public Overridable Property Flags As ChatTopicFlag
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.Flags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader
+  id: BadgeHeader
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: BadgeHeader
+  nameWithType: ChatTopicEntity.BadgeHeader
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe badge header of the chat topic \n"
+  syntax:
+    content: public virtual string BadgeHeader { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property BadgeHeader As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText
+  id: CustomQueueText
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomQueueText
+  nameWithType: ChatTopicEntity.CustomQueueText
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA text to be used in the queue message in the chat widget. Usage is controlled by the flags field, bit number 3 \n"
+  syntax:
+    content: public virtual string CustomQueueText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CustomQueueText As String
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds
+  id: WarnNewChatSeconds
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnNewChatSeconds
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains the user notify time in seconds \n"
+  syntax:
+    content: public virtual int WarnNewChatSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnNewChatSeconds As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds
+  id: WarnManagerNewChatSeconds
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: WarnManagerNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnManagerNewChatSeconds
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains the manager notify time in seconds \n"
+  syntax:
+    content: public virtual int WarnManagerNewChatSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property WarnManagerNewChatSeconds As Integer
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled
+  id: TicketEnabled
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketEnabled
+  nameWithType: ChatTopicEntity.TicketEnabled
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEnable ticket submission in offline mode \n"
+  syntax:
+    content: public virtual bool TicketEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property TicketEnabled As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory
+  id: TicketCategory
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketCategory
+  nameWithType: ChatTopicEntity.TicketCategory
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCategory on ticket created from off-line request \n"
+  syntax:
+    content: public virtual TicketCategory TicketCategory { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketCategory
+    content.vb: Public Overridable Property TicketCategory As TicketCategory
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
+  id: TicketPriority
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketPriority
+  nameWithType: ChatTopicEntity.TicketPriority
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPriority on ticket created from off-line request \n"
+  syntax:
+    content: public virtual TicketPriority TicketPriority { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.TicketPriority
+    content.vb: Public Overridable Property TicketPriority As TicketPriority
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
+  id: OpeningHoursEnabled
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OpeningHoursEnabled
+  nameWithType: ChatTopicEntity.OpeningHoursEnabled
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhether to use opening hours or not. \n"
+  syntax:
+    content: public virtual bool OpeningHoursEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property OpeningHoursEnabled As Boolean
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
+  id: OpeningHours
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: OpeningHours
+  nameWithType: ChatTopicEntity.OpeningHours
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nOpening hours settings \n"
+  syntax:
+    content: public virtual ChatOpeningHours OpeningHours { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ChatOpeningHours
+    content.vb: Public Overridable Property OpeningHours As ChatOpeningHours
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Widget
+  commentId: P:SuperOffice.CRM.Services.ChatTopicEntity.Widget
+  id: Widget
+  parent: SuperOffice.CRM.Services.ChatTopicEntity
+  langs:
+  - csharp
+  - vb
+  name: Widget
+  nameWithType: ChatTopicEntity.Widget
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Widget
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSettings for the chat widget \n"
+  syntax:
+    content: public virtual ChatWidgetSettings Widget { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ChatWidgetSettings
+    content.vb: Public Overridable Property Widget As ChatWidgetSettings
+  overload: SuperOffice.CRM.Services.ChatTopicEntity.Widget*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ChatAgent
+  commentId: T:SuperOffice.CRM.Services.ChatAgent
+  isExternal: true
+  name: ChatAgent
+  nameWithType: ChatAgent
+  fullName: SuperOffice.CRM.Services.ChatAgent
+- uid: SuperOffice.CRM.Services.IChatAgent
+  commentId: T:SuperOffice.CRM.Services.IChatAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IChatAgent
+  nameWithType: IChatAgent
+  fullName: SuperOffice.CRM.Services.IChatAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.#ctor
+  isExternal: true
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity.ChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicEntity
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ChatTopicEntity.ToString
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
+  isExternal: true
+  name: ChatTopicId
+  nameWithType: ChatTopicEntity.ChatTopicId
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.ChatTopicId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: ChatTopicEntity.Name
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Name
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Description*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.Description
+  isExternal: true
+  name: Description
+  nameWithType: ChatTopicEntity.Description
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Description
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
+  isExternal: true
+  name: WelcomeMessage
+  nameWithType: ChatTopicEntity.WelcomeMessage
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WelcomeMessage
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Language*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.Language
+  isExternal: true
+  name: Language
+  nameWithType: ChatTopicEntity.Language
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Language
+- uid: SuperOffice.CRM.Services.CustomerLanguage
+  commentId: T:SuperOffice.CRM.Services.CustomerLanguage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: CustomerLanguage
+  nameWithType: CustomerLanguage
+  fullName: SuperOffice.CRM.Services.CustomerLanguage
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
+  isExternal: true
+  name: LastAccept
+  nameWithType: ChatTopicEntity.LastAccept
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.LastAccept
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
+  isExternal: true
+  name: SecondsPrAccept
+  nameWithType: ChatTopicEntity.SecondsPrAccept
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.SecondsPrAccept
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient
+  isExternal: true
+  name: AlertRecipient
+  nameWithType: ChatTopicEntity.AlertRecipient
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.AlertRecipient
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate
+  isExternal: true
+  name: AlertTemplate
+  nameWithType: ChatTopicEntity.AlertTemplate
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.AlertTemplate
+- uid: SuperOffice.CRM.Services.ReplyTemplate
+  commentId: T:SuperOffice.CRM.Services.ReplyTemplate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: ReplyTemplate
+  fullName: SuperOffice.CRM.Services.ReplyTemplate
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Flags*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: ChatTopicEntity.Flags
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Flags
+- uid: SuperOffice.Data.ChatTopicFlag
+  commentId: '!:SuperOffice.Data.ChatTopicFlag'
+  isExternal: true
+  name: ChatTopicFlag
+  nameWithType: ChatTopicFlag
+  fullName: SuperOffice.Data.ChatTopicFlag
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader
+  isExternal: true
+  name: BadgeHeader
+  nameWithType: ChatTopicEntity.BadgeHeader
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.BadgeHeader
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText
+  isExternal: true
+  name: CustomQueueText
+  nameWithType: ChatTopicEntity.CustomQueueText
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.CustomQueueText
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds
+  isExternal: true
+  name: WarnNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnNewChatSeconds
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnNewChatSeconds
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds
+  isExternal: true
+  name: WarnManagerNewChatSeconds
+  nameWithType: ChatTopicEntity.WarnManagerNewChatSeconds
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.WarnManagerNewChatSeconds
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled
+  isExternal: true
+  name: TicketEnabled
+  nameWithType: ChatTopicEntity.TicketEnabled
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.TicketEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory
+  isExternal: true
+  name: TicketCategory
+  nameWithType: ChatTopicEntity.TicketCategory
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.TicketCategory
+- uid: SuperOffice.CRM.Services.TicketCategory
+  commentId: T:SuperOffice.CRM.Services.TicketCategory
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketCategory
+  nameWithType: TicketCategory
+  fullName: SuperOffice.CRM.Services.TicketCategory
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
+  isExternal: true
+  name: TicketPriority
+  nameWithType: ChatTopicEntity.TicketPriority
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.TicketPriority
+- uid: SuperOffice.CRM.Services.TicketPriority
+  commentId: T:SuperOffice.CRM.Services.TicketPriority
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TicketPriority
+  nameWithType: TicketPriority
+  fullName: SuperOffice.CRM.Services.TicketPriority
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
+  isExternal: true
+  name: OpeningHoursEnabled
+  nameWithType: ChatTopicEntity.OpeningHoursEnabled
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHoursEnabled
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
+  isExternal: true
+  name: OpeningHours
+  nameWithType: ChatTopicEntity.OpeningHours
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.OpeningHours
+- uid: SuperOffice.CRM.Services.ChatOpeningHours
+  commentId: T:SuperOffice.CRM.Services.ChatOpeningHours
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatOpeningHours
+  nameWithType: ChatOpeningHours
+  fullName: SuperOffice.CRM.Services.ChatOpeningHours
+- uid: SuperOffice.CRM.Services.ChatTopicEntity.Widget*
+  commentId: Overload:SuperOffice.CRM.Services.ChatTopicEntity.Widget
+  isExternal: true
+  name: Widget
+  nameWithType: ChatTopicEntity.Widget
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity.Widget
+- uid: SuperOffice.CRM.Services.ChatWidgetSettings
+  commentId: T:SuperOffice.CRM.Services.ChatWidgetSettings
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ChatWidgetSettings
+  nameWithType: ChatWidgetSettings
+  fullName: SuperOffice.CRM.Services.ChatWidgetSettings

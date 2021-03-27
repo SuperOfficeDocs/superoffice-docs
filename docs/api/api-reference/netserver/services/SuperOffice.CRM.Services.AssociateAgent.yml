@@ -1,0 +1,1310 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.AssociateAgent
+  commentId: T:SuperOffice.CRM.Services.AssociateAgent
+  id: AssociateAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.AssociateAgent.#ctor
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
+  - SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
+  - SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
+  - SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: AssociateAgent
+  nameWithType: AssociateAgent
+  fullName: SuperOffice.CRM.Services.AssociateAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Associate Agent\nAssociate utilities, notes, not user admininstration\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (AssociateAgent agent = new AssociateAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class AssociateAgent : AgentBase<IAssociateAgent>, IDisposable, IAssociateAgent, IAgent'
+    content.vb: >-
+      Public Class AssociateAgent
+          Inherits AgentBase(Of IAssociateAgent)
+          Implements IDisposable, IAssociateAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IAssociateAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
+  id: GetAssociate(System.Int32)
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociate(Int32)
+  nameWithType: AssociateAgent.GetAssociate(Int32)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociate(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Associate object.                        \n"
+  syntax:
+    content: public Associate GetAssociate(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The identifier of the Associate object
+    return:
+      type: SuperOffice.CRM.Services.Associate
+      description: Associate
+    content.vb: Public Function GetAssociate(associateId As Integer) As Associate
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociate*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
+  id: GetAssociateByPersonId(System.Int32)
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateByPersonId(Int32)
+  nameWithType: AssociateAgent.GetAssociateByPersonId(Int32)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the associate that belongs to this person if the person is an associate.\n"
+  syntax:
+    content: public Associate GetAssociateByPersonId(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.Associate
+      description: Associate if person is associate
+    content.vb: Public Function GetAssociateByPersonId(personId As Integer) As Associate
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
+  id: GetNote(System.Int32)
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNote(Int32)
+  nameWithType: AssociateAgent.GetNote(Int32)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetNote(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns an array of strings(notepad pages).\n"
+  syntax:
+    content: public string[] GetNote(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id
+    return:
+      type: System.String[]
+      description: Returns an array of strings(notepad pages).
+    content.vb: Public Function GetNote(associateId As Integer) As String()
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetNote*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32,System.String[])
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32,System.String[])
+  id: SaveNote(System.Int32,System.String[])
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveNote(Int32, String[])
+  nameWithType: AssociateAgent.SaveNote(Int32, String[])
+  fullName: SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves an array of strings(notepad pages).\n"
+  syntax:
+    content: public void SaveNote(int associateId, string[] note)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate id
+    - id: note
+      type: System.String[]
+      description: The array of strings(notepad pages).
+    content.vb: Public Sub SaveNote(associateId As Integer, note As String())
+  overload: SuperOffice.CRM.Services.AssociateAgent.SaveNote*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+  nameWithType.vb: AssociateAgent.SaveNote(Int32, String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.SaveNote(System.Int32, System.String())
+  name.vb: SaveNote(Int32, String())
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
+  id: GetAssociateList(System.Int32[])
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociateList(Int32[])
+  nameWithType: AssociateAgent.GetAssociateList(Int32[])
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Associate objects.                        \n"
+  syntax:
+    content: public Associate[] GetAssociateList(int[] associateIds)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The identifiers of the Associate object
+    return:
+      type: SuperOffice.CRM.Services.Associate[]
+      description: Array of Associate objects
+    content.vb: Public Function GetAssociateList(associateIds As Integer()) As Associate()
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+  nameWithType.vb: AssociateAgent.GetAssociateList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList(System.Int32())
+  name.vb: GetAssociateList(Int32())
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  id: GetAssociatesByGroup(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAssociatesByGroup(Int32, Int32)
+  nameWithType: AssociateAgent.GetAssociatesByGroup(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod that returns a array of associate , based on DiaryGroupType and groupId. The differernt types are, Userdefined, Usergroup and ResourceHeadings\n"
+  syntax:
+    content: public Associate[] GetAssociatesByGroup(int groupId, int type)
+    parameters:
+    - id: groupId
+      type: System.Int32
+      description: Id of the group
+    - id: type
+      type: System.Int32
+      description: The type of group. See DiaryGroupType
+    return:
+      type: SuperOffice.CRM.Services.Associate[]
+      description: Array of associate
+    content.vb: Public Function GetAssociatesByGroup(groupId As Integer, type As Integer) As Associate()
+  overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
+  id: LogOffWindowsUsers(System.Int32[])
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: LogOffWindowsUsers(Int32[])
+  nameWithType: AssociateAgent.LogOffWindowsUsers(Int32[])
+  fullName: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMethod that logs off associates that are logged on to the win client\n"
+  syntax:
+    content: public void LogOffWindowsUsers(int[] associateIds)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The ids of the associates that shall be logged off
+    content.vb: Public Sub LogOffWindowsUsers(associateIds As Integer())
+  overload: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers*
+  implements:
+  - SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+  nameWithType.vb: AssociateAgent.LogOffWindowsUsers(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers(System.Int32())
+  name.vb: LogOffWindowsUsers(Int32())
+- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.AssociateAgent
+  langs:
+  - csharp
+  - vb
+  name: AssociateAgent()
+  nameWithType: AssociateAgent.AssociateAgent()
+  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public AssociateAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.AssociateAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IAssociateAgent>
+  nameWithType: AgentBase<IAssociateAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>
+  nameWithType.vb: AgentBase(Of IAssociateAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent)
+  name.vb: AgentBase(Of IAssociateAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IAssociateAgent
+    name: IAssociateAgent
+    nameWithType: IAssociateAgent
+    fullName: SuperOffice.CRM.Services.IAssociateAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IAssociateAgent
+    name: IAssociateAgent
+    nameWithType: IAssociateAgent
+    fullName: SuperOffice.CRM.Services.IAssociateAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IAssociateAgent
+  commentId: T:SuperOffice.CRM.Services.IAssociateAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAssociateAgent
+  nameWithType: IAssociateAgent
+  fullName: SuperOffice.CRM.Services.IAssociateAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IAssociateAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IAssociateAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IAssociateAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IAssociateAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IAssociateAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IAssociateAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IAssociateAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IAssociateAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IAssociateAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociate
+  isExternal: true
+  name: GetAssociate
+  nameWithType: AssociateAgent.GetAssociate
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociate
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: GetAssociate(Int32)
+  nameWithType: IAssociateAgent.GetAssociate(Int32)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+    name: GetAssociate
+    nameWithType: IAssociateAgent.GetAssociate
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate(System.Int32)
+    name: GetAssociate
+    nameWithType: IAssociateAgent.GetAssociate
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId
+  isExternal: true
+  name: GetAssociateByPersonId
+  nameWithType: AssociateAgent.GetAssociateByPersonId
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonId
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: GetAssociateByPersonId(Int32)
+  nameWithType: IAssociateAgent.GetAssociateByPersonId(Int32)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+    name: GetAssociateByPersonId
+    nameWithType: IAssociateAgent.GetAssociateByPersonId
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId(System.Int32)
+    name: GetAssociateByPersonId
+    nameWithType: IAssociateAgent.GetAssociateByPersonId
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateByPersonId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetNote*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetNote
+  isExternal: true
+  name: GetNote
+  nameWithType: AssociateAgent.GetNote
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetNote
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: GetNote(Int32)
+  nameWithType: IAssociateAgent.GetNote(Int32)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+    name: GetNote
+    nameWithType: IAssociateAgent.GetNote
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetNote(System.Int32)
+    name: GetNote
+    nameWithType: IAssociateAgent.GetNote
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetNote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.AssociateAgent.SaveNote*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.SaveNote
+  isExternal: true
+  name: SaveNote
+  nameWithType: AssociateAgent.SaveNote
+  fullName: SuperOffice.CRM.Services.AssociateAgent.SaveNote
+- uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: SaveNote(Int32, String[])
+  nameWithType: IAssociateAgent.SaveNote(Int32, String[])
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String[])
+  nameWithType.vb: IAssociateAgent.SaveNote(Int32, String())
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32, System.String())
+  name.vb: SaveNote(Int32, String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+    name: SaveNote
+    nameWithType: IAssociateAgent.SaveNote
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.SaveNote(System.Int32,System.String[])
+    name: SaveNote
+    nameWithType: IAssociateAgent.SaveNote
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.SaveNote
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateList
+  isExternal: true
+  name: GetAssociateList
+  nameWithType: AssociateAgent.GetAssociateList
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociateList
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: GetAssociateList(Int32[])
+  nameWithType: IAssociateAgent.GetAssociateList(Int32[])
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+  nameWithType.vb: IAssociateAgent.GetAssociateList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32())
+  name.vb: GetAssociateList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+    name: GetAssociateList
+    nameWithType: IAssociateAgent.GetAssociateList
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList(System.Int32[])
+    name: GetAssociateList
+    nameWithType: IAssociateAgent.GetAssociateList
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Associate[]
+  isExternal: true
+  name: Associate[]
+  nameWithType: Associate[]
+  fullName: SuperOffice.CRM.Services.Associate[]
+  nameWithType.vb: Associate()
+  fullName.vb: SuperOffice.CRM.Services.Associate()
+  name.vb: Associate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.CRM.Services.Associate
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.CRM.Services.Associate
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup
+  isExternal: true
+  name: GetAssociatesByGroup
+  nameWithType: AssociateAgent.GetAssociatesByGroup
+  fullName: SuperOffice.CRM.Services.AssociateAgent.GetAssociatesByGroup
+- uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: GetAssociatesByGroup(Int32, Int32)
+  nameWithType: IAssociateAgent.GetAssociatesByGroup(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+    name: GetAssociatesByGroup
+    nameWithType: IAssociateAgent.GetAssociatesByGroup
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup(System.Int32,System.Int32)
+    name: GetAssociatesByGroup
+    nameWithType: IAssociateAgent.GetAssociatesByGroup
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.GetAssociatesByGroup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers
+  isExternal: true
+  name: LogOffWindowsUsers
+  nameWithType: AssociateAgent.LogOffWindowsUsers
+  fullName: SuperOffice.CRM.Services.AssociateAgent.LogOffWindowsUsers
+- uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+  parent: SuperOffice.CRM.Services.IAssociateAgent
+  isExternal: true
+  name: LogOffWindowsUsers(Int32[])
+  nameWithType: IAssociateAgent.LogOffWindowsUsers(Int32[])
+  fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+  nameWithType.vb: IAssociateAgent.LogOffWindowsUsers(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32())
+  name.vb: LogOffWindowsUsers(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+    name: LogOffWindowsUsers
+    nameWithType: IAssociateAgent.LogOffWindowsUsers
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers(System.Int32[])
+    name: LogOffWindowsUsers
+    nameWithType: IAssociateAgent.LogOffWindowsUsers
+    fullName: SuperOffice.CRM.Services.IAssociateAgent.LogOffWindowsUsers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.#ctor
+  isExternal: true
+  name: AssociateAgent
+  nameWithType: AssociateAgent.AssociateAgent
+  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent

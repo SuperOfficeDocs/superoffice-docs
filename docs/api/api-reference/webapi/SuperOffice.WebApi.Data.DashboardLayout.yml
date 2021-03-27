@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DashboardLayout
+  commentId: T:SuperOffice.WebApi.Data.DashboardLayout
+  id: DashboardLayout
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DashboardLayout.Four
+  - SuperOffice.WebApi.Data.DashboardLayout.None
+  - SuperOffice.WebApi.Data.DashboardLayout.One
+  - SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
+  - SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
+  - SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
+  - SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
+  - SuperOffice.WebApi.Data.DashboardLayout.value__
+  langs:
+  - csharp
+  - vb
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: SuperOffice.WebApi.Data.DashboardLayout
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDashboard layout\n"
+  syntax:
+    content: 'public sealed class DashboardLayout : Enum'
+    content.vb: >-
+      Public NotInheritable Class DashboardLayout
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DashboardLayout.value__
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DashboardLayout.value__
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DashboardLayout.None
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DashboardLayout.None
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Unknown layout\n"
+  syntax:
+    content: public const DashboardLayout None
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const None As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardLayout.One
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.One
+  id: One
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: One
+  nameWithType: DashboardLayout.One
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.One
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: One tile.\n"
+  syntax:
+    content: public const DashboardLayout One
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const One As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
+  id: TwoVerticalSplit
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: TwoVerticalSplit
+  nameWithType: DashboardLayout.TwoVerticalSplit
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.TwoVerticalSplit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Two vertical split.\n"
+  syntax:
+    content: public const DashboardLayout TwoVerticalSplit
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const TwoVerticalSplit As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
+  id: ThreeESplit
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: ThreeESplit
+  nameWithType: DashboardLayout.ThreeESplit
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.ThreeESplit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Three E split.\n"
+  syntax:
+    content: public const DashboardLayout ThreeESplit
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const ThreeESplit As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
+  id: TwoHorizontalSplit
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: TwoHorizontalSplit
+  nameWithType: DashboardLayout.TwoHorizontalSplit
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.TwoHorizontalSplit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Two horizontal split.\n"
+  syntax:
+    content: public const DashboardLayout TwoHorizontalSplit
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const TwoHorizontalSplit As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
+  id: ThreeTSplit
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: ThreeTSplit
+  nameWithType: DashboardLayout.ThreeTSplit
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.ThreeTSplit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Three T split.\n"
+  syntax:
+    content: public const DashboardLayout ThreeTSplit
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const ThreeTSplit As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DashboardLayout.Four
+  commentId: F:SuperOffice.WebApi.Data.DashboardLayout.Four
+  id: Four
+  parent: SuperOffice.WebApi.Data.DashboardLayout
+  langs:
+  - csharp
+  - vb
+  name: Four
+  nameWithType: DashboardLayout.Four
+  fullName: SuperOffice.WebApi.Data.DashboardLayout.Four
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Four tiles.\n"
+  syntax:
+    content: public const DashboardLayout Four
+    return:
+      type: SuperOffice.WebApi.Data.DashboardLayout
+    content.vb: Public Const Four As DashboardLayout
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.DashboardLayout
+  commentId: T:SuperOffice.WebApi.Data.DashboardLayout
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: SuperOffice.WebApi.Data.DashboardLayout

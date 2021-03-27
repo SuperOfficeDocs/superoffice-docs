@@ -1,0 +1,1842 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ColumnHelper
+  id: ColumnHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.Count
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultCheckboxWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateTimeWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDecimalWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultIconWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultNumberWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultStringWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultTimeWidth
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn(System.String)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn(System.String)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(System.String[])
+  langs:
+  - csharp
+  - vb
+  name: ColumnHelper
+  nameWithType: ColumnHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis class is a helper that contains functionality for handling columns in an archive provider.\nIt includes collections and methods for keeping track of available and chosen columns, determining\nwhether any particular column is wanted, and the method that uses reflection to locate standard\ncolumn declarations in client classes.\n"
+  syntax:
+    content: public class ColumnHelper
+    content.vb: Public Class ColumnHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ColumnHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultStringWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultStringWidth
+  id: DefaultStringWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultStringWidth
+  nameWithType: ColumnHelper.DefaultStringWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultStringWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type string\n"
+  syntax:
+    content: public const string DefaultStringWidth = "10%"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultStringWidth As String = "10%"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultNumberWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultNumberWidth
+  id: DefaultNumberWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultNumberWidth
+  nameWithType: ColumnHelper.DefaultNumberWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultNumberWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type number (integer)\n"
+  syntax:
+    content: public const string DefaultNumberWidth = "8c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultNumberWidth As String = "8c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateWidth
+  id: DefaultDateWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultDateWidth
+  nameWithType: ColumnHelper.DefaultDateWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type date\n"
+  syntax:
+    content: public const string DefaultDateWidth = "10c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDateWidth As String = "10c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateTimeWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateTimeWidth
+  id: DefaultDateTimeWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultDateTimeWidth
+  nameWithType: ColumnHelper.DefaultDateTimeWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDateTimeWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type date\n"
+  syntax:
+    content: public const string DefaultDateTimeWidth = "16c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDateTimeWidth As String = "16c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultCheckboxWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultCheckboxWidth
+  id: DefaultCheckboxWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultCheckboxWidth
+  nameWithType: ColumnHelper.DefaultCheckboxWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultCheckboxWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type checkbox\n"
+  syntax:
+    content: public const string DefaultCheckboxWidth = "4c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultCheckboxWidth As String = "4c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultIconWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultIconWidth
+  id: DefaultIconWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultIconWidth
+  nameWithType: ColumnHelper.DefaultIconWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultIconWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type icon\n"
+  syntax:
+    content: public const string DefaultIconWidth = "3c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultIconWidth As String = "3c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDecimalWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDecimalWidth
+  id: DefaultDecimalWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultDecimalWidth
+  nameWithType: ColumnHelper.DefaultDecimalWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultDecimalWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type decimal (floating-point)\n"
+  syntax:
+    content: public const string DefaultDecimalWidth = "12c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDecimalWidth As String = "12c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultTimeWidth
+  commentId: F:SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultTimeWidth
+  id: DefaultTimeWidth
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DefaultTimeWidth
+  nameWithType: ColumnHelper.DefaultTimeWidth
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DefaultTimeWidth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault width setting for columns of type decimal (floating-point)\n"
+  syntax:
+    content: public const string DefaultTimeWidth = "5c"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTimeWidth As String = "5c"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns)'
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: ColumnHelper(IArchiveProviderHasColumns)
+  nameWithType: ColumnHelper.ColumnHelper(IArchiveProviderHasColumns)
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.ColumnHelper(SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstruct the instance, set the owner (client) class reference\n"
+  syntax:
+    content: public ColumnHelper(IArchiveProviderHasColumns owner)
+    parameters:
+    - id: owner
+      type: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+    content.vb: Public Sub New(owner As IArchiveProviderHasColumns)
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  id: AddAvailableColumns(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: AddAvailableColumns(ArchiveColumnInfo[])
+  nameWithType: ColumnHelper.AddAvailableColumns(ArchiveColumnInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd one or more columns to the list of available columns for this client class. \nIf the column already exists, then let the new column disable OrderBy and RestrictBy\nif it does not support them.\n"
+  syntax:
+    content: public void AddAvailableColumns(params ArchiveColumnInfo[] columns)
+    parameters:
+    - id: columns
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: One or more column information data blocks
+    content.vb: Public Sub AddAvailableColumns(ParamArray columns As ArchiveColumnInfo())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns*
+  nameWithType.vb: ColumnHelper.AddAvailableColumns(ArchiveColumnInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: AddAvailableColumns(ArchiveColumnInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  id: AddAvailableColumnsAfter(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: AddAvailableColumnsAfter(String, ArchiveColumnInfo[])
+  nameWithType: ColumnHelper.AddAvailableColumnsAfter(String, ArchiveColumnInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd one or more columns to the list of available columns for this client class. Add them right after the named column,\nif it exists, or at the end if it does not exist\n"
+  syntax:
+    content: public void AddAvailableColumnsAfter(string addAfter, params ArchiveColumnInfo[] columns)
+    parameters:
+    - id: addAfter
+      type: System.String
+      description: Name of column to add new columns after
+    - id: columns
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: One or more column information data blocks
+    content.vb: Public Sub AddAvailableColumnsAfter(addAfter As String, ParamArray columns As ArchiveColumnInfo())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter*
+  nameWithType.vb: ColumnHelper.AddAvailableColumnsAfter(String, ArchiveColumnInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: AddAvailableColumnsAfter(String, ArchiveColumnInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  id: AddAvailableColumnsBefore(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: AddAvailableColumnsBefore(String, ArchiveColumnInfo[])
+  nameWithType: ColumnHelper.AddAvailableColumnsBefore(String, ArchiveColumnInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAdd one or more columns to the list of available columns for this client class. Add them right before the named column,\nif it exists, or at the end if it does not exist\n"
+  syntax:
+    content: public void AddAvailableColumnsBefore(string addBefore, params ArchiveColumnInfo[] columns)
+    parameters:
+    - id: addBefore
+      type: System.String
+    - id: columns
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: One or more column information data blocks
+    content.vb: Public Sub AddAvailableColumnsBefore(addBefore As String, ParamArray columns As ArchiveColumnInfo())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore*
+  nameWithType.vb: ColumnHelper.AddAvailableColumnsBefore(String, ArchiveColumnInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: AddAvailableColumnsBefore(String, ArchiveColumnInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns(System.String[])
+  id: RemoveAvailableColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveAvailableColumns(String[])
+  nameWithType: ColumnHelper.RemoveAvailableColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nRemove one or more columns from the list of available columns for this client class\n"
+  syntax:
+    content: public void RemoveAvailableColumns(params string[] columns)
+    parameters:
+    - id: columns
+      type: System.String[]
+      description: Names of columns to remove
+    content.vb: Public Sub RemoveAvailableColumns(ParamArray columns As String())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns*
+  nameWithType.vb: ColumnHelper.RemoveAvailableColumns(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns(System.String())
+  name.vb: RemoveAvailableColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns
+  id: RemoveAllAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveAllAvailableColumns()
+  nameWithType: ColumnHelper.RemoveAllAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nRemove all columns from the list of available columns for this client class\n"
+  syntax:
+    content: public void RemoveAllAvailableColumns()
+    content.vb: Public Sub RemoveAllAvailableColumns
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns(System.String[])
+  id: RemoveDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: RemoveDesiredColumns(String[])
+  nameWithType: ColumnHelper.RemoveDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nRemove one or more columns from the list of desired columns\n"
+  syntax:
+    content: public void RemoveDesiredColumns(params string[] columns)
+    parameters:
+    - id: columns
+      type: System.String[]
+      description: Names of columns to remove
+    content.vb: Public Sub RemoveDesiredColumns(ParamArray columns As String())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns*
+  nameWithType.vb: ColumnHelper.RemoveDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns(System.String())
+  name.vb: RemoveDesiredColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes(System.String,System.String)
+  id: SetPrefixes(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: SetPrefixes(String, String)
+  nameWithType: ColumnHelper.SetPrefixes(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the programmatic name and display name prefixes (one or both)\n"
+  syntax:
+    content: public void SetPrefixes(string namePrefix, string displayNamePrefix)
+    parameters:
+    - id: namePrefix
+      type: System.String
+      description: Name prefix to set, or null if no prefix is to be set
+    - id: displayNamePrefix
+      type: System.String
+      description: Display name prefix to set, or null if no prefix is to be set
+    content.vb: Public Sub SetPrefixes(namePrefix As String, displayNamePrefix As String)
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes(System.String,System.String)
+  id: SetAbsolutePrefixes(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: SetAbsolutePrefixes(String, String)
+  nameWithType: ColumnHelper.SetAbsolutePrefixes(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void SetAbsolutePrefixes(string namePrefix, string displayNamePrefix)
+    parameters:
+    - id: namePrefix
+      type: System.String
+    - id: displayNamePrefix
+      type: System.String
+    content.vb: Public Sub SetAbsolutePrefixes(namePrefix As String, displayNamePrefix As String)
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns(System.String[])
+  id: SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredColumns(String[])
+  nameWithType: ColumnHelper.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the desired columns, using an array of programmatic names. This will\nadd to any currently chosen columns. Only columns that match our current list\nof available columns will be retained, other columns (that probably belong to other\nproviders) will be quietly ignored. This behaviour is very much by design.\n"
+  syntax:
+    content: public void SetDesiredColumns(string[] columnIds)
+    parameters:
+    - id: columnIds
+      type: System.String[]
+      description: Array of programmatic column names
+    content.vb: Public Sub SetDesiredColumns(columnIds As String())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns*
+  nameWithType.vb: ColumnHelper.SetDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(System.String[])
+  id: WantAnyColumn(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: WantAnyColumn(String[])
+  nameWithType: ColumnHelper.WantAnyColumn(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine whether at least one of the given columns is in the list\nof currently desired columns\n"
+  syntax:
+    content: public bool WantAnyColumn(params string[] names)
+    parameters:
+    - id: names
+      type: System.String[]
+      description: Array of programmatic names to check
+    return:
+      type: System.Boolean
+      description: true if at least one of the names is in the desired column list, otherwise false
+    content.vb: Public Function WantAnyColumn(ParamArray names As String()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn*
+  nameWithType.vb: ColumnHelper.WantAnyColumn(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(System.String())
+  name.vb: WantAnyColumn(String())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  id: WantAnyColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: WantAnyColumn(ArchiveColumnInfo[])
+  nameWithType: ColumnHelper.WantAnyColumn(ArchiveColumnInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine whether at least one of the given columns is in the list\nof currently desired columns\n"
+  syntax:
+    content: public bool WantAnyColumn(params ArchiveColumnInfo[] columns)
+    parameters:
+    - id: columns
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: Array of column information objects to check
+    return:
+      type: System.Boolean
+      description: true if at least one of the names is in the desired column list, otherwise false
+    content.vb: Public Function WantAnyColumn(ParamArray columns As ArchiveColumnInfo()) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn*
+  nameWithType.vb: ColumnHelper.WantAnyColumn(ArchiveColumnInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: WantAnyColumn(ArchiveColumnInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn
+  id: WantAnyColumn
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: WantAnyColumn()
+  nameWithType: ColumnHelper.WantAnyColumn()
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine whether ANY of our columns is in the desired columns list. This is a fast check, independent of the number of\navailable or desired columns\n"
+  syntax:
+    content: public bool WantAnyColumn()
+    return:
+      type: System.Boolean
+      description: true if at least one column has been set as desired
+    content.vb: Public Function WantAnyColumn As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn(System.String)
+  id: HasAvailableColumn(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: HasAvailableColumn(String)
+  nameWithType: ColumnHelper.HasAvailableColumn(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDetermine whether the given column (by programmatic name) is in the current\navailable columns list\n"
+  syntax:
+    content: public bool HasAvailableColumn(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Programmatic column name to check
+    return:
+      type: System.Boolean
+      description: true if the name matches an available column
+    content.vb: Public Function HasAvailableColumn(name As String) As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn(System.String)
+  id: GetColumn(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: GetColumn(String)
+  nameWithType: ColumnHelper.GetColumn(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet a column from the available columns list, by full prefixed programmatic name\n"
+  syntax:
+    content: public ArchiveColumnInfo GetColumn(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Column to get
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+      description: Column information, or null (no exception thrown) if the column does not exist
+    content.vb: Public Function GetColumn(name As String) As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String)
+  id: SetIconHint(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: SetIconHint(String)
+  nameWithType: ColumnHelper.SetIconHint(String)
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the icon hint on all available columns that do not already have one; this will NOT force a column scan,\nso you can safely call from a base class\n"
+  syntax:
+    content: public void SetIconHint(string iconHint)
+    parameters:
+    - id: iconHint
+      type: System.String
+      description: Iconhint to be set on all columns that have no iconhint yet
+    content.vb: Public Sub SetIconHint(iconHint As String)
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  id: SetIconHint(System.String,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: SetIconHint(String, ArchiveColumnInfo[])
+  nameWithType: ColumnHelper.SetIconHint(String, ArchiveColumnInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSet the icon hint on all available columns that do not already have one; this WILL force a column scan,\nso call with care from base classes\n"
+  syntax:
+    content: public void SetIconHint(string iconHint, params ArchiveColumnInfo[] columnsToSet)
+    parameters:
+    - id: iconHint
+      type: System.String
+      description: Iconhint to be set on all columns that have no iconhint yet
+    - id: columnsToSet
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+    content.vb: Public Sub SetIconHint(iconHint As String, ParamArray columnsToSet As ArchiveColumnInfo())
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint*
+  nameWithType.vb: ColumnHelper.SetIconHint(String, ArchiveColumnInfo())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint(System.String, SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo())
+  name.vb: SetIconHint(String, ArchiveColumnInfo())
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ColumnHelper.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nReturn a string suitable for debugging\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix
+  commentId: P:SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix
+  id: NamePrefix
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: NamePrefix
+  nameWithType: ColumnHelper.NamePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCurrent name prefix\n"
+  syntax:
+    content: public string NamePrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property NamePrefix As String
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix
+  commentId: P:SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix
+  id: DisplayNamePrefix
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DisplayNamePrefix
+  nameWithType: ColumnHelper.DisplayNamePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCurrent display name prefix\n"
+  syntax:
+    content: public string DisplayNamePrefix { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property DisplayNamePrefix As String
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.Count
+  commentId: P:SuperOffice.CRM.ArchiveLists.ColumnHelper.Count
+  id: Count
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: ColumnHelper.Count
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the number of currently known columns\n"
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns
+  id: DesiredColumns
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: DesiredColumns
+  nameWithType: ColumnHelper.DesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCurrent desired columns setting\n"
+  syntax:
+    content: public string[] DesiredColumns { get; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public ReadOnly Property DesiredColumns As String()
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns
+  id: AvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: AvailableColumns
+  nameWithType: ColumnHelper.AvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the current list of available columns as an array\n"
+  syntax:
+    content: public List<ArchiveColumnInfo> AvailableColumns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public ReadOnly Property AvailableColumns As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns
+  commentId: P:SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns
+  id: AvailableRestrictionColumns
+  parent: SuperOffice.CRM.ArchiveLists.ColumnHelper
+  langs:
+  - csharp
+  - vb
+  name: AvailableRestrictionColumns
+  nameWithType: ColumnHelper.AvailableRestrictionColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nGet the current list of available restriction columns as an array\n"
+  syntax:
+    content: public List<ArchiveColumnInfo> AvailableRestrictionColumns { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+    content.vb: Public ReadOnly Property AvailableRestrictionColumns As List(Of ArchiveColumnInfo)
+  overload: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ColumnHelper, To>()
+  nameWithType: EnumUtil.MapEnums<ColumnHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ColumnHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelper, To)()
+  name.vb: MapEnums(Of ColumnHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ColumnHelper, To>
+    nameWithType: EnumUtil.MapEnums<ColumnHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ColumnHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of ColumnHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ColumnHelper, To>()
+  nameWithType: Converters.MapEnums<ColumnHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ColumnHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelper, To)()
+  name.vb: MapEnums(Of ColumnHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ColumnHelper, To>
+    nameWithType: Converters.MapEnums<ColumnHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ColumnHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ColumnHelper, To)
+    nameWithType: Converters.MapEnums(Of ColumnHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ColumnHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.#ctor
+  isExternal: true
+  name: ColumnHelper
+  nameWithType: ColumnHelper.ColumnHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.ColumnHelper
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns
+  isExternal: true
+  name: AddAvailableColumns
+  nameWithType: ColumnHelper.AddAvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumns
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter
+  isExternal: true
+  name: AddAvailableColumnsAfter
+  nameWithType: ColumnHelper.AddAvailableColumnsAfter
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsAfter
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore
+  isExternal: true
+  name: AddAvailableColumnsBefore
+  nameWithType: ColumnHelper.AddAvailableColumnsBefore
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AddAvailableColumnsBefore
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns
+  isExternal: true
+  name: RemoveAvailableColumns
+  nameWithType: ColumnHelper.RemoveAvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAvailableColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns
+  isExternal: true
+  name: RemoveAllAvailableColumns
+  nameWithType: ColumnHelper.RemoveAllAvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveAllAvailableColumns
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns
+  isExternal: true
+  name: RemoveDesiredColumns
+  nameWithType: ColumnHelper.RemoveDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.RemoveDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes
+  isExternal: true
+  name: SetPrefixes
+  nameWithType: ColumnHelper.SetPrefixes
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetPrefixes
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes
+  isExternal: true
+  name: SetAbsolutePrefixes
+  nameWithType: ColumnHelper.SetAbsolutePrefixes
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetAbsolutePrefixes
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns
+  isExternal: true
+  name: SetDesiredColumns
+  nameWithType: ColumnHelper.SetDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetDesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn
+  isExternal: true
+  name: WantAnyColumn
+  nameWithType: ColumnHelper.WantAnyColumn
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.WantAnyColumn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn
+  isExternal: true
+  name: HasAvailableColumn
+  nameWithType: ColumnHelper.HasAvailableColumn
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.HasAvailableColumn
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn
+  isExternal: true
+  name: GetColumn
+  nameWithType: ColumnHelper.GetColumn
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.GetColumn
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint
+  isExternal: true
+  name: SetIconHint
+  nameWithType: ColumnHelper.SetIconHint
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.SetIconHint
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ColumnHelper.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.ToString
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix
+  isExternal: true
+  name: NamePrefix
+  nameWithType: ColumnHelper.NamePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.NamePrefix
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix
+  isExternal: true
+  name: DisplayNamePrefix
+  nameWithType: ColumnHelper.DisplayNamePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DisplayNamePrefix
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.Count*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.Count
+  isExternal: true
+  name: Count
+  nameWithType: ColumnHelper.Count
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.Count
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns
+  isExternal: true
+  name: DesiredColumns
+  nameWithType: ColumnHelper.DesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.DesiredColumns
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns
+  isExternal: true
+  name: AvailableColumns
+  nameWithType: ColumnHelper.AvailableColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableColumns
+- uid: System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ArchiveColumnInfo>
+  nameWithType: List<ArchiveColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo>
+  nameWithType.vb: List(Of ArchiveColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: List(Of ArchiveColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns
+  isExternal: true
+  name: AvailableRestrictionColumns
+  nameWithType: ColumnHelper.AvailableRestrictionColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ColumnHelper.AvailableRestrictionColumns

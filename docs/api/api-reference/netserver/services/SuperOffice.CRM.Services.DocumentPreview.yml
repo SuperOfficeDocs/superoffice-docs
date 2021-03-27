@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.DocumentPreview
+  commentId: T:SuperOffice.CRM.Services.DocumentPreview
+  id: DocumentPreview
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.DocumentPreview.#ctor
+  - SuperOffice.CRM.Services.DocumentPreview.Name
+  - SuperOffice.CRM.Services.DocumentPreview.Size
+  - SuperOffice.CRM.Services.DocumentPreview.Stream
+  - SuperOffice.CRM.Services.DocumentPreview.ToString
+  - SuperOffice.CRM.Services.DocumentPreview.ToString(System.String)
+  - SuperOffice.CRM.Services.DocumentPreview.Type
+  langs:
+  - csharp
+  - vb
+  name: DocumentPreview
+  nameWithType: DocumentPreview
+  fullName: SuperOffice.CRM.Services.DocumentPreview
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDocument data intended for preview purposes\n<p></p>\nCarrier object for DocumentPreview.\nServices for the DocumentPreview Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IDocumentAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class DocumentPreview : Carrier'
+    content.vb: >-
+      Public Class DocumentPreview
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.DocumentAgent
+    commentId: T:SuperOffice.CRM.Services.DocumentAgent
+  - linkId: SuperOffice.CRM.Services.IDocumentAgent
+    commentId: T:SuperOffice.CRM.Services.IDocumentAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.DocumentPreview.#ctor
+  commentId: M:SuperOffice.CRM.Services.DocumentPreview.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: DocumentPreview()
+  nameWithType: DocumentPreview.DocumentPreview()
+  fullName: SuperOffice.CRM.Services.DocumentPreview.DocumentPreview()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DocumentPreview()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.DocumentPreview.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentPreview.ToString
+  commentId: M:SuperOffice.CRM.Services.DocumentPreview.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DocumentPreview.ToString()
+  fullName: SuperOffice.CRM.Services.DocumentPreview.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.DocumentPreview.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.DocumentPreview.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.DocumentPreview.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: DocumentPreview.ToString(String)
+  fullName: SuperOffice.CRM.Services.DocumentPreview.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.DocumentPreview.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.DocumentPreview.Name
+  commentId: P:SuperOffice.CRM.Services.DocumentPreview.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DocumentPreview.Name
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe documents name \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.DocumentPreview.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentPreview.Type
+  commentId: P:SuperOffice.CRM.Services.DocumentPreview.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: DocumentPreview.Type
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe mimetype of the stream \n"
+  syntax:
+    content: public virtual string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Type As String
+  overload: SuperOffice.CRM.Services.DocumentPreview.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentPreview.Size
+  commentId: P:SuperOffice.CRM.Services.DocumentPreview.Size
+  id: Size
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: DocumentPreview.Size
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Size
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSize of the stream \n"
+  syntax:
+    content: public virtual int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Size As Integer
+  overload: SuperOffice.CRM.Services.DocumentPreview.Size*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.DocumentPreview.Stream
+  commentId: P:SuperOffice.CRM.Services.DocumentPreview.Stream
+  id: Stream
+  parent: SuperOffice.CRM.Services.DocumentPreview
+  langs:
+  - csharp
+  - vb
+  name: Stream
+  nameWithType: DocumentPreview.Stream
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Stream
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDocument data \n"
+  syntax:
+    content: public virtual byte[] Stream { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overridable Property Stream As Byte()
+  overload: SuperOffice.CRM.Services.DocumentPreview.Stream*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.DocumentAgent
+  commentId: T:SuperOffice.CRM.Services.DocumentAgent
+  isExternal: true
+  name: DocumentAgent
+  nameWithType: DocumentAgent
+  fullName: SuperOffice.CRM.Services.DocumentAgent
+- uid: SuperOffice.CRM.Services.IDocumentAgent
+  commentId: T:SuperOffice.CRM.Services.IDocumentAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IDocumentAgent
+  nameWithType: IDocumentAgent
+  fullName: SuperOffice.CRM.Services.IDocumentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.DocumentPreview.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentPreview.#ctor
+  isExternal: true
+  name: DocumentPreview
+  nameWithType: DocumentPreview.DocumentPreview
+  fullName: SuperOffice.CRM.Services.DocumentPreview.DocumentPreview
+- uid: SuperOffice.CRM.Services.DocumentPreview.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentPreview.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DocumentPreview.ToString
+  fullName: SuperOffice.CRM.Services.DocumentPreview.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DocumentPreview.Name*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentPreview.Name
+  isExternal: true
+  name: Name
+  nameWithType: DocumentPreview.Name
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Name
+- uid: SuperOffice.CRM.Services.DocumentPreview.Type*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentPreview.Type
+  isExternal: true
+  name: Type
+  nameWithType: DocumentPreview.Type
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Type
+- uid: SuperOffice.CRM.Services.DocumentPreview.Size*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentPreview.Size
+  isExternal: true
+  name: Size
+  nameWithType: DocumentPreview.Size
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Size
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.DocumentPreview.Stream*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentPreview.Stream
+  isExternal: true
+  name: Stream
+  nameWithType: DocumentPreview.Stream
+  fullName: SuperOffice.CRM.Services.DocumentPreview.Stream
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

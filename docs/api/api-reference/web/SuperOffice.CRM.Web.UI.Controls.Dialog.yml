@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.Dialog
+  commentId: N:SuperOffice.CRM.Web.UI.Controls.Dialog
+  id: SuperOffice.CRM.Web.UI.Controls.Dialog
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.Dialog.ConfirmCreateSuggestedAppointment
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.UI.Controls.Dialog
+  nameWithType: SuperOffice.CRM.Web.UI.Controls.Dialog
+  fullName: SuperOffice.CRM.Web.UI.Controls.Dialog
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls.Dialog.ConfirmCreateSuggestedAppointment
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.Dialog.ConfirmCreateSuggestedAppointment
+  isExternal: true
+  name: ConfirmCreateSuggestedAppointment
+  nameWithType: ConfirmCreateSuggestedAppointment
+  fullName: SuperOffice.CRM.Web.UI.Controls.Dialog.ConfirmCreateSuggestedAppointment

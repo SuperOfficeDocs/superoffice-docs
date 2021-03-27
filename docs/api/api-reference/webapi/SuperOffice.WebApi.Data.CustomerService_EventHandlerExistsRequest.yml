@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+  id: CustomerService_EventHandlerExistsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.#ctor
+  - SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_EventHandlerExistsRequest
+  nameWithType: CustomerService_EventHandlerExistsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CustomerService_EventHandlerExistsRequest : Object'
+    content.vb: >-
+      Public Class CustomerService_EventHandlerExistsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomerService_EventHandlerExistsRequest()
+  nameWithType: CustomerService_EventHandlerExistsRequest.CustomerService_EventHandlerExistsRequest()
+  fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.CustomerService_EventHandlerExistsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CustomerService_EventHandlerExistsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType
+  commentId: P:SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType
+  id: EventHandlerType
+  parent: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest
+  langs:
+  - csharp
+  - vb
+  name: EventHandlerType
+  nameWithType: CustomerService_EventHandlerExistsRequest.EventHandlerType
+  fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EventHandlerType EventHandlerType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: Public Property EventHandlerType As EventHandlerType
+  overload: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.#ctor
+  isExternal: true
+  name: CustomerService_EventHandlerExistsRequest
+  nameWithType: CustomerService_EventHandlerExistsRequest.CustomerService_EventHandlerExistsRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.CustomerService_EventHandlerExistsRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: CustomerService_EventHandlerExistsRequest.EventHandlerType
+  fullName: SuperOffice.WebApi.Data.CustomerService_EventHandlerExistsRequest.EventHandlerType
+- uid: SuperOffice.WebApi.Data.EventHandlerType
+  commentId: T:SuperOffice.WebApi.Data.EventHandlerType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EventHandlerType
+  nameWithType: EventHandlerType
+  fullName: SuperOffice.WebApi.Data.EventHandlerType

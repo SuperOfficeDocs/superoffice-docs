@@ -1,0 +1,1871 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.ConfigurationManager
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager
+  id: ConfigurationManager
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.ConfigurationManager.#ctor
+  - SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache(System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache(System.String,System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache
+  - SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.FlushCache
+  - SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml(System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2(System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml
+  - SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration
+  - SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml
+  - SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml(System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml
+  - SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache(System.String,System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration(System.String,System.String,System.Int32)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping
+  - SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos
+  - SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames
+  - SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration(System.String,System.Boolean)
+  - SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration
+  - SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid(System.String)
+  - SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration(System.Xml.XmlDocument)
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager
+  nameWithType: ConfigurationManager
+  fullName: SuperOffice.DCF.Web.ConfigurationManager
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public class ConfigurationManager
+    content.vb: Public Class ConfigurationManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration
+  id: GetApplicationConfiguration
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetApplicationConfiguration()
+  nameWithType: ConfigurationManager.GetApplicationConfiguration()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetApplicationConfiguration()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetApplicationConfiguration As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition(System.String)
+  id: GetPageDefinition(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetPageDefinition(String)
+  nameWithType: ConfigurationManager.GetPageDefinition(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static ConfigurationManager.ApplicationSettings.PageDefinition GetPageDefinition(string pageId)
+    parameters:
+    - id: pageId
+      type: System.String
+    return:
+      type: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+    content.vb: Public Shared Function GetPageDefinition(pageId As String) As ConfigurationManager.ApplicationSettings.PageDefinition
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition(System.String)
+  id: GetCurrentDefinition(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentDefinition(String)
+  nameWithType: ConfigurationManager.GetCurrentDefinition(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static ConfigurationManager.ApplicationSettings.CurrentDefinition GetCurrentDefinition(string currentId)
+    parameters:
+    - id: currentId
+      type: System.String
+    return:
+      type: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+    content.vb: Public Shared Function GetCurrentDefinition(currentId As String) As ConfigurationManager.ApplicationSettings.CurrentDefinition
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping
+  id: GetObjectMapping
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetObjectMapping()
+  nameWithType: ConfigurationManager.GetObjectMapping()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetObjectMapping()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetObjectMapping As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration
+  id: GetServerEventConfiguration
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetServerEventConfiguration()
+  nameWithType: ConfigurationManager.GetServerEventConfiguration()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetServerEventConfiguration()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetServerEventConfiguration As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping(System.String)
+  id: GetObjectMapping(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetObjectMapping(String)
+  nameWithType: ConfigurationManager.GetObjectMapping(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static ConfigurationManager.ConfigurationObjectInfo GetObjectMapping(string mappingName)
+    parameters:
+    - id: mappingName
+      type: System.String
+    return:
+      type: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+    content.vb: Public Shared Function GetObjectMapping(mappingName As String) As ConfigurationManager.ConfigurationObjectInfo
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames
+  id: GetObjectMappingNames
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetObjectMappingNames()
+  nameWithType: ConfigurationManager.GetObjectMappingNames()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static IEnumerable<string> GetObjectMappingNames()
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+    content.vb: Public Shared Function GetObjectMappingNames As IEnumerable(Of String)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos
+  id: GetObjectMappingInfos
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetObjectMappingInfos()
+  nameWithType: ConfigurationManager.GetObjectMappingInfos()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static IEnumerable<ConfigurationManager.ConfigurationObjectInfo> GetObjectMappingInfos()
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo}
+    content.vb: Public Shared Function GetObjectMappingInfos As IEnumerable(Of ConfigurationManager.ConfigurationObjectInfo)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid(System.String)
+  id: SetPageConfigurationInvalid(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: SetPageConfigurationInvalid(String)
+  nameWithType: ConfigurationManager.SetPageConfigurationInvalid(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void SetPageConfigurationInvalid(string pageName)
+    parameters:
+    - id: pageName
+      type: System.String
+    content.vb: Public Shared Sub SetPageConfigurationInvalid(pageName As String)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration(System.String)
+  id: GetPageConfiguration(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetPageConfiguration(String)
+  nameWithType: ConfigurationManager.GetPageConfiguration(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetPageConfiguration(string pageName)
+    parameters:
+    - id: pageName
+      type: System.String
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetPageConfiguration(pageName As String) As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration(System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration(System.String,System.Boolean)
+  id: GetRawPageConfiguration(System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetRawPageConfiguration(String, Boolean)
+  nameWithType: ConfigurationManager.GetRawPageConfiguration(String, Boolean)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetRawPageConfiguration(string pageName, bool refreshCached = false)
+    parameters:
+    - id: pageName
+      type: System.String
+    - id: refreshCached
+      type: System.Boolean
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetRawPageConfiguration(pageName As String, refreshCached As Boolean = False) As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration(System.String,System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration(System.String,System.String,System.Int32)
+  id: GetMenuConfiguration(System.String,System.String,System.Int32)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetMenuConfiguration(String, String, Int32)
+  nameWithType: ConfigurationManager.GetMenuConfiguration(String, String, Int32)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetMenuConfiguration(string context, string subcontext, int id)
+    parameters:
+    - id: context
+      type: System.String
+    - id: subcontext
+      type: System.String
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetMenuConfiguration(context As String, subcontext As String, id As Integer) As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration
+  id: GetFilterConfiguration
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetFilterConfiguration()
+  nameWithType: ConfigurationManager.GetFilterConfiguration()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetFilterConfiguration()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetFilterConfiguration As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml
+  id: GetArchiveControlLinkInfoXml
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveControlLinkInfoXml()
+  nameWithType: ConfigurationManager.GetArchiveControlLinkInfoXml()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetArchiveControlLinkInfoXml()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetArchiveControlLinkInfoXml As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml
+  id: GetArchiveColumnListXml
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveColumnListXml()
+  nameWithType: ConfigurationManager.GetArchiveColumnListXml()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetArchiveColumnListXml()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetArchiveColumnListXml As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2
+  id: GetArchiveColumnListXmlV2
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveColumnListXmlV2()
+  nameWithType: ConfigurationManager.GetArchiveColumnListXmlV2()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XDocument GetArchiveColumnListXmlV2()
+    return:
+      type: System.Xml.Linq.XDocument
+    content.vb: Public Shared Function GetArchiveColumnListXmlV2 As XDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml
+  id: GetArchiveFragmentListXml
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveFragmentListXml()
+  nameWithType: ConfigurationManager.GetArchiveFragmentListXml()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XDocument GetArchiveFragmentListXml()
+    return:
+      type: System.Xml.Linq.XDocument
+    content.vb: Public Shared Function GetArchiveFragmentListXml As XDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml(System.String,System.String)
+  id: GetArchiveColumnListXml(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveColumnListXml(String, String)
+  nameWithType: ConfigurationManager.GetArchiveColumnListXml(String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlNode GetArchiveColumnListXml(string providerName, string guiName)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    return:
+      type: System.Xml.XmlNode
+    content.vb: Public Shared Function GetArchiveColumnListXml(providerName As String, guiName As String) As XmlNode
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2(System.String,System.String)
+  id: GetArchiveColumnListXmlV2(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveColumnListXmlV2(String, String)
+  nameWithType: ConfigurationManager.GetArchiveColumnListXmlV2(String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XElement GetArchiveColumnListXmlV2(string providerName, string guiName)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Shared Function GetArchiveColumnListXmlV2(providerName As String, guiName As String) As XElement
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml(System.String)
+  id: GetArchiveFragmentListXml(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveFragmentListXml(String)
+  nameWithType: ConfigurationManager.GetArchiveFragmentListXml(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XElement GetArchiveFragmentListXml(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.Xml.Linq.XElement
+    content.vb: Public Shared Function GetArchiveFragmentListXml(id As String) As XElement
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml
+  id: GetFindStaticFieldsListXml
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetFindStaticFieldsListXml()
+  nameWithType: ConfigurationManager.GetFindStaticFieldsListXml()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetFindStaticFieldsListXml()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetFindStaticFieldsListXml As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml
+  id: GetFindCriteriaListXml
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetFindCriteriaListXml()
+  nameWithType: ConfigurationManager.GetFindCriteriaListXml()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlDocument GetFindCriteriaListXml()
+    return:
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Function GetFindCriteriaListXml As XmlDocument
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml(System.String,System.String)
+  id: GetFindCriteriaListXml(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetFindCriteriaListXml(String, String)
+  nameWithType: ConfigurationManager.GetFindCriteriaListXml(String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlNode GetFindCriteriaListXml(string providerName, string guiName)
+    parameters:
+    - id: providerName
+      type: System.String
+    - id: guiName
+      type: System.String
+    return:
+      type: System.Xml.XmlNode
+    content.vb: Public Shared Function GetFindCriteriaListXml(providerName As String, guiName As String) As XmlNode
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml(System.String)
+  id: GetFindStaticFieldsListXml(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetFindStaticFieldsListXml(String)
+  nameWithType: ConfigurationManager.GetFindStaticFieldsListXml(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static XmlNode GetFindStaticFieldsListXml(string providerName)
+    parameters:
+    - id: providerName
+      type: System.String
+    return:
+      type: System.Xml.XmlNode
+    content.vb: Public Shared Function GetFindStaticFieldsListXml(providerName As String) As XmlNode
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString(System.String)
+  id: GenerateStreamFromString(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GenerateStreamFromString(String)
+  nameWithType: ConfigurationManager.GenerateStreamFromString(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static Stream GenerateStreamFromString(string s)
+    parameters:
+    - id: s
+      type: System.String
+    return:
+      type: System.IO.Stream
+    content.vb: Public Shared Function GenerateStreamFromString(s As String) As Stream
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution(System.String)
+  id: ConstantSubstitution(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: ConstantSubstitution(String)
+  nameWithType: ConfigurationManager.ConstantSubstitution(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string ConstantSubstitution(string configXml)
+    parameters:
+    - id: configXml
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ConstantSubstitution(configXml As String) As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration(System.Xml.XmlDocument)
+  id: ValidateConfiguration(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: ValidateConfiguration(XmlDocument)
+  nameWithType: ConfigurationManager.ValidateConfiguration(XmlDocument)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ValidateConfiguration(XmlDocument config)
+    parameters:
+    - id: config
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Sub ValidateConfiguration(config As XmlDocument)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache(System.String)
+  id: FlushSessionCache(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: FlushSessionCache(String)
+  nameWithType: ConfigurationManager.FlushSessionCache(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void FlushSessionCache(string sessionCacheKey)
+    parameters:
+    - id: sessionCacheKey
+      type: System.String
+    content.vb: Public Shared Sub FlushSessionCache(sessionCacheKey As String)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.FlushCache
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.FlushCache
+  id: FlushCache
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: FlushCache()
+  nameWithType: ConfigurationManager.FlushCache()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.FlushCache()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void FlushCache()
+    content.vb: Public Shared Sub FlushCache
+  overload: SuperOffice.DCF.Web.ConfigurationManager.FlushCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache
+  id: ClearConfigurationCache
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: ClearConfigurationCache()
+  nameWithType: ConfigurationManager.ClearConfigurationCache()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void ClearConfigurationCache()
+    content.vb: Public Shared Sub ClearConfigurationCache
+  overload: SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey(System.String)
+  id: GetPageConfigSessionCacheKey(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: GetPageConfigSessionCacheKey(String)
+  nameWithType: ConfigurationManager.GetPageConfigSessionCacheKey(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string GetPageConfigSessionCacheKey(string pageName)
+    parameters:
+    - id: pageName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetPageConfigSessionCacheKey(pageName As String) As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache(System.String,System.String,System.String)
+  id: addToPageConfigurationCache(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: addToPageConfigurationCache(String, String, String)
+  nameWithType: ConfigurationManager.addToPageConfigurationCache(String, String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void addToPageConfigurationCache(string key, string pageName, string xml)
+    parameters:
+    - id: key
+      type: System.String
+    - id: pageName
+      type: System.String
+    - id: xml
+      type: System.String
+    content.vb: Public Shared Sub addToPageConfigurationCache(key As String, pageName As String, xml As String)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache(System.String,System.String)
+  id: getFromPageConfigurationCache(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: getFromPageConfigurationCache(String, String)
+  nameWithType: ConfigurationManager.getFromPageConfigurationCache(String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string getFromPageConfigurationCache(string key, string pageName)
+    parameters:
+    - id: key
+      type: System.String
+    - id: pageName
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function getFromPageConfigurationCache(key As String, pageName As String) As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache(System.String,System.String)
+  id: addToConfigurationCache(System.String,System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: addToConfigurationCache(String, String)
+  nameWithType: ConfigurationManager.addToConfigurationCache(String, String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static void addToConfigurationCache(string key, string xml)
+    parameters:
+    - id: key
+      type: System.String
+    - id: xml
+      type: System.String
+    content.vb: Public Shared Sub addToConfigurationCache(key As String, xml As String)
+  overload: SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache(System.String)
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache(System.String)
+  id: getFromConfigurationCache(System.String)
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: getFromConfigurationCache(String)
+  nameWithType: ConfigurationManager.getFromConfigurationCache(String)
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public static string getFromConfigurationCache(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function getFromConfigurationCache(key As String) As String
+  overload: SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.ConfigurationManager.#ctor
+  commentId: M:SuperOffice.DCF.Web.ConfigurationManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.ConfigurationManager
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationManager()
+  nameWithType: ConfigurationManager.ConfigurationManager()
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationManager()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public ConfigurationManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.ConfigurationManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration
+  isExternal: true
+  name: GetApplicationConfiguration
+  nameWithType: ConfigurationManager.GetApplicationConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetApplicationConfiguration
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition
+  isExternal: true
+  name: GetPageDefinition
+  nameWithType: ConfigurationManager.GetPageDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetPageDefinition
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ConfigurationManager.ApplicationSettings.PageDefinition
+  nameWithType: ConfigurationManager.ApplicationSettings.PageDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.PageDefinition
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition
+  isExternal: true
+  name: GetCurrentDefinition
+  nameWithType: ConfigurationManager.GetCurrentDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetCurrentDefinition
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ConfigurationManager.ApplicationSettings.CurrentDefinition
+  nameWithType: ConfigurationManager.ApplicationSettings.CurrentDefinition
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ApplicationSettings.CurrentDefinition
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping
+  isExternal: true
+  name: GetObjectMapping
+  nameWithType: ConfigurationManager.GetObjectMapping
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMapping
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration
+  isExternal: true
+  name: GetServerEventConfiguration
+  nameWithType: ConfigurationManager.GetServerEventConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetServerEventConfiguration
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  commentId: T:SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+  parent: SuperOffice.DCF.Web
+  isExternal: true
+  name: ConfigurationManager.ConfigurationObjectInfo
+  nameWithType: ConfigurationManager.ConfigurationObjectInfo
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames
+  isExternal: true
+  name: GetObjectMappingNames
+  nameWithType: ConfigurationManager.GetObjectMappingNames
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingNames
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos
+  isExternal: true
+  name: GetObjectMappingInfos
+  nameWithType: ConfigurationManager.GetObjectMappingInfos
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetObjectMappingInfos
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<ConfigurationManager.ConfigurationObjectInfo>
+  nameWithType: IEnumerable<ConfigurationManager.ConfigurationObjectInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo>
+  nameWithType.vb: IEnumerable(Of ConfigurationManager.ConfigurationObjectInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo)
+  name.vb: IEnumerable(Of ConfigurationManager.ConfigurationObjectInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+    name: ConfigurationManager.ConfigurationObjectInfo
+    nameWithType: ConfigurationManager.ConfigurationObjectInfo
+    fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+    name: ConfigurationManager.ConfigurationObjectInfo
+    nameWithType: ConfigurationManager.ConfigurationObjectInfo
+    fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationObjectInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid
+  isExternal: true
+  name: SetPageConfigurationInvalid
+  nameWithType: ConfigurationManager.SetPageConfigurationInvalid
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.SetPageConfigurationInvalid
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration
+  isExternal: true
+  name: GetPageConfiguration
+  nameWithType: ConfigurationManager.GetPageConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfiguration
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration
+  isExternal: true
+  name: GetRawPageConfiguration
+  nameWithType: ConfigurationManager.GetRawPageConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetRawPageConfiguration
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration
+  isExternal: true
+  name: GetMenuConfiguration
+  nameWithType: ConfigurationManager.GetMenuConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetMenuConfiguration
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration
+  isExternal: true
+  name: GetFilterConfiguration
+  nameWithType: ConfigurationManager.GetFilterConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFilterConfiguration
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml
+  isExternal: true
+  name: GetArchiveControlLinkInfoXml
+  nameWithType: ConfigurationManager.GetArchiveControlLinkInfoXml
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveControlLinkInfoXml
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml
+  isExternal: true
+  name: GetArchiveColumnListXml
+  nameWithType: ConfigurationManager.GetArchiveColumnListXml
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXml
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2
+  isExternal: true
+  name: GetArchiveColumnListXmlV2
+  nameWithType: ConfigurationManager.GetArchiveColumnListXmlV2
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveColumnListXmlV2
+- uid: System.Xml.Linq.XDocument
+  isExternal: true
+  name: XDocument
+  nameWithType: XDocument
+  fullName: System.Xml.Linq.XDocument
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml
+  isExternal: true
+  name: GetArchiveFragmentListXml
+  nameWithType: ConfigurationManager.GetArchiveFragmentListXml
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetArchiveFragmentListXml
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: System.Xml.Linq.XElement
+  isExternal: true
+  name: XElement
+  nameWithType: XElement
+  fullName: System.Xml.Linq.XElement
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml
+  isExternal: true
+  name: GetFindStaticFieldsListXml
+  nameWithType: ConfigurationManager.GetFindStaticFieldsListXml
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFindStaticFieldsListXml
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml
+  isExternal: true
+  name: GetFindCriteriaListXml
+  nameWithType: ConfigurationManager.GetFindCriteriaListXml
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetFindCriteriaListXml
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString
+  isExternal: true
+  name: GenerateStreamFromString
+  nameWithType: ConfigurationManager.GenerateStreamFromString
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GenerateStreamFromString
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution
+  isExternal: true
+  name: ConstantSubstitution
+  nameWithType: ConfigurationManager.ConstantSubstitution
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConstantSubstitution
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration
+  isExternal: true
+  name: ValidateConfiguration
+  nameWithType: ConfigurationManager.ValidateConfiguration
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ValidateConfiguration
+- uid: SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache
+  isExternal: true
+  name: FlushSessionCache
+  nameWithType: ConfigurationManager.FlushSessionCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.FlushSessionCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.FlushCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.FlushCache
+  isExternal: true
+  name: FlushCache
+  nameWithType: ConfigurationManager.FlushCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.FlushCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache
+  isExternal: true
+  name: ClearConfigurationCache
+  nameWithType: ConfigurationManager.ClearConfigurationCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ClearConfigurationCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey
+  isExternal: true
+  name: GetPageConfigSessionCacheKey
+  nameWithType: ConfigurationManager.GetPageConfigSessionCacheKey
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.GetPageConfigSessionCacheKey
+- uid: SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache
+  isExternal: true
+  name: addToPageConfigurationCache
+  nameWithType: ConfigurationManager.addToPageConfigurationCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.addToPageConfigurationCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache
+  isExternal: true
+  name: getFromPageConfigurationCache
+  nameWithType: ConfigurationManager.getFromPageConfigurationCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.getFromPageConfigurationCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache
+  isExternal: true
+  name: addToConfigurationCache
+  nameWithType: ConfigurationManager.addToConfigurationCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.addToConfigurationCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache
+  isExternal: true
+  name: getFromConfigurationCache
+  nameWithType: ConfigurationManager.getFromConfigurationCache
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.getFromConfigurationCache
+- uid: SuperOffice.DCF.Web.ConfigurationManager.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.ConfigurationManager.#ctor
+  isExternal: true
+  name: ConfigurationManager
+  nameWithType: ConfigurationManager.ConfigurationManager
+  fullName: SuperOffice.DCF.Web.ConfigurationManager.ConfigurationManager

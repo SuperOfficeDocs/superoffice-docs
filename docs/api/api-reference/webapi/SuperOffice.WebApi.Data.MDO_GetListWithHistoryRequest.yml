@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  commentId: T:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  id: MDO_GetListWithHistoryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.#ctor
+  - SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo
+  - SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList
+  - SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems
+  - SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name
+  - SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetListWithHistoryRequest
+  nameWithType: MDO_GetListWithHistoryRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class MDO_GetListWithHistoryRequest : Object'
+    content.vb: >-
+      Public Class MDO_GetListWithHistoryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: MDO_GetListWithHistoryRequest()
+  nameWithType: MDO_GetListWithHistoryRequest.MDO_GetListWithHistoryRequest()
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.MDO_GetListWithHistoryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public MDO_GetListWithHistoryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MDO_GetListWithHistoryRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList
+  id: ForceFlatList
+  parent: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: ForceFlatList
+  nameWithType: MDO_GetListWithHistoryRequest.ForceFlatList
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool ForceFlatList { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ForceFlatList As Boolean
+  overload: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo
+  id: AdditionalInfo
+  parent: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: AdditionalInfo
+  nameWithType: MDO_GetListWithHistoryRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string AdditionalInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property AdditionalInfo As String
+  overload: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems
+  id: HistoryItems
+  parent: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: HistoryItems
+  nameWithType: MDO_GetListWithHistoryRequest.HistoryItems
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] HistoryItems { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property HistoryItems As Integer()
+  overload: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory
+  commentId: P:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory
+  id: OnlyHistory
+  parent: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest
+  langs:
+  - csharp
+  - vb
+  name: OnlyHistory
+  nameWithType: MDO_GetListWithHistoryRequest.OnlyHistory
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool OnlyHistory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property OnlyHistory As Boolean
+  overload: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.#ctor
+  isExternal: true
+  name: MDO_GetListWithHistoryRequest
+  nameWithType: MDO_GetListWithHistoryRequest.MDO_GetListWithHistoryRequest
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.MDO_GetListWithHistoryRequest
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: MDO_GetListWithHistoryRequest.Name
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList
+  isExternal: true
+  name: ForceFlatList
+  nameWithType: MDO_GetListWithHistoryRequest.ForceFlatList
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.ForceFlatList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo
+  isExternal: true
+  name: AdditionalInfo
+  nameWithType: MDO_GetListWithHistoryRequest.AdditionalInfo
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.AdditionalInfo
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems
+  isExternal: true
+  name: HistoryItems
+  nameWithType: MDO_GetListWithHistoryRequest.HistoryItems
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.HistoryItems
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory*
+  commentId: Overload:SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory
+  isExternal: true
+  name: OnlyHistory
+  nameWithType: MDO_GetListWithHistoryRequest.OnlyHistory
+  fullName: SuperOffice.WebApi.Data.MDO_GetListWithHistoryRequest.OnlyHistory

@@ -1,0 +1,657 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.MailLookup
+  commentId: T:SuperOffice.CRM.Web.Util.MailLookup
+  id: MailLookup
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.MailLookup.#ctor(System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Web.Util.MailLookup.Address
+  - SuperOffice.CRM.Web.Util.MailLookup.Associate
+  - SuperOffice.CRM.Web.Util.MailLookup.Company
+  - SuperOffice.CRM.Web.Util.MailLookup.FoundMatch
+  - SuperOffice.CRM.Web.Util.MailLookup.Name
+  - SuperOffice.CRM.Web.Util.MailLookup.Person
+  - SuperOffice.CRM.Web.Util.MailLookup.RawAddress
+  langs:
+  - csharp
+  - vb
+  name: MailLookup
+  nameWithType: MailLookup
+  fullName: SuperOffice.CRM.Web.Util.MailLookup
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class MailLookup
+    content.vb: Public Class MailLookup
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.MailLookup.#ctor(System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Util.MailLookup.#ctor(System.String,System.Boolean,System.Boolean)
+  id: '#ctor(System.String,System.Boolean,System.Boolean)'
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: MailLookup(String, Boolean, Boolean)
+  nameWithType: MailLookup.MailLookup(String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.MailLookup(System.String, System.Boolean, System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public MailLookup(string address, bool lookupByEMailAddress, bool lookupByName)
+    parameters:
+    - id: address
+      type: System.String
+    - id: lookupByEMailAddress
+      type: System.Boolean
+    - id: lookupByName
+      type: System.Boolean
+    content.vb: Public Sub New(address As String, lookupByEMailAddress As Boolean, lookupByName As Boolean)
+  overload: SuperOffice.CRM.Web.Util.MailLookup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Util.MailLookup.FoundMatch
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.FoundMatch
+  id: FoundMatch
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: FoundMatch
+  nameWithType: MailLookup.FoundMatch
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.FoundMatch
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public bool FoundMatch { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FoundMatch As Boolean
+  overload: SuperOffice.CRM.Web.Util.MailLookup.FoundMatch*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Company
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.Company
+  id: Company
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: MailLookup.Company
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Company
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public int Company { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Company As Integer
+  overload: SuperOffice.CRM.Web.Util.MailLookup.Company*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Person
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.Person
+  id: Person
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: MailLookup.Person
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Person
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public int Person { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Person As Integer
+  overload: SuperOffice.CRM.Web.Util.MailLookup.Person*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Associate
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: MailLookup.Associate
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Associate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public int Associate { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Associate As Integer
+  overload: SuperOffice.CRM.Web.Util.MailLookup.Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.MailLookup.RawAddress
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.RawAddress
+  id: RawAddress
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: RawAddress
+  nameWithType: MailLookup.RawAddress
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.RawAddress
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string RawAddress { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property RawAddress As String
+  overload: SuperOffice.CRM.Web.Util.MailLookup.RawAddress*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Address
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.Address
+  id: Address
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: MailLookup.Address
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Address
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string Address { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Address As String
+  overload: SuperOffice.CRM.Web.Util.MailLookup.Address*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Name
+  commentId: P:SuperOffice.CRM.Web.Util.MailLookup.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.Util.MailLookup
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: MailLookup.Name
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Name
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Web.Util.MailLookup.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.MailLookup.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.#ctor
+  isExternal: true
+  name: MailLookup
+  nameWithType: MailLookup.MailLookup
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.MailLookup
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Util.MailLookup.FoundMatch*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.FoundMatch
+  isExternal: true
+  name: FoundMatch
+  nameWithType: MailLookup.FoundMatch
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.FoundMatch
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Company*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.Company
+  isExternal: true
+  name: Company
+  nameWithType: MailLookup.Company
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Company
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Person*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.Person
+  isExternal: true
+  name: Person
+  nameWithType: MailLookup.Person
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Person
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Associate*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: MailLookup.Associate
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Associate
+- uid: SuperOffice.CRM.Web.Util.MailLookup.RawAddress*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.RawAddress
+  isExternal: true
+  name: RawAddress
+  nameWithType: MailLookup.RawAddress
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.RawAddress
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Address*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.Address
+  isExternal: true
+  name: Address
+  nameWithType: MailLookup.Address
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Address
+- uid: SuperOffice.CRM.Web.Util.MailLookup.Name*
+  commentId: Overload:SuperOffice.CRM.Web.Util.MailLookup.Name
+  isExternal: true
+  name: Name
+  nameWithType: MailLookup.Name
+  fullName: SuperOffice.CRM.Web.Util.MailLookup.Name

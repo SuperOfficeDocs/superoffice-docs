@@ -1,0 +1,1215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.FunctionRight
+  commentId: T:SuperOffice.CRM.Security.FunctionRight
+  id: FunctionRight
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.FunctionRight.#ctor
+  - SuperOffice.CRM.Security.FunctionRight.#ctor(System.Int32)
+  - SuperOffice.CRM.Security.FunctionRight.#ctor(System.String)
+  - SuperOffice.CRM.Security.FunctionRight._active
+  - SuperOffice.CRM.Security.FunctionRight._description
+  - SuperOffice.CRM.Security.FunctionRight._key
+  - SuperOffice.CRM.Security.FunctionRight._name
+  - SuperOffice.CRM.Security.FunctionRight.Description
+  - SuperOffice.CRM.Security.FunctionRight.HasAll
+  - SuperOffice.CRM.Security.FunctionRight.HasNone
+  - SuperOffice.CRM.Security.FunctionRight.IgnoreReason
+  - SuperOffice.CRM.Security.FunctionRight.IsActive
+  - SuperOffice.CRM.Security.FunctionRight.Name
+  langs:
+  - csharp
+  - vb
+  name: FunctionRight
+  nameWithType: FunctionRight
+  fullName: SuperOffice.CRM.Security.FunctionRight
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nRepresents a Function Right together with an description of the function.\nFunction rights typically represent abilities like &quot;can admin users&quot; or &quot;can create private appointments&quot;.\n"
+  remarks: "\nFunction rights have a descriptive name, a description, and a key. \nFor example: key = &quot;admin-all&quot;, name=&quot;General Administrator&quot;, description=&quot;Has access to all maintenance functions.&quot;\n<p></p>\nUsually obtained from the SuperOffice.CRM.Security.RightsFactory rather than created directly by the client.\n"
+  syntax:
+    content: 'public class FunctionRight : ItemRight'
+    content.vb: >-
+      Public Class FunctionRight
+          Inherits ItemRight
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Security.GenericRight
+  - SuperOffice.CRM.Security.ItemRight
+  inheritedMembers:
+  - SuperOffice.CRM.Security.GenericRight._reason
+  - SuperOffice.CRM.Security.GenericRight.Reason
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Security.FunctionRight.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.FunctionRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FunctionRight)
+  - SuperOffice.CRM.Security.FunctionRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.FunctionRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Security.FunctionRight._active
+  commentId: F:SuperOffice.CRM.Security.FunctionRight._active
+  id: _active
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: _active
+  nameWithType: FunctionRight._active
+  fullName: SuperOffice.CRM.Security.FunctionRight._active
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected bool _active
+    return:
+      type: System.Boolean
+    content.vb: Protected _active As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.FunctionRight._key
+  commentId: F:SuperOffice.CRM.Security.FunctionRight._key
+  id: _key
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: _key
+  nameWithType: FunctionRight._key
+  fullName: SuperOffice.CRM.Security.FunctionRight._key
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected string _key
+    return:
+      type: System.String
+    content.vb: Protected _key As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.FunctionRight._name
+  commentId: F:SuperOffice.CRM.Security.FunctionRight._name
+  id: _name
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: _name
+  nameWithType: FunctionRight._name
+  fullName: SuperOffice.CRM.Security.FunctionRight._name
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected string _name
+    return:
+      type: System.String
+    content.vb: Protected _name As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.FunctionRight._description
+  commentId: F:SuperOffice.CRM.Security.FunctionRight._description
+  id: _description
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: _description
+  nameWithType: FunctionRight._description
+  fullName: SuperOffice.CRM.Security.FunctionRight._description
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected string _description
+    return:
+      type: System.String
+    content.vb: Protected _description As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Security.FunctionRight.#ctor
+  commentId: M:SuperOffice.CRM.Security.FunctionRight.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: FunctionRight()
+  nameWithType: FunctionRight.FunctionRight()
+  fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a blank function-right with no permissions.\n"
+  syntax:
+    content: public FunctionRight()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Security.FunctionRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRight.#ctor(System.Int32)
+  commentId: M:SuperOffice.CRM.Security.FunctionRight.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: FunctionRight(Int32)
+  nameWithType: FunctionRight.FunctionRight(Int32)
+  fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight(System.Int32)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a field right with the given id.\n"
+  syntax:
+    content: public FunctionRight(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Primary key id of the function right
+    content.vb: Public Sub New(id As Integer)
+  overload: SuperOffice.CRM.Security.FunctionRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRight.#ctor(System.String)
+  commentId: M:SuperOffice.CRM.Security.FunctionRight.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: FunctionRight(String)
+  nameWithType: FunctionRight.FunctionRight(String)
+  fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCreate a Function right with the given key name. The description + \n"
+  syntax:
+    content: public FunctionRight(string keyName)
+    parameters:
+    - id: keyName
+      type: System.String
+    content.vb: Public Sub New(keyName As String)
+  overload: SuperOffice.CRM.Security.FunctionRight.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Security.FunctionRight.HasAll
+  commentId: P:SuperOffice.CRM.Security.FunctionRight.HasAll
+  id: HasAll
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: HasAll
+  nameWithType: FunctionRight.HasAll
+  fullName: SuperOffice.CRM.Security.FunctionRight.HasAll
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when the right is granted to user.\nEquivalent to the <xref href=\"SuperOffice.CRM.Security.FunctionRight.IsActive\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  syntax:
+    content: public override bool HasAll { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasAll As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.HasAll
+  overload: SuperOffice.CRM.Security.FunctionRight.HasAll*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FunctionRight.IgnoreReason
+  commentId: P:SuperOffice.CRM.Security.FunctionRight.IgnoreReason
+  id: IgnoreReason
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: IgnoreReason
+  nameWithType: FunctionRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.FunctionRight.IgnoreReason
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected override bool IgnoreReason { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides ReadOnly Property IgnoreReason As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  overload: SuperOffice.CRM.Security.FunctionRight.IgnoreReason*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FunctionRight.HasNone
+  commentId: P:SuperOffice.CRM.Security.FunctionRight.HasNone
+  id: HasNone
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: HasNone
+  nameWithType: FunctionRight.HasNone
+  fullName: SuperOffice.CRM.Security.FunctionRight.HasNone
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when the right is not granted to the user. Inverse of <xref href=\"SuperOffice.CRM.Security.FunctionRight.HasAll\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  syntax:
+    content: public override bool HasNone { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasNone As Boolean
+  overridden: SuperOffice.CRM.Security.GenericRight.HasNone
+  overload: SuperOffice.CRM.Security.FunctionRight.HasNone*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FunctionRight.IsActive
+  commentId: P:SuperOffice.CRM.Security.FunctionRight.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: FunctionRight.IsActive
+  fullName: SuperOffice.CRM.Security.FunctionRight.IsActive
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nReturns true when the right has been granted to the user. \nEquivalent to the <xref href=\"SuperOffice.CRM.Security.FunctionRight.HasAll\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  syntax:
+    content: public override bool IsActive { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property IsActive As Boolean
+  overridden: SuperOffice.CRM.Security.ItemRight.IsActive
+  overload: SuperOffice.CRM.Security.FunctionRight.IsActive*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FunctionRight.Name
+  commentId: P:SuperOffice.CRM.Security.FunctionRight.Name
+  id: Name
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FunctionRight.Name
+  fullName: SuperOffice.CRM.Security.FunctionRight.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe human-readable name of the function right.\nFor example: &quot;General Administrator&quot;, &quot;Allow Mail Merge&quot;\n"
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Security.FunctionRight.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Security.FunctionRight.Description
+  commentId: P:SuperOffice.CRM.Security.FunctionRight.Description
+  id: Description
+  parent: SuperOffice.CRM.Security.FunctionRight
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: FunctionRight.Description
+  fullName: SuperOffice.CRM.Security.FunctionRight.Description
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe human-readable description of the function right.\nFor example: &quot;Able to maintain users&quot;, &quot;Allowed to create private appointments&quot;\n"
+  syntax:
+    content: public string Description { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Description As String
+  overload: SuperOffice.CRM.Security.FunctionRight.Description*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.GenericRight
+  commentId: T:SuperOffice.CRM.Security.GenericRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: GenericRight
+  nameWithType: GenericRight
+  fullName: SuperOffice.CRM.Security.GenericRight
+- uid: SuperOffice.CRM.Security.ItemRight
+  commentId: T:SuperOffice.CRM.Security.ItemRight
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: ItemRight
+  nameWithType: ItemRight
+  fullName: SuperOffice.CRM.Security.ItemRight
+- uid: SuperOffice.CRM.Security.GenericRight._reason
+  commentId: F:SuperOffice.CRM.Security.GenericRight._reason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: _reason
+  nameWithType: GenericRight._reason
+  fullName: SuperOffice.CRM.Security.GenericRight._reason
+- uid: SuperOffice.CRM.Security.GenericRight.Reason
+  commentId: P:SuperOffice.CRM.Security.GenericRight.Reason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: Reason
+  nameWithType: GenericRight.Reason
+  fullName: SuperOffice.CRM.Security.GenericRight.Reason
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRight.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<FunctionRight, To>()
+  nameWithType: EnumUtil.MapEnums<FunctionRight, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FunctionRight, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of FunctionRight, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FunctionRight, To)()
+  name.vb: MapEnums(Of FunctionRight, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<FunctionRight, To>
+    nameWithType: EnumUtil.MapEnums<FunctionRight, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.FunctionRight, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of FunctionRight, To)
+    nameWithType: EnumUtil.MapEnums(Of FunctionRight, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.FunctionRight, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRight.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.FunctionRight)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<FunctionRight>(FunctionRight)
+  nameWithType: ObjectExtensions.AssignByReflection<FunctionRight>(FunctionRight)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.FunctionRight>(SuperOffice.CRM.Security.FunctionRight)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of FunctionRight)(FunctionRight)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.FunctionRight)(SuperOffice.CRM.Security.FunctionRight)
+  name.vb: AssignByReflection(Of FunctionRight)(FunctionRight)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<FunctionRight>
+    nameWithType: ObjectExtensions.AssignByReflection<FunctionRight>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.FunctionRight>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.FunctionRight
+    name: FunctionRight
+    nameWithType: FunctionRight
+    fullName: SuperOffice.CRM.Security.FunctionRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of FunctionRight)
+    nameWithType: ObjectExtensions.AssignByReflection(Of FunctionRight)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.FunctionRight)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.FunctionRight
+    name: FunctionRight
+    nameWithType: FunctionRight
+    fullName: SuperOffice.CRM.Security.FunctionRight
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRight.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<FunctionRight>()
+  nameWithType: ObjectExtensions.GraphCopy<FunctionRight>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.FunctionRight>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of FunctionRight)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.FunctionRight)()
+  name.vb: GraphCopy(Of FunctionRight)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<FunctionRight>
+    nameWithType: ObjectExtensions.GraphCopy<FunctionRight>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.FunctionRight>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of FunctionRight)
+    nameWithType: ObjectExtensions.GraphCopy(Of FunctionRight)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.FunctionRight)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.FunctionRight.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<FunctionRight, To>()
+  nameWithType: Converters.MapEnums<FunctionRight, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FunctionRight, To>()
+  nameWithType.vb: Converters.MapEnums(Of FunctionRight, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FunctionRight, To)()
+  name.vb: MapEnums(Of FunctionRight, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<FunctionRight, To>
+    nameWithType: Converters.MapEnums<FunctionRight, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.FunctionRight, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of FunctionRight, To)
+    nameWithType: Converters.MapEnums(Of FunctionRight, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.FunctionRight, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Security.FunctionRight.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.#ctor
+  isExternal: true
+  name: FunctionRight
+  nameWithType: FunctionRight.FunctionRight
+  fullName: SuperOffice.CRM.Security.FunctionRight.FunctionRight
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Security.GenericRight.HasAll
+  commentId: P:SuperOffice.CRM.Security.GenericRight.HasAll
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: HasAll
+  nameWithType: GenericRight.HasAll
+  fullName: SuperOffice.CRM.Security.GenericRight.HasAll
+- uid: SuperOffice.CRM.Security.FunctionRight.HasAll*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.HasAll
+  isExternal: true
+  name: HasAll
+  nameWithType: FunctionRight.HasAll
+  fullName: SuperOffice.CRM.Security.FunctionRight.HasAll
+- uid: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  commentId: P:SuperOffice.CRM.Security.GenericRight.IgnoreReason
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: IgnoreReason
+  nameWithType: GenericRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.GenericRight.IgnoreReason
+- uid: SuperOffice.CRM.Security.FunctionRight.IgnoreReason*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.IgnoreReason
+  isExternal: true
+  name: IgnoreReason
+  nameWithType: FunctionRight.IgnoreReason
+  fullName: SuperOffice.CRM.Security.FunctionRight.IgnoreReason
+- uid: SuperOffice.CRM.Security.GenericRight.HasNone
+  commentId: P:SuperOffice.CRM.Security.GenericRight.HasNone
+  parent: SuperOffice.CRM.Security.GenericRight
+  isExternal: true
+  name: HasNone
+  nameWithType: GenericRight.HasNone
+  fullName: SuperOffice.CRM.Security.GenericRight.HasNone
+- uid: SuperOffice.CRM.Security.FunctionRight.HasNone*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.HasNone
+  isExternal: true
+  name: HasNone
+  nameWithType: FunctionRight.HasNone
+  fullName: SuperOffice.CRM.Security.FunctionRight.HasNone
+- uid: SuperOffice.CRM.Security.ItemRight.IsActive
+  commentId: P:SuperOffice.CRM.Security.ItemRight.IsActive
+  parent: SuperOffice.CRM.Security.ItemRight
+  isExternal: true
+  name: IsActive
+  nameWithType: ItemRight.IsActive
+  fullName: SuperOffice.CRM.Security.ItemRight.IsActive
+- uid: SuperOffice.CRM.Security.FunctionRight.IsActive*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: FunctionRight.IsActive
+  fullName: SuperOffice.CRM.Security.FunctionRight.IsActive
+- uid: SuperOffice.CRM.Security.FunctionRight.Name*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.Name
+  isExternal: true
+  name: Name
+  nameWithType: FunctionRight.Name
+  fullName: SuperOffice.CRM.Security.FunctionRight.Name
+- uid: SuperOffice.CRM.Security.FunctionRight.Description*
+  commentId: Overload:SuperOffice.CRM.Security.FunctionRight.Description
+  isExternal: true
+  name: Description
+  nameWithType: FunctionRight.Description
+  fullName: SuperOffice.CRM.Security.FunctionRight.Description

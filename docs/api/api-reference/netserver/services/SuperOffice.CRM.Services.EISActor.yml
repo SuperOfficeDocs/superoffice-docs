@@ -1,0 +1,437 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EISActor
+  commentId: T:SuperOffice.CRM.Services.EISActor
+  id: EISActor
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EISActor.#ctor
+  - SuperOffice.CRM.Services.EISActor.CrmActorType
+  - SuperOffice.CRM.Services.EISActor.CrmRecordId
+  - SuperOffice.CRM.Services.EISActor.ErpActorType
+  - SuperOffice.CRM.Services.EISActor.ErpConnectionId
+  - SuperOffice.CRM.Services.EISActor.ErpKey
+  - SuperOffice.CRM.Services.EISActor.FieldValues
+  - SuperOffice.CRM.Services.EISActor.ToString
+  - SuperOffice.CRM.Services.EISActor.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: EISActor
+  nameWithType: EISActor
+  fullName: SuperOffice.CRM.Services.EISActor
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for EISActor.\nServices for the EISActor Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EISActor : Carrier'
+    content.vb: >-
+      Public Class EISActor
+          Inherits Carrier
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EISActor.#ctor
+  commentId: M:SuperOffice.CRM.Services.EISActor.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: EISActor()
+  nameWithType: EISActor.EISActor()
+  fullName: SuperOffice.CRM.Services.EISActor.EISActor()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EISActor()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EISActor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.ToString
+  commentId: M:SuperOffice.CRM.Services.EISActor.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EISActor.ToString()
+  fullName: SuperOffice.CRM.Services.EISActor.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EISActor.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EISActor.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EISActor.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EISActor.ToString(String)
+  fullName: SuperOffice.CRM.Services.EISActor.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EISActor.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.ErpConnectionId
+  commentId: P:SuperOffice.CRM.Services.EISActor.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: EISActor.ErpConnectionId
+  fullName: SuperOffice.CRM.Services.EISActor.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Erp connection id\n"
+  syntax:
+    content: public int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErpConnectionId As Integer
+  overload: SuperOffice.CRM.Services.EISActor.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.CrmRecordId
+  commentId: P:SuperOffice.CRM.Services.EISActor.CrmRecordId
+  id: CrmRecordId
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: CrmRecordId
+  nameWithType: EISActor.CrmRecordId
+  fullName: SuperOffice.CRM.Services.EISActor.CrmRecordId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key of the Crm entity\n"
+  syntax:
+    content: public int CrmRecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CrmRecordId As Integer
+  overload: SuperOffice.CRM.Services.EISActor.CrmRecordId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.CrmActorType
+  commentId: P:SuperOffice.CRM.Services.EISActor.CrmActorType
+  id: CrmActorType
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: CrmActorType
+  nameWithType: EISActor.CrmActorType
+  fullName: SuperOffice.CRM.Services.EISActor.CrmActorType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Crm Actor type\n"
+  syntax:
+    content: public CrmActorType CrmActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.CrmActorType
+    content.vb: Public Property CrmActorType As CrmActorType
+  overload: SuperOffice.CRM.Services.EISActor.CrmActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.ErpKey
+  commentId: P:SuperOffice.CRM.Services.EISActor.ErpKey
+  id: ErpKey
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: ErpKey
+  nameWithType: EISActor.ErpKey
+  fullName: SuperOffice.CRM.Services.EISActor.ErpKey
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key of the Erp Actor\n"
+  syntax:
+    content: public string ErpKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErpKey As String
+  overload: SuperOffice.CRM.Services.EISActor.ErpKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.ErpActorType
+  commentId: P:SuperOffice.CRM.Services.EISActor.ErpActorType
+  id: ErpActorType
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: ErpActorType
+  nameWithType: EISActor.ErpActorType
+  fullName: SuperOffice.CRM.Services.EISActor.ErpActorType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Erp Actor type\n"
+  syntax:
+    content: public ErpActorType ErpActorType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ErpActorType
+    content.vb: Public Property ErpActorType As ErpActorType
+  overload: SuperOffice.CRM.Services.EISActor.ErpActorType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EISActor.FieldValues
+  commentId: P:SuperOffice.CRM.Services.EISActor.FieldValues
+  id: FieldValues
+  parent: SuperOffice.CRM.Services.EISActor
+  langs:
+  - csharp
+  - vb
+  name: FieldValues
+  nameWithType: EISActor.FieldValues
+  fullName: SuperOffice.CRM.Services.EISActor.FieldValues
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nField values used when connecting Crm and Erp actors\n"
+  syntax:
+    content: public EisFieldValue[] FieldValues { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.EisFieldValue[]
+    content.vb: Public Property FieldValues As EisFieldValue()
+  overload: SuperOffice.CRM.Services.EISActor.FieldValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EISActor.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.#ctor
+  isExternal: true
+  name: EISActor
+  nameWithType: EISActor.EISActor
+  fullName: SuperOffice.CRM.Services.EISActor.EISActor
+- uid: SuperOffice.CRM.Services.EISActor.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EISActor.ToString
+  fullName: SuperOffice.CRM.Services.EISActor.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EISActor.ErpConnectionId*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: EISActor.ErpConnectionId
+  fullName: SuperOffice.CRM.Services.EISActor.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.EISActor.CrmRecordId*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.CrmRecordId
+  isExternal: true
+  name: CrmRecordId
+  nameWithType: EISActor.CrmRecordId
+  fullName: SuperOffice.CRM.Services.EISActor.CrmRecordId
+- uid: SuperOffice.CRM.Services.EISActor.CrmActorType*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: EISActor.CrmActorType
+  fullName: SuperOffice.CRM.Services.EISActor.CrmActorType
+- uid: SuperOffice.Data.CrmActorType
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.Data.CrmActorType
+- uid: SuperOffice.CRM.Services.EISActor.ErpKey*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.ErpKey
+  isExternal: true
+  name: ErpKey
+  nameWithType: EISActor.ErpKey
+  fullName: SuperOffice.CRM.Services.EISActor.ErpKey
+- uid: SuperOffice.CRM.Services.EISActor.ErpActorType*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: EISActor.ErpActorType
+  fullName: SuperOffice.CRM.Services.EISActor.ErpActorType
+- uid: SuperOffice.Data.ErpActorType
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.Data.ErpActorType
+- uid: SuperOffice.CRM.Services.EISActor.FieldValues*
+  commentId: Overload:SuperOffice.CRM.Services.EISActor.FieldValues
+  isExternal: true
+  name: FieldValues
+  nameWithType: EISActor.FieldValues
+  fullName: SuperOffice.CRM.Services.EISActor.FieldValues
+- uid: SuperOffice.CRM.Services.EisFieldValue[]
+  isExternal: true
+  name: EisFieldValue[]
+  nameWithType: EisFieldValue[]
+  fullName: SuperOffice.CRM.Services.EisFieldValue[]
+  nameWithType.vb: EisFieldValue()
+  fullName.vb: SuperOffice.CRM.Services.EisFieldValue()
+  name.vb: EisFieldValue()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.EisFieldValue
+    name: EisFieldValue
+    nameWithType: EisFieldValue
+    fullName: SuperOffice.CRM.Services.EisFieldValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.EisFieldValue
+    name: EisFieldValue
+    nameWithType: EisFieldValue
+    fullName: SuperOffice.CRM.Services.EisFieldValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  id: ILinksContainerEntityCarrier
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  langs:
+  - csharp
+  - vb
+  name: ILinksContainerEntityCarrier
+  nameWithType: ILinksContainerEntityCarrier
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public interface ILinksContainerEntityCarrier
+    content.vb: Public Interface ILinksContainerEntityCarrier
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  commentId: P:SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  id: Links
+  parent: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  langs:
+  - csharp
+  - vb
+  name: Links
+  nameWithType: ILinksContainerEntityCarrier.Links
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nList of all elements linked to the activity.\n"
+  syntax:
+    content: Link[] Links { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Link[]
+    content.vb: Property Links As Link()
+  overload: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links*
+  commentId: Overload:SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  isExternal: true
+  name: Links
+  nameWithType: ILinksContainerEntityCarrier.Links
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+- uid: SuperOffice.CRM.Services.Link[]
+  isExternal: true
+  name: Link[]
+  nameWithType: Link[]
+  fullName: SuperOffice.CRM.Services.Link[]
+  nameWithType.vb: Link()
+  fullName.vb: SuperOffice.CRM.Services.Link()
+  name.vb: Link()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Link
+    name: Link
+    nameWithType: Link
+    fullName: SuperOffice.CRM.Services.Link
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Link
+    name: Link
+    nameWithType: Link
+    fullName: SuperOffice.CRM.Services.Link
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier
+  commentId: T:SuperOffice.Security.ISoSecurityTokenSupplier
+  id: ISoSecurityTokenSupplier
+  parent: SuperOffice.Security
+  children:
+  - SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  langs:
+  - csharp
+  - vb
+  name: ISoSecurityTokenSupplier
+  nameWithType: ISoSecurityTokenSupplier
+  fullName: SuperOffice.Security.ISoSecurityTokenSupplier
+  type: Interface
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security
+  summary: "\nInterface for plugin grabbing Security Tokens\n"
+  syntax:
+    content: 'public interface ISoSecurityTokenSupplier : IPlugin'
+    content.vb: >-
+      Public Interface ISoSecurityTokenSupplier
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Security.ISoSecurityTokenSupplier.EnumUtil.MapEnums``2
+  - SuperOffice.Security.ISoSecurityTokenSupplier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  commentId: M:SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  id: AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  parent: SuperOffice.Security.ISoSecurityTokenSupplier
+  langs:
+  - csharp
+  - vb
+  name: AppendSecurityToken(IList<SecurityToken>)
+  nameWithType: ISoSecurityTokenSupplier.AppendSecurityToken(IList<SecurityToken>)
+  fullName: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.Security
+  summary: "\nAppend grabbed Security Tokens to the list of Security Tokens\n"
+  syntax:
+    content: void AppendSecurityToken(IList<SecurityToken> tokens)
+    parameters:
+    - id: tokens
+      type: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+      description: List of Security Tokens
+    content.vb: Sub AppendSecurityToken(tokens As IList(Of SecurityToken))
+  overload: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken*
+  nameWithType.vb: ISoSecurityTokenSupplier.AppendSecurityToken(IList(Of SecurityToken))
+  fullName.vb: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken))
+  name.vb: AppendSecurityToken(IList(Of SecurityToken))
+references:
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoSecurityTokenSupplier, To>()
+  nameWithType: EnumUtil.MapEnums<ISoSecurityTokenSupplier, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.ISoSecurityTokenSupplier, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoSecurityTokenSupplier, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.ISoSecurityTokenSupplier, To)()
+  name.vb: MapEnums(Of ISoSecurityTokenSupplier, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoSecurityTokenSupplier, To>
+    nameWithType: EnumUtil.MapEnums<ISoSecurityTokenSupplier, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.ISoSecurityTokenSupplier, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoSecurityTokenSupplier, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoSecurityTokenSupplier, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.ISoSecurityTokenSupplier, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoSecurityTokenSupplier, To>()
+  nameWithType: Converters.MapEnums<ISoSecurityTokenSupplier, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.ISoSecurityTokenSupplier, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoSecurityTokenSupplier, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.ISoSecurityTokenSupplier, To)()
+  name.vb: MapEnums(Of ISoSecurityTokenSupplier, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoSecurityTokenSupplier, To>
+    nameWithType: Converters.MapEnums<ISoSecurityTokenSupplier, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.ISoSecurityTokenSupplier, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoSecurityTokenSupplier, To)
+    nameWithType: Converters.MapEnums(Of ISoSecurityTokenSupplier, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.ISoSecurityTokenSupplier, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken*
+  commentId: Overload:SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken
+  isExternal: true
+  name: AppendSecurityToken
+  nameWithType: ISoSecurityTokenSupplier.AppendSecurityToken
+  fullName: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken
+- uid: System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  commentId: T:System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<SecurityToken>
+  nameWithType: IList<SecurityToken>
+  fullName: System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>
+  nameWithType.vb: IList(Of SecurityToken)
+  fullName.vb: System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken)
+  name.vb: IList(Of SecurityToken)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

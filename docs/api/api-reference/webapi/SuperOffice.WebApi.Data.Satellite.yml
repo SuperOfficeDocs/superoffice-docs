@@ -1,0 +1,502 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Satellite
+  commentId: T:SuperOffice.WebApi.Data.Satellite
+  id: Satellite
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Satellite.#ctor
+  - SuperOffice.WebApi.Data.Satellite.Area
+  - SuperOffice.WebApi.Data.Satellite.Contact
+  - SuperOffice.WebApi.Data.Satellite.Created
+  - SuperOffice.WebApi.Data.Satellite.CreatedBy
+  - SuperOffice.WebApi.Data.Satellite.LicenseOwners
+  - SuperOffice.WebApi.Data.Satellite.SatelliteId
+  - SuperOffice.WebApi.Data.Satellite.Updated
+  - SuperOffice.WebApi.Data.Satellite.UpdatedBy
+  langs:
+  - csharp
+  - vb
+  name: Satellite
+  nameWithType: Satellite
+  fullName: SuperOffice.WebApi.Data.Satellite
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Satellite.\n\n"
+  example:
+  - "\nGet Satellite 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ReplicationAgent(configuration);\nvar satellite = agent.GetSatellite( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Satellite : Carrier'
+    content.vb: >-
+      Public Class Satellite
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ReplicationAgent
+    commentId: T:SuperOffice.WebApi.Agents.ReplicationAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Satellite.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Satellite.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Satellite()
+  nameWithType: Satellite.Satellite()
+  fullName: SuperOffice.WebApi.Data.Satellite.Satellite()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Satellite()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Satellite.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Satellite.SatelliteId
+  commentId: P:SuperOffice.WebApi.Data.Satellite.SatelliteId
+  id: SatelliteId
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: SatelliteId
+  nameWithType: Satellite.SatelliteId
+  fullName: SuperOffice.WebApi.Data.Satellite.SatelliteId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int SatelliteId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SatelliteId As Integer
+  overload: SuperOffice.WebApi.Data.Satellite.SatelliteId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.Created
+  commentId: P:SuperOffice.WebApi.Data.Satellite.Created
+  id: Created
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Created
+  nameWithType: Satellite.Created
+  fullName: SuperOffice.WebApi.Data.Satellite.Created
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRegistered when\n"
+  syntax:
+    content: public virtual DateTime Created { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Created As DateTime
+  overload: SuperOffice.WebApi.Data.Satellite.Created*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.CreatedBy
+  commentId: P:SuperOffice.WebApi.Data.Satellite.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: Satellite.CreatedBy
+  fullName: SuperOffice.WebApi.Data.Satellite.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.WebApi.Data.Satellite.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.Updated
+  commentId: P:SuperOffice.WebApi.Data.Satellite.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: Satellite.Updated
+  fullName: SuperOffice.WebApi.Data.Satellite.Updated
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast updated when\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As DateTime
+  overload: SuperOffice.WebApi.Data.Satellite.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.UpdatedBy
+  commentId: P:SuperOffice.WebApi.Data.Satellite.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: Satellite.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.Satellite.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.WebApi.Data.Satellite.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.Contact
+  commentId: P:SuperOffice.WebApi.Data.Satellite.Contact
+  id: Contact
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: Satellite.Contact
+  fullName: SuperOffice.WebApi.Data.Satellite.Contact
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.WebApi.Data.Satellite.Contact*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.Area
+  commentId: P:SuperOffice.WebApi.Data.Satellite.Area
+  id: Area
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: Area
+  nameWithType: Satellite.Area
+  fullName: SuperOffice.WebApi.Data.Satellite.Area
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual Area Area { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Area
+    content.vb: Public Overridable Property Area As Area
+  overload: SuperOffice.WebApi.Data.Satellite.Area*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Satellite.LicenseOwners
+  commentId: P:SuperOffice.WebApi.Data.Satellite.LicenseOwners
+  id: LicenseOwners
+  parent: SuperOffice.WebApi.Data.Satellite
+  langs:
+  - csharp
+  - vb
+  name: LicenseOwners
+  nameWithType: Satellite.LicenseOwners
+  fullName: SuperOffice.WebApi.Data.Satellite.LicenseOwners
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe restricted and unrestricted module licenses grouped by license owner. These module licenses are either assigned or unassigned to this user\n"
+  syntax:
+    content: public virtual LicenseOwner[] LicenseOwners { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LicenseOwner[]
+    content.vb: Public Overridable Property LicenseOwners As LicenseOwner()
+  overload: SuperOffice.WebApi.Data.Satellite.LicenseOwners*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ReplicationAgent
+  commentId: T:SuperOffice.WebApi.Agents.ReplicationAgent
+  isExternal: true
+  name: ReplicationAgent
+  nameWithType: ReplicationAgent
+  fullName: SuperOffice.WebApi.Agents.ReplicationAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Satellite.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.#ctor
+  isExternal: true
+  name: Satellite
+  nameWithType: Satellite.Satellite
+  fullName: SuperOffice.WebApi.Data.Satellite.Satellite
+- uid: SuperOffice.WebApi.Data.Satellite.SatelliteId*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.SatelliteId
+  isExternal: true
+  name: SatelliteId
+  nameWithType: Satellite.SatelliteId
+  fullName: SuperOffice.WebApi.Data.Satellite.SatelliteId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Satellite.Created*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.Created
+  isExternal: true
+  name: Created
+  nameWithType: Satellite.Created
+  fullName: SuperOffice.WebApi.Data.Satellite.Created
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Satellite.CreatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: Satellite.CreatedBy
+  fullName: SuperOffice.WebApi.Data.Satellite.CreatedBy
+- uid: SuperOffice.WebApi.Data.Associate
+  commentId: T:SuperOffice.WebApi.Data.Associate
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.WebApi.Data.Associate
+- uid: SuperOffice.WebApi.Data.Satellite.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: Satellite.Updated
+  fullName: SuperOffice.WebApi.Data.Satellite.Updated
+- uid: SuperOffice.WebApi.Data.Satellite.UpdatedBy*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: Satellite.UpdatedBy
+  fullName: SuperOffice.WebApi.Data.Satellite.UpdatedBy
+- uid: SuperOffice.WebApi.Data.Satellite.Contact*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: Satellite.Contact
+  fullName: SuperOffice.WebApi.Data.Satellite.Contact
+- uid: SuperOffice.WebApi.Data.Contact
+  commentId: T:SuperOffice.WebApi.Data.Contact
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.WebApi.Data.Contact
+- uid: SuperOffice.WebApi.Data.Satellite.Area*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.Area
+  isExternal: true
+  name: Area
+  nameWithType: Satellite.Area
+  fullName: SuperOffice.WebApi.Data.Satellite.Area
+- uid: SuperOffice.WebApi.Data.Area
+  commentId: T:SuperOffice.WebApi.Data.Area
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Area
+  nameWithType: Area
+  fullName: SuperOffice.WebApi.Data.Area
+- uid: SuperOffice.WebApi.Data.Satellite.LicenseOwners*
+  commentId: Overload:SuperOffice.WebApi.Data.Satellite.LicenseOwners
+  isExternal: true
+  name: LicenseOwners
+  nameWithType: Satellite.LicenseOwners
+  fullName: SuperOffice.WebApi.Data.Satellite.LicenseOwners
+- uid: SuperOffice.WebApi.Data.LicenseOwner[]
+  isExternal: true
+  name: LicenseOwner[]
+  nameWithType: LicenseOwner[]
+  fullName: SuperOffice.WebApi.Data.LicenseOwner[]
+  nameWithType.vb: LicenseOwner()
+  fullName.vb: SuperOffice.WebApi.Data.LicenseOwner()
+  name.vb: LicenseOwner()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.LicenseOwner
+    name: LicenseOwner
+    nameWithType: LicenseOwner
+    fullName: SuperOffice.WebApi.Data.LicenseOwner
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

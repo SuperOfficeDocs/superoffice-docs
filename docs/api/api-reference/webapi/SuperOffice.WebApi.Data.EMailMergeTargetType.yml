@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType
+  commentId: T:SuperOffice.WebApi.Data.EMailMergeTargetType
+  id: EMailMergeTargetType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.BestFit
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.Electronic
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.Fax
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.Mail
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.Printer
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.value__
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.Xml
+  - SuperOffice.WebApi.Data.EMailMergeTargetType.XmlFax
+  langs:
+  - csharp
+  - vb
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat type of delivery system to use for a mail merge\n"
+  syntax:
+    content: 'public sealed class EMailMergeTargetType : Enum'
+    content.vb: >-
+      Public NotInheritable Class EMailMergeTargetType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.value__
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: EMailMergeTargetType.value__
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.BestFit
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.BestFit
+  id: BestFit
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: BestFit
+  nameWithType: EMailMergeTargetType.BestFit
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.BestFit
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: Default to mail, then fax, then printer\n"
+  syntax:
+    content: public const EMailMergeTargetType BestFit
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const BestFit As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.Electronic
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.Electronic
+  id: Electronic
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Electronic
+  nameWithType: EMailMergeTargetType.Electronic
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.Electronic
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Default to mail, then fax\n"
+  syntax:
+    content: public const EMailMergeTargetType Electronic
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const Electronic As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.Mail
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.Mail
+  id: Mail
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Mail
+  nameWithType: EMailMergeTargetType.Mail
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.Mail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Deliver by mail\n"
+  syntax:
+    content: public const EMailMergeTargetType Mail
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const Mail As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.Fax
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.Fax
+  id: Fax
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: EMailMergeTargetType.Fax
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.Fax
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Deliver by fax\n"
+  syntax:
+    content: public const EMailMergeTargetType Fax
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const Fax As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.Printer
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.Printer
+  id: Printer
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Printer
+  nameWithType: EMailMergeTargetType.Printer
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.Printer
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: Deliver to printer\n"
+  syntax:
+    content: public const EMailMergeTargetType Printer
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const Printer As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.Xml
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.Xml
+  id: Xml
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: Xml
+  nameWithType: EMailMergeTargetType.Xml
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.Xml
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Output mails as xml. This target is used in conjunction with external mail clients.\n"
+  syntax:
+    content: public const EMailMergeTargetType Xml
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const Xml As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType.XmlFax
+  commentId: F:SuperOffice.WebApi.Data.EMailMergeTargetType.XmlFax
+  id: XmlFax
+  parent: SuperOffice.WebApi.Data.EMailMergeTargetType
+  langs:
+  - csharp
+  - vb
+  name: XmlFax
+  nameWithType: EMailMergeTargetType.XmlFax
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType.XmlFax
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: Same as Xml, but use fax format for recipient addresses\n"
+  syntax:
+    content: public const EMailMergeTargetType XmlFax
+    return:
+      type: SuperOffice.WebApi.Data.EMailMergeTargetType
+    content.vb: Public Const XmlFax As EMailMergeTargetType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMailMergeTargetType
+  commentId: T:SuperOffice.WebApi.Data.EMailMergeTargetType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailMergeTargetType
+  nameWithType: EMailMergeTargetType
+  fullName: SuperOffice.WebApi.Data.EMailMergeTargetType

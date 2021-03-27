@@ -1,0 +1,688 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty
+  commentId: T:SuperOffice.DCF.Web.UI.DataBoundProperty
+  id: DataBoundProperty
+  parent: SuperOffice.DCF.Web.UI
+  children:
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(System.String)
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit(SuperOffice.DCF.Web.UI.DataBoundProperty)~System.String
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit(System.String)~SuperOffice.DCF.Web.UI.DataBoundProperty
+  - SuperOffice.DCF.Web.UI.DataBoundProperty.Value
+  langs:
+  - csharp
+  - vb
+  name: DataBoundProperty
+  nameWithType: DataBoundProperty
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public class DataBoundProperty
+    content.vb: Public Class DataBoundProperty
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(System.Xml.XmlNode)
+  id: GetValue(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: GetValue(XmlNode)
+  nameWithType: DataBoundProperty.GetValue(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static object GetValue(XmlNode node)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetValue(node As XmlNode) As Object
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  id: GetValue(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: GetValue(BindingType, String)
+  nameWithType: DataBoundProperty.GetValue(BindingType, String)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue(SuperOffice.DCF.Web.UI.BindingType, System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static object GetValue(BindingType binding, string value)
+    parameters:
+    - id: binding
+      type: SuperOffice.DCF.Web.UI.BindingType
+    - id: value
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Public Shared Function GetValue(binding As BindingType, value As String) As Object
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(System.Xml.XmlNode)
+  id: '#ctor(System.Xml.XmlNode)'
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: DataBoundProperty(XmlNode)
+  nameWithType: DataBoundProperty.DataBoundProperty(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.DataBoundProperty(System.Xml.XmlNode)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public DataBoundProperty(XmlNode node)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+    content.vb: Public Sub New(node As XmlNode)
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(SuperOffice.DCF.Web.UI.BindingType,System.String)
+  id: '#ctor(SuperOffice.DCF.Web.UI.BindingType,System.String)'
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: DataBoundProperty(BindingType, String)
+  nameWithType: DataBoundProperty.DataBoundProperty(BindingType, String)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.DataBoundProperty(SuperOffice.DCF.Web.UI.BindingType, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public DataBoundProperty(BindingType binding, string value)
+    parameters:
+    - id: binding
+      type: SuperOffice.DCF.Web.UI.BindingType
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(binding As BindingType, value As String)
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: DataBoundProperty(String)
+  nameWithType: DataBoundProperty.DataBoundProperty(String)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.DataBoundProperty(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public DataBoundProperty(string value)
+    parameters:
+    - id: value
+      type: System.String
+    content.vb: Public Sub New(value As String)
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit(SuperOffice.DCF.Web.UI.DataBoundProperty)~System.String
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit(SuperOffice.DCF.Web.UI.DataBoundProperty)~System.String
+  id: op_Implicit(SuperOffice.DCF.Web.UI.DataBoundProperty)~System.String
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: Implicit(DataBoundProperty to String)
+  nameWithType: DataBoundProperty.Implicit(DataBoundProperty to String)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.Implicit(SuperOffice.DCF.Web.UI.DataBoundProperty to System.String)
+  type: Operator
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static implicit operator string (DataBoundProperty dbp)
+    parameters:
+    - id: dbp
+      type: SuperOffice.DCF.Web.UI.DataBoundProperty
+    return:
+      type: System.String
+    content.vb: Public Shared Widening Operator CType(dbp As DataBoundProperty) As String
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit*
+  nameWithType.vb: DataBoundProperty.Widening(DataBoundProperty to String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.DataBoundProperty.Widening(SuperOffice.DCF.Web.UI.DataBoundProperty to System.String)
+  name.vb: Widening(DataBoundProperty to String)
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit(System.String)~SuperOffice.DCF.Web.UI.DataBoundProperty
+  commentId: M:SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit(System.String)~SuperOffice.DCF.Web.UI.DataBoundProperty
+  id: op_Implicit(System.String)~SuperOffice.DCF.Web.UI.DataBoundProperty
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: Implicit(String to DataBoundProperty)
+  nameWithType: DataBoundProperty.Implicit(String to DataBoundProperty)
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.Implicit(System.String to SuperOffice.DCF.Web.UI.DataBoundProperty)
+  type: Operator
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public static implicit operator DataBoundProperty(string val)
+    parameters:
+    - id: val
+      type: System.String
+    return:
+      type: SuperOffice.DCF.Web.UI.DataBoundProperty
+    content.vb: Public Shared Widening Operator CType(val As String) As DataBoundProperty
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit*
+  nameWithType.vb: DataBoundProperty.Widening(String to DataBoundProperty)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.DCF.Web.UI.DataBoundProperty.Widening(System.String to SuperOffice.DCF.Web.UI.DataBoundProperty)
+  name.vb: Widening(String to DataBoundProperty)
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.Value
+  commentId: P:SuperOffice.DCF.Web.UI.DataBoundProperty.Value
+  id: Value
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: DataBoundProperty.Value
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.Value
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public object Value { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property Value As Object
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.Value*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource
+  id: DataSource
+  parent: SuperOffice.DCF.Web.UI.DataBoundProperty
+  langs:
+  - csharp
+  - vb
+  name: DataSource
+  nameWithType: DataBoundProperty.DataSource
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI
+  syntax:
+    content: public object DataSource { set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public WriteOnly Property DataSource As Object
+  overload: SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource*
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+references:
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue*
+  commentId: Overload:SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue
+  isExternal: true
+  name: GetValue
+  nameWithType: DataBoundProperty.GetValue
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.GetValue
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.BindingType
+  commentId: T:SuperOffice.DCF.Web.UI.BindingType
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: BindingType
+  nameWithType: BindingType
+  fullName: SuperOffice.DCF.Web.UI.BindingType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.DataBoundProperty.#ctor
+  isExternal: true
+  name: DataBoundProperty
+  nameWithType: DataBoundProperty.DataBoundProperty
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.DataBoundProperty
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit*
+  commentId: Overload:SuperOffice.DCF.Web.UI.DataBoundProperty.op_Implicit
+  isExternal: true
+  name: Implicit
+  nameWithType: DataBoundProperty.Implicit
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.Implicit
+  nameWithType.vb: DataBoundProperty.Widening
+  fullName.vb: SuperOffice.DCF.Web.UI.DataBoundProperty.Widening
+  name.vb: Widening
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty
+  commentId: T:SuperOffice.DCF.Web.UI.DataBoundProperty
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: DataBoundProperty
+  nameWithType: DataBoundProperty
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.Value*
+  commentId: Overload:SuperOffice.DCF.Web.UI.DataBoundProperty.Value
+  isExternal: true
+  name: Value
+  nameWithType: DataBoundProperty.Value
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.Value
+- uid: SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource*
+  commentId: Overload:SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource
+  isExternal: true
+  name: DataSource
+  nameWithType: DataBoundProperty.DataSource
+  fullName: SuperOffice.DCF.Web.UI.DataBoundProperty.DataSource

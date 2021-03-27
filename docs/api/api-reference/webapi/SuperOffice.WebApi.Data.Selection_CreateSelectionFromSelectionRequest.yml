@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  id: Selection_CreateSelectionFromSelectionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
+  - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
+  - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateSelectionFromSelectionRequest
+  nameWithType: Selection_CreateSelectionFromSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_CreateSelectionFromSelectionRequest : Object'
+    content.vb: >-
+      Public Class Selection_CreateSelectionFromSelectionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_CreateSelectionFromSelectionRequest()
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_CreateSelectionFromSelectionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
+  id: SelectionId
+  parent: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int SelectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SelectionId As Integer
+  overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.Name
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  id: TargetSelectionType
+  parent: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: TargetSelectionType
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public SelectionType TargetSelectionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.SelectionType
+    content.vb: Public Property TargetSelectionType As SelectionType
+  overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  commentId: P:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  id: CopyMembers
+  parent: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
+  langs:
+  - csharp
+  - vb
+  name: CopyMembers
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool CopyMembers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CopyMembers As Boolean
+  overload: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.#ctor
+  isExternal: true
+  name: Selection_CreateSelectionFromSelectionRequest
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Selection_CreateSelectionFromSelectionRequest
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
+  isExternal: true
+  name: SelectionId
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.SelectionId
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.SelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
+  isExternal: true
+  name: Name
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.Name
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  isExternal: true
+  name: TargetSelectionType
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.TargetSelectionType
+- uid: SuperOffice.WebApi.Data.SelectionType
+  commentId: T:SuperOffice.WebApi.Data.SelectionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: SelectionType
+  nameWithType: SelectionType
+  fullName: SuperOffice.WebApi.Data.SelectionType
+- uid: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  isExternal: true
+  name: CopyMembers
+  nameWithType: Selection_CreateSelectionFromSelectionRequest.CopyMembers
+  fullName: SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest.CopyMembers
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

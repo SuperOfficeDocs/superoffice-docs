@@ -1,0 +1,707 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  id: Constants.DisplayTypes
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Bool
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Checkbox
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Date
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Datetime
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Decimal
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Icon
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Image
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Int
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.String
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Tags
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Time
+  - SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.TimeSpan
+  langs:
+  - csharp
+  - vb
+  name: Constants.DisplayTypes
+  nameWithType: Constants.DisplayTypes
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDisplay types for archive columns. The cell content (DisplayText) is always a string; however, it should be interpreted\nand displayed as a specific type according to the strings defined here. Numeric and date types will always be formatted with\nthe <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class and need to be decoded/localized before display.\n"
+  syntax:
+    content: public static class DisplayTypes
+    content.vb: Public Module DisplayTypes
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.String
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.String
+  id: String
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: Constants.DisplayTypes.String
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.String
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA simple string, displayed as-is, left justified\n"
+  syntax:
+    content: public const string String = "string"
+    return:
+      type: System.String
+    content.vb: Public Const String As String = "string"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Int
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Int
+  id: Int
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Int
+  nameWithType: Constants.DisplayTypes.Int
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Int
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAn integer, displayed right-justified and formatted to the current culture\n"
+  syntax:
+    content: public const string Int = "int"
+    return:
+      type: System.String
+    content.vb: Public Const Int As String = "int"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Icon
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Icon
+  id: Icon
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Icon
+  nameWithType: Constants.DisplayTypes.Icon
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Icon
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAn icon, displayed centered, the displayvalue is an icon hint\n"
+  syntax:
+    content: public const string Icon = "icon"
+    return:
+      type: System.String
+    content.vb: Public Const Icon As String = "icon"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Checkbox
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Checkbox
+  id: Checkbox
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Checkbox
+  nameWithType: Constants.DisplayTypes.Checkbox
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Checkbox
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA checkbox, displayed centered\n"
+  syntax:
+    content: public const string Checkbox = "checkbox"
+    return:
+      type: System.String
+    content.vb: Public Const Checkbox As String = "checkbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Bool
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Bool
+  id: Bool
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Bool
+  nameWithType: Constants.DisplayTypes.Bool
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Bool
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA small ceneterd dot for value=true, otherwise empty\n"
+  syntax:
+    content: public const string Bool = "bool"
+    return:
+      type: System.String
+    content.vb: Public Const Bool As String = "bool"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Date
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Date
+  id: Date
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: Constants.DisplayTypes.Date
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Date
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA date without time, left justified, formatted to the current culture\n"
+  syntax:
+    content: public const string Date = "date"
+    return:
+      type: System.String
+    content.vb: Public Const Date As String = "date"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Datetime
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Datetime
+  id: Datetime
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Datetime
+  nameWithType: Constants.DisplayTypes.Datetime
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Datetime
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA full date+time, left justified, formatted to the current culture\n"
+  syntax:
+    content: public const string Datetime = "datetime"
+    return:
+      type: System.String
+    content.vb: Public Const Datetime As String = "datetime"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.TimeSpan
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.TimeSpan
+  id: TimeSpan
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: TimeSpan
+  nameWithType: Constants.DisplayTypes.TimeSpan
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.TimeSpan
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA time span in days, hours, and minutes.\n"
+  syntax:
+    content: public const string TimeSpan = "timespan"
+    return:
+      type: System.String
+    content.vb: Public Const TimeSpan As String = "timespan"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Decimal
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Decimal
+  id: Decimal
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: Constants.DisplayTypes.Decimal
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Decimal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA decimal/floating-point value, left justified, formatted to the current culture\n"
+  syntax:
+    content: public const string Decimal = "decimal"
+    return:
+      type: System.String
+    content.vb: Public Const Decimal As String = "decimal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Time
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Time
+  id: Time
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: Constants.DisplayTypes.Time
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Time
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA time (no date), left justified, formatted to the current culture\n"
+  syntax:
+    content: public const string Time = "time"
+    return:
+      type: System.String
+    content.vb: Public Const Time As String = "time"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Image
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Image
+  id: Image
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Image
+  nameWithType: Constants.DisplayTypes.Image
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Image
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nA dynamic image from the database, centered, displayvalue is a base64-encoded JPG or PNG image\n"
+  syntax:
+    content: public const string Image = "image"
+    return:
+      type: System.String
+    content.vb: Public Const Image As String = "image"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Tags
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Tags
+  id: Tags
+  parent: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: Constants.DisplayTypes.Tags
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.DisplayTypes.Tags
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nAn int array displayed as tags.\n"
+  syntax:
+    content: public const string Tags = "tags"
+    return:
+      type: System.String
+    content.vb: Public Const Tags As String = "tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TimestampsFields
+  id: DBC.TimestampsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
+  - SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
+  langs:
+  - csharp
+  - vb
+  name: DBC.TimestampsFields
+  nameWithType: DBC.TimestampsFields
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Timestamps, Timestamp information\n"
+  syntax:
+    content: public static class TimestampsFields
+    content.vb: Public Module TimestampsFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
+  id: TimestampsId
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: TimestampsId
+  nameWithType: DBC.TimestampsFields.TimestampsId
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.TimestampsId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.TimestampsId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string TimestampsId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const TimestampsId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
+  id: MailFilter
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: MailFilter
+  nameWithType: DBC.TimestampsFields.MailFilter
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.MailFilter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.MailFilter: Timestamp for the last time importMail was started.\n"
+  syntax:
+    content: public const string MailFilter = "mail_filter"
+    return:
+      type: System.String
+    content.vb: Public Const MailFilter As String = "mail_filter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
+  id: MailSender
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: MailSender
+  nameWithType: DBC.TimestampsFields.MailSender
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.MailSender
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.MailSender: Timestamp for the last time mailSender was started.\n"
+  syntax:
+    content: public const string MailSender = "mail_sender"
+    return:
+      type: System.String
+    content.vb: Public Const MailSender As String = "mail_sender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
+  id: EjournalCron
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: EjournalCron
+  nameWithType: DBC.TimestampsFields.EjournalCron
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.EjournalCron
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.EjournalCron: Timestamp for the last time ejournalCron was started.\n"
+  syntax:
+    content: public const string EjournalCron = "ejournal_cron"
+    return:
+      type: System.String
+    content.vb: Public Const EjournalCron As String = "ejournal_cron"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
+  id: Autologout
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: Autologout
+  nameWithType: DBC.TimestampsFields.Autologout
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.Autologout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.Autologout: Timestamp for when users should be checked for automatic logout.\n"
+  syntax:
+    content: public const string Autologout = "autologout"
+    return:
+      type: System.String
+    content.vb: Public Const Autologout As String = "autologout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
+  id: ActivateTickets
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: ActivateTickets
+  nameWithType: DBC.TimestampsFields.ActivateTickets
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.ActivateTickets
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.ActivateTickets: Timestamp for when tickets should be checked for activation.\n"
+  syntax:
+    content: public const string ActivateTickets = "activate_tickets"
+    return:
+      type: System.String
+    content.vb: Public Const ActivateTickets As String = "activate_tickets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
+  id: TicketAlert
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: TicketAlert
+  nameWithType: DBC.TimestampsFields.TicketAlert
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.TicketAlert
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.TicketAlert: Timestamp for when tickets should be checked for escalation.\n"
+  syntax:
+    content: public const string TicketAlert = "ticket_alert"
+    return:
+      type: System.String
+    content.vb: Public Const TicketAlert As String = "ticket_alert"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
+  id: DeleteTempTicket
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: DeleteTempTicket
+  nameWithType: DBC.TimestampsFields.DeleteTempTicket
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.DeleteTempTicket
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.DeleteTempTicket: Timestamp for when tickets should be checked for deletion.\n"
+  syntax:
+    content: public const string DeleteTempTicket = "delete_temp_ticket"
+    return:
+      type: System.String
+    content.vb: Public Const DeleteTempTicket As String = "delete_temp_ticket"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
+  id: ActiveTickets
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveTickets
+  nameWithType: DBC.TimestampsFields.ActiveTickets
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.ActiveTickets
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.ActiveTickets: \n"
+  syntax:
+    content: public const string ActiveTickets = "active_tickets"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveTickets As String = "active_tickets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
+  id: CriticalEmail
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: CriticalEmail
+  nameWithType: DBC.TimestampsFields.CriticalEmail
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.CriticalEmail
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.CriticalEmail: Timestamp for when we last emailed a critical email to panic_email (usually error@superoffice.com).\n"
+  syntax:
+    content: public const string CriticalEmail = "critical_email"
+    return:
+      type: System.String
+    content.vb: Public Const CriticalEmail As String = "critical_email"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
+  id: LastTicketdel
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: LastTicketdel
+  nameWithType: DBC.TimestampsFields.LastTicketdel
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.LastTicketdel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.LastTicketdel: Timestamp for when we last physically removed tickets tagged for deletion.\n"
+  syntax:
+    content: public const string LastTicketdel = "last_ticketdel"
+    return:
+      type: System.String
+    content.vb: Public Const LastTicketdel As String = "last_ticketdel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
+  id: BuildFaq
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: BuildFaq
+  nameWithType: DBC.TimestampsFields.BuildFaq
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.BuildFaq
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.BuildFaq: Timestamp for when the FAQ search tree was last rebuilt.\n"
+  syntax:
+    content: public const string BuildFaq = "build_faq"
+    return:
+      type: System.String
+    content.vb: Public Const BuildFaq As String = "build_faq"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
+  id: WeekStat
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: WeekStat
+  nameWithType: DBC.TimestampsFields.WeekStat
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.WeekStat
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.WeekStat: Timestamp for when the week statistics was last sent.\n"
+  syntax:
+    content: public const string WeekStat = "week_stat"
+    return:
+      type: System.String
+    content.vb: Public Const WeekStat As String = "week_stat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
+  commentId: F:SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
+  id: Mailsync
+  parent: SuperOffice.CRM.Data.DBC.TimestampsFields
+  langs:
+  - csharp
+  - vb
+  name: Mailsync
+  nameWithType: DBC.TimestampsFields.Mailsync
+  fullName: SuperOffice.CRM.Data.DBC.TimestampsFields.Mailsync
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTimestamps.Mailsync: Timestamp for syncing crm inbox2 email accounts\n"
+  syntax:
+    content: public const string Mailsync = "mailsync"
+    return:
+      type: System.String
+    content.vb: Public Const Mailsync As String = "mailsync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

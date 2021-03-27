@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.PreferenceLevel
+  commentId: T:SuperOffice.Data.PreferenceLevel
+  id: PreferenceLevel
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.PreferenceLevel.Database
+  - SuperOffice.Data.PreferenceLevel.Group
+  - SuperOffice.Data.PreferenceLevel.HardDefault
+  - SuperOffice.Data.PreferenceLevel.Individual
+  - SuperOffice.Data.PreferenceLevel.PC
+  - SuperOffice.Data.PreferenceLevel.SystemWide
+  - SuperOffice.Data.PreferenceLevel.Undefined
+  langs:
+  - csharp
+  - vb
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;deflevel&apos; in table &apos;userpreference&apos;.\nThis Enum is used by:  UserPreference.deflevel; UserPreference.maxlevel; PrefDesc.maxLevel; PrefDesc.sysMaxLevel\n"
+  syntax:
+    content: 'public enum PreferenceLevel : short'
+    content.vb: Public Enum PreferenceLevel As Short
+  extensionMethods:
+  - SuperOffice.Data.PreferenceLevel.EnumUtil.MapEnums``2
+  - SuperOffice.Data.PreferenceLevel.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PreferenceLevel)
+  - SuperOffice.Data.PreferenceLevel.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.PreferenceLevel.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.PreferenceLevel.Undefined
+  commentId: F:SuperOffice.Data.PreferenceLevel.Undefined
+  id: Undefined
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: Undefined
+  nameWithType: PreferenceLevel.Undefined
+  fullName: SuperOffice.Data.PreferenceLevel.Undefined
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: Undefined value (error)\n"
+  syntax:
+    content: Undefined = 0
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PreferenceLevel.HardDefault
+  commentId: F:SuperOffice.Data.PreferenceLevel.HardDefault
+  id: HardDefault
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: HardDefault
+  nameWithType: PreferenceLevel.HardDefault
+  fullName: SuperOffice.Data.PreferenceLevel.HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: Default value used if no other value has been specified\n"
+  syntax:
+    content: HardDefault = 1
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PreferenceLevel.SystemWide
+  commentId: F:SuperOffice.Data.PreferenceLevel.SystemWide
+  id: SystemWide
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: SystemWide
+  nameWithType: PreferenceLevel.SystemWide
+  fullName: SuperOffice.Data.PreferenceLevel.SystemWide
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Value valid for all databases under this licence\n"
+  syntax:
+    content: SystemWide = 2
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PreferenceLevel.Database
+  commentId: F:SuperOffice.Data.PreferenceLevel.Database
+  id: Database
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: Database
+  nameWithType: PreferenceLevel.Database
+  fullName: SuperOffice.Data.PreferenceLevel.Database
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Value valid for this database\n"
+  syntax:
+    content: Database = 3
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PreferenceLevel.Group
+  commentId: F:SuperOffice.Data.PreferenceLevel.Group
+  id: Group
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: PreferenceLevel.Group
+  fullName: SuperOffice.Data.PreferenceLevel.Group
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Value valid for this group\n"
+  syntax:
+    content: Group = 4
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PreferenceLevel.Individual
+  commentId: F:SuperOffice.Data.PreferenceLevel.Individual
+  id: Individual
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: Individual
+  nameWithType: PreferenceLevel.Individual
+  fullName: SuperOffice.Data.PreferenceLevel.Individual
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: Value valid for this user\n"
+  syntax:
+    content: Individual = 5
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.PreferenceLevel.PC
+  commentId: F:SuperOffice.Data.PreferenceLevel.PC
+  id: PC
+  parent: SuperOffice.Data.PreferenceLevel
+  langs:
+  - csharp
+  - vb
+  name: PC
+  nameWithType: PreferenceLevel.PC
+  fullName: SuperOffice.Data.PreferenceLevel.PC
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n6: Value valid for this computer (note: stored in the Registry, not in the database)\n"
+  syntax:
+    content: PC = 6
+    return:
+      type: SuperOffice.Data.PreferenceLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.PreferenceLevel.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<PreferenceLevel, To>()
+  nameWithType: EnumUtil.MapEnums<PreferenceLevel, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.PreferenceLevel, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of PreferenceLevel, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.PreferenceLevel, To)()
+  name.vb: MapEnums(Of PreferenceLevel, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<PreferenceLevel, To>
+    nameWithType: EnumUtil.MapEnums<PreferenceLevel, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.PreferenceLevel, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of PreferenceLevel, To)
+    nameWithType: EnumUtil.MapEnums(Of PreferenceLevel, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.PreferenceLevel, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PreferenceLevel.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.PreferenceLevel)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<PreferenceLevel>(PreferenceLevel)
+  nameWithType: ObjectExtensions.AssignByReflection<PreferenceLevel>(PreferenceLevel)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PreferenceLevel>(SuperOffice.Data.PreferenceLevel)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of PreferenceLevel)(PreferenceLevel)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PreferenceLevel)(SuperOffice.Data.PreferenceLevel)
+  name.vb: AssignByReflection(Of PreferenceLevel)(PreferenceLevel)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<PreferenceLevel>
+    nameWithType: ObjectExtensions.AssignByReflection<PreferenceLevel>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.PreferenceLevel>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.Data.PreferenceLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of PreferenceLevel)
+    nameWithType: ObjectExtensions.AssignByReflection(Of PreferenceLevel)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.PreferenceLevel)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.Data.PreferenceLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PreferenceLevel.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<PreferenceLevel>()
+  nameWithType: ObjectExtensions.GraphCopy<PreferenceLevel>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PreferenceLevel>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of PreferenceLevel)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PreferenceLevel)()
+  name.vb: GraphCopy(Of PreferenceLevel)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<PreferenceLevel>
+    nameWithType: ObjectExtensions.GraphCopy<PreferenceLevel>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.PreferenceLevel>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of PreferenceLevel)
+    nameWithType: ObjectExtensions.GraphCopy(Of PreferenceLevel)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.PreferenceLevel)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PreferenceLevel.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<PreferenceLevel, To>()
+  nameWithType: Converters.MapEnums<PreferenceLevel, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PreferenceLevel, To>()
+  nameWithType.vb: Converters.MapEnums(Of PreferenceLevel, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PreferenceLevel, To)()
+  name.vb: MapEnums(Of PreferenceLevel, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<PreferenceLevel, To>
+    nameWithType: Converters.MapEnums<PreferenceLevel, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.PreferenceLevel, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of PreferenceLevel, To)
+    nameWithType: Converters.MapEnums(Of PreferenceLevel, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.PreferenceLevel, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.PreferenceLevel
+  commentId: T:SuperOffice.Data.PreferenceLevel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel

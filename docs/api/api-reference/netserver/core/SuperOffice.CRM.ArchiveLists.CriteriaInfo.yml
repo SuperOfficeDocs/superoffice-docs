@@ -1,0 +1,1506 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  id: CriteriaInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.op_Implicit(SuperOffice.CRM.ArchiveLists.CriteriaInfo)~SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInfo
+  nameWithType: CriteriaInfo
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: 'public class CriteriaInfo : ICloneable'
+    content.vb: >-
+      Public Class CriteriaInfo
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.CriteriaInfo)
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.CriteriaInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInfo()
+  nameWithType: CriteriaInfo.CriteriaInfo()
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CriteriaInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInfo(Int32, String, String, String, String, Boolean, Boolean, String, String)
+  nameWithType: CriteriaInfo.CriteriaInfo(Int32, String, String, String, String, Boolean, Boolean, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaInfo(System.Int32, System.String, System.String, System.String, System.String, System.Boolean, System.Boolean, System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstructor\n"
+  syntax:
+    content: public CriteriaInfo(int id, string name, string displayName, string displayTooltip, string displayType, bool canOrderBy, bool isVisible, string width, string restrictionType)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: displayName
+      type: System.String
+    - id: displayTooltip
+      type: System.String
+    - id: displayType
+      type: System.String
+    - id: canOrderBy
+      type: System.Boolean
+    - id: isVisible
+      type: System.Boolean
+    - id: width
+      type: System.String
+    - id: restrictionType
+      type: System.String
+    content.vb: Public Sub New(id As Integer, name As String, displayName As String, displayTooltip As String, displayType As String, canOrderBy As Boolean, isVisible As Boolean, width As String, restrictionType As String)
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean,System.String,System.String,System.String)'
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: CriteriaInfo(Int32, String, String, String, String, Boolean, Boolean, String, String, String)
+  nameWithType: CriteriaInfo.CriteriaInfo(Int32, String, String, String, String, Boolean, Boolean, String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaInfo(System.Int32, System.String, System.String, System.String, System.String, System.Boolean, System.Boolean, System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nConstructor\n"
+  syntax:
+    content: public CriteriaInfo(int id, string name, string displayName, string displayTooltip, string displayType, bool canOrderBy, bool isVisible, string width, string restrictionType, string restrictionListName)
+    parameters:
+    - id: id
+      type: System.Int32
+    - id: name
+      type: System.String
+    - id: displayName
+      type: System.String
+    - id: displayTooltip
+      type: System.String
+    - id: displayType
+      type: System.String
+    - id: canOrderBy
+      type: System.Boolean
+    - id: isVisible
+      type: System.Boolean
+    - id: width
+      type: System.String
+    - id: restrictionType
+      type: System.String
+    - id: restrictionListName
+      type: System.String
+    content.vb: Public Sub New(id As Integer, name As String, displayName As String, displayTooltip As String, displayType As String, canOrderBy As Boolean, isVisible As Boolean, width As String, restrictionType As String, restrictionListName As String)
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.op_Implicit(SuperOffice.CRM.ArchiveLists.CriteriaInfo)~SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: M:SuperOffice.CRM.ArchiveLists.CriteriaInfo.op_Implicit(SuperOffice.CRM.ArchiveLists.CriteriaInfo)~SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  id: op_Implicit(SuperOffice.CRM.ArchiveLists.CriteriaInfo)~SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: Implicit(CriteriaInfo to ArchiveColumnInfo)
+  nameWithType: CriteriaInfo.Implicit(CriteriaInfo to ArchiveColumnInfo)
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Implicit(SuperOffice.CRM.ArchiveLists.CriteriaInfo to SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nImplicit cast from CriteriaInfo to ArchiveColumnInfo\n"
+  syntax:
+    content: public static implicit operator ArchiveColumnInfo(CriteriaInfo criteriaInfo)
+    parameters:
+    - id: criteriaInfo
+      type: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared Widening Operator CType(criteriaInfo As CriteriaInfo) As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.op_Implicit*
+  nameWithType.vb: CriteriaInfo.Widening(CriteriaInfo to ArchiveColumnInfo)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Widening(SuperOffice.CRM.ArchiveLists.CriteriaInfo to SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo)
+  name.vb: Widening(CriteriaInfo to ArchiveColumnInfo)
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone
+  commentId: M:SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone
+  id: Clone
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: CriteriaInfo.Clone()
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public object Clone()
+    return:
+      type: System.Object
+    content.vb: Public Function Clone As Object
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone*
+  implements:
+  - System.ICloneable.Clone
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo
+  id: ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveColumnInfo
+  nameWithType: CriteriaInfo.ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe decorated ArchiveColumnInfo property\n"
+  syntax:
+    content: public ArchiveColumnInfo ArchiveColumnInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Property ArchiveColumnInfo As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: CriteriaInfo.DisplayName
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe column name to show, can be a resource identifier string\n"
+  syntax:
+    content: public string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayName As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip
+  id: DisplayTooltip
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayTooltip
+  nameWithType: CriteriaInfo.DisplayTooltip
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe column tooltip, used in the column list and in the column headings\n"
+  syntax:
+    content: public string DisplayTooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayTooltip As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType
+  id: DisplayType
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayType
+  nameWithType: CriteriaInfo.DisplayType
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nType of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted).\nThis name can contain resource tags.\n"
+  syntax:
+    content: public string DisplayType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DisplayType As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy
+  id: CanOrderBy
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: CanOrderBy
+  nameWithType: CriteriaInfo.CanOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCan this column be used for sorting?\n"
+  syntax:
+    content: public bool CanOrderBy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanOrderBy As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CriteriaInfo.Name
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nUnique identity of this column (in this particular context); the name to be used when requesting the column from a provider,\nsetting restrictions or order by criteria\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy
+  id: CanRestrictBy
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: CanRestrictBy
+  nameWithType: CriteriaInfo.CanRestrictBy
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nCan this column be used as a restriction\n"
+  syntax:
+    content: public bool CanRestrictBy { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanRestrictBy As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType
+  id: RestrictionType
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: RestrictionType
+  nameWithType: CriteriaInfo.RestrictionType
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe data type of the restriction; use this to retrieve the legal operators for the restriction\n"
+  syntax:
+    content: public string RestrictionType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RestrictionType As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName
+  id: RestrictionListName
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: RestrictionListName
+  nameWithType: CriteriaInfo.RestrictionListName
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nIf the restriction data type is &apos;list&apos;, this property contains the name of the SoList so that choices can be shown\n"
+  syntax:
+    content: public string RestrictionListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RestrictionListName As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible
+  id: IsVisible
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: IsVisible
+  nameWithType: CriteriaInfo.IsVisible
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nIs this column visible to the user in configuration dialogs etc\n"
+  syntax:
+    content: public bool IsVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsVisible As Boolean
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width
+  id: Width
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CriteriaInfo.Width
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThe width specification, if the column info has been extended with GUI-based information.\nIt is either &quot;n%&quot; or &quot;nc&quot;, where n is an integer. Percent-formatted fields grow and shrink; number-of-characters\nformatted fields have constant width when the whole archive width changes.\n"
+  syntax:
+    content: public string Width { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Width As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint
+  id: IconHint
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: IconHint
+  nameWithType: CriteriaInfo.IconHint
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nIcon hint corresponding to the display name; this icon hint is used in the configuration dialog\nand other places where we &apos;talk about&apos; the columns of the archive. The actual heading\nof the archive may also contain icons in lieu of textual names, the icon hint for that\nis specified in <xref href=\"SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint\" data-throw-if-not-resolved=\"false\"></xref> and is a different one.\n"
+  syntax:
+    content: public string IconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IconHint As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint
+  id: HeadingIconHint
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: HeadingIconHint
+  nameWithType: CriteriaInfo.HeadingIconHint
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nIcon hint for the archive heading only. If this is a nonempty string, the archive header\nshould use this icon and ignore the <xref href=\"SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName\" data-throw-if-not-resolved=\"false\"></xref>. Otherwise, the DisplayName\nshould be used as the heading.\n"
+  syntax:
+    content: public string HeadingIconHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HeadingIconHint As String
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId
+  commentId: P:SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId
+  id: CriteriaId
+  parent: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  langs:
+  - csharp
+  - vb
+  name: CriteriaId
+  nameWithType: CriteriaInfo.CriteriaId
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public int CriteriaId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CriteriaId As Integer
+  overload: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CriteriaInfo, To>()
+  nameWithType: EnumUtil.MapEnums<CriteriaInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.CriteriaInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CriteriaInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo, To)()
+  name.vb: MapEnums(Of CriteriaInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CriteriaInfo, To>
+    nameWithType: EnumUtil.MapEnums<CriteriaInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.CriteriaInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CriteriaInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of CriteriaInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.CriteriaInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CriteriaInfo>(CriteriaInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<CriteriaInfo>(CriteriaInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.CriteriaInfo>(SuperOffice.CRM.ArchiveLists.CriteriaInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CriteriaInfo)(CriteriaInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo)(SuperOffice.CRM.ArchiveLists.CriteriaInfo)
+  name.vb: AssignByReflection(Of CriteriaInfo)(CriteriaInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CriteriaInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<CriteriaInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.CriteriaInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+    name: CriteriaInfo
+    nameWithType: CriteriaInfo
+    fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CriteriaInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CriteriaInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+    name: CriteriaInfo
+    nameWithType: CriteriaInfo
+    fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CriteriaInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<CriteriaInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.CriteriaInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CriteriaInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo)()
+  name.vb: GraphCopy(Of CriteriaInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CriteriaInfo>
+    nameWithType: ObjectExtensions.GraphCopy<CriteriaInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.CriteriaInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CriteriaInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of CriteriaInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CriteriaInfo, To>()
+  nameWithType: Converters.MapEnums<CriteriaInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.CriteriaInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of CriteriaInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo, To)()
+  name.vb: MapEnums(Of CriteriaInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CriteriaInfo, To>
+    nameWithType: Converters.MapEnums<CriteriaInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.CriteriaInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CriteriaInfo, To)
+    nameWithType: Converters.MapEnums(Of CriteriaInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.CriteriaInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.#ctor
+  isExternal: true
+  name: CriteriaInfo
+  nameWithType: CriteriaInfo.CriteriaInfo
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.op_Implicit*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.op_Implicit
+  isExternal: true
+  name: Implicit
+  nameWithType: CriteriaInfo.Implicit
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Implicit
+  nameWithType.vb: CriteriaInfo.Widening
+  fullName.vb: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Widening
+  name.vb: Widening
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.CriteriaInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: CriteriaInfo
+  nameWithType: CriteriaInfo
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone
+  isExternal: true
+  name: Clone
+  nameWithType: CriteriaInfo.Clone
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Clone
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: CriteriaInfo.ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: CriteriaInfo.DisplayName
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayName
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip
+  isExternal: true
+  name: DisplayTooltip
+  nameWithType: CriteriaInfo.DisplayTooltip
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayTooltip
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType
+  isExternal: true
+  name: DisplayType
+  nameWithType: CriteriaInfo.DisplayType
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.DisplayType
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy
+  isExternal: true
+  name: CanOrderBy
+  nameWithType: CriteriaInfo.CanOrderBy
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanOrderBy
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: CriteriaInfo.Name
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Name
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy
+  isExternal: true
+  name: CanRestrictBy
+  nameWithType: CriteriaInfo.CanRestrictBy
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CanRestrictBy
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType
+  isExternal: true
+  name: RestrictionType
+  nameWithType: CriteriaInfo.RestrictionType
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionType
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName
+  isExternal: true
+  name: RestrictionListName
+  nameWithType: CriteriaInfo.RestrictionListName
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.RestrictionListName
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible
+  isExternal: true
+  name: IsVisible
+  nameWithType: CriteriaInfo.IsVisible
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IsVisible
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width
+  isExternal: true
+  name: Width
+  nameWithType: CriteriaInfo.Width
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.Width
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint
+  isExternal: true
+  name: IconHint
+  nameWithType: CriteriaInfo.IconHint
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.IconHint
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint
+  isExternal: true
+  name: HeadingIconHint
+  nameWithType: CriteriaInfo.HeadingIconHint
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.HeadingIconHint
+- uid: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId
+  isExternal: true
+  name: CriteriaId
+  nameWithType: CriteriaInfo.CriteriaId
+  fullName: SuperOffice.CRM.ArchiveLists.CriteriaInfo.CriteriaId

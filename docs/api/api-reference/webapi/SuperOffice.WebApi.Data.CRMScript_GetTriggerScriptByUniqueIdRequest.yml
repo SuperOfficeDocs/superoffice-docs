@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
+  commentId: T:SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
+  id: CRMScript_GetTriggerScriptByUniqueIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.#ctor
+  - SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_GetTriggerScriptByUniqueIdRequest
+  nameWithType: CRMScript_GetTriggerScriptByUniqueIdRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class CRMScript_GetTriggerScriptByUniqueIdRequest : Object'
+    content.vb: >-
+      Public Class CRMScript_GetTriggerScriptByUniqueIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
+  langs:
+  - csharp
+  - vb
+  name: CRMScript_GetTriggerScriptByUniqueIdRequest()
+  nameWithType: CRMScript_GetTriggerScriptByUniqueIdRequest.CRMScript_GetTriggerScriptByUniqueIdRequest()
+  fullName: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.CRMScript_GetTriggerScriptByUniqueIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public CRMScript_GetTriggerScriptByUniqueIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  commentId: P:SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  id: TriggerScriptUniqueId
+  parent: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest
+  langs:
+  - csharp
+  - vb
+  name: TriggerScriptUniqueId
+  nameWithType: CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  fullName: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string TriggerScriptUniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TriggerScriptUniqueId As String
+  overload: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.#ctor
+  isExternal: true
+  name: CRMScript_GetTriggerScriptByUniqueIdRequest
+  nameWithType: CRMScript_GetTriggerScriptByUniqueIdRequest.CRMScript_GetTriggerScriptByUniqueIdRequest
+  fullName: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.CRMScript_GetTriggerScriptByUniqueIdRequest
+- uid: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  isExternal: true
+  name: TriggerScriptUniqueId
+  nameWithType: CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+  fullName: SuperOffice.WebApi.Data.CRMScript_GetTriggerScriptByUniqueIdRequest.TriggerScriptUniqueId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

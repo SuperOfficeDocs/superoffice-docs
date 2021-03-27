@@ -1,0 +1,281 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.ISoContextProvider
+  commentId: T:SuperOffice.Security.Principal.ISoContextProvider
+  id: ISoContextProvider
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  - SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  langs:
+  - csharp
+  - vb
+  name: ISoContextProvider
+  nameWithType: ISoContextProvider
+  fullName: SuperOffice.Security.Principal.ISoContextProvider
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nInterface that needs to be implemented by plug-ins handling the internal NetServer context.\nPlug-ins implemented with this interface needs to be mareked with the <xref href=\"SuperOffice.Security.Principal.SoContextProviderAttribute\" data-throw-if-not-resolved=\"false\"></xref> attribute.\n"
+  syntax:
+    content: 'public interface ISoContextProvider : IPlugin'
+    content.vb: >-
+      Public Interface ISoContextProvider
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.Security.Principal.ISoContextProvider.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.ISoContextProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  id: SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  parent: SuperOffice.Security.Principal.ISoContextProvider
+  langs:
+  - csharp
+  - vb
+  name: SetCurrentContext(SoContextContainer)
+  nameWithType: ISoContextProvider.SetCurrentContext(SoContextContainer)
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext(SuperOffice.Security.Principal.SoContextContainer)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nThis method is called every time the current context needs to be stored. \n"
+  remarks: "\nThis method will be called when a user authenticates or continues a session.  \nIt will be called with a NULL value when a user closes or suspends his session.\n<p>\nThis method might be called from any thread.  This means that worker threads will \ncall it in addition to threads held by the application (i.e. IIS).\n</p>\n<p>\nImplementations can call the <xref href=\"SuperOffice.Threading.ThreadManager.IsWorkerThread\" data-throw-if-not-resolved=\"false\"></xref> \nto check if the thread has been executed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.  \nThis will be the case for all worker threads initiated automatically within NetServer.\n</p>\n<p>It is safe to serialize and de-serialize the value of the context.</p>\n"
+  syntax:
+    content: void SetCurrentContext(SoContextContainer context)
+    parameters:
+    - id: context
+      type: SuperOffice.Security.Principal.SoContextContainer
+      description: Current context
+    content.vb: Sub SetCurrentContext(context As SoContextContainer)
+  overload: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext*
+- uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  commentId: M:SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  id: GetCurrenContext
+  parent: SuperOffice.Security.Principal.ISoContextProvider
+  langs:
+  - csharp
+  - vb
+  name: GetCurrenContext()
+  nameWithType: ISoContextProvider.GetCurrenContext()
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nThis method will be called every time the current context is required by anybody in NetServer\n"
+  remarks: "\nThis method might be called from any thread.  This means that worker threads will \ncall it in addition to threads held by the application (i.e. IIS).\n<p>\nImplementations can call the <xref href=\"SuperOffice.Threading.ThreadManager.IsWorkerThread\" data-throw-if-not-resolved=\"false\"></xref> \nto check if the thread has been executed by the <xref href=\"SuperOffice.Threading.ThreadManager\" data-throw-if-not-resolved=\"false\"></xref>.  \nThis will be the case for all worker threads initiated automatically within NetServer.\n</p>\n"
+  syntax:
+    content: SoContextContainer GetCurrenContext()
+    return:
+      type: SuperOffice.Security.Principal.SoContextContainer
+      description: Current principal as required by NetServer.
+    content.vb: Function GetCurrenContext As SoContextContainer
+  overload: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext*
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.Principal.ISoContextProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISoContextProvider, To>()
+  nameWithType: EnumUtil.MapEnums<ISoContextProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoContextProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISoContextProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoContextProvider, To)()
+  name.vb: MapEnums(Of ISoContextProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISoContextProvider, To>
+    nameWithType: EnumUtil.MapEnums<ISoContextProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.ISoContextProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISoContextProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of ISoContextProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.ISoContextProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.ISoContextProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISoContextProvider, To>()
+  nameWithType: Converters.MapEnums<ISoContextProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoContextProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISoContextProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoContextProvider, To)()
+  name.vb: MapEnums(Of ISoContextProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISoContextProvider, To>
+    nameWithType: Converters.MapEnums<ISoContextProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.ISoContextProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISoContextProvider, To)
+    nameWithType: Converters.MapEnums(Of ISoContextProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.ISoContextProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext*
+  commentId: Overload:SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+  isExternal: true
+  name: SetCurrentContext
+  nameWithType: ISoContextProvider.SetCurrentContext
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.SetCurrentContext
+- uid: SuperOffice.Security.Principal.SoContextContainer
+  commentId: T:SuperOffice.Security.Principal.SoContextContainer
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoContextContainer
+  nameWithType: SoContextContainer
+  fullName: SuperOffice.Security.Principal.SoContextContainer
+- uid: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext*
+  commentId: Overload:SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext
+  isExternal: true
+  name: GetCurrenContext
+  nameWithType: ISoContextProvider.GetCurrenContext
+  fullName: SuperOffice.Security.Principal.ISoContextProvider.GetCurrenContext

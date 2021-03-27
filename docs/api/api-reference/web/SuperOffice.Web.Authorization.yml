@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Authorization
+  commentId: N:SuperOffice.Web.Authorization
+  id: SuperOffice.Web.Authorization
+  children:
+  - SuperOffice.Web.Authorization.AuthorizationState
+  - SuperOffice.Web.Authorization.DefaultSoFormsAuthorizerPlugin
+  - SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  - SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  - SuperOffice.Web.Authorization.SoFormsAuthorizerProvider
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.Authorization
+  nameWithType: SuperOffice.Web.Authorization
+  fullName: SuperOffice.Web.Authorization
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  commentId: T:SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+  parent: SuperOffice.Web.Authorization
+  isExternal: true
+  name: ISoFormsAuthorizerPlugin
+  nameWithType: ISoFormsAuthorizerPlugin
+  fullName: SuperOffice.Web.Authorization.ISoFormsAuthorizerPlugin
+- uid: SuperOffice.Web.Authorization.AuthorizationState
+  commentId: T:SuperOffice.Web.Authorization.AuthorizationState
+  parent: SuperOffice.Web.Authorization
+  isExternal: true
+  name: AuthorizationState
+  nameWithType: AuthorizationState
+  fullName: SuperOffice.Web.Authorization.AuthorizationState
+- uid: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  commentId: T:SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+  parent: SuperOffice.Web.Authorization
+  isExternal: true
+  name: SoFormsAuthorizerPluginAttribute
+  nameWithType: SoFormsAuthorizerPluginAttribute
+  fullName: SuperOffice.Web.Authorization.SoFormsAuthorizerPluginAttribute
+- uid: SuperOffice.Web.Authorization.DefaultSoFormsAuthorizerPlugin
+  commentId: T:SuperOffice.Web.Authorization.DefaultSoFormsAuthorizerPlugin
+  isExternal: true
+  name: DefaultSoFormsAuthorizerPlugin
+  nameWithType: DefaultSoFormsAuthorizerPlugin
+  fullName: SuperOffice.Web.Authorization.DefaultSoFormsAuthorizerPlugin
+- uid: SuperOffice.Web.Authorization.SoFormsAuthorizerProvider
+  commentId: T:SuperOffice.Web.Authorization.SoFormsAuthorizerProvider
+  isExternal: true
+  name: SoFormsAuthorizerProvider
+  nameWithType: SoFormsAuthorizerProvider
+  fullName: SuperOffice.Web.Authorization.SoFormsAuthorizerProvider
+- uid: SuperOffice.Web.Authorization
+  commentId: N:SuperOffice.Web.Authorization
+  isExternal: true
+  name: SuperOffice.Web.Authorization
+  nameWithType: SuperOffice.Web.Authorization
+  fullName: SuperOffice.Web.Authorization

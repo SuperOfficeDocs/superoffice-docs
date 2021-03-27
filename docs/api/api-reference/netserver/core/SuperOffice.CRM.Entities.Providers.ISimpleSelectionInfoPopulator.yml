@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
+  commentId: T:SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
+  id: ISimpleSelectionInfoPopulator
+  parent: SuperOffice.CRM.Entities.Providers
+  children:
+  - SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: ISimpleSelectionInfoPopulator
+  nameWithType: ISimpleSelectionInfoPopulator
+  fullName: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  summary: "\nInterface for managed/native callback class for on-demand data marshalling from C++\n"
+  remarks: "\nC++ clients may use an infrastructure of native/managed marshalling classes\nto implement on-demand population of data carriers. The name and structure\nof this interface is connected with the C++ code in NSEntityInfoPopulation.clr.h\nand should not be changed light-heartedly.\n"
+  syntax:
+    content: public interface ISimpleSelectionInfoPopulator
+    content.vb: Public Interface ISimpleSelectionInfoPopulator
+  extensionMethods:
+  - SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo(System.Int32)
+  commentId: M:SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo(System.Int32)
+  id: GetSimpleInfo(System.Int32)
+  parent: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator
+  langs:
+  - csharp
+  - vb
+  name: GetSimpleInfo(Int32)
+  nameWithType: ISimpleSelectionInfoPopulator.GetSimpleInfo(Int32)
+  fullName: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities.Providers
+  syntax:
+    content: SimpleSelectionInfo GetSimpleInfo(int primaryId)
+    parameters:
+    - id: primaryId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo
+    content.vb: Function GetSimpleInfo(primaryId As Integer) As SimpleSelectionInfo
+  overload: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo*
+references:
+- uid: SuperOffice.CRM.Entities.Providers
+  commentId: N:SuperOffice.CRM.Entities.Providers
+  isExternal: true
+  name: SuperOffice.CRM.Entities.Providers
+  nameWithType: SuperOffice.CRM.Entities.Providers
+  fullName: SuperOffice.CRM.Entities.Providers
+- uid: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ISimpleSelectionInfoPopulator, To>()
+  nameWithType: EnumUtil.MapEnums<ISimpleSelectionInfoPopulator, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ISimpleSelectionInfoPopulator, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To)()
+  name.vb: MapEnums(Of ISimpleSelectionInfoPopulator, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ISimpleSelectionInfoPopulator, To>
+    nameWithType: EnumUtil.MapEnums<ISimpleSelectionInfoPopulator, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ISimpleSelectionInfoPopulator, To)
+    nameWithType: EnumUtil.MapEnums(Of ISimpleSelectionInfoPopulator, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ISimpleSelectionInfoPopulator, To>()
+  nameWithType: Converters.MapEnums<ISimpleSelectionInfoPopulator, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To>()
+  nameWithType.vb: Converters.MapEnums(Of ISimpleSelectionInfoPopulator, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To)()
+  name.vb: MapEnums(Of ISimpleSelectionInfoPopulator, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ISimpleSelectionInfoPopulator, To>
+    nameWithType: Converters.MapEnums<ISimpleSelectionInfoPopulator, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ISimpleSelectionInfoPopulator, To)
+    nameWithType: Converters.MapEnums(Of ISimpleSelectionInfoPopulator, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo*
+  commentId: Overload:SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo
+  isExternal: true
+  name: GetSimpleInfo
+  nameWithType: ISimpleSelectionInfoPopulator.GetSimpleInfo
+  fullName: SuperOffice.CRM.Entities.Providers.ISimpleSelectionInfoPopulator.GetSimpleInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo
+  commentId: T:SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo
+  parent: SuperOffice.CRM.Entities.Providers
+  isExternal: true
+  name: SimpleSelectionInfo
+  nameWithType: SimpleSelectionInfo
+  fullName: SuperOffice.CRM.Entities.Providers.SimpleSelectionInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

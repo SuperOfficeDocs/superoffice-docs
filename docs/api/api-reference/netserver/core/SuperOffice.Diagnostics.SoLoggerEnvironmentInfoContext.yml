@@ -1,0 +1,1118 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  commentId: T:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  id: SoLoggerEnvironmentInfoContext
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor(System.Action{System.Collections.Specialized.NameValueCollection})
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor(System.Collections.Specialized.NameValueCollection)
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add(System.String,System.String)
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item(System.String)
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  langs:
+  - csharp
+  - vb
+  name: SoLoggerEnvironmentInfoContext
+  nameWithType: SoLoggerEnvironmentInfoContext
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nHelper class to add scoped environment info that will be used when logging. \n"
+  example:
+  - "\n<pre><code>using(var loggerContext = new SoLoggerEnvironmentInfoContext())\n{\n    loggerContext.Add(&quot;MyState&quot;, &quot;A super great day!&quot;);\n    try\n    {\n        // ToDo: Some stuff\n    }\n    catch (Exception ex)\n    {\n        SoLogger.LogError(ex);\n    }\n}</code></pre>\n"
+  syntax:
+    content: 'public class SoLoggerEnvironmentInfoContext : IDisposable'
+    content.vb: >-
+      Public Class SoLoggerEnvironmentInfoContext
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor(System.Action{System.Collections.Specialized.NameValueCollection})
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor(System.Action{System.Collections.Specialized.NameValueCollection})
+  id: '#ctor(System.Action{System.Collections.Specialized.NameValueCollection})'
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: SoLoggerEnvironmentInfoContext(Action<NameValueCollection>)
+  nameWithType: SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(Action<NameValueCollection>)
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(System.Action<System.Collections.Specialized.NameValueCollection>)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDefault constructor. Typically used with using.\n<param name=\"callback\">Callback to populate environment info</param>\n"
+  syntax:
+    content: public SoLoggerEnvironmentInfoContext(Action<NameValueCollection> callback)
+    parameters:
+    - id: callback
+      type: System.Action{System.Collections.Specialized.NameValueCollection}
+    content.vb: Public Sub New(callback As Action(Of NameValueCollection))
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor*
+  nameWithType.vb: SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(Action(Of NameValueCollection))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(System.Action(Of System.Collections.Specialized.NameValueCollection))
+  name.vb: SoLoggerEnvironmentInfoContext(Action(Of NameValueCollection))
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: SoLoggerEnvironmentInfoContext()
+  nameWithType: SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext()
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nDefault constructor. Typically used with using.\n"
+  syntax:
+    content: public SoLoggerEnvironmentInfoContext()
+    content.vb: Public Sub New
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor(System.Collections.Specialized.NameValueCollection)
+  id: '#ctor(System.Collections.Specialized.NameValueCollection)'
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: SoLoggerEnvironmentInfoContext(NameValueCollection)
+  nameWithType: SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext(System.Collections.Specialized.NameValueCollection)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nConstructor with an name-value collection. Typically used with using.\n"
+  syntax:
+    content: public SoLoggerEnvironmentInfoContext(NameValueCollection values)
+    parameters:
+    - id: values
+      type: System.Collections.Specialized.NameValueCollection
+      description: Name-value collection with environment info
+    content.vb: Public Sub New(values As NameValueCollection)
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose
+  id: Dispose
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SoLoggerEnvironmentInfoContext.Dispose()
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nEnd of scope\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add(System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add(System.String,System.String)
+  id: Add(System.String,System.String)
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: Add(String, String)
+  nameWithType: SoLoggerEnvironmentInfoContext.Add(String, String)
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAdd environment value\n"
+  syntax:
+    content: public void Add(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.String
+    content.vb: Public Sub Add(key As String, value As String)
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: OnGetEnvironmentInfo(NameValueCollection)
+  nameWithType: SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nApply all scoped contexts\n"
+  syntax:
+    content: public static void OnGetEnvironmentInfo(NameValueCollection environmentInfo)
+    parameters:
+    - id: environmentInfo
+      type: System.Collections.Specialized.NameValueCollection
+      description: All scoped values will be added to this parameter
+    content.vb: Public Shared Sub OnGetEnvironmentInfo(environmentInfo As NameValueCollection)
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: OnGetContextEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: OnGetContextEnvironmentInfo(NameValueCollection)
+  nameWithType: SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nApply this scoped context\n"
+  syntax:
+    content: public void OnGetContextEnvironmentInfo(NameValueCollection environmentInfo)
+    parameters:
+    - id: environmentInfo
+      type: System.Collections.Specialized.NameValueCollection
+      description: All scoped values will be added to this parameter
+    content.vb: Public Sub OnGetContextEnvironmentInfo(environmentInfo As NameValueCollection)
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item(System.String)
+  commentId: P:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: SoLoggerEnvironmentInfoContext.Item[String]
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item[System.String]
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nAdd or replace a environment value\n"
+  syntax:
+    content: public string this[string key] { get; set; }
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Property Item(key As String) As String
+  overload: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item*
+  nameWithType.vb: SoLoggerEnvironmentInfoContext.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item(System.String)
+  name.vb: Item(String)
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoLoggerEnvironmentInfoContext, To>()
+  nameWithType: EnumUtil.MapEnums<SoLoggerEnvironmentInfoContext, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoLoggerEnvironmentInfoContext, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To)()
+  name.vb: MapEnums(Of SoLoggerEnvironmentInfoContext, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoLoggerEnvironmentInfoContext, To>
+    nameWithType: EnumUtil.MapEnums<SoLoggerEnvironmentInfoContext, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoLoggerEnvironmentInfoContext, To)
+    nameWithType: EnumUtil.MapEnums(Of SoLoggerEnvironmentInfoContext, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SoLoggerEnvironmentInfoContext>(SoLoggerEnvironmentInfoContext)
+  nameWithType: ObjectExtensions.AssignByReflection<SoLoggerEnvironmentInfoContext>(SoLoggerEnvironmentInfoContext)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext>(SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SoLoggerEnvironmentInfoContext)(SoLoggerEnvironmentInfoContext)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)(SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)
+  name.vb: AssignByReflection(Of SoLoggerEnvironmentInfoContext)(SoLoggerEnvironmentInfoContext)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SoLoggerEnvironmentInfoContext>
+    nameWithType: ObjectExtensions.AssignByReflection<SoLoggerEnvironmentInfoContext>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+    name: SoLoggerEnvironmentInfoContext
+    nameWithType: SoLoggerEnvironmentInfoContext
+    fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SoLoggerEnvironmentInfoContext)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SoLoggerEnvironmentInfoContext)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+    name: SoLoggerEnvironmentInfoContext
+    nameWithType: SoLoggerEnvironmentInfoContext
+    fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SoLoggerEnvironmentInfoContext>()
+  nameWithType: ObjectExtensions.GraphCopy<SoLoggerEnvironmentInfoContext>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SoLoggerEnvironmentInfoContext)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)()
+  name.vb: GraphCopy(Of SoLoggerEnvironmentInfoContext)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SoLoggerEnvironmentInfoContext>
+    nameWithType: ObjectExtensions.GraphCopy<SoLoggerEnvironmentInfoContext>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SoLoggerEnvironmentInfoContext)
+    nameWithType: ObjectExtensions.GraphCopy(Of SoLoggerEnvironmentInfoContext)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoLoggerEnvironmentInfoContext, To>()
+  nameWithType: Converters.MapEnums<SoLoggerEnvironmentInfoContext, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoLoggerEnvironmentInfoContext, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To)()
+  name.vb: MapEnums(Of SoLoggerEnvironmentInfoContext, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoLoggerEnvironmentInfoContext, To>
+    nameWithType: Converters.MapEnums<SoLoggerEnvironmentInfoContext, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoLoggerEnvironmentInfoContext, To)
+    nameWithType: Converters.MapEnums(Of SoLoggerEnvironmentInfoContext, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor*
+  commentId: Overload:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.#ctor
+  isExternal: true
+  name: SoLoggerEnvironmentInfoContext
+  nameWithType: SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.SoLoggerEnvironmentInfoContext
+- uid: System.Action{System.Collections.Specialized.NameValueCollection}
+  commentId: T:System.Action{System.Collections.Specialized.NameValueCollection}
+  parent: System
+  definition: System.Action`1
+  name: Action<NameValueCollection>
+  nameWithType: Action<NameValueCollection>
+  fullName: System.Action<System.Collections.Specialized.NameValueCollection>
+  nameWithType.vb: Action(Of NameValueCollection)
+  fullName.vb: System.Action(Of System.Collections.Specialized.NameValueCollection)
+  name.vb: Action(Of NameValueCollection)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Specialized.NameValueCollection
+    name: NameValueCollection
+    nameWithType: NameValueCollection
+    fullName: System.Collections.Specialized.NameValueCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose*
+  commentId: Overload:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: SoLoggerEnvironmentInfoContext.Dispose
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add*
+  commentId: Overload:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add
+  isExternal: true
+  name: Add
+  nameWithType: SoLoggerEnvironmentInfoContext.Add
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Add
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo*
+  commentId: Overload:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo
+  isExternal: true
+  name: OnGetEnvironmentInfo
+  nameWithType: SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetEnvironmentInfo
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo*
+  commentId: Overload:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo
+  isExternal: true
+  name: OnGetContextEnvironmentInfo
+  nameWithType: SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.OnGetContextEnvironmentInfo
+- uid: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item*
+  commentId: Overload:SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item
+  isExternal: true
+  name: Item
+  nameWithType: SoLoggerEnvironmentInfoContext.Item
+  fullName: SuperOffice.Diagnostics.SoLoggerEnvironmentInfoContext.Item

@@ -1,0 +1,1087 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Cryptography.Symmetric
+  commentId: T:SuperOffice.Security.Cryptography.Symmetric
+  id: Symmetric
+  parent: SuperOffice.Security.Cryptography
+  children:
+  - SuperOffice.Security.Cryptography.Symmetric.#ctor
+  - SuperOffice.Security.Cryptography.Symmetric.Decrypt(System.String)
+  - SuperOffice.Security.Cryptography.Symmetric.DecryptBytes(System.String)
+  - SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8(System.String)
+  - SuperOffice.Security.Cryptography.Symmetric.Encrypt(System.String)
+  - SuperOffice.Security.Cryptography.Symmetric.EncryptBytes(System.Byte[])
+  - SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8(System.String)
+  - SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64
+  - SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64
+  langs:
+  - csharp
+  - vb
+  name: Symmetric
+  nameWithType: Symmetric
+  fullName: SuperOffice.Security.Cryptography.Symmetric
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nUtility class for performing simple symmetric encryption and decryption \nbased upon values in the <xref href=\"SuperOffice.Configuration.ConfigFile.Security.Cryptography\" data-throw-if-not-resolved=\"false\"></xref>.\n\nThe encrypted data has an encryption header in this general format:\nVersion | IV | EncryptedData | Signature\n\nVersion 1 uses AES256 (in CBC mode) and HMACSHA256 as the encryption and signature algorithms. \n"
+  syntax:
+    content: public sealed class Symmetric
+    content.vb: Public NotInheritable Class Symmetric
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Security.Cryptography.Symmetric.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Cryptography.Symmetric.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Cryptography.Symmetric)
+  - SuperOffice.Security.Cryptography.Symmetric.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Security.Cryptography.Symmetric.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Cryptography.Symmetric.Encrypt(System.String)
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.Encrypt(System.String)
+  id: Encrypt(System.String)
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Encrypt(String)
+  nameWithType: Symmetric.Encrypt(String)
+  fullName: SuperOffice.Security.Cryptography.Symmetric.Encrypt(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nEncrypts the string and return it as a Base64 encoded encrypted string.\n"
+  remarks: "\nThe data is encrypted and signed. \n"
+  syntax:
+    content: public static string Encrypt(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to encrypt.
+    return:
+      type: System.String
+      description: Encrypted Base64 encoded string
+    content.vb: Public Shared Function Encrypt(text As String) As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.Encrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8(System.String)
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8(System.String)
+  id: EncryptUTF8(System.String)
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: EncryptUTF8(String)
+  nameWithType: Symmetric.EncryptUTF8(String)
+  fullName: SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  syntax:
+    content: public static string EncryptUTF8(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function EncryptUTF8(text As String) As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes(System.Byte[])
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.EncryptBytes(System.Byte[])
+  id: EncryptBytes(System.Byte[])
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: EncryptBytes(Byte[])
+  nameWithType: Symmetric.EncryptBytes(Byte[])
+  fullName: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes(System.Byte[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nEncrypts the byte array (e.g. byte[]) and return it as a Base64 encoded encrypted string.\n"
+  remarks: "\nThe data is encrypted and signed. \n"
+  syntax:
+    content: public static string EncryptBytes(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+      description: byte array (e.g. byte[]) to encrypt.
+    return:
+      type: System.String
+      description: Encrypted Base64 encoded string
+    content.vb: Public Shared Function EncryptBytes(bytes As Byte()) As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes*
+  nameWithType.vb: Symmetric.EncryptBytes(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes(System.Byte())
+  name.vb: EncryptBytes(Byte())
+- uid: SuperOffice.Security.Cryptography.Symmetric.Decrypt(System.String)
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.Decrypt(System.String)
+  id: Decrypt(System.String)
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Decrypt(String)
+  nameWithType: Symmetric.Decrypt(String)
+  fullName: SuperOffice.Security.Cryptography.Symmetric.Decrypt(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nDecrypts the Base64 encoded string and return it as a clear-text string.\n"
+  remarks: "\nThe signature of the data is verified before the data is decrypted.\n"
+  syntax:
+    content: public static string Decrypt(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Base64 encoded encrypted string.
+    return:
+      type: System.String
+      description: Decrypted string
+    content.vb: Public Shared Function Decrypt(text As String) As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.Decrypt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8(System.String)
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8(System.String)
+  id: DecryptUTF8(System.String)
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: DecryptUTF8(String)
+  nameWithType: Symmetric.DecryptUTF8(String)
+  fullName: SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nDecrypts the base64 encoded version. Throws SoInvalidSignatureException if the signature is invalid.  \n"
+  syntax:
+    content: public static string DecryptUTF8(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function DecryptUTF8(text As String) As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.DecryptBytes(System.String)
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.DecryptBytes(System.String)
+  id: DecryptBytes(System.String)
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: DecryptBytes(String)
+  nameWithType: Symmetric.DecryptBytes(String)
+  fullName: SuperOffice.Security.Cryptography.Symmetric.DecryptBytes(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nDecrypts the Base64 encoded string and return it as a byte array (e.g. byte[]).\n"
+  remarks: "\nThe signature of the data is verified before the data is decrypted.\n"
+  syntax:
+    content: public static byte[] DecryptBytes(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Base64 encoded encrypted string.
+    return:
+      type: System.Byte[]
+      description: Decrypted byte array (e.g. byte[]).
+    content.vb: Public Shared Function DecryptBytes(text As String) As Byte()
+  overload: SuperOffice.Security.Cryptography.Symmetric.DecryptBytes*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64
+  id: GenerateEncryptionKeyAsBase64
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: GenerateEncryptionKeyAsBase64()
+  nameWithType: Symmetric.GenerateEncryptionKeyAsBase64()
+  fullName: SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nGenerate a new key for usage on the current encryption algorithm. \n"
+  syntax:
+    content: public static string GenerateEncryptionKeyAsBase64()
+    return:
+      type: System.String
+      description: A base64-encoded version of the generated key
+    content.vb: Public Shared Function GenerateEncryptionKeyAsBase64 As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64
+  id: GenerateSigningKeyAsBase64
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: GenerateSigningKeyAsBase64()
+  nameWithType: Symmetric.GenerateSigningKeyAsBase64()
+  fullName: SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  summary: "\nGenerate a new &quot;secret&quot; which is used when signing the encrypted data.\n"
+  syntax:
+    content: public static string GenerateSigningKeyAsBase64()
+    return:
+      type: System.String
+      description: A base64-encoded version of the generated secret/signing key
+    content.vb: Public Shared Function GenerateSigningKeyAsBase64 As String
+  overload: SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Security.Cryptography.Symmetric.#ctor
+  commentId: M:SuperOffice.Security.Cryptography.Symmetric.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Security.Cryptography.Symmetric
+  langs:
+  - csharp
+  - vb
+  name: Symmetric()
+  nameWithType: Symmetric.Symmetric()
+  fullName: SuperOffice.Security.Cryptography.Symmetric.Symmetric()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Cryptography
+  syntax:
+    content: public Symmetric()
+    content.vb: Public Sub New
+  overload: SuperOffice.Security.Cryptography.Symmetric.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Security.Cryptography
+  commentId: N:SuperOffice.Security.Cryptography
+  isExternal: true
+  name: SuperOffice.Security.Cryptography
+  nameWithType: SuperOffice.Security.Cryptography
+  fullName: SuperOffice.Security.Cryptography
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Cryptography.Symmetric.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<Symmetric, To>()
+  nameWithType: EnumUtil.MapEnums<Symmetric, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Cryptography.Symmetric, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of Symmetric, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Cryptography.Symmetric, To)()
+  name.vb: MapEnums(Of Symmetric, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<Symmetric, To>
+    nameWithType: EnumUtil.MapEnums<Symmetric, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Cryptography.Symmetric, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of Symmetric, To)
+    nameWithType: EnumUtil.MapEnums(Of Symmetric, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Cryptography.Symmetric, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Cryptography.Symmetric.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Security.Cryptography.Symmetric)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<Symmetric>(Symmetric)
+  nameWithType: ObjectExtensions.AssignByReflection<Symmetric>(Symmetric)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Cryptography.Symmetric>(SuperOffice.Security.Cryptography.Symmetric)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of Symmetric)(Symmetric)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Cryptography.Symmetric)(SuperOffice.Security.Cryptography.Symmetric)
+  name.vb: AssignByReflection(Of Symmetric)(Symmetric)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<Symmetric>
+    nameWithType: ObjectExtensions.AssignByReflection<Symmetric>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Security.Cryptography.Symmetric>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Cryptography.Symmetric
+    name: Symmetric
+    nameWithType: Symmetric
+    fullName: SuperOffice.Security.Cryptography.Symmetric
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of Symmetric)
+    nameWithType: ObjectExtensions.AssignByReflection(Of Symmetric)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Security.Cryptography.Symmetric)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Security.Cryptography.Symmetric
+    name: Symmetric
+    nameWithType: Symmetric
+    fullName: SuperOffice.Security.Cryptography.Symmetric
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Cryptography.Symmetric.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<Symmetric>()
+  nameWithType: ObjectExtensions.GraphCopy<Symmetric>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Cryptography.Symmetric>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of Symmetric)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Cryptography.Symmetric)()
+  name.vb: GraphCopy(Of Symmetric)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<Symmetric>
+    nameWithType: ObjectExtensions.GraphCopy<Symmetric>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Security.Cryptography.Symmetric>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of Symmetric)
+    nameWithType: ObjectExtensions.GraphCopy(Of Symmetric)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Security.Cryptography.Symmetric)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Cryptography.Symmetric.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<Symmetric, To>()
+  nameWithType: Converters.MapEnums<Symmetric, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Cryptography.Symmetric, To>()
+  nameWithType.vb: Converters.MapEnums(Of Symmetric, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Cryptography.Symmetric, To)()
+  name.vb: MapEnums(Of Symmetric, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<Symmetric, To>
+    nameWithType: Converters.MapEnums<Symmetric, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Cryptography.Symmetric, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of Symmetric, To)
+    nameWithType: Converters.MapEnums(Of Symmetric, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Cryptography.Symmetric, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Cryptography.Symmetric.Encrypt*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.Encrypt
+  isExternal: true
+  name: Encrypt
+  nameWithType: Symmetric.Encrypt
+  fullName: SuperOffice.Security.Cryptography.Symmetric.Encrypt
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8
+  isExternal: true
+  name: EncryptUTF8
+  nameWithType: Symmetric.EncryptUTF8
+  fullName: SuperOffice.Security.Cryptography.Symmetric.EncryptUTF8
+- uid: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.EncryptBytes
+  isExternal: true
+  name: EncryptBytes
+  nameWithType: Symmetric.EncryptBytes
+  fullName: SuperOffice.Security.Cryptography.Symmetric.EncryptBytes
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Security.Cryptography.Symmetric.Decrypt*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.Decrypt
+  isExternal: true
+  name: Decrypt
+  nameWithType: Symmetric.Decrypt
+  fullName: SuperOffice.Security.Cryptography.Symmetric.Decrypt
+- uid: SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8
+  isExternal: true
+  name: DecryptUTF8
+  nameWithType: Symmetric.DecryptUTF8
+  fullName: SuperOffice.Security.Cryptography.Symmetric.DecryptUTF8
+- uid: SuperOffice.Security.Cryptography.Symmetric.DecryptBytes*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.DecryptBytes
+  isExternal: true
+  name: DecryptBytes
+  nameWithType: Symmetric.DecryptBytes
+  fullName: SuperOffice.Security.Cryptography.Symmetric.DecryptBytes
+- uid: SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64
+  isExternal: true
+  name: GenerateEncryptionKeyAsBase64
+  nameWithType: Symmetric.GenerateEncryptionKeyAsBase64
+  fullName: SuperOffice.Security.Cryptography.Symmetric.GenerateEncryptionKeyAsBase64
+- uid: SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64
+  isExternal: true
+  name: GenerateSigningKeyAsBase64
+  nameWithType: Symmetric.GenerateSigningKeyAsBase64
+  fullName: SuperOffice.Security.Cryptography.Symmetric.GenerateSigningKeyAsBase64
+- uid: SuperOffice.Security.Cryptography.Symmetric.#ctor*
+  commentId: Overload:SuperOffice.Security.Cryptography.Symmetric.#ctor
+  isExternal: true
+  name: Symmetric
+  nameWithType: Symmetric.Symmetric
+  fullName: SuperOffice.Security.Cryptography.Symmetric.Symmetric

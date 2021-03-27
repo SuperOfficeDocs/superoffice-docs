@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoEditControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoEditControl
+  id: SoEditControl
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoEditControl.#ctor
+  - SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  langs:
+  - csharp
+  - vb
+  name: SoEditControl
+  nameWithType: SoEditControl
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoEditControl : SoControl'
+    content.vb: >-
+      Public Class SoEditControl
+          Inherits SoControl
+  inheritance:
+  - System.Object
+  - SuperOffice.Web.UI.Controls.SoControl
+  derivedClasses:
+  - SuperOffice.Web.UI.Controls.SoAddress
+  inheritedMembers:
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoEditControl.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoEditControl.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoEditControl
+  langs:
+  - csharp
+  - vb
+  name: SoEditControl()
+  nameWithType: SoEditControl.SoEditControl()
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl.SoEditControl()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoEditControl()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoEditControl.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  commentId: P:SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  id: EditMode
+  parent: SuperOffice.Web.UI.Controls.SoEditControl
+  langs:
+  - csharp
+  - vb
+  name: EditMode
+  nameWithType: SoEditControl.EditMode
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public bool EditMode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EditMode As Boolean
+  overload: SuperOffice.Web.UI.Controls.SoEditControl.EditMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  parent: SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoEditControl.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoEditControl.#ctor
+  isExternal: true
+  name: SoEditControl
+  nameWithType: SoEditControl.SoEditControl
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl.SoEditControl
+- uid: SuperOffice.Web.UI.Controls.SoEditControl.EditMode*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+  isExternal: true
+  name: EditMode
+  nameWithType: SoEditControl.EditMode
+  fullName: SuperOffice.Web.UI.Controls.SoEditControl.EditMode
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

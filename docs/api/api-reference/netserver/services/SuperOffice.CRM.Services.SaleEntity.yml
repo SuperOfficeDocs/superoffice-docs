@@ -1,0 +1,2521 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SaleEntity
+  commentId: T:SuperOffice.CRM.Services.SaleEntity
+  id: SaleEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SaleEntity.#ctor
+  - SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks
+  - SuperOffice.CRM.Services.SaleEntity.ActiveLinks
+  - SuperOffice.CRM.Services.SaleEntity.Amount
+  - SuperOffice.CRM.Services.SaleEntity.Appointment
+  - SuperOffice.CRM.Services.SaleEntity.Associate
+  - SuperOffice.CRM.Services.SaleEntity.Competitor
+  - SuperOffice.CRM.Services.SaleEntity.Completed
+  - SuperOffice.CRM.Services.SaleEntity.Contact
+  - SuperOffice.CRM.Services.SaleEntity.CreatedBy
+  - SuperOffice.CRM.Services.SaleEntity.CreatedDate
+  - SuperOffice.CRM.Services.SaleEntity.Credited
+  - SuperOffice.CRM.Services.SaleEntity.Currency
+  - SuperOffice.CRM.Services.SaleEntity.CustomFields
+  - SuperOffice.CRM.Services.SaleEntity.Earning
+  - SuperOffice.CRM.Services.SaleEntity.EarningPercent
+  - SuperOffice.CRM.Services.SaleEntity.ExtraFields
+  - SuperOffice.CRM.Services.SaleEntity.Heading
+  - SuperOffice.CRM.Services.SaleEntity.IsPublished
+  - SuperOffice.CRM.Services.SaleEntity.Links
+  - SuperOffice.CRM.Services.SaleEntity.NextDueDate
+  - SuperOffice.CRM.Services.SaleEntity.Number
+  - SuperOffice.CRM.Services.SaleEntity.Person
+  - SuperOffice.CRM.Services.SaleEntity.Postit
+  - SuperOffice.CRM.Services.SaleEntity.Probability
+  - SuperOffice.CRM.Services.SaleEntity.Project
+  - SuperOffice.CRM.Services.SaleEntity.PublishEventDate
+  - SuperOffice.CRM.Services.SaleEntity.PublishFrom
+  - SuperOffice.CRM.Services.SaleEntity.PublishTo
+  - SuperOffice.CRM.Services.SaleEntity.Rating
+  - SuperOffice.CRM.Services.SaleEntity.Reason
+  - SuperOffice.CRM.Services.SaleEntity.ReasonSold
+  - SuperOffice.CRM.Services.SaleEntity.ReasonStalled
+  - SuperOffice.CRM.Services.SaleEntity.ReopenDate
+  - SuperOffice.CRM.Services.SaleEntity.Saledate
+  - SuperOffice.CRM.Services.SaleEntity.SaleId
+  - SuperOffice.CRM.Services.SaleEntity.SaleStakeholders
+  - SuperOffice.CRM.Services.SaleEntity.SaleText
+  - SuperOffice.CRM.Services.SaleEntity.SaleType
+  - SuperOffice.CRM.Services.SaleEntity.Source
+  - SuperOffice.CRM.Services.SaleEntity.Status
+  - SuperOffice.CRM.Services.SaleEntity.ToString
+  - SuperOffice.CRM.Services.SaleEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.SaleEntity.UpdatedBy
+  - SuperOffice.CRM.Services.SaleEntity.UpdatedDate
+  - SuperOffice.CRM.Services.SaleEntity.UserDefinedFields
+  - SuperOffice.CRM.Services.SaleEntity.VisibleFor
+  langs:
+  - csharp
+  - vb
+  name: SaleEntity
+  nameWithType: SaleEntity
+  fullName: SuperOffice.CRM.Services.SaleEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPartial SaleEntity class associating the generated SaleEntity with an interface.\n"
+  example:
+  - "\nGet SaleEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new SaleAgent();\n    var saleEntity = agent.GetSaleEntity( 123 );\n }</code></pre>\n\nFind all SaleEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;FindSale&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );\nvar history = archive.GetArchiveListByColumns2(&quot;SaleHistory&quot;, &quot;...&quot;, null, &quot;saleId eq 123&quot;, null, 0, 100 );\nvar activities = archive.GetArchiveListByColumns2(&quot;SaleActivities&quot;, &quot;...&quot;, null, &quot;saleId eq 123&quot;, null, 0, 100 );\nvar guide = archive.GetArchiveListByColumns2(&quot;SaleGuide&quot;, &quot;...&quot;, null, &quot;saleId eq 123&quot;, null, 0, 100 );\nvar stakeholders = archive.GetArchiveListByColumns2(&quot;SaleStakeholder&quot;, &quot;...&quot;, null, &quot;saleId eq 123&quot;, null, 0, 100 );\nvar links = archive.GetArchiveListByColumns2(&quot;Links&quot;, &quot;...&quot;, null, &quot;sourceSaleRestrictionId eq 123&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class SaleEntity : Carrier, IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier'
+    content.vb: >-
+      Public Class SaleEntity
+          Inherits Carrier
+          Implements IRelationEntityCarrier, ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier, IEntityCarrier, IUdefFieldCarrier, IExtraFieldCarrier, IPublishedCarrier, IVisibleForCarrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.SaleAgent
+    commentId: T:SuperOffice.CRM.Services.SaleAgent
+  - linkId: SuperOffice.CRM.Services.ISaleAgent
+    commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IRelationEntityCarrier
+  - SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  - SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  - SuperOffice.CRM.Services.IEntityCarrier
+  - SuperOffice.CRM.Services.IUdefFieldCarrier
+  - SuperOffice.CRM.Services.IExtraFieldCarrier
+  - SuperOffice.CRM.Services.IPublishedCarrier
+  - SuperOffice.CRM.Services.IVisibleForCarrier
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SaleEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.SaleEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleEntity()
+  nameWithType: SaleEntity.SaleEntity()
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public SaleEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SaleEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.SaleEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SaleEntity.ToString()
+  fullName: SuperOffice.CRM.Services.SaleEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.SaleEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.SaleEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.SaleEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: SaleEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.SaleEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.SaleEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.Appointment
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Appointment
+  id: Appointment
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: SaleEntity.Appointment
+  fullName: SuperOffice.CRM.Services.SaleEntity.Appointment
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual Appointment Appointment { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Appointment
+    content.vb: Public Overridable Property Appointment As Appointment
+  overload: SuperOffice.CRM.Services.SaleEntity.Appointment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Associate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Associate
+  id: Associate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SaleEntity.Associate
+  fullName: SuperOffice.CRM.Services.SaleEntity.Associate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe sale owner \n<p>Use MDO List name &quot;associate&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Associate Associate { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property Associate As Associate
+  overload: SuperOffice.CRM.Services.SaleEntity.Associate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: SaleEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.SaleEntity.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho updated the sale \n"
+  syntax:
+    content: public virtual Associate UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property UpdatedBy As Associate
+  overload: SuperOffice.CRM.Services.SaleEntity.UpdatedBy*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: SaleEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.SaleEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWho created to sale \n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.SaleEntity.CreatedBy*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Contact
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: SaleEntity.Contact
+  fullName: SuperOffice.CRM.Services.SaleEntity.Contact
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe contact associated with the sale. It may also be 0 if no contact is associated with the sale. \n<p>Use MDO List name &quot;contact&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Contact Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Contact
+    content.vb: Public Overridable Property Contact As Contact
+  overload: SuperOffice.CRM.Services.SaleEntity.Contact*
+  implements:
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Project
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Project
+  id: Project
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: SaleEntity.Project
+  fullName: SuperOffice.CRM.Services.SaleEntity.Project
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA sale may also be connected to a project, so you see the sale both on the company card, and on the project card. This does not mean that a project is required. \n<p>Use MDO List name &quot;project&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Project Project { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Project
+    content.vb: Public Overridable Property Project As Project
+  overload: SuperOffice.CRM.Services.SaleEntity.Project*
+  implements:
+  - SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleText
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.SaleText
+  id: SaleText
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleText
+  nameWithType: SaleEntity.SaleText
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleText
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nText describing the sale \n"
+  syntax:
+    content: public virtual string SaleText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SaleText As String
+  overload: SuperOffice.CRM.Services.SaleEntity.SaleText*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Person
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Person
+  id: Person
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: SaleEntity.Person
+  fullName: SuperOffice.CRM.Services.SaleEntity.Person
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA sale may also be connected to a person - this must be a contact person registered on the current contact. This does not mean that a person is required. \n<p>Use MDO List name &quot;person&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Person
+    content.vb: Public Overridable Property Person As Person
+  overload: SuperOffice.CRM.Services.SaleEntity.Person*
+  implements:
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Currency
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Currency
+  id: Currency
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: SaleEntity.Currency
+  fullName: SuperOffice.CRM.Services.SaleEntity.Currency
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe currency the sale object was sold in \n<p>Use MDO List name &quot;currency&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Currency Currency { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Currency
+    content.vb: Public Overridable Property Currency As Currency
+  overload: SuperOffice.CRM.Services.SaleEntity.Currency*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Competitor
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Competitor
+  id: Competitor
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Competitor
+  nameWithType: SaleEntity.Competitor
+  fullName: SuperOffice.CRM.Services.SaleEntity.Competitor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nList of all possible competitors.  \n<p>Use MDO List name &quot;comptr&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Competitor Competitor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Competitor
+    content.vb: Public Overridable Property Competitor As Competitor
+  overload: SuperOffice.CRM.Services.SaleEntity.Competitor*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Credited
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Credited
+  id: Credited
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Credited
+  nameWithType: SaleEntity.Credited
+  fullName: SuperOffice.CRM.Services.SaleEntity.Credited
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nList of who is to be credited for the sale. \n<p>Use MDO List name &quot;credited&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Credited Credited { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Credited
+    content.vb: Public Overridable Property Credited As Credited
+  overload: SuperOffice.CRM.Services.SaleEntity.Credited*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Rating
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Rating
+  id: Rating
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Rating
+  nameWithType: SaleEntity.Rating
+  fullName: SuperOffice.CRM.Services.SaleEntity.Rating
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe sale rating \n<p>Use MDO List name &quot;prob&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Rating Rating { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Rating
+    content.vb: Public Overridable Property Rating As Rating
+  overload: SuperOffice.CRM.Services.SaleEntity.Rating*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Reason
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Reason
+  id: Reason
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: SaleEntity.Reason
+  fullName: SuperOffice.CRM.Services.SaleEntity.Reason
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe sale reason \n<p>Use MDO List name &quot;reason&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Reason Reason { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Reason
+    content.vb: Public Overridable Property Reason As Reason
+  overload: SuperOffice.CRM.Services.SaleEntity.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Source
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: SaleEntity.Source
+  fullName: SuperOffice.CRM.Services.SaleEntity.Source
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe sale source \n<p>Use MDO List name &quot;source&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Source Source { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Source
+    content.vb: Public Overridable Property Source As Source
+  overload: SuperOffice.CRM.Services.SaleEntity.Source*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Status
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Status
+  id: Status
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SaleEntity.Status
+  fullName: SuperOffice.CRM.Services.SaleEntity.Status
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe state of the Sale: Open / Sold / Lost / Stalled \n"
+  syntax:
+    content: public virtual SaleStatus Status { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SaleStatus
+    content.vb: Public Overridable Property Status As SaleStatus
+  overload: SuperOffice.CRM.Services.SaleEntity.Status*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Saledate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Saledate
+  id: Saledate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Saledate
+  nameWithType: SaleEntity.Saledate
+  fullName: SuperOffice.CRM.Services.SaleEntity.Saledate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n(expected / lost / won) sales date \n"
+  syntax:
+    content: public virtual DateTime Saledate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Saledate As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.Saledate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Amount
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Amount
+  id: Amount
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: SaleEntity.Amount
+  fullName: SuperOffice.CRM.Services.SaleEntity.Amount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTotal sale amount \n"
+  syntax:
+    content: public virtual double Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Amount As Double
+  overload: SuperOffice.CRM.Services.SaleEntity.Amount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleId
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.SaleId
+  id: SaleId
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleId
+  nameWithType: SaleEntity.SaleId
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int SaleId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SaleId As Integer
+  overload: SuperOffice.CRM.Services.SaleEntity.SaleId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Earning
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Earning
+  id: Earning
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Earning
+  nameWithType: SaleEntity.Earning
+  fullName: SuperOffice.CRM.Services.SaleEntity.Earning
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEarning on sale \n"
+  syntax:
+    content: public virtual double Earning { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Earning As Double
+  overload: SuperOffice.CRM.Services.SaleEntity.Earning*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.EarningPercent
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: SaleEntity.EarningPercent
+  fullName: SuperOffice.CRM.Services.SaleEntity.EarningPercent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nEarning as percent of total \n"
+  syntax:
+    content: public virtual double EarningPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningPercent As Double
+  overload: SuperOffice.CRM.Services.SaleEntity.EarningPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Heading
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Heading
+  id: Heading
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Heading
+  nameWithType: SaleEntity.Heading
+  fullName: SuperOffice.CRM.Services.SaleEntity.Heading
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSale heading (short description?) \n"
+  syntax:
+    content: public virtual string Heading { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Heading As String
+  overload: SuperOffice.CRM.Services.SaleEntity.Heading*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Number
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Number
+  id: Number
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: SaleEntity.Number
+  fullName: SuperOffice.CRM.Services.SaleEntity.Number
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAlphanumeric user field \n"
+  syntax:
+    content: public virtual string Number { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Number As String
+  overload: SuperOffice.CRM.Services.SaleEntity.Number*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Probability
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Probability
+  id: Probability
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Probability
+  nameWithType: SaleEntity.Probability
+  fullName: SuperOffice.CRM.Services.SaleEntity.Probability
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nActual probability, may differ from the one in the list \n"
+  syntax:
+    content: public virtual short Probability { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Probability As Short
+  overload: SuperOffice.CRM.Services.SaleEntity.Probability*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: SaleEntity.CreatedDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered date  in UTC.\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.CreatedDate*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: SaleEntity.UpdatedDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated  in UTC.\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.UpdatedDate*
+  implements:
+  - SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Completed
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Completed
+  id: Completed
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Completed
+  nameWithType: SaleEntity.Completed
+  fullName: SuperOffice.CRM.Services.SaleEntity.Completed
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe Sale completed state. The completed state is either Started or Completed. NotStarted is treated as Started. The value maps to the Done database field. \n"
+  syntax:
+    content: public virtual ActivityStatus Completed { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.ActivityStatus
+    content.vb: Public Overridable Property Completed As ActivityStatus
+  overload: SuperOffice.CRM.Services.SaleEntity.Completed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.ActiveLinks
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.ActiveLinks
+  id: ActiveLinks
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveLinks
+  nameWithType: SaleEntity.ActiveLinks
+  fullName: SuperOffice.CRM.Services.SaleEntity.ActiveLinks
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of active links to sale, document, appointment. \n"
+  syntax:
+    content: public virtual int ActiveLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveLinks As Integer
+  overload: SuperOffice.CRM.Services.SaleEntity.ActiveLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Links
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Links
+  id: Links
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Links
+  nameWithType: SaleEntity.Links
+  fullName: SuperOffice.CRM.Services.SaleEntity.Links
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nList of all elements linked to the sale. \n"
+  syntax:
+    content: public virtual Link[] Links { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Link[]
+    content.vb: Public Overridable Property Links As Link()
+  overload: SuperOffice.CRM.Services.SaleEntity.Links*
+  implements:
+  - SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.NextDueDate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.NextDueDate
+  id: NextDueDate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: NextDueDate
+  nameWithType: SaleEntity.NextDueDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.NextDueDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNext due date, this is a denormalization of &apos;closest future activity date, or most recent if no future activities&apos;. Maintained by the system, but very convenient for searching. \n"
+  syntax:
+    content: public virtual DateTime NextDueDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property NextDueDate As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.NextDueDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.Postit
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.Postit
+  id: Postit
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: Postit
+  nameWithType: SaleEntity.Postit
+  fullName: SuperOffice.CRM.Services.SaleEntity.Postit
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe actual text, max 2047 significant characters even though it is stored as a larger data type on some databases \n"
+  syntax:
+    content: public virtual string Postit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Postit As String
+  overload: SuperOffice.CRM.Services.SaleEntity.Postit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleType
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.SaleType
+  id: SaleType
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: SaleEntity.SaleType
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleType
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p>Use MDO List name &quot;saletype&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual SaleType SaleType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SaleType
+    content.vb: Public Overridable Property SaleType As SaleType
+  overload: SuperOffice.CRM.Services.SaleEntity.SaleType*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.ReasonSold
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.ReasonSold
+  id: ReasonSold
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ReasonSold
+  nameWithType: SaleEntity.ReasonSold
+  fullName: SuperOffice.CRM.Services.SaleEntity.ReasonSold
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p>Use MDO List name &quot;reasonsold&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual ReasonSold ReasonSold { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ReasonSold
+    content.vb: Public Overridable Property ReasonSold As ReasonSold
+  overload: SuperOffice.CRM.Services.SaleEntity.ReasonSold*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.ReasonStalled
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.ReasonStalled
+  id: ReasonStalled
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ReasonStalled
+  nameWithType: SaleEntity.ReasonStalled
+  fullName: SuperOffice.CRM.Services.SaleEntity.ReasonStalled
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n<p>Use MDO List name &quot;reasonstalled&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual ReasonStalled ReasonStalled { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ReasonStalled
+    content.vb: Public Overridable Property ReasonStalled As ReasonStalled
+  overload: SuperOffice.CRM.Services.SaleEntity.ReasonStalled*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.ReopenDate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.ReopenDate
+  id: ReopenDate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ReopenDate
+  nameWithType: SaleEntity.ReopenDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.ReopenDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDate the sale is to be reopened; valid only for status=stalled. Not necessarily the same as the nextDueDate. \n"
+  syntax:
+    content: public virtual DateTime ReopenDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property ReopenDate As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.ReopenDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleStakeholders
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.SaleStakeholders
+  id: SaleStakeholders
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholders
+  nameWithType: SaleEntity.SaleStakeholders
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleStakeholders
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual SaleStakeholder[] SaleStakeholders { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+    content.vb: Public Overridable Property SaleStakeholders As SaleStakeholder()
+  overload: SuperOffice.CRM.Services.SaleEntity.SaleStakeholders*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: SaleEntity.ActiveErpLinks
+  fullName: SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe number of active erp links \n"
+  syntax:
+    content: public virtual int ActiveErpLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
+  overload: SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.SaleEntity.UserDefinedFields
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.UserDefinedFields
+  id: UserDefinedFields
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFields
+  nameWithType: SaleEntity.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.SaleEntity.UserDefinedFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.SaleEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nDictionary of user defined field data.\nThe key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format &quot;SuperOffice:[UdefFieldIdentity]&quot;, e.g. &quot;SuperOffice:1234&quot;\n"
+  syntax:
+    content: public StringDictionary UserDefinedFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property UserDefinedFields As StringDictionary
+  overload: SuperOffice.CRM.Services.SaleEntity.UserDefinedFields*
+  implements:
+  - SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: SaleEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.SaleEntity.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.SaleEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property ExtraFields As StringDictionary
+  overload: SuperOffice.CRM.Services.SaleEntity.ExtraFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.CustomFields
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: SaleEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.SaleEntity.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.SaleEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Services.SaleEntity.UserDefinedFields\" data-throw-if-not-resolved=\"false\"></xref> properties are deprecated in favor of this\ncombined collection.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property CustomFields As StringDictionary
+  overload: SuperOffice.CRM.Services.SaleEntity.CustomFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.PublishEventDate
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.PublishEventDate
+  id: PublishEventDate
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: PublishEventDate
+  nameWithType: SaleEntity.PublishEventDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.PublishEventDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublish event date\n"
+  syntax:
+    content: public DateTime PublishEventDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property PublishEventDate As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.PublishEventDate*
+  implements:
+  - SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.PublishTo
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.PublishTo
+  id: PublishTo
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: PublishTo
+  nameWithType: SaleEntity.PublishTo
+  fullName: SuperOffice.CRM.Services.SaleEntity.PublishTo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublication valid to (inclusive)\n"
+  syntax:
+    content: public DateTime PublishTo { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property PublishTo As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.PublishTo*
+  implements:
+  - SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.PublishFrom
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.PublishFrom
+  id: PublishFrom
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: PublishFrom
+  nameWithType: SaleEntity.PublishFrom
+  fullName: SuperOffice.CRM.Services.SaleEntity.PublishFrom
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublication valid from (inclusive)\n"
+  syntax:
+    content: public DateTime PublishFrom { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property PublishFrom As Date
+  overload: SuperOffice.CRM.Services.SaleEntity.PublishFrom*
+  implements:
+  - SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.IsPublished
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.IsPublished
+  id: IsPublished
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: IsPublished
+  nameWithType: SaleEntity.IsPublished
+  fullName: SuperOffice.CRM.Services.SaleEntity.IsPublished
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPublication is published\n"
+  syntax:
+    content: public bool IsPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsPublished As Boolean
+  overload: SuperOffice.CRM.Services.SaleEntity.IsPublished*
+  implements:
+  - SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleEntity.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.SaleEntity.VisibleFor
+  id: VisibleFor
+  parent: SuperOffice.CRM.Services.SaleEntity
+  langs:
+  - csharp
+  - vb
+  name: VisibleFor
+  nameWithType: SaleEntity.VisibleFor
+  fullName: SuperOffice.CRM.Services.SaleEntity.VisibleFor
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe set of users or groups the record is visible for\n"
+  syntax:
+    content: public VisibleFor[] VisibleFor { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.VisibleFor[]
+    content.vb: Public Property VisibleFor As VisibleFor()
+  overload: SuperOffice.CRM.Services.SaleEntity.VisibleFor*
+  implements:
+  - SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.IRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IRelationEntityCarrier
+  nameWithType: IRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IRelationEntityCarrier
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ILinksContainerEntityCarrier
+  nameWithType: ILinksContainerEntityCarrier
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IProjectRelationEntityCarrier
+  nameWithType: IProjectRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IContactPersonRelationEntityCarrier
+  nameWithType: IContactPersonRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+- uid: SuperOffice.CRM.Services.IEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEntityCarrier
+  nameWithType: IEntityCarrier
+  fullName: SuperOffice.CRM.Services.IEntityCarrier
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IUdefFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IUdefFieldCarrier
+  nameWithType: IUdefFieldCarrier
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IExtraFieldCarrier
+  nameWithType: IExtraFieldCarrier
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
+- uid: SuperOffice.CRM.Services.IPublishedCarrier
+  commentId: T:SuperOffice.CRM.Services.IPublishedCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPublishedCarrier
+  nameWithType: IPublishedCarrier
+  fullName: SuperOffice.CRM.Services.IPublishedCarrier
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier
+  commentId: T:SuperOffice.CRM.Services.IVisibleForCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IVisibleForCarrier
+  nameWithType: IVisibleForCarrier
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier
+- uid: SuperOffice.CRM.Services.SaleAgent
+  commentId: T:SuperOffice.CRM.Services.SaleAgent
+  isExternal: true
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.CRM.Services.SaleAgent
+- uid: SuperOffice.CRM.Services.ISaleAgent
+  commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISaleAgent
+  nameWithType: ISaleAgent
+  fullName: SuperOffice.CRM.Services.ISaleAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.SaleEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.#ctor
+  isExternal: true
+  name: SaleEntity
+  nameWithType: SaleEntity.SaleEntity
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleEntity
+- uid: SuperOffice.CRM.Services.SaleEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SaleEntity.ToString
+  fullName: SuperOffice.CRM.Services.SaleEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SaleEntity.Appointment*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Appointment
+  isExternal: true
+  name: Appointment
+  nameWithType: SaleEntity.Appointment
+  fullName: SuperOffice.CRM.Services.SaleEntity.Appointment
+- uid: SuperOffice.CRM.Services.Appointment
+  commentId: T:SuperOffice.CRM.Services.Appointment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Services.Appointment
+- uid: SuperOffice.CRM.Services.SaleEntity.Associate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SaleEntity.Associate
+  fullName: SuperOffice.CRM.Services.SaleEntity.Associate
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.SaleEntity.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: SaleEntity.UpdatedBy
+  fullName: SuperOffice.CRM.Services.SaleEntity.UpdatedBy
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: IEntityCarrier.UpdatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedBy
+- uid: SuperOffice.CRM.Services.SaleEntity.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: SaleEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.SaleEntity.CreatedBy
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: CreatedBy
+  nameWithType: IEntityCarrier.CreatedBy
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedBy
+- uid: SuperOffice.CRM.Services.SaleEntity.Contact*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Contact
+  isExternal: true
+  name: Contact
+  nameWithType: SaleEntity.Contact
+  fullName: SuperOffice.CRM.Services.SaleEntity.Contact
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  isExternal: true
+  name: Contact
+  nameWithType: IContactPersonRelationEntityCarrier.Contact
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+- uid: SuperOffice.CRM.Services.Contact
+  commentId: T:SuperOffice.CRM.Services.Contact
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Services.Contact
+- uid: SuperOffice.CRM.Services.SaleEntity.Project*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Project
+  isExternal: true
+  name: Project
+  nameWithType: SaleEntity.Project
+  fullName: SuperOffice.CRM.Services.SaleEntity.Project
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  commentId: P:SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  parent: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  isExternal: true
+  name: Project
+  nameWithType: IProjectRelationEntityCarrier.Project
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+- uid: SuperOffice.CRM.Services.Project
+  commentId: T:SuperOffice.CRM.Services.Project
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Services.Project
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleText*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.SaleText
+  isExternal: true
+  name: SaleText
+  nameWithType: SaleEntity.SaleText
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleText
+- uid: SuperOffice.CRM.Services.SaleEntity.Person*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Person
+  isExternal: true
+  name: Person
+  nameWithType: SaleEntity.Person
+  fullName: SuperOffice.CRM.Services.SaleEntity.Person
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  isExternal: true
+  name: Person
+  nameWithType: IContactPersonRelationEntityCarrier.Person
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+- uid: SuperOffice.CRM.Services.Person
+  commentId: T:SuperOffice.CRM.Services.Person
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Services.Person
+- uid: SuperOffice.CRM.Services.SaleEntity.Currency*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Currency
+  isExternal: true
+  name: Currency
+  nameWithType: SaleEntity.Currency
+  fullName: SuperOffice.CRM.Services.SaleEntity.Currency
+- uid: SuperOffice.CRM.Services.Currency
+  commentId: T:SuperOffice.CRM.Services.Currency
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Currency
+  nameWithType: Currency
+  fullName: SuperOffice.CRM.Services.Currency
+- uid: SuperOffice.CRM.Services.SaleEntity.Competitor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Competitor
+  isExternal: true
+  name: Competitor
+  nameWithType: SaleEntity.Competitor
+  fullName: SuperOffice.CRM.Services.SaleEntity.Competitor
+- uid: SuperOffice.CRM.Services.Competitor
+  commentId: T:SuperOffice.CRM.Services.Competitor
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Competitor
+  nameWithType: Competitor
+  fullName: SuperOffice.CRM.Services.Competitor
+- uid: SuperOffice.CRM.Services.SaleEntity.Credited*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Credited
+  isExternal: true
+  name: Credited
+  nameWithType: SaleEntity.Credited
+  fullName: SuperOffice.CRM.Services.SaleEntity.Credited
+- uid: SuperOffice.CRM.Services.Credited
+  commentId: T:SuperOffice.CRM.Services.Credited
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Credited
+  nameWithType: Credited
+  fullName: SuperOffice.CRM.Services.Credited
+- uid: SuperOffice.CRM.Services.SaleEntity.Rating*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Rating
+  isExternal: true
+  name: Rating
+  nameWithType: SaleEntity.Rating
+  fullName: SuperOffice.CRM.Services.SaleEntity.Rating
+- uid: SuperOffice.CRM.Services.Rating
+  commentId: T:SuperOffice.CRM.Services.Rating
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Rating
+  nameWithType: Rating
+  fullName: SuperOffice.CRM.Services.Rating
+- uid: SuperOffice.CRM.Services.SaleEntity.Reason*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: SaleEntity.Reason
+  fullName: SuperOffice.CRM.Services.SaleEntity.Reason
+- uid: SuperOffice.CRM.Services.Reason
+  commentId: T:SuperOffice.CRM.Services.Reason
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Reason
+  nameWithType: Reason
+  fullName: SuperOffice.CRM.Services.Reason
+- uid: SuperOffice.CRM.Services.SaleEntity.Source*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Source
+  isExternal: true
+  name: Source
+  nameWithType: SaleEntity.Source
+  fullName: SuperOffice.CRM.Services.SaleEntity.Source
+- uid: SuperOffice.CRM.Services.Source
+  commentId: T:SuperOffice.CRM.Services.Source
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Source
+  nameWithType: Source
+  fullName: SuperOffice.CRM.Services.Source
+- uid: SuperOffice.CRM.Services.SaleEntity.Status*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Status
+  isExternal: true
+  name: Status
+  nameWithType: SaleEntity.Status
+  fullName: SuperOffice.CRM.Services.SaleEntity.Status
+- uid: SuperOffice.Data.SaleStatus
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: SuperOffice.CRM.Services.SaleEntity.Saledate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Saledate
+  isExternal: true
+  name: Saledate
+  nameWithType: SaleEntity.Saledate
+  fullName: SuperOffice.CRM.Services.SaleEntity.Saledate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.SaleEntity.Amount*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Amount
+  isExternal: true
+  name: Amount
+  nameWithType: SaleEntity.Amount
+  fullName: SuperOffice.CRM.Services.SaleEntity.Amount
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleId*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.SaleId
+  isExternal: true
+  name: SaleId
+  nameWithType: SaleEntity.SaleId
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SaleEntity.Earning*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Earning
+  isExternal: true
+  name: Earning
+  nameWithType: SaleEntity.Earning
+  fullName: SuperOffice.CRM.Services.SaleEntity.Earning
+- uid: SuperOffice.CRM.Services.SaleEntity.EarningPercent*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.EarningPercent
+  isExternal: true
+  name: EarningPercent
+  nameWithType: SaleEntity.EarningPercent
+  fullName: SuperOffice.CRM.Services.SaleEntity.EarningPercent
+- uid: SuperOffice.CRM.Services.SaleEntity.Heading*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Heading
+  isExternal: true
+  name: Heading
+  nameWithType: SaleEntity.Heading
+  fullName: SuperOffice.CRM.Services.SaleEntity.Heading
+- uid: SuperOffice.CRM.Services.SaleEntity.Number*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Number
+  isExternal: true
+  name: Number
+  nameWithType: SaleEntity.Number
+  fullName: SuperOffice.CRM.Services.SaleEntity.Number
+- uid: SuperOffice.CRM.Services.SaleEntity.Probability*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Probability
+  isExternal: true
+  name: Probability
+  nameWithType: SaleEntity.Probability
+  fullName: SuperOffice.CRM.Services.SaleEntity.Probability
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Services.SaleEntity.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: SaleEntity.CreatedDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.CreatedDate
+- uid: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: CreatedDate
+  nameWithType: IEntityCarrier.CreatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.CreatedDate
+- uid: SuperOffice.CRM.Services.SaleEntity.UpdatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: SaleEntity.UpdatedDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.UpdatedDate
+- uid: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+  parent: SuperOffice.CRM.Services.IEntityCarrier
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: IEntityCarrier.UpdatedDate
+  fullName: SuperOffice.CRM.Services.IEntityCarrier.UpdatedDate
+- uid: SuperOffice.CRM.Services.SaleEntity.Completed*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Completed
+  isExternal: true
+  name: Completed
+  nameWithType: SaleEntity.Completed
+  fullName: SuperOffice.CRM.Services.SaleEntity.Completed
+- uid: SuperOffice.Data.ActivityStatus
+  isExternal: true
+  name: ActivityStatus
+  nameWithType: ActivityStatus
+  fullName: SuperOffice.Data.ActivityStatus
+- uid: SuperOffice.CRM.Services.SaleEntity.ActiveLinks*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ActiveLinks
+  isExternal: true
+  name: ActiveLinks
+  nameWithType: SaleEntity.ActiveLinks
+  fullName: SuperOffice.CRM.Services.SaleEntity.ActiveLinks
+- uid: SuperOffice.CRM.Services.SaleEntity.Links*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Links
+  isExternal: true
+  name: Links
+  nameWithType: SaleEntity.Links
+  fullName: SuperOffice.CRM.Services.SaleEntity.Links
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  commentId: P:SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  parent: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  isExternal: true
+  name: Links
+  nameWithType: ILinksContainerEntityCarrier.Links
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+- uid: SuperOffice.CRM.Services.Link[]
+  isExternal: true
+  name: Link[]
+  nameWithType: Link[]
+  fullName: SuperOffice.CRM.Services.Link[]
+  nameWithType.vb: Link()
+  fullName.vb: SuperOffice.CRM.Services.Link()
+  name.vb: Link()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Link
+    name: Link
+    nameWithType: Link
+    fullName: SuperOffice.CRM.Services.Link
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Link
+    name: Link
+    nameWithType: Link
+    fullName: SuperOffice.CRM.Services.Link
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SaleEntity.NextDueDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.NextDueDate
+  isExternal: true
+  name: NextDueDate
+  nameWithType: SaleEntity.NextDueDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.NextDueDate
+- uid: SuperOffice.CRM.Services.SaleEntity.Postit*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.Postit
+  isExternal: true
+  name: Postit
+  nameWithType: SaleEntity.Postit
+  fullName: SuperOffice.CRM.Services.SaleEntity.Postit
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleType*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.SaleType
+  isExternal: true
+  name: SaleType
+  nameWithType: SaleEntity.SaleType
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleType
+- uid: SuperOffice.CRM.Services.SaleType
+  commentId: T:SuperOffice.CRM.Services.SaleType
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SaleType
+  nameWithType: SaleType
+  fullName: SuperOffice.CRM.Services.SaleType
+- uid: SuperOffice.CRM.Services.SaleEntity.ReasonSold*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ReasonSold
+  isExternal: true
+  name: ReasonSold
+  nameWithType: SaleEntity.ReasonSold
+  fullName: SuperOffice.CRM.Services.SaleEntity.ReasonSold
+- uid: SuperOffice.CRM.Services.ReasonSold
+  commentId: T:SuperOffice.CRM.Services.ReasonSold
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ReasonSold
+  nameWithType: ReasonSold
+  fullName: SuperOffice.CRM.Services.ReasonSold
+- uid: SuperOffice.CRM.Services.SaleEntity.ReasonStalled*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ReasonStalled
+  isExternal: true
+  name: ReasonStalled
+  nameWithType: SaleEntity.ReasonStalled
+  fullName: SuperOffice.CRM.Services.SaleEntity.ReasonStalled
+- uid: SuperOffice.CRM.Services.ReasonStalled
+  commentId: T:SuperOffice.CRM.Services.ReasonStalled
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ReasonStalled
+  nameWithType: ReasonStalled
+  fullName: SuperOffice.CRM.Services.ReasonStalled
+- uid: SuperOffice.CRM.Services.SaleEntity.ReopenDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ReopenDate
+  isExternal: true
+  name: ReopenDate
+  nameWithType: SaleEntity.ReopenDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.ReopenDate
+- uid: SuperOffice.CRM.Services.SaleEntity.SaleStakeholders*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.SaleStakeholders
+  isExternal: true
+  name: SaleStakeholders
+  nameWithType: SaleEntity.SaleStakeholders
+  fullName: SuperOffice.CRM.Services.SaleEntity.SaleStakeholders
+- uid: SuperOffice.CRM.Services.SaleStakeholder[]
+  isExternal: true
+  name: SaleStakeholder[]
+  nameWithType: SaleStakeholder[]
+  fullName: SuperOffice.CRM.Services.SaleStakeholder[]
+  nameWithType.vb: SaleStakeholder()
+  fullName.vb: SuperOffice.CRM.Services.SaleStakeholder()
+  name.vb: SaleStakeholder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks
+  isExternal: true
+  name: ActiveErpLinks
+  nameWithType: SaleEntity.ActiveErpLinks
+  fullName: SuperOffice.CRM.Services.SaleEntity.ActiveErpLinks
+- uid: SuperOffice.CRM.Services.SaleEntity.UserDefinedFields*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.UserDefinedFields
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: SaleEntity.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.SaleEntity.UserDefinedFields
+- uid: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  commentId: P:SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+  parent: SuperOffice.CRM.Services.IUdefFieldCarrier
+  isExternal: true
+  name: UserDefinedFields
+  nameWithType: IUdefFieldCarrier.UserDefinedFields
+  fullName: SuperOffice.CRM.Services.IUdefFieldCarrier.UserDefinedFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.SaleEntity.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: SaleEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.SaleEntity.ExtraFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: ExtraFields
+  nameWithType: IExtraFieldCarrier.ExtraFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+- uid: SuperOffice.CRM.Services.SaleEntity.CustomFields*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: SaleEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.SaleEntity.CustomFields
+- uid: SuperOffice.CRM.Services.SaleEntity.PublishEventDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.PublishEventDate
+  isExternal: true
+  name: PublishEventDate
+  nameWithType: SaleEntity.PublishEventDate
+  fullName: SuperOffice.CRM.Services.SaleEntity.PublishEventDate
+- uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
+  commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
+  parent: SuperOffice.CRM.Services.IPublishedCarrier
+  isExternal: true
+  name: PublishEventDate
+  nameWithType: IPublishedCarrier.PublishEventDate
+  fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishEventDate
+- uid: SuperOffice.CRM.Services.SaleEntity.PublishTo*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.PublishTo
+  isExternal: true
+  name: PublishTo
+  nameWithType: SaleEntity.PublishTo
+  fullName: SuperOffice.CRM.Services.SaleEntity.PublishTo
+- uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
+  commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
+  parent: SuperOffice.CRM.Services.IPublishedCarrier
+  isExternal: true
+  name: PublishTo
+  nameWithType: IPublishedCarrier.PublishTo
+  fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishTo
+- uid: SuperOffice.CRM.Services.SaleEntity.PublishFrom*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.PublishFrom
+  isExternal: true
+  name: PublishFrom
+  nameWithType: SaleEntity.PublishFrom
+  fullName: SuperOffice.CRM.Services.SaleEntity.PublishFrom
+- uid: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
+  commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
+  parent: SuperOffice.CRM.Services.IPublishedCarrier
+  isExternal: true
+  name: PublishFrom
+  nameWithType: IPublishedCarrier.PublishFrom
+  fullName: SuperOffice.CRM.Services.IPublishedCarrier.PublishFrom
+- uid: SuperOffice.CRM.Services.SaleEntity.IsPublished*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.IsPublished
+  isExternal: true
+  name: IsPublished
+  nameWithType: SaleEntity.IsPublished
+  fullName: SuperOffice.CRM.Services.SaleEntity.IsPublished
+- uid: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
+  commentId: P:SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
+  parent: SuperOffice.CRM.Services.IPublishedCarrier
+  isExternal: true
+  name: IsPublished
+  nameWithType: IPublishedCarrier.IsPublished
+  fullName: SuperOffice.CRM.Services.IPublishedCarrier.IsPublished
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.SaleEntity.VisibleFor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleEntity.VisibleFor
+  isExternal: true
+  name: VisibleFor
+  nameWithType: SaleEntity.VisibleFor
+  fullName: SuperOffice.CRM.Services.SaleEntity.VisibleFor
+- uid: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  commentId: P:SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+  parent: SuperOffice.CRM.Services.IVisibleForCarrier
+  isExternal: true
+  name: VisibleFor
+  nameWithType: IVisibleForCarrier.VisibleFor
+  fullName: SuperOffice.CRM.Services.IVisibleForCarrier.VisibleFor
+- uid: SuperOffice.CRM.Services.VisibleFor[]
+  isExternal: true
+  name: VisibleFor[]
+  nameWithType: VisibleFor[]
+  fullName: SuperOffice.CRM.Services.VisibleFor[]
+  nameWithType.vb: VisibleFor()
+  fullName.vb: SuperOffice.CRM.Services.VisibleFor()
+  name.vb: VisibleFor()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.VisibleFor
+    name: VisibleFor
+    nameWithType: VisibleFor
+    fullName: SuperOffice.CRM.Services.VisibleFor
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

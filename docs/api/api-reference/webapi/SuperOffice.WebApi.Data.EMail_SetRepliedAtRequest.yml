@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest
+  id: EMail_SetRepliedAtRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId
+  langs:
+  - csharp
+  - vb
+  name: EMail_SetRepliedAtRequest
+  nameWithType: EMail_SetRepliedAtRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_SetRepliedAtRequest : Object'
+    content.vb: >-
+      Public Class EMail_SetRepliedAtRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_SetRepliedAtRequest()
+  nameWithType: EMail_SetRepliedAtRequest.EMail_SetRepliedAtRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.EMail_SetRepliedAtRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_SetRepliedAtRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId
+  commentId: P:SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId
+  id: MessageId
+  parent: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: EMail_SetRepliedAtRequest.MessageId
+  fullName: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageId As String
+  overload: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.#ctor
+  isExternal: true
+  name: EMail_SetRepliedAtRequest
+  nameWithType: EMail_SetRepliedAtRequest.EMail_SetRepliedAtRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.EMail_SetRepliedAtRequest
+- uid: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: EMail_SetRepliedAtRequest.MessageId
+  fullName: SuperOffice.WebApi.Data.EMail_SetRepliedAtRequest.MessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

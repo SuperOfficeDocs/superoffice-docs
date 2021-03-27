@@ -1,0 +1,1159 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  id: FindInlineArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.op_Implicit(SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo)~SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash
+  - SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values
+  langs:
+  - csharp
+  - vb
+  name: FindInlineArchiveRestrictionInfo
+  nameWithType: FindInlineArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class FindInlineArchiveRestrictionInfo
+    content.vb: Public Class FindInlineArchiveRestrictionInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo
+  id: GetArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveRestrictionInfo()
+  nameWithType: FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo()
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveRestrictionInfo GetArchiveRestrictionInfo()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Function GetArchiveRestrictionInfo As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: FindInlineArchiveRestrictionInfo()
+  nameWithType: FindInlineArchiveRestrictionInfo.FindInlineArchiveRestrictionInfo()
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.FindInlineArchiveRestrictionInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public FindInlineArchiveRestrictionInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  id: '#ctor(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)'
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: FindInlineArchiveRestrictionInfo(ArchiveRestrictionInfo)
+  nameWithType: FindInlineArchiveRestrictionInfo.FindInlineArchiveRestrictionInfo(ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.FindInlineArchiveRestrictionInfo(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public FindInlineArchiveRestrictionInfo(ArchiveRestrictionInfo ari)
+    parameters:
+    - id: ari
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Sub New(ari As ArchiveRestrictionInfo)
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.op_Implicit(SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo)~SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.op_Implicit(SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo)~SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  id: op_Implicit(SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo)~SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Implicit(FindInlineArchiveRestrictionInfo to ArchiveRestrictionInfo)
+  nameWithType: FindInlineArchiveRestrictionInfo.Implicit(FindInlineArchiveRestrictionInfo to ArchiveRestrictionInfo)
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Implicit(SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo to SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  type: Operator
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static implicit operator ArchiveRestrictionInfo(FindInlineArchiveRestrictionInfo findInlineArchiveRestrictionInfo)
+    parameters:
+    - id: findInlineArchiveRestrictionInfo
+      type: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Shared Widening Operator CType(findInlineArchiveRestrictionInfo As FindInlineArchiveRestrictionInfo) As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.op_Implicit*
+  nameWithType.vb: FindInlineArchiveRestrictionInfo.Widening(FindInlineArchiveRestrictionInfo to ArchiveRestrictionInfo)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Widening(SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo to SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo)
+  name.vb: Widening(FindInlineArchiveRestrictionInfo to ArchiveRestrictionInfo)
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: FindInlineArchiveRestrictionInfo.ToString()
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  id: ArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ArchiveRestrictionInfo
+  nameWithType: FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveRestrictionInfo ArchiveRestrictionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    content.vb: Public Property ArchiveRestrictionInfo As ArchiveRestrictionInfo
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint
+  id: OperatorValueHint
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: OperatorValueHint
+  nameWithType: FindInlineArchiveRestrictionInfo.OperatorValueHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string OperatorValueHint { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OperatorValueHint As String
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  id: IsContactAddStaticCriteria
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsContactAddStaticCriteria
+  nameWithType: FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool IsContactAddStaticCriteria { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsContactAddStaticCriteria As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange
+  id: IsOperatorChange
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsOperatorChange
+  nameWithType: FindInlineArchiveRestrictionInfo.IsOperatorChange
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool IsOperatorChange { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsOperatorChange As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible
+  id: IsVisible
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsVisible
+  nameWithType: FindInlineArchiveRestrictionInfo.IsVisible
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool IsVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsVisible As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name
+  id: Name
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: FindInlineArchiveRestrictionInfo.Name
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator
+  id: Operator
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: FindInlineArchiveRestrictionInfo.Operator
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Operator { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Operator As String
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values
+  id: Values
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: FindInlineArchiveRestrictionInfo.Values
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property Values As String()
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue
+  id: ScalarValue
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ScalarValue
+  nameWithType: FindInlineArchiveRestrictionInfo.ScalarValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string ScalarValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ScalarValue As String
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues
+  id: DisplayValues
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: DisplayValues
+  nameWithType: FindInlineArchiveRestrictionInfo.DisplayValues
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string[] DisplayValues { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Property DisplayValues As String()
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  id: ScalarDisplayValue
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ScalarDisplayValue
+  nameWithType: FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string ScalarDisplayValue { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ScalarDisplayValue As String
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo
+  id: ColumnInfo
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: ColumnInfo
+  nameWithType: FindInlineArchiveRestrictionInfo.ColumnInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveColumnInfo ColumnInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Property ColumnInfo As ArchiveColumnInfo
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive
+  id: IsActive
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: IsActive
+  nameWithType: FindInlineArchiveRestrictionInfo.IsActive
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool IsActive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsActive As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions
+  id: SubRestrictions
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: SubRestrictions
+  nameWithType: FindInlineArchiveRestrictionInfo.SubRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public ArchiveRestrictionInfo[] SubRestrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+    content.vb: Public Property SubRestrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash
+  id: UniqueHash
+  parent: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  langs:
+  - csharp
+  - vb
+  name: UniqueHash
+  nameWithType: FindInlineArchiveRestrictionInfo.UniqueHash
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int UniqueHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UniqueHash As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo
+  isExternal: true
+  name: GetArchiveRestrictionInfo
+  nameWithType: FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.GetArchiveRestrictionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.#ctor
+  isExternal: true
+  name: FindInlineArchiveRestrictionInfo
+  nameWithType: FindInlineArchiveRestrictionInfo.FindInlineArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.FindInlineArchiveRestrictionInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.op_Implicit*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.op_Implicit
+  isExternal: true
+  name: Implicit
+  nameWithType: FindInlineArchiveRestrictionInfo.Implicit
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Implicit
+  nameWithType.vb: FindInlineArchiveRestrictionInfo.Widening
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Widening
+  name.vb: Widening
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: FindInlineArchiveRestrictionInfo
+  nameWithType: FindInlineArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: FindInlineArchiveRestrictionInfo.ToString
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  isExternal: true
+  name: ArchiveRestrictionInfo
+  nameWithType: FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ArchiveRestrictionInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint
+  isExternal: true
+  name: OperatorValueHint
+  nameWithType: FindInlineArchiveRestrictionInfo.OperatorValueHint
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.OperatorValueHint
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  isExternal: true
+  name: IsContactAddStaticCriteria
+  nameWithType: FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsContactAddStaticCriteria
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange
+  isExternal: true
+  name: IsOperatorChange
+  nameWithType: FindInlineArchiveRestrictionInfo.IsOperatorChange
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsOperatorChange
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible
+  isExternal: true
+  name: IsVisible
+  nameWithType: FindInlineArchiveRestrictionInfo.IsVisible
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsVisible
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name
+  isExternal: true
+  name: Name
+  nameWithType: FindInlineArchiveRestrictionInfo.Name
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Name
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator
+  isExternal: true
+  name: Operator
+  nameWithType: FindInlineArchiveRestrictionInfo.Operator
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Operator
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values
+  isExternal: true
+  name: Values
+  nameWithType: FindInlineArchiveRestrictionInfo.Values
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue
+  isExternal: true
+  name: ScalarValue
+  nameWithType: FindInlineArchiveRestrictionInfo.ScalarValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarValue
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues
+  isExternal: true
+  name: DisplayValues
+  nameWithType: FindInlineArchiveRestrictionInfo.DisplayValues
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.DisplayValues
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  isExternal: true
+  name: ScalarDisplayValue
+  nameWithType: FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ScalarDisplayValue
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo
+  isExternal: true
+  name: ColumnInfo
+  nameWithType: FindInlineArchiveRestrictionInfo.ColumnInfo
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.ColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+  isExternal: true
+  name: ArchiveColumnInfo
+  nameWithType: ArchiveColumnInfo
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive
+  isExternal: true
+  name: IsActive
+  nameWithType: FindInlineArchiveRestrictionInfo.IsActive
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.IsActive
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions
+  isExternal: true
+  name: SubRestrictions
+  nameWithType: FindInlineArchiveRestrictionInfo.SubRestrictions
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.SubRestrictions
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash
+  isExternal: true
+  name: UniqueHash
+  nameWithType: FindInlineArchiveRestrictionInfo.UniqueHash
+  fullName: SuperOffice.CRM.Web.UI.Controls.FindInlineArchiveRestrictionInfo.UniqueHash
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

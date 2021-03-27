@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.UI.Controls.SoControl
+  commentId: T:SuperOffice.Web.UI.Controls.SoControl
+  id: SoControl
+  parent: SuperOffice.Web.UI.Controls
+  children:
+  - SuperOffice.Web.UI.Controls.SoControl.#ctor
+  - SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  - SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  langs:
+  - csharp
+  - vb
+  name: SoControl
+  nameWithType: SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl
+  type: Class
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: 'public class SoControl : Control'
+    content.vb: >-
+      Public Class SoControl
+          Inherits Control
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.Web.UI.Controls.SoContentBox
+  - SuperOffice.Web.UI.Controls.SoEditControl
+  - SuperOffice.Web.UI.Controls.SoTabItem
+  - SuperOffice.Web.UI.Controls.SoWebPartMenu
+  - SuperOffice.Web.UI.Controls.SoWebPartMenuItem
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.UI.Controls.SoControl.#ctor
+  commentId: M:SuperOffice.Web.UI.Controls.SoControl.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  langs:
+  - csharp
+  - vb
+  name: SoControl()
+  nameWithType: SoControl.SoControl()
+  fullName: SuperOffice.Web.UI.Controls.SoControl.SoControl()
+  type: Constructor
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: public SoControl()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.UI.Controls.SoControl.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  id: ApplicationPath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected string ApplicationPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property ApplicationPath As String
+  overload: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  commentId: P:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  id: ImagePath
+  parent: SuperOffice.Web.UI.Controls.SoControl
+  langs:
+  - csharp
+  - vb
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  type: Property
+  source:
+    path: SuperOffice.Web.UI.Controls
+    isExternal: true
+  assemblies:
+  - SuperOffice.Web.UI.Controls
+  namespace: SuperOffice.Web.UI.Controls
+  syntax:
+    content: protected string ImagePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Protected ReadOnly Property ImagePath As String
+  overload: SuperOffice.Web.UI.Controls.SoControl.ImagePath*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.Web.UI.Controls
+  commentId: N:SuperOffice.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.Web.UI.Controls
+  nameWithType: SuperOffice.Web.UI.Controls
+  fullName: SuperOffice.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Web.UI.Controls.SoControl.#ctor*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoControl.#ctor
+  isExternal: true
+  name: SoControl
+  nameWithType: SoControl.SoControl
+  fullName: SuperOffice.Web.UI.Controls.SoControl.SoControl
+- uid: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+  isExternal: true
+  name: ApplicationPath
+  nameWithType: SoControl.ApplicationPath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ApplicationPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Web.UI.Controls.SoControl.ImagePath*
+  commentId: Overload:SuperOffice.Web.UI.Controls.SoControl.ImagePath
+  isExternal: true
+  name: ImagePath
+  nameWithType: SoControl.ImagePath
+  fullName: SuperOffice.Web.UI.Controls.SoControl.ImagePath

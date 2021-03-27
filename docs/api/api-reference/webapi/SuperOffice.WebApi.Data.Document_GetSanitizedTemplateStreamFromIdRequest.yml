@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest
+  id: Document_GetSanitizedTemplateStreamFromIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  - SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  langs:
+  - csharp
+  - vb
+  name: Document_GetSanitizedTemplateStreamFromIdRequest
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Document_GetSanitizedTemplateStreamFromIdRequest : Object'
+    content.vb: >-
+      Public Class Document_GetSanitizedTemplateStreamFromIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Document_GetSanitizedTemplateStreamFromIdRequest()
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest.Document_GetSanitizedTemplateStreamFromIdRequest()
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.Document_GetSanitizedTemplateStreamFromIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Document_GetSanitizedTemplateStreamFromIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  commentId: P:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  id: TemplateId
+  parent: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: TemplateId
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TemplateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TemplateId As Integer
+  overload: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  commentId: P:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  id: UiCulture
+  parent: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: UiCulture
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UiCulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UiCulture As String
+  overload: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.#ctor
+  isExternal: true
+  name: Document_GetSanitizedTemplateStreamFromIdRequest
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest.Document_GetSanitizedTemplateStreamFromIdRequest
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.Document_GetSanitizedTemplateStreamFromIdRequest
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  isExternal: true
+  name: TemplateId
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.TemplateId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture*
+  commentId: Overload:SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  isExternal: true
+  name: UiCulture
+  nameWithType: Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+  fullName: SuperOffice.WebApi.Data.Document_GetSanitizedTemplateStreamFromIdRequest.UiCulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

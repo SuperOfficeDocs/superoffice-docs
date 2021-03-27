@@ -1,0 +1,947 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Phone
+  id: UserPreferenceStrings.Phone
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.DdeData
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.DdeItem
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.DdeService
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.DdeTopic
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.DdeType
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.DialType
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.EnablePersonalScripts
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.EnableScripting
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.FormatNumber
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.LocalAreaCode
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.LongDistancePrefix
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.Postfix
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.Prefix
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.ProgDir
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.ProgFile
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.ProgParam
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  - SuperOffice.CRM.UserPreferenceStrings.Phone.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Phone
+  nameWithType: UserPreferenceStrings.Phone
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPhone\n"
+  syntax:
+    content: public static class Phone
+    content.vb: Public Module Phone
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Phone.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Phone"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Phone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeData
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.DdeData
+  id: DdeData
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeData
+  nameWithType: UserPreferenceStrings.Phone.DdeData
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeData
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDDE Data\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeData = "DdeData"
+    return:
+      type: System.String
+    content.vb: Public Const DdeData As String = "DdeData"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeItem
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.DdeItem
+  id: DdeItem
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeItem
+  nameWithType: UserPreferenceStrings.Phone.DdeItem
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeItem
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDDE Item\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeItem = "DdeItem"
+    return:
+      type: System.String
+    content.vb: Public Const DdeItem As String = "DdeItem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeService
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.DdeService
+  id: DdeService
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeService
+  nameWithType: UserPreferenceStrings.Phone.DdeService
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeService
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDDE Service\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeService = "DdeService"
+    return:
+      type: System.String
+    content.vb: Public Const DdeService As String = "DdeService"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeTopic
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.DdeTopic
+  id: DdeTopic
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeTopic
+  nameWithType: UserPreferenceStrings.Phone.DdeTopic
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeTopic
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDDE Topic\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string DdeTopic = "DdeTopic"
+    return:
+      type: System.String
+    content.vb: Public Const DdeTopic As String = "DdeTopic"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.DdeType
+  id: DdeType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DdeType
+  nameWithType: UserPreferenceStrings.Phone.DdeType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DdeType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDDE Type\n<p></p>Control type: List, access: Wizard\n"
+  syntax:
+    content: public const string DdeType = "DdeType"
+    return:
+      type: System.String
+    content.vb: Public Const DdeType As String = "DdeType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.DialType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.DialType
+  id: DialType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: DialType
+  nameWithType: UserPreferenceStrings.Phone.DialType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.DialType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDial type\n<p></p>Control type: List, access: Wizard\n"
+  syntax:
+    content: public const string DialType = "DialType"
+    return:
+      type: System.String
+    content.vb: Public Const DialType As String = "DialType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.FormatNumber
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.FormatNumber
+  id: FormatNumber
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: FormatNumber
+  nameWithType: UserPreferenceStrings.Phone.FormatNumber
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.FormatNumber
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFormats number\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string FormatNumber = "FormatNumber"
+    return:
+      type: System.String
+    content.vb: Public Const FormatNumber As String = "FormatNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.LocalAreaCode
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.LocalAreaCode
+  id: LocalAreaCode
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: LocalAreaCode
+  nameWithType: UserPreferenceStrings.Phone.LocalAreaCode
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.LocalAreaCode
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLocal area code\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string LocalAreaCode = "LocalAreaCode"
+    return:
+      type: System.String
+    content.vb: Public Const LocalAreaCode As String = "LocalAreaCode"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.LongDistancePrefix
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.LongDistancePrefix
+  id: LongDistancePrefix
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: LongDistancePrefix
+  nameWithType: UserPreferenceStrings.Phone.LongDistancePrefix
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.LongDistancePrefix
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLong distance prefix\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string LongDistancePrefix = "LongDistancePrefix"
+    return:
+      type: System.String
+    content.vb: Public Const LongDistancePrefix As String = "LongDistancePrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.Postfix
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.Postfix
+  id: Postfix
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: Postfix
+  nameWithType: UserPreferenceStrings.Phone.Postfix
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.Postfix
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSuffix - e.g. Command to reset your modem\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string Postfix = "Postfix"
+    return:
+      type: System.String
+    content.vb: Public Const Postfix As String = "Postfix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.Prefix
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.Prefix
+  id: Prefix
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: Prefix
+  nameWithType: UserPreferenceStrings.Phone.Prefix
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.Prefix
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPrefix - e.g. Dial 0 to get an outside line\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string Prefix = "Prefix"
+    return:
+      type: System.String
+    content.vb: Public Const Prefix As String = "Prefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgDir
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.ProgDir
+  id: ProgDir
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ProgDir
+  nameWithType: UserPreferenceStrings.Phone.ProgDir
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgDir
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nProgram folder\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string ProgDir = "ProgDir"
+    return:
+      type: System.String
+    content.vb: Public Const ProgDir As String = "ProgDir"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgFile
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.ProgFile
+  id: ProgFile
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ProgFile
+  nameWithType: UserPreferenceStrings.Phone.ProgFile
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgFile
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nProgram file\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string ProgFile = "ProgFile"
+    return:
+      type: System.String
+    content.vb: Public Const ProgFile As String = "ProgFile"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgParam
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.ProgParam
+  id: ProgParam
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ProgParam
+  nameWithType: UserPreferenceStrings.Phone.ProgParam
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ProgParam
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nProgram parameter\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string ProgParam = "ProgParam"
+    return:
+      type: System.String
+    content.vb: Public Const ProgParam As String = "ProgParam"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  id: ReporterDocumentDlgExpanded
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ReporterDocumentDlgExpanded
+  nameWithType: UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgExpanded
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nExpands the Save report dialog by default\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string ReporterDocumentDlgExpanded = "ReporterDocumentDlgExpanded"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterDocumentDlgExpanded As String = "ReporterDocumentDlgExpanded"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  id: ReporterDocumentDlgOpenDoc
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ReporterDocumentDlgOpenDoc
+  nameWithType: UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterDocumentDlgOpenDoc
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOpens the report after you have saved it in CRM.\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string ReporterDocumentDlgOpenDoc = "ReporterDocumentDlgOpenDoc"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterDocumentDlgOpenDoc As String = "ReporterDocumentDlgOpenDoc"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  id: ReporterLastUsedReport
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: ReporterLastUsedReport
+  nameWithType: UserPreferenceStrings.Phone.ReporterLastUsedReport
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.ReporterLastUsedReport
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nID of the report that was active when you last logged out\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string ReporterLastUsedReport = "ReporterLastUsedReport"
+    return:
+      type: System.String
+    content.vb: Public Const ReporterLastUsedReport As String = "ReporterLastUsedReport"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.EnablePersonalScripts
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.EnablePersonalScripts
+  id: EnablePersonalScripts
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: EnablePersonalScripts
+  nameWithType: UserPreferenceStrings.Phone.EnablePersonalScripts
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.EnablePersonalScripts
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnable personal scripts in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnablePersonalScripts = "EnablePersonalScripts"
+    return:
+      type: System.String
+    content.vb: Public Const EnablePersonalScripts As String = "EnablePersonalScripts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Phone.EnableScripting
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Phone.EnableScripting
+  id: EnableScripting
+  parent: SuperOffice.CRM.UserPreferenceStrings.Phone
+  langs:
+  - csharp
+  - vb
+  name: EnableScripting
+  nameWithType: UserPreferenceStrings.Phone.EnableScripting
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Phone.EnableScripting
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnables scripting in CRM.win\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnableScripting = "EnableScripting"
+    return:
+      type: System.String
+    content.vb: Public Const EnableScripting As String = "EnableScripting"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

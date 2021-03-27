@@ -1,0 +1,816 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.StructuredAddress
+  commentId: T:SuperOffice.CRM.Services.StructuredAddress
+  id: StructuredAddress
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.StructuredAddress.#ctor
+  - SuperOffice.CRM.Services.StructuredAddress.Address1
+  - SuperOffice.CRM.Services.StructuredAddress.Address2
+  - SuperOffice.CRM.Services.StructuredAddress.Address3
+  - SuperOffice.CRM.Services.StructuredAddress.AtypeIdx
+  - SuperOffice.CRM.Services.StructuredAddress.City
+  - SuperOffice.CRM.Services.StructuredAddress.County
+  - SuperOffice.CRM.Services.StructuredAddress.Formatted
+  - SuperOffice.CRM.Services.StructuredAddress.State
+  - SuperOffice.CRM.Services.StructuredAddress.ToString
+  - SuperOffice.CRM.Services.StructuredAddress.ToString(System.String)
+  - SuperOffice.CRM.Services.StructuredAddress.Zipcode
+  langs:
+  - csharp
+  - vb
+  name: StructuredAddress
+  nameWithType: StructuredAddress
+  fullName: SuperOffice.CRM.Services.StructuredAddress
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAddress with structured fields (Address1, City, Zip) - does not vary its layout by country, unliked the formatted address.\n<p></p>\nCarrier object for StructuredAddress.\n"
+  syntax:
+    content: public class StructuredAddress
+    content.vb: Public Class StructuredAddress
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.StructuredAddress.#ctor
+  commentId: M:SuperOffice.CRM.Services.StructuredAddress.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: StructuredAddress()
+  nameWithType: StructuredAddress.StructuredAddress()
+  fullName: SuperOffice.CRM.Services.StructuredAddress.StructuredAddress()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public StructuredAddress()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.StructuredAddress.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StructuredAddress.ToString
+  commentId: M:SuperOffice.CRM.Services.StructuredAddress.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: StructuredAddress.ToString()
+  fullName: SuperOffice.CRM.Services.StructuredAddress.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.StructuredAddress.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.StructuredAddress.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.StructuredAddress.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: StructuredAddress.ToString(String)
+  fullName: SuperOffice.CRM.Services.StructuredAddress.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.StructuredAddress.AtypeIdx
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.AtypeIdx
+  id: AtypeIdx
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: AtypeIdx
+  nameWithType: StructuredAddress.AtypeIdx
+  fullName: SuperOffice.CRM.Services.StructuredAddress.AtypeIdx
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nBit mask, combines address type (EAddressType) and owner type (EOwnerType) \n"
+  syntax:
+    content: public virtual AddressType AtypeIdx { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AddressType
+    content.vb: Public Overridable Property AtypeIdx As AddressType
+  overload: SuperOffice.CRM.Services.StructuredAddress.AtypeIdx*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.Address1
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.Address1
+  id: Address1
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Address1
+  nameWithType: StructuredAddress.Address1
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Address1
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAddress line 1 \n"
+  syntax:
+    content: public virtual string Address1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address1 As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.Address1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.Address2
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.Address2
+  id: Address2
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Address2
+  nameWithType: StructuredAddress.Address2
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Address2
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAddress line 2 \n"
+  syntax:
+    content: public virtual string Address2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address2 As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.Address2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.Address3
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.Address3
+  id: Address3
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Address3
+  nameWithType: StructuredAddress.Address3
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Address3
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAddress line 3 \n"
+  syntax:
+    content: public virtual string Address3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Address3 As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.Address3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.City
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.City
+  id: City
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: StructuredAddress.City
+  fullName: SuperOffice.CRM.Services.StructuredAddress.City
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCity corresponding to zip code \n"
+  syntax:
+    content: public virtual string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property City As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.City*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.County
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.County
+  id: County
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: County
+  nameWithType: StructuredAddress.County
+  fullName: SuperOffice.CRM.Services.StructuredAddress.County
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCounty (not country) \n"
+  syntax:
+    content: public virtual string County { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property County As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.County*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.State
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.State
+  id: State
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: StructuredAddress.State
+  fullName: SuperOffice.CRM.Services.StructuredAddress.State
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nState \n"
+  syntax:
+    content: public virtual string State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property State As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.Zipcode
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.Zipcode
+  id: Zipcode
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Zipcode
+  nameWithType: StructuredAddress.Zipcode
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Zipcode
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nZip code, alphanumeric \n"
+  syntax:
+    content: public virtual string Zipcode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Zipcode As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.Zipcode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.StructuredAddress.Formatted
+  commentId: P:SuperOffice.CRM.Services.StructuredAddress.Formatted
+  id: Formatted
+  parent: SuperOffice.CRM.Services.StructuredAddress
+  langs:
+  - csharp
+  - vb
+  name: Formatted
+  nameWithType: StructuredAddress.Formatted
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Formatted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRead-only formatted address multi-line string. e.g.: &lt;c>&quot;Brugata 123,\\n1234 OSLO\\n&quot;&lt;/c> or &lt;c>&quot;Bridgelane 123,\\nWest Tooting,\\nThe Shire ES2 W31\\n&quot;&lt;/c>. \n"
+  syntax:
+    content: public virtual string Formatted { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Formatted As String
+  overload: SuperOffice.CRM.Services.StructuredAddress.Formatted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.StructuredAddress.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.#ctor
+  isExternal: true
+  name: StructuredAddress
+  nameWithType: StructuredAddress.StructuredAddress
+  fullName: SuperOffice.CRM.Services.StructuredAddress.StructuredAddress
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StructuredAddress.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: StructuredAddress.ToString
+  fullName: SuperOffice.CRM.Services.StructuredAddress.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.StructuredAddress.AtypeIdx*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.AtypeIdx
+  isExternal: true
+  name: AtypeIdx
+  nameWithType: StructuredAddress.AtypeIdx
+  fullName: SuperOffice.CRM.Services.StructuredAddress.AtypeIdx
+- uid: SuperOffice.Data.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: SuperOffice.Data.AddressType
+- uid: SuperOffice.CRM.Services.StructuredAddress.Address1*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.Address1
+  isExternal: true
+  name: Address1
+  nameWithType: StructuredAddress.Address1
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Address1
+- uid: SuperOffice.CRM.Services.StructuredAddress.Address2*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.Address2
+  isExternal: true
+  name: Address2
+  nameWithType: StructuredAddress.Address2
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Address2
+- uid: SuperOffice.CRM.Services.StructuredAddress.Address3*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.Address3
+  isExternal: true
+  name: Address3
+  nameWithType: StructuredAddress.Address3
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Address3
+- uid: SuperOffice.CRM.Services.StructuredAddress.City*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.City
+  isExternal: true
+  name: City
+  nameWithType: StructuredAddress.City
+  fullName: SuperOffice.CRM.Services.StructuredAddress.City
+- uid: SuperOffice.CRM.Services.StructuredAddress.County*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.County
+  isExternal: true
+  name: County
+  nameWithType: StructuredAddress.County
+  fullName: SuperOffice.CRM.Services.StructuredAddress.County
+- uid: SuperOffice.CRM.Services.StructuredAddress.State*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.State
+  isExternal: true
+  name: State
+  nameWithType: StructuredAddress.State
+  fullName: SuperOffice.CRM.Services.StructuredAddress.State
+- uid: SuperOffice.CRM.Services.StructuredAddress.Zipcode*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.Zipcode
+  isExternal: true
+  name: Zipcode
+  nameWithType: StructuredAddress.Zipcode
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Zipcode
+- uid: SuperOffice.CRM.Services.StructuredAddress.Formatted*
+  commentId: Overload:SuperOffice.CRM.Services.StructuredAddress.Formatted
+  isExternal: true
+  name: Formatted
+  nameWithType: StructuredAddress.Formatted
+  fullName: SuperOffice.CRM.Services.StructuredAddress.Formatted

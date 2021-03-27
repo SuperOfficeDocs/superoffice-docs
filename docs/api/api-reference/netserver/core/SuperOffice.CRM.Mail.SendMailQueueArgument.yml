@@ -1,0 +1,1149 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument
+  commentId: T:SuperOffice.CRM.Mail.SendMailQueueArgument
+  id: SendMailQueueArgument
+  parent: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.Mail
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
+  langs:
+  - csharp
+  - vb
+  name: SendMailQueueArgument
+  nameWithType: SendMailQueueArgument
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nArgument for processing mail used by <xref href=\"SuperOffice.CRM.Mail.SendMailQueueProcessor\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Mail.SendMailQueue\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public class SendMailQueueArgument
+    content.vb: Public Class SendMailQueueArgument
+  seealso:
+  - linkId: SuperOffice.CRM.Mail.SoMail
+    commentId: T:SuperOffice.CRM.Mail.SoMail
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Mail.SendMailQueueArgument.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(SuperOffice.CRM.Mail.MailItem[])
+  id: '#ctor(SuperOffice.CRM.Mail.MailItem[])'
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SendMailQueueArgument(MailItem[])
+  nameWithType: SendMailQueueArgument.SendMailQueueArgument(MailItem[])
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(SuperOffice.CRM.Mail.MailItem[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDefault constructor used when configuration from mail system is fetched from configured values.\n"
+  syntax:
+    content: public SendMailQueueArgument(params MailItem[] mail)
+    parameters:
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+      description: Emails to send.
+    content.vb: Public Sub New(ParamArray mail As MailItem())
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor*
+  nameWithType.vb: SendMailQueueArgument.SendMailQueueArgument(MailItem())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(SuperOffice.CRM.Mail.MailItem())
+  name.vb: SendMailQueueArgument(MailItem())
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])
+  id: '#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,SuperOffice.CRM.Mail.MailItem[])'
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SendMailQueueArgument(String, String, String, String, String, String, String, MailItem[])
+  nameWithType: SendMailQueueArgument.SendMailQueueArgument(String, String, String, String, String, String, String, MailItem[])
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(System.String, System.String, System.String, System.String, System.String, System.String, System.String, SuperOffice.CRM.Mail.MailItem[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nConstructor used for creating parameters for mail processing carried out by <xref href=\"SuperOffice.CRM.Mail.SendMailQueueProcessor\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Mail.SendMailQueue\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public SendMailQueueArgument(string smtpServer, string smtpUser, string smtpPassword, string imapServer, string imapUser, string imapPassword, string sentFolder, params MailItem[] mail)
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: sentFolder
+      type: System.String
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public Sub New(smtpServer As String, smtpUser As String, smtpPassword As String, imapServer As String, imapUser As String, imapPassword As String, sentFolder As String, ParamArray mail As MailItem())
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor*
+  nameWithType.vb: SendMailQueueArgument.SendMailQueueArgument(String, String, String, String, String, String, String, MailItem())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(System.String, System.String, System.String, System.String, System.String, System.String, System.String, SuperOffice.CRM.Mail.MailItem())
+  name.vb: SendMailQueueArgument(String, String, String, String, String, String, String, MailItem())
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])
+  id: '#ctor(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String,SuperOffice.CRM.Mail.MailItem[])'
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SendMailQueueArgument(String, String, String, Boolean, String, String, String, Boolean, String, MailItem[])
+  nameWithType: SendMailQueueArgument.SendMailQueueArgument(String, String, String, Boolean, String, String, String, Boolean, String, MailItem[])
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String, SuperOffice.CRM.Mail.MailItem[])
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nConstructor used for creating parameters for mail processing carried out by <xref href=\"SuperOffice.CRM.Mail.SendMailQueueProcessor\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"SuperOffice.CRM.Mail.SendMailQueue\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: public SendMailQueueArgument(string smtpServer, string smtpUser, string smtpPassword, bool smtpSSL, string imapServer, string imapUser, string imapPassword, bool imapSSL, string sentFolder, params MailItem[] mail)
+    parameters:
+    - id: smtpServer
+      type: System.String
+    - id: smtpUser
+      type: System.String
+    - id: smtpPassword
+      type: System.String
+    - id: smtpSSL
+      type: System.Boolean
+    - id: imapServer
+      type: System.String
+    - id: imapUser
+      type: System.String
+    - id: imapPassword
+      type: System.String
+    - id: imapSSL
+      type: System.Boolean
+    - id: sentFolder
+      type: System.String
+    - id: mail
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public Sub New(smtpServer As String, smtpUser As String, smtpPassword As String, smtpSSL As Boolean, imapServer As String, imapUser As String, imapPassword As String, imapSSL As Boolean, sentFolder As String, ParamArray mail As MailItem())
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor*
+  nameWithType.vb: SendMailQueueArgument.SendMailQueueArgument(String, String, String, Boolean, String, String, String, Boolean, String, MailItem())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String, SuperOffice.CRM.Mail.MailItem())
+  name.vb: SendMailQueueArgument(String, String, String, Boolean, String, String, String, Boolean, String, MailItem())
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
+  commentId: M:SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SendMailQueueArgument.ToString()
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nBrief information about the first mail in <xref href=\"SuperOffice.CRM.Mail.SendMailQueueArgument.Mail\" data-throw-if-not-resolved=\"false\"></xref> to be sent\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.Mail
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.Mail
+  id: Mail
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: Mail
+  nameWithType: SendMailQueueArgument.Mail
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.Mail
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nE-mails to send.\n"
+  syntax:
+    content: public MailItem[] Mail { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Mail.MailItem[]
+    content.vb: Public ReadOnly Property Mail As MailItem()
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.Mail*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
+  id: SmtpServer
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SmtpServer
+  nameWithType: SendMailQueueArgument.SmtpServer
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nName with optional port for SMTP servers.\n"
+  syntax:
+    content: public string SmtpServer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SmtpServer As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
+  id: SmtpUser
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SmtpUser
+  nameWithType: SendMailQueueArgument.SmtpUser
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nUser name to use when authenticating against SMTP server.\n"
+  syntax:
+    content: public string SmtpUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SmtpUser As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword
+  id: SmtpPassword
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SmtpPassword
+  nameWithType: SendMailQueueArgument.SmtpPassword
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nPassword to use when authenticating against SMTP server.\n"
+  syntax:
+    content: public string SmtpPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SmtpPassword As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL
+  id: SmtpSSL
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SmtpSSL
+  nameWithType: SendMailQueueArgument.SmtpSSL
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nShould we use a secure connection for SMTP server\n"
+  syntax:
+    content: public bool SmtpSSL { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SmtpSSL As Boolean
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer
+  id: ImapServer
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: ImapServer
+  nameWithType: SendMailQueueArgument.ImapServer
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nName with optional port for the IMAP server.\n"
+  syntax:
+    content: public string ImapServer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImapServer As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser
+  id: ImapUser
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: ImapUser
+  nameWithType: SendMailQueueArgument.ImapUser
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nUser name for the IMAP server.\n"
+  syntax:
+    content: public string ImapUser { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImapUser As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
+  id: ImapPassword
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: ImapPassword
+  nameWithType: SendMailQueueArgument.ImapPassword
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nPassword for the IMAP server.\n"
+  syntax:
+    content: public string ImapPassword { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImapPassword As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+  id: ImapSSL
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: ImapSSL
+  nameWithType: SendMailQueueArgument.ImapSSL
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nShould we use a secure connection for the IMAP server\n"
+  syntax:
+    content: public bool ImapSSL { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ImapSSL As Boolean
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
+  id: SentFolder
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: SentFolder
+  nameWithType: SendMailQueueArgument.SentFolder
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nSent folder override\n"
+  syntax:
+    content: public string SentFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SentFolder As String
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid
+  commentId: P:SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid
+  id: IsValid
+  parent: SuperOffice.CRM.Mail.SendMailQueueArgument
+  langs:
+  - csharp
+  - vb
+  name: IsValid
+  nameWithType: SendMailQueueArgument.IsValid
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet if the arguments are valid for sending and archiving mails in the sent items folder.\n"
+  syntax:
+    content: public bool IsValid { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsValid As Boolean
+  overload: SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SendMailQueueArgument, To>()
+  nameWithType: EnumUtil.MapEnums<SendMailQueueArgument, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.SendMailQueueArgument, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SendMailQueueArgument, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.SendMailQueueArgument, To)()
+  name.vb: MapEnums(Of SendMailQueueArgument, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SendMailQueueArgument, To>
+    nameWithType: EnumUtil.MapEnums<SendMailQueueArgument, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.SendMailQueueArgument, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SendMailQueueArgument, To)
+    nameWithType: EnumUtil.MapEnums(Of SendMailQueueArgument, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.SendMailQueueArgument, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SendMailQueueArgument, To>()
+  nameWithType: Converters.MapEnums<SendMailQueueArgument, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.SendMailQueueArgument, To>()
+  nameWithType.vb: Converters.MapEnums(Of SendMailQueueArgument, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.SendMailQueueArgument, To)()
+  name.vb: MapEnums(Of SendMailQueueArgument, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SendMailQueueArgument, To>
+    nameWithType: Converters.MapEnums<SendMailQueueArgument, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.SendMailQueueArgument, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SendMailQueueArgument, To)
+    nameWithType: Converters.MapEnums(Of SendMailQueueArgument, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.SendMailQueueArgument, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.SoMail
+  commentId: T:SuperOffice.CRM.Mail.SoMail
+  isExternal: true
+  name: SoMail
+  nameWithType: SoMail
+  fullName: SuperOffice.CRM.Mail.SoMail
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.#ctor
+  isExternal: true
+  name: SendMailQueueArgument
+  nameWithType: SendMailQueueArgument.SendMailQueueArgument
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SendMailQueueArgument
+- uid: SuperOffice.CRM.Mail.MailItem[]
+  isExternal: true
+  name: MailItem[]
+  nameWithType: MailItem[]
+  fullName: SuperOffice.CRM.Mail.MailItem[]
+  nameWithType.vb: MailItem()
+  fullName.vb: SuperOffice.CRM.Mail.MailItem()
+  name.vb: MailItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    nameWithType: MailItem
+    fullName: SuperOffice.CRM.Mail.MailItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    nameWithType: MailItem
+    fullName: SuperOffice.CRM.Mail.MailItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ToString*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: SendMailQueueArgument.ToString
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ToString
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.Mail*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.Mail
+  isExternal: true
+  name: Mail
+  nameWithType: SendMailQueueArgument.Mail
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.Mail
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
+  isExternal: true
+  name: SmtpServer
+  nameWithType: SendMailQueueArgument.SmtpServer
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpServer
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
+  isExternal: true
+  name: SmtpUser
+  nameWithType: SendMailQueueArgument.SmtpUser
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpUser
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword
+  isExternal: true
+  name: SmtpPassword
+  nameWithType: SendMailQueueArgument.SmtpPassword
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpPassword
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL
+  isExternal: true
+  name: SmtpSSL
+  nameWithType: SendMailQueueArgument.SmtpSSL
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SmtpSSL
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer
+  isExternal: true
+  name: ImapServer
+  nameWithType: SendMailQueueArgument.ImapServer
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapServer
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser
+  isExternal: true
+  name: ImapUser
+  nameWithType: SendMailQueueArgument.ImapUser
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapUser
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
+  isExternal: true
+  name: ImapPassword
+  nameWithType: SendMailQueueArgument.ImapPassword
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapPassword
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+  isExternal: true
+  name: ImapSSL
+  nameWithType: SendMailQueueArgument.ImapSSL
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.ImapSSL
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
+  isExternal: true
+  name: SentFolder
+  nameWithType: SendMailQueueArgument.SentFolder
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.SentFolder
+- uid: SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid*
+  commentId: Overload:SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid
+  isExternal: true
+  name: IsValid
+  nameWithType: SendMailQueueArgument.IsValid
+  fullName: SuperOffice.CRM.Mail.SendMailQueueArgument.IsValid

@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IRelationEntityCarrier
+  id: IRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IRelationEntityCarrier
+  nameWithType: IRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IRelationEntityCarrier
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: 'public interface IRelationEntityCarrier : ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier'
+    content.vb: >-
+      Public Interface IRelationEntityCarrier
+          Inherits ILinksContainerEntityCarrier, IProjectRelationEntityCarrier, IContactPersonRelationEntityCarrier
+  inheritedMembers:
+  - SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  - SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  - SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  commentId: P:SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+  parent: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  isExternal: true
+  name: Links
+  nameWithType: ILinksContainerEntityCarrier.Links
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier.Links
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  commentId: P:SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+  parent: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  isExternal: true
+  name: Project
+  nameWithType: IProjectRelationEntityCarrier.Project
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier.Project
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+  parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  isExternal: true
+  name: Contact
+  nameWithType: IContactPersonRelationEntityCarrier.Contact
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Contact
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  commentId: P:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+  parent: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  isExternal: true
+  name: Person
+  nameWithType: IContactPersonRelationEntityCarrier.Person
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier.Person
+- uid: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ILinksContainerEntityCarrier
+  nameWithType: ILinksContainerEntityCarrier
+  fullName: SuperOffice.CRM.Services.ILinksContainerEntityCarrier
+- uid: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IProjectRelationEntityCarrier
+  nameWithType: IProjectRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IProjectRelationEntityCarrier
+- uid: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  commentId: T:SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IContactPersonRelationEntityCarrier
+  nameWithType: IContactPersonRelationEntityCarrier
+  fullName: SuperOffice.CRM.Services.IContactPersonRelationEntityCarrier

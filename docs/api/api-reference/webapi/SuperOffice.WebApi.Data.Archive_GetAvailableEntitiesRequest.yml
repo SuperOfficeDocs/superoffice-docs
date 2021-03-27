@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest
+  commentId: T:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest
+  id: Archive_GetAvailableEntitiesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.#ctor
+  - SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context
+  - SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetAvailableEntitiesRequest
+  nameWithType: Archive_GetAvailableEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Archive_GetAvailableEntitiesRequest : Object'
+    content.vb: >-
+      Public Class Archive_GetAvailableEntitiesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: Archive_GetAvailableEntitiesRequest()
+  nameWithType: Archive_GetAvailableEntitiesRequest.Archive_GetAvailableEntitiesRequest()
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Archive_GetAvailableEntitiesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Archive_GetAvailableEntitiesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Archive_GetAvailableEntitiesRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Archive_GetAvailableEntitiesRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.#ctor
+  isExternal: true
+  name: Archive_GetAvailableEntitiesRequest
+  nameWithType: Archive_GetAvailableEntitiesRequest.Archive_GetAvailableEntitiesRequest
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Archive_GetAvailableEntitiesRequest
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Archive_GetAvailableEntitiesRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Archive_GetAvailableEntitiesRequest.Context
+  fullName: SuperOffice.WebApi.Data.Archive_GetAvailableEntitiesRequest.Context

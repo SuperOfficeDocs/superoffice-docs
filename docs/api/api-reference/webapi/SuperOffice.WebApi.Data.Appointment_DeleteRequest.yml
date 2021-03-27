@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  id: Appointment_DeleteRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_DeleteRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId
+  - SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo
+  - SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants
+  - SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  - SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_DeleteRequest
+  nameWithType: Appointment_DeleteRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_DeleteRequest : Object'
+    content.vb: >-
+      Public Class Appointment_DeleteRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_DeleteRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_DeleteRequest()
+  nameWithType: Appointment_DeleteRequest.Appointment_DeleteRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.Appointment_DeleteRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_DeleteRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId
+  id: AppointmentId
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: AppointmentId
+  nameWithType: Appointment_DeleteRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int AppointmentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AppointmentId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_DeleteRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants
+  id: SendEmailToParticipants
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: SendEmailToParticipants
+  nameWithType: Appointment_DeleteRequest.SendEmailToParticipants
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool SendEmailToParticipants { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SendEmailToParticipants As Boolean
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  id: SmtpEMailConnectionInfo
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: SmtpEMailConnectionInfo
+  nameWithType: Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo SmtpEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property SmtpEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo
+  id: ImapEMailConnectionInfo
+  parent: SuperOffice.WebApi.Data.Appointment_DeleteRequest
+  langs:
+  - csharp
+  - vb
+  name: ImapEMailConnectionInfo
+  nameWithType: Appointment_DeleteRequest.ImapEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ImapEMailConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ImapEMailConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteRequest.#ctor
+  isExternal: true
+  name: Appointment_DeleteRequest
+  nameWithType: Appointment_DeleteRequest.Appointment_DeleteRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.Appointment_DeleteRequest
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId
+  isExternal: true
+  name: AppointmentId
+  nameWithType: Appointment_DeleteRequest.AppointmentId
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.AppointmentId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_DeleteRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants
+  isExternal: true
+  name: SendEmailToParticipants
+  nameWithType: Appointment_DeleteRequest.SendEmailToParticipants
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SendEmailToParticipants
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  isExternal: true
+  name: SmtpEMailConnectionInfo
+  nameWithType: Appointment_DeleteRequest.SmtpEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.SmtpEMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo
+  isExternal: true
+  name: ImapEMailConnectionInfo
+  nameWithType: Appointment_DeleteRequest.ImapEMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.Appointment_DeleteRequest.ImapEMailConnectionInfo

@@ -1,0 +1,1482 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Diagnostics.SoLogger
+  commentId: T:SuperOffice.Diagnostics.SoLogger
+  id: SoLogger
+  parent: SuperOffice.Diagnostics
+  children:
+  - SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
+  - SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo)
+  - SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo,System.Boolean,System.Boolean)
+  - SuperOffice.Diagnostics.SoLogger.LogError(SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Diagnostics.SoLogger.LogError(System.Exception)
+  - SuperOffice.Diagnostics.SoLogger.LogError(System.Type,System.String,System.String)
+  - SuperOffice.Diagnostics.SoLogger.LogEvent(System.Type,System.String,System.String,System.Boolean)
+  - SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo,System.Boolean)
+  - SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,System.Exception,System.Boolean)
+  - SuperOffice.Diagnostics.SoLogger.Logger
+  - SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type,System.String,System.String)
+  - SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type,System.String,System.String,System.Boolean)
+  - SuperOffice.Diagnostics.SoLogger.LogQuery(SuperOffice.Diagnostics.LogEntryInfo,SuperOffice.Diagnostics.SqlCommandInfo)
+  - SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile(System.Xml.XmlDocument)
+  - SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile(System.String)
+  - SuperOffice.Diagnostics.SoLogger.LogToXmlFile(System.String,System.Xml.XmlNode)
+  - SuperOffice.Diagnostics.SoLogger.LogWarning(System.Exception)
+  - SuperOffice.Diagnostics.SoLogger.LogWarning(System.Type,System.String,System.String)
+  - SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
+  - SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  - SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
+  - SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
+  langs:
+  - csharp
+  - vb
+  name: SoLogger
+  nameWithType: SoLogger
+  fullName: SuperOffice.Diagnostics.SoLogger
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nSummary description for SoLogger.\n"
+  syntax:
+    content: >-
+      [SoInject("Database")]
+
+      public sealed class SoLogger
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public NotInheritable Class SoLogger
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Diagnostics.SoLogger.EnumUtil.MapEnums``2
+  - SuperOffice.Diagnostics.SoLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,System.Exception,System.Boolean)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,System.Exception,System.Boolean)
+  id: LogException(System.Diagnostics.EventLogEntryType,System.Exception,System.Boolean)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogException(EventLogEntryType, Exception, Boolean)
+  nameWithType: SoLogger.LogException(EventLogEntryType, Exception, Boolean)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType, System.Exception, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog an exception. Logging will be done to a log file, debugger trace, and SuperOffice crash log service\ndepending on the options set in the config file.\n"
+  syntax:
+    content: public void LogException(EventLogEntryType logType, Exception exception, bool lightLogOutput = false)
+    parameters:
+    - id: logType
+      type: System.Diagnostics.EventLogEntryType
+    - id: exception
+      type: System.Exception
+    - id: lightLogOutput
+      type: System.Boolean
+    content.vb: Public Sub LogException(logType As EventLogEntryType, exception As Exception, lightLogOutput As Boolean = False)
+  overload: SuperOffice.Diagnostics.SoLogger.LogException*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo,System.Boolean)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo,System.Boolean)
+  id: LogException(System.Diagnostics.EventLogEntryType,SuperOffice.Exceptions.SoExceptionInfo,System.Boolean)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogException(EventLogEntryType, SoExceptionInfo, Boolean)
+  nameWithType: SoLogger.LogException(EventLogEntryType, SoExceptionInfo, Boolean)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogException(System.Diagnostics.EventLogEntryType, SuperOffice.Exceptions.SoExceptionInfo, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void LogException(EventLogEntryType logType, SoExceptionInfo exception, bool lightLogOutput = false)
+    parameters:
+    - id: logType
+      type: System.Diagnostics.EventLogEntryType
+    - id: exception
+      type: SuperOffice.Exceptions.SoExceptionInfo
+    - id: lightLogOutput
+      type: System.Boolean
+    content.vb: Public Sub LogException(logType As EventLogEntryType, exception As SoExceptionInfo, lightLogOutput As Boolean = False)
+  overload: SuperOffice.Diagnostics.SoLogger.LogException*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
+  id: SetPermanentAdditionalValue(System.String,System.String)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: SetPermanentAdditionalValue(String, String)
+  nameWithType: SoLogger.SetPermanentAdditionalValue(String, String)
+  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nSet one named value to be added to any logged events. This name/value will remain valid until manually reset or changed.\n"
+  syntax:
+    content: public static void SetPermanentAdditionalValue(string name, string value)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of item
+    - id: value
+      type: System.String
+      description: Value of item
+    content.vb: Public Shared Sub SetPermanentAdditionalValue(name As String, value As String)
+  overload: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
+  commentId: M:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
+  id: SetPermanentAdditionalValues(System.String[],System.String[])
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: SetPermanentAdditionalValues(String[], String[])
+  nameWithType: SoLogger.SetPermanentAdditionalValues(String[], String[])
+  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[], System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nSet an array of named values to be added to any logged events. These names/values will remain valid until manually reset or changed.\n"
+  syntax:
+    content: public static void SetPermanentAdditionalValues(string[] names, string[] values)
+    parameters:
+    - id: names
+      type: System.String[]
+      description: Names of items
+    - id: values
+      type: System.String[]
+      description: Values of items
+    content.vb: Public Shared Sub SetPermanentAdditionalValues(names As String(), values As String())
+  overload: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues*
+  nameWithType.vb: SoLogger.SetPermanentAdditionalValues(String(), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String(), System.String())
+  name.vb: SetPermanentAdditionalValues(String(), String())
+- uid: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
+  commentId: M:SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
+  id: GetEnvironmentInfo
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: GetEnvironmentInfo()
+  nameWithType: SoLogger.GetEnvironmentInfo()
+  fullName: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet a name/value collection of environmental information, from all subscribers to our event. Also\nadd any hard-set additional values.\n"
+  syntax:
+    content: public NameValueCollection GetEnvironmentInfo()
+    return:
+      type: System.Collections.Specialized.NameValueCollection
+    content.vb: Public Function GetEnvironmentInfo As NameValueCollection
+  overload: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
+  id: PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: PopulateEnvironmentInfo(LogEntryInfo)
+  nameWithType: SoLogger.PopulateEnvironmentInfo(LogEntryInfo)
+  fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(SuperOffice.Diagnostics.LogEntryInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nPopulate environment information for a log entry.\n"
+  syntax:
+    content: public void PopulateEnvironmentInfo(LogEntryInfo entry)
+    parameters:
+    - id: entry
+      type: SuperOffice.Diagnostics.LogEntryInfo
+      description: The entry to populate environment information on.
+    content.vb: Public Sub PopulateEnvironmentInfo(entry As LogEntryInfo)
+  overload: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  id: PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: PopulateEnvironmentInfo(NameValueCollection)
+  nameWithType: SoLogger.PopulateEnvironmentInfo(NameValueCollection)
+  fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nPopulate environment information for a log entry.\n"
+  syntax:
+    content: public void PopulateEnvironmentInfo(NameValueCollection values)
+    parameters:
+    - id: values
+      type: System.Collections.Specialized.NameValueCollection
+      description: Collection to hold the values.
+    content.vb: Public Sub PopulateEnvironmentInfo(values As NameValueCollection)
+  overload: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type,System.String,System.String)
+  id: LogInformation(System.Type,System.String,System.String)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogInformation(Type, String, String)
+  nameWithType: SoLogger.LogInformation(Type, String, String)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Information to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: public static void LogInformation(Type sourceType, string message, string details)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    content.vb: Public Shared Sub LogInformation(sourceType As Type, message As String, details As String)
+  overload: SuperOffice.Diagnostics.SoLogger.LogInformation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type,System.String,System.String,System.Boolean)
+  id: LogInformation(System.Type,System.String,System.String,System.Boolean)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogInformation(Type, String, String, Boolean)
+  nameWithType: SoLogger.LogInformation(Type, String, String, Boolean)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation(System.Type, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Information to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: public static void LogInformation(Type sourceType, string message, string details, bool lightLogOutput)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    - id: lightLogOutput
+      type: System.Boolean
+      description: 'If lightLogOutput is true, stack trace and environment is not logged as part of the log entry. '
+    content.vb: Public Shared Sub LogInformation(sourceType As Type, message As String, details As String, lightLogOutput As Boolean)
+  overload: SuperOffice.Diagnostics.SoLogger.LogInformation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogWarning(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogWarning(System.Type,System.String,System.String)
+  id: LogWarning(System.Type,System.String,System.String)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(Type, String, String)
+  nameWithType: SoLogger.LogWarning(Type, String, String)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning(System.Type, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Warning to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: public static void LogWarning(Type sourceType, string message, string details)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    content.vb: Public Shared Sub LogWarning(sourceType As Type, message As String, details As String)
+  overload: SuperOffice.Diagnostics.SoLogger.LogWarning*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogWarning(System.Exception)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogWarning(System.Exception)
+  id: LogWarning(System.Exception)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogWarning(Exception)
+  nameWithType: SoLogger.LogWarning(Exception)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog an exception as a warning\n"
+  syntax:
+    content: public static void LogWarning(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+      description: Exception to log as warning.
+    content.vb: Public Shared Sub LogWarning(ex As Exception)
+  overload: SuperOffice.Diagnostics.SoLogger.LogWarning*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogError(System.Type,System.String,System.String)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogError(System.Type,System.String,System.String)
+  id: LogError(System.Type,System.String,System.String)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogError(Type, String, String)
+  nameWithType: SoLogger.LogError(Type, String, String)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError(System.Type, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nCreate and log an event of type Error to the logging system. This method is a shorthand\nfor creating a log entry and logging it. Use the LogEntry method if you need the more general\nversion.\n"
+  syntax:
+    content: public static void LogError(Type sourceType, string message, string details)
+    parameters:
+    - id: sourceType
+      type: System.Type
+      description: Type of object where the event happened
+    - id: message
+      type: System.String
+      description: Summary message
+    - id: details
+      type: System.String
+      description: Detailed message
+    content.vb: Public Shared Sub LogError(sourceType As Type, message As String, details As String)
+  overload: SuperOffice.Diagnostics.SoLogger.LogError*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogError(System.Exception)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogError(System.Exception)
+  id: LogError(System.Exception)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogError(Exception)
+  nameWithType: SoLogger.LogError(Exception)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError(System.Exception)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog en exception as an error.\n"
+  syntax:
+    content: public static void LogError(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+      description: Exception to report.
+    content.vb: Public Shared Sub LogError(ex As Exception)
+  overload: SuperOffice.Diagnostics.SoLogger.LogError*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogError(SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogError(SuperOffice.Exceptions.SoExceptionInfo)
+  id: LogError(SuperOffice.Exceptions.SoExceptionInfo)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogError(SoExceptionInfo)
+  nameWithType: SoLogger.LogError(SoExceptionInfo)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError(SuperOffice.Exceptions.SoExceptionInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog en exception as an error.\n"
+  syntax:
+    content: public static void LogError(SoExceptionInfo ex)
+    parameters:
+    - id: ex
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Exception to report.
+    content.vb: Public Shared Sub LogError(ex As SoExceptionInfo)
+  overload: SuperOffice.Diagnostics.SoLogger.LogError*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogEvent(System.Type,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogEvent(System.Type,System.String,System.String,System.Boolean)
+  id: LogEvent(System.Type,System.String,System.String,System.Boolean)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogEvent(Type, String, String, Boolean)
+  nameWithType: SoLogger.LogEvent(Type, String, String, Boolean)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogEvent(System.Type, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog a significant event.\n"
+  syntax:
+    content: public static void LogEvent(Type sourceType, string message, string details, bool lightLogOutput)
+    parameters:
+    - id: sourceType
+      type: System.Type
+    - id: message
+      type: System.String
+    - id: details
+      type: System.String
+    - id: lightLogOutput
+      type: System.Boolean
+    content.vb: Public Shared Sub LogEvent(sourceType As Type, message As String, details As String, lightLogOutput As Boolean)
+  overload: SuperOffice.Diagnostics.SoLogger.LogEvent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile(System.Xml.XmlDocument)
+  id: LogQueryToXMLFile(System.Xml.XmlDocument)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogQueryToXMLFile(XmlDocument)
+  nameWithType: SoLogger.LogQueryToXMLFile(XmlDocument)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog a query in an XML format that can be later retrieved for analysis by the QueryBench tool (experimental)\n"
+  syntax:
+    content: public static void LogQueryToXMLFile(XmlDocument queryXml)
+    parameters:
+    - id: queryXml
+      type: System.Xml.XmlDocument
+    content.vb: Public Shared Sub LogQueryToXMLFile(queryXml As XmlDocument)
+  overload: SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogToXmlFile(System.String,System.Xml.XmlNode)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogToXmlFile(System.String,System.Xml.XmlNode)
+  id: LogToXmlFile(System.String,System.Xml.XmlNode)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogToXmlFile(String, XmlNode)
+  nameWithType: SoLogger.LogToXmlFile(String, XmlNode)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogToXmlFile(System.String, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog a fragment of XML to a file \n"
+  remarks: "\nThe fragments are appended to the file, separated with &quot;-!-!-!-!-!-!-&quot; as a delimiter.  \nThe file is located in the log folder specified in the configuration file and \nnamed &quot;[filePrefix]YYYY-MM-DD.log&quot;.\n"
+  syntax:
+    content: public static void LogToXmlFile(string filePrefix, XmlNode xml)
+    parameters:
+    - id: filePrefix
+      type: System.String
+      description: Filename prefix
+    - id: xml
+      type: System.Xml.XmlNode
+      description: Xml to log to the file.
+    content.vb: Public Shared Sub LogToXmlFile(filePrefix As String, xml As XmlNode)
+  overload: SuperOffice.Diagnostics.SoLogger.LogToXmlFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile(System.String)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile(System.String)
+  id: LogServiceCallToFile(System.String)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogServiceCallToFile(String)
+  nameWithType: SoLogger.LogServiceCallToFile(String)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog a service layer call to file\n"
+  syntax:
+    content: public static void LogServiceCallToFile(string serviceInformation)
+    parameters:
+    - id: serviceInformation
+      type: System.String
+    content.vb: Public Shared Sub LogServiceCallToFile(serviceInformation As String)
+  overload: SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Diagnostics.SoLogger.LogQuery(SuperOffice.Diagnostics.LogEntryInfo,SuperOffice.Diagnostics.SqlCommandInfo)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogQuery(SuperOffice.Diagnostics.LogEntryInfo,SuperOffice.Diagnostics.SqlCommandInfo)
+  id: LogQuery(SuperOffice.Diagnostics.LogEntryInfo,SuperOffice.Diagnostics.SqlCommandInfo)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogQuery(LogEntryInfo, SqlCommandInfo)
+  nameWithType: SoLogger.LogQuery(LogEntryInfo, SqlCommandInfo)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogQuery(SuperOffice.Diagnostics.LogEntryInfo, SuperOffice.Diagnostics.SqlCommandInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public void LogQuery(LogEntryInfo entry, SqlCommandInfo sqlCommandInfo)
+    parameters:
+    - id: entry
+      type: SuperOffice.Diagnostics.LogEntryInfo
+    - id: sqlCommandInfo
+      type: SuperOffice.Diagnostics.SqlCommandInfo
+    content.vb: Public Sub LogQuery(entry As LogEntryInfo, sqlCommandInfo As SqlCommandInfo)
+  overload: SuperOffice.Diagnostics.SoLogger.LogQuery*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo)
+  id: LogEntry(SuperOffice.Diagnostics.LogEntryInfo)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogEntry(LogEntryInfo)
+  nameWithType: SoLogger.LogEntry(LogEntryInfo)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog an entry to the logging system.\n"
+  syntax:
+    content: public void LogEntry(LogEntryInfo entry)
+    parameters:
+    - id: entry
+      type: SuperOffice.Diagnostics.LogEntryInfo
+      description: The entry to log.
+    content.vb: Public Sub LogEntry(entry As LogEntryInfo)
+  overload: SuperOffice.Diagnostics.SoLogger.LogEntry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo,System.Boolean,System.Boolean)
+  id: LogEntry(SuperOffice.Diagnostics.LogEntryInfo,System.Boolean,System.Boolean)
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: LogEntry(LogEntryInfo, Boolean, Boolean)
+  nameWithType: SoLogger.LogEntry(LogEntryInfo, Boolean, Boolean)
+  fullName: SuperOffice.Diagnostics.SoLogger.LogEntry(SuperOffice.Diagnostics.LogEntryInfo, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nLog an entry to the logging system.\nChecks the <xref href=\"SuperOffice.Configuration.ConfigFile.Diagnostics\" data-throw-if-not-resolved=\"false\"></xref> Log properties to determine\nif a particular entry should be included.\n"
+  syntax:
+    content: public void LogEntry(LogEntryInfo entry, bool lightLogOutput, bool force = false)
+    parameters:
+    - id: entry
+      type: SuperOffice.Diagnostics.LogEntryInfo
+      description: 'The entry to log. '
+    - id: lightLogOutput
+      type: System.Boolean
+      description: 'If lightLogOutput is true, stack trace and environment is not logged as part of the log entry. '
+    - id: force
+      type: System.Boolean
+      description: Force the entry to be logged, even if the type is ignored
+    content.vb: Public Sub LogEntry(entry As LogEntryInfo, lightLogOutput As Boolean, force As Boolean = False)
+  overload: SuperOffice.Diagnostics.SoLogger.LogEntry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Diagnostics.SoLogger.Logger
+  commentId: P:SuperOffice.Diagnostics.SoLogger.Logger
+  id: Logger
+  parent: SuperOffice.Diagnostics.SoLogger
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: SoLogger.Logger
+  fullName: SuperOffice.Diagnostics.SoLogger.Logger
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Diagnostics
+  summary: "\nGet the singleton instance of the logger class\n"
+  syntax:
+    content: public static SoLogger Logger { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Diagnostics.SoLogger
+    content.vb: Public Shared ReadOnly Property Logger As SoLogger
+  overload: SuperOffice.Diagnostics.SoLogger.Logger*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.Diagnostics
+  commentId: N:SuperOffice.Diagnostics
+  isExternal: true
+  name: SuperOffice.Diagnostics
+  nameWithType: SuperOffice.Diagnostics
+  fullName: SuperOffice.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLogger.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoLogger, To>()
+  nameWithType: EnumUtil.MapEnums<SoLogger, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLogger, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoLogger, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)()
+  name.vb: MapEnums(Of SoLogger, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoLogger, To>
+    nameWithType: EnumUtil.MapEnums<SoLogger, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Diagnostics.SoLogger, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoLogger, To)
+    nameWithType: EnumUtil.MapEnums(Of SoLogger, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Diagnostics.SoLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoLogger, To>()
+  nameWithType: Converters.MapEnums<SoLogger, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLogger, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoLogger, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)()
+  name.vb: MapEnums(Of SoLogger, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoLogger, To>
+    nameWithType: Converters.MapEnums<SoLogger, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Diagnostics.SoLogger, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoLogger, To)
+    nameWithType: Converters.MapEnums(Of SoLogger, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Diagnostics.SoLogger, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Diagnostics.SoLogger.LogException*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogException
+  isExternal: true
+  name: LogException
+  nameWithType: SoLogger.LogException
+  fullName: SuperOffice.Diagnostics.SoLogger.LogException
+- uid: System.Diagnostics.EventLogEntryType
+  isExternal: true
+  name: EventLogEntryType
+  nameWithType: EventLogEntryType
+  fullName: System.Diagnostics.EventLogEntryType
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Exceptions.SoExceptionInfo
+  commentId: T:SuperOffice.Exceptions.SoExceptionInfo
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue
+  isExternal: true
+  name: SetPermanentAdditionalValue
+  nameWithType: SoLogger.SetPermanentAdditionalValue
+  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues
+  isExternal: true
+  name: SetPermanentAdditionalValues
+  nameWithType: SoLogger.SetPermanentAdditionalValues
+  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
+  isExternal: true
+  name: GetEnvironmentInfo
+  nameWithType: SoLogger.GetEnvironmentInfo
+  fullName: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
+- uid: System.Collections.Specialized.NameValueCollection
+  isExternal: true
+  name: NameValueCollection
+  nameWithType: NameValueCollection
+  fullName: System.Collections.Specialized.NameValueCollection
+- uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo
+  isExternal: true
+  name: PopulateEnvironmentInfo
+  nameWithType: SoLogger.PopulateEnvironmentInfo
+  fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo
+- uid: SuperOffice.Diagnostics.LogEntryInfo
+  commentId: T:SuperOffice.Diagnostics.LogEntryInfo
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: LogEntryInfo
+  nameWithType: LogEntryInfo
+  fullName: SuperOffice.Diagnostics.LogEntryInfo
+- uid: SuperOffice.Diagnostics.SoLogger.LogInformation*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogInformation
+  isExternal: true
+  name: LogInformation
+  nameWithType: SoLogger.LogInformation
+  fullName: SuperOffice.Diagnostics.SoLogger.LogInformation
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Diagnostics.SoLogger.LogWarning*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogWarning
+  isExternal: true
+  name: LogWarning
+  nameWithType: SoLogger.LogWarning
+  fullName: SuperOffice.Diagnostics.SoLogger.LogWarning
+- uid: SuperOffice.Diagnostics.SoLogger.LogError*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogError
+  isExternal: true
+  name: LogError
+  nameWithType: SoLogger.LogError
+  fullName: SuperOffice.Diagnostics.SoLogger.LogError
+- uid: SuperOffice.Diagnostics.SoLogger.LogEvent*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogEvent
+  isExternal: true
+  name: LogEvent
+  nameWithType: SoLogger.LogEvent
+  fullName: SuperOffice.Diagnostics.SoLogger.LogEvent
+- uid: SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile
+  isExternal: true
+  name: LogQueryToXMLFile
+  nameWithType: SoLogger.LogQueryToXMLFile
+  fullName: SuperOffice.Diagnostics.SoLogger.LogQueryToXMLFile
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.Diagnostics.SoLogger.LogToXmlFile*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogToXmlFile
+  isExternal: true
+  name: LogToXmlFile
+  nameWithType: SoLogger.LogToXmlFile
+  fullName: SuperOffice.Diagnostics.SoLogger.LogToXmlFile
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile
+  isExternal: true
+  name: LogServiceCallToFile
+  nameWithType: SoLogger.LogServiceCallToFile
+  fullName: SuperOffice.Diagnostics.SoLogger.LogServiceCallToFile
+- uid: SuperOffice.Diagnostics.SoLogger.LogQuery*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogQuery
+  isExternal: true
+  name: LogQuery
+  nameWithType: SoLogger.LogQuery
+  fullName: SuperOffice.Diagnostics.SoLogger.LogQuery
+- uid: SuperOffice.Diagnostics.SqlCommandInfo
+  commentId: T:SuperOffice.Diagnostics.SqlCommandInfo
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SqlCommandInfo
+  nameWithType: SqlCommandInfo
+  fullName: SuperOffice.Diagnostics.SqlCommandInfo
+- uid: SuperOffice.Diagnostics.SoLogger.LogEntry*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogEntry
+  isExternal: true
+  name: LogEntry
+  nameWithType: SoLogger.LogEntry
+  fullName: SuperOffice.Diagnostics.SoLogger.LogEntry
+- uid: SuperOffice.Diagnostics.SoLogger.Logger*
+  commentId: Overload:SuperOffice.Diagnostics.SoLogger.Logger
+  isExternal: true
+  name: Logger
+  nameWithType: SoLogger.Logger
+  fullName: SuperOffice.Diagnostics.SoLogger.Logger
+- uid: SuperOffice.Diagnostics.SoLogger
+  commentId: T:SuperOffice.Diagnostics.SoLogger
+  parent: SuperOffice.Diagnostics
+  isExternal: true
+  name: SoLogger
+  nameWithType: SoLogger
+  fullName: SuperOffice.Diagnostics.SoLogger

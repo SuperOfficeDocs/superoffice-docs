@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController
+  commentId: T:SuperOffice.CRM.Web.Controllers.TooltipController
+  id: TooltipController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.TooltipController.#ctor
+  - SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip(SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest)
+  langs:
+  - csharp
+  - vb
+  name: TooltipController
+  nameWithType: TooltipController
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class TooltipController : ApiController'
+    content.vb: >-
+      Public Class TooltipController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip(SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip(SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest)
+  id: GetTooltip(SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest)
+  parent: SuperOffice.CRM.Web.Controllers.TooltipController
+  langs:
+  - csharp
+  - vb
+  name: GetTooltip(TooltipController.GetTooltipRequest)
+  nameWithType: TooltipController.GetTooltip(TooltipController.GetTooltipRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip(SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public TooltipController.GetTooltipResponse GetTooltip(TooltipController.GetTooltipRequest getTooltipRequest)
+    parameters:
+    - id: getTooltipRequest
+      type: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
+    return:
+      type: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipResponse
+    content.vb: Public Function GetTooltip(getTooltipRequest As TooltipController.GetTooltipRequest) As TooltipController.GetTooltipResponse
+  overload: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.TooltipController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.TooltipController
+  langs:
+  - csharp
+  - vb
+  name: TooltipController()
+  nameWithType: TooltipController.TooltipController()
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController.TooltipController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public TooltipController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.TooltipController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip
+  isExternal: true
+  name: GetTooltip
+  nameWithType: TooltipController.GetTooltip
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltip
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: TooltipController.GetTooltipRequest
+  nameWithType: TooltipController.GetTooltipRequest
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipRequest
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipResponse
+  commentId: T:SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipResponse
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: TooltipController.GetTooltipResponse
+  nameWithType: TooltipController.GetTooltipResponse
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController.GetTooltipResponse
+- uid: SuperOffice.CRM.Web.Controllers.TooltipController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.TooltipController.#ctor
+  isExternal: true
+  name: TooltipController
+  nameWithType: TooltipController.TooltipController
+  fullName: SuperOffice.CRM.Web.Controllers.TooltipController.TooltipController

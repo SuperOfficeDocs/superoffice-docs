@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket
+  commentId: T:SuperOffice.WebApi.AuthorizationSystemUserTicket
+  id: AuthorizationSystemUserTicket
+  parent: SuperOffice.WebApi
+  children:
+  - SuperOffice.WebApi.AuthorizationSystemUserTicket.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.String)
+  - SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  - SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationSystemUserTicket
+  nameWithType: AuthorizationSystemUserTicket
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nSOTicket for use with SystemUser tokens in CRM online only. See <xref href=\"SuperOffice.WebApi.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class AuthorizationSystemUserTicket : AuthorizationTicket, IAuthorization, IAddHeaders'
+    content.vb: >-
+      Public Class AuthorizationSystemUserTicket
+          Inherits AuthorizationTicket
+          Implements IAuthorization, IAddHeaders
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.AuthorizationTicket
+  implements:
+  - SuperOffice.WebApi.IAuthorization
+  - SuperOffice.WebApi.IAddHeaders
+  inheritedMembers:
+  - SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+  - SuperOffice.WebApi.AuthorizationTicket.RefreshAuthorization
+  - SuperOffice.WebApi.AuthorizationTicket.Ticket
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.String)
+  commentId: M:SuperOffice.WebApi.AuthorizationSystemUserTicket.#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.String)
+  id: '#ctor(SuperOffice.WebApi.IdentityModel.SystemUserInfo,System.String)'
+  parent: SuperOffice.WebApi.AuthorizationSystemUserTicket
+  langs:
+  - csharp
+  - vb
+  name: AuthorizationSystemUserTicket(SystemUserInfo, String)
+  nameWithType: AuthorizationSystemUserTicket.AuthorizationSystemUserTicket(SystemUserInfo, String)
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket.AuthorizationSystemUserTicket(SuperOffice.WebApi.IdentityModel.SystemUserInfo, System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nTicket Authorization constructor used in CRM online scenario&apos;s where client secret is required.\n"
+  syntax:
+    content: public AuthorizationSystemUserTicket(SystemUserInfo systemUserInfo, string ticket)
+    parameters:
+    - id: systemUserInfo
+      type: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+      description: Contains information require to get System User ticket.
+    - id: ticket
+      type: System.String
+      description: 'System user SOTicket string: &quot;7T:abc123==&quot;'
+    content.vb: Public Sub New(systemUserInfo As SystemUserInfo, ticket As String)
+  overload: SuperOffice.WebApi.AuthorizationSystemUserTicket.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  commentId: M:SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  id: AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  parent: SuperOffice.WebApi.AuthorizationSystemUserTicket
+  langs:
+  - csharp
+  - vb
+  name: AddHeaders(HttpRequestHeaders)
+  nameWithType: AuthorizationSystemUserTicket.AddHeaders(HttpRequestHeaders)
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nCalled by the AgentBase and adds the SO-AppToken.\n"
+  syntax:
+    content: public void AddHeaders(HttpRequestHeaders headers)
+    parameters:
+    - id: headers
+      type: System.Net.Http.Headers.HttpRequestHeaders
+      description: Collection of HttpRequest headers.
+    content.vb: Public Sub AddHeaders(headers As HttpRequestHeaders)
+  overload: SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders*
+  implements:
+  - SuperOffice.WebApi.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo
+  commentId: P:SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo
+  id: SystemUserInfo
+  parent: SuperOffice.WebApi.AuthorizationSystemUserTicket
+  langs:
+  - csharp
+  - vb
+  name: SystemUserInfo
+  nameWithType: AuthorizationSystemUserTicket.SystemUserInfo
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi
+  summary: "\nContains information require to get System User ticket.\n"
+  syntax:
+    content: public SystemUserInfo SystemUserInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+    content.vb: Public ReadOnly Property SystemUserInfo As SystemUserInfo
+  overload: SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.AuthorizationTicket
+  commentId: T:SuperOffice.WebApi.AuthorizationTicket
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: AuthorizationTicket
+  nameWithType: AuthorizationTicket
+  fullName: SuperOffice.WebApi.AuthorizationTicket
+- uid: SuperOffice.WebApi.IAuthorization
+  commentId: T:SuperOffice.WebApi.IAuthorization
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization
+- uid: SuperOffice.WebApi.IAddHeaders
+  commentId: T:SuperOffice.WebApi.IAddHeaders
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IAddHeaders
+  nameWithType: IAddHeaders
+  fullName: SuperOffice.WebApi.IAddHeaders
+- uid: SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+  commentId: M:SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+  parent: SuperOffice.WebApi.AuthorizationTicket
+  isExternal: true
+  name: GetAuthorization()
+  nameWithType: AuthorizationTicket.GetAuthorization()
+  fullName: SuperOffice.WebApi.AuthorizationTicket.GetAuthorization()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+    name: GetAuthorization
+    nameWithType: AuthorizationTicket.GetAuthorization
+    fullName: SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+    name: GetAuthorization
+    nameWithType: AuthorizationTicket.GetAuthorization
+    fullName: SuperOffice.WebApi.AuthorizationTicket.GetAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.AuthorizationTicket.RefreshAuthorization
+  commentId: P:SuperOffice.WebApi.AuthorizationTicket.RefreshAuthorization
+  parent: SuperOffice.WebApi.AuthorizationTicket
+  isExternal: true
+  name: RefreshAuthorization
+  nameWithType: AuthorizationTicket.RefreshAuthorization
+  fullName: SuperOffice.WebApi.AuthorizationTicket.RefreshAuthorization
+- uid: SuperOffice.WebApi.AuthorizationTicket.Ticket
+  commentId: P:SuperOffice.WebApi.AuthorizationTicket.Ticket
+  parent: SuperOffice.WebApi.AuthorizationTicket
+  isExternal: true
+  name: Ticket
+  nameWithType: AuthorizationTicket.Ticket
+  fullName: SuperOffice.WebApi.AuthorizationTicket.Ticket
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket.#ctor*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationSystemUserTicket.#ctor
+  isExternal: true
+  name: AuthorizationSystemUserTicket
+  nameWithType: AuthorizationSystemUserTicket.AuthorizationSystemUserTicket
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket.AuthorizationSystemUserTicket
+- uid: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  commentId: T:SuperOffice.WebApi.IdentityModel.SystemUserInfo
+  parent: SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SystemUserInfo
+  nameWithType: SystemUserInfo
+  fullName: SuperOffice.WebApi.IdentityModel.SystemUserInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.IdentityModel
+  commentId: N:SuperOffice.WebApi.IdentityModel
+  isExternal: true
+  name: SuperOffice.WebApi.IdentityModel
+  nameWithType: SuperOffice.WebApi.IdentityModel
+  fullName: SuperOffice.WebApi.IdentityModel
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders
+  isExternal: true
+  name: AddHeaders
+  nameWithType: AuthorizationSystemUserTicket.AddHeaders
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket.AddHeaders
+- uid: SuperOffice.WebApi.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  commentId: M:SuperOffice.WebApi.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  parent: SuperOffice.WebApi.IAddHeaders
+  isExternal: true
+  name: AddHeaders(HttpRequestHeaders)
+  nameWithType: IAddHeaders.AddHeaders(HttpRequestHeaders)
+  fullName: SuperOffice.WebApi.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+    name: AddHeaders
+    nameWithType: IAddHeaders.AddHeaders
+    fullName: SuperOffice.WebApi.IAddHeaders.AddHeaders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.Headers.HttpRequestHeaders
+    name: HttpRequestHeaders
+    nameWithType: HttpRequestHeaders
+    fullName: System.Net.Http.Headers.HttpRequestHeaders
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.IAddHeaders.AddHeaders(System.Net.Http.Headers.HttpRequestHeaders)
+    name: AddHeaders
+    nameWithType: IAddHeaders.AddHeaders
+    fullName: SuperOffice.WebApi.IAddHeaders.AddHeaders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.Headers.HttpRequestHeaders
+    name: HttpRequestHeaders
+    nameWithType: HttpRequestHeaders
+    fullName: System.Net.Http.Headers.HttpRequestHeaders
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Net.Http.Headers.HttpRequestHeaders
+  isExternal: true
+  name: HttpRequestHeaders
+  nameWithType: HttpRequestHeaders
+  fullName: System.Net.Http.Headers.HttpRequestHeaders
+- uid: SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo*
+  commentId: Overload:SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo
+  isExternal: true
+  name: SystemUserInfo
+  nameWithType: AuthorizationSystemUserTicket.SystemUserInfo
+  fullName: SuperOffice.WebApi.AuthorizationSystemUserTicket.SystemUserInfo

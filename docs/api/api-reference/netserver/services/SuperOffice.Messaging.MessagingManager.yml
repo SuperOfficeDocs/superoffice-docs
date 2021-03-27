@@ -1,0 +1,910 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.MessagingManager
+  commentId: T:SuperOffice.Messaging.MessagingManager
+  id: MessagingManager
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.MessagingManager.#ctor
+  - SuperOffice.Messaging.MessagingManager.CreateMessage(SuperOffice.CRM.Services.IncomingMessage)
+  - SuperOffice.Messaging.MessagingManager.GetCurrent
+  - SuperOffice.Messaging.MessagingManager.GetDeliveryStatus(System.Int32[])
+  - SuperOffice.Messaging.MessagingManager.GetPlugins
+  - SuperOffice.Messaging.MessagingManager.SendMessages(System.String,SuperOffice.CRM.Services.OutgoingMessage[])
+  - SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Collections.Generic.Dictionary{System.String,System.String})
+  - SuperOffice.Messaging.MessagingManager.SetDeliveryStatus(System.String,System.String,System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: MessagingManager
+  nameWithType: MessagingManager
+  fullName: SuperOffice.Messaging.MessagingManager
+  type: Class
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\n\n"
+  syntax:
+    content: public class MessagingManager
+    content.vb: Public Class MessagingManager
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Messaging.MessagingManager.GetCurrent
+  commentId: M:SuperOffice.Messaging.MessagingManager.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: MessagingManager.GetCurrent()
+  fullName: SuperOffice.Messaging.MessagingManager.GetCurrent()
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nGet Messaging Manager\n"
+  syntax:
+    content: public static MessagingManager GetCurrent()
+    return:
+      type: SuperOffice.Messaging.MessagingManager
+      description: There is only one messaging agent instance
+    content.vb: Public Shared Function GetCurrent As MessagingManager
+  overload: SuperOffice.Messaging.MessagingManager.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Messaging.MessagingManager.GetPlugins
+  commentId: M:SuperOffice.Messaging.MessagingManager.GetPlugins
+  id: GetPlugins
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: GetPlugins()
+  nameWithType: MessagingManager.GetPlugins()
+  fullName: SuperOffice.Messaging.MessagingManager.GetPlugins()
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nGet Plugins\n"
+  syntax:
+    content: public ProviderInfo[] GetPlugins()
+    return:
+      type: SuperOffice.CRM.Services.ProviderInfo[]
+      description: Return a list of plugins
+    content.vb: Public Function GetPlugins As ProviderInfo()
+  overload: SuperOffice.Messaging.MessagingManager.GetPlugins*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.SendMessages(System.String,SuperOffice.CRM.Services.OutgoingMessage[])
+  commentId: M:SuperOffice.Messaging.MessagingManager.SendMessages(System.String,SuperOffice.CRM.Services.OutgoingMessage[])
+  id: SendMessages(System.String,SuperOffice.CRM.Services.OutgoingMessage[])
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: SendMessages(String, OutgoingMessage[])
+  nameWithType: MessagingManager.SendMessages(String, OutgoingMessage[])
+  fullName: SuperOffice.Messaging.MessagingManager.SendMessages(System.String, SuperOffice.CRM.Services.OutgoingMessage[])
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nSend messages\n"
+  syntax:
+    content: public MessageDeliveryStatus[] SendMessages(string pluginName, params OutgoingMessage[] outgoingMessages)
+    parameters:
+    - id: pluginName
+      type: System.String
+    - id: outgoingMessages
+      type: SuperOffice.CRM.Services.OutgoingMessage[]
+      description: Array of outgoing messages containing all information about the messages
+    return:
+      type: SuperOffice.CRM.Services.MessageDeliveryStatus[]
+      description: Array of a delivery status for each outgoing message
+    content.vb: Public Function SendMessages(pluginName As String, ParamArray outgoingMessages As OutgoingMessage()) As MessageDeliveryStatus()
+  overload: SuperOffice.Messaging.MessagingManager.SendMessages*
+  nameWithType.vb: MessagingManager.SendMessages(String, OutgoingMessage())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Messaging.MessagingManager.SendMessages(System.String, SuperOffice.CRM.Services.OutgoingMessage())
+  name.vb: SendMessages(String, OutgoingMessage())
+- uid: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Collections.Generic.Dictionary{System.String,System.String})
+  commentId: M:SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Collections.Generic.Dictionary{System.String,System.String})
+  id: SendMessagesWithConfig(System.String,SuperOffice.CRM.Services.OutgoingMessage[],System.Collections.Generic.Dictionary{System.String,System.String})
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: SendMessagesWithConfig(String, OutgoingMessage[], Dictionary<String, String>)
+  nameWithType: MessagingManager.SendMessagesWithConfig(String, OutgoingMessage[], Dictionary<String, String>)
+  fullName: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig(System.String, SuperOffice.CRM.Services.OutgoingMessage[], System.Collections.Generic.Dictionary<System.String, System.String>)
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nSend messages\n"
+  syntax:
+    content: public MessageDeliveryStatus[] SendMessagesWithConfig(string pluginName, OutgoingMessage[] outgoingMessages, Dictionary<string, string> config)
+    parameters:
+    - id: pluginName
+      type: System.String
+    - id: outgoingMessages
+      type: SuperOffice.CRM.Services.OutgoingMessage[]
+      description: Array of outgoing messages containing all information about the messages
+    - id: config
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+    return:
+      type: SuperOffice.CRM.Services.MessageDeliveryStatus[]
+      description: Array of a delivery status for each outgoing message
+    content.vb: Public Function SendMessagesWithConfig(pluginName As String, outgoingMessages As OutgoingMessage(), config As Dictionary(Of String, String)) As MessageDeliveryStatus()
+  overload: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig*
+  nameWithType.vb: MessagingManager.SendMessagesWithConfig(String, OutgoingMessage(), Dictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig(System.String, SuperOffice.CRM.Services.OutgoingMessage(), System.Collections.Generic.Dictionary(Of System.String, System.String))
+  name.vb: SendMessagesWithConfig(String, OutgoingMessage(), Dictionary(Of String, String))
+- uid: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus(System.Int32[])
+  commentId: M:SuperOffice.Messaging.MessagingManager.GetDeliveryStatus(System.Int32[])
+  id: GetDeliveryStatus(System.Int32[])
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: GetDeliveryStatus(Int32[])
+  nameWithType: MessagingManager.GetDeliveryStatus(Int32[])
+  fullName: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nGet delivery status for an outgoing message.\n"
+  syntax:
+    content: public MessageDeliveryStatus[] GetDeliveryStatus(int[] messagingIds)
+    parameters:
+    - id: messagingIds
+      type: System.Int32[]
+      description: Array of messagingIds
+    return:
+      type: SuperOffice.CRM.Services.MessageDeliveryStatus[]
+      description: Array of a delivery status for each messagingId
+    content.vb: Public Function GetDeliveryStatus(messagingIds As Integer()) As MessageDeliveryStatus()
+  overload: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus*
+  nameWithType.vb: MessagingManager.GetDeliveryStatus(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus(System.Int32())
+  name.vb: GetDeliveryStatus(Int32())
+- uid: SuperOffice.Messaging.MessagingManager.SetDeliveryStatus(System.String,System.String,System.Int32,System.String)
+  commentId: M:SuperOffice.Messaging.MessagingManager.SetDeliveryStatus(System.String,System.String,System.Int32,System.String)
+  id: SetDeliveryStatus(System.String,System.String,System.Int32,System.String)
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: SetDeliveryStatus(String, String, Int32, String)
+  nameWithType: MessagingManager.SetDeliveryStatus(String, String, Int32, String)
+  fullName: SuperOffice.Messaging.MessagingManager.SetDeliveryStatus(System.String, System.String, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nSet or update delivery status\n"
+  syntax:
+    content: public void SetDeliveryStatus(string plugin, string externalMessageId, int status, string statusDescription)
+    parameters:
+    - id: plugin
+      type: System.String
+      description: Name of plugin
+    - id: externalMessageId
+      type: System.String
+      description: External message id, known to plugin
+    - id: status
+      type: System.Int32
+      description: Status enum
+    - id: statusDescription
+      type: System.String
+      description: String description of status
+    content.vb: Public Sub SetDeliveryStatus(plugin As String, externalMessageId As String, status As Integer, statusDescription As String)
+  overload: SuperOffice.Messaging.MessagingManager.SetDeliveryStatus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.CreateMessage(SuperOffice.CRM.Services.IncomingMessage)
+  commentId: M:SuperOffice.Messaging.MessagingManager.CreateMessage(SuperOffice.CRM.Services.IncomingMessage)
+  id: CreateMessage(SuperOffice.CRM.Services.IncomingMessage)
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: CreateMessage(IncomingMessage)
+  nameWithType: MessagingManager.CreateMessage(IncomingMessage)
+  fullName: SuperOffice.Messaging.MessagingManager.CreateMessage(SuperOffice.CRM.Services.IncomingMessage)
+  type: Method
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  summary: "\nCreate an incoming message\n"
+  syntax:
+    content: public void CreateMessage(IncomingMessage incomingMessage)
+    parameters:
+    - id: incomingMessage
+      type: SuperOffice.CRM.Services.IncomingMessage
+      description: IncomingMessage object containing all information about the message
+    content.vb: Public Sub CreateMessage(incomingMessage As IncomingMessage)
+  overload: SuperOffice.Messaging.MessagingManager.CreateMessage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.MessagingManager.#ctor
+  commentId: M:SuperOffice.Messaging.MessagingManager.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Messaging.MessagingManager
+  langs:
+  - csharp
+  - vb
+  name: MessagingManager()
+  nameWithType: MessagingManager.MessagingManager()
+  fullName: SuperOffice.Messaging.MessagingManager.MessagingManager()
+  type: Constructor
+  source:
+    path: SuperOffice.Messaging
+    isExternal: true
+  assemblies:
+  - SuperOffice.Messaging
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public MessagingManager()
+    content.vb: Public Sub New
+  overload: SuperOffice.Messaging.MessagingManager.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Messaging.MessagingManager.GetCurrent*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: MessagingManager.GetCurrent
+  fullName: SuperOffice.Messaging.MessagingManager.GetCurrent
+- uid: SuperOffice.Messaging.MessagingManager
+  commentId: T:SuperOffice.Messaging.MessagingManager
+  parent: SuperOffice.Messaging
+  isExternal: true
+  name: MessagingManager
+  nameWithType: MessagingManager
+  fullName: SuperOffice.Messaging.MessagingManager
+- uid: SuperOffice.Messaging.MessagingManager.GetPlugins*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.GetPlugins
+  isExternal: true
+  name: GetPlugins
+  nameWithType: MessagingManager.GetPlugins
+  fullName: SuperOffice.Messaging.MessagingManager.GetPlugins
+- uid: SuperOffice.CRM.Services.ProviderInfo[]
+  isExternal: true
+  name: ProviderInfo[]
+  nameWithType: ProviderInfo[]
+  fullName: SuperOffice.CRM.Services.ProviderInfo[]
+  nameWithType.vb: ProviderInfo()
+  fullName.vb: SuperOffice.CRM.Services.ProviderInfo()
+  name.vb: ProviderInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProviderInfo
+    name: ProviderInfo
+    nameWithType: ProviderInfo
+    fullName: SuperOffice.CRM.Services.ProviderInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProviderInfo
+    name: ProviderInfo
+    nameWithType: ProviderInfo
+    fullName: SuperOffice.CRM.Services.ProviderInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Messaging.MessagingManager.SendMessages*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.SendMessages
+  isExternal: true
+  name: SendMessages
+  nameWithType: MessagingManager.SendMessages
+  fullName: SuperOffice.Messaging.MessagingManager.SendMessages
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.OutgoingMessage[]
+  isExternal: true
+  name: OutgoingMessage[]
+  nameWithType: OutgoingMessage[]
+  fullName: SuperOffice.CRM.Services.OutgoingMessage[]
+  nameWithType.vb: OutgoingMessage()
+  fullName.vb: SuperOffice.CRM.Services.OutgoingMessage()
+  name.vb: OutgoingMessage()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    nameWithType: OutgoingMessage
+    fullName: SuperOffice.CRM.Services.OutgoingMessage
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.OutgoingMessage
+    name: OutgoingMessage
+    nameWithType: OutgoingMessage
+    fullName: SuperOffice.CRM.Services.OutgoingMessage
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.MessageDeliveryStatus[]
+  isExternal: true
+  name: MessageDeliveryStatus[]
+  nameWithType: MessageDeliveryStatus[]
+  fullName: SuperOffice.CRM.Services.MessageDeliveryStatus[]
+  nameWithType.vb: MessageDeliveryStatus()
+  fullName.vb: SuperOffice.CRM.Services.MessageDeliveryStatus()
+  name.vb: MessageDeliveryStatus()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MessageDeliveryStatus
+    name: MessageDeliveryStatus
+    nameWithType: MessageDeliveryStatus
+    fullName: SuperOffice.CRM.Services.MessageDeliveryStatus
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MessageDeliveryStatus
+    name: MessageDeliveryStatus
+    nameWithType: MessageDeliveryStatus
+    fullName: SuperOffice.CRM.Services.MessageDeliveryStatus
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig
+  isExternal: true
+  name: SendMessagesWithConfig
+  nameWithType: MessagingManager.SendMessagesWithConfig
+  fullName: SuperOffice.Messaging.MessagingManager.SendMessagesWithConfig
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.GetDeliveryStatus
+  isExternal: true
+  name: GetDeliveryStatus
+  nameWithType: MessagingManager.GetDeliveryStatus
+  fullName: SuperOffice.Messaging.MessagingManager.GetDeliveryStatus
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Messaging.MessagingManager.SetDeliveryStatus*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.SetDeliveryStatus
+  isExternal: true
+  name: SetDeliveryStatus
+  nameWithType: MessagingManager.SetDeliveryStatus
+  fullName: SuperOffice.Messaging.MessagingManager.SetDeliveryStatus
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Messaging.MessagingManager.CreateMessage*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.CreateMessage
+  isExternal: true
+  name: CreateMessage
+  nameWithType: MessagingManager.CreateMessage
+  fullName: SuperOffice.Messaging.MessagingManager.CreateMessage
+- uid: SuperOffice.CRM.Services.IncomingMessage
+  isExternal: true
+  name: IncomingMessage
+  nameWithType: IncomingMessage
+  fullName: SuperOffice.CRM.Services.IncomingMessage
+- uid: SuperOffice.Messaging.MessagingManager.#ctor*
+  commentId: Overload:SuperOffice.Messaging.MessagingManager.#ctor
+  isExternal: true
+  name: MessagingManager
+  nameWithType: MessagingManager.MessagingManager
+  fullName: SuperOffice.Messaging.MessagingManager.MessagingManager

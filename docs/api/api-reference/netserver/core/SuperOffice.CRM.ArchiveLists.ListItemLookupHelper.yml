@@ -1,0 +1,739 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  id: ListItemLookupHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.Int32)
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ListItemLookupHelper
+  nameWithType: ListItemLookupHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nThis helper is used by the archives to quickly look up the value (name, tooltip, whatever) corresponding\nto a list item. It will take either a table number or a list name, look up the item, and cache the result.\nVarious caching and override mechanisms are used to make lookups as fast as possible, and to work with some\nunconventional &apos;lists&apos; like contact or person.\n"
+  syntax:
+    content: >-
+      [SoInject("Database")]
+
+      public class ListItemLookupHelper
+    content.vb: >-
+      <SoInject("Database")>
+
+      Public Class ListItemLookupHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Factory.SoInjectAttribute
+    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Database
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush
+  id: Flush
+  parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  langs:
+  - csharp
+  - vb
+  name: Flush()
+  nameWithType: ListItemLookupHelper.Flush()
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public void Flush()
+    content.vb: Public Sub Flush
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent
+  id: GetCurrent
+  parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrent()
+  nameWithType: ListItemLookupHelper.GetCurrent()
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ListItemLookupHelper GetCurrent()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+    content.vb: Public Shared Function GetCurrent As ListItemLookupHelper
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32,System.Int32)
+  id: LookupItem(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  langs:
+  - csharp
+  - vb
+  name: LookupItem(Int32, Int32)
+  nameWithType: ListItemLookupHelper.LookupItem(Int32, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nLook up an SoList item by list table number and ID. This overload works for lists that directly\ncorrespond to actual database tables, with the added restriction that those tables must have \nSoTable.<see cref=\"!:SuperOffice.CRM.Data.SoTable.IsMDOList\"></see> set to true.\n<p></p>\nIf any condition is broken, or the list item does not exist, the generic blank item is returned.\n"
+  syntax:
+    content: public ISoListItem LookupItem(int listTableNumber, int id)
+    parameters:
+    - id: listTableNumber
+      type: System.Int32
+      description: List table number in database
+    - id: id
+      type: System.Int32
+      description: ID to look up
+    return:
+      type: SuperOffice.CRM.Lists.ISoListItem
+      description: List item corresponding to table/ID, or blank
+    content.vb: Public Function LookupItem(listTableNumber As Integer, id As Integer) As ISoListItem
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.String,System.String)
+  id: LookupItem(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  langs:
+  - csharp
+  - vb
+  name: LookupItem(String, String, String)
+  nameWithType: ListItemLookupHelper.LookupItem(String, String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nLook up an item based on a string key instead of the usual int primarykey\n"
+  remarks: "\nSome lists (ERP Connector related) use a string key instead of an int; the reason is that the source\nof the list may be external to the superoffice database. Such lists must have normal ISoListProviders\nimplemented, and provide their key in the ExtraInfo field of each item.\n<p></p>\nThis method lazy-loads the entire list of first reference, and performs dictionary looks later on.\nThe cache is only cleared on <xref href=\"SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush\" data-throw-if-not-resolved=\"false\"></xref>. If the ExtraInfo keys are not in fact unique,\nthen the last one wins (no crashes)\n"
+  syntax:
+    content: public ISoListItem LookupItem(string listName, string listAdditionalInfo, string key)
+    parameters:
+    - id: listName
+      type: System.String
+      description: List name, to be passed on to the list provider factory
+    - id: listAdditionalInfo
+      type: System.String
+    - id: key
+      type: System.String
+      description: Key, matched to the ExtraInfo of each item
+    return:
+      type: SuperOffice.CRM.Lists.ISoListItem
+    content.vb: Public Function LookupItem(listName As String, listAdditionalInfo As String, key As String) As ISoListItem
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String,System.Int32)
+  id: LookupItem(System.String,System.Int32)
+  parent: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  langs:
+  - csharp
+  - vb
+  name: LookupItem(String, Int32)
+  nameWithType: ListItemLookupHelper.LookupItem(String, Int32)
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem(System.String, System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nLook up an SoList item by list name and ID. This overload works for ANY list that the \n<xref href=\"SuperOffice.CRM.Lists.SoListProviderFactory\" data-throw-if-not-resolved=\"false\"></xref> knows about, regardless of the origin of that\nlist.\n<p></p>\nIf the list is not found, or the list item does not exist, the generic blank item is returned.\n"
+  syntax:
+    content: public ISoListItem LookupItem(string listName, int id)
+    parameters:
+    - id: listName
+      type: System.String
+    - id: id
+      type: System.Int32
+      description: ID to look up
+    return:
+      type: SuperOffice.CRM.Lists.ISoListItem
+      description: List item corresponding to table/ID, or blank
+    content.vb: Public Function LookupItem(listName As String, id As Integer) As ISoListItem
+  overload: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ListItemLookupHelper, To>()
+  nameWithType: EnumUtil.MapEnums<ListItemLookupHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ListItemLookupHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To)()
+  name.vb: MapEnums(Of ListItemLookupHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ListItemLookupHelper, To>
+    nameWithType: EnumUtil.MapEnums<ListItemLookupHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ListItemLookupHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of ListItemLookupHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ListItemLookupHelper, To>()
+  nameWithType: Converters.MapEnums<ListItemLookupHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of ListItemLookupHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To)()
+  name.vb: MapEnums(Of ListItemLookupHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ListItemLookupHelper, To>
+    nameWithType: Converters.MapEnums<ListItemLookupHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ListItemLookupHelper, To)
+    nameWithType: Converters.MapEnums(Of ListItemLookupHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.ListItemLookupHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush
+  isExternal: true
+  name: Flush
+  nameWithType: ListItemLookupHelper.Flush
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.Flush
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent
+  isExternal: true
+  name: GetCurrent
+  nameWithType: ListItemLookupHelper.GetCurrent
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.GetCurrent
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  commentId: T:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ListItemLookupHelper
+  nameWithType: ListItemLookupHelper
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper
+- uid: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem
+  isExternal: true
+  name: LookupItem
+  nameWithType: ListItemLookupHelper.LookupItem
+  fullName: SuperOffice.CRM.ArchiveLists.ListItemLookupHelper.LookupItem
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Lists.ISoListItem
+  commentId: T:SuperOffice.CRM.Lists.ISoListItem
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListItem
+  nameWithType: ISoListItem
+  fullName: SuperOffice.CRM.Lists.ISoListItem
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

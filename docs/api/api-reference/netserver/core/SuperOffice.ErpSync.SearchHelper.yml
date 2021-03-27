@@ -1,0 +1,705 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ErpSync.SearchHelper
+  commentId: T:SuperOffice.ErpSync.SearchHelper
+  id: SearchHelper
+  parent: SuperOffice.ErpSync
+  children:
+  - SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object,SuperOffice.CRM.FieldMetadataTypeInfo,SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object,SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.ErpSync.SearchHelper.IsMatchBool(System.Boolean,SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.ErpSync.SearchHelper.IsMatchDateTime(System.DateTime,SuperOffice.CRM.SearchRestrictionInfo,SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  - SuperOffice.ErpSync.SearchHelper.IsMatchDouble(System.Double,SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.ErpSync.SearchHelper.IsMatchInt(System.Int32,SuperOffice.CRM.SearchRestrictionInfo)
+  - SuperOffice.ErpSync.SearchHelper.IsMatchString(System.String,SuperOffice.CRM.SearchRestrictionInfo)
+  langs:
+  - csharp
+  - vb
+  name: SearchHelper
+  nameWithType: SearchHelper
+  fullName: SuperOffice.ErpSync.SearchHelper
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nStatic class with a collection of helper methods used in search\n"
+  syntax:
+    content: public static class SearchHelper
+    content.vb: Public Module SearchHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object,SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object,SuperOffice.CRM.SearchRestrictionInfo)
+  id: IsMatch(System.Object,SuperOffice.CRM.SearchRestrictionInfo)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatch(Object, SearchRestrictionInfo)
+  nameWithType: SearchHelper.IsMatch(Object, SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object, SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries to determine if a typed object (string, int, double, DateTime, bool) matches a search restriction. Note: List searches must be handled by the connector itself.\n"
+  syntax:
+    content: public static bool IsMatch(object testValue, SearchRestrictionInfo restriction)
+    parameters:
+    - id: testValue
+      type: System.Object
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatch(testValue As Object, restriction As SearchRestrictionInfo) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object,SuperOffice.CRM.FieldMetadataTypeInfo,SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object,SuperOffice.CRM.FieldMetadataTypeInfo,SuperOffice.CRM.SearchRestrictionInfo)
+  id: IsMatch(System.Object,SuperOffice.CRM.FieldMetadataTypeInfo,SuperOffice.CRM.SearchRestrictionInfo)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatch(Object, FieldMetadataTypeInfo, SearchRestrictionInfo)
+  nameWithType: SearchHelper.IsMatch(Object, FieldMetadataTypeInfo, SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatch(System.Object, SuperOffice.CRM.FieldMetadataTypeInfo, SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries to determine if an object matches a search restriction, using a given field type. Note: List searches must be handled by the connector itself.\n"
+  syntax:
+    content: public static bool IsMatch(object testValue, FieldMetadataTypeInfo testValueType, SearchRestrictionInfo restriction)
+    parameters:
+    - id: testValue
+      type: System.Object
+    - id: testValueType
+      type: SuperOffice.CRM.FieldMetadataTypeInfo
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatch(testValue As Object, testValueType As FieldMetadataTypeInfo, restriction As SearchRestrictionInfo) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatch*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchString(System.String,SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatchString(System.String,SuperOffice.CRM.SearchRestrictionInfo)
+  id: IsMatchString(System.String,SuperOffice.CRM.SearchRestrictionInfo)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatchString(String, SearchRestrictionInfo)
+  nameWithType: SearchHelper.IsMatchString(String, SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchString(System.String, SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries if the searchValue matches the restriction\n"
+  syntax:
+    content: public static bool IsMatchString(string searchValue, SearchRestrictionInfo restriction)
+    parameters:
+    - id: searchValue
+      type: System.String
+      description: The string value to test
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+      description: The restriction to apply
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatchString(searchValue As String, restriction As SearchRestrictionInfo) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatchString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchInt(System.Int32,SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatchInt(System.Int32,SuperOffice.CRM.SearchRestrictionInfo)
+  id: IsMatchInt(System.Int32,SuperOffice.CRM.SearchRestrictionInfo)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatchInt(Int32, SearchRestrictionInfo)
+  nameWithType: SearchHelper.IsMatchInt(Int32, SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchInt(System.Int32, SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries if the searchValue matches the restriction\n"
+  syntax:
+    content: public static bool IsMatchInt(int searchValue, SearchRestrictionInfo restriction)
+    parameters:
+    - id: searchValue
+      type: System.Int32
+      description: The int value to test
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+      description: The restriction to apply
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatchInt(searchValue As Integer, restriction As SearchRestrictionInfo) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatchInt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchDouble(System.Double,SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatchDouble(System.Double,SuperOffice.CRM.SearchRestrictionInfo)
+  id: IsMatchDouble(System.Double,SuperOffice.CRM.SearchRestrictionInfo)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatchDouble(Double, SearchRestrictionInfo)
+  nameWithType: SearchHelper.IsMatchDouble(Double, SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchDouble(System.Double, SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries if the searchValue matches the restriction\n"
+  syntax:
+    content: public static bool IsMatchDouble(double searchValue, SearchRestrictionInfo restriction)
+    parameters:
+    - id: searchValue
+      type: System.Double
+      description: The double value to test
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+      description: The restriction to apply
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatchDouble(searchValue As Double, restriction As SearchRestrictionInfo) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatchDouble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchDateTime(System.DateTime,SuperOffice.CRM.SearchRestrictionInfo,SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatchDateTime(System.DateTime,SuperOffice.CRM.SearchRestrictionInfo,SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  id: IsMatchDateTime(System.DateTime,SuperOffice.CRM.SearchRestrictionInfo,SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatchDateTime(DateTime, SearchRestrictionInfo, DateTimeOperators.MatchType)
+  nameWithType: SearchHelper.IsMatchDateTime(DateTime, SearchRestrictionInfo, DateTimeOperators.MatchType)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchDateTime(System.DateTime, SuperOffice.CRM.SearchRestrictionInfo, SuperOffice.ErpSync.DateTimeOperators.MatchType)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries if the searchValue matches the restriction\n"
+  syntax:
+    content: public static bool IsMatchDateTime(DateTime searchValue, SearchRestrictionInfo restriction, DateTimeOperators.MatchType matchType = DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds)
+    parameters:
+    - id: searchValue
+      type: System.DateTime
+      description: The DateTime value to test
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+      description: The restriction to apply
+    - id: matchType
+      type: SuperOffice.ErpSync.DateTimeOperators.MatchType
+      description: Default = DateAndTime_IgnoreSeconds
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatchDateTime(searchValue As Date, restriction As SearchRestrictionInfo, matchType As DateTimeOperators.MatchType = DateTimeOperators.MatchType.DateAndTime_IgnoreSeconds) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatchDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchBool(System.Boolean,SuperOffice.CRM.SearchRestrictionInfo)
+  commentId: M:SuperOffice.ErpSync.SearchHelper.IsMatchBool(System.Boolean,SuperOffice.CRM.SearchRestrictionInfo)
+  id: IsMatchBool(System.Boolean,SuperOffice.CRM.SearchRestrictionInfo)
+  parent: SuperOffice.ErpSync.SearchHelper
+  langs:
+  - csharp
+  - vb
+  name: IsMatchBool(Boolean, SearchRestrictionInfo)
+  nameWithType: SearchHelper.IsMatchBool(Boolean, SearchRestrictionInfo)
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchBool(System.Boolean, SuperOffice.CRM.SearchRestrictionInfo)
+  type: Method
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.ErpSync
+  summary: "\nTries if the searchValue matches the restriction\n"
+  syntax:
+    content: public static bool IsMatchBool(bool searchValue, SearchRestrictionInfo restriction)
+    parameters:
+    - id: searchValue
+      type: System.Boolean
+      description: The bool value to test
+    - id: restriction
+      type: SuperOffice.CRM.SearchRestrictionInfo
+      description: The restriction to apply
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsMatchBool(searchValue As Boolean, restriction As SearchRestrictionInfo) As Boolean
+  overload: SuperOffice.ErpSync.SearchHelper.IsMatchBool*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.ErpSync
+  commentId: N:SuperOffice.ErpSync
+  isExternal: true
+  name: SuperOffice.ErpSync
+  nameWithType: SuperOffice.ErpSync
+  fullName: SuperOffice.ErpSync
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatch*
+  commentId: Overload:SuperOffice.ErpSync.SearchHelper.IsMatch
+  isExternal: true
+  name: IsMatch
+  nameWithType: SearchHelper.IsMatch
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatch
+- uid: SuperOffice.CRM.SearchRestrictionInfo
+  commentId: T:SuperOffice.CRM.SearchRestrictionInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: SearchRestrictionInfo
+  nameWithType: SearchRestrictionInfo
+  fullName: SuperOffice.CRM.SearchRestrictionInfo
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.FieldMetadataTypeInfo
+  commentId: T:SuperOffice.CRM.FieldMetadataTypeInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: FieldMetadataTypeInfo
+  nameWithType: FieldMetadataTypeInfo
+  fullName: SuperOffice.CRM.FieldMetadataTypeInfo
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchString*
+  commentId: Overload:SuperOffice.ErpSync.SearchHelper.IsMatchString
+  isExternal: true
+  name: IsMatchString
+  nameWithType: SearchHelper.IsMatchString
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchInt*
+  commentId: Overload:SuperOffice.ErpSync.SearchHelper.IsMatchInt
+  isExternal: true
+  name: IsMatchInt
+  nameWithType: SearchHelper.IsMatchInt
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchInt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchDouble*
+  commentId: Overload:SuperOffice.ErpSync.SearchHelper.IsMatchDouble
+  isExternal: true
+  name: IsMatchDouble
+  nameWithType: SearchHelper.IsMatchDouble
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchDouble
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchDateTime*
+  commentId: Overload:SuperOffice.ErpSync.SearchHelper.IsMatchDateTime
+  isExternal: true
+  name: IsMatchDateTime
+  nameWithType: SearchHelper.IsMatchDateTime
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.ErpSync.DateTimeOperators.MatchType
+  commentId: T:SuperOffice.ErpSync.DateTimeOperators.MatchType
+  parent: SuperOffice.ErpSync
+  isExternal: true
+  name: DateTimeOperators.MatchType
+  nameWithType: DateTimeOperators.MatchType
+  fullName: SuperOffice.ErpSync.DateTimeOperators.MatchType
+- uid: SuperOffice.ErpSync.SearchHelper.IsMatchBool*
+  commentId: Overload:SuperOffice.ErpSync.SearchHelper.IsMatchBool
+  isExternal: true
+  name: IsMatchBool
+  nameWithType: SearchHelper.IsMatchBool
+  fullName: SuperOffice.ErpSync.SearchHelper.IsMatchBool

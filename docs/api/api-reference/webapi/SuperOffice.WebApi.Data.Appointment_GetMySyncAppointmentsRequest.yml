@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest
+  id: Appointment_GetMySyncAppointmentsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime
+  - SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetMySyncAppointmentsRequest
+  nameWithType: Appointment_GetMySyncAppointmentsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetMySyncAppointmentsRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetMySyncAppointmentsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetMySyncAppointmentsRequest()
+  nameWithType: Appointment_GetMySyncAppointmentsRequest.Appointment_GetMySyncAppointmentsRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.Appointment_GetMySyncAppointmentsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetMySyncAppointmentsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime
+  id: StartTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: Appointment_GetMySyncAppointmentsRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime
+  id: EndTime
+  parent: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: Appointment_GetMySyncAppointmentsRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property EndTime As DateTime
+  overload: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.#ctor
+  isExternal: true
+  name: Appointment_GetMySyncAppointmentsRequest
+  nameWithType: Appointment_GetMySyncAppointmentsRequest.Appointment_GetMySyncAppointmentsRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.Appointment_GetMySyncAppointmentsRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: Appointment_GetMySyncAppointmentsRequest.StartTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.StartTime
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: Appointment_GetMySyncAppointmentsRequest.EndTime
+  fullName: SuperOffice.WebApi.Data.Appointment_GetMySyncAppointmentsRequest.EndTime

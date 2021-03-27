@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.INextMilestonePlugin
+  commentId: T:SuperOffice.CRM.INextMilestonePlugin
+  id: INextMilestonePlugin
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  - SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  - SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: INextMilestonePlugin
+  nameWithType: INextMilestonePlugin
+  fullName: SuperOffice.CRM.INextMilestonePlugin
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nContains the algorithm for calculating the next due date for a given sale or all sales.\n"
+  syntax:
+    content: 'public interface INextMilestonePlugin : IPlugin'
+    content.vb: >-
+      Public Interface INextMilestonePlugin
+          Inherits IPlugin
+  extensionMethods:
+  - SuperOffice.CRM.INextMilestonePlugin.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.INextMilestonePlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  id: CalculateNextMilestoneDate(System.Int32)
+  parent: SuperOffice.CRM.INextMilestonePlugin
+  langs:
+  - csharp
+  - vb
+  name: CalculateNextMilestoneDate(Int32)
+  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate(Int32)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: NextDateInfo CalculateNextMilestoneDate(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+    content.vb: Function CalculateNextMilestoneDate(projectId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate*
+- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  id: BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback,SuperOffice.CRM.ProgressStepCallback)
+  parent: SuperOffice.CRM.INextMilestonePlugin
+  langs:
+  - csharp
+  - vb
+  name: BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
+  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone(ProgressEstimateCallback, ProgressStepCallback)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone(SuperOffice.CRM.ProgressEstimateCallback, SuperOffice.CRM.ProgressStepCallback)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: void BatchUpdateNextMilestone(ProgressEstimateCallback estimate, ProgressStepCallback step)
+    parameters:
+    - id: estimate
+      type: SuperOffice.CRM.ProgressEstimateCallback
+    - id: step
+      type: SuperOffice.CRM.ProgressStepCallback
+    content.vb: Sub BatchUpdateNextMilestone(estimate As ProgressEstimateCallback, step As ProgressStepCallback)
+  overload: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone*
+- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  commentId: M:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  id: GetNextMilestoneDate(System.Int32)
+  parent: SuperOffice.CRM.INextMilestonePlugin
+  langs:
+  - csharp
+  - vb
+  name: GetNextMilestoneDate(Int32)
+  nameWithType: INextMilestonePlugin.GetNextMilestoneDate(Int32)
+  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: NextDateInfo GetNextMilestoneDate(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.NextDateInfo
+    content.vb: Function GetNextMilestoneDate(projectId As Integer) As NextDateInfo
+  overload: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate*
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: SuperOffice.CRM.INextMilestonePlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<INextMilestonePlugin, To>()
+  nameWithType: EnumUtil.MapEnums<INextMilestonePlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.INextMilestonePlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of INextMilestonePlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.INextMilestonePlugin, To)()
+  name.vb: MapEnums(Of INextMilestonePlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<INextMilestonePlugin, To>
+    nameWithType: EnumUtil.MapEnums<INextMilestonePlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.INextMilestonePlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of INextMilestonePlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of INextMilestonePlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.INextMilestonePlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.INextMilestonePlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<INextMilestonePlugin, To>()
+  nameWithType: Converters.MapEnums<INextMilestonePlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.INextMilestonePlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of INextMilestonePlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.INextMilestonePlugin, To)()
+  name.vb: MapEnums(Of INextMilestonePlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<INextMilestonePlugin, To>
+    nameWithType: Converters.MapEnums<INextMilestonePlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.INextMilestonePlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of INextMilestonePlugin, To)
+    nameWithType: Converters.MapEnums(Of INextMilestonePlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.INextMilestonePlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate*
+  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate
+  isExternal: true
+  name: CalculateNextMilestoneDate
+  nameWithType: INextMilestonePlugin.CalculateNextMilestoneDate
+  fullName: SuperOffice.CRM.INextMilestonePlugin.CalculateNextMilestoneDate
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.NextDateInfo
+  commentId: T:SuperOffice.CRM.NextDateInfo
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: NextDateInfo
+  nameWithType: NextDateInfo
+  fullName: SuperOffice.CRM.NextDateInfo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone*
+  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone
+  isExternal: true
+  name: BatchUpdateNextMilestone
+  nameWithType: INextMilestonePlugin.BatchUpdateNextMilestone
+  fullName: SuperOffice.CRM.INextMilestonePlugin.BatchUpdateNextMilestone
+- uid: SuperOffice.CRM.ProgressEstimateCallback
+  commentId: T:SuperOffice.CRM.ProgressEstimateCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressEstimateCallback
+  nameWithType: ProgressEstimateCallback
+  fullName: SuperOffice.CRM.ProgressEstimateCallback
+- uid: SuperOffice.CRM.ProgressStepCallback
+  commentId: T:SuperOffice.CRM.ProgressStepCallback
+  parent: SuperOffice.CRM
+  isExternal: true
+  name: ProgressStepCallback
+  nameWithType: ProgressStepCallback
+  fullName: SuperOffice.CRM.ProgressStepCallback
+- uid: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate*
+  commentId: Overload:SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate
+  isExternal: true
+  name: GetNextMilestoneDate
+  nameWithType: INextMilestonePlugin.GetNextMilestoneDate
+  fullName: SuperOffice.CRM.INextMilestonePlugin.GetNextMilestoneDate

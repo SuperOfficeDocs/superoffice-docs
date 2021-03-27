@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IPartnerAgent
+  commentId: T:SuperOffice.CRM.Services.IPartnerAgent
+  id: IPartnerAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  - SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  - SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  - SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  - SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IPartnerAgent
+  nameWithType: IPartnerAgent
+  fullName: SuperOffice.CRM.Services.IPartnerAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Partner Agent\nAgent with functionality specific for SuperOffice Partners\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PartnerAgent agent = new PartnerAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Partner Agent", "Interface for the Partner Agent. Agent with functionality specific for SuperOffice Partners")]
+
+      public interface IPartnerAgent : IAgent
+    content.vb: >-
+      <Agent("Partner Agent", "Interface for the Partner Agent. Agent with functionality specific for SuperOffice Partners")>
+
+      Public Interface IPartnerAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Partner Agent
+    - type: System.String
+      value: Interface for the Partner Agent. Agent with functionality specific for SuperOffice Partners
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  id: CreateOrUpdateWebPanel(System.String,System.String,System.String,System.String,SuperOffice.Data.Navigation,SuperOffice.Data.UrlEncoding,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateOrUpdateWebPanel(String, String, String, String, Navigation, UrlEncoding, Boolean, Boolean)
+  nameWithType: IPartnerAgent.CreateOrUpdateWebPanel(String, String, String, String, Navigation, UrlEncoding, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel(System.String, System.String, System.String, System.String, SuperOffice.Data.Navigation, SuperOffice.Data.UrlEncoding, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreate a web panel in the logged in users&apos; installation of SuperOffice CRM online. The panel will automatically be registered to the currently authenticated ApplicationId.\n"
+  syntax:
+    content: string CreateOrUpdateWebPanel(string identifier, string displayName, string displayDescription, string url, Navigation visibleIn, UrlEncoding urlEncoding, bool onSalesMarketingWeb, bool onSalesMarketingPocket)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    - id: displayName
+      type: System.String
+      description: The name of the panel as displayed in the GUI; may be multi-language syntax
+    - id: displayDescription
+      type: System.String
+      description: The tooltip of the panel as displayed in the GUI; may be multi-language syntax
+    - id: url
+      type: System.String
+      description: The url (target) of the panel; may contain merge tags
+    - id: visibleIn
+      type: SuperOffice.Data.Navigation
+      description: Where should the URL appear
+    - id: urlEncoding
+      type: SuperOffice.Data.UrlEncoding
+      description: The encoding of the URL
+    - id: onSalesMarketingWeb
+      type: System.Boolean
+      description: Is the webpanel visible when user is on the SM Web client
+    - id: onSalesMarketingPocket
+      type: System.Boolean
+      description: Is the webpanel visible when user is on the SM Pocket client
+    return:
+      type: System.String
+      description: The &apos;window name&apos; of the panel, which can be used as part of the soprotocol string to navigate to the web panel
+    content.vb: Function CreateOrUpdateWebPanel(identifier As String, displayName As String, displayDescription As String, url As String, visibleIn As Navigation, urlEncoding As UrlEncoding, onSalesMarketingWeb As Boolean, onSalesMarketingPocket As Boolean) As String
+  overload: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel*
+- uid: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  id: SuspendWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: SuspendWebPanel(String)
+  nameWithType: IPartnerAgent.SuspendWebPanel(String)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe web panel is no longer visible to the users, but all settings are kept\n"
+  syntax:
+    content: void SuspendWebPanel(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    content.vb: Sub SuspendWebPanel(identifier As String)
+  overload: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel*
+- uid: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  id: ResumeWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: ResumeWebPanel(String)
+  nameWithType: IPartnerAgent.ResumeWebPanel(String)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUndo a Suspend, so that the Web Panel is visible to users again\n"
+  syntax:
+    content: void ResumeWebPanel(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    content.vb: Sub ResumeWebPanel(identifier As String)
+  overload: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel*
+- uid: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  id: GetMyWebPanels
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyWebPanels()
+  nameWithType: IPartnerAgent.GetMyWebPanels()
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet all web panels registered by this ApplicationId\n"
+  syntax:
+    content: PartnerWebPanel[] GetMyWebPanels()
+    return:
+      type: SuperOffice.CRM.Services.PartnerWebPanel[]
+      description: Array of PartnerWebPanel entities
+    content.vb: Function GetMyWebPanels As PartnerWebPanel()
+  overload: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels*
+- uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  id: DeleteWebPanel(System.String)
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWebPanel(String)
+  nameWithType: IPartnerAgent.DeleteWebPanel(String)
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIrrevocably delete all information related to this web panel; no undo\n"
+  syntax:
+    content: void DeleteWebPanel(string identifier)
+    parameters:
+    - id: identifier
+      type: System.String
+      description: The string constant used by the Partner Application to identify this web panel
+    content.vb: Sub DeleteWebPanel(identifier As String)
+  overload: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel*
+- uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  commentId: M:SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  id: DeleteMyWebPanels
+  parent: SuperOffice.CRM.Services.IPartnerAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteMyWebPanels()
+  nameWithType: IPartnerAgent.DeleteMyWebPanels()
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIrrevocably delete all web panels registered by this ApplicationId\n"
+  syntax:
+    content: void DeleteMyWebPanels()
+    content.vb: Sub DeleteMyWebPanels
+  overload: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel
+  isExternal: true
+  name: CreateOrUpdateWebPanel
+  nameWithType: IPartnerAgent.CreateOrUpdateWebPanel
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.CreateOrUpdateWebPanel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Data.Navigation
+  isExternal: true
+  name: Navigation
+  nameWithType: Navigation
+  fullName: SuperOffice.Data.Navigation
+- uid: SuperOffice.Data.UrlEncoding
+  isExternal: true
+  name: UrlEncoding
+  nameWithType: UrlEncoding
+  fullName: SuperOffice.Data.UrlEncoding
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel
+  isExternal: true
+  name: SuspendWebPanel
+  nameWithType: IPartnerAgent.SuspendWebPanel
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.SuspendWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel
+  isExternal: true
+  name: ResumeWebPanel
+  nameWithType: IPartnerAgent.ResumeWebPanel
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.ResumeWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels*
+  commentId: Overload:SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+  isExternal: true
+  name: GetMyWebPanels
+  nameWithType: IPartnerAgent.GetMyWebPanels
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.GetMyWebPanels
+- uid: SuperOffice.CRM.Services.PartnerWebPanel[]
+  isExternal: true
+  name: PartnerWebPanel[]
+  nameWithType: PartnerWebPanel[]
+  fullName: SuperOffice.CRM.Services.PartnerWebPanel[]
+  nameWithType.vb: PartnerWebPanel()
+  fullName.vb: SuperOffice.CRM.Services.PartnerWebPanel()
+  name.vb: PartnerWebPanel()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.PartnerWebPanel
+    name: PartnerWebPanel
+    nameWithType: PartnerWebPanel
+    fullName: SuperOffice.CRM.Services.PartnerWebPanel
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.PartnerWebPanel
+    name: PartnerWebPanel
+    nameWithType: PartnerWebPanel
+    fullName: SuperOffice.CRM.Services.PartnerWebPanel
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel*
+  commentId: Overload:SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel
+  isExternal: true
+  name: DeleteWebPanel
+  nameWithType: IPartnerAgent.DeleteWebPanel
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteWebPanel
+- uid: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels*
+  commentId: Overload:SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels
+  isExternal: true
+  name: DeleteMyWebPanels
+  nameWithType: IPartnerAgent.DeleteMyWebPanels
+  fullName: SuperOffice.CRM.Services.IPartnerAgent.DeleteMyWebPanels

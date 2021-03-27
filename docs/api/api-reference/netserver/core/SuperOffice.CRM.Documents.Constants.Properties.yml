@@ -1,0 +1,559 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Documents.Constants.Properties
+  commentId: T:SuperOffice.CRM.Documents.Constants.Properties
+  id: Constants.Properties
+  parent: SuperOffice.CRM.Documents
+  children:
+  - SuperOffice.CRM.Documents.Constants.Properties.FileName
+  - SuperOffice.CRM.Documents.Constants.Properties.FileType
+  - SuperOffice.CRM.Documents.Constants.Properties.HasLocking
+  - SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
+  - SuperOffice.CRM.Documents.Constants.Properties.LastModified
+  - SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
+  - SuperOffice.CRM.Documents.Constants.Properties.Tooltip
+  langs:
+  - csharp
+  - vb
+  name: Constants.Properties
+  nameWithType: Constants.Properties
+  fullName: SuperOffice.CRM.Documents.Constants.Properties
+  type: Class
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nString constants for document-dependent property names\n"
+  syntax:
+    content: public static class Properties
+    content.vb: Public Module Properties
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Documents.Constants.Properties.HasLocking
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.HasLocking
+  id: HasLocking
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: HasLocking
+  nameWithType: Constants.Properties.HasLocking
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.HasLocking
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nCan this document be locked for changes?\nValues are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  remarks: "\nVersioning implies Locking, so if HasVersioning is true, then \nHasLocking <strong>must</strong> be true also.\n"
+  syntax:
+    content: public const string HasLocking = "has-locking"
+    return:
+      type: System.String
+    content.vb: Public Const HasLocking As String = "has-locking"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
+  id: HasVersioning
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: HasVersioning
+  nameWithType: Constants.Properties.HasVersioning
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.HasVersioning
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nIs this document turned on for versioning?\nValues are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.False\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.True\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public const string HasVersioning = "has-versioning"
+    return:
+      type: System.String
+    content.vb: Public Const HasVersioning As String = "has-versioning"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.Tooltip
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: Constants.Properties.Tooltip
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.Tooltip
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nA descriptive string that is suitable for display as a tooltip; may be blank\n<p></p>\nSimple tooltips can be literals, and can contain resource tags (including culture-independent\nformatted dates, see the <xref href=\"SuperOffice.CRM.Globalization.CultureDataFormatter\" data-throw-if-not-resolved=\"false\"></xref> class\nfor examples and encoding methods.\n<p></p>\nMore complex tooltips can be represented as tooltip hints, which cause a runtime call to the\ntooltip provider system. A document plugin can add its own tooltip provider in order to process\nsuch hints into the final tooltip text. This is the recommended approach for tooltips that are\ntime-consuming to precalculate.\n<p></p>\nTooltip hints can be constructed using the \n<see cref=\"!:SuperOffice.CRM.Tooltips.TooltipProvider\"></see>.<see cref=\"!:SuperOffice.CRM.Tooltips.TooltipProvider.MakeTooltipHint\"></see>\nmethod. They are parsed by provider plugins, either standard ones or custom plugins that can be written\ntogether with a document plugin.\n<p></p>\nThis member may be blank, if no tooltip is provided.\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
+  id: PreferredOpen
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: PreferredOpen
+  nameWithType: Constants.Properties.PreferredOpen
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.PreferredOpen
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nWhat is the preferred method for editing documents? Values are \n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Url\" data-throw-if-not-resolved=\"false\"></xref> and\n<xref href=\"SuperOffice.CRM.Documents.Constants.Values.Stream\" data-throw-if-not-resolved=\"false\"></xref>, \ndepending on whether the plugin supports WebDAV and prefers this method.\n<p></p>\nThe client GUI is not guaranteed to respect preferred-open = &apos;url&apos;; depending on the platform and other\ncircumstances, the client may still use the GetDocumentStream interface to get the document content.\n<p></p>\nIf a document is opened through WebDAV, SuperOffice code no longer controls the flow of events and\ncannot be responsible for proper phasing, access control or other features.\n"
+  syntax:
+    content: public const string PreferredOpen = "preferred-open"
+    return:
+      type: System.String
+    content.vb: Public Const PreferredOpen As String = "preferred-open"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.FileType
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.FileType
+  id: FileType
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: FileType
+  nameWithType: Constants.Properties.FileType
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.FileType
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe file type of the document, such as DOC, PDF, XLS or whatever. This is used by NetServer if\nit needs to analyze the file content, for instance for freetext indexing. It is also used to set\nthe extension of the file name generated for download/editing, and will usually control\nwhich document editor is loaded by the client operating system to edit the document.\n"
+  syntax:
+    content: public const string FileType = "file-type"
+    return:
+      type: System.String
+    content.vb: Public Const FileType As String = "file-type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.FileName
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.FileName
+  id: FileName
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: Constants.Properties.FileName
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.FileName
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nThe filename of the template or suggested filename of a document. \n"
+  remarks: "\nUsed in queries regarding document templates and documents.\n"
+  syntax:
+    content: public const string FileName = "file-name"
+    return:
+      type: System.String
+    content.vb: Public Const FileName As String = "file-name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Documents.Constants.Properties.LastModified
+  commentId: F:SuperOffice.CRM.Documents.Constants.Properties.LastModified
+  id: LastModified
+  parent: SuperOffice.CRM.Documents.Constants.Properties
+  langs:
+  - csharp
+  - vb
+  name: LastModified
+  nameWithType: Constants.Properties.LastModified
+  fullName: SuperOffice.CRM.Documents.Constants.Properties.LastModified
+  type: Field
+  source:
+    path: SuperOffice.Plugins
+    isExternal: true
+  assemblies:
+  - SuperOffice.Plugins
+  namespace: SuperOffice.CRM.Documents
+  summary: "\nLast Modified date + time (UTC) of the document file, rather than the database record.\nValues should be returned as string in SuperOffice format &quot;[d 2012-03-21T12:20:30]&quot;\n"
+  syntax:
+    content: public const string LastModified = "last-modified"
+    return:
+      type: System.String
+    content.vb: Public Const LastModified As String = "last-modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Documents
+  commentId: N:SuperOffice.CRM.Documents
+  isExternal: true
+  name: SuperOffice.CRM.Documents
+  nameWithType: SuperOffice.CRM.Documents
+  fullName: SuperOffice.CRM.Documents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

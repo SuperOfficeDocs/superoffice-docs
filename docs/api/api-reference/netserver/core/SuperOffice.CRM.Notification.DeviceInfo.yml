@@ -1,0 +1,1008 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Notification.DeviceInfo
+  commentId: T:SuperOffice.CRM.Notification.DeviceInfo
+  id: DeviceInfo
+  parent: SuperOffice.CRM.Notification
+  children:
+  - SuperOffice.CRM.Notification.DeviceInfo.#ctor
+  - SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
+  - SuperOffice.CRM.Notification.DeviceInfo.DeviceName
+  - SuperOffice.CRM.Notification.DeviceInfo.Language
+  - SuperOffice.CRM.Notification.DeviceInfo.OSVersion
+  - SuperOffice.CRM.Notification.DeviceInfo.Platform
+  - SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
+  - SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+  langs:
+  - csharp
+  - vb
+  name: DeviceInfo
+  nameWithType: DeviceInfo
+  fullName: SuperOffice.CRM.Notification.DeviceInfo
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  syntax:
+    content: public class DeviceInfo
+    content.vb: Public Class DeviceInfo
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Notification.DeviceInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.DeviceInfo)
+  - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Notification.DeviceInfo.#ctor
+  commentId: M:SuperOffice.CRM.Notification.DeviceInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: DeviceInfo()
+  nameWithType: DeviceInfo.DeviceInfo()
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceInfo()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public DeviceInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Notification.DeviceInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceName
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.DeviceName
+  id: DeviceName
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: DeviceName
+  nameWithType: DeviceInfo.DeviceName
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceName
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nA friendly display name for the device. Ex: &apos;Bobbys iPhone 5S&apos;\n"
+  syntax:
+    content: public string DeviceName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceName As String
+  overload: SuperOffice.CRM.Notification.DeviceInfo.DeviceName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
+  id: DeviceIdentifier
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: DeviceIdentifier
+  nameWithType: DeviceInfo.DeviceIdentifier
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nA unique identifier of this device. This value should always be the same for the same device\n"
+  syntax:
+    content: public string DeviceIdentifier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DeviceIdentifier As String
+  overload: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+  id: PocketVersion
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: PocketVersion
+  nameWithType: DeviceInfo.PocketVersion
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nWhat version of Pocket CRM this device is running. Ex: &apos;8.0.37&apos;\n"
+  syntax:
+    content: public string PocketVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PocketVersion As String
+  overload: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.Language
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.Language
+  id: Language
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: DeviceInfo.Language
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.Language
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nThe language which this device will receive notifications translated in\n"
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: SuperOffice.CRM.Notification.DeviceInfo.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
+  id: PNSHandle
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: PNSHandle
+  nameWithType: DeviceInfo.PNSHandle
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nThe identifier associated with the device that will be used when talking with vendors push services\n"
+  syntax:
+    content: public string PNSHandle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PNSHandle As String
+  overload: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.Platform
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.Platform
+  id: Platform
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: Platform
+  nameWithType: DeviceInfo.Platform
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.Platform
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nWhat platform does this device belong to\n"
+  syntax:
+    content: public NotificationPlatform Platform { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.NotificationPlatform
+    content.vb: Public Property Platform As NotificationPlatform
+  overload: SuperOffice.CRM.Notification.DeviceInfo.Platform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Notification.DeviceInfo.OSVersion
+  commentId: P:SuperOffice.CRM.Notification.DeviceInfo.OSVersion
+  id: OSVersion
+  parent: SuperOffice.CRM.Notification.DeviceInfo
+  langs:
+  - csharp
+  - vb
+  name: OSVersion
+  nameWithType: DeviceInfo.OSVersion
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.OSVersion
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Notification
+  summary: "\nThe operating system version. Ex: &apos;iOS v10.2&apos;\n"
+  syntax:
+    content: public string OSVersion { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OSVersion As String
+  overload: SuperOffice.CRM.Notification.DeviceInfo.OSVersion*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Notification
+  commentId: N:SuperOffice.CRM.Notification
+  isExternal: true
+  name: SuperOffice.CRM.Notification
+  nameWithType: SuperOffice.CRM.Notification
+  fullName: SuperOffice.CRM.Notification
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.DeviceInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DeviceInfo, To>()
+  nameWithType: EnumUtil.MapEnums<DeviceInfo, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DeviceInfo, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)()
+  name.vb: MapEnums(Of DeviceInfo, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DeviceInfo, To>
+    nameWithType: EnumUtil.MapEnums<DeviceInfo, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DeviceInfo, To)
+    nameWithType: EnumUtil.MapEnums(Of DeviceInfo, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Notification.DeviceInfo)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DeviceInfo>(DeviceInfo)
+  nameWithType: ObjectExtensions.AssignByReflection<DeviceInfo>(DeviceInfo)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.DeviceInfo>(SuperOffice.CRM.Notification.DeviceInfo)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DeviceInfo)(DeviceInfo)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.DeviceInfo)(SuperOffice.CRM.Notification.DeviceInfo)
+  name.vb: AssignByReflection(Of DeviceInfo)(DeviceInfo)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DeviceInfo>
+    nameWithType: ObjectExtensions.AssignByReflection<DeviceInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Notification.DeviceInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Notification.DeviceInfo
+    name: DeviceInfo
+    nameWithType: DeviceInfo
+    fullName: SuperOffice.CRM.Notification.DeviceInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DeviceInfo)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DeviceInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Notification.DeviceInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Notification.DeviceInfo
+    name: DeviceInfo
+    nameWithType: DeviceInfo
+    fullName: SuperOffice.CRM.Notification.DeviceInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DeviceInfo>()
+  nameWithType: ObjectExtensions.GraphCopy<DeviceInfo>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.DeviceInfo>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DeviceInfo)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.DeviceInfo)()
+  name.vb: GraphCopy(Of DeviceInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DeviceInfo>
+    nameWithType: ObjectExtensions.GraphCopy<DeviceInfo>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Notification.DeviceInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DeviceInfo)
+    nameWithType: ObjectExtensions.GraphCopy(Of DeviceInfo)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Notification.DeviceInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Notification.DeviceInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DeviceInfo, To>()
+  nameWithType: Converters.MapEnums<DeviceInfo, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>()
+  nameWithType.vb: Converters.MapEnums(Of DeviceInfo, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)()
+  name.vb: MapEnums(Of DeviceInfo, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DeviceInfo, To>
+    nameWithType: Converters.MapEnums<DeviceInfo, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Notification.DeviceInfo, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DeviceInfo, To)
+    nameWithType: Converters.MapEnums(Of DeviceInfo, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Notification.DeviceInfo, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Notification.DeviceInfo.#ctor*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.#ctor
+  isExternal: true
+  name: DeviceInfo
+  nameWithType: DeviceInfo.DeviceInfo
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceInfo
+- uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceName*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.DeviceName
+  isExternal: true
+  name: DeviceName
+  nameWithType: DeviceInfo.DeviceName
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
+  isExternal: true
+  name: DeviceIdentifier
+  nameWithType: DeviceInfo.DeviceIdentifier
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.DeviceIdentifier
+- uid: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+  isExternal: true
+  name: PocketVersion
+  nameWithType: DeviceInfo.PocketVersion
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.PocketVersion
+- uid: SuperOffice.CRM.Notification.DeviceInfo.Language*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.Language
+  isExternal: true
+  name: Language
+  nameWithType: DeviceInfo.Language
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.Language
+- uid: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
+  isExternal: true
+  name: PNSHandle
+  nameWithType: DeviceInfo.PNSHandle
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.PNSHandle
+- uid: SuperOffice.CRM.Notification.DeviceInfo.Platform*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.Platform
+  isExternal: true
+  name: Platform
+  nameWithType: DeviceInfo.Platform
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.Platform
+- uid: SuperOffice.Data.NotificationPlatform
+  commentId: T:SuperOffice.Data.NotificationPlatform
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotificationPlatform
+  nameWithType: NotificationPlatform
+  fullName: SuperOffice.Data.NotificationPlatform
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Notification.DeviceInfo.OSVersion*
+  commentId: Overload:SuperOffice.CRM.Notification.DeviceInfo.OSVersion
+  isExternal: true
+  name: OSVersion
+  nameWithType: DeviceInfo.OSVersion
+  fullName: SuperOffice.CRM.Notification.DeviceInfo.OSVersion

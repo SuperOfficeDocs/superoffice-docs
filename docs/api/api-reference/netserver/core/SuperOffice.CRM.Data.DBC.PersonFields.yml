@@ -1,0 +1,1967 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.PersonFields
+  commentId: T:SuperOffice.CRM.Data.DBC.PersonFields
+  id: DBC.PersonFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.PersonFields.ActiveErpLinks
+  - SuperOffice.CRM.Data.DBC.PersonFields.ActiveInterests
+  - SuperOffice.CRM.Data.DBC.PersonFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.PersonFields.BlockEmarketing
+  - SuperOffice.CRM.Data.DBC.PersonFields.BusinessIdx
+  - SuperOffice.CRM.Data.DBC.PersonFields.CategoryIdx
+  - SuperOffice.CRM.Data.DBC.PersonFields.ContactId
+  - SuperOffice.CRM.Data.DBC.PersonFields.CountryId
+  - SuperOffice.CRM.Data.DBC.PersonFields.DayOfBirth
+  - SuperOffice.CRM.Data.DBC.PersonFields.DbiAgentId
+  - SuperOffice.CRM.Data.DBC.PersonFields.DbiKey
+  - SuperOffice.CRM.Data.DBC.PersonFields.DbiLastModified
+  - SuperOffice.CRM.Data.DBC.PersonFields.DbiLastSyncronized
+  - SuperOffice.CRM.Data.DBC.PersonFields.DeletedDate
+  - SuperOffice.CRM.Data.DBC.PersonFields.Department
+  - SuperOffice.CRM.Data.DBC.PersonFields.Firstname
+  - SuperOffice.CRM.Data.DBC.PersonFields.Gender
+  - SuperOffice.CRM.Data.DBC.PersonFields.GroupId
+  - SuperOffice.CRM.Data.DBC.PersonFields.Initials
+  - SuperOffice.CRM.Data.DBC.PersonFields.Kanafname
+  - SuperOffice.CRM.Data.DBC.PersonFields.Kanalname
+  - SuperOffice.CRM.Data.DBC.PersonFields.Lastname
+  - SuperOffice.CRM.Data.DBC.PersonFields.MiddleName
+  - SuperOffice.CRM.Data.DBC.PersonFields.MonthOfBirth
+  - SuperOffice.CRM.Data.DBC.PersonFields.Mrmrs
+  - SuperOffice.CRM.Data.DBC.PersonFields.Nomailing
+  - SuperOffice.CRM.Data.DBC.PersonFields.PersonId
+  - SuperOffice.CRM.Data.DBC.PersonFields.PersonNumber
+  - SuperOffice.CRM.Data.DBC.PersonFields.PhonePresent
+  - SuperOffice.CRM.Data.DBC.PersonFields.PositionIdx
+  - SuperOffice.CRM.Data.DBC.PersonFields.Post1
+  - SuperOffice.CRM.Data.DBC.PersonFields.Post2
+  - SuperOffice.CRM.Data.DBC.PersonFields.Post3
+  - SuperOffice.CRM.Data.DBC.PersonFields.Rank
+  - SuperOffice.CRM.Data.DBC.PersonFields.Registered
+  - SuperOffice.CRM.Data.DBC.PersonFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.PersonFields.Retired
+  - SuperOffice.CRM.Data.DBC.PersonFields.Salutation
+  - SuperOffice.CRM.Data.DBC.PersonFields.SentInfo
+  - SuperOffice.CRM.Data.DBC.PersonFields.ShowContactTickets
+  - SuperOffice.CRM.Data.DBC.PersonFields.Source
+  - SuperOffice.CRM.Data.DBC.PersonFields.SupportAssociateId
+  - SuperOffice.CRM.Data.DBC.PersonFields.SupportLanguageId
+  - SuperOffice.CRM.Data.DBC.PersonFields.TextId
+  - SuperOffice.CRM.Data.DBC.PersonFields.TicketPriorityId
+  - SuperOffice.CRM.Data.DBC.PersonFields.Title
+  - SuperOffice.CRM.Data.DBC.PersonFields.TzLocationId
+  - SuperOffice.CRM.Data.DBC.PersonFields.Updated
+  - SuperOffice.CRM.Data.DBC.PersonFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.PersonFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.PersonFields.Usepersonaddress
+  - SuperOffice.CRM.Data.DBC.PersonFields.Userdef2Id
+  - SuperOffice.CRM.Data.DBC.PersonFields.UserdefId
+  - SuperOffice.CRM.Data.DBC.PersonFields.YearOfBirth
+  langs:
+  - csharp
+  - vb
+  name: DBC.PersonFields
+  nameWithType: DBC.PersonFields
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Person, Persons in a company or an organizations. All associates have a corresponding person record\n"
+  syntax:
+    content: public static class PersonFields
+    content.vb: Public Module PersonFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.PersonFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.PersonId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.PersonId: Primary key\n"
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.PersonFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.ContactId: Owning contact ID\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.PersonFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Rank: Display sort sequence for default sort order\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Lastname
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Lastname
+  id: Lastname
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: DBC.PersonFields.Lastname
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Lastname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Lastname: Last name\n"
+  syntax:
+    content: public const string Lastname = "lastname"
+    return:
+      type: System.String
+    content.vb: Public Const Lastname As String = "lastname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Firstname
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Firstname
+  id: Firstname
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: DBC.PersonFields.Firstname
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Firstname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Firstname: First name\n"
+  syntax:
+    content: public const string Firstname = "firstname"
+    return:
+      type: System.String
+    content.vb: Public Const Firstname As String = "firstname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Mrmrs
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: DBC.PersonFields.Mrmrs
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Mrmrs
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Mrmrs: e.g. Mrs   sex_title\n"
+  syntax:
+    content: public const string Mrmrs = "mrmrs"
+    return:
+      type: System.String
+    content.vb: Public Const Mrmrs As String = "mrmrs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Title
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: DBC.PersonFields.Title
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Title: Title\n"
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.TextId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: DBC.PersonFields.TextId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.TextId: Info tab contents\n"
+  syntax:
+    content: public const string TextId = "text_id"
+    return:
+      type: System.String
+    content.vb: Public Const TextId As String = "text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.PositionIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.PositionIdx
+  id: PositionIdx
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: PositionIdx
+  nameWithType: DBC.PersonFields.PositionIdx
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.PositionIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.PositionIdx: Link to Position list\n"
+  syntax:
+    content: public const string PositionIdx = "position_idx"
+    return:
+      type: System.String
+    content.vb: Public Const PositionIdx As String = "position_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.YearOfBirth
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.YearOfBirth
+  id: YearOfBirth
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: YearOfBirth
+  nameWithType: DBC.PersonFields.YearOfBirth
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.YearOfBirth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.YearOfBirth: Birth year (4 digit)\n"
+  syntax:
+    content: public const string YearOfBirth = "year_of_birth"
+    return:
+      type: System.String
+    content.vb: Public Const YearOfBirth As String = "year_of_birth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.MonthOfBirth
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.MonthOfBirth
+  id: MonthOfBirth
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: MonthOfBirth
+  nameWithType: DBC.PersonFields.MonthOfBirth
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.MonthOfBirth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.MonthOfBirth: Birth month\n"
+  syntax:
+    content: public const string MonthOfBirth = "month_of_birth"
+    return:
+      type: System.String
+    content.vb: Public Const MonthOfBirth As String = "month_of_birth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.DayOfBirth
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.DayOfBirth
+  id: DayOfBirth
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: DayOfBirth
+  nameWithType: DBC.PersonFields.DayOfBirth
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.DayOfBirth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.DayOfBirth: Birth date (day of month)\n"
+  syntax:
+    content: public const string DayOfBirth = "day_of_birth"
+    return:
+      type: System.String
+    content.vb: Public Const DayOfBirth As String = "day_of_birth"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.PhonePresent
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.PhonePresent
+  id: PhonePresent
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: PhonePresent
+  nameWithType: DBC.PersonFields.PhonePresent
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.PhonePresent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.PhonePresent: flag to show there are phone registrations \n"
+  syntax:
+    content: public const string PhonePresent = "phone_present"
+    return:
+      type: System.String
+    content.vb: Public Const PhonePresent As String = "phone_present"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.UserdefId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.UserdefId
+  id: UserdefId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: UserdefId
+  nameWithType: DBC.PersonFields.UserdefId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.UserdefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.UserdefId: User defined table record 1\n"
+  syntax:
+    content: public const string UserdefId = "userdef_id"
+    return:
+      type: System.String
+    content.vb: Public Const UserdefId As String = "userdef_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.PersonFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Registered: Registered date\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.PersonFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.PersonFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Updated: Last updated date\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.PersonFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.PersonNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.PersonNumber
+  id: PersonNumber
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: PersonNumber
+  nameWithType: DBC.PersonFields.PersonNumber
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.PersonNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.PersonNumber: Alphanumeric user field\n"
+  syntax:
+    content: public const string PersonNumber = "person_number"
+    return:
+      type: System.String
+    content.vb: Public Const PersonNumber As String = "person_number"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Kanalname
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Kanalname
+  id: Kanalname
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Kanalname
+  nameWithType: DBC.PersonFields.Kanalname
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Kanalname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Kanalname: Kana last name, used in Japanese versions only\n"
+  syntax:
+    content: public const string Kanalname = "kanalname"
+    return:
+      type: System.String
+    content.vb: Public Const Kanalname As String = "kanalname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Kanafname
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Kanafname
+  id: Kanafname
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Kanafname
+  nameWithType: DBC.PersonFields.Kanafname
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Kanafname
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Kanafname: Kana last name, used in Japanese versions only\n"
+  syntax:
+    content: public const string Kanafname = "kanafname"
+    return:
+      type: System.String
+    content.vb: Public Const Kanafname As String = "kanafname"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Post1
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Post1
+  id: Post1
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Post1
+  nameWithType: DBC.PersonFields.Post1
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Post1
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Post1: Postal address, used in Japanese versions only\n"
+  syntax:
+    content: public const string Post1 = "post1"
+    return:
+      type: System.String
+    content.vb: Public Const Post1 As String = "post1"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Post2
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Post2
+  id: Post2
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Post2
+  nameWithType: DBC.PersonFields.Post2
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Post2
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Post2: Postal address, used in Japanese versions only\n"
+  syntax:
+    content: public const string Post2 = "post2"
+    return:
+      type: System.String
+    content.vb: Public Const Post2 As String = "post2"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Post3
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Post3
+  id: Post3
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Post3
+  nameWithType: DBC.PersonFields.Post3
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Post3
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Post3: Postal address, used in Japanese versions only\n"
+  syntax:
+    content: public const string Post3 = "post3"
+    return:
+      type: System.String
+    content.vb: Public Const Post3 As String = "post3"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Usepersonaddress
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Usepersonaddress
+  id: Usepersonaddress
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Usepersonaddress
+  nameWithType: DBC.PersonFields.Usepersonaddress
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Usepersonaddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Usepersonaddress: If 1, use person&apos;s address for mailing instead of company address\n"
+  syntax:
+    content: public const string Usepersonaddress = "usepersonaddress"
+    return:
+      type: System.String
+    content.vb: Public Const Usepersonaddress As String = "usepersonaddress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.MiddleName
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.MiddleName
+  id: MiddleName
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: DBC.PersonFields.MiddleName
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.MiddleName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.MiddleName: Middle name or &apos;van&apos; etc.\n"
+  syntax:
+    content: public const string MiddleName = "middleName"
+    return:
+      type: System.String
+    content.vb: Public Const MiddleName As String = "middleName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Source
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Source
+  id: Source
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: DBC.PersonFields.Source
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Source: How did we get this person? For future integration needs\n"
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Nomailing
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Nomailing
+  id: Nomailing
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Nomailing
+  nameWithType: DBC.PersonFields.Nomailing
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Nomailing
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Nomailing: Do not send DM&apos;s to this person\n"
+  syntax:
+    content: public const string Nomailing = "nomailing"
+    return:
+      type: System.String
+    content.vb: Public Const Nomailing As String = "nomailing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.CountryId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.CountryId
+  id: CountryId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: DBC.PersonFields.CountryId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.CountryId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.CountryId: Country\n"
+  syntax:
+    content: public const string CountryId = "country_id"
+    return:
+      type: System.String
+    content.vb: Public Const CountryId As String = "country_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Userdef2Id
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Userdef2Id
+  id: Userdef2Id
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Userdef2Id
+  nameWithType: DBC.PersonFields.Userdef2Id
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Userdef2Id
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Userdef2Id: User defined table record 2\n"
+  syntax:
+    content: public const string Userdef2Id = "userdef2_id"
+    return:
+      type: System.String
+    content.vb: Public Const Userdef2Id As String = "userdef2_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Retired
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Retired
+  id: Retired
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: DBC.PersonFields.Retired
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Retired
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Retired: 1 = the user is retired and should have no rights, not appear in lists, etc.\n"
+  syntax:
+    content: public const string Retired = "retired"
+    return:
+      type: System.String
+    content.vb: Public Const Retired As String = "retired"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.ActiveInterests
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.ActiveInterests
+  id: ActiveInterests
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterests
+  nameWithType: DBC.PersonFields.ActiveInterests
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.ActiveInterests
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.ActiveInterests: Number of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true\n"
+  syntax:
+    content: public const string ActiveInterests = "activeInterests"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveInterests As String = "activeInterests"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.PersonFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.UpdatedCount: Number of times updated\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.PersonFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.AssociateId: Our contact, if this is a B2C person, otherwise mirror of contact.assoc_id\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.GroupId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.GroupId
+  id: GroupId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: GroupId
+  nameWithType: DBC.PersonFields.GroupId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.GroupId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.GroupId: Our contact&apos;s original group, if this is a B2C person, otherwise mirror of contact.group_id\n"
+  syntax:
+    content: public const string GroupId = "group_id"
+    return:
+      type: System.String
+    content.vb: Public Const GroupId As String = "group_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Salutation
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Salutation
+  id: Salutation
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: DBC.PersonFields.Salutation
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Salutation
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Salutation: Academic title, populated from Salutation list but can be overwritten with anything at all\n"
+  syntax:
+    content: public const string Salutation = "salutation"
+    return:
+      type: System.String
+    content.vb: Public Const Salutation As String = "salutation"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Department
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Department
+  id: Department
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: DBC.PersonFields.Department
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Department
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Department: Internal department address\n"
+  syntax:
+    content: public const string Department = "department"
+    return:
+      type: System.String
+    content.vb: Public Const Department As String = "department"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Initials
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Initials
+  id: Initials
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Initials
+  nameWithType: DBC.PersonFields.Initials
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Initials
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Initials: Where Pierre van Mever becomes P. van Mever.  Actually, initials to be used in formal addresses, mostly in the Ducth market\n"
+  syntax:
+    content: public const string Initials = "initials"
+    return:
+      type: System.String
+    content.vb: Public Const Initials As String = "initials"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.Gender
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.Gender
+  id: Gender
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: DBC.PersonFields.Gender
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.Gender
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.Gender: Male/female. No jokes please.  To be used for selecting correct salutations &amp; grammar. 0 = unknown, 1 = female, 2 = male\n"
+  syntax:
+    content: public const string Gender = "gender"
+    return:
+      type: System.String
+    content.vb: Public Const Gender As String = "gender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.BusinessIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.BusinessIdx
+  id: BusinessIdx
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: BusinessIdx
+  nameWithType: DBC.PersonFields.BusinessIdx
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.BusinessIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.BusinessIdx: Business if this is a B2C person, otherwise mirror of contact.business_idx\n"
+  syntax:
+    content: public const string BusinessIdx = "business_idx"
+    return:
+      type: System.String
+    content.vb: Public Const BusinessIdx As String = "business_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.CategoryIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.CategoryIdx
+  id: CategoryIdx
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: CategoryIdx
+  nameWithType: DBC.PersonFields.CategoryIdx
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.CategoryIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.CategoryIdx: Category if this is a B2C person, otherwise mirror of contact.category_idx\n"
+  syntax:
+    content: public const string CategoryIdx = "category_idx"
+    return:
+      type: System.String
+    content.vb: Public Const CategoryIdx As String = "category_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.TzLocationId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: DBC.PersonFields.TzLocationId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.TzLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.TzLocationId: Default timezone location for this person\n"
+  syntax:
+    content: public const string TzLocationId = "tzLocationId"
+    return:
+      type: System.String
+    content.vb: Public Const TzLocationId As String = "tzLocationId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.SentInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.SentInfo
+  id: SentInfo
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: SentInfo
+  nameWithType: DBC.PersonFields.SentInfo
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.SentInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.SentInfo: Has information on username/password been sent (ejournal)\n"
+  syntax:
+    content: public const string SentInfo = "sentInfo"
+    return:
+      type: System.String
+    content.vb: Public Const SentInfo As String = "sentInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.ShowContactTickets
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.ShowContactTickets
+  id: ShowContactTickets
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: ShowContactTickets
+  nameWithType: DBC.PersonFields.ShowContactTickets
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.ShowContactTickets
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.ShowContactTickets: Should tickets related to the company be shown to this person\n"
+  syntax:
+    content: public const string ShowContactTickets = "showContactTickets"
+    return:
+      type: System.String
+    content.vb: Public Const ShowContactTickets As String = "showContactTickets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.TicketPriorityId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.TicketPriorityId
+  id: TicketPriorityId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityId
+  nameWithType: DBC.PersonFields.TicketPriorityId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.TicketPriorityId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.TicketPriorityId: Default ticket priority for new tickets\n"
+  syntax:
+    content: public const string TicketPriorityId = "ticketPriorityId"
+    return:
+      type: System.String
+    content.vb: Public Const TicketPriorityId As String = "ticketPriorityId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.SupportLanguageId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.SupportLanguageId
+  id: SupportLanguageId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: SupportLanguageId
+  nameWithType: DBC.PersonFields.SupportLanguageId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.SupportLanguageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.SupportLanguageId: Customers language (does not necessarily map to ISO languages)\n"
+  syntax:
+    content: public const string SupportLanguageId = "supportLanguageId"
+    return:
+      type: System.String
+    content.vb: Public Const SupportLanguageId As String = "supportLanguageId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.SupportAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.SupportAssociateId
+  id: SupportAssociateId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: SupportAssociateId
+  nameWithType: DBC.PersonFields.SupportAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.SupportAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.SupportAssociateId: Our contact, but for support context, not sales/primary contact\n"
+  syntax:
+    content: public const string SupportAssociateId = "supportAssociateId"
+    return:
+      type: System.String
+    content.vb: Public Const SupportAssociateId As String = "supportAssociateId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.DbiAgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: DBC.PersonFields.DbiAgentId
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.DbiAgentId: Integration agent (eJournal)\n"
+  syntax:
+    content: public const string DbiAgentId = "dbi_agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentId As String = "dbi_agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.DbiKey
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: DBC.PersonFields.DbiKey
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.DbiKey: The primary key for the integrated entry in the external datasource.\n"
+  syntax:
+    content: public const string DbiKey = "dbi_key"
+    return:
+      type: System.String
+    content.vb: Public Const DbiKey As String = "dbi_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: DBC.PersonFields.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.DbiLastSyncronized: Last external syncronization.\n"
+  syntax:
+    content: public const string DbiLastSyncronized = "dbi_last_syncronized"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastSyncronized As String = "dbi_last_syncronized"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.DbiLastModified
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: DBC.PersonFields.DbiLastModified
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.DbiLastModified: When the entry was last modified.\n"
+  syntax:
+    content: public const string DbiLastModified = "dbi_last_modified"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastModified As String = "dbi_last_modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.BlockEmarketing
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.BlockEmarketing
+  id: BlockEmarketing
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: BlockEmarketing
+  nameWithType: DBC.PersonFields.BlockEmarketing
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.BlockEmarketing
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.BlockEmarketing: Do not send E-marketing materials to this person\n"
+  syntax:
+    content: public const string BlockEmarketing = "blockEmarketing"
+    return:
+      type: System.String
+    content.vb: Public Const BlockEmarketing As String = "blockEmarketing"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.ActiveErpLinks
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: DBC.PersonFields.ActiveErpLinks
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.ActiveErpLinks
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.ActiveErpLinks: The number of Erp Sync connections this record is synced with; count of the ErpExternalKey+ErpInternalKey relations\n"
+  syntax:
+    content: public const string ActiveErpLinks = "activeErpLinks"
+    return:
+      type: System.String
+    content.vb: Public Const ActiveErpLinks As String = "activeErpLinks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.PersonFields.DeletedDate
+  commentId: F:SuperOffice.CRM.Data.DBC.PersonFields.DeletedDate
+  id: DeletedDate
+  parent: SuperOffice.CRM.Data.DBC.PersonFields
+  langs:
+  - csharp
+  - vb
+  name: DeletedDate
+  nameWithType: DBC.PersonFields.DeletedDate
+  fullName: SuperOffice.CRM.Data.DBC.PersonFields.DeletedDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nPerson.DeletedDate: Datetime (utc) when this record was soft-deleted; if this value is set then the record should not be shown\n"
+  syntax:
+    content: public const string DeletedDate = "DeletedDate"
+    return:
+      type: System.String
+    content.vb: Public Const DeletedDate As String = "DeletedDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

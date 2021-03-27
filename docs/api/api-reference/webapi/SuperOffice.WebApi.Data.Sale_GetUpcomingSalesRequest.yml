@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest
+  id: Sale_GetUpcomingSalesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count
+  - SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetUpcomingSalesRequest
+  nameWithType: Sale_GetUpcomingSalesRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetUpcomingSalesRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetUpcomingSalesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetUpcomingSalesRequest()
+  nameWithType: Sale_GetUpcomingSalesRequest.Sale_GetUpcomingSalesRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Sale_GetUpcomingSalesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetUpcomingSalesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  id: WeightedAmountLimit
+  parent: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest
+  langs:
+  - csharp
+  - vb
+  name: WeightedAmountLimit
+  nameWithType: Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int WeightedAmountLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WeightedAmountLimit As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count
+  id: Count
+  parent: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: Sale_GetUpcomingSalesRequest.Count
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.#ctor
+  isExternal: true
+  name: Sale_GetUpcomingSalesRequest
+  nameWithType: Sale_GetUpcomingSalesRequest.Sale_GetUpcomingSalesRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Sale_GetUpcomingSalesRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  isExternal: true
+  name: WeightedAmountLimit
+  nameWithType: Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.WeightedAmountLimit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count
+  isExternal: true
+  name: Count
+  nameWithType: Sale_GetUpcomingSalesRequest.Count
+  fullName: SuperOffice.WebApi.Data.Sale_GetUpcomingSalesRequest.Count

@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ActivitySummary
+  commentId: T:SuperOffice.WebApi.Data.ActivitySummary
+  id: ActivitySummary
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ActivitySummary.#ctor
+  - SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities
+  - SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities
+  - SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy
+  langs:
+  - csharp
+  - vb
+  name: ActivitySummary
+  nameWithType: ActivitySummary
+  fullName: SuperOffice.WebApi.Data.ActivitySummary
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ActivitySummary.\nActivity information summary - number of free and busy activities.    \n"
+  syntax:
+    content: 'public class ActivitySummary : Carrier'
+    content.vb: >-
+      Public Class ActivitySummary
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
+    commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ActivitySummary.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ActivitySummary.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: ActivitySummary()
+  nameWithType: ActivitySummary.ActivitySummary()
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.ActivitySummary()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ActivitySummary()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ActivitySummary.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities
+  id: NumBusyActivities
+  parent: SuperOffice.WebApi.Data.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: NumBusyActivities
+  nameWithType: ActivitySummary.NumBusyActivities
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of activites and tasks in the diary that are of type &apos;busy&apos;. Sales and documents are not activites in this case, only diary appointments and tasks.\n"
+  syntax:
+    content: public virtual int NumBusyActivities { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumBusyActivities As Integer
+  overload: SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities
+  id: NumFreeActivities
+  parent: SuperOffice.WebApi.Data.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: NumFreeActivities
+  nameWithType: ActivitySummary.NumFreeActivities
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of activites of the type &apos;free&apos;. Sales and documents are not activites in this case, only diary appointments and tasks.\n"
+  syntax:
+    content: public virtual int NumFreeActivities { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property NumFreeActivities As Integer
+  overload: SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy
+  commentId: P:SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy
+  id: PercentageBusy
+  parent: SuperOffice.WebApi.Data.ActivitySummary
+  langs:
+  - csharp
+  - vb
+  name: PercentageBusy
+  nameWithType: ActivitySummary.PercentageBusy
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow much of the active work-day which is booked in appointments.\n"
+  syntax:
+    content: public virtual int PercentageBusy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PercentageBusy As Integer
+  overload: SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.AppointmentAgent
+  commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
+  isExternal: true
+  name: AppointmentAgent
+  nameWithType: AppointmentAgent
+  fullName: SuperOffice.WebApi.Agents.AppointmentAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ActivitySummary.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummary.#ctor
+  isExternal: true
+  name: ActivitySummary
+  nameWithType: ActivitySummary.ActivitySummary
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.ActivitySummary
+- uid: SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities
+  isExternal: true
+  name: NumBusyActivities
+  nameWithType: ActivitySummary.NumBusyActivities
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.NumBusyActivities
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities
+  isExternal: true
+  name: NumFreeActivities
+  nameWithType: ActivitySummary.NumFreeActivities
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.NumFreeActivities
+- uid: SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy*
+  commentId: Overload:SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy
+  isExternal: true
+  name: PercentageBusy
+  nameWithType: ActivitySummary.PercentageBusy
+  fullName: SuperOffice.WebApi.Data.ActivitySummary.PercentageBusy

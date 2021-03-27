@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  id: Sale_GetSummaryByContactRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate
+  - SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSummaryByContactRequest
+  nameWithType: Sale_GetSummaryByContactRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetSummaryByContactRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetSummaryByContactRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSummaryByContactRequest()
+  nameWithType: Sale_GetSummaryByContactRequest.Sale_GetSummaryByContactRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.Sale_GetSummaryByContactRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetSummaryByContactRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Sale_GetSummaryByContactRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate
+  id: FromDate
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  langs:
+  - csharp
+  - vb
+  name: FromDate
+  nameWithType: Sale_GetSummaryByContactRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime FromDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property FromDate As DateTime
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate
+  id: ToDate
+  parent: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest
+  langs:
+  - csharp
+  - vb
+  name: ToDate
+  nameWithType: Sale_GetSummaryByContactRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public DateTime ToDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property ToDate As DateTime
+  overload: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.#ctor
+  isExternal: true
+  name: Sale_GetSummaryByContactRequest
+  nameWithType: Sale_GetSummaryByContactRequest.Sale_GetSummaryByContactRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.Sale_GetSummaryByContactRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Sale_GetSummaryByContactRequest.ContactId
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ContactId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate
+  isExternal: true
+  name: FromDate
+  nameWithType: Sale_GetSummaryByContactRequest.FromDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.FromDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate
+  isExternal: true
+  name: ToDate
+  nameWithType: Sale_GetSummaryByContactRequest.ToDate
+  fullName: SuperOffice.WebApi.Data.Sale_GetSummaryByContactRequest.ToDate

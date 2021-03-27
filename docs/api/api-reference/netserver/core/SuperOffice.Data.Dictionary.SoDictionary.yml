@@ -1,0 +1,1262 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.Dictionary.SoDictionary
+  commentId: T:SuperOffice.Data.Dictionary.SoDictionary
+  id: SoDictionary
+  parent: SuperOffice.Data.Dictionary
+  children:
+  - SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
+  - SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
+  - SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
+  - SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
+  - SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
+  - SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
+  - SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
+  - SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
+  - SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
+  - SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+  - SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
+  - SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
+  - SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
+  - SuperOffice.Data.Dictionary.SoDictionary.Tables
+  langs:
+  - csharp
+  - vb
+  name: SoDictionary
+  nameWithType: SoDictionary
+  fullName: SuperOffice.Data.Dictionary.SoDictionary
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nImplementation of the SuperOffice Deployed Dictionary\n"
+  syntax:
+    content: public class SoDictionary
+    content.vb: Public Class SoDictionary
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.Dictionary.SoDictionary.EnumUtil.MapEnums``2
+  - SuperOffice.Data.Dictionary.SoDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
+  id: IsSpecialDbPatchInstalled(System.String)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: IsSpecialDbPatchInstalled(String)
+  nameWithType: SoDictionary.IsSpecialDbPatchInstalled(String)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nCheck if a certain special database patch has been installed on this database, by patch name\n"
+  syntax:
+    content: public bool IsSpecialDbPatchInstalled(string patchName)
+    parameters:
+    - id: patchName
+      type: System.String
+      description: Patch name, case insensitive
+    return:
+      type: System.Boolean
+      description: true if patch has been enabled
+    content.vb: Public Function IsSpecialDbPatchInstalled(patchName As String) As Boolean
+  overload: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
+  id: HasTable(System.String)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: HasTable(String)
+  nameWithType: SoDictionary.HasTable(String)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.HasTable(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nCheck if the given table (by name) exists in the dictionary\n"
+  syntax:
+    content: public bool HasTable(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Table name to check, case insensitive
+    return:
+      type: System.Boolean
+      description: true if the table exists in the dictionary
+    content.vb: Public Function HasTable(tableName As String) As Boolean
+  overload: SuperOffice.Data.Dictionary.SoDictionary.HasTable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
+  id: GetFromTableNumber(System.Int32)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetFromTableNumber(Int32)
+  nameWithType: SoDictionary.GetFromTableNumber(Int32)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the SoTable object based on the SODBIF table number\n"
+  syntax:
+    content: public SoTable GetFromTableNumber(int tableNumber)
+    parameters:
+    - id: tableNumber
+      type: System.Int32
+      description: Table number, sequence = 0
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Table definition; null if the table number does not correspond to a table
+    content.vb: Public Function GetFromTableNumber(tableNumber As Integer) As SoTable
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
+  id: GetFromTableName(System.String)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetFromTableName(String)
+  nameWithType: SoDictionary.GetFromTableName(String)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the SoTable object based on the table name. Same as the string indexer.\n"
+  syntax:
+    content: public SoTable GetFromTableName(string tableName)
+    parameters:
+    - id: tableName
+      type: System.String
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Table definition; null if the table number does not correspond to a table
+    content.vb: Public Function GetFromTableName(tableName As String) As SoTable
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
+  id: GetFromFieldNumber(System.Int32)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetFromFieldNumber(Int32)
+  nameWithType: SoDictionary.GetFromFieldNumber(Int32)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the SoField object, based on the field number (C++ style table + field number combination)\n"
+  syntax:
+    content: public SoField GetFromFieldNumber(int fieldNumber)
+    parameters:
+    - id: fieldNumber
+      type: System.Int32
+      description: Field number, consists of table number &lt;&lt; 8 + zero-based field number
+    return:
+      type: SuperOffice.Data.Dictionary.SoField
+      description: Field definition, null if the field number does not correspond to a field
+    content.vb: Public Function GetFromFieldNumber(fieldNumber As Integer) As SoField
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
+  id: GetColumnIndex(System.Int32)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetColumnIndex(Int32)
+  nameWithType: SoDictionary.GetColumnIndex(Int32)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the column index from a composite field id\n"
+  syntax:
+    content: public static int GetColumnIndex(int fieldId)
+    parameters:
+    - id: fieldId
+      type: System.Int32
+      description: Dictionary field id
+    return:
+      type: System.Int32
+      description: Column index, first column of a table has index 0
+    content.vb: Public Shared Function GetColumnIndex(fieldId As Integer) As Integer
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
+  id: GetTableNumber(System.Int32)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetTableNumber(Int32)
+  nameWithType: SoDictionary.GetTableNumber(Int32)
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet the table number from a composite field id\n"
+  syntax:
+    content: public static int GetTableNumber(int fieldId)
+    parameters:
+    - id: fieldId
+      type: System.Int32
+      description: Dictionary field id
+    return:
+      type: System.Int32
+      description: Table number the field resides in
+    content.vb: Public Shared Function GetTableNumber(fieldId As Integer) As Integer
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
+  id: GetStepsInDatabase
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetStepsInDatabase()
+  nameWithType: SoDictionary.GetStepsInDatabase()
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet information about what steps have been applied to the database\n"
+  syntax:
+    content: public DictionaryStepInfo[] GetStepsInDatabase()
+    return:
+      type: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo[]
+    content.vb: Public Function GetStepsInDatabase As DictionaryStepInfo()
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
+  id: GetStepsFromNetServerCode
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetStepsFromNetServerCode()
+  nameWithType: SoDictionary.GetStepsFromNetServerCode()
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet information about what steps have contributed with generated code in this installation. \nAll loaded assemblies (including partner code) are included in the scan.\n"
+  syntax:
+    content: public static DictionaryStepInfo[] GetStepsFromNetServerCode()
+    return:
+      type: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo[]
+    content.vb: Public Shared Function GetStepsFromNetServerCode As DictionaryStepInfo()
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
+  commentId: M:SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
+  id: GetDictionary
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: GetDictionary()
+  nameWithType: SoDictionary.GetDictionary()
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  syntax:
+    content: >-
+      [Obsolete("Use SoDatabase.GetCurrent().Dictionary instead.", false)]
+
+      public static SoDictionary GetDictionary()
+    return:
+      type: SuperOffice.Data.Dictionary.SoDictionary
+    content.vb: >-
+      <Obsolete("Use SoDatabase.GetCurrent().Dictionary instead.", False)>
+
+      Public Shared Function GetDictionary As SoDictionary
+  overload: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use SoDatabase.GetCurrent().Dictionary instead.
+    - type: System.Boolean
+      value: false
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+  id: IsDatabaseUnicode
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: IsDatabaseUnicode
+  nameWithType: SoDictionary.IsDatabaseUnicode
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nIs the database unicode, i.e., strings stored in unicode (usually UTF16)? If not, then ANSI with the current code page is used\n"
+  syntax:
+    content: public bool IsDatabaseUnicode { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsDatabaseUnicode As Boolean
+  overload: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: SoDictionary.Item[Int32]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[System.Int32]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nReturn an SoTable object based on the table number\n"
+  syntax:
+    content: public SoTable this[int key] { get; }
+    parameters:
+    - id: key
+      type: System.Int32
+      description: Table number (please do not hardcode as they may change!)
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Table definition object
+    content.vb: Public ReadOnly Property Item(key As Integer) As SoTable
+  overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
+  nameWithType.vb: SoDictionary.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
+  id: Item(System.String)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: SoDictionary.Item[String]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[System.String]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nReturn an SoTable object based on the table name\n"
+  syntax:
+    content: public SoTable this[string tableName] { get; }
+    parameters:
+    - id: tableName
+      type: System.String
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Table definition object
+    content.vb: Public ReadOnly Property Item(tableName As String) As SoTable
+  overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
+  nameWithType.vb: SoDictionary.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(System.String)
+  name.vb: Item(String)
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
+  id: Item(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: Item[TableInfo]
+  nameWithType: SoDictionary.Item[TableInfo]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[SuperOffice.Data.SQL.TableInfo]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nReturn an SoTable object based on a TableInfo object\n"
+  syntax:
+    content: public SoTable this[TableInfo tableInfo] { get; }
+    parameters:
+    - id: tableInfo
+      type: SuperOffice.Data.SQL.TableInfo
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+      description: Table definition object
+    content.vb: Public ReadOnly Property Item(tableInfo As TableInfo) As SoTable
+  overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
+  nameWithType.vb: SoDictionary.Item(TableInfo)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.TableInfo)
+  name.vb: Item(TableInfo)
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
+  id: Item(SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: Item[FieldInfo]
+  nameWithType: SoDictionary.Item[FieldInfo]
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item[SuperOffice.Data.SQL.FieldInfo]
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nReturn an SoField object based on a FieldInfo (name/name lookup)\n"
+  syntax:
+    content: public SoField this[FieldInfo fieldInfo] { get; }
+    parameters:
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+      description: FieldInfo used for the lookup; its name and its table name are used
+    return:
+      type: SuperOffice.Data.Dictionary.SoField
+      description: Field definition object
+    content.vb: Public ReadOnly Property Item(fieldInfo As FieldInfo) As SoField
+  overload: SuperOffice.Data.Dictionary.SoDictionary.Item*
+  nameWithType.vb: SoDictionary.Item(FieldInfo)
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.Data.Dictionary.SoDictionary.Item(SuperOffice.Data.SQL.FieldInfo)
+  name.vb: Item(FieldInfo)
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Tables
+  commentId: P:SuperOffice.Data.Dictionary.SoDictionary.Tables
+  id: Tables
+  parent: SuperOffice.Data.Dictionary.SoDictionary
+  langs:
+  - csharp
+  - vb
+  name: Tables
+  nameWithType: SoDictionary.Tables
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Tables
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data.Dictionary
+  summary: "\nGet a list of all the Tables in the deployed dictionary\n"
+  syntax:
+    content: public SoTable[] Tables { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable[]
+    content.vb: Public ReadOnly Property Tables As SoTable()
+  overload: SuperOffice.Data.Dictionary.SoDictionary.Tables*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.SoDictionary.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoDictionary, To>()
+  nameWithType: EnumUtil.MapEnums<SoDictionary, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoDictionary, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)()
+  name.vb: MapEnums(Of SoDictionary, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoDictionary, To>
+    nameWithType: EnumUtil.MapEnums<SoDictionary, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoDictionary, To)
+    nameWithType: EnumUtil.MapEnums(Of SoDictionary, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.Dictionary.SoDictionary.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoDictionary, To>()
+  nameWithType: Converters.MapEnums<SoDictionary, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoDictionary, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)()
+  name.vb: MapEnums(Of SoDictionary, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoDictionary, To>
+    nameWithType: Converters.MapEnums<SoDictionary, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.Dictionary.SoDictionary, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoDictionary, To)
+    nameWithType: Converters.MapEnums(Of SoDictionary, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.Dictionary.SoDictionary, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled
+  isExternal: true
+  name: IsSpecialDbPatchInstalled
+  nameWithType: SoDictionary.IsSpecialDbPatchInstalled
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsSpecialDbPatchInstalled
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.Dictionary.SoDictionary.HasTable*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.HasTable
+  isExternal: true
+  name: HasTable
+  nameWithType: SoDictionary.HasTable
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.HasTable
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber
+  isExternal: true
+  name: GetFromTableNumber
+  nameWithType: SoDictionary.GetFromTableNumber
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName
+  isExternal: true
+  name: GetFromTableName
+  nameWithType: SoDictionary.GetFromTableName
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromTableName
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber
+  isExternal: true
+  name: GetFromFieldNumber
+  nameWithType: SoDictionary.GetFromFieldNumber
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetFromFieldNumber
+- uid: SuperOffice.Data.Dictionary.SoField
+  commentId: T:SuperOffice.Data.Dictionary.SoField
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoField
+  nameWithType: SoField
+  fullName: SuperOffice.Data.Dictionary.SoField
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex
+  isExternal: true
+  name: GetColumnIndex
+  nameWithType: SoDictionary.GetColumnIndex
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetColumnIndex
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber
+  isExternal: true
+  name: GetTableNumber
+  nameWithType: SoDictionary.GetTableNumber
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetTableNumber
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
+  isExternal: true
+  name: GetStepsInDatabase
+  nameWithType: SoDictionary.GetStepsInDatabase
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsInDatabase
+- uid: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo[]
+  isExternal: true
+  name: DictionaryStepInfo[]
+  nameWithType: DictionaryStepInfo[]
+  fullName: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo[]
+  nameWithType.vb: DictionaryStepInfo()
+  fullName.vb: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo()
+  name.vb: DictionaryStepInfo()
+  spec.csharp:
+  - uid: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
+    name: DictionaryStepInfo
+    nameWithType: DictionaryStepInfo
+    fullName: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
+    name: DictionaryStepInfo
+    nameWithType: DictionaryStepInfo
+    fullName: SuperOffice.CD.DSL.V1.DatabaseModel.DictionaryStepInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
+  isExternal: true
+  name: GetStepsFromNetServerCode
+  nameWithType: SoDictionary.GetStepsFromNetServerCode
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetStepsFromNetServerCode
+- uid: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
+  isExternal: true
+  name: GetDictionary
+  nameWithType: SoDictionary.GetDictionary
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.GetDictionary
+- uid: SuperOffice.Data.Dictionary.SoDictionary
+  commentId: T:SuperOffice.Data.Dictionary.SoDictionary
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  name: SoDictionary
+  nameWithType: SoDictionary
+  fullName: SuperOffice.Data.Dictionary.SoDictionary
+- uid: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+  isExternal: true
+  name: IsDatabaseUnicode
+  nameWithType: SoDictionary.IsDatabaseUnicode
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.IsDatabaseUnicode
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Item*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.Item
+  isExternal: true
+  name: Item
+  nameWithType: SoDictionary.Item
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Item
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.SQL.FieldInfo
+  commentId: T:SuperOffice.Data.SQL.FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: FieldInfo
+  nameWithType: FieldInfo
+  fullName: SuperOffice.Data.SQL.FieldInfo
+- uid: SuperOffice.Data.Dictionary.SoDictionary.Tables*
+  commentId: Overload:SuperOffice.Data.Dictionary.SoDictionary.Tables
+  isExternal: true
+  name: Tables
+  nameWithType: SoDictionary.Tables
+  fullName: SuperOffice.Data.Dictionary.SoDictionary.Tables
+- uid: SuperOffice.Data.Dictionary.SoTable[]
+  isExternal: true
+  name: SoTable[]
+  nameWithType: SoTable[]
+  fullName: SuperOffice.Data.Dictionary.SoTable[]
+  nameWithType.vb: SoTable()
+  fullName.vb: SuperOffice.Data.Dictionary.SoTable()
+  name.vb: SoTable()
+  spec.csharp:
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    nameWithType: SoTable
+    fullName: SuperOffice.Data.Dictionary.SoTable
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

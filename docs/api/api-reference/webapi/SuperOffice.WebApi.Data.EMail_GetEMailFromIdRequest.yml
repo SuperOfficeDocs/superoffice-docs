@@ -1,0 +1,298 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  id: EMail_GetEMailFromIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo
+  - SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags
+  - SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments
+  - SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses
+  - SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailFromIdRequest
+  nameWithType: EMail_GetEMailFromIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_GetEMailFromIdRequest : Object'
+    content.vb: >-
+      Public Class EMail_GetEMailFromIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_GetEMailFromIdRequest()
+  nameWithType: EMail_GetEMailFromIdRequest.EMail_GetEMailFromIdRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.EMail_GetEMailFromIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_GetEMailFromIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_GetEMailFromIdRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId
+  id: MessageServerId
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageServerId
+  nameWithType: EMail_GetEMailFromIdRequest.MessageServerId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MessageServerId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MessageServerId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses
+  id: LookupAddresses
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: LookupAddresses
+  nameWithType: EMail_GetEMailFromIdRequest.LookupAddresses
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool LookupAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property LookupAddresses As Boolean
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags
+  id: Flags
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: EMail_GetEMailFromIdRequest.Flags
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailFlags Flags { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailFlags
+    content.vb: Public Property Flags As EMailFlags
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments
+  commentId: P:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments
+  id: IncludeAttachments
+  parent: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest
+  langs:
+  - csharp
+  - vb
+  name: IncludeAttachments
+  nameWithType: EMail_GetEMailFromIdRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool IncludeAttachments { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IncludeAttachments As Boolean
+  overload: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.#ctor
+  isExternal: true
+  name: EMail_GetEMailFromIdRequest
+  nameWithType: EMail_GetEMailFromIdRequest.EMail_GetEMailFromIdRequest
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.EMail_GetEMailFromIdRequest
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_GetEMailFromIdRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId
+  isExternal: true
+  name: MessageServerId
+  nameWithType: EMail_GetEMailFromIdRequest.MessageServerId
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.MessageServerId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses
+  isExternal: true
+  name: LookupAddresses
+  nameWithType: EMail_GetEMailFromIdRequest.LookupAddresses
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.LookupAddresses
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: EMail_GetEMailFromIdRequest.Flags
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.Flags
+- uid: SuperOffice.WebApi.Data.EMailFlags
+  commentId: T:SuperOffice.WebApi.Data.EMailFlags
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.WebApi.Data.EMailFlags
+- uid: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments
+  isExternal: true
+  name: IncludeAttachments
+  nameWithType: EMail_GetEMailFromIdRequest.IncludeAttachments
+  fullName: SuperOffice.WebApi.Data.EMail_GetEMailFromIdRequest.IncludeAttachments

@@ -1,0 +1,847 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.ListNameConstants
+  commentId: T:SuperOffice.ListNameConstants
+  id: ListNameConstants
+  parent: SuperOffice
+  children:
+  - SuperOffice.ListNameConstants.Associate
+  - SuperOffice.ListNameConstants.AssociateTableId
+  - SuperOffice.ListNameConstants.Chat
+  - SuperOffice.ListNameConstants.ChatId
+  - SuperOffice.ListNameConstants.DocTmpl
+  - SuperOffice.ListNameConstants.DocTmplTableId
+  - SuperOffice.ListNameConstants.EmailRecordType
+  - SuperOffice.ListNameConstants.EmailTemplate
+  - SuperOffice.ListNameConstants.EmailTemplateId
+  - SuperOffice.ListNameConstants.ExtApp
+  - SuperOffice.ListNameConstants.ExtAppTableId
+  - SuperOffice.ListNameConstants.Resource
+  - SuperOffice.ListNameConstants.ResourceSubList
+  - SuperOffice.ListNameConstants.UdList
+  - SuperOffice.ListNameConstants.UdListTableId
+  - SuperOffice.ListNameConstants.WebPanel
+  - SuperOffice.ListNameConstants.WebPanelId
+  langs:
+  - csharp
+  - vb
+  name: ListNameConstants
+  nameWithType: ListNameConstants
+  fullName: SuperOffice.ListNameConstants
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  summary: "\nDefines hardcoded listnames and corresponing hardcoded id\n"
+  syntax:
+    content: public static class ListNameConstants
+    content.vb: Public Module ListNameConstants
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.ListNameConstants.WebPanelId
+  commentId: F:SuperOffice.ListNameConstants.WebPanelId
+  id: WebPanelId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: WebPanelId
+  nameWithType: ListNameConstants.WebPanelId
+  fullName: SuperOffice.ListNameConstants.WebPanelId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int WebPanelId = 30001
+    return:
+      type: System.Int32
+    content.vb: Public Const WebPanelId As Integer = 30001
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.WebPanel
+  commentId: F:SuperOffice.ListNameConstants.WebPanel
+  id: WebPanel
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: WebPanel
+  nameWithType: ListNameConstants.WebPanel
+  fullName: SuperOffice.ListNameConstants.WebPanel
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string WebPanel = "webpanel"
+    return:
+      type: System.String
+    content.vb: Public Const WebPanel As String = "webpanel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.ChatId
+  commentId: F:SuperOffice.ListNameConstants.ChatId
+  id: ChatId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: ListNameConstants.ChatId
+  fullName: SuperOffice.ListNameConstants.ChatId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int ChatId = 30002
+    return:
+      type: System.Int32
+    content.vb: Public Const ChatId As Integer = 30002
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.Chat
+  commentId: F:SuperOffice.ListNameConstants.Chat
+  id: Chat
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: ListNameConstants.Chat
+  fullName: SuperOffice.ListNameConstants.Chat
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string Chat = "chat"
+    return:
+      type: System.String
+    content.vb: Public Const Chat As String = "chat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.EmailTemplateId
+  commentId: F:SuperOffice.ListNameConstants.EmailTemplateId
+  id: EmailTemplateId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: EmailTemplateId
+  nameWithType: ListNameConstants.EmailTemplateId
+  fullName: SuperOffice.ListNameConstants.EmailTemplateId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int EmailTemplateId = 30003
+    return:
+      type: System.Int32
+    content.vb: Public Const EmailTemplateId As Integer = 30003
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.EmailTemplate
+  commentId: F:SuperOffice.ListNameConstants.EmailTemplate
+  id: EmailTemplate
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: EmailTemplate
+  nameWithType: ListNameConstants.EmailTemplate
+  fullName: SuperOffice.ListNameConstants.EmailTemplate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string EmailTemplate = "mailhtmltemplate"
+    return:
+      type: System.String
+    content.vb: Public Const EmailTemplate As String = "mailhtmltemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.EmailRecordType
+  commentId: F:SuperOffice.ListNameConstants.EmailRecordType
+  id: EmailRecordType
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: EmailRecordType
+  nameWithType: ListNameConstants.EmailRecordType
+  fullName: SuperOffice.ListNameConstants.EmailRecordType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int EmailRecordType = 3
+    return:
+      type: System.Int32
+    content.vb: Public Const EmailRecordType As Integer = 3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.DocTmpl
+  commentId: F:SuperOffice.ListNameConstants.DocTmpl
+  id: DocTmpl
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: DocTmpl
+  nameWithType: ListNameConstants.DocTmpl
+  fullName: SuperOffice.ListNameConstants.DocTmpl
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string DocTmpl = "docTmpl"
+    return:
+      type: System.String
+    content.vb: Public Const DocTmpl As String = "docTmpl"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.DocTmplTableId
+  commentId: F:SuperOffice.ListNameConstants.DocTmplTableId
+  id: DocTmplTableId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: DocTmplTableId
+  nameWithType: ListNameConstants.DocTmplTableId
+  fullName: SuperOffice.ListNameConstants.DocTmplTableId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int DocTmplTableId = 130
+    return:
+      type: System.Int32
+    content.vb: Public Const DocTmplTableId As Integer = 130
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.ExtApp
+  commentId: F:SuperOffice.ListNameConstants.ExtApp
+  id: ExtApp
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: ExtApp
+  nameWithType: ListNameConstants.ExtApp
+  fullName: SuperOffice.ListNameConstants.ExtApp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string ExtApp = "extapp"
+    return:
+      type: System.String
+    content.vb: Public Const ExtApp As String = "extapp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.ExtAppTableId
+  commentId: F:SuperOffice.ListNameConstants.ExtAppTableId
+  id: ExtAppTableId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: ExtAppTableId
+  nameWithType: ListNameConstants.ExtAppTableId
+  fullName: SuperOffice.ListNameConstants.ExtAppTableId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int ExtAppTableId = 133
+    return:
+      type: System.Int32
+    content.vb: Public Const ExtAppTableId As Integer = 133
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.UdList
+  commentId: F:SuperOffice.ListNameConstants.UdList
+  id: UdList
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: UdList
+  nameWithType: ListNameConstants.UdList
+  fullName: SuperOffice.ListNameConstants.UdList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string UdList = "udlist"
+    return:
+      type: System.String
+    content.vb: Public Const UdList As String = "udlist"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.UdListTableId
+  commentId: F:SuperOffice.ListNameConstants.UdListTableId
+  id: UdListTableId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: UdListTableId
+  nameWithType: ListNameConstants.UdListTableId
+  fullName: SuperOffice.ListNameConstants.UdListTableId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int UdListTableId = 136
+    return:
+      type: System.Int32
+    content.vb: Public Const UdListTableId As Integer = 136
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.Resource
+  commentId: F:SuperOffice.ListNameConstants.Resource
+  id: Resource
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: ListNameConstants.Resource
+  fullName: SuperOffice.ListNameConstants.Resource
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string Resource = "resource"
+    return:
+      type: System.String
+    content.vb: Public Const Resource As String = "resource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.ResourceSubList
+  commentId: F:SuperOffice.ListNameConstants.ResourceSubList
+  id: ResourceSubList
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: ResourceSubList
+  nameWithType: ListNameConstants.ResourceSubList
+  fullName: SuperOffice.ListNameConstants.ResourceSubList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int ResourceSubList = 1
+    return:
+      type: System.Int32
+    content.vb: Public Const ResourceSubList As Integer = 1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.Associate
+  commentId: F:SuperOffice.ListNameConstants.Associate
+  id: Associate
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: ListNameConstants.Associate
+  fullName: SuperOffice.ListNameConstants.Associate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const string Associate = "associate"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.ListNameConstants.AssociateTableId
+  commentId: F:SuperOffice.ListNameConstants.AssociateTableId
+  id: AssociateTableId
+  parent: SuperOffice.ListNameConstants
+  langs:
+  - csharp
+  - vb
+  name: AssociateTableId
+  nameWithType: ListNameConstants.AssociateTableId
+  fullName: SuperOffice.ListNameConstants.AssociateTableId
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice
+  syntax:
+    content: public const int AssociateTableId = 2
+    return:
+      type: System.Int32
+    content.vb: Public Const AssociateTableId As Integer = 2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice
+  commentId: N:SuperOffice
+  isExternal: true
+  name: SuperOffice
+  nameWithType: SuperOffice
+  fullName: SuperOffice
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

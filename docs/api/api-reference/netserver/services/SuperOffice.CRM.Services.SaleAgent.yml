@@ -1,0 +1,4039 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.SaleAgent
+  commentId: T:SuperOffice.CRM.Services.SaleAgent
+  id: SaleAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.SaleAgent.#ctor
+  - SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  - SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate
+  - SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity
+  - SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder
+  - SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary
+  - SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetNextDueDate(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetRecentSales(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetSale(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetSaleEntity(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetSaleList(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  - SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  - SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  - SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.HasGuide(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.HasGuideActivities(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.IsNumberValid(System.Int32,System.String)
+  - SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  - SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  - SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  - SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32[])
+  - SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  - SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  langs:
+  - csharp
+  - vb
+  name: SaleAgent
+  nameWithType: SaleAgent
+  fullName: SuperOffice.CRM.Services.SaleAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Sale Agent\nSale data services\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (SaleAgent agent = new SaleAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class SaleAgent : AgentBase<ISaleAgent>, IDisposable, ISaleAgent, IAgent'
+    content.vb: >-
+      Public Class SaleAgent
+          Inherits AgentBase(Of ISaleAgent)
+          Implements IDisposable, ISaleAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.ISaleAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity
+  id: CreateDefaultSaleEntity
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSaleEntity()
+  nameWithType: SaleAgent.CreateDefaultSaleEntity()
+  fullName: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new SaleEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public SaleEntity CreateDefaultSaleEntity()
+    return:
+      type: SuperOffice.CRM.Services.SaleEntity
+      description: New SaleEntity with default values
+    content.vb: Public Function CreateDefaultSaleEntity As SaleEntity
+  overload: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  id: SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSaleEntity(SaleEntity)
+  nameWithType: SaleAgent.SaveSaleEntity(SaleEntity)
+  fullName: SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty\n"
+  syntax:
+    content: public SaleEntity SaveSaleEntity(SaleEntity saleEntity)
+    parameters:
+    - id: saleEntity
+      type: SuperOffice.CRM.Services.SaleEntity
+      description: The SaleEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.SaleEntity
+      description: New or updated SaleEntity
+    content.vb: Public Function SaveSaleEntity(saleEntity As SaleEntity) As SaleEntity
+  overload: SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity(System.Int32)
+  id: DeleteSaleEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaleEntity(Int32)
+  nameWithType: SaleAgent.DeleteSaleEntity(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the SaleEntity\n"
+  syntax:
+    content: public void DeleteSaleEntity(int saleEntityId)
+    parameters:
+    - id: saleEntityId
+      type: System.Int32
+      description: The identity of the SaleEntity
+    content.vb: Public Sub DeleteSaleEntity(saleEntityId As Integer)
+  overload: SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder
+  id: CreateDefaultSaleStakeholder
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSaleStakeholder()
+  nameWithType: SaleAgent.CreateDefaultSaleStakeholder()
+  fullName: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new SaleStakeholder.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public SaleStakeholder CreateDefaultSaleStakeholder()
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder
+      description: New SaleStakeholder with default values
+    content.vb: Public Function CreateDefaultSaleStakeholder As SaleStakeholder
+  overload: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  id: SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSaleStakeholder(SaleStakeholder)
+  nameWithType: SaleAgent.SaveSaleStakeholder(SaleStakeholder)
+  fullName: SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing SaleStakeholder or creates a new SaleStakeholder if the id parameter is empty\n"
+  syntax:
+    content: public SaleStakeholder SaveSaleStakeholder(SaleStakeholder saleStakeholder)
+    parameters:
+    - id: saleStakeholder
+      type: SuperOffice.CRM.Services.SaleStakeholder
+      description: The SaleStakeholder that is saved.
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder
+      description: New or updated SaleStakeholder
+    content.vb: Public Function SaveSaleStakeholder(saleStakeholder As SaleStakeholder) As SaleStakeholder
+  overload: SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder(System.Int32)
+  id: DeleteSaleStakeholder(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaleStakeholder(Int32)
+  nameWithType: SaleAgent.DeleteSaleStakeholder(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the SaleStakeholder\n"
+  syntax:
+    content: public void DeleteSaleStakeholder(int saleStakeholderId)
+    parameters:
+    - id: saleStakeholderId
+      type: System.Int32
+      description: The identity of the SaleStakeholder
+    content.vb: Public Sub DeleteSaleStakeholder(saleStakeholderId As Integer)
+  overload: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary
+  id: CreateDefaultSaleSummary
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSaleSummary()
+  nameWithType: SaleAgent.CreateDefaultSaleSummary()
+  fullName: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new SaleSummary.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public SaleSummary CreateDefaultSaleSummary()
+    return:
+      type: SuperOffice.CRM.Services.SaleSummary
+      description: New SaleSummary with default values
+    content.vb: Public Function CreateDefaultSaleSummary As SaleSummary
+  overload: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSale(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSale(System.Int32)
+  id: GetSale(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSale(Int32)
+  nameWithType: SaleAgent.GetSale(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSale(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Sale object.                        \n"
+  syntax:
+    content: public Sale GetSale(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: The identifier of the Sale object
+    return:
+      type: SuperOffice.CRM.Services.Sale
+      description: Sale
+    content.vb: Public Function GetSale(saleId As Integer) As Sale
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSale*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleEntity(System.Int32)
+  id: GetSaleEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleEntity(Int32)
+  nameWithType: SaleAgent.GetSaleEntity(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a SaleEntity object.                        \n"
+  syntax:
+    content: public SaleEntity GetSaleEntity(int saleEntityId)
+    parameters:
+    - id: saleEntityId
+      type: System.Int32
+      description: The identifier of the SaleEntity object
+    return:
+      type: SuperOffice.CRM.Services.SaleEntity
+      description: SaleEntity
+    content.vb: Public Function GetSaleEntity(saleEntityId As Integer) As SaleEntity
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSaleEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.HasGuide(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.HasGuide(System.Int32)
+  id: HasGuide(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: HasGuide(Int32)
+  nameWithType: SaleAgent.HasGuide(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.HasGuide(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes this sale have a sale guide associated with its sale type?\n"
+  syntax:
+    content: public bool HasGuide(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Sale id
+    return:
+      type: System.Boolean
+      description: True if the sale has a guide
+    content.vb: Public Function HasGuide(saleId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.SaleAgent.HasGuide*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetNextDueDate(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetNextDueDate(System.Int32)
+  id: GetNextDueDate(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextDueDate(Int32)
+  nameWithType: SaleAgent.GetNextDueDate(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetNextDueDate(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the next due date for a sale. The next due date is the next future appointment that is not completed.\n"
+  syntax:
+    content: public DateTime GetNextDueDate(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+      description: Sale id
+    return:
+      type: System.DateTime
+      description: Next due date for the given sale.
+    content.vb: Public Function GetNextDueDate(saleId As Integer) As Date
+  overload: SuperOffice.CRM.Services.SaleAgent.GetNextDueDate*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate
+  id: BatchUpdateNextDueDate
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: BatchUpdateNextDueDate()
+  nameWithType: SaleAgent.BatchUpdateNextDueDate()
+  fullName: SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRe-calculate all the next due dates\n"
+  syntax:
+    content: public void BatchUpdateNextDueDate()
+    content.vb: Public Sub BatchUpdateNextDueDate
+  overload: SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+  id: GetNextSaleStage(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextSaleStage(Int32, Boolean)
+  nameWithType: SaleAgent.GetNextSaleStage(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the next (not deleted) sale stage id if the current stage is deleted. If the current stage is not deleted, the CurrentStageId is returned\n"
+  syntax:
+    content: public int GetNextSaleStage(int saleId, bool includeCurrentStage)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    - id: includeCurrentStage
+      type: System.Boolean
+    return:
+      type: System.Int32
+    content.vb: Public Function GetNextSaleStage(saleId As Integer, includeCurrentStage As Boolean) As Integer
+  overload: SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.HasGuideActivities(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.HasGuideActivities(System.Int32)
+  id: HasGuideActivities(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: HasGuideActivities(Int32)
+  nameWithType: SaleAgent.HasGuideActivities(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.HasGuideActivities(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public bool HasGuideActivities(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasGuideActivities(saleId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.SaleAgent.HasGuideActivities*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  id: OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
+  nameWithType: SaleAgent.OfferAutoNextStageOnApppointmentCompleted(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public bool OfferAutoNextStageOnApppointmentCompleted(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function OfferAutoNextStageOnApppointmentCompleted(appointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage(System.Int32)
+  id: GetProbabilityFromStage(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProbabilityFromStage(Int32)
+  nameWithType: SaleAgent.GetProbabilityFromStage(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the probability percentage for a given sale stage\n"
+  syntax:
+    content: public int GetProbabilityFromStage(int stageId)
+    parameters:
+    - id: stageId
+      type: System.Int32
+      description: Probability list id
+    return:
+      type: System.Int32
+      description: Probability percentage
+    content.vb: Public Function GetProbabilityFromStage(stageId As Integer) As Integer
+  overload: SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.IsNumberValid(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.IsNumberValid(System.Int32,System.String)
+  id: IsNumberValid(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: IsNumberValid(Int32, String)
+  nameWithType: SaleAgent.IsNumberValid(Int32, String)
+  fullName: SuperOffice.CRM.Services.SaleAgent.IsNumberValid(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  syntax:
+    content: public bool IsNumberValid(int contactId, string number)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: SaleId
+    - id: number
+      type: System.String
+      description: Number value to check for uniqueness/required
+    return:
+      type: System.Boolean
+      description: True if the number is valid
+    content.vb: Public Function IsNumberValid(contactId As Integer, number As String) As Boolean
+  overload: SuperOffice.CRM.Services.SaleAgent.IsNumberValid*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  id: AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: AddSaleStakeholders(Int32, SaleStakeholder[])
+  nameWithType: SaleAgent.AddSaleStakeholders(Int32, SaleStakeholder[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders(System.Int32, SuperOffice.CRM.Services.SaleStakeholder[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public void AddSaleStakeholders(int saleId, SaleStakeholder[] saleStakeholders)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    - id: saleStakeholders
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+    content.vb: Public Sub AddSaleStakeholders(saleId As Integer, saleStakeholders As SaleStakeholder())
+  overload: SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  nameWithType.vb: SaleAgent.AddSaleStakeholders(Int32, SaleStakeholder())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders(System.Int32, SuperOffice.CRM.Services.SaleStakeholder())
+  name.vb: AddSaleStakeholders(Int32, SaleStakeholder())
+- uid: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders(System.Int32[])
+  id: DeleteSaleStakeholders(System.Int32[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaleStakeholders(Int32[])
+  nameWithType: SaleAgent.DeleteSaleStakeholders(Int32[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public void DeleteSaleStakeholders(int[] saleStakeholderIds)
+    parameters:
+    - id: saleStakeholderIds
+      type: System.Int32[]
+    content.vb: Public Sub DeleteSaleStakeholders(saleStakeholderIds As Integer())
+  overload: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+  nameWithType.vb: SaleAgent.DeleteSaleStakeholders(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders(System.Int32())
+  name.vb: DeleteSaleStakeholders(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting(System.Int32)
+  id: HasStakeholderSetting(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: HasStakeholderSetting(Int32)
+  nameWithType: SaleAgent.HasStakeholderSetting(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public bool HasStakeholderSetting(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasStakeholderSetting(saleId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  id: ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateSaleEntity(SaleEntity)
+  nameWithType: SaleAgent.ValidateSaleEntity(SaleEntity)
+  fullName: SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  syntax:
+    content: public StringDictionary ValidateSaleEntity(SaleEntity saleEntity)
+    parameters:
+    - id: saleEntity
+      type: SuperOffice.CRM.Services.SaleEntity
+      description: Entity to be checked for errors.
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Error messages tagged by field.
+    content.vb: Public Function ValidateSaleEntity(saleEntity As SaleEntity) As StringDictionary
+  overload: SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleList(System.Int32[])
+  id: GetSaleList(System.Int32[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleList(Int32[])
+  nameWithType: SaleAgent.GetSaleList(Int32[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Sale objects.                        \n"
+  syntax:
+    content: public Sale[] GetSaleList(int[] saleIds)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: The identifiers of the Sale object
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: Array of Sale objects
+    content.vb: Public Function GetSaleList(saleIds As Integer()) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSaleList*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+  nameWithType.vb: SaleAgent.GetSaleList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.GetSaleList(System.Int32())
+  name.vb: GetSaleList(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities(System.Int32)
+  id: GetMyOpportunities(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyOpportunities(Int32)
+  nameWithType: SaleAgent.GetMyOpportunities(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning the opportunities (open sales) belonging to the user currently logged on\n"
+  syntax:
+    content: public Sale[] GetMyOpportunities(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: The number of sales that is returned. -1 returns all.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: Array of open sales (opportunities).
+    content.vb: Public Function GetMyOpportunities(count As Integer) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetRecentSales(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetRecentSales(System.Int32,System.Int32)
+  id: GetRecentSales(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRecentSales(Int32, Int32)
+  nameWithType: SaleAgent.GetRecentSales(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetRecentSales(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the latest sales (that are sold) limited by their amount. The result is sorted descending with the latest first. If the amount is -1, the amount restriction is omitted.\n"
+  syntax:
+    content: public Sale[] GetRecentSales(int amountLimit, int count)
+    parameters:
+    - id: amountLimit
+      type: System.Int32
+      description: The amount limit in the local currency.
+    - id: count
+      type: System.Int32
+      description: The maximum number of items to return. If -1 all are returned.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: Array of all recent sales.
+    content.vb: Public Function GetRecentSales(amountLimit As Integer, count As Integer) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetRecentSales*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+  id: GetUpcomingSales(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUpcomingSales(Int32, Int32)
+  nameWithType: SaleAgent.GetUpcomingSales(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all open sales, sorted descending with the latest first.  If the weigthed amount is -1, the amount restriction is omitted.\n"
+  syntax:
+    content: public Sale[] GetUpcomingSales(int weightedAmountLimit, int count)
+    parameters:
+    - id: weightedAmountLimit
+      type: System.Int32
+      description: The amount weighted by the probability that the sale is closed (amount * probability).
+    - id: count
+      type: System.Int32
+      description: The maximum number of items to return. If -1 all are returned.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: Array of upcoming sales.
+    content.vb: Public Function GetUpcomingSales(weightedAmountLimit As Integer, count As Integer) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  id: GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSalesByDate(DateTime, DateTime, Int32, SaleStatus)
+  nameWithType: SaleAgent.GetSalesByDate(DateTime, DateTime, Int32, SaleStatus)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSalesByDate(System.DateTime, System.DateTime, System.Int32, SuperOffice.Data.SaleStatus)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all sales within a time period. The sales array can be limited by amount and status.\n"
+  syntax:
+    content: public Sale[] GetSalesByDate(DateTime fromDate, DateTime toDate, int amountLimit, SaleStatus status)
+    parameters:
+    - id: fromDate
+      type: System.DateTime
+      description: The beginning of the time interval.
+    - id: toDate
+      type: System.DateTime
+      description: The end of the time interval.
+    - id: amountLimit
+      type: System.Int32
+      description: The amount limit in the local currency.  -1 means no amount limit
+    - id: status
+      type: SuperOffice.Data.SaleStatus
+      description: The sale status (Lost, Open, Sold, Unknown). SaleStatus.Unknown means no status filtering.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: Array of sales.
+    content.vb: Public Function GetSalesByDate(fromDate As Date, toDate As Date, amountLimit As Integer, status As SaleStatus) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSalesByDate*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact(System.Int32)
+  id: GetOpenSalesForContact(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetOpenSalesForContact(Int32)
+  nameWithType: SaleAgent.GetOpenSalesForContact(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all open sales for the contact provided.\n"
+  syntax:
+    content: public Sale[] GetOpenSalesForContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The ID of the contact whose sales we want.
+    return:
+      type: SuperOffice.CRM.Services.Sale[]
+      description: Aray of sales.
+    content.vb: Public Function GetOpenSalesForContact(contactId As Integer) As Sale()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32[])
+  id: SetAsSold(System.Int32[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAsSold(Int32[])
+  nameWithType: SaleAgent.SetAsSold(Int32[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange the status of one or more Sales to Sold. Note that this does not mark them as Completed.\n"
+  syntax:
+    content: public void SetAsSold(int[] saleIds)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: Array of sale ids to be marked as lost. All the normal write access rules apply.
+    content.vb: Public Sub SetAsSold(saleIds As Integer())
+  overload: SuperOffice.CRM.Services.SaleAgent.SetAsSold*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+  nameWithType.vb: SaleAgent.SetAsSold(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsSold(System.Int32())
+  name.vb: SetAsSold(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
+  id: SetAsLost(System.Int32[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAsLost(Int32[])
+  nameWithType: SaleAgent.SetAsLost(Int32[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChange the status of one or more sales to Lost. Note that this does not affect the Completed state of the sale.\n"
+  syntax:
+    content: public void SetAsLost(int[] saleIds)
+    parameters:
+    - id: saleIds
+      type: System.Int32[]
+      description: Array of sale ids to be marked as lost. All normal write access rules apply.
+    content.vb: Public Sub SetAsLost(saleIds As Integer())
+  overload: SuperOffice.CRM.Services.SaleAgent.SetAsLost*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+  nameWithType.vb: SaleAgent.SetAsLost(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.SetAsLost(System.Int32())
+  name.vb: SetAsLost(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
+  id: GetSaleStakeholder(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleStakeholder(Int32)
+  nameWithType: SaleAgent.GetSaleStakeholder(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a SaleStakeholder object.                        \n"
+  syntax:
+    content: public SaleStakeholder GetSaleStakeholder(int saleStakeholderId)
+    parameters:
+    - id: saleStakeholderId
+      type: System.Int32
+      description: The identifier of the SaleStakeholder object
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder
+      description: SaleStakeholder
+    content.vb: Public Function GetSaleStakeholder(saleStakeholderId As Integer) As SaleStakeholder
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList(System.Int32[])
+  id: GetSaleStakeholderList(System.Int32[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleStakeholderList(Int32[])
+  nameWithType: SaleAgent.GetSaleStakeholderList(Int32[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of SaleStakeholder objects.                        \n"
+  syntax:
+    content: public SaleStakeholder[] GetSaleStakeholderList(int[] saleStakeholderIds)
+    parameters:
+    - id: saleStakeholderIds
+      type: System.Int32[]
+      description: The identifiers of the SaleStakeholder object
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+      description: Array of SaleStakeholder objects
+    content.vb: Public Function GetSaleStakeholderList(saleStakeholderIds As Integer()) As SaleStakeholder()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+  nameWithType.vb: SaleAgent.GetSaleStakeholderList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList(System.Int32())
+  name.vb: GetSaleStakeholderList(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders(System.Int32)
+  id: GetSaleStakeholders(System.Int32)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleStakeholders(Int32)
+  nameWithType: SaleAgent.GetSaleStakeholders(Int32)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public SaleStakeholder[] GetSaleStakeholders(int saleId)
+    parameters:
+    - id: saleId
+      type: System.Int32
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+    content.vb: Public Function GetSaleStakeholders(saleId As Integer) As SaleStakeholder()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  id: UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateSaleStakeholders(SaleStakeholder[])
+  nameWithType: SaleAgent.UpdateSaleStakeholders(SaleStakeholder[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public SaleStakeholder[] UpdateSaleStakeholders(SaleStakeholder[] stakeholders)
+    parameters:
+    - id: stakeholders
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+    content.vb: Public Function UpdateSaleStakeholders(stakeholders As SaleStakeholder()) As SaleStakeholder()
+  overload: SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  nameWithType.vb: SaleAgent.UpdateSaleStakeholders(SaleStakeholder())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder())
+  name.vb: UpdateSaleStakeholders(SaleStakeholder())
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById(System.Int32[])
+  id: GetSaleStakeholderById(System.Int32[])
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSaleStakeholderById(Int32[])
+  nameWithType: SaleAgent.GetSaleStakeholderById(Int32[])
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public SaleStakeholder[] GetSaleStakeholderById(int[] saleStakeholderIds)
+    parameters:
+    - id: saleStakeholderIds
+      type: System.Int32[]
+    return:
+      type: SuperOffice.CRM.Services.SaleStakeholder[]
+    content.vb: Public Function GetSaleStakeholderById(saleStakeholderIds As Integer()) As SaleStakeholder()
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+  nameWithType.vb: SaleAgent.GetSaleStakeholderById(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById(System.Int32())
+  name.vb: GetSaleStakeholderById(Int32())
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  id: GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSummaryByAssociate(Int32, DateTime, DateTime)
+  nameWithType: SaleAgent.GetSummaryByAssociate(Int32, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate(System.Int32, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public SaleSummary GetSummaryByAssociate(int associateId, DateTime fromDate, DateTime toDate)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: fromDate
+      type: System.DateTime
+    - id: toDate
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Services.SaleSummary
+    content.vb: Public Function GetSummaryByAssociate(associateId As Integer, fromDate As Date, toDate As Date) As SaleSummary
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  id: GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSummaryByGroup(Int32, DateTime, DateTime)
+  nameWithType: SaleAgent.GetSummaryByGroup(Int32, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup(System.Int32, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public SaleSummary GetSummaryByGroup(int groupId, DateTime fromDate, DateTime toDate)
+    parameters:
+    - id: groupId
+      type: System.Int32
+    - id: fromDate
+      type: System.DateTime
+    - id: toDate
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Services.SaleSummary
+    content.vb: Public Function GetSummaryByGroup(groupId As Integer, fromDate As Date, toDate As Date) As SaleSummary
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  id: GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: GetSummaryByContact(Int32, DateTime, DateTime)
+  nameWithType: SaleAgent.GetSummaryByContact(Int32, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact(System.Int32, System.DateTime, System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public SaleSummary GetSummaryByContact(int contactId, DateTime fromDate, DateTime toDate)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: fromDate
+      type: System.DateTime
+    - id: toDate
+      type: System.DateTime
+    return:
+      type: SuperOffice.CRM.Services.SaleSummary
+    content.vb: Public Function GetSummaryByContact(contactId As Integer, fromDate As Date, toDate As Date) As SaleSummary
+  overload: SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact*
+  implements:
+  - SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.SaleAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.SaleAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.SaleAgent
+  langs:
+  - csharp
+  - vb
+  name: SaleAgent()
+  nameWithType: SaleAgent.SaleAgent()
+  fullName: SuperOffice.CRM.Services.SaleAgent.SaleAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public SaleAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.SaleAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<ISaleAgent>
+  nameWithType: AgentBase<ISaleAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISaleAgent>
+  nameWithType.vb: AgentBase(Of ISaleAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISaleAgent)
+  name.vb: AgentBase(Of ISaleAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ISaleAgent
+    name: ISaleAgent
+    nameWithType: ISaleAgent
+    fullName: SuperOffice.CRM.Services.ISaleAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ISaleAgent
+    name: ISaleAgent
+    nameWithType: ISaleAgent
+    fullName: SuperOffice.CRM.Services.ISaleAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.ISaleAgent
+  commentId: T:SuperOffice.CRM.Services.ISaleAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ISaleAgent
+  nameWithType: ISaleAgent
+  fullName: SuperOffice.CRM.Services.ISaleAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<ISaleAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISaleAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of ISaleAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISaleAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<ISaleAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISaleAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of ISaleAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISaleAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.ISaleAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<ISaleAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.ISaleAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of ISaleAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.ISaleAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity
+  isExternal: true
+  name: CreateDefaultSaleEntity
+  nameWithType: SaleAgent.CreateDefaultSaleEntity
+  fullName: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: CreateDefaultSaleEntity()
+  nameWithType: ISaleAgent.CreateDefaultSaleEntity()
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+    name: CreateDefaultSaleEntity
+    nameWithType: ISaleAgent.CreateDefaultSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+    name: CreateDefaultSaleEntity
+    nameWithType: ISaleAgent.CreateDefaultSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleEntity
+  commentId: T:SuperOffice.CRM.Services.SaleEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SaleEntity
+  nameWithType: SaleEntity
+  fullName: SuperOffice.CRM.Services.SaleEntity
+- uid: SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity
+  isExternal: true
+  name: SaveSaleEntity
+  nameWithType: SaleAgent.SaveSaleEntity
+  fullName: SuperOffice.CRM.Services.SaleAgent.SaveSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: SaveSaleEntity(SaleEntity)
+  nameWithType: ISaleAgent.SaveSaleEntity(SaleEntity)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+    name: SaveSaleEntity
+    nameWithType: ISaleAgent.SaveSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleEntity
+    name: SaleEntity
+    nameWithType: SaleEntity
+    fullName: SuperOffice.CRM.Services.SaleEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+    name: SaveSaleEntity
+    nameWithType: ISaleAgent.SaveSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleEntity
+    name: SaleEntity
+    nameWithType: SaleEntity
+    fullName: SuperOffice.CRM.Services.SaleEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity
+  isExternal: true
+  name: DeleteSaleEntity
+  nameWithType: SaleAgent.DeleteSaleEntity
+  fullName: SuperOffice.CRM.Services.SaleAgent.DeleteSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: DeleteSaleEntity(Int32)
+  nameWithType: ISaleAgent.DeleteSaleEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+    name: DeleteSaleEntity
+    nameWithType: ISaleAgent.DeleteSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity(System.Int32)
+    name: DeleteSaleEntity
+    nameWithType: ISaleAgent.DeleteSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder
+  isExternal: true
+  name: CreateDefaultSaleStakeholder
+  nameWithType: SaleAgent.CreateDefaultSaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleStakeholder
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: CreateDefaultSaleStakeholder()
+  nameWithType: ISaleAgent.CreateDefaultSaleStakeholder()
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+    name: CreateDefaultSaleStakeholder
+    nameWithType: ISaleAgent.CreateDefaultSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+    name: CreateDefaultSaleStakeholder
+    nameWithType: ISaleAgent.CreateDefaultSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleStakeholder
+  commentId: T:SuperOffice.CRM.Services.SaleStakeholder
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SaleStakeholder
+  nameWithType: SaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleStakeholder
+- uid: SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder
+  isExternal: true
+  name: SaveSaleStakeholder
+  nameWithType: SaleAgent.SaveSaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleAgent.SaveSaleStakeholder
+- uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: SaveSaleStakeholder(SaleStakeholder)
+  nameWithType: ISaleAgent.SaveSaleStakeholder(SaleStakeholder)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+    name: SaveSaleStakeholder
+    nameWithType: ISaleAgent.SaveSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder(SuperOffice.CRM.Services.SaleStakeholder)
+    name: SaveSaleStakeholder
+    nameWithType: ISaleAgent.SaveSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SaveSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder
+  isExternal: true
+  name: DeleteSaleStakeholder
+  nameWithType: SaleAgent.DeleteSaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholder
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: DeleteSaleStakeholder(Int32)
+  nameWithType: ISaleAgent.DeleteSaleStakeholder(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+    name: DeleteSaleStakeholder
+    nameWithType: ISaleAgent.DeleteSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder(System.Int32)
+    name: DeleteSaleStakeholder
+    nameWithType: ISaleAgent.DeleteSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary
+  isExternal: true
+  name: CreateDefaultSaleSummary
+  nameWithType: SaleAgent.CreateDefaultSaleSummary
+  fullName: SuperOffice.CRM.Services.SaleAgent.CreateDefaultSaleSummary
+- uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: CreateDefaultSaleSummary()
+  nameWithType: ISaleAgent.CreateDefaultSaleSummary()
+  fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+    name: CreateDefaultSaleSummary
+    nameWithType: ISaleAgent.CreateDefaultSaleSummary
+    fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+    name: CreateDefaultSaleSummary
+    nameWithType: ISaleAgent.CreateDefaultSaleSummary
+    fullName: SuperOffice.CRM.Services.ISaleAgent.CreateDefaultSaleSummary
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleSummary
+  commentId: T:SuperOffice.CRM.Services.SaleSummary
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: SaleSummary
+  nameWithType: SaleSummary
+  fullName: SuperOffice.CRM.Services.SaleSummary
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSale*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSale
+  isExternal: true
+  name: GetSale
+  nameWithType: SaleAgent.GetSale
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSale
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSale(Int32)
+  nameWithType: ISaleAgent.GetSale(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+    name: GetSale
+    nameWithType: ISaleAgent.GetSale
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSale
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSale(System.Int32)
+    name: GetSale
+    nameWithType: ISaleAgent.GetSale
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSale
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Sale
+  commentId: T:SuperOffice.CRM.Services.Sale
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Sale
+  nameWithType: Sale
+  fullName: SuperOffice.CRM.Services.Sale
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSaleEntity
+  isExternal: true
+  name: GetSaleEntity
+  nameWithType: SaleAgent.GetSaleEntity
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSaleEntity(Int32)
+  nameWithType: ISaleAgent.GetSaleEntity(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+    name: GetSaleEntity
+    nameWithType: ISaleAgent.GetSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity(System.Int32)
+    name: GetSaleEntity
+    nameWithType: ISaleAgent.GetSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.HasGuide*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.HasGuide
+  isExternal: true
+  name: HasGuide
+  nameWithType: SaleAgent.HasGuide
+  fullName: SuperOffice.CRM.Services.SaleAgent.HasGuide
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: HasGuide(Int32)
+  nameWithType: ISaleAgent.HasGuide(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+    name: HasGuide
+    nameWithType: ISaleAgent.HasGuide
+    fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuide
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.HasGuide(System.Int32)
+    name: HasGuide
+    nameWithType: ISaleAgent.HasGuide
+    fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuide
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.SaleAgent.GetNextDueDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetNextDueDate
+  isExternal: true
+  name: GetNextDueDate
+  nameWithType: SaleAgent.GetNextDueDate
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetNextDueDate
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetNextDueDate(Int32)
+  nameWithType: ISaleAgent.GetNextDueDate(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+    name: GetNextDueDate
+    nameWithType: ISaleAgent.GetNextDueDate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate(System.Int32)
+    name: GetNextDueDate
+    nameWithType: ISaleAgent.GetNextDueDate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextDueDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate
+  isExternal: true
+  name: BatchUpdateNextDueDate
+  nameWithType: SaleAgent.BatchUpdateNextDueDate
+  fullName: SuperOffice.CRM.Services.SaleAgent.BatchUpdateNextDueDate
+- uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: BatchUpdateNextDueDate()
+  nameWithType: ISaleAgent.BatchUpdateNextDueDate()
+  fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+    name: BatchUpdateNextDueDate
+    nameWithType: ISaleAgent.BatchUpdateNextDueDate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+    name: BatchUpdateNextDueDate
+    nameWithType: ISaleAgent.BatchUpdateNextDueDate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.BatchUpdateNextDueDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage
+  isExternal: true
+  name: GetNextSaleStage
+  nameWithType: SaleAgent.GetNextSaleStage
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetNextSaleStage
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetNextSaleStage(Int32, Boolean)
+  nameWithType: ISaleAgent.GetNextSaleStage(Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+    name: GetNextSaleStage
+    nameWithType: ISaleAgent.GetNextSaleStage
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage(System.Int32,System.Boolean)
+    name: GetNextSaleStage
+    nameWithType: ISaleAgent.GetNextSaleStage
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetNextSaleStage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.HasGuideActivities*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.HasGuideActivities
+  isExternal: true
+  name: HasGuideActivities
+  nameWithType: SaleAgent.HasGuideActivities
+  fullName: SuperOffice.CRM.Services.SaleAgent.HasGuideActivities
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: HasGuideActivities(Int32)
+  nameWithType: ISaleAgent.HasGuideActivities(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+    name: HasGuideActivities
+    nameWithType: ISaleAgent.HasGuideActivities
+    fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities(System.Int32)
+    name: HasGuideActivities
+    nameWithType: ISaleAgent.HasGuideActivities
+    fullName: SuperOffice.CRM.Services.ISaleAgent.HasGuideActivities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted
+  isExternal: true
+  name: OfferAutoNextStageOnApppointmentCompleted
+  nameWithType: SaleAgent.OfferAutoNextStageOnApppointmentCompleted
+  fullName: SuperOffice.CRM.Services.SaleAgent.OfferAutoNextStageOnApppointmentCompleted
+- uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: OfferAutoNextStageOnApppointmentCompleted(Int32)
+  nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+    name: OfferAutoNextStageOnApppointmentCompleted
+    nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
+    fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted(System.Int32)
+    name: OfferAutoNextStageOnApppointmentCompleted
+    nameWithType: ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
+    fullName: SuperOffice.CRM.Services.ISaleAgent.OfferAutoNextStageOnApppointmentCompleted
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage
+  isExternal: true
+  name: GetProbabilityFromStage
+  nameWithType: SaleAgent.GetProbabilityFromStage
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetProbabilityFromStage
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetProbabilityFromStage(Int32)
+  nameWithType: ISaleAgent.GetProbabilityFromStage(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+    name: GetProbabilityFromStage
+    nameWithType: ISaleAgent.GetProbabilityFromStage
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage(System.Int32)
+    name: GetProbabilityFromStage
+    nameWithType: ISaleAgent.GetProbabilityFromStage
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetProbabilityFromStage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.IsNumberValid*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.IsNumberValid
+  isExternal: true
+  name: IsNumberValid
+  nameWithType: SaleAgent.IsNumberValid
+  fullName: SuperOffice.CRM.Services.SaleAgent.IsNumberValid
+- uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: IsNumberValid(Int32, String)
+  nameWithType: ISaleAgent.IsNumberValid(Int32, String)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
+    name: IsNumberValid
+    nameWithType: ISaleAgent.IsNumberValid
+    fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid(System.Int32,System.String)
+    name: IsNumberValid
+    nameWithType: ISaleAgent.IsNumberValid
+    fullName: SuperOffice.CRM.Services.ISaleAgent.IsNumberValid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders
+  isExternal: true
+  name: AddSaleStakeholders
+  nameWithType: SaleAgent.AddSaleStakeholders
+  fullName: SuperOffice.CRM.Services.SaleAgent.AddSaleStakeholders
+- uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: AddSaleStakeholders(Int32, SaleStakeholder[])
+  nameWithType: ISaleAgent.AddSaleStakeholders(Int32, SaleStakeholder[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32, SuperOffice.CRM.Services.SaleStakeholder[])
+  nameWithType.vb: ISaleAgent.AddSaleStakeholders(Int32, SaleStakeholder())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32, SuperOffice.CRM.Services.SaleStakeholder())
+  name.vb: AddSaleStakeholders(Int32, SaleStakeholder())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+    name: AddSaleStakeholders
+    nameWithType: ISaleAgent.AddSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders(System.Int32,SuperOffice.CRM.Services.SaleStakeholder[])
+    name: AddSaleStakeholders
+    nameWithType: ISaleAgent.AddSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.AddSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleStakeholder[]
+  isExternal: true
+  name: SaleStakeholder[]
+  nameWithType: SaleStakeholder[]
+  fullName: SuperOffice.CRM.Services.SaleStakeholder[]
+  nameWithType.vb: SaleStakeholder()
+  fullName.vb: SuperOffice.CRM.Services.SaleStakeholder()
+  name.vb: SaleStakeholder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders
+  isExternal: true
+  name: DeleteSaleStakeholders
+  nameWithType: SaleAgent.DeleteSaleStakeholders
+  fullName: SuperOffice.CRM.Services.SaleAgent.DeleteSaleStakeholders
+- uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: DeleteSaleStakeholders(Int32[])
+  nameWithType: ISaleAgent.DeleteSaleStakeholders(Int32[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+  nameWithType.vb: ISaleAgent.DeleteSaleStakeholders(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32())
+  name.vb: DeleteSaleStakeholders(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+    name: DeleteSaleStakeholders
+    nameWithType: ISaleAgent.DeleteSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders(System.Int32[])
+    name: DeleteSaleStakeholders
+    nameWithType: ISaleAgent.DeleteSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.DeleteSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting
+  isExternal: true
+  name: HasStakeholderSetting
+  nameWithType: SaleAgent.HasStakeholderSetting
+  fullName: SuperOffice.CRM.Services.SaleAgent.HasStakeholderSetting
+- uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: HasStakeholderSetting(Int32)
+  nameWithType: ISaleAgent.HasStakeholderSetting(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+    name: HasStakeholderSetting
+    nameWithType: ISaleAgent.HasStakeholderSetting
+    fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting(System.Int32)
+    name: HasStakeholderSetting
+    nameWithType: ISaleAgent.HasStakeholderSetting
+    fullName: SuperOffice.CRM.Services.ISaleAgent.HasStakeholderSetting
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity
+  isExternal: true
+  name: ValidateSaleEntity
+  nameWithType: SaleAgent.ValidateSaleEntity
+  fullName: SuperOffice.CRM.Services.SaleAgent.ValidateSaleEntity
+- uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: ValidateSaleEntity(SaleEntity)
+  nameWithType: ISaleAgent.ValidateSaleEntity(SaleEntity)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+    name: ValidateSaleEntity
+    nameWithType: ISaleAgent.ValidateSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleEntity
+    name: SaleEntity
+    nameWithType: SaleEntity
+    fullName: SuperOffice.CRM.Services.SaleEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity(SuperOffice.CRM.Services.SaleEntity)
+    name: ValidateSaleEntity
+    nameWithType: ISaleAgent.ValidateSaleEntity
+    fullName: SuperOffice.CRM.Services.ISaleAgent.ValidateSaleEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleEntity
+    name: SaleEntity
+    nameWithType: SaleEntity
+    fullName: SuperOffice.CRM.Services.SaleEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleList*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSaleList
+  isExternal: true
+  name: GetSaleList
+  nameWithType: SaleAgent.GetSaleList
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleList
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSaleList(Int32[])
+  nameWithType: ISaleAgent.GetSaleList(Int32[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+  nameWithType.vb: ISaleAgent.GetSaleList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32())
+  name.vb: GetSaleList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+    name: GetSaleList
+    nameWithType: ISaleAgent.GetSaleList
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleList(System.Int32[])
+    name: GetSaleList
+    nameWithType: ISaleAgent.GetSaleList
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Sale[]
+  isExternal: true
+  name: Sale[]
+  nameWithType: Sale[]
+  fullName: SuperOffice.CRM.Services.Sale[]
+  nameWithType.vb: Sale()
+  fullName.vb: SuperOffice.CRM.Services.Sale()
+  name.vb: Sale()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Sale
+    name: Sale
+    nameWithType: Sale
+    fullName: SuperOffice.CRM.Services.Sale
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Sale
+    name: Sale
+    nameWithType: Sale
+    fullName: SuperOffice.CRM.Services.Sale
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities
+  isExternal: true
+  name: GetMyOpportunities
+  nameWithType: SaleAgent.GetMyOpportunities
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetMyOpportunities
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetMyOpportunities(Int32)
+  nameWithType: ISaleAgent.GetMyOpportunities(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+    name: GetMyOpportunities
+    nameWithType: ISaleAgent.GetMyOpportunities
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities(System.Int32)
+    name: GetMyOpportunities
+    nameWithType: ISaleAgent.GetMyOpportunities
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetMyOpportunities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetRecentSales*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetRecentSales
+  isExternal: true
+  name: GetRecentSales
+  nameWithType: SaleAgent.GetRecentSales
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetRecentSales
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetRecentSales(Int32, Int32)
+  nameWithType: ISaleAgent.GetRecentSales(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
+    name: GetRecentSales
+    nameWithType: ISaleAgent.GetRecentSales
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales(System.Int32,System.Int32)
+    name: GetRecentSales
+    nameWithType: ISaleAgent.GetRecentSales
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetRecentSales
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales
+  isExternal: true
+  name: GetUpcomingSales
+  nameWithType: SaleAgent.GetUpcomingSales
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetUpcomingSales
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetUpcomingSales(Int32, Int32)
+  nameWithType: ISaleAgent.GetUpcomingSales(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+    name: GetUpcomingSales
+    nameWithType: ISaleAgent.GetUpcomingSales
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales(System.Int32,System.Int32)
+    name: GetUpcomingSales
+    nameWithType: ISaleAgent.GetUpcomingSales
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetUpcomingSales
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSalesByDate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSalesByDate
+  isExternal: true
+  name: GetSalesByDate
+  nameWithType: SaleAgent.GetSalesByDate
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSalesByDate
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSalesByDate(DateTime, DateTime, Int32, SaleStatus)
+  nameWithType: ISaleAgent.GetSalesByDate(DateTime, DateTime, Int32, SaleStatus)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime, System.DateTime, System.Int32, SuperOffice.Data.SaleStatus)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+    name: GetSalesByDate
+    nameWithType: ISaleAgent.GetSalesByDate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SaleStatus
+    name: SaleStatus
+    nameWithType: SaleStatus
+    fullName: SuperOffice.Data.SaleStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate(System.DateTime,System.DateTime,System.Int32,SuperOffice.Data.SaleStatus)
+    name: GetSalesByDate
+    nameWithType: ISaleAgent.GetSalesByDate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSalesByDate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.SaleStatus
+    name: SaleStatus
+    nameWithType: SaleStatus
+    fullName: SuperOffice.Data.SaleStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.SaleStatus
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact
+  isExternal: true
+  name: GetOpenSalesForContact
+  nameWithType: SaleAgent.GetOpenSalesForContact
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetOpenSalesForContact
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetOpenSalesForContact(Int32)
+  nameWithType: ISaleAgent.GetOpenSalesForContact(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+    name: GetOpenSalesForContact
+    nameWithType: ISaleAgent.GetOpenSalesForContact
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact(System.Int32)
+    name: GetOpenSalesForContact
+    nameWithType: ISaleAgent.GetOpenSalesForContact
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetOpenSalesForContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsSold*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SetAsSold
+  isExternal: true
+  name: SetAsSold
+  nameWithType: SaleAgent.SetAsSold
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsSold
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: SetAsSold(Int32[])
+  nameWithType: ISaleAgent.SetAsSold(Int32[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+  nameWithType.vb: ISaleAgent.SetAsSold(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32())
+  name.vb: SetAsSold(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+    name: SetAsSold
+    nameWithType: ISaleAgent.SetAsSold
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSold
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsSold(System.Int32[])
+    name: SetAsSold
+    nameWithType: ISaleAgent.SetAsSold
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsSold
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.SetAsLost*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.SetAsLost
+  isExternal: true
+  name: SetAsLost
+  nameWithType: SaleAgent.SetAsLost
+  fullName: SuperOffice.CRM.Services.SaleAgent.SetAsLost
+- uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: SetAsLost(Int32[])
+  nameWithType: ISaleAgent.SetAsLost(Int32[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+  nameWithType.vb: ISaleAgent.SetAsLost(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32())
+  name.vb: SetAsLost(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+    name: SetAsLost
+    nameWithType: ISaleAgent.SetAsLost
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLost
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.SetAsLost(System.Int32[])
+    name: SetAsLost
+    nameWithType: ISaleAgent.SetAsLost
+    fullName: SuperOffice.CRM.Services.ISaleAgent.SetAsLost
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder
+  isExternal: true
+  name: GetSaleStakeholder
+  nameWithType: SaleAgent.GetSaleStakeholder
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholder
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSaleStakeholder(Int32)
+  nameWithType: ISaleAgent.GetSaleStakeholder(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+    name: GetSaleStakeholder
+    nameWithType: ISaleAgent.GetSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder(System.Int32)
+    name: GetSaleStakeholder
+    nameWithType: ISaleAgent.GetSaleStakeholder
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList
+  isExternal: true
+  name: GetSaleStakeholderList
+  nameWithType: SaleAgent.GetSaleStakeholderList
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderList
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSaleStakeholderList(Int32[])
+  nameWithType: ISaleAgent.GetSaleStakeholderList(Int32[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+  nameWithType.vb: ISaleAgent.GetSaleStakeholderList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32())
+  name.vb: GetSaleStakeholderList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+    name: GetSaleStakeholderList
+    nameWithType: ISaleAgent.GetSaleStakeholderList
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList(System.Int32[])
+    name: GetSaleStakeholderList
+    nameWithType: ISaleAgent.GetSaleStakeholderList
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders
+  isExternal: true
+  name: GetSaleStakeholders
+  nameWithType: SaleAgent.GetSaleStakeholders
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholders
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSaleStakeholders(Int32)
+  nameWithType: ISaleAgent.GetSaleStakeholders(Int32)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+    name: GetSaleStakeholders
+    nameWithType: ISaleAgent.GetSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders(System.Int32)
+    name: GetSaleStakeholders
+    nameWithType: ISaleAgent.GetSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders
+  isExternal: true
+  name: UpdateSaleStakeholders
+  nameWithType: SaleAgent.UpdateSaleStakeholders
+  fullName: SuperOffice.CRM.Services.SaleAgent.UpdateSaleStakeholders
+- uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: UpdateSaleStakeholders(SaleStakeholder[])
+  nameWithType: ISaleAgent.UpdateSaleStakeholders(SaleStakeholder[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+  nameWithType.vb: ISaleAgent.UpdateSaleStakeholders(SaleStakeholder())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder())
+  name.vb: UpdateSaleStakeholders(SaleStakeholder())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+    name: UpdateSaleStakeholders
+    nameWithType: ISaleAgent.UpdateSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders(SuperOffice.CRM.Services.SaleStakeholder[])
+    name: UpdateSaleStakeholders
+    nameWithType: ISaleAgent.UpdateSaleStakeholders
+    fullName: SuperOffice.CRM.Services.ISaleAgent.UpdateSaleStakeholders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.SaleStakeholder
+    name: SaleStakeholder
+    nameWithType: SaleStakeholder
+    fullName: SuperOffice.CRM.Services.SaleStakeholder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById
+  isExternal: true
+  name: GetSaleStakeholderById
+  nameWithType: SaleAgent.GetSaleStakeholderById
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSaleStakeholderById
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSaleStakeholderById(Int32[])
+  nameWithType: ISaleAgent.GetSaleStakeholderById(Int32[])
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+  nameWithType.vb: ISaleAgent.GetSaleStakeholderById(Int32())
+  fullName.vb: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32())
+  name.vb: GetSaleStakeholderById(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+    name: GetSaleStakeholderById
+    nameWithType: ISaleAgent.GetSaleStakeholderById
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById(System.Int32[])
+    name: GetSaleStakeholderById
+    nameWithType: ISaleAgent.GetSaleStakeholderById
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSaleStakeholderById
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate
+  isExternal: true
+  name: GetSummaryByAssociate
+  nameWithType: SaleAgent.GetSummaryByAssociate
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSummaryByAssociate
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSummaryByAssociate(Int32, DateTime, DateTime)
+  nameWithType: ISaleAgent.GetSummaryByAssociate(Int32, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32, System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+    name: GetSummaryByAssociate
+    nameWithType: ISaleAgent.GetSummaryByAssociate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate(System.Int32,System.DateTime,System.DateTime)
+    name: GetSummaryByAssociate
+    nameWithType: ISaleAgent.GetSummaryByAssociate
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByAssociate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup
+  isExternal: true
+  name: GetSummaryByGroup
+  nameWithType: SaleAgent.GetSummaryByGroup
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSummaryByGroup
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSummaryByGroup(Int32, DateTime, DateTime)
+  nameWithType: ISaleAgent.GetSummaryByGroup(Int32, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32, System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+    name: GetSummaryByGroup
+    nameWithType: ISaleAgent.GetSummaryByGroup
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup(System.Int32,System.DateTime,System.DateTime)
+    name: GetSummaryByGroup
+    nameWithType: ISaleAgent.GetSummaryByGroup
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByGroup
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact
+  isExternal: true
+  name: GetSummaryByContact
+  nameWithType: SaleAgent.GetSummaryByContact
+  fullName: SuperOffice.CRM.Services.SaleAgent.GetSummaryByContact
+- uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+  parent: SuperOffice.CRM.Services.ISaleAgent
+  isExternal: true
+  name: GetSummaryByContact(Int32, DateTime, DateTime)
+  nameWithType: ISaleAgent.GetSummaryByContact(Int32, DateTime, DateTime)
+  fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32, System.DateTime, System.DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+    name: GetSummaryByContact
+    nameWithType: ISaleAgent.GetSummaryByContact
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact(System.Int32,System.DateTime,System.DateTime)
+    name: GetSummaryByContact
+    nameWithType: ISaleAgent.GetSummaryByContact
+    fullName: SuperOffice.CRM.Services.ISaleAgent.GetSummaryByContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.SaleAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.SaleAgent.#ctor
+  isExternal: true
+  name: SaleAgent
+  nameWithType: SaleAgent.SaleAgent
+  fullName: SuperOffice.CRM.Services.SaleAgent.SaleAgent

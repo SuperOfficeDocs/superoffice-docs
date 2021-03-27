@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.Panel
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.Panel
+  id: Panel
+  parent: SuperOffice.DCF.Web.UI.Controls
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.Panel.#ctor
+  - SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod
+  langs:
+  - csharp
+  - vb
+  name: Panel
+  nameWithType: Panel
+  fullName: SuperOffice.DCF.Web.UI.Controls.Panel
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: 'public class Panel : PanelBase, IPanel, ILayout'
+    content.vb: >-
+      Public Class Panel
+          Inherits PanelBase
+          Implements IPanel, ILayout
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase
+  derivedClasses:
+  - SuperOffice.CRM.Web.UI.Controls.DialogPanel
+  - SuperOffice.CRM.Web.UI.Controls.MainPanel
+  implements:
+  - SuperOffice.DCF.Web.UI.IPanel
+  - SuperOffice.DCF.Web.UI.ILayout
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize(System.Web.UI.WebControls.Panel)
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Panel
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.CardCollection
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Id
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Top
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Left
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Bottom
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Width
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Height
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.CssClass
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.SoProtocol
+  - SuperOffice.DCF.Web.UI.Controls.PanelBase.VisibilityBinding
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.Panel.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.Panel.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Controls.Panel
+  langs:
+  - csharp
+  - vb
+  name: Panel()
+  nameWithType: Panel.Panel()
+  fullName: SuperOffice.DCF.Web.UI.Controls.Panel.Panel()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public Panel()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Controls.Panel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod
+  id: UpdateMethod
+  parent: SuperOffice.DCF.Web.UI.Controls.Panel
+  langs:
+  - csharp
+  - vb
+  name: UpdateMethod
+  nameWithType: Panel.UpdateMethod
+  fullName: SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls
+  syntax:
+    content: public override string UpdateMethod { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property UpdateMethod As String
+  overridden: SuperOffice.DCF.Web.UI.Controls.PanelBase.UpdateMethod
+  overload: SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.PanelBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: PanelBase
+  nameWithType: PanelBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase
+- uid: SuperOffice.DCF.Web.UI.IPanel
+  commentId: T:SuperOffice.DCF.Web.UI.IPanel
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IPanel
+  nameWithType: IPanel
+  fullName: SuperOffice.DCF.Web.UI.IPanel
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: PanelBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: PanelBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: PanelBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize(System.Web.UI.WebControls.Panel)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize(System.Web.UI.WebControls.Panel)
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: SetPlaceHolderSize(Panel)
+  nameWithType: PanelBase.SetPlaceHolderSize(Panel)
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize(System.Web.UI.WebControls.Panel)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize(System.Web.UI.WebControls.Panel)
+    name: SetPlaceHolderSize
+    nameWithType: PanelBase.SetPlaceHolderSize
+    fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize(System.Web.UI.WebControls.Panel)
+    name: SetPlaceHolderSize
+    nameWithType: PanelBase.SetPlaceHolderSize
+    fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.SetPlaceHolderSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.WebControls.Panel
+    name: Panel
+    nameWithType: Panel
+    fullName: System.Web.UI.WebControls.Panel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: ApplyStyle()
+  nameWithType: PanelBase.ApplyStyle()
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+    name: ApplyStyle
+    nameWithType: PanelBase.ApplyStyle
+    fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+    name: ApplyStyle
+    nameWithType: PanelBase.ApplyStyle
+    fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.ApplyStyle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Panel
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Panel
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Panel
+  nameWithType: PanelBase.Panel
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Panel
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.CardCollection
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.CardCollection
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: CardCollection
+  nameWithType: PanelBase.CardCollection
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.CardCollection
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Id
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Id
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Id
+  nameWithType: PanelBase.Id
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Id
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: PanelBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: PanelBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Position
+  nameWithType: PanelBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Top
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Top
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Top
+  nameWithType: PanelBase.Top
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Top
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Left
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Left
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Left
+  nameWithType: PanelBase.Left
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Left
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Right
+  nameWithType: PanelBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Bottom
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Bottom
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Bottom
+  nameWithType: PanelBase.Bottom
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Bottom
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Width
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Width
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Width
+  nameWithType: PanelBase.Width
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Width
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Height
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Height
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Height
+  nameWithType: PanelBase.Height
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Height
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: PanelBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Overflow
+  nameWithType: PanelBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Column
+  nameWithType: PanelBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Row
+  nameWithType: PanelBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: PanelBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: PanelBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: Visibility
+  nameWithType: PanelBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.CssClass
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.CssClass
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: CssClass
+  nameWithType: PanelBase.CssClass
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.CssClass
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.SoProtocol
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.SoProtocol
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: SoProtocol
+  nameWithType: PanelBase.SoProtocol
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.SoProtocol
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: PanelBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.VisibilityBinding
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.DCF.Web.UI.Controls.Panel.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.Panel.#ctor
+  isExternal: true
+  name: Panel
+  nameWithType: Panel.Panel
+  fullName: SuperOffice.DCF.Web.UI.Controls.Panel.Panel
+- uid: SuperOffice.DCF.Web.UI.Controls.PanelBase.UpdateMethod
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.PanelBase.UpdateMethod
+  parent: SuperOffice.DCF.Web.UI.Controls.PanelBase
+  isExternal: true
+  name: UpdateMethod
+  nameWithType: PanelBase.UpdateMethod
+  fullName: SuperOffice.DCF.Web.UI.Controls.PanelBase.UpdateMethod
+- uid: SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod
+  isExternal: true
+  name: UpdateMethod
+  nameWithType: Panel.UpdateMethod
+  fullName: SuperOffice.DCF.Web.UI.Controls.Panel.UpdateMethod
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,230 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  commentId: T:SuperOffice.Web.Factory.WebRequestInstanceContainer
+  id: WebRequestInstanceContainer
+  parent: SuperOffice.Web.Factory
+  children:
+  - SuperOffice.Web.Factory.WebRequestInstanceContainer.#ctor
+  - SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainer
+  - SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainerLock
+  - SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer
+  - SuperOffice.Web.Factory.WebRequestInstanceContainer.Name
+  langs:
+  - csharp
+  - vb
+  name: WebRequestInstanceContainer
+  nameWithType: WebRequestInstanceContainer
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Factory
+  syntax:
+    content: 'public class WebRequestInstanceContainer : ContextualInstanceContainerBase'
+    content.vb: >-
+      Public Class WebRequestInstanceContainer
+          Inherits ContextualInstanceContainerBase
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer.Name
+  commentId: F:SuperOffice.Web.Factory.WebRequestInstanceContainer.Name
+  id: Name
+  parent: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: WebRequestInstanceContainer.Name
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer.Name
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Factory
+  syntax:
+    content: public const string Name = "WebRequest"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "WebRequest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainer
+  commentId: F:SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainer
+  id: _threadContainer
+  parent: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  langs:
+  - csharp
+  - vb
+  name: _threadContainer
+  nameWithType: WebRequestInstanceContainer._threadContainer
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainer
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Factory
+  syntax:
+    content: >-
+      [ThreadStatic]
+
+      protected static IInstanceContainer _threadContainer
+    return:
+      type: SuperOffice.Factory.IInstanceContainer
+    content.vb: >-
+      <ThreadStatic>
+
+      Protected Shared _threadContainer As IInstanceContainer
+  attributes:
+  - type: System.ThreadStaticAttribute
+    ctor: System.ThreadStaticAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainerLock
+  commentId: F:SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainerLock
+  id: _threadContainerLock
+  parent: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  langs:
+  - csharp
+  - vb
+  name: _threadContainerLock
+  nameWithType: WebRequestInstanceContainer._threadContainerLock
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer._threadContainerLock
+  type: Field
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Factory
+  syntax:
+    content: protected static object _threadContainerLock
+    return:
+      type: System.Object
+    content.vb: Protected Shared _threadContainerLock As Object
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer
+  commentId: M:SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer
+  id: GetContainer
+  parent: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  langs:
+  - csharp
+  - vb
+  name: GetContainer()
+  nameWithType: WebRequestInstanceContainer.GetContainer()
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer()
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Factory
+  syntax:
+    content: protected override IInstanceContainer GetContainer()
+    return:
+      type: SuperOffice.Factory.IInstanceContainer
+    content.vb: Protected Overrides Function GetContainer As IInstanceContainer
+  overload: SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer.#ctor
+  commentId: M:SuperOffice.Web.Factory.WebRequestInstanceContainer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Web.Factory.WebRequestInstanceContainer
+  langs:
+  - csharp
+  - vb
+  name: WebRequestInstanceContainer()
+  nameWithType: WebRequestInstanceContainer.WebRequestInstanceContainer()
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer.WebRequestInstanceContainer()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.Web.Factory
+  syntax:
+    content: public WebRequestInstanceContainer()
+    content.vb: Public Sub New
+  overload: SuperOffice.Web.Factory.WebRequestInstanceContainer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Web.Factory
+  commentId: N:SuperOffice.Web.Factory
+  isExternal: true
+  name: SuperOffice.Web.Factory
+  nameWithType: SuperOffice.Web.Factory
+  fullName: SuperOffice.Web.Factory
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Factory.IInstanceContainer
+  isExternal: true
+  name: IInstanceContainer
+  nameWithType: IInstanceContainer
+  fullName: SuperOffice.Factory.IInstanceContainer
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer*
+  commentId: Overload:SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer
+  isExternal: true
+  name: GetContainer
+  nameWithType: WebRequestInstanceContainer.GetContainer
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer.GetContainer
+- uid: SuperOffice.Web.Factory.WebRequestInstanceContainer.#ctor*
+  commentId: Overload:SuperOffice.Web.Factory.WebRequestInstanceContainer.#ctor
+  isExternal: true
+  name: WebRequestInstanceContainer
+  nameWithType: WebRequestInstanceContainer.WebRequestInstanceContainer
+  fullName: SuperOffice.Web.Factory.WebRequestInstanceContainer.WebRequestInstanceContainer

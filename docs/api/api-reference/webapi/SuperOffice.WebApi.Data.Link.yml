@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Link
+  commentId: T:SuperOffice.WebApi.Data.Link
+  id: Link
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Link.#ctor
+  - SuperOffice.WebApi.Data.Link.Description
+  - SuperOffice.WebApi.Data.Link.EntityName
+  - SuperOffice.WebApi.Data.Link.ExtraInfo
+  - SuperOffice.WebApi.Data.Link.Id
+  - SuperOffice.WebApi.Data.Link.LinkId
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: Link
+  fullName: SuperOffice.WebApi.Data.Link
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Link.\nLinks two entities (contacts/projects/sales/URLs) together.    \n"
+  example:
+  - "\nGet Link 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar link = agent.GetLink( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Link : Carrier'
+    content.vb: >-
+      Public Class Link
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Link.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Link.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Link
+  langs:
+  - csharp
+  - vb
+  name: Link()
+  nameWithType: Link.Link()
+  fullName: SuperOffice.WebApi.Data.Link.Link()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Link()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Link.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Link.EntityName
+  commentId: P:SuperOffice.WebApi.Data.Link.EntityName
+  id: EntityName
+  parent: SuperOffice.WebApi.Data.Link
+  langs:
+  - csharp
+  - vb
+  name: EntityName
+  nameWithType: Link.EntityName
+  fullName: SuperOffice.WebApi.Data.Link.EntityName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the entity the link points to (The destination/target entity)\n"
+  syntax:
+    content: public virtual string EntityName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EntityName As String
+  overload: SuperOffice.WebApi.Data.Link.EntityName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Link.Id
+  commentId: P:SuperOffice.WebApi.Data.Link.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.Link
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: Link.Id
+  fullName: SuperOffice.WebApi.Data.Link.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the entity the link points to (The destination/target entity primary key)\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.Link.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Link.Description
+  commentId: P:SuperOffice.WebApi.Data.Link.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Link
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Link.Description
+  fullName: SuperOffice.WebApi.Data.Link.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLink description.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Link.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Link.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.Link.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.Link
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: Link.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Link.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtrainfo for link. Use for information that does not have a primary key\n"
+  syntax:
+    content: public virtual string ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraInfo As String
+  overload: SuperOffice.WebApi.Data.Link.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Link.LinkId
+  commentId: P:SuperOffice.WebApi.Data.Link.LinkId
+  id: LinkId
+  parent: SuperOffice.WebApi.Data.Link
+  langs:
+  - csharp
+  - vb
+  name: LinkId
+  nameWithType: Link.LinkId
+  fullName: SuperOffice.WebApi.Data.Link.LinkId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int LinkId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LinkId As Integer
+  overload: SuperOffice.WebApi.Data.Link.LinkId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Link.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Link.#ctor
+  isExternal: true
+  name: Link
+  nameWithType: Link.Link
+  fullName: SuperOffice.WebApi.Data.Link.Link
+- uid: SuperOffice.WebApi.Data.Link.EntityName*
+  commentId: Overload:SuperOffice.WebApi.Data.Link.EntityName
+  isExternal: true
+  name: EntityName
+  nameWithType: Link.EntityName
+  fullName: SuperOffice.WebApi.Data.Link.EntityName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Link.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.Link.Id
+  isExternal: true
+  name: Id
+  nameWithType: Link.Id
+  fullName: SuperOffice.WebApi.Data.Link.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Link.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Link.Description
+  isExternal: true
+  name: Description
+  nameWithType: Link.Description
+  fullName: SuperOffice.WebApi.Data.Link.Description
+- uid: SuperOffice.WebApi.Data.Link.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.Link.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: Link.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.Link.ExtraInfo
+- uid: SuperOffice.WebApi.Data.Link.LinkId*
+  commentId: Overload:SuperOffice.WebApi.Data.Link.LinkId
+  isExternal: true
+  name: LinkId
+  nameWithType: Link.LinkId
+  fullName: SuperOffice.WebApi.Data.Link.LinkId

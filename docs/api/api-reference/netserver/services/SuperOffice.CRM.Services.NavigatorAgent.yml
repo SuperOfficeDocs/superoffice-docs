@@ -1,0 +1,970 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.NavigatorAgent
+  commentId: T:SuperOffice.CRM.Services.NavigatorAgent
+  id: NavigatorAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.NavigatorAgent.#ctor
+  - SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany
+  - SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies(System.String)
+  - SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany(System.Int32)
+  - SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  langs:
+  - csharp
+  - vb
+  name: NavigatorAgent
+  nameWithType: NavigatorAgent
+  fullName: SuperOffice.CRM.Services.NavigatorAgent
+  type: Class
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Navigator Agent\nNavigator stuff.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (NavigatorAgent agent = new NavigatorAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class NavigatorAgent : AgentBase<INavigatorAgent>, IDisposable, INavigatorAgent, IAgent'
+    content.vb: >-
+      Public Class NavigatorAgent
+          Inherits AgentBase(Of INavigatorAgent)
+          Implements IDisposable, INavigatorAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.INavigatorAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany(System.Int32)
+  id: GetNavigatorCompany(System.Int32)
+  parent: SuperOffice.CRM.Services.NavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNavigatorCompany(Int32)
+  nameWithType: NavigatorAgent.GetNavigatorCompany(Int32)
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a NavigatorCompany object.                        \n"
+  syntax:
+    content: public NavigatorCompany GetNavigatorCompany(int navigatorCompanyId)
+    parameters:
+    - id: navigatorCompanyId
+      type: System.Int32
+      description: The identifier of the NavigatorCompany object
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany
+      description: NavigatorCompany
+    content.vb: Public Function GetNavigatorCompany(navigatorCompanyId As Integer) As NavigatorCompany
+  overload: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany*
+  implements:
+  - SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany
+  commentId: M:SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany
+  id: GetAllNavigatorCompany
+  parent: SuperOffice.CRM.Services.NavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllNavigatorCompany()
+  nameWithType: NavigatorAgent.GetAllNavigatorCompany()
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany()
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of all NavigatorCompany objects.\n"
+  syntax:
+    content: public NavigatorCompany[] GetAllNavigatorCompany()
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany[]
+      description: Array of all NavigatorCompany objects
+    content.vb: Public Function GetAllNavigatorCompany As NavigatorCompany()
+  overload: SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany*
+  implements:
+  - SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  id: GetNavigatorCompanyList(System.Int32[])
+  parent: SuperOffice.CRM.Services.NavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNavigatorCompanyList(Int32[])
+  nameWithType: NavigatorAgent.GetNavigatorCompanyList(Int32[])
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of NavigatorCompany objects.                        \n"
+  syntax:
+    content: public NavigatorCompany[] GetNavigatorCompanyList(int[] navigatorCompanyIds)
+    parameters:
+    - id: navigatorCompanyIds
+      type: System.Int32[]
+      description: The identifiers of the NavigatorCompany object
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany[]
+      description: Array of NavigatorCompany objects
+    content.vb: Public Function GetNavigatorCompanyList(navigatorCompanyIds As Integer()) As NavigatorCompany()
+  overload: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList*
+  implements:
+  - SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  nameWithType.vb: NavigatorAgent.GetNavigatorCompanyList(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList(System.Int32())
+  name.vb: GetNavigatorCompanyList(Int32())
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies(System.String)
+  commentId: M:SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies(System.String)
+  id: GetNavigatorCompanies(System.String)
+  parent: SuperOffice.CRM.Services.NavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNavigatorCompanies(String)
+  nameWithType: NavigatorAgent.GetNavigatorCompanies(String)
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies(System.String)
+  type: Method
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public NavigatorCompany[] GetNavigatorCompanies(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Services.NavigatorCompany[]
+    content.vb: Public Function GetNavigatorCompanies(name As String) As NavigatorCompany()
+  overload: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies*
+  implements:
+  - SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.NavigatorAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.NavigatorAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.NavigatorAgent
+  langs:
+  - csharp
+  - vb
+  name: NavigatorAgent()
+  nameWithType: NavigatorAgent.NavigatorAgent()
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.NavigatorAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.DCF.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCF.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public NavigatorAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.NavigatorAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<INavigatorAgent>
+  nameWithType: AgentBase<INavigatorAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INavigatorAgent>
+  nameWithType.vb: AgentBase(Of INavigatorAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INavigatorAgent)
+  name.vb: AgentBase(Of INavigatorAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.INavigatorAgent
+    name: INavigatorAgent
+    nameWithType: INavigatorAgent
+    fullName: SuperOffice.CRM.Services.INavigatorAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.INavigatorAgent
+    name: INavigatorAgent
+    nameWithType: INavigatorAgent
+    fullName: SuperOffice.CRM.Services.INavigatorAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.INavigatorAgent
+  commentId: T:SuperOffice.CRM.Services.INavigatorAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: INavigatorAgent
+  nameWithType: INavigatorAgent
+  fullName: SuperOffice.CRM.Services.INavigatorAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<INavigatorAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INavigatorAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of INavigatorAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INavigatorAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<INavigatorAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INavigatorAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of INavigatorAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INavigatorAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.INavigatorAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<INavigatorAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.INavigatorAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of INavigatorAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.INavigatorAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany
+  isExternal: true
+  name: GetNavigatorCompany
+  nameWithType: NavigatorAgent.GetNavigatorCompany
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompany
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  isExternal: true
+  name: GetNavigatorCompany(Int32)
+  nameWithType: INavigatorAgent.GetNavigatorCompany(Int32)
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+    name: GetNavigatorCompany
+    nameWithType: INavigatorAgent.GetNavigatorCompany
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany(System.Int32)
+    name: GetNavigatorCompany
+    nameWithType: INavigatorAgent.GetNavigatorCompany
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.NavigatorCompany
+  commentId: T:SuperOffice.CRM.Services.NavigatorCompany
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: NavigatorCompany
+  nameWithType: NavigatorCompany
+  fullName: SuperOffice.CRM.Services.NavigatorCompany
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany
+  isExternal: true
+  name: GetAllNavigatorCompany
+  nameWithType: NavigatorAgent.GetAllNavigatorCompany
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetAllNavigatorCompany
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  isExternal: true
+  name: GetAllNavigatorCompany()
+  nameWithType: INavigatorAgent.GetAllNavigatorCompany()
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+    name: GetAllNavigatorCompany
+    nameWithType: INavigatorAgent.GetAllNavigatorCompany
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+    name: GetAllNavigatorCompany
+    nameWithType: INavigatorAgent.GetAllNavigatorCompany
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetAllNavigatorCompany
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.NavigatorCompany[]
+  isExternal: true
+  name: NavigatorCompany[]
+  nameWithType: NavigatorCompany[]
+  fullName: SuperOffice.CRM.Services.NavigatorCompany[]
+  nameWithType.vb: NavigatorCompany()
+  fullName.vb: SuperOffice.CRM.Services.NavigatorCompany()
+  name.vb: NavigatorCompany()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.NavigatorCompany
+    name: NavigatorCompany
+    nameWithType: NavigatorCompany
+    fullName: SuperOffice.CRM.Services.NavigatorCompany
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.NavigatorCompany
+    name: NavigatorCompany
+    nameWithType: NavigatorCompany
+    fullName: SuperOffice.CRM.Services.NavigatorCompany
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList
+  isExternal: true
+  name: GetNavigatorCompanyList
+  nameWithType: NavigatorAgent.GetNavigatorCompanyList
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanyList
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  isExternal: true
+  name: GetNavigatorCompanyList(Int32[])
+  nameWithType: INavigatorAgent.GetNavigatorCompanyList(Int32[])
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+  nameWithType.vb: INavigatorAgent.GetNavigatorCompanyList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32())
+  name.vb: GetNavigatorCompanyList(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+    name: GetNavigatorCompanyList
+    nameWithType: INavigatorAgent.GetNavigatorCompanyList
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList(System.Int32[])
+    name: GetNavigatorCompanyList
+    nameWithType: INavigatorAgent.GetNavigatorCompanyList
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanyList
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies
+  isExternal: true
+  name: GetNavigatorCompanies
+  nameWithType: NavigatorAgent.GetNavigatorCompanies
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.GetNavigatorCompanies
+- uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  commentId: M:SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  parent: SuperOffice.CRM.Services.INavigatorAgent
+  isExternal: true
+  name: GetNavigatorCompanies(String)
+  nameWithType: INavigatorAgent.GetNavigatorCompanies(String)
+  fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+    name: GetNavigatorCompanies
+    nameWithType: INavigatorAgent.GetNavigatorCompanies
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies(System.String)
+    name: GetNavigatorCompanies
+    nameWithType: INavigatorAgent.GetNavigatorCompanies
+    fullName: SuperOffice.CRM.Services.INavigatorAgent.GetNavigatorCompanies
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.NavigatorAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.NavigatorAgent.#ctor
+  isExternal: true
+  name: NavigatorAgent
+  nameWithType: NavigatorAgent.NavigatorAgent
+  fullName: SuperOffice.CRM.Services.NavigatorAgent.NavigatorAgent

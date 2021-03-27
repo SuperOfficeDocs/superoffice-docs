@@ -1,0 +1,3325 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo`1
+  id: SentryQueryInfo`1
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.#ctor(`0,System.Boolean)
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SentryQueryInfo<TMainTable>
+  nameWithType: SentryQueryInfo<TMainTable>
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nClass holding <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>s on behalf of a <xref href=\"SuperOffice.CRM.Security.Sentry\" data-throw-if-not-resolved=\"false\"></xref> implementation.\nSubclasses contain &apos;typed&apos; tableinfos (as properties/fields) and &apos;untyped&apos; tableinfos in an array.\n"
+  remarks: Each sentry holds an implementation of this class to deal with tables covered by the sentry.
+  syntax:
+    content: 'public abstract class SentryQueryInfo<TMainTable> : SentryQueryInfo, IEnumerable<TableInfo>, IEnumerable where TMainTable : TableInfo'
+    typeParameters:
+    - id: TMainTable
+      description: Kind of main <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> for the <xref href="SuperOffice.CRM.Security.Sentry" data-throw-if-not-resolved="false"></xref>.
+    content.vb: >-
+      Public MustInherit Class SentryQueryInfo(Of TMainTable As TableInfo)
+          Inherits SentryQueryInfo
+          Implements IEnumerable(Of TableInfo), IEnumerable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Security.SentryQueryInfo
+  derivedClasses:
+  - SuperOffice.CRM.Security.AppointmentSentryQueryInfo
+  - SuperOffice.CRM.Security.AssociateSentryQueryInfo
+  - SuperOffice.CRM.Security.ContactSentryQueryInfo
+  - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
+  - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo
+  - SuperOffice.CRM.Security.KbEntrySentryQueryInfo
+  - SuperOffice.CRM.Security.PersonSentry.PersonSentryQueryInfo
+  - SuperOffice.CRM.Security.ProjectSentryQueryInfo
+  - SuperOffice.CRM.Security.QuoteAlternativeSentryQueryInfo
+  - SuperOffice.CRM.Security.QuoteLineSentryQueryInfo
+  - SuperOffice.CRM.Security.QuoteSentryQueryInfo
+  - SuperOffice.CRM.Security.QuoteVersionSentryQueryInfo
+  - SuperOffice.CRM.Security.RelationsSentryQueryInfo
+  - SuperOffice.CRM.Security.ReplyTemplateSentryQueryInfo
+  - SuperOffice.CRM.Security.SaleSentryQueryInfo
+  - SuperOffice.CRM.Security.SatelliteSentryQueryInfo
+  - SuperOffice.CRM.Security.SelectionSentryQueryInfo
+  - SuperOffice.CRM.Security.SORPublishSentryQueryInfo
+  - SuperOffice.CRM.Security.TicketSentryQueryInfo
+  - SuperOffice.CRM.Security.UDefFieldQueryInfo
+  implements:
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  - System.Collections.IEnumerable
+  inheritedMembers:
+  - SuperOffice.CRM.Security.SentryQueryInfo.System#Collections#IEnumerable#GetEnumerator
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.Data.SQL.TableInfo})
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.Batch``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.IndexOf``1(SuperOffice.Data.SQL.TableInfo,System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.IndexOf``1(System.Func{SuperOffice.Data.SQL.TableInfo,System.Boolean},System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.Permute``1(System.Int32)
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Data.SQL.TableInfo,{K}},System.Func{SuperOffice.Data.SQL.TableInfo,{V}})
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Data.SQL.TableInfo,{K}},System.Func{SuperOffice.Data.SQL.TableInfo,{V}},System.Collections.Generic.IEqualityComparer{{K}})
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.EnumUtil.MapEnums``2
+  - System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.SuperOffice.Util.CollectionOps.AtLeastOne``1
+  - SuperOffice.CRM.Security.SentryQueryInfo`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: SentryQueryInfo(Of TMainTable)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable)
+  name.vb: SentryQueryInfo(Of TMainTable)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.#ctor(`0,System.Boolean)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.#ctor(`0,System.Boolean)
+  id: '#ctor(`0,System.Boolean)'
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: SentryQueryInfo(TMainTable, Boolean)
+  nameWithType: SentryQueryInfo<TMainTable>.SentryQueryInfo(TMainTable, Boolean)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.SentryQueryInfo(TMainTable, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nConstructors called by implementations, providing the main <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected SentryQueryInfo(TMainTable mainTable, bool hasVisibleFor)
+    parameters:
+    - id: mainTable
+      type: '{TMainTable}'
+      description: Main <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> for the query.
+    - id: hasVisibleFor
+      type: System.Boolean
+      description: Do we care about visible for table?
+    content.vb: Protected Sub New(mainTable As TMainTable, hasVisibleFor As Boolean)
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.#ctor*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).SentryQueryInfo(TMainTable, Boolean)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).SentryQueryInfo(TMainTable, System.Boolean)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  id: AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeQuery(PrivateSelect)
+  nameWithType: SentryQueryInfo<TMainTable>.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nUpdate <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>s held by a sentry with the right \ninstances based on a <xref href=\"SuperOffice.Data.SQL.Select\" data-throw-if-not-resolved=\"false\"></xref> statement.\n"
+  syntax:
+    content: public override void AnalyzeQuery(PrivateSelect sql)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.PrivateSelect
+      description: Select statement to base the lookup on.
+    content.vb: Public Overrides Sub AnalyzeQuery(sql As PrivateSelect)
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).AnalyzeQuery(PrivateSelect)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  id: CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: CanCoverTable(TableInfo)
+  nameWithType: SentryQueryInfo<TMainTable>.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nCheck if this is a table that can be covered.  If so, add it to the list of covered tables.\n"
+  syntax:
+    content: public override bool CanCoverTable(TableInfo table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.SQL.TableInfo
+      description: Information about the table to analyze.
+    return:
+      type: System.Boolean
+      description: True if this now is a table that can be covered.
+    content.vb: Public Overrides Function CanCoverTable(table As TableInfo) As Boolean
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).CanCoverTable(TableInfo)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  id: GetOwnerTableCandidates
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: GetOwnerTableCandidates()
+  nameWithType: SentryQueryInfo<TMainTable>.GetOwnerTableCandidates()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetOwnerTableCandidates()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected abstract TableInfo[] GetOwnerTableCandidates()
+    return:
+      type: SuperOffice.Data.SQL.TableInfo[]
+    content.vb: Protected MustOverride Function GetOwnerTableCandidates As TableInfo()
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  id: UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateTypedMembers(PrivateSelect)
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateTypedMembers(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nMethod called by the base class to force the implementation \nto update typed instances of <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: "Implementations should use <xref href=\"SuperOffice.CRM.Security.SentryQueryInfo%601.UpdateRelatedTableInfo%60%601(SuperOffice.Data.SQL.PrivateSelect%2c%60%600%40)\" data-throw-if-not-resolved=\"false\"></xref> \nwhen updating the <xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>."
+  syntax:
+    content: protected virtual void UpdateTypedMembers(PrivateSelect sql)
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.PrivateSelect
+      description: Query to use when updating the <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>s.
+    content.vb: Protected Overridable Sub UpdateTypedMembers(sql As PrivateSelect)
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateTypedMembers(PrivateSelect)
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateTypedMembers(SuperOffice.Data.SQL.PrivateSelect)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  id: GetTypedMembers
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: GetTypedMembers()
+  nameWithType: SentryQueryInfo<TMainTable>.GetTypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetTypedMembers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nMethod that can be overridden to return additional typed instances of covered \n<xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>s.  The default implementation returns an empty array.\n"
+  syntax:
+    content: protected virtual TableInfo[] GetTypedMembers()
+    return:
+      type: SuperOffice.Data.SQL.TableInfo[]
+      description: Array of typed <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>s covered by the <xref href="SuperOffice.CRM.Security.Sentry" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Protected Overridable Function GetTypedMembers As TableInfo()
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetTypedMembers()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetTypedMembers()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  id: GetUntypedMembers
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: GetUntypedMembers()
+  nameWithType: SentryQueryInfo<TMainTable>.GetUntypedMembers()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetUntypedMembers()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAbstract member that needs to be implemented by the base classes to expose \n<xref href=\"SuperOffice.Data.SQL.TableInfo\" data-throw-if-not-resolved=\"false\"></xref>s covered by the sentry that is not exposed by the \n<xref href=\"SuperOffice.CRM.Security.SentryQueryInfo%601.MainTable\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"SuperOffice.CRM.Security.SentryQueryInfo%601.GetTypedMembers\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected abstract TableInfo[] GetUntypedMembers()
+    return:
+      type: SuperOffice.Data.SQL.TableInfo[]
+      description: Array of untyped <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref>s covered by the <xref href="SuperOffice.CRM.Security.Sentry" data-throw-if-not-resolved="false"></xref>.
+    content.vb: Protected MustOverride Function GetUntypedMembers As TableInfo()
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetUntypedMembers()
+  modifiers.csharp:
+  - protected
+  - abstract
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetUntypedMembers()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  id: UpdateRelatedTableInfo``1(SuperOffice.Data.SQL.PrivateSelect,``0@)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(PrivateSelect, ref T)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo<T>(SuperOffice.Data.SQL.PrivateSelect, ref T)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nUpdate a TableInfo to the instance of the appropriate related table.\n"
+  syntax:
+    content: >-
+      protected void UpdateRelatedTableInfo<T>(PrivateSelect sql, ref T relatedTableInfo)
+          where T : TableInfo
+    parameters:
+    - id: sql
+      type: SuperOffice.Data.SQL.PrivateSelect
+      description: The Select statement to analyze.
+    - id: relatedTableInfo
+      type: '{T}'
+      description: Related TableInfo to update.
+    typeParameters:
+    - id: T
+      description: Type of <xref href="SuperOffice.Data.SQL.TableInfo" data-throw-if-not-resolved="false"></xref> to update.
+    content.vb: Protected Sub UpdateRelatedTableInfo(Of T As TableInfo)(sql As PrivateSelect, ByRef relatedTableInfo As T)
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(PrivateSelect, ByRef T)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo(Of T)(SuperOffice.Data.SQL.PrivateSelect, ByRef T)
+  name.vb: UpdateRelatedTableInfo(Of T)(PrivateSelect, ByRef T)
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  id: ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo,SuperOffice.Data.SQL.TableInfo[])
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  nameWithType: SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo[])
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: protected void ReplaceRelatedTableInstance(TableInfo original, TableInfo replacement, TableInfo[] collectionToWorkOn)
+    parameters:
+    - id: original
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: replacement
+      type: SuperOffice.Data.SQL.TableInfo
+    - id: collectionToWorkOn
+      type: SuperOffice.Data.SQL.TableInfo[]
+    content.vb: Protected Sub ReplaceRelatedTableInstance(original As TableInfo, replacement As TableInfo, collectionToWorkOn As TableInfo())
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance(SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo, SuperOffice.Data.SQL.TableInfo())
+  name.vb: ReplaceRelatedTableInstance(TableInfo, TableInfo, TableInfo())
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  id: GetEnumerator
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: SentryQueryInfo<TMainTable>.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetEnumerator()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nEnumerator looping over all the covered tables for a sentry.\n"
+  remarks: The first item returned is always the <xref href="SuperOffice.CRM.Security.SentryQueryInfo%601.MainTable" data-throw-if-not-resolved="false"></xref>.
+  syntax:
+    content: public override IEnumerator<TableInfo> GetEnumerator()
+    return:
+      type: System.Collections.Generic.IEnumerator{SuperOffice.Data.SQL.TableInfo}
+      description: Enumerator looping over all the covered tables for a sentry.
+    content.vb: Public Overrides Function GetEnumerator As IEnumerator(Of TableInfo)
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetEnumerator()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetEnumerator()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  id: ParentFields
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: ParentFields
+  nameWithType: SentryQueryInfo<TMainTable>.ParentFields
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ParentFields
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nGet the field thayt \n"
+  syntax:
+    content: public override FieldInfo[] ParentFields { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.FieldInfo[]
+    content.vb: Public Overrides ReadOnly Property ParentFields As FieldInfo()
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo.ParentFields
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).ParentFields
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ParentFields
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  id: MainTable
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: MainTable
+  nameWithType: SentryQueryInfo<TMainTable>.MainTable
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.MainTable
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nMain table for the sentry.\n"
+  syntax:
+    content: public TMainTable MainTable { get; }
+    parameters: []
+    return:
+      type: '{TMainTable}'
+    content.vb: Public ReadOnly Property MainTable As TMainTable
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).MainTable
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).MainTable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  id: HasVisibleFor
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: HasVisibleFor
+  nameWithType: SentryQueryInfo<TMainTable>.HasVisibleFor
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.HasVisibleFor
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nDoes this table have VisibleFor?\n"
+  syntax:
+    content: public override bool HasVisibleFor { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property HasVisibleFor As Boolean
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo.HasVisibleFor
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).HasVisibleFor
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).HasVisibleFor
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  id: VisibleForTableInfo
+  parent: SuperOffice.CRM.Security.SentryQueryInfo`1
+  langs:
+  - csharp
+  - vb
+  name: VisibleForTableInfo
+  nameWithType: SentryQueryInfo<TMainTable>.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.VisibleForTableInfo
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Security
+  summary: "\nTable info for the related VisibleFor table.\n"
+  syntax:
+    content: public override VisibleForTableInfo VisibleForTableInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Data.VisibleForTableInfo
+    content.vb: Public Overrides ReadOnly Property VisibleForTableInfo As VisibleForTableInfo
+  overridden: SuperOffice.CRM.Security.SentryQueryInfo.VisibleForTableInfo
+  overload: SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo*
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).VisibleForTableInfo
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).VisibleForTableInfo
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Security.SentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.SentryQueryInfo
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: SentryQueryInfo
+  nameWithType: SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<TableInfo>
+  nameWithType: IEnumerable<TableInfo>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>
+  nameWithType.vb: IEnumerable(Of TableInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.TableInfo)
+  name.vb: IEnumerable(Of TableInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.IEnumerable
+  commentId: T:System.Collections.IEnumerable
+  parent: System.Collections
+  isExternal: true
+  name: IEnumerable
+  nameWithType: IEnumerable
+  fullName: System.Collections.IEnumerable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.System#Collections#IEnumerable#GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo.System#Collections#IEnumerable#GetEnumerator
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: IEnumerable.GetEnumerator()
+  nameWithType: SentryQueryInfo.IEnumerable.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType.vb: SentryQueryInfo.System.Collections.IEnumerable.GetEnumerator()
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.System#Collections#IEnumerable#GetEnumerator
+    name: IEnumerable.GetEnumerator
+    nameWithType: SentryQueryInfo.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.System#Collections#IEnumerable#GetEnumerator
+    name: System.Collections.IEnumerable.GetEnumerator
+    nameWithType: SentryQueryInfo.System.Collections.IEnumerable.GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.System.Collections.IEnumerable.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.ForEach``1(System.Action{SuperOffice.Data.SQL.TableInfo})
+  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<TableInfo>(Action<TableInfo>)
+  nameWithType: IEnumerableExtensions.ForEach<TableInfo>(Action<TableInfo>)
+  fullName: IEnumerableExtensions.ForEach<SuperOffice.Data.SQL.TableInfo>(System.Action<SuperOffice.Data.SQL.TableInfo>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of TableInfo)(Action(Of TableInfo))
+  fullName.vb: IEnumerableExtensions.ForEach(Of SuperOffice.Data.SQL.TableInfo)(System.Action(Of SuperOffice.Data.SQL.TableInfo))
+  name.vb: ForEach(Of TableInfo)(Action(Of TableInfo))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
+    name: ForEach<TableInfo>
+    nameWithType: IEnumerableExtensions.ForEach<TableInfo>
+    fullName: IEnumerableExtensions.ForEach<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ForEach``1(System.Action{``0})
+    name: ForEach(Of TableInfo)
+    nameWithType: IEnumerableExtensions.ForEach(Of TableInfo)
+    fullName: IEnumerableExtensions.ForEach(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo})
+  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  name: ContainsAny<TableInfo>(IEnumerable<TableInfo>)
+  nameWithType: IEnumerableExtensions.ContainsAny<TableInfo>(IEnumerable<TableInfo>)
+  fullName: IEnumerableExtensions.ContainsAny<SuperOffice.Data.SQL.TableInfo>(System.Collections.Generic.IEnumerable<SuperOffice.Data.SQL.TableInfo>)
+  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of TableInfo)(IEnumerable(Of TableInfo))
+  fullName.vb: IEnumerableExtensions.ContainsAny(Of SuperOffice.Data.SQL.TableInfo)(System.Collections.Generic.IEnumerable(Of SuperOffice.Data.SQL.TableInfo))
+  name.vb: ContainsAny(Of TableInfo)(IEnumerable(Of TableInfo))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny<TableInfo>
+    nameWithType: IEnumerableExtensions.ContainsAny<TableInfo>
+    fullName: IEnumerableExtensions.ContainsAny<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny(Of TableInfo)
+    nameWithType: IEnumerableExtensions.ContainsAny(Of TableInfo)
+    fullName: IEnumerableExtensions.ContainsAny(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.Batch``1(System.Int32)
+  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Batch<TableInfo>(Int32)
+  nameWithType: IEnumerableExtensions.Batch<TableInfo>(Int32)
+  fullName: IEnumerableExtensions.Batch<SuperOffice.Data.SQL.TableInfo>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Batch(Of TableInfo)(Int32)
+  fullName.vb: IEnumerableExtensions.Batch(Of SuperOffice.Data.SQL.TableInfo)(System.Int32)
+  name.vb: Batch(Of TableInfo)(Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Batch``1(System.Int32)
+    name: Batch<TableInfo>
+    nameWithType: IEnumerableExtensions.Batch<TableInfo>
+    fullName: IEnumerableExtensions.Batch<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Batch``1(System.Int32)
+    name: Batch(Of TableInfo)
+    nameWithType: IEnumerableExtensions.Batch(Of TableInfo)
+    fullName: IEnumerableExtensions.Batch(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.IndexOf``1(SuperOffice.Data.SQL.TableInfo,System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  name: IndexOf<TableInfo>(TableInfo, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<TableInfo>(TableInfo, Int32)
+  fullName: IEnumerableExtensions.IndexOf<SuperOffice.Data.SQL.TableInfo>(SuperOffice.Data.SQL.TableInfo, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of TableInfo)(TableInfo, Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of SuperOffice.Data.SQL.TableInfo)(SuperOffice.Data.SQL.TableInfo, System.Int32)
+  name.vb: IndexOf(Of TableInfo)(TableInfo, Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
+    name: IndexOf<TableInfo>
+    nameWithType: IEnumerableExtensions.IndexOf<TableInfo>
+    fullName: IEnumerableExtensions.IndexOf<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(``0,System.Int32)
+    name: IndexOf(Of TableInfo)
+    nameWithType: IEnumerableExtensions.IndexOf(Of TableInfo)
+    fullName: IEnumerableExtensions.IndexOf(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.IndexOf``1(System.Func{SuperOffice.Data.SQL.TableInfo,System.Boolean},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  name: IndexOf<TableInfo>(Func<TableInfo, Boolean>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<TableInfo>(Func<TableInfo, Boolean>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<SuperOffice.Data.SQL.TableInfo>(System.Func<SuperOffice.Data.SQL.TableInfo, System.Boolean>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of TableInfo)(Func(Of TableInfo, Boolean), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of SuperOffice.Data.SQL.TableInfo)(System.Func(Of SuperOffice.Data.SQL.TableInfo, System.Boolean), System.Int32)
+  name.vb: IndexOf(Of TableInfo)(Func(Of TableInfo, Boolean), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf<TableInfo>
+    nameWithType: IEnumerableExtensions.IndexOf<TableInfo>
+    fullName: IEnumerableExtensions.IndexOf<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf(Of TableInfo)
+    nameWithType: IEnumerableExtensions.IndexOf(Of TableInfo)
+    fullName: IEnumerableExtensions.IndexOf(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.Permute``1(System.Int32)
+  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Permute<TableInfo>(Int32)
+  nameWithType: IEnumerableExtensions.Permute<TableInfo>(Int32)
+  fullName: IEnumerableExtensions.Permute<SuperOffice.Data.SQL.TableInfo>(System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Permute(Of TableInfo)(Int32)
+  fullName.vb: IEnumerableExtensions.Permute(Of SuperOffice.Data.SQL.TableInfo)(System.Int32)
+  name.vb: Permute(Of TableInfo)(Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Permute``1(System.Int32)
+    name: Permute<TableInfo>
+    nameWithType: IEnumerableExtensions.Permute<TableInfo>
+    fullName: IEnumerableExtensions.Permute<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Permute``1(System.Int32)
+    name: Permute(Of TableInfo)
+    nameWithType: IEnumerableExtensions.Permute(Of TableInfo)
+    fullName: IEnumerableExtensions.Permute(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Data.SQL.TableInfo,{K}},System.Func{SuperOffice.Data.SQL.TableInfo,{V}})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  name: PermissiveToDictionary<TableInfo, K, V>(Func<TableInfo, K>, Func<TableInfo, V>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<TableInfo, K, V>(Func<TableInfo, K>, Func<TableInfo, V>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Data.SQL.TableInfo, K, V>(System.Func<SuperOffice.Data.SQL.TableInfo, K>, System.Func<SuperOffice.Data.SQL.TableInfo, V>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of TableInfo, K, V)(Func(Of TableInfo, K), Func(Of TableInfo, V))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Data.SQL.TableInfo, K, V)(System.Func(Of SuperOffice.Data.SQL.TableInfo, K), System.Func(Of SuperOffice.Data.SQL.TableInfo, V))
+  name.vb: PermissiveToDictionary(Of TableInfo, K, V)(Func(Of TableInfo, K), Func(Of TableInfo, V))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary<TableInfo, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<TableInfo, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Data.SQL.TableInfo, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary(Of TableInfo, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of TableInfo, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Data.SQL.TableInfo, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.IEnumerableExtensions.PermissiveToDictionary``3(System.Func{SuperOffice.Data.SQL.TableInfo,{K}},System.Func{SuperOffice.Data.SQL.TableInfo,{V}},System.Collections.Generic.IEqualityComparer{{K}})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  parent: IEnumerableExtensions
+  definition: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  name: PermissiveToDictionary<TableInfo, K, V>(Func<TableInfo, K>, Func<TableInfo, V>, IEqualityComparer<K>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<TableInfo, K, V>(Func<TableInfo, K>, Func<TableInfo, V>, IEqualityComparer<K>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Data.SQL.TableInfo, K, V>(System.Func<SuperOffice.Data.SQL.TableInfo, K>, System.Func<SuperOffice.Data.SQL.TableInfo, V>, System.Collections.Generic.IEqualityComparer<K>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of TableInfo, K, V)(Func(Of TableInfo, K), Func(Of TableInfo, V), IEqualityComparer(Of K))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Data.SQL.TableInfo, K, V)(System.Func(Of SuperOffice.Data.SQL.TableInfo, K), System.Func(Of SuperOffice.Data.SQL.TableInfo, V), System.Collections.Generic.IEqualityComparer(Of K))
+  name.vb: PermissiveToDictionary(Of TableInfo, K, V)(Func(Of TableInfo, K), Func(Of TableInfo, V), IEqualityComparer(Of K))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary<TableInfo, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<TableInfo, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<SuperOffice.Data.SQL.TableInfo, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary(Of TableInfo, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of TableInfo, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of SuperOffice.Data.SQL.TableInfo, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SentryQueryInfo<TMainTable>, To>()
+  nameWithType: EnumUtil.MapEnums<SentryQueryInfo<TMainTable>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SentryQueryInfo(Of TMainTable), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable), To)()
+  name.vb: MapEnums(Of SentryQueryInfo(Of TMainTable), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SentryQueryInfo<TMainTable>, To>
+    nameWithType: EnumUtil.MapEnums<SentryQueryInfo<TMainTable>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SentryQueryInfo(Of TMainTable), To)
+    nameWithType: EnumUtil.MapEnums(Of SentryQueryInfo(Of TMainTable), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.Data.SQL.TableInfo}.SuperOffice.Util.CollectionOps.AtLeastOne``1
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  parent: SuperOffice.Util.CollectionOps
+  definition: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  name: AtLeastOne<TableInfo>()
+  nameWithType: CollectionOps.AtLeastOne<TableInfo>()
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<SuperOffice.Data.SQL.TableInfo>()
+  nameWithType.vb: CollectionOps.AtLeastOne(Of TableInfo)()
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of SuperOffice.Data.SQL.TableInfo)()
+  name.vb: AtLeastOne(Of TableInfo)()
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
+    name: AtLeastOne<TableInfo>
+    nameWithType: CollectionOps.AtLeastOne<TableInfo>
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<SuperOffice.Data.SQL.TableInfo>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1
+    name: AtLeastOne(Of TableInfo)
+    nameWithType: CollectionOps.AtLeastOne(Of TableInfo)
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of SuperOffice.Data.SQL.TableInfo)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SentryQueryInfo<TMainTable>, To>()
+  nameWithType: Converters.MapEnums<SentryQueryInfo<TMainTable>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>, To>()
+  nameWithType.vb: Converters.MapEnums(Of SentryQueryInfo(Of TMainTable), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable), To)()
+  name.vb: MapEnums(Of SentryQueryInfo(Of TMainTable), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SentryQueryInfo<TMainTable>, To>
+    nameWithType: Converters.MapEnums<SentryQueryInfo<TMainTable>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SentryQueryInfo(Of TMainTable), To)
+    nameWithType: Converters.MapEnums(Of SentryQueryInfo(Of TMainTable), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  commentId: M:IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  isExternal: true
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType: IEnumerableExtensions.ForEach<T>(IEnumerable<T>, Action<T>)
+  fullName: IEnumerableExtensions.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  nameWithType.vb: IEnumerableExtensions.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName.vb: IEnumerableExtensions.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach<T>
+    nameWithType: IEnumerableExtensions.ForEach<T>
+    fullName: IEnumerableExtensions.ForEach<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+    name: ForEach(Of T)
+    nameWithType: IEnumerableExtensions.ForEach(Of T)
+    fullName: IEnumerableExtensions.ForEach(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions
+  commentId: T:IEnumerableExtensions
+  isExternal: true
+  name: IEnumerableExtensions
+  nameWithType: IEnumerableExtensions
+  fullName: IEnumerableExtensions
+- uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  commentId: M:IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
+  nameWithType: IEnumerableExtensions.ContainsAny<T>(IEnumerable<T>, IEnumerable<T>)
+  fullName: IEnumerableExtensions.ContainsAny<T>(System.Collections.Generic.IEnumerable<T>, System.Collections.Generic.IEnumerable<T>)
+  nameWithType.vb: IEnumerableExtensions.ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  fullName.vb: IEnumerableExtensions.ContainsAny(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Collections.Generic.IEnumerable(Of T))
+  name.vb: ContainsAny(Of T)(IEnumerable(Of T), IEnumerable(Of T))
+  spec.csharp:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny<T>
+    nameWithType: IEnumerableExtensions.ContainsAny<T>
+    fullName: IEnumerableExtensions.ContainsAny<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.ContainsAny``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0})
+    name: ContainsAny(Of T)
+    nameWithType: IEnumerableExtensions.ContainsAny(Of T)
+    fullName: IEnumerableExtensions.ContainsAny(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExternal: true
+  name: Batch<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.Batch<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.Batch<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Batch(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.Batch(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Batch(Of T)(IEnumerable(Of T), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Batch<T>
+    nameWithType: IEnumerableExtensions.Batch<T>
+    fullName: IEnumerableExtensions.Batch<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Batch``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Batch(Of T)
+    nameWithType: IEnumerableExtensions.Batch(Of T)
+    fullName: IEnumerableExtensions.Batch(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+  isExternal: true
+  name: IndexOf<T>(IEnumerable<T>, T, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, T, Int32)
+  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, T, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), T, Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), T, System.Int32)
+  name.vb: IndexOf(Of T)(IEnumerable(Of T), T, Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    name: IndexOf<T>
+    nameWithType: IEnumerableExtensions.IndexOf<T>
+    fullName: IEnumerableExtensions.IndexOf<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},``0,System.Int32)
+    name: IndexOf(Of T)
+    nameWithType: IEnumerableExtensions.IndexOf(Of T)
+    fullName: IEnumerableExtensions.IndexOf(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  commentId: M:IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+  isExternal: true
+  name: IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
+  nameWithType: IEnumerableExtensions.IndexOf<T>(IEnumerable<T>, Func<T, Boolean>, Int32)
+  fullName: IEnumerableExtensions.IndexOf<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Boolean>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
+  fullName.vb: IEnumerableExtensions.IndexOf(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Boolean), System.Int32)
+  name.vb: IndexOf(Of T)(IEnumerable(Of T), Func(Of T, Boolean), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf<T>
+    nameWithType: IEnumerableExtensions.IndexOf<T>
+    fullName: IEnumerableExtensions.IndexOf<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.IndexOf``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Boolean},System.Int32)
+    name: IndexOf(Of T)
+    nameWithType: IEnumerableExtensions.IndexOf(Of T)
+    fullName: IEnumerableExtensions.IndexOf(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  commentId: M:IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  isExternal: true
+  name: Permute<T>(IEnumerable<T>, Int32)
+  nameWithType: IEnumerableExtensions.Permute<T>(IEnumerable<T>, Int32)
+  fullName: IEnumerableExtensions.Permute<T>(System.Collections.Generic.IEnumerable<T>, System.Int32)
+  nameWithType.vb: IEnumerableExtensions.Permute(Of T)(IEnumerable(Of T), Int32)
+  fullName.vb: IEnumerableExtensions.Permute(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Int32)
+  name.vb: Permute(Of T)(IEnumerable(Of T), Int32)
+  spec.csharp:
+  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Permute<T>
+    nameWithType: IEnumerableExtensions.Permute<T>
+    fullName: IEnumerableExtensions.Permute<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.Permute``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+    name: Permute(Of T)
+    nameWithType: IEnumerableExtensions.Permute(Of T)
+    fullName: IEnumerableExtensions.Permute(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+  isExternal: true
+  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V))
+  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary<T, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})
+    name: PermissiveToDictionary(Of T, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  commentId: M:IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+  isExternal: true
+  name: PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
+  nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(IEnumerable<T>, Func<T, K>, Func<T, V>, IEqualityComparer<K>)
+  fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, K>, System.Func<T, V>, System.Collections.Generic.IEqualityComparer<K>)
+  nameWithType.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
+  fullName.vb: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, K), System.Func(Of T, V), System.Collections.Generic.IEqualityComparer(Of K))
+  name.vb: PermissiveToDictionary(Of T, K, V)(IEnumerable(Of T), Func(Of T, K), Func(Of T, V), IEqualityComparer(Of K))
+  spec.csharp:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary<T, K, V>
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    fullName: IEnumerableExtensions.PermissiveToDictionary<T, K, V>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: IEnumerableExtensions.PermissiveToDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})
+    name: PermissiveToDictionary(Of T, K, V)
+    nameWithType: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    fullName: IEnumerableExtensions.PermissiveToDictionary(Of T, K, V)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Collections.Generic.IEqualityComparer`1
+    name: IEqualityComparer
+    nameWithType: IEqualityComparer
+    fullName: System.Collections.Generic.IEqualityComparer
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  commentId: M:SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+  isExternal: true
+  name: AtLeastOne<T>(IEnumerable<T>)
+  nameWithType: CollectionOps.AtLeastOne<T>(IEnumerable<T>)
+  fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>(System.Collections.Generic.IEnumerable<T>)
+  nameWithType.vb: CollectionOps.AtLeastOne(Of T)(IEnumerable(Of T))
+  fullName.vb: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  name.vb: AtLeastOne(Of T)(IEnumerable(Of T))
+  spec.csharp:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+    name: AtLeastOne<T>
+    nameWithType: CollectionOps.AtLeastOne<T>
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.CollectionOps.AtLeastOne``1(System.Collections.Generic.IEnumerable{``0})
+    name: AtLeastOne(Of T)
+    nameWithType: CollectionOps.AtLeastOne(Of T)
+    fullName: SuperOffice.Util.CollectionOps.AtLeastOne(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps
+  commentId: T:SuperOffice.Util.CollectionOps
+  parent: SuperOffice.Util
+  isExternal: true
+  name: CollectionOps
+  nameWithType: CollectionOps
+  fullName: SuperOffice.Util.CollectionOps
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.#ctor*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.#ctor
+  isExternal: true
+  name: SentryQueryInfo
+  nameWithType: SentryQueryInfo<TMainTable>.SentryQueryInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.SentryQueryInfo
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).SentryQueryInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).SentryQueryInfo
+- uid: '{TMainTable}'
+  commentId: '!:TMainTable'
+  definition: TMainTable
+  name: TMainTable
+  nameWithType: TMainTable
+  fullName: TMainTable
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: TMainTable
+  name: TMainTable
+  nameWithType: TMainTable
+  fullName: TMainTable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: AnalyzeQuery(PrivateSelect)
+  nameWithType: SentryQueryInfo.AnalyzeQuery(PrivateSelect)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+    name: AnalyzeQuery
+    nameWithType: SentryQueryInfo.AnalyzeQuery
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery(SuperOffice.Data.SQL.PrivateSelect)
+    name: AnalyzeQuery
+    nameWithType: SentryQueryInfo.AnalyzeQuery
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.AnalyzeQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.PrivateSelect
+    name: PrivateSelect
+    nameWithType: PrivateSelect
+    fullName: SuperOffice.Data.SQL.PrivateSelect
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.AnalyzeQuery
+  isExternal: true
+  name: AnalyzeQuery
+  nameWithType: SentryQueryInfo<TMainTable>.AnalyzeQuery
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.AnalyzeQuery
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).AnalyzeQuery
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).AnalyzeQuery
+- uid: SuperOffice.Data.SQL.PrivateSelect
+  commentId: T:SuperOffice.Data.SQL.PrivateSelect
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: PrivateSelect
+  nameWithType: PrivateSelect
+  fullName: SuperOffice.Data.SQL.PrivateSelect
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: CanCoverTable(TableInfo)
+  nameWithType: SentryQueryInfo.CanCoverTable(TableInfo)
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+    name: CanCoverTable
+    nameWithType: SentryQueryInfo.CanCoverTable
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable(SuperOffice.Data.SQL.TableInfo)
+    name: CanCoverTable
+    nameWithType: SentryQueryInfo.CanCoverTable
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.CanCoverTable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.CanCoverTable
+  isExternal: true
+  name: CanCoverTable
+  nameWithType: SentryQueryInfo<TMainTable>.CanCoverTable
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.CanCoverTable
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).CanCoverTable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).CanCoverTable
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.GetOwnerTableCandidates
+  isExternal: true
+  name: GetOwnerTableCandidates
+  nameWithType: SentryQueryInfo<TMainTable>.GetOwnerTableCandidates
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetOwnerTableCandidates
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetOwnerTableCandidates
+- uid: SuperOffice.Data.SQL.TableInfo[]
+  isExternal: true
+  name: TableInfo[]
+  nameWithType: TableInfo[]
+  fullName: SuperOffice.Data.SQL.TableInfo[]
+  nameWithType.vb: TableInfo()
+  fullName.vb: SuperOffice.Data.SQL.TableInfo()
+  name.vb: TableInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateTypedMembers
+  isExternal: true
+  name: UpdateTypedMembers
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateTypedMembers
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateTypedMembers
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateTypedMembers
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateTypedMembers
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.GetTypedMembers
+  isExternal: true
+  name: GetTypedMembers
+  nameWithType: SentryQueryInfo<TMainTable>.GetTypedMembers
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetTypedMembers
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetTypedMembers
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetTypedMembers
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.GetUntypedMembers
+  isExternal: true
+  name: GetUntypedMembers
+  nameWithType: SentryQueryInfo<TMainTable>.GetUntypedMembers
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetUntypedMembers
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetUntypedMembers
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetUntypedMembers
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.UpdateRelatedTableInfo
+  isExternal: true
+  name: UpdateRelatedTableInfo
+  nameWithType: SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.UpdateRelatedTableInfo
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).UpdateRelatedTableInfo
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.ReplaceRelatedTableInstance
+  isExternal: true
+  name: ReplaceRelatedTableInstance
+  nameWithType: SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ReplaceRelatedTableInstance
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ReplaceRelatedTableInstance
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+  commentId: M:SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: GetEnumerator()
+  nameWithType: SentryQueryInfo.GetEnumerator()
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SentryQueryInfo.GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+    name: GetEnumerator
+    nameWithType: SentryQueryInfo.GetEnumerator
+    fullName: SuperOffice.CRM.Security.SentryQueryInfo.GetEnumerator
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.GetEnumerator
+  isExternal: true
+  name: GetEnumerator
+  nameWithType: SentryQueryInfo<TMainTable>.GetEnumerator
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.GetEnumerator
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).GetEnumerator
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).GetEnumerator
+- uid: System.Collections.Generic.IEnumerator{SuperOffice.Data.SQL.TableInfo}
+  commentId: T:System.Collections.Generic.IEnumerator{SuperOffice.Data.SQL.TableInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerator`1
+  name: IEnumerator<TableInfo>
+  nameWithType: IEnumerator<TableInfo>
+  fullName: System.Collections.Generic.IEnumerator<SuperOffice.Data.SQL.TableInfo>
+  nameWithType.vb: IEnumerator(Of TableInfo)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of SuperOffice.Data.SQL.TableInfo)
+  name.vb: IEnumerator(Of TableInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    nameWithType: TableInfo
+    fullName: SuperOffice.Data.SQL.TableInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerator`1
+  commentId: T:System.Collections.Generic.IEnumerator`1
+  isExternal: true
+  name: IEnumerator<T>
+  nameWithType: IEnumerator<T>
+  fullName: System.Collections.Generic.IEnumerator<T>
+  nameWithType.vb: IEnumerator(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerator(Of T)
+  name.vb: IEnumerator(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: System.Collections.Generic.IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.ParentFields
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo.ParentFields
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: ParentFields
+  nameWithType: SentryQueryInfo.ParentFields
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.ParentFields
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.ParentFields
+  isExternal: true
+  name: ParentFields
+  nameWithType: SentryQueryInfo<TMainTable>.ParentFields
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.ParentFields
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).ParentFields
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).ParentFields
+- uid: SuperOffice.Data.SQL.FieldInfo[]
+  isExternal: true
+  name: FieldInfo[]
+  nameWithType: FieldInfo[]
+  fullName: SuperOffice.Data.SQL.FieldInfo[]
+  nameWithType.vb: FieldInfo()
+  fullName.vb: SuperOffice.Data.SQL.FieldInfo()
+  name.vb: FieldInfo()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    nameWithType: FieldInfo
+    fullName: SuperOffice.Data.SQL.FieldInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.MainTable
+  isExternal: true
+  name: MainTable
+  nameWithType: SentryQueryInfo<TMainTable>.MainTable
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.MainTable
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).MainTable
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).MainTable
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.HasVisibleFor
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo.HasVisibleFor
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: HasVisibleFor
+  nameWithType: SentryQueryInfo.HasVisibleFor
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.HasVisibleFor
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.HasVisibleFor
+  isExternal: true
+  name: HasVisibleFor
+  nameWithType: SentryQueryInfo<TMainTable>.HasVisibleFor
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.HasVisibleFor
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).HasVisibleFor
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).HasVisibleFor
+- uid: SuperOffice.CRM.Security.SentryQueryInfo.VisibleForTableInfo
+  commentId: P:SuperOffice.CRM.Security.SentryQueryInfo.VisibleForTableInfo
+  parent: SuperOffice.CRM.Security.SentryQueryInfo
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: SentryQueryInfo.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo.VisibleForTableInfo
+- uid: SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo*
+  commentId: Overload:SuperOffice.CRM.Security.SentryQueryInfo`1.VisibleForTableInfo
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: SentryQueryInfo<TMainTable>.VisibleForTableInfo
+  fullName: SuperOffice.CRM.Security.SentryQueryInfo<TMainTable>.VisibleForTableInfo
+  nameWithType.vb: SentryQueryInfo(Of TMainTable).VisibleForTableInfo
+  fullName.vb: SuperOffice.CRM.Security.SentryQueryInfo(Of TMainTable).VisibleForTableInfo
+- uid: SuperOffice.CRM.Data.VisibleForTableInfo
+  commentId: T:SuperOffice.CRM.Data.VisibleForTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  name: VisibleForTableInfo
+  nameWithType: VisibleForTableInfo
+  fullName: SuperOffice.CRM.Data.VisibleForTableInfo
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data

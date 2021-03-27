@@ -1,0 +1,887 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.RelationsFields
+  id: DBC.RelationsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.RelationsFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.RelationsFields.DestinationRecord
+  - SuperOffice.CRM.Data.DBC.RelationsFields.DestinationTable
+  - SuperOffice.CRM.Data.DBC.RelationsFields.EndDate
+  - SuperOffice.CRM.Data.DBC.RelationsFields.GroupIdx
+  - SuperOffice.CRM.Data.DBC.RelationsFields.Registered
+  - SuperOffice.CRM.Data.DBC.RelationsFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.RelationsFields.RelationId
+  - SuperOffice.CRM.Data.DBC.RelationsFields.Relcomment
+  - SuperOffice.CRM.Data.DBC.RelationsFields.ReldefId
+  - SuperOffice.CRM.Data.DBC.RelationsFields.RelFlags
+  - SuperOffice.CRM.Data.DBC.RelationsFields.Reversed
+  - SuperOffice.CRM.Data.DBC.RelationsFields.SourceRecord
+  - SuperOffice.CRM.Data.DBC.RelationsFields.SourceTable
+  - SuperOffice.CRM.Data.DBC.RelationsFields.StartDate
+  - SuperOffice.CRM.Data.DBC.RelationsFields.Updated
+  - SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.RelationsFields
+  nameWithType: DBC.RelationsFields
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Relations, Instance of a relation, in principle between any two records, as long as they are defined in RelationDefinition. All instances of relations are held in this table; their definitions are in the RelDef table (RelDef + RelTarg define which relations you can have, this table contains the relations the user has actually entered). From 6.1 all links between appointments, sales and documents are also stored in this tabel.\n"
+  syntax:
+    content: public static class RelationsFields
+    content.vb: Public Module RelationsFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.RelationId
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.RelationId
+  id: RelationId
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: RelationId
+  nameWithType: DBC.RelationsFields.RelationId
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.RelationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.RelationId: Primary key\n"
+  syntax:
+    content: public const string RelationId = "relation_id"
+    return:
+      type: System.String
+    content.vb: Public Const RelationId As String = "relation_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.ReldefId
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.ReldefId
+  id: ReldefId
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: ReldefId
+  nameWithType: DBC.RelationsFields.ReldefId
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.ReldefId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.ReldefId: Reference to definition\n"
+  syntax:
+    content: public const string ReldefId = "reldef_id"
+    return:
+      type: System.String
+    content.vb: Public Const ReldefId As String = "reldef_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.SourceTable
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.SourceTable
+  id: SourceTable
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: SourceTable
+  nameWithType: DBC.RelationsFields.SourceTable
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.SourceTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.SourceTable: Actual source table\n"
+  syntax:
+    content: public const string SourceTable = "source_table"
+    return:
+      type: System.String
+    content.vb: Public Const SourceTable As String = "source_table"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.SourceRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.SourceRecord
+  id: SourceRecord
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: SourceRecord
+  nameWithType: DBC.RelationsFields.SourceRecord
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.SourceRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.SourceRecord: Actual source record\n"
+  syntax:
+    content: public const string SourceRecord = "source_record"
+    return:
+      type: System.String
+    content.vb: Public Const SourceRecord As String = "source_record"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.DestinationTable
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.DestinationTable
+  id: DestinationTable
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: DestinationTable
+  nameWithType: DBC.RelationsFields.DestinationTable
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.DestinationTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.DestinationTable: Actual target table\n"
+  syntax:
+    content: public const string DestinationTable = "destination_table"
+    return:
+      type: System.String
+    content.vb: Public Const DestinationTable As String = "destination_table"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.DestinationRecord
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.DestinationRecord
+  id: DestinationRecord
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: DestinationRecord
+  nameWithType: DBC.RelationsFields.DestinationRecord
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.DestinationRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.DestinationRecord: Actual target record\n"
+  syntax:
+    content: public const string DestinationRecord = "destination_record"
+    return:
+      type: System.String
+    content.vb: Public Const DestinationRecord As String = "destination_record"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.Relcomment
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.Relcomment
+  id: Relcomment
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: Relcomment
+  nameWithType: DBC.RelationsFields.Relcomment
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.Relcomment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.Relcomment: Comment for relation\n"
+  syntax:
+    content: public const string Relcomment = "relcomment"
+    return:
+      type: System.String
+    content.vb: Public Const Relcomment As String = "relcomment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.Reversed
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.Reversed
+  id: Reversed
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: Reversed
+  nameWithType: DBC.RelationsFields.Reversed
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.Reversed
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.Reversed: Is direction reversed relative to definition\n"
+  syntax:
+    content: public const string Reversed = "reversed"
+    return:
+      type: System.String
+    content.vb: Public Const Reversed As String = "reversed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.GroupIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.GroupIdx
+  id: GroupIdx
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: GroupIdx
+  nameWithType: DBC.RelationsFields.GroupIdx
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.GroupIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.GroupIdx: User group owning this relation\n"
+  syntax:
+    content: public const string GroupIdx = "group_idx"
+    return:
+      type: System.String
+    content.vb: Public Const GroupIdx As String = "group_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.StartDate
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: DBC.RelationsFields.StartDate
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.StartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.StartDate: Start date of validity\n"
+  syntax:
+    content: public const string StartDate = "startDate"
+    return:
+      type: System.String
+    content.vb: Public Const StartDate As String = "startDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.EndDate
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: DBC.RelationsFields.EndDate
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.EndDate: End date of validity\n"
+  syntax:
+    content: public const string EndDate = "endDate"
+    return:
+      type: System.String
+    content.vb: Public Const EndDate As String = "endDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.RelFlags
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.RelFlags
+  id: RelFlags
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: RelFlags
+  nameWithType: DBC.RelationsFields.RelFlags
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.RelFlags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.RelFlags: Relation flags, meaning as yet unspecified\n"
+  syntax:
+    content: public const string RelFlags = "relFlags"
+    return:
+      type: System.String
+    content.vb: Public Const RelFlags As String = "relFlags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.RelationsFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.RelationsFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.RelationsFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.RelationsFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.RelationsFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.RelationsFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.RelationsFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.RelationsFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.RelationsFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.RelationsFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nRelations.AssociateId: Owner of this relation record\n"
+  syntax:
+    content: public const string AssociateId = "associateId"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associateId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

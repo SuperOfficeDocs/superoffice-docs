@@ -1,0 +1,900 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  commentId: T:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  id: AcceptRejectObject
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects
+  children:
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.#ctor
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime
+  - SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejectObject
+  nameWithType: AcceptRejectObject
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: 'public class AcceptRejectObject : ScriptObjectBase'
+    content.vb: >-
+      Public Class AcceptRejectObject
+          Inherits ScriptObjectBase
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  - SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: AcceptRejectObject()
+  nameWithType: AcceptRejectObject.AcceptRejectObject()
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.AcceptRejectObject()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public AcceptRejectObject()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence
+  id: Recurrence
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: Recurrence
+  nameWithType: AcceptRejectObject.Recurrence
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string Recurrence { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Recurrence As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company
+  id: Company
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: AcceptRejectObject.Company
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string Company { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Company As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type
+  id: Type
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: AcceptRejectObject.Type
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project
+  id: Project
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: AcceptRejectObject.Project
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string Project { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Project As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: AcceptRejectObject.ProjectId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProjectId As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: AcceptRejectObject.StartDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartDate As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime
+  id: StartTime
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: StartTime
+  nameWithType: AcceptRejectObject.StartTime
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string StartTime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartTime As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: AcceptRejectObject.EndDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndDate As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime
+  commentId: P:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime
+  id: EndTime
+  parent: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject
+  langs:
+  - csharp
+  - vb
+  name: EndTime
+  nameWithType: AcceptRejectObject.EndTime
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.ScriptObjects
+  syntax:
+    content: public string EndTime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndTime As String
+  overload: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.CRM.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.CRM.Web.UI.ScriptObjects
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  commentId: T:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: ScriptObjectBase
+  nameWithType: ScriptObjectBase
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: SoIdSelector(String)
+  nameWithType: ScriptObjectBase.SoIdSelector(String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector(System.String)
+    name: SoIdSelector
+    nameWithType: ScriptObjectBase.SoIdSelector
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.SoIdSelector
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateClickFunctionForSoId(String, String)
+  nameWithType: ScriptObjectBase.CreateClickFunctionForSoId(String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId(System.String,System.String)
+    name: CreateClickFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateClickFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateClickFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+  parent: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase
+  isExternal: true
+  name: CreateHoverFunctionForSoId(String, String, String)
+  nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId(String, String, String)
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId(System.String,System.String,System.String)
+    name: CreateHoverFunctionForSoId
+    nameWithType: ScriptObjectBase.CreateHoverFunctionForSoId
+    fullName: SuperOffice.DCF.Web.UI.ScriptObjects.ScriptObjectBase.CreateHoverFunctionForSoId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.ScriptObjects
+  commentId: N:SuperOffice.DCF.Web.UI.ScriptObjects
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.ScriptObjects
+  nameWithType: SuperOffice.DCF.Web.UI.ScriptObjects
+  fullName: SuperOffice.DCF.Web.UI.ScriptObjects
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.#ctor
+  isExternal: true
+  name: AcceptRejectObject
+  nameWithType: AcceptRejectObject.AcceptRejectObject
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.AcceptRejectObject
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence
+  isExternal: true
+  name: Recurrence
+  nameWithType: AcceptRejectObject.Recurrence
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Recurrence
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company
+  isExternal: true
+  name: Company
+  nameWithType: AcceptRejectObject.Company
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Company
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type
+  isExternal: true
+  name: Type
+  nameWithType: AcceptRejectObject.Type
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Type
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project
+  isExternal: true
+  name: Project
+  nameWithType: AcceptRejectObject.Project
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.Project
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: AcceptRejectObject.ProjectId
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.ProjectId
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: AcceptRejectObject.StartDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartDate
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime
+  isExternal: true
+  name: StartTime
+  nameWithType: AcceptRejectObject.StartTime
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.StartTime
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: AcceptRejectObject.EndDate
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndDate
+- uid: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime*
+  commentId: Overload:SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime
+  isExternal: true
+  name: EndTime
+  nameWithType: AcceptRejectObject.EndTime
+  fullName: SuperOffice.CRM.Web.UI.ScriptObjects.AcceptRejectObject.EndTime

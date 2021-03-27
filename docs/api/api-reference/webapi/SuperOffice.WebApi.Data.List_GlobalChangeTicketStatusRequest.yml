@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest
+  id: List_GlobalChangeTicketStatusRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.#ctor
+  - SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  - SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  langs:
+  - csharp
+  - vb
+  name: List_GlobalChangeTicketStatusRequest
+  nameWithType: List_GlobalChangeTicketStatusRequest
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GlobalChangeTicketStatusRequest : Object'
+    content.vb: >-
+      Public Class List_GlobalChangeTicketStatusRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GlobalChangeTicketStatusRequest()
+  nameWithType: List_GlobalChangeTicketStatusRequest.List_GlobalChangeTicketStatusRequest()
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.List_GlobalChangeTicketStatusRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GlobalChangeTicketStatusRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  commentId: P:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  id: FromTicketStatusId
+  parent: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: FromTicketStatusId
+  nameWithType: List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FromTicketStatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FromTicketStatusId As Integer
+  overload: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  commentId: P:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  id: ToTicketStatusId
+  parent: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest
+  langs:
+  - csharp
+  - vb
+  name: ToTicketStatusId
+  nameWithType: List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int ToTicketStatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ToTicketStatusId As Integer
+  overload: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.#ctor
+  isExternal: true
+  name: List_GlobalChangeTicketStatusRequest
+  nameWithType: List_GlobalChangeTicketStatusRequest.List_GlobalChangeTicketStatusRequest
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.List_GlobalChangeTicketStatusRequest
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  isExternal: true
+  name: FromTicketStatusId
+  nameWithType: List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.FromTicketStatusId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  isExternal: true
+  name: ToTicketStatusId
+  nameWithType: List_GlobalChangeTicketStatusRequest.ToTicketStatusId
+  fullName: SuperOffice.WebApi.Data.List_GlobalChangeTicketStatusRequest.ToTicketStatusId

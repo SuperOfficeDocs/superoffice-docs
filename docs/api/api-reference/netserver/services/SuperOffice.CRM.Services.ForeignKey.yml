@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ForeignKey
+  commentId: T:SuperOffice.CRM.Services.ForeignKey
+  id: ForeignKey
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ForeignKey.#ctor
+  - SuperOffice.CRM.Services.ForeignKey.CreatedBy
+  - SuperOffice.CRM.Services.ForeignKey.CreatedDate
+  - SuperOffice.CRM.Services.ForeignKey.Key
+  - SuperOffice.CRM.Services.ForeignKey.RecordId
+  - SuperOffice.CRM.Services.ForeignKey.TableName
+  - SuperOffice.CRM.Services.ForeignKey.ToString
+  - SuperOffice.CRM.Services.ForeignKey.ToString(System.String)
+  - SuperOffice.CRM.Services.ForeignKey.UpdatedBy
+  - SuperOffice.CRM.Services.ForeignKey.UpdatedDate
+  - SuperOffice.CRM.Services.ForeignKey.Value
+  langs:
+  - csharp
+  - vb
+  name: ForeignKey
+  nameWithType: ForeignKey
+  fullName: SuperOffice.CRM.Services.ForeignKey
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for ForeignKey.\nServices for the ForeignKey Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IForeignSystemAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ForeignKey : Carrier'
+    content.vb: >-
+      Public Class ForeignKey
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ForeignSystemAgent
+    commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
+  - linkId: SuperOffice.CRM.Services.IForeignSystemAgent
+    commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ForeignKey.#ctor
+  commentId: M:SuperOffice.CRM.Services.ForeignKey.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: ForeignKey()
+  nameWithType: ForeignKey.ForeignKey()
+  fullName: SuperOffice.CRM.Services.ForeignKey.ForeignKey()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ForeignKey()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ForeignKey.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignKey.ToString
+  commentId: M:SuperOffice.CRM.Services.ForeignKey.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ForeignKey.ToString()
+  fullName: SuperOffice.CRM.Services.ForeignKey.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ForeignKey.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ForeignKey.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ForeignKey.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ForeignKey.ToString(String)
+  fullName: SuperOffice.CRM.Services.ForeignKey.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ForeignKey.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ForeignKey.Key
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.Key
+  id: Key
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: ForeignKey.Key
+  fullName: SuperOffice.CRM.Services.ForeignKey.Key
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSubkey (optional) \n"
+  syntax:
+    content: public virtual string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Key As String
+  overload: SuperOffice.CRM.Services.ForeignKey.Key*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.Value
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.Value
+  id: Value
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ForeignKey.Value
+  fullName: SuperOffice.CRM.Services.ForeignKey.Value
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nKey value \n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.CRM.Services.ForeignKey.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.RecordId
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.RecordId
+  id: RecordId
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: RecordId
+  nameWithType: ForeignKey.RecordId
+  fullName: SuperOffice.CRM.Services.ForeignKey.RecordId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRecord in the referenced table \n"
+  syntax:
+    content: public virtual int RecordId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecordId As Integer
+  overload: SuperOffice.CRM.Services.ForeignKey.RecordId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.CreatedDate
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.CreatedDate
+  id: CreatedDate
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: CreatedDate
+  nameWithType: ForeignKey.CreatedDate
+  fullName: SuperOffice.CRM.Services.ForeignKey.CreatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime CreatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedDate As Date
+  overload: SuperOffice.CRM.Services.ForeignKey.CreatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.UpdatedDate
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.UpdatedDate
+  id: UpdatedDate
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: UpdatedDate
+  nameWithType: ForeignKey.UpdatedDate
+  fullName: SuperOffice.CRM.Services.ForeignKey.UpdatedDate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime UpdatedDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property UpdatedDate As Date
+  overload: SuperOffice.CRM.Services.ForeignKey.UpdatedDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.UpdatedBy
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.UpdatedBy
+  id: UpdatedBy
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: UpdatedBy
+  nameWithType: ForeignKey.UpdatedBy
+  fullName: SuperOffice.CRM.Services.ForeignKey.UpdatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the person that last updated the foreign key \n"
+  syntax:
+    content: public virtual string UpdatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property UpdatedBy As String
+  overload: SuperOffice.CRM.Services.ForeignKey.UpdatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: ForeignKey.CreatedBy
+  fullName: SuperOffice.CRM.Services.ForeignKey.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of the person that created the foreign key \n"
+  syntax:
+    content: public virtual string CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CreatedBy As String
+  overload: SuperOffice.CRM.Services.ForeignKey.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ForeignKey.TableName
+  commentId: P:SuperOffice.CRM.Services.ForeignKey.TableName
+  id: TableName
+  parent: SuperOffice.CRM.Services.ForeignKey
+  langs:
+  - csharp
+  - vb
+  name: TableName
+  nameWithType: ForeignKey.TableName
+  fullName: SuperOffice.CRM.Services.ForeignKey.TableName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTable name, transformed to and from numeric table id by the service layer \n"
+  syntax:
+    content: public virtual string TableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TableName As String
+  overload: SuperOffice.CRM.Services.ForeignKey.TableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ForeignSystemAgent
+  commentId: T:SuperOffice.CRM.Services.ForeignSystemAgent
+  isExternal: true
+  name: ForeignSystemAgent
+  nameWithType: ForeignSystemAgent
+  fullName: SuperOffice.CRM.Services.ForeignSystemAgent
+- uid: SuperOffice.CRM.Services.IForeignSystemAgent
+  commentId: T:SuperOffice.CRM.Services.IForeignSystemAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IForeignSystemAgent
+  nameWithType: IForeignSystemAgent
+  fullName: SuperOffice.CRM.Services.IForeignSystemAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ForeignKey.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.#ctor
+  isExternal: true
+  name: ForeignKey
+  nameWithType: ForeignKey.ForeignKey
+  fullName: SuperOffice.CRM.Services.ForeignKey.ForeignKey
+- uid: SuperOffice.CRM.Services.ForeignKey.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ForeignKey.ToString
+  fullName: SuperOffice.CRM.Services.ForeignKey.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ForeignKey.Key*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.Key
+  isExternal: true
+  name: Key
+  nameWithType: ForeignKey.Key
+  fullName: SuperOffice.CRM.Services.ForeignKey.Key
+- uid: SuperOffice.CRM.Services.ForeignKey.Value*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.Value
+  isExternal: true
+  name: Value
+  nameWithType: ForeignKey.Value
+  fullName: SuperOffice.CRM.Services.ForeignKey.Value
+- uid: SuperOffice.CRM.Services.ForeignKey.RecordId*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.RecordId
+  isExternal: true
+  name: RecordId
+  nameWithType: ForeignKey.RecordId
+  fullName: SuperOffice.CRM.Services.ForeignKey.RecordId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ForeignKey.CreatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.CreatedDate
+  isExternal: true
+  name: CreatedDate
+  nameWithType: ForeignKey.CreatedDate
+  fullName: SuperOffice.CRM.Services.ForeignKey.CreatedDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.ForeignKey.UpdatedDate*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.UpdatedDate
+  isExternal: true
+  name: UpdatedDate
+  nameWithType: ForeignKey.UpdatedDate
+  fullName: SuperOffice.CRM.Services.ForeignKey.UpdatedDate
+- uid: SuperOffice.CRM.Services.ForeignKey.UpdatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.UpdatedBy
+  isExternal: true
+  name: UpdatedBy
+  nameWithType: ForeignKey.UpdatedBy
+  fullName: SuperOffice.CRM.Services.ForeignKey.UpdatedBy
+- uid: SuperOffice.CRM.Services.ForeignKey.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: ForeignKey.CreatedBy
+  fullName: SuperOffice.CRM.Services.ForeignKey.CreatedBy
+- uid: SuperOffice.CRM.Services.ForeignKey.TableName*
+  commentId: Overload:SuperOffice.CRM.Services.ForeignKey.TableName
+  isExternal: true
+  name: TableName
+  nameWithType: ForeignKey.TableName
+  fullName: SuperOffice.CRM.Services.ForeignKey.TableName

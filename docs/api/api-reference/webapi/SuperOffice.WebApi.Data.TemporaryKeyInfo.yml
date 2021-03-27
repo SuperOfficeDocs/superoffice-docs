@@ -1,0 +1,431 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  commentId: T:SuperOffice.WebApi.Data.TemporaryKeyInfo
+  id: TemporaryKeyInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
+  - SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  - SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  - SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  - SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+  - SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  langs:
+  - csharp
+  - vb
+  name: TemporaryKeyInfo
+  nameWithType: TemporaryKeyInfo
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for TemporaryKeyInfo.\nThe fields returned when checking a temporary key    \n"
+  syntax:
+    content: 'public class TemporaryKeyInfo : Carrier'
+    content.vb: >-
+      Public Class TemporaryKeyInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: TemporaryKeyInfo()
+  nameWithType: TemporaryKeyInfo.TemporaryKeyInfo()
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TemporaryKeyInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public TemporaryKeyInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  id: Domain_String
+  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: Domain_String
+  nameWithType: TemporaryKeyInfo.Domain_String
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe domain for this key. Unknown if key is not valid.\nRaw string enum value.\n"
+  syntax:
+    content: public string Domain_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Domain_String As String
+  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+    commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  id: Domain
+  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: Domain
+  nameWithType: TemporaryKeyInfo.Domain
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe domain for this key. Unknown if key is not valid.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<TemporaryKeyDomain> Domain { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.TemporaryKeyDomain}
+    content.vb: Public Property Domain As Nullable(Of TemporaryKeyDomain)
+  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+    commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  id: TargetId
+  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: TargetId
+  nameWithType: TemporaryKeyInfo.TargetId
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe primary key of the entity this temporary key is for, dependent of dmain\n"
+  syntax:
+    content: public virtual int TargetId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TargetId As Integer
+  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: TemporaryKeyInfo.PersonId
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe person id this key is related to. May be null.\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  id: IsExpired
+  parent: SuperOffice.WebApi.Data.TemporaryKeyInfo
+  langs:
+  - csharp
+  - vb
+  name: IsExpired
+  nameWithType: TemporaryKeyInfo.IsExpired
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhether the key is expired or not.\n"
+  syntax:
+    content: public virtual bool IsExpired { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsExpired As Boolean
+  overload: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.#ctor
+  isExternal: true
+  name: TemporaryKeyInfo
+  nameWithType: TemporaryKeyInfo.TemporaryKeyInfo
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TemporaryKeyInfo
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String*
+  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  isExternal: true
+  name: Domain_String
+  nameWithType: TemporaryKeyInfo.Domain_String
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain*
+  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+  isExternal: true
+  name: Domain
+  nameWithType: TemporaryKeyInfo.Domain
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  commentId: P:SuperOffice.WebApi.Data.TemporaryKeyInfo.Domain_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.TemporaryKeyDomain}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.TemporaryKeyDomain}'
+  definition: System.Nullable`1
+  name: Nullable<TemporaryKeyDomain>
+  nameWithType: Nullable<TemporaryKeyDomain>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.TemporaryKeyDomain>
+  nameWithType.vb: Nullable(Of TemporaryKeyDomain)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.TemporaryKeyDomain)
+  name.vb: Nullable(Of TemporaryKeyDomain)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    nameWithType: TemporaryKeyDomain
+    fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    name: TemporaryKeyDomain
+    nameWithType: TemporaryKeyDomain
+    fullName: SuperOffice.WebApi.Data.TemporaryKeyDomain
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+  isExternal: true
+  name: TargetId
+  nameWithType: TemporaryKeyInfo.TargetId
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.TargetId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: TemporaryKeyInfo.PersonId
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.PersonId
+- uid: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired*
+  commentId: Overload:SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+  isExternal: true
+  name: IsExpired
+  nameWithType: TemporaryKeyInfo.IsExpired
+  fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo.IsExpired
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

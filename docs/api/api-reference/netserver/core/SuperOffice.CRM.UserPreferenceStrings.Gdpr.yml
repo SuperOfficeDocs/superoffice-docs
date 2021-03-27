@@ -1,0 +1,893 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  id: UserPreferenceStrings.Gdpr
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultEmailTemplate
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBase
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBaseKey_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSource
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSourceKey_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentComment
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentSource
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportLegalBase
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey_HardDefault
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultEmailTemplate
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew
+  - SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew_HardDefault
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Gdpr
+  nameWithType: UserPreferenceStrings.Gdpr
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nGDPR - Misc\n"
+  syntax:
+    content: public static class Gdpr
+    content.vb: Public Module Gdpr
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Gdpr.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public const string Section = "GDPR"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "GDPR"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSource
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSource
+  id: DefaultSource
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: DefaultSource
+  nameWithType: UserPreferenceStrings.Gdpr.DefaultSource
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSource
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault source key for new persons\n"
+  syntax:
+    content: public const string DefaultSource = "GdprDefaultSource"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSource As String = "GdprDefaultSource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSourceKey_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSourceKey_HardDefault
+  id: DefaultSourceKey_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: DefaultSourceKey_HardDefault
+  nameWithType: UserPreferenceStrings.Gdpr.DefaultSourceKey_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultSourceKey_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard Default source key for new persons\n"
+  syntax:
+    content: public const string DefaultSourceKey_HardDefault = "USER"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSourceKey_HardDefault As String = "USER"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBase
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBase
+  id: DefaultLegalBase
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: DefaultLegalBase
+  nameWithType: UserPreferenceStrings.Gdpr.DefaultLegalBase
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBase
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault legal base for new persons.\n"
+  syntax:
+    content: public const string DefaultLegalBase = "GdprDefaultLegalBase"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultLegalBase As String = "GdprDefaultLegalBase"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBaseKey_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBaseKey_HardDefault
+  id: DefaultLegalBaseKey_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: DefaultLegalBaseKey_HardDefault
+  nameWithType: UserPreferenceStrings.Gdpr.DefaultLegalBaseKey_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultLegalBaseKey_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard Default legal base for new persons.\n"
+  syntax:
+    content: public const string DefaultLegalBaseKey_HardDefault = ""
+    return:
+      type: System.String
+    content.vb: Public Const DefaultLegalBaseKey_HardDefault As String = ""
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew
+  id: UseDefaultsForNew
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultsForNew
+  nameWithType: UserPreferenceStrings.Gdpr.UseDefaultsForNew
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUse defaults when storing new person    \n"
+  syntax:
+    content: public const string UseDefaultsForNew = "GdprUseDefaultsForNew"
+    return:
+      type: System.String
+    content.vb: Public Const UseDefaultsForNew As String = "GdprUseDefaultsForNew"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew_HardDefault
+  id: UseDefaultsForNew_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultsForNew_HardDefault
+  nameWithType: UserPreferenceStrings.Gdpr.UseDefaultsForNew_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultsForNew_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard Default for Use defaults when storing new person\n"
+  syntax:
+    content: public const bool UseDefaultsForNew_HardDefault = true
+    return:
+      type: System.Boolean
+    content.vb: Public Const UseDefaultsForNew_HardDefault As Boolean = True
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultEmailTemplate
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultEmailTemplate
+  id: DefaultEmailTemplate
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: DefaultEmailTemplate
+  nameWithType: UserPreferenceStrings.Gdpr.DefaultEmailTemplate
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.DefaultEmailTemplate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault email template for sending to new persons stored in the data base.\n"
+  syntax:
+    content: public const string DefaultEmailTemplate = "GdprDefaultEmailTemplate"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultEmailTemplate As String = "GdprDefaultEmailTemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultEmailTemplate
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultEmailTemplate
+  id: UseDefaultEmailTemplate
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: UseDefaultEmailTemplate
+  nameWithType: UserPreferenceStrings.Gdpr.UseDefaultEmailTemplate
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.UseDefaultEmailTemplate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault email template for sending to new persons stored in the data base.\n"
+  syntax:
+    content: public const string UseDefaultEmailTemplate = "GdprUseDefaultEmailTemplate"
+    return:
+      type: System.String
+    content.vb: Public Const UseDefaultEmailTemplate As String = "GdprUseDefaultEmailTemplate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey
+  id: NoMailings_ConsentPurposeKey
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: NoMailings_ConsentPurposeKey
+  nameWithType: UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nConsentPurpose key to use when turning OFF mailings.\n"
+  syntax:
+    content: public const string NoMailings_ConsentPurposeKey = "NoMailings_ConsentPurposeKey"
+    return:
+      type: System.String
+    content.vb: Public Const NoMailings_ConsentPurposeKey As String = "NoMailings_ConsentPurposeKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey_HardDefault
+  id: NoMailings_ConsentPurposeKey_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: NoMailings_ConsentPurposeKey_HardDefault
+  nameWithType: UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentPurposeKey_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard default for NoMailings_ConsentPurposeKey\n"
+  syntax:
+    content: public const string NoMailings_ConsentPurposeKey_HardDefault = "EMARKETING"
+    return:
+      type: System.String
+    content.vb: Public Const NoMailings_ConsentPurposeKey_HardDefault As String = "EMARKETING"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey
+  id: NoMailings_LegalBaseKey
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: NoMailings_LegalBaseKey
+  nameWithType: UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLegalBase key to use when turning OFF mailings.\n"
+  syntax:
+    content: public const string NoMailings_LegalBaseKey = "NoMailings_LegalBaseKey"
+    return:
+      type: System.String
+    content.vb: Public Const NoMailings_LegalBaseKey As String = "NoMailings_LegalBaseKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey_HardDefault
+  id: NoMailings_LegalBaseKey_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: NoMailings_LegalBaseKey_HardDefault
+  nameWithType: UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_LegalBaseKey_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard default for NoMailings_LegalBaseKey\n"
+  syntax:
+    content: public const string NoMailings_LegalBaseKey_HardDefault = "WITHDRAWN"
+    return:
+      type: System.String
+    content.vb: Public Const NoMailings_LegalBaseKey_HardDefault As String = "WITHDRAWN"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey
+  id: NoMailings_ConsentSourceKey
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: NoMailings_ConsentSourceKey
+  nameWithType: UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nConsentSource key to use when turning OFF mailings.\n"
+  syntax:
+    content: public const string NoMailings_ConsentSourceKey = "NoMailings_ConsentSourceKey"
+    return:
+      type: System.String
+    content.vb: Public Const NoMailings_ConsentSourceKey As String = "NoMailings_ConsentSourceKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey_HardDefault
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey_HardDefault
+  id: NoMailings_ConsentSourceKey_HardDefault
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: NoMailings_ConsentSourceKey_HardDefault
+  nameWithType: UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey_HardDefault
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.NoMailings_ConsentSourceKey_HardDefault
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHard default for oMailings_ConsentSourceKey\n"
+  syntax:
+    content: public const string NoMailings_ConsentSourceKey_HardDefault = "USER"
+    return:
+      type: System.String
+    content.vb: Public Const NoMailings_ConsentSourceKey_HardDefault As String = "USER"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportLegalBase
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportLegalBase
+  id: ImportLegalBase
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: ImportLegalBase
+  nameWithType: UserPreferenceStrings.Gdpr.ImportLegalBase
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportLegalBase
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nLegal base set for consent on imported persons\n"
+  syntax:
+    content: public const string ImportLegalBase = "ImportLegalBase"
+    return:
+      type: System.String
+    content.vb: Public Const ImportLegalBase As String = "ImportLegalBase"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentSource
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentSource
+  id: ImportConsentSource
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: ImportConsentSource
+  nameWithType: UserPreferenceStrings.Gdpr.ImportConsentSource
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentSource
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nConsent source set for consent on imported persons\n"
+  syntax:
+    content: public const string ImportConsentSource = "ImportConsentSource"
+    return:
+      type: System.String
+    content.vb: Public Const ImportConsentSource As String = "ImportConsentSource"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentComment
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentComment
+  id: ImportConsentComment
+  parent: SuperOffice.CRM.UserPreferenceStrings.Gdpr
+  langs:
+  - csharp
+  - vb
+  name: ImportConsentComment
+  nameWithType: UserPreferenceStrings.Gdpr.ImportConsentComment
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Gdpr.ImportConsentComment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nConsent source set for consent on imported persons\n"
+  syntax:
+    content: public const string ImportConsentComment = "ImportConsentComment"
+    return:
+      type: System.String
+    content.vb: Public Const ImportConsentComment As String = "ImportConsentComment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

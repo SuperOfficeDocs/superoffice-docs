@@ -1,0 +1,4519 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.SerializationReader
+  commentId: T:SuperOffice.IO.SerializationReader
+  id: SerializationReader
+  parent: SuperOffice.IO
+  children:
+  - SuperOffice.IO.SerializationReader.#ctor(System.Byte[])
+  - SuperOffice.IO.SerializationReader.#ctor(System.IO.Stream)
+  - SuperOffice.IO.SerializationReader.BytesRemaining
+  - SuperOffice.IO.SerializationReader.DumpStringTables(System.Collections.ArrayList)
+  - SuperOffice.IO.SerializationReader.ReadArrayList
+  - SuperOffice.IO.SerializationReader.ReadBitArray
+  - SuperOffice.IO.SerializationReader.ReadBitVector32
+  - SuperOffice.IO.SerializationReader.ReadBooleanArray
+  - SuperOffice.IO.SerializationReader.ReadByteArray
+  - SuperOffice.IO.SerializationReader.ReadBytesDirect(System.Int32)
+  - SuperOffice.IO.SerializationReader.ReadCharArray
+  - SuperOffice.IO.SerializationReader.ReadDateTime
+  - SuperOffice.IO.SerializationReader.ReadDateTimeArray
+  - SuperOffice.IO.SerializationReader.ReadDecimalArray
+  - SuperOffice.IO.SerializationReader.ReadDoubleArray
+  - SuperOffice.IO.SerializationReader.ReadGuid
+  - SuperOffice.IO.SerializationReader.ReadGuidArray
+  - SuperOffice.IO.SerializationReader.ReadInt16Array
+  - SuperOffice.IO.SerializationReader.ReadInt32Array
+  - SuperOffice.IO.SerializationReader.ReadInt64Array
+  - SuperOffice.IO.SerializationReader.ReadObject
+  - SuperOffice.IO.SerializationReader.ReadObjectArray
+  - SuperOffice.IO.SerializationReader.ReadObjectArray(System.Type)
+  - SuperOffice.IO.SerializationReader.ReadOptimizedArrayList
+  - SuperOffice.IO.SerializationReader.ReadOptimizedBitArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32
+  - SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedDateTime
+  - SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedDecimal
+  - SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedInt16
+  - SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array
+  - SuperOffice.IO.SerializationReader.ReadOptimizedInt32
+  - SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array
+  - SuperOffice.IO.SerializationReader.ReadOptimizedInt64
+  - SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array
+  - SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray(System.Type)
+  - SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair(System.Object[]@,System.Object[]@)
+  - SuperOffice.IO.SerializationReader.ReadOptimizedString
+  - SuperOffice.IO.SerializationReader.ReadOptimizedStringArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan
+  - SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray
+  - SuperOffice.IO.SerializationReader.ReadOptimizedType
+  - SuperOffice.IO.SerializationReader.ReadOptimizedType(System.Boolean)
+  - SuperOffice.IO.SerializationReader.ReadOptimizedUInt16
+  - SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array
+  - SuperOffice.IO.SerializationReader.ReadOptimizedUInt32
+  - SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array
+  - SuperOffice.IO.SerializationReader.ReadOptimizedUInt64
+  - SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array
+  - SuperOffice.IO.SerializationReader.ReadOwnedData(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  - SuperOffice.IO.SerializationReader.ReadSByteArray
+  - SuperOffice.IO.SerializationReader.ReadSingleArray
+  - SuperOffice.IO.SerializationReader.ReadString
+  - SuperOffice.IO.SerializationReader.ReadStringArray
+  - SuperOffice.IO.SerializationReader.ReadStringDirect
+  - SuperOffice.IO.SerializationReader.ReadTimeSpan
+  - SuperOffice.IO.SerializationReader.ReadTimeSpanArray
+  - SuperOffice.IO.SerializationReader.ReadTokenizedObject
+  - SuperOffice.IO.SerializationReader.ReadType
+  - SuperOffice.IO.SerializationReader.ReadType(System.Boolean)
+  - SuperOffice.IO.SerializationReader.ReadTypedArray
+  - SuperOffice.IO.SerializationReader.ReadUInt16Array
+  - SuperOffice.IO.SerializationReader.ReadUInt32Array
+  - SuperOffice.IO.SerializationReader.ReadUInt64Array
+  langs:
+  - csharp
+  - vb
+  name: SerializationReader
+  nameWithType: SerializationReader
+  fullName: SuperOffice.IO.SerializationReader
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nA SerializationReader instance is used to read stored values and objects from a byte array.\n\nOnce an instance is created, use the various methods to read the required data.\nThe data read MUST be exactly the same type and in the same order as it was written.\n"
+  syntax:
+    content: 'public sealed class SerializationReader : BinaryReader, IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SerializationReader
+          Inherits BinaryReader
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - System.IO.BinaryReader
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.IO.BinaryReader.Close
+  - System.IO.BinaryReader.Dispose(System.Boolean)
+  - System.IO.BinaryReader.Dispose
+  - System.IO.BinaryReader.PeekChar
+  - System.IO.BinaryReader.Read
+  - System.IO.BinaryReader.ReadBoolean
+  - System.IO.BinaryReader.ReadByte
+  - System.IO.BinaryReader.ReadSByte
+  - System.IO.BinaryReader.ReadChar
+  - System.IO.BinaryReader.ReadInt16
+  - System.IO.BinaryReader.ReadUInt16
+  - System.IO.BinaryReader.ReadInt32
+  - System.IO.BinaryReader.ReadUInt32
+  - System.IO.BinaryReader.ReadInt64
+  - System.IO.BinaryReader.ReadUInt64
+  - System.IO.BinaryReader.ReadSingle
+  - System.IO.BinaryReader.ReadDouble
+  - System.IO.BinaryReader.ReadDecimal
+  - System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
+  - System.IO.BinaryReader.ReadChars(System.Int32)
+  - System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
+  - System.IO.BinaryReader.ReadBytes(System.Int32)
+  - System.IO.BinaryReader.FillBuffer(System.Int32)
+  - System.IO.BinaryReader.Read7BitEncodedInt
+  - System.IO.BinaryReader.BaseStream
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.IO.SerializationReader.EnumUtil.MapEnums``2
+  - SuperOffice.IO.SerializationReader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.IO.SerializationReader.#ctor(System.Byte[])
+  commentId: M:SuperOffice.IO.SerializationReader.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: SerializationReader(Byte[])
+  nameWithType: SerializationReader.SerializationReader(Byte[])
+  fullName: SuperOffice.IO.SerializationReader.SerializationReader(System.Byte[])
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCreates a SerializationReader using a byte[] previous created by SerializationWriter\n\nA MemoryStream is used to access the data without making a copy of it.\n"
+  syntax:
+    content: public SerializationReader(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: The byte[] containining serialized data.
+    content.vb: Public Sub New(data As Byte())
+  overload: SuperOffice.IO.SerializationReader.#ctor*
+  nameWithType.vb: SerializationReader.SerializationReader(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationReader.SerializationReader(System.Byte())
+  name.vb: SerializationReader(Byte())
+- uid: SuperOffice.IO.SerializationReader.#ctor(System.IO.Stream)
+  commentId: M:SuperOffice.IO.SerializationReader.#ctor(System.IO.Stream)
+  id: '#ctor(System.IO.Stream)'
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: SerializationReader(Stream)
+  nameWithType: SerializationReader.SerializationReader(Stream)
+  fullName: SuperOffice.IO.SerializationReader.SerializationReader(System.IO.Stream)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCreates a SerializationReader based on the passed Stream.\n"
+  syntax:
+    content: public SerializationReader(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: The stream containing the serialized data
+    content.vb: Public Sub New(stream As Stream)
+  overload: SuperOffice.IO.SerializationReader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadArrayList
+  commentId: M:SuperOffice.IO.SerializationReader.ReadArrayList
+  id: ReadArrayList
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadArrayList()
+  nameWithType: SerializationReader.ReadArrayList()
+  fullName: SuperOffice.IO.SerializationReader.ReadArrayList()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an ArrayList or null from the stream.\n"
+  syntax:
+    content: public ArrayList ReadArrayList()
+    return:
+      type: System.Collections.ArrayList
+      description: An ArrayList instance.
+    content.vb: Public Function ReadArrayList As ArrayList
+  overload: SuperOffice.IO.SerializationReader.ReadArrayList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadBitArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadBitArray
+  id: ReadBitArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadBitArray()
+  nameWithType: SerializationReader.ReadBitArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadBitArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a BitArray or null from the stream.\n"
+  syntax:
+    content: public BitArray ReadBitArray()
+    return:
+      type: System.Collections.BitArray
+      description: A BitArray instance.
+    content.vb: Public Function ReadBitArray As BitArray
+  overload: SuperOffice.IO.SerializationReader.ReadBitArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadBitVector32
+  commentId: M:SuperOffice.IO.SerializationReader.ReadBitVector32
+  id: ReadBitVector32
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadBitVector32()
+  nameWithType: SerializationReader.ReadBitVector32()
+  fullName: SuperOffice.IO.SerializationReader.ReadBitVector32()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a BitVector32 value from the stream.\n"
+  syntax:
+    content: public BitVector32 ReadBitVector32()
+    return:
+      type: System.Collections.Specialized.BitVector32
+      description: A BitVector32 value.
+    content.vb: Public Function ReadBitVector32 As BitVector32
+  overload: SuperOffice.IO.SerializationReader.ReadBitVector32*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadBytesDirect(System.Int32)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadBytesDirect(System.Int32)
+  id: ReadBytesDirect(System.Int32)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadBytesDirect(Int32)
+  nameWithType: SerializationReader.ReadBytesDirect(Int32)
+  fullName: SuperOffice.IO.SerializationReader.ReadBytesDirect(System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReads the specified number of bytes directly from the stream.\n"
+  syntax:
+    content: public byte[] ReadBytesDirect(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: The number of bytes to read
+    return:
+      type: System.Byte[]
+      description: A byte[] containing the read bytes
+    content.vb: Public Function ReadBytesDirect(count As Integer) As Byte()
+  overload: SuperOffice.IO.SerializationReader.ReadBytesDirect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadDateTime
+  commentId: M:SuperOffice.IO.SerializationReader.ReadDateTime
+  id: ReadDateTime
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadDateTime()
+  nameWithType: SerializationReader.ReadDateTime()
+  fullName: SuperOffice.IO.SerializationReader.ReadDateTime()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a DateTime value from the stream.\n"
+  syntax:
+    content: public DateTime ReadDateTime()
+    return:
+      type: System.DateTime
+      description: A DateTime value.
+    content.vb: Public Function ReadDateTime As Date
+  overload: SuperOffice.IO.SerializationReader.ReadDateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadGuid
+  commentId: M:SuperOffice.IO.SerializationReader.ReadGuid
+  id: ReadGuid
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadGuid()
+  nameWithType: SerializationReader.ReadGuid()
+  fullName: SuperOffice.IO.SerializationReader.ReadGuid()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Guid value from the stream.\n"
+  syntax:
+    content: public Guid ReadGuid()
+    return:
+      type: System.Guid
+      description: A DateTime value.
+    content.vb: Public Function ReadGuid As Guid
+  overload: SuperOffice.IO.SerializationReader.ReadGuid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadObject
+  commentId: M:SuperOffice.IO.SerializationReader.ReadObject
+  id: ReadObject
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadObject()
+  nameWithType: SerializationReader.ReadObject()
+  fullName: SuperOffice.IO.SerializationReader.ReadObject()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an object based on the SerializedType read next from the stream.\n"
+  syntax:
+    content: public object ReadObject()
+    return:
+      type: System.Object
+      description: An object instance.
+    content.vb: Public Function ReadObject As Object
+  overload: SuperOffice.IO.SerializationReader.ReadObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadString
+  commentId: M:SuperOffice.IO.SerializationReader.ReadString
+  id: ReadString
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadString()
+  nameWithType: SerializationReader.ReadString()
+  fullName: SuperOffice.IO.SerializationReader.ReadString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nCalled ReadOptimizedString().\nThis override to hide base BinaryReader.ReadString().\n"
+  syntax:
+    content: public override string ReadString()
+    return:
+      type: System.String
+      description: A string value.
+    content.vb: Public Overrides Function ReadString As String
+  overridden: System.IO.BinaryReader.ReadString
+  overload: SuperOffice.IO.SerializationReader.ReadString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.IO.SerializationReader.ReadStringDirect
+  commentId: M:SuperOffice.IO.SerializationReader.ReadStringDirect
+  id: ReadStringDirect
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadStringDirect()
+  nameWithType: SerializationReader.ReadStringDirect()
+  fullName: SuperOffice.IO.SerializationReader.ReadStringDirect()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a string value from the stream.\n"
+  syntax:
+    content: public string ReadStringDirect()
+    return:
+      type: System.String
+      description: A string value.
+    content.vb: Public Function ReadStringDirect As String
+  overload: SuperOffice.IO.SerializationReader.ReadStringDirect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadTimeSpan
+  commentId: M:SuperOffice.IO.SerializationReader.ReadTimeSpan
+  id: ReadTimeSpan
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadTimeSpan()
+  nameWithType: SerializationReader.ReadTimeSpan()
+  fullName: SuperOffice.IO.SerializationReader.ReadTimeSpan()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a TimeSpan value from the stream.\n"
+  syntax:
+    content: public TimeSpan ReadTimeSpan()
+    return:
+      type: System.TimeSpan
+      description: A TimeSpan value.
+    content.vb: Public Function ReadTimeSpan As TimeSpan
+  overload: SuperOffice.IO.SerializationReader.ReadTimeSpan*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadType
+  commentId: M:SuperOffice.IO.SerializationReader.ReadType
+  id: ReadType
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadType()
+  nameWithType: SerializationReader.ReadType()
+  fullName: SuperOffice.IO.SerializationReader.ReadType()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Type or null from the stream.\n\nThrows an exception if the Type cannot be found.\n"
+  syntax:
+    content: public Type ReadType()
+    return:
+      type: System.Type
+      description: A Type instance.
+    content.vb: Public Function ReadType As Type
+  overload: SuperOffice.IO.SerializationReader.ReadType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadType(System.Boolean)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadType(System.Boolean)
+  id: ReadType(System.Boolean)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadType(Boolean)
+  nameWithType: SerializationReader.ReadType(Boolean)
+  fullName: SuperOffice.IO.SerializationReader.ReadType(System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Type or null from the stream.\n\nThrows an exception if the Type cannot be found and throwOnError is true.\n"
+  syntax:
+    content: public Type ReadType(bool throwOnError)
+    parameters:
+    - id: throwOnError
+      type: System.Boolean
+    return:
+      type: System.Type
+      description: A Type instance.
+    content.vb: Public Function ReadType(throwOnError As Boolean) As Type
+  overload: SuperOffice.IO.SerializationReader.ReadType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedArrayList
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedArrayList
+  id: ReadOptimizedArrayList
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedArrayList()
+  nameWithType: SerializationReader.ReadOptimizedArrayList()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedArrayList()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an ArrayList from the stream that was stored optimized.\n"
+  syntax:
+    content: public ArrayList ReadOptimizedArrayList()
+    return:
+      type: System.Collections.ArrayList
+      description: An ArrayList instance.
+    content.vb: Public Function ReadOptimizedArrayList As ArrayList
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedArrayList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedBitArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedBitArray
+  id: ReadOptimizedBitArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedBitArray()
+  nameWithType: SerializationReader.ReadOptimizedBitArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBitArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a BitArray from the stream that was stored optimized.\n"
+  syntax:
+    content: public BitArray ReadOptimizedBitArray()
+    return:
+      type: System.Collections.BitArray
+      description: A BitArray instance.
+    content.vb: Public Function ReadOptimizedBitArray As BitArray
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedBitArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32
+  id: ReadOptimizedBitVector32
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedBitVector32()
+  nameWithType: SerializationReader.ReadOptimizedBitVector32()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a BitVector32 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public BitVector32 ReadOptimizedBitVector32()
+    return:
+      type: System.Collections.Specialized.BitVector32
+      description: A BitVector32 value.
+    content.vb: Public Function ReadOptimizedBitVector32 As BitVector32
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedDateTime
+  id: ReadOptimizedDateTime
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedDateTime()
+  nameWithType: SerializationReader.ReadOptimizedDateTime()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a DateTime value from the stream that was stored optimized.\n"
+  syntax:
+    content: public DateTime ReadOptimizedDateTime()
+    return:
+      type: System.DateTime
+      description: A DateTime value.
+    content.vb: Public Function ReadOptimizedDateTime As Date
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedDecimal
+  id: ReadOptimizedDecimal
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedDecimal()
+  nameWithType: SerializationReader.ReadOptimizedDecimal()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Decimal value from the stream that was stored optimized.\n"
+  syntax:
+    content: public decimal ReadOptimizedDecimal()
+    return:
+      type: System.Decimal
+      description: A Decimal value.
+    content.vb: Public Function ReadOptimizedDecimal As Decimal
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt32
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedInt32
+  id: ReadOptimizedInt32
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedInt32()
+  nameWithType: SerializationReader.ReadOptimizedInt32()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt32()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an Int32 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public int ReadOptimizedInt32()
+    return:
+      type: System.Int32
+      description: An Int32 value.
+    content.vb: Public Function ReadOptimizedInt32 As Integer
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedInt32*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt16
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedInt16
+  id: ReadOptimizedInt16
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedInt16()
+  nameWithType: SerializationReader.ReadOptimizedInt16()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt16()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an Int16 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public short ReadOptimizedInt16()
+    return:
+      type: System.Int16
+      description: An Int16 value.
+    content.vb: Public Function ReadOptimizedInt16 As Short
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedInt16*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt64
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedInt64
+  id: ReadOptimizedInt64
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedInt64()
+  nameWithType: SerializationReader.ReadOptimizedInt64()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt64()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an Int64 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public long ReadOptimizedInt64()
+    return:
+      type: System.Int64
+      description: An Int64 value.
+    content.vb: Public Function ReadOptimizedInt64 As Long
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedInt64*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray
+  id: ReadOptimizedObjectArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedObjectArray()
+  nameWithType: SerializationReader.ReadOptimizedObjectArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an object[] from the stream that was stored optimized.\n"
+  syntax:
+    content: public object[] ReadOptimizedObjectArray()
+    return:
+      type: System.Object[]
+      description: An object[] instance.
+    content.vb: Public Function ReadOptimizedObjectArray As Object()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray(System.Type)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray(System.Type)
+  id: ReadOptimizedObjectArray(System.Type)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedObjectArray(Type)
+  nameWithType: SerializationReader.ReadOptimizedObjectArray(Type)
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an object[] from the stream that was stored optimized.\nThe returned array will be typed according to the specified element type\nand the resulting array can be cast to the expected type.\ne.g.\nstring[] myStrings = (string[]) reader.ReadOptimizedObjectArray(typeof(string));\n\nAn exception will be thrown if any of the deserialized values cannot be\ncast to the specified elementType.\n\n"
+  syntax:
+    content: public object[] ReadOptimizedObjectArray(Type elementType)
+    parameters:
+    - id: elementType
+      type: System.Type
+      description: The Type of the expected array elements. null will return a plain object[].
+    return:
+      type: System.Object[]
+      description: An object[] instance.
+    content.vb: Public Function ReadOptimizedObjectArray(elementType As Type) As Object()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair(System.Object[]@,System.Object[]@)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair(System.Object[]@,System.Object[]@)
+  id: ReadOptimizedObjectArrayPair(System.Object[]@,System.Object[]@)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedObjectArrayPair(out Object[], out Object[])
+  nameWithType: SerializationReader.ReadOptimizedObjectArrayPair(out Object[], out Object[])
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair(out System.Object[], out System.Object[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a pair of object[] arrays from the stream that were stored optimized.\n"
+  syntax:
+    content: public void ReadOptimizedObjectArrayPair(out object[] values1, out object[] values2)
+    parameters:
+    - id: values1
+      type: System.Object[]
+    - id: values2
+      type: System.Object[]
+    content.vb: Public Sub ReadOptimizedObjectArrayPair(ByRef values1 As Object(), ByRef values2 As Object())
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair*
+  nameWithType.vb: SerializationReader.ReadOptimizedObjectArrayPair(ByRef Object(), ByRef Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair(ByRef System.Object(), ByRef System.Object())
+  name.vb: ReadOptimizedObjectArrayPair(ByRef Object(), ByRef Object())
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedString
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedString
+  id: ReadOptimizedString
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedString()
+  nameWithType: SerializationReader.ReadOptimizedString()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedString()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a string value from the stream that was stored optimized.\n"
+  syntax:
+    content: public string ReadOptimizedString()
+    return:
+      type: System.String
+      description: A string value.
+    content.vb: Public Function ReadOptimizedString As String
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan
+  id: ReadOptimizedTimeSpan
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedTimeSpan()
+  nameWithType: SerializationReader.ReadOptimizedTimeSpan()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a TimeSpan value from the stream that was stored optimized.\n"
+  syntax:
+    content: public TimeSpan ReadOptimizedTimeSpan()
+    return:
+      type: System.TimeSpan
+      description: A TimeSpan value.
+    content.vb: Public Function ReadOptimizedTimeSpan As TimeSpan
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedType
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedType
+  id: ReadOptimizedType
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedType()
+  nameWithType: SerializationReader.ReadOptimizedType()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedType()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Type from the stream.\n\nThrows an exception if the Type cannot be found.\n"
+  syntax:
+    content: public Type ReadOptimizedType()
+    return:
+      type: System.Type
+      description: A Type instance.
+    content.vb: Public Function ReadOptimizedType As Type
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedType(System.Boolean)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedType(System.Boolean)
+  id: ReadOptimizedType(System.Boolean)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedType(Boolean)
+  nameWithType: SerializationReader.ReadOptimizedType(Boolean)
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedType(System.Boolean)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Type from the stream.\n\nThrows an exception if the Type cannot be found and throwOnError is true.\n"
+  syntax:
+    content: public Type ReadOptimizedType(bool throwOnError)
+    parameters:
+    - id: throwOnError
+      type: System.Boolean
+    return:
+      type: System.Type
+      description: A Type instance.
+    content.vb: Public Function ReadOptimizedType(throwOnError As Boolean) As Type
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedUInt16
+  id: ReadOptimizedUInt16
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedUInt16()
+  nameWithType: SerializationReader.ReadOptimizedUInt16()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt16 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public ushort ReadOptimizedUInt16()
+    return:
+      type: System.UInt16
+      description: A UInt16 value.
+    content.vb: Public Function ReadOptimizedUInt16 As UShort
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedUInt32
+  id: ReadOptimizedUInt32
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedUInt32()
+  nameWithType: SerializationReader.ReadOptimizedUInt32()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt32 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public uint ReadOptimizedUInt32()
+    return:
+      type: System.UInt32
+      description: A UInt32 value.
+    content.vb: Public Function ReadOptimizedUInt32 As UInteger
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedUInt64
+  id: ReadOptimizedUInt64
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedUInt64()
+  nameWithType: SerializationReader.ReadOptimizedUInt64()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt64 value from the stream that was stored optimized.\n"
+  syntax:
+    content: public ulong ReadOptimizedUInt64()
+    return:
+      type: System.UInt64
+      description: A UInt64 value.
+    content.vb: Public Function ReadOptimizedUInt64 As ULong
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadTypedArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadTypedArray
+  id: ReadTypedArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadTypedArray()
+  nameWithType: SerializationReader.ReadTypedArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadTypedArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a typed array from the stream.\n"
+  syntax:
+    content: public Array ReadTypedArray()
+    return:
+      type: System.Array
+      description: A typed array.
+    content.vb: Public Function ReadTypedArray As Array
+  overload: SuperOffice.IO.SerializationReader.ReadTypedArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadByteArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadByteArray
+  id: ReadByteArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadByteArray()
+  nameWithType: SerializationReader.ReadByteArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadByteArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Byte[].\n"
+  syntax:
+    content: public byte[] ReadByteArray()
+    return:
+      type: System.Byte[]
+      description: A Byte[].
+    content.vb: Public Function ReadByteArray As Byte()
+  overload: SuperOffice.IO.SerializationReader.ReadByteArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadCharArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadCharArray
+  id: ReadCharArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadCharArray()
+  nameWithType: SerializationReader.ReadCharArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadCharArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Char[].\n"
+  syntax:
+    content: public char[] ReadCharArray()
+    return:
+      type: System.Char[]
+      description: A Char[].
+    content.vb: Public Function ReadCharArray As Char()
+  overload: SuperOffice.IO.SerializationReader.ReadCharArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadDoubleArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadDoubleArray
+  id: ReadDoubleArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadDoubleArray()
+  nameWithType: SerializationReader.ReadDoubleArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadDoubleArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Double[].\n"
+  syntax:
+    content: public double[] ReadDoubleArray()
+    return:
+      type: System.Double[]
+      description: A Double[].
+    content.vb: Public Function ReadDoubleArray As Double()
+  overload: SuperOffice.IO.SerializationReader.ReadDoubleArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadGuidArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadGuidArray
+  id: ReadGuidArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadGuidArray()
+  nameWithType: SerializationReader.ReadGuidArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadGuidArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Guid[].\n"
+  syntax:
+    content: public Guid[] ReadGuidArray()
+    return:
+      type: System.Guid[]
+      description: A Guid[].
+    content.vb: Public Function ReadGuidArray As Guid()
+  overload: SuperOffice.IO.SerializationReader.ReadGuidArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadInt16Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadInt16Array
+  id: ReadInt16Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadInt16Array()
+  nameWithType: SerializationReader.ReadInt16Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadInt16Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an Int16[] from the stream.\n"
+  syntax:
+    content: public short[] ReadInt16Array()
+    return:
+      type: System.Int16[]
+      description: An Int16[] instance; or null.
+    content.vb: Public Function ReadInt16Array As Short()
+  overload: SuperOffice.IO.SerializationReader.ReadInt16Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadObjectArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadObjectArray
+  id: ReadObjectArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadObjectArray()
+  nameWithType: SerializationReader.ReadObjectArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadObjectArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an object[] or null from the stream.\n"
+  syntax:
+    content: public object[] ReadObjectArray()
+    return:
+      type: System.Object[]
+      description: A DateTime value.
+    content.vb: Public Function ReadObjectArray As Object()
+  overload: SuperOffice.IO.SerializationReader.ReadObjectArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadObjectArray(System.Type)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadObjectArray(System.Type)
+  id: ReadObjectArray(System.Type)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadObjectArray(Type)
+  nameWithType: SerializationReader.ReadObjectArray(Type)
+  fullName: SuperOffice.IO.SerializationReader.ReadObjectArray(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an object[] or null from the stream.\nThe returned array will be typed according to the specified element type\nand the resulting array can be cast to the expected type.\ne.g.\nstring[] myStrings = (string[]) reader.ReadObjectArray(typeof(string));\n\nAn exception will be thrown if any of the deserialized values cannot be\ncast to the specified elementType.\n\n"
+  syntax:
+    content: public object[] ReadObjectArray(Type elementType)
+    parameters:
+    - id: elementType
+      type: System.Type
+      description: The Type of the expected array elements. null will return a plain object[].
+    return:
+      type: System.Object[]
+      description: An object[] instance.
+    content.vb: Public Function ReadObjectArray(elementType As Type) As Object()
+  overload: SuperOffice.IO.SerializationReader.ReadObjectArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadSingleArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadSingleArray
+  id: ReadSingleArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadSingleArray()
+  nameWithType: SerializationReader.ReadSingleArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadSingleArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Single[].\n"
+  syntax:
+    content: public float[] ReadSingleArray()
+    return:
+      type: System.Single[]
+      description: A Single[].
+    content.vb: Public Function ReadSingleArray As Single()
+  overload: SuperOffice.IO.SerializationReader.ReadSingleArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadSByteArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadSByteArray
+  id: ReadSByteArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadSByteArray()
+  nameWithType: SerializationReader.ReadSByteArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadSByteArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning an SByte[].\n"
+  syntax:
+    content: public sbyte[] ReadSByteArray()
+    return:
+      type: System.SByte[]
+      description: An SByte[].
+    content.vb: Public Function ReadSByteArray As SByte()
+  overload: SuperOffice.IO.SerializationReader.ReadSByteArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadStringArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadStringArray
+  id: ReadStringArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadStringArray()
+  nameWithType: SerializationReader.ReadStringArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadStringArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a string[] or null from the stream.\n"
+  syntax:
+    content: public string[] ReadStringArray()
+    return:
+      type: System.String[]
+      description: An string[] instance.
+    content.vb: Public Function ReadStringArray As String()
+  overload: SuperOffice.IO.SerializationReader.ReadStringArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadUInt16Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadUInt16Array
+  id: ReadUInt16Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadUInt16Array()
+  nameWithType: SerializationReader.ReadUInt16Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadUInt16Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt16[] from the stream.\n"
+  syntax:
+    content: public ushort[] ReadUInt16Array()
+    return:
+      type: System.UInt16[]
+      description: A UInt16[] instance; or null.
+    content.vb: Public Function ReadUInt16Array As UShort()
+  overload: SuperOffice.IO.SerializationReader.ReadUInt16Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadBooleanArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadBooleanArray
+  id: ReadBooleanArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadBooleanArray()
+  nameWithType: SerializationReader.ReadBooleanArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadBooleanArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Bool[].\n"
+  syntax:
+    content: public bool[] ReadBooleanArray()
+    return:
+      type: System.Boolean[]
+      description: A Bool[].
+    content.vb: Public Function ReadBooleanArray As Boolean()
+  overload: SuperOffice.IO.SerializationReader.ReadBooleanArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadDateTimeArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadDateTimeArray
+  id: ReadDateTimeArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadDateTimeArray()
+  nameWithType: SerializationReader.ReadDateTimeArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadDateTimeArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a DateTime[] from the stream.\n"
+  syntax:
+    content: public DateTime[] ReadDateTimeArray()
+    return:
+      type: System.DateTime[]
+      description: A DateTime[] instance; or null.
+    content.vb: Public Function ReadDateTimeArray As Date()
+  overload: SuperOffice.IO.SerializationReader.ReadDateTimeArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadDecimalArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadDecimalArray
+  id: ReadDecimalArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadDecimalArray()
+  nameWithType: SerializationReader.ReadDecimalArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadDecimalArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInternal implementation returning a Decimal[].\n"
+  syntax:
+    content: public decimal[] ReadDecimalArray()
+    return:
+      type: System.Decimal[]
+      description: A Decimal[].
+    content.vb: Public Function ReadDecimalArray As Decimal()
+  overload: SuperOffice.IO.SerializationReader.ReadDecimalArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadInt32Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadInt32Array
+  id: ReadInt32Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadInt32Array()
+  nameWithType: SerializationReader.ReadInt32Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadInt32Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an Int32[] from the stream.\n"
+  syntax:
+    content: public int[] ReadInt32Array()
+    return:
+      type: System.Int32[]
+      description: An Int32[] instance; or null.
+    content.vb: Public Function ReadInt32Array As Integer()
+  overload: SuperOffice.IO.SerializationReader.ReadInt32Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadInt64Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadInt64Array
+  id: ReadInt64Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadInt64Array()
+  nameWithType: SerializationReader.ReadInt64Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadInt64Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns an Int64[] from the stream.\n"
+  syntax:
+    content: public long[] ReadInt64Array()
+    return:
+      type: System.Int64[]
+      description: An Int64[] instance; or null.
+    content.vb: Public Function ReadInt64Array As Long()
+  overload: SuperOffice.IO.SerializationReader.ReadInt64Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedStringArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedStringArray
+  id: ReadOptimizedStringArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedStringArray()
+  nameWithType: SerializationReader.ReadOptimizedStringArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedStringArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a string[] from the stream that was stored optimized.\n"
+  syntax:
+    content: public string[] ReadOptimizedStringArray()
+    return:
+      type: System.String[]
+      description: An string[] instance.
+    content.vb: Public Function ReadOptimizedStringArray As String()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedStringArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadTimeSpanArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadTimeSpanArray
+  id: ReadTimeSpanArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadTimeSpanArray()
+  nameWithType: SerializationReader.ReadTimeSpanArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadTimeSpanArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a TimeSpan[] from the stream.\n"
+  syntax:
+    content: public TimeSpan[] ReadTimeSpanArray()
+    return:
+      type: System.TimeSpan[]
+      description: A TimeSpan[] instance; or null.
+    content.vb: Public Function ReadTimeSpanArray As TimeSpan()
+  overload: SuperOffice.IO.SerializationReader.ReadTimeSpanArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadUInt32Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadUInt32Array
+  id: ReadUInt32Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadUInt32Array()
+  nameWithType: SerializationReader.ReadUInt32Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadUInt32Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt[] from the stream.\n"
+  syntax:
+    content: public uint[] ReadUInt32Array()
+    return:
+      type: System.UInt32[]
+      description: A UInt[] instance; or null.
+    content.vb: Public Function ReadUInt32Array As UInteger()
+  overload: SuperOffice.IO.SerializationReader.ReadUInt32Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadUInt64Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadUInt64Array
+  id: ReadUInt64Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadUInt64Array()
+  nameWithType: SerializationReader.ReadUInt64Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadUInt64Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt64[] from the stream.\n"
+  syntax:
+    content: public ulong[] ReadUInt64Array()
+    return:
+      type: System.UInt64[]
+      description: A UInt64[] instance; or null.
+    content.vb: Public Function ReadUInt64Array As ULong()
+  overload: SuperOffice.IO.SerializationReader.ReadUInt64Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray
+  id: ReadOptimizedBooleanArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedBooleanArray()
+  nameWithType: SerializationReader.ReadOptimizedBooleanArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Boolean[] from the stream.\n"
+  syntax:
+    content: public bool[] ReadOptimizedBooleanArray()
+    return:
+      type: System.Boolean[]
+      description: A Boolean[] instance; or null.
+    content.vb: Public Function ReadOptimizedBooleanArray As Boolean()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray
+  id: ReadOptimizedDateTimeArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedDateTimeArray()
+  nameWithType: SerializationReader.ReadOptimizedDateTimeArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a DateTime[] from the stream.\n"
+  syntax:
+    content: public DateTime[] ReadOptimizedDateTimeArray()
+    return:
+      type: System.DateTime[]
+      description: A DateTime[] instance; or null.
+    content.vb: Public Function ReadOptimizedDateTimeArray As Date()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray
+  id: ReadOptimizedDecimalArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedDecimalArray()
+  nameWithType: SerializationReader.ReadOptimizedDecimalArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Decimal[] from the stream.\n"
+  syntax:
+    content: public decimal[] ReadOptimizedDecimalArray()
+    return:
+      type: System.Decimal[]
+      description: A Decimal[] instance; or null.
+    content.vb: Public Function ReadOptimizedDecimalArray As Decimal()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array
+  id: ReadOptimizedInt16Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedInt16Array()
+  nameWithType: SerializationReader.ReadOptimizedInt16Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Int16[] from the stream.\n"
+  syntax:
+    content: public short[] ReadOptimizedInt16Array()
+    return:
+      type: System.Int16[]
+      description: An Int16[] instance; or null.
+    content.vb: Public Function ReadOptimizedInt16Array As Short()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array
+  id: ReadOptimizedInt32Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedInt32Array()
+  nameWithType: SerializationReader.ReadOptimizedInt32Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Int32[] from the stream.\n"
+  syntax:
+    content: public int[] ReadOptimizedInt32Array()
+    return:
+      type: System.Int32[]
+      description: An Int32[] instance; or null.
+    content.vb: Public Function ReadOptimizedInt32Array As Integer()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array
+  id: ReadOptimizedInt64Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedInt64Array()
+  nameWithType: SerializationReader.ReadOptimizedInt64Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a Int64[] from the stream.\n"
+  syntax:
+    content: public long[] ReadOptimizedInt64Array()
+    return:
+      type: System.Int64[]
+      description: A Int64[] instance; or null.
+    content.vb: Public Function ReadOptimizedInt64Array As Long()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray
+  id: ReadOptimizedTimeSpanArray
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedTimeSpanArray()
+  nameWithType: SerializationReader.ReadOptimizedTimeSpanArray()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a TimeSpan[] from the stream.\n"
+  syntax:
+    content: public TimeSpan[] ReadOptimizedTimeSpanArray()
+    return:
+      type: System.TimeSpan[]
+      description: A TimeSpan[] instance; or null.
+    content.vb: Public Function ReadOptimizedTimeSpanArray As TimeSpan()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array
+  id: ReadOptimizedUInt16Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedUInt16Array()
+  nameWithType: SerializationReader.ReadOptimizedUInt16Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt16[] from the stream.\n"
+  syntax:
+    content: public ushort[] ReadOptimizedUInt16Array()
+    return:
+      type: System.UInt16[]
+      description: A UInt16[] instance; or null.
+    content.vb: Public Function ReadOptimizedUInt16Array As UShort()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array
+  id: ReadOptimizedUInt32Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedUInt32Array()
+  nameWithType: SerializationReader.ReadOptimizedUInt32Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt32[] from the stream.\n"
+  syntax:
+    content: public uint[] ReadOptimizedUInt32Array()
+    return:
+      type: System.UInt32[]
+      description: A UInt32[] instance; or null.
+    content.vb: Public Function ReadOptimizedUInt32Array As UInteger()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array
+  id: ReadOptimizedUInt64Array
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOptimizedUInt64Array()
+  nameWithType: SerializationReader.ReadOptimizedUInt64Array()
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns a UInt64[] from the stream.\n"
+  syntax:
+    content: public ulong[] ReadOptimizedUInt64Array()
+    return:
+      type: System.UInt64[]
+      description: A UInt64[] instance; or null.
+    content.vb: Public Function ReadOptimizedUInt64Array As ULong()
+  overload: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadOwnedData(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  commentId: M:SuperOffice.IO.SerializationReader.ReadOwnedData(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  id: ReadOwnedData(SuperOffice.IO.IOwnedDataSerializable,System.Object)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadOwnedData(IOwnedDataSerializable, Object)
+  nameWithType: SerializationReader.ReadOwnedData(IOwnedDataSerializable, Object)
+  fullName: SuperOffice.IO.SerializationReader.ReadOwnedData(SuperOffice.IO.IOwnedDataSerializable, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nAllows an existing object, implementing IOwnedDataSerializable, to \nretrieve its owned data from the stream.\n"
+  syntax:
+    content: public void ReadOwnedData(IOwnedDataSerializable target, object context)
+    parameters:
+    - id: target
+      type: SuperOffice.IO.IOwnedDataSerializable
+      description: Any IOwnedDataSerializable object.
+    - id: context
+      type: System.Object
+      description: An optional, arbitrary object to allow context to be provided.
+    content.vb: Public Sub ReadOwnedData(target As IOwnedDataSerializable, context As Object)
+  overload: SuperOffice.IO.SerializationReader.ReadOwnedData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.ReadTokenizedObject
+  commentId: M:SuperOffice.IO.SerializationReader.ReadTokenizedObject
+  id: ReadTokenizedObject
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: ReadTokenizedObject()
+  nameWithType: SerializationReader.ReadTokenizedObject()
+  fullName: SuperOffice.IO.SerializationReader.ReadTokenizedObject()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns the object associated with the object token read next from the stream.\n"
+  syntax:
+    content: public object ReadTokenizedObject()
+    return:
+      type: System.Object
+      description: An object.
+    content.vb: Public Function ReadTokenizedObject As Object
+  overload: SuperOffice.IO.SerializationReader.ReadTokenizedObject*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.DumpStringTables(System.Collections.ArrayList)
+  commentId: M:SuperOffice.IO.SerializationReader.DumpStringTables(System.Collections.ArrayList)
+  id: DumpStringTables(System.Collections.ArrayList)
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: DumpStringTables(ArrayList)
+  nameWithType: SerializationReader.DumpStringTables(ArrayList)
+  fullName: SuperOffice.IO.SerializationReader.DumpStringTables(System.Collections.ArrayList)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  syntax:
+    content: >-
+      [Conditional("DEBUG")]
+
+      public void DumpStringTables(ArrayList list)
+    parameters:
+    - id: list
+      type: System.Collections.ArrayList
+    content.vb: >-
+      <Conditional("DEBUG")>
+
+      Public Sub DumpStringTables(list As ArrayList)
+  overload: SuperOffice.IO.SerializationReader.DumpStringTables*
+  attributes:
+  - type: System.Diagnostics.ConditionalAttribute
+    ctor: System.Diagnostics.ConditionalAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DEBUG
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.IO.SerializationReader.BytesRemaining
+  commentId: P:SuperOffice.IO.SerializationReader.BytesRemaining
+  id: BytesRemaining
+  parent: SuperOffice.IO.SerializationReader
+  langs:
+  - csharp
+  - vb
+  name: BytesRemaining
+  nameWithType: SerializationReader.BytesRemaining
+  fullName: SuperOffice.IO.SerializationReader.BytesRemaining
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nReturns the number of bytes or serialized remaining to be processed.\nUseful for checking that deserialization is complete.\n\nWarning: Retrieving the Position in certain stream types can be expensive,\ne.g. a FileStream, so use sparingly unless known to be a MemoryStream.\n"
+  syntax:
+    content: public int BytesRemaining { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BytesRemaining As Integer
+  overload: SuperOffice.IO.SerializationReader.BytesRemaining*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
+  isExternal: true
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: System.IO.BinaryReader
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.IO.BinaryReader.Close
+  commentId: M:System.IO.BinaryReader.Close
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Close()
+  nameWithType: BinaryReader.Close()
+  fullName: System.IO.BinaryReader.Close()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Close
+    name: Close
+    nameWithType: BinaryReader.Close
+    fullName: System.IO.BinaryReader.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Close
+    name: Close
+    nameWithType: BinaryReader.Close
+    fullName: System.IO.BinaryReader.Close
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.Dispose(System.Boolean)
+  commentId: M:System.IO.BinaryReader.Dispose(System.Boolean)
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BinaryReader.Dispose(Boolean)
+  fullName: System.IO.BinaryReader.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BinaryReader.Dispose
+    fullName: System.IO.BinaryReader.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BinaryReader.Dispose
+    fullName: System.IO.BinaryReader.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.Dispose
+  commentId: M:System.IO.BinaryReader.Dispose
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Dispose()
+  nameWithType: BinaryReader.Dispose()
+  fullName: System.IO.BinaryReader.Dispose()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Dispose
+    name: Dispose
+    nameWithType: BinaryReader.Dispose
+    fullName: System.IO.BinaryReader.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Dispose
+    name: Dispose
+    nameWithType: BinaryReader.Dispose
+    fullName: System.IO.BinaryReader.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.PeekChar
+  commentId: M:System.IO.BinaryReader.PeekChar
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: PeekChar()
+  nameWithType: BinaryReader.PeekChar()
+  fullName: System.IO.BinaryReader.PeekChar()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.PeekChar
+    name: PeekChar
+    nameWithType: BinaryReader.PeekChar
+    fullName: System.IO.BinaryReader.PeekChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.PeekChar
+    name: PeekChar
+    nameWithType: BinaryReader.PeekChar
+    fullName: System.IO.BinaryReader.PeekChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.Read
+  commentId: M:System.IO.BinaryReader.Read
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Read()
+  nameWithType: BinaryReader.Read()
+  fullName: System.IO.BinaryReader.Read()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Read
+    name: Read
+    nameWithType: BinaryReader.Read
+    fullName: System.IO.BinaryReader.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Read
+    name: Read
+    nameWithType: BinaryReader.Read
+    fullName: System.IO.BinaryReader.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadBoolean
+  commentId: M:System.IO.BinaryReader.ReadBoolean
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadBoolean()
+  nameWithType: BinaryReader.ReadBoolean()
+  fullName: System.IO.BinaryReader.ReadBoolean()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadBoolean
+    name: ReadBoolean
+    nameWithType: BinaryReader.ReadBoolean
+    fullName: System.IO.BinaryReader.ReadBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadBoolean
+    name: ReadBoolean
+    nameWithType: BinaryReader.ReadBoolean
+    fullName: System.IO.BinaryReader.ReadBoolean
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadByte
+  commentId: M:System.IO.BinaryReader.ReadByte
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadByte()
+  nameWithType: BinaryReader.ReadByte()
+  fullName: System.IO.BinaryReader.ReadByte()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadByte
+    name: ReadByte
+    nameWithType: BinaryReader.ReadByte
+    fullName: System.IO.BinaryReader.ReadByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadByte
+    name: ReadByte
+    nameWithType: BinaryReader.ReadByte
+    fullName: System.IO.BinaryReader.ReadByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadSByte
+  commentId: M:System.IO.BinaryReader.ReadSByte
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadSByte()
+  nameWithType: BinaryReader.ReadSByte()
+  fullName: System.IO.BinaryReader.ReadSByte()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadSByte
+    name: ReadSByte
+    nameWithType: BinaryReader.ReadSByte
+    fullName: System.IO.BinaryReader.ReadSByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadSByte
+    name: ReadSByte
+    nameWithType: BinaryReader.ReadSByte
+    fullName: System.IO.BinaryReader.ReadSByte
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadChar
+  commentId: M:System.IO.BinaryReader.ReadChar
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadChar()
+  nameWithType: BinaryReader.ReadChar()
+  fullName: System.IO.BinaryReader.ReadChar()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadChar
+    name: ReadChar
+    nameWithType: BinaryReader.ReadChar
+    fullName: System.IO.BinaryReader.ReadChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadChar
+    name: ReadChar
+    nameWithType: BinaryReader.ReadChar
+    fullName: System.IO.BinaryReader.ReadChar
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadInt16
+  commentId: M:System.IO.BinaryReader.ReadInt16
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadInt16()
+  nameWithType: BinaryReader.ReadInt16()
+  fullName: System.IO.BinaryReader.ReadInt16()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadInt16
+    name: ReadInt16
+    nameWithType: BinaryReader.ReadInt16
+    fullName: System.IO.BinaryReader.ReadInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadInt16
+    name: ReadInt16
+    nameWithType: BinaryReader.ReadInt16
+    fullName: System.IO.BinaryReader.ReadInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadUInt16
+  commentId: M:System.IO.BinaryReader.ReadUInt16
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadUInt16()
+  nameWithType: BinaryReader.ReadUInt16()
+  fullName: System.IO.BinaryReader.ReadUInt16()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadUInt16
+    name: ReadUInt16
+    nameWithType: BinaryReader.ReadUInt16
+    fullName: System.IO.BinaryReader.ReadUInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadUInt16
+    name: ReadUInt16
+    nameWithType: BinaryReader.ReadUInt16
+    fullName: System.IO.BinaryReader.ReadUInt16
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadInt32
+  commentId: M:System.IO.BinaryReader.ReadInt32
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadInt32()
+  nameWithType: BinaryReader.ReadInt32()
+  fullName: System.IO.BinaryReader.ReadInt32()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadInt32
+    name: ReadInt32
+    nameWithType: BinaryReader.ReadInt32
+    fullName: System.IO.BinaryReader.ReadInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadInt32
+    name: ReadInt32
+    nameWithType: BinaryReader.ReadInt32
+    fullName: System.IO.BinaryReader.ReadInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadUInt32
+  commentId: M:System.IO.BinaryReader.ReadUInt32
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadUInt32()
+  nameWithType: BinaryReader.ReadUInt32()
+  fullName: System.IO.BinaryReader.ReadUInt32()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadUInt32
+    name: ReadUInt32
+    nameWithType: BinaryReader.ReadUInt32
+    fullName: System.IO.BinaryReader.ReadUInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadUInt32
+    name: ReadUInt32
+    nameWithType: BinaryReader.ReadUInt32
+    fullName: System.IO.BinaryReader.ReadUInt32
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadInt64
+  commentId: M:System.IO.BinaryReader.ReadInt64
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadInt64()
+  nameWithType: BinaryReader.ReadInt64()
+  fullName: System.IO.BinaryReader.ReadInt64()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadInt64
+    name: ReadInt64
+    nameWithType: BinaryReader.ReadInt64
+    fullName: System.IO.BinaryReader.ReadInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadInt64
+    name: ReadInt64
+    nameWithType: BinaryReader.ReadInt64
+    fullName: System.IO.BinaryReader.ReadInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadUInt64
+  commentId: M:System.IO.BinaryReader.ReadUInt64
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadUInt64()
+  nameWithType: BinaryReader.ReadUInt64()
+  fullName: System.IO.BinaryReader.ReadUInt64()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadUInt64
+    name: ReadUInt64
+    nameWithType: BinaryReader.ReadUInt64
+    fullName: System.IO.BinaryReader.ReadUInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadUInt64
+    name: ReadUInt64
+    nameWithType: BinaryReader.ReadUInt64
+    fullName: System.IO.BinaryReader.ReadUInt64
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadSingle
+  commentId: M:System.IO.BinaryReader.ReadSingle
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadSingle()
+  nameWithType: BinaryReader.ReadSingle()
+  fullName: System.IO.BinaryReader.ReadSingle()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadSingle
+    name: ReadSingle
+    nameWithType: BinaryReader.ReadSingle
+    fullName: System.IO.BinaryReader.ReadSingle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadSingle
+    name: ReadSingle
+    nameWithType: BinaryReader.ReadSingle
+    fullName: System.IO.BinaryReader.ReadSingle
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadDouble
+  commentId: M:System.IO.BinaryReader.ReadDouble
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadDouble()
+  nameWithType: BinaryReader.ReadDouble()
+  fullName: System.IO.BinaryReader.ReadDouble()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadDouble
+    name: ReadDouble
+    nameWithType: BinaryReader.ReadDouble
+    fullName: System.IO.BinaryReader.ReadDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadDouble
+    name: ReadDouble
+    nameWithType: BinaryReader.ReadDouble
+    fullName: System.IO.BinaryReader.ReadDouble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadDecimal
+  commentId: M:System.IO.BinaryReader.ReadDecimal
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadDecimal()
+  nameWithType: BinaryReader.ReadDecimal()
+  fullName: System.IO.BinaryReader.ReadDecimal()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadDecimal
+    name: ReadDecimal
+    nameWithType: BinaryReader.ReadDecimal
+    fullName: System.IO.BinaryReader.ReadDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadDecimal
+    name: ReadDecimal
+    nameWithType: BinaryReader.ReadDecimal
+    fullName: System.IO.BinaryReader.ReadDecimal
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Read(Char[], Int32, Int32)
+  nameWithType: BinaryReader.Read(Char[], Int32, Int32)
+  fullName: System.IO.BinaryReader.Read(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: BinaryReader.Read(Char(), Int32, Int32)
+  fullName.vb: System.IO.BinaryReader.Read(System.Char(), System.Int32, System.Int32)
+  name.vb: Read(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: BinaryReader.Read
+    fullName: System.IO.BinaryReader.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Read(System.Char[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: BinaryReader.Read
+    fullName: System.IO.BinaryReader.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadChars(System.Int32)
+  commentId: M:System.IO.BinaryReader.ReadChars(System.Int32)
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadChars(Int32)
+  nameWithType: BinaryReader.ReadChars(Int32)
+  fullName: System.IO.BinaryReader.ReadChars(System.Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadChars(System.Int32)
+    name: ReadChars
+    nameWithType: BinaryReader.ReadChars
+    fullName: System.IO.BinaryReader.ReadChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadChars(System.Int32)
+    name: ReadChars
+    nameWithType: BinaryReader.ReadChars
+    fullName: System.IO.BinaryReader.ReadChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Read(Byte[], Int32, Int32)
+  nameWithType: BinaryReader.Read(Byte[], Int32, Int32)
+  fullName: System.IO.BinaryReader.Read(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: BinaryReader.Read(Byte(), Int32, Int32)
+  fullName.vb: System.IO.BinaryReader.Read(System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: BinaryReader.Read
+    fullName: System.IO.BinaryReader.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Read(System.Byte[],System.Int32,System.Int32)
+    name: Read
+    nameWithType: BinaryReader.Read
+    fullName: System.IO.BinaryReader.Read
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.ReadBytes(System.Int32)
+  commentId: M:System.IO.BinaryReader.ReadBytes(System.Int32)
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadBytes(Int32)
+  nameWithType: BinaryReader.ReadBytes(Int32)
+  fullName: System.IO.BinaryReader.ReadBytes(System.Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadBytes(System.Int32)
+    name: ReadBytes
+    nameWithType: BinaryReader.ReadBytes
+    fullName: System.IO.BinaryReader.ReadBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadBytes(System.Int32)
+    name: ReadBytes
+    nameWithType: BinaryReader.ReadBytes
+    fullName: System.IO.BinaryReader.ReadBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.FillBuffer(System.Int32)
+  commentId: M:System.IO.BinaryReader.FillBuffer(System.Int32)
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: FillBuffer(Int32)
+  nameWithType: BinaryReader.FillBuffer(Int32)
+  fullName: System.IO.BinaryReader.FillBuffer(System.Int32)
+  spec.csharp:
+  - uid: System.IO.BinaryReader.FillBuffer(System.Int32)
+    name: FillBuffer
+    nameWithType: BinaryReader.FillBuffer
+    fullName: System.IO.BinaryReader.FillBuffer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.FillBuffer(System.Int32)
+    name: FillBuffer
+    nameWithType: BinaryReader.FillBuffer
+    fullName: System.IO.BinaryReader.FillBuffer
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.Read7BitEncodedInt
+  commentId: M:System.IO.BinaryReader.Read7BitEncodedInt
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: Read7BitEncodedInt()
+  nameWithType: BinaryReader.Read7BitEncodedInt()
+  fullName: System.IO.BinaryReader.Read7BitEncodedInt()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.Read7BitEncodedInt
+    name: Read7BitEncodedInt
+    nameWithType: BinaryReader.Read7BitEncodedInt
+    fullName: System.IO.BinaryReader.Read7BitEncodedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.Read7BitEncodedInt
+    name: Read7BitEncodedInt
+    nameWithType: BinaryReader.Read7BitEncodedInt
+    fullName: System.IO.BinaryReader.Read7BitEncodedInt
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.BinaryReader.BaseStream
+  commentId: P:System.IO.BinaryReader.BaseStream
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: BaseStream
+  nameWithType: BinaryReader.BaseStream
+  fullName: System.IO.BinaryReader.BaseStream
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationReader.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SerializationReader, To>()
+  nameWithType: EnumUtil.MapEnums<SerializationReader, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.SerializationReader, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SerializationReader, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.SerializationReader, To)()
+  name.vb: MapEnums(Of SerializationReader, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SerializationReader, To>
+    nameWithType: EnumUtil.MapEnums<SerializationReader, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.SerializationReader, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SerializationReader, To)
+    nameWithType: EnumUtil.MapEnums(Of SerializationReader, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.SerializationReader, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationReader.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SerializationReader, To>()
+  nameWithType: Converters.MapEnums<SerializationReader, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.SerializationReader, To>()
+  nameWithType.vb: Converters.MapEnums(Of SerializationReader, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.SerializationReader, To)()
+  name.vb: MapEnums(Of SerializationReader, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SerializationReader, To>
+    nameWithType: Converters.MapEnums<SerializationReader, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.SerializationReader, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SerializationReader, To)
+    nameWithType: Converters.MapEnums(Of SerializationReader, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.SerializationReader, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.SerializationReader.#ctor*
+  commentId: Overload:SuperOffice.IO.SerializationReader.#ctor
+  isExternal: true
+  name: SerializationReader
+  nameWithType: SerializationReader.SerializationReader
+  fullName: SuperOffice.IO.SerializationReader.SerializationReader
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.IO.SerializationReader.ReadArrayList*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadArrayList
+  isExternal: true
+  name: ReadArrayList
+  nameWithType: SerializationReader.ReadArrayList
+  fullName: SuperOffice.IO.SerializationReader.ReadArrayList
+- uid: System.Collections.ArrayList
+  commentId: T:System.Collections.ArrayList
+  parent: System.Collections
+  isExternal: true
+  name: ArrayList
+  nameWithType: ArrayList
+  fullName: System.Collections.ArrayList
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: true
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
+- uid: SuperOffice.IO.SerializationReader.ReadBitArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadBitArray
+  isExternal: true
+  name: ReadBitArray
+  nameWithType: SerializationReader.ReadBitArray
+  fullName: SuperOffice.IO.SerializationReader.ReadBitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: System.Collections.BitArray
+- uid: SuperOffice.IO.SerializationReader.ReadBitVector32*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadBitVector32
+  isExternal: true
+  name: ReadBitVector32
+  nameWithType: SerializationReader.ReadBitVector32
+  fullName: SuperOffice.IO.SerializationReader.ReadBitVector32
+- uid: System.Collections.Specialized.BitVector32
+  isExternal: true
+  name: BitVector32
+  nameWithType: BitVector32
+  fullName: System.Collections.Specialized.BitVector32
+- uid: SuperOffice.IO.SerializationReader.ReadBytesDirect*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadBytesDirect
+  isExternal: true
+  name: ReadBytesDirect
+  nameWithType: SerializationReader.ReadBytesDirect
+  fullName: SuperOffice.IO.SerializationReader.ReadBytesDirect
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.IO.SerializationReader.ReadDateTime*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadDateTime
+  isExternal: true
+  name: ReadDateTime
+  nameWithType: SerializationReader.ReadDateTime
+  fullName: SuperOffice.IO.SerializationReader.ReadDateTime
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.IO.SerializationReader.ReadGuid*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadGuid
+  isExternal: true
+  name: ReadGuid
+  nameWithType: SerializationReader.ReadGuid
+  fullName: SuperOffice.IO.SerializationReader.ReadGuid
+- uid: System.Guid
+  commentId: T:System.Guid
+  parent: System
+  isExternal: true
+  name: Guid
+  nameWithType: Guid
+  fullName: System.Guid
+- uid: SuperOffice.IO.SerializationReader.ReadObject*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadObject
+  isExternal: true
+  name: ReadObject
+  nameWithType: SerializationReader.ReadObject
+  fullName: SuperOffice.IO.SerializationReader.ReadObject
+- uid: System.IO.BinaryReader.ReadString
+  commentId: M:System.IO.BinaryReader.ReadString
+  parent: System.IO.BinaryReader
+  isExternal: true
+  name: ReadString()
+  nameWithType: BinaryReader.ReadString()
+  fullName: System.IO.BinaryReader.ReadString()
+  spec.csharp:
+  - uid: System.IO.BinaryReader.ReadString
+    name: ReadString
+    nameWithType: BinaryReader.ReadString
+    fullName: System.IO.BinaryReader.ReadString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IO.BinaryReader.ReadString
+    name: ReadString
+    nameWithType: BinaryReader.ReadString
+    fullName: System.IO.BinaryReader.ReadString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.SerializationReader.ReadString*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadString
+  isExternal: true
+  name: ReadString
+  nameWithType: SerializationReader.ReadString
+  fullName: SuperOffice.IO.SerializationReader.ReadString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.IO.SerializationReader.ReadStringDirect*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadStringDirect
+  isExternal: true
+  name: ReadStringDirect
+  nameWithType: SerializationReader.ReadStringDirect
+  fullName: SuperOffice.IO.SerializationReader.ReadStringDirect
+- uid: SuperOffice.IO.SerializationReader.ReadTimeSpan*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadTimeSpan
+  isExternal: true
+  name: ReadTimeSpan
+  nameWithType: SerializationReader.ReadTimeSpan
+  fullName: SuperOffice.IO.SerializationReader.ReadTimeSpan
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.IO.SerializationReader.ReadType*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadType
+  isExternal: true
+  name: ReadType
+  nameWithType: SerializationReader.ReadType
+  fullName: SuperOffice.IO.SerializationReader.ReadType
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedArrayList*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedArrayList
+  isExternal: true
+  name: ReadOptimizedArrayList
+  nameWithType: SerializationReader.ReadOptimizedArrayList
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedArrayList
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedBitArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedBitArray
+  isExternal: true
+  name: ReadOptimizedBitArray
+  nameWithType: SerializationReader.ReadOptimizedBitArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBitArray
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32
+  isExternal: true
+  name: ReadOptimizedBitVector32
+  nameWithType: SerializationReader.ReadOptimizedBitVector32
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBitVector32
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedDateTime
+  isExternal: true
+  name: ReadOptimizedDateTime
+  nameWithType: SerializationReader.ReadOptimizedDateTime
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDateTime
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedDecimal
+  isExternal: true
+  name: ReadOptimizedDecimal
+  nameWithType: SerializationReader.ReadOptimizedDecimal
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimal
+- uid: System.Decimal
+  commentId: T:System.Decimal
+  parent: System
+  isExternal: true
+  name: Decimal
+  nameWithType: Decimal
+  fullName: System.Decimal
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt32*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedInt32
+  isExternal: true
+  name: ReadOptimizedInt32
+  nameWithType: SerializationReader.ReadOptimizedInt32
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt32
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt16*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedInt16
+  isExternal: true
+  name: ReadOptimizedInt16
+  nameWithType: SerializationReader.ReadOptimizedInt16
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt16
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt64*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedInt64
+  isExternal: true
+  name: ReadOptimizedInt64
+  nameWithType: SerializationReader.ReadOptimizedInt64
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt64
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray
+  isExternal: true
+  name: ReadOptimizedObjectArray
+  nameWithType: SerializationReader.ReadOptimizedObjectArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArray
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair
+  isExternal: true
+  name: ReadOptimizedObjectArrayPair
+  nameWithType: SerializationReader.ReadOptimizedObjectArrayPair
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedObjectArrayPair
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedString*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedString
+  isExternal: true
+  name: ReadOptimizedString
+  nameWithType: SerializationReader.ReadOptimizedString
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedString
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan
+  isExternal: true
+  name: ReadOptimizedTimeSpan
+  nameWithType: SerializationReader.ReadOptimizedTimeSpan
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpan
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedType*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedType
+  isExternal: true
+  name: ReadOptimizedType
+  nameWithType: SerializationReader.ReadOptimizedType
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedType
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedUInt16
+  isExternal: true
+  name: ReadOptimizedUInt16
+  nameWithType: SerializationReader.ReadOptimizedUInt16
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedUInt32
+  isExternal: true
+  name: ReadOptimizedUInt32
+  nameWithType: SerializationReader.ReadOptimizedUInt32
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedUInt64
+  isExternal: true
+  name: ReadOptimizedUInt64
+  nameWithType: SerializationReader.ReadOptimizedUInt64
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64
+- uid: System.UInt64
+  commentId: T:System.UInt64
+  parent: System
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: SuperOffice.IO.SerializationReader.ReadTypedArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadTypedArray
+  isExternal: true
+  name: ReadTypedArray
+  nameWithType: SerializationReader.ReadTypedArray
+  fullName: SuperOffice.IO.SerializationReader.ReadTypedArray
+- uid: System.Array
+  commentId: T:System.Array
+  parent: System
+  isExternal: true
+  name: Array
+  nameWithType: Array
+  fullName: System.Array
+- uid: SuperOffice.IO.SerializationReader.ReadByteArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadByteArray
+  isExternal: true
+  name: ReadByteArray
+  nameWithType: SerializationReader.ReadByteArray
+  fullName: SuperOffice.IO.SerializationReader.ReadByteArray
+- uid: SuperOffice.IO.SerializationReader.ReadCharArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadCharArray
+  isExternal: true
+  name: ReadCharArray
+  nameWithType: SerializationReader.ReadCharArray
+  fullName: SuperOffice.IO.SerializationReader.ReadCharArray
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadDoubleArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadDoubleArray
+  isExternal: true
+  name: ReadDoubleArray
+  nameWithType: SerializationReader.ReadDoubleArray
+  fullName: SuperOffice.IO.SerializationReader.ReadDoubleArray
+- uid: System.Double[]
+  isExternal: true
+  name: Double[]
+  nameWithType: Double[]
+  fullName: System.Double[]
+  nameWithType.vb: Double()
+  fullName.vb: System.Double()
+  name.vb: Double()
+  spec.csharp:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Double
+    name: Double
+    nameWithType: Double
+    fullName: System.Double
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadGuidArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadGuidArray
+  isExternal: true
+  name: ReadGuidArray
+  nameWithType: SerializationReader.ReadGuidArray
+  fullName: SuperOffice.IO.SerializationReader.ReadGuidArray
+- uid: System.Guid[]
+  isExternal: true
+  name: Guid[]
+  nameWithType: Guid[]
+  fullName: System.Guid[]
+  nameWithType.vb: Guid()
+  fullName.vb: System.Guid()
+  name.vb: Guid()
+  spec.csharp:
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Guid
+    name: Guid
+    nameWithType: Guid
+    fullName: System.Guid
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadInt16Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadInt16Array
+  isExternal: true
+  name: ReadInt16Array
+  nameWithType: SerializationReader.ReadInt16Array
+  fullName: SuperOffice.IO.SerializationReader.ReadInt16Array
+- uid: System.Int16[]
+  isExternal: true
+  name: Int16[]
+  nameWithType: Int16[]
+  fullName: System.Int16[]
+  nameWithType.vb: Int16()
+  fullName.vb: System.Int16()
+  name.vb: Int16()
+  spec.csharp:
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int16
+    name: Int16
+    nameWithType: Int16
+    fullName: System.Int16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadObjectArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadObjectArray
+  isExternal: true
+  name: ReadObjectArray
+  nameWithType: SerializationReader.ReadObjectArray
+  fullName: SuperOffice.IO.SerializationReader.ReadObjectArray
+- uid: SuperOffice.IO.SerializationReader.ReadSingleArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadSingleArray
+  isExternal: true
+  name: ReadSingleArray
+  nameWithType: SerializationReader.ReadSingleArray
+  fullName: SuperOffice.IO.SerializationReader.ReadSingleArray
+- uid: System.Single[]
+  isExternal: true
+  name: Single[]
+  nameWithType: Single[]
+  fullName: System.Single[]
+  nameWithType.vb: Single()
+  fullName.vb: System.Single()
+  name.vb: Single()
+  spec.csharp:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadSByteArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadSByteArray
+  isExternal: true
+  name: ReadSByteArray
+  nameWithType: SerializationReader.ReadSByteArray
+  fullName: SuperOffice.IO.SerializationReader.ReadSByteArray
+- uid: System.SByte[]
+  isExternal: true
+  name: SByte[]
+  nameWithType: SByte[]
+  fullName: System.SByte[]
+  nameWithType.vb: SByte()
+  fullName.vb: System.SByte()
+  name.vb: SByte()
+  spec.csharp:
+  - uid: System.SByte
+    name: SByte
+    nameWithType: SByte
+    fullName: System.SByte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.SByte
+    name: SByte
+    nameWithType: SByte
+    fullName: System.SByte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadStringArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadStringArray
+  isExternal: true
+  name: ReadStringArray
+  nameWithType: SerializationReader.ReadStringArray
+  fullName: SuperOffice.IO.SerializationReader.ReadStringArray
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadUInt16Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadUInt16Array
+  isExternal: true
+  name: ReadUInt16Array
+  nameWithType: SerializationReader.ReadUInt16Array
+  fullName: SuperOffice.IO.SerializationReader.ReadUInt16Array
+- uid: System.UInt16[]
+  isExternal: true
+  name: UInt16[]
+  nameWithType: UInt16[]
+  fullName: System.UInt16[]
+  nameWithType.vb: UInt16()
+  fullName.vb: System.UInt16()
+  name.vb: UInt16()
+  spec.csharp:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadBooleanArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadBooleanArray
+  isExternal: true
+  name: ReadBooleanArray
+  nameWithType: SerializationReader.ReadBooleanArray
+  fullName: SuperOffice.IO.SerializationReader.ReadBooleanArray
+- uid: System.Boolean[]
+  isExternal: true
+  name: Boolean[]
+  nameWithType: Boolean[]
+  fullName: System.Boolean[]
+  nameWithType.vb: Boolean()
+  fullName.vb: System.Boolean()
+  name.vb: Boolean()
+  spec.csharp:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadDateTimeArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadDateTimeArray
+  isExternal: true
+  name: ReadDateTimeArray
+  nameWithType: SerializationReader.ReadDateTimeArray
+  fullName: SuperOffice.IO.SerializationReader.ReadDateTimeArray
+- uid: System.DateTime[]
+  isExternal: true
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: System.DateTime[]
+  nameWithType.vb: DateTime()
+  fullName.vb: System.DateTime()
+  name.vb: DateTime()
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadDecimalArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadDecimalArray
+  isExternal: true
+  name: ReadDecimalArray
+  nameWithType: SerializationReader.ReadDecimalArray
+  fullName: SuperOffice.IO.SerializationReader.ReadDecimalArray
+- uid: System.Decimal[]
+  isExternal: true
+  name: Decimal[]
+  nameWithType: Decimal[]
+  fullName: System.Decimal[]
+  nameWithType.vb: Decimal()
+  fullName.vb: System.Decimal()
+  name.vb: Decimal()
+  spec.csharp:
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Decimal
+    name: Decimal
+    nameWithType: Decimal
+    fullName: System.Decimal
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadInt32Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadInt32Array
+  isExternal: true
+  name: ReadInt32Array
+  nameWithType: SerializationReader.ReadInt32Array
+  fullName: SuperOffice.IO.SerializationReader.ReadInt32Array
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadInt64Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadInt64Array
+  isExternal: true
+  name: ReadInt64Array
+  nameWithType: SerializationReader.ReadInt64Array
+  fullName: SuperOffice.IO.SerializationReader.ReadInt64Array
+- uid: System.Int64[]
+  isExternal: true
+  name: Int64[]
+  nameWithType: Int64[]
+  fullName: System.Int64[]
+  nameWithType.vb: Int64()
+  fullName.vb: System.Int64()
+  name.vb: Int64()
+  spec.csharp:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedStringArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedStringArray
+  isExternal: true
+  name: ReadOptimizedStringArray
+  nameWithType: SerializationReader.ReadOptimizedStringArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedStringArray
+- uid: SuperOffice.IO.SerializationReader.ReadTimeSpanArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadTimeSpanArray
+  isExternal: true
+  name: ReadTimeSpanArray
+  nameWithType: SerializationReader.ReadTimeSpanArray
+  fullName: SuperOffice.IO.SerializationReader.ReadTimeSpanArray
+- uid: System.TimeSpan[]
+  isExternal: true
+  name: TimeSpan[]
+  nameWithType: TimeSpan[]
+  fullName: System.TimeSpan[]
+  nameWithType.vb: TimeSpan()
+  fullName.vb: System.TimeSpan()
+  name.vb: TimeSpan()
+  spec.csharp:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadUInt32Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadUInt32Array
+  isExternal: true
+  name: ReadUInt32Array
+  nameWithType: SerializationReader.ReadUInt32Array
+  fullName: SuperOffice.IO.SerializationReader.ReadUInt32Array
+- uid: System.UInt32[]
+  isExternal: true
+  name: UInt32[]
+  nameWithType: UInt32[]
+  fullName: System.UInt32[]
+  nameWithType.vb: UInt32()
+  fullName.vb: System.UInt32()
+  name.vb: UInt32()
+  spec.csharp:
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt32
+    name: UInt32
+    nameWithType: UInt32
+    fullName: System.UInt32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadUInt64Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadUInt64Array
+  isExternal: true
+  name: ReadUInt64Array
+  nameWithType: SerializationReader.ReadUInt64Array
+  fullName: SuperOffice.IO.SerializationReader.ReadUInt64Array
+- uid: System.UInt64[]
+  isExternal: true
+  name: UInt64[]
+  nameWithType: UInt64[]
+  fullName: System.UInt64[]
+  nameWithType.vb: UInt64()
+  fullName.vb: System.UInt64()
+  name.vb: UInt64()
+  spec.csharp:
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray
+  isExternal: true
+  name: ReadOptimizedBooleanArray
+  nameWithType: SerializationReader.ReadOptimizedBooleanArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedBooleanArray
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray
+  isExternal: true
+  name: ReadOptimizedDateTimeArray
+  nameWithType: SerializationReader.ReadOptimizedDateTimeArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDateTimeArray
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray
+  isExternal: true
+  name: ReadOptimizedDecimalArray
+  nameWithType: SerializationReader.ReadOptimizedDecimalArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedDecimalArray
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array
+  isExternal: true
+  name: ReadOptimizedInt16Array
+  nameWithType: SerializationReader.ReadOptimizedInt16Array
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt16Array
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array
+  isExternal: true
+  name: ReadOptimizedInt32Array
+  nameWithType: SerializationReader.ReadOptimizedInt32Array
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt32Array
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array
+  isExternal: true
+  name: ReadOptimizedInt64Array
+  nameWithType: SerializationReader.ReadOptimizedInt64Array
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedInt64Array
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray
+  isExternal: true
+  name: ReadOptimizedTimeSpanArray
+  nameWithType: SerializationReader.ReadOptimizedTimeSpanArray
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedTimeSpanArray
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array
+  isExternal: true
+  name: ReadOptimizedUInt16Array
+  nameWithType: SerializationReader.ReadOptimizedUInt16Array
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt16Array
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array
+  isExternal: true
+  name: ReadOptimizedUInt32Array
+  nameWithType: SerializationReader.ReadOptimizedUInt32Array
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt32Array
+- uid: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array
+  isExternal: true
+  name: ReadOptimizedUInt64Array
+  nameWithType: SerializationReader.ReadOptimizedUInt64Array
+  fullName: SuperOffice.IO.SerializationReader.ReadOptimizedUInt64Array
+- uid: SuperOffice.IO.SerializationReader.ReadOwnedData*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadOwnedData
+  isExternal: true
+  name: ReadOwnedData
+  nameWithType: SerializationReader.ReadOwnedData
+  fullName: SuperOffice.IO.SerializationReader.ReadOwnedData
+- uid: SuperOffice.IO.IOwnedDataSerializable
+  commentId: T:SuperOffice.IO.IOwnedDataSerializable
+  parent: SuperOffice.IO
+  isExternal: true
+  name: IOwnedDataSerializable
+  nameWithType: IOwnedDataSerializable
+  fullName: SuperOffice.IO.IOwnedDataSerializable
+- uid: SuperOffice.IO.SerializationReader.ReadTokenizedObject*
+  commentId: Overload:SuperOffice.IO.SerializationReader.ReadTokenizedObject
+  isExternal: true
+  name: ReadTokenizedObject
+  nameWithType: SerializationReader.ReadTokenizedObject
+  fullName: SuperOffice.IO.SerializationReader.ReadTokenizedObject
+- uid: SuperOffice.IO.SerializationReader.DumpStringTables*
+  commentId: Overload:SuperOffice.IO.SerializationReader.DumpStringTables
+  isExternal: true
+  name: DumpStringTables
+  nameWithType: SerializationReader.DumpStringTables
+  fullName: SuperOffice.IO.SerializationReader.DumpStringTables
+- uid: SuperOffice.IO.SerializationReader.BytesRemaining*
+  commentId: Overload:SuperOffice.IO.SerializationReader.BytesRemaining
+  isExternal: true
+  name: BytesRemaining
+  nameWithType: SerializationReader.BytesRemaining
+  fullName: SuperOffice.IO.SerializationReader.BytesRemaining

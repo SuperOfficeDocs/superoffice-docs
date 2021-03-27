@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  id: Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  langs:
+  - csharp
+  - vb
+  name: Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_GetDefaultDesiredColumnsFromRestrictionsRequest : Object'
+    content.vb: >-
+      Public Class Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_GetDefaultDesiredColumnsFromRestrictionsRequest()
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Find_GetDefaultDesiredColumnsFromRestrictionsRequest()
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Find_GetDefaultDesiredColumnsFromRestrictionsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_GetDefaultDesiredColumnsFromRestrictionsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  commentId: P:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  id: Restrictions
+  parent: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  langs:
+  - csharp
+  - vb
+  name: Restrictions
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ArchiveRestrictionInfo[] Restrictions { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+    content.vb: Public Property Restrictions As ArchiveRestrictionInfo()
+  overload: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.#ctor
+  isExternal: true
+  name: Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Find_GetDefaultDesiredColumnsFromRestrictionsRequest
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.ProviderName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  isExternal: true
+  name: Restrictions
+  nameWithType: Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+  fullName: SuperOffice.WebApi.Data.Find_GetDefaultDesiredColumnsFromRestrictionsRequest.Restrictions
+- uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.WebApi.Data.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.WebApi.Data.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  id: EMailAddAddressTask
+  parent: SuperOffice.CRM.Web.Data
+  children:
+  - SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingContact
+  - SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingPerson
+  - SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewContact
+  - SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewPerson
+  - SuperOffice.CRM.Web.Data.EMailAddAddressTask.kNoAction
+  - SuperOffice.CRM.Web.Data.EMailAddAddressTask.kSkipAdding
+  langs:
+  - csharp
+  - vb
+  name: EMailAddAddressTask
+  nameWithType: EMailAddAddressTask
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: public enum EMailAddAddressTask
+    content.vb: Public Enum EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kNoAction
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddAddressTask.kNoAction
+  id: kNoAction
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  langs:
+  - csharp
+  - vb
+  name: kNoAction
+  nameWithType: EMailAddAddressTask.kNoAction
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kNoAction
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kNoAction = 0
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingPerson
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingPerson
+  id: kAddToExistingPerson
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  langs:
+  - csharp
+  - vb
+  name: kAddToExistingPerson
+  nameWithType: EMailAddAddressTask.kAddToExistingPerson
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingPerson
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kAddToExistingPerson = 1
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewPerson
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewPerson
+  id: kAddToNewPerson
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  langs:
+  - csharp
+  - vb
+  name: kAddToNewPerson
+  nameWithType: EMailAddAddressTask.kAddToNewPerson
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewPerson
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kAddToNewPerson = 2
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingContact
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingContact
+  id: kAddToExistingContact
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  langs:
+  - csharp
+  - vb
+  name: kAddToExistingContact
+  nameWithType: EMailAddAddressTask.kAddToExistingContact
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToExistingContact
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kAddToExistingContact = 3
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewContact
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewContact
+  id: kAddToNewContact
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  langs:
+  - csharp
+  - vb
+  name: kAddToNewContact
+  nameWithType: EMailAddAddressTask.kAddToNewContact
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kAddToNewContact
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kAddToNewContact = 4
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kSkipAdding
+  commentId: F:SuperOffice.CRM.Web.Data.EMailAddAddressTask.kSkipAdding
+  id: kSkipAdding
+  parent: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  langs:
+  - csharp
+  - vb
+  name: kSkipAdding
+  nameWithType: EMailAddAddressTask.kSkipAdding
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask.kSkipAdding
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data
+  syntax:
+    content: kSkipAdding = 5
+    return:
+      type: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.Data
+  commentId: N:SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data
+  nameWithType: SuperOffice.CRM.Web.Data
+  fullName: SuperOffice.CRM.Web.Data
+- uid: SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  commentId: T:SuperOffice.CRM.Web.Data.EMailAddAddressTask
+  parent: SuperOffice.CRM.Web.Data
+  isExternal: true
+  name: EMailAddAddressTask
+  nameWithType: EMailAddAddressTask
+  fullName: SuperOffice.CRM.Web.Data.EMailAddAddressTask

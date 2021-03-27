@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  id: Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  - SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_CreateAndAcceptWithEmailConfirmationRequest : Object'
+    content.vb: >-
+      Public Class Appointment_CreateAndAcceptWithEmailConfirmationRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_CreateAndAcceptWithEmailConfirmationRequest()
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest.Appointment_CreateAndAcceptWithEmailConfirmationRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.Appointment_CreateAndAcceptWithEmailConfirmationRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_CreateAndAcceptWithEmailConfirmationRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  id: EmailItemId
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: EmailItemId
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int EmailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property EmailItemId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  commentId: P:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  id: UpdateMode
+  parent: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  langs:
+  - csharp
+  - vb
+  name: UpdateMode
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public RecurrenceUpdateMode UpdateMode { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Property UpdateMode As RecurrenceUpdateMode
+  overload: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.#ctor
+  isExternal: true
+  name: Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.Appointment_CreateAndAcceptWithEmailConfirmationRequest
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  isExternal: true
+  name: EmailItemId
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.EmailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  isExternal: true
+  name: UpdateMode
+  nameWithType: Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+  fullName: SuperOffice.WebApi.Data.Appointment_CreateAndAcceptWithEmailConfirmationRequest.UpdateMode
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

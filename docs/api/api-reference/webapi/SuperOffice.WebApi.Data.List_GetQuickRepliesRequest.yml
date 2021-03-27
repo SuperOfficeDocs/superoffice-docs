@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest
+  commentId: T:SuperOffice.WebApi.Data.List_GetQuickRepliesRequest
+  id: List_GetQuickRepliesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.#ctor
+  langs:
+  - csharp
+  - vb
+  name: List_GetQuickRepliesRequest
+  nameWithType: List_GetQuickRepliesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_GetQuickRepliesRequest : Object'
+    content.vb: >-
+      Public Class List_GetQuickRepliesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest
+  langs:
+  - csharp
+  - vb
+  name: List_GetQuickRepliesRequest()
+  nameWithType: List_GetQuickRepliesRequest.List_GetQuickRepliesRequest()
+  fullName: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.List_GetQuickRepliesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_GetQuickRepliesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.#ctor
+  isExternal: true
+  name: List_GetQuickRepliesRequest
+  nameWithType: List_GetQuickRepliesRequest.List_GetQuickRepliesRequest
+  fullName: SuperOffice.WebApi.Data.List_GetQuickRepliesRequest.List_GetQuickRepliesRequest

@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CssContainer
+  id: CssContainer
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.Align
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.Height
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString
+  - SuperOffice.CRM.Web.UI.Controls.CssContainer.Width
+  langs:
+  - csharp
+  - vb
+  name: CssContainer
+  nameWithType: CssContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class CssContainer : Control'
+    content.vb: >-
+      Public Class CssContainer
+          Inherits Control
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CssContainer.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: CssContainer.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CssContainer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: CssContainer()
+  nameWithType: CssContainer.CssContainer()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssContainer()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public CssContainer()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass
+  id: CssClass
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: CssClass
+  nameWithType: CssContainer.CssClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string CssClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CssClass As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Width
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CssContainer.Width
+  id: Width
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CssContainer.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Width
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Unit Width { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property Width As Unit
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Height
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CssContainer.Height
+  id: Height
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CssContainer.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Height
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Unit Height { get; set; }
+    parameters: []
+    return:
+      type: System.Web.UI.WebControls.Unit
+    content.vb: Public Property Height As Unit
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString
+  id: StyleHintString
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: StyleHintString
+  nameWithType: CssContainer.StyleHintString
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string StyleHintString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StyleHintString As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Align
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CssContainer.Align
+  id: Align
+  parent: SuperOffice.CRM.Web.UI.Controls.CssContainer
+  langs:
+  - csharp
+  - vb
+  name: Align
+  nameWithType: CssContainer.Align
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Align
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Align { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Align As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CssContainer.Align*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Render*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.Render
+  isExternal: true
+  name: Render
+  nameWithType: CssContainer.Render
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.#ctor
+  isExternal: true
+  name: CssContainer
+  nameWithType: CssContainer.CssContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssContainer
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass
+  isExternal: true
+  name: CssClass
+  nameWithType: CssContainer.CssClass
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.CssClass
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Width*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.Width
+  isExternal: true
+  name: Width
+  nameWithType: CssContainer.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Width
+- uid: System.Web.UI.WebControls.Unit
+  isExternal: true
+  name: Unit
+  nameWithType: Unit
+  fullName: System.Web.UI.WebControls.Unit
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Height*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.Height
+  isExternal: true
+  name: Height
+  nameWithType: CssContainer.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Height
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString
+  isExternal: true
+  name: StyleHintString
+  nameWithType: CssContainer.StyleHintString
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.StyleHintString
+- uid: SuperOffice.CRM.Web.UI.Controls.CssContainer.Align*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CssContainer.Align
+  isExternal: true
+  name: Align
+  nameWithType: CssContainer.Align
+  fullName: SuperOffice.CRM.Web.UI.Controls.CssContainer.Align

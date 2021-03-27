@@ -1,0 +1,1997 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.TicketFields
+  commentId: T:SuperOffice.CRM.Data.DBC.TicketFields
+  id: DBC.TicketFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.TicketFields.Activate
+  - SuperOffice.CRM.Data.DBC.TicketFields.AlertLevel
+  - SuperOffice.CRM.Data.DBC.TicketFields.AlertStop
+  - SuperOffice.CRM.Data.DBC.TicketFields.AlertTimeout
+  - SuperOffice.CRM.Data.DBC.TicketFields.Author
+  - SuperOffice.CRM.Data.DBC.TicketFields.Category
+  - SuperOffice.CRM.Data.DBC.TicketFields.ClosedAt
+  - SuperOffice.CRM.Data.DBC.TicketFields.ConnectId
+  - SuperOffice.CRM.Data.DBC.TicketFields.ContactId
+  - SuperOffice.CRM.Data.DBC.TicketFields.CreatedAt
+  - SuperOffice.CRM.Data.DBC.TicketFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.TicketFields.CustId
+  - SuperOffice.CRM.Data.DBC.TicketFields.DbiAgentId
+  - SuperOffice.CRM.Data.DBC.TicketFields.DbiKey
+  - SuperOffice.CRM.Data.DBC.TicketFields.DbiLastModified
+  - SuperOffice.CRM.Data.DBC.TicketFields.DbiLastSyncronized
+  - SuperOffice.CRM.Data.DBC.TicketFields.Deadline
+  - SuperOffice.CRM.Data.DBC.TicketFields.DisplayFilter
+  - SuperOffice.CRM.Data.DBC.TicketFields.FilterAddress
+  - SuperOffice.CRM.Data.DBC.TicketFields.FilterId
+  - SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByOwner
+  - SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByUser
+  - SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
+  - SuperOffice.CRM.Data.DBC.TicketFields.FromAddress
+  - SuperOffice.CRM.Data.DBC.TicketFields.HasAttachment
+  - SuperOffice.CRM.Data.DBC.TicketFields.LastChanged
+  - SuperOffice.CRM.Data.DBC.TicketFields.NumMessages
+  - SuperOffice.CRM.Data.DBC.TicketFields.NumReplies
+  - SuperOffice.CRM.Data.DBC.TicketFields.OrigCategory
+  - SuperOffice.CRM.Data.DBC.TicketFields.Origin
+  - SuperOffice.CRM.Data.DBC.TicketFields.OrigPriority
+  - SuperOffice.CRM.Data.DBC.TicketFields.OwnedBy
+  - SuperOffice.CRM.Data.DBC.TicketFields.Priority
+  - SuperOffice.CRM.Data.DBC.TicketFields.ReadByCustomer
+  - SuperOffice.CRM.Data.DBC.TicketFields.ReadByOwner
+  - SuperOffice.CRM.Data.DBC.TicketFields.ReadStatus
+  - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentExternally
+  - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentInternally
+  - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentQueue
+  - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToClose
+  - SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToReply
+  - SuperOffice.CRM.Data.DBC.TicketFields.RepliedAt
+  - SuperOffice.CRM.Data.DBC.TicketFields.Slevel
+  - SuperOffice.CRM.Data.DBC.TicketFields.Status
+  - SuperOffice.CRM.Data.DBC.TicketFields.Tags
+  - SuperOffice.CRM.Data.DBC.TicketFields.TicketId
+  - SuperOffice.CRM.Data.DBC.TicketFields.TicketStatus
+  - SuperOffice.CRM.Data.DBC.TicketFields.TicketType
+  - SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentCalculated
+  - SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentExternally
+  - SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentInternally
+  - SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentQueue
+  - SuperOffice.CRM.Data.DBC.TicketFields.TimeToClose
+  - SuperOffice.CRM.Data.DBC.TicketFields.TimeToReply
+  - SuperOffice.CRM.Data.DBC.TicketFields.Title
+  langs:
+  - csharp
+  - vb
+  name: DBC.TicketFields
+  nameWithType: DBC.TicketFields
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Ticket, This table contains the tickets (requests) of the system. Its purpose should be evident.\n"
+  syntax:
+    content: public static class TicketFields
+    content.vb: Public Module TicketFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TicketId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TicketId
+  id: TicketId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: DBC.TicketFields.TicketId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TicketId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TicketId: The primary key (auto-incremented)\n"
+  syntax:
+    content: public const string TicketId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const TicketId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.ConnectId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.ConnectId
+  id: ConnectId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: ConnectId
+  nameWithType: DBC.TicketFields.ConnectId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.ConnectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.ConnectId: If a ticket is connected to another ticket, this field is set to the id of the &apos;master&apos; ticket.\n"
+  syntax:
+    content: public const string ConnectId = "connect_id"
+    return:
+      type: System.String
+    content.vb: Public Const ConnectId As String = "connect_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Title
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: DBC.TicketFields.Title
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Title: The title of the ticket.\n"
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.CreatedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: DBC.TicketFields.CreatedAt
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.CreatedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.CreatedAt: When the ticket was created.\n"
+  syntax:
+    content: public const string CreatedAt = "created_at"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedAt As String = "created_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.LastChanged
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: DBC.TicketFields.LastChanged
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.LastChanged
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.LastChanged: The last time the ticket was modified.\n"
+  syntax:
+    content: public const string LastChanged = "last_changed"
+    return:
+      type: System.String
+    content.vb: Public Const LastChanged As String = "last_changed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Activate
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Activate
+  id: Activate
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Activate
+  nameWithType: DBC.TicketFields.Activate
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Activate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Activate: When the ticket should be activated, if it is postponed.\n"
+  syntax:
+    content: public const string Activate = "activate"
+    return:
+      type: System.String
+    content.vb: Public Const Activate As String = "activate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.ClosedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.ClosedAt
+  id: ClosedAt
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: ClosedAt
+  nameWithType: DBC.TicketFields.ClosedAt
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.ClosedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.ClosedAt: When the ticket was closed.\n"
+  syntax:
+    content: public const string ClosedAt = "closed_at"
+    return:
+      type: System.String
+    content.vb: Public Const ClosedAt As String = "closed_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.CreatedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: DBC.TicketFields.CreatedBy
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.CreatedBy: The id of the user who created the ticket. 1 (system user) if the ticket was created externally\n"
+  syntax:
+    content: public const string CreatedBy = "created_by"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedBy As String = "created_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Author
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Author
+  id: Author
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: DBC.TicketFields.Author
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Author
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Author: A string representing the author of the ticket (same as author of first message).\n"
+  syntax:
+    content: public const string Author = "author"
+    return:
+      type: System.String
+    content.vb: Public Const Author As String = "author"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.OwnedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.OwnedBy
+  id: OwnedBy
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: OwnedBy
+  nameWithType: DBC.TicketFields.OwnedBy
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.OwnedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.OwnedBy: The id of the user who owns the ticket. 1 (system user) if the ticket is unassigned.\n"
+  syntax:
+    content: public const string OwnedBy = "owned_by"
+    return:
+      type: System.String
+    content.vb: Public Const OwnedBy As String = "owned_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Category
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Category
+  id: Category
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: DBC.TicketFields.Category
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Category
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Category: The id of the category a ticket is in.\n"
+  syntax:
+    content: public const string Category = "category"
+    return:
+      type: System.String
+    content.vb: Public Const Category As String = "category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.OrigCategory
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.OrigCategory
+  id: OrigCategory
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: OrigCategory
+  nameWithType: DBC.TicketFields.OrigCategory
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.OrigCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.OrigCategory: The id of the category the ticket was posted to.\n"
+  syntax:
+    content: public const string OrigCategory = "orig_category"
+    return:
+      type: System.String
+    content.vb: Public Const OrigCategory As String = "orig_category"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Slevel
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Slevel
+  id: Slevel
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: DBC.TicketFields.Slevel
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Slevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Slevel: The securitylevel of the ticket.\n"
+  syntax:
+    content: public const string Slevel = "slevel"
+    return:
+      type: System.String
+    content.vb: Public Const Slevel As String = "slevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Status
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Status
+  id: Status
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: DBC.TicketFields.Status
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Status: The status of the ticket. I.e. active/closed/postponed/deleted\n"
+  syntax:
+    content: public const string Status = "status"
+    return:
+      type: System.String
+    content.vb: Public Const Status As String = "status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TicketStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TicketStatus
+  id: TicketStatus
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TicketStatus
+  nameWithType: DBC.TicketFields.TicketStatus
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TicketStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TicketStatus: User defined ticket status\n"
+  syntax:
+    content: public const string TicketStatus = "ticket_status"
+    return:
+      type: System.String
+    content.vb: Public Const TicketStatus As String = "ticket_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.CustId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.CustId
+  id: CustId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: CustId
+  nameWithType: DBC.TicketFields.CustId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.CustId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.CustId: The reference to the customer. NULL or -1 if ticket is not connected to customer.\n"
+  syntax:
+    content: public const string CustId = "cust_id"
+    return:
+      type: System.String
+    content.vb: Public Const CustId As String = "cust_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Priority
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Priority
+  id: Priority
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Priority
+  nameWithType: DBC.TicketFields.Priority
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Priority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Priority: The reference to the ticket_priority table.\n"
+  syntax:
+    content: public const string Priority = "priority"
+    return:
+      type: System.String
+    content.vb: Public Const Priority As String = "priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.OrigPriority
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.OrigPriority
+  id: OrigPriority
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: OrigPriority
+  nameWithType: DBC.TicketFields.OrigPriority
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.OrigPriority
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.OrigPriority: The reference to the initial priority for the ticket.\n"
+  syntax:
+    content: public const string OrigPriority = "orig_priority"
+    return:
+      type: System.String
+    content.vb: Public Const OrigPriority As String = "orig_priority"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.AlertLevel
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.AlertLevel
+  id: AlertLevel
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: AlertLevel
+  nameWithType: DBC.TicketFields.AlertLevel
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.AlertLevel
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.AlertLevel: The alert level for the ticket. Matches the level value of the ticket_alert table.\n"
+  syntax:
+    content: public const string AlertLevel = "alert_level"
+    return:
+      type: System.String
+    content.vb: Public Const AlertLevel As String = "alert_level"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.AlertTimeout
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.AlertTimeout
+  id: AlertTimeout
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: AlertTimeout
+  nameWithType: DBC.TicketFields.AlertTimeout
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.AlertTimeout
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.AlertTimeout: The datetime for when the ticket should jump to the next alert_level.\n"
+  syntax:
+    content: public const string AlertTimeout = "alert_timeout"
+    return:
+      type: System.String
+    content.vb: Public Const AlertTimeout As String = "alert_timeout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.AlertStop
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.AlertStop
+  id: AlertStop
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: AlertStop
+  nameWithType: DBC.TicketFields.AlertStop
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.AlertStop
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.AlertStop: If the esclatation was stopped, this fields indicates how many seconds left before the next escalation level. -1 if escalation is running.\n"
+  syntax:
+    content: public const string AlertStop = "alert_stop"
+    return:
+      type: System.String
+    content.vb: Public Const AlertStop As String = "alert_stop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.ReadByOwner
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.ReadByOwner
+  id: ReadByOwner
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: ReadByOwner
+  nameWithType: DBC.TicketFields.ReadByOwner
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.ReadByOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.ReadByOwner: The datetime for when the ticket last was read by the owner.\n"
+  syntax:
+    content: public const string ReadByOwner = "read_by_owner"
+    return:
+      type: System.String
+    content.vb: Public Const ReadByOwner As String = "read_by_owner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByOwner
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByOwner
+  id: FirstReadByOwner
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: FirstReadByOwner
+  nameWithType: DBC.TicketFields.FirstReadByOwner
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.FirstReadByOwner: The datetime for when the ticket first was read by the current owner.\n"
+  syntax:
+    content: public const string FirstReadByOwner = "first_read_by_owner"
+    return:
+      type: System.String
+    content.vb: Public Const FirstReadByOwner As String = "first_read_by_owner"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByUser
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByUser
+  id: FirstReadByUser
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: FirstReadByUser
+  nameWithType: DBC.TicketFields.FirstReadByUser
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.FirstReadByUser
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.FirstReadByUser: The datetime for when the ticket first was read by a user.\n"
+  syntax:
+    content: public const string FirstReadByUser = "first_read_by_user"
+    return:
+      type: System.String
+    content.vb: Public Const FirstReadByUser As String = "first_read_by_user"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.ReadByCustomer
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.ReadByCustomer
+  id: ReadByCustomer
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: ReadByCustomer
+  nameWithType: DBC.TicketFields.ReadByCustomer
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.ReadByCustomer
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.ReadByCustomer: The datetime for when the ticket was read by the customer.\n"
+  syntax:
+    content: public const string ReadByCustomer = "read_by_customer"
+    return:
+      type: System.String
+    content.vb: Public Const ReadByCustomer As String = "read_by_customer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.FilterId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FilterId
+  id: FilterId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: FilterId
+  nameWithType: DBC.TicketFields.FilterId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.FilterId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.FilterId: The reference to the mailbox from which the ticket was created. NULL or -1 if the ticket was not created by a mailbox.\n"
+  syntax:
+    content: public const string FilterId = "filter_id"
+    return:
+      type: System.String
+    content.vb: Public Const FilterId As String = "filter_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.DisplayFilter
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.DisplayFilter
+  id: DisplayFilter
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: DisplayFilter
+  nameWithType: DBC.TicketFields.DisplayFilter
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.DisplayFilter
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.DisplayFilter: The name of the mailbox from which the ticket was created. Only for displaypurposes\n"
+  syntax:
+    content: public const string DisplayFilter = "display_filter"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayFilter As String = "display_filter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.RepliedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.RepliedAt
+  id: RepliedAt
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: RepliedAt
+  nameWithType: DBC.TicketFields.RepliedAt
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.RepliedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.RepliedAt: The datetime for when the ticket was replied to. I.e. the first external message added to the ticket.\n"
+  syntax:
+    content: public const string RepliedAt = "replied_at"
+    return:
+      type: System.String
+    content.vb: Public Const RepliedAt As String = "replied_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TimeToReply
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TimeToReply
+  id: TimeToReply
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TimeToReply
+  nameWithType: DBC.TicketFields.TimeToReply
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TimeToReply
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TimeToReply: The time (minutes) between when the ticket was created and when it was replied to. Calculated based on priority&apos;s timeframe.\n"
+  syntax:
+    content: public const string TimeToReply = "time_to_reply"
+    return:
+      type: System.String
+    content.vb: Public Const TimeToReply As String = "time_to_reply"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TimeToClose
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TimeToClose
+  id: TimeToClose
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TimeToClose
+  nameWithType: DBC.TicketFields.TimeToClose
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TimeToClose
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TimeToClose: The time (minutes) between when the ticket was created and when it was closed. Calculated based on priority&apos;s timeframe.\n"
+  syntax:
+    content: public const string TimeToClose = "time_to_close"
+    return:
+      type: System.String
+    content.vb: Public Const TimeToClose As String = "time_to_close"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToReply
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToReply
+  id: RealTimeToReply
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: RealTimeToReply
+  nameWithType: DBC.TicketFields.RealTimeToReply
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToReply
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.RealTimeToReply: Same as time_to_reply, but not calculated based on priority.\n"
+  syntax:
+    content: public const string RealTimeToReply = "real_time_to_reply"
+    return:
+      type: System.String
+    content.vb: Public Const RealTimeToReply As String = "real_time_to_reply"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToClose
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToClose
+  id: RealTimeToClose
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: RealTimeToClose
+  nameWithType: DBC.TicketFields.RealTimeToClose
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeToClose
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.RealTimeToClose: Same as time_to_close, but not calculated based on priority.\n"
+  syntax:
+    content: public const string RealTimeToClose = "real_time_to_close"
+    return:
+      type: System.String
+    content.vb: Public Const RealTimeToClose As String = "real_time_to_close"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.ReadStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.ReadStatus
+  id: ReadStatus
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: ReadStatus
+  nameWithType: DBC.TicketFields.ReadStatus
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.ReadStatus
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.ReadStatus: Whether the owner has read the ticket or not (red, yellow, green).\n"
+  syntax:
+    content: public const string ReadStatus = "read_status"
+    return:
+      type: System.String
+    content.vb: Public Const ReadStatus As String = "read_status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.HasAttachment
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.HasAttachment
+  id: HasAttachment
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: HasAttachment
+  nameWithType: DBC.TicketFields.HasAttachment
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.HasAttachment
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.HasAttachment: Boolean indicating if this ticket has one or more attachments.\n"
+  syntax:
+    content: public const string HasAttachment = "has_attachment"
+    return:
+      type: System.String
+    content.vb: Public Const HasAttachment As String = "has_attachment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Deadline
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Deadline
+  id: Deadline
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Deadline
+  nameWithType: DBC.TicketFields.Deadline
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Deadline
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Deadline: Deadline for ticket.\n"
+  syntax:
+    content: public const string Deadline = "deadline"
+    return:
+      type: System.String
+    content.vb: Public Const Deadline As String = "deadline"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.FilterAddress
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FilterAddress
+  id: FilterAddress
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: FilterAddress
+  nameWithType: DBC.TicketFields.FilterAddress
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.FilterAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.FilterAddress: Address of receiving filter (mail box)\n"
+  syntax:
+    content: public const string FilterAddress = "filter_address"
+    return:
+      type: System.String
+    content.vb: Public Const FilterAddress As String = "filter_address"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.DbiAgentId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.DbiAgentId
+  id: DbiAgentId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: DbiAgentId
+  nameWithType: DBC.TicketFields.DbiAgentId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.DbiAgentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.DbiAgentId: Integration agent (eJournal)\n"
+  syntax:
+    content: public const string DbiAgentId = "dbi_agent_id"
+    return:
+      type: System.String
+    content.vb: Public Const DbiAgentId As String = "dbi_agent_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.DbiKey
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.DbiKey
+  id: DbiKey
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: DbiKey
+  nameWithType: DBC.TicketFields.DbiKey
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.DbiKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.DbiKey: The primary key for the integrated entry in the external datasource.\n"
+  syntax:
+    content: public const string DbiKey = "dbi_key"
+    return:
+      type: System.String
+    content.vb: Public Const DbiKey As String = "dbi_key"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.DbiLastSyncronized
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.DbiLastSyncronized
+  id: DbiLastSyncronized
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastSyncronized
+  nameWithType: DBC.TicketFields.DbiLastSyncronized
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.DbiLastSyncronized
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.DbiLastSyncronized: Last external synchronization.\n"
+  syntax:
+    content: public const string DbiLastSyncronized = "dbi_last_syncronized"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastSyncronized As String = "dbi_last_syncronized"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.DbiLastModified
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.DbiLastModified
+  id: DbiLastModified
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: DbiLastModified
+  nameWithType: DBC.TicketFields.DbiLastModified
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.DbiLastModified
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.DbiLastModified: When the entry was last modified.\n"
+  syntax:
+    content: public const string DbiLastModified = "dbi_last_modified"
+    return:
+      type: System.String
+    content.vb: Public Const DbiLastModified As String = "dbi_last_modified"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Origin
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Origin
+  id: Origin
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: DBC.TicketFields.Origin
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Origin
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Origin: What is the origin of this ticket\n"
+  syntax:
+    content: public const string Origin = "origin"
+    return:
+      type: System.String
+    content.vb: Public Const Origin As String = "origin"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentInternally
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentInternally
+  id: TimeSpentInternally
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentInternally
+  nameWithType: DBC.TicketFields.TimeSpentInternally
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentInternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TimeSpentInternally: The total time (seconds) within the priority&apos;s office hours the ticket has been in an open status (configurable), not including current state\n"
+  syntax:
+    content: public const string TimeSpentInternally = "time_spent_internally"
+    return:
+      type: System.String
+    content.vb: Public Const TimeSpentInternally As String = "time_spent_internally"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentExternally
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentExternally
+  id: TimeSpentExternally
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentExternally
+  nameWithType: DBC.TicketFields.TimeSpentExternally
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TimeSpentExternally: The total time (seconds) within the priority&apos;s office hours the ticket has been in a external waiting status (configurable), not including current state\n"
+  syntax:
+    content: public const string TimeSpentExternally = "time_spent_externally"
+    return:
+      type: System.String
+    content.vb: Public Const TimeSpentExternally As String = "time_spent_externally"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentQueue
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentQueue
+  id: TimeSpentQueue
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentQueue
+  nameWithType: DBC.TicketFields.TimeSpentQueue
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentQueue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TimeSpentQueue: The total time (seconds) within the priority&apos;s office hours the ticket has been in a queue status, not including current state\n"
+  syntax:
+    content: public const string TimeSpentQueue = "time_spent_queue"
+    return:
+      type: System.String
+    content.vb: Public Const TimeSpentQueue As String = "time_spent_queue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentInternally
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentInternally
+  id: RealTimeSpentInternally
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentInternally
+  nameWithType: DBC.TicketFields.RealTimeSpentInternally
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentInternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.RealTimeSpentInternally: The total time (seconds) within 24x7 the ticket has been in an open status (configurable), not including current state\n"
+  syntax:
+    content: public const string RealTimeSpentInternally = "real_time_spent_internally"
+    return:
+      type: System.String
+    content.vb: Public Const RealTimeSpentInternally As String = "real_time_spent_internally"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentExternally
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentExternally
+  id: RealTimeSpentExternally
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentExternally
+  nameWithType: DBC.TicketFields.RealTimeSpentExternally
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.RealTimeSpentExternally: The total time (seconds) within 24x7 the ticket has been in a external waiting status (configurable), not including current state\n"
+  syntax:
+    content: public const string RealTimeSpentExternally = "real_time_spent_externally"
+    return:
+      type: System.String
+    content.vb: Public Const RealTimeSpentExternally As String = "real_time_spent_externally"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentQueue
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentQueue
+  id: RealTimeSpentQueue
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: RealTimeSpentQueue
+  nameWithType: DBC.TicketFields.RealTimeSpentQueue
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.RealTimeSpentQueue
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.RealTimeSpentQueue: The total time (seconds) within 24x7 hours the ticket has been in a queue status, not including current state\n"
+  syntax:
+    content: public const string RealTimeSpentQueue = "real_time_spent_queue"
+    return:
+      type: System.String
+    content.vb: Public Const RealTimeSpentQueue As String = "real_time_spent_queue"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentCalculated
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentCalculated
+  id: TimeSpentCalculated
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TimeSpentCalculated
+  nameWithType: DBC.TicketFields.TimeSpentCalculated
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TimeSpentCalculated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TimeSpentCalculated: When the time_spent value was last calculated.\n"
+  syntax:
+    content: public const string TimeSpentCalculated = "time_spent_calculated"
+    return:
+      type: System.String
+    content.vb: Public Const TimeSpentCalculated As String = "time_spent_calculated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.NumReplies
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.NumReplies
+  id: NumReplies
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: NumReplies
+  nameWithType: DBC.TicketFields.NumReplies
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.NumReplies
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.NumReplies: The number of replies (messages) to the customer for this request.\n"
+  syntax:
+    content: public const string NumReplies = "num_replies"
+    return:
+      type: System.String
+    content.vb: Public Const NumReplies As String = "num_replies"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.NumMessages
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.NumMessages
+  id: NumMessages
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: NumMessages
+  nameWithType: DBC.TicketFields.NumMessages
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.NumMessages
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.NumMessages: The total number of messages for this request.\n"
+  syntax:
+    content: public const string NumMessages = "num_messages"
+    return:
+      type: System.String
+    content.vb: Public Const NumMessages As String = "num_messages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.TicketType
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.TicketType
+  id: TicketType
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: TicketType
+  nameWithType: DBC.TicketFields.TicketType
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.TicketType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.TicketType: Ticket type\n"
+  syntax:
+    content: public const string TicketType = "ticket_type"
+    return:
+      type: System.String
+    content.vb: Public Const TicketType As String = "ticket_type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.FromAddress
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FromAddress
+  id: FromAddress
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: FromAddress
+  nameWithType: DBC.TicketFields.FromAddress
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.FromAddress
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.FromAddress: The from-address used when this ticket got created, e.g. by email\n"
+  syntax:
+    content: public const string FromAddress = "from_address"
+    return:
+      type: System.String
+    content.vb: Public Const FromAddress As String = "from_address"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.Tags
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.Tags
+  id: Tags
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: Tags
+  nameWithType: DBC.TicketFields.Tags
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.Tags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.Tags: Array of references to the Tags records\n"
+  syntax:
+    content: public const string Tags = "tags"
+    return:
+      type: System.String
+    content.vb: Public Const Tags As String = "tags"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.TicketFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.ContactId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.ContactId: The company of the person in the cust_id field, if that person belongs to a company\n"
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.DBC.TicketFields
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: DBC.TicketFields.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.DBC.TicketFields.FormSubmissionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nTicket.FormSubmissionId: If this ticket was created from a form submission, this field will point to that record\n"
+  syntax:
+    content: public const string FormSubmissionId = "form_submission_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

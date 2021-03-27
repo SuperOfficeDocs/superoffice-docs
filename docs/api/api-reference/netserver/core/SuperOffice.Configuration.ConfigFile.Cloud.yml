@@ -1,0 +1,794 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Cloud
+  commentId: T:SuperOffice.Configuration.ConfigFile.Cloud
+  id: ConfigFile.Cloud
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
+  - SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
+  - SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
+  - SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
+  - SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
+  - SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
+  - SuperOffice.Configuration.ConfigFile.Cloud.Provider
+  - SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
+  - SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
+  - SuperOffice.Configuration.ConfigFile.Cloud.TenantId
+  - SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Cloud
+  nameWithType: ConfigFile.Cloud
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\n\n"
+  syntax:
+    content: public static class Cloud
+    content.vb: Public Module Cloud
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.Provider
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.Provider
+  id: Provider
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: ConfigFile.Cloud.Provider
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.Provider
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe provider to use (office365/google)\n"
+  syntax:
+    content: public static string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property Provider As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.Provider*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
+  id: DispatcherUrl
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: DispatcherUrl
+  nameWithType: ConfigFile.Cloud.DispatcherUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe url to the SuperOffice Dispatcher service\n"
+  syntax:
+    content: public static string DispatcherUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DispatcherUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
+  id: CloudUrl
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: CloudUrl
+  nameWithType: ConfigFile.Cloud.CloudUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe url to the cloud\n"
+  syntax:
+    content: public static string CloudUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property CloudUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.TenantId
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.TenantId
+  id: TenantId
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: TenantId
+  nameWithType: ConfigFile.Cloud.TenantId
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.TenantId
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe tenant id\n"
+  syntax:
+    content: public static string TenantId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property TenantId As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.TenantId*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
+  id: TemplatePath
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: TemplatePath
+  nameWithType: ConfigFile.Cloud.TemplatePath
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe path/uri to the templates\n"
+  syntax:
+    content: public static string TemplatePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property TemplatePath As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
+  id: ArchivePath
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: ArchivePath
+  nameWithType: ConfigFile.Cloud.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe path/uri to the archive\n"
+  syntax:
+    content: public static string ArchivePath { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property ArchivePath As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
+  id: DefaultCallbackUrl
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: DefaultCallbackUrl
+  nameWithType: ConfigFile.Cloud.DefaultCallbackUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe default callback url\n"
+  syntax:
+    content: public static string DefaultCallbackUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DefaultCallbackUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
+  id: DocumentContentType
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: DocumentContentType
+  nameWithType: ConfigFile.Cloud.DocumentContentType
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe content type to be used when creating new documents\n"
+  syntax:
+    content: public static string DocumentContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property DocumentContentType As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
+  id: SpreadSheetContentType
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: SpreadSheetContentType
+  nameWithType: ConfigFile.Cloud.SpreadSheetContentType
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe content type to be used when creating new spreadsheets\n"
+  syntax:
+    content: public static string SpreadSheetContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property SpreadSheetContentType As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
+  id: PresentationContentType
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: PresentationContentType
+  nameWithType: ConfigFile.Cloud.PresentationContentType
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThe content type to be used when creating new presentations\n"
+  syntax:
+    content: public static string PresentationContentType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property PresentationContentType As String
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
+  commentId: P:SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
+  id: UseInheritedPermissions
+  parent: SuperOffice.Configuration.ConfigFile.Cloud
+  langs:
+  - csharp
+  - vb
+  name: UseInheritedPermissions
+  nameWithType: ConfigFile.Cloud.UseInheritedPermissions
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf true, do not set own permissions in document-plugin.\n"
+  syntax:
+    content: public static bool UseInheritedPermissions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property UseInheritedPermissions As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.Provider*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.Provider
+  isExternal: true
+  name: Provider
+  nameWithType: ConfigFile.Cloud.Provider
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.Provider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
+  isExternal: true
+  name: DispatcherUrl
+  nameWithType: ConfigFile.Cloud.DispatcherUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.DispatcherUrl
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
+  isExternal: true
+  name: CloudUrl
+  nameWithType: ConfigFile.Cloud.CloudUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.CloudUrl
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.TenantId*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.TenantId
+  isExternal: true
+  name: TenantId
+  nameWithType: ConfigFile.Cloud.TenantId
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.TenantId
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
+  isExternal: true
+  name: TemplatePath
+  nameWithType: ConfigFile.Cloud.TemplatePath
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.TemplatePath
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
+  isExternal: true
+  name: ArchivePath
+  nameWithType: ConfigFile.Cloud.ArchivePath
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.ArchivePath
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
+  isExternal: true
+  name: DefaultCallbackUrl
+  nameWithType: ConfigFile.Cloud.DefaultCallbackUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.DefaultCallbackUrl
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
+  isExternal: true
+  name: DocumentContentType
+  nameWithType: ConfigFile.Cloud.DocumentContentType
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.DocumentContentType
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
+  isExternal: true
+  name: SpreadSheetContentType
+  nameWithType: ConfigFile.Cloud.SpreadSheetContentType
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.SpreadSheetContentType
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
+  isExternal: true
+  name: PresentationContentType
+  nameWithType: ConfigFile.Cloud.PresentationContentType
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.PresentationContentType
+- uid: SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
+  isExternal: true
+  name: UseInheritedPermissions
+  nameWithType: ConfigFile.Cloud.UseInheritedPermissions
+  fullName: SuperOffice.Configuration.ConfigFile.Cloud.UseInheritedPermissions
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

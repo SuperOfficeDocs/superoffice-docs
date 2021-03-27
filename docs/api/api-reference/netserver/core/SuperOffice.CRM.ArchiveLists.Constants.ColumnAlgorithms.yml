@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  commentId: T:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  id: Constants.ColumnAlgorithms
+  parent: SuperOffice.CRM.ArchiveLists
+  children:
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
+  - SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
+  langs:
+  - csharp
+  - vb
+  name: Constants.ColumnAlgorithms
+  nameWithType: Constants.ColumnAlgorithms
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nInteger values (negative ones!) used instead of EFieldId to indicate\nthat an archive column has a complex ancestry, instead of just being \nmapped directly to a field.\n"
+  syntax:
+    content: public static class ColumnAlgorithms
+    content.vb: Public Module ColumnAlgorithms
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
+  id: PersonFullName
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: PersonFullName
+  nameWithType: Constants.ColumnAlgorithms.PersonFullName
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFull name of person, composed of first, optionally middle, last; formatted according\nto the full preference set\n"
+  syntax:
+    content: public const int PersonFullName = -1
+    return:
+      type: System.Int32
+    content.vb: Public Const PersonFullName As Integer = -1
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
+  id: ContactNameDepartment
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: ContactNameDepartment
+  nameWithType: Constants.ColumnAlgorithms.ContactNameDepartment
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ContactNameDepartment
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nName + optional comma + Department of contact\n"
+  syntax:
+    content: public const int ContactNameDepartment = -2
+    return:
+      type: System.Int32
+    content.vb: Public Const ContactNameDepartment As Integer = -2
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
+  id: BirthDate
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: BirthDate
+  nameWithType: Constants.ColumnAlgorithms.BirthDate
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.BirthDate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nBirth date, composed of the day, month and year fields on person\n"
+  syntax:
+    content: public const int BirthDate = -3
+    return:
+      type: System.Int32
+    content.vb: Public Const BirthDate As Integer = -3
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
+  id: PersonFullNameWithContact
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: PersonFullNameWithContact
+  nameWithType: Constants.ColumnAlgorithms.PersonFullNameWithContact
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.PersonFullNameWithContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFull name of person, composed of first, optionally middle, last; formatted according\nto the full preference set\n"
+  syntax:
+    content: public const int PersonFullNameWithContact = -4
+    return:
+      type: System.Int32
+    content.vb: Public Const PersonFullNameWithContact As Integer = -4
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
+  id: Address
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: Constants.ColumnAlgorithms.Address
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.Address
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFormatted address - single line, parent will tell us whether it&apos;s person or contact; primary key is from table address\n"
+  syntax:
+    content: public const int Address = -5
+    return:
+      type: System.Int32
+    content.vb: Public Const Address As Integer = -5
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
+  id: MultiLineAddress
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: MultiLineAddress
+  nameWithType: Constants.ColumnAlgorithms.MultiLineAddress
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.MultiLineAddress
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFormatted address - single line, parent will tell us whether it&apos;s person or contact; primary key is from table address\n"
+  syntax:
+    content: public const int MultiLineAddress = -6
+    return:
+      type: System.Int32
+    content.vb: Public Const MultiLineAddress As Integer = -6
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
+  id: DynamicLicenseColumn
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: DynamicLicenseColumn
+  nameWithType: Constants.ColumnAlgorithms.DynamicLicenseColumn
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.DynamicLicenseColumn
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nLicense column, very dynamic (actually a pivoting of a multi-aliased join...); anyway, just get the row from the provider again\n"
+  syntax:
+    content: public const int DynamicLicenseColumn = -7
+    return:
+      type: System.Int32
+    content.vb: Public Const DynamicLicenseColumn As Integer = -7
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
+  id: SaleType
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: SaleType
+  nameWithType: Constants.ColumnAlgorithms.SaleType
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nMix of sale probability %, probability_idx and status\n"
+  syntax:
+    content: public const int SaleType = -8
+    return:
+      type: System.Int32
+    content.vb: Public Const SaleType As Integer = -8
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
+  id: SaleStage
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: SaleStage
+  nameWithType: Constants.ColumnAlgorithms.SaleStage
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.SaleStage
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nMix of sale stage id and status\n"
+  syntax:
+    content: public const int SaleStage = -9
+    return:
+      type: System.Int32
+    content.vb: Public Const SaleStage As Integer = -9
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
+  id: ProbPercent
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: ProbPercent
+  nameWithType: Constants.ColumnAlgorithms.ProbPercent
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.ProbPercent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nMix of sale stage id and status\n"
+  syntax:
+    content: public const int ProbPercent = -10
+    return:
+      type: System.Int32
+    content.vb: Public Const ProbPercent As Integer = -10
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
+  id: AmountInBaseCurrency
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: AmountInBaseCurrency
+  nameWithType: Constants.ColumnAlgorithms.AmountInBaseCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInBaseCurrency
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSale amount represented in base currency\n"
+  syntax:
+    content: public const int AmountInBaseCurrency = -11
+    return:
+      type: System.Int32
+    content.vb: Public Const AmountInBaseCurrency As Integer = -11
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
+  id: AmountInOwnCurrency
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: AmountInOwnCurrency
+  nameWithType: Constants.ColumnAlgorithms.AmountInOwnCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.AmountInOwnCurrency
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSale amount represented in owne currency\n"
+  syntax:
+    content: public const int AmountInOwnCurrency = -12
+    return:
+      type: System.Int32
+    content.vb: Public Const AmountInOwnCurrency As Integer = -12
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
+  id: WeightedAmount
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: WeightedAmount
+  nameWithType: Constants.ColumnAlgorithms.WeightedAmount
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmount
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSale amount weighted by probability\n"
+  syntax:
+    content: public const int WeightedAmount = -13
+    return:
+      type: System.Int32
+    content.vb: Public Const WeightedAmount As Integer = -13
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
+  id: WeightedAmountInBaseCurrency
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: WeightedAmountInBaseCurrency
+  nameWithType: Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInBaseCurrency
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSale amount in base currency, weighted by probability\n"
+  syntax:
+    content: public const int WeightedAmountInBaseCurrency = -14
+    return:
+      type: System.Int32
+    content.vb: Public Const WeightedAmountInBaseCurrency As Integer = -14
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
+  commentId: F:SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
+  id: WeightedAmountInOwnCurrency
+  parent: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms
+  langs:
+  - csharp
+  - vb
+  name: WeightedAmountInOwnCurrency
+  nameWithType: Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
+  fullName: SuperOffice.CRM.ArchiveLists.Constants.ColumnAlgorithms.WeightedAmountInOwnCurrency
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nSale amount in own currency, weighted by probability\n"
+  syntax:
+    content: public const int WeightedAmountInOwnCurrency = -15
+    return:
+      type: System.Int32
+    content.vb: Public Const WeightedAmountInOwnCurrency As Integer = -15
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

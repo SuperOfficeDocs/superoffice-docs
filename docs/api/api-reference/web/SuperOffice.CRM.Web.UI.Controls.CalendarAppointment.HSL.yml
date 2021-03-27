@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  id: CalendarAppointment.HSL
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.#ctor(System.Single,System.Single,System.Single)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Byte,System.Byte,System.Byte)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Drawing.Color)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB
+  - SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation
+  langs:
+  - csharp
+  - vb
+  name: CalendarAppointment.HSL
+  nameWithType: CalendarAppointment.HSL
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public class HSL
+    content.vb: Public Class HSL
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.#ctor(System.Single,System.Single,System.Single)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.#ctor(System.Single,System.Single,System.Single)
+  id: '#ctor(System.Single,System.Single,System.Single)'
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: HSL(Single, Single, Single)
+  nameWithType: CalendarAppointment.HSL.HSL(Single, Single, Single)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.HSL(System.Single, System.Single, System.Single)
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public HSL(float hue, float saturation, float luminance)
+    parameters:
+    - id: hue
+      type: System.Single
+    - id: saturation
+      type: System.Single
+    - id: luminance
+      type: System.Single
+    content.vb: Public Sub New(hue As Single, saturation As Single, luminance As Single)
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Byte,System.Byte,System.Byte)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Byte,System.Byte,System.Byte)
+  id: FromRGB(System.Byte,System.Byte,System.Byte)
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: FromRGB(Byte, Byte, Byte)
+  nameWithType: CalendarAppointment.HSL.FromRGB(Byte, Byte, Byte)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Byte, System.Byte, System.Byte)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static CalendarAppointment.HSL FromRGB(byte red, byte green, byte blue)
+    parameters:
+    - id: red
+      type: System.Byte
+    - id: green
+      type: System.Byte
+    - id: blue
+      type: System.Byte
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+    content.vb: Public Shared Function FromRGB(red As Byte, green As Byte, blue As Byte) As CalendarAppointment.HSL
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Drawing.Color)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Drawing.Color)
+  id: FromRGB(System.Drawing.Color)
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: FromRGB(Color)
+  nameWithType: CalendarAppointment.HSL.FromRGB(Color)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB(System.Drawing.Color)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public static CalendarAppointment.HSL FromRGB(Color c)
+    parameters:
+    - id: c
+      type: System.Drawing.Color
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+    content.vb: Public Shared Function FromRGB(c As Color) As CalendarAppointment.HSL
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue
+  id: Hue
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: Hue
+  nameWithType: CalendarAppointment.HSL.Hue
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public float Hue { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Hue As Single
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation
+  id: Saturation
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: Saturation
+  nameWithType: CalendarAppointment.HSL.Saturation
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public float Saturation { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Saturation As Single
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance
+  id: Luminance
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: Luminance
+  nameWithType: CalendarAppointment.HSL.Luminance
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public float Luminance { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Luminance As Single
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB
+  id: RGB
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  langs:
+  - csharp
+  - vb
+  name: RGB
+  nameWithType: CalendarAppointment.HSL.RGB
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Color RGB { get; }
+    parameters: []
+    return:
+      type: System.Drawing.Color
+    content.vb: Public ReadOnly Property RGB As Color
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.#ctor
+  isExternal: true
+  name: HSL
+  nameWithType: CalendarAppointment.HSL.HSL
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.HSL
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB
+  isExternal: true
+  name: FromRGB
+  nameWithType: CalendarAppointment.HSL.FromRGB
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.FromRGB
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarAppointment.HSL
+  nameWithType: CalendarAppointment.HSL
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL
+- uid: System.Drawing.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: System.Drawing.Color
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue
+  isExternal: true
+  name: Hue
+  nameWithType: CalendarAppointment.HSL.Hue
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Hue
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation
+  isExternal: true
+  name: Saturation
+  nameWithType: CalendarAppointment.HSL.Saturation
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Saturation
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance
+  isExternal: true
+  name: Luminance
+  nameWithType: CalendarAppointment.HSL.Luminance
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.Luminance
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB
+  isExternal: true
+  name: RGB
+  nameWithType: CalendarAppointment.HSL.RGB
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarAppointment.HSL.RGB

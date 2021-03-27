@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.EMailController
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController
+  id: EMailController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.EMailController.#ctor
+  - SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
+  - SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest(System.String)
+  - SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript(System.Int32)
+  - SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript(System.Int32)
+  - SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest)
+  - SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust)
+  - SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EMailController
+  nameWithType: EMailController
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class EMailController : ApiController, IRequiresSessionState'
+    content.vb: >-
+      Public Class EMailController
+          Inherits ApiController
+          Implements IRequiresSessionState
+  inheritance:
+  - System.Object
+  implements:
+  - System.Web.SessionState.IRequiresSessionState
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
+  id: AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: AttemptSimpleInboxLogin(EMailController.EmailAuthentication)
+  nameWithType: EMailController.AttemptSimpleInboxLogin(EMailController.EmailAuthentication)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin(SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public int AttemptSimpleInboxLogin(EMailController.EmailAuthentication auth)
+    parameters:
+    - id: auth
+      type: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+    return:
+      type: System.Int32
+    content.vb: Public Function AttemptSimpleInboxLogin(auth As EMailController.EmailAuthentication) As Integer
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest(System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest(System.String)
+  id: AutoResolveTest(System.String)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: AutoResolveTest(String)
+  nameWithType: EMailController.AutoResolveTest(String)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string AutoResolveTest(string emailAddress)
+    parameters:
+    - id: emailAddress
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function AutoResolveTest(emailAddress As String) As String
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  id: SaveEmailLoginSession(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: SaveEmailLoginSession(String, String, String, Boolean, String, String, String, Boolean, String)
+  nameWithType: EMailController.SaveEmailLoginSession(String, String, String, Boolean, String, String, String, Boolean, String)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession(System.String, System.String, System.String, System.Boolean, System.String, System.String, System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public static void SaveEmailLoginSession(string iserver, string iuser, string ipass, bool issl, string oserver, string ouser, string opass, bool ossl, string fromAddress)
+    parameters:
+    - id: iserver
+      type: System.String
+    - id: iuser
+      type: System.String
+    - id: ipass
+      type: System.String
+    - id: issl
+      type: System.Boolean
+    - id: oserver
+      type: System.String
+    - id: ouser
+      type: System.String
+    - id: opass
+      type: System.String
+    - id: ossl
+      type: System.Boolean
+    - id: fromAddress
+      type: System.String
+    content.vb: Public Shared Sub SaveEmailLoginSession(iserver As String, iuser As String, ipass As String, issl As Boolean, oserver As String, ouser As String, opass As String, ossl As Boolean, fromAddress As String)
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript(System.Int32)
+  id: GetForwardDocumentScript(System.Int32)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: GetForwardDocumentScript(Int32)
+  nameWithType: EMailController.GetForwardDocumentScript(Int32)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetForwardDocumentScript(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetForwardDocumentScript(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript(System.Int32)
+  id: GetReplyToDocumentScript(System.Int32)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: GetReplyToDocumentScript(Int32)
+  nameWithType: EMailController.GetReplyToDocumentScript(Int32)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetReplyToDocumentScript(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Function GetReplyToDocumentScript(documentId As Integer) As String
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust)
+  id: GetSendEMailToScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailToScript(EMailController.GetSendEMailToScriptReqeust)
+  nameWithType: EMailController.GetSendEMailToScript(EMailController.GetSendEMailToScriptReqeust)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetSendEMailToScript(EMailController.GetSendEMailToScriptReqeust getSendEMailToScriptReqeust)
+    parameters:
+    - id: getSendEMailToScriptReqeust
+      type: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailToScript(getSendEMailToScriptReqeust As EMailController.GetSendEMailToScriptReqeust) As String
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest)
+  id: GetSendEMailScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest)
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: GetSendEMailScript(EMailController.GetSendEMailScriptRequest)
+  nameWithType: EMailController.GetSendEMailScript(EMailController.GetSendEMailScriptRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript(SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetSendEMailScript(EMailController.GetSendEMailScriptRequest request)
+    parameters:
+    - id: request
+      type: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
+    return:
+      type: System.String
+    content.vb: Public Function GetSendEMailScript(request As EMailController.GetSendEMailScriptRequest) As String
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.EMailController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.EMailController
+  langs:
+  - csharp
+  - vb
+  name: EMailController()
+  nameWithType: EMailController.EMailController()
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EMailController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public EMailController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.EMailController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.SessionState.IRequiresSessionState
+  isExternal: true
+  name: IRequiresSessionState
+  nameWithType: IRequiresSessionState
+  fullName: System.Web.SessionState.IRequiresSessionState
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin
+  isExternal: true
+  name: AttemptSimpleInboxLogin
+  nameWithType: EMailController.AttemptSimpleInboxLogin
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.AttemptSimpleInboxLogin
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.EmailAuthentication
+  nameWithType: EMailController.EmailAuthentication
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EmailAuthentication
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest
+  isExternal: true
+  name: AutoResolveTest
+  nameWithType: EMailController.AutoResolveTest
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.AutoResolveTest
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession
+  isExternal: true
+  name: SaveEmailLoginSession
+  nameWithType: EMailController.SaveEmailLoginSession
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.SaveEmailLoginSession
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript
+  isExternal: true
+  name: GetForwardDocumentScript
+  nameWithType: EMailController.GetForwardDocumentScript
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetForwardDocumentScript
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript
+  isExternal: true
+  name: GetReplyToDocumentScript
+  nameWithType: EMailController.GetReplyToDocumentScript
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetReplyToDocumentScript
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript
+  isExternal: true
+  name: GetSendEMailToScript
+  nameWithType: EMailController.GetSendEMailToScript
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScript
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.GetSendEMailToScriptReqeust
+  nameWithType: EMailController.GetSendEMailToScriptReqeust
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailToScriptReqeust
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript
+  isExternal: true
+  name: GetSendEMailScript
+  nameWithType: EMailController.GetSendEMailScript
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScript
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: EMailController.GetSendEMailScriptRequest
+  nameWithType: EMailController.GetSendEMailScriptRequest
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.GetSendEMailScriptRequest
+- uid: SuperOffice.CRM.Web.Controllers.EMailController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.EMailController.#ctor
+  isExternal: true
+  name: EMailController
+  nameWithType: EMailController.EMailController
+  fullName: SuperOffice.CRM.Web.Controllers.EMailController.EMailController

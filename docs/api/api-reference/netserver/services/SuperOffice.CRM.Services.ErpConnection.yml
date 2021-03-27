@@ -1,0 +1,709 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ErpConnection
+  commentId: T:SuperOffice.CRM.Services.ErpConnection
+  id: ErpConnection
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ErpConnection.#ctor
+  - SuperOffice.CRM.Services.ErpConnection.Active
+  - SuperOffice.CRM.Services.ErpConnection.AllAccess
+  - SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds
+  - SuperOffice.CRM.Services.ErpConnection.ConfigFields
+  - SuperOffice.CRM.Services.ErpConnection.ConnectionId
+  - SuperOffice.CRM.Services.ErpConnection.Deleted
+  - SuperOffice.CRM.Services.ErpConnection.DisplayDescription
+  - SuperOffice.CRM.Services.ErpConnection.DisplayName
+  - SuperOffice.CRM.Services.ErpConnection.ErpConnectionId
+  - SuperOffice.CRM.Services.ErpConnection.ErpConnectorId
+  - SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp
+  - SuperOffice.CRM.Services.ErpConnection.ToString
+  - SuperOffice.CRM.Services.ErpConnection.ToString(System.String)
+  - SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds
+  langs:
+  - csharp
+  - vb
+  name: ErpConnection
+  nameWithType: ErpConnection
+  fullName: SuperOffice.CRM.Services.ErpConnection
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInformation about a connection to the ERP system.\n<p></p>\nCarrier object for ErpConnection.\nServices for the ErpConnection Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ErpConnection : Carrier'
+    content.vb: >-
+      Public Class ErpConnection
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  - linkId: SuperOffice.CRM.Services.IErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ErpConnection.#ctor
+  commentId: M:SuperOffice.CRM.Services.ErpConnection.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ErpConnection()
+  nameWithType: ErpConnection.ErpConnection()
+  fullName: SuperOffice.CRM.Services.ErpConnection.ErpConnection()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ErpConnection()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ErpConnection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpConnection.ToString
+  commentId: M:SuperOffice.CRM.Services.ErpConnection.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ErpConnection.ToString()
+  fullName: SuperOffice.CRM.Services.ErpConnection.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ErpConnection.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ErpConnection.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ErpConnection.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ErpConnection.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpConnection.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ErpConnection.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpConnection.ErpConnectionId
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.ErpConnectionId
+  id: ErpConnectionId
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectionId
+  nameWithType: ErpConnection.ErpConnectionId
+  fullName: SuperOffice.CRM.Services.ErpConnection.ErpConnectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ErpConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectionId As Integer
+  overload: SuperOffice.CRM.Services.ErpConnection.ErpConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.ErpConnectorId
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.ErpConnectorId
+  id: ErpConnectorId
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ErpConnectorId
+  nameWithType: ErpConnection.ErpConnectorId
+  fullName: SuperOffice.CRM.Services.ErpConnection.ErpConnectorId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe connector that this connection should call \n"
+  syntax:
+    content: public virtual int ErpConnectorId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ErpConnectorId As Integer
+  overload: SuperOffice.CRM.Services.ErpConnection.ErpConnectorId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.DisplayName
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.DisplayName
+  id: DisplayName
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: DisplayName
+  nameWithType: ErpConnection.DisplayName
+  fullName: SuperOffice.CRM.Services.ErpConnection.DisplayName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nConnection name shown to user; multi-language support \n"
+  syntax:
+    content: public virtual string DisplayName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayName As String
+  overload: SuperOffice.CRM.Services.ErpConnection.DisplayName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.DisplayDescription
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.DisplayDescription
+  id: DisplayDescription
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: DisplayDescription
+  nameWithType: ErpConnection.DisplayDescription
+  fullName: SuperOffice.CRM.Services.ErpConnection.DisplayDescription
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTooltip/description shown to user; multi-language support \n"
+  syntax:
+    content: public virtual string DisplayDescription { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DisplayDescription As String
+  overload: SuperOffice.CRM.Services.ErpConnection.DisplayDescription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.Active
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.Active
+  id: Active
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: ErpConnection.Active
+  fullName: SuperOffice.CRM.Services.ErpConnection.Active
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this connection currently active \n"
+  syntax:
+    content: public virtual bool Active { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Active As Boolean
+  overload: SuperOffice.CRM.Services.ErpConnection.Active*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.ConnectionId
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.ConnectionId
+  id: ConnectionId
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ConnectionId
+  nameWithType: ErpConnection.ConnectionId
+  fullName: SuperOffice.CRM.Services.ErpConnection.ConnectionId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe GUID that uniquely identifies this connection; passed to the Connector in every call \n"
+  syntax:
+    content: public virtual string ConnectionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ConnectionId As String
+  overload: SuperOffice.CRM.Services.ErpConnection.ConnectionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp
+  id: MostRecentTimestamp
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: MostRecentTimestamp
+  nameWithType: ErpConnection.MostRecentTimestamp
+  fullName: SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDatetime, transaction number or other identification of the point in time of the most-recently seen actor in the ERP system \n"
+  syntax:
+    content: public virtual string MostRecentTimestamp { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MostRecentTimestamp As String
+  overload: SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.ConfigFields
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.ConfigFields
+  id: ConfigFields
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: ConfigFields
+  nameWithType: ErpConnection.ConfigFields
+  fullName: SuperOffice.CRM.Services.ErpConnection.ConfigFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe config fields needed to establish a connection to the connector \n"
+  syntax:
+    content: public virtual StringDictionary ConfigFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Overridable Property ConfigFields As StringDictionary
+  overload: SuperOffice.CRM.Services.ErpConnection.ConfigFields*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.Deleted
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ErpConnection.Deleted
+  fullName: SuperOffice.CRM.Services.ErpConnection.Deleted
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf true, the connection has been deleted and should not be shown to the users. \n"
+  syntax:
+    content: public virtual bool Deleted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Deleted As Boolean
+  overload: SuperOffice.CRM.Services.ErpConnection.Deleted*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.AllAccess
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.AllAccess
+  id: AllAccess
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: AllAccess
+  nameWithType: ErpConnection.AllAccess
+  fullName: SuperOffice.CRM.Services.ErpConnection.AllAccess
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs this connection accessible to everyone?  If not, then the ErpConnectionAccess table tells us who can access it \n"
+  syntax:
+    content: public virtual bool AllAccess { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property AllAccess As Boolean
+  overload: SuperOffice.CRM.Services.ErpConnection.AllAccess*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds
+  id: UserGroupAccessIds
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: UserGroupAccessIds
+  nameWithType: ErpConnection.UserGroupAccessIds
+  fullName: SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of ids containing usergroups that will have access to this connection. \n"
+  syntax:
+    content: public virtual int[] UserGroupAccessIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property UserGroupAccessIds As Integer()
+  overload: SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds
+  commentId: P:SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds
+  id: AssociateAccessIds
+  parent: SuperOffice.CRM.Services.ErpConnection
+  langs:
+  - csharp
+  - vb
+  name: AssociateAccessIds
+  nameWithType: ErpConnection.AssociateAccessIds
+  fullName: SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nArray of ids containing associates that will have access to this connection. \n"
+  syntax:
+    content: public virtual int[] AssociateAccessIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Overridable Property AssociateAccessIds As Integer()
+  overload: SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent
+- uid: SuperOffice.CRM.Services.IErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IErpSyncAgent
+  nameWithType: IErpSyncAgent
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ErpConnection.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.#ctor
+  isExternal: true
+  name: ErpConnection
+  nameWithType: ErpConnection.ErpConnection
+  fullName: SuperOffice.CRM.Services.ErpConnection.ErpConnection
+- uid: SuperOffice.CRM.Services.ErpConnection.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ErpConnection.ToString
+  fullName: SuperOffice.CRM.Services.ErpConnection.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ErpConnection.ErpConnectionId*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.ErpConnectionId
+  isExternal: true
+  name: ErpConnectionId
+  nameWithType: ErpConnection.ErpConnectionId
+  fullName: SuperOffice.CRM.Services.ErpConnection.ErpConnectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ErpConnection.ErpConnectorId*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.ErpConnectorId
+  isExternal: true
+  name: ErpConnectorId
+  nameWithType: ErpConnection.ErpConnectorId
+  fullName: SuperOffice.CRM.Services.ErpConnection.ErpConnectorId
+- uid: SuperOffice.CRM.Services.ErpConnection.DisplayName*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.DisplayName
+  isExternal: true
+  name: DisplayName
+  nameWithType: ErpConnection.DisplayName
+  fullName: SuperOffice.CRM.Services.ErpConnection.DisplayName
+- uid: SuperOffice.CRM.Services.ErpConnection.DisplayDescription*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.DisplayDescription
+  isExternal: true
+  name: DisplayDescription
+  nameWithType: ErpConnection.DisplayDescription
+  fullName: SuperOffice.CRM.Services.ErpConnection.DisplayDescription
+- uid: SuperOffice.CRM.Services.ErpConnection.Active*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.Active
+  isExternal: true
+  name: Active
+  nameWithType: ErpConnection.Active
+  fullName: SuperOffice.CRM.Services.ErpConnection.Active
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ErpConnection.ConnectionId*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.ConnectionId
+  isExternal: true
+  name: ConnectionId
+  nameWithType: ErpConnection.ConnectionId
+  fullName: SuperOffice.CRM.Services.ErpConnection.ConnectionId
+- uid: SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp
+  isExternal: true
+  name: MostRecentTimestamp
+  nameWithType: ErpConnection.MostRecentTimestamp
+  fullName: SuperOffice.CRM.Services.ErpConnection.MostRecentTimestamp
+- uid: SuperOffice.CRM.Services.ErpConnection.ConfigFields*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.ConfigFields
+  isExternal: true
+  name: ConfigFields
+  nameWithType: ErpConnection.ConfigFields
+  fullName: SuperOffice.CRM.Services.ErpConnection.ConfigFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.ErpConnection.Deleted*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.Deleted
+  isExternal: true
+  name: Deleted
+  nameWithType: ErpConnection.Deleted
+  fullName: SuperOffice.CRM.Services.ErpConnection.Deleted
+- uid: SuperOffice.CRM.Services.ErpConnection.AllAccess*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.AllAccess
+  isExternal: true
+  name: AllAccess
+  nameWithType: ErpConnection.AllAccess
+  fullName: SuperOffice.CRM.Services.ErpConnection.AllAccess
+- uid: SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds
+  isExternal: true
+  name: UserGroupAccessIds
+  nameWithType: ErpConnection.UserGroupAccessIds
+  fullName: SuperOffice.CRM.Services.ErpConnection.UserGroupAccessIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds*
+  commentId: Overload:SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds
+  isExternal: true
+  name: AssociateAccessIds
+  nameWithType: ErpConnection.AssociateAccessIds
+  fullName: SuperOffice.CRM.Services.ErpConnection.AssociateAccessIds

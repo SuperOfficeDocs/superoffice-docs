@@ -1,0 +1,240 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  commentId: T:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  id: Find_CreateRestrictionGroupRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.#ctor
+  - SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context
+  - SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName
+  - SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey
+  - SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType
+  langs:
+  - csharp
+  - vb
+  name: Find_CreateRestrictionGroupRequest
+  nameWithType: Find_CreateRestrictionGroupRequest
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Find_CreateRestrictionGroupRequest : Object'
+    content.vb: >-
+      Public Class Find_CreateRestrictionGroupRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Find_CreateRestrictionGroupRequest()
+  nameWithType: Find_CreateRestrictionGroupRequest.Find_CreateRestrictionGroupRequest()
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Find_CreateRestrictionGroupRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Find_CreateRestrictionGroupRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType
+  commentId: P:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType
+  id: StorageType
+  parent: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageType
+  nameWithType: Find_CreateRestrictionGroupRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageType As String
+  overload: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName
+  commentId: P:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName
+  id: ProviderName
+  parent: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: ProviderName
+  nameWithType: Find_CreateRestrictionGroupRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ProviderName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderName As String
+  overload: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey
+  commentId: P:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey
+  id: StorageKey
+  parent: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: StorageKey
+  nameWithType: Find_CreateRestrictionGroupRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string StorageKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StorageKey As String
+  overload: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context
+  commentId: P:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context
+  id: Context
+  parent: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest
+  langs:
+  - csharp
+  - vb
+  name: Context
+  nameWithType: Find_CreateRestrictionGroupRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Context { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Context As String
+  overload: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.#ctor
+  isExternal: true
+  name: Find_CreateRestrictionGroupRequest
+  nameWithType: Find_CreateRestrictionGroupRequest.Find_CreateRestrictionGroupRequest
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Find_CreateRestrictionGroupRequest
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType
+  isExternal: true
+  name: StorageType
+  nameWithType: Find_CreateRestrictionGroupRequest.StorageType
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName
+  isExternal: true
+  name: ProviderName
+  nameWithType: Find_CreateRestrictionGroupRequest.ProviderName
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.ProviderName
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey
+  isExternal: true
+  name: StorageKey
+  nameWithType: Find_CreateRestrictionGroupRequest.StorageKey
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.StorageKey
+- uid: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context*
+  commentId: Overload:SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context
+  isExternal: true
+  name: Context
+  nameWithType: Find_CreateRestrictionGroupRequest.Context
+  fullName: SuperOffice.WebApi.Data.Find_CreateRestrictionGroupRequest.Context

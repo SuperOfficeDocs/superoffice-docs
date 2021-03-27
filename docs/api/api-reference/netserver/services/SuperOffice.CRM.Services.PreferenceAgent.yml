@@ -1,0 +1,3433 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PreferenceAgent
+  commentId: T:SuperOffice.CRM.Services.PreferenceAgent
+  id: PreferenceAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PreferenceAgent.#ctor
+  - SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference
+  - SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription
+  - SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  - SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+  - SuperOffice.CRM.Services.PreferenceAgent.DeletePreference(System.Int32)
+  - SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription(System.Int32)
+  - SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences(System.Int32[])
+  - SuperOffice.CRM.Services.PreferenceAgent.GetAll
+  - SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection(System.String)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreference(System.Int32)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription(System.Int32)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  - SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  - SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder(System.String)
+  - SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders
+  - SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  - SuperOffice.CRM.Services.PreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  - SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  - SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  - SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  - SuperOffice.CRM.Services.PreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  - SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  - SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  - SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus(System.String)
+  langs:
+  - csharp
+  - vb
+  name: PreferenceAgent
+  nameWithType: PreferenceAgent
+  fullName: SuperOffice.CRM.Services.PreferenceAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Preference Agent\nPreferences, user interface tab configuration\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PreferenceAgent agent = new PreferenceAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class PreferenceAgent : AgentBase<IPreferenceAgent>, IDisposable, IPreferenceAgent, IAgent'
+    content.vb: >-
+      Public Class PreferenceAgent
+          Inherits AgentBase(Of IPreferenceAgent)
+          Implements IDisposable, IPreferenceAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IPreferenceAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference
+  id: CreateDefaultPreference
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreference()
+  nameWithType: PreferenceAgent.CreateDefaultPreference()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new Preference.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Preference CreateDefaultPreference()
+    return:
+      type: SuperOffice.CRM.Services.Preference
+      description: New Preference with default values
+    content.vb: Public Function CreateDefaultPreference As Preference
+  overload: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription
+  id: CreateDefaultPreferenceDescription
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreferenceDescription()
+  nameWithType: PreferenceAgent.CreateDefaultPreferenceDescription()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new PreferenceDescription.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public PreferenceDescription CreateDefaultPreferenceDescription()
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: New PreferenceDescription with default values
+    content.vb: Public Function CreateDefaultPreferenceDescription As PreferenceDescription
+  overload: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  id: SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePreferenceDescription(PreferenceDescription)
+  nameWithType: PreferenceAgent.SavePreferenceDescription(PreferenceDescription)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing PreferenceDescription or creates a new PreferenceDescription if the id parameter is empty\n"
+  syntax:
+    content: public PreferenceDescription SavePreferenceDescription(PreferenceDescription preferenceDescription)
+    parameters:
+    - id: preferenceDescription
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: The PreferenceDescription that is saved.
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: New or updated PreferenceDescription
+    content.vb: Public Function SavePreferenceDescription(preferenceDescription As PreferenceDescription) As PreferenceDescription
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription(System.Int32)
+  id: DeletePreferenceDescription(System.Int32)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePreferenceDescription(Int32)
+  nameWithType: PreferenceAgent.DeletePreferenceDescription(Int32)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the PreferenceDescription\n"
+  syntax:
+    content: public void DeletePreferenceDescription(int preferenceDescriptionId)
+    parameters:
+    - id: preferenceDescriptionId
+      type: System.Int32
+      description: The identity of the PreferenceDescription
+    content.vb: Public Sub DeletePreferenceDescription(preferenceDescriptionId As Integer)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  id: CreateDefaultPreferenceDescriptionLine
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreferenceDescriptionLine()
+  nameWithType: PreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new PreferenceDescriptionLine.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public PreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
+      description: New PreferenceDescriptionLine with default values
+    content.vb: Public Function CreateDefaultPreferenceDescriptionLine As PreferenceDescriptionLine
+  overload: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  id: SavePreference(SuperOffice.CRM.Services.Preference)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePreference(Preference)
+  nameWithType: PreferenceAgent.SavePreference(Preference)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave this preference\n"
+  syntax:
+    content: public void SavePreference(Preference preference)
+    parameters:
+    - id: preference
+      type: SuperOffice.CRM.Services.Preference
+      description: Preference to be saved. All fields must be filled in, and the preference will be saved on the Associate level only. Setting for other levels is an administrative task and not available through this service.
+    content.vb: Public Sub SavePreference(preference As Preference)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SavePreference*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  id: SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTabOrder(TabOrder)
+  nameWithType: PreferenceAgent.SaveTabOrder(TabOrder)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves the tab order. The order is saved pr. user.\n"
+  syntax:
+    content: public void SaveTabOrder(TabOrder tabOrder)
+    parameters:
+    - id: tabOrder
+      type: SuperOffice.CRM.Services.TabOrder
+      description: Name of the tab control
+    content.vb: Public Sub SaveTabOrder(tabOrder As TabOrder)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder(System.String)
+  id: GetTabOrder(System.String)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTabOrder(String)
+  nameWithType: PreferenceAgent.GetTabOrder(String)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the tab order.\n"
+  syntax:
+    content: public TabOrder GetTabOrder(string tabName)
+    parameters:
+    - id: tabName
+      type: System.String
+      description: Name of the tab control
+    return:
+      type: SuperOffice.CRM.Services.TabOrder
+      description: Tab order. Array of strings. Each string represent a named tab.
+    content.vb: Public Function GetTabOrder(tabName As String) As TabOrder
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreference(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreference(System.Int32)
+  id: GetPreference(System.Int32)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreference(Int32)
+  nameWithType: PreferenceAgent.GetPreference(Int32)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreference(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a preference by id\n"
+  syntax:
+    content: public Preference GetPreference(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The id of the preference to load
+    return:
+      type: SuperOffice.CRM.Services.Preference
+      description: The preference loaded
+    content.vb: Public Function GetPreference(id As Integer) As Preference
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreference*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  id: SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePreferenceEntity(Preference, Boolean)
+  nameWithType: PreferenceAgent.SavePreferenceEntity(Preference, Boolean)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a complete preference object, on any level and any target. Preference administrator rights are required to use this\n"
+  syntax:
+    content: public Preference SavePreferenceEntity(Preference preference, bool removeLowerLevels)
+    parameters:
+    - id: preference
+      type: SuperOffice.CRM.Services.Preference
+      description: The preference object to be saved
+    - id: removeLowerLevels
+      type: System.Boolean
+      description: If this is true, all user preferences on lower levels will be deleted
+    return:
+      type: SuperOffice.CRM.Services.Preference
+      description: Returns the saved preference
+    content.vb: Public Function SavePreferenceEntity(preference As Preference, removeLowerLevels As Boolean) As Preference
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeletePreference(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.DeletePreference(System.Int32)
+  id: DeletePreference(System.Int32)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePreference(Int32)
+  nameWithType: PreferenceAgent.DeletePreference(Int32)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeletePreference(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a preference by id\n"
+  syntax:
+    content: public void DeletePreference(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: The id of the preference to delete
+    content.vb: Public Sub DeletePreference(id As Integer)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.DeletePreference*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences(System.Int32[])
+  id: DeletePreferences(System.Int32[])
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePreferences(Int32[])
+  nameWithType: PreferenceAgent.DeletePreferences(Int32[])
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete some preferences by id\n"
+  syntax:
+    content: public void DeletePreferences(int[] ids)
+    parameters:
+    - id: ids
+      type: System.Int32[]
+      description: The ids of the preference to delete
+    content.vb: Public Sub DeletePreferences(ids As Integer())
+  overload: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+  nameWithType.vb: PreferenceAgent.DeletePreferences(Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences(System.Int32())
+  name.vb: DeletePreferences(Int32())
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  id: GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferenceByName(String, String, PreferenceLevel)
+  nameWithType: PreferenceAgent.GetPreferenceByName(String, String, PreferenceLevel)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName(System.String, System.String, SuperOffice.Data.PreferenceLevel)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a preference by name\n"
+  syntax:
+    content: public Preference GetPreferenceByName(string prefSection, string prefKey, PreferenceLevel prefLevel)
+    parameters:
+    - id: prefSection
+      type: System.String
+      description: 'The preference section name. e.g. &apos;Functions&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants. '
+    - id: prefKey
+      type: System.String
+      description: The preference key name. e.g. &apos;ShowTipsAtStart&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants.
+    - id: prefLevel
+      type: SuperOffice.Data.PreferenceLevel
+      description: The preference level to read. Undefined (0) means to return the preference defined closest to the user.
+    return:
+      type: SuperOffice.CRM.Services.Preference
+      description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
+    content.vb: Public Function GetPreferenceByName(prefSection As String, prefKey As String, prefLevel As PreferenceLevel) As Preference
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  id: GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferenceByNameAndId(String, String, PreferenceLevel, Int32)
+  nameWithType: PreferenceAgent.GetPreferenceByNameAndId(String, String, PreferenceLevel, Int32)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId(System.String, System.String, SuperOffice.Data.PreferenceLevel, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a preference by name and owner id.\n"
+  syntax:
+    content: public Preference GetPreferenceByNameAndId(string prefSection, string prefKey, PreferenceLevel prefLevel, int ownerId)
+    parameters:
+    - id: prefSection
+      type: System.String
+      description: 'The preference section name. e.g. &apos;Functions&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants. '
+    - id: prefKey
+      type: System.String
+      description: The preference key name. e.g. &apos;ShowTipsAtStart&apos;. See SuperOffice.CRM.UserPreferenceStrings for constants.
+    - id: prefLevel
+      type: SuperOffice.Data.PreferenceLevel
+      description: The preference level to read. Undefined (0) means to return the preference defined closest to the user.
+    - id: ownerId
+      type: System.Int32
+      description: The preference owner id, individual or group.
+    return:
+      type: SuperOffice.CRM.Services.Preference
+      description: The preference. Note that id = 0 and value = null if preference not found in the database at the requested pref-level.
+    content.vb: Public Function GetPreferenceByNameAndId(prefSection As String, prefKey As String, prefLevel As PreferenceLevel, ownerId As Integer) As Preference
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl
+  id: GetNetServicesStatusUrl
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNetServicesStatusUrl()
+  nameWithType: PreferenceAgent.GetNetServicesStatusUrl()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns URL to status service. e.g. &apos;https://help.superoffice.com/sodispatcher/v1/status&apos; Returns NULL if status does not need to be checked yet.\n"
+  syntax:
+    content: public string GetNetServicesStatusUrl()
+    return:
+      type: System.String
+      description: NULL or URL of the status service that returns an XML or JSON block.
+    content.vb: Public Function GetNetServicesStatusUrl As String
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus(System.String)
+  id: UpdateNetServicesStatus(System.String)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateNetServicesStatus(String)
+  nameWithType: PreferenceAgent.UpdateNetServicesStatus(String)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate the NetServices preferences with values contained in the content from the Status URL\n"
+  syntax:
+    content: public void UpdateNetServicesStatus(string xml_or_json)
+    parameters:
+    - id: xml_or_json
+      type: System.String
+      description: The text that was returned by getting the Status URL
+    content.vb: Public Sub UpdateNetServicesStatus(xml_or_json As String)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription(System.Int32)
+  id: GetPreferenceDescription(System.Int32)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferenceDescription(Int32)
+  nameWithType: PreferenceAgent.GetPreferenceDescription(Int32)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a PreferenceDescription object.                        \n"
+  syntax:
+    content: public PreferenceDescription GetPreferenceDescription(int preferenceDescriptionId)
+    parameters:
+    - id: preferenceDescriptionId
+      type: System.Int32
+      description: The identifier of the PreferenceDescription object
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: PreferenceDescription
+    content.vb: Public Function GetPreferenceDescription(preferenceDescriptionId As Integer) As PreferenceDescription
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+  id: GetFromSectionAndKey(System.String,System.String)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFromSectionAndKey(String, String)
+  nameWithType: PreferenceAgent.GetFromSectionAndKey(String, String)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a PreferenceDescription based on the section and key\n"
+  syntax:
+    content: public PreferenceDescription GetFromSectionAndKey(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+      description: The PreferenceDescription-section
+    - id: key
+      type: System.String
+      description: The PreferenceDescription-key
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: A PreferenceDescription or null
+    content.vb: Public Function GetFromSectionAndKey(section As String, key As String) As PreferenceDescription
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetAll
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetAll
+  id: GetAll
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAll()
+  nameWithType: PreferenceAgent.GetAll()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetAll()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a list of all PreferenceDescriptions in the system.\n"
+  syntax:
+    content: public PreferenceDescription[] GetAll()
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription[]
+      description: All PreferenceDescriptions in the system
+    content.vb: Public Function GetAll As PreferenceDescription()
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetAll*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection(System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection(System.String)
+  id: GetAllFromSection(System.String)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllFromSection(String)
+  nameWithType: PreferenceAgent.GetAllFromSection(String)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets all PreferenceDescription-items in the specified section\n"
+  syntax:
+    content: public PreferenceDescription[] GetAllFromSection(string section)
+    parameters:
+    - id: section
+      type: System.String
+      description: The PreferenceDescription-section
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription[]
+      description: All PreferenceDescriptions found.
+    content.vb: Public Function GetAllFromSection(section As String) As PreferenceDescription()
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  id: SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveFromSectionAndKey(String, String, PreferenceDescription)
+  nameWithType: PreferenceAgent.SaveFromSectionAndKey(String, String, PreferenceDescription)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey(System.String, System.String, SuperOffice.CRM.Services.PreferenceDescription)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdate a PreferenceDescription based on the section and key\n"
+  syntax:
+    content: public PreferenceDescription SaveFromSectionAndKey(string section, string key, PreferenceDescription preferenceDescription)
+    parameters:
+    - id: section
+      type: System.String
+      description: The PreferenceDescription-section
+    - id: key
+      type: System.String
+      description: The PreferenceDescription-key
+    - id: preferenceDescription
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: The PreferenceDescription to save.
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescription
+      description: Saved PreferenceDescription
+    content.vb: Public Function SaveFromSectionAndKey(section As String, key As String, preferenceDescription As PreferenceDescription) As PreferenceDescription
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+  id: DeleteFromSectionAndKey(System.String,System.String)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteFromSectionAndKey(String, String)
+  nameWithType: PreferenceAgent.DeleteFromSectionAndKey(String, String)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a PreferenceDescription based on the section and key\n"
+  syntax:
+    content: public void DeleteFromSectionAndKey(string section, string key)
+    parameters:
+    - id: section
+      type: System.String
+      description: The PreferenceDescription-section
+    - id: key
+      type: System.String
+      description: The PreferenceDescription-key
+    content.vb: Public Sub DeleteFromSectionAndKey(section As String, key As String)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  id: GetPreferenceDescriptionLine(System.Int32)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferenceDescriptionLine(Int32)
+  nameWithType: PreferenceAgent.GetPreferenceDescriptionLine(Int32)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a PreferenceDescriptionLine object.                        \n"
+  syntax:
+    content: public PreferenceDescriptionLine GetPreferenceDescriptionLine(int preferenceDescriptionLineId)
+    parameters:
+    - id: preferenceDescriptionLineId
+      type: System.Int32
+      description: The identifier of the PreferenceDescriptionLine object
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
+      description: PreferenceDescriptionLine
+    content.vb: Public Function GetPreferenceDescriptionLine(preferenceDescriptionLineId As Integer) As PreferenceDescriptionLine
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  id: GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferenceDescriptionLineFromIdAndValue(Int32, String)
+  nameWithType: PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Int32, String)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a preference description line from a prefDesc_id and a prefValue\n"
+  syntax:
+    content: public PreferenceDescriptionLine GetPreferenceDescriptionLineFromIdAndValue(int prefDescId, string prefValue)
+    parameters:
+    - id: prefDescId
+      type: System.Int32
+      description: The id of the preference description this line is connected to
+    - id: prefValue
+      type: System.String
+      description: The value of the description line to return
+    return:
+      type: SuperOffice.CRM.Services.PreferenceDescriptionLine
+      description: The preference description line matching the id and the value
+    content.vb: Public Function GetPreferenceDescriptionLineFromIdAndValue(prefDescId As Integer, prefValue As String) As PreferenceDescriptionLine
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  id: GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferences(PreferenceSpec[])
+  nameWithType: PreferenceAgent.GetPreferences(PreferenceSpec[])
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet one or more preferences based on a set of specifications.&lt;br/>The prefDisplayvalue and prefDisplaytooltip are blank (faster processing relative to GetPreferencesWithDisplayValues)\n"
+  syntax:
+    content: public Preference[] GetPreferences(PreferenceSpec[] specifications)
+    parameters:
+    - id: specifications
+      type: SuperOffice.CRM.Services.PreferenceSpec[]
+      description: "Array of preference specifications. The key value may be * (asterisk), which means &apos;all keys within section&apos;. \n\nNote that the semantics of this are more strictly &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.\n\nYou can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!"
+    return:
+      type: SuperOffice.CRM.Services.Preference[]
+      description: >-
+        Array of preference values for your given specification(s). More strictly:
+
+        &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.
+    content.vb: Public Function GetPreferences(specifications As PreferenceSpec()) As Preference()
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferences*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  nameWithType.vb: PreferenceAgent.GetPreferences(PreferenceSpec())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec())
+  name.vb: GetPreferences(PreferenceSpec())
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  id: SavePreferences(SuperOffice.CRM.Services.Preference[])
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePreferences(Preference[])
+  nameWithType: PreferenceAgent.SavePreferences(Preference[])
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave this set of preferences. Note this method DOES NOT look at level/targetId - it only saves on behalf of the CURRENT USER.\n"
+  syntax:
+    content: public void SavePreferences(Preference[] preferences)
+    parameters:
+    - id: preferences
+      type: SuperOffice.CRM.Services.Preference[]
+      description: Preferences to be saved. Note that all fields must be filled in, and the preference will be saved on the Associate level only! Setting for other levels is an administrative task and not available through this service.
+    content.vb: Public Sub SavePreferences(preferences As Preference())
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SavePreferences*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  nameWithType.vb: PreferenceAgent.SavePreferences(Preference())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference())
+  name.vb: SavePreferences(Preference())
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  id: GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPreferencesWithDisplayValues(PreferenceSpec[])
+  nameWithType: PreferenceAgent.GetPreferencesWithDisplayValues(PreferenceSpec[])
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet one or more preferences based on a set of specifications&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.\n"
+  syntax:
+    content: public Preference[] GetPreferencesWithDisplayValues(PreferenceSpec[] specifications)
+    parameters:
+    - id: specifications
+      type: SuperOffice.CRM.Services.PreferenceSpec[]
+      description: "Array of preference specifications. The key value may be * (asterisk), which means &apos;all keys within section&apos;. \n\nNote that the semantics of this are more strictly &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.\n\nYou can also have askerisk as the section name. In that case the specification array must contain exactly one entry and the key must also be asterisk. This will return all known preferences in all sections for your associate. It might be a lot, tests have shown that a heavily used database can accumulate up to 500 preferences on a single associate. If the Sentry table/field right preferences have been used, the number could be a lot greater!"
+    return:
+      type: SuperOffice.CRM.Services.Preference[]
+      description: >-
+        Array of preference values for your given specification(s). More strictly:
+
+        &apos;all keys actually set at any accessible level for this associate&apos;; you will NOT get entries for preferences that might exist, but have no set value anywhere.&lt;br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.
+    content.vb: Public Function GetPreferencesWithDisplayValues(specifications As PreferenceSpec()) As Preference()
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  nameWithType.vb: PreferenceAgent.GetPreferencesWithDisplayValues(PreferenceSpec())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec())
+  name.vb: GetPreferencesWithDisplayValues(PreferenceSpec())
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders
+  id: GetTabOrders
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetTabOrders()
+  nameWithType: PreferenceAgent.GetTabOrders()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public TabOrder[] GetTabOrders()
+    return:
+      type: SuperOffice.CRM.Services.TabOrder[]
+    content.vb: Public Function GetTabOrders As TabOrder()
+  overload: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  id: SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTabOrders(TabOrder[])
+  nameWithType: PreferenceAgent.SaveTabOrders(TabOrder[])
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public void SaveTabOrders(TabOrder[] tabOrders)
+    parameters:
+    - id: tabOrders
+      type: SuperOffice.CRM.Services.TabOrder[]
+    content.vb: Public Sub SaveTabOrders(tabOrders As TabOrder())
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  nameWithType.vb: PreferenceAgent.SaveTabOrders(TabOrder())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder())
+  name.vb: SaveTabOrders(TabOrder())
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  id: SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePreferenceEntities(Preference[], Boolean)
+  nameWithType: PreferenceAgent.SavePreferenceEntities(Preference[], Boolean)
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[], System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSave this set of preferences.\n"
+  syntax:
+    content: public void SavePreferenceEntities(Preference[] preferences, bool removeLowerLevels)
+    parameters:
+    - id: preferences
+      type: SuperOffice.CRM.Services.Preference[]
+      description: Preferences to be saved. Note that all fields must be filled in.
+    - id: removeLowerLevels
+      type: System.Boolean
+      description: If this is true, all user preferences on lower levels will be deleted
+    content.vb: Public Sub SavePreferenceEntities(preferences As Preference(), removeLowerLevels As Boolean)
+  overload: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities*
+  implements:
+  - SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  nameWithType.vb: PreferenceAgent.SavePreferenceEntities(Preference(), Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference(), System.Boolean)
+  name.vb: SavePreferenceEntities(Preference(), Boolean)
+- uid: SuperOffice.CRM.Services.PreferenceAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.PreferenceAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PreferenceAgent
+  langs:
+  - csharp
+  - vb
+  name: PreferenceAgent()
+  nameWithType: PreferenceAgent.PreferenceAgent()
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.PreferenceAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public PreferenceAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PreferenceAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IPreferenceAgent>
+  nameWithType: AgentBase<IPreferenceAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPreferenceAgent>
+  nameWithType.vb: AgentBase(Of IPreferenceAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPreferenceAgent)
+  name.vb: AgentBase(Of IPreferenceAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent
+    name: IPreferenceAgent
+    nameWithType: IPreferenceAgent
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent
+    name: IPreferenceAgent
+    nameWithType: IPreferenceAgent
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IPreferenceAgent
+  commentId: T:SuperOffice.CRM.Services.IPreferenceAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPreferenceAgent
+  nameWithType: IPreferenceAgent
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IPreferenceAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPreferenceAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IPreferenceAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPreferenceAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IPreferenceAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPreferenceAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IPreferenceAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPreferenceAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPreferenceAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IPreferenceAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPreferenceAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IPreferenceAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPreferenceAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference
+  isExternal: true
+  name: CreateDefaultPreference
+  nameWithType: PreferenceAgent.CreateDefaultPreference
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreference
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: CreateDefaultPreference()
+  nameWithType: IPreferenceAgent.CreateDefaultPreference()
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+    name: CreateDefaultPreference
+    nameWithType: IPreferenceAgent.CreateDefaultPreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+    name: CreateDefaultPreference
+    nameWithType: IPreferenceAgent.CreateDefaultPreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.Preference
+  commentId: T:SuperOffice.CRM.Services.Preference
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Preference
+  nameWithType: Preference
+  fullName: SuperOffice.CRM.Services.Preference
+- uid: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription
+  isExternal: true
+  name: CreateDefaultPreferenceDescription
+  nameWithType: PreferenceAgent.CreateDefaultPreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescription
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: CreateDefaultPreferenceDescription()
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescription()
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+    name: CreateDefaultPreferenceDescription
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+    name: CreateDefaultPreferenceDescription
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceDescription
+  commentId: T:SuperOffice.CRM.Services.PreferenceDescription
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreferenceDescription
+  nameWithType: PreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceDescription
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription
+  isExternal: true
+  name: SavePreferenceDescription
+  nameWithType: PreferenceAgent.SavePreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceDescription
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceDescription(PreferenceDescription)
+  nameWithType: IPreferenceAgent.SavePreferenceDescription(PreferenceDescription)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+    name: SavePreferenceDescription
+    nameWithType: IPreferenceAgent.SavePreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.CRM.Services.PreferenceDescription
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription(SuperOffice.CRM.Services.PreferenceDescription)
+    name: SavePreferenceDescription
+    nameWithType: IPreferenceAgent.SavePreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.CRM.Services.PreferenceDescription
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription
+  isExternal: true
+  name: DeletePreferenceDescription
+  nameWithType: PreferenceAgent.DeletePreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferenceDescription
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferenceDescription(Int32)
+  nameWithType: IPreferenceAgent.DeletePreferenceDescription(Int32)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+    name: DeletePreferenceDescription
+    nameWithType: IPreferenceAgent.DeletePreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription(System.Int32)
+    name: DeletePreferenceDescription
+    nameWithType: IPreferenceAgent.DeletePreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  isExternal: true
+  name: CreateDefaultPreferenceDescriptionLine
+  nameWithType: PreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.CreateDefaultPreferenceDescriptionLine
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: CreateDefaultPreferenceDescriptionLine()
+  nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+    name: CreateDefaultPreferenceDescriptionLine
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+    name: CreateDefaultPreferenceDescriptionLine
+    nameWithType: IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.CreateDefaultPreferenceDescriptionLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceDescriptionLine
+  commentId: T:SuperOffice.CRM.Services.PreferenceDescriptionLine
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PreferenceDescriptionLine
+  nameWithType: PreferenceDescriptionLine
+  fullName: SuperOffice.CRM.Services.PreferenceDescriptionLine
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreference*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SavePreference
+  isExternal: true
+  name: SavePreference
+  nameWithType: PreferenceAgent.SavePreference
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreference
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SavePreference(Preference)
+  nameWithType: IPreferenceAgent.SavePreference(Preference)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+    name: SavePreference
+    nameWithType: IPreferenceAgent.SavePreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference(SuperOffice.CRM.Services.Preference)
+    name: SavePreference
+    nameWithType: IPreferenceAgent.SavePreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder
+  isExternal: true
+  name: SaveTabOrder
+  nameWithType: PreferenceAgent.SaveTabOrder
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrder
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SaveTabOrder(TabOrder)
+  nameWithType: IPreferenceAgent.SaveTabOrder(TabOrder)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+    name: SaveTabOrder
+    nameWithType: IPreferenceAgent.SaveTabOrder
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder(SuperOffice.CRM.Services.TabOrder)
+    name: SaveTabOrder
+    nameWithType: IPreferenceAgent.SaveTabOrder
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.TabOrder
+  commentId: T:SuperOffice.CRM.Services.TabOrder
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: TabOrder
+  nameWithType: TabOrder
+  fullName: SuperOffice.CRM.Services.TabOrder
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder
+  isExternal: true
+  name: GetTabOrder
+  nameWithType: PreferenceAgent.GetTabOrder
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrder
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetTabOrder(String)
+  nameWithType: IPreferenceAgent.GetTabOrder(String)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+    name: GetTabOrder
+    nameWithType: IPreferenceAgent.GetTabOrder
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder(System.String)
+    name: GetTabOrder
+    nameWithType: IPreferenceAgent.GetTabOrder
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreference*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreference
+  isExternal: true
+  name: GetPreference
+  nameWithType: PreferenceAgent.GetPreference
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreference
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreference(Int32)
+  nameWithType: IPreferenceAgent.GetPreference(Int32)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+    name: GetPreference
+    nameWithType: IPreferenceAgent.GetPreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference(System.Int32)
+    name: GetPreference
+    nameWithType: IPreferenceAgent.GetPreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity
+  isExternal: true
+  name: SavePreferenceEntity
+  nameWithType: PreferenceAgent.SavePreferenceEntity
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntity
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceEntity(Preference, Boolean)
+  nameWithType: IPreferenceAgent.SavePreferenceEntity(Preference, Boolean)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+    name: SavePreferenceEntity
+    nameWithType: IPreferenceAgent.SavePreferenceEntity
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity(SuperOffice.CRM.Services.Preference,System.Boolean)
+    name: SavePreferenceEntity
+    nameWithType: IPreferenceAgent.SavePreferenceEntity
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeletePreference*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.DeletePreference
+  isExternal: true
+  name: DeletePreference
+  nameWithType: PreferenceAgent.DeletePreference
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeletePreference
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: DeletePreference(Int32)
+  nameWithType: IPreferenceAgent.DeletePreference(Int32)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+    name: DeletePreference
+    nameWithType: IPreferenceAgent.DeletePreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference(System.Int32)
+    name: DeletePreference
+    nameWithType: IPreferenceAgent.DeletePreference
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreference
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences
+  isExternal: true
+  name: DeletePreferences
+  nameWithType: PreferenceAgent.DeletePreferences
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeletePreferences
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: DeletePreferences(Int32[])
+  nameWithType: IPreferenceAgent.DeletePreferences(Int32[])
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+  nameWithType.vb: IPreferenceAgent.DeletePreferences(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32())
+  name.vb: DeletePreferences(Int32())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+    name: DeletePreferences
+    nameWithType: IPreferenceAgent.DeletePreferences
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences(System.Int32[])
+    name: DeletePreferences
+    nameWithType: IPreferenceAgent.DeletePreferences
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeletePreferences
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName
+  isExternal: true
+  name: GetPreferenceByName
+  nameWithType: PreferenceAgent.GetPreferenceByName
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByName
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceByName(String, String, PreferenceLevel)
+  nameWithType: IPreferenceAgent.GetPreferenceByName(String, String, PreferenceLevel)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String, System.String, SuperOffice.Data.PreferenceLevel)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+    name: GetPreferenceByName
+    nameWithType: IPreferenceAgent.GetPreferenceByName
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.Data.PreferenceLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName(System.String,System.String,SuperOffice.Data.PreferenceLevel)
+    name: GetPreferenceByName
+    nameWithType: IPreferenceAgent.GetPreferenceByName
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.Data.PreferenceLevel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.PreferenceLevel
+  isExternal: true
+  name: PreferenceLevel
+  nameWithType: PreferenceLevel
+  fullName: SuperOffice.Data.PreferenceLevel
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId
+  isExternal: true
+  name: GetPreferenceByNameAndId
+  nameWithType: PreferenceAgent.GetPreferenceByNameAndId
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceByNameAndId
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceByNameAndId(String, String, PreferenceLevel, Int32)
+  nameWithType: IPreferenceAgent.GetPreferenceByNameAndId(String, String, PreferenceLevel, Int32)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String, System.String, SuperOffice.Data.PreferenceLevel, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+    name: GetPreferenceByNameAndId
+    nameWithType: IPreferenceAgent.GetPreferenceByNameAndId
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.Data.PreferenceLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId(System.String,System.String,SuperOffice.Data.PreferenceLevel,System.Int32)
+    name: GetPreferenceByNameAndId
+    nameWithType: IPreferenceAgent.GetPreferenceByNameAndId
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceByNameAndId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.PreferenceLevel
+    name: PreferenceLevel
+    nameWithType: PreferenceLevel
+    fullName: SuperOffice.Data.PreferenceLevel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl
+  isExternal: true
+  name: GetNetServicesStatusUrl
+  nameWithType: PreferenceAgent.GetNetServicesStatusUrl
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetNetServicesStatusUrl
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetNetServicesStatusUrl()
+  nameWithType: IPreferenceAgent.GetNetServicesStatusUrl()
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+    name: GetNetServicesStatusUrl
+    nameWithType: IPreferenceAgent.GetNetServicesStatusUrl
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+    name: GetNetServicesStatusUrl
+    nameWithType: IPreferenceAgent.GetNetServicesStatusUrl
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetNetServicesStatusUrl
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus
+  isExternal: true
+  name: UpdateNetServicesStatus
+  nameWithType: PreferenceAgent.UpdateNetServicesStatus
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.UpdateNetServicesStatus
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: UpdateNetServicesStatus(String)
+  nameWithType: IPreferenceAgent.UpdateNetServicesStatus(String)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+    name: UpdateNetServicesStatus
+    nameWithType: IPreferenceAgent.UpdateNetServicesStatus
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus(System.String)
+    name: UpdateNetServicesStatus
+    nameWithType: IPreferenceAgent.UpdateNetServicesStatus
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.UpdateNetServicesStatus
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription
+  isExternal: true
+  name: GetPreferenceDescription
+  nameWithType: PreferenceAgent.GetPreferenceDescription
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescription
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescription(Int32)
+  nameWithType: IPreferenceAgent.GetPreferenceDescription(Int32)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+    name: GetPreferenceDescription
+    nameWithType: IPreferenceAgent.GetPreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription(System.Int32)
+    name: GetPreferenceDescription
+    nameWithType: IPreferenceAgent.GetPreferenceDescription
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescription
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey
+  isExternal: true
+  name: GetFromSectionAndKey
+  nameWithType: PreferenceAgent.GetFromSectionAndKey
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetFromSectionAndKey
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetFromSectionAndKey(String, String)
+  nameWithType: IPreferenceAgent.GetFromSectionAndKey(String, String)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+    name: GetFromSectionAndKey
+    nameWithType: IPreferenceAgent.GetFromSectionAndKey
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey(System.String,System.String)
+    name: GetFromSectionAndKey
+    nameWithType: IPreferenceAgent.GetFromSectionAndKey
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetFromSectionAndKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetAll*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetAll
+  isExternal: true
+  name: GetAll
+  nameWithType: PreferenceAgent.GetAll
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetAll
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetAll()
+  nameWithType: IPreferenceAgent.GetAll()
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAll()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+    name: GetAll
+    nameWithType: IPreferenceAgent.GetAll
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+    name: GetAll
+    nameWithType: IPreferenceAgent.GetAll
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAll
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceDescription[]
+  isExternal: true
+  name: PreferenceDescription[]
+  nameWithType: PreferenceDescription[]
+  fullName: SuperOffice.CRM.Services.PreferenceDescription[]
+  nameWithType.vb: PreferenceDescription()
+  fullName.vb: SuperOffice.CRM.Services.PreferenceDescription()
+  name.vb: PreferenceDescription()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.CRM.Services.PreferenceDescription
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.CRM.Services.PreferenceDescription
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection
+  isExternal: true
+  name: GetAllFromSection
+  nameWithType: PreferenceAgent.GetAllFromSection
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetAllFromSection
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetAllFromSection(String)
+  nameWithType: IPreferenceAgent.GetAllFromSection(String)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+    name: GetAllFromSection
+    nameWithType: IPreferenceAgent.GetAllFromSection
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection(System.String)
+    name: GetAllFromSection
+    nameWithType: IPreferenceAgent.GetAllFromSection
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetAllFromSection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey
+  isExternal: true
+  name: SaveFromSectionAndKey
+  nameWithType: PreferenceAgent.SaveFromSectionAndKey
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SaveFromSectionAndKey
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SaveFromSectionAndKey(String, String, PreferenceDescription)
+  nameWithType: IPreferenceAgent.SaveFromSectionAndKey(String, String, PreferenceDescription)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String, System.String, SuperOffice.CRM.Services.PreferenceDescription)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+    name: SaveFromSectionAndKey
+    nameWithType: IPreferenceAgent.SaveFromSectionAndKey
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.CRM.Services.PreferenceDescription
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey(System.String,System.String,SuperOffice.CRM.Services.PreferenceDescription)
+    name: SaveFromSectionAndKey
+    nameWithType: IPreferenceAgent.SaveFromSectionAndKey
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveFromSectionAndKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.PreferenceDescription
+    name: PreferenceDescription
+    nameWithType: PreferenceDescription
+    fullName: SuperOffice.CRM.Services.PreferenceDescription
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey
+  isExternal: true
+  name: DeleteFromSectionAndKey
+  nameWithType: PreferenceAgent.DeleteFromSectionAndKey
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.DeleteFromSectionAndKey
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: DeleteFromSectionAndKey(String, String)
+  nameWithType: IPreferenceAgent.DeleteFromSectionAndKey(String, String)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+    name: DeleteFromSectionAndKey
+    nameWithType: IPreferenceAgent.DeleteFromSectionAndKey
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey(System.String,System.String)
+    name: DeleteFromSectionAndKey
+    nameWithType: IPreferenceAgent.DeleteFromSectionAndKey
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.DeleteFromSectionAndKey
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine
+  isExternal: true
+  name: GetPreferenceDescriptionLine
+  nameWithType: PreferenceAgent.GetPreferenceDescriptionLine
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLine
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescriptionLine(Int32)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLine(Int32)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+    name: GetPreferenceDescriptionLine
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLine
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine(System.Int32)
+    name: GetPreferenceDescriptionLine
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLine
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLine
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+  isExternal: true
+  name: GetPreferenceDescriptionLineFromIdAndValue
+  nameWithType: PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferenceDescriptionLineFromIdAndValue(Int32, String)
+  nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Int32, String)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+    name: GetPreferenceDescriptionLineFromIdAndValue
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(System.Int32,System.String)
+    name: GetPreferenceDescriptionLineFromIdAndValue
+    nameWithType: IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferences*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferences
+  isExternal: true
+  name: GetPreferences
+  nameWithType: PreferenceAgent.GetPreferences
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferences
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferences(PreferenceSpec[])
+  nameWithType: IPreferenceAgent.GetPreferences(PreferenceSpec[])
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+  nameWithType.vb: IPreferenceAgent.GetPreferences(PreferenceSpec())
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec())
+  name.vb: GetPreferences(PreferenceSpec())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+    name: GetPreferences
+    nameWithType: IPreferenceAgent.GetPreferences
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.CRM.Services.PreferenceSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences(SuperOffice.CRM.Services.PreferenceSpec[])
+    name: GetPreferences
+    nameWithType: IPreferenceAgent.GetPreferences
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferences
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.CRM.Services.PreferenceSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceSpec[]
+  isExternal: true
+  name: PreferenceSpec[]
+  nameWithType: PreferenceSpec[]
+  fullName: SuperOffice.CRM.Services.PreferenceSpec[]
+  nameWithType.vb: PreferenceSpec()
+  fullName.vb: SuperOffice.CRM.Services.PreferenceSpec()
+  name.vb: PreferenceSpec()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.CRM.Services.PreferenceSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.CRM.Services.PreferenceSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.Preference[]
+  isExternal: true
+  name: Preference[]
+  nameWithType: Preference[]
+  fullName: SuperOffice.CRM.Services.Preference[]
+  nameWithType.vb: Preference()
+  fullName.vb: SuperOffice.CRM.Services.Preference()
+  name.vb: Preference()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferences*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SavePreferences
+  isExternal: true
+  name: SavePreferences
+  nameWithType: PreferenceAgent.SavePreferences
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferences
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SavePreferences(Preference[])
+  nameWithType: IPreferenceAgent.SavePreferences(Preference[])
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+  nameWithType.vb: IPreferenceAgent.SavePreferences(Preference())
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference())
+  name.vb: SavePreferences(Preference())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+    name: SavePreferences
+    nameWithType: IPreferenceAgent.SavePreferences
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences(SuperOffice.CRM.Services.Preference[])
+    name: SavePreferences
+    nameWithType: IPreferenceAgent.SavePreferences
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferences
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues
+  isExternal: true
+  name: GetPreferencesWithDisplayValues
+  nameWithType: PreferenceAgent.GetPreferencesWithDisplayValues
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetPreferencesWithDisplayValues
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetPreferencesWithDisplayValues(PreferenceSpec[])
+  nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValues(PreferenceSpec[])
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+  nameWithType.vb: IPreferenceAgent.GetPreferencesWithDisplayValues(PreferenceSpec())
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec())
+  name.vb: GetPreferencesWithDisplayValues(PreferenceSpec())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+    name: GetPreferencesWithDisplayValues
+    nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValues
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.CRM.Services.PreferenceSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues(SuperOffice.CRM.Services.PreferenceSpec[])
+    name: GetPreferencesWithDisplayValues
+    nameWithType: IPreferenceAgent.GetPreferencesWithDisplayValues
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetPreferencesWithDisplayValues
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PreferenceSpec
+    name: PreferenceSpec
+    nameWithType: PreferenceSpec
+    fullName: SuperOffice.CRM.Services.PreferenceSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders
+  isExternal: true
+  name: GetTabOrders
+  nameWithType: PreferenceAgent.GetTabOrders
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.GetTabOrders
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: GetTabOrders()
+  nameWithType: IPreferenceAgent.GetTabOrders()
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+    name: GetTabOrders
+    nameWithType: IPreferenceAgent.GetTabOrders
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+    name: GetTabOrders
+    nameWithType: IPreferenceAgent.GetTabOrders
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.GetTabOrders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.TabOrder[]
+  isExternal: true
+  name: TabOrder[]
+  nameWithType: TabOrder[]
+  fullName: SuperOffice.CRM.Services.TabOrder[]
+  nameWithType.vb: TabOrder()
+  fullName.vb: SuperOffice.CRM.Services.TabOrder()
+  name.vb: TabOrder()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders
+  isExternal: true
+  name: SaveTabOrders
+  nameWithType: PreferenceAgent.SaveTabOrders
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SaveTabOrders
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SaveTabOrders(TabOrder[])
+  nameWithType: IPreferenceAgent.SaveTabOrders(TabOrder[])
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+  nameWithType.vb: IPreferenceAgent.SaveTabOrders(TabOrder())
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder())
+  name.vb: SaveTabOrders(TabOrder())
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+    name: SaveTabOrders
+    nameWithType: IPreferenceAgent.SaveTabOrders
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders(SuperOffice.CRM.Services.TabOrder[])
+    name: SaveTabOrders
+    nameWithType: IPreferenceAgent.SaveTabOrders
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SaveTabOrders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.TabOrder
+    name: TabOrder
+    nameWithType: TabOrder
+    fullName: SuperOffice.CRM.Services.TabOrder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities
+  isExternal: true
+  name: SavePreferenceEntities
+  nameWithType: PreferenceAgent.SavePreferenceEntities
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.SavePreferenceEntities
+- uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+  parent: SuperOffice.CRM.Services.IPreferenceAgent
+  isExternal: true
+  name: SavePreferenceEntities(Preference[], Boolean)
+  nameWithType: IPreferenceAgent.SavePreferenceEntities(Preference[], Boolean)
+  fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[], System.Boolean)
+  nameWithType.vb: IPreferenceAgent.SavePreferenceEntities(Preference(), Boolean)
+  fullName.vb: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference(), System.Boolean)
+  name.vb: SavePreferenceEntities(Preference(), Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+    name: SavePreferenceEntities
+    nameWithType: IPreferenceAgent.SavePreferenceEntities
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities(SuperOffice.CRM.Services.Preference[],System.Boolean)
+    name: SavePreferenceEntities
+    nameWithType: IPreferenceAgent.SavePreferenceEntities
+    fullName: SuperOffice.CRM.Services.IPreferenceAgent.SavePreferenceEntities
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PreferenceAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PreferenceAgent.#ctor
+  isExternal: true
+  name: PreferenceAgent
+  nameWithType: PreferenceAgent.PreferenceAgent
+  fullName: SuperOffice.CRM.Services.PreferenceAgent.PreferenceAgent

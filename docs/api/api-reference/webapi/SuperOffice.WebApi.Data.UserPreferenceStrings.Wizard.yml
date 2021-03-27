@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard
+  id: UserPreferenceStrings.Wizard
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.MailMergeWizardStartPageEx
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Wizard
+  nameWithType: UserPreferenceStrings.Wizard
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWizard\n"
+  syntax:
+    content: 'public static class Wizard : Object'
+    content.vb: >-
+      Public Module Wizard
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Wizard.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Wizard"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Wizard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.MailMergeWizardStartPageEx
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.MailMergeWizardStartPageEx
+  id: MailMergeWizardStartPageEx
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard
+  langs:
+  - csharp
+  - vb
+  name: MailMergeWizardStartPageEx
+  nameWithType: UserPreferenceStrings.Wizard.MailMergeWizardStartPageEx
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Wizard.MailMergeWizardStartPageEx
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPreference used to remember the setup/status of the dialog\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string MailMergeWizardStartPageEx = "MailMergeWizardStartPageEx"
+    return:
+      type: System.String
+    content.vb: Public Const MailMergeWizardStartPageEx As String = "MailMergeWizardStartPageEx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

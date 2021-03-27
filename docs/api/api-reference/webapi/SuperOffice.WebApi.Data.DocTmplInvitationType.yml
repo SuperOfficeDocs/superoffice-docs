@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplInvitationType
+  id: DocTmplInvitationType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
+  - SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
+  - SuperOffice.WebApi.Data.DocTmplInvitationType.New
+  - SuperOffice.WebApi.Data.DocTmplInvitationType.None
+  - SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  langs:
+  - csharp
+  - vb
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this document template some kind of appointment document, and if so what\nThis Enum is used by:  DocTmpl.invitationDocType\n"
+  syntax:
+    content: 'public sealed class DocTmplInvitationType : Enum'
+    content.vb: >-
+      Public NotInheritable Class DocTmplInvitationType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DocTmplInvitationType.value__
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType.None
+  commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DocTmplInvitationType.None
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: None - Not an appointment type\n"
+  syntax:
+    content: public const DocTmplInvitationType None
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplInvitationType
+    content.vb: Public Const None As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType.New
+  commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.New
+  id: New
+  parent: SuperOffice.WebApi.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: New
+  nameWithType: DocTmplInvitationType.New
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.New
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: 1 - New appointment\n"
+  syntax:
+    content: public const DocTmplInvitationType New
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplInvitationType
+    content.vb: Public Const New As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
+  commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
+  id: Changed
+  parent: SuperOffice.WebApi.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: Changed
+  nameWithType: DocTmplInvitationType.Changed
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.Changed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: 2 - Changed appointment\n"
+  syntax:
+    content: public const DocTmplInvitationType Changed
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplInvitationType
+    content.vb: Public Const Changed As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
+  commentId: F:SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
+  id: Cancelled
+  parent: SuperOffice.WebApi.Data.DocTmplInvitationType
+  langs:
+  - csharp
+  - vb
+  name: Cancelled
+  nameWithType: DocTmplInvitationType.Cancelled
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType.Cancelled
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: 3 - Cancelled appointment\n"
+  syntax:
+    content: public const DocTmplInvitationType Cancelled
+    return:
+      type: SuperOffice.WebApi.Data.DocTmplInvitationType
+    content.vb: Public Const Cancelled As DocTmplInvitationType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.DocTmplInvitationType
+  commentId: T:SuperOffice.WebApi.Data.DocTmplInvitationType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: DocTmplInvitationType
+  nameWithType: DocTmplInvitationType
+  fullName: SuperOffice.WebApi.Data.DocTmplInvitationType

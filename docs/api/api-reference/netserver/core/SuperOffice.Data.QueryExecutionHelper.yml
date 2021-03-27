@@ -1,0 +1,1334 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.QueryExecutionHelper
+  commentId: T:SuperOffice.Data.QueryExecutionHelper
+  id: QueryExecutionHelper
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)
+  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.Dispose
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  - SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  - SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
+  - SuperOffice.Data.QueryExecutionHelper.Reader
+  - SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper
+  nameWithType: QueryExecutionHelper
+  fullName: SuperOffice.Data.QueryExecutionHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nHelper class for executing queries. This class encapsulates the process of getting a connection,\nmaking a command, running it, and cleaning up afterwards.\n"
+  remarks: "\nThis class is most useful in cases where you need to run just one query. This usually calls for a series of\noperations, and try/catch code to make it exception proof to leave no dangling connections or readers. When used\ntogether with a &apos;using&apos; statement as in the example, a good cleanup is guaranteed.\n<example>\nTo use this class, do something similar to this:\n<pre><code>Select appntQuery = S.NewSelect();\nAppointmentTableInfo appntInfo = TablesInfo.GetAppointmentTableInfo();\nappntQuery.ReturnFields.Add( appntInfo.ActiveDate, appntInfo.FreeBusy );\nappntQuery.Restriction = appntInfo.AssociateId.Equal( S.Parameter( taskInfo._associateId ) ).\n	And( appntInfo.ActiveDate.Between( S.Parameter( taskInfo._startDate ), S.Parameter( taskInfo._endDate ) ) ).\n	And( appntInfo.Type.In( \n		S.Parameter( AppointmentType.inDiary ), \n		S.Parameter( AppointmentType.inChecklist ),\n		S.Parameter( AppointmentType.BookingForDiary ),\n		S.Parameter( AppointmentType.BookingForChecklist ) ) );\n\nusing( QueryExecutionHelper qeh = new QueryExecutionHelper( appntQuery ) )\n{\n	while( qeh.Reader.Read() )\n	{\n		ActivitySummary item = taskInfo._items[qeh.Reader.GetDateTime( appntInfo.ActiveDate ).Date];\n		bool isFree = qeh.Reader.GetInt16( appntInfo.FreeBusy ) == 1;\n		if( isFree )\n			++item.NumFreeActivities;\n		else\n			++item.NumBusyActivities;\n	}\n}</code></pre></example>\nYou can also use the class to run insert/update/delete queries, by using one of the constructors that\ntakes an ExecutionType as an argument.\n"
+  syntax:
+    content: 'public sealed class QueryExecutionHelper : IDisposable'
+    content.vb: >-
+      Public NotInheritable Class QueryExecutionHelper
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Data.QueryExecutionHelper.EnumUtil.MapEnums``2
+  - SuperOffice.Data.QueryExecutionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)
+  id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType)'
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstruct a query execution helper, and run the query\n"
+  syntax:
+    content: public QueryExecutionHelper(SqlCommand command, QueryExecutionHelper.ExecutionType executionType)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SQL command to run
+    - id: executionType
+      type: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+      description: Desired execution type
+    content.vb: Public Sub New(command As SqlCommand, executionType As QueryExecutionHelper.ExecutionType)
+  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand)
+  id: '#ctor(SuperOffice.Data.SQL.SqlCommand)'
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper(SqlCommand)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstruct a query execution helper, and run the query. This constructor sets a Reader execution type.\n"
+  syntax:
+    content: public QueryExecutionHelper(SqlCommand command)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SQL command to run
+    content.vb: Public Sub New(command As SqlCommand)
+  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)'
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper(SqlCommand, SoConnection)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstruct a query execution helper, and run the query. This constructor sets a Reader execution type.\n"
+  syntax:
+    content: public QueryExecutionHelper(SqlCommand command, SoConnection explicitConnection)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SQL command to run
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    content.vb: Public Sub New(command As SqlCommand, explicitConnection As SoConnection)
+  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)
+  id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean)'
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstruct a query execution helper, and run the query. You can specify whether sentry should be ignored.\n"
+  syntax:
+    content: public QueryExecutionHelper(SqlCommand command, QueryExecutionHelper.ExecutionType executionType, bool ignoreSentry)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SQL command to run
+    - id: executionType
+      type: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+      description: Desired execution type
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Ignore sentry?
+    content.vb: Public Sub New(command As SqlCommand, executionType As QueryExecutionHelper.ExecutionType, ignoreSentry As Boolean)
+  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)
+  id: '#ctor(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.QueryExecutionHelper.ExecutionType,System.Boolean,SuperOffice.Data.SoConnection)'
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean, SoConnection)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, QueryExecutionHelper.ExecutionType, Boolean, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.QueryExecutionHelper.ExecutionType, System.Boolean, SuperOffice.Data.SoConnection)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstruct a query execution helper, and run the query. You can specify whether sentry should be ignored.\n"
+  syntax:
+    content: public QueryExecutionHelper(SqlCommand command, QueryExecutionHelper.ExecutionType executionType, bool ignoreSentry, SoConnection explicitConnection)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SQL command to run
+    - id: executionType
+      type: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+      description: Desired execution type
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Ignore sentry?
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    content.vb: Public Sub New(command As SqlCommand, executionType As QueryExecutionHelper.ExecutionType, ignoreSentry As Boolean, explicitConnection As SoConnection)
+  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  id: '#ctor(SuperOffice.Data.SQL.SqlCommand,System.Boolean)'
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: QueryExecutionHelper(SqlCommand, Boolean)
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nConstruct a query execution helper, and run the query. This constructor sets a Reader execution type. \nYou can specify whether sentry should be ignored.\n"
+  syntax:
+    content: public QueryExecutionHelper(SqlCommand command, bool IgnoreSentry)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: SQL command to run
+    - id: IgnoreSentry
+      type: System.Boolean
+    content.vb: Public Sub New(command As SqlCommand, IgnoreSentry As Boolean)
+  overload: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  id: ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScalar(SqlCommand, Boolean)
+  nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up\n"
+  syntax:
+    content: public static object ExecuteScalar(SqlCommand command, bool ignoreSentry)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Should Sentry be ignored?
+    return:
+      type: System.Object
+      description: Scalar result, which could be DBNull or a database value
+    content.vb: Public Shared Function ExecuteScalar(command As SqlCommand, ignoreSentry As Boolean) As Object
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
+  id: ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScalar(SqlCommand)
+  nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n"
+  syntax:
+    content: public static object ExecuteScalar(SqlCommand command)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    return:
+      type: System.Object
+      description: Scalar result, which could be DBNull or a database value
+    content.vb: Public Shared Function ExecuteScalar(command As SqlCommand) As Object
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  id: ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteTypedScalar<ReturnType>(SqlCommand)
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n<p></p>The return value is converted to the given type, if possible. If the result of the query\nwas empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).\n"
+  syntax:
+    content: public static ReturnType ExecuteTypedScalar<ReturnType>(SqlCommand command)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    typeParameters:
+    - id: ReturnType
+    return:
+      type: '{ReturnType}'
+      description: Scalar result, correctly cast; or default(ReturnType)
+    content.vb: Public Shared Function ExecuteTypedScalar(Of ReturnType)(command As SqlCommand) As ReturnType
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
+  nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand)
+  name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQuery(SqlCommand, Boolean)
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, Boolean)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\n"
+  syntax:
+    content: public static void ExecuteNonQuery(SqlCommand command, bool ignoreSentry)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Should sentry be ignored
+    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQuery(SqlCommand)
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\nIn this overload, sentry is ON.\n"
+  syntax:
+    content: public static void ExecuteNonQuery(SqlCommand command)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  id: ExecuteScalar(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteScalar(SqlCommand, SoConnection)
+  nameWithType: QueryExecutionHelper.ExecuteScalar(SqlCommand, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n"
+  syntax:
+    content: public static object ExecuteScalar(SqlCommand command, SoConnection explicitConnection)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    return:
+      type: System.Object
+      description: Scalar result, which could be DBNull or a database value
+    content.vb: Public Shared Function ExecuteScalar(command As SqlCommand, explicitConnection As SoConnection) As Object
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  id: ExecuteTypedScalar``1(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteTypedScalar<ReturnType>(SqlCommand, SoConnection)
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SqlCommand, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar<ReturnType>(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has a single-valued (scalar) result, and immediately clean up. Sentry will be ON.\n<p></p>The return value is converted to the given type, if possible. If the result of the query\nwas empty or DBNull, default(ReturnType) is returned (null fro strings, 0 for integers, etc).\n"
+  syntax:
+    content: public static ReturnType ExecuteTypedScalar<ReturnType>(SqlCommand command, SoConnection explicitConnection)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    typeParameters:
+    - id: ReturnType
+    return:
+      type: '{ReturnType}'
+      description: Scalar result, correctly cast; or default(ReturnType)
+    content.vb: Public Shared Function ExecuteTypedScalar(Of ReturnType)(command As SqlCommand, explicitConnection As SoConnection) As ReturnType
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
+  nameWithType.vb: QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SqlCommand, SoConnection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar(Of ReturnType)(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  name.vb: ExecuteTypedScalar(Of ReturnType)(SqlCommand, SoConnection)
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection)
+  id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,System.Boolean,SuperOffice.Data.SoConnection)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQuery(SqlCommand, Boolean, SoConnection)
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, Boolean, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, System.Boolean, SuperOffice.Data.SoConnection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\n"
+  syntax:
+    content: public static void ExecuteNonQuery(SqlCommand command, bool ignoreSentry, SoConnection explicitConnection)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: ignoreSentry
+      type: System.Boolean
+      description: Should sentry be ignored
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand, ignoreSentry As Boolean, explicitConnection As SoConnection)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  id: ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand,SuperOffice.Data.SoConnection)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: ExecuteNonQuery(SqlCommand, SoConnection)
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery(SqlCommand, SoConnection)
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery(SuperOffice.Data.SQL.SqlCommand, SuperOffice.Data.SoConnection)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nExecute a command that has no result (such as an insert or update, maybe a stored-proc call). Clean up immediately.\nIn this overload, sentry is ON.\n"
+  syntax:
+    content: public static void ExecuteNonQuery(SqlCommand command, SoConnection explicitConnection)
+    parameters:
+    - id: command
+      type: SuperOffice.Data.SQL.SqlCommand
+      description: Command to execute
+    - id: explicitConnection
+      type: SuperOffice.Data.SoConnection
+    content.vb: Public Shared Sub ExecuteNonQuery(command As SqlCommand, explicitConnection As SoConnection)
+  overload: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+  id: RepeatIfDeadlock(System.Action,System.Boolean,System.Boolean)
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: RepeatIfDeadlock(Action, Boolean, Boolean)
+  nameWithType: QueryExecutionHelper.RepeatIfDeadlock(Action, Boolean, Boolean)
+  fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock(System.Action, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nPerform the action, and if we get a &quot;you are the deadlock victim&quot;, wait a little while and try again a few times before giving up\n"
+  remarks: "\nBeing selected as a deadlock victim means none of your work was done, so you can retry it. In the general case this might be\nan iffy thing to do, since the reason/content for our work might be impacted by whatever the other party did. However, in cases\nwhere this is not thought to be a problem, a simply &apos;try the same thing again&apos; strategy works, and is implemented here.<br />\nTypical call: <br />\n<pre><code>QueryExecutionHelper.RepeatIfDeadlock(() => rows.Save());</code></pre>\nNote the use of a no-parameter lambda that captures the &apos;rows&apos; variable from its scope\n"
+  syntax:
+    content: public static void RepeatIfDeadlock(Action a, bool throwOnUnresolvedDeadlock = true, bool throwOnOtherException = true)
+    parameters:
+    - id: a
+      type: System.Action
+    - id: throwOnUnresolvedDeadlock
+      type: System.Boolean
+    - id: throwOnOtherException
+      type: System.Boolean
+    content.vb: Public Shared Sub RepeatIfDeadlock(a As Action, throwOnUnresolvedDeadlock As Boolean = True, throwOnOtherException As Boolean = True)
+  overload: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Data.QueryExecutionHelper.Dispose
+  commentId: M:SuperOffice.Data.QueryExecutionHelper.Dispose
+  id: Dispose
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: QueryExecutionHelper.Dispose()
+  fullName: SuperOffice.Data.QueryExecutionHelper.Dispose()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nClean up sentry check, reader, command and connection\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.Data.QueryExecutionHelper.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.QueryExecutionHelper.Reader
+  commentId: P:SuperOffice.Data.QueryExecutionHelper.Reader
+  id: Reader
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: Reader
+  nameWithType: QueryExecutionHelper.Reader
+  fullName: SuperOffice.Data.QueryExecutionHelper.Reader
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nThe SoDataReader that represents the results of the query, if it is a select\n"
+  syntax:
+    content: public SoDataReader Reader { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SoDataReader
+    content.vb: Public ReadOnly Property Reader As SoDataReader
+  overload: SuperOffice.Data.QueryExecutionHelper.Reader*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
+  commentId: P:SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
+  id: IsSentryIgnored
+  parent: SuperOffice.Data.QueryExecutionHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSentryIgnored
+  nameWithType: QueryExecutionHelper.IsSentryIgnored
+  fullName: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: "\nHas ignoreSentry = true been specified for this query execution helper. Note that ignore sentry may\nbe in effect as a consequence of earlier actions, such as a call to LocalPrincipal.BeginIgnoreSentryCheck; this\nis NOT reflected in the value you get here.\n"
+  syntax:
+    content: public bool IsSentryIgnored { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsSentryIgnored As Boolean
+  overload: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExecutionHelper.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<QueryExecutionHelper, To>()
+  nameWithType: EnumUtil.MapEnums<QueryExecutionHelper, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of QueryExecutionHelper, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)()
+  name.vb: MapEnums(Of QueryExecutionHelper, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<QueryExecutionHelper, To>
+    nameWithType: EnumUtil.MapEnums<QueryExecutionHelper, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of QueryExecutionHelper, To)
+    nameWithType: EnumUtil.MapEnums(Of QueryExecutionHelper, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExecutionHelper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<QueryExecutionHelper, To>()
+  nameWithType: Converters.MapEnums<QueryExecutionHelper, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>()
+  nameWithType.vb: Converters.MapEnums(Of QueryExecutionHelper, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)()
+  name.vb: MapEnums(Of QueryExecutionHelper, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<QueryExecutionHelper, To>
+    nameWithType: Converters.MapEnums<QueryExecutionHelper, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.QueryExecutionHelper, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of QueryExecutionHelper, To)
+    nameWithType: Converters.MapEnums(Of QueryExecutionHelper, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.QueryExecutionHelper, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.QueryExecutionHelper.#ctor*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.#ctor
+  isExternal: true
+  name: QueryExecutionHelper
+  nameWithType: QueryExecutionHelper.QueryExecutionHelper
+  fullName: SuperOffice.Data.QueryExecutionHelper.QueryExecutionHelper
+- uid: SuperOffice.Data.SQL.SqlCommand
+  commentId: T:SuperOffice.Data.SQL.SqlCommand
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: SqlCommand
+  nameWithType: SqlCommand
+  fullName: SuperOffice.Data.SQL.SqlCommand
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+  commentId: T:SuperOffice.Data.QueryExecutionHelper.ExecutionType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: QueryExecutionHelper.ExecutionType
+  nameWithType: QueryExecutionHelper.ExecutionType
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecutionType
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+- uid: SuperOffice.Data.SoConnection
+  commentId: T:SuperOffice.Data.SoConnection
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoConnection
+  nameWithType: SoConnection
+  fullName: SuperOffice.Data.SoConnection
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteScalar
+  isExternal: true
+  name: ExecuteScalar
+  nameWithType: QueryExecutionHelper.ExecuteScalar
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteScalar
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar
+  isExternal: true
+  name: ExecuteTypedScalar
+  nameWithType: QueryExecutionHelper.ExecuteTypedScalar
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteTypedScalar
+- uid: '{ReturnType}'
+  commentId: '!:ReturnType'
+  definition: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery
+  isExternal: true
+  name: ExecuteNonQuery
+  nameWithType: QueryExecutionHelper.ExecuteNonQuery
+  fullName: SuperOffice.Data.QueryExecutionHelper.ExecuteNonQuery
+- uid: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock
+  isExternal: true
+  name: RepeatIfDeadlock
+  nameWithType: QueryExecutionHelper.RepeatIfDeadlock
+  fullName: SuperOffice.Data.QueryExecutionHelper.RepeatIfDeadlock
+- uid: System.Action
+  commentId: T:System.Action
+  parent: System
+  isExternal: true
+  name: Action
+  nameWithType: Action
+  fullName: System.Action
+- uid: SuperOffice.Data.QueryExecutionHelper.Dispose*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: QueryExecutionHelper.Dispose
+  fullName: SuperOffice.Data.QueryExecutionHelper.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.QueryExecutionHelper.Reader*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.Reader
+  isExternal: true
+  name: Reader
+  nameWithType: QueryExecutionHelper.Reader
+  fullName: SuperOffice.Data.QueryExecutionHelper.Reader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored*
+  commentId: Overload:SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored
+  isExternal: true
+  name: IsSentryIgnored
+  nameWithType: QueryExecutionHelper.IsSentryIgnored
+  fullName: SuperOffice.Data.QueryExecutionHelper.IsSentryIgnored

@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.UI
+  commentId: N:SuperOffice.UI
+  id: SuperOffice.UI
+  children:
+  - SuperOffice.UI.ComboBox
+  - SuperOffice.UI.TextBox
+  - SuperOffice.UI.UserInterfaceElement
+  - SuperOffice.UI.UserInterfaceElementResult
+  - SuperOffice.UI.UserInterfaceUnits
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.UI
+  nameWithType: SuperOffice.UI
+  fullName: SuperOffice.UI
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.UI.ComboBox
+  commentId: T:SuperOffice.UI.ComboBox
+  isExternal: true
+  name: ComboBox
+  nameWithType: ComboBox
+  fullName: SuperOffice.UI.ComboBox
+- uid: SuperOffice.UI.TextBox
+  commentId: T:SuperOffice.UI.TextBox
+  isExternal: true
+  name: TextBox
+  nameWithType: TextBox
+  fullName: SuperOffice.UI.TextBox
+- uid: SuperOffice.UI.UserInterfaceElement
+  commentId: T:SuperOffice.UI.UserInterfaceElement
+  parent: SuperOffice.UI
+  isExternal: true
+  name: UserInterfaceElement
+  nameWithType: UserInterfaceElement
+  fullName: SuperOffice.UI.UserInterfaceElement
+- uid: SuperOffice.UI.UserInterfaceElementResult
+  commentId: T:SuperOffice.UI.UserInterfaceElementResult
+  parent: SuperOffice.UI
+  isExternal: true
+  name: UserInterfaceElementResult
+  nameWithType: UserInterfaceElementResult
+  fullName: SuperOffice.UI.UserInterfaceElementResult
+- uid: SuperOffice.UI.UserInterfaceUnits
+  commentId: T:SuperOffice.UI.UserInterfaceUnits
+  parent: SuperOffice.UI
+  isExternal: true
+  name: UserInterfaceUnits
+  nameWithType: UserInterfaceUnits
+  fullName: SuperOffice.UI.UserInterfaceUnits
+- uid: SuperOffice.UI
+  commentId: N:SuperOffice.UI
+  isExternal: true
+  name: SuperOffice.UI
+  nameWithType: SuperOffice.UI
+  fullName: SuperOffice.UI

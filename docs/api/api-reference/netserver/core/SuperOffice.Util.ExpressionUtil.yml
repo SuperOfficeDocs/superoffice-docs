@@ -1,0 +1,1019 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ExpressionUtil
+  commentId: T:SuperOffice.Util.ExpressionUtil
+  id: ExpressionUtil
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ExpressionUtil.GetInstanceProvider``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  - SuperOffice.Util.ExpressionUtil.GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  - SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  - SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  langs:
+  - csharp
+  - vb
+  name: ExpressionUtil
+  nameWithType: ExpressionUtil
+  fullName: SuperOffice.Util.ExpressionUtil
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClass used to manipulate C# Expression-trees.\n"
+  syntax:
+    content: public static class ExpressionUtil
+    content.vb: Public Module ExpressionUtil
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  commentId: M:SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  id: GetSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  parent: SuperOffice.Util.ExpressionUtil
+  langs:
+  - csharp
+  - vb
+  name: GetSetter<T, U>(Expression<Func<T, U>>)
+  nameWithType: ExpressionUtil.GetSetter<T, U>(Expression<Func<T, U>>)
+  fullName: SuperOffice.Util.ExpressionUtil.GetSetter<T, U>(System.Linq.Expressions.Expression<System.Func<T, U>>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConverts a i => i.Property accessor-expression into a (i,v) => i.Property = value setter-expression.\n"
+  syntax:
+    content: public static Action<T, U> GetSetter<T, U>(Expression<Func<T, U>> expression)
+    parameters:
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{T},{U}}}
+    typeParameters:
+    - id: T
+    - id: U
+    return:
+      type: System.Action{{T},{U}}
+    content.vb: Public Shared Function GetSetter(Of T, U)(expression As Expression(Of Func(Of T, U))) As Action(Of T, U)
+  overload: SuperOffice.Util.ExpressionUtil.GetSetter*
+  nameWithType.vb: ExpressionUtil.GetSetter(Of T, U)(Expression(Of Func(Of T, U)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ExpressionUtil.GetSetter(Of T, U)(System.Linq.Expressions.Expression(Of System.Func(Of T, U)))
+  name.vb: GetSetter(Of T, U)(Expression(Of Func(Of T, U)))
+- uid: SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  commentId: M:SuperOffice.Util.ExpressionUtil.GetSetter``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  id: GetSetter``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  parent: SuperOffice.Util.ExpressionUtil
+  langs:
+  - csharp
+  - vb
+  name: GetSetter<T, U>(Expression<Func<U>>)
+  nameWithType: ExpressionUtil.GetSetter<T, U>(Expression<Func<U>>)
+  fullName: SuperOffice.Util.ExpressionUtil.GetSetter<T, U>(System.Linq.Expressions.Expression<System.Func<U>>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConverts a parameterless accessor-expression into a value-only setter-expression.\nCan be used for implicit self expressions like () => Property\nOr explicit instance expressions like () => instance.Property.\n"
+  syntax:
+    content: public static Action<U> GetSetter<T, U>(Expression<Func<U>> expression)
+    parameters:
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{U}}}
+    typeParameters:
+    - id: T
+    - id: U
+    return:
+      type: System.Action{{U}}
+    content.vb: Public Shared Function GetSetter(Of T, U)(expression As Expression(Of Func(Of U))) As Action(Of U)
+  overload: SuperOffice.Util.ExpressionUtil.GetSetter*
+  nameWithType.vb: ExpressionUtil.GetSetter(Of T, U)(Expression(Of Func(Of U)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ExpressionUtil.GetSetter(Of T, U)(System.Linq.Expressions.Expression(Of System.Func(Of U)))
+  name.vb: GetSetter(Of T, U)(Expression(Of Func(Of U)))
+- uid: SuperOffice.Util.ExpressionUtil.GetInstanceProvider``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  commentId: M:SuperOffice.Util.ExpressionUtil.GetInstanceProvider``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  id: GetInstanceProvider``2(System.Linq.Expressions.Expression{System.Func{``1}})
+  parent: SuperOffice.Util.ExpressionUtil
+  langs:
+  - csharp
+  - vb
+  name: GetInstanceProvider<T, U>(Expression<Func<U>>)
+  nameWithType: ExpressionUtil.GetInstanceProvider<T, U>(Expression<Func<U>>)
+  fullName: SuperOffice.Util.ExpressionUtil.GetInstanceProvider<T, U>(System.Linq.Expressions.Expression<System.Func<U>>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTakes an expression of the type () => instance.Member\nand returns a function providing the instance only.\n"
+  syntax:
+    content: public static Func<T> GetInstanceProvider<T, U>(Expression<Func<U>> expression)
+    parameters:
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{U}}}
+    typeParameters:
+    - id: T
+      description: Type of instance
+    - id: U
+    return:
+      type: System.Func{{T}}
+    content.vb: Public Shared Function GetInstanceProvider(Of T, U)(expression As Expression(Of Func(Of U))) As Func(Of T)
+  overload: SuperOffice.Util.ExpressionUtil.GetInstanceProvider*
+  nameWithType.vb: ExpressionUtil.GetInstanceProvider(Of T, U)(Expression(Of Func(Of U)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ExpressionUtil.GetInstanceProvider(Of T, U)(System.Linq.Expressions.Expression(Of System.Func(Of U)))
+  name.vb: GetInstanceProvider(Of T, U)(Expression(Of Func(Of U)))
+- uid: SuperOffice.Util.ExpressionUtil.GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  commentId: M:SuperOffice.Util.ExpressionUtil.GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  id: GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  parent: SuperOffice.Util.ExpressionUtil
+  langs:
+  - csharp
+  - vb
+  name: GetMemberName<T>(Expression<Func<T>>)
+  nameWithType: ExpressionUtil.GetMemberName<T>(Expression<Func<T>>)
+  fullName: SuperOffice.Util.ExpressionUtil.GetMemberName<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nReturns the name of the member which the expression is pointing at.\n"
+  syntax:
+    content: public static string GetMemberName<T>(Expression<Func<T>> expression)
+    parameters:
+    - id: expression
+      type: System.Linq.Expressions.Expression{System.Func{{T}}}
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetMemberName(Of T)(expression As Expression(Of Func(Of T))) As String
+  overload: SuperOffice.Util.ExpressionUtil.GetMemberName*
+  nameWithType.vb: ExpressionUtil.GetMemberName(Of T)(Expression(Of Func(Of T)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.ExpressionUtil.GetMemberName(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  name.vb: GetMemberName(Of T)(Expression(Of Func(Of T)))
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.ExpressionUtil.GetSetter*
+  commentId: Overload:SuperOffice.Util.ExpressionUtil.GetSetter
+  isExternal: true
+  name: GetSetter
+  nameWithType: ExpressionUtil.GetSetter
+  fullName: SuperOffice.Util.ExpressionUtil.GetSetter
+- uid: System.Linq.Expressions.Expression{System.Func{{T},{U}}}
+  commentId: '!:System.Linq.Expressions.Expression{System.Func{``0,``1}}'
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<T, U>>
+  nameWithType: Expression<Func<T, U>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, U>>
+  nameWithType.vb: Expression(Of Func(Of T, U))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, U))
+  name.vb: Expression(Of Func(Of T, U))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{{T},{U}}
+  commentId: T:System.Action{``0,``1}
+  parent: System
+  definition: System.Action`2
+  name: Action<T, U>
+  nameWithType: Action<T, U>
+  fullName: System.Action<T, U>
+  nameWithType.vb: Action(Of T, U)
+  fullName.vb: System.Action(Of T, U)
+  name.vb: Action(Of T, U)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: System.Linq.Expressions.Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: System.Linq.Expressions.Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`2
+  commentId: T:System.Action`2
+  isExternal: true
+  name: Action<T1, T2>
+  nameWithType: Action<T1, T2>
+  fullName: System.Action<T1, T2>
+  nameWithType.vb: Action(Of T1, T2)
+  fullName.vb: System.Action(Of T1, T2)
+  name.vb: Action(Of T1, T2)
+  spec.csharp:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression{System.Func{{U}}}
+  commentId: '!:System.Linq.Expressions.Expression{System.Func{``1}}'
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<U>>
+  nameWithType: Expression<Func<U>>
+  fullName: System.Linq.Expressions.Expression<System.Func<U>>
+  nameWithType.vb: Expression(Of Func(Of U))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of U))
+  name.vb: Expression(Of Func(Of U))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action{{U}}
+  commentId: T:System.Action{``1}
+  parent: System
+  definition: System.Action`1
+  name: Action<U>
+  nameWithType: Action<U>
+  fullName: System.Action<U>
+  nameWithType.vb: Action(Of U)
+  fullName.vb: System.Action(Of U)
+  name.vb: Action(Of U)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: U
+    nameWithType: U
+    fullName: U
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ExpressionUtil.GetInstanceProvider*
+  commentId: Overload:SuperOffice.Util.ExpressionUtil.GetInstanceProvider
+  isExternal: true
+  name: GetInstanceProvider
+  nameWithType: ExpressionUtil.GetInstanceProvider
+  fullName: SuperOffice.Util.ExpressionUtil.GetInstanceProvider
+- uid: System.Func{{T}}
+  commentId: T:System.Func{`0}
+  parent: System
+  definition: System.Func`1
+  name: Func<T>
+  nameWithType: Func<T>
+  fullName: System.Func<T>
+  nameWithType.vb: Func(Of T)
+  fullName.vb: System.Func(Of T)
+  name.vb: Func(Of T)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`1
+  commentId: T:System.Func`1
+  isExternal: true
+  name: Func<TResult>
+  nameWithType: Func<TResult>
+  fullName: System.Func<TResult>
+  nameWithType.vb: Func(Of TResult)
+  fullName.vb: System.Func(Of TResult)
+  name.vb: Func(Of TResult)
+  spec.csharp:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ExpressionUtil.GetMemberName*
+  commentId: Overload:SuperOffice.Util.ExpressionUtil.GetMemberName
+  isExternal: true
+  name: GetMemberName
+  nameWithType: ExpressionUtil.GetMemberName
+  fullName: SuperOffice.Util.ExpressionUtil.GetMemberName
+- uid: System.Linq.Expressions.Expression{System.Func{{T}}}
+  commentId: '!:System.Linq.Expressions.Expression{System.Func{``0}}'
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<T>>
+  nameWithType: Expression<Func<T>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T>>
+  nameWithType.vb: Expression(Of Func(Of T))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T))
+  name.vb: Expression(Of Func(Of T))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

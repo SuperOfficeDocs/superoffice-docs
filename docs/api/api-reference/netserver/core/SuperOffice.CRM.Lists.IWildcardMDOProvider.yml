@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider
+  commentId: T:SuperOffice.CRM.Lists.IWildcardMDOProvider
+  id: IWildcardMDOProvider
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IWildcardMDOProvider
+  nameWithType: IWildcardMDOProvider
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nInterface used by providers that do not know exactly which list names they will be able to offer, but \nthey want to be asked, when no-one else is around.\n"
+  remarks: "\nWhen working with ERP and Quote Management connectors in particular, we use a naming convention such\nas QM_12_DeliveryTerms - meaning the DeliveryTerms list of the Quote connector that is referenced\nby QuoteConnection with id 12.\n<p></p>\nA general-purpose list provider cannot know ahead of time which connections will be defined, and it\nwould be too expensive to ask - as well as bad wrt. the definition of new connections. Thus the need\nfor a wildcard mechanism.\n"
+  syntax:
+    content: public interface IWildcardMDOProvider
+    content.vb: Public Interface IWildcardMDOProvider
+  extensionMethods:
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Lists.IWildcardMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  commentId: M:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  id: GetProvider(System.String)
+  parent: SuperOffice.CRM.Lists.IWildcardMDOProvider
+  langs:
+  - csharp
+  - vb
+  name: GetProvider(String)
+  nameWithType: IWildcardMDOProvider.GetProvider(String)
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nGiven a list name, return a concrete provider for that list, if it is supported.\nOtherwise return null (no exceptions thrown)\n"
+  syntax:
+    content: ISoListProvider GetProvider(string listName)
+    parameters:
+    - id: listName
+      type: System.String
+      description: Name of list
+    return:
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: A concrete provider that has the values required
+    content.vb: Function GetProvider(listName As String) As ISoListProvider
+  overload: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider*
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IWildcardMDOProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IWildcardMDOProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IWildcardMDOProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)()
+  name.vb: MapEnums(Of IWildcardMDOProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IWildcardMDOProvider, To>
+    nameWithType: EnumUtil.MapEnums<IWildcardMDOProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IWildcardMDOProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IWildcardMDOProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IWildcardMDOProvider, To>()
+  nameWithType: Converters.MapEnums<IWildcardMDOProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IWildcardMDOProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)()
+  name.vb: MapEnums(Of IWildcardMDOProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IWildcardMDOProvider, To>
+    nameWithType: Converters.MapEnums<IWildcardMDOProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Lists.IWildcardMDOProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IWildcardMDOProvider, To)
+    nameWithType: Converters.MapEnums(Of IWildcardMDOProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Lists.IWildcardMDOProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider*
+  commentId: Overload:SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+  isExternal: true
+  name: GetProvider
+  nameWithType: IWildcardMDOProvider.GetProvider
+  fullName: SuperOffice.CRM.Lists.IWildcardMDOProvider.GetProvider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

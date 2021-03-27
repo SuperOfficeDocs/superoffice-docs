@@ -1,0 +1,1273 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.ZipFile
+  commentId: T:SuperOffice.Util.ZipFile
+  id: ZipFile
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.ZipFile.#ctor
+  - SuperOffice.Util.ZipFile.#ctor(System.Int16)
+  - SuperOffice.Util.ZipFile.#ctor(System.IO.Stream)
+  - SuperOffice.Util.ZipFile.#ctor(System.String)
+  - SuperOffice.Util.ZipFile.AddEntry(SuperOffice.Util.ZipEntry)
+  - SuperOffice.Util.ZipFile.AddEntry(System.String,System.IO.Stream)
+  - SuperOffice.Util.ZipFile.AddEntryStream(System.IO.Stream)
+  - SuperOffice.Util.ZipFile.Finish
+  - SuperOffice.Util.ZipFile.GetEntries
+  - SuperOffice.Util.ZipFile.GetStream(SuperOffice.Util.ZipEntry)
+  - SuperOffice.Util.ZipFile.GetStream(System.Int64)
+  - SuperOffice.Util.ZipFile.IsNew
+  - SuperOffice.Util.ZipFile.ZipStream
+  langs:
+  - csharp
+  - vb
+  name: ZipFile
+  nameWithType: ZipFile
+  fullName: SuperOffice.Util.ZipFile
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nClass to handle zip file structures\n"
+  syntax:
+    content: public class ZipFile
+    content.vb: Public Class ZipFile
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.ZipFile.EnumUtil.MapEnums``2
+  - SuperOffice.Util.ZipFile.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ZipFile)
+  - SuperOffice.Util.ZipFile.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Util.ZipFile.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.ZipFile.#ctor
+  commentId: M:SuperOffice.Util.ZipFile.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: ZipFile()
+  nameWithType: ZipFile.ZipFile()
+  fullName: SuperOffice.Util.ZipFile.ZipFile()
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a new instance.\n"
+  syntax:
+    content: public ZipFile()
+    content.vb: Public Sub New
+  overload: SuperOffice.Util.ZipFile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.#ctor(System.Int16)
+  commentId: M:SuperOffice.Util.ZipFile.#ctor(System.Int16)
+  id: '#ctor(System.Int16)'
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: ZipFile(Int16)
+  nameWithType: ZipFile.ZipFile(Int16)
+  fullName: SuperOffice.Util.ZipFile.ZipFile(System.Int16)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nCreate a new instance.\n"
+  syntax:
+    content: public ZipFile(short level)
+    parameters:
+    - id: level
+      type: System.Int16
+      description: Compression level. 0=storage - 9=max compression
+    content.vb: Public Sub New(level As Short)
+  overload: SuperOffice.Util.ZipFile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.#ctor(System.String)
+  commentId: M:SuperOffice.Util.ZipFile.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: ZipFile(String)
+  nameWithType: ZipFile.ZipFile(String)
+  fullName: SuperOffice.Util.ZipFile.ZipFile(System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nLoad instance from a file.\n"
+  syntax:
+    content: public ZipFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+      description: Full path to file to load
+    content.vb: Public Sub New(path As String)
+  overload: SuperOffice.Util.ZipFile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.#ctor(System.IO.Stream)
+  commentId: M:SuperOffice.Util.ZipFile.#ctor(System.IO.Stream)
+  id: '#ctor(System.IO.Stream)'
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: ZipFile(Stream)
+  nameWithType: ZipFile.ZipFile(Stream)
+  fullName: SuperOffice.Util.ZipFile.ZipFile(System.IO.Stream)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nLoad instance from a stream.\n"
+  syntax:
+    content: public ZipFile(Stream inputStream)
+    parameters:
+    - id: inputStream
+      type: System.IO.Stream
+      description: Stream with data to decompress
+    content.vb: Public Sub New(inputStream As Stream)
+  overload: SuperOffice.Util.ZipFile.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.GetEntries
+  commentId: M:SuperOffice.Util.ZipFile.GetEntries
+  id: GetEntries
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: GetEntries()
+  nameWithType: ZipFile.GetEntries()
+  fullName: SuperOffice.Util.ZipFile.GetEntries()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAll entries in the zip file. Not available for new entries.\n"
+  syntax:
+    content: public List<ZipEntry> GetEntries()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Util.ZipEntry}
+    content.vb: Public Function GetEntries As List(Of ZipEntry)
+  overload: SuperOffice.Util.ZipFile.GetEntries*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.GetStream(System.Int64)
+  commentId: M:SuperOffice.Util.ZipFile.GetStream(System.Int64)
+  id: GetStream(System.Int64)
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: GetStream(Int64)
+  nameWithType: ZipFile.GetStream(Int64)
+  fullName: SuperOffice.Util.ZipFile.GetStream(System.Int64)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRetrieve the uncompressed stream of an entry in the zip file. Not available for new entries.\n"
+  syntax:
+    content: public Stream GetStream(long entryIndex)
+    parameters:
+    - id: entryIndex
+      type: System.Int64
+      description: Index of entry in zip file
+    return:
+      type: System.IO.Stream
+      description: Uncompressed stream of entry content
+    content.vb: Public Function GetStream(entryIndex As Long) As Stream
+  overload: SuperOffice.Util.ZipFile.GetStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.GetStream(SuperOffice.Util.ZipEntry)
+  commentId: M:SuperOffice.Util.ZipFile.GetStream(SuperOffice.Util.ZipEntry)
+  id: GetStream(SuperOffice.Util.ZipEntry)
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: GetStream(ZipEntry)
+  nameWithType: ZipFile.GetStream(ZipEntry)
+  fullName: SuperOffice.Util.ZipFile.GetStream(SuperOffice.Util.ZipEntry)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRetrieve the uncompressed stream of an entry in the zip file. Not available for new entries.\n"
+  syntax:
+    content: public Stream GetStream(ZipEntry entry)
+    parameters:
+    - id: entry
+      type: SuperOffice.Util.ZipEntry
+      description: ZipEntry to get stream from
+    return:
+      type: System.IO.Stream
+      description: Uncompressed stream of entry content
+    content.vb: Public Function GetStream(entry As ZipEntry) As Stream
+  overload: SuperOffice.Util.ZipFile.GetStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.AddEntry(SuperOffice.Util.ZipEntry)
+  commentId: M:SuperOffice.Util.ZipFile.AddEntry(SuperOffice.Util.ZipEntry)
+  id: AddEntry(SuperOffice.Util.ZipEntry)
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: AddEntry(ZipEntry)
+  nameWithType: ZipFile.AddEntry(ZipEntry)
+  fullName: SuperOffice.Util.ZipFile.AddEntry(SuperOffice.Util.ZipEntry)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a new entry to the zip file.  Only available for new entries.\n"
+  syntax:
+    content: public void AddEntry(ZipEntry entry)
+    parameters:
+    - id: entry
+      type: SuperOffice.Util.ZipEntry
+      description: Entry to be added
+    content.vb: Public Sub AddEntry(entry As ZipEntry)
+  overload: SuperOffice.Util.ZipFile.AddEntry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.AddEntry(System.String,System.IO.Stream)
+  commentId: M:SuperOffice.Util.ZipFile.AddEntry(System.String,System.IO.Stream)
+  id: AddEntry(System.String,System.IO.Stream)
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: AddEntry(String, Stream)
+  nameWithType: ZipFile.AddEntry(String, Stream)
+  fullName: SuperOffice.Util.ZipFile.AddEntry(System.String, System.IO.Stream)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a new entry to the zip file, including content of entry as a stream. Only available for new entries.\n"
+  syntax:
+    content: public void AddEntry(string name, Stream content)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of entry
+    - id: content
+      type: System.IO.Stream
+      description: Content, may be null
+    content.vb: Public Sub AddEntry(name As String, content As Stream)
+  overload: SuperOffice.Util.ZipFile.AddEntry*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.AddEntryStream(System.IO.Stream)
+  commentId: M:SuperOffice.Util.ZipFile.AddEntryStream(System.IO.Stream)
+  id: AddEntryStream(System.IO.Stream)
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: AddEntryStream(Stream)
+  nameWithType: ZipFile.AddEntryStream(Stream)
+  fullName: SuperOffice.Util.ZipFile.AddEntryStream(System.IO.Stream)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd data stream to the file.  Clients need to add an entry first.  Only available for new entries.\n"
+  syntax:
+    content: public void AddEntryStream(Stream content)
+    parameters:
+    - id: content
+      type: System.IO.Stream
+      description: Uncompressed data stream
+    content.vb: Public Sub AddEntryStream(content As Stream)
+  overload: SuperOffice.Util.ZipFile.AddEntryStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.Finish
+  commentId: M:SuperOffice.Util.ZipFile.Finish
+  id: Finish
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: Finish()
+  nameWithType: ZipFile.Finish()
+  fullName: SuperOffice.Util.ZipFile.Finish()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nFinishes the stream. This will write the central directory at the end of the zip file and flush the stream.\n"
+  syntax:
+    content: public void Finish()
+    content.vb: Public Sub Finish
+  overload: SuperOffice.Util.ZipFile.Finish*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Util.ZipFile.IsNew
+  commentId: P:SuperOffice.Util.ZipFile.IsNew
+  id: IsNew
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: IsNew
+  nameWithType: ZipFile.IsNew
+  fullName: SuperOffice.Util.ZipFile.IsNew
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nTrue if this is a new zip entry.\n"
+  syntax:
+    content: public bool IsNew { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsNew As Boolean
+  overload: SuperOffice.Util.ZipFile.IsNew*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Util.ZipFile.ZipStream
+  commentId: P:SuperOffice.Util.ZipFile.ZipStream
+  id: ZipStream
+  parent: SuperOffice.Util.ZipFile
+  langs:
+  - csharp
+  - vb
+  name: ZipStream
+  nameWithType: ZipFile.ZipStream
+  fullName: SuperOffice.Util.ZipFile.ZipStream
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nStream to the compressed data. Only available for new entries.\n"
+  syntax:
+    content: public Stream ZipStream { get; }
+    parameters: []
+    return:
+      type: System.IO.Stream
+    content.vb: Public ReadOnly Property ZipStream As Stream
+  overload: SuperOffice.Util.ZipFile.ZipStream*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ZipFile.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<ZipFile, To>()
+  nameWithType: EnumUtil.MapEnums<ZipFile, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.ZipFile, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of ZipFile, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.ZipFile, To)()
+  name.vb: MapEnums(Of ZipFile, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<ZipFile, To>
+    nameWithType: EnumUtil.MapEnums<ZipFile, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.ZipFile, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of ZipFile, To)
+    nameWithType: EnumUtil.MapEnums(Of ZipFile, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.ZipFile, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ZipFile.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.ZipFile)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<ZipFile>(ZipFile)
+  nameWithType: ObjectExtensions.AssignByReflection<ZipFile>(ZipFile)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ZipFile>(SuperOffice.Util.ZipFile)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ZipFile)(ZipFile)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ZipFile)(SuperOffice.Util.ZipFile)
+  name.vb: AssignByReflection(Of ZipFile)(ZipFile)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<ZipFile>
+    nameWithType: ObjectExtensions.AssignByReflection<ZipFile>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.ZipFile>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.ZipFile
+    name: ZipFile
+    nameWithType: ZipFile
+    fullName: SuperOffice.Util.ZipFile
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of ZipFile)
+    nameWithType: ObjectExtensions.AssignByReflection(Of ZipFile)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.ZipFile)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Util.ZipFile
+    name: ZipFile
+    nameWithType: ZipFile
+    fullName: SuperOffice.Util.ZipFile
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ZipFile.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<ZipFile>()
+  nameWithType: ObjectExtensions.GraphCopy<ZipFile>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ZipFile>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ZipFile)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ZipFile)()
+  name.vb: GraphCopy(Of ZipFile)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<ZipFile>
+    nameWithType: ObjectExtensions.GraphCopy<ZipFile>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.ZipFile>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of ZipFile)
+    nameWithType: ObjectExtensions.GraphCopy(Of ZipFile)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.ZipFile)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ZipFile.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<ZipFile, To>()
+  nameWithType: Converters.MapEnums<ZipFile, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ZipFile, To>()
+  nameWithType.vb: Converters.MapEnums(Of ZipFile, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ZipFile, To)()
+  name.vb: MapEnums(Of ZipFile, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<ZipFile, To>
+    nameWithType: Converters.MapEnums<ZipFile, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.ZipFile, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of ZipFile, To)
+    nameWithType: Converters.MapEnums(Of ZipFile, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.ZipFile, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.ZipFile.#ctor*
+  commentId: Overload:SuperOffice.Util.ZipFile.#ctor
+  isExternal: true
+  name: ZipFile
+  nameWithType: ZipFile.ZipFile
+  fullName: SuperOffice.Util.ZipFile.ZipFile
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.Util.ZipFile.GetEntries*
+  commentId: Overload:SuperOffice.Util.ZipFile.GetEntries
+  isExternal: true
+  name: GetEntries
+  nameWithType: ZipFile.GetEntries
+  fullName: SuperOffice.Util.ZipFile.GetEntries
+- uid: System.Collections.Generic.List{SuperOffice.Util.ZipEntry}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Util.ZipEntry}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ZipEntry>
+  nameWithType: List<ZipEntry>
+  fullName: System.Collections.Generic.List<SuperOffice.Util.ZipEntry>
+  nameWithType.vb: List(Of ZipEntry)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Util.ZipEntry)
+  name.vb: List(Of ZipEntry)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.ZipEntry
+    name: ZipEntry
+    nameWithType: ZipEntry
+    fullName: SuperOffice.Util.ZipEntry
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.ZipEntry
+    name: ZipEntry
+    nameWithType: ZipEntry
+    fullName: SuperOffice.Util.ZipEntry
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Util.ZipFile.GetStream*
+  commentId: Overload:SuperOffice.Util.ZipFile.GetStream
+  isExternal: true
+  name: GetStream
+  nameWithType: ZipFile.GetStream
+  fullName: SuperOffice.Util.ZipFile.GetStream
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: SuperOffice.Util.ZipEntry
+  commentId: T:SuperOffice.Util.ZipEntry
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ZipEntry
+  nameWithType: ZipEntry
+  fullName: SuperOffice.Util.ZipEntry
+- uid: SuperOffice.Util.ZipFile.AddEntry*
+  commentId: Overload:SuperOffice.Util.ZipFile.AddEntry
+  isExternal: true
+  name: AddEntry
+  nameWithType: ZipFile.AddEntry
+  fullName: SuperOffice.Util.ZipFile.AddEntry
+- uid: SuperOffice.Util.ZipFile.AddEntryStream*
+  commentId: Overload:SuperOffice.Util.ZipFile.AddEntryStream
+  isExternal: true
+  name: AddEntryStream
+  nameWithType: ZipFile.AddEntryStream
+  fullName: SuperOffice.Util.ZipFile.AddEntryStream
+- uid: SuperOffice.Util.ZipFile.Finish*
+  commentId: Overload:SuperOffice.Util.ZipFile.Finish
+  isExternal: true
+  name: Finish
+  nameWithType: ZipFile.Finish
+  fullName: SuperOffice.Util.ZipFile.Finish
+- uid: SuperOffice.Util.ZipFile.IsNew*
+  commentId: Overload:SuperOffice.Util.ZipFile.IsNew
+  isExternal: true
+  name: IsNew
+  nameWithType: ZipFile.IsNew
+  fullName: SuperOffice.Util.ZipFile.IsNew
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.ZipFile.ZipStream*
+  commentId: Overload:SuperOffice.Util.ZipFile.ZipStream
+  isExternal: true
+  name: ZipStream
+  nameWithType: ZipFile.ZipStream
+  fullName: SuperOffice.Util.ZipFile.ZipStream

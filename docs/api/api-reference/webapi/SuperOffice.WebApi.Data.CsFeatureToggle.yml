@@ -1,0 +1,215 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle
+  commentId: T:SuperOffice.WebApi.Data.CsFeatureToggle
+  id: CsFeatureToggle
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CsFeatureToggle.#ctor
+  - SuperOffice.WebApi.Data.CsFeatureToggle.Name
+  - SuperOffice.WebApi.Data.CsFeatureToggle.State
+  langs:
+  - csharp
+  - vb
+  name: CsFeatureToggle
+  nameWithType: CsFeatureToggle
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for CsFeatureToggle.\n\n"
+  syntax:
+    content: 'public class CsFeatureToggle : Carrier'
+    content.vb: >-
+      Public Class CsFeatureToggle
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.CustomerServiceAgent
+    commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle.#ctor
+  commentId: M:SuperOffice.WebApi.Data.CsFeatureToggle.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.CsFeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: CsFeatureToggle()
+  nameWithType: CsFeatureToggle.CsFeatureToggle()
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle.CsFeatureToggle()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public CsFeatureToggle()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.CsFeatureToggle.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle.Name
+  commentId: P:SuperOffice.WebApi.Data.CsFeatureToggle.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.CsFeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: CsFeatureToggle.Name
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the feature toggle\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.CsFeatureToggle.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle.State
+  commentId: P:SuperOffice.WebApi.Data.CsFeatureToggle.State
+  id: State
+  parent: SuperOffice.WebApi.Data.CsFeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: CsFeatureToggle.State
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle.State
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDescribes if the feature toggle is turned on or off\n"
+  syntax:
+    content: public virtual bool State { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property State As Boolean
+  overload: SuperOffice.WebApi.Data.CsFeatureToggle.State*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  commentId: T:SuperOffice.WebApi.Agents.CustomerServiceAgent
+  isExternal: true
+  name: CustomerServiceAgent
+  nameWithType: CustomerServiceAgent
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.CsFeatureToggle.#ctor
+  isExternal: true
+  name: CsFeatureToggle
+  nameWithType: CsFeatureToggle.CsFeatureToggle
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle.CsFeatureToggle
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.CsFeatureToggle.Name
+  isExternal: true
+  name: Name
+  nameWithType: CsFeatureToggle.Name
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.CsFeatureToggle.State*
+  commentId: Overload:SuperOffice.WebApi.Data.CsFeatureToggle.State
+  isExternal: true
+  name: State
+  nameWithType: CsFeatureToggle.State
+  fullName: SuperOffice.WebApi.Data.CsFeatureToggle.State
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

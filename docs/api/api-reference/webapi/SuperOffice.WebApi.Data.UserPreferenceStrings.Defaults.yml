@@ -1,0 +1,1106 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  id: UserPreferenceStrings.Defaults
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultBusiness
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultCategory
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultFaxType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultProjectType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleProb
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleType
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSalutationText
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultTimeZone
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Defaults
+  nameWithType: UserPreferenceStrings.Defaults
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault values\n"
+  syntax:
+    content: 'public static class Defaults : Object'
+    content.vb: >-
+      Public Module Defaults
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.Section
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.Section
+  id: Section
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Defaults.Section
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.Section
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Defaults"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Defaults"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  id: DefaultAppntRememberVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppntRememberVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppntRememberVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUses the same visibility setting for new follow-ups as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppntRememberVisibleFor = "DefaultAppntRememberVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppntRememberVisibleFor As String = "DefaultAppntRememberVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  id: DefaultAppointmentAppointLength
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentAppointLength
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointLength
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault duration for new appointment\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentAppointLength = "DefaultAppointmentAppointLength"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentAppointLength As String = "DefaultAppointmentAppointLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  id: DefaultAppointmentAppointTaskId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentAppointTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointTaskId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault type for new appointment\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentAppointTaskId = "DefaultAppointmentAppointTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentAppointTaskId As String = "DefaultAppointmentAppointTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  id: DefaultAppointmentAppointText
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentAppointText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentAppointText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault text for new appointment\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentAppointText = "DefaultAppointmentAppointText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentAppointText As String = "DefaultAppointmentAppointText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  id: DefaultAppointmentPhoneLength
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentPhoneLength
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneLength
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault duration for new phone call\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentPhoneLength = "DefaultAppointmentPhoneLength"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentPhoneLength As String = "DefaultAppointmentPhoneLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  id: DefaultAppointmentPhoneTaskId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentPhoneTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneTaskId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault type for new phone call\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentPhoneTaskId = "DefaultAppointmentPhoneTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentPhoneTaskId As String = "DefaultAppointmentPhoneTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  id: DefaultAppointmentPhoneText
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentPhoneText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentPhoneText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault text for new phone call\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentPhoneText = "DefaultAppointmentPhoneText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentPhoneText As String = "DefaultAppointmentPhoneText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  id: DefaultAppointmentToDoLength
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentToDoLength
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoLength
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault duration for new task\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentToDoLength = "DefaultAppointmentToDoLength"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentToDoLength As String = "DefaultAppointmentToDoLength"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  id: DefaultAppointmentToDoTaskId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentToDoTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoTaskId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault type for new task\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentToDoTaskId = "DefaultAppointmentToDoTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentToDoTaskId As String = "DefaultAppointmentToDoTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  id: DefaultAppointmentToDoText
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentToDoText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentToDoText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault text for new task\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentToDoText = "DefaultAppointmentToDoText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentToDoText As String = "DefaultAppointmentToDoText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  id: DefaultAppointmentVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast visibility setting used in the follow-ups dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultAppointmentVisibleFor = "DefaultAppointmentVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentVisibleFor As String = "DefaultAppointmentVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  id: DefaultSaleVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast visibility setting used in the sale dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultSaleVisibleFor = "DefaultSaleVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleVisibleFor As String = "DefaultSaleVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  id: DefaultSaleRememberVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleRememberVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleRememberVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUses the same visibility setting for new sales as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSaleRememberVisibleFor = "DefaultSaleRememberVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleRememberVisibleFor As String = "DefaultSaleRememberVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultBusiness
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultBusiness
+  id: DefaultBusiness
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultBusiness
+  nameWithType: UserPreferenceStrings.Defaults.DefaultBusiness
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultBusiness
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault business for new company\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultBusiness = "DefaultBusiness"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultBusiness As String = "DefaultBusiness"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultCategory
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultCategory
+  id: DefaultCategory
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultCategory
+  nameWithType: UserPreferenceStrings.Defaults.DefaultCategory
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault category for new company\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultCategory = "DefaultCategory"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultCategory As String = "DefaultCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  id: DefaultDecimalPlacesInAmount
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDecimalPlacesInAmount
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDecimalPlacesInAmount
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of decimals displayed in user-defined amount\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultDecimalPlacesInAmount = "DefaultDecimalPlacesInAmount"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDecimalPlacesInAmount As String = "DefaultDecimalPlacesInAmount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  id: DefaultDocRememberVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocRememberVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocRememberVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUses the same visibility setting for new documents as you used last time. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocRememberVisibleFor = "DefaultDocRememberVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocRememberVisibleFor As String = "DefaultDocRememberVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentType
+  id: DefaultDocumentType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocumentType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDocumentType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault outgoing document template\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocumentType = "DefaultDocumentType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocumentType As String = "DefaultDocumentType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  id: DefaultDocumentVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocumentVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultDocumentVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast visibility setting used in the Document dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DefaultDocumentVisibleFor = "DefaultDocumentVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocumentVisibleFor As String = "DefaultDocumentVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultFaxType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultFaxType
+  id: DefaultFaxType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultFaxType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultFaxType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultFaxType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault outgoing fax template\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultFaxType = "DefaultFaxType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultFaxType As String = "DefaultFaxType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultProjectType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultProjectType
+  id: DefaultProjectType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultProjectType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultProjectType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultProjectType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault type for new project\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultProjectType = "DefaultProjectType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultProjectType As String = "DefaultProjectType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleProb
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleProb
+  id: DefaultSaleProb
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleProb
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleProb
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleProb
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault rating for new sale\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSaleProb = "DefaultSaleProb"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleProb As String = "DefaultSaleProb"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  id: DefaultSelectionCategory
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSelectionCategory
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault type for new selection\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSelectionCategory = "DefaultSelectionCategory"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSelectionCategory As String = "DefaultSelectionCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  id: DefaultSelectionVisibleFor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSelectionVisibleFor
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSelectionVisibleFor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMakes this value the default visibility setting when creating a new selection\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultSelectionVisibleFor = "DefaultSelectionVisibleFor"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSelectionVisibleFor As String = "DefaultSelectionVisibleFor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleType
+  id: DefaultSaleType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSaleType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSaleType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSaleType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault sale type value for new sales.\n"
+  syntax:
+    content: public const string DefaultSaleType = "DefaultSaleType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSaleType As String = "DefaultSaleType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultTimeZone
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultTimeZone
+  id: DefaultTimeZone
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultTimeZone
+  nameWithType: UserPreferenceStrings.Defaults.DefaultTimeZone
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultTimeZone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault timezone.\n"
+  syntax:
+    content: public const string DefaultTimeZone = "DefaultTimeZone"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultTimeZone As String = "DefaultTimeZone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSalutationText
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSalutationText
+  id: DefaultSalutationText
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultSalutationText
+  nameWithType: UserPreferenceStrings.Defaults.DefaultSalutationText
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultSalutationText
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault salutation\n"
+  syntax:
+    content: public const string DefaultSalutationText = "DefaultSalutationText"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultSalutationText As String = "DefaultSalutationText"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  id: DefaultQuoteDocumentType
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultQuoteDocumentType
+  nameWithType: UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultQuoteDocumentType
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string DefaultQuoteDocumentType = "DefaultQuoteDocumentType"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultQuoteDocumentType As String = "DefaultQuoteDocumentType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  id: DefaultAppointmentQuoteTaskId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentQuoteTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteTaskId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string DefaultAppointmentQuoteTaskId = "DefaultAppointmentQuoteTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentQuoteTaskId As String = "DefaultAppointmentQuoteTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  id: DefaultAppointmentQuoteApprovedTaskId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultAppointmentQuoteApprovedTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultAppointmentQuoteApprovedTaskId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string DefaultAppointmentQuoteApprovedTaskId = "DefaultAppointmentQuoteApprovedTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultAppointmentQuoteApprovedTaskId As String = "DefaultAppointmentQuoteApprovedTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  id: PhoneLinkFormat
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: PhoneLinkFormat
+  nameWithType: UserPreferenceStrings.Defaults.PhoneLinkFormat
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.PhoneLinkFormat
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string PhoneLinkFormat = "PhoneLinkFormat"
+    return:
+      type: System.String
+    content.vb: Public Const PhoneLinkFormat As String = "PhoneLinkFormat"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  id: MiniCardFavouriteSelectedSet
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: MiniCardFavouriteSelectedSet
+  nameWithType: UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.MiniCardFavouriteSelectedSet
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string MiniCardFavouriteSelectedSet = "MiniCardFavouriteSelectedSet"
+    return:
+      type: System.String
+    content.vb: Public Const MiniCardFavouriteSelectedSet As String = "MiniCardFavouriteSelectedSet"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  id: CompleteDocumentOnCheckIn
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: CompleteDocumentOnCheckIn
+  nameWithType: UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.CompleteDocumentOnCheckIn
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public const string CompleteDocumentOnCheckIn = "CompleteDocumentOnCheckIn"
+    return:
+      type: System.String
+    content.vb: Public Const CompleteDocumentOnCheckIn As String = "CompleteDocumentOnCheckIn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  id: DefaultInvitationTaskId
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults
+  langs:
+  - csharp
+  - vb
+  name: DefaultInvitationTaskId
+  nameWithType: UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Defaults.DefaultInvitationTaskId
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault task type used for incoming e-mail invitations\n"
+  syntax:
+    content: public const string DefaultInvitationTaskId = "DefaultInvitationTaskId"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultInvitationTaskId As String = "DefaultInvitationTaskId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

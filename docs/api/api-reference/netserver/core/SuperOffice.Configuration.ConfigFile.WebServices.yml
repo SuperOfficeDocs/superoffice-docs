@@ -1,0 +1,514 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.WebServices
+  commentId: T:SuperOffice.Configuration.ConfigFile.WebServices
+  id: ConfigFile.WebServices
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
+  - SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
+  - SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
+  - SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.WebServices
+  nameWithType: ConfigFile.WebServices
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nUtility class used to access the SuperOffice.CRM.Services entry in the Config file.\n"
+  syntax:
+    content: public static class WebServices
+    content.vb: Public Module WebServices
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
+  id: AllowWebServiceRequests
+  parent: SuperOffice.Configuration.ConfigFile.WebServices
+  langs:
+  - csharp
+  - vb
+  name: AllowWebServiceRequests
+  nameWithType: ConfigFile.WebServices.AllowWebServiceRequests
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nPermit requests to web services.  This value is supported in the default SoWcfRequestInterceptor and can be overriden by making a custom SoWcfRequestInterceptorPlugin.\n"
+  syntax:
+    content: public static bool AllowWebServiceRequests { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property AllowWebServiceRequests As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
+  id: WrapExceptions
+  parent: SuperOffice.Configuration.ConfigFile.WebServices
+  langs:
+  - csharp
+  - vb
+  name: WrapExceptions
+  nameWithType: ConfigFile.WebServices.WrapExceptions
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCheck if NetServer shall wrap and serialize exceptions, or leave it up to communication carrier (i.e. WCF)\n"
+  syntax:
+    content: public static bool WrapExceptions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property WrapExceptions As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
+  id: RemoveInvalidXMLText
+  parent: SuperOffice.Configuration.ConfigFile.WebServices
+  langs:
+  - csharp
+  - vb
+  name: RemoveInvalidXMLText
+  nameWithType: ConfigFile.WebServices.RemoveInvalidXMLText
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIf we should remove UTF-8 characters that are not valid XML. The Text table is the only place where this filter is active.\n"
+  syntax:
+    content: public static bool RemoveInvalidXMLText { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property RemoveInvalidXMLText As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
+  commentId: P:SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
+  id: RemoteBaseURL
+  parent: SuperOffice.Configuration.ConfigFile.WebServices
+  langs:
+  - csharp
+  - vb
+  name: RemoteBaseURL
+  nameWithType: ConfigFile.WebServices.RemoteBaseURL
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nBase URL for remote services (Default: http://localhost/webs/SuperOffice.Web.Services).  This value will override by Services.RemoteBaseURL\n"
+  syntax:
+    content: public static string RemoteBaseURL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property RemoteBaseURL As String
+  overload: SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
+  isExternal: true
+  name: AllowWebServiceRequests
+  nameWithType: ConfigFile.WebServices.AllowWebServiceRequests
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.AllowWebServiceRequests
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
+  isExternal: true
+  name: WrapExceptions
+  nameWithType: ConfigFile.WebServices.WrapExceptions
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.WrapExceptions
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
+  isExternal: true
+  name: RemoveInvalidXMLText
+  nameWithType: ConfigFile.WebServices.RemoveInvalidXMLText
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.RemoveInvalidXMLText
+- uid: SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
+  isExternal: true
+  name: RemoteBaseURL
+  nameWithType: ConfigFile.WebServices.RemoteBaseURL
+  fullName: SuperOffice.Configuration.ConfigFile.WebServices.RemoteBaseURL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

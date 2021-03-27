@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  id: RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RecurrenceUpdateMode.OnlyThis
+  - SuperOffice.WebApi.Data.RecurrenceUpdateMode.StopRecurrence
+  - SuperOffice.WebApi.Data.RecurrenceUpdateMode.ThisAndForward
+  - SuperOffice.WebApi.Data.RecurrenceUpdateMode.Unknown
+  - SuperOffice.WebApi.Data.RecurrenceUpdateMode.value__
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppointment recurrence change mode: only this, this and forward, stop\n"
+  syntax:
+    content: 'public sealed class RecurrenceUpdateMode : Enum'
+    content.vb: >-
+      Public NotInheritable Class RecurrenceUpdateMode
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode.value__
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceUpdateMode.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RecurrenceUpdateMode.value__
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode.Unknown
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceUpdateMode.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: RecurrenceUpdateMode.Unknown
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: 0: Unknown/undecided type\n"
+  syntax:
+    content: public const RecurrenceUpdateMode Unknown
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Const Unknown As RecurrenceUpdateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode.OnlyThis
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceUpdateMode.OnlyThis
+  id: OnlyThis
+  parent: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  langs:
+  - csharp
+  - vb
+  name: OnlyThis
+  nameWithType: RecurrenceUpdateMode.OnlyThis
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode.OnlyThis
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Update only this instance\n"
+  syntax:
+    content: public const RecurrenceUpdateMode OnlyThis
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Const OnlyThis As RecurrenceUpdateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode.ThisAndForward
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceUpdateMode.ThisAndForward
+  id: ThisAndForward
+  parent: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  langs:
+  - csharp
+  - vb
+  name: ThisAndForward
+  nameWithType: RecurrenceUpdateMode.ThisAndForward
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode.ThisAndForward
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Update this instance and all instances forward in time\n"
+  syntax:
+    content: public const RecurrenceUpdateMode ThisAndForward
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Const ThisAndForward As RecurrenceUpdateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode.StopRecurrence
+  commentId: F:SuperOffice.WebApi.Data.RecurrenceUpdateMode.StopRecurrence
+  id: StopRecurrence
+  parent: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  langs:
+  - csharp
+  - vb
+  name: StopRecurrence
+  nameWithType: RecurrenceUpdateMode.StopRecurrence
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode.StopRecurrence
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Stop the recurrence from this instance and forward in time\n"
+  syntax:
+    content: public const RecurrenceUpdateMode StopRecurrence
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+    content.vb: Public Const StopRecurrence As RecurrenceUpdateMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceUpdateMode
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceUpdateMode
+  nameWithType: RecurrenceUpdateMode
+  fullName: SuperOffice.WebApi.Data.RecurrenceUpdateMode

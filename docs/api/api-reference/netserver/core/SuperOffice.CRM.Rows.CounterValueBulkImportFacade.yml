@@ -1,0 +1,1905 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  commentId: T:SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  id: CounterValueBulkImportFacade
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.#ctor
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)~System.Object[]
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: CounterValueBulkImportFacade
+  nameWithType: CounterValueBulkImportFacade
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTyped facade for an object[] that contains all the fields of the CounterValue table, intended for\nuse with DatabaseOperations.<see cref=\"!:DatabaseOperations.ImportTable\"></see> for bulk import of data.\n"
+  remarks: "\nThe bulk import system is based on generic row data, represented as an array of object. While this\nfits the bulk import functionality well, it may be convenient to have a typed, named way of accessing\nthe elements of such an object. This class has an object[] as its data carrier, together with\nstrongly typed access members.\n<p></p>\nOn creation, the array is dimensioned and all members initialized with &apos;blank&apos; values for their\ntypes (never null). There is an implicit conversion operator to object[], and it is also possible\nto access the array directly.\n"
+  syntax:
+    content: public class CounterValueBulkImportFacade
+    content.vb: Public Class CounterValueBulkImportFacade
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.#ctor
+  commentId: M:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: CounterValueBulkImportFacade()
+  nameWithType: CounterValueBulkImportFacade.CounterValueBulkImportFacade()
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueBulkImportFacade()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public CounterValueBulkImportFacade()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)~System.Object[]
+  commentId: M:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.op_Implicit(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)~System.Object[]
+  id: op_Implicit(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)~System.Object[]
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Implicit(CounterValueBulkImportFacade to Object[])
+  nameWithType: CounterValueBulkImportFacade.Implicit(CounterValueBulkImportFacade to Object[])
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Implicit(SuperOffice.CRM.Rows.CounterValueBulkImportFacade to System.Object[])
+  type: Operator
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static implicit operator object[](CounterValueBulkImportFacade r)
+    parameters:
+    - id: r
+      type: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+    return:
+      type: System.Object[]
+    content.vb: Public Shared Widening Operator CType(r As CounterValueBulkImportFacade) As Object()
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.op_Implicit*
+  nameWithType.vb: CounterValueBulkImportFacade.Widening(CounterValueBulkImportFacade to Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Widening(SuperOffice.CRM.Rows.CounterValueBulkImportFacade to System.Object())
+  name.vb: Widening(CounterValueBulkImportFacade to Object())
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData
+  id: RowData
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: RowData
+  nameWithType: CounterValueBulkImportFacade.RowData
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public object[] RowData { get; }
+    parameters: []
+    return:
+      type: System.Object[]
+    content.vb: Public ReadOnly Property RowData As Object()
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId
+  id: CounterValueId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: CounterValueId
+  nameWithType: CounterValueBulkImportFacade.CounterValueId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public int CounterValueId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CounterValueId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: CounterValueBulkImportFacade.ContactId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to contact, 0 if this counter is not for contacts\n"
+  syntax:
+    content: public int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ContactId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: CounterValueBulkImportFacade.PersonId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to person, 0 if this counter is not for person (always 0 in 6.0)\n"
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: CounterValueBulkImportFacade.ProjectId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to project, 0 if this counter is not for project\n"
+  syntax:
+    content: public int ProjectId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProjectId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id
+  id: Extra1Id
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Extra1Id
+  nameWithType: CounterValueBulkImportFacade.Extra1Id
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSpare ID for future links\n"
+  syntax:
+    content: public int Extra1Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Extra1Id As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id
+  id: Extra2Id
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Extra2Id
+  nameWithType: CounterValueBulkImportFacade.Extra2Id
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSpare ID for future links\n"
+  syntax:
+    content: public int Extra2Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Extra2Id As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType
+  id: RecordType
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: RecordType
+  nameWithType: CounterValueBulkImportFacade.RecordType
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSame as task.record_type: 1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo - see EAppntRecordTypes<br />Enums are stored as short&apos;s in the array, as they would otherwise be converted to their string representation during a bulk insert\n"
+  syntax:
+    content: public short RecordType { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property RecordType As Short
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction
+  id: Direction
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Direction
+  nameWithType: CounterValueBulkImportFacade.Direction
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSame as task.direction: Direction: 0 = none, 1 = incoming, 2 = outgoing<br />Enums are stored as short&apos;s in the array, as they would otherwise be converted to their string representation during a bulk insert\n"
+  syntax:
+    content: public short Direction { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property Direction As Short
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId
+  id: IntentId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: IntentId
+  nameWithType: CounterValueBulkImportFacade.IntentId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLink to Intent list\n"
+  syntax:
+    content: public int IntentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property IntentId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus
+  id: SaleStatus
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: SaleStatus
+  nameWithType: CounterValueBulkImportFacade.SaleStatus
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSale status: 0 = Unknown, 1 = open, 2 = closed, 3 = lost, 4 = all sales<br />Enums are stored as short&apos;s in the array, as they would otherwise be converted to their string representation during a bulk insert\n"
+  syntax:
+    content: public SaleStatus SaleStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SaleStatus
+    content.vb: Public Property SaleStatus As SaleStatus
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId
+  id: AmountClassId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: AmountClassId
+  nameWithType: CounterValueBulkImportFacade.AmountClassId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSale amount class, for splitting sale counters by amounts\n"
+  syntax:
+    content: public int AmountClassId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AmountClassId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg
+  id: TotalReg
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: TotalReg
+  nameWithType: CounterValueBulkImportFacade.TotalReg
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type\n"
+  syntax:
+    content: public uint TotalReg { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property TotalReg As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod
+  id: TotalRegInPeriod
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: TotalRegInPeriod
+  nameWithType: CounterValueBulkImportFacade.TotalRegInPeriod
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type in the first period (there are up to three period definitions)\n"
+  syntax:
+    content: public uint TotalRegInPeriod { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property TotalRegInPeriod As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted
+  id: NotCompleted
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: NotCompleted
+  nameWithType: CounterValueBulkImportFacade.NotCompleted
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed\n"
+  syntax:
+    content: public uint NotCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NotCompleted As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod
+  id: NotCompletedInPeriod
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: NotCompletedInPeriod
+  nameWithType: CounterValueBulkImportFacade.NotCompletedInPeriod
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed in the first period (there are up to three period definitions)\n"
+  syntax:
+    content: public uint NotCompletedInPeriod { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property NotCompletedInPeriod As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered
+  id: LastRegistered
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: LastRegistered
+  nameWithType: CounterValueBulkImportFacade.LastRegistered
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nActiveDate/SaleDate/CreatedAt of last activity/sale/ticket of this type\n"
+  syntax:
+    content: public DateTime LastRegistered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastRegistered As Date
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted
+  id: LastCompleted
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: LastCompleted
+  nameWithType: CounterValueBulkImportFacade.LastCompleted
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nActiveDate/SaleDate/CreatedAt of last COMPLETED activity/sale/ticket of this type\n"
+  syntax:
+    content: public DateTime LastCompleted { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastCompleted As Date
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy
+  id: LastDoBy
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: LastDoBy
+  nameWithType: CounterValueBulkImportFacade.LastDoBy
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nActiveDate/SaleDate/CreatedAt of last NOT COMPLETED activity/sale/ticket of this type\n"
+  syntax:
+    content: public DateTime LastDoBy { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property LastDoBy As Date
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count
+  id: Extra1Count
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Extra1Count
+  nameWithType: CounterValueBulkImportFacade.Extra1Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type in the second period (there are up to three period definitions)\n"
+  syntax:
+    content: public uint Extra1Count { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Extra1Count As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count
+  id: Extra2Count
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Extra2Count
+  nameWithType: CounterValueBulkImportFacade.Extra2Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed in the second period (there are up to three period definitions)\n"
+  syntax:
+    content: public uint Extra2Count { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Extra2Count As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count
+  id: Extra3Count
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Extra3Count
+  nameWithType: CounterValueBulkImportFacade.Extra3Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal registered records of this type in the third period (there are up to three period definitions)\n"
+  syntax:
+    content: public uint Extra3Count { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Extra3Count As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count
+  id: Extra4Count
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Extra4Count
+  nameWithType: CounterValueBulkImportFacade.Extra4Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTotal records with status Not Completed in the third period (there are up to three period definitions)\n"
+  syntax:
+    content: public uint Extra4Count { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Extra4Count As UInteger
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: CounterValueBulkImportFacade.Registered
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC. \n"
+  syntax:
+    content: public DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Registered As Date
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: CounterValueBulkImportFacade.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom\n"
+  syntax:
+    content: public int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: CounterValueBulkImportFacade.Updated
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC. \n"
+  syntax:
+    content: public DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property Updated As Date
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: CounterValueBulkImportFacade.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom\n"
+  syntax:
+    content: public int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UpdatedAssociateId As Integer
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount
+  commentId: P:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: CounterValueBulkImportFacade.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record\n"
+  syntax:
+    content: public short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Property UpdatedCount As Short
+  overload: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CounterValueBulkImportFacade, To>()
+  nameWithType: EnumUtil.MapEnums<CounterValueBulkImportFacade, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CounterValueBulkImportFacade, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To)()
+  name.vb: MapEnums(Of CounterValueBulkImportFacade, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CounterValueBulkImportFacade, To>
+    nameWithType: EnumUtil.MapEnums<CounterValueBulkImportFacade, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CounterValueBulkImportFacade, To)
+    nameWithType: EnumUtil.MapEnums(Of CounterValueBulkImportFacade, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<CounterValueBulkImportFacade>(CounterValueBulkImportFacade)
+  nameWithType: ObjectExtensions.AssignByReflection<CounterValueBulkImportFacade>(CounterValueBulkImportFacade)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CounterValueBulkImportFacade>(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of CounterValueBulkImportFacade)(CounterValueBulkImportFacade)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade)(SuperOffice.CRM.Rows.CounterValueBulkImportFacade)
+  name.vb: AssignByReflection(Of CounterValueBulkImportFacade)(CounterValueBulkImportFacade)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<CounterValueBulkImportFacade>
+    nameWithType: ObjectExtensions.AssignByReflection<CounterValueBulkImportFacade>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.CounterValueBulkImportFacade>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+    name: CounterValueBulkImportFacade
+    nameWithType: CounterValueBulkImportFacade
+    fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of CounterValueBulkImportFacade)
+    nameWithType: ObjectExtensions.AssignByReflection(Of CounterValueBulkImportFacade)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+    name: CounterValueBulkImportFacade
+    nameWithType: CounterValueBulkImportFacade
+    fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<CounterValueBulkImportFacade>()
+  nameWithType: ObjectExtensions.GraphCopy<CounterValueBulkImportFacade>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CounterValueBulkImportFacade>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of CounterValueBulkImportFacade)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade)()
+  name.vb: GraphCopy(Of CounterValueBulkImportFacade)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<CounterValueBulkImportFacade>
+    nameWithType: ObjectExtensions.GraphCopy<CounterValueBulkImportFacade>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.CounterValueBulkImportFacade>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of CounterValueBulkImportFacade)
+    nameWithType: ObjectExtensions.GraphCopy(Of CounterValueBulkImportFacade)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CounterValueBulkImportFacade, To>()
+  nameWithType: Converters.MapEnums<CounterValueBulkImportFacade, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To>()
+  nameWithType.vb: Converters.MapEnums(Of CounterValueBulkImportFacade, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To)()
+  name.vb: MapEnums(Of CounterValueBulkImportFacade, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CounterValueBulkImportFacade, To>
+    nameWithType: Converters.MapEnums<CounterValueBulkImportFacade, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CounterValueBulkImportFacade, To)
+    nameWithType: Converters.MapEnums(Of CounterValueBulkImportFacade, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.CounterValueBulkImportFacade, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.#ctor
+  isExternal: true
+  name: CounterValueBulkImportFacade
+  nameWithType: CounterValueBulkImportFacade.CounterValueBulkImportFacade
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueBulkImportFacade
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.op_Implicit*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.op_Implicit
+  isExternal: true
+  name: Implicit
+  nameWithType: CounterValueBulkImportFacade.Implicit
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Implicit
+  nameWithType.vb: CounterValueBulkImportFacade.Widening
+  fullName.vb: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Widening
+  name.vb: Widening
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  commentId: T:SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: CounterValueBulkImportFacade
+  nameWithType: CounterValueBulkImportFacade
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData
+  isExternal: true
+  name: RowData
+  nameWithType: CounterValueBulkImportFacade.RowData
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RowData
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId
+  isExternal: true
+  name: CounterValueId
+  nameWithType: CounterValueBulkImportFacade.CounterValueId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.CounterValueId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: CounterValueBulkImportFacade.ContactId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ContactId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: CounterValueBulkImportFacade.PersonId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.PersonId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId
+  isExternal: true
+  name: ProjectId
+  nameWithType: CounterValueBulkImportFacade.ProjectId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.ProjectId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id
+  isExternal: true
+  name: Extra1Id
+  nameWithType: CounterValueBulkImportFacade.Extra1Id
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Id
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id
+  isExternal: true
+  name: Extra2Id
+  nameWithType: CounterValueBulkImportFacade.Extra2Id
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Id
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType
+  isExternal: true
+  name: RecordType
+  nameWithType: CounterValueBulkImportFacade.RecordType
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RecordType
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction
+  isExternal: true
+  name: Direction
+  nameWithType: CounterValueBulkImportFacade.Direction
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Direction
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId
+  isExternal: true
+  name: IntentId
+  nameWithType: CounterValueBulkImportFacade.IntentId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.IntentId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus
+  isExternal: true
+  name: SaleStatus
+  nameWithType: CounterValueBulkImportFacade.SaleStatus
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.SaleStatus
+- uid: SuperOffice.Data.SaleStatus
+  commentId: T:SuperOffice.Data.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId
+  isExternal: true
+  name: AmountClassId
+  nameWithType: CounterValueBulkImportFacade.AmountClassId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.AmountClassId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg
+  isExternal: true
+  name: TotalReg
+  nameWithType: CounterValueBulkImportFacade.TotalReg
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalReg
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod
+  isExternal: true
+  name: TotalRegInPeriod
+  nameWithType: CounterValueBulkImportFacade.TotalRegInPeriod
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.TotalRegInPeriod
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted
+  isExternal: true
+  name: NotCompleted
+  nameWithType: CounterValueBulkImportFacade.NotCompleted
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompleted
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod
+  isExternal: true
+  name: NotCompletedInPeriod
+  nameWithType: CounterValueBulkImportFacade.NotCompletedInPeriod
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.NotCompletedInPeriod
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered
+  isExternal: true
+  name: LastRegistered
+  nameWithType: CounterValueBulkImportFacade.LastRegistered
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastRegistered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted
+  isExternal: true
+  name: LastCompleted
+  nameWithType: CounterValueBulkImportFacade.LastCompleted
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastCompleted
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy
+  isExternal: true
+  name: LastDoBy
+  nameWithType: CounterValueBulkImportFacade.LastDoBy
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.LastDoBy
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count
+  isExternal: true
+  name: Extra1Count
+  nameWithType: CounterValueBulkImportFacade.Extra1Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra1Count
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count
+  isExternal: true
+  name: Extra2Count
+  nameWithType: CounterValueBulkImportFacade.Extra2Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra2Count
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count
+  isExternal: true
+  name: Extra3Count
+  nameWithType: CounterValueBulkImportFacade.Extra3Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra3Count
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count
+  isExternal: true
+  name: Extra4Count
+  nameWithType: CounterValueBulkImportFacade.Extra4Count
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Extra4Count
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: CounterValueBulkImportFacade.Registered
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Registered
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: CounterValueBulkImportFacade.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.RegisteredAssociateId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: CounterValueBulkImportFacade.Updated
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.Updated
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: CounterValueBulkImportFacade.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedAssociateId
+- uid: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: CounterValueBulkImportFacade.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.CounterValueBulkImportFacade.UpdatedCount

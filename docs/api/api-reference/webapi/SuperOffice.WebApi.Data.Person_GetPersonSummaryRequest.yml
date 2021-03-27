@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest
+  id: Person_GetPersonSummaryRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.#ctor
+  - SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit
+  - SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId
+  langs:
+  - csharp
+  - vb
+  name: Person_GetPersonSummaryRequest
+  nameWithType: Person_GetPersonSummaryRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Person_GetPersonSummaryRequest : Object'
+    content.vb: >-
+      Public Class Person_GetPersonSummaryRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest
+  langs:
+  - csharp
+  - vb
+  name: Person_GetPersonSummaryRequest()
+  nameWithType: Person_GetPersonSummaryRequest.Person_GetPersonSummaryRequest()
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Person_GetPersonSummaryRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Person_GetPersonSummaryRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person_GetPersonSummaryRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit
+  commentId: P:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit
+  id: Limit
+  parent: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: Person_GetPersonSummaryRequest.Limit
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.#ctor
+  isExternal: true
+  name: Person_GetPersonSummaryRequest
+  nameWithType: Person_GetPersonSummaryRequest.Person_GetPersonSummaryRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Person_GetPersonSummaryRequest
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person_GetPersonSummaryRequest.PersonId
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit*
+  commentId: Overload:SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit
+  isExternal: true
+  name: Limit
+  nameWithType: Person_GetPersonSummaryRequest.Limit
+  fullName: SuperOffice.WebApi.Data.Person_GetPersonSummaryRequest.Limit

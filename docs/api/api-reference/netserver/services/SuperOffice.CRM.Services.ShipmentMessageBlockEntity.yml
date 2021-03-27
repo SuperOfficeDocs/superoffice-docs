@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  commentId: T:SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  id: ShipmentMessageBlockEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId
+  - SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis entity contains information about design blocks that can be used in a shipment/mailing message\n<p></p>\nCarrier object for ShipmentMessageBlockEntity.\nServices for the ShipmentMessageBlockEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IMarketingAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet ShipmentMessageBlockEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new MarketingAgent();\n    var shipmentMessageBlockEntity = agent.GetShipmentMessageBlockEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class ShipmentMessageBlockEntity : Carrier'
+    content.vb: >-
+      Public Class ShipmentMessageBlockEntity
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.MarketingAgent
+    commentId: T:SuperOffice.CRM.Services.MarketingAgent
+  - linkId: SuperOffice.CRM.Services.IMarketingAgent
+    commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageBlockEntity()
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockEntity()
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ShipmentMessageBlockEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ShipmentMessageBlockEntity.ToString()
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ShipmentMessageBlockEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  id: ShipmentMessageBlockId
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: ShipmentMessageBlockId
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public virtual int ShipmentMessageBlockId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ShipmentMessageBlockId As Integer
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: ShipmentMessageBlockEntity.AssociateId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate that owns this block \n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block
+  id: Block
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: Block
+  nameWithType: ShipmentMessageBlockEntity.Block
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe block definition. Normally this will be a json structure \n"
+  syntax:
+    content: public virtual string Block { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Block As String
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ShipmentMessageBlockEntity.Registered
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As Date
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: ShipmentMessageBlockEntity.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ShipmentMessageBlockEntity.Updated
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated when  in UTC.\n"
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: ShipmentMessageBlockEntity.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount
+  commentId: P:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Services.ShipmentMessageBlockEntity
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: ShipmentMessageBlockEntity.UpdatedCount
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public virtual short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property UpdatedCount As Short
+  overload: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.MarketingAgent
+  commentId: T:SuperOffice.CRM.Services.MarketingAgent
+  isExternal: true
+  name: MarketingAgent
+  nameWithType: MarketingAgent
+  fullName: SuperOffice.CRM.Services.MarketingAgent
+- uid: SuperOffice.CRM.Services.IMarketingAgent
+  commentId: T:SuperOffice.CRM.Services.IMarketingAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IMarketingAgent
+  nameWithType: IMarketingAgent
+  fullName: SuperOffice.CRM.Services.IMarketingAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.#ctor
+  isExternal: true
+  name: ShipmentMessageBlockEntity
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockEntity
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockEntity
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ShipmentMessageBlockEntity.ToString
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  isExternal: true
+  name: ShipmentMessageBlockId
+  nameWithType: ShipmentMessageBlockEntity.ShipmentMessageBlockId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.ShipmentMessageBlockId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: ShipmentMessageBlockEntity.AssociateId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.AssociateId
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block
+  isExternal: true
+  name: Block
+  nameWithType: ShipmentMessageBlockEntity.Block
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Block
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
+  isExternal: true
+  name: Registered
+  nameWithType: ShipmentMessageBlockEntity.Registered
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId
+  isExternal: true
+  name: RegisteredAssociateId
+  nameWithType: ShipmentMessageBlockEntity.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.RegisteredAssociateId
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated
+  isExternal: true
+  name: Updated
+  nameWithType: ShipmentMessageBlockEntity.Updated
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.Updated
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId
+  isExternal: true
+  name: UpdatedAssociateId
+  nameWithType: ShipmentMessageBlockEntity.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedAssociateId
+- uid: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount
+  isExternal: true
+  name: UpdatedCount
+  nameWithType: ShipmentMessageBlockEntity.UpdatedCount
+  fullName: SuperOffice.CRM.Services.ShipmentMessageBlockEntity.UpdatedCount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16

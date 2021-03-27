@@ -1,0 +1,587 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Filter
+  id: UserPreferenceStrings.Filter
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.All
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.Associate
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.DaysAfter
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.DaysBefore
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.Group
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.NumAssociates
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.NumGroups
+  - SuperOffice.CRM.UserPreferenceStrings.Filter.Section
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Filter
+  nameWithType: UserPreferenceStrings.Filter
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFilter (these are available only in PointyHairedBossMode in admin and thus cannot be easily edited)\n"
+  syntax:
+    content: public static class Filter
+    content.vb: Public Module Filter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Filter.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Filter"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Filter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.All
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.All
+  id: All
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: All
+  nameWithType: UserPreferenceStrings.Filter.All
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.All
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string All = "All"
+    return:
+      type: System.String
+    content.vb: Public Const All As String = "All"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.Associate
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.Associate
+  id: Associate
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: UserPreferenceStrings.Filter.Associate
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.Associate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string Associate = "Associate"
+    return:
+      type: System.String
+    content.vb: Public Const Associate As String = "Associate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.DaysAfter
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.DaysAfter
+  id: DaysAfter
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: DaysAfter
+  nameWithType: UserPreferenceStrings.Filter.DaysAfter
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.DaysAfter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DaysAfter = "DaysAfter"
+    return:
+      type: System.String
+    content.vb: Public Const DaysAfter As String = "DaysAfter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.DaysBefore
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.DaysBefore
+  id: DaysBefore
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: DaysBefore
+  nameWithType: UserPreferenceStrings.Filter.DaysBefore
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.DaysBefore
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string DaysBefore = "DaysBefore"
+    return:
+      type: System.String
+    content.vb: Public Const DaysBefore As String = "DaysBefore"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.Group
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.Group
+  id: Group
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: UserPreferenceStrings.Filter.Group
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.Group
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Text, access: Wizard\n"
+  syntax:
+    content: public const string Group = "Group"
+    return:
+      type: System.String
+    content.vb: Public Const Group As String = "Group"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.NumAssociates
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.NumAssociates
+  id: NumAssociates
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: NumAssociates
+  nameWithType: UserPreferenceStrings.Filter.NumAssociates
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.NumAssociates
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string NumAssociates = "NumAssociates"
+    return:
+      type: System.String
+    content.vb: Public Const NumAssociates As String = "NumAssociates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Filter.NumGroups
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Filter.NumGroups
+  id: NumGroups
+  parent: SuperOffice.CRM.UserPreferenceStrings.Filter
+  langs:
+  - csharp
+  - vb
+  name: NumGroups
+  nameWithType: UserPreferenceStrings.Filter.NumGroups
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Filter.NumGroups
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/state of the Filter dialog\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string NumGroups = "NumGroups"
+    return:
+      type: System.String
+    content.vb: Public Const NumGroups As String = "NumGroups"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

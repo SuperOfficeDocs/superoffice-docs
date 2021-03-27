@@ -1,0 +1,429 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TaskType
+  commentId: T:SuperOffice.WebApi.Data.TaskType
+  id: TaskType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TaskType.Appointment
+  - SuperOffice.WebApi.Data.TaskType.Document
+  - SuperOffice.WebApi.Data.TaskType.Email
+  - SuperOffice.WebApi.Data.TaskType.Fax
+  - SuperOffice.WebApi.Data.TaskType.MailMergeDraft
+  - SuperOffice.WebApi.Data.TaskType.MailMergeFinal
+  - SuperOffice.WebApi.Data.TaskType.Phone
+  - SuperOffice.WebApi.Data.TaskType.Report
+  - SuperOffice.WebApi.Data.TaskType.SaintAll
+  - SuperOffice.WebApi.Data.TaskType.ToDo
+  - SuperOffice.WebApi.Data.TaskType.Unknown
+  - SuperOffice.WebApi.Data.TaskType.value__
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: TaskType
+  fullName: SuperOffice.WebApi.Data.TaskType
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue for field &apos;record_type&apos; in table &apos;task&apos;. Controls icons used in GUI\nThis Enum is used by:  Task.record_type\n"
+  syntax:
+    content: 'public sealed class TaskType : Enum'
+    content.vb: >-
+      Public NotInheritable Class TaskType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TaskType.value__
+  commentId: F:SuperOffice.WebApi.Data.TaskType.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TaskType.value__
+  fullName: SuperOffice.WebApi.Data.TaskType.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TaskType.Unknown
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: TaskType.Unknown
+  fullName: SuperOffice.WebApi.Data.TaskType.Unknown
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: This task is of an unknown/undecided type\n"
+  syntax:
+    content: public const TaskType Unknown
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Unknown As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.Appointment
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Appointment
+  id: Appointment
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Appointment
+  nameWithType: TaskType.Appointment
+  fullName: SuperOffice.WebApi.Data.TaskType.Appointment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: The task is an appointment\n"
+  syntax:
+    content: public const TaskType Appointment
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Appointment As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.Document
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Document
+  id: Document
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: TaskType.Document
+  fullName: SuperOffice.WebApi.Data.TaskType.Document
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: The task is a document\n"
+  syntax:
+    content: public const TaskType Document
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Document As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.Email
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Email
+  id: Email
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: TaskType.Email
+  fullName: SuperOffice.WebApi.Data.TaskType.Email
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: The task is an email\n"
+  syntax:
+    content: public const TaskType Email
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Email As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.Fax
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Fax
+  id: Fax
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: TaskType.Fax
+  fullName: SuperOffice.WebApi.Data.TaskType.Fax
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: The task is a fax\n"
+  syntax:
+    content: public const TaskType Fax
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Fax As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.Phone
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Phone
+  id: Phone
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: TaskType.Phone
+  fullName: SuperOffice.WebApi.Data.TaskType.Phone
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: The task is a phone call\n"
+  syntax:
+    content: public const TaskType Phone
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Phone As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.ToDo
+  commentId: F:SuperOffice.WebApi.Data.TaskType.ToDo
+  id: ToDo
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: ToDo
+  nameWithType: TaskType.ToDo
+  fullName: SuperOffice.WebApi.Data.TaskType.ToDo
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n6: The task is a To-do\n"
+  syntax:
+    content: public const TaskType ToDo
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const ToDo As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.MailMergeDraft
+  commentId: F:SuperOffice.WebApi.Data.TaskType.MailMergeDraft
+  id: MailMergeDraft
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: MailMergeDraft
+  nameWithType: TaskType.MailMergeDraft
+  fullName: SuperOffice.WebApi.Data.TaskType.MailMergeDraft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n7: Mail merge draft document\n"
+  syntax:
+    content: public const TaskType MailMergeDraft
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const MailMergeDraft As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.MailMergeFinal
+  commentId: F:SuperOffice.WebApi.Data.TaskType.MailMergeFinal
+  id: MailMergeFinal
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: MailMergeFinal
+  nameWithType: TaskType.MailMergeFinal
+  fullName: SuperOffice.WebApi.Data.TaskType.MailMergeFinal
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n8: Merged result of mail merge\n"
+  syntax:
+    content: public const TaskType MailMergeFinal
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const MailMergeFinal As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.Report
+  commentId: F:SuperOffice.WebApi.Data.TaskType.Report
+  id: Report
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: Report
+  nameWithType: TaskType.Report
+  fullName: SuperOffice.WebApi.Data.TaskType.Report
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n9: Saved report run\n"
+  syntax:
+    content: public const TaskType Report
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const Report As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TaskType.SaintAll
+  commentId: F:SuperOffice.WebApi.Data.TaskType.SaintAll
+  id: SaintAll
+  parent: SuperOffice.WebApi.Data.TaskType
+  langs:
+  - csharp
+  - vb
+  name: SaintAll
+  nameWithType: TaskType.SaintAll
+  fullName: SuperOffice.WebApi.Data.TaskType.SaintAll
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n10: All&apos; choice for Saint, every activity is recorded under this type as well as the specific type. This is NOT an acceptable value for an individual activity\n"
+  syntax:
+    content: public const TaskType SaintAll
+    return:
+      type: SuperOffice.WebApi.Data.TaskType
+    content.vb: Public Const SaintAll As TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TaskType
+  commentId: T:SuperOffice.WebApi.Data.TaskType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TaskType
+  nameWithType: TaskType
+  fullName: SuperOffice.WebApi.Data.TaskType

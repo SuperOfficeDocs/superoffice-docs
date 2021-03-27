@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest
+  commentId: T:SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest
+  id: List_CreateDefaultHeadingFromListDefinitionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.#ctor
+  - SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  langs:
+  - csharp
+  - vb
+  name: List_CreateDefaultHeadingFromListDefinitionRequest
+  nameWithType: List_CreateDefaultHeadingFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class List_CreateDefaultHeadingFromListDefinitionRequest : Object'
+    content.vb: >-
+      Public Class List_CreateDefaultHeadingFromListDefinitionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: List_CreateDefaultHeadingFromListDefinitionRequest()
+  nameWithType: List_CreateDefaultHeadingFromListDefinitionRequest.List_CreateDefaultHeadingFromListDefinitionRequest()
+  fullName: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.List_CreateDefaultHeadingFromListDefinitionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public List_CreateDefaultHeadingFromListDefinitionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  id: UdListDefinitionId
+  parent: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest
+  langs:
+  - csharp
+  - vb
+  name: UdListDefinitionId
+  nameWithType: List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int UdListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UdListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.#ctor
+  isExternal: true
+  name: List_CreateDefaultHeadingFromListDefinitionRequest
+  nameWithType: List_CreateDefaultHeadingFromListDefinitionRequest.List_CreateDefaultHeadingFromListDefinitionRequest
+  fullName: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.List_CreateDefaultHeadingFromListDefinitionRequest
+- uid: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  isExternal: true
+  name: UdListDefinitionId
+  nameWithType: List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+  fullName: SuperOffice.WebApi.Data.List_CreateDefaultHeadingFromListDefinitionRequest.UdListDefinitionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

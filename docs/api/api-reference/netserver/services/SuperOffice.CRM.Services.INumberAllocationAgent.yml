@@ -1,0 +1,316 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent
+  commentId: T:SuperOffice.CRM.Services.INumberAllocationAgent
+  id: INumberAllocationAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  - SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  - SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  - SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: INumberAllocationAgent
+  nameWithType: INumberAllocationAgent
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the NumberAllocation Agent\nThis agent can be used to manage number allocation\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (NumberAllocationAgent agent = new NumberAllocationAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("NumberAllocation Agent", "Interface for the NumberAllocation Agent. This agent can be used to manage number allocation")]
+
+      public interface INumberAllocationAgent : IAgent
+    content.vb: >-
+      <Agent("NumberAllocation Agent", "Interface for the NumberAllocation Agent. This agent can be used to manage number allocation")>
+
+      Public Interface INumberAllocationAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: NumberAllocation Agent
+    - type: System.String
+      value: Interface for the NumberAllocation Agent. This agent can be used to manage number allocation
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  id: CreateDefaultRefCountEntity
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultRefCountEntity()
+  nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity()
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new RefCountEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: RefCountEntity CreateDefaultRefCountEntity()
+    return:
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: New RefCountEntity with default values
+    content.vb: Function CreateDefaultRefCountEntity As RefCountEntity
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity*
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  id: SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveRefCountEntity(RefCountEntity)
+  nameWithType: INumberAllocationAgent.SaveRefCountEntity(RefCountEntity)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity(SuperOffice.CRM.Services.RefCountEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty\n"
+  syntax:
+    content: RefCountEntity SaveRefCountEntity(RefCountEntity refCountEntity)
+    parameters:
+    - id: refCountEntity
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: The RefCountEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: New or updated RefCountEntity
+    content.vb: Function SaveRefCountEntity(refCountEntity As RefCountEntity) As RefCountEntity
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity*
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  id: DeleteRefCountEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteRefCountEntity(Int32)
+  nameWithType: INumberAllocationAgent.DeleteRefCountEntity(Int32)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the RefCountEntity\n"
+  syntax:
+    content: void DeleteRefCountEntity(int refCountEntityId)
+    parameters:
+    - id: refCountEntityId
+      type: System.Int32
+      description: The identity of the RefCountEntity
+    content.vb: Sub DeleteRefCountEntity(refCountEntityId As Integer)
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity*
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  id: GetRefCountEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRefCountEntity(Int32)
+  nameWithType: INumberAllocationAgent.GetRefCountEntity(Int32)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a RefCountEntity object.                        \n"
+  syntax:
+    content: RefCountEntity GetRefCountEntity(int refCountEntityId)
+    parameters:
+    - id: refCountEntityId
+      type: System.Int32
+      description: The identifier of the RefCountEntity object
+    return:
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: RefCountEntity
+    content.vb: Function GetRefCountEntity(refCountEntityId As Integer) As RefCountEntity
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity*
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  id: SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDefaultNumbering(RefCountEntity)
+  nameWithType: INumberAllocationAgent.SaveDefaultNumbering(RefCountEntity)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering(SuperOffice.CRM.Services.RefCountEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves default numbering values in preferences\n"
+  syntax:
+    content: void SaveDefaultNumbering(RefCountEntity refCountEntity)
+    parameters:
+    - id: refCountEntity
+      type: SuperOffice.CRM.Services.RefCountEntity
+      description: The refCountEntity that holds the values that will be saved
+    content.vb: Sub SaveDefaultNumbering(refCountEntity As RefCountEntity)
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering*
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  id: GetNumberEachTemplate
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNumberEachTemplate()
+  nameWithType: INumberAllocationAgent.GetNumberEachTemplate()
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns true or false if Automatically create new counters for new document templates\n"
+  syntax:
+    content: bool GetNumberEachTemplate()
+    return:
+      type: System.Boolean
+      description: Is NumberEachTemplate?
+    content.vb: Function GetNumberEachTemplate As Boolean
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate*
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  id: SetNumberEachTemplate(System.Boolean)
+  parent: SuperOffice.CRM.Services.INumberAllocationAgent
+  langs:
+  - csharp
+  - vb
+  name: SetNumberEachTemplate(Boolean)
+  nameWithType: INumberAllocationAgent.SetNumberEachTemplate(Boolean)
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves true or false if Automatically create new counters for new document templates\n"
+  syntax:
+    content: void SetNumberEachTemplate(bool setValue)
+    parameters:
+    - id: setValue
+      type: System.Boolean
+      description: true or false if Automatically create new counters for new document templates
+    content.vb: Sub SetNumberEachTemplate(setValue As Boolean)
+  overload: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+  isExternal: true
+  name: CreateDefaultRefCountEntity
+  nameWithType: INumberAllocationAgent.CreateDefaultRefCountEntity
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.CreateDefaultRefCountEntity
+- uid: SuperOffice.CRM.Services.RefCountEntity
+  commentId: T:SuperOffice.CRM.Services.RefCountEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: RefCountEntity
+  nameWithType: RefCountEntity
+  fullName: SuperOffice.CRM.Services.RefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity
+  isExternal: true
+  name: SaveRefCountEntity
+  nameWithType: INumberAllocationAgent.SaveRefCountEntity
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveRefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity
+  isExternal: true
+  name: DeleteRefCountEntity
+  nameWithType: INumberAllocationAgent.DeleteRefCountEntity
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity
+  isExternal: true
+  name: GetRefCountEntity
+  nameWithType: INumberAllocationAgent.GetRefCountEntity
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntity
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering
+  isExternal: true
+  name: SaveDefaultNumbering
+  nameWithType: INumberAllocationAgent.SaveDefaultNumbering
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SaveDefaultNumbering
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+  isExternal: true
+  name: GetNumberEachTemplate
+  nameWithType: INumberAllocationAgent.GetNumberEachTemplate
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.GetNumberEachTemplate
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate
+  isExternal: true
+  name: SetNumberEachTemplate
+  nameWithType: INumberAllocationAgent.SetNumberEachTemplate
+  fullName: SuperOffice.CRM.Services.INumberAllocationAgent.SetNumberEachTemplate

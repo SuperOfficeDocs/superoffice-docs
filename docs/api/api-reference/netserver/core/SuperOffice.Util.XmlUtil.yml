@@ -1,0 +1,1058 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.XmlUtil
+  commentId: T:SuperOffice.Util.XmlUtil
+  id: XmlUtil
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode)
+  - SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode,System.String)
+  - SuperOffice.Util.XmlUtil.GetValidXmlString(System.String)
+  - SuperOffice.Util.XmlUtil.InnerMerge(System.Xml.XmlNode,System.Xml.XmlNode)
+  - SuperOffice.Util.XmlUtil.Merge(System.Xml.XmlNode,System.Xml.XmlNode)
+  - SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String)
+  - SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String,System.String)
+  - SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode,System.Boolean,System.String[])
+  - SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute(System.Xml.XmlNode,System.String)
+  - SuperOffice.Util.XmlUtil.SafeRemoveAttribute(System.Xml.XmlNode,System.String)
+  - SuperOffice.Util.XmlUtil.SafeSetAttribute(System.Xml.XmlNode,System.String,System.String,SuperOffice.Util.XmlUtil.Override)
+  - SuperOffice.Util.XmlUtil.SafeSetChildNodeText(System.Xml.XmlNode,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: XmlUtil
+  nameWithType: XmlUtil
+  fullName: SuperOffice.Util.XmlUtil
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nThis class contains utility methods for manipulating Xml elements\n"
+  syntax:
+    content: public static class XmlUtil
+    content.vb: Public Module XmlUtil
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.XmlUtil.GetValidXmlString(System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.GetValidXmlString(System.String)
+  id: GetValidXmlString(System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: GetValidXmlString(String)
+  nameWithType: XmlUtil.GetValidXmlString(String)
+  fullName: SuperOffice.Util.XmlUtil.GetValidXmlString(System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet rid of characters WriteElementString does not handle\n"
+  syntax:
+    content: public static string GetValidXmlString(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text to verify
+    return:
+      type: System.String
+      description: Valid xml string
+    content.vb: Public Shared Function GetValidXmlString(text As String) As String
+  overload: SuperOffice.Util.XmlUtil.GetValidXmlString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.Merge(System.Xml.XmlNode,System.Xml.XmlNode)
+  commentId: M:SuperOffice.Util.XmlUtil.Merge(System.Xml.XmlNode,System.Xml.XmlNode)
+  id: Merge(System.Xml.XmlNode,System.Xml.XmlNode)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: Merge(XmlNode, XmlNode)
+  nameWithType: XmlUtil.Merge(XmlNode, XmlNode)
+  fullName: SuperOffice.Util.XmlUtil.Merge(System.Xml.XmlNode, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nMerge two XML trees\n"
+  remarks: "\nEquivalent nodes appear only once in the output. Two element nodes are treated equivalent if: their local names are equal, \ntheir namespace-uris are equal, and all their attributes are equal. Two text nodes are treated equal if their normalized \ncontent is equal. The same rule applies for comments and processing instructions.\n<p></p>\nSee http://www.informatik.hu-berlin.de/~obecker/XSLT/ for a more detailed explanation!\n"
+  syntax:
+    content: public static string Merge(XmlNode first, XmlNode second)
+    parameters:
+    - id: first
+      type: System.Xml.XmlNode
+      description: First XML tree
+    - id: second
+      type: System.Xml.XmlNode
+      description: Second XML tree
+    return:
+      type: System.String
+      description: Markup of result
+    content.vb: Public Shared Function Merge(first As XmlNode, second As XmlNode) As String
+  overload: SuperOffice.Util.XmlUtil.Merge*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.InnerMerge(System.Xml.XmlNode,System.Xml.XmlNode)
+  commentId: M:SuperOffice.Util.XmlUtil.InnerMerge(System.Xml.XmlNode,System.Xml.XmlNode)
+  id: InnerMerge(System.Xml.XmlNode,System.Xml.XmlNode)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: InnerMerge(XmlNode, XmlNode)
+  nameWithType: XmlUtil.InnerMerge(XmlNode, XmlNode)
+  fullName: SuperOffice.Util.XmlUtil.InnerMerge(System.Xml.XmlNode, System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nMerge the inner XML&apos;s of two XML trees, i.e., leave the outer element alone (it is assumed to match), and merge the inner parts.\n"
+  remarks: "\nSee the other Merge method for information on the merge process\n"
+  syntax:
+    content: public static string InnerMerge(XmlNode first, XmlNode second)
+    parameters:
+    - id: first
+      type: System.Xml.XmlNode
+      description: First XML tree
+    - id: second
+      type: System.Xml.XmlNode
+      description: Second XML tree
+    return:
+      type: System.String
+      description: Markup of result, which does NOT contain the outer parts of any of the input elements
+    content.vb: Public Shared Function InnerMerge(first As XmlNode, second As XmlNode) As String
+  overload: SuperOffice.Util.XmlUtil.InnerMerge*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String,System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String,System.String)
+  id: SafeGetAttribute(System.Xml.XmlNode,System.String,System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeGetAttribute(XmlNode, String, String)
+  nameWithType: XmlUtil.SafeGetAttribute(XmlNode, String, String)
+  fullName: SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet an attribute text value; return defaultValue if it does not exist or is empty. This method\ndoes not throw any exceptions\n"
+  syntax:
+    content: public static string SafeGetAttribute(XmlNode node, string attributeName, string defaultValue)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: Node to get from
+    - id: attributeName
+      type: System.String
+      description: Name of attribute
+    - id: defaultValue
+      type: System.String
+      description: The value to return if attribute does not exist or is empty.
+    return:
+      type: System.String
+      description: Value, or defaultValue
+    content.vb: Public Shared Function SafeGetAttribute(node As XmlNode, attributeName As String, defaultValue As String) As String
+  overload: SuperOffice.Util.XmlUtil.SafeGetAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode,System.String)
+  id: SafeGetAttribute(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeGetAttribute(XmlNode, String)
+  nameWithType: XmlUtil.SafeGetAttribute(XmlNode, String)
+  fullName: SuperOffice.Util.XmlUtil.SafeGetAttribute(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet an attribute text value; return string.Empty if it does not exist. This method\ndoes not throw any exceptions\n"
+  syntax:
+    content: public static string SafeGetAttribute(XmlNode node, string attributeName)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: Node to get from
+    - id: attributeName
+      type: System.String
+      description: Name of attribute
+    return:
+      type: System.String
+      description: Value, or empty string
+    content.vb: Public Shared Function SafeGetAttribute(node As XmlNode, attributeName As String) As String
+  overload: SuperOffice.Util.XmlUtil.SafeGetAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute(System.Xml.XmlNode,System.String)
+  id: SafeGetRequiredAttribute(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeGetRequiredAttribute(XmlNode, String)
+  nameWithType: XmlUtil.SafeGetRequiredAttribute(XmlNode, String)
+  fullName: SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet an attribute text value; throw an exception if it is empty\n"
+  syntax:
+    content: public static string SafeGetRequiredAttribute(XmlNode node, string attributeName)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: Node to get from
+    - id: attributeName
+      type: System.String
+      description: Name of attribute
+    return:
+      type: System.String
+      description: Value, or empty string
+    content.vb: Public Shared Function SafeGetRequiredAttribute(node As XmlNode, attributeName As String) As String
+  overload: SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute*
+  exceptions:
+  - type: SuperOffice.Exceptions.SoIllegalXmlException
+    commentId: T:SuperOffice.Exceptions.SoIllegalXmlException
+    description: "\nThrown if the attribute does not exist or has an empty value\n"
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeSetAttribute(System.Xml.XmlNode,System.String,System.String,SuperOffice.Util.XmlUtil.Override)
+  commentId: M:SuperOffice.Util.XmlUtil.SafeSetAttribute(System.Xml.XmlNode,System.String,System.String,SuperOffice.Util.XmlUtil.Override)
+  id: SafeSetAttribute(System.Xml.XmlNode,System.String,System.String,SuperOffice.Util.XmlUtil.Override)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeSetAttribute(XmlNode, String, String, XmlUtil.Override)
+  nameWithType: XmlUtil.SafeSetAttribute(XmlNode, String, String, XmlUtil.Override)
+  fullName: SuperOffice.Util.XmlUtil.SafeSetAttribute(System.Xml.XmlNode, System.String, System.String, SuperOffice.Util.XmlUtil.Override)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nSet an attribute value; create the attribute or overwrite its previous value as appropriate\n"
+  syntax:
+    content: public static void SafeSetAttribute(XmlNode node, string attrName, string attrValue, XmlUtil.Override overrideExisting)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: Node to modify
+    - id: attrName
+      type: System.String
+      description: Attribute name
+    - id: attrValue
+      type: System.String
+      description: Desired attribute value
+    - id: overrideExisting
+      type: SuperOffice.Util.XmlUtil.Override
+      description: Should an existing value be overwritten or not
+    content.vb: Public Shared Sub SafeSetAttribute(node As XmlNode, attrName As String, attrValue As String, overrideExisting As XmlUtil.Override)
+  overload: SuperOffice.Util.XmlUtil.SafeSetAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeRemoveAttribute(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.SafeRemoveAttribute(System.Xml.XmlNode,System.String)
+  id: SafeRemoveAttribute(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeRemoveAttribute(XmlNode, String)
+  nameWithType: XmlUtil.SafeRemoveAttribute(XmlNode, String)
+  fullName: SuperOffice.Util.XmlUtil.SafeRemoveAttribute(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRemove an attribute from a node, whether it exists or not ;-)\n"
+  syntax:
+    content: public static void SafeRemoveAttribute(XmlNode node, string attrName)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: Node to be modified
+    - id: attrName
+      type: System.String
+      description: Attribute to remove
+    content.vb: Public Shared Sub SafeRemoveAttribute(node As XmlNode, attrName As String)
+  overload: SuperOffice.Util.XmlUtil.SafeRemoveAttribute*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode,System.String)
+  id: GetNodeText(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: GetNodeText(XmlNode, String)
+  nameWithType: XmlUtil.GetNodeText(XmlNode, String)
+  fullName: SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the text that is inside one Xml element node\n"
+  syntax:
+    content: public static string GetNodeText(XmlNode node, string defaultValue)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: The node
+    - id: defaultValue
+      type: System.String
+      description: The string returned if the node is null
+    return:
+      type: System.String
+      description: Text, the default value will be returned if the node is null or does not contain an XmlText childnode
+    content.vb: Public Shared Function GetNodeText(node As XmlNode, defaultValue As String) As String
+  overload: SuperOffice.Util.XmlUtil.GetNodeText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode)
+  commentId: M:SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode)
+  id: GetNodeText(System.Xml.XmlNode)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: GetNodeText(XmlNode)
+  nameWithType: XmlUtil.GetNodeText(XmlNode)
+  fullName: SuperOffice.Util.XmlUtil.GetNodeText(System.Xml.XmlNode)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGet the text that is inside one Xml element node\n"
+  syntax:
+    content: public static string GetNodeText(XmlNode node)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: The node
+    return:
+      type: System.String
+      description: Text, null will be returned if the node does not contain an XmlText childnode
+    content.vb: Public Shared Function GetNodeText(node As XmlNode) As String
+  overload: SuperOffice.Util.XmlUtil.GetNodeText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeSetChildNodeText(System.Xml.XmlNode,System.String,System.String)
+  commentId: M:SuperOffice.Util.XmlUtil.SafeSetChildNodeText(System.Xml.XmlNode,System.String,System.String)
+  id: SafeSetChildNodeText(System.Xml.XmlNode,System.String,System.String)
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeSetChildNodeText(XmlNode, String, String)
+  nameWithType: XmlUtil.SafeSetChildNodeText(XmlNode, String, String)
+  fullName: SuperOffice.Util.XmlUtil.SafeSetChildNodeText(System.Xml.XmlNode, System.String, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nSet the text value of the named child node. The child node is created, as an element, if it does not exist.\nAny previous value is lost! - so don&apos;t use this on child nodes that contain other nodes.\n"
+  syntax:
+    content: public static XmlNode SafeSetChildNodeText(XmlNode parent, string childName, string childText)
+    parameters:
+    - id: parent
+      type: System.Xml.XmlNode
+      description: The parent node whose child is to be set
+    - id: childName
+      type: System.String
+      description: The name of the child node
+    - id: childText
+      type: System.String
+      description: The desired text value; null is acceptable and means &apos;do not create the inner text element&apos;.
+    return:
+      type: System.Xml.XmlNode
+      description: The child node
+    content.vb: Public Shared Function SafeSetChildNodeText(parent As XmlNode, childName As String, childText As String) As XmlNode
+  overload: SuperOffice.Util.XmlUtil.SafeSetChildNodeText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode,System.Boolean,System.String[])
+  commentId: M:SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode,System.Boolean,System.String[])
+  id: SafeGetAttributes(System.Xml.XmlNode,System.Boolean,System.String[])
+  parent: SuperOffice.Util.XmlUtil
+  langs:
+  - csharp
+  - vb
+  name: SafeGetAttributes(XmlNode, Boolean, String[])
+  nameWithType: XmlUtil.SafeGetAttributes(XmlNode, Boolean, String[])
+  fullName: SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode, System.Boolean, System.String[])
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nExtract a number of attributes from a node, and return them as a dictionary\n"
+  syntax:
+    content: public static Dictionary<string, string> SafeGetAttributes(XmlNode node, bool require, params string[] attributeNames)
+    parameters:
+    - id: node
+      type: System.Xml.XmlNode
+      description: Node to extract data from
+    - id: require
+      type: System.Boolean
+      description: >-
+        Require all attributes (exception if at least one is missing) - if false,
+
+        missing attributes will be returned as blank values instead
+    - id: attributeNames
+      type: System.String[]
+      description: Array of case-sensitive attribute names
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.String}
+      description: Dictionary containing one entry per requested attribute
+    content.vb: Public Shared Function SafeGetAttributes(node As XmlNode, require As Boolean, ParamArray attributeNames As String()) As Dictionary(Of String, String)
+  overload: SuperOffice.Util.XmlUtil.SafeGetAttributes*
+  nameWithType.vb: XmlUtil.SafeGetAttributes(XmlNode, Boolean, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.XmlUtil.SafeGetAttributes(System.Xml.XmlNode, System.Boolean, System.String())
+  name.vb: SafeGetAttributes(XmlNode, Boolean, String())
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.XmlUtil.GetValidXmlString*
+  commentId: Overload:SuperOffice.Util.XmlUtil.GetValidXmlString
+  isExternal: true
+  name: GetValidXmlString
+  nameWithType: XmlUtil.GetValidXmlString
+  fullName: SuperOffice.Util.XmlUtil.GetValidXmlString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Util.XmlUtil.Merge*
+  commentId: Overload:SuperOffice.Util.XmlUtil.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: XmlUtil.Merge
+  fullName: SuperOffice.Util.XmlUtil.Merge
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.Util.XmlUtil.InnerMerge*
+  commentId: Overload:SuperOffice.Util.XmlUtil.InnerMerge
+  isExternal: true
+  name: InnerMerge
+  nameWithType: XmlUtil.InnerMerge
+  fullName: SuperOffice.Util.XmlUtil.InnerMerge
+- uid: SuperOffice.Util.XmlUtil.SafeGetAttribute*
+  commentId: Overload:SuperOffice.Util.XmlUtil.SafeGetAttribute
+  isExternal: true
+  name: SafeGetAttribute
+  nameWithType: XmlUtil.SafeGetAttribute
+  fullName: SuperOffice.Util.XmlUtil.SafeGetAttribute
+- uid: SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute*
+  commentId: Overload:SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute
+  isExternal: true
+  name: SafeGetRequiredAttribute
+  nameWithType: XmlUtil.SafeGetRequiredAttribute
+  fullName: SuperOffice.Util.XmlUtil.SafeGetRequiredAttribute
+- uid: SuperOffice.Exceptions.SoIllegalXmlException
+  commentId: T:SuperOffice.Exceptions.SoIllegalXmlException
+  isExternal: true
+  name: SoIllegalXmlException
+  nameWithType: SoIllegalXmlException
+  fullName: SuperOffice.Exceptions.SoIllegalXmlException
+- uid: SuperOffice.Util.XmlUtil.SafeSetAttribute*
+  commentId: Overload:SuperOffice.Util.XmlUtil.SafeSetAttribute
+  isExternal: true
+  name: SafeSetAttribute
+  nameWithType: XmlUtil.SafeSetAttribute
+  fullName: SuperOffice.Util.XmlUtil.SafeSetAttribute
+- uid: SuperOffice.Util.XmlUtil.Override
+  commentId: T:SuperOffice.Util.XmlUtil.Override
+  parent: SuperOffice.Util
+  isExternal: true
+  name: XmlUtil.Override
+  nameWithType: XmlUtil.Override
+  fullName: SuperOffice.Util.XmlUtil.Override
+- uid: SuperOffice.Util.XmlUtil.SafeRemoveAttribute*
+  commentId: Overload:SuperOffice.Util.XmlUtil.SafeRemoveAttribute
+  isExternal: true
+  name: SafeRemoveAttribute
+  nameWithType: XmlUtil.SafeRemoveAttribute
+  fullName: SuperOffice.Util.XmlUtil.SafeRemoveAttribute
+- uid: SuperOffice.Util.XmlUtil.GetNodeText*
+  commentId: Overload:SuperOffice.Util.XmlUtil.GetNodeText
+  isExternal: true
+  name: GetNodeText
+  nameWithType: XmlUtil.GetNodeText
+  fullName: SuperOffice.Util.XmlUtil.GetNodeText
+- uid: SuperOffice.Util.XmlUtil.SafeSetChildNodeText*
+  commentId: Overload:SuperOffice.Util.XmlUtil.SafeSetChildNodeText
+  isExternal: true
+  name: SafeSetChildNodeText
+  nameWithType: XmlUtil.SafeSetChildNodeText
+  fullName: SuperOffice.Util.XmlUtil.SafeSetChildNodeText
+- uid: SuperOffice.Util.XmlUtil.SafeGetAttributes*
+  commentId: Overload:SuperOffice.Util.XmlUtil.SafeGetAttributes
+  isExternal: true
+  name: SafeGetAttributes
+  nameWithType: XmlUtil.SafeGetAttributes
+  fullName: SuperOffice.Util.XmlUtil.SafeGetAttributes
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.Dictionary{System.String,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, String>
+  nameWithType: Dictionary<String, String>
+  fullName: System.Collections.Generic.Dictionary<System.String, System.String>
+  nameWithType.vb: Dictionary(Of String, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, System.String)
+  name.vb: Dictionary(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

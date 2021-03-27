@@ -1,0 +1,679 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  id: ArchiveLinkInfoTypesFilter
+  parent: SuperOffice.DCF.Web.UI.Filters
+  children:
+  - SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.#ctor
+  - SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process(System.Xml.XmlDocument)
+  langs:
+  - csharp
+  - vb
+  name: ArchiveLinkInfoTypesFilter
+  nameWithType: ArchiveLinkInfoTypesFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters
+  syntax:
+    content: >-
+      [MergeFilterPlugin("linkinfos")]
+
+      public class ArchiveLinkInfoTypesFilter : MergeSubFilterBase, IMergeSubFilter, IMergeFilterPlugin, IPlugin
+    content.vb: >-
+      <MergeFilterPlugin("linkinfos")>
+
+      Public Class ArchiveLinkInfoTypesFilter
+          Inherits MergeSubFilterBase
+          Implements IMergeSubFilter, IMergeFilterPlugin, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  implements:
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  - SuperOffice.Factory.IPlugin
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode,System.String)
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode(System.Xml.XmlNode)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute
+    ctor: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeFilterPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: linkinfos
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process(System.Xml.XmlDocument)
+  id: Process(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  langs:
+  - csharp
+  - vb
+  name: Process(XmlDocument)
+  nameWithType: ArchiveLinkInfoTypesFilter.Process(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters
+  syntax:
+    content: public override void Process(XmlDocument xml)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+    content.vb: Public Overrides Sub Process(xml As XmlDocument)
+  overridden: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process(System.Xml.XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter
+  langs:
+  - csharp
+  - vb
+  name: ArchiveLinkInfoTypesFilter()
+  nameWithType: ArchiveLinkInfoTypesFilter.ArchiveLinkInfoTypesFilter()
+  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.ArchiveLinkInfoTypesFilter()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters
+  syntax:
+    content: public ArchiveLinkInfoTypesFilter()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Filters
+  commentId: N:SuperOffice.DCF.Web.UI.Filters
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Filters
+  nameWithType: SuperOffice.DCF.Web.UI.Filters
+  fullName: SuperOffice.DCF.Web.UI.Filters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: MergeSubFilterBase
+  nameWithType: MergeSubFilterBase
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: IMergeSubFilter
+  nameWithType: IMergeSubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: IMergeFilterPlugin
+  nameWithType: IMergeFilterPlugin
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeFilterPlugin
+- uid: SuperOffice.Factory.IPlugin
+  isExternal: true
+  name: IPlugin
+  nameWithType: IPlugin
+  fullName: SuperOffice.Factory.IPlugin
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  isExternal: true
+  name: InsertNode(XmlDocument, XmlNode)
+  nameWithType: MergeSubFilterBase.InsertNode(XmlDocument, XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument, System.Xml.XmlNode)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+    name: InsertNode
+    nameWithType: MergeSubFilterBase.InsertNode
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode)
+    name: InsertNode
+    nameWithType: MergeSubFilterBase.InsertNode
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  isExternal: true
+  name: InsertNode(XmlDocument, XmlNode, String)
+  nameWithType: MergeSubFilterBase.InsertNode(XmlDocument, XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument, System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode,System.String)
+    name: InsertNode
+    nameWithType: MergeSubFilterBase.InsertNode
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode(System.Xml.XmlDocument,System.Xml.XmlNode,System.String)
+    name: InsertNode
+    nameWithType: MergeSubFilterBase.InsertNode
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.InsertNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode(System.Xml.XmlNode)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode(System.Xml.XmlNode)
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  isExternal: true
+  name: GetXPathToNode(XmlNode)
+  nameWithType: MergeSubFilterBase.GetXPathToNode(XmlNode)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode(System.Xml.XmlNode)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode(System.Xml.XmlNode)
+    name: GetXPathToNode
+    nameWithType: MergeSubFilterBase.GetXPathToNode
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode(System.Xml.XmlNode)
+    name: GetXPathToNode
+    nameWithType: MergeSubFilterBase.GetXPathToNode
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.GetXPathToNode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  commentId: N:SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  nameWithType: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase
+  isExternal: true
+  name: Process(XmlDocument)
+  nameWithType: MergeSubFilterBase.Process(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process(System.Xml.XmlDocument)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process(System.Xml.XmlDocument)
+    name: Process
+    nameWithType: MergeSubFilterBase.Process
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process(System.Xml.XmlDocument)
+    name: Process
+    nameWithType: MergeSubFilterBase.Process
+    fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.MergeSubFilterBase.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlDocument
+    name: XmlDocument
+    nameWithType: XmlDocument
+    fullName: System.Xml.XmlDocument
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process
+  isExternal: true
+  name: Process
+  nameWithType: ArchiveLinkInfoTypesFilter.Process
+  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.Process
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument
+- uid: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.#ctor
+  isExternal: true
+  name: ArchiveLinkInfoTypesFilter
+  nameWithType: ArchiveLinkInfoTypesFilter.ArchiveLinkInfoTypesFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.ArchiveLinkInfoTypesFilter.ArchiveLinkInfoTypesFilter

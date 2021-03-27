@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Web.ServerEvent
+  commentId: N:SuperOffice.Web.ServerEvent
+  id: SuperOffice.Web.ServerEvent
+  children:
+  - SuperOffice.Web.ServerEvent.ServerEventController
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Web.ServerEvent
+  nameWithType: SuperOffice.Web.ServerEvent
+  fullName: SuperOffice.Web.ServerEvent
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Web.ServerEvent.ServerEventController
+  commentId: T:SuperOffice.Web.ServerEvent.ServerEventController
+  isExternal: true
+  name: ServerEventController
+  nameWithType: ServerEventController
+  fullName: SuperOffice.Web.ServerEvent.ServerEventController

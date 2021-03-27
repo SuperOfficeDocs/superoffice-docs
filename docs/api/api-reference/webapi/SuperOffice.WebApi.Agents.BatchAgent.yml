@@ -1,0 +1,1667 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.BatchAgent
+  commentId: T:SuperOffice.WebApi.Agents.BatchAgent
+  id: BatchAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.BatchAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.BatchAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: BatchAgent
+  nameWithType: BatchAgent
+  fullName: SuperOffice.WebApi.Agents.BatchAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStart, stop and monitor predefined batch tasks\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (BatchAgent agent = new BatchAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class BatchAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class BatchAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.BatchAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: BatchAgent(HttpClient)
+  nameWithType: BatchAgent.BatchAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.BatchAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Start, stop and monitor predefined batch tasks\n"
+  syntax:
+    content: public BatchAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.BatchAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: BatchAgent(WebApiOptions, HttpClient)
+  nameWithType: BatchAgent.BatchAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.BatchAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Start, stop and monitor predefined batch tasks\n"
+  syntax:
+    content: public BatchAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.BatchAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBatchTaskInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfoAsync(Int32, RequestOptions)
+  nameWithType: BatchAgent.GetBatchTaskInfoAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a single BatchTaskInfo based on Id.\n"
+  syntax:
+    content: public Task<BatchTaskInfo> GetBatchTaskInfoAsync(int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Id of the BatchTaskInfo to get.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
+      description: Returns a BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfoAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetBatchTaskInfosByAssociatesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfosByAssociatesAsync(Int32[], RequestOptions)
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s.\n"
+  syntax:
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByAssociatesAsync(int[] associateIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate id&apos;s.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
+      description: Returns an array of BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfosByAssociatesAsync(associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync*
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBatchTaskInfosByAssociatesAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  id: StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: StartBatchJobAsync(BatchTaskInfo, RequestOptions)
+  nameWithType: BatchAgent.StartBatchJobAsync(BatchTaskInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync(SuperOffice.WebApi.Data.BatchTaskInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStart a batch job based on BatchTaskInfo.\n"
+  syntax:
+    content: public Task<int> StartBatchJobAsync(BatchTaskInfo batchTaskInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.WebApi.Data.BatchTaskInfo
+      description: Use BatchTaskInfo to describe the new batch job.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32}
+      description: Returns the id of the created batch job.
+    content.vb: Public Function StartBatchJobAsync(batchTaskInfo As BatchTaskInfo, requestOptions As RequestOptions = Nothing) As Task(Of Integer)
+  overload: SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: StopBatchJobAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: StopBatchJobAsync(Int32, RequestOptions)
+  nameWithType: BatchAgent.StopBatchJobAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStop a batch job based on Id.\n"
+  syntax:
+    content: public Task<bool> StopBatchJobAsync(int id, RequestOptions requestOptions = null)
+    parameters:
+    - id: id
+      type: System.Int32
+      description: Id of the batch job to stop.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if the job was stopped successfully.
+    content.vb: Public Function StopBatchJobAsync(id As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  id: GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfosByStateAsync(BatchTaskState, RequestOptions)
+  nameWithType: BatchAgent.GetBatchTaskInfosByStateAsync(BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync(SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of BatchTaskInfo with state defined by a BatchTaskState.\n"
+  syntax:
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByStateAsync(BatchTaskState state, RequestOptions requestOptions = null)
+    parameters:
+    - id: state
+      type: SuperOffice.WebApi.Data.BatchTaskState
+      description: The BatchTaskState to get batch tasks for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
+      description: Returns an array of BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfosByStateAsync(state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  id: UpdateBatchTaskAsync(SuperOffice.WebApi.Data.BatchTaskInfo,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateBatchTaskAsync(BatchTaskInfo, RequestOptions)
+  nameWithType: BatchAgent.UpdateBatchTaskAsync(BatchTaskInfo, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync(SuperOffice.WebApi.Data.BatchTaskInfo, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdate information about a BatchTask. Only the following properties can be updated: State, Description, Response and Request.\n"
+  syntax:
+    content: public Task<BatchTaskInfo> UpdateBatchTaskAsync(BatchTaskInfo batchTaskInfo, RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskInfo
+      type: SuperOffice.WebApi.Data.BatchTaskInfo
+      description: The updated information to save.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
+      description: The updated BatchTaskInfo
+    content.vb: Public Function UpdateBatchTaskAsync(batchTaskInfo As BatchTaskInfo, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo)
+  overload: SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  id: GetBatchTaskInfosByNameAndStateAsync(System.String,SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndStateAsync(String, BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync(System.String, SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets an array of BatchTaskInfo with state defined by a BatchTaskState and the batchtask definition name.\n"
+  syntax:
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByNameAndStateAsync(string name, BatchTaskState state, RequestOptions requestOptions = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: Batchtask definition name.
+    - id: state
+      type: SuperOffice.WebApi.Data.BatchTaskState
+      description: The BatchTaskState to get batch tasks for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
+      description: Returns an array of BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfosByNameAndStateAsync(name As String, state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: GetBatchTaskInfosByNameAndAssociatesAsync(System.String,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32[], RequestOptions)
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task definition name.\n"
+  syntax:
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByNameAndAssociatesAsync(string name, int[] associateIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: Batchtask definition name.
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate id&apos;s.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
+      description: Returns an array of BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfosByNameAndAssociatesAsync(name As String, associateIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync*
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync(System.String, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBatchTaskInfosByNameAndAssociatesAsync(String, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  id: GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[],SuperOffice.WebApi.Data.BatchTaskState,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBatchTaskInfosByAssociatesAndStateAsync(Int32[], BatchTaskState, RequestOptions)
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Int32[], BatchTaskState, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32[], SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet an array of BatchTaskInfo for the provided associate id&apos;s and batch task state.\n"
+  syntax:
+    content: public Task<BatchTaskInfo[]> GetBatchTaskInfosByAssociatesAndStateAsync(int[] associateIds, BatchTaskState state, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: Array of associate id&apos;s.
+    - id: state
+      type: SuperOffice.WebApi.Data.BatchTaskState
+      description: The BatchTaskState to get batch tasks for.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
+      description: Returns an array of BatchTaskInfo.
+    content.vb: Public Function GetBatchTaskInfosByAssociatesAndStateAsync(associateIds As Integer(), state As BatchTaskState, requestOptions As RequestOptions = Nothing) As Task(Of BatchTaskInfo())
+  overload: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync*
+  nameWithType.vb: BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(Int32(), BatchTaskState, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync(System.Int32(), SuperOffice.WebApi.Data.BatchTaskState, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBatchTaskInfosByAssociatesAndStateAsync(Int32(), BatchTaskState, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: DeleteBatchTasksAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteBatchTasksAsync(Int32[], RequestOptions)
+  nameWithType: BatchAgent.DeleteBatchTasksAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete batch tasks from the database.\n"
+  syntax:
+    content: public Task DeleteBatchTasksAsync(int[] batchTaskIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskIds
+      type: System.Int32[]
+      description: Array of batchTask ids to delete.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteBatchTasksAsync(batchTaskIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync*
+  nameWithType.vb: BatchAgent.DeleteBatchTasksAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteBatchTasksAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteBatchTaskAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.BatchAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteBatchTaskAsync(Int32, RequestOptions)
+  nameWithType: BatchAgent.DeleteBatchTaskAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDelete a batch task from the database.\n"
+  syntax:
+    content: public Task DeleteBatchTaskAsync(int batchTaskId, RequestOptions requestOptions = null)
+    parameters:
+    - id: batchTaskId
+      type: System.Int32
+      description: The batchTask ids to delete.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteBatchTaskAsync(batchTaskId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.BatchAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.#ctor
+  isExternal: true
+  name: BatchAgent
+  nameWithType: BatchAgent.BatchAgent
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.BatchAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync
+  isExternal: true
+  name: GetBatchTaskInfoAsync
+  nameWithType: BatchAgent.GetBatchTaskInfoAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfoAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BatchTaskInfo>
+  nameWithType: Task<BatchTaskInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BatchTaskInfo>
+  nameWithType.vb: Task(Of BatchTaskInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.BatchTaskInfo)
+  name.vb: Task(Of BatchTaskInfo)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync
+  isExternal: true
+  name: GetBatchTaskInfosByAssociatesAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BatchTaskInfo[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<BatchTaskInfo[]>
+  nameWithType: Task<BatchTaskInfo[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BatchTaskInfo[]>
+  nameWithType.vb: Task(Of BatchTaskInfo())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.BatchTaskInfo())
+  name.vb: Task(Of BatchTaskInfo())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.BatchTaskInfo
+    name: BatchTaskInfo
+    nameWithType: BatchTaskInfo
+    fullName: SuperOffice.WebApi.Data.BatchTaskInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync
+  isExternal: true
+  name: StartBatchJobAsync
+  nameWithType: BatchAgent.StartBatchJobAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.StartBatchJobAsync
+- uid: SuperOffice.WebApi.Data.BatchTaskInfo
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BatchTaskInfo
+  nameWithType: BatchTaskInfo
+  fullName: SuperOffice.WebApi.Data.BatchTaskInfo
+- uid: System.Threading.Tasks.Task{System.Int32}
+  commentId: '!:System.Threading.Tasks.Task{System.Int32}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Int32>
+  nameWithType: Task<Int32>
+  fullName: System.Threading.Tasks.Task<System.Int32>
+  nameWithType.vb: Task(Of Int32)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Int32)
+  name.vb: Task(Of Int32)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync
+  isExternal: true
+  name: StopBatchJobAsync
+  nameWithType: BatchAgent.StopBatchJobAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.StopBatchJobAsync
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync
+  isExternal: true
+  name: GetBatchTaskInfosByStateAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByStateAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByStateAsync
+- uid: SuperOffice.WebApi.Data.BatchTaskState
+  commentId: T:SuperOffice.WebApi.Data.BatchTaskState
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: BatchTaskState
+  nameWithType: BatchTaskState
+  fullName: SuperOffice.WebApi.Data.BatchTaskState
+- uid: SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync
+  isExternal: true
+  name: UpdateBatchTaskAsync
+  nameWithType: BatchAgent.UpdateBatchTaskAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.UpdateBatchTaskAsync
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync
+  isExternal: true
+  name: GetBatchTaskInfosByNameAndStateAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndStateAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndStateAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
+  isExternal: true
+  name: GetBatchTaskInfosByNameAndAssociatesAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByNameAndAssociatesAsync
+- uid: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
+  isExternal: true
+  name: GetBatchTaskInfosByAssociatesAndStateAsync
+  nameWithType: BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.GetBatchTaskInfosByAssociatesAndStateAsync
+- uid: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync
+  isExternal: true
+  name: DeleteBatchTasksAsync
+  nameWithType: BatchAgent.DeleteBatchTasksAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTasksAsync
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync
+  isExternal: true
+  name: DeleteBatchTaskAsync
+  nameWithType: BatchAgent.DeleteBatchTaskAsync
+  fullName: SuperOffice.WebApi.Agents.BatchAgent.DeleteBatchTaskAsync

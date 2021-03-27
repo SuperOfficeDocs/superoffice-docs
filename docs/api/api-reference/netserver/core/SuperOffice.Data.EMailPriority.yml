@@ -1,0 +1,569 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EMailPriority
+  commentId: T:SuperOffice.Data.EMailPriority
+  id: EMailPriority
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EMailPriority.High
+  - SuperOffice.Data.EMailPriority.Highest
+  - SuperOffice.Data.EMailPriority.Low
+  - SuperOffice.Data.EMailPriority.Lowest
+  - SuperOffice.Data.EMailPriority.NoPriority
+  - SuperOffice.Data.EMailPriority.Normal
+  langs:
+  - csharp
+  - vb
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.Data.EMailPriority
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n\nThis Enum is used by:  email_item.priority\n"
+  syntax:
+    content: 'public enum EMailPriority : short'
+    content.vb: Public Enum EMailPriority As Short
+  extensionMethods:
+  - SuperOffice.Data.EMailPriority.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EMailPriority.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EMailPriority)
+  - SuperOffice.Data.EMailPriority.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.Data.EMailPriority.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.Data.EMailPriority.NoPriority
+  commentId: F:SuperOffice.Data.EMailPriority.NoPriority
+  id: NoPriority
+  parent: SuperOffice.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: NoPriority
+  nameWithType: EMailPriority.NoPriority
+  fullName: SuperOffice.Data.EMailPriority.NoPriority
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n0: \n"
+  syntax:
+    content: NoPriority = 0
+    return:
+      type: SuperOffice.Data.EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailPriority.Highest
+  commentId: F:SuperOffice.Data.EMailPriority.Highest
+  id: Highest
+  parent: SuperOffice.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Highest
+  nameWithType: EMailPriority.Highest
+  fullName: SuperOffice.Data.EMailPriority.Highest
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n1: \n"
+  syntax:
+    content: Highest = 1
+    return:
+      type: SuperOffice.Data.EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailPriority.High
+  commentId: F:SuperOffice.Data.EMailPriority.High
+  id: High
+  parent: SuperOffice.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: EMailPriority.High
+  fullName: SuperOffice.Data.EMailPriority.High
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n2: \n"
+  syntax:
+    content: High = 2
+    return:
+      type: SuperOffice.Data.EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailPriority.Normal
+  commentId: F:SuperOffice.Data.EMailPriority.Normal
+  id: Normal
+  parent: SuperOffice.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: EMailPriority.Normal
+  fullName: SuperOffice.Data.EMailPriority.Normal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n3: \n"
+  syntax:
+    content: Normal = 3
+    return:
+      type: SuperOffice.Data.EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailPriority.Low
+  commentId: F:SuperOffice.Data.EMailPriority.Low
+  id: Low
+  parent: SuperOffice.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: EMailPriority.Low
+  fullName: SuperOffice.Data.EMailPriority.Low
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n4: \n"
+  syntax:
+    content: Low = 4
+    return:
+      type: SuperOffice.Data.EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.EMailPriority.Lowest
+  commentId: F:SuperOffice.Data.EMailPriority.Lowest
+  id: Lowest
+  parent: SuperOffice.Data.EMailPriority
+  langs:
+  - csharp
+  - vb
+  name: Lowest
+  nameWithType: EMailPriority.Lowest
+  fullName: SuperOffice.Data.EMailPriority.Lowest
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\n5: \n"
+  syntax:
+    content: Lowest = 5
+    return:
+      type: SuperOffice.Data.EMailPriority
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.EMailPriority.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EMailPriority, To>()
+  nameWithType: EnumUtil.MapEnums<EMailPriority, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EMailPriority, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EMailPriority, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EMailPriority, To)()
+  name.vb: MapEnums(Of EMailPriority, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EMailPriority, To>
+    nameWithType: EnumUtil.MapEnums<EMailPriority, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.EMailPriority, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EMailPriority, To)
+    nameWithType: EnumUtil.MapEnums(Of EMailPriority, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.EMailPriority, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailPriority.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EMailPriority)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EMailPriority>(EMailPriority)
+  nameWithType: ObjectExtensions.AssignByReflection<EMailPriority>(EMailPriority)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EMailPriority>(SuperOffice.Data.EMailPriority)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EMailPriority)(EMailPriority)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EMailPriority)(SuperOffice.Data.EMailPriority)
+  name.vb: AssignByReflection(Of EMailPriority)(EMailPriority)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EMailPriority>
+    nameWithType: ObjectExtensions.AssignByReflection<EMailPriority>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EMailPriority>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EMailPriority
+    name: EMailPriority
+    nameWithType: EMailPriority
+    fullName: SuperOffice.Data.EMailPriority
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EMailPriority)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EMailPriority)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EMailPriority)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.EMailPriority
+    name: EMailPriority
+    nameWithType: EMailPriority
+    fullName: SuperOffice.Data.EMailPriority
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailPriority.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EMailPriority>()
+  nameWithType: ObjectExtensions.GraphCopy<EMailPriority>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EMailPriority>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EMailPriority)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EMailPriority)()
+  name.vb: GraphCopy(Of EMailPriority)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EMailPriority>
+    nameWithType: ObjectExtensions.GraphCopy<EMailPriority>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EMailPriority>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EMailPriority)
+    nameWithType: ObjectExtensions.GraphCopy(Of EMailPriority)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EMailPriority)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.EMailPriority.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EMailPriority, To>()
+  nameWithType: Converters.MapEnums<EMailPriority, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EMailPriority, To>()
+  nameWithType.vb: Converters.MapEnums(Of EMailPriority, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EMailPriority, To)()
+  name.vb: MapEnums(Of EMailPriority, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EMailPriority, To>
+    nameWithType: Converters.MapEnums<EMailPriority, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EMailPriority, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EMailPriority, To)
+    nameWithType: Converters.MapEnums(Of EMailPriority, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EMailPriority, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.EMailPriority
+  commentId: T:SuperOffice.Data.EMailPriority
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EMailPriority
+  nameWithType: EMailPriority
+  fullName: SuperOffice.Data.EMailPriority

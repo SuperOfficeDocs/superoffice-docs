@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController
+  commentId: T:SuperOffice.CRM.Web.Controllers.DocumentsController
+  id: DocumentsController
+  parent: SuperOffice.CRM.Web.Controllers
+  children:
+  - SuperOffice.CRM.Web.Controllers.DocumentsController.#ctor
+  - SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript(System.Int32,System.String,System.Boolean)
+  - SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText(System.String,System.Boolean,System.String)
+  - SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp(System.Int32)
+  - SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText(SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest)
+  langs:
+  - csharp
+  - vb
+  name: DocumentsController
+  nameWithType: DocumentsController
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: 'public class DocumentsController : ApiController'
+    content.vb: >-
+      Public Class DocumentsController
+          Inherits ApiController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp(System.Int32)
+  commentId: M:SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp(System.Int32)
+  id: OpenWithTrayApp(System.Int32)
+  parent: SuperOffice.CRM.Web.Controllers.DocumentsController
+  langs:
+  - csharp
+  - vb
+  name: OpenWithTrayApp(Int32)
+  nameWithType: DocumentsController.OpenWithTrayApp(Int32)
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public bool OpenWithTrayApp(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function OpenWithTrayApp(id As Integer) As Boolean
+  overload: SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText(System.String,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText(System.String,System.Boolean,System.String)
+  id: GetSanitizedTemplateText(System.String,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Web.Controllers.DocumentsController
+  langs:
+  - csharp
+  - vb
+  name: GetSanitizedTemplateText(String, Boolean, String)
+  nameWithType: DocumentsController.GetSanitizedTemplateText(String, Boolean, String)
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetSanitizedTemplateText(string templateName, bool allowPersonal, string uiCulture)
+    parameters:
+    - id: templateName
+      type: System.String
+    - id: allowPersonal
+      type: System.Boolean
+    - id: uiCulture
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function GetSanitizedTemplateText(templateName As String, allowPersonal As Boolean, uiCulture As String) As String
+  overload: SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText(SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest)
+  commentId: M:SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText(SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest)
+  id: SetTemplateText(SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest)
+  parent: SuperOffice.CRM.Web.Controllers.DocumentsController
+  langs:
+  - csharp
+  - vb
+  name: SetTemplateText(DocumentsController.SetTemplateTextRequest)
+  nameWithType: DocumentsController.SetTemplateText(DocumentsController.SetTemplateTextRequest)
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText(SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public void SetTemplateText(DocumentsController.SetTemplateTextRequest request)
+    parameters:
+    - id: request
+      type: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest
+    content.vb: Public Sub SetTemplateText(request As DocumentsController.SetTemplateTextRequest)
+  overload: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript(System.Int32,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript(System.Int32,System.String,System.Boolean)
+  id: GetOpenDocumentScript(System.Int32,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Web.Controllers.DocumentsController
+  langs:
+  - csharp
+  - vb
+  name: GetOpenDocumentScript(Int32, String, Boolean)
+  nameWithType: DocumentsController.GetOpenDocumentScript(Int32, String, Boolean)
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript(System.Int32, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public string GetOpenDocumentScript(int documentId, string archiveControlId, bool useSuperStateCopy)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    - id: archiveControlId
+      type: System.String
+    - id: useSuperStateCopy
+      type: System.Boolean
+    return:
+      type: System.String
+    content.vb: Public Function GetOpenDocumentScript(documentId As Integer, archiveControlId As String, useSuperStateCopy As Boolean) As String
+  overload: SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.#ctor
+  commentId: M:SuperOffice.CRM.Web.Controllers.DocumentsController.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Controllers.DocumentsController
+  langs:
+  - csharp
+  - vb
+  name: DocumentsController()
+  nameWithType: DocumentsController.DocumentsController()
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.DocumentsController()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Controllers
+  syntax:
+    content: public DocumentsController()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Controllers.DocumentsController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Controllers
+  commentId: N:SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: SuperOffice.CRM.Web.Controllers
+  nameWithType: SuperOffice.CRM.Web.Controllers
+  fullName: SuperOffice.CRM.Web.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp
+  isExternal: true
+  name: OpenWithTrayApp
+  nameWithType: DocumentsController.OpenWithTrayApp
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.OpenWithTrayApp
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText
+  isExternal: true
+  name: GetSanitizedTemplateText
+  nameWithType: DocumentsController.GetSanitizedTemplateText
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.GetSanitizedTemplateText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText
+  isExternal: true
+  name: SetTemplateText
+  nameWithType: DocumentsController.SetTemplateText
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateText
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest
+  commentId: T:SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest
+  parent: SuperOffice.CRM.Web.Controllers
+  isExternal: true
+  name: DocumentsController.SetTemplateTextRequest
+  nameWithType: DocumentsController.SetTemplateTextRequest
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.SetTemplateTextRequest
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript
+  isExternal: true
+  name: GetOpenDocumentScript
+  nameWithType: DocumentsController.GetOpenDocumentScript
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.GetOpenDocumentScript
+- uid: SuperOffice.CRM.Web.Controllers.DocumentsController.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Controllers.DocumentsController.#ctor
+  isExternal: true
+  name: DocumentsController
+  nameWithType: DocumentsController.DocumentsController
+  fullName: SuperOffice.CRM.Web.Controllers.DocumentsController.DocumentsController

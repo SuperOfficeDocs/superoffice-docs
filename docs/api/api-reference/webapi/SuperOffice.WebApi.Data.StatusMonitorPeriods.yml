@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods
+  commentId: T:SuperOffice.WebApi.Data.StatusMonitorPeriods
+  id: StatusMonitorPeriods
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.StatusMonitorPeriods.#ctor
+  - SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1
+  - SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2
+  - SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorPeriods
+  nameWithType: StatusMonitorPeriods
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for StatusMonitorPeriods.\nObsolete, use SaintConfiguration carrier and methods instead. Was:Definition of the three perionds for status monitors    \n"
+  syntax:
+    content: 'public class StatusMonitorPeriods : Carrier'
+    content.vb: >-
+      Public Class StatusMonitorPeriods
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.SaintAgent
+    commentId: T:SuperOffice.WebApi.Agents.SaintAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.#ctor
+  commentId: M:SuperOffice.WebApi.Data.StatusMonitorPeriods.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.StatusMonitorPeriods
+  langs:
+  - csharp
+  - vb
+  name: StatusMonitorPeriods()
+  nameWithType: StatusMonitorPeriods.StatusMonitorPeriods()
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.StatusMonitorPeriods()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public StatusMonitorPeriods()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.StatusMonitorPeriods.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1
+  id: Period1
+  parent: SuperOffice.WebApi.Data.StatusMonitorPeriods
+  langs:
+  - csharp
+  - vb
+  name: Period1
+  nameWithType: StatusMonitorPeriods.Period1
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDays in the first period\n"
+  syntax:
+    content: public virtual int Period1 { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Period1 As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2
+  id: Period2
+  parent: SuperOffice.WebApi.Data.StatusMonitorPeriods
+  langs:
+  - csharp
+  - vb
+  name: Period2
+  nameWithType: StatusMonitorPeriods.Period2
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDays in the second period\n"
+  syntax:
+    content: public virtual int Period2 { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Period2 As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3
+  commentId: P:SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3
+  id: Period3
+  parent: SuperOffice.WebApi.Data.StatusMonitorPeriods
+  langs:
+  - csharp
+  - vb
+  name: Period3
+  nameWithType: StatusMonitorPeriods.Period3
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDays in the third period\n"
+  syntax:
+    content: public virtual int Period3 { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Period3 As Integer
+  overload: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.SaintAgent
+  commentId: T:SuperOffice.WebApi.Agents.SaintAgent
+  isExternal: true
+  name: SaintAgent
+  nameWithType: SaintAgent
+  fullName: SuperOffice.WebApi.Agents.SaintAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitorPeriods.#ctor
+  isExternal: true
+  name: StatusMonitorPeriods
+  nameWithType: StatusMonitorPeriods.StatusMonitorPeriods
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.StatusMonitorPeriods
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1
+  isExternal: true
+  name: Period1
+  nameWithType: StatusMonitorPeriods.Period1
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period1
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2
+  isExternal: true
+  name: Period2
+  nameWithType: StatusMonitorPeriods.Period2
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period2
+- uid: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3*
+  commentId: Overload:SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3
+  isExternal: true
+  name: Period3
+  nameWithType: StatusMonitorPeriods.Period3
+  fullName: SuperOffice.WebApi.Data.StatusMonitorPeriods.Period3

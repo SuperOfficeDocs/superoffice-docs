@@ -1,0 +1,495 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.IFormattedField
+  commentId: T:SuperOffice.CRM.Globalization.IFormattedField
+  id: IFormattedField
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  - SuperOffice.CRM.Globalization.IFormattedField.Flags
+  - SuperOffice.CRM.Globalization.IFormattedField.Label
+  - SuperOffice.CRM.Globalization.IFormattedField.Name
+  - SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  - SuperOffice.CRM.Globalization.IFormattedField.Value
+  - SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  langs:
+  - csharp
+  - vb
+  name: IFormattedField
+  nameWithType: IFormattedField
+  fullName: SuperOffice.CRM.Globalization.IFormattedField
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nFormattedField interface\n"
+  syntax:
+    content: public interface IFormattedField
+    content.vb: Public Interface IFormattedField
+  extensionMethods:
+  - SuperOffice.CRM.Globalization.IFormattedField.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Globalization.IFormattedField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Name
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Name
+  id: Name
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IFormattedField.Name
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Name
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nName of the value field\n"
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: SuperOffice.CRM.Globalization.IFormattedField.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Value
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Value
+  id: Value
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: IFormattedField.Value
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Value
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThe field&apos;s value\n"
+  syntax:
+    content: string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Value As String
+  overload: SuperOffice.CRM.Globalization.IFormattedField.Value*
+  modifiers.csharp:
+  - get
+  - set
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: IFormattedField.Tooltip
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThe tooltip\n"
+  syntax:
+    content: string Tooltip { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Tooltip As String
+  overload: SuperOffice.CRM.Globalization.IFormattedField.Tooltip*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Label
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Label
+  id: Label
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: IFormattedField.Label
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Label
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nThe label of the field\n"
+  syntax:
+    content: string Label { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Label As String
+  overload: SuperOffice.CRM.Globalization.IFormattedField.Label*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  id: ValueLength
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: ValueLength
+  nameWithType: IFormattedField.ValueLength
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nDatabase length of the value\n"
+  syntax:
+    content: int ValueLength { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: ReadOnly Property ValueLength As Integer
+  overload: SuperOffice.CRM.Globalization.IFormattedField.ValueLength*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  id: AddressType
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: AddressType
+  nameWithType: IFormattedField.AddressType
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  syntax:
+    content: AddressType AddressType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AddressType
+    content.vb: ReadOnly Property AddressType As AddressType
+  overload: SuperOffice.CRM.Globalization.IFormattedField.AddressType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Flags
+  commentId: P:SuperOffice.CRM.Globalization.IFormattedField.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Globalization.IFormattedField
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IFormattedField.Flags
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Flags
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\n\n"
+  syntax:
+    content: FormattedFieldFlags Flags { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Globalization.FormattedFieldFlags
+    content.vb: ReadOnly Property Flags As FormattedFieldFlags
+  overload: SuperOffice.CRM.Globalization.IFormattedField.Flags*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: SuperOffice.CRM.Globalization.IFormattedField.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IFormattedField, To>()
+  nameWithType: EnumUtil.MapEnums<IFormattedField, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.IFormattedField, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IFormattedField, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.IFormattedField, To)()
+  name.vb: MapEnums(Of IFormattedField, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IFormattedField, To>
+    nameWithType: EnumUtil.MapEnums<IFormattedField, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Globalization.IFormattedField, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IFormattedField, To)
+    nameWithType: EnumUtil.MapEnums(Of IFormattedField, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Globalization.IFormattedField, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Globalization.IFormattedField.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IFormattedField, To>()
+  nameWithType: Converters.MapEnums<IFormattedField, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.IFormattedField, To>()
+  nameWithType.vb: Converters.MapEnums(Of IFormattedField, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.IFormattedField, To)()
+  name.vb: MapEnums(Of IFormattedField, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IFormattedField, To>
+    nameWithType: Converters.MapEnums<IFormattedField, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Globalization.IFormattedField, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IFormattedField, To)
+    nameWithType: Converters.MapEnums(Of IFormattedField, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Globalization.IFormattedField, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Name*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.Name
+  isExternal: true
+  name: Name
+  nameWithType: IFormattedField.Name
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Value*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.Value
+  isExternal: true
+  name: Value
+  nameWithType: IFormattedField.Value
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Value
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Tooltip*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: IFormattedField.Tooltip
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Tooltip
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Label*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.Label
+  isExternal: true
+  name: Label
+  nameWithType: IFormattedField.Label
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Label
+- uid: SuperOffice.CRM.Globalization.IFormattedField.ValueLength*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+  isExternal: true
+  name: ValueLength
+  nameWithType: IFormattedField.ValueLength
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.ValueLength
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Globalization.IFormattedField.AddressType*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.AddressType
+  isExternal: true
+  name: AddressType
+  nameWithType: IFormattedField.AddressType
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.AddressType
+- uid: SuperOffice.Data.AddressType
+  commentId: T:SuperOffice.Data.AddressType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AddressType
+  nameWithType: AddressType
+  fullName: SuperOffice.Data.AddressType
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Globalization.IFormattedField.Flags*
+  commentId: Overload:SuperOffice.CRM.Globalization.IFormattedField.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: IFormattedField.Flags
+  fullName: SuperOffice.CRM.Globalization.IFormattedField.Flags
+- uid: SuperOffice.CRM.Globalization.FormattedFieldFlags
+  commentId: T:SuperOffice.CRM.Globalization.FormattedFieldFlags
+  parent: SuperOffice.CRM.Globalization
+  isExternal: true
+  name: FormattedFieldFlags
+  nameWithType: FormattedFieldFlags
+  fullName: SuperOffice.CRM.Globalization.FormattedFieldFlags

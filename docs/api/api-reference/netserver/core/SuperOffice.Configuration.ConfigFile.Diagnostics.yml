@@ -1,0 +1,1570 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics
+  commentId: T:SuperOffice.Configuration.ConfigFile.Diagnostics
+  id: ConfigFile.Diagnostics
+  parent: SuperOffice.Configuration
+  children:
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
+  - SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
+  langs:
+  - csharp
+  - vb
+  name: ConfigFile.Diagnostics
+  nameWithType: ConfigFile.Diagnostics
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nConfiguration of diagnostic tools\n"
+  syntax:
+    content: public static class Diagnostics
+    content.vb: Public Module Diagnostics
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
+  id: LogError
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogError
+  nameWithType: ConfigFile.Diagnostics.LogError
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog errors (default &apos;True&apos;).\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: public static bool LogError { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogError As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogError*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
+  id: LogWarning
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogWarning
+  nameWithType: ConfigFile.Diagnostics.LogWarning
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog warnings (default &apos;False&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: public static bool LogWarning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogWarning As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
+  id: LogWarningFrom
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogWarningFrom
+  nameWithType: ConfigFile.Diagnostics.LogWarningFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of namespaces/types to log warnings from; default blank means all, otherwise comma-separated list of type or namespace names to log from. e.g.: &apos;SuperOffice.CRM.Services,ContactRow,DefaultWebhookPlugin&apos; \n"
+  remarks: "\nType and namespace names are not case sensitive.\n"
+  syntax:
+    content: public static string LogWarningFrom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LogWarningFrom As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
+  id: LogInformation
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogInformation
+  nameWithType: ConfigFile.Diagnostics.LogInformation
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog general information. This includes successful SQL&apos;s passed to the database. Only permit this option while debugging a bug.  This will be a severe performance hit! (default &apos;False&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: public static bool LogInformation { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogInformation As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+  id: LogInformationFrom
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogInformationFrom
+  nameWithType: ConfigFile.Diagnostics.LogInformationFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of namespaces/types to log information from; default blank means all, otherwise comma-separated list of type or namespace names to log from. e.g.: &apos;SuperOffice.CRM.Services,ContactRow,WebhookDispatcher&apos; \n"
+  remarks: "\nType and namespace names are not case sensitive.\n"
+  syntax:
+    content: public static string LogInformationFrom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LogInformationFrom As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
+  id: LogFailureAudit
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogFailureAudit
+  nameWithType: ConfigFile.Diagnostics.LogFailureAudit
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog failed authentications (default &apos;True&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: public static bool LogFailureAudit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogFailureAudit As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
+  id: LogSuccessAudit
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogSuccessAudit
+  nameWithType: ConfigFile.Diagnostics.LogSuccessAudit
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog successful authentications (default &apos;False&apos;)\n"
+  remarks: "\nInformation in this category will not be logged to SuperOffice Research and Product Development\n"
+  syntax:
+    content: public static bool LogSuccessAudit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogSuccessAudit As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
+  id: LogToEventLog
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogToEventLog
+  nameWithType: ConfigFile.Diagnostics.LogToEventLog
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog to the OS event log (default &apos;True&apos;)\n"
+  remarks: "\nThis is currently not supported\n"
+  syntax:
+    content: public static bool LogToEventLog { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogToEventLog As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
+  id: LogToFile
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogToFile
+  nameWithType: ConfigFile.Diagnostics.LogToFile
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog to a LogFile (default &apos;False&apos;)\n"
+  syntax:
+    content: public static bool LogToFile { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogToFile As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+  id: LogToTrace
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogToTrace
+  nameWithType: ConfigFile.Diagnostics.LogToTrace
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog to a Trace that can be listened to by <xref href=\"System.Diagnostics.TraceListener\" data-throw-if-not-resolved=\"false\"></xref>. (default &apos;False&apos;)\n"
+  syntax:
+    content: public static bool LogToTrace { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogToTrace As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
+  id: LogFolder
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogFolder
+  nameWithType: ConfigFile.Diagnostics.LogFolder
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFolder (e.g. UNC path) where the logfile is to reside.  Note that the owner of the process needs to have access to manipulate files in this folder. The Documents/Impersonation settings apply!\n"
+  syntax:
+    content: public static string LogFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LogFolder As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
+  id: EnableScaffolding
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: EnableScaffolding
+  nameWithType: ConfigFile.Diagnostics.EnableScaffolding
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nWhen this option is enabled, extra logging is performed. It is strongly recommended to have this option enabled during development and testing.\n"
+  remarks: "\nHuge log files are generated when this option is enabled!\n"
+  syntax:
+    content: public static bool EnableScaffolding { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableScaffolding As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
+  id: LogLongQueries
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogLongQueries
+  nameWithType: ConfigFile.Diagnostics.LogLongQueries
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould long-running queries be logged in textual form to a special file?  default false\n"
+  syntax:
+    content: public static bool LogLongQueries { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogLongQueries As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  id: LogLongQueriesToPlugins
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogLongQueriesToPlugins
+  nameWithType: ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould long-running queries be logged to SoLoggerPlugins?  default false\n"
+  syntax:
+    content: public static bool LogLongQueriesToPlugins { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogLongQueriesToPlugins As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+  id: LongQueryThreshold
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LongQueryThreshold
+  nameWithType: ConfigFile.Diagnostics.LongQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database, until the first row (for a select) or the &apos;nn rows affected&apos; return value is received.\n"
+  syntax:
+    content: public static int LongQueryThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property LongQueryThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
+  id: LongNonQueryThreshold
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LongNonQueryThreshold
+  nameWithType: ConfigFile.Diagnostics.LongNonQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold for logging a long-running query, in milliseconds. Queries that execute in less than this time are not logged as long-running. The time is from the moment the SQL text is sent to the database, until the first row (for a select) or the &apos;nn rows affected&apos; return value is received.\n"
+  syntax:
+    content: public static int LongNonQueryThreshold { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property LongNonQueryThreshold As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
+  id: LongQueryRows
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LongQueryRows
+  nameWithType: ConfigFile.Diagnostics.LongQueryRows
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nThreshold for logging a long-running query, in rows. Queries that affects more than this number of rows are logged as long-running.\n"
+  syntax:
+    content: public static int LongQueryRows { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared Property LongQueryRows As Integer
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
+  id: LogLongQueriesAsXML
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogLongQueriesAsXML
+  nameWithType: ConfigFile.Diagnostics.LogLongQueriesAsXML
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould long-running queries be logged to a special file (Query_year.month.day.log) in XML serialized format, for later analysis and reruns using the QueryWorkbench tool\n"
+  syntax:
+    content: public static bool LogLongQueriesAsXML { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogLongQueriesAsXML As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+  id: EnableStackTracing
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: EnableStackTracing
+  nameWithType: ConfigFile.Diagnostics.EnableStackTracing
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould stack traces be collected by various events\n"
+  syntax:
+    content: public static bool EnableStackTracing { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableStackTracing As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+  id: CheckBrowserVersion
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: CheckBrowserVersion
+  nameWithType: ConfigFile.Diagnostics.CheckBrowserVersion
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould browser version information be sent back to SuperOffice for compatibility verification?\n"
+  syntax:
+    content: public static bool CheckBrowserVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property CheckBrowserVersion As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
+  id: LogServiceCalls
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogServiceCalls
+  nameWithType: ConfigFile.Diagnostics.LogServiceCalls
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nShould calls to the service layer be logged\n"
+  syntax:
+    content: public static bool LogServiceCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogServiceCalls As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
+  id: LoggedServices
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LoggedServices
+  nameWithType: ConfigFile.Diagnostics.LoggedServices
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nList of services to be logged; default blank means all, otherwise comma-separated list of service names (without the Agent suffix, for instance: BLOB, Appointment)\n"
+  syntax:
+    content: public static string LoggedServices { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LoggedServices As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
+  id: LogMail
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogMail
+  nameWithType: ConfigFile.Diagnostics.LogMail
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog mail server communication\n"
+  syntax:
+    content: public static bool LogMail { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogMail As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
+  id: LogMailFolder
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogMailFolder
+  nameWithType: ConfigFile.Diagnostics.LogMailFolder
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nFolder to use for mail logging\n"
+  syntax:
+    content: public static string LogMailFolder { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property LogMailFolder As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
+  id: LogTimes
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogTimes
+  nameWithType: ConfigFile.Diagnostics.LogTimes
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nLog times to file.\n"
+  syntax:
+    content: public static bool LogTimes { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogTimes As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
+  id: LogEventRecorder
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: LogEventRecorder
+  nameWithType: ConfigFile.Diagnostics.LogEventRecorder
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nInclude a snapshot of the event recorder in all log entries\n"
+  syntax:
+    content: public static bool LogEventRecorder { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property LogEventRecorder As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
+  id: EnableResourceTracer
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: EnableResourceTracer
+  nameWithType: ConfigFile.Diagnostics.EnableResourceTracer
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nEnable tracing of resource usage pr. opartation to trace.\n"
+  syntax:
+    content: public static bool EnableResourceTracer { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Property EnableResourceTracer As Boolean
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
+  id: UsageStatUrl
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: UsageStatUrl
+  nameWithType: ConfigFile.Diagnostics.UsageStatUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCollection url for reporting Usage Statistics\n"
+  syntax:
+    content: public static string UsageStatUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property UsageStatUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
+  id: UserSyncUrl
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: UserSyncUrl
+  nameWithType: ConfigFile.Diagnostics.UserSyncUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nCollection url for sync&apos;ing user information\n"
+  syntax:
+    content: public static string UserSyncUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property UserSyncUrl As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  id: AppInsightInstrumentationKey
+  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
+  langs:
+  - csharp
+  - vb
+  name: AppInsightInstrumentationKey
+  nameWithType: ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Configuration
+  summary: "\nIdentifier of resource that you want to associate your telemetry data with\n"
+  syntax:
+    content: public static string AppInsightInstrumentationKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared Property AppInsightInstrumentationKey As String
+  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogError*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
+  isExternal: true
+  name: LogError
+  nameWithType: ConfigFile.Diagnostics.LogError
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogError
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
+  isExternal: true
+  name: LogWarning
+  nameWithType: ConfigFile.Diagnostics.LogWarning
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarning
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
+  isExternal: true
+  name: LogWarningFrom
+  nameWithType: ConfigFile.Diagnostics.LogWarningFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogWarningFrom
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
+  isExternal: true
+  name: LogInformation
+  nameWithType: ConfigFile.Diagnostics.LogInformation
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformation
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+  isExternal: true
+  name: LogInformationFrom
+  nameWithType: ConfigFile.Diagnostics.LogInformationFrom
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogInformationFrom
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
+  isExternal: true
+  name: LogFailureAudit
+  nameWithType: ConfigFile.Diagnostics.LogFailureAudit
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
+  isExternal: true
+  name: LogSuccessAudit
+  nameWithType: ConfigFile.Diagnostics.LogSuccessAudit
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogSuccessAudit
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
+  isExternal: true
+  name: LogToEventLog
+  nameWithType: ConfigFile.Diagnostics.LogToEventLog
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToEventLog
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
+  isExternal: true
+  name: LogToFile
+  nameWithType: ConfigFile.Diagnostics.LogToFile
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToFile
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+  isExternal: true
+  name: LogToTrace
+  nameWithType: ConfigFile.Diagnostics.LogToTrace
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogToTrace
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
+  isExternal: true
+  name: LogFolder
+  nameWithType: ConfigFile.Diagnostics.LogFolder
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
+  isExternal: true
+  name: EnableScaffolding
+  nameWithType: ConfigFile.Diagnostics.EnableScaffolding
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
+  isExternal: true
+  name: LogLongQueries
+  nameWithType: ConfigFile.Diagnostics.LogLongQueries
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  isExternal: true
+  name: LogLongQueriesToPlugins
+  nameWithType: ConfigFile.Diagnostics.LogLongQueriesToPlugins
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesToPlugins
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+  isExternal: true
+  name: LongQueryThreshold
+  nameWithType: ConfigFile.Diagnostics.LongQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryThreshold
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
+  isExternal: true
+  name: LongNonQueryThreshold
+  nameWithType: ConfigFile.Diagnostics.LongNonQueryThreshold
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongNonQueryThreshold
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
+  isExternal: true
+  name: LongQueryRows
+  nameWithType: ConfigFile.Diagnostics.LongQueryRows
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LongQueryRows
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
+  isExternal: true
+  name: LogLongQueriesAsXML
+  nameWithType: ConfigFile.Diagnostics.LogLongQueriesAsXML
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueriesAsXML
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+  isExternal: true
+  name: EnableStackTracing
+  nameWithType: ConfigFile.Diagnostics.EnableStackTracing
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+  isExternal: true
+  name: CheckBrowserVersion
+  nameWithType: ConfigFile.Diagnostics.CheckBrowserVersion
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.CheckBrowserVersion
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
+  isExternal: true
+  name: LogServiceCalls
+  nameWithType: ConfigFile.Diagnostics.LogServiceCalls
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogServiceCalls
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
+  isExternal: true
+  name: LoggedServices
+  nameWithType: ConfigFile.Diagnostics.LoggedServices
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LoggedServices
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
+  isExternal: true
+  name: LogMail
+  nameWithType: ConfigFile.Diagnostics.LogMail
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMail
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
+  isExternal: true
+  name: LogMailFolder
+  nameWithType: ConfigFile.Diagnostics.LogMailFolder
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogMailFolder
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
+  isExternal: true
+  name: LogTimes
+  nameWithType: ConfigFile.Diagnostics.LogTimes
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
+  isExternal: true
+  name: LogEventRecorder
+  nameWithType: ConfigFile.Diagnostics.LogEventRecorder
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
+  isExternal: true
+  name: EnableResourceTracer
+  nameWithType: ConfigFile.Diagnostics.EnableResourceTracer
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
+  isExternal: true
+  name: UsageStatUrl
+  nameWithType: ConfigFile.Diagnostics.UsageStatUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.UsageStatUrl
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
+  isExternal: true
+  name: UserSyncUrl
+  nameWithType: ConfigFile.Diagnostics.UserSyncUrl
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.UserSyncUrl
+- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  isExternal: true
+  name: AppInsightInstrumentationKey
+  nameWithType: ConfigFile.Diagnostics.AppInsightInstrumentationKey
+  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.AppInsightInstrumentationKey

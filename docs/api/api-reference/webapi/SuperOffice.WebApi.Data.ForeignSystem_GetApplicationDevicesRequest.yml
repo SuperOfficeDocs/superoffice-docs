@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest
+  commentId: T:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest
+  id: ForeignSystem_GetApplicationDevicesRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.#ctor
+  - SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_GetApplicationDevicesRequest
+  nameWithType: ForeignSystem_GetApplicationDevicesRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class ForeignSystem_GetApplicationDevicesRequest : Object'
+    content.vb: >-
+      Public Class ForeignSystem_GetApplicationDevicesRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest
+  langs:
+  - csharp
+  - vb
+  name: ForeignSystem_GetApplicationDevicesRequest()
+  nameWithType: ForeignSystem_GetApplicationDevicesRequest.ForeignSystem_GetApplicationDevicesRequest()
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ForeignSystem_GetApplicationDevicesRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ForeignSystem_GetApplicationDevicesRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  commentId: P:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  id: ApplicationName
+  parent: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest
+  langs:
+  - csharp
+  - vb
+  name: ApplicationName
+  nameWithType: ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string ApplicationName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApplicationName As String
+  overload: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.#ctor
+  isExternal: true
+  name: ForeignSystem_GetApplicationDevicesRequest
+  nameWithType: ForeignSystem_GetApplicationDevicesRequest.ForeignSystem_GetApplicationDevicesRequest
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ForeignSystem_GetApplicationDevicesRequest
+- uid: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName*
+  commentId: Overload:SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  isExternal: true
+  name: ApplicationName
+  nameWithType: ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+  fullName: SuperOffice.WebApi.Data.ForeignSystem_GetApplicationDevicesRequest.ApplicationName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

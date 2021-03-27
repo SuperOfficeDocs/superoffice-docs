@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Messaging.SoMessageRecieved
+  commentId: T:SuperOffice.Messaging.SoMessageRecieved
+  id: SoMessageRecieved
+  parent: SuperOffice.Messaging
+  children:
+  - SuperOffice.Messaging.SoMessageRecieved.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Messaging.SoMessageRecieved.BeginInvoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[],System.AsyncCallback,System.Object)
+  - SuperOffice.Messaging.SoMessageRecieved.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Messaging.SoMessageRecieved.Invoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: SoMessageRecieved
+  nameWithType: SoMessageRecieved
+  fullName: SuperOffice.Messaging.SoMessageRecieved
+  type: Delegate
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  summary: "\nDelegate used by <xref href=\"SuperOffice.Messaging.SoMessageListener\" data-throw-if-not-resolved=\"false\"></xref> to notify that a message has beenb recieved.\n"
+  syntax:
+    content: public delegate void SoMessageRecieved(SoMessageHeader header, IPEndPoint source, byte[] rawMessage);
+    parameters:
+    - id: header
+      type: SuperOffice.Messaging.Messages.SoMessageHeader
+    - id: source
+      type: System.Net.IPEndPoint
+    - id: rawMessage
+      type: System.Byte[]
+    content.vb: Public Delegate Sub SoMessageRecieved(header As SoMessageHeader, source As IPEndPoint, rawMessage As Byte())
+  extensionMethods:
+  - SuperOffice.Messaging.SoMessageRecieved.EnumUtil.MapEnums``2
+  - SuperOffice.Messaging.SoMessageRecieved.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+- uid: SuperOffice.Messaging.SoMessageRecieved.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Messaging.SoMessageRecieved.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Messaging.SoMessageRecieved
+  langs:
+  - csharp
+  - vb
+  name: SoMessageRecieved(Object, IntPtr)
+  nameWithType: SoMessageRecieved.SoMessageRecieved(Object, IntPtr)
+  fullName: SuperOffice.Messaging.SoMessageRecieved.SoMessageRecieved(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public SoMessageRecieved(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Messaging.SoMessageRecieved.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Messaging.SoMessageRecieved.Invoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[])
+  commentId: M:SuperOffice.Messaging.SoMessageRecieved.Invoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[])
+  id: Invoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[])
+  parent: SuperOffice.Messaging.SoMessageRecieved
+  langs:
+  - csharp
+  - vb
+  name: Invoke(SoMessageHeader, IPEndPoint, Byte[])
+  nameWithType: SoMessageRecieved.Invoke(SoMessageHeader, IPEndPoint, Byte[])
+  fullName: SuperOffice.Messaging.SoMessageRecieved.Invoke(SuperOffice.Messaging.Messages.SoMessageHeader, System.Net.IPEndPoint, System.Byte[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public virtual void Invoke(SoMessageHeader header, IPEndPoint source, byte[] rawMessage)
+    parameters:
+    - id: header
+      type: SuperOffice.Messaging.Messages.SoMessageHeader
+    - id: source
+      type: System.Net.IPEndPoint
+    - id: rawMessage
+      type: System.Byte[]
+    content.vb: Public Overridable Sub Invoke(header As SoMessageHeader, source As IPEndPoint, rawMessage As Byte())
+  overload: SuperOffice.Messaging.SoMessageRecieved.Invoke*
+  nameWithType.vb: SoMessageRecieved.Invoke(SoMessageHeader, IPEndPoint, Byte())
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Messaging.SoMessageRecieved.Invoke(SuperOffice.Messaging.Messages.SoMessageHeader, System.Net.IPEndPoint, System.Byte())
+  name.vb: Invoke(SoMessageHeader, IPEndPoint, Byte())
+- uid: SuperOffice.Messaging.SoMessageRecieved.BeginInvoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[],System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Messaging.SoMessageRecieved.BeginInvoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[],System.AsyncCallback,System.Object)
+  id: BeginInvoke(SuperOffice.Messaging.Messages.SoMessageHeader,System.Net.IPEndPoint,System.Byte[],System.AsyncCallback,System.Object)
+  parent: SuperOffice.Messaging.SoMessageRecieved
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(SoMessageHeader, IPEndPoint, Byte[], AsyncCallback, Object)
+  nameWithType: SoMessageRecieved.BeginInvoke(SoMessageHeader, IPEndPoint, Byte[], AsyncCallback, Object)
+  fullName: SuperOffice.Messaging.SoMessageRecieved.BeginInvoke(SuperOffice.Messaging.Messages.SoMessageHeader, System.Net.IPEndPoint, System.Byte[], System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(SoMessageHeader header, IPEndPoint source, byte[] rawMessage, AsyncCallback callback, object object)
+    parameters:
+    - id: header
+      type: SuperOffice.Messaging.Messages.SoMessageHeader
+    - id: source
+      type: System.Net.IPEndPoint
+    - id: rawMessage
+      type: System.Byte[]
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(header As SoMessageHeader, source As IPEndPoint, rawMessage As Byte(), callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Messaging.SoMessageRecieved.BeginInvoke*
+  nameWithType.vb: SoMessageRecieved.BeginInvoke(SoMessageHeader, IPEndPoint, Byte(), AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Messaging.SoMessageRecieved.BeginInvoke(SuperOffice.Messaging.Messages.SoMessageHeader, System.Net.IPEndPoint, System.Byte(), System.AsyncCallback, System.Object)
+  name.vb: BeginInvoke(SoMessageHeader, IPEndPoint, Byte(), AsyncCallback, Object)
+- uid: SuperOffice.Messaging.SoMessageRecieved.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Messaging.SoMessageRecieved.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Messaging.SoMessageRecieved
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: SoMessageRecieved.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Messaging.SoMessageRecieved.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Messaging
+  syntax:
+    content: public virtual void EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    content.vb: Public Overridable Sub EndInvoke(result As IAsyncResult)
+  overload: SuperOffice.Messaging.SoMessageRecieved.EndInvoke*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.Messaging
+  commentId: N:SuperOffice.Messaging
+  isExternal: true
+  name: SuperOffice.Messaging
+  nameWithType: SuperOffice.Messaging
+  fullName: SuperOffice.Messaging
+- uid: SuperOffice.Messaging.SoMessageRecieved.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoMessageRecieved, To>()
+  nameWithType: EnumUtil.MapEnums<SoMessageRecieved, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Messaging.SoMessageRecieved, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoMessageRecieved, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Messaging.SoMessageRecieved, To)()
+  name.vb: MapEnums(Of SoMessageRecieved, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoMessageRecieved, To>
+    nameWithType: EnumUtil.MapEnums<SoMessageRecieved, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Messaging.SoMessageRecieved, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoMessageRecieved, To)
+    nameWithType: EnumUtil.MapEnums(Of SoMessageRecieved, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Messaging.SoMessageRecieved, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.SoMessageRecieved.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoMessageRecieved, To>()
+  nameWithType: Converters.MapEnums<SoMessageRecieved, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.SoMessageRecieved, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoMessageRecieved, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.SoMessageRecieved, To)()
+  name.vb: MapEnums(Of SoMessageRecieved, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoMessageRecieved, To>
+    nameWithType: Converters.MapEnums<SoMessageRecieved, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Messaging.SoMessageRecieved, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoMessageRecieved, To)
+    nameWithType: Converters.MapEnums(Of SoMessageRecieved, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Messaging.SoMessageRecieved, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Messaging.Messages.SoMessageHeader
+  commentId: T:SuperOffice.Messaging.Messages.SoMessageHeader
+  parent: SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SoMessageHeader
+  nameWithType: SoMessageHeader
+  fullName: SuperOffice.Messaging.Messages.SoMessageHeader
+- uid: System.Net.IPEndPoint
+  isExternal: true
+  name: IPEndPoint
+  nameWithType: IPEndPoint
+  fullName: System.Net.IPEndPoint
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Messaging.Messages
+  commentId: N:SuperOffice.Messaging.Messages
+  isExternal: true
+  name: SuperOffice.Messaging.Messages
+  nameWithType: SuperOffice.Messaging.Messages
+  fullName: SuperOffice.Messaging.Messages
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Messaging.SoMessageRecieved.#ctor*
+  commentId: Overload:SuperOffice.Messaging.SoMessageRecieved.#ctor
+  isExternal: true
+  name: SoMessageRecieved
+  nameWithType: SoMessageRecieved.SoMessageRecieved
+  fullName: SuperOffice.Messaging.SoMessageRecieved.SoMessageRecieved
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Messaging.SoMessageRecieved.Invoke*
+  commentId: Overload:SuperOffice.Messaging.SoMessageRecieved.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: SoMessageRecieved.Invoke
+  fullName: SuperOffice.Messaging.SoMessageRecieved.Invoke
+- uid: SuperOffice.Messaging.SoMessageRecieved.BeginInvoke*
+  commentId: Overload:SuperOffice.Messaging.SoMessageRecieved.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: SoMessageRecieved.BeginInvoke
+  fullName: SuperOffice.Messaging.SoMessageRecieved.BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Messaging.SoMessageRecieved.EndInvoke*
+  commentId: Overload:SuperOffice.Messaging.SoMessageRecieved.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: SoMessageRecieved.EndInvoke
+  fullName: SuperOffice.Messaging.SoMessageRecieved.EndInvoke

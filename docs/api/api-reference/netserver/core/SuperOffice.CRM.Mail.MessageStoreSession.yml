@@ -1,0 +1,2847 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail.MessageStoreSession
+  commentId: T:SuperOffice.CRM.Mail.MessageStoreSession
+  id: MessageStoreSession
+  parent: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder(System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder
+  - SuperOffice.CRM.Mail.MessageStoreSession.Delete(System.String,System.Int32[])
+  - SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder(System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder(System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment(System.Int32,System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString(System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds(System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.Int32[])
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32[],SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist(System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo(System.String[])
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount(System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32[],System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList(System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead(System.Boolean,System.Int32[])
+  - SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder(System.String,System.Int32[])
+  - SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder(System.String,System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail(SuperOffice.CRM.Mail.MailItem)
+  - SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails(SuperOffice.CRM.Mail.MailItem[])
+  - SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(SuperOffice.CRM.Mail.SoMailFolder,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout
+  - SuperOffice.CRM.Mail.MessageStoreSession.SetFlags(SuperOffice.Data.EMailFlags,System.Int32[])
+  langs:
+  - csharp
+  - vb
+  name: MessageStoreSession
+  nameWithType: MessageStoreSession
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nClass to deal with sessions for incoming/message store (i.e. IMAP) mail servers.  \nInstantiate this class with <xref href=\"SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder)\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public sealed class MessageStoreSession : MailSession<ISoIncomingMailInterface>, IDisposable'
+    content.vb: >-
+      Public NotInheritable Class MessageStoreSession
+          Inherits MailSession(Of ISoIncomingMailInterface)
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Logout
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Dispose
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Server
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UserName
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UseSSL
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Password
+  - SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.MailInterface
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Mail.MessageStoreSession.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Mail.MessageStoreSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  id: ServerLogin(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: MessageStoreSession.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog on to the mail server\n"
+  syntax:
+    content: protected override ISoIncomingMailInterface ServerLogin(string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Use SSL
+    return:
+      type: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+      description: Instance of interface to the mail plugin.
+    content.vb: Protected Overrides Function ServerLogin(server As String, userName As String, password As String, useSSL As Boolean) As ISoIncomingMailInterface
+  overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String,System.String,System.String)
+  id: ServerLogin(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: ServerLogin(String, String, String)
+  nameWithType: MessageStoreSession.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog on to the mail server\n"
+  syntax:
+    content: protected override ISoIncomingMailInterface ServerLogin(string server, string userName, string password)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of mail server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    return:
+      type: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+      description: Instance of interface to the mail plugin.
+    content.vb: Protected Overrides Function ServerLogin(server As String, userName As String, password As String) As ISoIncomingMailInterface
+  overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogin(System.String,System.String,System.String)
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout
+  id: ServerLogout
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: ServerLogout()
+  nameWithType: MessageStoreSession.ServerLogout()
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog out from the mail server.\n"
+  syntax:
+    content: protected override void ServerLogout()
+    content.vb: Protected Overrides Sub ServerLogout
+  overridden: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogout
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(SuperOffice.CRM.Mail.SoMailFolder,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(SuperOffice.CRM.Mail.SoMailFolder,System.Boolean)
+  id: SelectFolder(SuperOffice.CRM.Mail.SoMailFolder,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: SelectFolder(SoMailFolder, Boolean)
+  nameWithType: MessageStoreSession.SelectFolder(SoMailFolder, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(SuperOffice.CRM.Mail.SoMailFolder, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nSet an active folder\n"
+  syntax:
+    content: public bool SelectFolder(SoMailFolder folder, bool readOnly)
+    parameters:
+    - id: folder
+      type: SuperOffice.CRM.Mail.SoMailFolder
+      description: Folder to set active
+    - id: readOnly
+      type: System.Boolean
+      description: If true, the mailbox folder is selected for &quot;read-only&quot; access. No changes to the permanent state of the folder are permitted
+    return:
+      type: System.Boolean
+      description: True if the folder was successfully set active
+    content.vb: Public Function SelectFolder(folder As SoMailFolder, readOnly As Boolean) As Boolean
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(System.String,System.Boolean)
+  id: SelectFolder(System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: SelectFolder(String, Boolean)
+  nameWithType: MessageStoreSession.SelectFolder(String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder(System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nSet an active folder\n"
+  syntax:
+    content: public bool SelectFolder(string folderName, bool readOnly)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to set active
+    - id: readOnly
+      type: System.Boolean
+      description: If true, the mailbox folder is selected for &quot;read-only&quot; access. No changes to the permanent state of the folder are permitted
+    return:
+      type: System.Boolean
+      description: True if the folder was successfully set active
+    content.vb: Public Function SelectFolder(folderName As String, readOnly As Boolean) As Boolean
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder(System.String)
+  id: CreateFolder(System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: CreateFolder(String)
+  nameWithType: MessageStoreSession.CreateFolder(String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCreate a new folder\n"
+  syntax:
+    content: public void CreateFolder(string folderName)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to create
+    content.vb: Public Sub CreateFolder(folderName As String)
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder(System.String)
+  id: DeleteFolder(System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: DeleteFolder(String)
+  nameWithType: MessageStoreSession.DeleteFolder(String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDelete a folder and all e-mails\n"
+  syntax:
+    content: public void DeleteFolder(string folderName)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to delete
+    content.vb: Public Sub DeleteFolder(folderName As String)
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder(System.String,System.String)
+  id: RenameFolder(System.String,System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: RenameFolder(String, String)
+  nameWithType: MessageStoreSession.RenameFolder(String, String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nRename an existing folder\n"
+  syntax:
+    content: public void RenameFolder(string oldName, string newName)
+    parameters:
+    - id: oldName
+      type: System.String
+      description: Old name of the folder
+    - id: newName
+      type: System.String
+      description: New name of the folder
+    content.vb: Public Sub RenameFolder(oldName As String, newName As String)
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist(System.String)
+  id: GetFolderExist(System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetFolderExist(String)
+  nameWithType: MessageStoreSession.GetFolderExist(String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nCheck if a specified folder exist on the server\n"
+  syntax:
+    content: public bool GetFolderExist(string folderName)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to verify existence of
+    return:
+      type: System.Boolean
+      description: True if folder exists on the server. False is also returned if the connection to the mail server has been closed.
+    content.vb: Public Function GetFolderExist(folderName As String) As Boolean
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount(System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount(System.Boolean)
+  id: GetFolderMailCount(System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetFolderMailCount(Boolean)
+  nameWithType: MessageStoreSession.GetFolderMailCount(Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nRetrieve the number of e-mails in current folder\n"
+  syntax:
+    content: public int GetFolderMailCount(bool onlyUnread)
+    parameters:
+    - id: onlyUnread
+      type: System.Boolean
+      description: If true, only count unread e-mails
+    return:
+      type: System.Int32
+      description: Number of e-mails
+    content.vb: Public Function GetFolderMailCount(onlyUnread As Boolean) As Integer
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.String)
+  id: GetPartialEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetPartialEnvelopes(Int32, Int32, MailSortCriterion, Boolean, String)
+  nameWithType: MessageStoreSession.GetPartialEnvelopes(Int32, Int32, MailSortCriterion, Boolean, String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32, System.Int32, SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch envelopes but only populate values specified by the fields parameter\nValid values are &quot;Date From To Subject FLAGS RFC822.SIZE&quot;\nThe specified sortOrder will always include the field it is sorting on\n"
+  syntax:
+    content: public MailEnvelope[] GetPartialEnvelopes(int from, int to, MailSortCriterion sortOrder, bool revers, string fields)
+    parameters:
+    - id: from
+      type: System.Int32
+    - id: to
+      type: System.Int32
+    - id: sortOrder
+      type: SuperOffice.CRM.Mail.MailSortCriterion
+    - id: revers
+      type: System.Boolean
+    - id: fields
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+    content.vb: Public Function GetPartialEnvelopes(from As Integer, to As Integer, sortOrder As MailSortCriterion, revers As Boolean, fields As String) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds(System.String)
+  id: GetEnvelopeIds(System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEnvelopeIds(String)
+  nameWithType: MessageStoreSession.GetEnvelopeIds(String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nReturns envelopes ids in the folder\n"
+  syntax:
+    content: public int[] GetEnvelopeIds(string search)
+    parameters:
+    - id: search
+      type: System.String
+    return:
+      type: System.Int32[]
+    content.vb: Public Function GetEnvelopeIds(search As String) As Integer()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32[],System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32[],System.String)
+  id: GetPartialEnvelopes(System.Int32[],System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetPartialEnvelopes(Int32[], String)
+  nameWithType: MessageStoreSession.GetPartialEnvelopes(Int32[], String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32[], System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch envelopes but only populate values specified by the fields parameter\nValid values are &quot;Date From To Subject FLAGS RFC822.SIZE&quot;\nThe specified sortOrder will always include the field it is sorting on\n"
+  syntax:
+    content: public MailEnvelope[] GetPartialEnvelopes(int[] mailServerIds, string fields)
+    parameters:
+    - id: mailServerIds
+      type: System.Int32[]
+      description: array of serverids
+    - id: fields
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+    content.vb: Public Function GetPartialEnvelopes(mailServerIds As Integer(), fields As String) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes*
+  nameWithType.vb: MessageStoreSession.GetPartialEnvelopes(Int32(), String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes(System.Int32(), System.String)
+  name.vb: GetPartialEnvelopes(Int32(), String)
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  id: GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEnvelopes(Int32, Int32, MailSortCriterion, Boolean)
+  nameWithType: MessageStoreSession.GetEnvelopes(Int32, Int32, MailSortCriterion, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32, System.Int32, SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch envelopes from the server\n"
+  syntax:
+    content: public MailEnvelope[] GetEnvelopes(int from, int to, MailSortCriterion sortOrder, bool reverse)
+    parameters:
+    - id: from
+      type: System.Int32
+      description: Based on the sortOrder retrieve e-mails from this index
+    - id: to
+      type: System.Int32
+      description: Based on the sortOrder retrieve e-mails till this index
+    - id: sortOrder
+      type: SuperOffice.CRM.Mail.MailSortCriterion
+      description: How e-mails should be sorted
+    - id: reverse
+      type: System.Boolean
+      description: Reverse the sort order
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+      description: Envelopes for the specified e-mails
+    content.vb: Public Function GetEnvelopes(from As Integer, to As Integer, sortOrder As MailSortCriterion, reverse As Boolean) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion)
+  id: GetEnvelopes(System.Int32,System.Int32,SuperOffice.CRM.Mail.MailSortCriterion)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEnvelopes(Int32, Int32, MailSortCriterion)
+  nameWithType: MessageStoreSession.GetEnvelopes(Int32, Int32, MailSortCriterion)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32, System.Int32, SuperOffice.CRM.Mail.MailSortCriterion)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch envelopes from the server based on message server ids.\n"
+  syntax:
+    content: public MailEnvelope[] GetEnvelopes(int from, int to, MailSortCriterion sortOrder)
+    parameters:
+    - id: from
+      type: System.Int32
+      description: from serverid
+    - id: to
+      type: System.Int32
+      description: To serverid
+    - id: sortOrder
+      type: SuperOffice.CRM.Mail.MailSortCriterion
+      description: How e-mails should be sorted
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+      description: Envelopes for the specified e-mails
+    content.vb: Public Function GetEnvelopes(from As Integer, to As Integer, sortOrder As MailSortCriterion) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32[],SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32[],SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  id: GetEnvelopes(System.Int32[],SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEnvelopes(Int32[], MailSortCriterion, Boolean)
+  nameWithType: MessageStoreSession.GetEnvelopes(Int32[], MailSortCriterion, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32[], SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch envelopes from the server based on message server ids.\n"
+  syntax:
+    content: public MailEnvelope[] GetEnvelopes(int[] messageIds, MailSortCriterion sortOrder, bool reverse)
+    parameters:
+    - id: messageIds
+      type: System.Int32[]
+      description: array of ids of messages to get
+    - id: sortOrder
+      type: SuperOffice.CRM.Mail.MailSortCriterion
+      description: How e-mails should be sorted
+    - id: reverse
+      type: System.Boolean
+      description: Reverse the sort order
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+      description: Envelopes for the specified e-mails
+    content.vb: Public Function GetEnvelopes(messageIds As Integer(), sortOrder As MailSortCriterion, reverse As Boolean) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes*
+  nameWithType.vb: MessageStoreSession.GetEnvelopes(Int32(), MailSortCriterion, Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(System.Int32(), SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean)
+  name.vb: GetEnvelopes(Int32(), MailSortCriterion, Boolean)
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  id: GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEnvelopes(MailSortCriterion, Boolean)
+  nameWithType: MessageStoreSession.GetEnvelopes(MailSortCriterion, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch all envelopes from current folder\n"
+  syntax:
+    content: public MailEnvelope[] GetEnvelopes(MailSortCriterion sortOrder, bool reverse)
+    parameters:
+    - id: sortOrder
+      type: SuperOffice.CRM.Mail.MailSortCriterion
+      description: How return mails should be sorted
+    - id: reverse
+      type: System.Boolean
+      description: Reverse the sort order
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+      description: All envelopes for the current folder
+    content.vb: Public Function GetEnvelopes(sortOrder As MailSortCriterion, reverse As Boolean) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.Int32[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.Int32[])
+  id: GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion,System.Boolean,System.Int32[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEnvelopes(MailSortCriterion, Boolean, Int32[])
+  nameWithType: MessageStoreSession.GetEnvelopes(MailSortCriterion, Boolean, Int32[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch specific envelopes from the server.\n"
+  syntax:
+    content: public MailEnvelope[] GetEnvelopes(MailSortCriterion sortOrder, bool reverse, params int[] items)
+    parameters:
+    - id: sortOrder
+      type: SuperOffice.CRM.Mail.MailSortCriterion
+      description: What order to retrieve e-mails
+    - id: reverse
+      type: System.Boolean
+      description: Reverse sort order
+    - id: items
+      type: System.Int32[]
+      description: 'List of unique ids for e-mails to fetch '
+    return:
+      type: SuperOffice.CRM.Mail.MailEnvelope[]
+      description: Envelopes for the specified e-mails
+    content.vb: Public Function GetEnvelopes(sortOrder As MailSortCriterion, reverse As Boolean, ParamArray items As Integer()) As MailEnvelope()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes*
+  nameWithType.vb: MessageStoreSession.GetEnvelopes(MailSortCriterion, Boolean, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes(SuperOffice.CRM.Mail.MailSortCriterion, System.Boolean, System.Int32())
+  name.vb: GetEnvelopes(MailSortCriterion, Boolean, Int32())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32)
+  id: GetEMail(System.Int32)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEMail(Int32)
+  nameWithType: MessageStoreSession.GetEMail(Int32)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch a single e-mail from the server\n"
+  syntax:
+    content: public MailItem GetEMail(int messageServerId)
+    parameters:
+    - id: messageServerId
+      type: System.Int32
+      description: Unique server id for the item
+    return:
+      type: SuperOffice.CRM.Mail.MailItem
+      description: The e-mail
+    content.vb: Public Function GetEMail(messageServerId As Integer) As MailItem
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean)
+  id: GetEMail(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEMail(Int32, Boolean)
+  nameWithType: MessageStoreSession.GetEMail(Int32, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch a single e-mail from the server\n"
+  syntax:
+    content: public MailItem GetEMail(int messageServerId, bool includeAttachmentStreams)
+    parameters:
+    - id: messageServerId
+      type: System.Int32
+      description: Unique server id for the item
+    - id: includeAttachmentStreams
+      type: System.Boolean
+      description: Should we include attachment streams(content).
+    return:
+      type: SuperOffice.CRM.Mail.MailItem
+      description: The e-mail
+    content.vb: Public Function GetEMail(messageServerId As Integer, includeAttachmentStreams As Boolean) As MailItem
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32,System.Boolean,System.Boolean)
+  id: GetEMail(System.Int32,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEMail(Int32, Boolean, Boolean)
+  nameWithType: MessageStoreSession.GetEMail(Int32, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail(System.Int32, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch a single e-mail from the server\n"
+  syntax:
+    content: public MailItem GetEMail(int messageServerId, bool includeAttachmentStreams, bool includeMime)
+    parameters:
+    - id: messageServerId
+      type: System.Int32
+      description: Unique server id for the item
+    - id: includeAttachmentStreams
+      type: System.Boolean
+      description: Should we include attachment streams(content).
+    - id: includeMime
+      type: System.Boolean
+      description: Should we include mime text.
+    return:
+      type: SuperOffice.CRM.Mail.MailItem
+      description: The e-mail
+    content.vb: Public Function GetEMail(messageServerId As Integer, includeAttachmentStreams As Boolean, includeMime As Boolean) As MailItem
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32,System.Boolean)
+  id: GetEMailStream(System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEMailStream(Int32, Boolean)
+  nameWithType: MessageStoreSession.GetEMailStream(Int32, Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream(System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch a single e-mail optionally stripping attachments and deliver a stream to the raw MIME data(RFC 822)\n"
+  syntax:
+    content: public Stream GetEMailStream(int messageServerId, bool stripAttachments)
+    parameters:
+    - id: messageServerId
+      type: System.Int32
+      description: Unique server id for the item
+    - id: stripAttachments
+      type: System.Boolean
+      description: If true, get stream without attachments
+    return:
+      type: System.IO.Stream
+      description: Stream to a RFC 822 MIME representation of the e-mail
+    content.vb: Public Function GetEMailStream(messageServerId As Integer, stripAttachments As Boolean) As Stream
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString(System.String)
+  id: GetEMailAsString(System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetEMailAsString(String)
+  nameWithType: MessageStoreSession.GetEMailAsString(String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nFetch a single e-mail optionally stripping attachments and deliver a stream to the raw MIME data(RFC 822)\n"
+  syntax:
+    content: public string GetEMailAsString(string msgId)
+    parameters:
+    - id: msgId
+      type: System.String
+    return:
+      type: System.String
+      description: Stream to a RFC 822 MIME representation of the e-mail
+    content.vb: Public Function GetEMailAsString(msgId As String) As String
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail(SuperOffice.CRM.Mail.MailItem)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail(SuperOffice.CRM.Mail.MailItem)
+  id: SaveEMail(SuperOffice.CRM.Mail.MailItem)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: SaveEMail(MailItem)
+  nameWithType: MessageStoreSession.SaveEMail(MailItem)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail(SuperOffice.CRM.Mail.MailItem)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nSave an e-mail back to the server\n"
+  syntax:
+    content: public MailItem SaveEMail(MailItem item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.Mail.MailItem
+      description: The e-mail item to save
+    return:
+      type: SuperOffice.CRM.Mail.MailItem
+      description: The saved e-mail
+    content.vb: Public Function SaveEMail(item As MailItem) As MailItem
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails(SuperOffice.CRM.Mail.MailItem[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails(SuperOffice.CRM.Mail.MailItem[])
+  id: SaveEMails(SuperOffice.CRM.Mail.MailItem[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: SaveEMails(MailItem[])
+  nameWithType: MessageStoreSession.SaveEMails(MailItem[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails(SuperOffice.CRM.Mail.MailItem[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nSave a set of e-mails to the server\n"
+  syntax:
+    content: public void SaveEMails(MailItem[] items)
+    parameters:
+    - id: items
+      type: SuperOffice.CRM.Mail.MailItem[]
+      description: The e-mails to save
+    content.vb: Public Sub SaveEMails(items As MailItem())
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails*
+  nameWithType.vb: MessageStoreSession.SaveEMails(MailItem())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails(SuperOffice.CRM.Mail.MailItem())
+  name.vb: SaveEMails(MailItem())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SetFlags(SuperOffice.Data.EMailFlags,System.Int32[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.SetFlags(SuperOffice.Data.EMailFlags,System.Int32[])
+  id: SetFlags(SuperOffice.Data.EMailFlags,System.Int32[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: SetFlags(EMailFlags, Int32[])
+  nameWithType: MessageStoreSession.SetFlags(EMailFlags, Int32[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SetFlags(SuperOffice.Data.EMailFlags, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nSet specified flags on e-mail(s)\n"
+  syntax:
+    content: public void SetFlags(EMailFlags flags, params int[] messageServerIds)
+    parameters:
+    - id: flags
+      type: SuperOffice.Data.EMailFlags
+      description: Flags to set on e-mail item
+    - id: messageServerIds
+      type: System.Int32[]
+      description: E-mails to set flags on
+    content.vb: Public Sub SetFlags(flags As EMailFlags, ParamArray messageServerIds As Integer())
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.SetFlags*
+  nameWithType.vb: MessageStoreSession.SetFlags(EMailFlags, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.SetFlags(SuperOffice.Data.EMailFlags, System.Int32())
+  name.vb: SetFlags(EMailFlags, Int32())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead(System.Boolean,System.Int32[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead(System.Boolean,System.Int32[])
+  id: MarkAsRead(System.Boolean,System.Int32[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: MarkAsRead(Boolean, Int32[])
+  nameWithType: MessageStoreSession.MarkAsRead(Boolean, Int32[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead(System.Boolean, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nMark item as (un)read\n"
+  syntax:
+    content: public void MarkAsRead(bool read, params int[] messageServerIds)
+    parameters:
+    - id: read
+      type: System.Boolean
+      description: If true, items are marked as read.  If false, item is marked as unread
+    - id: messageServerIds
+      type: System.Int32[]
+      description: Array of ids to target mail items
+    content.vb: Public Sub MarkAsRead(read As Boolean, ParamArray messageServerIds As Integer())
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead*
+  nameWithType.vb: MessageStoreSession.MarkAsRead(Boolean, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead(System.Boolean, System.Int32())
+  name.vb: MarkAsRead(Boolean, Int32())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.Delete(System.String,System.Int32[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.Delete(System.String,System.Int32[])
+  id: Delete(System.String,System.Int32[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: Delete(String, Int32[])
+  nameWithType: MessageStoreSession.Delete(String, Int32[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.Delete(System.String, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDeleted/move specified e-mails\n"
+  syntax:
+    content: public void Delete(string moveToFolder, params int[] messageServerIds)
+    parameters:
+    - id: moveToFolder
+      type: System.String
+    - id: messageServerIds
+      type: System.Int32[]
+      description: Array of ids to target mail items
+    content.vb: Public Sub Delete(moveToFolder As String, ParamArray messageServerIds As Integer())
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.Delete*
+  nameWithType.vb: MessageStoreSession.Delete(String, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.Delete(System.String, System.Int32())
+  name.vb: Delete(String, Int32())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder(System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder(System.String)
+  id: EmptyFolder(System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: EmptyFolder(String)
+  nameWithType: MessageStoreSession.EmptyFolder(String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nDelete all items in current folder\n"
+  syntax:
+    content: public void EmptyFolder(string moveToFolder)
+    parameters:
+    - id: moveToFolder
+      type: System.String
+      description: If set, move deleted items to this folder
+    content.vb: Public Sub EmptyFolder(moveToFolder As String)
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder(System.String,System.Int32[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder(System.String,System.Int32[])
+  id: MoveToFolder(System.String,System.Int32[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: MoveToFolder(String, Int32[])
+  nameWithType: MessageStoreSession.MoveToFolder(String, Int32[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder(System.String, System.Int32[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nMove item(s) from the current folder to targetFolder\n"
+  syntax:
+    content: public void MoveToFolder(string targetFolder, params int[] mesasgeServerIds)
+    parameters:
+    - id: targetFolder
+      type: System.String
+      description: Name of folder to move items to
+    - id: mesasgeServerIds
+      type: System.Int32[]
+      description: Array of ids to mail items
+    content.vb: Public Sub MoveToFolder(targetFolder As String, ParamArray mesasgeServerIds As Integer())
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder*
+  nameWithType.vb: MessageStoreSession.MoveToFolder(String, Int32())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder(System.String, System.Int32())
+  name.vb: MoveToFolder(String, Int32())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList(System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList(System.Boolean)
+  id: GetRawFolderList(System.Boolean)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetRawFolderList(Boolean)
+  nameWithType: MessageStoreSession.GetRawFolderList(Boolean)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList(System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nRetrieve all subscribed folders for the account\n"
+  syntax:
+    content: public string[] GetRawFolderList(bool includeItemCount)
+    parameters:
+    - id: includeItemCount
+      type: System.Boolean
+      description: Add unread and total number of items to the foldernames
+    return:
+      type: System.String[]
+      description: "\nList of folders. Each folder contains a delimeter character and the foldername, separated by the &apos;§&apos; character.\nFoldercounts are optionally added to each folder name.\nEx: { &quot;/§Inbox&quot;, &quot;/§Inbox/SubFolder&quot;, &quot;/§Sent Items&quot; } \n{ &quot;/§Inbox,100,250&quot;, &quot;/§Inbox/SubFolder,100,250&quot;, &quot;/§Sent Items,100,100&quot; }\n"
+    content.vb: Public Function GetRawFolderList(includeItemCount As Boolean) As String()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList
+  id: GetFolderList
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetFolderList()
+  nameWithType: MessageStoreSession.GetFolderList()
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nRetrieve all subscribed folders for the account\n"
+  syntax:
+    content: public string[] GetFolderList()
+    return:
+      type: System.String[]
+      description: "\nEx: { &quot;Inbox&quot;, &quot;Inbox/SubFolder&quot;, &quot;Sent Items&quot; } \n"
+    content.vb: Public Function GetFolderList As String()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo(System.String[])
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo(System.String[])
+  id: GetFolderInfo(System.String[])
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetFolderInfo(String[])
+  nameWithType: MessageStoreSession.GetFolderInfo(String[])
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nreturns folder information for the current list of folders\n"
+  syntax:
+    content: public SoMailFolderInfo[] GetFolderInfo(string[] folders)
+    parameters:
+    - id: folders
+      type: System.String[]
+    return:
+      type: SuperOffice.CRM.Mail.SoMailFolderInfo[]
+    content.vb: Public Function GetFolderInfo(folders As String()) As SoMailFolderInfo()
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo*
+  nameWithType.vb: MessageStoreSession.GetFolderInfo(String())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo(System.String())
+  name.vb: GetFolderInfo(String())
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment(System.Int32,System.String)
+  id: GetAttachment(System.Int32,System.String)
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: GetAttachment(Int32, String)
+  nameWithType: MessageStoreSession.GetAttachment(Int32, String)
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nRetrieve an attachment from an e-mail\n"
+  syntax:
+    content: public MailAttachment GetAttachment(int messageServerId, string attachmentId)
+    parameters:
+    - id: messageServerId
+      type: System.Int32
+      description: Unique id of the mail to get the attachment from
+    - id: attachmentId
+      type: System.String
+      description: Unique id of the attachment to get
+    return:
+      type: SuperOffice.CRM.Mail.MailAttachment
+    content.vb: Public Function GetAttachment(messageServerId As Integer, attachmentId As String) As MailAttachment
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder
+  commentId: P:SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder
+  id: CurrentFolder
+  parent: SuperOffice.CRM.Mail.MessageStoreSession
+  langs:
+  - csharp
+  - vb
+  name: CurrentFolder
+  nameWithType: MessageStoreSession.CurrentFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet the currently selected folder.\n"
+  syntax:
+    content: public string CurrentFolder { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property CurrentFolder As String
+  overload: SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  commentId: T:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  parent: SuperOffice.CRM.Mail
+  definition: SuperOffice.CRM.Mail.MailSession`1
+  name: MailSession<ISoIncomingMailInterface>
+  nameWithType: MailSession<ISoIncomingMailInterface>
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface)
+  name.vb: MailSession(Of ISoIncomingMailInterface)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1
+    name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+    name: ISoIncomingMailInterface
+    nameWithType: ISoIncomingMailInterface
+    fullName: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1
+    name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+    name: ISoIncomingMailInterface
+    nameWithType: ISoIncomingMailInterface
+    fullName: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Logout
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Logout
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.Logout
+  name: Logout()
+  nameWithType: MailSession<ISoIncomingMailInterface>.Logout()
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.Logout()
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).Logout()
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).Logout()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
+    name: Logout
+    nameWithType: MailSession<ISoIncomingMailInterface>.Logout
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.Logout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
+    name: Logout
+    nameWithType: MailSession(Of ISoIncomingMailInterface).Logout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).Logout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Dispose
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Dispose
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.Dispose
+  name: Dispose()
+  nameWithType: MailSession<ISoIncomingMailInterface>.Dispose()
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.Dispose()
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).Dispose()
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
+    name: Dispose
+    nameWithType: MailSession<ISoIncomingMailInterface>.Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
+    name: Dispose
+    nameWithType: MailSession(Of ISoIncomingMailInterface).Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Server
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Server
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.Server
+  name: Server
+  nameWithType: MailSession<ISoIncomingMailInterface>.Server
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.Server
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).Server
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).Server
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UserName
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UserName
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.UserName
+  name: UserName
+  nameWithType: MailSession<ISoIncomingMailInterface>.UserName
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.UserName
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).UserName
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).UserName
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UseSSL
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.UseSSL
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  name: UseSSL
+  nameWithType: MailSession<ISoIncomingMailInterface>.UseSSL
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.UseSSL
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).UseSSL
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).UseSSL
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Password
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.Password
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.Password
+  name: Password
+  nameWithType: MailSession<ISoIncomingMailInterface>.Password
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.Password
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).Password
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).Password
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.MailInterface
+  commentId: P:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.MailInterface
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  name: MailInterface
+  nameWithType: MailSession<ISoIncomingMailInterface>.MailInterface
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.MailInterface
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).MailInterface
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).MailInterface
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<MessageStoreSession, To>()
+  nameWithType: EnumUtil.MapEnums<MessageStoreSession, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.MessageStoreSession, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of MessageStoreSession, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.MessageStoreSession, To)()
+  name.vb: MapEnums(Of MessageStoreSession, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<MessageStoreSession, To>
+    nameWithType: EnumUtil.MapEnums<MessageStoreSession, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Mail.MessageStoreSession, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of MessageStoreSession, To)
+    nameWithType: EnumUtil.MapEnums(Of MessageStoreSession, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Mail.MessageStoreSession, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<MessageStoreSession, To>()
+  nameWithType: Converters.MapEnums<MessageStoreSession, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.MessageStoreSession, To>()
+  nameWithType.vb: Converters.MapEnums(Of MessageStoreSession, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.MessageStoreSession, To)()
+  name.vb: MapEnums(Of MessageStoreSession, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<MessageStoreSession, To>
+    nameWithType: Converters.MapEnums<MessageStoreSession, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Mail.MessageStoreSession, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of MessageStoreSession, To)
+    nameWithType: Converters.MapEnums(Of MessageStoreSession, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Mail.MessageStoreSession, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Mail.MailSession`1
+  commentId: T:SuperOffice.CRM.Mail.MailSession`1
+  isExternal: true
+  name: MailSession<TMailInterface>
+  nameWithType: MailSession<TMailInterface>
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>
+  nameWithType.vb: MailSession(Of TMailInterface)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface)
+  name.vb: MailSession(Of TMailInterface)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1
+    name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TMailInterface
+    nameWithType: TMailInterface
+    fullName: TMailInterface
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1
+    name: MailSession
+    nameWithType: MailSession
+    fullName: SuperOffice.CRM.Mail.MailSession
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TMailInterface
+    nameWithType: TMailInterface
+    fullName: TMailInterface
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.Logout
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.Logout
+  isExternal: true
+  name: Logout()
+  nameWithType: MailSession<TMailInterface>.Logout()
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Logout()
+  nameWithType.vb: MailSession(Of TMailInterface).Logout()
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Logout()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
+    name: Logout
+    nameWithType: MailSession<TMailInterface>.Logout
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Logout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Logout
+    name: Logout
+    nameWithType: MailSession(Of TMailInterface).Logout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Logout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: MailSession<TMailInterface>.Dispose()
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Dispose()
+  nameWithType.vb: MailSession(Of TMailInterface).Dispose()
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
+    name: Dispose
+    nameWithType: MailSession<TMailInterface>.Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.Dispose
+    name: Dispose
+    nameWithType: MailSession(Of TMailInterface).Dispose
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.Server
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.Server
+  isExternal: true
+  name: Server
+  nameWithType: MailSession<TMailInterface>.Server
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Server
+  nameWithType.vb: MailSession(Of TMailInterface).Server
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Server
+- uid: SuperOffice.CRM.Mail.MailSession`1.UserName
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.UserName
+  isExternal: true
+  name: UserName
+  nameWithType: MailSession<TMailInterface>.UserName
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UserName
+  nameWithType.vb: MailSession(Of TMailInterface).UserName
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UserName
+- uid: SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.UseSSL
+  isExternal: true
+  name: UseSSL
+  nameWithType: MailSession<TMailInterface>.UseSSL
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.UseSSL
+  nameWithType.vb: MailSession(Of TMailInterface).UseSSL
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).UseSSL
+- uid: SuperOffice.CRM.Mail.MailSession`1.Password
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.Password
+  isExternal: true
+  name: Password
+  nameWithType: MailSession<TMailInterface>.Password
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.Password
+  nameWithType.vb: MailSession(Of TMailInterface).Password
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).Password
+- uid: SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  commentId: P:SuperOffice.CRM.Mail.MailSession`1.MailInterface
+  isExternal: true
+  name: MailInterface
+  nameWithType: MailSession<TMailInterface>.MailInterface
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.MailInterface
+  nameWithType.vb: MailSession(Of TMailInterface).MailInterface
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).MailInterface
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: MailSession<ISoIncomingMailInterface>.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.ServerLogin(System.String, System.String, System.String, System.Boolean)
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).ServerLogin(String, String, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).ServerLogin(System.String, System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+    name: ServerLogin
+    nameWithType: MailSession<ISoIncomingMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+    name: ServerLogin
+    nameWithType: MailSession(Of ISoIncomingMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin
+  isExternal: true
+  name: ServerLogin
+  nameWithType: MessageStoreSession.ServerLogin
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogin
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+  isExternal: true
+  name: ISoIncomingMailInterface
+  nameWithType: ISoIncomingMailInterface
+  fullName: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+  isExternal: true
+  name: ServerLogin(String, String, String, Boolean)
+  nameWithType: MailSession<TMailInterface>.ServerLogin(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(System.String, System.String, System.String, System.Boolean)
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogin(String, String, String, Boolean)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(System.String, System.String, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+    name: ServerLogin
+    nameWithType: MailSession<TMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String,System.Boolean)
+    name: ServerLogin
+    nameWithType: MailSession(Of TMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogin(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogin(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+  name: ServerLogin(String, String, String)
+  nameWithType: MailSession<ISoIncomingMailInterface>.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.ServerLogin(System.String, System.String, System.String)
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).ServerLogin(String, String, String)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).ServerLogin(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+    name: ServerLogin
+    nameWithType: MailSession<ISoIncomingMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+    name: ServerLogin
+    nameWithType: MailSession(Of ISoIncomingMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+  isExternal: true
+  name: ServerLogin(String, String, String)
+  nameWithType: MailSession<TMailInterface>.ServerLogin(String, String, String)
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin(System.String, System.String, System.String)
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogin(String, String, String)
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin(System.String, System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+    name: ServerLogin
+    nameWithType: MailSession<TMailInterface>.ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogin(System.String,System.String,System.String)
+    name: ServerLogin
+    nameWithType: MailSession(Of TMailInterface).ServerLogin
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogout
+  commentId: M:SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}.ServerLogout
+  parent: SuperOffice.CRM.Mail.MailSession{SuperOffice.CRM.Mail.ISoIncomingMailInterface}
+  definition: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  name: ServerLogout()
+  nameWithType: MailSession<ISoIncomingMailInterface>.ServerLogout()
+  fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.ServerLogout()
+  nameWithType.vb: MailSession(Of ISoIncomingMailInterface).ServerLogout()
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).ServerLogout()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+    name: ServerLogout
+    nameWithType: MailSession<ISoIncomingMailInterface>.ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession<SuperOffice.CRM.Mail.ISoIncomingMailInterface>.ServerLogout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+    name: ServerLogout
+    nameWithType: MailSession(Of ISoIncomingMailInterface).ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of SuperOffice.CRM.Mail.ISoIncomingMailInterface).ServerLogout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout
+  isExternal: true
+  name: ServerLogout
+  nameWithType: MessageStoreSession.ServerLogout
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.ServerLogout
+- uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  commentId: M:SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+  isExternal: true
+  name: ServerLogout()
+  nameWithType: MailSession<TMailInterface>.ServerLogout()
+  fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogout()
+  nameWithType.vb: MailSession(Of TMailInterface).ServerLogout()
+  fullName.vb: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogout()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+    name: ServerLogout
+    nameWithType: MailSession<TMailInterface>.ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession<TMailInterface>.ServerLogout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailSession`1.ServerLogout
+    name: ServerLogout
+    nameWithType: MailSession(Of TMailInterface).ServerLogout
+    fullName: SuperOffice.CRM.Mail.MailSession(Of TMailInterface).ServerLogout
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder
+  isExternal: true
+  name: SelectFolder
+  nameWithType: MessageStoreSession.SelectFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SelectFolder
+- uid: SuperOffice.CRM.Mail.SoMailFolder
+  isExternal: true
+  name: SoMailFolder
+  nameWithType: SoMailFolder
+  fullName: SuperOffice.CRM.Mail.SoMailFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder
+  isExternal: true
+  name: CreateFolder
+  nameWithType: MessageStoreSession.CreateFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.CreateFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder
+  isExternal: true
+  name: DeleteFolder
+  nameWithType: MessageStoreSession.DeleteFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.DeleteFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder
+  isExternal: true
+  name: RenameFolder
+  nameWithType: MessageStoreSession.RenameFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.RenameFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist
+  isExternal: true
+  name: GetFolderExist
+  nameWithType: MessageStoreSession.GetFolderExist
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderExist
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount
+  isExternal: true
+  name: GetFolderMailCount
+  nameWithType: MessageStoreSession.GetFolderMailCount
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderMailCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes
+  isExternal: true
+  name: GetPartialEnvelopes
+  nameWithType: MessageStoreSession.GetPartialEnvelopes
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetPartialEnvelopes
+- uid: SuperOffice.CRM.Mail.MailSortCriterion
+  isExternal: true
+  name: MailSortCriterion
+  nameWithType: MailSortCriterion
+  fullName: SuperOffice.CRM.Mail.MailSortCriterion
+- uid: SuperOffice.CRM.Mail.MailEnvelope[]
+  isExternal: true
+  name: MailEnvelope[]
+  nameWithType: MailEnvelope[]
+  fullName: SuperOffice.CRM.Mail.MailEnvelope[]
+  nameWithType.vb: MailEnvelope()
+  fullName.vb: SuperOffice.CRM.Mail.MailEnvelope()
+  name.vb: MailEnvelope()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailEnvelope
+    name: MailEnvelope
+    nameWithType: MailEnvelope
+    fullName: SuperOffice.CRM.Mail.MailEnvelope
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailEnvelope
+    name: MailEnvelope
+    nameWithType: MailEnvelope
+    fullName: SuperOffice.CRM.Mail.MailEnvelope
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds
+  isExternal: true
+  name: GetEnvelopeIds
+  nameWithType: MessageStoreSession.GetEnvelopeIds
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopeIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes
+  isExternal: true
+  name: GetEnvelopes
+  nameWithType: MessageStoreSession.GetEnvelopes
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEnvelopes
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetEMail
+  isExternal: true
+  name: GetEMail
+  nameWithType: MessageStoreSession.GetEMail
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMail
+- uid: SuperOffice.CRM.Mail.MailItem
+  isExternal: true
+  name: MailItem
+  nameWithType: MailItem
+  fullName: SuperOffice.CRM.Mail.MailItem
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream
+  isExternal: true
+  name: GetEMailStream
+  nameWithType: MessageStoreSession.GetEMailStream
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailStream
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString
+  isExternal: true
+  name: GetEMailAsString
+  nameWithType: MessageStoreSession.GetEMailAsString
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetEMailAsString
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail
+  isExternal: true
+  name: SaveEMail
+  nameWithType: MessageStoreSession.SaveEMail
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMail
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails
+  isExternal: true
+  name: SaveEMails
+  nameWithType: MessageStoreSession.SaveEMails
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SaveEMails
+- uid: SuperOffice.CRM.Mail.MailItem[]
+  isExternal: true
+  name: MailItem[]
+  nameWithType: MailItem[]
+  fullName: SuperOffice.CRM.Mail.MailItem[]
+  nameWithType.vb: MailItem()
+  fullName.vb: SuperOffice.CRM.Mail.MailItem()
+  name.vb: MailItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    nameWithType: MailItem
+    fullName: SuperOffice.CRM.Mail.MailItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.MailItem
+    name: MailItem
+    nameWithType: MailItem
+    fullName: SuperOffice.CRM.Mail.MailItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.SetFlags*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.SetFlags
+  isExternal: true
+  name: SetFlags
+  nameWithType: MessageStoreSession.SetFlags
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.SetFlags
+- uid: SuperOffice.Data.EMailFlags
+  commentId: T:SuperOffice.Data.EMailFlags
+  parent: SuperOffice.Data
+  isExternal: true
+  name: EMailFlags
+  nameWithType: EMailFlags
+  fullName: SuperOffice.Data.EMailFlags
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead
+  isExternal: true
+  name: MarkAsRead
+  nameWithType: MessageStoreSession.MarkAsRead
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.MarkAsRead
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.Delete*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.Delete
+  isExternal: true
+  name: Delete
+  nameWithType: MessageStoreSession.Delete
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.Delete
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder
+  isExternal: true
+  name: EmptyFolder
+  nameWithType: MessageStoreSession.EmptyFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.EmptyFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder
+  isExternal: true
+  name: MoveToFolder
+  nameWithType: MessageStoreSession.MoveToFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.MoveToFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList
+  isExternal: true
+  name: GetRawFolderList
+  nameWithType: MessageStoreSession.GetRawFolderList
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetRawFolderList
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList
+  isExternal: true
+  name: GetFolderList
+  nameWithType: MessageStoreSession.GetFolderList
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderList
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo
+  isExternal: true
+  name: GetFolderInfo
+  nameWithType: MessageStoreSession.GetFolderInfo
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetFolderInfo
+- uid: SuperOffice.CRM.Mail.SoMailFolderInfo[]
+  isExternal: true
+  name: SoMailFolderInfo[]
+  nameWithType: SoMailFolderInfo[]
+  fullName: SuperOffice.CRM.Mail.SoMailFolderInfo[]
+  nameWithType.vb: SoMailFolderInfo()
+  fullName.vb: SuperOffice.CRM.Mail.SoMailFolderInfo()
+  name.vb: SoMailFolderInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Mail.SoMailFolderInfo
+    name: SoMailFolderInfo
+    nameWithType: SoMailFolderInfo
+    fullName: SuperOffice.CRM.Mail.SoMailFolderInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Mail.SoMailFolderInfo
+    name: SoMailFolderInfo
+    nameWithType: SoMailFolderInfo
+    fullName: SuperOffice.CRM.Mail.SoMailFolderInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment
+  isExternal: true
+  name: GetAttachment
+  nameWithType: MessageStoreSession.GetAttachment
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.GetAttachment
+- uid: SuperOffice.CRM.Mail.MailAttachment
+  isExternal: true
+  name: MailAttachment
+  nameWithType: MailAttachment
+  fullName: SuperOffice.CRM.Mail.MailAttachment
+- uid: SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder*
+  commentId: Overload:SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder
+  isExternal: true
+  name: CurrentFolder
+  nameWithType: MessageStoreSession.CurrentFolder
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession.CurrentFolder

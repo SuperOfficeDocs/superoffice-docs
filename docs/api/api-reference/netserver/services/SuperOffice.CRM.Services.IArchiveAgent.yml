@@ -1,0 +1,1651 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  id: IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
+  - SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String,System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
+  - SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
+  - SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+  - SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String,System.String[])
+  - SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Archive Agent\nArchiveList functions of all kinds\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ArchiveAgent agent = new ArchiveAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Archive Agent", "Interface for the Archive Agent. ArchiveList functions of all kinds")]
+
+      public interface IArchiveAgent : IAgent
+    content.vb: >-
+      <Agent("Archive Agent", "Interface for the Archive Agent. ArchiveList functions of all kinds")>
+
+      Public Interface IArchiveAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Archive Agent
+    - type: System.String
+      value: Interface for the Archive Agent. ArchiveList functions of all kinds
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
+  id: CreateDefaultArchiveListResult
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultArchiveListResult()
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResult()
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ArchiveListResult.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ArchiveListResult CreateDefaultArchiveListResult()
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListResult
+      description: New ArchiveListResult with default values
+    content.vb: Function CreateDefaultArchiveListResult As ArchiveListResult
+  overload: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+  id: GetActivityFilter
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetActivityFilter()
+  nameWithType: IArchiveAgent.GetActivityFilter()
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet activity filter for the specified list.\n"
+  syntax:
+    content: ActivityFilter GetActivityFilter()
+    return:
+      type: SuperOffice.CRM.Services.ActivityFilter
+      description: The activity filter for the specified list
+    content.vb: Function GetActivityFilter As ActivityFilter
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+  id: SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetActivityFilter(ActivityFilter)
+  nameWithType: IArchiveAgent.SetActivityFilter(ActivityFilter)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter(SuperOffice.CRM.Services.ActivityFilter)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet activity filter for the specified list.\n"
+  syntax:
+    content: void SetActivityFilter(ActivityFilter activityFilter)
+    parameters:
+    - id: activityFilter
+      type: SuperOffice.CRM.Services.ActivityFilter
+      description: New activity filter
+    content.vb: Sub SetActivityFilter(activityFilter As ActivityFilter)
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
+  id: GetGroupAssociateIds(System.Int32[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetGroupAssociateIds(Int32[])
+  nameWithType: IArchiveAgent.GetGroupAssociateIds(Int32[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the  associate ids that belongs to the given groups\n"
+  syntax:
+    content: int[] GetGroupAssociateIds(int[] groupIds)
+    parameters:
+    - id: groupIds
+      type: System.Int32[]
+      description: Array of group ids
+    return:
+      type: System.Int32[]
+      description: Array of associate ids
+    content.vb: Function GetGroupAssociateIds(groupIds As Integer()) As Integer()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds*
+  nameWithType.vb: IArchiveAgent.GetGroupAssociateIds(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds(System.Int32())
+  name.vb: GetGroupAssociateIds(Int32())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String,System.String)
+  id: GetArchiveConfiguration(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveConfiguration(String, String)
+  nameWithType: IArchiveAgent.GetArchiveConfiguration(String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the configuration for one archive. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
+  syntax:
+    content: ArchiveConfiguration GetArchiveConfiguration(string guiName, string providerName)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    return:
+      type: SuperOffice.CRM.Services.ArchiveConfiguration
+      description: Archive configuration consisting of column information, orderby information and entities
+    content.vb: Function GetArchiveConfiguration(guiName As String, providerName As String) As ArchiveConfiguration
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String,System.String,System.String)
+  id: GetArchiveConfigurationWithContext(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveConfigurationWithContext(String, String, String)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContext(String, String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the configuration for one archive, with context parameter. The configuration is keyed by a combination of archive provider name and gui name. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
+  syntax:
+    content: ArchiveConfiguration GetArchiveConfigurationWithContext(string guiName, string providerName, string context)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveConfiguration
+      description: Archive configuration consisting of column information, orderby information and entities
+    content.vb: Function GetArchiveConfigurationWithContext(guiName As String, providerName As String, context As String) As ArchiveConfiguration
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String,System.String[])
+  id: SetColumnWidths(System.String,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetColumnWidths(String, String[])
+  nameWithType: IArchiveAgent.SetColumnWidths(String, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the column widths for the given set of columns and GUI name. \n"
+  syntax:
+    content: void SetColumnWidths(string guiName, string[] columnWidths)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: columnWidths
+      type: System.String[]
+      description: Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
+    content.vb: Sub SetColumnWidths(guiName As String, columnWidths As String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths*
+  nameWithType.vb: IArchiveAgent.SetColumnWidths(String, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths(System.String, System.String())
+  name.vb: SetColumnWidths(String, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String,System.String,System.String[])
+  id: SetChosenEntities(System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenEntities(String, String, String[])
+  nameWithType: IArchiveAgent.SetChosenEntities(String, String, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: void SetChosenEntities(string guiName, string providerName, string[] entities)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: entities
+      type: System.String[]
+      description: Array of entity names
+    content.vb: Sub SetChosenEntities(guiName As String, providerName As String, entities As String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities*
+  nameWithType.vb: IArchiveAgent.SetChosenEntities(String, String, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities(System.String, System.String, System.String())
+  name.vb: SetChosenEntities(String, String, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String,System.String,System.String[])
+  id: SetChosenColumns(System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenColumns(String, String, String[])
+  nameWithType: IArchiveAgent.SetChosenColumns(String, String, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: void SetChosenColumns(string guiName, string providerName, string[] chosenColumns)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: chosenColumns
+      type: System.String[]
+      description: Array of column names, where array order indicates left to right order in the archive.
+    content.vb: Sub SetChosenColumns(guiName As String, providerName As String, chosenColumns As String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns*
+  nameWithType.vb: IArchiveAgent.SetChosenColumns(String, String, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns(System.String, System.String, System.String())
+  name.vb: SetChosenColumns(String, String, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
+  id: GetArchiveConfigurationV2(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveConfigurationV2(String, String, String, String)
+  nameWithType: IArchiveAgent.GetArchiveConfigurationV2(String, String, String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the configuration for one archive. The configuration is keyed by a combination of archive provider name (plus optional context), gui name, and optional table binding. The archive provider name must match an archive provider plugin; the gui name is an arbitrary string used to distinguish multiple occurrences of the same underlying provider in a gui.\n"
+  syntax:
+    content: ArchiveConfiguration GetArchiveConfigurationV2(string guiName, string providerName, string context, string ownerKeys)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    return:
+      type: SuperOffice.CRM.Services.ArchiveConfiguration
+      description: Archive configuration consisting of column information, orderby information and entities
+    content.vb: Function GetArchiveConfigurationV2(guiName As String, providerName As String, context As String, ownerKeys As String) As ArchiveConfiguration
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
+  id: SetColumnWidthsV2(System.String,System.String,System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetColumnWidthsV2(String, String, String, String, String[])
+  nameWithType: IArchiveAgent.SetColumnWidthsV2(String, String, String, String, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String, System.String, System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the column widths for the given set of columns and GUI name. \n"
+  syntax:
+    content: void SetColumnWidthsV2(string guiName, string providerName, string context, string ownerKeys, string[] columnWidths)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: columnWidths
+      type: System.String[]
+      description: Array of column widths. A column width is specified either as a fixed number of character (10c) or as a percentage (10%). Percentages will be recalculated so that they add up to exactly 100 when the configuration is fetched again.
+    content.vb: Sub SetColumnWidthsV2(guiName As String, providerName As String, context As String, ownerKeys As String, columnWidths As String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2*
+  nameWithType.vb: IArchiveAgent.SetColumnWidthsV2(String, String, String, String, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2(System.String, System.String, System.String, System.String, System.String())
+  name.vb: SetColumnWidthsV2(String, String, String, String, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
+  id: SetChosenEntitiesV2(System.String,System.String,System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenEntitiesV2(String, String, String, String, String[])
+  nameWithType: IArchiveAgent.SetChosenEntitiesV2(String, String, String, String, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String, System.String, System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the currently chosen entities for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveEntities: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: void SetChosenEntitiesV2(string guiName, string providerName, string context, string ownerKeys, string[] entities)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: entities
+      type: System.String[]
+      description: Array of entity names
+    content.vb: Sub SetChosenEntitiesV2(guiName As String, providerName As String, context As String, ownerKeys As String, entities As String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2*
+  nameWithType.vb: IArchiveAgent.SetChosenEntitiesV2(String, String, String, String, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2(System.String, System.String, System.String, System.String, System.String())
+  name.vb: SetChosenEntitiesV2(String, String, String, String, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
+  id: SetChosenColumnsV2(System.String,System.String,System.String,System.String,System.String[])
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: SetChosenColumnsV2(String, String, String, String, String[])
+  nameWithType: IArchiveAgent.SetChosenColumnsV2(String, String, String, String, String[])
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String, System.String, System.String, System.String, System.String[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet the currently chosen columns for the given gui name/provider name combination. This service corresponds to the SetSelected method of the SelectableMDOList service, for a list called archiveColumns: plus the archive provider name and gui name as its additionalInfo.\n"
+  syntax:
+    content: void SetChosenColumnsV2(string guiName, string providerName, string context, string ownerKeys, string[] chosenColumns)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: String that identifies the archive in the GUI, must be the same when fetching and storing configurations, but does not otherwise have to match anything.
+    - id: providerName
+      type: System.String
+      description: Name of archive provider, must match one of the plugins known to the ArchiveProviderFactory.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor. Optional, but required for archives that depend on a context - for instance Quote archives that need to know their QuoteConnectionId to be meaningful
+    - id: ownerKeys
+      type: System.String
+      description: Name/value string containing ownership binding information. The first should resolve to a table/primarykey, such as selection=123. Future functionality may allow multiple/extended keys
+    - id: chosenColumns
+      type: System.String[]
+      description: Array of column names, where array order indicates left to right order in the archive.
+    content.vb: Sub SetChosenColumnsV2(guiName As String, providerName As String, context As String, ownerKeys As String, chosenColumns As String())
+  overload: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2*
+  nameWithType.vb: IArchiveAgent.SetChosenColumnsV2(String, String, String, String, String())
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2(System.String, System.String, System.String, System.String, System.String())
+  name.vb: SetChosenColumnsV2(String, String, String, String, String())
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  id: GetArchiveListByColumns(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumns(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns.\n"
+  remarks: "\n<p>Archive Restriction Info objects represent search terms.</p>\n<p>\n    See the <a href=\"../Reference/Archive%20Providers/-Restriction%20Types.htm\">\n        restriction types reference for\n        operator details\n</a>.\n</p>\n<p>Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a></p>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows,\nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveListByColumns(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumns(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumns(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32)
+  name.vb: GetArchiveListByColumns(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  id: GetArchiveListByColumnsWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list with context parameter, explicitly specifying the restrictions, orderby and chosen columns.\n"
+  remarks: "\n<p>Archive Restriction Info objects represent search terms.</p>\n<p>\n    See the <a href=\"../Reference/Archive%20Providers/-Restriction%20Types.htm\">\n        restriction types reference for\n        operator details\n</a>.\n</p>\n<p>Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a></p>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows,\nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveListByColumnsWithContext(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithContext(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String)
+  name.vb: GetArchiveListByColumnsWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  id: GetArchiveList(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveList(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of data for an archive. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  remarks: "\n<p>Archive Restriction Info objects represent search terms.</p>\n<p>\n    See the <a href=\"../Reference/Archive%20Providers/-Restriction%20Types.htm\">\n        restriction types reference for\n        operator details\n</a>.\n</p>\n<p>Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a></p>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows,\nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveList(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveList(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList*
+  nameWithType.vb: IArchiveAgent.GetArchiveList(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32)
+  name.vb: GetArchiveList(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  id: GetArchiveListWithContext(System.String,System.String,SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListWithContext(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
+  nameWithType: IArchiveAgent.GetArchiveListWithContext(String, String, ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of data for an archive, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  remarks: "\n<p>Archive Restriction Info objects represent search terms.</p>\n<p>\n    See the <a href=\"../Reference/Archive%20Providers/-Restriction%20Types.htm\">\n        restriction types reference for\n        operator details\n</a>.\n</p>\n<p>Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a></p>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows,\nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveListWithContext(string guiName, string providerName, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string context)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListWithContext(guiName As String, providerName As String, sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext*
+  nameWithType.vb: IArchiveAgent.GetArchiveListWithContext(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext(System.String, System.String, SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String)
+  name.vb: GetArchiveListWithContext(String, String, ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  id: GetArchiveListByColumnsWithHeader(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeader(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  remarks: "\n<p>Archive Restriction Info objects represent search terms.</p>\n<p>\n    See the <a href=\"../Reference/Archive%20Providers/-Restriction%20Types.htm\">\n        restriction types reference for\n        operator details\n</a>.\n</p>\n<p>Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a></p>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows,\nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListResult GetArchiveListByColumnsWithHeader(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListResult
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeader(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String) As ArchiveListResult
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeader(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String)
+  name.vb: GetArchiveListByColumnsWithHeader(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+  id: GetProviderNames
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProviderNames()
+  nameWithType: IArchiveAgent.GetProviderNames()
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn list of all archive provider names\n"
+  syntax:
+    content: string[] GetProviderNames()
+    return:
+      type: System.String[]
+      description: 'Array of all archive provider names. '
+    content.vb: Function GetProviderNames As String()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
+  id: GetArchiveListByColumnsWithHeaderWithContext(System.String,System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeaderWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String, String[], ArchiveOrderByInfo[], ArchiveRestrictionInfo[], String[], Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String, System.String[], SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[], SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[], System.String[], System.Int32, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list, with context parameter, explicitly specifying the restrictions, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  remarks: "\n<p>Archive Restriction Info objects represent search terms.</p>\n<p>\n    See the <a href=\"../Reference/Archive%20Providers/-Restriction%20Types.htm\">\n        restriction types reference for\n        operator details\n</a>.\n</p>\n<p>Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a></p>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows,\nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[1];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar restrictions = new ArchiveRestrictionInfo[2];\nrestrictions[0] = new ArchiveRestrictionInfo(&quot;updatedBy&quot;, &quot;equals&quot;, &quot;2&quot;);\nrestrictions[1] = new ArchiveRestrictionInfo(&quot;updatedDate&quot;, &quot;after&quot;, &quot;2000.1.2&quot;);\nvar res = _agent.FindFromRestrictions(restrictions, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListResult GetArchiveListByColumnsWithHeaderWithContext(string providerName, string[] columns, ArchiveOrderByInfo[] sortOrder, ArchiveRestrictionInfo[] restriction, string[] entities, int page, int pageSize, string options, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String[]
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+      description: Archive restrictions. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String[]
+      description: Which entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListResult
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeaderWithContext(providerName As String, columns As String(), sortOrder As ArchiveOrderByInfo(), restriction As ArchiveRestrictionInfo(), entities As String(), page As Integer, pageSize As Integer, options As String, context As String) As ArchiveListResult
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext*
+  nameWithType.vb: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String)
+  fullName.vb: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext(System.String, System.String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), System.String(), System.Int32, System.Int32, System.String, System.String)
+  name.vb: GetArchiveListByColumnsWithHeaderWithContext(String, String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String(), Int32, Int32, String, String)
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String,System.String)
+  id: GetAvailableColumns(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableColumns(String, String)
+  nameWithType: IArchiveAgent.GetAvailableColumns(String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn list of all columns supported by an archive provider. See also GetArchiveConfiguration.\n"
+  syntax:
+    content: ArchiveColumnInfo[] GetAvailableColumns(string providerName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: context
+      type: System.String
+      description: Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+      description: 'Array of all columns supported by the archive provider. '
+    content.vb: Function GetAvailableColumns(providerName As String, context As String) As ArchiveColumnInfo()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String,System.String)
+  id: GetAvailableEntities(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAvailableEntities(String, String)
+  nameWithType: IArchiveAgent.GetAvailableEntities(String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn list of all entities supported by an archive provider. See also GetArchiveConfiguration.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: MDOListItem[] GetAvailableEntities(string providerName, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: context
+      type: System.String
+      description: Optional context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.MDOListItem[]
+      description: 'Array of all entity types supported by the archive provider. MDOListItem.Name = DisplayName, Tooltip = DisplayTooltip, Type = code name, StyleHint = optional/mandatory, IconHint=DefaultShow '
+    content.vb: Function GetAvailableEntities(providerName As String, context As String) As MDOListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  id: GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions as a string, orderby and chosen columns.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveListByColumns2(string providerName, string columns, string sortOrder, string restrictions, string entities, int page, int pageSize)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: An array of the names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive as string (&apos;name asc, dept desc&apos;). Can be null, which indicates &apos;no particular order&apos;
+    - id: restrictions
+      type: System.String
+      description: Archive restrictions as string (&apos;category = 1 and business oneOf (1,2,3)&apos;). Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumns2(providerName As String, columns As String, sortOrder As String, restrictions As String, entities As String, page As Integer, pageSize As Integer) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  id: GetArchiveListByColumnsWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithContext2(String, String, String, String, String, Int32, Int32, String)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2(String, String, String, String, String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list with context parameter, explicitly specifying the restrictions as a string, orderby and chosen columns.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveListByColumnsWithContext2(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: Comma separated names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: 'Comma separated list of columns to sort order for the archive. e.g.: &quot;name asc, dept desc, registeredBy&quot; Can be null, which indicates &apos;no particular order&apos;'
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. e.g. &quot;name startsWith &apos;foo&apos; and (dept = &apos;bar&apos; or dept = &apos;baz&apos;)&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithContext2(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  id: GetArchiveList2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveList2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveList2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of data for an archive using a restriction string. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveList2(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive. Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. e.g. &quot;name = &apos;baz&apos; or category oneOf (1,2,3)&quot;. Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveList2(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  id: GetArchiveListWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListWithContext2(String, String, String, String, String, Int32, Int32, String)
+  nameWithType: IArchiveAgent.GetArchiveListWithContext2(String, String, String, String, String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of data for an archive using restrictions as strings, with context parameter. The columns returned will be those set as chosen columns, using either the SetChosenColumns service or the corresponding SelectableMDOList.SetSelected.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListItem[] GetArchiveListWithContext2(string guiName, string providerName, string sortOrder, string restriction, string entities, int page, int pageSize, string context)
+    parameters:
+    - id: guiName
+      type: System.String
+      description: The GUI name of the archive list, used to retrieve the currently configured set of columns (otherwise manipulated using the ArchiveConfiguration service)
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive. e.g. &quot;name asc, dept desc&quot; Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. e.g. &quot;name gt &apos;B&apos; or dept = &apos;baz&apos;&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListItem[]
+      description: Array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListWithContext2(guiName As String, providerName As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, context As String) As ArchiveListItem()
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  id: GetArchiveListByColumnsWithHeader2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeader2(String, String, String, String, String, Int32, Int32, String)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2(String, String, String, String, String, Int32, Int32, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListResult GetArchiveListByColumnsWithHeader2(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: Comma separated string of the names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: Comma separated string of sort order for the archive. e.g. &quot;name asc, dept desc&quot; Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions. e.g. &quot;category = 2 or business oneOf (2,3,4)&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListResult
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeader2(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String) As ArchiveListResult
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2*
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
+  id: GetArchiveListByColumnsWithHeaderWithContext2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: GetArchiveListByColumnsWithHeaderWithContext2(String, String, String, String, String, Int32, Int32, String, String)
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String, String, String, String, String, Int32, Int32, String, String)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a page of results for an archive list, with context parameter, explicitly specifying the restrictions as strings, orderby and chosen columns; as well as a name/value string formatted set of options. The return value includes a header that has various extra information, in addition to the actual rows.\n"
+  remarks: "\n<p>\n    Archive Restriction strings are OData or SQL-ish.\n    Column names are documented in <a href=\"../Reference/Archive%20Providers/Archive%20providers.htm\">Archive Provider Names</a>\n</p>\n<h2>Binary operators</h2>\n<ul><li>=, eq, equals</li><li>&lt;, lt, less</li><li>&lt;=, le</li><li>>, gt</li><li>>=, ge</li><li>ne, unequals</li><li>between</li><li>set</li><li>begins</li><li>contains</li><li>is</li><li>isNot</li><li>notContains</li><li>associateIsOneOf</li><li>associateIsNotOneOf</li><li>oneOf, in</li><li>notOneOf</li><li>before</li><li>date</li><li>after</li><li>dateBetween</li></ul>\nFor example:\n<pre><code>    &quot;name begins &apos;Super&apos;&quot;\n    &quot;category = 3&quot;\n    &quot;category in (2,3,4)&quot;\n    &quot;xstop set&quot;\n    &quot;registered after &apos;2014.3.4&apos;&quot;\n    &quot;registered dateBetween (&apos;2014.11.29&apos;, &apos;2014.12.25&apos;)&quot;</code></pre>\n<h2>Unary operators</h2>\n<ul><li>currentAssociate</li><li>beforeToday</li><li>today</li><li>afterToday</li><li>lastWeek</li><li>thisWeek</li><li>nextWeek</li><li>lastMonth</li><li>thisMonth</li><li>nextMonth</li><li>lastQuarter</li><li>nextQuarter</li><li>thisHalf</li><li>thisYear</li></ul>\nFor example:\n<pre><code>&quot;updatedDate lastWeek&quot;, &quot;assocId currentAssociate&quot;</code></pre>\n<p></p>\n<h2>Brackets and or</h2>\n<p>AND and OR can be used to combine terms. AND has a higher priority than OR</p>\n<pre><code>&quot;business = 2  AND name contains &apos;super&apos;&quot;</code></pre>\n<p>Brackets can be used for grouping.</p>\n<pre><code>&quot;(business = 2 or category = 3) and name contains &apos;super&apos;&quot;</code></pre>\n<p></p>\n<h2>Aggregation operators</h2>\n<p>\n    The column names can encode grouping and summarizing.\n    You add functions and modifiers to the column name to trigger aggregation.\n</p>\n<ul><li>GroupBy(col)</li><li>Sum(col)</li><li>Avg(col)</li><li>Percent(col)</li><li>Count(col)</li><li>CountAll(col)</li><li>DatePart(col)</li></ul>\n<p>\n    You add modifiers to the end of the column name to trigger aggregation.\n</p>\n<ul><li>:Header</li><li>:Footer</li><li>:HideDetail</li></ul>\nDatePart specific modifiers\n<ul><li>:Year</li><li>:Quarter</li><li>:Month</li><li>:Day</li><li>:DayOfYear</li><li>:DayOfWeek</li><li>:Hour</li><li>:Weekno</li><li>:YearMonth</li><li>:YearWeekno</li><li>:YearQuarter</li></ul>\nExample: group last names together, and inject a header row for each group.\n<pre><code>    GroupBy(lastName):Header</code></pre>\nExample: count instances of middle names, and hide the individual rows, \nreport just the totals for each group using a footer. Note how the modifiers stack.\n<pre><code>    Count(middleName):HideDetail:Footer</code></pre>\nExample: the aggregator functions can nest, so you can say\n<pre><code>    GroupBy(DatePart(personUpdatedDate):YearMonth):Header</code></pre>\n<h2>Strings</h2>\n<p>\n    Use the <code>begins</code> or <code>contains</code> operators to do string searches.\n    You can also use the normal = operator to do string exact match checks.\n</p>\n<p>\n    Use backslash to escape single quotes in strings\n    (note that backslash needs to be doubled because c# also uses backslash escapes):\n</p>\n<pre><code>&quot;department contains &apos;Bob\\\\&apos;s&apos;&quot;</code></pre>\n<p></p>\n"
+  example:
+  - "\n<pre><code>&quot;name = &apos;SuperOffice AS&apos;&quot;\n&quot;name startsWith &apos;SuperOffice&apos;&quot;\n&quot;startsWith(name, &apos;SuperOffice&apos;)&quot;\n&quot;updatedDate after &apos;2000.12.30&apos;&quot;\n&quot;category = 10&quot;\n&quot;category in (10, 12, 53)&quot;\n&quot;category in (2,3,4) and name startswith &apos;super&apos;&quot;\n&quot;category in (2,3,4) or name startswith &apos;super&apos;&quot;\n&quot;(category = 2 or business = 3) and name contains &apos;super&apos;&quot;\n<p></p>\nvar agent = new FindAgent();\n<p></p>\nvar res1 = agent.FindFromRestrictions2(&quot;updatedBy = 2&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res1.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue == 2\n<p></p>\nvar res2 = agent.FindFromRestrictions2(&quot;updatedBy unequals 6 and updatedDate after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res2.ArchiveRows)\n    (int)row.ColumnData[&quot;updatedBy&quot;].RawValue != 6 &amp;&amp; \n    row.ColumnData[&quot;updatedDate&quot;].GetDateTimeValue() > new DateTime(2000, 1, 2);\n<p></p>\nvar res3 = agent.FindFromRestrictions2(&quot;category in (2,3)&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res3.ArchiveRows)\n    (int)row.ColumnData[&quot;category&quot;].RawValue == 2 || (int)row.ColumnData[&quot;category&quot;].RawValue == 3;\n<p></p>\nvar res4 = agent.FindFromRestrictions2(&quot;sale/date after &apos;2000.1.2&apos;&quot;, &quot;FindContact&quot;, 100, 0);\nforeach (var row in res4.ArchiveRows)\n    (row.ColumnData[&quot;sale/date&quot;].GetDateTimeValue().Year >= 2000 \n<p></p>\nvar res5 = _agent.FindFromRestrictionsColumns2(&quot;(category =2 or business = 3) and name contains &apos;e&apos;&quot;, \n         _provider, &quot;category,business,name&quot;, 100, 0);\nforeach (var row in res5.ArchiveRows)\n    ((int)x.ColumnData[&quot;category&quot;].RawValue == 2 || \n     (int)x.ColumnData[&quot;business&quot;].RawValue == 3) &amp;&amp; \n     (x.ColumnData[&quot;name&quot;].RawValue as string).Contains(&quot;e&quot;) );\n<p></p>\n<p></p></code></pre>\n"
+  syntax:
+    content: ArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(string providerName, string columns, string sortOrder, string restriction, string entities, int page, int pageSize, string options, string context)
+    parameters:
+    - id: providerName
+      type: System.String
+      description: The name of the archive provider to use; it will be created via the ArchiveProviderFactory from a plugin
+    - id: columns
+      type: System.String
+      description: Comma separated list of the names of the columns wanted.
+    - id: sortOrder
+      type: System.String
+      description: Sort order for the archive. &quot;name asc, dept desc&quot; Can be null, which indicates &apos;no particular order&apos;
+    - id: restriction
+      type: System.String
+      description: Archive restrictions as string. &quot;updated > &apos;2009.1.1&apos; and registeredBy = 2&quot; Archives will generally throw an exception if no restrictions are set. Pass in an empty array if you really do not want restrictions, but remember that you may end up fetching the first page of millions of rows.
+    - id: entities
+      type: System.String
+      description: Comma separated list of entities to include. Can be null, which indicates &apos;include all entities&apos;
+    - id: page
+      type: System.Int32
+      description: Page number, page 0 is the first page. Negative page numbers are interpreted as number of rows to skip.
+    - id: pageSize
+      type: System.Int32
+      description: Page size, which should be kept reasonable (say, no more than 1000 rows at a time)
+    - id: options
+      type: System.String
+      description: name=value&amp;amp;... formatted set of options. &quot;rowcount=true&quot; will cause the rowcount to be calculated and populated.
+    - id: context
+      type: System.String
+      description: Context parameter, url-encoded string context parameter for ArchiveProvider constructor
+    return:
+      type: SuperOffice.CRM.Services.ArchiveListResult
+      description: Header with optional row count, plus array of archive list items, where each item represents one row of data (row level data + the requested columns)
+    content.vb: Function GetArchiveListByColumnsWithHeaderWithContext2(providerName As String, columns As String, sortOrder As String, restriction As String, entities As String, page As Integer, pageSize As Integer, options As String, context As String) As ArchiveListResult
+  overload: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2*
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
+  isExternal: true
+  name: CreateDefaultArchiveListResult
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResult
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResult
+- uid: SuperOffice.CRM.Services.ArchiveListResult
+  commentId: T:SuperOffice.CRM.Services.ArchiveListResult
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ArchiveListResult
+  nameWithType: ArchiveListResult
+  fullName: SuperOffice.CRM.Services.ArchiveListResult
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+  isExternal: true
+  name: GetActivityFilter
+  nameWithType: IArchiveAgent.GetActivityFilter
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilter
+- uid: SuperOffice.CRM.Services.ActivityFilter
+  commentId: T:SuperOffice.CRM.Services.ActivityFilter
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ActivityFilter
+  nameWithType: ActivityFilter
+  fullName: SuperOffice.CRM.Services.ActivityFilter
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter
+  isExternal: true
+  name: SetActivityFilter
+  nameWithType: IArchiveAgent.SetActivityFilter
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetActivityFilter
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds
+  isExternal: true
+  name: GetGroupAssociateIds
+  nameWithType: IArchiveAgent.GetGroupAssociateIds
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetGroupAssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration
+  isExternal: true
+  name: GetArchiveConfiguration
+  nameWithType: IArchiveAgent.GetArchiveConfiguration
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfiguration
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ArchiveConfiguration
+  commentId: T:SuperOffice.CRM.Services.ArchiveConfiguration
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ArchiveConfiguration
+  nameWithType: ArchiveConfiguration
+  fullName: SuperOffice.CRM.Services.ArchiveConfiguration
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext
+  isExternal: true
+  name: GetArchiveConfigurationWithContext
+  nameWithType: IArchiveAgent.GetArchiveConfigurationWithContext
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationWithContext
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths
+  isExternal: true
+  name: SetColumnWidths
+  nameWithType: IArchiveAgent.SetColumnWidths
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidths
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities
+  isExternal: true
+  name: SetChosenEntities
+  nameWithType: IArchiveAgent.SetChosenEntities
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntities
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns
+  isExternal: true
+  name: SetChosenColumns
+  nameWithType: IArchiveAgent.SetChosenColumns
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumns
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2
+  isExternal: true
+  name: GetArchiveConfigurationV2
+  nameWithType: IArchiveAgent.GetArchiveConfigurationV2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveConfigurationV2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2
+  isExternal: true
+  name: SetColumnWidthsV2
+  nameWithType: IArchiveAgent.SetColumnWidthsV2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetColumnWidthsV2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2
+  isExternal: true
+  name: SetChosenEntitiesV2
+  nameWithType: IArchiveAgent.SetChosenEntitiesV2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenEntitiesV2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2
+  isExternal: true
+  name: SetChosenColumnsV2
+  nameWithType: IArchiveAgent.SetChosenColumnsV2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.SetChosenColumnsV2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns
+  isExternal: true
+  name: GetArchiveListByColumns
+  nameWithType: IArchiveAgent.GetArchiveListByColumns
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  isExternal: true
+  name: ArchiveOrderByInfo[]
+  nameWithType: ArchiveOrderByInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+  nameWithType.vb: ArchiveOrderByInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo()
+  name.vb: ArchiveOrderByInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  isExternal: true
+  name: ArchiveRestrictionInfo[]
+  nameWithType: ArchiveRestrictionInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[]
+  nameWithType.vb: ArchiveRestrictionInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo()
+  name.vb: ArchiveRestrictionInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.ArchiveListItem[]
+  isExternal: true
+  name: ArchiveListItem[]
+  nameWithType: ArchiveListItem[]
+  fullName: SuperOffice.CRM.Services.ArchiveListItem[]
+  nameWithType.vb: ArchiveListItem()
+  fullName.vb: SuperOffice.CRM.Services.ArchiveListItem()
+  name.vb: ArchiveListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ArchiveListItem
+    name: ArchiveListItem
+    nameWithType: ArchiveListItem
+    fullName: SuperOffice.CRM.Services.ArchiveListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext
+  isExternal: true
+  name: GetArchiveListByColumnsWithContext
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList
+  isExternal: true
+  name: GetArchiveList
+  nameWithType: IArchiveAgent.GetArchiveList
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext
+  isExternal: true
+  name: GetArchiveListWithContext
+  nameWithType: IArchiveAgent.GetArchiveListWithContext
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeader
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+  isExternal: true
+  name: GetProviderNames
+  nameWithType: IArchiveAgent.GetProviderNames
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetProviderNames
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeaderWithContext
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns
+  isExternal: true
+  name: GetAvailableColumns
+  nameWithType: IArchiveAgent.GetAvailableColumns
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableColumns
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  isExternal: true
+  name: ArchiveColumnInfo[]
+  nameWithType: ArchiveColumnInfo[]
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[]
+  nameWithType.vb: ArchiveColumnInfo()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo()
+  name.vb: ArchiveColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    name: ArchiveColumnInfo
+    nameWithType: ArchiveColumnInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities
+  isExternal: true
+  name: GetAvailableEntities
+  nameWithType: IArchiveAgent.GetAvailableEntities
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetAvailableEntities
+- uid: SuperOffice.CRM.Services.MDOListItem[]
+  isExternal: true
+  name: MDOListItem[]
+  nameWithType: MDOListItem[]
+  fullName: SuperOffice.CRM.Services.MDOListItem[]
+  nameWithType.vb: MDOListItem()
+  fullName.vb: SuperOffice.CRM.Services.MDOListItem()
+  name.vb: MDOListItem()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.MDOListItem
+    name: MDOListItem
+    nameWithType: MDOListItem
+    fullName: SuperOffice.CRM.Services.MDOListItem
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+  isExternal: true
+  name: GetArchiveListByColumns2
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2
+  isExternal: true
+  name: GetArchiveListByColumnsWithContext2
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithContext2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithContext2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2
+  isExternal: true
+  name: GetArchiveList2
+  nameWithType: IArchiveAgent.GetArchiveList2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveList2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2
+  isExternal: true
+  name: GetArchiveListWithContext2
+  nameWithType: IArchiveAgent.GetArchiveListWithContext2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListWithContext2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeader2
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeader2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeader2
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2*
+  commentId: Overload:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
+  isExternal: true
+  name: GetArchiveListByColumnsWithHeaderWithContext2
+  nameWithType: IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2

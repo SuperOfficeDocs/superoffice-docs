@@ -1,0 +1,377 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.IContextResolverPlugin
+  commentId: T:SuperOffice.Security.Principal.IContextResolverPlugin
+  id: IContextResolverPlugin
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext(System.IdentityModel.Tokens.SecurityToken[],System.String@)
+  langs:
+  - csharp
+  - vb
+  name: IContextResolverPlugin
+  nameWithType: IContextResolverPlugin
+  fullName: SuperOffice.Security.Principal.IContextResolverPlugin
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nInterface implemented by context resolvers.\n"
+  remarks: "\nA Context resolver is responsible for determine if a particular user belongs to a \nparticular context.  This plugin is called during pre-authentication procedure to \nfigure out what database teh authentication should be carried out on.\n"
+  syntax:
+    content: 'public interface IContextResolverPlugin : ISoSecurityTokenSupplier, IPlugin'
+    content.vb: >-
+      Public Interface IContextResolverPlugin
+          Inherits ISoSecurityTokenSupplier, IPlugin
+  inheritedMembers:
+  - SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  extensionMethods:
+  - SuperOffice.Security.Principal.IContextResolverPlugin.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.IContextResolverPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext(System.IdentityModel.Tokens.SecurityToken[],System.String@)
+  commentId: M:SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext(System.IdentityModel.Tokens.SecurityToken[],System.String@)
+  id: TryResolveContext(System.IdentityModel.Tokens.SecurityToken[],System.String@)
+  parent: SuperOffice.Security.Principal.IContextResolverPlugin
+  langs:
+  - csharp
+  - vb
+  name: TryResolveContext(SecurityToken[], out String)
+  nameWithType: IContextResolverPlugin.TryResolveContext(SecurityToken[], out String)
+  fullName: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext(System.IdentityModel.Tokens.SecurityToken[], out System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  summary: "\nImplementation of this method is responsible for resolving the context\n"
+  syntax:
+    content: bool TryResolveContext(SecurityToken[] tokens, out string context)
+    parameters:
+    - id: tokens
+      type: System.IdentityModel.Tokens.SecurityToken[]
+      description: Tokens that can be used as a source to resolve context
+    - id: context
+      type: System.String
+      description: Name of the resolved context
+    return:
+      type: System.Boolean
+      description: True if the context was successfully resolved.
+    content.vb: Function TryResolveContext(tokens As SecurityToken(), ByRef context As String) As Boolean
+  overload: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext*
+  nameWithType.vb: IContextResolverPlugin.TryResolveContext(SecurityToken(), ByRef String)
+  fullName.vb: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext(System.IdentityModel.Tokens.SecurityToken(), ByRef System.String)
+  name.vb: TryResolveContext(SecurityToken(), ByRef String)
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  commentId: M:SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+  parent: SuperOffice.Security.ISoSecurityTokenSupplier
+  isExternal: true
+  name: AppendSecurityToken(IList<SecurityToken>)
+  nameWithType: ISoSecurityTokenSupplier.AppendSecurityToken(IList<SecurityToken>)
+  fullName: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList<System.IdentityModel.Tokens.SecurityToken>)
+  nameWithType.vb: ISoSecurityTokenSupplier.AppendSecurityToken(IList(Of SecurityToken))
+  fullName.vb: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList(Of System.IdentityModel.Tokens.SecurityToken))
+  name.vb: AppendSecurityToken(IList(Of SecurityToken))
+  spec.csharp:
+  - uid: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+    name: AppendSecurityToken
+    nameWithType: ISoSecurityTokenSupplier.AppendSecurityToken
+    fullName: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken(System.Collections.Generic.IList{System.IdentityModel.Tokens.SecurityToken})
+    name: AppendSecurityToken
+    nameWithType: ISoSecurityTokenSupplier.AppendSecurityToken
+    fullName: SuperOffice.Security.ISoSecurityTokenSupplier.AppendSecurityToken
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.IContextResolverPlugin.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IContextResolverPlugin, To>()
+  nameWithType: EnumUtil.MapEnums<IContextResolverPlugin, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IContextResolverPlugin, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IContextResolverPlugin, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IContextResolverPlugin, To)()
+  name.vb: MapEnums(Of IContextResolverPlugin, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IContextResolverPlugin, To>
+    nameWithType: EnumUtil.MapEnums<IContextResolverPlugin, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.IContextResolverPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IContextResolverPlugin, To)
+    nameWithType: EnumUtil.MapEnums(Of IContextResolverPlugin, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.IContextResolverPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.IContextResolverPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IContextResolverPlugin, To>()
+  nameWithType: Converters.MapEnums<IContextResolverPlugin, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IContextResolverPlugin, To>()
+  nameWithType.vb: Converters.MapEnums(Of IContextResolverPlugin, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IContextResolverPlugin, To)()
+  name.vb: MapEnums(Of IContextResolverPlugin, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IContextResolverPlugin, To>
+    nameWithType: Converters.MapEnums<IContextResolverPlugin, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.IContextResolverPlugin, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IContextResolverPlugin, To)
+    nameWithType: Converters.MapEnums(Of IContextResolverPlugin, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.IContextResolverPlugin, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.ISoSecurityTokenSupplier
+  commentId: T:SuperOffice.Security.ISoSecurityTokenSupplier
+  parent: SuperOffice.Security
+  isExternal: true
+  name: ISoSecurityTokenSupplier
+  nameWithType: ISoSecurityTokenSupplier
+  fullName: SuperOffice.Security.ISoSecurityTokenSupplier
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Security
+  commentId: N:SuperOffice.Security
+  isExternal: true
+  name: SuperOffice.Security
+  nameWithType: SuperOffice.Security
+  fullName: SuperOffice.Security
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext*
+  commentId: Overload:SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext
+  isExternal: true
+  name: TryResolveContext
+  nameWithType: IContextResolverPlugin.TryResolveContext
+  fullName: SuperOffice.Security.Principal.IContextResolverPlugin.TryResolveContext
+- uid: System.IdentityModel.Tokens.SecurityToken[]
+  isExternal: true
+  name: SecurityToken[]
+  nameWithType: SecurityToken[]
+  fullName: System.IdentityModel.Tokens.SecurityToken[]
+  nameWithType.vb: SecurityToken()
+  fullName.vb: System.IdentityModel.Tokens.SecurityToken()
+  name.vb: SecurityToken()
+  spec.csharp:
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.IdentityModel.Tokens.SecurityToken
+    name: SecurityToken
+    nameWithType: SecurityToken
+    fullName: System.IdentityModel.Tokens.SecurityToken
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,1216 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  id: DatePartAggregation
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  children:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.#ctor
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.PluginName
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString
+  langs:
+  - csharp
+  - vb
+  name: DatePartAggregation
+  nameWithType: DatePartAggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  summary: "\nAggregation plugin: Extract a date part, specified as a modifier\n"
+  remarks: "\nThis aggregator produces no aggregated value; instead it returns modified\ndetail rows. The return value is an integer, the specified part of the date\nthat is the incoming item.\n<table><thead><tr><th>Modifier</th><th>What you get</th></tr></thead><tbody><tr><td>Year</td><td>4-digit year</td></tr><tr><td>Quarter</td><td>Single-digit quarter, starting at 1</td></tr><tr><td>Month</td><td>2-digit month</td></tr><tr><td>Day</td><td>2-digit day of month</td></tr><tr><td>DayOfYear</td><td>Day of year, 1-366</td></tr><tr><td>DayOfWeek</td><td>Day of week, 0=Sunday, 6=Saturday</td></tr><tr><td>Hour</td><td>2-digit 24h-hour</td></tr><tr><td>Weekno</td><td>Week number</td></tr><tr><td>YearMonth</td><td>4-digit year slash 2-digit month</td></tr><tr><td>YearWeekno</td><td>4-digit year slash 2-digit week number</td></tr><tr><td>YearQuarter</td><td>4-digit year slash single-digit quarter number</td></tr></tbody></table>\n"
+  syntax:
+    content: >-
+      [AggregationPlugin("DatePart")]
+
+      public class DatePartAggregation : AggregationPluginBase, IAggregationScalarPlugin, IAggregationPlugin, IPlugin
+    content.vb: >-
+      <AggregationPlugin("DatePart")>
+
+      Public Class DatePartAggregation
+          Inherits AggregationPluginBase
+          Implements IAggregationScalarPlugin, IAggregationPlugin, IPlugin
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  - SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute
+    ctor: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DatePart
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.PluginName
+  commentId: F:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.PluginName
+  id: PluginName
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  langs:
+  - csharp
+  - vb
+  name: PluginName
+  nameWithType: DatePartAggregation.PluginName
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.PluginName
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public const string PluginName = "DatePart"
+    return:
+      type: System.String
+    content.vb: Public Const PluginName As String = "DatePart"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  id: AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  langs:
+  - csharp
+  - vb
+  name: AddItem(ArchiveColumnData)
+  nameWithType: DatePartAggregation.AddItem(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public override ArchiveColumnData AddItem(ArchiveColumnData item)
+    parameters:
+    - id: item
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Overrides Function AddItem(item As ArchiveColumnData) As ArchiveColumnData
+  overridden: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue
+  id: GetAggregatedValue
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  langs:
+  - csharp
+  - vb
+  name: GetAggregatedValue()
+  nameWithType: DatePartAggregation.GetAggregatedValue()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public override ArchiveColumnData GetAggregatedValue()
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    content.vb: Public Overrides Function GetAggregatedValue As ArchiveColumnData
+  overridden: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue*
+  implements:
+  - SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString
+  id: ToString
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: DatePartAggregation.ToString()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+  langs:
+  - csharp
+  - vb
+  name: DatePartAggregation()
+  nameWithType: DatePartAggregation.DatePartAggregation()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.DatePartAggregation()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Aggregation
+  syntax:
+    content: public DatePartAggregation()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation
+  commentId: N:SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists.Aggregation
+  nameWithType: SuperOffice.CRM.ArchiveLists.Aggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: AggregationPluginBase
+  nameWithType: AggregationPluginBase
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: IAggregationScalarPlugin
+  nameWithType: IAggregationScalarPlugin
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationScalarPlugin
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  commentId: T:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation
+  isExternal: true
+  name: IAggregationPlugin
+  nameWithType: IAggregationPlugin
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: HasModifier(String)
+  nameWithType: AggregationPluginBase.HasModifier(String)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+    name: HasModifier
+    nameWithType: AggregationPluginBase.HasModifier
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier(System.String)
+    name: HasModifier
+    nameWithType: AggregationPluginBase.HasModifier
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.HasModifier
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: SetModifiers(String[])
+  nameWithType: AggregationPluginBase.SetModifiers(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+  nameWithType.vb: AggregationPluginBase.SetModifiers(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String())
+  name.vb: SetModifiers(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+    name: SetModifiers
+    nameWithType: AggregationPluginBase.SetModifiers
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers(System.String[])
+    name: SetModifiers
+    nameWithType: AggregationPluginBase.SetModifiers
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.SetModifiers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: AddItem(ArchiveColumnData[])
+  nameWithType: AggregationPluginBase.AddItem(ArchiveColumnData[])
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+  nameWithType.vb: AggregationPluginBase.AddItem(ArchiveColumnData())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData())
+  name.vb: AddItem(ArchiveColumnData())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData[])
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<DatePartAggregation, To>()
+  nameWithType: EnumUtil.MapEnums<DatePartAggregation, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of DatePartAggregation, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To)()
+  name.vb: MapEnums(Of DatePartAggregation, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<DatePartAggregation, To>
+    nameWithType: EnumUtil.MapEnums<DatePartAggregation, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of DatePartAggregation, To)
+    nameWithType: EnumUtil.MapEnums(Of DatePartAggregation, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<DatePartAggregation>(DatePartAggregation)
+  nameWithType: ObjectExtensions.AssignByReflection<DatePartAggregation>(DatePartAggregation)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation>(SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of DatePartAggregation)(DatePartAggregation)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)(SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)
+  name.vb: AssignByReflection(Of DatePartAggregation)(DatePartAggregation)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<DatePartAggregation>
+    nameWithType: ObjectExtensions.AssignByReflection<DatePartAggregation>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+    name: DatePartAggregation
+    nameWithType: DatePartAggregation
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of DatePartAggregation)
+    nameWithType: ObjectExtensions.AssignByReflection(Of DatePartAggregation)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+    name: DatePartAggregation
+    nameWithType: DatePartAggregation
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<DatePartAggregation>()
+  nameWithType: ObjectExtensions.GraphCopy<DatePartAggregation>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of DatePartAggregation)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)()
+  name.vb: GraphCopy(Of DatePartAggregation)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<DatePartAggregation>
+    nameWithType: ObjectExtensions.GraphCopy<DatePartAggregation>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of DatePartAggregation)
+    nameWithType: ObjectExtensions.GraphCopy(Of DatePartAggregation)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<DatePartAggregation, To>()
+  nameWithType: Converters.MapEnums<DatePartAggregation, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To>()
+  nameWithType.vb: Converters.MapEnums(Of DatePartAggregation, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To)()
+  name.vb: MapEnums(Of DatePartAggregation, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<DatePartAggregation, To>
+    nameWithType: Converters.MapEnums<DatePartAggregation, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of DatePartAggregation, To)
+    nameWithType: Converters.MapEnums(Of DatePartAggregation, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: AddItem(ArchiveColumnData)
+  nameWithType: AggregationPluginBase.AddItem(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: AggregationPluginBase.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem
+  isExternal: true
+  name: AddItem
+  nameWithType: DatePartAggregation.AddItem
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.AddItem
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  isExternal: true
+  name: AddItem(ArchiveColumnData)
+  nameWithType: IAggregationPlugin.AddItem(ArchiveColumnData)
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem(SuperOffice.CRM.ArchiveLists.ArchiveColumnData)
+    name: AddItem
+    nameWithType: IAggregationPlugin.AddItem
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.AddItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    name: ArchiveColumnData
+    nameWithType: ArchiveColumnData
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveColumnData
+  nameWithType: ArchiveColumnData
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveColumnData
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase
+  isExternal: true
+  name: GetAggregatedValue()
+  nameWithType: AggregationPluginBase.GetAggregatedValue()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: AggregationPluginBase.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: AggregationPluginBase.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.AggregationPluginBase.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue
+  isExternal: true
+  name: GetAggregatedValue
+  nameWithType: DatePartAggregation.GetAggregatedValue
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.GetAggregatedValue
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+  commentId: M:SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+  parent: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin
+  isExternal: true
+  name: GetAggregatedValue()
+  nameWithType: IAggregationPlugin.GetAggregatedValue()
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: IAggregationPlugin.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    name: GetAggregatedValue
+    nameWithType: IAggregationPlugin.GetAggregatedValue
+    fullName: SuperOffice.CRM.ArchiveLists.Aggregation.IAggregationPlugin.GetAggregatedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: DatePartAggregation.ToString
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.ToString
+- uid: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.#ctor
+  isExternal: true
+  name: DatePartAggregation
+  nameWithType: DatePartAggregation.DatePartAggregation
+  fullName: SuperOffice.CRM.ArchiveLists.Aggregation.DatePartAggregation.DatePartAggregation

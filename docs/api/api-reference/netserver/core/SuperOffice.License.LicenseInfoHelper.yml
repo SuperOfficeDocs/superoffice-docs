@@ -1,0 +1,614 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.License.LicenseInfoHelper
+  commentId: T:SuperOffice.License.LicenseInfoHelper
+  id: LicenseInfoHelper
+  parent: SuperOffice.License
+  children:
+  - SuperOffice.License.LicenseInfoHelper.GetModule(SuperOffice.License.LicenseInfo,System.String)
+  - SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
+  - SuperOffice.License.LicenseInfoHelper.LoadFromXml(System.String)
+  - SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
+  - SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
+  - SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
+  langs:
+  - csharp
+  - vb
+  name: LicenseInfoHelper
+  nameWithType: LicenseInfoHelper
+  fullName: SuperOffice.License.LicenseInfoHelper
+  type: Class
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: public static class LicenseInfoHelper
+    content.vb: Public Module LicenseInfoHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.License.LicenseInfoHelper.GetModule(SuperOffice.License.LicenseInfo,System.String)
+  commentId: M:SuperOffice.License.LicenseInfoHelper.GetModule(SuperOffice.License.LicenseInfo,System.String)
+  id: GetModule(SuperOffice.License.LicenseInfo,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.License.LicenseInfoHelper
+  langs:
+  - csharp
+  - vb
+  name: GetModule(LicenseInfo, String)
+  nameWithType: LicenseInfoHelper.GetModule(LicenseInfo, String)
+  fullName: SuperOffice.License.LicenseInfoHelper.GetModule(SuperOffice.License.LicenseInfo, System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: "\nGet the module privided the module name.\n"
+  syntax:
+    content: public static ModuleLicense GetModule(this LicenseInfo license, string moduleName)
+    parameters:
+    - id: license
+      type: SuperOffice.License.LicenseInfo
+      description: License to find the module in.
+    - id: moduleName
+      type: System.String
+      description: Name of the module to find.
+    return:
+      type: SuperOffice.License.ModuleLicense
+      description: The module found.  Null if no module is found matching the module name.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetModule(license As LicenseInfo, moduleName As String) As ModuleLicense
+  overload: SuperOffice.License.LicenseInfoHelper.GetModule*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.LicenseInfoHelper.LoadFromXml(System.String)
+  commentId: M:SuperOffice.License.LicenseInfoHelper.LoadFromXml(System.String)
+  id: LoadFromXml(System.String)
+  parent: SuperOffice.License.LicenseInfoHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadFromXml(String)
+  nameWithType: LicenseInfoHelper.LoadFromXml(String)
+  fullName: SuperOffice.License.LicenseInfoHelper.LoadFromXml(System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: "\n\n"
+  syntax:
+    content: public static LicenseInfo LoadFromXml(string text)
+    parameters:
+    - id: text
+      type: System.String
+    return:
+      type: SuperOffice.License.LicenseInfo
+    content.vb: Public Shared Function LoadFromXml(text As String) As LicenseInfo
+  overload: SuperOffice.License.LicenseInfoHelper.LoadFromXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
+  commentId: M:SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
+  id: WriteToXml(SuperOffice.License.LicenseInfo)
+  isExtensionMethod: true
+  parent: SuperOffice.License.LicenseInfoHelper
+  langs:
+  - csharp
+  - vb
+  name: WriteToXml(LicenseInfo)
+  nameWithType: LicenseInfoHelper.WriteToXml(LicenseInfo)
+  fullName: SuperOffice.License.LicenseInfoHelper.WriteToXml(SuperOffice.License.LicenseInfo)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: public static string WriteToXml(this LicenseInfo license)
+    parameters:
+    - id: license
+      type: SuperOffice.License.LicenseInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function WriteToXml(license As LicenseInfo) As String
+  overload: SuperOffice.License.LicenseInfoHelper.WriteToXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
+  commentId: M:SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
+  id: LoadFromFile(System.String)
+  parent: SuperOffice.License.LicenseInfoHelper
+  langs:
+  - csharp
+  - vb
+  name: LoadFromFile(String)
+  nameWithType: LicenseInfoHelper.LoadFromFile(String)
+  fullName: SuperOffice.License.LicenseInfoHelper.LoadFromFile(System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: public static LicenseInfo LoadFromFile(string fileName)
+    parameters:
+    - id: fileName
+      type: System.String
+    return:
+      type: SuperOffice.License.LicenseInfo
+    content.vb: Public Shared Function LoadFromFile(fileName As String) As LicenseInfo
+  overload: SuperOffice.License.LicenseInfoHelper.LoadFromFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
+  commentId: M:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
+  id: SaveLicenseAsXml(SuperOffice.License.LicenseInfo,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.License.LicenseInfoHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveLicenseAsXml(LicenseInfo, String)
+  nameWithType: LicenseInfoHelper.SaveLicenseAsXml(LicenseInfo, String)
+  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml(SuperOffice.License.LicenseInfo, System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  syntax:
+    content: public static void SaveLicenseAsXml(this LicenseInfo license, string fileName)
+    parameters:
+    - id: license
+      type: SuperOffice.License.LicenseInfo
+    - id: fileName
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SaveLicenseAsXml(license As LicenseInfo, fileName As String)
+  overload: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
+  commentId: M:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
+  id: SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.License.LicenseInfoHelper
+  langs:
+  - csharp
+  - vb
+  name: SaveLicenseAsImportFile(LicenseInfo, String)
+  nameWithType: LicenseInfoHelper.SaveLicenseAsImportFile(LicenseInfo, String)
+  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile(SuperOffice.License.LicenseInfo, System.String)
+  type: Method
+  source:
+    path: SoLicense
+    isExternal: true
+  assemblies:
+  - SoLicense
+  namespace: SuperOffice.License
+  summary: "\nWrite \n"
+  syntax:
+    content: public static void SaveLicenseAsImportFile(this LicenseInfo license, string initPath)
+    parameters:
+    - id: license
+      type: SuperOffice.License.LicenseInfo
+    - id: initPath
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub SaveLicenseAsImportFile(license As LicenseInfo, initPath As String)
+  overload: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.License
+  commentId: N:SuperOffice.License
+  isExternal: true
+  name: SuperOffice.License
+  nameWithType: SuperOffice.License
+  fullName: SuperOffice.License
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.License.LicenseInfoHelper.GetModule*
+  commentId: Overload:SuperOffice.License.LicenseInfoHelper.GetModule
+  isExternal: true
+  name: GetModule
+  nameWithType: LicenseInfoHelper.GetModule
+  fullName: SuperOffice.License.LicenseInfoHelper.GetModule
+- uid: SuperOffice.License.LicenseInfo
+  isExternal: true
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: SuperOffice.License.LicenseInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.License.ModuleLicense
+  isExternal: true
+  name: ModuleLicense
+  nameWithType: ModuleLicense
+  fullName: SuperOffice.License.ModuleLicense
+- uid: SuperOffice.License.LicenseInfoHelper.LoadFromXml*
+  commentId: Overload:SuperOffice.License.LicenseInfoHelper.LoadFromXml
+  isExternal: true
+  name: LoadFromXml
+  nameWithType: LicenseInfoHelper.LoadFromXml
+  fullName: SuperOffice.License.LicenseInfoHelper.LoadFromXml
+- uid: SuperOffice.License.LicenseInfoHelper.WriteToXml*
+  commentId: Overload:SuperOffice.License.LicenseInfoHelper.WriteToXml
+  isExternal: true
+  name: WriteToXml
+  nameWithType: LicenseInfoHelper.WriteToXml
+  fullName: SuperOffice.License.LicenseInfoHelper.WriteToXml
+- uid: SuperOffice.License.LicenseInfoHelper.LoadFromFile*
+  commentId: Overload:SuperOffice.License.LicenseInfoHelper.LoadFromFile
+  isExternal: true
+  name: LoadFromFile
+  nameWithType: LicenseInfoHelper.LoadFromFile
+  fullName: SuperOffice.License.LicenseInfoHelper.LoadFromFile
+- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml*
+  commentId: Overload:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml
+  isExternal: true
+  name: SaveLicenseAsXml
+  nameWithType: LicenseInfoHelper.SaveLicenseAsXml
+  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsXml
+- uid: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile*
+  commentId: Overload:SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile
+  isExternal: true
+  name: SaveLicenseAsImportFile
+  nameWithType: LicenseInfoHelper.SaveLicenseAsImportFile
+  fullName: SuperOffice.License.LicenseInfoHelper.SaveLicenseAsImportFile

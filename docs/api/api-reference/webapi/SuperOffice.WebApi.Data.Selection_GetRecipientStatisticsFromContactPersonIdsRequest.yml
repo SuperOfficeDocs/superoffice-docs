@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  id: Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.#ctor
+  - SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  nameWithType: Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Selection_GetRecipientStatisticsFromContactPersonIdsRequest : Object'
+    content.vb: >-
+      Public Class Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: Selection_GetRecipientStatisticsFromContactPersonIdsRequest()
+  nameWithType: Selection_GetRecipientStatisticsFromContactPersonIdsRequest.Selection_GetRecipientStatisticsFromContactPersonIdsRequest()
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.Selection_GetRecipientStatisticsFromContactPersonIdsRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Selection_GetRecipientStatisticsFromContactPersonIdsRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  commentId: P:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  id: ContactPersonIds
+  parent: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  langs:
+  - csharp
+  - vb
+  name: ContactPersonIds
+  nameWithType: Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public ContactPersonId[] ContactPersonIds { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ContactPersonId[]
+    content.vb: Public Property ContactPersonIds As ContactPersonId()
+  overload: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.#ctor
+  isExternal: true
+  name: Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  nameWithType: Selection_GetRecipientStatisticsFromContactPersonIdsRequest.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.Selection_GetRecipientStatisticsFromContactPersonIdsRequest
+- uid: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  isExternal: true
+  name: ContactPersonIds
+  nameWithType: Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+  fullName: SuperOffice.WebApi.Data.Selection_GetRecipientStatisticsFromContactPersonIdsRequest.ContactPersonIds
+- uid: SuperOffice.WebApi.Data.ContactPersonId[]
+  isExternal: true
+  name: ContactPersonId[]
+  nameWithType: ContactPersonId[]
+  fullName: SuperOffice.WebApi.Data.ContactPersonId[]
+  nameWithType.vb: ContactPersonId()
+  fullName.vb: SuperOffice.WebApi.Data.ContactPersonId()
+  name.vb: ContactPersonId()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.WebApi.Data.ContactPersonId
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ContactPersonId
+    name: ContactPersonId
+    nameWithType: ContactPersonId
+    fullName: SuperOffice.WebApi.Data.ContactPersonId
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

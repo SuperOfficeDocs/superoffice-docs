@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
+  commentId: T:SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
+  id: FreeText_SetEnabledRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.#ctor
+  - SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled
+  langs:
+  - csharp
+  - vb
+  name: FreeText_SetEnabledRequest
+  nameWithType: FreeText_SetEnabledRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class FreeText_SetEnabledRequest : Object'
+    content.vb: >-
+      Public Class FreeText_SetEnabledRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
+  langs:
+  - csharp
+  - vb
+  name: FreeText_SetEnabledRequest()
+  nameWithType: FreeText_SetEnabledRequest.FreeText_SetEnabledRequest()
+  fullName: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.FreeText_SetEnabledRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public FreeText_SetEnabledRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled
+  commentId: P:SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled
+  id: Enabled
+  parent: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest
+  langs:
+  - csharp
+  - vb
+  name: Enabled
+  nameWithType: FreeText_SetEnabledRequest.Enabled
+  fullName: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public bool Enabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Enabled As Boolean
+  overload: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.#ctor
+  isExternal: true
+  name: FreeText_SetEnabledRequest
+  nameWithType: FreeText_SetEnabledRequest.FreeText_SetEnabledRequest
+  fullName: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.FreeText_SetEnabledRequest
+- uid: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled*
+  commentId: Overload:SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled
+  isExternal: true
+  name: Enabled
+  nameWithType: FreeText_SetEnabledRequest.Enabled
+  fullName: SuperOffice.WebApi.Data.FreeText_SetEnabledRequest.Enabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

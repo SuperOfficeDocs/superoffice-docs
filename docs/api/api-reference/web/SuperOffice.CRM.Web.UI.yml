@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI
+  commentId: N:SuperOffice.CRM.Web.UI
+  id: SuperOffice.CRM.Web.UI
+  children:
+  - SuperOffice.CRM.Web.UI.AppointmentEvent
+  - SuperOffice.CRM.Web.UI.ArchiveRowContextObject
+  - SuperOffice.CRM.Web.UI.CalendarContainerEvent
+  - SuperOffice.CRM.Web.UI.CalendarEvent
+  - SuperOffice.CRM.Web.UI.IconHintHelper
+  - SuperOffice.CRM.Web.UI.ToolTipHelper
+  - SuperOffice.CRM.Web.UI.UIHelper
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.CRM.Web.UI
+  nameWithType: SuperOffice.CRM.Web.UI
+  fullName: SuperOffice.CRM.Web.UI
+  type: Namespace
+  assemblies:
+  - SuperOffice.CRMWeb
+references:
+- uid: SuperOffice.CRM.Web.UI.UIHelper
+  commentId: T:SuperOffice.CRM.Web.UI.UIHelper
+  isExternal: true
+  name: UIHelper
+  nameWithType: UIHelper
+  fullName: SuperOffice.CRM.Web.UI.UIHelper
+- uid: SuperOffice.CRM.Web.UI.IconHintHelper
+  commentId: T:SuperOffice.CRM.Web.UI.IconHintHelper
+  isExternal: true
+  name: IconHintHelper
+  nameWithType: IconHintHelper
+  fullName: SuperOffice.CRM.Web.UI.IconHintHelper
+- uid: SuperOffice.CRM.Web.UI.ArchiveRowContextObject
+  commentId: T:SuperOffice.CRM.Web.UI.ArchiveRowContextObject
+  parent: SuperOffice.CRM.Web.UI
+  isExternal: true
+  name: ArchiveRowContextObject
+  nameWithType: ArchiveRowContextObject
+  fullName: SuperOffice.CRM.Web.UI.ArchiveRowContextObject
+- uid: SuperOffice.CRM.Web.UI.AppointmentEvent
+  commentId: T:SuperOffice.CRM.Web.UI.AppointmentEvent
+  isExternal: true
+  name: AppointmentEvent
+  nameWithType: AppointmentEvent
+  fullName: SuperOffice.CRM.Web.UI.AppointmentEvent
+- uid: SuperOffice.CRM.Web.UI.CalendarContainerEvent
+  commentId: T:SuperOffice.CRM.Web.UI.CalendarContainerEvent
+  parent: SuperOffice.CRM.Web.UI
+  isExternal: true
+  name: CalendarContainerEvent
+  nameWithType: CalendarContainerEvent
+  fullName: SuperOffice.CRM.Web.UI.CalendarContainerEvent
+- uid: SuperOffice.CRM.Web.UI.CalendarEvent
+  commentId: T:SuperOffice.CRM.Web.UI.CalendarEvent
+  parent: SuperOffice.CRM.Web.UI
+  isExternal: true
+  name: CalendarEvent
+  nameWithType: CalendarEvent
+  fullName: SuperOffice.CRM.Web.UI.CalendarEvent
+- uid: SuperOffice.CRM.Web.UI.ToolTipHelper
+  commentId: T:SuperOffice.CRM.Web.UI.ToolTipHelper
+  isExternal: true
+  name: ToolTipHelper
+  nameWithType: ToolTipHelper
+  fullName: SuperOffice.CRM.Web.UI.ToolTipHelper
+- uid: SuperOffice.CRM.Web.UI
+  commentId: N:SuperOffice.CRM.Web.UI
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI
+  nameWithType: SuperOffice.CRM.Web.UI
+  fullName: SuperOffice.CRM.Web.UI

@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  commentId: T:SuperOffice.WebApi.Data.AppointmentCautionWarning
+  id: AppointmentCautionWarning
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.NotInSync
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.NotNotifiedByEmail
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.OK
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
+  - SuperOffice.WebApi.Data.AppointmentCautionWarning.value__
+  langs:
+  - csharp
+  - vb
+  name: AppointmentCautionWarning
+  nameWithType: AppointmentCautionWarning
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAppointment and invitation synchronization info\nThis Enum is used by:  appointment.cautionWarning\n"
+  syntax:
+    content: 'public sealed class AppointmentCautionWarning : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentCautionWarning
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.value__
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentCautionWarning.value__
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.OK
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.OK
+  id: OK
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: OK
+  nameWithType: AppointmentCautionWarning.OK
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.OK
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: OK - no special warnings\n"
+  syntax:
+    content: public const AppointmentCautionWarning OK
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    content.vb: Public Const OK As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.NotInSync
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.NotInSync
+  id: NotInSync
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: NotInSync
+  nameWithType: AppointmentCautionWarning.NotInSync
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.NotInSync
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Possibly not in sync with external systems\n"
+  syntax:
+    content: public const AppointmentCautionWarning NotInSync
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    content.vb: Public Const NotInSync As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.NotNotifiedByEmail
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.NotNotifiedByEmail
+  id: NotNotifiedByEmail
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: NotNotifiedByEmail
+  nameWithType: AppointmentCautionWarning.NotNotifiedByEmail
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.NotNotifiedByEmail
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Updated without sending email notifications\n"
+  syntax:
+    content: public const AppointmentCautionWarning NotNotifiedByEmail
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    content.vb: Public Const NotNotifiedByEmail As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
+  id: RecurrencePatternNotSupported
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: RecurrencePatternNotSupported
+  nameWithType: AppointmentCautionWarning.RecurrencePatternNotSupported
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.RecurrencePatternNotSupported
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: This recurrence pattern might not be supported in the external participants calendars\n"
+  syntax:
+    content: public const AppointmentCautionWarning RecurrencePatternNotSupported
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    content.vb: Public Const RecurrencePatternNotSupported As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  id: IncomingRecurrenceChangeNotSupported
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: IncomingRecurrenceChangeNotSupported
+  nameWithType: AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.IncomingRecurrenceChangeNotSupported
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n4: A requested change to a recurrence appointment was not supported\n"
+  syntax:
+    content: public const AppointmentCautionWarning IncomingRecurrenceChangeNotSupported
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    content.vb: Public Const IncomingRecurrenceChangeNotSupported As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  commentId: F:SuperOffice.WebApi.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  id: ExternalParticipantsDateTimeMismatch
+  parent: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  langs:
+  - csharp
+  - vb
+  name: ExternalParticipantsDateTimeMismatch
+  nameWithType: AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning.ExternalParticipantsDateTimeMismatch
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n5: Time and date may be wrong for external participants due to unsupported changes\n"
+  syntax:
+    content: public const AppointmentCautionWarning ExternalParticipantsDateTimeMismatch
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentCautionWarning
+    content.vb: Public Const ExternalParticipantsDateTimeMismatch As AppointmentCautionWarning
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.AppointmentCautionWarning
+  commentId: T:SuperOffice.WebApi.Data.AppointmentCautionWarning
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentCautionWarning
+  nameWithType: AppointmentCautionWarning
+  fullName: SuperOffice.WebApi.Data.AppointmentCautionWarning

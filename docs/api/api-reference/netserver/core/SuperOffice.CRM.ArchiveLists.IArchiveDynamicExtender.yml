@@ -1,0 +1,968 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender
+  id: IArchiveDynamicExtender
+  parent: SuperOffice.CRM.ArchiveLists
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IArchiveDynamicExtender
+  nameWithType: IArchiveDynamicExtender
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nFull interface for an extender that can be part of a dot-syntax provider\n"
+  syntax:
+    content: 'public interface IArchiveDynamicExtender : IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IPlugin, IArchiveProviderDynamicExtend'
+    content.vb: >-
+      Public Interface IArchiveDynamicExtender
+          Inherits IArchiveExtender, IArchiveProviderDoesExtend, IArchiveProviderHasColumns, IArchiveProviderExtensible, IPlugin, IArchiveProviderDynamicExtend
+  inheritedMembers:
+  - SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes(System.String,System.String)
+  - SuperOffice.CRM.ArchiveLists.IArchiveExtender.NamePrefix
+  - SuperOffice.CRM.ArchiveLists.IArchiveExtender.DisplayNamePrefix
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.RootQuery
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.TableToExtend
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.OrderBySlots
+  - SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin(System.String,System.String,SuperOffice.Data.ArchiveJoinType)
+  extensionMethods:
+  - SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: SuperOffice.CRM.ArchiveLists
+  commentId: N:SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: SuperOffice.CRM.ArchiveLists
+  nameWithType: SuperOffice.CRM.ArchiveLists
+  fullName: SuperOffice.CRM.ArchiveLists
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+  isExternal: true
+  name: SetPrefixes(String, String)
+  nameWithType: IArchiveExtender.SetPrefixes(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String,System.String)
+    name: SetPrefixes
+    nameWithType: IArchiveExtender.SetPrefixes
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes(System.String,System.String)
+    name: SetPrefixes
+    nameWithType: IArchiveExtender.SetPrefixes
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetPrefixes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes(System.String,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes(System.String,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+  isExternal: true
+  name: SetLocalAbsolutePrefixes(String, String)
+  nameWithType: IArchiveExtender.SetLocalAbsolutePrefixes(String, String)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes(System.String,System.String)
+    name: SetLocalAbsolutePrefixes
+    nameWithType: IArchiveExtender.SetLocalAbsolutePrefixes
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes(System.String,System.String)
+    name: SetLocalAbsolutePrefixes
+    nameWithType: IArchiveExtender.SetLocalAbsolutePrefixes
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.SetLocalAbsolutePrefixes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.NamePrefix
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveExtender.NamePrefix
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+  isExternal: true
+  name: NamePrefix
+  nameWithType: IArchiveExtender.NamePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.NamePrefix
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender.DisplayNamePrefix
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveExtender.DisplayNamePrefix
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+  isExternal: true
+  name: DisplayNamePrefix
+  nameWithType: IArchiveExtender.DisplayNamePrefix
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender.DisplayNamePrefix
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: ModifyQuery()
+  nameWithType: IArchiveProviderDoesExtend.ModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+    name: ModifyQuery
+    nameWithType: IArchiveProviderDoesExtend.ModifyQuery
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+    name: ModifyQuery
+    nameWithType: IArchiveProviderDoesExtend.ModifyQuery
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ModifyQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: PopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: IArchiveProviderDoesExtend.PopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: PopulateRowFromReader
+    nameWithType: IArchiveProviderDoesExtend.PopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: PopulateRowFromReader
+    nameWithType: IArchiveProviderDoesExtend.PopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.PopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: SetParent(IArchiveProviderExtensible)
+  nameWithType: IArchiveProviderDoesExtend.SetParent(IArchiveProviderExtensible)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+    name: SetParent
+    nameWithType: IArchiveProviderDoesExtend.SetParent
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+    name: IArchiveProviderExtensible
+    nameWithType: IArchiveProviderExtensible
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
+    name: SetParent
+    nameWithType: IArchiveProviderDoesExtend.SetParent
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.SetParent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+    name: IArchiveProviderExtensible
+    nameWithType: IArchiveProviderExtensible
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: IsQueryNeeded()
+  nameWithType: IArchiveProviderDoesExtend.IsQueryNeeded()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+    name: IsQueryNeeded
+    nameWithType: IArchiveProviderDoesExtend.IsQueryNeeded
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+    name: IsQueryNeeded
+    nameWithType: IArchiveProviderDoesExtend.IsQueryNeeded
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryNeeded
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: IsQueryRestriction()
+  nameWithType: IArchiveProviderDoesExtend.IsQueryRestriction()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+    name: IsQueryRestriction
+    nameWithType: IArchiveProviderDoesExtend.IsQueryRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+    name: IsQueryRestriction
+    nameWithType: IArchiveProviderDoesExtend.IsQueryRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.IsQueryRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: ForceDisable()
+  nameWithType: IArchiveProviderDoesExtend.ForceDisable()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+    name: ForceDisable
+    nameWithType: IArchiveProviderDoesExtend.ForceDisable
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+    name: ForceDisable
+    nameWithType: IArchiveProviderDoesExtend.ForceDisable
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.ForceDisable
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  isExternal: true
+  name: MainTableName
+  nameWithType: IArchiveProviderDoesExtend.MainTableName
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend.MainTableName
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: GetAvailableColumns()
+  nameWithType: IArchiveProviderHasColumns.GetAvailableColumns()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    name: GetAvailableColumns
+    nameWithType: IArchiveProviderHasColumns.GetAvailableColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.GetAvailableColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: IArchiveProviderHasColumns.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: IArchiveProviderHasColumns.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetOrderBy(ArchiveOrderByInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetOrderBy(ArchiveOrderByInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo())
+  name.vb: SetOrderBy(ArchiveOrderByInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
+    name: SetOrderBy
+    nameWithType: IArchiveProviderHasColumns.SetOrderBy
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetOrderBy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    name: ArchiveOrderByInfo
+    nameWithType: ArchiveOrderByInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  isExternal: true
+  name: SetRestriction(ArchiveRestrictionInfo[])
+  nameWithType: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo[])
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+  nameWithType.vb: IArchiveProviderHasColumns.SetRestriction(ArchiveRestrictionInfo())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo())
+  name.vb: SetRestriction(ArchiveRestrictionInfo())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
+    name: SetRestriction
+    nameWithType: IArchiveProviderHasColumns.SetRestriction
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns.SetRestriction
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    name: ArchiveRestrictionInfo
+    nameWithType: ArchiveRestrictionInfo
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  isExternal: true
+  name: AddExtensionProvider(IArchiveExtender)
+  nameWithType: IArchiveProviderExtensible.AddExtensionProvider(IArchiveExtender)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+    name: AddExtensionProvider
+    nameWithType: IArchiveProviderExtensible.AddExtensionProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+    name: IArchiveExtender
+    nameWithType: IArchiveExtender
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider(SuperOffice.CRM.ArchiveLists.IArchiveExtender)
+    name: AddExtensionProvider
+    nameWithType: IArchiveProviderExtensible.AddExtensionProvider
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.AddExtensionProvider
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+    name: IArchiveExtender
+    nameWithType: IArchiveExtender
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  isExternal: true
+  name: GetExtensionProviders()
+  nameWithType: IArchiveProviderExtensible.GetExtensionProviders()
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+    name: GetExtensionProviders
+    nameWithType: IArchiveProviderExtensible.GetExtensionProviders
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+    name: GetExtensionProviders
+    nameWithType: IArchiveProviderExtensible.GetExtensionProviders
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.GetExtensionProviders
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.RootQuery
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.RootQuery
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  isExternal: true
+  name: RootQuery
+  nameWithType: IArchiveProviderExtensible.RootQuery
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.RootQuery
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.TableToExtend
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.TableToExtend
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  isExternal: true
+  name: TableToExtend
+  nameWithType: IArchiveProviderExtensible.TableToExtend
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.TableToExtend
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.OrderBySlots
+  commentId: P:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.OrderBySlots
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  isExternal: true
+  name: OrderBySlots
+  nameWithType: IArchiveProviderExtensible.OrderBySlots
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible.OrderBySlots
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin(System.String,System.String,SuperOffice.Data.ArchiveJoinType)
+  commentId: M:SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin(System.String,System.String,SuperOffice.Data.ArchiveJoinType)
+  parent: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend
+  isExternal: true
+  name: SetDynamicJoin(String, String, ArchiveJoinType)
+  nameWithType: IArchiveProviderDynamicExtend.SetDynamicJoin(String, String, ArchiveJoinType)
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin(System.String, System.String, SuperOffice.Data.ArchiveJoinType)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin(System.String,System.String,SuperOffice.Data.ArchiveJoinType)
+    name: SetDynamicJoin
+    nameWithType: IArchiveProviderDynamicExtend.SetDynamicJoin
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.ArchiveJoinType
+    name: ArchiveJoinType
+    nameWithType: ArchiveJoinType
+    fullName: SuperOffice.Data.ArchiveJoinType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin(System.String,System.String,SuperOffice.Data.ArchiveJoinType)
+    name: SetDynamicJoin
+    nameWithType: IArchiveProviderDynamicExtend.SetDynamicJoin
+    fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend.SetDynamicJoin
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.ArchiveJoinType
+    name: ArchiveJoinType
+    nameWithType: ArchiveJoinType
+    fullName: SuperOffice.Data.ArchiveJoinType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IArchiveDynamicExtender, To>()
+  nameWithType: EnumUtil.MapEnums<IArchiveDynamicExtender, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IArchiveDynamicExtender, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To)()
+  name.vb: MapEnums(Of IArchiveDynamicExtender, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IArchiveDynamicExtender, To>
+    nameWithType: EnumUtil.MapEnums<IArchiveDynamicExtender, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IArchiveDynamicExtender, To)
+    nameWithType: EnumUtil.MapEnums(Of IArchiveDynamicExtender, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IArchiveDynamicExtender, To>()
+  nameWithType: Converters.MapEnums<IArchiveDynamicExtender, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To>()
+  nameWithType.vb: Converters.MapEnums(Of IArchiveDynamicExtender, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To)()
+  name.vb: MapEnums(Of IArchiveDynamicExtender, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IArchiveDynamicExtender, To>
+    nameWithType: Converters.MapEnums<IArchiveDynamicExtender, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IArchiveDynamicExtender, To)
+    nameWithType: Converters.MapEnums(Of IArchiveDynamicExtender, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.ArchiveLists.IArchiveDynamicExtender, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveExtender
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveExtender
+  nameWithType: IArchiveExtender
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveExtender
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderDoesExtend
+  nameWithType: IArchiveProviderDoesExtend
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDoesExtend
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderHasColumns
+  nameWithType: IArchiveProviderHasColumns
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderExtensible
+  nameWithType: IArchiveProviderExtensible
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible
+- uid: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend
+  commentId: T:SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: IArchiveProviderDynamicExtend
+  nameWithType: IArchiveProviderDynamicExtend
+  fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderDynamicExtend
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS

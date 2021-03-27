@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.FreeTextOperator
+  commentId: T:SuperOffice.WebApi.Data.FreeTextOperator
+  id: FreeTextOperator
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.FreeTextOperator.Contains
+  - SuperOffice.WebApi.Data.FreeTextOperator.ExactMatch
+  - SuperOffice.WebApi.Data.FreeTextOperator.StartsWith
+  - SuperOffice.WebApi.Data.FreeTextOperator.value__
+  langs:
+  - csharp
+  - vb
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFreetext operator\n"
+  syntax:
+    content: 'public sealed class FreeTextOperator : Enum'
+    content.vb: >-
+      Public NotInheritable Class FreeTextOperator
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.FreeTextOperator.value__
+  commentId: F:SuperOffice.WebApi.Data.FreeTextOperator.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.FreeTextOperator
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: FreeTextOperator.value__
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.FreeTextOperator.Contains
+  commentId: F:SuperOffice.WebApi.Data.FreeTextOperator.Contains
+  id: Contains
+  parent: SuperOffice.WebApi.Data.FreeTextOperator
+  langs:
+  - csharp
+  - vb
+  name: Contains
+  nameWithType: FreeTextOperator.Contains
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator.Contains
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Contains\n"
+  syntax:
+    content: public const FreeTextOperator Contains
+    return:
+      type: SuperOffice.WebApi.Data.FreeTextOperator
+    content.vb: Public Const Contains As FreeTextOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FreeTextOperator.StartsWith
+  commentId: F:SuperOffice.WebApi.Data.FreeTextOperator.StartsWith
+  id: StartsWith
+  parent: SuperOffice.WebApi.Data.FreeTextOperator
+  langs:
+  - csharp
+  - vb
+  name: StartsWith
+  nameWithType: FreeTextOperator.StartsWith
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator.StartsWith
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Starts with\n"
+  syntax:
+    content: public const FreeTextOperator StartsWith
+    return:
+      type: SuperOffice.WebApi.Data.FreeTextOperator
+    content.vb: Public Const StartsWith As FreeTextOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.FreeTextOperator.ExactMatch
+  commentId: F:SuperOffice.WebApi.Data.FreeTextOperator.ExactMatch
+  id: ExactMatch
+  parent: SuperOffice.WebApi.Data.FreeTextOperator
+  langs:
+  - csharp
+  - vb
+  name: ExactMatch
+  nameWithType: FreeTextOperator.ExactMatch
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator.ExactMatch
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Exact match\n"
+  syntax:
+    content: public const FreeTextOperator ExactMatch
+    return:
+      type: SuperOffice.WebApi.Data.FreeTextOperator
+    content.vb: Public Const ExactMatch As FreeTextOperator
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.FreeTextOperator
+  commentId: T:SuperOffice.WebApi.Data.FreeTextOperator
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: FreeTextOperator
+  nameWithType: FreeTextOperator
+  fullName: SuperOffice.WebApi.Data.FreeTextOperator

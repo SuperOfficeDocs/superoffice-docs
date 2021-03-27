@@ -1,0 +1,1774 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData
+  commentId: T:SuperOffice.CRM.Rows.SShipmentRecordData
+  id: SShipmentRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.SShipmentRecordData.#ctor
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ActivePane
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ActualCount
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ActualRate
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ActualTime
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Configuration
+  - SuperOffice.CRM.Rows.SShipmentRecordData.CurrentSender
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Description
+  - SuperOffice.CRM.Rows.SShipmentRecordData.EndDate
+  - SuperOffice.CRM.Rows.SShipmentRecordData.EnvelopeFrom
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Flags
+  - SuperOffice.CRM.Rows.SShipmentRecordData.FolderId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.FromAddr
+  - SuperOffice.CRM.Rows.SShipmentRecordData.GeneratedDocumentId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.MessageId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ProjectId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Recipients
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Registered
+  - SuperOffice.CRM.Rows.SShipmentRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ReplyAddr
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SelectionId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SendRate
+  - SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SmtpPort
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SmtpServ
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Sorting
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.StartDate
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Status
+  - SuperOffice.CRM.Rows.SShipmentRecordData.TicketCategory
+  - SuperOffice.CRM.Rows.SShipmentRecordData.TicketOwner
+  - SuperOffice.CRM.Rows.SShipmentRecordData.Updated
+  - SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: SShipmentRecordData
+  nameWithType: SShipmentRecordData
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the s_shipment table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.SShipmentRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.SShipmentTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class SShipmentRecordData
+    content.vb: Public Class SShipmentRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.SShipmentRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SShipmentRecordData)
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentId
+  id: SShipmentId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SShipmentId
+  nameWithType: SShipmentRecordData.SShipmentId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int SShipmentId
+    return:
+      type: System.Int32
+    content.vb: Public SShipmentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: SShipmentRecordData.Description
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescribes the shipment \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.MessageId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: SShipmentRecordData.MessageId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.MessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe id of the message that is sent in this shipment \n"
+  syntax:
+    content: public int MessageId
+    return:
+      type: System.Int32
+    content.vb: Public MessageId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.StartDate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: SShipmentRecordData.StartDate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.StartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe date and time when to start this shipment \n"
+  syntax:
+    content: public DateTime StartDate
+    return:
+      type: System.DateTime
+    content.vb: Public StartDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.EndDate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: SShipmentRecordData.EndDate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nIs set when this shipment is ended \n"
+  syntax:
+    content: public DateTime EndDate
+    return:
+      type: System.DateTime
+    content.vb: Public EndDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.FromAddr
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.FromAddr
+  id: FromAddr
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: FromAddr
+  nameWithType: SShipmentRecordData.FromAddr
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.FromAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail address to put in the From header of the messages \n"
+  syntax:
+    content: public string FromAddr
+    return:
+      type: System.String
+    content.vb: Public FromAddr As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ReplyAddr
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ReplyAddr
+  id: ReplyAddr
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ReplyAddr
+  nameWithType: SShipmentRecordData.ReplyAddr
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ReplyAddr
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail address to put in the Reply To: header of the messages \n"
+  syntax:
+    content: public string ReplyAddr
+    return:
+      type: System.String
+    content.vb: Public ReplyAddr As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.EnvelopeFrom
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.EnvelopeFrom
+  id: EnvelopeFrom
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: EnvelopeFrom
+  nameWithType: SShipmentRecordData.EnvelopeFrom
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.EnvelopeFrom
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEmail address for the MTA envelope (where bounces are returned) \n"
+  syntax:
+    content: public string EnvelopeFrom
+    return:
+      type: System.String
+    content.vb: Public EnvelopeFrom As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SmtpServ
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SmtpServ
+  id: SmtpServ
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SmtpServ
+  nameWithType: SShipmentRecordData.SmtpServ
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SmtpServ
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe server to use for this shipment. \n"
+  syntax:
+    content: public string SmtpServ
+    return:
+      type: System.String
+    content.vb: Public SmtpServ As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SmtpPort
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SmtpPort
+  id: SmtpPort
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SmtpPort
+  nameWithType: SShipmentRecordData.SmtpPort
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SmtpPort
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe port of the SMTP server to use for this shipment. \n"
+  syntax:
+    content: public int SmtpPort
+    return:
+      type: System.Int32
+    content.vb: Public SmtpPort As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SendRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SendRate
+  id: SendRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SendRate
+  nameWithType: SShipmentRecordData.SendRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SendRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nMaximum number of messages sent per minute.  \n"
+  syntax:
+    content: public int SendRate
+    return:
+      type: System.Int32
+    content.vb: Public SendRate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Status
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Status
+  id: Status
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SShipmentRecordData.Status
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Status
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSending/stopped/failed etc. \n"
+  syntax:
+    content: public short Status
+    return:
+      type: System.Int16
+    content.vb: Public Status As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Recipients
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Recipients
+  id: Recipients
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Recipients
+  nameWithType: SShipmentRecordData.Recipients
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Recipients
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe total number of recipients to send message to. \n"
+  syntax:
+    content: public int Recipients
+    return:
+      type: System.Int32
+    content.vb: Public Recipients As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ActualRate
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ActualRate
+  id: ActualRate
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActualRate
+  nameWithType: SShipmentRecordData.ActualRate
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ActualRate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe actual rate of messages per minute. can be lower than send_rate \n"
+  syntax:
+    content: public int ActualRate
+    return:
+      type: System.Int32
+    content.vb: Public ActualRate As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ActualTime
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ActualTime
+  id: ActualTime
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActualTime
+  nameWithType: SShipmentRecordData.ActualTime
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ActualTime
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe time of the last checkpoint \n"
+  syntax:
+    content: public DateTime ActualTime
+    return:
+      type: System.DateTime
+    content.vb: Public ActualTime As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ActualCount
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ActualCount
+  id: ActualCount
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActualCount
+  nameWithType: SShipmentRecordData.ActualCount
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ActualCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of emails sent at the last checkpoint \n"
+  syntax:
+    content: public int ActualCount
+    return:
+      type: System.Int32
+    content.vb: Public ActualCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.CurrentSender
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.CurrentSender
+  id: CurrentSender
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: CurrentSender
+  nameWithType: SShipmentRecordData.CurrentSender
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.CurrentSender
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTimestamp to identify which ejsender that owns this shipment \n"
+  syntax:
+    content: public int CurrentSender
+    return:
+      type: System.Int32
+    content.vb: Public CurrentSender As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.TicketOwner
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.TicketOwner
+  id: TicketOwner
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketOwner
+  nameWithType: SShipmentRecordData.TicketOwner
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.TicketOwner
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe owner of the ticket if any is created while sending out a shipment. -1 if no ticket should be automatically delegated, 1 if the ticket is unassigned, >1 for all others \n"
+  syntax:
+    content: public int TicketOwner
+    return:
+      type: System.Int32
+    content.vb: Public TicketOwner As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.TicketCategory
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.TicketCategory
+  id: TicketCategory
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: TicketCategory
+  nameWithType: SShipmentRecordData.TicketCategory
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.TicketCategory
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe category of tickets created while sending out if any. -1 if no ticket should be created \n"
+  syntax:
+    content: public int TicketCategory
+    return:
+      type: System.Int32
+    content.vb: Public TicketCategory As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Flags
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: SShipmentRecordData.Flags
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Flags
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nVarious flags for a shipment \n"
+  syntax:
+    content: public uint Flags
+    return:
+      type: System.UInt32
+    content.vb: Public Flags As UInteger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.FolderId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.FolderId
+  id: FolderId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: SShipmentRecordData.FolderId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.FolderId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe folder which this shipment belongs to. -1 indicates that the shipment is on the root \n"
+  syntax:
+    content: public int FolderId
+    return:
+      type: System.Int32
+    content.vb: Public FolderId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Configuration
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Configuration
+  id: Configuration
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: SShipmentRecordData.Configuration
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Configuration
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThis field indicates what kind of shipment this is. \n"
+  syntax:
+    content: public int Configuration
+    return:
+      type: System.Int32
+    content.vb: Public Configuration As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SelectionId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: SShipmentRecordData.SelectionId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet if this shipment should be related to a Selection \n"
+  syntax:
+    content: public int SelectionId
+    return:
+      type: System.Int32
+    content.vb: Public SelectionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ProjectId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ProjectId
+  id: ProjectId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProjectId
+  nameWithType: SShipmentRecordData.ProjectId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ProjectId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet if this shipment should be related to a Project \n"
+  syntax:
+    content: public int ProjectId
+    return:
+      type: System.Int32
+    content.vb: Public ProjectId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.GeneratedDocumentId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.GeneratedDocumentId
+  id: GeneratedDocumentId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: GeneratedDocumentId
+  nameWithType: SShipmentRecordData.GeneratedDocumentId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.GeneratedDocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nID of the merged document that is the result of the shipment \n"
+  syntax:
+    content: public int GeneratedDocumentId
+    return:
+      type: System.Int32
+    content.vb: Public GeneratedDocumentId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: SShipmentRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: SShipmentRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: SShipmentRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: SShipmentRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: SShipmentRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ActivePane
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ActivePane
+  id: ActivePane
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ActivePane
+  nameWithType: SShipmentRecordData.ActivePane
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ActivePane
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe currently active pane in the mailing wizard \n"
+  syntax:
+    content: public int ActivePane
+    return:
+      type: System.Int32
+    content.vb: Public ActivePane As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.Sorting
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.Sorting
+  id: Sorting
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: Sorting
+  nameWithType: SShipmentRecordData.Sorting
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.Sorting
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhich sorting should be used on the document mailing recipient list, used when generating PDF \n"
+  syntax:
+    content: public RecipientSorting Sorting
+    return:
+      type: SuperOffice.Data.RecipientSorting
+    content.vb: Public Sorting As RecipientSorting
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
+  commentId: F:SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
+  id: ShipmenttypeId
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: ShipmenttypeId
+  nameWithType: SShipmentRecordData.ShipmenttypeId
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.ShipmenttypeId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nId of subscriptionType that this shipment has, so we may check for reservations \n"
+  syntax:
+    content: public int ShipmenttypeId
+    return:
+      type: System.Int32
+    content.vb: Public ShipmenttypeId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.SShipmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: SShipmentRecordData()
+  nameWithType: SShipmentRecordData.SShipmentRecordData()
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public SShipmentRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.SShipmentRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SShipmentRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<SShipmentRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SShipmentRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SShipmentRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SShipmentRecordData, To)()
+  name.vb: MapEnums(Of SShipmentRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SShipmentRecordData, To>
+    nameWithType: EnumUtil.MapEnums<SShipmentRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.SShipmentRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SShipmentRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of SShipmentRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.SShipmentRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.SShipmentRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<SShipmentRecordData>(SShipmentRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<SShipmentRecordData>(SShipmentRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SShipmentRecordData>(SuperOffice.CRM.Rows.SShipmentRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of SShipmentRecordData)(SShipmentRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SShipmentRecordData)(SuperOffice.CRM.Rows.SShipmentRecordData)
+  name.vb: AssignByReflection(Of SShipmentRecordData)(SShipmentRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<SShipmentRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<SShipmentRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.SShipmentRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordData
+    name: SShipmentRecordData
+    nameWithType: SShipmentRecordData
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of SShipmentRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of SShipmentRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.SShipmentRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordData
+    name: SShipmentRecordData
+    nameWithType: SShipmentRecordData
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<SShipmentRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<SShipmentRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SShipmentRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of SShipmentRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SShipmentRecordData)()
+  name.vb: GraphCopy(Of SShipmentRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<SShipmentRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<SShipmentRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.SShipmentRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of SShipmentRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of SShipmentRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.SShipmentRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+  parent: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+  name: ToInsert()
+  nameWithType: SShipmentRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SShipmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: SShipmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SShipmentRecordData, To>()
+  nameWithType: Converters.MapEnums<SShipmentRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SShipmentRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of SShipmentRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SShipmentRecordData, To)()
+  name.vb: MapEnums(Of SShipmentRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SShipmentRecordData, To>
+    nameWithType: Converters.MapEnums<SShipmentRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.SShipmentRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SShipmentRecordData, To)
+    nameWithType: Converters.MapEnums(Of SShipmentRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.SShipmentRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+  commentId: M:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+  isExternal: true
+  name: ToInsert(SShipmentRecordData)
+  nameWithType: SShipmentRecordDataExtensions.ToInsert(SShipmentRecordData)
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+    name: ToInsert
+    nameWithType: SShipmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordData
+    name: SShipmentRecordData
+    nameWithType: SShipmentRecordData
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.SShipmentRecordData)
+    name: ToInsert
+    nameWithType: SShipmentRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.SShipmentRecordData
+    name: SShipmentRecordData
+    nameWithType: SShipmentRecordData
+    fullName: SuperOffice.CRM.Rows.SShipmentRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.SShipmentRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: SShipmentRecordDataExtensions
+  nameWithType: SShipmentRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: SuperOffice.Data.RecipientSorting
+  commentId: T:SuperOffice.Data.RecipientSorting
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RecipientSorting
+  nameWithType: RecipientSorting
+  fullName: SuperOffice.Data.RecipientSorting
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.Rows.SShipmentRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.SShipmentRecordData.#ctor
+  isExternal: true
+  name: SShipmentRecordData
+  nameWithType: SShipmentRecordData.SShipmentRecordData
+  fullName: SuperOffice.CRM.Rows.SShipmentRecordData.SShipmentRecordData

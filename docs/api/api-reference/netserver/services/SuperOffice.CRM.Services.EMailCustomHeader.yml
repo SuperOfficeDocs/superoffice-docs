@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.EMailCustomHeader
+  commentId: T:SuperOffice.CRM.Services.EMailCustomHeader
+  id: EMailCustomHeader
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.EMailCustomHeader.#ctor
+  - SuperOffice.CRM.Services.EMailCustomHeader.Name
+  - SuperOffice.CRM.Services.EMailCustomHeader.ToString
+  - SuperOffice.CRM.Services.EMailCustomHeader.ToString(System.String)
+  - SuperOffice.CRM.Services.EMailCustomHeader.Values
+  langs:
+  - csharp
+  - vb
+  name: EMailCustomHeader
+  nameWithType: EMailCustomHeader
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCarrier object for EMailCustomHeader.\nServices for the EMailCustomHeader Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IEMailAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class EMailCustomHeader : Carrier'
+    content.vb: >-
+      Public Class EMailCustomHeader
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.EMailAgent
+    commentId: T:SuperOffice.CRM.Services.EMailAgent
+  - linkId: SuperOffice.CRM.Services.IEMailAgent
+    commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.#ctor
+  commentId: M:SuperOffice.CRM.Services.EMailCustomHeader.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: EMailCustomHeader()
+  nameWithType: EMailCustomHeader.EMailCustomHeader()
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.EMailCustomHeader()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public EMailCustomHeader()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.EMailCustomHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.ToString
+  commentId: M:SuperOffice.CRM.Services.EMailCustomHeader.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: EMailCustomHeader.ToString()
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.EMailCustomHeader.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.EMailCustomHeader.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: EMailCustomHeader.ToString(String)
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.EMailCustomHeader.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.Name
+  commentId: P:SuperOffice.CRM.Services.EMailCustomHeader.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: EMailCustomHeader.Name
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nName of header \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.EMailCustomHeader.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.Values
+  commentId: P:SuperOffice.CRM.Services.EMailCustomHeader.Values
+  id: Values
+  parent: SuperOffice.CRM.Services.EMailCustomHeader
+  langs:
+  - csharp
+  - vb
+  name: Values
+  nameWithType: EMailCustomHeader.Values
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.Values
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public virtual string[] Values { get; set; }
+    parameters: []
+    return:
+      type: System.String[]
+    content.vb: Public Overridable Property Values As String()
+  overload: SuperOffice.CRM.Services.EMailCustomHeader.Values*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.EMailAgent
+  commentId: T:SuperOffice.CRM.Services.EMailAgent
+  isExternal: true
+  name: EMailAgent
+  nameWithType: EMailAgent
+  fullName: SuperOffice.CRM.Services.EMailAgent
+- uid: SuperOffice.CRM.Services.IEMailAgent
+  commentId: T:SuperOffice.CRM.Services.IEMailAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IEMailAgent
+  nameWithType: IEMailAgent
+  fullName: SuperOffice.CRM.Services.IEMailAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.EMailCustomHeader.#ctor
+  isExternal: true
+  name: EMailCustomHeader
+  nameWithType: EMailCustomHeader.EMailCustomHeader
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.EMailCustomHeader
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.EMailCustomHeader.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: EMailCustomHeader.ToString
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.Name*
+  commentId: Overload:SuperOffice.CRM.Services.EMailCustomHeader.Name
+  isExternal: true
+  name: Name
+  nameWithType: EMailCustomHeader.Name
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.Name
+- uid: SuperOffice.CRM.Services.EMailCustomHeader.Values*
+  commentId: Overload:SuperOffice.CRM.Services.EMailCustomHeader.Values
+  isExternal: true
+  name: Values
+  nameWithType: EMailCustomHeader.Values
+  fullName: SuperOffice.CRM.Services.EMailCustomHeader.Values
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

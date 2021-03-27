@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Lists.SelectableListHelper
+  commentId: T:SuperOffice.CRM.Lists.SelectableListHelper
+  id: SelectableListHelper
+  parent: SuperOffice.CRM.Lists
+  children:
+  - SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
+  - SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+  - SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  - SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  langs:
+  - csharp
+  - vb
+  name: SelectableListHelper
+  nameWithType: SelectableListHelper
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nUtility class to help with the conversion of standard MDO lists to Selectable lists, and extracting selected ids from\nselectable lists. Contains only static methods.\n"
+  syntax:
+    content: public static class SelectableListHelper
+    content.vb: Public Module SelectableListHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
+  id: ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider,System.Int32[],System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}@,System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}@)
+  parent: SuperOffice.CRM.Lists.SelectableListHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertToSelectable(ISoListProvider, Int32[], out List<ISoListItem>, out List<ISoListHeading>, out List<ISoListItem>)
+  nameWithType: SelectableListHelper.ConvertToSelectable(ISoListProvider, Int32[], out List<ISoListItem>, out List<ISoListHeading>, out List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider, System.Int32[], out System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, out System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>, out System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nConvert an ISoListProvider into an equivalent set of root, heading and history items, where each item conforms\nto the <xref href=\"SuperOffice.CRM.Lists.ISelectableListItem\" data-throw-if-not-resolved=\"false\"></xref> interface. If an array of id&apos;s to be selected is also provided, all\nelements corresponding to those id&apos;s will have the Selected attribute set to true.\n"
+  syntax:
+    content: public static void ConvertToSelectable(ISoListProvider source, int[] selectedIds, out List<ISoListItem> rootItems, out List<ISoListHeading> headingItems, out List<ISoListItem> historyItems)
+    parameters:
+    - id: source
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: Source list provider
+    - id: selectedIds
+      type: System.Int32[]
+      description: Array of ID&apos;s to select, can be null
+    - id: rootItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+      description: 'Out: root items corresponding to the original root items'
+    - id: headingItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+      description: 'Out: heading items corresponding to the original heading items'
+    - id: historyItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+      description: 'Out: history items corresponding to the original history items'
+    content.vb: Public Shared Sub ConvertToSelectable(source As ISoListProvider, selectedIds As Integer(), ByRef rootItems As List(Of ISoListItem), ByRef headingItems As List(Of ISoListHeading), ByRef historyItems As List(Of ISoListItem))
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable*
+  nameWithType.vb: SelectableListHelper.ConvertToSelectable(ISoListProvider, Int32(), ByRef List(Of ISoListItem), ByRef List(Of ISoListHeading), ByRef List(Of ISoListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable(SuperOffice.CRM.Lists.ISoListProvider, System.Int32(), ByRef System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), ByRef System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), ByRef System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: ConvertToSelectable(ISoListProvider, Int32(), ByRef List(Of ISoListItem), ByRef List(Of ISoListHeading), ByRef List(Of ISoListItem))
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  id: GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  parent: SuperOffice.CRM.Lists.SelectableListHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedIds(ISoListProvider)
+  nameWithType: SelectableListHelper.GetSelectedIds(ISoListProvider)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(SuperOffice.CRM.Lists.ISoListProvider)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nExtract the selected items&apos; id&apos;s from a provider that produces selectable items. Any items can be\npassed in, but only <xref href=\"SuperOffice.CRM.Lists.ISelectableListItem\" data-throw-if-not-resolved=\"false\"></xref> items contain a Selected attribute and can contribute\nto the result. The result is unique by ID, but not sorted.\n"
+  syntax:
+    content: public static int[] GetSelectedIds(ISoListProvider selectableProvider)
+    parameters:
+    - id: selectableProvider
+      type: SuperOffice.CRM.Lists.ISoListProvider
+      description: Provider, whose lists are to be analyzed
+    return:
+      type: System.Int32[]
+      description: ID&apos;s of items that had Selected==true
+    content.vb: Public Shared Function GetSelectedIds(selectableProvider As ISoListProvider) As Integer()
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  id: GetSelectedIds(System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading},System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem})
+  parent: SuperOffice.CRM.Lists.SelectableListHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSelectedIds(List<ISoListItem>, List<ISoListHeading>, List<ISoListItem>)
+  nameWithType: SelectableListHelper.GetSelectedIds(List<ISoListItem>, List<ISoListHeading>, List<ISoListItem>)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>, System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  summary: "\nExtract the selected items&apos; id&apos;s from a root, heading and history list. Any combination if input parameters can be null.\nAny items can be\npassed in, but only <xref href=\"SuperOffice.CRM.Lists.ISelectableListItem\" data-throw-if-not-resolved=\"false\"></xref> items contain a Selected attribute and can contribute\nto the result. The result is unique by ID, but not sorted.\n"
+  syntax:
+    content: public static int[] GetSelectedIds(List<ISoListItem> rootItems, List<ISoListHeading> headingItems, List<ISoListItem> historyItems)
+    parameters:
+    - id: rootItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+      description: Root items to analyze, can be null
+    - id: headingItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+      description: Heading items to analyze, can be null
+    - id: historyItems
+      type: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+      description: History items to analyze, can be null
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function GetSelectedIds(rootItems As List(Of ISoListItem), headingItems As List(Of ISoListHeading), historyItems As List(Of ISoListItem)) As Integer()
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds*
+  nameWithType.vb: SelectableListHelper.GetSelectedIds(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading), System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
+  name.vb: GetSelectedIds(List(Of ISoListItem), List(Of ISoListHeading), List(Of ISoListItem))
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+  commentId: M:SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+  id: GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+  parent: SuperOffice.CRM.Lists.SelectableListHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAllIds(ISoListProvider)
+  nameWithType: SelectableListHelper.GetAllIds(ISoListProvider)
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds(SuperOffice.CRM.Lists.ISoListProvider)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: public static int[] GetAllIds(ISoListProvider provider)
+    parameters:
+    - id: provider
+      type: SuperOffice.CRM.Lists.ISoListProvider
+    return:
+      type: System.Int32[]
+    content.vb: Public Shared Function GetAllIds(provider As ISoListProvider) As Integer()
+  overload: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Lists
+  commentId: N:SuperOffice.CRM.Lists
+  isExternal: true
+  name: SuperOffice.CRM.Lists
+  nameWithType: SuperOffice.CRM.Lists
+  fullName: SuperOffice.CRM.Lists
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable
+  isExternal: true
+  name: ConvertToSelectable
+  nameWithType: SelectableListHelper.ConvertToSelectable
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.ConvertToSelectable
+- uid: SuperOffice.CRM.Lists.ISoListProvider
+  commentId: T:SuperOffice.CRM.Lists.ISoListProvider
+  parent: SuperOffice.CRM.Lists
+  isExternal: true
+  name: ISoListProvider
+  nameWithType: ISoListProvider
+  fullName: SuperOffice.CRM.Lists.ISoListProvider
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ISoListItem>
+  nameWithType: List<ISoListItem>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListItem>
+  nameWithType.vb: List(Of ISoListItem)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem)
+  name.vb: List(Of ISoListItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListItem
+    name: ISoListItem
+    nameWithType: ISoListItem
+    fullName: SuperOffice.CRM.Lists.ISoListItem
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Lists.ISoListHeading}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ISoListHeading>
+  nameWithType: List<ISoListHeading>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Lists.ISoListHeading>
+  nameWithType.vb: List(Of ISoListHeading)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListHeading)
+  name.vb: List(Of ISoListHeading)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Lists.ISoListHeading
+    name: ISoListHeading
+    nameWithType: ISoListHeading
+    fullName: SuperOffice.CRM.Lists.ISoListHeading
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds
+  isExternal: true
+  name: GetSelectedIds
+  nameWithType: SelectableListHelper.GetSelectedIds
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetSelectedIds
+- uid: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds*
+  commentId: Overload:SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds
+  isExternal: true
+  name: GetAllIds
+  nameWithType: SelectableListHelper.GetAllIds
+  fullName: SuperOffice.CRM.Lists.SelectableListHelper.GetAllIds

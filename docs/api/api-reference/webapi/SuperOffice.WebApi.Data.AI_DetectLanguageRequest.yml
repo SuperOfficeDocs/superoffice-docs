@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AI_DetectLanguageRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_DetectLanguageRequest
+  id: AI_DetectLanguageRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AI_DetectLanguageRequest.#ctor
+  - SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text
+  langs:
+  - csharp
+  - vb
+  name: AI_DetectLanguageRequest
+  nameWithType: AI_DetectLanguageRequest
+  fullName: SuperOffice.WebApi.Data.AI_DetectLanguageRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class AI_DetectLanguageRequest : Object'
+    content.vb: >-
+      Public Class AI_DetectLanguageRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.AI_DetectLanguageRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.AI_DetectLanguageRequest
+  langs:
+  - csharp
+  - vb
+  name: AI_DetectLanguageRequest()
+  nameWithType: AI_DetectLanguageRequest.AI_DetectLanguageRequest()
+  fullName: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.AI_DetectLanguageRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public AI_DetectLanguageRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text
+  commentId: P:SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text
+  id: Text
+  parent: SuperOffice.WebApi.Data.AI_DetectLanguageRequest
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: AI_DetectLanguageRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_DetectLanguageRequest.#ctor
+  isExternal: true
+  name: AI_DetectLanguageRequest
+  nameWithType: AI_DetectLanguageRequest.AI_DetectLanguageRequest
+  fullName: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.AI_DetectLanguageRequest
+- uid: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text*
+  commentId: Overload:SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text
+  isExternal: true
+  name: Text
+  nameWithType: AI_DetectLanguageRequest.Text
+  fullName: SuperOffice.WebApi.Data.AI_DetectLanguageRequest.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

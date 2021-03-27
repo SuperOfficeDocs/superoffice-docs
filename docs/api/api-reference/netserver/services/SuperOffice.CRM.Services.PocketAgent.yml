@@ -1,0 +1,1423 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.PocketAgent
+  commentId: T:SuperOffice.CRM.Services.PocketAgent
+  id: PocketAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.PocketAgent.#ctor
+  - SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+  - SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice(System.String)
+  - SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices(System.Int32)
+  - SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  - SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker
+  - SuperOffice.CRM.Services.PocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  - SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+  - SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  langs:
+  - csharp
+  - vb
+  name: PocketAgent
+  nameWithType: PocketAgent
+  fullName: SuperOffice.CRM.Services.PocketAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the Pocket Agent\nAgent with Pocket specific functionality\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (PocketAgent agent = new PocketAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class PocketAgent : AgentBase<IPocketAgent>, IDisposable, IPocketAgent, IAgent'
+    content.vb: >-
+      Public Class PocketAgent
+          Inherits AgentBase(Of IPocketAgent)
+          Implements IDisposable, IPocketAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IPocketAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+  id: GetPocketStartupData(System.String[],System.DateTime)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPocketStartupData(String[], DateTime)
+  nameWithType: PocketAgent.GetPocketStartupData(String[], DateTime)
+  fullName: SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData(System.String[], System.DateTime)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public PocketStartupData GetPocketStartupData(string[] tables, DateTime currentClientTime)
+    parameters:
+    - id: tables
+      type: System.String[]
+      description: Tables to check for license
+    - id: currentClientTime
+      type: System.DateTime
+      description: Current time on the client, used for overdue sale lookup having correct timezone relative to client
+    return:
+      type: SuperOffice.CRM.Services.PocketStartupData
+      description: Startup data for pocket
+    content.vb: Public Function GetPocketStartupData(tables As String(), currentClientTime As Date) As PocketStartupData
+  overload: SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+  nameWithType.vb: PocketAgent.GetPocketStartupData(String(), DateTime)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData(System.String(), System.DateTime)
+  name.vb: GetPocketStartupData(String(), DateTime)
+- uid: SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  id: RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: RegisterDeviceForPushNotification(PocketDeviceInfo)
+  nameWithType: PocketAgent.RegisterDeviceForPushNotification(PocketDeviceInfo)
+  fullName: SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRegister a device that should receive push notifications when notable events occour\n"
+  syntax:
+    content: public void RegisterDeviceForPushNotification(PocketDeviceInfo deviceInfo)
+    parameters:
+    - id: deviceInfo
+      type: SuperOffice.CRM.Services.PocketDeviceInfo
+      description: Properties for the device to register
+    content.vb: Public Sub RegisterDeviceForPushNotification(deviceInfo As PocketDeviceInfo)
+  overload: SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices(System.Int32)
+  id: GetRegisteredDevices(System.Int32)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetRegisteredDevices(Int32)
+  nameWithType: PocketAgent.GetRegisteredDevices(Int32)
+  fullName: SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve all registered devices for an associate\n"
+  syntax:
+    content: public PocketDeviceInfo[] GetRegisteredDevices(int associateId)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The user to get devices for
+    return:
+      type: SuperOffice.CRM.Services.PocketDeviceInfo[]
+    content.vb: Public Function GetRegisteredDevices(associateId As Integer) As PocketDeviceInfo()
+  overload: SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+  id: SetPushNotificationTagsForDevice(System.String,System.String)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPushNotificationTagsForDevice(String, String)
+  nameWithType: PocketAgent.SetPushNotificationTagsForDevice(String, String)
+  fullName: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSpecify what kind of notification events a device should receive push notifications for\n"
+  syntax:
+    content: public void SetPushNotificationTagsForDevice(string deviceIdentifier, string tags)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+      description: The unique identifier for a device
+    - id: tags
+      type: System.String
+      description: A comma separated list of events this device should receive push events for
+    content.vb: Public Sub SetPushNotificationTagsForDevice(deviceIdentifier As String, tags As String)
+  overload: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  id: SetPushNotificationTagsForUser(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPushNotificationTagsForUser(Int32, String)
+  nameWithType: PocketAgent.SetPushNotificationTagsForUser(Int32, String)
+  fullName: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSpecify what kind of notification events a user should receive push notifications for.  This will update all registerred devices for this user.\n"
+  syntax:
+    content: public void SetPushNotificationTagsForUser(int associateId, string tags)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: The associate to set tags for
+    - id: tags
+      type: System.String
+      description: A comma separated list of events the associate should receive push events for
+    content.vb: Public Sub SetPushNotificationTagsForUser(associateId As Integer, tags As String)
+  overload: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice(System.String)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice(System.String)
+  id: GetPushNotificationTagsForDevice(System.String)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPushNotificationTagsForDevice(String)
+  nameWithType: PocketAgent.GetPushNotificationTagsForDevice(String)
+  fullName: SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve current tag value for a device\n"
+  syntax:
+    content: public string GetPushNotificationTagsForDevice(string deviceIdentifier)
+    parameters:
+    - id: deviceIdentifier
+      type: System.String
+      description: The unique identifier of this device
+    return:
+      type: System.String
+      description: A comma separated list of events this device should receive push events for
+    content.vb: Public Function GetPushNotificationTagsForDevice(deviceIdentifier As String) As String
+  overload: SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  id: SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: SendPushNotification(Int32[], PocketNotificationMessage)
+  nameWithType: PocketAgent.SendPushNotification(Int32[], PocketNotificationMessage)
+  fullName: SuperOffice.CRM.Services.PocketAgent.SendPushNotification(System.Int32[], SuperOffice.CRM.Services.PocketNotificationMessage)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSend a push notification to one or more associates\n"
+  syntax:
+    content: public void SendPushNotification(int[] associateIds, PocketNotificationMessage message)
+    parameters:
+    - id: associateIds
+      type: System.Int32[]
+      description: The associates to send the push notification message to
+    - id: message
+      type: SuperOffice.CRM.Services.PocketNotificationMessage
+      description: The message to send
+    content.vb: Public Sub SendPushNotification(associateIds As Integer(), message As PocketNotificationMessage)
+  overload: SuperOffice.CRM.Services.PocketAgent.SendPushNotification*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  nameWithType.vb: PocketAgent.SendPushNotification(Int32(), PocketNotificationMessage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.PocketAgent.SendPushNotification(System.Int32(), SuperOffice.CRM.Services.PocketNotificationMessage)
+  name.vb: SendPushNotification(Int32(), PocketNotificationMessage)
+- uid: SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker
+  id: RunAppointmentAlarmBroker
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: RunAppointmentAlarmBroker()
+  nameWithType: PocketAgent.RunAppointmentAlarmBroker()
+  fullName: SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nExecute the AppointmentAlarmBroker once\n"
+  syntax:
+    content: public void RunAppointmentAlarmBroker()
+    content.vb: Public Sub RunAppointmentAlarmBroker
+  overload: SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker*
+  implements:
+  - SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.PocketAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.PocketAgent
+  langs:
+  - csharp
+  - vb
+  name: PocketAgent()
+  nameWithType: PocketAgent.PocketAgent()
+  fullName: SuperOffice.CRM.Services.PocketAgent.PocketAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public PocketAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.PocketAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IPocketAgent>
+  nameWithType: AgentBase<IPocketAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPocketAgent>
+  nameWithType.vb: AgentBase(Of IPocketAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPocketAgent)
+  name.vb: AgentBase(Of IPocketAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IPocketAgent
+    name: IPocketAgent
+    nameWithType: IPocketAgent
+    fullName: SuperOffice.CRM.Services.IPocketAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IPocketAgent
+    name: IPocketAgent
+    nameWithType: IPocketAgent
+    fullName: SuperOffice.CRM.Services.IPocketAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IPocketAgent
+  commentId: T:SuperOffice.CRM.Services.IPocketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPocketAgent
+  nameWithType: IPocketAgent
+  fullName: SuperOffice.CRM.Services.IPocketAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IPocketAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPocketAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IPocketAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPocketAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IPocketAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPocketAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IPocketAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPocketAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IPocketAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IPocketAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IPocketAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IPocketAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IPocketAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData
+  isExternal: true
+  name: GetPocketStartupData
+  nameWithType: PocketAgent.GetPocketStartupData
+  fullName: SuperOffice.CRM.Services.PocketAgent.GetPocketStartupData
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: GetPocketStartupData(String[], DateTime)
+  nameWithType: IPocketAgent.GetPocketStartupData(String[], DateTime)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[], System.DateTime)
+  nameWithType.vb: IPocketAgent.GetPocketStartupData(String(), DateTime)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String(), System.DateTime)
+  name.vb: GetPocketStartupData(String(), DateTime)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+    name: GetPocketStartupData
+    nameWithType: IPocketAgent.GetPocketStartupData
+    fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData(System.String[],System.DateTime)
+    name: GetPocketStartupData
+    nameWithType: IPocketAgent.GetPocketStartupData
+    fullName: SuperOffice.CRM.Services.IPocketAgent.GetPocketStartupData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.PocketStartupData
+  commentId: T:SuperOffice.CRM.Services.PocketStartupData
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PocketStartupData
+  nameWithType: PocketStartupData
+  fullName: SuperOffice.CRM.Services.PocketStartupData
+- uid: SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification
+  isExternal: true
+  name: RegisterDeviceForPushNotification
+  nameWithType: PocketAgent.RegisterDeviceForPushNotification
+  fullName: SuperOffice.CRM.Services.PocketAgent.RegisterDeviceForPushNotification
+- uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: RegisterDeviceForPushNotification(PocketDeviceInfo)
+  nameWithType: IPocketAgent.RegisterDeviceForPushNotification(PocketDeviceInfo)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+    name: RegisterDeviceForPushNotification
+    nameWithType: IPocketAgent.RegisterDeviceForPushNotification
+    fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PocketDeviceInfo
+    name: PocketDeviceInfo
+    nameWithType: PocketDeviceInfo
+    fullName: SuperOffice.CRM.Services.PocketDeviceInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification(SuperOffice.CRM.Services.PocketDeviceInfo)
+    name: RegisterDeviceForPushNotification
+    nameWithType: IPocketAgent.RegisterDeviceForPushNotification
+    fullName: SuperOffice.CRM.Services.IPocketAgent.RegisterDeviceForPushNotification
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.PocketDeviceInfo
+    name: PocketDeviceInfo
+    nameWithType: PocketDeviceInfo
+    fullName: SuperOffice.CRM.Services.PocketDeviceInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PocketDeviceInfo
+  commentId: T:SuperOffice.CRM.Services.PocketDeviceInfo
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PocketDeviceInfo
+  nameWithType: PocketDeviceInfo
+  fullName: SuperOffice.CRM.Services.PocketDeviceInfo
+- uid: SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices
+  isExternal: true
+  name: GetRegisteredDevices
+  nameWithType: PocketAgent.GetRegisteredDevices
+  fullName: SuperOffice.CRM.Services.PocketAgent.GetRegisteredDevices
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: GetRegisteredDevices(Int32)
+  nameWithType: IPocketAgent.GetRegisteredDevices(Int32)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+    name: GetRegisteredDevices
+    nameWithType: IPocketAgent.GetRegisteredDevices
+    fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices(System.Int32)
+    name: GetRegisteredDevices
+    nameWithType: IPocketAgent.GetRegisteredDevices
+    fullName: SuperOffice.CRM.Services.IPocketAgent.GetRegisteredDevices
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.PocketDeviceInfo[]
+  isExternal: true
+  name: PocketDeviceInfo[]
+  nameWithType: PocketDeviceInfo[]
+  fullName: SuperOffice.CRM.Services.PocketDeviceInfo[]
+  nameWithType.vb: PocketDeviceInfo()
+  fullName.vb: SuperOffice.CRM.Services.PocketDeviceInfo()
+  name.vb: PocketDeviceInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.PocketDeviceInfo
+    name: PocketDeviceInfo
+    nameWithType: PocketDeviceInfo
+    fullName: SuperOffice.CRM.Services.PocketDeviceInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.PocketDeviceInfo
+    name: PocketDeviceInfo
+    nameWithType: PocketDeviceInfo
+    fullName: SuperOffice.CRM.Services.PocketDeviceInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice
+  isExternal: true
+  name: SetPushNotificationTagsForDevice
+  nameWithType: PocketAgent.SetPushNotificationTagsForDevice
+  fullName: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForDevice
+- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: SetPushNotificationTagsForDevice(String, String)
+  nameWithType: IPocketAgent.SetPushNotificationTagsForDevice(String, String)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+    name: SetPushNotificationTagsForDevice
+    nameWithType: IPocketAgent.SetPushNotificationTagsForDevice
+    fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice(System.String,System.String)
+    name: SetPushNotificationTagsForDevice
+    nameWithType: IPocketAgent.SetPushNotificationTagsForDevice
+    fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser
+  isExternal: true
+  name: SetPushNotificationTagsForUser
+  nameWithType: PocketAgent.SetPushNotificationTagsForUser
+  fullName: SuperOffice.CRM.Services.PocketAgent.SetPushNotificationTagsForUser
+- uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: SetPushNotificationTagsForUser(Int32, String)
+  nameWithType: IPocketAgent.SetPushNotificationTagsForUser(Int32, String)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+    name: SetPushNotificationTagsForUser
+    nameWithType: IPocketAgent.SetPushNotificationTagsForUser
+    fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser(System.Int32,System.String)
+    name: SetPushNotificationTagsForUser
+    nameWithType: IPocketAgent.SetPushNotificationTagsForUser
+    fullName: SuperOffice.CRM.Services.IPocketAgent.SetPushNotificationTagsForUser
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice
+  isExternal: true
+  name: GetPushNotificationTagsForDevice
+  nameWithType: PocketAgent.GetPushNotificationTagsForDevice
+  fullName: SuperOffice.CRM.Services.PocketAgent.GetPushNotificationTagsForDevice
+- uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: GetPushNotificationTagsForDevice(String)
+  nameWithType: IPocketAgent.GetPushNotificationTagsForDevice(String)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+    name: GetPushNotificationTagsForDevice
+    nameWithType: IPocketAgent.GetPushNotificationTagsForDevice
+    fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice(System.String)
+    name: GetPushNotificationTagsForDevice
+    nameWithType: IPocketAgent.GetPushNotificationTagsForDevice
+    fullName: SuperOffice.CRM.Services.IPocketAgent.GetPushNotificationTagsForDevice
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PocketAgent.SendPushNotification*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.SendPushNotification
+  isExternal: true
+  name: SendPushNotification
+  nameWithType: PocketAgent.SendPushNotification
+  fullName: SuperOffice.CRM.Services.PocketAgent.SendPushNotification
+- uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: SendPushNotification(Int32[], PocketNotificationMessage)
+  nameWithType: IPocketAgent.SendPushNotification(Int32[], PocketNotificationMessage)
+  fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[], SuperOffice.CRM.Services.PocketNotificationMessage)
+  nameWithType.vb: IPocketAgent.SendPushNotification(Int32(), PocketNotificationMessage)
+  fullName.vb: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32(), SuperOffice.CRM.Services.PocketNotificationMessage)
+  name.vb: SendPushNotification(Int32(), PocketNotificationMessage)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+    name: SendPushNotification
+    nameWithType: IPocketAgent.SendPushNotification
+    fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.PocketNotificationMessage
+    name: PocketNotificationMessage
+    nameWithType: PocketNotificationMessage
+    fullName: SuperOffice.CRM.Services.PocketNotificationMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification(System.Int32[],SuperOffice.CRM.Services.PocketNotificationMessage)
+    name: SendPushNotification
+    nameWithType: IPocketAgent.SendPushNotification
+    fullName: SuperOffice.CRM.Services.IPocketAgent.SendPushNotification
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.Services.PocketNotificationMessage
+    name: PocketNotificationMessage
+    nameWithType: PocketNotificationMessage
+    fullName: SuperOffice.CRM.Services.PocketNotificationMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.PocketNotificationMessage
+  commentId: T:SuperOffice.CRM.Services.PocketNotificationMessage
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: PocketNotificationMessage
+  nameWithType: PocketNotificationMessage
+  fullName: SuperOffice.CRM.Services.PocketNotificationMessage
+- uid: SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker
+  isExternal: true
+  name: RunAppointmentAlarmBroker
+  nameWithType: PocketAgent.RunAppointmentAlarmBroker
+  fullName: SuperOffice.CRM.Services.PocketAgent.RunAppointmentAlarmBroker
+- uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+  commentId: M:SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+  parent: SuperOffice.CRM.Services.IPocketAgent
+  isExternal: true
+  name: RunAppointmentAlarmBroker()
+  nameWithType: IPocketAgent.RunAppointmentAlarmBroker()
+  fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+    name: RunAppointmentAlarmBroker
+    nameWithType: IPocketAgent.RunAppointmentAlarmBroker
+    fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+    name: RunAppointmentAlarmBroker
+    nameWithType: IPocketAgent.RunAppointmentAlarmBroker
+    fullName: SuperOffice.CRM.Services.IPocketAgent.RunAppointmentAlarmBroker
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.PocketAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.PocketAgent.#ctor
+  isExternal: true
+  name: PocketAgent
+  nameWithType: PocketAgent.PocketAgent
+  fullName: SuperOffice.CRM.Services.PocketAgent.PocketAgent

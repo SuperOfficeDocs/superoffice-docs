@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  commentId: T:SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  id: DBC.ExternalDocumentFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.AttachmentId
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ChangedBy
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedAt
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedBy
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Deleted
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Description
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ExternalDocumentId
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.HierarchyId
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.LastChanged
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.SMessage
+  - SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Title
+  langs:
+  - csharp
+  - vb
+  name: DBC.ExternalDocumentFields
+  nameWithType: DBC.ExternalDocumentFields
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for ExternalDocument, This table stores documents which can be viewed externaly, through the customer module\n"
+  syntax:
+    content: public static class ExternalDocumentFields
+    content.vb: Public Module ExternalDocumentFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ExternalDocumentId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ExternalDocumentId
+  id: ExternalDocumentId
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: ExternalDocumentId
+  nameWithType: DBC.ExternalDocumentFields.ExternalDocumentId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ExternalDocumentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.ExternalDocumentId: Primary key\n"
+  syntax:
+    content: public const string ExternalDocumentId = "id"
+    return:
+      type: System.String
+    content.vb: Public Const ExternalDocumentId As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.HierarchyId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.HierarchyId
+  id: HierarchyId
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: HierarchyId
+  nameWithType: DBC.ExternalDocumentFields.HierarchyId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.HierarchyId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.HierarchyId: This document belongs to the following folder\n"
+  syntax:
+    content: public const string HierarchyId = "hierarchy_id"
+    return:
+      type: System.String
+    content.vb: Public Const HierarchyId As String = "hierarchy_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.AttachmentId
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.AttachmentId
+  id: AttachmentId
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: AttachmentId
+  nameWithType: DBC.ExternalDocumentFields.AttachmentId
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.AttachmentId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.AttachmentId: The attachment.id for the attachment associated with this external document.\n"
+  syntax:
+    content: public const string AttachmentId = "attachment_id"
+    return:
+      type: System.String
+    content.vb: Public Const AttachmentId As String = "attachment_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Title
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Title
+  id: Title
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: DBC.ExternalDocumentFields.Title
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Title
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.Title: The title for the document\n"
+  syntax:
+    content: public const string Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Description
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Description
+  id: Description
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: DBC.ExternalDocumentFields.Description
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.Description: The description of the external document\n"
+  syntax:
+    content: public const string Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedAt
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: DBC.ExternalDocumentFields.CreatedAt
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedAt
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.CreatedAt: When the document was created\n"
+  syntax:
+    content: public const string CreatedAt = "created_at"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedAt As String = "created_at"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: DBC.ExternalDocumentFields.CreatedBy
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.CreatedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.CreatedBy: Who created the document\n"
+  syntax:
+    content: public const string CreatedBy = "created_by"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedBy As String = "created_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.LastChanged
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.LastChanged
+  id: LastChanged
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: LastChanged
+  nameWithType: DBC.ExternalDocumentFields.LastChanged
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.LastChanged
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.LastChanged: When the document last was changed\n"
+  syntax:
+    content: public const string LastChanged = "last_changed"
+    return:
+      type: System.String
+    content.vb: Public Const LastChanged As String = "last_changed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ChangedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ChangedBy
+  id: ChangedBy
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: ChangedBy
+  nameWithType: DBC.ExternalDocumentFields.ChangedBy
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.ChangedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.ChangedBy: Who last changed the document\n"
+  syntax:
+    content: public const string ChangedBy = "changed_by"
+    return:
+      type: System.String
+    content.vb: Public Const ChangedBy As String = "changed_by"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Deleted
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Deleted
+  id: Deleted
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: DBC.ExternalDocumentFields.Deleted
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.Deleted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.Deleted: A boolean telling if the external document is to be treated as deleted\n"
+  syntax:
+    content: public const string Deleted = "deleted"
+    return:
+      type: System.String
+    content.vb: Public Const Deleted As String = "deleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.SMessage
+  commentId: F:SuperOffice.CRM.Data.DBC.ExternalDocumentFields.SMessage
+  id: SMessage
+  parent: SuperOffice.CRM.Data.DBC.ExternalDocumentFields
+  langs:
+  - csharp
+  - vb
+  name: SMessage
+  nameWithType: DBC.ExternalDocumentFields.SMessage
+  fullName: SuperOffice.CRM.Data.DBC.ExternalDocumentFields.SMessage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nExternalDocument.SMessage: Relation to s_message if this document is an image in a newsletter\n"
+  syntax:
+    content: public const string SMessage = "s_message"
+    return:
+      type: System.String
+    content.vb: Public Const SMessage As String = "s_message"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

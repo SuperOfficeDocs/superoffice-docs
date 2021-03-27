@@ -1,0 +1,3913 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent
+  commentId: T:SuperOffice.WebApi.Agents.ErpSyncAgent
+  id: ErpSyncAgent
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync(System.TimeSpan,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.ErpSyncFieldValue[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync(SuperOffice.WebApi.Data.CrmActorType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync(SuperOffice.WebApi.Data.ErpSyncActorTypeMapping,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync(SuperOffice.WebApi.Data.ErpConnection,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync(SuperOffice.WebApi.Data.ErpConnectionListMappingContainer,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync(SuperOffice.WebApi.Data.ErpSyncDefaultValue,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.WebApi.Data.ErpSyncConnectorEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nServices for the ERP Integration Services feature\n<p></p>\n<strong>Online Restricted:</strong> This agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice.WebApi;\n  using SuperOffice.WebApi.Agents;\n\n  var mySession = new WebApiOptions(&quot;http://example.com/super/api&quot;);\n  mySession.Authorization = new AuthorizationUsernamePassword(&quot;user&quot;, &quot;pass&quot;);\n  using (ErpSyncAgent agent = new ErpSyncAgent(mySession))\n  {\n        // call methods on agent here...\n  }</code></pre>\n"
+  syntax:
+    content: 'public class ErpSyncAgent : AgentBase, IDisposable'
+    content.vb: >-
+      Public Class ErpSyncAgent
+          Inherits AgentBase
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Agents.AgentBase
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor(System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor(System.Net.Http.HttpClient)
+  id: '#ctor(System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncAgent(HttpClient)
+  nameWithType: ErpSyncAgent.ErpSyncAgent(HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ErpSyncAgent(System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Services for the ERP Integration Services feature\n"
+  syntax:
+    content: public ErpSyncAgent(HttpClient httpClient)
+    parameters:
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.
+    content.vb: Public Sub New(httpClient As HttpClient)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncAgent(WebApiOptions, HttpClient)
+  nameWithType: ErpSyncAgent.ErpSyncAgent(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ErpSyncAgent(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConstructor: Services for the ERP Integration Services feature\n"
+  syntax:
+    content: public ErpSyncAgent(WebApiOptions options, HttpClient httpClient = null)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.WebApiOptions
+      description: Base URL and authentication values.
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+      description: 'Optional: Use this HTTP client instead of making a new one. Client is disposed when agent is disposed.'
+    content.vb: Public Sub New(options As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultErpSyncConnectorEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultErpSyncConnectorEntityAsync(RequestOptions)
+  nameWithType: ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSet default values into a new ErpSyncConnectorEntity.\nNetServer calculates default values on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public Task<ErpSyncConnectorEntity> CreateDefaultErpSyncConnectorEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectorEntity}
+      description: A blank ErpSyncConnectorEntity
+    content.vb: Public Function CreateDefaultErpSyncConnectorEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncConnectorEntity)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.WebApi.Data.ErpSyncConnectorEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.WebApi.Data.ErpSyncConnectorEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveErpSyncConnectorEntityAsync(SuperOffice.WebApi.Data.ErpSyncConnectorEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, RequestOptions)
+  nameWithType: ErpSyncAgent.SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.WebApi.Data.ErpSyncConnectorEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUpdates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is 0. \n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncConnectorEntity> SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity erpSyncConnectorEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpSyncConnectorEntity
+      type: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+      description: The ErpSyncConnectorEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectorEntity}
+      description: New or updated ErpSyncConnectorEntity
+    content.vb: Public Function SaveErpSyncConnectorEntityAsync(erpSyncConnectorEntity As ErpSyncConnectorEntity, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncConnectorEntity)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteErpSyncConnectorEntityAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes the ErpSyncConnectorEntity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task DeleteErpSyncConnectorEntityAsync(int erpSyncConnectorEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpSyncConnectorEntityId
+      type: System.Int32
+      description: The identity of the ErpSyncConnectorEntity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function DeleteErpSyncConnectorEntityAsync(erpSyncConnectorEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  id: GetActorTypeMappingAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetActorTypeMappingAsync(Int32, ErpActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.GetActorTypeMappingAsync(Int32, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the current mappings for one connection/actor; connection+actor type = unique key\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncActorTypeMapping> GetActorTypeMappingAsync(int erpConnectionId, ErpActorType actorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection ID
+    - id: actorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The actor type
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncActorTypeMapping}
+      description: The current mapping from the database
+    content.vb: Public Function GetActorTypeMappingAsync(erpConnectionId As Integer, actorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncActorTypeMapping)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  id: CreateActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateActorLinkAsync(Int32, Int32, CrmActorType, String, ErpActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.CreateActorLinkAsync(Int32, Int32, CrmActorType, String, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync(System.Int32, System.Int32, SuperOffice.WebApi.Data.CrmActorType, System.String, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nLink a crm entity to an erp entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> CreateActorLinkAsync(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection ID
+    - id: crmRecordId
+      type: System.Int32
+      description: The ID of the CRM entity to connect to
+    - id: crmActorType
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: Identifies the CRM actor type corresponding to this CRM entity
+    - id: erpKey
+      type: System.String
+      description: The ERP entity identifier
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The ERP actor type
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if success
+    content.vb: Public Function CreateActorLinkAsync(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  id: BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: BreakActorLinkAsync(Int32, Int32, CrmActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.BreakActorLinkAsync(Int32, Int32, CrmActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync(System.Int32, System.Int32, SuperOffice.WebApi.Data.CrmActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRemove the link between a CRM entity and an ERP entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> BreakActorLinkAsync(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection ID
+    - id: crmRecordId
+      type: System.Int32
+      description: The ID of the CRM entity to connect to
+    - id: crmActorType
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: Identifies the CRM actor type corresponding to this CRM entity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if success
+    content.vb: Public Function BreakActorLinkAsync(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  id: CreateErpActorFromCrmAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateErpActorFromCrmAsync(Int32, Int32, ErpActorType, CrmActorType, StringDictionary, RequestOptions)
+  nameWithType: ErpSyncAgent.CreateErpActorFromCrmAsync(Int32, Int32, ErpActorType, CrmActorType, StringDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync(System.Int32, System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.Data.CrmActorType, SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate ErpActor from crm entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> CreateErpActorFromCrmAsync(int connectionId, int crmEntityId, ErpActorType erpActorType, CrmActorType crmActorType, StringDictionary erpFieldKeyValues, RequestOptions requestOptions = null)
+    parameters:
+    - id: connectionId
+      type: System.Int32
+      description: The connection ID
+    - id: crmEntityId
+      type: System.Int32
+      description: The ID of the CRM entity to create an ERP actor from
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The ERP actor type
+    - id: crmActorType
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: The CRM actor type
+    - id: erpFieldKeyValues
+      type: SuperOffice.WebApi.Data.StringDictionary
+      description: A map of matching erp field keys and values to set for the new erp entity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Created ERP actor with success
+    content.vb: Public Function CreateErpActorFromCrmAsync(connectionId As Integer, crmEntityId As Integer, erpActorType As ErpActorType, crmActorType As CrmActorType, erpFieldKeyValues As StringDictionary, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync(SuperOffice.WebApi.Data.ErpSyncActorTypeMapping,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync(SuperOffice.WebApi.Data.ErpSyncActorTypeMapping,SuperOffice.WebApi.RequestOptions)
+  id: SaveActorTypeMappingAsync(SuperOffice.WebApi.Data.ErpSyncActorTypeMapping,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveActorTypeMappingAsync(ErpSyncActorTypeMapping, RequestOptions)
+  nameWithType: ErpSyncAgent.SaveActorTypeMappingAsync(ErpSyncActorTypeMapping, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync(SuperOffice.WebApi.Data.ErpSyncActorTypeMapping, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSave mappings for a connection/actor\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncActorTypeMapping> SaveActorTypeMappingAsync(ErpSyncActorTypeMapping mapping, RequestOptions requestOptions = null)
+    parameters:
+    - id: mapping
+      type: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+      description: The mapping to be saved; new mapping rows will be created in the database if needed
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncActorTypeMapping}
+      description: The current mapping from the database
+    content.vb: Public Function SaveActorTypeMappingAsync(mapping As ErpSyncActorTypeMapping, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncActorTypeMapping)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ValidateArchiveColumnConfigAsync(System.String,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateArchiveColumnConfigAsync(String, Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.ValidateArchiveColumnConfigAsync(String, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync(System.String, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nClear field info from table SUPERLISTCOLUMNSIZE if field mapping changed on given connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task ValidateArchiveColumnConfigAsync(string listOwner, int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: listOwner
+      type: System.String
+      description: GUI name used in archive control config
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection ID
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: Validated ArchiveColumnConfig
+    content.vb: Public Function ValidateArchiveColumnConfigAsync(listOwner As String, erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: UpdateConnectionFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateConnectionFieldsAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.UpdateConnectionFieldsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets all supported actor types, and all fields for each actor type, and save this state to the CRM database\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> UpdateConnectionFieldsAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection ID
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Success or fail
+    content.vb: Public Function UpdateConnectionFieldsAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  id: GetCrmActorTypeAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCrmActorTypeAsync(Int32, ErpActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.GetCrmActorTypeAsync(Int32, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nRetrieves the CrmActorType that are mapped to a specific ErpActorType for this connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<CrmActorType> GetCrmActorTypeAsync(int erpConnectionId, ErpActorType erpActorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The ERP connection ID
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The ERP actor type
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CrmActorType}
+      description: The CrmActorType
+    content.vb: Public Function GetCrmActorTypeAsync(erpConnectionId As Integer, erpActorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task(Of CrmActorType)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetEngineStatusAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetEngineStatusAsync(RequestOptions)
+  nameWithType: ErpSyncAgent.GetEngineStatusAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the current status of the Sync engine\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncEngineStatus> GetEngineStatusAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncEngineStatus}
+      description: The current status of the engine
+    content.vb: Public Function GetEngineStatusAsync(requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncEngineStatus)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: ChangeEngineStatusAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeEngineStatusAsync(Boolean, RequestOptions)
+  nameWithType: ErpSyncAgent.ChangeEngineStatusAsync(Boolean, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync(System.Boolean, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChange the current running/stopped status of the Sync engine\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncEngineStatus> ChangeEngineStatusAsync(bool run, RequestOptions requestOptions = null)
+    parameters:
+    - id: run
+      type: System.Boolean
+      description: If true, then start the engine; otherwise stop it (requests to the Batch system, may not be immediately reflected)
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncEngineStatus}
+      description: The current status of the engine
+    content.vb: Public Function ChangeEngineStatusAsync(run As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncEngineStatus)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync(System.TimeSpan,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync(System.TimeSpan,SuperOffice.WebApi.RequestOptions)
+  id: ChangeEngineIntervalAsync(System.TimeSpan,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeEngineIntervalAsync(TimeSpan, RequestOptions)
+  nameWithType: ErpSyncAgent.ChangeEngineIntervalAsync(TimeSpan, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync(System.TimeSpan, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nChange the interval for each run of the Sync Engine\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task ChangeEngineIntervalAsync(TimeSpan interval, RequestOptions requestOptions = null)
+    parameters:
+    - id: interval
+      type: System.TimeSpan
+      description: The run interval for the engine
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ChangeEngineIntervalAsync(interval As TimeSpan, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetErpSyncConnectorEntityAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetErpSyncConnectorEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGets a specific ErpSyncConnectorEntity object.                        \n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncConnectorEntity> GetErpSyncConnectorEntityAsync(int erpSyncConnectorEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpSyncConnectorEntityId
+      type: System.Int32
+      description: The identifier of the ErpSyncConnectorEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectorEntity}
+      description: ErpSyncConnectorEntity
+    content.vb: Public Function GetErpSyncConnectorEntityAsync(erpSyncConnectorEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncConnectorEntity)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: CanDeleteErpSyncConnectorEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: CanDeleteErpSyncConnectorEntityAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCan we delete the connector?\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncResponseCode> CanDeleteErpSyncConnectorEntityAsync(int erpSyncConnectorId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpSyncConnectorId
+      type: System.Int32
+      description: The ID of the ErpSync connector to check if can be deleted
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncResponseCode}
+      description: Enum response says ok or what is wrong
+    content.vb: Public Function CanDeleteErpSyncConnectorEntityAsync(erpSyncConnectorId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncResponseCode)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: TestConnectorUrlAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: TestConnectorUrlAsync(String, RequestOptions)
+  nameWithType: ErpSyncAgent.TestConnectorUrlAsync(String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync(System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTest if connector urls anwers\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncResponseCode> TestConnectorUrlAsync(string url, RequestOptions requestOptions = null)
+    parameters:
+    - id: url
+      type: System.String
+      description: The url to test connection on
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncResponseCode}
+      description: Enum response says ok or what is wrong
+    content.vb: Public Function TestConnectorUrlAsync(url As String, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncResponseCode)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetErpSyncConnectionSummaryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetErpSyncConnectionSummaryAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetErpSyncConnectionSummaryAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a summary of the current ErpSync configuration/setup\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncConnectionSummary> GetErpSyncConnectionSummaryAsync(int erpSyncConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpSyncConnectionId
+      type: System.Int32
+      description: The ID of the ErpSync connection for which information is sought
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectionSummary}
+      description: Summary of connection information, and one summary element per configured actor type
+    content.vb: Public Function GetErpSyncConnectionSummaryAsync(erpSyncConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncConnectionSummary)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync(SuperOffice.WebApi.Data.ErpSyncDefaultValue,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync(SuperOffice.WebApi.Data.ErpSyncDefaultValue,SuperOffice.WebApi.RequestOptions)
+  id: SaveDefaultValueInfoAsync(SuperOffice.WebApi.Data.ErpSyncDefaultValue,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveDefaultValueInfoAsync(ErpSyncDefaultValue, RequestOptions)
+  nameWithType: ErpSyncAgent.SaveDefaultValueInfoAsync(ErpSyncDefaultValue, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync(SuperOffice.WebApi.Data.ErpSyncDefaultValue, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSave information about a default value for an ERP field\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncDefaultValue> SaveDefaultValueInfoAsync(ErpSyncDefaultValue erpSyncDefaultValue, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpSyncDefaultValue
+      type: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+      description: The id of the ERPfield to save
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncDefaultValue}
+      description: The newly saved ErpSyncDefaultValue
+    content.vb: Public Function SaveDefaultValueInfoAsync(erpSyncDefaultValue As ErpSyncDefaultValue, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncDefaultValue)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetDefaultValueInfoAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultValueInfoAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetDefaultValueInfoAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet information about default value for an ERP field\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncDefaultValue> GetDefaultValueInfoAsync(int erpFieldId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpFieldId
+      type: System.Int32
+      description: The id of the ERP field
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncDefaultValue}
+      description: Object with information about default values
+    content.vb: Public Function GetDefaultValueInfoAsync(erpFieldId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncDefaultValue)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync(SuperOffice.WebApi.Data.CrmActorType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync(SuperOffice.WebApi.Data.CrmActorType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConnectionsAndDisplayFieldsAsync(SuperOffice.WebApi.Data.CrmActorType,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionsAndDisplayFieldsAsync(CrmActorType, Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync(CrmActorType, Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync(SuperOffice.WebApi.Data.CrmActorType, System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet all connection statuses and fields for a given entity\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpConnectionData[]> GetConnectionsAndDisplayFieldsAsync(CrmActorType crmActorType, int entityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: crmActorType
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: The type of the CRM entity
+    - id: entityId
+      type: System.Int32
+      description: The id of the entity
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionData[]}
+      description: An array of ErpConnectionData carriers
+    content.vb: Public Function GetConnectionsAndDisplayFieldsAsync(crmActorType As CrmActorType, entityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpConnectionData())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: GetErpFieldValuesAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.Int32,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetErpFieldValuesAsync(Int32, CrmActorType, Int32, String[], RequestOptions)
+  nameWithType: ErpSyncAgent.GetErpFieldValuesAsync(Int32, CrmActorType, Int32, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync(System.Int32, SuperOffice.WebApi.Data.CrmActorType, System.Int32, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the values for the specified fields from the ERP connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<string[]> GetErpFieldValuesAsync(int erpConnectionId, CrmActorType crmActorType, int entityId, string[] fieldKeys, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The id of the connection
+    - id: crmActorType
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: The type of the CRM entity
+    - id: entityId
+      type: System.Int32
+      description: The id of the entity
+    - id: fieldKeys
+      type: System.String[]
+      description: The fields for which you want to get the values
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: An array containing the values for the specified fields, in the same order
+    content.vb: Public Function GetErpFieldValuesAsync(erpConnectionId As Integer, crmActorType As CrmActorType, entityId As Integer, fieldKeys As String(), requestOptions As RequestOptions = Nothing) As Task(Of String())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync*
+  nameWithType.vb: ErpSyncAgent.GetErpFieldValuesAsync(Int32, CrmActorType, Int32, String(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync(System.Int32, SuperOffice.WebApi.Data.CrmActorType, System.Int32, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: GetErpFieldValuesAsync(Int32, CrmActorType, Int32, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  id: GetFieldsForNewErpActorAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFieldsForNewErpActorAsync(Int32, ErpActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.GetFieldsForNewErpActorAsync(Int32, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the fields that must be filled out when creating a new ERP actor\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<FieldMetadata[]> GetFieldsForNewErpActorAsync(int erpConnectionId, ErpActorType erpActorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The id of the connection
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The type of the ERP actor to create
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldMetadata[]}
+      description: The fields that are required for the new ERP actor
+    content.vb: Public Function GetFieldsForNewErpActorAsync(erpConnectionId As Integer, erpActorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task(Of FieldMetadata())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetConnectionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the specified connection.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpConnection> GetConnectionAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Primary key of the connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnection}
+      description: The connection
+    content.vb: Public Function GetConnectionAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpConnection)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync(SuperOffice.WebApi.Data.ErpConnection,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync(SuperOffice.WebApi.Data.ErpConnection,SuperOffice.WebApi.RequestOptions)
+  id: SaveConnectionAsync(SuperOffice.WebApi.Data.ErpConnection,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConnectionAsync(ErpConnection, RequestOptions)
+  nameWithType: ErpSyncAgent.SaveConnectionAsync(ErpConnection, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync(SuperOffice.WebApi.Data.ErpConnection, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves a connection to the database.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpConnection> SaveConnectionAsync(ErpConnection connection, RequestOptions requestOptions = null)
+    parameters:
+    - id: connection
+      type: SuperOffice.WebApi.Data.ErpConnection
+      description: The connection to save.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnection}
+      description: The resulting connection.
+    content.vb: Public Function SaveConnectionAsync(connection As ErpConnection, requestOptions As RequestOptions = Nothing) As Task(Of ErpConnection)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteConnectionAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteConnectionAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.DeleteConnectionAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDeletes a connection from the database.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task DeleteConnectionAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Primary key of the connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+      description: A void return
+    content.vb: Public Function DeleteConnectionAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConfigurationFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConfigurationFieldsAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetConfigurationFieldsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns all fields needed to connect to the given connector\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<FieldMetadata[]> GetConfigurationFieldsAsync(int erpConnectorId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectorId
+      type: System.Int32
+      description: The id of the erp connector
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldMetadata[]}
+      description: The fields
+    content.vb: Public Function GetConfigurationFieldsAsync(erpConnectorId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of FieldMetadata())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetErpConnectionConfigFieldsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetErpConnectionConfigFieldsAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetErpConnectionConfigFieldsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the config fields for the connection.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<StringDictionary> GetErpConnectionConfigFieldsAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Primary key of the erp connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: Config Fields
+    content.vb: Public Function GetErpConnectionConfigFieldsAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: ToggleErpConnectionActiveAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ToggleErpConnectionActiveAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.ToggleErpConnectionActiveAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nToggles the Active state of the connection\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<string[]> ToggleErpConnectionActiveAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Primary key of the erp connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.String[]}
+      description: Contains the reason for why the toggle failed. Empty if operation was successful
+    content.vb: Public Function ToggleErpConnectionActiveAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of String())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: TestConnectionByIdAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: TestConnectionByIdAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.TestConnectionByIdAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTests to see if we can establish a connection with the given config fields\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> TestConnectionByIdAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The id of the connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if success
+    content.vb: Public Function TestConnectionByIdAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  id: TestConnectionByConfigAsync(System.Int32,SuperOffice.WebApi.Data.StringDictionary,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: TestConnectionByConfigAsync(Int32, StringDictionary, RequestOptions)
+  nameWithType: ErpSyncAgent.TestConnectionByConfigAsync(Int32, StringDictionary, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync(System.Int32, SuperOffice.WebApi.Data.StringDictionary, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTests to see if the given connection has a valid connection to its connector\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> TestConnectionByConfigAsync(int erpConnectionId, StringDictionary configFields, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: The id of the connector we try to connect to
+    - id: configFields
+      type: SuperOffice.WebApi.Data.StringDictionary
+      description: The config fields used to test connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if success
+    content.vb: Public Function TestConnectionByConfigAsync(erpConnectionId As Integer, configFields As StringDictionary, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: SaveErpConnectionSyncPrioritiesAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveErpConnectionSyncPrioritiesAsync(Int32[], RequestOptions)
+  nameWithType: ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nTakes an array of the ErpConnection ids and saves these as ordered sync priorities\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> SaveErpConnectionSyncPrioritiesAsync(int[] erpConnectionIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionIds
+      type: System.Int32[]
+      description: The id put in array in the same order as the priorities
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: Returns true if new sync priorities is saved
+    content.vb: Public Function SaveErpConnectionSyncPrioritiesAsync(erpConnectionIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync*
+  nameWithType.vb: ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync(System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: SaveErpConnectionSyncPrioritiesAsync(Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  id: MoveErpFieldItemAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: MoveErpFieldItemAsync(Int32, Int32, Int32, ErpActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.MoveErpFieldItemAsync(Int32, Int32, Int32, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync(System.Int32, System.Int32, System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nMoves the rank of the erp field up or down\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task MoveErpFieldItemAsync(int erpFieldId, int direction, int erpConnectionId, ErpActorType erpActorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpFieldId
+      type: System.Int32
+      description: The id of the erp field to move
+    - id: direction
+      type: System.Int32
+      description: Positive value to increase rank, negative to decrease.
+    - id: erpConnectionId
+      type: System.Int32
+      description: The id of the connection
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The actor type for which we want to rank fields
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function MoveErpFieldItemAsync(erpFieldId As Integer, direction As Integer, erpConnectionId As Integer, erpActorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  id: SupportsAdvancedSearchAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SupportsAdvancedSearchAsync(Int32, ErpActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.SupportsAdvancedSearchAsync(Int32, ErpActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nIndicates if the connection supports advanced search for the given erp actor\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<bool> SupportsAdvancedSearchAsync(int erpConnectionId, ErpActorType erpActorType, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Ths id of the connection
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The erp actor type to check for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+      description: True if advanced search is supported
+    content.vb: Public Function SupportsAdvancedSearchAsync(erpConnectionId As Integer, erpActorType As ErpActorType, requestOptions As RequestOptions = Nothing) As Task(Of Boolean)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.ErpSyncFieldValue[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.ErpSyncFieldValue[],SuperOffice.WebApi.RequestOptions)
+  id: ConnectActorAsync(System.Int32,System.Int32,SuperOffice.WebApi.Data.CrmActorType,System.String,SuperOffice.WebApi.Data.ErpActorType,SuperOffice.WebApi.Data.ErpSyncFieldValue[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ConnectActorAsync(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[], RequestOptions)
+  nameWithType: ErpSyncAgent.ConnectActorAsync(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync(System.Int32, System.Int32, SuperOffice.WebApi.Data.CrmActorType, System.String, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.Data.ErpSyncFieldValue[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreate a link between Erp and Crm and set default values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task ConnectActorAsync(int erpConnectionId, int crmRecordId, CrmActorType crmActorType, string erpKey, ErpActorType erpActorType, ErpSyncFieldValue[] fieldValues, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: ErpConnectionId
+    - id: crmRecordId
+      type: System.Int32
+      description: CrmRecordId
+    - id: crmActorType
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: The Crm Actor type
+    - id: erpKey
+      type: System.String
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: The Erp Actor type
+    - id: fieldValues
+      type: SuperOffice.WebApi.Data.ErpSyncFieldValue[]
+      description: The Crm Fields
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ConnectActorAsync(erpConnectionId As Integer, crmRecordId As Integer, crmActorType As CrmActorType, erpKey As String, erpActorType As ErpActorType, fieldValues As ErpSyncFieldValue(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync*
+  nameWithType.vb: ErpSyncAgent.ConnectActorAsync(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync(System.Int32, System.Int32, SuperOffice.WebApi.Data.CrmActorType, System.String, SuperOffice.WebApi.Data.ErpActorType, SuperOffice.WebApi.Data.ErpSyncFieldValue(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ConnectActorAsync(Int32, Int32, CrmActorType, String, ErpActorType, ErpSyncFieldValue(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  id: GetFieldValuesFromCrmAsync(System.Int32,SuperOffice.WebApi.Data.CrmActorType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFieldValuesFromCrmAsync(Int32, CrmActorType, RequestOptions)
+  nameWithType: ErpSyncAgent.GetFieldValuesFromCrmAsync(Int32, CrmActorType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync(System.Int32, SuperOffice.WebApi.Data.CrmActorType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet Crm Field values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncFieldValue[]> GetFieldValuesFromCrmAsync(int recordId, CrmActorType actorTypeCrm, RequestOptions requestOptions = null)
+    parameters:
+    - id: recordId
+      type: System.Int32
+      description: The id of the CRM entity
+    - id: actorTypeCrm
+      type: SuperOffice.WebApi.Data.CrmActorType
+      description: CRM Actor type
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncFieldValue[]}
+      description: The Crm Fields
+    content.vb: Public Function GetFieldValuesFromCrmAsync(recordId As Integer, actorTypeCrm As CrmActorType, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncFieldValue())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String,SuperOffice.WebApi.RequestOptions)
+  id: GetFieldValuesFromErpAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetFieldValuesFromErpAsync(Int32, ErpActorType, String, RequestOptions)
+  nameWithType: ErpSyncAgent.GetFieldValuesFromErpAsync(Int32, ErpActorType, String, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, System.String, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet Erp Field values\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpSyncFieldValue[]> GetFieldValuesFromErpAsync(int erpConnectionId, ErpActorType actorTypeErp, string erpKey, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Erp connection id
+    - id: actorTypeErp
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: ERP Actor type
+    - id: erpKey
+      type: System.String
+      description: Primary key for the erp actor
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncFieldValue[]}
+      description: The Erp Fields
+    content.vb: Public Function GetFieldValuesFromErpAsync(erpConnectionId As Integer, actorTypeErp As ErpActorType, erpKey As String, requestOptions As RequestOptions = Nothing) As Task(Of ErpSyncFieldValue())
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  id: SyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SyncAllAsync(RequestOptions)
+  nameWithType: ErpSyncAgent.SyncAllAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSync all active connections\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<PluginResponse> SyncAllAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+      description: The response
+    content.vb: Public Function SyncAllAsync(requestOptions As RequestOptions = Nothing) As Task(Of PluginResponse)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  id: ForceSyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ForceSyncAllAsync(RequestOptions)
+  nameWithType: ErpSyncAgent.ForceSyncAllAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSync all active connections even when automatic sync is off\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<PluginResponse> ForceSyncAllAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+      description: The response
+    content.vb: Public Function ForceSyncAllAsync(requestOptions As RequestOptions = Nothing) As Task(Of PluginResponse)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: ForceResyncAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ForceResyncAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ErpSyncAgent.ForceResyncAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nForce resync from CRM or given Erp connection to all other connections\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<PluginResponse> ForceResyncAsync(int erpConnectionId, int[] internalKeyIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: If positive, resync from the given erp connection
+    - id: internalKeyIds
+      type: System.Int32[]
+      description: The internal keys of the entities to resync, or empty to resync all
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+      description: The response
+    content.vb: Public Function ForceResyncAsync(erpConnectionId As Integer, internalKeyIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of PluginResponse)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync*
+  nameWithType.vb: ErpSyncAgent.ForceResyncAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ForceResyncAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: ForceResyncNoBlankValuesAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ForceResyncNoBlankValuesAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ErpSyncAgent.ForceResyncNoBlankValuesAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nForce resync from CRM or given Erp connection to all other connections and tell the sync that you don&apos;t want blank values to overwrite non-blank values. Useful on import.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<PluginResponse> ForceResyncNoBlankValuesAsync(int erpConnectionId, int[] internalKeyIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: If positive, resync from the given erp connection
+    - id: internalKeyIds
+      type: System.Int32[]
+      description: The internal keys of the entities to resync, or empty to resync all
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+      description: The response
+    content.vb: Public Function ForceResyncNoBlankValuesAsync(erpConnectionId As Integer, internalKeyIds As Integer(), requestOptions As RequestOptions = Nothing) As Task(Of PluginResponse)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync*
+  nameWithType.vb: ErpSyncAgent.ForceResyncNoBlankValuesAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ForceResyncNoBlankValuesAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: ForceResyncBatchTaskAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ForceResyncBatchTaskAsync(Int32, Int32[], RequestOptions)
+  nameWithType: ErpSyncAgent.ForceResyncBatchTaskAsync(Int32, Int32[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync(System.Int32, System.Int32[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nStart batch task to force resync from CRM or given Erp connection to all other connections\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task ForceResyncBatchTaskAsync(int erpConnectionId, int[] internalKeyIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: If positive, resync from the given erp connection
+    - id: internalKeyIds
+      type: System.Int32[]
+      description: The internal keys of the entities to resync, or empty to resync all
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function ForceResyncBatchTaskAsync(erpConnectionId As Integer, internalKeyIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync*
+  nameWithType.vb: ErpSyncAgent.ForceResyncBatchTaskAsync(Int32, Int32(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync(System.Int32, System.Int32(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ForceResyncBatchTaskAsync(Int32, Int32(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: ForceResyncExternalAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ForceResyncExternalAsync(Int32, ErpActorType, String[], RequestOptions)
+  nameWithType: ErpSyncAgent.ForceResyncExternalAsync(Int32, ErpActorType, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nForce resync from CRM or given Erp connection to all other connections, using external keys\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<PluginResponse> ForceResyncExternalAsync(int erpConnectionId, ErpActorType erpActorType, string[] externalKeys, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Resync from the given erp connection
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: Which actor type the external keys are associated with
+    - id: externalKeys
+      type: System.String[]
+      description: The internal keys of the entities to resync, or empty to resync all
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+      description: The response
+    content.vb: Public Function ForceResyncExternalAsync(erpConnectionId As Integer, erpActorType As ErpActorType, externalKeys As String(), requestOptions As RequestOptions = Nothing) As Task(Of PluginResponse)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync*
+  nameWithType.vb: ErpSyncAgent.ForceResyncExternalAsync(Int32, ErpActorType, String(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ForceResyncExternalAsync(Int32, ErpActorType, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  id: ForceResyncExternalNoBlankValuesAsync(System.Int32,SuperOffice.WebApi.Data.ErpActorType,System.String[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: ForceResyncExternalNoBlankValuesAsync(Int32, ErpActorType, String[], RequestOptions)
+  nameWithType: ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(Int32, ErpActorType, String[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, System.String[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nForce resync from CRM or given Erp connection to all other connections, using external keys, and tell the sync that you don&apos;t want blank values to overwrite non-blank values. Useful on import.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<PluginResponse> ForceResyncExternalNoBlankValuesAsync(int erpConnectionId, ErpActorType erpActorType, string[] externalKeys, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Resync from the given erp connection
+    - id: erpActorType
+      type: SuperOffice.WebApi.Data.ErpActorType
+      description: Which actor type the external keys are associated with
+    - id: externalKeys
+      type: System.String[]
+      description: The internal keys of the entities to resync, or empty to resync all
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+      description: The response
+    content.vb: Public Function ForceResyncExternalNoBlankValuesAsync(erpConnectionId As Integer, erpActorType As ErpActorType, externalKeys As String(), requestOptions As RequestOptions = Nothing) As Task(Of PluginResponse)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync*
+  nameWithType.vb: ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(Int32, ErpActorType, String(), RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync(System.Int32, SuperOffice.WebApi.Data.ErpActorType, System.String(), SuperOffice.WebApi.RequestOptions)
+  name.vb: ForceResyncExternalNoBlankValuesAsync(Int32, ErpActorType, String(), RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetConnectionListMappingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: GetConnectionListMappingsAsync(Int32, RequestOptions)
+  nameWithType: ErpSyncAgent.GetConnectionListMappingsAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturns the listmappings for the specified connection.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpConnectionListMappingContainer> GetConnectionListMappingsAsync(int erpConnectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: erpConnectionId
+      type: System.Int32
+      description: Primary key of the connection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionListMappingContainer}
+      description: The listmappings
+    content.vb: Public Function GetConnectionListMappingsAsync(erpConnectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of ErpConnectionListMappingContainer)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync(SuperOffice.WebApi.Data.ErpConnectionListMappingContainer,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync(SuperOffice.WebApi.Data.ErpConnectionListMappingContainer,SuperOffice.WebApi.RequestOptions)
+  id: SaveConnectionListMappingsAsync(SuperOffice.WebApi.Data.ErpConnectionListMappingContainer,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveConnectionListMappingsAsync(ErpConnectionListMappingContainer, RequestOptions)
+  nameWithType: ErpSyncAgent.SaveConnectionListMappingsAsync(ErpConnectionListMappingContainer, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync(SuperOffice.WebApi.Data.ErpConnectionListMappingContainer, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSaves a connection to the database.\n<p></p>\n<strong>Online Restricted:</strong> The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.\n"
+  syntax:
+    content: public Task<ErpConnectionListMappingContainer> SaveConnectionListMappingsAsync(ErpConnectionListMappingContainer listMapping, RequestOptions requestOptions = null)
+    parameters:
+    - id: listMapping
+      type: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+      description: The list item mappings to save.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionListMappingContainer}
+      description: The saved list mappings.
+    content.vb: Public Function SaveConnectionListMappingsAsync(listMapping As ErpConnectionListMappingContainer, requestOptions As RequestOptions = Nothing) As Task(Of ErpConnectionListMappingContainer)
+  overload: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+    name: Merge
+    nameWithType: AgentBase.Merge
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromObject
+    nameWithType: AgentBase.BuildRequestFromObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: BuildRequestFromStream
+    nameWithType: AgentBase.BuildRequestFromStream
+    fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+    name: ParseAuthorization
+    nameWithType: AgentBase.ParseAuthorization
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: SuperOffice.WebApi.IAuthorization
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    name: CancelRequest
+    nameWithType: AgentBase.CancelRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+    name: SendRequestObject
+    nameWithType: AgentBase.SendRequestObject
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpMethod
+    name: HttpMethod
+    nameWithType: HttpMethod
+    fullName: System.Net.Http.HttpMethod
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.WebApiOptions
+    name: WebApiOptions
+    nameWithType: WebApiOptions
+    fullName: SuperOffice.WebApi.WebApiOptions
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+    name: SendRequest
+    nameWithType: AgentBase.SendRequest
+    fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+    name: ThrowOnResponseError
+    nameWithType: AgentBase.ThrowOnResponseError
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpRequestMessage
+    name: HttpRequestMessage
+    nameWithType: HttpRequestMessage
+    fullName: System.Net.Http.HttpRequestMessage
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse<T>
+    nameWithType: AgentBase.ParseResponse<T>
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+    name: ParseResponse(Of T)
+    nameWithType: AgentBase.ParseResponse(Of T)
+    fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+    name: Finally
+    nameWithType: AgentBase.Finally
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    name: Dispose
+    nameWithType: AgentBase.Dispose
+    fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.#ctor
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent.ErpSyncAgent
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ErpSyncAgent
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+  isExternal: true
+  name: CreateDefaultErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectorEntity}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectorEntity}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncConnectorEntity>
+  nameWithType: Task<ErpSyncConnectorEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncConnectorEntity>
+  nameWithType.vb: Task(Of ErpSyncConnectorEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncConnectorEntity)
+  name.vb: Task(Of ErpSyncConnectorEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+    name: ErpSyncConnectorEntity
+    nameWithType: ErpSyncConnectorEntity
+    fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+    name: ErpSyncConnectorEntity
+    nameWithType: ErpSyncConnectorEntity
+    fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync
+  isExternal: true
+  name: SaveErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.SaveErpSyncConnectorEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpSyncConnectorEntityAsync
+- uid: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpSyncConnectorEntity
+  nameWithType: ErpSyncConnectorEntity
+  fullName: SuperOffice.WebApi.Data.ErpSyncConnectorEntity
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
+  isExternal: true
+  name: DeleteErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync
+  isExternal: true
+  name: GetActorTypeMappingAsync
+  nameWithType: ErpSyncAgent.GetActorTypeMappingAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetActorTypeMappingAsync
+- uid: SuperOffice.WebApi.Data.ErpActorType
+  commentId: T:SuperOffice.WebApi.Data.ErpActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpActorType
+  nameWithType: ErpActorType
+  fullName: SuperOffice.WebApi.Data.ErpActorType
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncActorTypeMapping}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncActorTypeMapping}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncActorTypeMapping>
+  nameWithType: Task<ErpSyncActorTypeMapping>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncActorTypeMapping>
+  nameWithType.vb: Task(Of ErpSyncActorTypeMapping)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncActorTypeMapping)
+  name.vb: Task(Of ErpSyncActorTypeMapping)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+    name: ErpSyncActorTypeMapping
+    nameWithType: ErpSyncActorTypeMapping
+    fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+    name: ErpSyncActorTypeMapping
+    nameWithType: ErpSyncActorTypeMapping
+    fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync
+  isExternal: true
+  name: CreateActorLinkAsync
+  nameWithType: ErpSyncAgent.CreateActorLinkAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateActorLinkAsync
+- uid: SuperOffice.WebApi.Data.CrmActorType
+  commentId: T:SuperOffice.WebApi.Data.CrmActorType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: CrmActorType
+  nameWithType: CrmActorType
+  fullName: SuperOffice.WebApi.Data.CrmActorType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync
+  isExternal: true
+  name: BreakActorLinkAsync
+  nameWithType: ErpSyncAgent.BreakActorLinkAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.BreakActorLinkAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync
+  isExternal: true
+  name: CreateErpActorFromCrmAsync
+  nameWithType: ErpSyncAgent.CreateErpActorFromCrmAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CreateErpActorFromCrmAsync
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync
+  isExternal: true
+  name: SaveActorTypeMappingAsync
+  nameWithType: ErpSyncAgent.SaveActorTypeMappingAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveActorTypeMappingAsync
+- uid: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpSyncActorTypeMapping
+  nameWithType: ErpSyncActorTypeMapping
+  fullName: SuperOffice.WebApi.Data.ErpSyncActorTypeMapping
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync
+  isExternal: true
+  name: ValidateArchiveColumnConfigAsync
+  nameWithType: ErpSyncAgent.ValidateArchiveColumnConfigAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ValidateArchiveColumnConfigAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync
+  isExternal: true
+  name: UpdateConnectionFieldsAsync
+  nameWithType: ErpSyncAgent.UpdateConnectionFieldsAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.UpdateConnectionFieldsAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync
+  isExternal: true
+  name: GetCrmActorTypeAsync
+  nameWithType: ErpSyncAgent.GetCrmActorTypeAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetCrmActorTypeAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CrmActorType}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CrmActorType}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<CrmActorType>
+  nameWithType: Task<CrmActorType>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CrmActorType>
+  nameWithType.vb: Task(Of CrmActorType)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CrmActorType)
+  name.vb: Task(Of CrmActorType)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.WebApi.Data.CrmActorType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.CrmActorType
+    name: CrmActorType
+    nameWithType: CrmActorType
+    fullName: SuperOffice.WebApi.Data.CrmActorType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync
+  isExternal: true
+  name: GetEngineStatusAsync
+  nameWithType: ErpSyncAgent.GetEngineStatusAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetEngineStatusAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncEngineStatus}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncEngineStatus}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncEngineStatus>
+  nameWithType: Task<ErpSyncEngineStatus>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncEngineStatus>
+  nameWithType.vb: Task(Of ErpSyncEngineStatus)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncEngineStatus)
+  name.vb: Task(Of ErpSyncEngineStatus)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+    name: ErpSyncEngineStatus
+    nameWithType: ErpSyncEngineStatus
+    fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+    name: ErpSyncEngineStatus
+    nameWithType: ErpSyncEngineStatus
+    fullName: SuperOffice.WebApi.Data.ErpSyncEngineStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync
+  isExternal: true
+  name: ChangeEngineStatusAsync
+  nameWithType: ErpSyncAgent.ChangeEngineStatusAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineStatusAsync
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync
+  isExternal: true
+  name: ChangeEngineIntervalAsync
+  nameWithType: ErpSyncAgent.ChangeEngineIntervalAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ChangeEngineIntervalAsync
+- uid: System.TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync
+  isExternal: true
+  name: GetErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.GetErpSyncConnectorEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectorEntityAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync
+  isExternal: true
+  name: CanDeleteErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncResponseCode}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncResponseCode}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncResponseCode>
+  nameWithType: Task<ErpSyncResponseCode>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncResponseCode>
+  nameWithType.vb: Task(Of ErpSyncResponseCode)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncResponseCode)
+  name.vb: Task(Of ErpSyncResponseCode)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    name: ErpSyncResponseCode
+    nameWithType: ErpSyncResponseCode
+    fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    name: ErpSyncResponseCode
+    nameWithType: ErpSyncResponseCode
+    fullName: SuperOffice.WebApi.Data.ErpSyncResponseCode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync
+  isExternal: true
+  name: TestConnectorUrlAsync
+  nameWithType: ErpSyncAgent.TestConnectorUrlAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectorUrlAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync
+  isExternal: true
+  name: GetErpSyncConnectionSummaryAsync
+  nameWithType: ErpSyncAgent.GetErpSyncConnectionSummaryAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpSyncConnectionSummaryAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectionSummary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncConnectionSummary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncConnectionSummary>
+  nameWithType: Task<ErpSyncConnectionSummary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncConnectionSummary>
+  nameWithType.vb: Task(Of ErpSyncConnectionSummary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncConnectionSummary)
+  name.vb: Task(Of ErpSyncConnectionSummary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+    name: ErpSyncConnectionSummary
+    nameWithType: ErpSyncConnectionSummary
+    fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+    name: ErpSyncConnectionSummary
+    nameWithType: ErpSyncConnectionSummary
+    fullName: SuperOffice.WebApi.Data.ErpSyncConnectionSummary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync
+  isExternal: true
+  name: SaveDefaultValueInfoAsync
+  nameWithType: ErpSyncAgent.SaveDefaultValueInfoAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveDefaultValueInfoAsync
+- uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  commentId: T:SuperOffice.WebApi.Data.ErpSyncDefaultValue
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpSyncDefaultValue
+  nameWithType: ErpSyncDefaultValue
+  fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncDefaultValue}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncDefaultValue}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncDefaultValue>
+  nameWithType: Task<ErpSyncDefaultValue>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncDefaultValue>
+  nameWithType.vb: Task(Of ErpSyncDefaultValue)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncDefaultValue)
+  name.vb: Task(Of ErpSyncDefaultValue)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+    name: ErpSyncDefaultValue
+    nameWithType: ErpSyncDefaultValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+    name: ErpSyncDefaultValue
+    nameWithType: ErpSyncDefaultValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncDefaultValue
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync
+  isExternal: true
+  name: GetDefaultValueInfoAsync
+  nameWithType: ErpSyncAgent.GetDefaultValueInfoAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetDefaultValueInfoAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync
+  isExternal: true
+  name: GetConnectionsAndDisplayFieldsAsync
+  nameWithType: ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionsAndDisplayFieldsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionData[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionData[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpConnectionData[]>
+  nameWithType: Task<ErpConnectionData[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpConnectionData[]>
+  nameWithType.vb: Task(Of ErpConnectionData())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpConnectionData())
+  name.vb: Task(Of ErpConnectionData())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpConnectionData
+    name: ErpConnectionData
+    nameWithType: ErpConnectionData
+    fullName: SuperOffice.WebApi.Data.ErpConnectionData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpConnectionData
+    name: ErpConnectionData
+    nameWithType: ErpConnectionData
+    fullName: SuperOffice.WebApi.Data.ErpConnectionData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync
+  isExternal: true
+  name: GetErpFieldValuesAsync
+  nameWithType: ErpSyncAgent.GetErpFieldValuesAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpFieldValuesAsync
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Threading.Tasks.Task{System.String[]}
+  commentId: '!:System.Threading.Tasks.Task{System.String[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String[]>
+  nameWithType: Task<String[]>
+  fullName: System.Threading.Tasks.Task<System.String[]>
+  nameWithType.vb: Task(Of String())
+  fullName.vb: System.Threading.Tasks.Task(Of System.String())
+  name.vb: Task(Of String())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync
+  isExternal: true
+  name: GetFieldsForNewErpActorAsync
+  nameWithType: ErpSyncAgent.GetFieldsForNewErpActorAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldsForNewErpActorAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldMetadata[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.FieldMetadata[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<FieldMetadata[]>
+  nameWithType: Task<FieldMetadata[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.FieldMetadata[]>
+  nameWithType.vb: Task(Of FieldMetadata())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.FieldMetadata())
+  name.vb: Task(Of FieldMetadata())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.FieldMetadata
+    name: FieldMetadata
+    nameWithType: FieldMetadata
+    fullName: SuperOffice.WebApi.Data.FieldMetadata
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.FieldMetadata
+    name: FieldMetadata
+    nameWithType: FieldMetadata
+    fullName: SuperOffice.WebApi.Data.FieldMetadata
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync
+  isExternal: true
+  name: GetConnectionAsync
+  nameWithType: ErpSyncAgent.GetConnectionAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnection}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnection}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpConnection>
+  nameWithType: Task<ErpConnection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpConnection>
+  nameWithType.vb: Task(Of ErpConnection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpConnection)
+  name.vb: Task(Of ErpConnection)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpConnection
+    name: ErpConnection
+    nameWithType: ErpConnection
+    fullName: SuperOffice.WebApi.Data.ErpConnection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpConnection
+    name: ErpConnection
+    nameWithType: ErpConnection
+    fullName: SuperOffice.WebApi.Data.ErpConnection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync
+  isExternal: true
+  name: SaveConnectionAsync
+  nameWithType: ErpSyncAgent.SaveConnectionAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionAsync
+- uid: SuperOffice.WebApi.Data.ErpConnection
+  commentId: T:SuperOffice.WebApi.Data.ErpConnection
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpConnection
+  nameWithType: ErpConnection
+  fullName: SuperOffice.WebApi.Data.ErpConnection
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync
+  isExternal: true
+  name: DeleteConnectionAsync
+  nameWithType: ErpSyncAgent.DeleteConnectionAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.DeleteConnectionAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync
+  isExternal: true
+  name: GetConfigurationFieldsAsync
+  nameWithType: ErpSyncAgent.GetConfigurationFieldsAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConfigurationFieldsAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync
+  isExternal: true
+  name: GetErpConnectionConfigFieldsAsync
+  nameWithType: ErpSyncAgent.GetErpConnectionConfigFieldsAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetErpConnectionConfigFieldsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    nameWithType: StringDictionary
+    fullName: SuperOffice.WebApi.Data.StringDictionary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync
+  isExternal: true
+  name: ToggleErpConnectionActiveAsync
+  nameWithType: ErpSyncAgent.ToggleErpConnectionActiveAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ToggleErpConnectionActiveAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync
+  isExternal: true
+  name: TestConnectionByIdAsync
+  nameWithType: ErpSyncAgent.TestConnectionByIdAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByIdAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync
+  isExternal: true
+  name: TestConnectionByConfigAsync
+  nameWithType: ErpSyncAgent.TestConnectionByConfigAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.TestConnectionByConfigAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync
+  isExternal: true
+  name: SaveErpConnectionSyncPrioritiesAsync
+  nameWithType: ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveErpConnectionSyncPrioritiesAsync
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync
+  isExternal: true
+  name: MoveErpFieldItemAsync
+  nameWithType: ErpSyncAgent.MoveErpFieldItemAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.MoveErpFieldItemAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync
+  isExternal: true
+  name: SupportsAdvancedSearchAsync
+  nameWithType: ErpSyncAgent.SupportsAdvancedSearchAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SupportsAdvancedSearchAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync
+  isExternal: true
+  name: ConnectActorAsync
+  nameWithType: ErpSyncAgent.ConnectActorAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ConnectActorAsync
+- uid: SuperOffice.WebApi.Data.ErpSyncFieldValue[]
+  isExternal: true
+  name: ErpSyncFieldValue[]
+  nameWithType: ErpSyncFieldValue[]
+  fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue[]
+  nameWithType.vb: ErpSyncFieldValue()
+  fullName.vb: SuperOffice.WebApi.Data.ErpSyncFieldValue()
+  name.vb: ErpSyncFieldValue()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync
+  isExternal: true
+  name: GetFieldValuesFromCrmAsync
+  nameWithType: ErpSyncAgent.GetFieldValuesFromCrmAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromCrmAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncFieldValue[]}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpSyncFieldValue[]}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpSyncFieldValue[]>
+  nameWithType: Task<ErpSyncFieldValue[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpSyncFieldValue[]>
+  nameWithType.vb: Task(Of ErpSyncFieldValue())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpSyncFieldValue())
+  name.vb: Task(Of ErpSyncFieldValue())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    name: ErpSyncFieldValue
+    nameWithType: ErpSyncFieldValue
+    fullName: SuperOffice.WebApi.Data.ErpSyncFieldValue
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync
+  isExternal: true
+  name: GetFieldValuesFromErpAsync
+  nameWithType: ErpSyncAgent.GetFieldValuesFromErpAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetFieldValuesFromErpAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync
+  isExternal: true
+  name: SyncAllAsync
+  nameWithType: ErpSyncAgent.SyncAllAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SyncAllAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.PluginResponse}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PluginResponse>
+  nameWithType: Task<PluginResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.PluginResponse>
+  nameWithType.vb: Task(Of PluginResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.PluginResponse)
+  name.vb: Task(Of PluginResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.PluginResponse
+    name: PluginResponse
+    nameWithType: PluginResponse
+    fullName: SuperOffice.WebApi.Data.PluginResponse
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.PluginResponse
+    name: PluginResponse
+    nameWithType: PluginResponse
+    fullName: SuperOffice.WebApi.Data.PluginResponse
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync
+  isExternal: true
+  name: ForceSyncAllAsync
+  nameWithType: ErpSyncAgent.ForceSyncAllAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceSyncAllAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync
+  isExternal: true
+  name: ForceResyncAsync
+  nameWithType: ErpSyncAgent.ForceResyncAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync
+  isExternal: true
+  name: ForceResyncNoBlankValuesAsync
+  nameWithType: ErpSyncAgent.ForceResyncNoBlankValuesAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncNoBlankValuesAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync
+  isExternal: true
+  name: ForceResyncBatchTaskAsync
+  nameWithType: ErpSyncAgent.ForceResyncBatchTaskAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncBatchTaskAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync
+  isExternal: true
+  name: ForceResyncExternalAsync
+  nameWithType: ErpSyncAgent.ForceResyncExternalAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync
+  isExternal: true
+  name: ForceResyncExternalNoBlankValuesAsync
+  nameWithType: ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.ForceResyncExternalNoBlankValuesAsync
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync
+  isExternal: true
+  name: GetConnectionListMappingsAsync
+  nameWithType: ErpSyncAgent.GetConnectionListMappingsAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.GetConnectionListMappingsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionListMappingContainer}
+  commentId: '!:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.ErpConnectionListMappingContainer}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ErpConnectionListMappingContainer>
+  nameWithType: Task<ErpConnectionListMappingContainer>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.ErpConnectionListMappingContainer>
+  nameWithType.vb: Task(Of ErpConnectionListMappingContainer)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.ErpConnectionListMappingContainer)
+  name.vb: Task(Of ErpConnectionListMappingContainer)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+    name: ErpConnectionListMappingContainer
+    nameWithType: ErpConnectionListMappingContainer
+    fullName: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+    name: ErpConnectionListMappingContainer
+    nameWithType: ErpConnectionListMappingContainer
+    fullName: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync
+  isExternal: true
+  name: SaveConnectionListMappingsAsync
+  nameWithType: ErpSyncAgent.SaveConnectionListMappingsAsync
+  fullName: SuperOffice.WebApi.Agents.ErpSyncAgent.SaveConnectionListMappingsAsync
+- uid: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+  commentId: T:SuperOffice.WebApi.Data.ErpConnectionListMappingContainer
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ErpConnectionListMappingContainer
+  nameWithType: ErpConnectionListMappingContainer
+  fullName: SuperOffice.WebApi.Data.ErpConnectionListMappingContainer

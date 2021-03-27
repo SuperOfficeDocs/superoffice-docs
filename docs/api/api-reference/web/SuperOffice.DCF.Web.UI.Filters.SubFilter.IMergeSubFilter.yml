@@ -1,0 +1,74 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  commentId: T:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  id: IMergeSubFilter
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  children:
+  - SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process(System.Xml.XmlDocument)
+  langs:
+  - csharp
+  - vb
+  name: IMergeSubFilter
+  nameWithType: IMergeSubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  type: Interface
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  syntax:
+    content: 'public interface IMergeSubFilter : IMergeFilterPlugin, IPlugin'
+    content.vb: >-
+      Public Interface IMergeSubFilter
+          Inherits IMergeFilterPlugin, IPlugin
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process(System.Xml.XmlDocument)
+  commentId: M:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process(System.Xml.XmlDocument)
+  id: Process(System.Xml.XmlDocument)
+  parent: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter
+  langs:
+  - csharp
+  - vb
+  name: Process(XmlDocument)
+  nameWithType: IMergeSubFilter.Process(XmlDocument)
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process(System.Xml.XmlDocument)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  syntax:
+    content: void Process(XmlDocument xml)
+    parameters:
+    - id: xml
+      type: System.Xml.XmlDocument
+    content.vb: Sub Process(xml As XmlDocument)
+  overload: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process*
+references:
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  commentId: N:SuperOffice.DCF.Web.UI.Filters.SubFilter
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  nameWithType: SuperOffice.DCF.Web.UI.Filters.SubFilter
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter
+- uid: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process
+  isExternal: true
+  name: Process
+  nameWithType: IMergeSubFilter.Process
+  fullName: SuperOffice.DCF.Web.UI.Filters.SubFilter.IMergeSubFilter.Process
+- uid: System.Xml.XmlDocument
+  isExternal: true
+  name: XmlDocument
+  nameWithType: XmlDocument
+  fullName: System.Xml.XmlDocument

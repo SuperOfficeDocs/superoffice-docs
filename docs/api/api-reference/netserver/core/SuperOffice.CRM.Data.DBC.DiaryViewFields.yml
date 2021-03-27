@@ -1,0 +1,737 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  commentId: T:SuperOffice.CRM.Data.DBC.DiaryViewFields
+  id: DBC.DiaryViewFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.AssocId
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.DiaryViewId
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.ExtraInfo
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.Name
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.Rank
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.Registered
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.Tooltip
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.TzLocationId
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.Updated
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.DiaryViewFields.VisibleColumns
+  langs:
+  - csharp
+  - vb
+  name: DBC.DiaryViewFields
+  nameWithType: DBC.DiaryViewFields
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for DiaryView, Configuration of a multi-user diary view\n"
+  syntax:
+    content: public static class DiaryViewFields
+    content.vb: Public Module DiaryViewFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.DiaryViewId
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.DiaryViewId
+  id: DiaryViewId
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: DiaryViewId
+  nameWithType: DBC.DiaryViewFields.DiaryViewId
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.DiaryViewId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.DiaryViewId: Primary key\n"
+  syntax:
+    content: public const string DiaryViewId = "DiaryView_id"
+    return:
+      type: System.String
+    content.vb: Public Const DiaryViewId As String = "DiaryView_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.AssocId
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.AssocId
+  id: AssocId
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: AssocId
+  nameWithType: DBC.DiaryViewFields.AssocId
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.AssocId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.AssocId: Owning associate\n"
+  syntax:
+    content: public const string AssocId = "assoc_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssocId As String = "assoc_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.DiaryViewFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.Name: The name of the view (defined by the user during saving)\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.Rank
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.Rank
+  id: Rank
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: DBC.DiaryViewFields.Rank
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.Rank
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.Rank: Sorting rank\n"
+  syntax:
+    content: public const string Rank = "rank"
+    return:
+      type: System.String
+    content.vb: Public Const Rank As String = "rank"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.Tooltip
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.Tooltip
+  id: Tooltip
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: DBC.DiaryViewFields.Tooltip
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.Tooltip
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.Tooltip: Tooltip shown in dropdown list\n"
+  syntax:
+    content: public const string Tooltip = "tooltip"
+    return:
+      type: System.String
+    content.vb: Public Const Tooltip As String = "tooltip"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.VisibleColumns
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.VisibleColumns
+  id: VisibleColumns
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: VisibleColumns
+  nameWithType: DBC.DiaryViewFields.VisibleColumns
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.VisibleColumns
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.VisibleColumns: The number of columns to actually show in this view (as opposed to the number of columns defined)\n"
+  syntax:
+    content: public const string VisibleColumns = "visibleColumns"
+    return:
+      type: System.String
+    content.vb: Public Const VisibleColumns As String = "visibleColumns"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.ExtraInfo
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: DBC.DiaryViewFields.ExtraInfo
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.ExtraInfo
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.ExtraInfo: Extra information, whatever it might be\n"
+  syntax:
+    content: public const string ExtraInfo = "extraInfo"
+    return:
+      type: System.String
+    content.vb: Public Const ExtraInfo As String = "extraInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.DiaryViewFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.DiaryViewFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.DiaryViewFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.DiaryViewFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.DiaryViewFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.DiaryViewFields.TzLocationId
+  commentId: F:SuperOffice.CRM.Data.DBC.DiaryViewFields.TzLocationId
+  id: TzLocationId
+  parent: SuperOffice.CRM.Data.DBC.DiaryViewFields
+  langs:
+  - csharp
+  - vb
+  name: TzLocationId
+  nameWithType: DBC.DiaryViewFields.TzLocationId
+  fullName: SuperOffice.CRM.Data.DBC.DiaryViewFields.TzLocationId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nDiaryView.TzLocationId: Default timezone location for this view\n"
+  syntax:
+    content: public const string TzLocationId = "tzLocationId"
+    return:
+      type: System.String
+    content.vb: Public Const TzLocationId As String = "tzLocationId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

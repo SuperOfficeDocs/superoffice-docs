@@ -1,0 +1,257 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ProjectStatus
+  commentId: T:SuperOffice.WebApi.Data.ProjectStatus
+  id: ProjectStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ProjectStatus.#ctor
+  - SuperOffice.WebApi.Data.ProjectStatus.Id
+  - SuperOffice.WebApi.Data.ProjectStatus.Tooltip
+  - SuperOffice.WebApi.Data.ProjectStatus.Value
+  langs:
+  - csharp
+  - vb
+  name: ProjectStatus
+  nameWithType: ProjectStatus
+  fullName: SuperOffice.WebApi.Data.ProjectStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ProjectStatus.\n\n"
+  example:
+  - "\nGet ProjectStatus 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new ListAgent(configuration);\nvar projectStatus = agent.GetProjectStatus( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ProjectStatus : Carrier'
+    content.vb: >-
+      Public Class ProjectStatus
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.ListAgent
+    commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ProjectStatus.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ProjectStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ProjectStatus
+  langs:
+  - csharp
+  - vb
+  name: ProjectStatus()
+  nameWithType: ProjectStatus.ProjectStatus()
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.ProjectStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ProjectStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ProjectStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ProjectStatus.Id
+  commentId: P:SuperOffice.WebApi.Data.ProjectStatus.Id
+  id: Id
+  parent: SuperOffice.WebApi.Data.ProjectStatus
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: ProjectStatus.Id
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.Id
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Id\n"
+  syntax:
+    content: public virtual int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Id As Integer
+  overload: SuperOffice.WebApi.Data.ProjectStatus.Id*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectStatus.Value
+  commentId: P:SuperOffice.WebApi.Data.ProjectStatus.Value
+  id: Value
+  parent: SuperOffice.WebApi.Data.ProjectStatus
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: ProjectStatus.Value
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.Value
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Value\n"
+  syntax:
+    content: public virtual string Value { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Value As String
+  overload: SuperOffice.WebApi.Data.ProjectStatus.Value*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ProjectStatus.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.ProjectStatus.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.ProjectStatus
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: ProjectStatus.Tooltip
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe List Item Tooltip\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.ProjectStatus.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.ListAgent
+  commentId: T:SuperOffice.WebApi.Agents.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.WebApi.Agents.ListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ProjectStatus.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectStatus.#ctor
+  isExternal: true
+  name: ProjectStatus
+  nameWithType: ProjectStatus.ProjectStatus
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.ProjectStatus
+- uid: SuperOffice.WebApi.Data.ProjectStatus.Id*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectStatus.Id
+  isExternal: true
+  name: Id
+  nameWithType: ProjectStatus.Id
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ProjectStatus.Value*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectStatus.Value
+  isExternal: true
+  name: Value
+  nameWithType: ProjectStatus.Value
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.Value
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.ProjectStatus.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectStatus.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: ProjectStatus.Tooltip
+  fullName: SuperOffice.WebApi.Data.ProjectStatus.Tooltip

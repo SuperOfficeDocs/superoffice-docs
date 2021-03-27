@@ -1,0 +1,271 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.CRMScriptResult
+  commentId: T:SuperOffice.CRM.Services.CRMScriptResult
+  id: CRMScriptResult
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.CRMScriptResult.#ctor
+  - SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage
+  - SuperOffice.CRM.Services.CRMScriptResult.ToString
+  - SuperOffice.CRM.Services.CRMScriptResult.ToString(System.String)
+  - SuperOffice.CRM.Services.CRMScriptResult.Valid
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptResult
+  nameWithType: CRMScriptResult
+  fullName: SuperOffice.CRM.Services.CRMScriptResult
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nObject for returning information when validating a CRMScript\n<p></p>\nCarrier object for CRMScriptResult.\nServices for the CRMScriptResult Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ICRMScriptAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class CRMScriptResult : Carrier'
+    content.vb: >-
+      Public Class CRMScriptResult
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.CRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  - linkId: SuperOffice.CRM.Services.ICRMScriptAgent
+    commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.CRMScriptResult.#ctor
+  commentId: M:SuperOffice.CRM.Services.CRMScriptResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: CRMScriptResult()
+  nameWithType: CRMScriptResult.CRMScriptResult()
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.CRMScriptResult()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public CRMScriptResult()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.CRMScriptResult.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptResult.ToString
+  commentId: M:SuperOffice.CRM.Services.CRMScriptResult.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: CRMScriptResult.ToString()
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.CRMScriptResult.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.CRMScriptResult.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptResult.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: CRMScriptResult.ToString(String)
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.CRMScriptResult.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.CRMScriptResult.Valid
+  commentId: P:SuperOffice.CRM.Services.CRMScriptResult.Valid
+  id: Valid
+  parent: SuperOffice.CRM.Services.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: Valid
+  nameWithType: CRMScriptResult.Valid
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.Valid
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nTrue if the CRMScript was successfully validated. If false, see the error message for details \n"
+  syntax:
+    content: public virtual bool Valid { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property Valid As Boolean
+  overload: SuperOffice.CRM.Services.CRMScriptResult.Valid*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage
+  commentId: P:SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage
+  id: ErrorMessage
+  parent: SuperOffice.CRM.Services.CRMScriptResult
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: CRMScriptResult.ErrorMessage
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nContains the error message for a non-valide CRMScript \n"
+  syntax:
+    content: public virtual string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ErrorMessage As String
+  overload: SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.CRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.CRMScriptAgent
+  isExternal: true
+  name: CRMScriptAgent
+  nameWithType: CRMScriptAgent
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent
+  commentId: T:SuperOffice.CRM.Services.ICRMScriptAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ICRMScriptAgent
+  nameWithType: ICRMScriptAgent
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.CRMScriptResult.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptResult.#ctor
+  isExternal: true
+  name: CRMScriptResult
+  nameWithType: CRMScriptResult.CRMScriptResult
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.CRMScriptResult
+- uid: SuperOffice.CRM.Services.CRMScriptResult.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptResult.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: CRMScriptResult.ToString
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.CRMScriptResult.Valid*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptResult.Valid
+  isExternal: true
+  name: Valid
+  nameWithType: CRMScriptResult.Valid
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.Valid
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage
+  isExternal: true
+  name: ErrorMessage
+  nameWithType: CRMScriptResult.ErrorMessage
+  fullName: SuperOffice.CRM.Services.CRMScriptResult.ErrorMessage

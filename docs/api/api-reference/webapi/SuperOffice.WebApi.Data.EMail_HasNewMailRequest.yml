@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_HasNewMailRequest
+  id: EMail_HasNewMailRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_HasNewMailRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId
+  - SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId
+  langs:
+  - csharp
+  - vb
+  name: EMail_HasNewMailRequest
+  nameWithType: EMail_HasNewMailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_HasNewMailRequest : Object'
+    content.vb: >-
+      Public Class EMail_HasNewMailRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_HasNewMailRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_HasNewMailRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_HasNewMailRequest()
+  nameWithType: EMail_HasNewMailRequest.EMail_HasNewMailRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.EMail_HasNewMailRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_HasNewMailRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId
+  commentId: P:SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId
+  id: MailItemId
+  parent: SuperOffice.WebApi.Data.EMail_HasNewMailRequest
+  langs:
+  - csharp
+  - vb
+  name: MailItemId
+  nameWithType: EMail_HasNewMailRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int MailItemId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MailItemId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId
+  commentId: P:SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId
+  id: FolderId
+  parent: SuperOffice.WebApi.Data.EMail_HasNewMailRequest
+  langs:
+  - csharp
+  - vb
+  name: FolderId
+  nameWithType: EMail_HasNewMailRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int FolderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FolderId As Integer
+  overload: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasNewMailRequest.#ctor
+  isExternal: true
+  name: EMail_HasNewMailRequest
+  nameWithType: EMail_HasNewMailRequest.EMail_HasNewMailRequest
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.EMail_HasNewMailRequest
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId
+  isExternal: true
+  name: MailItemId
+  nameWithType: EMail_HasNewMailRequest.MailItemId
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.MailItemId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId
+  isExternal: true
+  name: FolderId
+  nameWithType: EMail_HasNewMailRequest.FolderId
+  fullName: SuperOffice.WebApi.Data.EMail_HasNewMailRequest.FolderId

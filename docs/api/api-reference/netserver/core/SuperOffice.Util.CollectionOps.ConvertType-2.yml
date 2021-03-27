@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2
+  commentId: T:SuperOffice.Util.CollectionOps.ConvertType`2
+  id: CollectionOps.ConvertType`2
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.CollectionOps.ConvertType`2.#ctor(System.Object,System.IntPtr)
+  - SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke(`0,System.AsyncCallback,System.Object)
+  - SuperOffice.Util.CollectionOps.ConvertType`2.EndInvoke(System.IAsyncResult)
+  - SuperOffice.Util.CollectionOps.ConvertType`2.Invoke(`0)
+  langs:
+  - csharp
+  - vb
+  name: CollectionOps.ConvertType<SourceType, ReturnType>
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>
+  type: Delegate
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nType converter delegate, used to convert an object of one type to another\n"
+  syntax:
+    content: public delegate ReturnType ConvertType<SourceType, ReturnType>(SourceType s);
+    parameters:
+    - id: s
+      type: '{SourceType}'
+      description: Source element
+    typeParameters:
+    - id: SourceType
+      description: Source type
+    - id: ReturnType
+      description: Return (target) type
+    return:
+      type: '{ReturnType}'
+      description: Converted element
+    content.vb: Public Delegate Function ConvertType(Of SourceType, ReturnType)(s As SourceType) As ReturnType
+  extensionMethods:
+  - SuperOffice.Util.CollectionOps.ConvertType`2.EnumUtil.MapEnums``2
+  - SuperOffice.Util.CollectionOps.ConvertType`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType)
+  name.vb: CollectionOps.ConvertType(Of SourceType, ReturnType)
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.#ctor(System.Object,System.IntPtr)
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertType`2.#ctor(System.Object,System.IntPtr)
+  id: '#ctor(System.Object,System.IntPtr)'
+  parent: SuperOffice.Util.CollectionOps.ConvertType`2
+  langs:
+  - csharp
+  - vb
+  name: ConvertType(Object, IntPtr)
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.ConvertType(Object, IntPtr)
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.ConvertType(System.Object, System.IntPtr)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public ConvertType(object object, IntPtr method)
+    parameters:
+    - id: object
+      type: System.Object
+    - id: method
+      type: System.IntPtr
+    content.vb: Public Sub New(object As Object, method As IntPtr)
+  overload: SuperOffice.Util.CollectionOps.ConvertType`2.#ctor*
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).ConvertType(Object, IntPtr)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).ConvertType(System.Object, System.IntPtr)
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.Invoke(`0)
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertType`2.Invoke(`0)
+  id: Invoke(`0)
+  parent: SuperOffice.Util.CollectionOps.ConvertType`2
+  langs:
+  - csharp
+  - vb
+  name: Invoke(SourceType)
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.Invoke(SourceType)
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.Invoke(SourceType)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public virtual ReturnType Invoke(SourceType s)
+    parameters:
+    - id: s
+      type: '{SourceType}'
+    return:
+      type: '{ReturnType}'
+    content.vb: Public Overridable Function Invoke(s As SourceType) As ReturnType
+  overload: SuperOffice.Util.CollectionOps.ConvertType`2.Invoke*
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).Invoke(SourceType)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).Invoke(SourceType)
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke(`0,System.AsyncCallback,System.Object)
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke(`0,System.AsyncCallback,System.Object)
+  id: BeginInvoke(`0,System.AsyncCallback,System.Object)
+  parent: SuperOffice.Util.CollectionOps.ConvertType`2
+  langs:
+  - csharp
+  - vb
+  name: BeginInvoke(SourceType, AsyncCallback, Object)
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.BeginInvoke(SourceType, AsyncCallback, Object)
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.BeginInvoke(SourceType, System.AsyncCallback, System.Object)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public virtual IAsyncResult BeginInvoke(SourceType s, AsyncCallback callback, object object)
+    parameters:
+    - id: s
+      type: '{SourceType}'
+    - id: callback
+      type: System.AsyncCallback
+    - id: object
+      type: System.Object
+    return:
+      type: System.IAsyncResult
+    content.vb: Public Overridable Function BeginInvoke(s As SourceType, callback As AsyncCallback, object As Object) As IAsyncResult
+  overload: SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke*
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).BeginInvoke(SourceType, AsyncCallback, Object)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).BeginInvoke(SourceType, System.AsyncCallback, System.Object)
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.EndInvoke(System.IAsyncResult)
+  commentId: M:SuperOffice.Util.CollectionOps.ConvertType`2.EndInvoke(System.IAsyncResult)
+  id: EndInvoke(System.IAsyncResult)
+  parent: SuperOffice.Util.CollectionOps.ConvertType`2
+  langs:
+  - csharp
+  - vb
+  name: EndInvoke(IAsyncResult)
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.EndInvoke(IAsyncResult)
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.EndInvoke(System.IAsyncResult)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public virtual ReturnType EndInvoke(IAsyncResult result)
+    parameters:
+    - id: result
+      type: System.IAsyncResult
+    return:
+      type: '{ReturnType}'
+    content.vb: Public Overridable Function EndInvoke(result As IAsyncResult) As ReturnType
+  overload: SuperOffice.Util.CollectionOps.ConvertType`2.EndInvoke*
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).EndInvoke(IAsyncResult)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).EndInvoke(System.IAsyncResult)
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>()
+  nameWithType: EnumUtil.MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), To)()
+  name.vb: MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>
+    nameWithType: EnumUtil.MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)
+    nameWithType: EnumUtil.MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>()
+  nameWithType: Converters.MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, To>()
+  nameWithType.vb: Converters.MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), To)()
+  name.vb: MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>
+    nameWithType: Converters.MapEnums<CollectionOps.ConvertType<SourceType, ReturnType>, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)
+    nameWithType: Converters.MapEnums(Of CollectionOps.ConvertType(Of SourceType, ReturnType), To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType), To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{SourceType}'
+  commentId: '!:SourceType'
+  definition: SourceType
+  name: SourceType
+  nameWithType: SourceType
+  fullName: SourceType
+- uid: '{ReturnType}'
+  commentId: '!:ReturnType'
+  definition: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SourceType
+  name: SourceType
+  nameWithType: SourceType
+  fullName: SourceType
+- uid: ReturnType
+  name: ReturnType
+  nameWithType: ReturnType
+  fullName: ReturnType
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.#ctor*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertType`2.#ctor
+  isExternal: true
+  name: ConvertType
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.ConvertType
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.ConvertType
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).ConvertType
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).ConvertType
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IntPtr
+  commentId: T:System.IntPtr
+  parent: System
+  isExternal: true
+  name: IntPtr
+  nameWithType: IntPtr
+  fullName: System.IntPtr
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.Invoke*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertType`2.Invoke
+  isExternal: true
+  name: Invoke
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.Invoke
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.Invoke
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).Invoke
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).Invoke
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertType`2.BeginInvoke
+  isExternal: true
+  name: BeginInvoke
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.BeginInvoke
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.BeginInvoke
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).BeginInvoke
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).BeginInvoke
+- uid: System.AsyncCallback
+  commentId: T:System.AsyncCallback
+  parent: System
+  isExternal: true
+  name: AsyncCallback
+  nameWithType: AsyncCallback
+  fullName: System.AsyncCallback
+- uid: System.IAsyncResult
+  commentId: T:System.IAsyncResult
+  parent: System
+  isExternal: true
+  name: IAsyncResult
+  nameWithType: IAsyncResult
+  fullName: System.IAsyncResult
+- uid: SuperOffice.Util.CollectionOps.ConvertType`2.EndInvoke*
+  commentId: Overload:SuperOffice.Util.CollectionOps.ConvertType`2.EndInvoke
+  isExternal: true
+  name: EndInvoke
+  nameWithType: CollectionOps.ConvertType<SourceType, ReturnType>.EndInvoke
+  fullName: SuperOffice.Util.CollectionOps.ConvertType<SourceType, ReturnType>.EndInvoke
+  nameWithType.vb: CollectionOps.ConvertType(Of SourceType, ReturnType).EndInvoke
+  fullName.vb: SuperOffice.Util.CollectionOps.ConvertType(Of SourceType, ReturnType).EndInvoke

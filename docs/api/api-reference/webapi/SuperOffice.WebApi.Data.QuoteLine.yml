@@ -1,0 +1,2360 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.QuoteLine
+  commentId: T:SuperOffice.WebApi.Data.QuoteLine
+  id: QuoteLine
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.QuoteLine.#ctor
+  - SuperOffice.WebApi.Data.QuoteLine.Code
+  - SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity
+  - SuperOffice.WebApi.Data.QuoteLine.Description
+  - SuperOffice.WebApi.Data.QuoteLine.DiscountAmount
+  - SuperOffice.WebApi.Data.QuoteLine.DiscountPercent
+  - SuperOffice.WebApi.Data.QuoteLine.EarningAmount
+  - SuperOffice.WebApi.Data.QuoteLine.EarningPercent
+  - SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount
+  - SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent
+  - SuperOffice.WebApi.Data.QuoteLine.ERPProductKey
+  - SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey
+  - SuperOffice.WebApi.Data.QuoteLine.ExtraField1
+  - SuperOffice.WebApi.Data.QuoteLine.ExtraField2
+  - SuperOffice.WebApi.Data.QuoteLine.ExtraField3
+  - SuperOffice.WebApi.Data.QuoteLine.ExtraField4
+  - SuperOffice.WebApi.Data.QuoteLine.ExtraField5
+  - SuperOffice.WebApi.Data.QuoteLine.ExtraInfo
+  - SuperOffice.WebApi.Data.QuoteLine.IsSubscription
+  - SuperOffice.WebApi.Data.QuoteLine.ItemNumber
+  - SuperOffice.WebApi.Data.QuoteLine.Name
+  - SuperOffice.WebApi.Data.QuoteLine.PriceUnit
+  - SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey
+  - SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey
+  - SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey
+  - SuperOffice.WebApi.Data.QuoteLine.Quantity
+  - SuperOffice.WebApi.Data.QuoteLine.QuantityUnit
+  - SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId
+  - SuperOffice.WebApi.Data.QuoteLine.QuoteLineId
+  - SuperOffice.WebApi.Data.QuoteLine.Rank
+  - SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo
+  - SuperOffice.WebApi.Data.QuoteLine.Reason
+  - SuperOffice.WebApi.Data.QuoteLine.Rights
+  - SuperOffice.WebApi.Data.QuoteLine.Rule
+  - SuperOffice.WebApi.Data.QuoteLine.Status
+  - SuperOffice.WebApi.Data.QuoteLine.Status_String
+  - SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity
+  - SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart
+  - SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit
+  - SuperOffice.WebApi.Data.QuoteLine.SubTotal
+  - SuperOffice.WebApi.Data.QuoteLine.Supplier
+  - SuperOffice.WebApi.Data.QuoteLine.SupplierCode
+  - SuperOffice.WebApi.Data.QuoteLine.Thumbnail
+  - SuperOffice.WebApi.Data.QuoteLine.TotalPrice
+  - SuperOffice.WebApi.Data.QuoteLine.UnitCost
+  - SuperOffice.WebApi.Data.QuoteLine.UnitListPrice
+  - SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice
+  - SuperOffice.WebApi.Data.QuoteLine.Url
+  - SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  - SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  - SuperOffice.WebApi.Data.QuoteLine.VAT
+  - SuperOffice.WebApi.Data.QuoteLine.VATInfo
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine
+  nameWithType: QuoteLine
+  fullName: SuperOffice.WebApi.Data.QuoteLine
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for QuoteLine.\nInformation about a connection to the ERP system.    \n"
+  syntax:
+    content: 'public class QuoteLine : Carrier'
+    content.vb: >-
+      Public Class QuoteLine
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.QuoteAgent
+    commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.QuoteLine.#ctor
+  commentId: M:SuperOffice.WebApi.Data.QuoteLine.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuoteLine()
+  nameWithType: QuoteLine.QuoteLine()
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuoteLine()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public QuoteLine()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.QuoteLine.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteLine.QuoteLineId
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.QuoteLineId
+  id: QuoteLineId
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuoteLineId
+  nameWithType: QuoteLine.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuoteLineId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int QuoteLineId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteLineId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteLine.QuoteLineId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey
+  id: ERPQuoteLineKey
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPQuoteLineKey
+  nameWithType: QuoteLine.ERPQuoteLineKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe foreign key to the quoteline in ERP system (if it has such a representation).\n"
+  syntax:
+    content: public virtual string ERPQuoteLineKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPQuoteLineKey As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId
+  id: QuoteAlternativeId
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuoteAlternativeId
+  nameWithType: QuoteLine.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe alternative this line is part of, the conceptual Parent in CRM database.\n"
+  syntax:
+    content: public virtual int QuoteAlternativeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property QuoteAlternativeId As Integer
+  overload: SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPProductKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ERPProductKey
+  id: ERPProductKey
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPProductKey
+  nameWithType: QuoteLine.ERPProductKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPProductKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nForeign key of product+pricelist this line is based on. Can be blank since the QuoteLine doesn’t have to be connected to a product.\n"
+  syntax:
+    content: public virtual string ERPProductKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ERPProductKey As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ERPProductKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Status_String
+  id: Status_String
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Status_String
+  nameWithType: QuoteLine.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Status_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error.\nRaw string enum value.\n"
+  syntax:
+    content: public string Status_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Status_String As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Status_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteLine.Status
+    commentId: P:SuperOffice.WebApi.Data.QuoteLine.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteLine.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Status
+  id: Status
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: QuoteLine.Status
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Status
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: OK, OKWithInfo, Warning, Error.\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<QuoteStatus> Status { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+    content.vb: Public Property Status As Nullable(Of QuoteStatus)
+  overload: SuperOffice.WebApi.Data.QuoteLine.Status*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteLine.Status_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteLine.Status_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteLine.Reason
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Reason
+  id: Reason
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: QuoteLine.Reason
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Reason
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf QuoteStatus is not OK, then this field contains a localized explanation that the user can be shown.\n"
+  syntax:
+    content: public virtual string Reason { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Reason As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Reason*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Quantity
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Quantity
+  id: Quantity
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Quantity
+  nameWithType: QuoteLine.Quantity
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Quantity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many units; this is a decimal field since you might want to offer fractional units (2.5kg, or 0.5PC).\n"
+  syntax:
+    content: public virtual double Quantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property Quantity As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.Quantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity
+  id: DeliveredQuantity
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: DeliveredQuantity
+  nameWithType: QuoteLine.DeliveredQuantity
+  fullName: SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many units have been delivered - updated by ERP system.\n"
+  syntax:
+    content: public virtual double DeliveredQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DeliveredQuantity As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Rank
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: QuoteLine.Rank
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nQuoteLines can be re-ordered, so we must track the ordering.\n"
+  syntax:
+    content: public virtual int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property Rank As Integer
+  overload: SuperOffice.WebApi.Data.QuoteLine.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Name
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Name
+  id: Name
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: QuoteLine.Name
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Name
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Description
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: QuoteLine.Description
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA longer description for the product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Code
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Code
+  id: Code
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: QuoteLine.Code
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Code
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA value the salesmen use to quickly find the correct product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string Code { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Code As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Code*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.QuantityUnit
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.QuantityUnit
+  id: QuantityUnit
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: QuantityUnit
+  nameWithType: QuoteLine.QuantityUnit
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuantityUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); Connector handles conversion relative to PriceUnit if they are different.\n"
+  syntax:
+    content: public virtual string QuantityUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property QuantityUnit As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.QuantityUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.PriceUnit
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.PriceUnit
+  id: PriceUnit
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: PriceUnit
+  nameWithType: QuoteLine.PriceUnit
+  fullName: SuperOffice.WebApi.Data.QuoteLine.PriceUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nWhat is the unit (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever); read-only for lines that originate in defined products.\n"
+  syntax:
+    content: public virtual string PriceUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property PriceUnit As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.PriceUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ItemNumber
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ItemNumber
+  id: ItemNumber
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ItemNumber
+  nameWithType: QuoteLine.ItemNumber
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ItemNumber
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNorwegian: «Postnummer». Specific numbers from some hierarchy, for instance &apos;1.4.3.2&apos;. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string ItemNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ItemNumber As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ItemNumber*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Url
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Url
+  id: Url
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: QuoteLine.Url
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Url
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA url to the product info. Can be empty. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Url As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Url*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey
+  id: ProductCategoryKey
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ProductCategoryKey
+  nameWithType: QuoteLine.ProductCategoryKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string ProductCategoryKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductCategoryKey As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey
+  id: ProductFamilyKey
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ProductFamilyKey
+  nameWithType: QuoteLine.ProductFamilyKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string ProductFamilyKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductFamilyKey As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey
+  id: ProductTypeKey
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ProductTypeKey
+  nameWithType: QuoteLine.ProductTypeKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn&apos;t support lists, a text. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string ProductTypeKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProductTypeKey As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Supplier
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Supplier
+  id: Supplier
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Supplier
+  nameWithType: QuoteLine.Supplier
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Supplier
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe name of the supplier. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string Supplier { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Supplier As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Supplier*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.SupplierCode
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.SupplierCode
+  id: SupplierCode
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SupplierCode
+  nameWithType: QuoteLine.SupplierCode
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SupplierCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe suppliers&apos; code or part number for this product. Is stored here if the user changes the value from the product in the pricelist, or just enters a QuoteLine without a product link.\n"
+  syntax:
+    content: public virtual string SupplierCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SupplierCode As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.SupplierCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Thumbnail
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Thumbnail
+  id: Thumbnail
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Thumbnail
+  nameWithType: QuoteLine.Thumbnail
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Thumbnail
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nA small image of the product, typically used to show in a list. Base64 encoded png.\n"
+  syntax:
+    content: public virtual string Thumbnail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Thumbnail As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Thumbnail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.VATInfo
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.VATInfo
+  id: VATInfo
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: VATInfo
+  nameWithType: QuoteLine.VATInfo
+  fullName: SuperOffice.WebApi.Data.QuoteLine.VATInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTax/VAT information, Extra info about VAT that the connector might insert, and the users might want to specify on the quote. The core CRM product has no business logic for this field, it is wholly up to connectors to use it.\n"
+  syntax:
+    content: public virtual string VATInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property VATInfo As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.VATInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.VAT
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.VAT
+  id: VAT
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: VAT
+  nameWithType: QuoteLine.VAT
+  fullName: SuperOffice.WebApi.Data.QuoteLine.VAT
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTax/VAT - THIS IS A PERCENTAGE. The connector is responsible for populating this field; the percentage will be used to calculate VAT amounts available as merge fields in the document templates (but amounts are never stored in the database).\n"
+  syntax:
+    content: public virtual double VAT { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property VAT As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.VAT*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.UnitCost
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UnitCost
+  id: UnitCost
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UnitCost
+  nameWithType: QuoteLine.UnitCost
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UnitCost
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe cost price per unit for this product. May be filled in by connector if it has the Provide-Cost capability.\n"
+  syntax:
+    content: public virtual double UnitCost { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitCost As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.UnitCost*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice
+  id: UnitMinimumPrice
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UnitMinimumPrice
+  nameWithType: QuoteLine.UnitMinimumPrice
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe minimum price this line can be sold for (to limit discounting). Will come from the connector. List price per unit must exceed the minimum price per unit.\n"
+  syntax:
+    content: public virtual double UnitMinimumPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitMinimumPrice As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.UnitListPrice
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UnitListPrice
+  id: UnitListPrice
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UnitListPrice
+  nameWithType: QuoteLine.UnitListPrice
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UnitListPrice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe standard list price; as given by ERP Connector, OR overridden by user\n"
+  syntax:
+    content: public virtual double UnitListPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property UnitListPrice As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.UnitListPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ExtraInfo
+  id: ExtraInfo
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraInfo
+  nameWithType: QuoteLine.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nExtra information, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
+  syntax:
+    content: public virtual ProductExtraDataField[] ExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ProductExtraDataField[]
+    content.vb: Public Overridable Property ExtraInfo As ProductExtraDataField()
+  overload: SuperOffice.WebApi.Data.QuoteLine.ExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo
+  id: RawExtraInfo
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: RawExtraInfo
+  nameWithType: QuoteLine.RawExtraInfo
+  fullName: SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRead-only extra information in plain text, supplied by QuoteConnector, used by a future dynamic GUI extension\n"
+  syntax:
+    content: public virtual string RawExtraInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property RawExtraInfo As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.IsSubscription
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.IsSubscription
+  id: IsSubscription
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: IsSubscription
+  nameWithType: QuoteLine.IsSubscription
+  fullName: SuperOffice.WebApi.Data.QuoteLine.IsSubscription
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this a subscription product, sold in repeating intervals/amounts?\n"
+  syntax:
+    content: public virtual bool IsSubscription { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsSubscription As Boolean
+  overload: SuperOffice.WebApi.Data.QuoteLine.IsSubscription*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit
+  id: SubscriptionUnit
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionUnit
+  nameWithType: QuoteLine.SubscriptionUnit
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEither a List id to an id from a connector provided list, or, if the connection doesn’t support lists, a text with the actual subscription unit.\n"
+  syntax:
+    content: public virtual string SubscriptionUnit { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SubscriptionUnit As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity
+  id: SubscriptionQuantity
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionQuantity
+  nameWithType: QuoteLine.SubscriptionQuantity
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe default number of SubscriptionUnits to suggest when creating quote lines from this product\n"
+  syntax:
+    content: public virtual double SubscriptionQuantity { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SubscriptionQuantity As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart
+  id: SubscriptionStart
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubscriptionStart
+  nameWithType: QuoteLine.SubscriptionStart
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStart date for subscription, as offered\n"
+  syntax:
+    content: public virtual DateTime SubscriptionStart { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property SubscriptionStart As DateTime
+  overload: SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent
+  id: ERPDiscountPercent
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountPercent
+  nameWithType: QuoteLine.ERPDiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out. If UserValueOverride is set to ‘None’ then the value is copied to DiscountPercent. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public virtual double ERPDiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ERPDiscountPercent As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount
+  id: ERPDiscountAmount
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ERPDiscountAmount
+  nameWithType: QuoteLine.ERPDiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount the system calculates based on customer / quantity / whatever. Can be overrided by the salesman in the field &apos;DiscountPercent&apos; or &apos;DiscountAmount&apos;. If UserValueOverride is set to ‘None’ then the value is copied to DiscountAmount. Both fields ERPDiscountPercent and ERPDiscountAmount will be filled out.\n"
+  syntax:
+    content: public virtual double ERPDiscountAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property ERPDiscountAmount As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.DiscountPercent
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.DiscountPercent
+  id: DiscountPercent
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: DiscountPercent
+  nameWithType: QuoteLine.DiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteLine.DiscountPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount for the line, in percent. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public virtual double DiscountPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DiscountPercent As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.DiscountPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.DiscountAmount
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.DiscountAmount
+  id: DiscountAmount
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: DiscountAmount
+  nameWithType: QuoteLine.DiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteLine.DiscountAmount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe discount for the line, in whatever currency the sale is in. Both ‘DiscountPercent’ and ‘DiscountAmount’ shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. If this field is filled out by the user, it overrides any discount suggested by the connector. If the user has not filled this in, the system will copy the ERP discount amount to this field.\n"
+  syntax:
+    content: public virtual double DiscountAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property DiscountAmount As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.DiscountAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  id: UserValueOverride_String
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride_String
+  nameWithType: QuoteLine.UserValueOverride_String
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)\nRaw string enum value.\n"
+  syntax:
+    content: public string UserValueOverride_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserValueOverride_String As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+    commentId: P:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  id: UserValueOverride
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: UserValueOverride
+  nameWithType: QuoteLine.UserValueOverride
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<ValueOverride> UserValueOverride { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.ValueOverride}
+    content.vb: Public Property UserValueOverride As Nullable(Of ValueOverride)
+  overload: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+    commentId: P:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.QuoteLine.EarningPercent
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.EarningPercent
+  id: EarningPercent
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: EarningPercent
+  nameWithType: QuoteLine.EarningPercent
+  fullName: SuperOffice.WebApi.Data.QuoteLine.EarningPercent
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe earning, in percent. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last. The Percentage is given in integer form, i.e. ‘12%’ is represented as ‘12’.\n"
+  syntax:
+    content: public virtual double EarningPercent { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningPercent As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.EarningPercent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.EarningAmount
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.EarningAmount
+  id: EarningAmount
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: EarningAmount
+  nameWithType: QuoteLine.EarningAmount
+  fullName: SuperOffice.WebApi.Data.QuoteLine.EarningAmount
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe earning, in whatever currency the sale is in. Both ‘EarningAmount and ‘EarningPercent shall be filled out, but the UserValueOverride field must be set to the field the user actually changed last.\n"
+  syntax:
+    content: public virtual double EarningAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property EarningAmount As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.EarningAmount*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubTotal
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.SubTotal
+  id: SubTotal
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: SubTotal
+  nameWithType: QuoteLine.SubTotal
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubTotal
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nValue to help the user interface, is equal to &apos;Quantity * ListPrice&apos;\n"
+  syntax:
+    content: public virtual double SubTotal { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property SubTotal As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.SubTotal*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.TotalPrice
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.TotalPrice
+  id: TotalPrice
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: TotalPrice
+  nameWithType: QuoteLine.TotalPrice
+  fullName: SuperOffice.WebApi.Data.QuoteLine.TotalPrice
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTotalPrice  = SubTotal - DiscountAmount or TotalPrice = (UnitCost * Quantity) + EarningAmount, according to what the user changed last.\n"
+  syntax:
+    content: public virtual double TotalPrice { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Overridable Property TotalPrice As Double
+  overload: SuperOffice.WebApi.Data.QuoteLine.TotalPrice*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Rights
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Rights
+  id: Rights
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Rights
+  nameWithType: QuoteLine.Rights
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Rights
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField1=right&amp;Field2=right, etc. of any fields that have non-standard field access rights. Rights can be one of: N (=None or Hidden), R (=Read-only), W (=Writeable), M (=Mandatory). The fields will mostly be from the Quoteline table, but some added fields that are conceptually part of the quoteline, like Image will also be possibly to set rights on. Will be used by SuperOffice to control the user interface when showing the record.\n"
+  syntax:
+    content: public virtual string Rights { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rights As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Rights*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.Rule
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Rule
+  id: Rule
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: Rule
+  nameWithType: QuoteLine.Rule
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Rule
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe names of one or more calculation rules that are in effect for this line, comma-separated case-insensitive\n"
+  syntax:
+    content: public virtual string Rule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Rule As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.Rule*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField1
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ExtraField1
+  id: ExtraField1
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField1
+  nameWithType: QuoteLine.ExtraField1
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField1 As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ExtraField1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField2
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ExtraField2
+  id: ExtraField2
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField2
+  nameWithType: QuoteLine.ExtraField2
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField2 As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ExtraField2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField3
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ExtraField3
+  id: ExtraField3
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField3
+  nameWithType: QuoteLine.ExtraField3
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField3 As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ExtraField3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField4
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ExtraField4
+  id: ExtraField4
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField4
+  nameWithType: QuoteLine.ExtraField4
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField4
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField4 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField4 As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ExtraField4*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField5
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.ExtraField5
+  id: ExtraField5
+  parent: SuperOffice.WebApi.Data.QuoteLine
+  langs:
+  - csharp
+  - vb
+  name: ExtraField5
+  nameWithType: QuoteLine.ExtraField5
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField5
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThis a simple field for adding information that the Connector can provide, and that the qoute document need to display.\n"
+  syntax:
+    content: public virtual string ExtraField5 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExtraField5 As String
+  overload: SuperOffice.WebApi.Data.QuoteLine.ExtraField5*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.QuoteAgent
+  commentId: T:SuperOffice.WebApi.Agents.QuoteAgent
+  isExternal: true
+  name: QuoteAgent
+  nameWithType: QuoteAgent
+  fullName: SuperOffice.WebApi.Agents.QuoteAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.QuoteLine.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.#ctor
+  isExternal: true
+  name: QuoteLine
+  nameWithType: QuoteLine.QuoteLine
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuoteLine
+- uid: SuperOffice.WebApi.Data.QuoteLine.QuoteLineId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.QuoteLineId
+  isExternal: true
+  name: QuoteLineId
+  nameWithType: QuoteLine.QuoteLineId
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuoteLineId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey
+  isExternal: true
+  name: ERPQuoteLineKey
+  nameWithType: QuoteLine.ERPQuoteLineKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPQuoteLineKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId
+  isExternal: true
+  name: QuoteAlternativeId
+  nameWithType: QuoteLine.QuoteAlternativeId
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuoteAlternativeId
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPProductKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ERPProductKey
+  isExternal: true
+  name: ERPProductKey
+  nameWithType: QuoteLine.ERPProductKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPProductKey
+- uid: SuperOffice.WebApi.Data.QuoteLine.Status_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Status_String
+  isExternal: true
+  name: Status_String
+  nameWithType: QuoteLine.Status_String
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Status_String
+- uid: SuperOffice.WebApi.Data.QuoteLine.Status
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Status
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.QuoteLine.Status*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Status
+  isExternal: true
+  name: Status
+  nameWithType: QuoteLine.Status
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Status
+- uid: SuperOffice.WebApi.Data.QuoteLine.Status_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.Status_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.QuoteStatus}'
+  definition: System.Nullable`1
+  name: Nullable<QuoteStatus>
+  nameWithType: Nullable<QuoteStatus>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.QuoteStatus>
+  nameWithType.vb: Nullable(Of QuoteStatus)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.QuoteStatus)
+  name.vb: Nullable(Of QuoteStatus)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.QuoteStatus
+    name: QuoteStatus
+    nameWithType: QuoteStatus
+    fullName: SuperOffice.WebApi.Data.QuoteStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.QuoteLine.Reason*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Reason
+  isExternal: true
+  name: Reason
+  nameWithType: QuoteLine.Reason
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Reason
+- uid: SuperOffice.WebApi.Data.QuoteLine.Quantity*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Quantity
+  isExternal: true
+  name: Quantity
+  nameWithType: QuoteLine.Quantity
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Quantity
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity
+  isExternal: true
+  name: DeliveredQuantity
+  nameWithType: QuoteLine.DeliveredQuantity
+  fullName: SuperOffice.WebApi.Data.QuoteLine.DeliveredQuantity
+- uid: SuperOffice.WebApi.Data.QuoteLine.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: QuoteLine.Rank
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Rank
+- uid: SuperOffice.WebApi.Data.QuoteLine.Name*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Name
+  isExternal: true
+  name: Name
+  nameWithType: QuoteLine.Name
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Name
+- uid: SuperOffice.WebApi.Data.QuoteLine.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Description
+  isExternal: true
+  name: Description
+  nameWithType: QuoteLine.Description
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Description
+- uid: SuperOffice.WebApi.Data.QuoteLine.Code*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Code
+  isExternal: true
+  name: Code
+  nameWithType: QuoteLine.Code
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Code
+- uid: SuperOffice.WebApi.Data.QuoteLine.QuantityUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.QuantityUnit
+  isExternal: true
+  name: QuantityUnit
+  nameWithType: QuoteLine.QuantityUnit
+  fullName: SuperOffice.WebApi.Data.QuoteLine.QuantityUnit
+- uid: SuperOffice.WebApi.Data.QuoteLine.PriceUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.PriceUnit
+  isExternal: true
+  name: PriceUnit
+  nameWithType: QuoteLine.PriceUnit
+  fullName: SuperOffice.WebApi.Data.QuoteLine.PriceUnit
+- uid: SuperOffice.WebApi.Data.QuoteLine.ItemNumber*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ItemNumber
+  isExternal: true
+  name: ItemNumber
+  nameWithType: QuoteLine.ItemNumber
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ItemNumber
+- uid: SuperOffice.WebApi.Data.QuoteLine.Url*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Url
+  isExternal: true
+  name: Url
+  nameWithType: QuoteLine.Url
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Url
+- uid: SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey
+  isExternal: true
+  name: ProductCategoryKey
+  nameWithType: QuoteLine.ProductCategoryKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ProductCategoryKey
+- uid: SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey
+  isExternal: true
+  name: ProductFamilyKey
+  nameWithType: QuoteLine.ProductFamilyKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ProductFamilyKey
+- uid: SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey
+  isExternal: true
+  name: ProductTypeKey
+  nameWithType: QuoteLine.ProductTypeKey
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ProductTypeKey
+- uid: SuperOffice.WebApi.Data.QuoteLine.Supplier*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Supplier
+  isExternal: true
+  name: Supplier
+  nameWithType: QuoteLine.Supplier
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Supplier
+- uid: SuperOffice.WebApi.Data.QuoteLine.SupplierCode*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.SupplierCode
+  isExternal: true
+  name: SupplierCode
+  nameWithType: QuoteLine.SupplierCode
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SupplierCode
+- uid: SuperOffice.WebApi.Data.QuoteLine.Thumbnail*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Thumbnail
+  isExternal: true
+  name: Thumbnail
+  nameWithType: QuoteLine.Thumbnail
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Thumbnail
+- uid: SuperOffice.WebApi.Data.QuoteLine.VATInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.VATInfo
+  isExternal: true
+  name: VATInfo
+  nameWithType: QuoteLine.VATInfo
+  fullName: SuperOffice.WebApi.Data.QuoteLine.VATInfo
+- uid: SuperOffice.WebApi.Data.QuoteLine.VAT*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.VAT
+  isExternal: true
+  name: VAT
+  nameWithType: QuoteLine.VAT
+  fullName: SuperOffice.WebApi.Data.QuoteLine.VAT
+- uid: SuperOffice.WebApi.Data.QuoteLine.UnitCost*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.UnitCost
+  isExternal: true
+  name: UnitCost
+  nameWithType: QuoteLine.UnitCost
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UnitCost
+- uid: SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice
+  isExternal: true
+  name: UnitMinimumPrice
+  nameWithType: QuoteLine.UnitMinimumPrice
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UnitMinimumPrice
+- uid: SuperOffice.WebApi.Data.QuoteLine.UnitListPrice*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.UnitListPrice
+  isExternal: true
+  name: UnitListPrice
+  nameWithType: QuoteLine.UnitListPrice
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UnitListPrice
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ExtraInfo
+  isExternal: true
+  name: ExtraInfo
+  nameWithType: QuoteLine.ExtraInfo
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraInfo
+- uid: SuperOffice.WebApi.Data.ProductExtraDataField[]
+  isExternal: true
+  name: ProductExtraDataField[]
+  nameWithType: ProductExtraDataField[]
+  fullName: SuperOffice.WebApi.Data.ProductExtraDataField[]
+  nameWithType.vb: ProductExtraDataField()
+  fullName.vb: SuperOffice.WebApi.Data.ProductExtraDataField()
+  name.vb: ProductExtraDataField()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.WebApi.Data.ProductExtraDataField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.ProductExtraDataField
+    name: ProductExtraDataField
+    nameWithType: ProductExtraDataField
+    fullName: SuperOffice.WebApi.Data.ProductExtraDataField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo
+  isExternal: true
+  name: RawExtraInfo
+  nameWithType: QuoteLine.RawExtraInfo
+  fullName: SuperOffice.WebApi.Data.QuoteLine.RawExtraInfo
+- uid: SuperOffice.WebApi.Data.QuoteLine.IsSubscription*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.IsSubscription
+  isExternal: true
+  name: IsSubscription
+  nameWithType: QuoteLine.IsSubscription
+  fullName: SuperOffice.WebApi.Data.QuoteLine.IsSubscription
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit
+  isExternal: true
+  name: SubscriptionUnit
+  nameWithType: QuoteLine.SubscriptionUnit
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubscriptionUnit
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity
+  isExternal: true
+  name: SubscriptionQuantity
+  nameWithType: QuoteLine.SubscriptionQuantity
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubscriptionQuantity
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart
+  isExternal: true
+  name: SubscriptionStart
+  nameWithType: QuoteLine.SubscriptionStart
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubscriptionStart
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent
+  isExternal: true
+  name: ERPDiscountPercent
+  nameWithType: QuoteLine.ERPDiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountPercent
+- uid: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount
+  isExternal: true
+  name: ERPDiscountAmount
+  nameWithType: QuoteLine.ERPDiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ERPDiscountAmount
+- uid: SuperOffice.WebApi.Data.QuoteLine.DiscountPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.DiscountPercent
+  isExternal: true
+  name: DiscountPercent
+  nameWithType: QuoteLine.DiscountPercent
+  fullName: SuperOffice.WebApi.Data.QuoteLine.DiscountPercent
+- uid: SuperOffice.WebApi.Data.QuoteLine.DiscountAmount*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.DiscountAmount
+  isExternal: true
+  name: DiscountAmount
+  nameWithType: QuoteLine.DiscountAmount
+  fullName: SuperOffice.WebApi.Data.QuoteLine.DiscountAmount
+- uid: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  isExternal: true
+  name: UserValueOverride_String
+  nameWithType: QuoteLine.UserValueOverride_String
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+- uid: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+  isExternal: true
+  name: UserValueOverride
+  nameWithType: QuoteLine.UserValueOverride
+  fullName: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride
+- uid: SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  commentId: P:SuperOffice.WebApi.Data.QuoteLine.UserValueOverride_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.ValueOverride}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.ValueOverride}'
+  definition: System.Nullable`1
+  name: Nullable<ValueOverride>
+  nameWithType: Nullable<ValueOverride>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.ValueOverride>
+  nameWithType.vb: Nullable(Of ValueOverride)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.ValueOverride)
+  name.vb: Nullable(Of ValueOverride)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.ValueOverride
+    name: ValueOverride
+    nameWithType: ValueOverride
+    fullName: SuperOffice.WebApi.Data.ValueOverride
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.ValueOverride
+    name: ValueOverride
+    nameWithType: ValueOverride
+    fullName: SuperOffice.WebApi.Data.ValueOverride
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.QuoteLine.EarningPercent*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.EarningPercent
+  isExternal: true
+  name: EarningPercent
+  nameWithType: QuoteLine.EarningPercent
+  fullName: SuperOffice.WebApi.Data.QuoteLine.EarningPercent
+- uid: SuperOffice.WebApi.Data.QuoteLine.EarningAmount*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.EarningAmount
+  isExternal: true
+  name: EarningAmount
+  nameWithType: QuoteLine.EarningAmount
+  fullName: SuperOffice.WebApi.Data.QuoteLine.EarningAmount
+- uid: SuperOffice.WebApi.Data.QuoteLine.SubTotal*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.SubTotal
+  isExternal: true
+  name: SubTotal
+  nameWithType: QuoteLine.SubTotal
+  fullName: SuperOffice.WebApi.Data.QuoteLine.SubTotal
+- uid: SuperOffice.WebApi.Data.QuoteLine.TotalPrice*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.TotalPrice
+  isExternal: true
+  name: TotalPrice
+  nameWithType: QuoteLine.TotalPrice
+  fullName: SuperOffice.WebApi.Data.QuoteLine.TotalPrice
+- uid: SuperOffice.WebApi.Data.QuoteLine.Rights*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Rights
+  isExternal: true
+  name: Rights
+  nameWithType: QuoteLine.Rights
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Rights
+- uid: SuperOffice.WebApi.Data.QuoteLine.Rule*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.Rule
+  isExternal: true
+  name: Rule
+  nameWithType: QuoteLine.Rule
+  fullName: SuperOffice.WebApi.Data.QuoteLine.Rule
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField1*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ExtraField1
+  isExternal: true
+  name: ExtraField1
+  nameWithType: QuoteLine.ExtraField1
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField1
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField2*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ExtraField2
+  isExternal: true
+  name: ExtraField2
+  nameWithType: QuoteLine.ExtraField2
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField2
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField3*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ExtraField3
+  isExternal: true
+  name: ExtraField3
+  nameWithType: QuoteLine.ExtraField3
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField3
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField4*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ExtraField4
+  isExternal: true
+  name: ExtraField4
+  nameWithType: QuoteLine.ExtraField4
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField4
+- uid: SuperOffice.WebApi.Data.QuoteLine.ExtraField5*
+  commentId: Overload:SuperOffice.WebApi.Data.QuoteLine.ExtraField5
+  isExternal: true
+  name: ExtraField5
+  nameWithType: QuoteLine.ExtraField5
+  fullName: SuperOffice.WebApi.Data.QuoteLine.ExtraField5

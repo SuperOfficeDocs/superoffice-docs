@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IDataSetProvider
+  commentId: T:SuperOffice.Data.IDataSetProvider
+  id: IDataSetProvider
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IDataSetProvider.GetDataSetFor``1(``0)
+  - SuperOffice.Data.IDataSetProvider.GetDataSetFor``1(``0,System.String)
+  langs:
+  - csharp
+  - vb
+  name: IDataSetProvider
+  nameWithType: IDataSetProvider
+  fullName: SuperOffice.Data.IDataSetProvider
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nInterface for classes which can convert entities into datasets.\n"
+  syntax:
+    content: public interface IDataSetProvider
+    content.vb: Public Interface IDataSetProvider
+  extensionMethods:
+  - SuperOffice.Data.IDataSetProvider.EnumUtil.MapEnums``2
+  - SuperOffice.Data.IDataSetProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.IDataSetProvider.GetDataSetFor``1(``0)
+  commentId: M:SuperOffice.Data.IDataSetProvider.GetDataSetFor``1(``0)
+  id: GetDataSetFor``1(``0)
+  parent: SuperOffice.Data.IDataSetProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDataSetFor<T>(T)
+  nameWithType: IDataSetProvider.GetDataSetFor<T>(T)
+  fullName: SuperOffice.Data.IDataSetProvider.GetDataSetFor<T>(T)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a <xref href=\"System.Data.DataSet\" data-throw-if-not-resolved=\"false\"></xref> from the provided object.\n"
+  syntax:
+    content: DataSet GetDataSetFor<T>(T instance)
+    parameters:
+    - id: instance
+      type: '{T}'
+      description: Object to create dataset from.
+    typeParameters:
+    - id: T
+      description: Type of the provided object.
+    return:
+      type: System.Data.DataSet
+      description: A populated dataset.
+    content.vb: Function GetDataSetFor(Of T)(instance As T) As DataSet
+  overload: SuperOffice.Data.IDataSetProvider.GetDataSetFor*
+  nameWithType.vb: IDataSetProvider.GetDataSetFor(Of T)(T)
+  fullName.vb: SuperOffice.Data.IDataSetProvider.GetDataSetFor(Of T)(T)
+  name.vb: GetDataSetFor(Of T)(T)
+- uid: SuperOffice.Data.IDataSetProvider.GetDataSetFor``1(``0,System.String)
+  commentId: M:SuperOffice.Data.IDataSetProvider.GetDataSetFor``1(``0,System.String)
+  id: GetDataSetFor``1(``0,System.String)
+  parent: SuperOffice.Data.IDataSetProvider
+  langs:
+  - csharp
+  - vb
+  name: GetDataSetFor<T>(T, String)
+  nameWithType: IDataSetProvider.GetDataSetFor<T>(T, String)
+  fullName: SuperOffice.Data.IDataSetProvider.GetDataSetFor<T>(T, System.String)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Data
+  summary: "\nCreate a <xref href=\"System.Data.DataSet\" data-throw-if-not-resolved=\"false\"></xref> from the provided object.\n"
+  syntax:
+    content: DataSet GetDataSetFor<T>(T instance, string rootTable)
+    parameters:
+    - id: instance
+      type: '{T}'
+      description: Object to create dataset from.
+    - id: rootTable
+      type: System.String
+      description: Name of the table for the root-item.
+    typeParameters:
+    - id: T
+      description: Type of the provided object.
+    return:
+      type: System.Data.DataSet
+      description: A populated dataset.
+    content.vb: Function GetDataSetFor(Of T)(instance As T, rootTable As String) As DataSet
+  overload: SuperOffice.Data.IDataSetProvider.GetDataSetFor*
+  nameWithType.vb: IDataSetProvider.GetDataSetFor(Of T)(T, String)
+  fullName.vb: SuperOffice.Data.IDataSetProvider.GetDataSetFor(Of T)(T, System.String)
+  name.vb: GetDataSetFor(Of T)(T, String)
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.IDataSetProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDataSetProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IDataSetProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.IDataSetProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDataSetProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.IDataSetProvider, To)()
+  name.vb: MapEnums(Of IDataSetProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDataSetProvider, To>
+    nameWithType: EnumUtil.MapEnums<IDataSetProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.IDataSetProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDataSetProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IDataSetProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.IDataSetProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IDataSetProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDataSetProvider, To>()
+  nameWithType: Converters.MapEnums<IDataSetProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IDataSetProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDataSetProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IDataSetProvider, To)()
+  name.vb: MapEnums(Of IDataSetProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDataSetProvider, To>
+    nameWithType: Converters.MapEnums<IDataSetProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IDataSetProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDataSetProvider, To)
+    nameWithType: Converters.MapEnums(Of IDataSetProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IDataSetProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.IDataSetProvider.GetDataSetFor*
+  commentId: Overload:SuperOffice.Data.IDataSetProvider.GetDataSetFor
+  isExternal: true
+  name: GetDataSetFor
+  nameWithType: IDataSetProvider.GetDataSetFor
+  fullName: SuperOffice.Data.IDataSetProvider.GetDataSetFor
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Data.DataSet
+  isExternal: true
+  name: DataSet
+  nameWithType: DataSet
+  fullName: System.Data.DataSet
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

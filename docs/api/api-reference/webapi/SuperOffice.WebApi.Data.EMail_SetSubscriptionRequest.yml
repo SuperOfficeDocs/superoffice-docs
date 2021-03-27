@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest
+  commentId: T:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest
+  id: EMail_SetSubscriptionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.#ctor
+  - SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo
+  - SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders
+  langs:
+  - csharp
+  - vb
+  name: EMail_SetSubscriptionRequest
+  nameWithType: EMail_SetSubscriptionRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class EMail_SetSubscriptionRequest : Object'
+    content.vb: >-
+      Public Class EMail_SetSubscriptionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest
+  langs:
+  - csharp
+  - vb
+  name: EMail_SetSubscriptionRequest()
+  nameWithType: EMail_SetSubscriptionRequest.EMail_SetSubscriptionRequest()
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.EMail_SetSubscriptionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMail_SetSubscriptionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo
+  commentId: P:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo
+  id: ConnectionInfo
+  parent: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest
+  langs:
+  - csharp
+  - vb
+  name: ConnectionInfo
+  nameWithType: EMail_SetSubscriptionRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailConnectionInfo ConnectionInfo { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailConnectionInfo
+    content.vb: Public Property ConnectionInfo As EMailConnectionInfo
+  overload: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders
+  commentId: P:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders
+  id: Folders
+  parent: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest
+  langs:
+  - csharp
+  - vb
+  name: Folders
+  nameWithType: EMail_SetSubscriptionRequest.Folders
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public EMailFolder[] Folders { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.EMailFolder[]
+    content.vb: Public Property Folders As EMailFolder()
+  overload: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.#ctor
+  isExternal: true
+  name: EMail_SetSubscriptionRequest
+  nameWithType: EMail_SetSubscriptionRequest.EMail_SetSubscriptionRequest
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.EMail_SetSubscriptionRequest
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo
+  isExternal: true
+  name: ConnectionInfo
+  nameWithType: EMail_SetSubscriptionRequest.ConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.ConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMailConnectionInfo
+  commentId: T:SuperOffice.WebApi.Data.EMailConnectionInfo
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: EMailConnectionInfo
+  nameWithType: EMailConnectionInfo
+  fullName: SuperOffice.WebApi.Data.EMailConnectionInfo
+- uid: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders*
+  commentId: Overload:SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders
+  isExternal: true
+  name: Folders
+  nameWithType: EMail_SetSubscriptionRequest.Folders
+  fullName: SuperOffice.WebApi.Data.EMail_SetSubscriptionRequest.Folders
+- uid: SuperOffice.WebApi.Data.EMailFolder[]
+  isExternal: true
+  name: EMailFolder[]
+  nameWithType: EMailFolder[]
+  fullName: SuperOffice.WebApi.Data.EMailFolder[]
+  nameWithType.vb: EMailFolder()
+  fullName.vb: SuperOffice.WebApi.Data.EMailFolder()
+  name.vb: EMailFolder()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EMailFolder
+    name: EMailFolder
+    nameWithType: EMailFolder
+    fullName: SuperOffice.WebApi.Data.EMailFolder
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EMailFolder
+    name: EMailFolder
+    nameWithType: EMailFolder
+    fullName: SuperOffice.WebApi.Data.EMailFolder
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

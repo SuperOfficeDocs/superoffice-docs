@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  commentId: T:SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  id: QuoteDocumentGenerator
+  parent: SuperOffice.CRM.Sale
+  children:
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
+  langs:
+  - csharp
+  - vb
+  name: QuoteDocumentGenerator
+  nameWithType: QuoteDocumentGenerator
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nClass for generating mail-merged Quote documents based on a DataSet with multiple, related tables\n"
+  remarks: "\nIt&apos;s not quite arbitrary - the Thumbnail and Image fields, if present, lead to Quote images being fetched.\nThere is also special functionality to merge two documents, also a requirement for Quote.\nPossibly not the prettiest thing we could do.\n"
+  syntax:
+    content: public static class QuoteDocumentGenerator
+    content.vb: Public Module QuoteDocumentGenerator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
+  commentId: F:SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
+  id: QuoteDetailsTag
+  parent: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  langs:
+  - csharp
+  - vb
+  name: QuoteDetailsTag
+  nameWithType: QuoteDocumentGenerator.QuoteDetailsTag
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public const string QuoteDetailsTag = "QuoteDetails"
+    return:
+      type: System.String
+    content.vb: Public Const QuoteDetailsTag As String = "QuoteDetails"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
+  id: MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
+  parent: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  langs:
+  - csharp
+  - vb
+  name: MergeToPdf(Stream, Stream, DataSet)
+  nameWithType: QuoteDocumentGenerator.MergeToPdf(Stream, Stream, DataSet)
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream, System.IO.Stream, System.Data.DataSet)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nTaking streams of bytes (main doc, lines doc) and a Dataset (merge data),\nproduce a merged PDF document\n"
+  remarks: "\nIf there is only a main doc, then it will be merged with the dataset and saved as PDF.<p></p>\nIf there is only a details doc, then it will be merged with the database and saved as PDF.<p></p>\nIf both are defined and there is no &quot;QuoteDetails&quot; tag in the main doc, then both\nwill be merged with the dataset, and the details doc will be appended to the main doc. The\nresult is saved as PDF.<p></p>\nIf both are defined and the main doc contains a &quot;QuoteDetails&quot; tag, then both\nwill be merged with the dataset, and the details doc will be inserted at the position of\nthe tag in the main doc (the tag is removed).\n"
+  syntax:
+    content: public static Stream MergeToPdf(Stream template, Stream mainDoc, DataSet data)
+    parameters:
+    - id: template
+      type: System.IO.Stream
+      description: The template for the &apos;quote lines&apos; document, containing Aspose tags
+    - id: mainDoc
+      type: System.IO.Stream
+      description: The main document, if there is one, to which the quote lines will be appended
+    - id: data
+      type: System.Data.DataSet
+      description: Merge data from the Quote Manager or another compatible source
+    return:
+      type: System.IO.Stream
+      description: Stream (backed by a byte array) containing a PDF document ready to save
+    content.vb: Public Shared Function MergeToPdf(template As Stream, mainDoc As Stream, data As DataSet) As Stream
+  overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
+  id: PrescanForTags(System.Int32)
+  parent: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  langs:
+  - csharp
+  - vb
+  name: PrescanForTags(Int32)
+  nameWithType: QuoteDocumentGenerator.PrescanForTags(Int32)
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.Int32)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  summary: "\nFind out which tags are present in a Word document;\nthis is used to control the final data-generation process\n"
+  syntax:
+    content: public static string[] PrescanForTags(int documentId)
+    parameters:
+    - id: documentId
+      type: System.Int32
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function PrescanForTags(documentId As Integer) As String()
+  overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
+  id: PrescanForTags(System.IO.Stream)
+  parent: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  langs:
+  - csharp
+  - vb
+  name: PrescanForTags(Stream)
+  nameWithType: QuoteDocumentGenerator.PrescanForTags(Stream)
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public static string[] PrescanForTags(Stream content)
+    parameters:
+    - id: content
+      type: System.IO.Stream
+    return:
+      type: System.String[]
+    content.vb: Public Shared Function PrescanForTags(content As Stream) As String()
+  overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Sale
+  commentId: N:SuperOffice.CRM.Sale
+  isExternal: true
+  name: SuperOffice.CRM.Sale
+  nameWithType: SuperOffice.CRM.Sale
+  fullName: SuperOffice.CRM.Sale
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf
+  isExternal: true
+  name: MergeToPdf
+  nameWithType: QuoteDocumentGenerator.MergeToPdf
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Data.DataSet
+  isExternal: true
+  name: DataSet
+  nameWithType: DataSet
+  fullName: System.Data.DataSet
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
+  isExternal: true
+  name: PrescanForTags
+  nameWithType: QuoteDocumentGenerator.PrescanForTags
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

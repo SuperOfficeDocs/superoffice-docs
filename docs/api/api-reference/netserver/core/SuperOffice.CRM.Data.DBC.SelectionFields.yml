@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields
+  commentId: T:SuperOffice.CRM.Data.DBC.SelectionFields
+  id: DBC.SelectionFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.SelectionFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.ChartKey
+  - SuperOffice.CRM.Data.DBC.SelectionFields.CombinationType
+  - SuperOffice.CRM.Data.DBC.SelectionFields.CompanyUnique
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Done
+  - SuperOffice.CRM.Data.DBC.SelectionFields.GroupIdx
+  - SuperOffice.CRM.Data.DBC.SelectionFields.IncludePerson
+  - SuperOffice.CRM.Data.DBC.SelectionFields.LastLoaded
+  - SuperOffice.CRM.Data.DBC.SelectionFields.LastLoadedBy
+  - SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChange
+  - SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChangeBy
+  - SuperOffice.CRM.Data.DBC.SelectionFields.LeftSelectionId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.MemberCount
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Name
+  - SuperOffice.CRM.Data.DBC.SelectionFields.PostitTextId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Registered
+  - SuperOffice.CRM.Data.DBC.SelectionFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.RightSelectionId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.SearchCatId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.SelectionId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Seltype
+  - SuperOffice.CRM.Data.DBC.SelectionFields.SoundEx
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Source
+  - SuperOffice.CRM.Data.DBC.SelectionFields.SystemType
+  - SuperOffice.CRM.Data.DBC.SelectionFields.TargetTableNumber
+  - SuperOffice.CRM.Data.DBC.SelectionFields.TextId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Updated
+  - SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.SelectionFields.Visibility
+  langs:
+  - csharp
+  - vb
+  name: DBC.SelectionFields
+  nameWithType: DBC.SelectionFields
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nFields for Selection, Selections\n"
+  syntax:
+    content: public static class SelectionFields
+    content.vb: Public Module SelectionFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.SelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DBC.SelectionFields.SelectionId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.SelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.SelectionId: Primary key\n"
+  syntax:
+    content: public const string SelectionId = "selection_id"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionId As String = "selection_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.SelectionFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.AssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.AssociateId: Associate who owns the selection\n"
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.GroupIdx
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.GroupIdx
+  id: GroupIdx
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: GroupIdx
+  nameWithType: DBC.SelectionFields.GroupIdx
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.GroupIdx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.GroupIdx: Original primary user group of associate\n"
+  syntax:
+    content: public const string GroupIdx = "group_idx"
+    return:
+      type: System.String
+    content.vb: Public Const GroupIdx As String = "group_idx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Name
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Name
+  id: Name
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: DBC.SelectionFields.Name
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Name
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Name: Name, freetext indexed\n"
+  syntax:
+    content: public const string Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.TextId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.TextId
+  id: TextId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: TextId
+  nameWithType: DBC.SelectionFields.TextId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.TextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.TextId: Description text\n"
+  syntax:
+    content: public const string TextId = "text_id"
+    return:
+      type: System.String
+    content.vb: Public Const TextId As String = "text_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.PostitTextId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.PostitTextId
+  id: PostitTextId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: PostitTextId
+  nameWithType: DBC.SelectionFields.PostitTextId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.PostitTextId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.PostitTextId: Postit text\n"
+  syntax:
+    content: public const string PostitTextId = "postitText_Id"
+    return:
+      type: System.String
+    content.vb: Public Const PostitTextId As String = "postitText_Id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Visibility
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Visibility
+  id: Visibility
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Visibility
+  nameWithType: DBC.SelectionFields.Visibility
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Visibility
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Visibility: Obsolete, but still maintained denormalization of visiblefor\n"
+  syntax:
+    content: public const string Visibility = "visibility"
+    return:
+      type: System.String
+    content.vb: Public Const Visibility As String = "visibility"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Seltype
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Seltype
+  id: Seltype
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Seltype
+  nameWithType: DBC.SelectionFields.Seltype
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Seltype
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Seltype: 0 = static selection, 1 = dynamic selection, 2 = combined selection. See the &apos;SystemType&apos; field to disnguish between user selections, and Temporary or other system-managed kinds of selection\n"
+  syntax:
+    content: public const string Seltype = "seltype"
+    return:
+      type: System.String
+    content.vb: Public Const Seltype As String = "seltype"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.SearchCatId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.SearchCatId
+  id: SearchCatId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: SearchCatId
+  nameWithType: DBC.SelectionFields.SearchCatId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.SearchCatId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.SearchCatId: Search category (list)\n"
+  syntax:
+    content: public const string SearchCatId = "searchCat_id"
+    return:
+      type: System.String
+    content.vb: Public Const SearchCatId As String = "searchCat_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.CompanyUnique
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.CompanyUnique
+  id: CompanyUnique
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: CompanyUnique
+  nameWithType: DBC.SelectionFields.CompanyUnique
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.CompanyUnique
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.CompanyUnique: Only one person from a company may be selected as a member\n"
+  syntax:
+    content: public const string CompanyUnique = "companyUnique"
+    return:
+      type: System.String
+    content.vb: Public Const CompanyUnique As String = "companyUnique"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.SoundEx
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.SoundEx
+  id: SoundEx
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: SoundEx
+  nameWithType: DBC.SelectionFields.SoundEx
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.SoundEx
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.SoundEx: What the name sounds like, for duplicate detection\n"
+  syntax:
+    content: public const string SoundEx = "soundEx"
+    return:
+      type: System.String
+    content.vb: Public Const SoundEx As String = "soundEx"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Source
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Source
+  id: Source
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: DBC.SelectionFields.Source
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Source
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Source: How did we get this selection? For future integration needs\n"
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.MemberCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.MemberCount
+  id: MemberCount
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: MemberCount
+  nameWithType: DBC.SelectionFields.MemberCount
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.MemberCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.MemberCount: How many selectionmembers (for progress bar)\n"
+  syntax:
+    content: public const string MemberCount = "memberCount"
+    return:
+      type: System.String
+    content.vb: Public Const MemberCount As String = "memberCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.SelectionFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Registered: Registered when\n"
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.SelectionFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.RegisteredAssociateId: Registered by whom\n"
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.SelectionFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Updated: Last updated when\n"
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.SelectionFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.UpdatedAssociateId: Last updated by whom\n"
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.SelectionFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.UpdatedCount: Number of updates made to this record\n"
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.IncludePerson
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.IncludePerson
+  id: IncludePerson
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: IncludePerson
+  nameWithType: DBC.SelectionFields.IncludePerson
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.IncludePerson
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.IncludePerson: 0 = Include first person, 1 = Include all persons, 2 = Include no persons\n"
+  syntax:
+    content: public const string IncludePerson = "includePerson"
+    return:
+      type: System.String
+    content.vb: Public Const IncludePerson As String = "includePerson"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.TargetTableNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.TargetTableNumber
+  id: TargetTableNumber
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: TargetTableNumber
+  nameWithType: DBC.SelectionFields.TargetTableNumber
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.TargetTableNumber
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.TargetTableNumber: Table number that this is a selection of (contact, sale, appointment, ....)\n"
+  syntax:
+    content: public const string TargetTableNumber = "targetTableNumber"
+    return:
+      type: System.String
+    content.vb: Public Const TargetTableNumber As String = "targetTableNumber"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.Done
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.Done
+  id: Done
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: Done
+  nameWithType: DBC.SelectionFields.Done
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.Done
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.Done: Done (0=false, 1=true). Status implies changes in which fields are shown in GUI, as well as which fields can be updated\n"
+  syntax:
+    content: public const string Done = "done"
+    return:
+      type: System.String
+    content.vb: Public Const Done As String = "done"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.CombinationType
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.CombinationType
+  id: CombinationType
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: CombinationType
+  nameWithType: DBC.SelectionFields.CombinationType
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.CombinationType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.CombinationType: How should the inputs of a combined selection be combined\n"
+  syntax:
+    content: public const string CombinationType = "combinationType"
+    return:
+      type: System.String
+    content.vb: Public Const CombinationType As String = "combinationType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.LeftSelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.LeftSelectionId
+  id: LeftSelectionId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: LeftSelectionId
+  nameWithType: DBC.SelectionFields.LeftSelectionId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.LeftSelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.LeftSelectionId: ID of the left selection of a combined selection\n"
+  syntax:
+    content: public const string LeftSelectionId = "leftSelectionId"
+    return:
+      type: System.String
+    content.vb: Public Const LeftSelectionId As String = "leftSelectionId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.RightSelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.RightSelectionId
+  id: RightSelectionId
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: RightSelectionId
+  nameWithType: DBC.SelectionFields.RightSelectionId
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.RightSelectionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.RightSelectionId: ID of the right selection of a combined selection\n"
+  syntax:
+    content: public const string RightSelectionId = "rightSelectionId"
+    return:
+      type: System.String
+    content.vb: Public Const RightSelectionId As String = "rightSelectionId"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.SystemType
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.SystemType
+  id: SystemType
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: SystemType
+  nameWithType: DBC.SelectionFields.SystemType
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.SystemType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.SystemType: Selection system type - defines if this selection is one that is managed by the system, and what kind it is\n"
+  syntax:
+    content: public const string SystemType = "SystemType"
+    return:
+      type: System.String
+    content.vb: Public Const SystemType As String = "SystemType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.ChartKey
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.ChartKey
+  id: ChartKey
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: ChartKey
+  nameWithType: DBC.SelectionFields.ChartKey
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.ChartKey
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.ChartKey: ID/key of the last-used chart tile on this selection\n"
+  syntax:
+    content: public const string ChartKey = "chartKey"
+    return:
+      type: System.String
+    content.vb: Public Const ChartKey As String = "chartKey"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.LastLoaded
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.LastLoaded
+  id: LastLoaded
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: LastLoaded
+  nameWithType: DBC.SelectionFields.LastLoaded
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.LastLoaded
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.LastLoaded: The date/time this selection was last loaded (selectionentity fetched)\n"
+  syntax:
+    content: public const string LastLoaded = "lastLoaded"
+    return:
+      type: System.String
+    content.vb: Public Const LastLoaded As String = "lastLoaded"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.LastLoadedBy
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.LastLoadedBy
+  id: LastLoadedBy
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: LastLoadedBy
+  nameWithType: DBC.SelectionFields.LastLoadedBy
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.LastLoadedBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.LastLoadedBy: Who last loaded this selection\n"
+  syntax:
+    content: public const string LastLoadedBy = "lastLoadedBy"
+    return:
+      type: System.String
+    content.vb: Public Const LastLoadedBy As String = "lastLoadedBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChange
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChange
+  id: LastMembershipChange
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: LastMembershipChange
+  nameWithType: DBC.SelectionFields.LastMembershipChange
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChange
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.LastMembershipChange: The date/time the membership the selection last changed. Dynamic: change of criteria; Static: add/remove members; Combined: change of algorithm\n"
+  syntax:
+    content: public const string LastMembershipChange = "lastMembershipChange"
+    return:
+      type: System.String
+    content.vb: Public Const LastMembershipChange As String = "lastMembershipChange"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChangeBy
+  commentId: F:SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChangeBy
+  id: LastMembershipChangeBy
+  parent: SuperOffice.CRM.Data.DBC.SelectionFields
+  langs:
+  - csharp
+  - vb
+  name: LastMembershipChangeBy
+  nameWithType: DBC.SelectionFields.LastMembershipChangeBy
+  fullName: SuperOffice.CRM.Data.DBC.SelectionFields.LastMembershipChangeBy
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nSelection.LastMembershipChangeBy: Who last changed the membership\n"
+  syntax:
+    content: public const string LastMembershipChangeBy = "lastMembershipChangeBy"
+    return:
+      type: System.String
+    content.vb: Public Const LastMembershipChangeBy As String = "lastMembershipChangeBy"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,1822 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  commentId: T:SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  id: UserDefinedFieldInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.#ctor
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId
+  - SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo
+  nameWithType: UserDefinedFieldInfo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for UserDefinedFieldInfo.\nReturn information about the user defined fields. The information can be used to mirror the layout of the user-defined fields in the user interface.    \n"
+  example:
+  - "\nGet UserDefinedFieldInfo 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new UserDefinedFieldInfoAgent(configuration);\nvar userDefinedFieldInfo = agent.GetUserDefinedFieldInfo( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class UserDefinedFieldInfo : Carrier'
+    content.vb: >-
+      Public Class UserDefinedFieldInfo
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+    commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.UserDefinedFieldInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedFieldInfo()
+  nameWithType: UserDefinedFieldInfo.UserDefinedFieldInfo()
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UserDefinedFieldInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public UserDefinedFieldInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId
+  id: UDefFieldId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UDefFieldId
+  nameWithType: UserDefinedFieldInfo.UDefFieldId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int UDefFieldId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UDefFieldId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId
+  id: ColumnId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ColumnId
+  nameWithType: UserDefinedFieldInfo.ColumnId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe ID of the database column this field corresponds to\n"
+  syntax:
+    content: public virtual int ColumnId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ColumnId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault
+  id: FieldDefault
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldDefault
+  nameWithType: UserDefinedFieldInfo.FieldDefault
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional default value for String fields\n"
+  syntax:
+    content: public virtual string FieldDefault { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldDefault As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight
+  id: FieldHeight
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldHeight
+  nameWithType: UserDefinedFieldInfo.FieldHeight
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nfield height in pixels, 0 = &apos;enough&apos; (from font)\n"
+  syntax:
+    content: public virtual short FieldHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldHeight As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel
+  id: FieldLabel
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldLabel
+  nameWithType: UserDefinedFieldInfo.FieldLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe label (lead text)\n"
+  syntax:
+    content: public virtual string FieldLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FieldLabel As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft
+  id: FieldLeft
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldLeft
+  nameWithType: UserDefinedFieldInfo.FieldLeft
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nX pixel coordinate of field\n"
+  syntax:
+    content: public virtual short FieldLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldLeft As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop
+  id: FieldTop
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldTop
+  nameWithType: UserDefinedFieldInfo.FieldTop
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nY pixel coordinate of field\n"
+  syntax:
+    content: public virtual short FieldTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldTop As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  id: FieldType_String
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldType_String
+  nameWithType: UserDefinedFieldInfo.FieldType_String
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox\nRaw string enum value.\n"
+  syntax:
+    content: public string FieldType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FieldType_String As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+    commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  id: FieldType
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldType
+  nameWithType: UserDefinedFieldInfo.FieldType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nField type: 0 = leadtext only, 1 = Edit, 2 = CheckBox, 3 = dropdown, 4 = listbox\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UDefFieldType> FieldType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UDefFieldType}
+    content.vb: Public Property FieldType As Nullable(Of UDefFieldType)
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+    commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth
+  id: FieldWidth
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FieldWidth
+  nameWithType: UserDefinedFieldInfo.FieldWidth
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nfield width in pixels, 0 = &apos;enough&apos; (from font)\n"
+  syntax:
+    content: public virtual short FieldWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property FieldWidth As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask
+  id: FormatMask
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: FormatMask
+  nameWithType: UserDefinedFieldInfo.FormatMask
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFormatting mask, can be whatever the controls understand (currently nothing :-))\n"
+  syntax:
+    content: public virtual string FormatMask { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormatMask As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel
+  id: HideLabel
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: HideLabel
+  nameWithType: UserDefinedFieldInfo.HideLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHide the label if 1\n"
+  syntax:
+    content: public virtual bool HideLabel { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HideLabel As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed
+  id: IsIndexed
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsIndexed
+  nameWithType: UserDefinedFieldInfo.IsIndexed
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIs this field indexed? 0 if no, index no. if yes\n"
+  syntax:
+    content: public virtual bool IsIndexed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsIndexed As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight
+  id: LabelHeight
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelHeight
+  nameWithType: UserDefinedFieldInfo.LabelHeight
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nlabel height in pixels, 0 = &apos;enough&apos; (from font)\n"
+  syntax:
+    content: public virtual short LabelHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelHeight As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft
+  id: LabelLeft
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelLeft
+  nameWithType: UserDefinedFieldInfo.LabelLeft
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nX pixel coordinate of label\n"
+  syntax:
+    content: public virtual short LabelLeft { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelLeft As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop
+  id: LabelTop
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelTop
+  nameWithType: UserDefinedFieldInfo.LabelTop
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nY pixel coordinate of label\n"
+  syntax:
+    content: public virtual short LabelTop { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelTop As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth
+  id: LabelWidth
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LabelWidth
+  nameWithType: UserDefinedFieldInfo.LabelWidth
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nlabel width in pixels, 0 = &apos;enough&apos; (from font)\n"
+  syntax:
+    content: public virtual short LabelWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property LabelWidth As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId
+  id: LastVersionId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: LastVersionId
+  nameWithType: UserDefinedFieldInfo.LastVersionId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUDefFieldId this field had in the previous version, 0 = field is new in this version\n"
+  syntax:
+    content: public virtual int LastVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LastVersionId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId
+  id: ListTableId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ListTableId
+  nameWithType: UserDefinedFieldInfo.ListTableId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe table ID of the source table for lists: kTableAssoc, kTableContInt or whatever\n"
+  syntax:
+    content: public virtual short ListTableId { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ListTableId As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory
+  id: IsMandatory
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsMandatory
+  nameWithType: UserDefinedFieldInfo.IsMandatory
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 = no, 1 = yes (field must be filled out)\n"
+  syntax:
+    content: public virtual bool IsMandatory { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsMandatory As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  id: Type_String
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Type_String
+  nameWithType: UserDefinedFieldInfo.Type_String
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of owning table (contact, person, project) - this is not the actual tableNumber, rather it&apos;s an enum\nRaw string enum value.\n"
+  syntax:
+    content: public string Type_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type_String As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+    commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  id: Type
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: UserDefinedFieldInfo.Type
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nID of owning table (contact, person, project) - this is not the actual tableNumber, rather it&apos;s an enum\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UDefType> Type { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UDefType}
+    content.vb: Public Property Type As Nullable(Of UDefType)
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+    commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo
+  id: Page1LineNo
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Page1LineNo
+  nameWithType: UserDefinedFieldInfo.Page1LineNo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLine no on View Page 1, used if MDO flags are OFF. 0 = this field is not visible on page 1\n"
+  syntax:
+    content: public virtual short Page1LineNo { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Page1LineNo As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId
+  id: ProgId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ProgId
+  nameWithType: UserDefinedFieldInfo.ProgId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nProgrammatic ID, for use by software that needs to find a particular field. Carried over like udefIdentity across generations. Use a Company.Product.Field format to avoid naming conflicts; the Company name SuperOffice is reserved.\n"
+  syntax:
+    content: public virtual string ProgId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ProgId As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly
+  id: IsReadOnly
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: IsReadOnly
+  nameWithType: UserDefinedFieldInfo.IsReadOnly
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0 = read/write, 1 = readonly (don&apos;t combine with mandatory  8-) )\n"
+  syntax:
+    content: public virtual bool IsReadOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsReadOnly As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel
+  id: ShortLabel
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: ShortLabel
+  nameWithType: UserDefinedFieldInfo.ShortLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nShort name to be used in Archive headings and on page 1. If blank, the fieldLabel will be used everywhere.\n"
+  syntax:
+    content: public virtual string ShortLabel { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ShortLabel As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder
+  id: TabOrder
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: TabOrder
+  nameWithType: UserDefinedFieldInfo.TabOrder
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTab order value, sets the field processing sequence\n"
+  syntax:
+    content: public virtual short TabOrder { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property TabOrder As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength
+  id: TextLength
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: TextLength
+  nameWithType: UserDefinedFieldInfo.TextLength
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLength (in characters) of a text field, 0 for other types\n"
+  syntax:
+    content: public virtual short TextLength { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property TextLength As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip
+  id: Tooltip
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Tooltip
+  nameWithType: UserDefinedFieldInfo.Tooltip
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional tooltip text for this field\n"
+  syntax:
+    content: public virtual string Tooltip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Tooltip As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity
+  id: UdefIdentity
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UdefIdentity
+  nameWithType: UserDefinedFieldInfo.UdefIdentity
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nUnique number used to track field identity across layout changes\n"
+  syntax:
+    content: public virtual int UdefIdentity { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UdefIdentity As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId
+  id: UDListDefinitionId
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: UDListDefinitionId
+  nameWithType: UserDefinedFieldInfo.UDListDefinitionId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList to use for populating dropdown or listbox\n"
+  syntax:
+    content: public virtual int UDListDefinitionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property UDListDefinitionId As Integer
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  id: Justification_String
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Justification_String
+  nameWithType: UserDefinedFieldInfo.Justification_String
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nJustification - 0 = default, left, right, center\nRaw string enum value.\n"
+  syntax:
+    content: public string Justification_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Justification_String As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+    commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  id: Justification
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Justification
+  nameWithType: UserDefinedFieldInfo.Justification
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nJustification - 0 = default, left, right, center\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<UdefJustification> Justification { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.UdefJustification}
+    content.vb: Public Property Justification As Nullable(Of UdefJustification)
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+    commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version
+  id: Version
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: UserDefinedFieldInfo.Version
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefinition version number; ALL fields get new version whenever layout is updated.\n"
+  syntax:
+    content: public virtual short Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Version As Short
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName
+  id: TemplateVariableName
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: TemplateVariableName
+  nameWithType: UserDefinedFieldInfo.TemplateVariableName
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTemplate variable name\n"
+  syntax:
+    content: public virtual string TemplateVariableName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property TemplateVariableName As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished
+  id: HasBeenPublished
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: HasBeenPublished
+  nameWithType: UserDefinedFieldInfo.HasBeenPublished
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHas the udef field been published?\n"
+  syntax:
+    content: public virtual bool HasBeenPublished { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property HasBeenPublished As Boolean
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName
+  id: MdoListName
+  parent: SuperOffice.WebApi.Data.UserDefinedFieldInfo
+  langs:
+  - csharp
+  - vb
+  name: MdoListName
+  nameWithType: UserDefinedFieldInfo.MdoListName
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMDO list name used to populate this list. Derived from UDListDefinitionId and ListTableId. (Read-only)\n"
+  syntax:
+    content: public virtual string MdoListName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MdoListName As String
+  overload: SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  commentId: T:SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  isExternal: true
+  name: UserDefinedFieldInfoAgent
+  nameWithType: UserDefinedFieldInfoAgent
+  fullName: SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.#ctor
+  isExternal: true
+  name: UserDefinedFieldInfo
+  nameWithType: UserDefinedFieldInfo.UserDefinedFieldInfo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UserDefinedFieldInfo
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId
+  isExternal: true
+  name: UDefFieldId
+  nameWithType: UserDefinedFieldInfo.UDefFieldId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDefFieldId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId
+  isExternal: true
+  name: ColumnId
+  nameWithType: UserDefinedFieldInfo.ColumnId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ColumnId
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault
+  isExternal: true
+  name: FieldDefault
+  nameWithType: UserDefinedFieldInfo.FieldDefault
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldDefault
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight
+  isExternal: true
+  name: FieldHeight
+  nameWithType: UserDefinedFieldInfo.FieldHeight
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldHeight
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel
+  isExternal: true
+  name: FieldLabel
+  nameWithType: UserDefinedFieldInfo.FieldLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLabel
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft
+  isExternal: true
+  name: FieldLeft
+  nameWithType: UserDefinedFieldInfo.FieldLeft
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldLeft
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop
+  isExternal: true
+  name: FieldTop
+  nameWithType: UserDefinedFieldInfo.FieldTop
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldTop
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  isExternal: true
+  name: FieldType_String
+  nameWithType: UserDefinedFieldInfo.FieldType_String
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+  isExternal: true
+  name: FieldType
+  nameWithType: UserDefinedFieldInfo.FieldType
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UDefFieldType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UDefFieldType}'
+  definition: System.Nullable`1
+  name: Nullable<UDefFieldType>
+  nameWithType: Nullable<UDefFieldType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UDefFieldType>
+  nameWithType.vb: Nullable(Of UDefFieldType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UDefFieldType)
+  name.vb: Nullable(Of UDefFieldType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UDefFieldType
+    name: UDefFieldType
+    nameWithType: UDefFieldType
+    fullName: SuperOffice.WebApi.Data.UDefFieldType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UDefFieldType
+    name: UDefFieldType
+    nameWithType: UDefFieldType
+    fullName: SuperOffice.WebApi.Data.UDefFieldType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth
+  isExternal: true
+  name: FieldWidth
+  nameWithType: UserDefinedFieldInfo.FieldWidth
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FieldWidth
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask
+  isExternal: true
+  name: FormatMask
+  nameWithType: UserDefinedFieldInfo.FormatMask
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.FormatMask
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel
+  isExternal: true
+  name: HideLabel
+  nameWithType: UserDefinedFieldInfo.HideLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HideLabel
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed
+  isExternal: true
+  name: IsIndexed
+  nameWithType: UserDefinedFieldInfo.IsIndexed
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsIndexed
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight
+  isExternal: true
+  name: LabelHeight
+  nameWithType: UserDefinedFieldInfo.LabelHeight
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelHeight
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft
+  isExternal: true
+  name: LabelLeft
+  nameWithType: UserDefinedFieldInfo.LabelLeft
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelLeft
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop
+  isExternal: true
+  name: LabelTop
+  nameWithType: UserDefinedFieldInfo.LabelTop
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelTop
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth
+  isExternal: true
+  name: LabelWidth
+  nameWithType: UserDefinedFieldInfo.LabelWidth
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LabelWidth
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId
+  isExternal: true
+  name: LastVersionId
+  nameWithType: UserDefinedFieldInfo.LastVersionId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.LastVersionId
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId
+  isExternal: true
+  name: ListTableId
+  nameWithType: UserDefinedFieldInfo.ListTableId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ListTableId
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory
+  isExternal: true
+  name: IsMandatory
+  nameWithType: UserDefinedFieldInfo.IsMandatory
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsMandatory
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  isExternal: true
+  name: Type_String
+  nameWithType: UserDefinedFieldInfo.Type_String
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+  isExternal: true
+  name: Type
+  nameWithType: UserDefinedFieldInfo.Type
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Type_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UDefType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UDefType}'
+  definition: System.Nullable`1
+  name: Nullable<UDefType>
+  nameWithType: Nullable<UDefType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UDefType>
+  nameWithType.vb: Nullable(Of UDefType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UDefType)
+  name.vb: Nullable(Of UDefType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.WebApi.Data.UDefType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UDefType
+    name: UDefType
+    nameWithType: UDefType
+    fullName: SuperOffice.WebApi.Data.UDefType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo
+  isExternal: true
+  name: Page1LineNo
+  nameWithType: UserDefinedFieldInfo.Page1LineNo
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Page1LineNo
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId
+  isExternal: true
+  name: ProgId
+  nameWithType: UserDefinedFieldInfo.ProgId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ProgId
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: UserDefinedFieldInfo.IsReadOnly
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.IsReadOnly
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel
+  isExternal: true
+  name: ShortLabel
+  nameWithType: UserDefinedFieldInfo.ShortLabel
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.ShortLabel
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder
+  isExternal: true
+  name: TabOrder
+  nameWithType: UserDefinedFieldInfo.TabOrder
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TabOrder
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength
+  isExternal: true
+  name: TextLength
+  nameWithType: UserDefinedFieldInfo.TextLength
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TextLength
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip
+  isExternal: true
+  name: Tooltip
+  nameWithType: UserDefinedFieldInfo.Tooltip
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Tooltip
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity
+  isExternal: true
+  name: UdefIdentity
+  nameWithType: UserDefinedFieldInfo.UdefIdentity
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UdefIdentity
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId
+  isExternal: true
+  name: UDListDefinitionId
+  nameWithType: UserDefinedFieldInfo.UDListDefinitionId
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.UDListDefinitionId
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  isExternal: true
+  name: Justification_String
+  nameWithType: UserDefinedFieldInfo.Justification_String
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+  isExternal: true
+  name: Justification
+  nameWithType: UserDefinedFieldInfo.Justification
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  commentId: P:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Justification_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.UdefJustification}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.UdefJustification}'
+  definition: System.Nullable`1
+  name: Nullable<UdefJustification>
+  nameWithType: Nullable<UdefJustification>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.UdefJustification>
+  nameWithType.vb: Nullable(Of UdefJustification)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.UdefJustification)
+  name.vb: Nullable(Of UdefJustification)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.UdefJustification
+    name: UdefJustification
+    nameWithType: UdefJustification
+    fullName: SuperOffice.WebApi.Data.UdefJustification
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.UdefJustification
+    name: UdefJustification
+    nameWithType: UdefJustification
+    fullName: SuperOffice.WebApi.Data.UdefJustification
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version
+  isExternal: true
+  name: Version
+  nameWithType: UserDefinedFieldInfo.Version
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.Version
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName
+  isExternal: true
+  name: TemplateVariableName
+  nameWithType: UserDefinedFieldInfo.TemplateVariableName
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.TemplateVariableName
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished
+  isExternal: true
+  name: HasBeenPublished
+  nameWithType: UserDefinedFieldInfo.HasBeenPublished
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.HasBeenPublished
+- uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName*
+  commentId: Overload:SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName
+  isExternal: true
+  name: MdoListName
+  nameWithType: UserDefinedFieldInfo.MdoListName
+  fullName: SuperOffice.WebApi.Data.UserDefinedFieldInfo.MdoListName

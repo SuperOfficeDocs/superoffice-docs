@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.TimeZone
+  commentId: N:SuperOffice.TimeZone
+  id: SuperOffice.TimeZone
+  children:
+  - SuperOffice.TimeZone.ITimeConverterDataFetcher
+  - SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.TimeZone
+  nameWithType: SuperOffice.TimeZone
+  fullName: SuperOffice.TimeZone
+  type: Namespace
+  assemblies:
+  - SOCore
+references:
+- uid: SuperOffice.TimeZone.ITimeConverterDataFetcher
+  commentId: T:SuperOffice.TimeZone.ITimeConverterDataFetcher
+  parent: SuperOffice.TimeZone
+  isExternal: true
+  name: ITimeConverterDataFetcher
+  nameWithType: ITimeConverterDataFetcher
+  fullName: SuperOffice.TimeZone.ITimeConverterDataFetcher
+- uid: SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  commentId: T:SuperOffice.TimeZone.SoTimeConverterDataFetcher
+  parent: SuperOffice.TimeZone
+  isExternal: true
+  name: SoTimeConverterDataFetcher
+  nameWithType: SoTimeConverterDataFetcher
+  fullName: SuperOffice.TimeZone.SoTimeConverterDataFetcher
+- uid: SuperOffice.TimeZone
+  commentId: N:SuperOffice.TimeZone
+  isExternal: true
+  name: SuperOffice.TimeZone
+  nameWithType: SuperOffice.TimeZone
+  fullName: SuperOffice.TimeZone

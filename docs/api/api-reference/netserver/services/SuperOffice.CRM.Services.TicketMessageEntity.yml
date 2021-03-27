@@ -1,0 +1,1174 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketMessageEntity
+  commentId: T:SuperOffice.CRM.Services.TicketMessageEntity
+  id: TicketMessageEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketMessageEntity.#ctor
+  - SuperOffice.CRM.Services.TicketMessageEntity.Author
+  - SuperOffice.CRM.Services.TicketMessageEntity.Body
+  - SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt
+  - SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy
+  - SuperOffice.CRM.Services.TicketMessageEntity.CustomFields
+  - SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo
+  - SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId
+  - SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
+  - SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
+  - SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+  - SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
+  - SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+  - SuperOffice.CRM.Services.TicketMessageEntity.MessageId
+  - SuperOffice.CRM.Services.TicketMessageEntity.Person
+  - SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+  - SuperOffice.CRM.Services.TicketMessageEntity.Slevel
+  - SuperOffice.CRM.Services.TicketMessageEntity.Ticket
+  - SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent
+  - SuperOffice.CRM.Services.TicketMessageEntity.ToString
+  - SuperOffice.CRM.Services.TicketMessageEntity.ToString(System.String)
+  - SuperOffice.CRM.Services.TicketMessageEntity.Type
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe ticket messages are e-mails, SMS or other messages attached to a ticket (aka request).\n<p></p>\nCarrier object for TicketMessageEntity.\nServices for the TicketMessageEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.ITicketAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet TicketMessageEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new TicketAgent();\n    var ticketMessageEntity = agent.GetTicketMessageEntity( 123 );\n }</code></pre>\n\nFind all TicketMessageEntity, get related items using archive agent.\n<pre><code>var archive = new ArchiveAgent();\nvar rows = archive.GetArchiveListByColumns2(&quot;TicketMessage&quot;, &quot;...&quot;, null, &quot;getAllRows eq 1&quot;, null, 0, 100 );</code></pre>\n"
+  syntax:
+    content: 'public class TicketMessageEntity : Carrier, IExtraFieldCarrier'
+    content.vb: >-
+      Public Class TicketMessageEntity
+          Inherits Carrier
+          Implements IExtraFieldCarrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.TicketAgent
+    commentId: T:SuperOffice.CRM.Services.TicketAgent
+  - linkId: SuperOffice.CRM.Services.ITicketAgent
+    commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  - linkId: SuperOffice.CRM.Services.ArchiveAgent
+    commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  - linkId: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketMessageEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketMessageEntity()
+  nameWithType: TicketMessageEntity.TicketMessageEntity()
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.TicketMessageEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TicketMessageEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketMessageEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketMessageEntity.ToString()
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketMessageEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TicketMessageEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId
+  id: EjMessageId
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: EjMessageId
+  nameWithType: TicketMessageEntity.EjMessageId
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe primary key (auto-incremented) \n"
+  syntax:
+    content: public virtual int EjMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property EjMessageId As Integer
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Ticket
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Ticket
+  id: Ticket
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: TicketMessageEntity.Ticket
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Ticket
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe connected ticket \n"
+  syntax:
+    content: public virtual Ticket Ticket { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Ticket
+    content.vb: Public Overridable Property Ticket As Ticket
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Ticket*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt
+  id: CreatedAt
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedAt
+  nameWithType: TicketMessageEntity.CreatedAt
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nWhen the message was posted. \n"
+  syntax:
+    content: public virtual DateTime CreatedAt { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property CreatedAt As Date
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy
+  id: CreatedBy
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: CreatedBy
+  nameWithType: TicketMessageEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe associate who created this ticket message \n"
+  syntax:
+    content: public virtual Associate CreatedBy { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate
+    content.vb: Public Overridable Property CreatedBy As Associate
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Author
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Author
+  id: Author
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: TicketMessageEntity.Author
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Author
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA string representing the author of the message. Could be a user&amp;apos;s name, or a persons email address. \n"
+  syntax:
+    content: public virtual string Author { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Author As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Author*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Slevel
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Slevel
+  id: Slevel
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Slevel
+  nameWithType: TicketMessageEntity.Slevel
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Slevel
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe securitylevel of the message. \n"
+  syntax:
+    content: public virtual TicketSecurityLevel Slevel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketSecurityLevel
+    content.vb: Public Overridable Property Slevel As TicketSecurityLevel
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Slevel*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Type
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Type
+  id: Type
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TicketMessageEntity.Type
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Type
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe type of the message (plaintext/html). \n"
+  syntax:
+    content: public virtual TicketMessageType Type { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketMessageType
+    content.vb: Public Overridable Property Type As TicketMessageType
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Type*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MessageId
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.MessageId
+  id: MessageId
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: TicketMessageEntity.MessageId
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MessageId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe X-Message-Id header value from the email. Used for threading, i.e. connecting messages to existing tickets. \n"
+  syntax:
+    content: public virtual string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MessageId As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.MessageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent
+  id: TimeSpent
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: TimeSpent
+  nameWithType: TicketMessageEntity.TimeSpent
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe time spent (minutes) for this message. \n"
+  syntax:
+    content: public virtual int TimeSpent { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TimeSpent As Integer
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Body
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Body
+  id: Body
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: TicketMessageEntity.Body
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Body
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe textbody for the message. \n"
+  syntax:
+    content: public virtual string Body { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Body As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Body*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+  id: HtmlBody
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: HtmlBody
+  nameWithType: TicketMessageEntity.HtmlBody
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe html body for the message (if any). \n"
+  syntax:
+    content: public virtual string HtmlBody { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property HtmlBody As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
+  id: EmailHeader
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: EmailHeader
+  nameWithType: TicketMessageEntity.EmailHeader
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe email header is saved in this field as raw text \n"
+  syntax:
+    content: public virtual string EmailHeader { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailHeader As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo
+  id: DebugInfo
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: DebugInfo
+  nameWithType: TicketMessageEntity.DebugInfo
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe debug info for the message. \n"
+  syntax:
+    content: public virtual string DebugInfo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DebugInfo As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
+  id: MailSorter
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: MailSorter
+  nameWithType: TicketMessageEntity.MailSorter
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe name of the mail sorter used when the email was imported. Note: We must use name instead of id since the id&amp;apos;s change every time one changes the mail sorter. :-0 \n"
+  syntax:
+    content: public virtual string MailSorter { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MailSorter As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.MailSorter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+  id: MessageCategory
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: MessageCategory
+  nameWithType: TicketMessageEntity.MessageCategory
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefines what kind of message this is. \n"
+  syntax:
+    content: public virtual TicketMessageCategory MessageCategory { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketMessageCategory
+    content.vb: Public Overridable Property MessageCategory As TicketMessageCategory
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Person
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.Person
+  id: Person
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: TicketMessageEntity.Person
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Person
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIf this is an incoming message, this will contain the person \n<p>Use MDO List name &quot;person_new&quot; to get list items.</p>\n"
+  syntax:
+    content: public virtual Person Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Person
+    content.vb: Public Overridable Property Person As Person
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.Person*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+  id: SearchTitle
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: SearchTitle
+  nameWithType: TicketMessageEntity.SearchTitle
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA copy of the title of the ticket, for search optimisation and simpler reporting. \n"
+  syntax:
+    content: public virtual string SearchTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property SearchTitle As String
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: TicketMessageEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.TicketMessageEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property ExtraFields As StringDictionary
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.CustomFields
+  commentId: P:SuperOffice.CRM.Services.TicketMessageEntity.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.Services.TicketMessageEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: TicketMessageEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property CustomFields As StringDictionary
+  overload: SuperOffice.CRM.Services.TicketMessageEntity.CustomFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IExtraFieldCarrier
+  nameWithType: IExtraFieldCarrier
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
+- uid: SuperOffice.CRM.Services.TicketAgent
+  commentId: T:SuperOffice.CRM.Services.TicketAgent
+  isExternal: true
+  name: TicketAgent
+  nameWithType: TicketAgent
+  fullName: SuperOffice.CRM.Services.TicketAgent
+- uid: SuperOffice.CRM.Services.ITicketAgent
+  commentId: T:SuperOffice.CRM.Services.ITicketAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ITicketAgent
+  nameWithType: ITicketAgent
+  fullName: SuperOffice.CRM.Services.ITicketAgent
+- uid: SuperOffice.CRM.Services.ArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.ArchiveAgent
+  isExternal: true
+  name: ArchiveAgent
+  nameWithType: ArchiveAgent
+  fullName: SuperOffice.CRM.Services.ArchiveAgent
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  name: GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  nameWithType: IArchiveAgent.GetArchiveListByColumns2(String, String, String, String, String, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String, System.String, System.String, System.String, System.String, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)
+    name: GetArchiveListByColumns2
+    nameWithType: IArchiveAgent.GetArchiveListByColumns2
+    fullName: SuperOffice.CRM.Services.IArchiveAgent.GetArchiveListByColumns2
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IArchiveAgent
+  commentId: T:SuperOffice.CRM.Services.IArchiveAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IArchiveAgent
+  nameWithType: IArchiveAgent
+  fullName: SuperOffice.CRM.Services.IArchiveAgent
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.#ctor
+  isExternal: true
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity.TicketMessageEntity
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.TicketMessageEntity
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TicketMessageEntity.ToString
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId
+  isExternal: true
+  name: EjMessageId
+  nameWithType: TicketMessageEntity.EjMessageId
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.EjMessageId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Ticket*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Ticket
+  isExternal: true
+  name: Ticket
+  nameWithType: TicketMessageEntity.Ticket
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Ticket
+- uid: SuperOffice.CRM.Services.Ticket
+  commentId: T:SuperOffice.CRM.Services.Ticket
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Ticket
+  nameWithType: Ticket
+  fullName: SuperOffice.CRM.Services.Ticket
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt
+  isExternal: true
+  name: CreatedAt
+  nameWithType: TicketMessageEntity.CreatedAt
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.CreatedAt
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy
+  isExternal: true
+  name: CreatedBy
+  nameWithType: TicketMessageEntity.CreatedBy
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.CreatedBy
+- uid: SuperOffice.CRM.Services.Associate
+  commentId: T:SuperOffice.CRM.Services.Associate
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Associate
+  nameWithType: Associate
+  fullName: SuperOffice.CRM.Services.Associate
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Author*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Author
+  isExternal: true
+  name: Author
+  nameWithType: TicketMessageEntity.Author
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Author
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Slevel*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Slevel
+  isExternal: true
+  name: Slevel
+  nameWithType: TicketMessageEntity.Slevel
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Slevel
+- uid: SuperOffice.Data.TicketSecurityLevel
+  isExternal: true
+  name: TicketSecurityLevel
+  nameWithType: TicketSecurityLevel
+  fullName: SuperOffice.Data.TicketSecurityLevel
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Type*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Type
+  isExternal: true
+  name: Type
+  nameWithType: TicketMessageEntity.Type
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Type
+- uid: SuperOffice.Data.TicketMessageType
+  commentId: '!:SuperOffice.Data.TicketMessageType'
+  isExternal: true
+  name: TicketMessageType
+  nameWithType: TicketMessageType
+  fullName: SuperOffice.Data.TicketMessageType
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MessageId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.MessageId
+  isExternal: true
+  name: MessageId
+  nameWithType: TicketMessageEntity.MessageId
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MessageId
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent
+  isExternal: true
+  name: TimeSpent
+  nameWithType: TicketMessageEntity.TimeSpent
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.TimeSpent
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Body*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Body
+  isExternal: true
+  name: Body
+  nameWithType: TicketMessageEntity.Body
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Body
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+  isExternal: true
+  name: HtmlBody
+  nameWithType: TicketMessageEntity.HtmlBody
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.HtmlBody
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
+  isExternal: true
+  name: EmailHeader
+  nameWithType: TicketMessageEntity.EmailHeader
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.EmailHeader
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo
+  isExternal: true
+  name: DebugInfo
+  nameWithType: TicketMessageEntity.DebugInfo
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.DebugInfo
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MailSorter*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
+  isExternal: true
+  name: MailSorter
+  nameWithType: TicketMessageEntity.MailSorter
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MailSorter
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+  isExternal: true
+  name: MessageCategory
+  nameWithType: TicketMessageEntity.MessageCategory
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.MessageCategory
+- uid: SuperOffice.Data.TicketMessageCategory
+  commentId: '!:SuperOffice.Data.TicketMessageCategory'
+  isExternal: true
+  name: TicketMessageCategory
+  nameWithType: TicketMessageCategory
+  fullName: SuperOffice.Data.TicketMessageCategory
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.Person*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.Person
+  isExternal: true
+  name: Person
+  nameWithType: TicketMessageEntity.Person
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.Person
+- uid: SuperOffice.CRM.Services.Person
+  commentId: T:SuperOffice.CRM.Services.Person
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.CRM.Services.Person
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+  isExternal: true
+  name: SearchTitle
+  nameWithType: TicketMessageEntity.SearchTitle
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.SearchTitle
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: TicketMessageEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.ExtraFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: ExtraFields
+  nameWithType: IExtraFieldCarrier.ExtraFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.TicketMessageEntity.CustomFields*
+  commentId: Overload:SuperOffice.CRM.Services.TicketMessageEntity.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: TicketMessageEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity.CustomFields

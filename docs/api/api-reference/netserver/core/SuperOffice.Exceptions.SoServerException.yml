@@ -1,0 +1,1247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Exceptions.SoServerException
+  commentId: T:SuperOffice.Exceptions.SoServerException
+  id: SoServerException
+  parent: SuperOffice.Exceptions
+  children:
+  - SuperOffice.Exceptions.SoServerException.#ctor(SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Exceptions.SoServerException.#ctor(System.String,SuperOffice.Exceptions.SoExceptionInfo)
+  - SuperOffice.Exceptions.SoServerException.ExceptionInfo
+  langs:
+  - csharp
+  - vb
+  name: SoServerException
+  nameWithType: SoServerException
+  fullName: SuperOffice.Exceptions.SoServerException
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nThis exception wrappes a SoExceptionInfo.  \nUse <xref href=\"SuperOffice.Exceptions.SoServerException.ExceptionInfo\" data-throw-if-not-resolved=\"false\"></xref> to analyze the inner exception.\n"
+  syntax:
+    content: 'public class SoServerException : SoException, ISerializable, _Exception'
+    content.vb: >-
+      Public Class SoServerException
+          Inherits SoException
+          Implements ISerializable, _Exception
+  inheritance:
+  - System.Object
+  - System.Exception
+  - SuperOffice.Exceptions.SoException
+  implements:
+  - System.Runtime.Serialization.ISerializable
+  - System.Runtime.InteropServices._Exception
+  inheritedMembers:
+  - SuperOffice.Exceptions.SoException.FriendlyText
+  - System.Exception.GetBaseException
+  - System.Exception.ToString
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.Message
+  - System.Exception.Data
+  - System.Exception.InnerException
+  - System.Exception.TargetSite
+  - System.Exception.StackTrace
+  - System.Exception.HelpLink
+  - System.Exception.Source
+  - System.Exception.HResult
+  - System.Exception.SerializeObjectState
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Exceptions.SoServerException.EnumUtil.MapEnums``2
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.Enumerate
+  - System.Exception.SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
+  - SuperOffice.Exceptions.SoServerException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Exceptions.SoServerException.#ctor(SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Exceptions.SoServerException.#ctor(SuperOffice.Exceptions.SoExceptionInfo)
+  id: '#ctor(SuperOffice.Exceptions.SoExceptionInfo)'
+  parent: SuperOffice.Exceptions.SoServerException
+  langs:
+  - csharp
+  - vb
+  name: SoServerException(SoExceptionInfo)
+  nameWithType: SoServerException.SoServerException(SoExceptionInfo)
+  fullName: SuperOffice.Exceptions.SoServerException.SoServerException(SuperOffice.Exceptions.SoExceptionInfo)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nDefault constructor wrapping a <xref href=\"SuperOffice.Exceptions.SoExceptionInfo\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public SoServerException(SoExceptionInfo exceptionInfo)
+    parameters:
+    - id: exceptionInfo
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Object this exception wrapps.
+    content.vb: Public Sub New(exceptionInfo As SoExceptionInfo)
+  overload: SuperOffice.Exceptions.SoServerException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.SoServerException.#ctor(System.String,SuperOffice.Exceptions.SoExceptionInfo)
+  commentId: M:SuperOffice.Exceptions.SoServerException.#ctor(System.String,SuperOffice.Exceptions.SoExceptionInfo)
+  id: '#ctor(System.String,SuperOffice.Exceptions.SoExceptionInfo)'
+  parent: SuperOffice.Exceptions.SoServerException
+  langs:
+  - csharp
+  - vb
+  name: SoServerException(String, SoExceptionInfo)
+  nameWithType: SoServerException.SoServerException(String, SoExceptionInfo)
+  fullName: SuperOffice.Exceptions.SoServerException.SoServerException(System.String, SuperOffice.Exceptions.SoExceptionInfo)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nDefault constructor wrapping a <xref href=\"SuperOffice.Exceptions.SoExceptionInfo\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public SoServerException(string message, SoExceptionInfo exceptionInfo)
+    parameters:
+    - id: message
+      type: System.String
+      description: Message of the exception
+    - id: exceptionInfo
+      type: SuperOffice.Exceptions.SoExceptionInfo
+      description: Object this exception wrapps.
+    content.vb: Public Sub New(message As String, exceptionInfo As SoExceptionInfo)
+  overload: SuperOffice.Exceptions.SoServerException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Exceptions.SoServerException.ExceptionInfo
+  commentId: P:SuperOffice.Exceptions.SoServerException.ExceptionInfo
+  id: ExceptionInfo
+  parent: SuperOffice.Exceptions.SoServerException
+  langs:
+  - csharp
+  - vb
+  name: ExceptionInfo
+  nameWithType: SoServerException.ExceptionInfo
+  fullName: SuperOffice.Exceptions.SoServerException.ExceptionInfo
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Exceptions
+  summary: "\nInner Exception\n"
+  syntax:
+    content: public SoExceptionInfo ExceptionInfo { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Exceptions.SoExceptionInfo
+    content.vb: Public ReadOnly Property ExceptionInfo As SoExceptionInfo
+  overload: SuperOffice.Exceptions.SoServerException.ExceptionInfo*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: SuperOffice.Exceptions.SoException
+  commentId: T:SuperOffice.Exceptions.SoException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoException
+  nameWithType: SoException
+  fullName: SuperOffice.Exceptions.SoException
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: System.Runtime.InteropServices._Exception
+  commentId: T:System.Runtime.InteropServices._Exception
+  parent: System.Runtime.InteropServices
+  isExternal: true
+  name: _Exception
+  nameWithType: _Exception
+  fullName: System.Runtime.InteropServices._Exception
+- uid: SuperOffice.Exceptions.SoException.FriendlyText
+  commentId: P:SuperOffice.Exceptions.SoException.FriendlyText
+  parent: SuperOffice.Exceptions.SoException
+  isExternal: true
+  name: FriendlyText
+  nameWithType: SoException.FriendlyText
+  fullName: SuperOffice.Exceptions.SoException.FriendlyText
+- uid: System.Exception.GetBaseException
+  commentId: M:System.Exception.GetBaseException
+  parent: System.Exception
+  isExternal: true
+  name: GetBaseException()
+  nameWithType: Exception.GetBaseException()
+  fullName: System.Exception.GetBaseException()
+  spec.csharp:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    nameWithType: Exception.GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetBaseException
+    name: GetBaseException
+    nameWithType: Exception.GetBaseException
+    fullName: System.Exception.GetBaseException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.ToString
+  commentId: M:System.Exception.ToString
+  parent: System.Exception
+  isExternal: true
+  name: ToString()
+  nameWithType: Exception.ToString()
+  fullName: System.Exception.ToString()
+  spec.csharp:
+  - uid: System.Exception.ToString
+    name: ToString
+    nameWithType: Exception.ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.ToString
+    name: ToString
+    nameWithType: Exception.ToString
+    fullName: System.Exception.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Exception
+  isExternal: true
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: Exception.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: Exception.GetObjectData
+    fullName: System.Exception.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: Exception.GetObjectData
+    fullName: System.Exception.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.GetType
+  commentId: M:System.Exception.GetType
+  parent: System.Exception
+  isExternal: true
+  name: GetType()
+  nameWithType: Exception.GetType()
+  fullName: System.Exception.GetType()
+  spec.csharp:
+  - uid: System.Exception.GetType
+    name: GetType
+    nameWithType: Exception.GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Exception.GetType
+    name: GetType
+    nameWithType: Exception.GetType
+    fullName: System.Exception.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.Message
+  commentId: P:System.Exception.Message
+  parent: System.Exception
+  isExternal: true
+  name: Message
+  nameWithType: Exception.Message
+  fullName: System.Exception.Message
+- uid: System.Exception.Data
+  commentId: P:System.Exception.Data
+  parent: System.Exception
+  isExternal: true
+  name: Data
+  nameWithType: Exception.Data
+  fullName: System.Exception.Data
+- uid: System.Exception.InnerException
+  commentId: P:System.Exception.InnerException
+  parent: System.Exception
+  isExternal: true
+  name: InnerException
+  nameWithType: Exception.InnerException
+  fullName: System.Exception.InnerException
+- uid: System.Exception.TargetSite
+  commentId: P:System.Exception.TargetSite
+  parent: System.Exception
+  isExternal: true
+  name: TargetSite
+  nameWithType: Exception.TargetSite
+  fullName: System.Exception.TargetSite
+- uid: System.Exception.StackTrace
+  commentId: P:System.Exception.StackTrace
+  parent: System.Exception
+  isExternal: true
+  name: StackTrace
+  nameWithType: Exception.StackTrace
+  fullName: System.Exception.StackTrace
+- uid: System.Exception.HelpLink
+  commentId: P:System.Exception.HelpLink
+  parent: System.Exception
+  isExternal: true
+  name: HelpLink
+  nameWithType: Exception.HelpLink
+  fullName: System.Exception.HelpLink
+- uid: System.Exception.Source
+  commentId: P:System.Exception.Source
+  parent: System.Exception
+  isExternal: true
+  name: Source
+  nameWithType: Exception.Source
+  fullName: System.Exception.Source
+- uid: System.Exception.HResult
+  commentId: P:System.Exception.HResult
+  parent: System.Exception
+  isExternal: true
+  name: HResult
+  nameWithType: Exception.HResult
+  fullName: System.Exception.HResult
+- uid: System.Exception.SerializeObjectState
+  commentId: E:System.Exception.SerializeObjectState
+  parent: System.Exception
+  isExternal: true
+  name: SerializeObjectState
+  nameWithType: Exception.SerializeObjectState
+  fullName: System.Exception.SerializeObjectState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.SoServerException.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoServerException, To>()
+  nameWithType: EnumUtil.MapEnums<SoServerException, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoServerException, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoServerException, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoServerException, To)()
+  name.vb: MapEnums(Of SoServerException, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoServerException, To>
+    nameWithType: EnumUtil.MapEnums<SoServerException, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Exceptions.SoServerException, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoServerException, To)
+    nameWithType: EnumUtil.MapEnums(Of SoServerException, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Exceptions.SoServerException, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  name: GetExceptionInfo()
+  nameWithType: ExceptionHelper.GetExceptionInfo()
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo()
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+    name: GetExceptionInfo
+    nameWithType: ExceptionHelper.GetExceptionInfo
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+    name: GetExceptionInfo
+    nameWithType: ExceptionHelper.GetExceptionInfo
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  name: GetInnermostException()
+  nameWithType: ExceptionHelper.GetInnermostException()
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException()
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+    name: GetInnermostException
+    nameWithType: ExceptionHelper.GetInnermostException
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+    name: GetInnermostException
+    nameWithType: ExceptionHelper.GetInnermostException
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  name: SimpleMessageStack(String)
+  nameWithType: ExceptionHelper.SimpleMessageStack(String)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+    name: SimpleMessageStack
+    nameWithType: ExceptionHelper.SimpleMessageStack
+    fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.String)
+    name: SimpleMessageStack
+    nameWithType: ExceptionHelper.SimpleMessageStack
+    fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.Enumerate
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  name: Enumerate()
+  nameWithType: ExceptionHelper.Enumerate()
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate()
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+    name: Enumerate
+    nameWithType: ExceptionHelper.Enumerate
+    fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+    name: Enumerate
+    nameWithType: ExceptionHelper.Enumerate
+    fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception.SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  parent: SuperOffice.Exceptions.ExceptionHelper
+  definition: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  name: FindExceptionOfType<T>()
+  nameWithType: ExceptionHelper.FindExceptionOfType<T>()
+  fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>()
+  nameWithType.vb: ExceptionHelper.FindExceptionOfType(Of T)()
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)()
+  name.vb: FindExceptionOfType(Of T)()
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
+    name: FindExceptionOfType<T>
+    nameWithType: ExceptionHelper.FindExceptionOfType<T>
+    fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1
+    name: FindExceptionOfType(Of T)
+    nameWithType: ExceptionHelper.FindExceptionOfType(Of T)
+    fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.SoServerException.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoServerException, To>()
+  nameWithType: Converters.MapEnums<SoServerException, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoServerException, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoServerException, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoServerException, To)()
+  name.vb: MapEnums(Of SoServerException, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoServerException, To>
+    nameWithType: Converters.MapEnums<SoServerException, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Exceptions.SoServerException, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoServerException, To)
+    nameWithType: Converters.MapEnums(Of SoServerException, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Exceptions.SoServerException, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: true
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+- uid: System.Runtime.InteropServices
+  commentId: N:System.Runtime.InteropServices
+  isExternal: true
+  name: System.Runtime.InteropServices
+  nameWithType: System.Runtime.InteropServices
+  fullName: System.Runtime.InteropServices
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  isExternal: true
+  name: GetExceptionInfo(Exception)
+  nameWithType: ExceptionHelper.GetExceptionInfo(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+    name: GetExceptionInfo
+    nameWithType: ExceptionHelper.GetExceptionInfo
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo(System.Exception)
+    name: GetExceptionInfo
+    nameWithType: ExceptionHelper.GetExceptionInfo
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetExceptionInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.ExceptionHelper
+  commentId: T:SuperOffice.Exceptions.ExceptionHelper
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: ExceptionHelper
+  nameWithType: ExceptionHelper
+  fullName: SuperOffice.Exceptions.ExceptionHelper
+- uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  isExternal: true
+  name: GetInnermostException(Exception)
+  nameWithType: ExceptionHelper.GetInnermostException(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+    name: GetInnermostException
+    nameWithType: ExceptionHelper.GetInnermostException
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException(System.Exception)
+    name: GetInnermostException
+    nameWithType: ExceptionHelper.GetInnermostException
+    fullName: SuperOffice.Exceptions.ExceptionHelper.GetInnermostException
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+  isExternal: true
+  name: SimpleMessageStack(Exception, String)
+  nameWithType: ExceptionHelper.SimpleMessageStack(Exception, String)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception, System.String)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+    name: SimpleMessageStack
+    nameWithType: ExceptionHelper.SimpleMessageStack
+    fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack(System.Exception,System.String)
+    name: SimpleMessageStack
+    nameWithType: ExceptionHelper.SimpleMessageStack
+    fullName: SuperOffice.Exceptions.ExceptionHelper.SimpleMessageStack
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  isExternal: true
+  name: Enumerate(Exception)
+  nameWithType: ExceptionHelper.Enumerate(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+    name: Enumerate
+    nameWithType: ExceptionHelper.Enumerate
+    fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.Enumerate(System.Exception)
+    name: Enumerate
+    nameWithType: ExceptionHelper.Enumerate
+    fullName: SuperOffice.Exceptions.ExceptionHelper.Enumerate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  commentId: M:SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+  isExternal: true
+  name: FindExceptionOfType<T>(Exception)
+  nameWithType: ExceptionHelper.FindExceptionOfType<T>(Exception)
+  fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>(System.Exception)
+  nameWithType.vb: ExceptionHelper.FindExceptionOfType(Of T)(Exception)
+  fullName.vb: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)(System.Exception)
+  name.vb: FindExceptionOfType(Of T)(Exception)
+  spec.csharp:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+    name: FindExceptionOfType<T>
+    nameWithType: ExceptionHelper.FindExceptionOfType<T>
+    fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType``1(System.Exception)
+    name: FindExceptionOfType(Of T)
+    nameWithType: ExceptionHelper.FindExceptionOfType(Of T)
+    fullName: SuperOffice.Exceptions.ExceptionHelper.FindExceptionOfType(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Exceptions.SoServerException.#ctor*
+  commentId: Overload:SuperOffice.Exceptions.SoServerException.#ctor
+  isExternal: true
+  name: SoServerException
+  nameWithType: SoServerException.SoServerException
+  fullName: SuperOffice.Exceptions.SoServerException.SoServerException
+- uid: SuperOffice.Exceptions.SoExceptionInfo
+  commentId: T:SuperOffice.Exceptions.SoExceptionInfo
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: SoExceptionInfo
+  nameWithType: SoExceptionInfo
+  fullName: SuperOffice.Exceptions.SoExceptionInfo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Exceptions.SoServerException.ExceptionInfo*
+  commentId: Overload:SuperOffice.Exceptions.SoServerException.ExceptionInfo
+  isExternal: true
+  name: ExceptionInfo
+  nameWithType: SoServerException.ExceptionInfo
+  fullName: SuperOffice.Exceptions.SoServerException.ExceptionInfo

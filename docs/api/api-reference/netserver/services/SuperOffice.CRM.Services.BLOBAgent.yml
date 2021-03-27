@@ -1,0 +1,3800 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.BLOBAgent
+  commentId: T:SuperOffice.CRM.Services.BLOBAgent
+  id: BLOBAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.BLOBAgent.#ctor
+  - SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity
+  - SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetAppData(System.String)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetBlobStream(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetContactImage(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetPersonImage(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetProductImage(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetProjectImage(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage(System.Int32)
+  - SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  - SuperOffice.CRM.Services.BLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  - SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+  - SuperOffice.CRM.Services.BLOBAgent.SetAppData(System.String,System.String)
+  - SuperOffice.CRM.Services.BLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+  - SuperOffice.CRM.Services.BLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+  - SuperOffice.CRM.Services.BLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  - SuperOffice.CRM.Services.BLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+  - SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+  - SuperOffice.CRM.Services.BLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  langs:
+  - csharp
+  - vb
+  name: BLOBAgent
+  nameWithType: BLOBAgent
+  fullName: SuperOffice.CRM.Services.BLOBAgent
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nFacade for the BLOB Agent\nCollection of all services that works with binary objects (BLOBS), e.g. Images and documents.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (BLOBAgent agent = new BLOBAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: 'public class BLOBAgent : AgentBase<IBLOBAgent>, IDisposable, IBLOBAgent, IAgent'
+    content.vb: >-
+      Public Class BLOBAgent
+          Inherits AgentBase(Of IBLOBAgent)
+          Implements IDisposable, IBLOBAgent, IAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}
+  implements:
+  - System.IDisposable
+  - SuperOffice.CRM.Services.IBLOBAgent
+  - SuperOffice.CRM.Services.IAgent
+  inheritedMembers:
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}.Dispose
+  - SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}.InnerAgent
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity
+  id: CreateDefaultBlobEntity
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultBlobEntity()
+  nameWithType: BLOBAgent.CreateDefaultBlobEntity()
+  fullName: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new BlobEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: public BlobEntity CreateDefaultBlobEntity()
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: New BlobEntity with default values
+    content.vb: Public Function CreateDefaultBlobEntity As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  id: SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveBlobEntity(BlobEntity)
+  nameWithType: BLOBAgent.SaveBlobEntity(BlobEntity)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty\n"
+  syntax:
+    content: public BlobEntity SaveBlobEntity(BlobEntity blobEntity)
+    parameters:
+    - id: blobEntity
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: The BlobEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: New or updated BlobEntity
+    content.vb: Public Function SaveBlobEntity(blobEntity As BlobEntity) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity(System.Int32)
+  id: DeleteBlobEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteBlobEntity(Int32)
+  nameWithType: BLOBAgent.DeleteBlobEntity(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the BlobEntity\n"
+  syntax:
+    content: public void DeleteBlobEntity(int blobEntityId)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: The identity of the BlobEntity
+    content.vb: Public Sub DeleteBlobEntity(blobEntityId As Integer)
+  overload: SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity(System.Int32)
+  id: GetBlobEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntity(Int32)
+  nameWithType: BLOBAgent.GetBlobEntity(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a BlobEntity object.                        \n"
+  syntax:
+    content: public BlobEntity GetBlobEntity(int blobEntityId)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: The identifier of the BlobEntity object
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: BlobEntity
+    content.vb: Public Function GetBlobEntity(blobEntityId As Integer) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+  id: SetBlobStream(System.Int32,System.IO.Stream)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetBlobStream(Int32, Stream)
+  nameWithType: BLOBAgent.SetBlobStream(Int32, Stream)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetBlobStream(System.Int32, System.IO.Stream)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStore a binary object from it&apos;s stream\n"
+  syntax:
+    content: public void SetBlobStream(int blobEntityId, Stream stream)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: Id of the BLOB entity object that the binary data should be stored to.
+    - id: stream
+      type: System.IO.Stream
+      description: The binary object as a Stream
+    content.vb: Public Sub SetBlobStream(blobEntityId As Integer, stream As Stream)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetBlobStream*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobStream(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobStream(System.Int32)
+  id: GetBlobStream(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobStream(Int32)
+  nameWithType: BLOBAgent.GetBlobStream(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobStream(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the binary object as a stream\n"
+  syntax:
+    content: public Stream GetBlobStream(int blobEntityId)
+    parameters:
+    - id: blobEntityId
+      type: System.Int32
+      description: The ID of the BLOB entity object that refers to the binary data
+    return:
+      type: System.IO.Stream
+      description: The binary object as a Stream
+    content.vb: Public Function GetBlobStream(blobEntityId As Integer) As Stream
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobStream*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProjectImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetProjectImage(System.Int32)
+  id: GetProjectImage(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImage(Int32)
+  nameWithType: BLOBAgent.GetProjectImage(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProjectImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: public Image GetProjectImage(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetProjectImage(projectId As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetProjectImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetPersonImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetPersonImage(System.Int32)
+  id: GetPersonImage(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImage(Int32)
+  nameWithType: BLOBAgent.GetPersonImage(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetPersonImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: public Image GetPersonImage(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetPersonImage(personId As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetPersonImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  id: SetProjectImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProjectImage(Int32, Image)
+  nameWithType: BLOBAgent.SetProjectImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetProjectImage(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: public void SetProjectImage(int projectId, Image image)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the project (System.Drawing.Image)
+    content.vb: Public Sub SetProjectImage(projectId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetProjectImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  id: SetPersonImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetPersonImage(Int32, Image)
+  nameWithType: BLOBAgent.SetPersonImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetPersonImage(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the person image that is displayed in the CRM application.\n"
+  syntax:
+    content: public void SetPersonImage(int personId, Image image)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the person (System.Drawing.Image)
+    content.vb: Public Sub SetPersonImage(personId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetPersonImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  id: ChangeProjectImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeProjectImage(Int32, Int32)
+  nameWithType: BLOBAgent.ChangeProjectImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChanges the project image link. If the Binary object id is 0, any image link is removed from the project.\n"
+  syntax:
+    content: public void ChangeProjectImage(int projectId, int blobId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the project.
+    content.vb: Public Sub ChangeProjectImage(projectId As Integer, blobId As Integer)
+  overload: SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+  id: SaveProjectImage(System.String,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectImage(String, Image)
+  nameWithType: BLOBAgent.SaveProjectImage(String, Image)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage(System.String, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves a project image that is displayed in the CRM application&apos;s project image selection dialog to the database.\n"
+  syntax:
+    content: public void SaveProjectImage(string description, Image image)
+    parameters:
+    - id: description
+      type: System.String
+      description: Image description. Should be image name (e.g. winter.jpg) for project images
+    - id: image
+      type: System.Drawing.Image
+      description: The project image (System.Drawing.Image)
+    content.vb: Public Sub SaveProjectImage(description As String, image As Image)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject(System.Int32)
+  id: GetBlobEntityOnProject(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnProject(Int32)
+  nameWithType: BLOBAgent.GetBlobEntityOnProject(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the blob entity that represents the project image binary object.\n"
+  syntax:
+    content: public BlobEntity GetBlobEntityOnProject(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: BlobEntity object
+    content.vb: Public Function GetBlobEntityOnProject(projectId As Integer) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  id: GetBlobEntityOnPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnPerson(Int32)
+  nameWithType: BLOBAgent.GetBlobEntityOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the blob entity that represents the person image binary object.\n"
+  syntax:
+    content: public BlobEntity GetBlobEntityOnPerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: BlobEntity object
+    content.vb: Public Function GetBlobEntityOnPerson(personId As Integer) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  id: GetBlobEntityOnCountry(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnCountry(Int32)
+  nameWithType: BLOBAgent.GetBlobEntityOnCountry(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the blob entity that represents the country flag binary object.\n"
+  syntax:
+    content: public BlobEntity GetBlobEntityOnCountry(int countryId)
+    parameters:
+    - id: countryId
+      type: System.Int32
+      description: The country id
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: BlobEntity object
+    content.vb: Public Function GetBlobEntityOnCountry(countryId As Integer) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  id: GetBlobEntityOnProduct(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnProduct(Int32)
+  nameWithType: BLOBAgent.GetBlobEntityOnProduct(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the blob entity that represents the product image binary object.\n"
+  syntax:
+    content: public BlobEntity GetBlobEntityOnProduct(int productId)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: BlobEntity object
+    content.vb: Public Function GetBlobEntityOnProduct(productId As Integer) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+  id: ChangePersonImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangePersonImage(Int32, Int32)
+  nameWithType: BLOBAgent.ChangePersonImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public void ChangePersonImage(int personId, int blobId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the person.
+    content.vb: Public Sub ChangePersonImage(personId As Integer, blobId As Integer)
+  overload: SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  id: SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveImageStream(BlobLinkType, Image, String)
+  nameWithType: BLOBAgent.SaveImageStream(BlobLinkType, Image, String)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType, System.Drawing.Image, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores an image in the database without linking it to a project or a person. It is possible to ChangePersonImage or ChangeProjectImage to attach image later.\n"
+  syntax:
+    content: public int SaveImageStream(BlobLinkType type, Image image, string description)
+    parameters:
+    - id: type
+      type: SuperOffice.Data.BlobLinkType
+      description: The type of the image.
+    - id: image
+      type: System.Drawing.Image
+      description: Image to store
+    - id: description
+      type: System.String
+      description: Image description
+    return:
+      type: System.Int32
+      description: The blob id
+    content.vb: Public Function SaveImageStream(type As BlobLinkType, image As Image, description As String) As Integer
+  overload: SuperOffice.CRM.Services.BLOBAgent.SaveImageStream*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProductImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetProductImage(System.Int32)
+  id: GetProductImage(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProductImage(Int32)
+  nameWithType: BLOBAgent.GetProductImage(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProductImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the product image (rank=1) that is displayed in the CRM application.\n"
+  syntax:
+    content: public Image GetProductImage(int productId)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetProductImage(productId As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetProductImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+  id: SetProductImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProductImage(Int32, Image)
+  nameWithType: BLOBAgent.SetProductImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetProductImage(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the product image that is displayed in the CRM application. The image is scaled down to max 1000x1000. This method operates only the main (rank=1) image; future extensions may support multiple images. A thumbnail of size 75x75 is also automatically set.\n"
+  syntax:
+    content: public void SetProductImage(int productId, Image image)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the product (System.Drawing.Image), scaled down to no more than 1000x1000
+    content.vb: Public Sub SetProductImage(productId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetProductImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail(System.Int32)
+  id: GetProductThumbnail(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProductThumbnail(Int32)
+  nameWithType: BLOBAgent.GetProductThumbnail(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the product thumbnail that is displayed in the CRM application.\n"
+  syntax:
+    content: public Image GetProductThumbnail(int productId)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the thumbnail belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The thumbnail as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetProductThumbnail(productId As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+  id: SetProductThumbnail(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProductThumbnail(Int32, Image)
+  nameWithType: BLOBAgent.SetProductThumbnail(Int32, Image)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the product thumbnail that is displayed in the CRM application. The image is scaled down to max 200x200 pixels.\n"
+  syntax:
+    content: public void SetProductThumbnail(int productId, Image image)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product id of the product the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the product (System.Drawing.Image); scaled down to no more than 200x200
+    content.vb: Public Sub SetProductThumbnail(productId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+  id: ChangeProductImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeProductImage(Int32, Int32)
+  nameWithType: BLOBAgent.ChangeProductImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: public void ChangeProductImage(int productId, int blobId)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The product the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the product.
+    content.vb: Public Sub ChangeProductImage(productId As Integer, blobId As Integer)
+  overload: SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage(System.Int32)
+  id: GetQuoteLineImage(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetQuoteLineImage(Int32)
+  nameWithType: BLOBAgent.GetQuoteLineImage(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the quoteline image (rank=1) that is displayed in the CRM application.\n"
+  syntax:
+    content: public Image GetQuoteLineImage(int quoteLineId)
+    parameters:
+    - id: quoteLineId
+      type: System.Int32
+      description: The product id of the quoteline the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetQuoteLineImage(quoteLineId As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetAppData(System.String)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetAppData(System.String)
+  id: GetAppData(System.String)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAppData(String)
+  nameWithType: BLOBAgent.GetAppData(String)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetAppData(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any\n"
+  syntax:
+    content: public string GetAppData(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key string, less than 200 characters. Must be unique within each application.
+    return:
+      type: System.String
+      description: The applications value, suggested to be a JSON, XML or other readable structure
+    content.vb: Public Function GetAppData(key As String) As String
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetAppData*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetAppData(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetAppData(System.String,System.String)
+  id: SetAppData(System.String,System.String)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetAppData(String, String)
+  nameWithType: BLOBAgent.SetAppData(String, String)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetAppData(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a CLOB (limited to a reasonable size by the mechanics of Web Services) according to a string key; ALSO limits to the current ApplicationToken if any. Existing data, if any, will be overwritten. Overwrite with a blank value to delete.\n"
+  syntax:
+    content: public void SetAppData(string key, string data)
+    parameters:
+    - id: key
+      type: System.String
+      description: The key string, less than 200 characters. Must be unique within each application.
+    - id: data
+      type: System.String
+      description: The applications value, suggested to be a JSON, XML or other readable structure
+    content.vb: Public Sub SetAppData(key As String, data As String)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetAppData*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  id: GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPersonImageWithSize(Int32, Int32, Int32)
+  nameWithType: BLOBAgent.GetPersonImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the person image that is displayed in the CRM application with a specified maximum size.\n"
+  syntax:
+    content: public Image GetPersonImageWithSize(int personId, int width, int height)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id of the person the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Public Function GetPersonImageWithSize(personId As Integer, width As Integer, height As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  id: GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImageWithSize(Int32, Int32, Int32)
+  nameWithType: BLOBAgent.GetProjectImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the project image that is displayed in the CRM application with a specified maximum size.\n"
+  syntax:
+    content: public Image GetProjectImageWithSize(int projectId, int width, int height)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Public Function GetProjectImageWithSize(projectId As Integer, width As Integer, height As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  id: GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetChatImageWithSize(Int32, Int32, Int32)
+  nameWithType: BLOBAgent.GetChatImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the chat image that is displayed in chat with a specified maximum size.\n"
+  syntax:
+    content: public Image GetChatImageWithSize(int chatTopicId, int width, int height)
+    parameters:
+    - id: chatTopicId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Public Function GetChatImageWithSize(chatTopicId As Integer, width As Integer, height As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetContactImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetContactImage(System.Int32)
+  id: GetContactImage(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactImage(Int32)
+  nameWithType: BLOBAgent.GetContactImage(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetContactImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the contact image that is displayed in the CRM application.\n"
+  syntax:
+    content: public Image GetContactImage(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the contact the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Public Function GetContactImage(contactId As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetContactImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+  id: SetContactImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: SetContactImage(Int32, Image)
+  nameWithType: BLOBAgent.SetContactImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetContactImage(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the contact image that is displayed in the CRM application.\n"
+  syntax:
+    content: public void SetContactImage(int contactId, Image image)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the contact the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the contact (System.Drawing.Image)
+    content.vb: Public Sub SetContactImage(contactId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.BLOBAgent.SetContactImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+  id: ChangeContactImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: ChangeContactImage(Int32, Int32)
+  nameWithType: BLOBAgent.ChangeContactImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChanges the contact image link. If the Binary object id is 0, any image link is removed from the contact.\n"
+  syntax:
+    content: public void ChangeContactImage(int contactId, int blobId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The Contact the image is linked to
+    - id: blobId
+      type: System.Int32
+      description: The Binary object id. If the Binary object id is 0, any image link is removed from the Contact.
+    content.vb: Public Sub ChangeContactImage(contactId As Integer, blobId As Integer)
+  overload: SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact(System.Int32)
+  id: GetBlobEntityOnContact(System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBlobEntityOnContact(Int32)
+  nameWithType: BLOBAgent.GetBlobEntityOnContact(Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets the blob entity that represents the contact image binary object.\n"
+  syntax:
+    content: public BlobEntity GetBlobEntityOnContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The Contact id
+    return:
+      type: SuperOffice.CRM.Services.BlobEntity
+      description: BlobEntity object
+    content.vb: Public Function GetBlobEntityOnContact(contactId As Integer) As BlobEntity
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  id: GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: GetContactImageWithSize(Int32, Int32, Int32)
+  nameWithType: BLOBAgent.GetContactImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize(System.Int32, System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the contact image that is displayed in the CRM application with a specified maximum size.\n"
+  syntax:
+    content: public Image GetContactImageWithSize(int contactId, int width, int height)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id of the Contact the image belongs to.
+    - id: width
+      type: System.Int32
+      description: The maximum with of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    - id: height
+      type: System.Int32
+      description: The maximum height of the returned image. Specify &lt;= 0 to preserve aspect ratio of existing image
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a jpeg/base64 encoded string.)
+    content.vb: Public Function GetContactImageWithSize(contactId As Integer, width As Integer, height As Integer) As Image
+  overload: SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize*
+  implements:
+  - SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.BLOBAgent.#ctor
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.BLOBAgent
+  langs:
+  - csharp
+  - vb
+  name: BLOBAgent()
+  nameWithType: BLOBAgent.BLOBAgent()
+  fullName: SuperOffice.CRM.Services.BLOBAgent.BLOBAgent()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  syntax:
+    content: public BLOBAgent()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.BLOBAgent.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}
+  commentId: T:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}
+  parent: SuperOffice.CRM.Services
+  definition: SuperOffice.CRM.Services.AgentBase`1
+  name: AgentBase<IBLOBAgent>
+  nameWithType: AgentBase<IBLOBAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBLOBAgent>
+  nameWithType.vb: AgentBase(Of IBLOBAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBLOBAgent)
+  name.vb: AgentBase(Of IBLOBAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.IBLOBAgent
+    name: IBLOBAgent
+    nameWithType: IBLOBAgent
+    fullName: SuperOffice.CRM.Services.IBLOBAgent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.IBLOBAgent
+    name: IBLOBAgent
+    nameWithType: IBLOBAgent
+    fullName: SuperOffice.CRM.Services.IBLOBAgent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: SuperOffice.CRM.Services.IBLOBAgent
+  commentId: T:SuperOffice.CRM.Services.IBLOBAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IBLOBAgent
+  nameWithType: IBLOBAgent
+  fullName: SuperOffice.CRM.Services.IBLOBAgent
+- uid: SuperOffice.CRM.Services.IAgent
+  commentId: T:SuperOffice.CRM.Services.IAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IAgent
+  nameWithType: IAgent
+  fullName: SuperOffice.CRM.Services.IAgent
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}.Dispose
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  name: Dispose()
+  nameWithType: AgentBase<IBLOBAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBLOBAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of IBLOBAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBLOBAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<IBLOBAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBLOBAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of IBLOBAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBLOBAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}.InnerAgent
+  parent: SuperOffice.CRM.Services.AgentBase{SuperOffice.CRM.Services.IBLOBAgent}
+  definition: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  name: InnerAgent
+  nameWithType: AgentBase<IBLOBAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<SuperOffice.CRM.Services.IBLOBAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of IBLOBAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of SuperOffice.CRM.Services.IBLOBAgent).InnerAgent
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.AgentBase`1
+  commentId: T:SuperOffice.CRM.Services.AgentBase`1
+  isExternal: true
+  name: AgentBase<TAgent>
+  nameWithType: AgentBase<TAgent>
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>
+  nameWithType.vb: AgentBase(Of TAgent)
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent)
+  name.vb: AgentBase(Of TAgent)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1
+    name: AgentBase
+    nameWithType: AgentBase
+    fullName: SuperOffice.CRM.Services.AgentBase
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TAgent
+    nameWithType: TAgent
+    fullName: TAgent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+  commentId: M:SuperOffice.CRM.Services.AgentBase`1.Dispose
+  isExternal: true
+  name: Dispose()
+  nameWithType: AgentBase<TAgent>.Dispose()
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose()
+  nameWithType.vb: AgentBase(Of TAgent).Dispose()
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase<TAgent>.Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.AgentBase`1.Dispose
+    name: Dispose
+    nameWithType: AgentBase(Of TAgent).Dispose
+    fullName: SuperOffice.CRM.Services.AgentBase(Of TAgent).Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  commentId: P:SuperOffice.CRM.Services.AgentBase`1.InnerAgent
+  isExternal: true
+  name: InnerAgent
+  nameWithType: AgentBase<TAgent>.InnerAgent
+  fullName: SuperOffice.CRM.Services.AgentBase<TAgent>.InnerAgent
+  nameWithType.vb: AgentBase(Of TAgent).InnerAgent
+  fullName.vb: SuperOffice.CRM.Services.AgentBase(Of TAgent).InnerAgent
+- uid: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity
+  isExternal: true
+  name: CreateDefaultBlobEntity
+  nameWithType: BLOBAgent.CreateDefaultBlobEntity
+  fullName: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntity
+- uid: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: CreateDefaultBlobEntity()
+  nameWithType: IBLOBAgent.CreateDefaultBlobEntity()
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+    name: CreateDefaultBlobEntity
+    nameWithType: IBLOBAgent.CreateDefaultBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+    name: CreateDefaultBlobEntity
+    nameWithType: IBLOBAgent.CreateDefaultBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.CreateDefaultBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BlobEntity
+  commentId: T:SuperOffice.CRM.Services.BlobEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: BlobEntity
+  nameWithType: BlobEntity
+  fullName: SuperOffice.CRM.Services.BlobEntity
+- uid: SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity
+  isExternal: true
+  name: SaveBlobEntity
+  nameWithType: BLOBAgent.SaveBlobEntity
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SaveBlobEntity
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SaveBlobEntity(BlobEntity)
+  nameWithType: IBLOBAgent.SaveBlobEntity(BlobEntity)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+    name: SaveBlobEntity
+    nameWithType: IBLOBAgent.SaveBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.BlobEntity
+    name: BlobEntity
+    nameWithType: BlobEntity
+    fullName: SuperOffice.CRM.Services.BlobEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity(SuperOffice.CRM.Services.BlobEntity)
+    name: SaveBlobEntity
+    nameWithType: IBLOBAgent.SaveBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Services.BlobEntity
+    name: BlobEntity
+    nameWithType: BlobEntity
+    fullName: SuperOffice.CRM.Services.BlobEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity
+  isExternal: true
+  name: DeleteBlobEntity
+  nameWithType: BLOBAgent.DeleteBlobEntity
+  fullName: SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntity
+- uid: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: DeleteBlobEntity(Int32)
+  nameWithType: IBLOBAgent.DeleteBlobEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
+    name: DeleteBlobEntity
+    nameWithType: IBLOBAgent.DeleteBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity(System.Int32)
+    name: DeleteBlobEntity
+    nameWithType: IBLOBAgent.DeleteBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity
+  isExternal: true
+  name: GetBlobEntity
+  nameWithType: BLOBAgent.GetBlobEntity
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntity
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntity(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
+    name: GetBlobEntity
+    nameWithType: IBLOBAgent.GetBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity(System.Int32)
+    name: GetBlobEntity
+    nameWithType: IBLOBAgent.GetBlobEntity
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntity
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetBlobStream*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetBlobStream
+  isExternal: true
+  name: SetBlobStream
+  nameWithType: BLOBAgent.SetBlobStream
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetBlobStream
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetBlobStream(Int32, Stream)
+  nameWithType: IBLOBAgent.SetBlobStream(Int32, Stream)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32, System.IO.Stream)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+    name: SetBlobStream
+    nameWithType: IBLOBAgent.SetBlobStream
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream(System.Int32,System.IO.Stream)
+    name: SetBlobStream
+    nameWithType: IBLOBAgent.SetBlobStream
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetBlobStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobStream*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobStream
+  isExternal: true
+  name: GetBlobStream
+  nameWithType: BLOBAgent.GetBlobStream
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobStream
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobStream(Int32)
+  nameWithType: IBLOBAgent.GetBlobStream(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
+    name: GetBlobStream
+    nameWithType: IBLOBAgent.GetBlobStream
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream(System.Int32)
+    name: GetBlobStream
+    nameWithType: IBLOBAgent.GetBlobStream
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetProjectImage
+  isExternal: true
+  name: GetProjectImage
+  nameWithType: BLOBAgent.GetProjectImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProjectImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetProjectImage(Int32)
+  nameWithType: IBLOBAgent.GetProjectImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
+    name: GetProjectImage
+    nameWithType: IBLOBAgent.GetProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage(System.Int32)
+    name: GetProjectImage
+    nameWithType: IBLOBAgent.GetProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Drawing.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetPersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetPersonImage
+  isExternal: true
+  name: GetPersonImage
+  nameWithType: BLOBAgent.GetPersonImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetPersonImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetPersonImage(Int32)
+  nameWithType: IBLOBAgent.GetPersonImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
+    name: GetPersonImage
+    nameWithType: IBLOBAgent.GetPersonImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage(System.Int32)
+    name: GetPersonImage
+    nameWithType: IBLOBAgent.GetPersonImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetProjectImage
+  isExternal: true
+  name: SetProjectImage
+  nameWithType: BLOBAgent.SetProjectImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetProjectImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetProjectImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetProjectImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32, System.Drawing.Image)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+    name: SetProjectImage
+    nameWithType: IBLOBAgent.SetProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+    name: SetProjectImage
+    nameWithType: IBLOBAgent.SetProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetPersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetPersonImage
+  isExternal: true
+  name: SetPersonImage
+  nameWithType: BLOBAgent.SetPersonImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetPersonImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetPersonImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetPersonImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32, System.Drawing.Image)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+    name: SetPersonImage
+    nameWithType: IBLOBAgent.SetPersonImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage(System.Int32,System.Drawing.Image)
+    name: SetPersonImage
+    nameWithType: IBLOBAgent.SetPersonImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetPersonImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage
+  isExternal: true
+  name: ChangeProjectImage
+  nameWithType: BLOBAgent.ChangeProjectImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangeProjectImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: ChangeProjectImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangeProjectImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+    name: ChangeProjectImage
+    nameWithType: IBLOBAgent.ChangeProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage(System.Int32,System.Int32)
+    name: ChangeProjectImage
+    nameWithType: IBLOBAgent.ChangeProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage
+  isExternal: true
+  name: SaveProjectImage
+  nameWithType: BLOBAgent.SaveProjectImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SaveProjectImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SaveProjectImage(String, Image)
+  nameWithType: IBLOBAgent.SaveProjectImage(String, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String, System.Drawing.Image)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+    name: SaveProjectImage
+    nameWithType: IBLOBAgent.SaveProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage(System.String,System.Drawing.Image)
+    name: SaveProjectImage
+    nameWithType: IBLOBAgent.SaveProjectImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveProjectImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject
+  isExternal: true
+  name: GetBlobEntityOnProject
+  nameWithType: BLOBAgent.GetBlobEntityOnProject
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProject
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnProject(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProject(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
+    name: GetBlobEntityOnProject
+    nameWithType: IBLOBAgent.GetBlobEntityOnProject
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject(System.Int32)
+    name: GetBlobEntityOnProject
+    nameWithType: IBLOBAgent.GetBlobEntityOnProject
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProject
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson
+  isExternal: true
+  name: GetBlobEntityOnPerson
+  nameWithType: BLOBAgent.GetBlobEntityOnPerson
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnPerson
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnPerson(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
+    name: GetBlobEntityOnPerson
+    nameWithType: IBLOBAgent.GetBlobEntityOnPerson
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson(System.Int32)
+    name: GetBlobEntityOnPerson
+    nameWithType: IBLOBAgent.GetBlobEntityOnPerson
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnPerson
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry
+  isExternal: true
+  name: GetBlobEntityOnCountry
+  nameWithType: BLOBAgent.GetBlobEntityOnCountry
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnCountry
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnCountry(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnCountry(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
+    name: GetBlobEntityOnCountry
+    nameWithType: IBLOBAgent.GetBlobEntityOnCountry
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry(System.Int32)
+    name: GetBlobEntityOnCountry
+    nameWithType: IBLOBAgent.GetBlobEntityOnCountry
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnCountry
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct
+  isExternal: true
+  name: GetBlobEntityOnProduct
+  nameWithType: BLOBAgent.GetBlobEntityOnProduct
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnProduct
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnProduct(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnProduct(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
+    name: GetBlobEntityOnProduct
+    nameWithType: IBLOBAgent.GetBlobEntityOnProduct
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct(System.Int32)
+    name: GetBlobEntityOnProduct
+    nameWithType: IBLOBAgent.GetBlobEntityOnProduct
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnProduct
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage
+  isExternal: true
+  name: ChangePersonImage
+  nameWithType: BLOBAgent.ChangePersonImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangePersonImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: ChangePersonImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangePersonImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+    name: ChangePersonImage
+    nameWithType: IBLOBAgent.ChangePersonImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage(System.Int32,System.Int32)
+    name: ChangePersonImage
+    nameWithType: IBLOBAgent.ChangePersonImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangePersonImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SaveImageStream*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SaveImageStream
+  isExternal: true
+  name: SaveImageStream
+  nameWithType: BLOBAgent.SaveImageStream
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SaveImageStream
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SaveImageStream(BlobLinkType, Image, String)
+  nameWithType: IBLOBAgent.SaveImageStream(BlobLinkType, Image, String)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType, System.Drawing.Image, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+    name: SaveImageStream
+    nameWithType: IBLOBAgent.SaveImageStream
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.BlobLinkType
+    name: BlobLinkType
+    nameWithType: BlobLinkType
+    fullName: SuperOffice.Data.BlobLinkType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream(SuperOffice.Data.BlobLinkType,System.Drawing.Image,System.String)
+    name: SaveImageStream
+    nameWithType: IBLOBAgent.SaveImageStream
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SaveImageStream
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.BlobLinkType
+    name: BlobLinkType
+    nameWithType: BlobLinkType
+    fullName: SuperOffice.Data.BlobLinkType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.BlobLinkType
+  isExternal: true
+  name: BlobLinkType
+  nameWithType: BlobLinkType
+  fullName: SuperOffice.Data.BlobLinkType
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProductImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetProductImage
+  isExternal: true
+  name: GetProductImage
+  nameWithType: BLOBAgent.GetProductImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProductImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetProductImage(Int32)
+  nameWithType: IBLOBAgent.GetProductImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
+    name: GetProductImage
+    nameWithType: IBLOBAgent.GetProductImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage(System.Int32)
+    name: GetProductImage
+    nameWithType: IBLOBAgent.GetProductImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetProductImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetProductImage
+  isExternal: true
+  name: SetProductImage
+  nameWithType: BLOBAgent.SetProductImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetProductImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetProductImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetProductImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32, System.Drawing.Image)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+    name: SetProductImage
+    nameWithType: IBLOBAgent.SetProductImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage(System.Int32,System.Drawing.Image)
+    name: SetProductImage
+    nameWithType: IBLOBAgent.SetProductImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail
+  isExternal: true
+  name: GetProductThumbnail
+  nameWithType: BLOBAgent.GetProductThumbnail
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProductThumbnail
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetProductThumbnail(Int32)
+  nameWithType: IBLOBAgent.GetProductThumbnail(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
+    name: GetProductThumbnail
+    nameWithType: IBLOBAgent.GetProductThumbnail
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail(System.Int32)
+    name: GetProductThumbnail
+    nameWithType: IBLOBAgent.GetProductThumbnail
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProductThumbnail
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail
+  isExternal: true
+  name: SetProductThumbnail
+  nameWithType: BLOBAgent.SetProductThumbnail
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetProductThumbnail
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetProductThumbnail(Int32, Image)
+  nameWithType: IBLOBAgent.SetProductThumbnail(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32, System.Drawing.Image)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+    name: SetProductThumbnail
+    nameWithType: IBLOBAgent.SetProductThumbnail
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail(System.Int32,System.Drawing.Image)
+    name: SetProductThumbnail
+    nameWithType: IBLOBAgent.SetProductThumbnail
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetProductThumbnail
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage
+  isExternal: true
+  name: ChangeProductImage
+  nameWithType: BLOBAgent.ChangeProductImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangeProductImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: ChangeProductImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangeProductImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+    name: ChangeProductImage
+    nameWithType: IBLOBAgent.ChangeProductImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage(System.Int32,System.Int32)
+    name: ChangeProductImage
+    nameWithType: IBLOBAgent.ChangeProductImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeProductImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage
+  isExternal: true
+  name: GetQuoteLineImage
+  nameWithType: BLOBAgent.GetQuoteLineImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetQuoteLineImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetQuoteLineImage(Int32)
+  nameWithType: IBLOBAgent.GetQuoteLineImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
+    name: GetQuoteLineImage
+    nameWithType: IBLOBAgent.GetQuoteLineImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage(System.Int32)
+    name: GetQuoteLineImage
+    nameWithType: IBLOBAgent.GetQuoteLineImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetQuoteLineImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetAppData*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetAppData
+  isExternal: true
+  name: GetAppData
+  nameWithType: BLOBAgent.GetAppData
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetAppData
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetAppData(String)
+  nameWithType: IBLOBAgent.GetAppData(String)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
+    name: GetAppData
+    nameWithType: IBLOBAgent.GetAppData
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetAppData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetAppData(System.String)
+    name: GetAppData
+    nameWithType: IBLOBAgent.GetAppData
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetAppData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetAppData*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetAppData
+  isExternal: true
+  name: SetAppData
+  nameWithType: BLOBAgent.SetAppData
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetAppData
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetAppData(String, String)
+  nameWithType: IBLOBAgent.SetAppData(String, String)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
+    name: SetAppData
+    nameWithType: IBLOBAgent.SetAppData
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetAppData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetAppData(System.String,System.String)
+    name: SetAppData
+    nameWithType: IBLOBAgent.SetAppData
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetAppData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize
+  isExternal: true
+  name: GetPersonImageWithSize
+  nameWithType: BLOBAgent.GetPersonImageWithSize
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetPersonImageWithSize
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetPersonImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetPersonImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetPersonImageWithSize
+    nameWithType: IBLOBAgent.GetPersonImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetPersonImageWithSize
+    nameWithType: IBLOBAgent.GetPersonImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetPersonImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize
+  isExternal: true
+  name: GetProjectImageWithSize
+  nameWithType: BLOBAgent.GetProjectImageWithSize
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetProjectImageWithSize
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetProjectImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetProjectImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetProjectImageWithSize
+    nameWithType: IBLOBAgent.GetProjectImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetProjectImageWithSize
+    nameWithType: IBLOBAgent.GetProjectImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetProjectImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize
+  isExternal: true
+  name: GetChatImageWithSize
+  nameWithType: BLOBAgent.GetChatImageWithSize
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetChatImageWithSize
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetChatImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetChatImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetChatImageWithSize
+    nameWithType: IBLOBAgent.GetChatImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetChatImageWithSize
+    nameWithType: IBLOBAgent.GetChatImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetChatImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetContactImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetContactImage
+  isExternal: true
+  name: GetContactImage
+  nameWithType: BLOBAgent.GetContactImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetContactImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetContactImage(Int32)
+  nameWithType: IBLOBAgent.GetContactImage(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
+    name: GetContactImage
+    nameWithType: IBLOBAgent.GetContactImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage(System.Int32)
+    name: GetContactImage
+    nameWithType: IBLOBAgent.GetContactImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.SetContactImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.SetContactImage
+  isExternal: true
+  name: SetContactImage
+  nameWithType: BLOBAgent.SetContactImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.SetContactImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: SetContactImage(Int32, Image)
+  nameWithType: IBLOBAgent.SetContactImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32, System.Drawing.Image)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+    name: SetContactImage
+    nameWithType: IBLOBAgent.SetContactImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage(System.Int32,System.Drawing.Image)
+    name: SetContactImage
+    nameWithType: IBLOBAgent.SetContactImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.SetContactImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Drawing.Image
+    name: Image
+    nameWithType: Image
+    fullName: System.Drawing.Image
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage
+  isExternal: true
+  name: ChangeContactImage
+  nameWithType: BLOBAgent.ChangeContactImage
+  fullName: SuperOffice.CRM.Services.BLOBAgent.ChangeContactImage
+- uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: ChangeContactImage(Int32, Int32)
+  nameWithType: IBLOBAgent.ChangeContactImage(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+    name: ChangeContactImage
+    nameWithType: IBLOBAgent.ChangeContactImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage(System.Int32,System.Int32)
+    name: ChangeContactImage
+    nameWithType: IBLOBAgent.ChangeContactImage
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.ChangeContactImage
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact
+  isExternal: true
+  name: GetBlobEntityOnContact
+  nameWithType: BLOBAgent.GetBlobEntityOnContact
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityOnContact
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetBlobEntityOnContact(Int32)
+  nameWithType: IBLOBAgent.GetBlobEntityOnContact(Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
+    name: GetBlobEntityOnContact
+    nameWithType: IBLOBAgent.GetBlobEntityOnContact
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact(System.Int32)
+    name: GetBlobEntityOnContact
+    nameWithType: IBLOBAgent.GetBlobEntityOnContact
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityOnContact
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize
+  isExternal: true
+  name: GetContactImageWithSize
+  nameWithType: BLOBAgent.GetContactImageWithSize
+  fullName: SuperOffice.CRM.Services.BLOBAgent.GetContactImageWithSize
+- uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IBLOBAgent
+  isExternal: true
+  name: GetContactImageWithSize(Int32, Int32, Int32)
+  nameWithType: IBLOBAgent.GetContactImageWithSize(Int32, Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32, System.Int32, System.Int32)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetContactImageWithSize
+    nameWithType: IBLOBAgent.GetContactImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize(System.Int32,System.Int32,System.Int32)
+    name: GetContactImageWithSize
+    nameWithType: IBLOBAgent.GetContactImageWithSize
+    fullName: SuperOffice.CRM.Services.IBLOBAgent.GetContactImageWithSize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Services.BLOBAgent.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.#ctor
+  isExternal: true
+  name: BLOBAgent
+  nameWithType: BLOBAgent.BLOBAgent
+  fullName: SuperOffice.CRM.Services.BLOBAgent.BLOBAgent

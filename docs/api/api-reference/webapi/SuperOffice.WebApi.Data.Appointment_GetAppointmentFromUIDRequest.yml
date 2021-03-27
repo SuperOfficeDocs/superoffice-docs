@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest
+  commentId: T:SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest
+  id: Appointment_GetAppointmentFromUIDRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.#ctor
+  - SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentFromUIDRequest
+  nameWithType: Appointment_GetAppointmentFromUIDRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Appointment_GetAppointmentFromUIDRequest : Object'
+    content.vb: >-
+      Public Class Appointment_GetAppointmentFromUIDRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest
+  langs:
+  - csharp
+  - vb
+  name: Appointment_GetAppointmentFromUIDRequest()
+  nameWithType: Appointment_GetAppointmentFromUIDRequest.Appointment_GetAppointmentFromUIDRequest()
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.Appointment_GetAppointmentFromUIDRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Appointment_GetAppointmentFromUIDRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID
+  commentId: P:SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID
+  id: UID
+  parent: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest
+  langs:
+  - csharp
+  - vb
+  name: UID
+  nameWithType: Appointment_GetAppointmentFromUIDRequest.UID
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string UID { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UID As String
+  overload: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.#ctor
+  isExternal: true
+  name: Appointment_GetAppointmentFromUIDRequest
+  nameWithType: Appointment_GetAppointmentFromUIDRequest.Appointment_GetAppointmentFromUIDRequest
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.Appointment_GetAppointmentFromUIDRequest
+- uid: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID
+  isExternal: true
+  name: UID
+  nameWithType: Appointment_GetAppointmentFromUIDRequest.UID
+  fullName: SuperOffice.WebApi.Data.Appointment_GetAppointmentFromUIDRequest.UID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

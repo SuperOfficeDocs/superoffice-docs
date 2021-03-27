@@ -1,0 +1,1228 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  id: RecurrenceRuleRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.#ctor
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicDay
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicMonth
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicWeek
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EndDate
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Pattern
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RecurrenceRuleId
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Registered
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.StartDate
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SubPattern
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Updated
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedCount
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Weekdays
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleRecordData
+  nameWithType: RecurrenceRuleRecordData
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the RecurrenceRule table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.RecurrenceRuleRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.RecurrenceRuleTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class RecurrenceRuleRecordData
+    content.vb: Public Class RecurrenceRuleRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RecurrenceRuleId
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RecurrenceRuleId
+  id: RecurrenceRuleId
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleId
+  nameWithType: RecurrenceRuleRecordData.RecurrenceRuleId
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RecurrenceRuleId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int RecurrenceRuleId
+    return:
+      type: System.Int32
+    content.vb: Public RecurrenceRuleId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Pattern
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Pattern
+  id: Pattern
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Pattern
+  nameWithType: RecurrenceRuleRecordData.Pattern
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Pattern
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRecurrence pattern (daily, weekly etc) \n"
+  syntax:
+    content: public RecurrencePattern Pattern
+    return:
+      type: SuperOffice.Data.RecurrencePattern
+    content.vb: Public Pattern As RecurrencePattern
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SubPattern
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SubPattern
+  id: SubPattern
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: SubPattern
+  nameWithType: RecurrenceRuleRecordData.SubPattern
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SubPattern
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSubpattern (workday, everyday, weekday etc) \n"
+  syntax:
+    content: public short SubPattern
+    return:
+      type: System.Int16
+    content.vb: Public SubPattern As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Weekdays
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Weekdays
+  id: Weekdays
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Weekdays
+  nameWithType: RecurrenceRuleRecordData.Weekdays
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Weekdays
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWeekdays used, bitmask based on  ERecurrenceWeekDays enumeration \n"
+  syntax:
+    content: public short Weekdays
+    return:
+      type: System.Int16
+    content.vb: Public Weekdays As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.StartDate
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: RecurrenceRuleRecordData.StartDate
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.StartDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nStart date for repetition pattern \n"
+  syntax:
+    content: public DateTime StartDate
+    return:
+      type: System.DateTime
+    content.vb: Public StartDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EndDate
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EndDate
+  id: EndDate
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: RecurrenceRuleRecordData.EndDate
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EndDate
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEnd date for repetition pattern \n"
+  syntax:
+    content: public DateTime EndDate
+    return:
+      type: System.DateTime
+    content.vb: Public EndDate As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicDay
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicDay
+  id: CyclicDay
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: CyclicDay
+  nameWithType: RecurrenceRuleRecordData.CyclicDay
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicDay
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvery nth day, in cyclic patterns \n"
+  syntax:
+    content: public short CyclicDay
+    return:
+      type: System.Int16
+    content.vb: Public CyclicDay As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicWeek
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicWeek
+  id: CyclicWeek
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: CyclicWeek
+  nameWithType: RecurrenceRuleRecordData.CyclicWeek
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicWeek
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvery nth week, in cyclic patterns \n"
+  syntax:
+    content: public short CyclicWeek
+    return:
+      type: System.Int16
+    content.vb: Public CyclicWeek As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicMonth
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicMonth
+  id: CyclicMonth
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: CyclicMonth
+  nameWithType: RecurrenceRuleRecordData.CyclicMonth
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.CyclicMonth
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvery nth month, in cyclic patterns \n"
+  syntax:
+    content: public short CyclicMonth
+    return:
+      type: System.Int16
+    content.vb: Public CyclicMonth As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: RecurrenceRuleRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: RecurrenceRuleRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: RecurrenceRuleRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated when in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: RecurrenceRuleRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nLast updated by whom \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: RecurrenceRuleRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of updates made to this record \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceRuleRecordData()
+  nameWithType: RecurrenceRuleRecordData.RecurrenceRuleRecordData()
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RecurrenceRuleRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public RecurrenceRuleRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<RecurrenceRuleRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<RecurrenceRuleRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of RecurrenceRuleRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To)()
+  name.vb: MapEnums(Of RecurrenceRuleRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<RecurrenceRuleRecordData, To>
+    nameWithType: EnumUtil.MapEnums<RecurrenceRuleRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of RecurrenceRuleRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of RecurrenceRuleRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<RecurrenceRuleRecordData>(RecurrenceRuleRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<RecurrenceRuleRecordData>(RecurrenceRuleRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of RecurrenceRuleRecordData)(RecurrenceRuleRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  name.vb: AssignByReflection(Of RecurrenceRuleRecordData)(RecurrenceRuleRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<RecurrenceRuleRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<RecurrenceRuleRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    name: RecurrenceRuleRecordData
+    nameWithType: RecurrenceRuleRecordData
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of RecurrenceRuleRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of RecurrenceRuleRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    name: RecurrenceRuleRecordData
+    nameWithType: RecurrenceRuleRecordData
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<RecurrenceRuleRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<RecurrenceRuleRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of RecurrenceRuleRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)()
+  name.vb: GraphCopy(Of RecurrenceRuleRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<RecurrenceRuleRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<RecurrenceRuleRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.RecurrenceRuleRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of RecurrenceRuleRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of RecurrenceRuleRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  parent: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  name: ToInsert()
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<RecurrenceRuleRecordData, To>()
+  nameWithType: Converters.MapEnums<RecurrenceRuleRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of RecurrenceRuleRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To)()
+  name.vb: MapEnums(Of RecurrenceRuleRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<RecurrenceRuleRecordData, To>
+    nameWithType: Converters.MapEnums<RecurrenceRuleRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of RecurrenceRuleRecordData, To)
+    nameWithType: Converters.MapEnums(Of RecurrenceRuleRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.RecurrenceRuleRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  commentId: M:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  isExternal: true
+  name: ToInsert(RecurrenceRuleRecordData)
+  nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert(RecurrenceRuleRecordData)
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+    name: ToInsert
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    name: RecurrenceRuleRecordData
+    nameWithType: RecurrenceRuleRecordData
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.RecurrenceRuleRecordData)
+    name: ToInsert
+    nameWithType: RecurrenceRuleRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    name: RecurrenceRuleRecordData
+    nameWithType: RecurrenceRuleRecordData
+    fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: RecurrenceRuleRecordDataExtensions
+  nameWithType: RecurrenceRuleRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.RecurrencePattern
+  commentId: T:SuperOffice.Data.RecurrencePattern
+  parent: SuperOffice.Data
+  isExternal: true
+  name: RecurrencePattern
+  nameWithType: RecurrencePattern
+  fullName: SuperOffice.Data.RecurrencePattern
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.RecurrenceRuleRecordData.#ctor
+  isExternal: true
+  name: RecurrenceRuleRecordData
+  nameWithType: RecurrenceRuleRecordData.RecurrenceRuleRecordData
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.RecurrenceRuleRecordData

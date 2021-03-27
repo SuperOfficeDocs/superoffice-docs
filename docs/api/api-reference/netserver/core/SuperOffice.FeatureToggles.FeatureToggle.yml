@@ -1,0 +1,394 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.FeatureToggles.FeatureToggle
+  commentId: T:SuperOffice.FeatureToggles.FeatureToggle
+  id: FeatureToggle
+  parent: SuperOffice.FeatureToggles
+  children:
+  - SuperOffice.FeatureToggles.FeatureToggle.IsOn``1
+  langs:
+  - csharp
+  - vb
+  name: FeatureToggle
+  nameWithType: FeatureToggle
+  fullName: SuperOffice.FeatureToggles.FeatureToggle
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.FeatureToggles
+  summary: "\nUse this class to ask for the current value of a Feature Toggle, by calling the <xref href=\"SuperOffice.FeatureToggles.FeatureToggle.IsOn%60%601\" data-throw-if-not-resolved=\"false\"></xref> method\n"
+  syntax:
+    content: public static class FeatureToggle
+    content.vb: Public Module FeatureToggle
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.FeatureToggles.FeatureToggle.IsOn``1
+  commentId: M:SuperOffice.FeatureToggles.FeatureToggle.IsOn``1
+  id: IsOn``1
+  parent: SuperOffice.FeatureToggles.FeatureToggle
+  langs:
+  - csharp
+  - vb
+  name: IsOn<TConcreteToggle>()
+  nameWithType: FeatureToggle.IsOn<TConcreteToggle>()
+  fullName: SuperOffice.FeatureToggles.FeatureToggle.IsOn<TConcreteToggle>()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.FeatureToggles
+  summary: "\nDetermine if a feature toggle is on or off, right now, right here\n"
+  remarks: "\nTypical code:\n<pre><code>if (FeatureToggle.IsOn>NewPricelist&lt;())\n{\n	// exciting new code\n}\nelse\n{\n	// whatever we did before, which is the safe option\n}</code></pre>\nThe type passed in as a parameter to IsOn must be an implementation of <xref href=\"SuperOffice.FeatureToggles.IFeatureToggle\" data-throw-if-not-resolved=\"false\"></xref>,\nand God help you if it has not been defined in the global feature toggle assembly in the\n&quot;Common&quot; kind-of-branch, submitted for build, and updated through NuGet.<br />\nThat, and that only, is the correct way of defining Feature Toggles.<br />\nThe actual value is here determined via the <xref href=\"SuperOffice.Configuration.ConfigFile\" data-throw-if-not-resolved=\"false\"></xref>, which opens the \npossibility for overrides via Online/OC. For plain vanilla setting in your web.config or app.config,\ndo as follows: Add the following to your config file in the declaration section:\n<pre><code><sectionGroup name=\"FeatureToggles\">\n<section name=\"State\" type=\"System.Configuration.NameValueSectionHandler, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089\"></section>\n</sectionGroup></code></pre>\n<br />Then, in the part of the file where values live (for example, after the Factory\nsection):\n<pre><code><FeatureToggles>\n<State>\n<add key=\"NewPricelist\" value=\"True\"></add>\n</State>\n</FeatureToggles></code></pre>\n\n"
+  syntax:
+    content: >-
+      public static bool IsOn<TConcreteToggle>()
+          where TConcreteToggle : IFeatureToggle, new()
+    typeParameters:
+    - id: TConcreteToggle
+      description: Actual toggle class from the SuperOffice.FeatureToggles assembly
+    return:
+      type: System.Boolean
+      description: true if on, false if off or unknown
+    content.vb: Public Shared Function IsOn(Of TConcreteToggle As {IFeatureToggle, New}) As Boolean
+  overload: SuperOffice.FeatureToggles.FeatureToggle.IsOn*
+  nameWithType.vb: FeatureToggle.IsOn(Of TConcreteToggle)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.FeatureToggles.FeatureToggle.IsOn(Of TConcreteToggle)()
+  name.vb: IsOn(Of TConcreteToggle)()
+references:
+- uid: SuperOffice.FeatureToggles
+  commentId: N:SuperOffice.FeatureToggles
+  isExternal: true
+  name: SuperOffice.FeatureToggles
+  nameWithType: SuperOffice.FeatureToggles
+  fullName: SuperOffice.FeatureToggles
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.FeatureToggles.FeatureToggle.IsOn*
+  commentId: Overload:SuperOffice.FeatureToggles.FeatureToggle.IsOn
+  isExternal: true
+  name: IsOn
+  nameWithType: FeatureToggle.IsOn
+  fullName: SuperOffice.FeatureToggles.FeatureToggle.IsOn
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

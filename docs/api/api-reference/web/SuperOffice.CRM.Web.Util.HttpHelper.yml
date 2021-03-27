@@ -1,0 +1,809 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Util.HttpHelper
+  commentId: T:SuperOffice.CRM.Web.Util.HttpHelper
+  id: HttpHelper
+  parent: SuperOffice.CRM.Web.Util
+  children:
+  - SuperOffice.CRM.Web.Util.HttpHelper.#ctor
+  - SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken
+  - SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  - SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin
+  - SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken(System.String)
+  langs:
+  - csharp
+  - vb
+  name: HttpHelper
+  nameWithType: HttpHelper
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public class HttpHelper
+    content.vb: Public Class HttpHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  id: GetResponseAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetResponseAsync(String, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetResponseAsync(String, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync(System.String, SuperOffice.CRM.Web.Util.HttpHelper.RequestType, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static Task<HttpResponseMessage> GetResponseAsync(string url, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
+    parameters:
+    - id: url
+      type: System.String
+    - id: requestType
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+    - id: object
+      type: System.Object
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Public Shared Function GetResponseAsync(url As String, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of HttpResponseMessage)
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  id: GetResponseBodyAsync(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetResponseBodyAsync(String, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetResponseBodyAsync(String, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync(System.String, SuperOffice.CRM.Web.Util.HttpHelper.RequestType, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static Task<string> GetResponseBodyAsync(string url, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
+    parameters:
+    - id: url
+      type: System.String
+    - id: requestType
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+    - id: object
+      type: System.Object
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Public Shared Function GetResponseBodyAsync(url As String, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of String)
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp``1(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  id: GetObjectFromHttp``1(System.String,SuperOffice.CRM.Web.Util.HttpHelper.RequestType,System.Object)
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GetObjectFromHttp<T>(String, HttpHelper.RequestType, Object)
+  nameWithType: HttpHelper.GetObjectFromHttp<T>(String, HttpHelper.RequestType, Object)
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp<T>(System.String, SuperOffice.CRM.Web.Util.HttpHelper.RequestType, System.Object)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static Task<T> GetObjectFromHttp<T>(string url, HttpHelper.RequestType requestType = HttpHelper.RequestType.GET, object object = null)
+    parameters:
+    - id: url
+      type: System.String
+    - id: requestType
+      type: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+    - id: object
+      type: System.Object
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Public Shared Function GetObjectFromHttp(Of T)(url As String, requestType As HttpHelper.RequestType = HttpHelper.RequestType.GET, object As Object = Nothing) As Task(Of T)
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp*
+  nameWithType.vb: HttpHelper.GetObjectFromHttp(Of T)(String, HttpHelper.RequestType, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp(Of T)(System.String, SuperOffice.CRM.Web.Util.HttpHelper.RequestType, System.Object)
+  name.vb: GetObjectFromHttp(Of T)(String, HttpHelper.RequestType, Object)
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken
+  id: GenerateToken
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: GenerateToken()
+  nameWithType: HttpHelper.GenerateToken()
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static string GenerateToken()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GenerateToken As String
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken(System.String)
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken(System.String)
+  id: ValidateCurrentToken(System.String)
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: ValidateCurrentToken(String)
+  nameWithType: HttpHelper.ValidateCurrentToken(String)
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool ValidateCurrentToken(string token)
+    parameters:
+    - id: token
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ValidateCurrentToken(token As String) As Boolean
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin
+  id: IsAdmin
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: IsAdmin()
+  nameWithType: HttpHelper.IsAdmin()
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public static bool IsAdmin()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsAdmin As Boolean
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.#ctor
+  commentId: M:SuperOffice.CRM.Web.Util.HttpHelper.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.Util.HttpHelper
+  langs:
+  - csharp
+  - vb
+  name: HttpHelper()
+  nameWithType: HttpHelper.HttpHelper()
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.HttpHelper()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Util
+  syntax:
+    content: public HttpHelper()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.Util.HttpHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Web.Util
+  commentId: N:SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Util
+  nameWithType: SuperOffice.CRM.Web.Util
+  fullName: SuperOffice.CRM.Web.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync
+  isExternal: true
+  name: GetResponseAsync
+  nameWithType: HttpHelper.GetResponseAsync
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  commentId: T:SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+  parent: SuperOffice.CRM.Web.Util
+  isExternal: true
+  name: HttpHelper.RequestType
+  nameWithType: HttpHelper.RequestType
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.RequestType
+- uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  commentId: T:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<HttpResponseMessage>
+  nameWithType: Task<HttpResponseMessage>
+  fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+  nameWithType.vb: Task(Of HttpResponseMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)
+  name.vb: Task(Of HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync
+  isExternal: true
+  name: GetResponseBodyAsync
+  nameWithType: HttpHelper.GetResponseBodyAsync
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GetResponseBodyAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<String>
+  nameWithType: Task<String>
+  fullName: System.Threading.Tasks.Task<System.String>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of System.String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp
+  isExternal: true
+  name: GetObjectFromHttp
+  nameWithType: HttpHelper.GetObjectFromHttp
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GetObjectFromHttp
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: T:System.Threading.Tasks.Task{``0}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken
+  isExternal: true
+  name: GenerateToken
+  nameWithType: HttpHelper.GenerateToken
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.GenerateToken
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken
+  isExternal: true
+  name: ValidateCurrentToken
+  nameWithType: HttpHelper.ValidateCurrentToken
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.ValidateCurrentToken
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin
+  isExternal: true
+  name: IsAdmin
+  nameWithType: HttpHelper.IsAdmin
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.IsAdmin
+- uid: SuperOffice.CRM.Web.Util.HttpHelper.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.Util.HttpHelper.#ctor
+  isExternal: true
+  name: HttpHelper
+  nameWithType: HttpHelper.HttpHelper
+  fullName: SuperOffice.CRM.Web.Util.HttpHelper.HttpHelper

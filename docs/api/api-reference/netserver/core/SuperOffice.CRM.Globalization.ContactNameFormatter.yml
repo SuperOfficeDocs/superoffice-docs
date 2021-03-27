@@ -1,0 +1,498 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Globalization.ContactNameFormatter
+  commentId: T:SuperOffice.CRM.Globalization.ContactNameFormatter
+  id: ContactNameFormatter
+  parent: SuperOffice.CRM.Globalization
+  children:
+  - SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Entities.Contact)
+  - SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Rows.ContactRow)
+  - SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ContactNameFormatter
+  nameWithType: ContactNameFormatter
+  fullName: SuperOffice.CRM.Globalization.ContactNameFormatter
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nUtility for formatting the name of a contact.\n"
+  syntax:
+    content: public static class ContactNameFormatter
+    content.vb: Public Module ContactNameFormatter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Entities.Contact)
+  commentId: M:SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Entities.Contact)
+  id: GetFullName(SuperOffice.CRM.Entities.Contact)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.ContactNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(Contact)
+  nameWithType: ContactNameFormatter.GetFullName(Contact)
+  fullName: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Entities.Contact)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet full name for a contact.\n"
+  syntax:
+    content: public static string GetFullName(this Contact entity)
+    parameters:
+    - id: entity
+      type: SuperOffice.CRM.Entities.Contact
+      description: Entity representing the contact.
+    return:
+      type: System.String
+      description: Full name for a contact.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFullName(entity As Contact) As String
+  overload: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Rows.ContactRow)
+  commentId: M:SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Rows.ContactRow)
+  id: GetFullName(SuperOffice.CRM.Rows.ContactRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Globalization.ContactNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(ContactRow)
+  nameWithType: ContactNameFormatter.GetFullName(ContactRow)
+  fullName: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(SuperOffice.CRM.Rows.ContactRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet full name for a contact.\n"
+  syntax:
+    content: public static string GetFullName(this ContactRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.ContactRow
+      description: Roe representing the contact.
+    return:
+      type: System.String
+      description: Full name for a contact.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFullName(row As ContactRow) As String
+  overload: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(System.String,System.String)
+  id: GetFullName(System.String,System.String)
+  parent: SuperOffice.CRM.Globalization.ContactNameFormatter
+  langs:
+  - csharp
+  - vb
+  name: GetFullName(String, String)
+  nameWithType: ContactNameFormatter.GetFullName(String, String)
+  fullName: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName(System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Globalization
+  summary: "\nGet full name for a contact.\n"
+  syntax:
+    content: public static string GetFullName(string name, string department)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the contact.
+    - id: department
+      type: System.String
+      description: Department of the contact.
+    return:
+      type: System.String
+      description: Full name for a contact.
+    content.vb: Public Shared Function GetFullName(name As String, department As String) As String
+  overload: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Globalization
+  commentId: N:SuperOffice.CRM.Globalization
+  isExternal: true
+  name: SuperOffice.CRM.Globalization
+  nameWithType: SuperOffice.CRM.Globalization
+  fullName: SuperOffice.CRM.Globalization
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName*
+  commentId: Overload:SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName
+  isExternal: true
+  name: GetFullName
+  nameWithType: ContactNameFormatter.GetFullName
+  fullName: SuperOffice.CRM.Globalization.ContactNameFormatter.GetFullName
+- uid: SuperOffice.CRM.Entities.Contact
+  commentId: T:SuperOffice.CRM.Entities.Contact
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  name: Contact
+  nameWithType: Contact
+  fullName: SuperOffice.CRM.Entities.Contact
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+- uid: SuperOffice.CRM.Rows.ContactRow
+  commentId: T:SuperOffice.CRM.Rows.ContactRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: ContactRow
+  nameWithType: ContactRow
+  fullName: SuperOffice.CRM.Rows.ContactRow
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows

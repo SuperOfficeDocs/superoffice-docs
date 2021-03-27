@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity
+  commentId: T:SuperOffice.CRM.Services.TicketCategoryEntity
+  id: TicketCategoryEntity
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.TicketCategoryEntity.#ctor
+  - SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag
+  - SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
+  - SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+  - SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
+  - SuperOffice.CRM.Services.TicketCategoryEntity.Flags
+  - SuperOffice.CRM.Services.TicketCategoryEntity.Fullname
+  - SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus
+  - SuperOffice.CRM.Services.TicketCategoryEntity.Name
+  - SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ParentId
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate
+  - SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ToString
+  - SuperOffice.CRM.Services.TicketCategoryEntity.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryEntity
+  nameWithType: TicketCategoryEntity
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThis entity describes the meta data for a ticket category, and provides special operations on it.\n<p></p>\nCarrier object for TicketCategoryEntity.\nServices for the TicketCategoryEntity Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IListAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example:
+  - "\nGet TicketCategoryEntity 123 using the agent:\n<pre><code> using SuperOffice;\n using SuperOffice.CRM.Services;\n\n using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n {\n    var agent = new ListAgent();\n    var ticketCategoryEntity = agent.GetTicketCategoryEntity( 123 );\n }</code></pre>\n"
+  syntax:
+    content: 'public class TicketCategoryEntity : Carrier, IExtraFieldCarrier'
+    content.vb: >-
+      Public Class TicketCategoryEntity
+          Inherits Carrier
+          Implements IExtraFieldCarrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ListAgent
+    commentId: T:SuperOffice.CRM.Services.ListAgent
+  - linkId: SuperOffice.CRM.Services.IListAgent
+    commentId: T:SuperOffice.CRM.Services.IListAgent
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.#ctor
+  commentId: M:SuperOffice.CRM.Services.TicketCategoryEntity.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryEntity()
+  nameWithType: TicketCategoryEntity.TicketCategoryEntity()
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryEntity()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public TicketCategoryEntity()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ToString
+  commentId: M:SuperOffice.CRM.Services.TicketCategoryEntity.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: TicketCategoryEntity.ToString()
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.TicketCategoryEntity.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: TicketCategoryEntity.ToString(String)
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
+  id: TicketCategoryId
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryId
+  nameWithType: TicketCategoryEntity.TicketCategoryId
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe id of the ticket category. (primary key) \n"
+  syntax:
+    content: public virtual int TicketCategoryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketCategoryId As Integer
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ParentId
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.ParentId
+  id: ParentId
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ParentId
+  nameWithType: TicketCategoryEntity.ParentId
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ParentId
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe parent category for this category. -1 if this is a toplevel category. \n"
+  syntax:
+    content: public virtual int ParentId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ParentId As Integer
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ParentId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.Name
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.Name
+  id: Name
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TicketCategoryEntity.Name
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.Name
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe (short) name of this category. E.g. &amp;apos;support&amp;apos;. \n"
+  syntax:
+    content: public virtual string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Name As String
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.Name*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.Fullname
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.Fullname
+  id: Fullname
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: Fullname
+  nameWithType: TicketCategoryEntity.Fullname
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.Fullname
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe fullname (compiled from parents&amp;apos; names) for this category. E.g. &amp;apos;norway/product A/support&amp;apos;. \n"
+  syntax:
+    content: public virtual string Fullname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Fullname As String
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.Fullname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
+  id: CategoryMaster
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: CategoryMaster
+  nameWithType: TicketCategoryEntity.CategoryMaster
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe user associated with this category. \n"
+  syntax:
+    content: public virtual int CategoryMaster { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CategoryMaster As Integer
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.Flags
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.Flags
+  id: Flags
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TicketCategoryEntity.Flags
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.Flags
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nA bitmask representing flags for this category. \n"
+  syntax:
+    content: public virtual TicketCategoryFlags Flags { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketCategoryFlags
+    content.vb: Public Overridable Property Flags As TicketCategoryFlags
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.Flags*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+  id: DelegateMethod
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: DelegateMethod
+  nameWithType: TicketCategoryEntity.DelegateMethod
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn integer indicating the delegation method for this category. \n"
+  syntax:
+    content: public virtual TicketCategoryDelegateMethod DelegateMethod { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketCategoryDelegateMethod
+    content.vb: Public Overridable Property DelegateMethod As TicketCategoryDelegateMethod
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
+  id: ExternalName
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ExternalName
+  nameWithType: TicketCategoryEntity.ExternalName
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe external name for this category, used for the customer frontend. \n"
+  syntax:
+    content: public virtual string ExternalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ExternalName As String
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
+  id: ClosingStatus
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ClosingStatus
+  nameWithType: TicketCategoryEntity.ClosingStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn integer indicating if new requests should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. \n"
+  syntax:
+    content: public virtual TicketCategoryClosingStatus ClosingStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketCategoryClosingStatus
+    content.vb: Public Overridable Property ClosingStatus As TicketCategoryClosingStatus
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus
+  id: MsgClosingStatus
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: MsgClosingStatus
+  nameWithType: TicketCategoryEntity.MsgClosingStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn integer indicating if new messages should have the &amp;apos;close request&amp;apos; in this category checked as default, or if the users preferences should be selected. \n"
+  syntax:
+    content: public virtual TicketCategoryClosingStatus MsgClosingStatus { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.TicketCategoryClosingStatus
+    content.vb: Public Overridable Property MsgClosingStatus As TicketCategoryClosingStatus
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag
+  id: AssignmentLag
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: AssignmentLag
+  nameWithType: TicketCategoryEntity.AssignmentLag
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNumber of minutes we shall override the assignment if a customer sends consecutive messages to this category \n"
+  syntax:
+    content: public virtual int AssignmentLag { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssignmentLag As Integer
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate
+  id: ReplyTemplate
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ReplyTemplate
+  nameWithType: TicketCategoryEntity.ReplyTemplate
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReply template to merge with messages posted in this category \n"
+  syntax:
+    content: public virtual int ReplyTemplate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ReplyTemplate As Integer
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+  id: NotificationEmail
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: NotificationEmail
+  nameWithType: TicketCategoryEntity.NotificationEmail
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nComma separated list of addresses to notify when requests are redelegated to (unassigned) in this category. \n"
+  syntax:
+    content: public virtual string NotificationEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property NotificationEmail As String
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: TicketCategoryEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeprecated: Use <xref href=\"SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields\" data-throw-if-not-resolved=\"false\"></xref> instead.\nExtra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Plug-in data</td><td>\n	[Plug-in name].[Property name]\n	Example: DocumentPlugin.DocumentType\n</td></tr><tr><td>Foreign key data</td><td>\nThe device identity is appended directly to the device name if it exists. \n   This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, \n   and hence we would ensure an unique key if this field is used.\n   Example: Audience.SecretService.DefaultCountry\n</td></tr><tr><td>User defined table data</td><td>\n[Table name].[Field name]\nExample: Phunneling.AggregatedSales\n</td></tr><tr><td>Other</td><td>\nOther data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. \nWe also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property ExtraFields As StringDictionary
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+  commentId: P:SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.Services.TicketCategoryEntity
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: TicketCategoryEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUdef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.\nCustom fields combines user defined fields and extra fields into one bucket. \nThe individual <xref href=\"SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields\" data-throw-if-not-resolved=\"false\"></xref> and <see cref=\"!:UserDefinedFields\">UserDefinedFields</see> properties are deprecated in favor of this\ncombined collection.\n"
+  remarks: "\nThe naming convention of the key string is as follows:\n<table><tbody><tr><td>Extra field data</td><td>\n	[Extra field name]<p></p>\n	Example: <pre><code>&apos;x_gorp&apos; = &apos;[I:123]&apos;</code></pre>\n</td></tr><tr><td>User defined field data</td><td>\n[Prog-id name]<p></p>\n   Example: <pre><code>&apos;SuperOffice:1&apos; = &apos;[I:123]&apos;</code></pre><p></p>\n</td></tr></tbody></table>\n"
+  syntax:
+    content: public StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: Public Property CustomFields As StringDictionary
+  overload: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IExtraFieldCarrier
+  nameWithType: IExtraFieldCarrier
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
+- uid: SuperOffice.CRM.Services.ListAgent
+  commentId: T:SuperOffice.CRM.Services.ListAgent
+  isExternal: true
+  name: ListAgent
+  nameWithType: ListAgent
+  fullName: SuperOffice.CRM.Services.ListAgent
+- uid: SuperOffice.CRM.Services.IListAgent
+  commentId: T:SuperOffice.CRM.Services.IListAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IListAgent
+  nameWithType: IListAgent
+  fullName: SuperOffice.CRM.Services.IListAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.#ctor
+  isExternal: true
+  name: TicketCategoryEntity
+  nameWithType: TicketCategoryEntity.TicketCategoryEntity
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryEntity
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: TicketCategoryEntity.ToString
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
+  isExternal: true
+  name: TicketCategoryId
+  nameWithType: TicketCategoryEntity.TicketCategoryId
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.TicketCategoryId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ParentId*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ParentId
+  isExternal: true
+  name: ParentId
+  nameWithType: TicketCategoryEntity.ParentId
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ParentId
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.Name*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: TicketCategoryEntity.Name
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.Name
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.Fullname*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.Fullname
+  isExternal: true
+  name: Fullname
+  nameWithType: TicketCategoryEntity.Fullname
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.Fullname
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
+  isExternal: true
+  name: CategoryMaster
+  nameWithType: TicketCategoryEntity.CategoryMaster
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.CategoryMaster
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.Flags*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.Flags
+  isExternal: true
+  name: Flags
+  nameWithType: TicketCategoryEntity.Flags
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.Flags
+- uid: SuperOffice.Data.TicketCategoryFlags
+  commentId: '!:SuperOffice.Data.TicketCategoryFlags'
+  isExternal: true
+  name: TicketCategoryFlags
+  nameWithType: TicketCategoryFlags
+  fullName: SuperOffice.Data.TicketCategoryFlags
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+  isExternal: true
+  name: DelegateMethod
+  nameWithType: TicketCategoryEntity.DelegateMethod
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.DelegateMethod
+- uid: SuperOffice.Data.TicketCategoryDelegateMethod
+  commentId: '!:SuperOffice.Data.TicketCategoryDelegateMethod'
+  isExternal: true
+  name: TicketCategoryDelegateMethod
+  nameWithType: TicketCategoryDelegateMethod
+  fullName: SuperOffice.Data.TicketCategoryDelegateMethod
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
+  isExternal: true
+  name: ExternalName
+  nameWithType: TicketCategoryEntity.ExternalName
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ExternalName
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
+  isExternal: true
+  name: ClosingStatus
+  nameWithType: TicketCategoryEntity.ClosingStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ClosingStatus
+- uid: SuperOffice.Data.TicketCategoryClosingStatus
+  isExternal: true
+  name: TicketCategoryClosingStatus
+  nameWithType: TicketCategoryClosingStatus
+  fullName: SuperOffice.Data.TicketCategoryClosingStatus
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus
+  isExternal: true
+  name: MsgClosingStatus
+  nameWithType: TicketCategoryEntity.MsgClosingStatus
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.MsgClosingStatus
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag
+  isExternal: true
+  name: AssignmentLag
+  nameWithType: TicketCategoryEntity.AssignmentLag
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.AssignmentLag
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate
+  isExternal: true
+  name: ReplyTemplate
+  nameWithType: TicketCategoryEntity.ReplyTemplate
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ReplyTemplate
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+  isExternal: true
+  name: NotificationEmail
+  nameWithType: TicketCategoryEntity.NotificationEmail
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.NotificationEmail
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
+  isExternal: true
+  name: ExtraFields
+  nameWithType: TicketCategoryEntity.ExtraFields
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.ExtraFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  name: ExtraFields
+  nameWithType: IExtraFieldCarrier.ExtraFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields*
+  commentId: Overload:SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields
+  isExternal: true
+  name: CustomFields
+  nameWithType: TicketCategoryEntity.CustomFields
+  fullName: SuperOffice.CRM.Services.TicketCategoryEntity.CustomFields

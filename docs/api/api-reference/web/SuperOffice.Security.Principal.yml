@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  id: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.RequestIdentityLogonTokenSupplier
+  langs:
+  - csharp
+  - vb
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+  type: Namespace
+  assemblies:
+  - SuperOffice.DCFWeb
+references:
+- uid: SuperOffice.Security.Principal.RequestIdentityLogonTokenSupplier
+  commentId: T:SuperOffice.Security.Principal.RequestIdentityLogonTokenSupplier
+  isExternal: true
+  name: RequestIdentityLogonTokenSupplier
+  nameWithType: RequestIdentityLogonTokenSupplier
+  fullName: SuperOffice.Security.Principal.RequestIdentityLogonTokenSupplier

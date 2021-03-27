@@ -1,0 +1,2627 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Mail
+  id: UserPreferenceStrings.Mail
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.AddressSeparator
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveAppointments
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveDocuments
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveForwards
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveReplies
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsg
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveToAssocs
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.AttachiCal
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.BookingAssociatesSubList
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.CheckForDuplicates
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.CloseAfterArchive
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ConfirmDeleteMail
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.CreateExtUserSubject
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.CreateUpdateAppointmentsInSO
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultDocSender
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultFaxSender
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultIncomingEmailTypeID
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultMailSender
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultOutgoingEmailTypeID
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DeleteAfterArchive
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.DiarySynchronizerActive
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.EnableMailSync
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.FirstMailSync
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.FontColor
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.FontSize
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.FontType
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.HidePreview
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerName
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerPort
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.Inbox
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.IncomingInvitationHandling
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.IsEmailInstalled
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.IsFaxInstalled
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.LargeAttachmentWarningTreshold
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayDisplayName
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayMailAddress
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MailSmtpAuthorize
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MailSyncTimer
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadInPreview
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadWhenOpen
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.MoveDeletedToDeletedItems
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NameDeleted
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NameDrafts
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NameInbox
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NameSent
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NotesEmailTemplatesDeployed
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyAssociateByMail
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyExtPersonByMail
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyOnlineUsers
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyWhenNewMail
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.OnlyOneAssociate
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.OutgoingInvitationIncludeRsvp
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.RemoveAfterArchive
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SaveLogonInfo
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SaveSentInSentItems
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.Section
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxPrefix
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxProtocol
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowConfirmationDialog
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.ShowInlineImages
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerName
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPass
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPort
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerUser
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SoAppointmentArchivedExecuteCommand
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.SoDocumentArchivedExecuteCommand
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.Timeout
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.UseMapiReaderAnyway
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBody
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBodyReplyForward
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoProtocolIntegration
+  - SuperOffice.CRM.UserPreferenceStrings.Mail.WarnAboutLargeAttachments
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.Mail
+  nameWithType: UserPreferenceStrings.Mail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nE-mail synchronisation\n"
+  syntax:
+    content: public static class Mail
+    content.vb: Public Module Mail
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.Mail.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "Mail"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "Mail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
+  id: EmailBounceThreshold
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: EmailBounceThreshold
+  nameWithType: UserPreferenceStrings.Mail.EmailBounceThreshold
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.EmailBounceThreshold
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTreshold for the bounce count for eamils.\n"
+  syntax:
+    content: public const string EmailBounceThreshold = "EmailBounceThreshold"
+    return:
+      type: System.String
+    content.vb: Public Const EmailBounceThreshold As String = "EmailBounceThreshold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.AddressSeparator
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.AddressSeparator
+  id: AddressSeparator
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: AddressSeparator
+  nameWithType: UserPreferenceStrings.Mail.AddressSeparator
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.AddressSeparator
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUse this character to delimit e-mail addresses. (Default: &apos;;&apos;).\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string AddressSeparator = "AddressSeparator"
+    return:
+      type: System.String
+    content.vb: Public Const AddressSeparator As String = "AddressSeparator"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveAppointments
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveAppointments
+  id: ArchiveAppointments
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveAppointments
+  nameWithType: UserPreferenceStrings.Mail.ArchiveAppointments
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveAppointments
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving appointments you send from SuperOffice CRM by e-mail. This means that, by default, you will be asked if you want to archive all appointments sent by e-mail from CRM.web.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveAppointments = "ArchiveAppointments"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveAppointments As String = "ArchiveAppointments"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowConfirmationDialog
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ShowConfirmationDialog
+  id: ShowConfirmationDialog
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ShowConfirmationDialog
+  nameWithType: UserPreferenceStrings.Mail.ShowConfirmationDialog
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowConfirmationDialog
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways show archiving dialog before archiving emails, even when there are no notifications or issues which requires a end-user&apos;s attention in order to complete the process.\nIf false, basically archive silently whenever possible.\n"
+  syntax:
+    content: public const string ShowConfirmationDialog = "ShowConfirmationDialog"
+    return:
+      type: System.String
+    content.vb: Public Const ShowConfirmationDialog As String = "ShowConfirmationDialog"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveDocuments
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveDocuments
+  id: ArchiveDocuments
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveDocuments
+  nameWithType: UserPreferenceStrings.Mail.ArchiveDocuments
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveDocuments
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving documents you send from SuperOffice CRM by e-mail. This means that, by default, you will be asked if you want to archive all documents sent by e-mail from CRM.web.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveDocuments = "ArchiveDocuments"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveDocuments As String = "ArchiveDocuments"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveForwards
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveForwards
+  id: ArchiveForwards
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveForwards
+  nameWithType: UserPreferenceStrings.Mail.ArchiveForwards
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveForwards
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving e-mail forwarded from SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you forward from CRM.web. \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveForwards = "ArchiveForwards"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveForwards As String = "ArchiveForwards"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveReplies
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveReplies
+  id: ArchiveReplies
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveReplies
+  nameWithType: UserPreferenceStrings.Mail.ArchiveReplies
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveReplies
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving replies to e-mails that are archived in SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you reply to from CRM.web. \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveReplies = "ArchiveReplies"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveReplies As String = "ArchiveReplies"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsg
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsg
+  id: ArchiveSentMsg
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveSentMsg
+  nameWithType: UserPreferenceStrings.Mail.ArchiveSentMsg
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsg
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving e-mail created in SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail you create in CRM.web. \n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveSentMsg = "ArchiveSentMsg"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveSentMsg As String = "ArchiveSentMsg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
+  id: ArchiveSentMsgFromMailClient
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveSentMsgFromMailClient
+  nameWithType: UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveSentMsgFromMailClient
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving e-mail created in a non-SuperOffice MailClient (Notes/Outlook). This means that, by default, you will be asked if you want to archive all e-mail you create in Outlook and Notes. \nDefault: false\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveSentMsgFromMailClient = "ArchiveSentMsgFromMailClient"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveSentMsgFromMailClient As String = "ArchiveSentMsgFromMailClient"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveToAssocs
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveToAssocs
+  id: ArchiveToAssocs
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ArchiveToAssocs
+  nameWithType: UserPreferenceStrings.Mail.ArchiveToAssocs
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ArchiveToAssocs
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAlways proposes archiving e-mail written internally to your associates using SuperOffice CRM. This means that, by default, you will be asked if you want to archive all e-mail sent to associates from CRM.web.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ArchiveToAssocs = "ArchiveToAssocs"
+    return:
+      type: System.String
+    content.vb: Public Const ArchiveToAssocs As String = "ArchiveToAssocs"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.AttachiCal
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.AttachiCal
+  id: AttachiCal
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: AttachiCal
+  nameWithType: UserPreferenceStrings.Mail.AttachiCal
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.AttachiCal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nAttach an iCalendar file to e-mail invitations. iCalendar is a standard format for exchanging calendar and schedule information. Default = Yes.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string AttachiCal = "AttachiCal"
+    return:
+      type: System.String
+    content.vb: Public Const AttachiCal As String = "AttachiCal"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.IncomingInvitationHandling
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.IncomingInvitationHandling
+  id: IncomingInvitationHandling
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: IncomingInvitationHandling
+  nameWithType: UserPreferenceStrings.Mail.IncomingInvitationHandling
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.IncomingInvitationHandling
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHow to handle incoming invitations in e-mails\n0: Enable all: automatically creates tentative and updates existing appointments when invitations/replies are received.\n1: Disable creation of tentative appointments from invitations: creates appointments on Accept. Do not create tentative appointments.\n2: Disable creation, updates and replies to invitations: stop all automatic creation and update of appointments.\n3: Disable all: display invitations in web inbox as standard e-mail with disabled accept/decline buttons.\n"
+  syntax:
+    content: public const string IncomingInvitationHandling = "IncomingInvitationHandling"
+    return:
+      type: System.String
+    content.vb: Public Const IncomingInvitationHandling As String = "IncomingInvitationHandling"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.OnlyOneAssociate
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.OnlyOneAssociate
+  id: OnlyOneAssociate
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: OnlyOneAssociate
+  nameWithType: UserPreferenceStrings.Mail.OnlyOneAssociate
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.OnlyOneAssociate
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nOnly create appointments for one chosen/current associate\n"
+  syntax:
+    content: public const string OnlyOneAssociate = "OnlyOneAssociate"
+    return:
+      type: System.String
+    content.vb: Public Const OnlyOneAssociate As String = "OnlyOneAssociate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.OutgoingInvitationIncludeRsvp
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.OutgoingInvitationIncludeRsvp
+  id: OutgoingInvitationIncludeRsvp
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: OutgoingInvitationIncludeRsvp
+  nameWithType: UserPreferenceStrings.Mail.OutgoingInvitationIncludeRsvp
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.OutgoingInvitationIncludeRsvp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nInclude request for reply in outgoing e-mail invitations. True or false.\n"
+  syntax:
+    content: public const string OutgoingInvitationIncludeRsvp = "OutgoingInvitationIncludeRsvp"
+    return:
+      type: System.String
+    content.vb: Public Const OutgoingInvitationIncludeRsvp As String = "OutgoingInvitationIncludeRsvp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DiarySynchronizerActive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DiarySynchronizerActive
+  id: DiarySynchronizerActive
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DiarySynchronizerActive
+  nameWithType: UserPreferenceStrings.Mail.DiarySynchronizerActive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DiarySynchronizerActive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe SuperOffice Invitation system will modify its behavior depending on whether any Exchange synchronizer application is active or not.\nIf turned on, the invitation system will do the following:\n- disable the reply-buttons in the Inbox for email invitations\n- disable attachment of icalendar-data in email invitations to associates\n- disable creation of tentative appointments for received email invitations\n"
+  syntax:
+    content: public const string DiarySynchronizerActive = "DiarySynchronizerActive"
+    return:
+      type: System.String
+    content.vb: Public Const DiarySynchronizerActive As String = "DiarySynchronizerActive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.BookingAssociatesSubList
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.BookingAssociatesSubList
+  id: BookingAssociatesSubList
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: BookingAssociatesSubList
+  nameWithType: UserPreferenceStrings.Mail.BookingAssociatesSubList
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.BookingAssociatesSubList
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to remember the setup/status of the list\n<p></p>Control type: Number, access: Wizard\n"
+  syntax:
+    content: public const string BookingAssociatesSubList = "BookingAssociatesSubList"
+    return:
+      type: System.String
+    content.vb: Public Const BookingAssociatesSubList As String = "BookingAssociatesSubList"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.CreateUpdateAppointmentsInSO
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.CreateUpdateAppointmentsInSO
+  id: CreateUpdateAppointmentsInSO
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: CreateUpdateAppointmentsInSO
+  nameWithType: UserPreferenceStrings.Mail.CreateUpdateAppointmentsInSO
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.CreateUpdateAppointmentsInSO
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nPreference used to set the create/update Appointment from Outlook setting\n"
+  syntax:
+    content: public const string CreateUpdateAppointmentsInSO = "CreateUpdateAppointmentsInSO"
+    return:
+      type: System.String
+    content.vb: Public Const CreateUpdateAppointmentsInSO As String = "CreateUpdateAppointmentsInSO"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.CloseAfterArchive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.CloseAfterArchive
+  id: CloseAfterArchive
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: CloseAfterArchive
+  nameWithType: UserPreferenceStrings.Mail.CloseAfterArchive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.CloseAfterArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nClose the e-mail after it has been archived from SuperOffice.web (Default = YES)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string CloseAfterArchive = "CloseAfterArchive"
+    return:
+      type: System.String
+    content.vb: Public Const CloseAfterArchive As String = "CloseAfterArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DeleteAfterArchive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DeleteAfterArchive
+  id: DeleteAfterArchive
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DeleteAfterArchive
+  nameWithType: UserPreferenceStrings.Mail.DeleteAfterArchive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DeleteAfterArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDelete the e-mail after it has been archived\n"
+  syntax:
+    content: public const string DeleteAfterArchive = "DeleteAfterArchive"
+    return:
+      type: System.String
+    content.vb: Public Const DeleteAfterArchive As String = "DeleteAfterArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.CreateExtUserSubject
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.CreateExtUserSubject
+  id: CreateExtUserSubject
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: CreateExtUserSubject
+  nameWithType: UserPreferenceStrings.Mail.CreateExtUserSubject
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.CreateExtUserSubject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nHeader used in e-mail sent when generating external users.\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string CreateExtUserSubject = "CreateExtUserSubject"
+    return:
+      type: System.String
+    content.vb: Public Const CreateExtUserSubject As String = "CreateExtUserSubject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.CheckForDuplicates
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.CheckForDuplicates
+  id: CheckForDuplicates
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: CheckForDuplicates
+  nameWithType: UserPreferenceStrings.Mail.CheckForDuplicates
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.CheckForDuplicates
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDetermines if MailLink should check duplicate documents when archiving email.\nDefault = true.\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string CheckForDuplicates = "CheckForDuplicates"
+    return:
+      type: System.String
+    content.vb: Public Const CheckForDuplicates As String = "CheckForDuplicates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
+  id: ShowAllTemplates
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ShowAllTemplates
+  nameWithType: UserPreferenceStrings.Mail.ShowAllTemplates
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowAllTemplates
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDetermines if MailLink should show all templates in controls\n"
+  syntax:
+    content: public const string ShowAllTemplates = "ShowAllTemplates"
+    return:
+      type: System.String
+    content.vb: Public Const ShowAllTemplates As String = "ShowAllTemplates"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoProtocolIntegration
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoProtocolIntegration
+  id: UseSoProtocolIntegration
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: UseSoProtocolIntegration
+  nameWithType: UserPreferenceStrings.Mail.UseSoProtocolIntegration
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoProtocolIntegration
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDetermines if MailLink should use tighter SoProtocol integration\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string UseSoProtocolIntegration = "UseSoProtocolIntegration"
+    return:
+      type: System.String
+    content.vb: Public Const UseSoProtocolIntegration As String = "UseSoProtocolIntegration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SoDocumentArchivedExecuteCommand
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SoDocumentArchivedExecuteCommand
+  id: SoDocumentArchivedExecuteCommand
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SoDocumentArchivedExecuteCommand
+  nameWithType: UserPreferenceStrings.Mail.SoDocumentArchivedExecuteCommand
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SoDocumentArchivedExecuteCommand
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDetermines what (if any) external application should be launched\nwhen SuperOffice Mail Link has archived a document.\n"
+  syntax:
+    content: public const string SoDocumentArchivedExecuteCommand = "DocumentArchived"
+    return:
+      type: System.String
+    content.vb: Public Const SoDocumentArchivedExecuteCommand As String = "DocumentArchived"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SoAppointmentArchivedExecuteCommand
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SoAppointmentArchivedExecuteCommand
+  id: SoAppointmentArchivedExecuteCommand
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SoAppointmentArchivedExecuteCommand
+  nameWithType: UserPreferenceStrings.Mail.SoAppointmentArchivedExecuteCommand
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SoAppointmentArchivedExecuteCommand
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDetermines what (if any) external application should be launched\nwhen SuperOffice Mail Link has archived a document.\n"
+  syntax:
+    content: public const string SoAppointmentArchivedExecuteCommand = "TaskArchived"
+    return:
+      type: System.String
+    content.vb: Public Const SoAppointmentArchivedExecuteCommand As String = "TaskArchived"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.WarnAboutLargeAttachments
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.WarnAboutLargeAttachments
+  id: WarnAboutLargeAttachments
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: WarnAboutLargeAttachments
+  nameWithType: UserPreferenceStrings.Mail.WarnAboutLargeAttachments
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.WarnAboutLargeAttachments
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDetermines if MailLink should warn the user about large attechments when archiving mail.\nDefault = true.\n"
+  syntax:
+    content: public const string WarnAboutLargeAttachments = "WarnAboutLargeAttachments"
+    return:
+      type: System.String
+    content.vb: Public Const WarnAboutLargeAttachments As String = "WarnAboutLargeAttachments"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.LargeAttachmentWarningTreshold
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.LargeAttachmentWarningTreshold
+  id: LargeAttachmentWarningTreshold
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: LargeAttachmentWarningTreshold
+  nameWithType: UserPreferenceStrings.Mail.LargeAttachmentWarningTreshold
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.LargeAttachmentWarningTreshold
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe size which an email attachment must be greater than to trigger a warning in MailLink.\nUnit is kilobytes.\nDefault = 500.\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string LargeAttachmentWarningTreshold = "LargeAttachmentWarningTreshold"
+    return:
+      type: System.String
+    content.vb: Public Const LargeAttachmentWarningTreshold As String = "LargeAttachmentWarningTreshold"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultDocSender
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultDocSender
+  id: DefaultDocSender
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DefaultDocSender
+  nameWithType: UserPreferenceStrings.Mail.DefaultDocSender
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultDocSender
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nE-mail client used to send documents in SuperOffice CRM.\n<p></p>Control type: List, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultDocSender = "DefaultDocSender"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultDocSender As String = "DefaultDocSender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultFaxSender
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultFaxSender
+  id: DefaultFaxSender
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DefaultFaxSender
+  nameWithType: UserPreferenceStrings.Mail.DefaultFaxSender
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultFaxSender
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFax plug-in used to send faxes from SuperOffice CRM\n<p></p>Control type: List, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultFaxSender = "DefaultFaxSender"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultFaxSender As String = "DefaultFaxSender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultMailSender
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultMailSender
+  id: DefaultMailSender
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DefaultMailSender
+  nameWithType: UserPreferenceStrings.Mail.DefaultMailSender
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultMailSender
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nE-mail client used to send e-mail in SuperOffice CRM\n<p></p>Control type: List, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultMailSender = "DefaultMailSender"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultMailSender As String = "DefaultMailSender"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultIncomingEmailTypeID
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultIncomingEmailTypeID
+  id: DefaultIncomingEmailTypeID
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DefaultIncomingEmailTypeID
+  nameWithType: UserPreferenceStrings.Mail.DefaultIncomingEmailTypeID
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultIncomingEmailTypeID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault (Email) template ID to use for archiving incoming email messages.\nDefault = .1, Unset\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultIncomingEmailTypeID = "DefaultIncomingEmailTypeID"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultIncomingEmailTypeID As String = "DefaultIncomingEmailTypeID"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultOutgoingEmailTypeID
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultOutgoingEmailTypeID
+  id: DefaultOutgoingEmailTypeID
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: DefaultOutgoingEmailTypeID
+  nameWithType: UserPreferenceStrings.Mail.DefaultOutgoingEmailTypeID
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.DefaultOutgoingEmailTypeID
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault (Email) template ID to use for archiving incoming email messages.\nDefault = .1, Unset\n<p></p>Control type: ListTableRef, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string DefaultOutgoingEmailTypeID = "DefaultOutgoingEmailTypeID"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultOutgoingEmailTypeID As String = "DefaultOutgoingEmailTypeID"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.EnableMailSync
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.EnableMailSync
+  id: EnableMailSync
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: EnableMailSync
+  nameWithType: UserPreferenceStrings.Mail.EnableMailSync
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.EnableMailSync
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nEnables synchronisation between the SuperOffice CRM inbox and your external e-mail program\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string EnableMailSync = "EnableMailSync"
+    return:
+      type: System.String
+    content.vb: Public Const EnableMailSync As String = "EnableMailSync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.FirstMailSync
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.FirstMailSync
+  id: FirstMailSync
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: FirstMailSync
+  nameWithType: UserPreferenceStrings.Mail.FirstMailSync
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.FirstMailSync
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNumber of seconds until first synchronisation on startup\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string FirstMailSync = "FirstMailSync"
+    return:
+      type: System.String
+    content.vb: Public Const FirstMailSync As String = "FirstMailSync"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
+  id: ForceConfirmationEmailInvit
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ForceConfirmationEmailInvit
+  nameWithType: UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ForceConfirmationEmailInvit
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDisplays a confirmation dialog before invitations are sent by e-mail. (Default: No).\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ForceConfirmationEmailInvit = "ForceConfirmationEmailInvit"
+    return:
+      type: System.String
+    content.vb: Public Const ForceConfirmationEmailInvit As String = "ForceConfirmationEmailInvit"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.HidePreview
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.HidePreview
+  id: HidePreview
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: HidePreview
+  nameWithType: UserPreferenceStrings.Mail.HidePreview
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.HidePreview
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIf true, no mail preview is displayed when a mail is selected (Default: No).\n"
+  syntax:
+    content: public const string HidePreview = "HidePreview"
+    return:
+      type: System.String
+    content.vb: Public Const HidePreview As String = "HidePreview"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerName
+  id: ImapServerName
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ImapServerName
+  nameWithType: UserPreferenceStrings.Mail.ImapServerName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nName of the IMAP4 Mail server used by CRM.web. Enter the DNS name or the IP address (e.g. mail.server.com or 10.0.0.100)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ImapServerName = "ImapServerName"
+    return:
+      type: System.String
+    content.vb: Public Const ImapServerName As String = "ImapServerName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerPort
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerPort
+  id: ImapServerPort
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ImapServerPort
+  nameWithType: UserPreferenceStrings.Mail.ImapServerPort
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ImapServerPort
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe port number your mail server uses to access e-mail using the IMAP protocol. Default = 143\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string ImapServerPort = "ImapServerPort"
+    return:
+      type: System.String
+    content.vb: Public Const ImapServerPort As String = "ImapServerPort"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.Inbox
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.Inbox
+  id: Inbox
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: Inbox
+  nameWithType: UserPreferenceStrings.Mail.Inbox
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.Inbox
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nE-mail client used for your in SuperOffice CRM inbox. Inboxes other than the default SuperOffice one require a separate plugin..\n<p></p>Control type: List, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string Inbox = "Inbox"
+    return:
+      type: System.String
+    content.vb: Public Const Inbox As String = "Inbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.IsEmailInstalled
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.IsEmailInstalled
+  id: IsEmailInstalled
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: IsEmailInstalled
+  nameWithType: UserPreferenceStrings.Mail.IsEmailInstalled
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.IsEmailInstalled
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIs there currently an e-mail client available on this computer? This option enables certain aspects of e-mail functionality. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string IsEmailInstalled = "IsEmailInstalled"
+    return:
+      type: System.String
+    content.vb: Public Const IsEmailInstalled As String = "IsEmailInstalled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.IsFaxInstalled
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.IsFaxInstalled
+  id: IsFaxInstalled
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: IsFaxInstalled
+  nameWithType: UserPreferenceStrings.Mail.IsFaxInstalled
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.IsFaxInstalled
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIs there a fax plugin installed in the e-mail client that allows faxes to be sent by e-mail? This option enables certain aspects of fax functionality. (Default = YES)\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string IsFaxInstalled = "IsFaxInstalled"
+    return:
+      type: System.String
+    content.vb: Public Const IsFaxInstalled As String = "IsFaxInstalled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayDisplayName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayDisplayName
+  id: MailGatewayDisplayName
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MailGatewayDisplayName
+  nameWithType: UserPreferenceStrings.Mail.MailGatewayDisplayName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayDisplayName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe display name of the SuperOffice Mail Gateway&apos;s e-mail address \n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MailGatewayDisplayName = "MailGatewayDisplayName"
+    return:
+      type: System.String
+    content.vb: Public Const MailGatewayDisplayName As String = "MailGatewayDisplayName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayMailAddress
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayMailAddress
+  id: MailGatewayMailAddress
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MailGatewayMailAddress
+  nameWithType: UserPreferenceStrings.Mail.MailGatewayMailAddress
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MailGatewayMailAddress
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe SuperOffice Mail Gateway&apos;s e-mail address \n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MailGatewayMailAddress = "MailGatewayMailAddress"
+    return:
+      type: System.String
+    content.vb: Public Const MailGatewayMailAddress As String = "MailGatewayMailAddress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MailSmtpAuthorize
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MailSmtpAuthorize
+  id: MailSmtpAuthorize
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MailSmtpAuthorize
+  nameWithType: UserPreferenceStrings.Mail.MailSmtpAuthorize
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MailSmtpAuthorize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe SMTP server requires authentication before you can send e-mail. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MailSmtpAuthorize = "MailSmtpAuthorize"
+    return:
+      type: System.String
+    content.vb: Public Const MailSmtpAuthorize As String = "MailSmtpAuthorize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MailSyncTimer
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MailSyncTimer
+  id: MailSyncTimer
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MailSyncTimer
+  nameWithType: UserPreferenceStrings.Mail.MailSyncTimer
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MailSyncTimer
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNumber of seconds between each synchronisation\n<p></p>Control type: Number, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string MailSyncTimer = "MailSyncTimer"
+    return:
+      type: System.String
+    content.vb: Public Const MailSyncTimer As String = "MailSyncTimer"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadInPreview
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadInPreview
+  id: MarkAsReadInPreview
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MarkAsReadInPreview
+  nameWithType: UserPreferenceStrings.Mail.MarkAsReadInPreview
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadInPreview
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nMarks the e-mail as read once it has been displayed in the preview pane. If you set this to No, you need to open the e-mail before it is marked as read. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MarkAsReadInPreview = "MarkAsReadInPreview"
+    return:
+      type: System.String
+    content.vb: Public Const MarkAsReadInPreview As String = "MarkAsReadInPreview"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NameDeleted
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NameDeleted
+  id: NameDeleted
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NameDeleted
+  nameWithType: UserPreferenceStrings.Mail.NameDeleted
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NameDeleted
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the name if the IMAP folder that contains your deleted email. (Default = Deleted items)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NameDeleted = "NameDeleted"
+    return:
+      type: System.String
+    content.vb: Public Const NameDeleted As String = "NameDeleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NameDrafts
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NameDrafts
+  id: NameDrafts
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NameDrafts
+  nameWithType: UserPreferenceStrings.Mail.NameDrafts
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NameDrafts
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the name of the IMAP folder that is used to store e-mail drafts. (Default = Drafts)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NameDrafts = "NameDrafts"
+    return:
+      type: System.String
+    content.vb: Public Const NameDrafts As String = "NameDrafts"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NameInbox
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NameInbox
+  id: NameInbox
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NameInbox
+  nameWithType: UserPreferenceStrings.Mail.NameInbox
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NameInbox
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the name of the IMAP folder used as your e-mail inbox. (Default = Inbox)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NameInbox = "NameInbox"
+    return:
+      type: System.String
+    content.vb: Public Const NameInbox As String = "NameInbox"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NameSent
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NameSent
+  id: NameSent
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NameSent
+  nameWithType: UserPreferenceStrings.Mail.NameSent
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NameSent
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies the name of the IMAP folder that is used to store sent e-mail. (Default = Sent Items)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NameSent = "NameSent"
+    return:
+      type: System.String
+    content.vb: Public Const NameSent As String = "NameSent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NotesEmailTemplatesDeployed
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NotesEmailTemplatesDeployed
+  id: NotesEmailTemplatesDeployed
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NotesEmailTemplatesDeployed
+  nameWithType: UserPreferenceStrings.Mail.NotesEmailTemplatesDeployed
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NotesEmailTemplatesDeployed
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSpecifies if the Notes email-templates has been deployed on the notes server.\nIf this is set to true, Notes is enabled as an email-client in the setup-wizard\nin SM.Web. (Default = false)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NotesEmailTemplatesDeployed = "NotesEmailTemplatesDeployed"
+    return:
+      type: System.String
+    content.vb: Public Const NotesEmailTemplatesDeployed As String = "NotesEmailTemplatesDeployed"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyAssociateByMail
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyAssociateByMail
+  id: NotifyAssociateByMail
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NotifyAssociateByMail
+  nameWithType: UserPreferenceStrings.Mail.NotifyAssociateByMail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyAssociateByMail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNotifies an associate by e-mail when invited to an appointment\n<p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string NotifyAssociateByMail = "NotifyAssociateByMail"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyAssociateByMail As String = "NotifyAssociateByMail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyExtPersonByMail
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyExtPersonByMail
+  id: NotifyExtPersonByMail
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NotifyExtPersonByMail
+  nameWithType: UserPreferenceStrings.Mail.NotifyExtPersonByMail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyExtPersonByMail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNotifies a contact by e-mail when invited to an appointment\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NotifyExtPersonByMail = "NotifyExtPersonByMail"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyExtPersonByMail As String = "NotifyExtPersonByMail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyOnlineUsers
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyOnlineUsers
+  id: NotifyOnlineUsers
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NotifyOnlineUsers
+  nameWithType: UserPreferenceStrings.Mail.NotifyOnlineUsers
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyOnlineUsers
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUsers who are logged on will be notified about changes to invitations\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string NotifyOnlineUsers = "NotifyOnlineUsers"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyOnlineUsers As String = "NotifyOnlineUsers"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.RemoveAfterArchive
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.RemoveAfterArchive
+  id: RemoveAfterArchive
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: RemoveAfterArchive
+  nameWithType: UserPreferenceStrings.Mail.RemoveAfterArchive
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.RemoveAfterArchive
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDeletes the e-mail from your inbox after you have archived it in SuperOffice.web (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string RemoveAfterArchive = "RemoveAfterArchive"
+    return:
+      type: System.String
+    content.vb: Public Const RemoveAfterArchive As String = "RemoveAfterArchive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SaveLogonInfo
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SaveLogonInfo
+  id: SaveLogonInfo
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SaveLogonInfo
+  nameWithType: UserPreferenceStrings.Mail.SaveLogonInfo
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SaveLogonInfo
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSaves an encrypted version of your user name and password for the e-mail server in the CRM database. This saves you having to enter your user name and password each time you want to access your inbox. (Default = NO)\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SaveLogonInfo = "SaveLogonInfo"
+    return:
+      type: System.String
+    content.vb: Public Const SaveLogonInfo As String = "SaveLogonInfo"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxPrefix
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxPrefix
+  id: SendFaxPrefix
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SendFaxPrefix
+  nameWithType: UserPreferenceStrings.Mail.SendFaxPrefix
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxPrefix
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nFormat for fax numbers to be sent by e-mail. &lt;faxs> is the fax number and &lt;name> is the company name, e.g. FAX:&lt;name>@&lt;faxs> produces FAX:SuperOffice ASA@22517001\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SendFaxPrefix = "SendFaxPrefix"
+    return:
+      type: System.String
+    content.vb: Public Const SendFaxPrefix As String = "SendFaxPrefix"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxProtocol
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxProtocol
+  id: SendFaxProtocol
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SendFaxProtocol
+  nameWithType: UserPreferenceStrings.Mail.SendFaxProtocol
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SendFaxProtocol
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nProtocol used by your e-mail server to send a fax. (Default = FAX)\n<p></p>Control type: Text, access: Admin, Crm, Admin users, Wizard\n"
+  syntax:
+    content: public const string SendFaxProtocol = "SendFaxProtocol"
+    return:
+      type: System.String
+    content.vb: Public Const SendFaxProtocol As String = "SendFaxProtocol"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerName
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerName
+  id: SmtpServerName
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SmtpServerName
+  nameWithType: UserPreferenceStrings.Mail.SmtpServerName
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerName
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nName of the SMTP Mail server used by CRM.web. Enter the DNS name or the IP address (e.g. mail.server.com or 10.0.0.100)\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SmtpServerName = "SmtpServerName"
+    return:
+      type: System.String
+    content.vb: Public Const SmtpServerName As String = "SmtpServerName"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPass
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPass
+  id: SmtpServerPass
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SmtpServerPass
+  nameWithType: UserPreferenceStrings.Mail.SmtpServerPass
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPass
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIf you want to use a different password from the one you use to log in to your IMAP server, you can enter it here.\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SmtpServerPass = "SmtpServerPass"
+    return:
+      type: System.String
+    content.vb: Public Const SmtpServerPass As String = "SmtpServerPass"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPort
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPort
+  id: SmtpServerPort
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SmtpServerPort
+  nameWithType: UserPreferenceStrings.Mail.SmtpServerPort
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerPort
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nThe port number your mail server uses to send e-mail using the SMTP protocol. Default = 25\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SmtpServerPort = "SmtpServerPort"
+    return:
+      type: System.String
+    content.vb: Public Const SmtpServerPort As String = "SmtpServerPort"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerUser
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerUser
+  id: SmtpServerUser
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SmtpServerUser
+  nameWithType: UserPreferenceStrings.Mail.SmtpServerUser
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SmtpServerUser
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIf you want to use a different user name from the one you use to log in to your IMAP server, you can enter it here.\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string SmtpServerUser = "SmtpServerUser"
+    return:
+      type: System.String
+    content.vb: Public Const SmtpServerUser As String = "SmtpServerUser"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.Timeout
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.Timeout
+  id: Timeout
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: UserPreferenceStrings.Mail.Timeout
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.Timeout
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNumber of seconds that CRM.web will wait for the mail server to finish processing a request. If you experience problems with slow response times from your mail server, you should increase this value to 30 seconds or more. Default: 15 seconds.\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string Timeout = "Timeout"
+    return:
+      type: System.String
+    content.vb: Public Const Timeout As String = "Timeout"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.UseMapiReaderAnyway
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.UseMapiReaderAnyway
+  id: UseMapiReaderAnyway
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: UseMapiReaderAnyway
+  nameWithType: UserPreferenceStrings.Mail.UseMapiReaderAnyway
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.UseMapiReaderAnyway
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUse the CRM inbox even if CRM has other e-mail integration installed (Default = NO)\n<p></p>Control type: Bool, access: Wizard\n"
+  syntax:
+    content: public const string UseMapiReaderAnyway = "UseMapiReaderAnyway"
+    return:
+      type: System.String
+    content.vb: Public Const UseMapiReaderAnyway As String = "UseMapiReaderAnyway"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBody
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBody
+  id: UseSoMailBody
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: UseSoMailBody
+  nameWithType: UserPreferenceStrings.Mail.UseSoMailBody
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBody
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUse &quot;mail.htm&quot; as body of new e-mails.  The file is looked for in &quot;so_arc\\username\\mail.htm&quot; and if not found in &quot;so_arc\\template\\mail.htm&quot;\n"
+  syntax:
+    content: public const string UseSoMailBody = "UseSoMailBody"
+    return:
+      type: System.String
+    content.vb: Public Const UseSoMailBody As String = "UseSoMailBody"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBodyReplyForward
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBodyReplyForward
+  id: UseSoMailBodyReplyForward
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: UseSoMailBodyReplyForward
+  nameWithType: UserPreferenceStrings.Mail.UseSoMailBodyReplyForward
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.UseSoMailBodyReplyForward
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nUse &quot;mail.htm&quot; as body of reply and forward e-mails.  The file is looked for in &quot;so_arc\\username\\mail.htm&quot; and if not found in &quot;so_arc\\template\\mail.htm&quot;\n"
+  syntax:
+    content: public const string UseSoMailBodyReplyForward = "UseSoMailBodyReplyForward"
+    return:
+      type: System.String
+    content.vb: Public Const UseSoMailBodyReplyForward As String = "UseSoMailBodyReplyForward"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowInlineImages
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ShowInlineImages
+  id: ShowInlineImages
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ShowInlineImages
+  nameWithType: UserPreferenceStrings.Mail.ShowInlineImages
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ShowInlineImages
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nShould we display inline images in the e-mail body (default: true)\n"
+  syntax:
+    content: public const string ShowInlineImages = "ShowInlineImages"
+    return:
+      type: System.String
+    content.vb: Public Const ShowInlineImages As String = "ShowInlineImages"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MoveDeletedToDeletedItems
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MoveDeletedToDeletedItems
+  id: MoveDeletedToDeletedItems
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MoveDeletedToDeletedItems
+  nameWithType: UserPreferenceStrings.Mail.MoveDeletedToDeletedItems
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MoveDeletedToDeletedItems
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIf enabled e-mails that get deleted are moved to the deleted items folder\n"
+  syntax:
+    content: public const string MoveDeletedToDeletedItems = "MoveDeletedToDeletedItems"
+    return:
+      type: System.String
+    content.vb: Public Const MoveDeletedToDeletedItems As String = "MoveDeletedToDeletedItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.SaveSentInSentItems
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.SaveSentInSentItems
+  id: SaveSentInSentItems
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: SaveSentInSentItems
+  nameWithType: UserPreferenceStrings.Mail.SaveSentInSentItems
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.SaveSentInSentItems
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nIf enabled sent e-mails are saved in the sent items folder\n"
+  syntax:
+    content: public const string SaveSentInSentItems = "SaveSentInSentItems"
+    return:
+      type: System.String
+    content.vb: Public Const SaveSentInSentItems As String = "SaveSentInSentItems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.FontType
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.FontType
+  id: FontType
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: FontType
+  nameWithType: UserPreferenceStrings.Mail.FontType
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.FontType
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault font type of outgoing mail\n"
+  syntax:
+    content: public const string FontType = "FontType"
+    return:
+      type: System.String
+    content.vb: Public Const FontType As String = "FontType"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.FontSize
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.FontSize
+  id: FontSize
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: FontSize
+  nameWithType: UserPreferenceStrings.Mail.FontSize
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.FontSize
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault font size of outgoing mail\n"
+  syntax:
+    content: public const string FontSize = "FontSize"
+    return:
+      type: System.String
+    content.vb: Public Const FontSize As String = "FontSize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.FontColor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.FontColor
+  id: FontColor
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: FontColor
+  nameWithType: UserPreferenceStrings.Mail.FontColor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.FontColor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault font color of outgoing mail\n"
+  syntax:
+    content: public const string FontColor = "FontColor"
+    return:
+      type: System.String
+    content.vb: Public Const FontColor As String = "FontColor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.ConfirmDeleteMail
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.ConfirmDeleteMail
+  id: ConfirmDeleteMail
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: ConfirmDeleteMail
+  nameWithType: UserPreferenceStrings.Mail.ConfirmDeleteMail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.ConfirmDeleteMail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTrue if confirmation is preferred when deleting email\n"
+  syntax:
+    content: public const string ConfirmDeleteMail = "ConfirmDeleteMail"
+    return:
+      type: System.String
+    content.vb: Public Const ConfirmDeleteMail As String = "ConfirmDeleteMail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadWhenOpen
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadWhenOpen
+  id: MarkAsReadWhenOpen
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: MarkAsReadWhenOpen
+  nameWithType: UserPreferenceStrings.Mail.MarkAsReadWhenOpen
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.MarkAsReadWhenOpen
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nMarks the e-mail as read once it has been opened.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string MarkAsReadWhenOpen = "MarkAsReadWhenOpen"
+    return:
+      type: System.String
+    content.vb: Public Const MarkAsReadWhenOpen As String = "MarkAsReadWhenOpen"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyWhenNewMail
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyWhenNewMail
+  id: NotifyWhenNewMail
+  parent: SuperOffice.CRM.UserPreferenceStrings.Mail
+  langs:
+  - csharp
+  - vb
+  name: NotifyWhenNewMail
+  nameWithType: UserPreferenceStrings.Mail.NotifyWhenNewMail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mail.NotifyWhenNewMail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nNotify user when new mail arrives.\n<p></p>Control type: Bool, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string NotifyWhenNewMail = "NotifyWhenNewMail"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyWhenNewMail As String = "NotifyWhenNewMail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

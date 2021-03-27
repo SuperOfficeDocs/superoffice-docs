@@ -1,0 +1,633 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  commentId: T:SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  id: SoImpersonationSecurityToken
+  parent: SuperOffice.Security.Principal
+  children:
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal)
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal,System.String)
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo
+  langs:
+  - csharp
+  - vb
+  name: SoImpersonationSecurityToken
+  nameWithType: SoImpersonationSecurityToken
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: 'public sealed class SoImpersonationSecurityToken : SecurityToken'
+    content.vb: >-
+      Public NotInheritable Class SoImpersonationSecurityToken
+          Inherits SecurityToken
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.EnumUtil.MapEnums``2
+  - SuperOffice.Security.Principal.SoImpersonationSecurityToken.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal)
+  commentId: M:SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal)
+  id: '#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal)'
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: SoImpersonationSecurityToken(String, SoPrincipal)
+  nameWithType: SoImpersonationSecurityToken.SoImpersonationSecurityToken(String, SoPrincipal)
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SoImpersonationSecurityToken(System.String, SuperOffice.Security.Principal.SoPrincipal)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoImpersonationSecurityToken(string associate, SoPrincipal impersonatingPrincipal)
+    parameters:
+    - id: associate
+      type: System.String
+    - id: impersonatingPrincipal
+      type: SuperOffice.Security.Principal.SoPrincipal
+    content.vb: Public Sub New(associate As String, impersonatingPrincipal As SoPrincipal)
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal,System.String)
+  commentId: M:SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal,System.String)
+  id: '#ctor(System.String,SuperOffice.Security.Principal.SoPrincipal,System.String)'
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: SoImpersonationSecurityToken(String, SoPrincipal, String)
+  nameWithType: SoImpersonationSecurityToken.SoImpersonationSecurityToken(String, SoPrincipal, String)
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SoImpersonationSecurityToken(System.String, SuperOffice.Security.Principal.SoPrincipal, System.String)
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoImpersonationSecurityToken(string associate, SoPrincipal impersonatingPrincipal, string id)
+    parameters:
+    - id: associate
+      type: System.String
+    - id: impersonatingPrincipal
+      type: SuperOffice.Security.Principal.SoPrincipal
+    - id: id
+      type: System.String
+    content.vb: Public Sub New(associate As String, impersonatingPrincipal As SoPrincipal, id As String)
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
+  commentId: P:SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
+  id: Id
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: SoImpersonationSecurityToken.Id
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property Id As String
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
+  commentId: P:SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
+  id: SecurityKeys
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: SecurityKeys
+  nameWithType: SoImpersonationSecurityToken.SecurityKeys
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override ReadOnlyCollection<SecurityKey> SecurityKeys { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Tokens.SecurityKey}
+    content.vb: Public Overrides ReadOnly Property SecurityKeys As ReadOnlyCollection(Of SecurityKey)
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
+  commentId: P:SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
+  id: Associate
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: Associate
+  nameWithType: SoImpersonationSecurityToken.Associate
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public string Associate { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Associate As String
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
+  commentId: P:SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
+  id: ImpersonatingPrincipal
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: ImpersonatingPrincipal
+  nameWithType: SoImpersonationSecurityToken.ImpersonatingPrincipal
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public SoPrincipal ImpersonatingPrincipal { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Security.Principal.SoPrincipal
+    content.vb: Public ReadOnly Property ImpersonatingPrincipal As SoPrincipal
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
+  commentId: P:SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
+  id: ValidFrom
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: ValidFrom
+  nameWithType: SoImpersonationSecurityToken.ValidFrom
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override DateTime ValidFrom { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overrides ReadOnly Property ValidFrom As Date
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo
+  commentId: P:SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo
+  id: ValidTo
+  parent: SuperOffice.Security.Principal.SoImpersonationSecurityToken
+  langs:
+  - csharp
+  - vb
+  name: ValidTo
+  nameWithType: SoImpersonationSecurityToken.ValidTo
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Security.Principal
+  syntax:
+    content: public override DateTime ValidTo { get; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overrides ReadOnly Property ValidTo As Date
+  overload: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: SuperOffice.Security.Principal
+  commentId: N:SuperOffice.Security.Principal
+  isExternal: true
+  name: SuperOffice.Security.Principal
+  nameWithType: SuperOffice.Security.Principal
+  fullName: SuperOffice.Security.Principal
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<SoImpersonationSecurityToken, To>()
+  nameWithType: EnumUtil.MapEnums<SoImpersonationSecurityToken, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoImpersonationSecurityToken, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of SoImpersonationSecurityToken, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationSecurityToken, To)()
+  name.vb: MapEnums(Of SoImpersonationSecurityToken, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<SoImpersonationSecurityToken, To>
+    nameWithType: EnumUtil.MapEnums<SoImpersonationSecurityToken, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Security.Principal.SoImpersonationSecurityToken, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of SoImpersonationSecurityToken, To)
+    nameWithType: EnumUtil.MapEnums(Of SoImpersonationSecurityToken, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationSecurityToken, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<SoImpersonationSecurityToken, To>()
+  nameWithType: Converters.MapEnums<SoImpersonationSecurityToken, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoImpersonationSecurityToken, To>()
+  nameWithType.vb: Converters.MapEnums(Of SoImpersonationSecurityToken, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationSecurityToken, To)()
+  name.vb: MapEnums(Of SoImpersonationSecurityToken, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<SoImpersonationSecurityToken, To>
+    nameWithType: Converters.MapEnums<SoImpersonationSecurityToken, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Security.Principal.SoImpersonationSecurityToken, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of SoImpersonationSecurityToken, To)
+    nameWithType: Converters.MapEnums(Of SoImpersonationSecurityToken, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Security.Principal.SoImpersonationSecurityToken, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.#ctor
+  isExternal: true
+  name: SoImpersonationSecurityToken
+  nameWithType: SoImpersonationSecurityToken.SoImpersonationSecurityToken
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SoImpersonationSecurityToken
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.Security.Principal.SoPrincipal
+  commentId: T:SuperOffice.Security.Principal.SoPrincipal
+  parent: SuperOffice.Security.Principal
+  isExternal: true
+  name: SoPrincipal
+  nameWithType: SoPrincipal
+  fullName: SuperOffice.Security.Principal.SoPrincipal
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
+  isExternal: true
+  name: Id
+  nameWithType: SoImpersonationSecurityToken.Id
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Id
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
+  isExternal: true
+  name: SecurityKeys
+  nameWithType: SoImpersonationSecurityToken.SecurityKeys
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.SecurityKeys
+- uid: System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Tokens.SecurityKey}
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection{System.IdentityModel.Tokens.SecurityKey}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ReadOnlyCollection`1
+  name: ReadOnlyCollection<SecurityKey>
+  nameWithType: ReadOnlyCollection<SecurityKey>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<System.IdentityModel.Tokens.SecurityKey>
+  nameWithType.vb: ReadOnlyCollection(Of SecurityKey)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of System.IdentityModel.Tokens.SecurityKey)
+  name.vb: ReadOnlyCollection(Of SecurityKey)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.IdentityModel.Tokens.SecurityKey
+    name: SecurityKey
+    nameWithType: SecurityKey
+    fullName: System.IdentityModel.Tokens.SecurityKey
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.IdentityModel.Tokens.SecurityKey
+    name: SecurityKey
+    nameWithType: SecurityKey
+    fullName: System.IdentityModel.Tokens.SecurityKey
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+  commentId: T:System.Collections.ObjectModel.ReadOnlyCollection`1
+  isExternal: true
+  name: ReadOnlyCollection<T>
+  nameWithType: ReadOnlyCollection<T>
+  fullName: System.Collections.ObjectModel.ReadOnlyCollection<T>
+  nameWithType.vb: ReadOnlyCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ReadOnlyCollection(Of T)
+  name.vb: ReadOnlyCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ReadOnlyCollection`1
+    name: ReadOnlyCollection
+    nameWithType: ReadOnlyCollection
+    fullName: System.Collections.ObjectModel.ReadOnlyCollection
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
+  isExternal: true
+  name: Associate
+  nameWithType: SoImpersonationSecurityToken.Associate
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.Associate
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
+  isExternal: true
+  name: ImpersonatingPrincipal
+  nameWithType: SoImpersonationSecurityToken.ImpersonatingPrincipal
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ImpersonatingPrincipal
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
+  isExternal: true
+  name: ValidFrom
+  nameWithType: SoImpersonationSecurityToken.ValidFrom
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidFrom
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo*
+  commentId: Overload:SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo
+  isExternal: true
+  name: ValidTo
+  nameWithType: SoImpersonationSecurityToken.ValidTo
+  fullName: SuperOffice.Security.Principal.SoImpersonationSecurityToken.ValidTo

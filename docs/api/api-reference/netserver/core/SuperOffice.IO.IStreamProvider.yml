@@ -1,0 +1,500 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.IO.IStreamProvider
+  commentId: T:SuperOffice.IO.IStreamProvider
+  id: IStreamProvider
+  parent: SuperOffice.IO
+  children:
+  - SuperOffice.IO.IStreamProvider.BeginRead
+  - SuperOffice.IO.IStreamProvider.BeginWrite
+  - SuperOffice.IO.IStreamProvider.EndRead
+  - SuperOffice.IO.IStreamProvider.EndWrite
+  - SuperOffice.IO.IStreamProvider.Length
+  - SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  - SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: IStreamProvider
+  nameWithType: IStreamProvider
+  fullName: SuperOffice.IO.IStreamProvider
+  type: Interface
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nInterface for the <see cref=\"!:DocumentStream\"></see> to access the archive.\n"
+  syntax:
+    content: public interface IStreamProvider
+    content.vb: Public Interface IStreamProvider
+  extensionMethods:
+  - SuperOffice.IO.IStreamProvider.EnumUtil.MapEnums``2
+  - SuperOffice.IO.IStreamProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.IO.IStreamProvider.BeginWrite
+  commentId: M:SuperOffice.IO.IStreamProvider.BeginWrite
+  id: BeginWrite
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: BeginWrite()
+  nameWithType: IStreamProvider.BeginWrite()
+  fullName: SuperOffice.IO.IStreamProvider.BeginWrite()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nStart writing the document file.\n"
+  remarks: "\nUse the <xref href=\"SuperOffice.IO.IStreamProvider.Write(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method to write data to the file.  \nAs data might be written to a temporary location, the <xref href=\"SuperOffice.IO.IStreamProvider.EndWrite\" data-throw-if-not-resolved=\"false\"></xref> \nwill archive the document to the document archive.\n"
+  syntax:
+    content: void BeginWrite()
+    content.vb: Sub BeginWrite
+  overload: SuperOffice.IO.IStreamProvider.BeginWrite*
+- uid: SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.IO.IStreamProvider.Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  id: Write(System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: Write(Int64, Byte[], Int32, Int32)
+  nameWithType: IStreamProvider.Write(Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.IStreamProvider.Write(System.Int64, System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nWrite a block of data to a file.\n"
+  remarks: "\n<xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> must be called before this method.  It is not \nrequred that <xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<xref href=\"SuperOffice.IO.IStreamProvider.BeginWrite\" data-throw-if-not-resolved=\"false\"></xref> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
+  syntax:
+    content: void Write(long filePosition, byte[] buffer, int bufferStartPosition, int lenght)
+    parameters:
+    - id: filePosition
+      type: System.Int64
+      description: Position in the file to start writing
+    - id: buffer
+      type: System.Byte[]
+      description: Buffer to write
+    - id: bufferStartPosition
+      type: System.Int32
+      description: Position in the buffer to start writing from.
+    - id: lenght
+      type: System.Int32
+      description: Number of bytes to write from the buffer.
+    content.vb: Sub Write(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, lenght As Integer)
+  overload: SuperOffice.IO.IStreamProvider.Write*
+  nameWithType.vb: IStreamProvider.Write(Int64, Byte(), Int32, Int32)
+  fullName.vb: SuperOffice.IO.IStreamProvider.Write(System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: Write(Int64, Byte(), Int32, Int32)
+- uid: SuperOffice.IO.IStreamProvider.EndWrite
+  commentId: M:SuperOffice.IO.IStreamProvider.EndWrite
+  id: EndWrite
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: EndWrite()
+  nameWithType: IStreamProvider.EndWrite()
+  fullName: SuperOffice.IO.IStreamProvider.EndWrite()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nSpecify that the writing of the document is completed and that \nthe document can be archived in the document archive.\n"
+  syntax:
+    content: void EndWrite()
+    content.vb: Sub
+  overload: SuperOffice.IO.IStreamProvider.EndWrite*
+- uid: SuperOffice.IO.IStreamProvider.BeginRead
+  commentId: M:SuperOffice.IO.IStreamProvider.BeginRead
+  id: BeginRead
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: BeginRead()
+  nameWithType: IStreamProvider.BeginRead()
+  fullName: SuperOffice.IO.IStreamProvider.BeginRead()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nStart reading the document.  \n"
+  remarks: "\nRead bytes from the document using the <xref href=\"SuperOffice.IO.IStreamProvider.Read(System.Int64%2cSystem.Byte%5b%5d%2cSystem.Int32%2cSystem.Int32)\" data-throw-if-not-resolved=\"false\"></xref> method.  \nCall the <xref href=\"SuperOffice.IO.IStreamProvider.EndRead\" data-throw-if-not-resolved=\"false\"></xref> method to specify that you are \nfinished reading the document.\n"
+  syntax:
+    content: void BeginRead()
+    content.vb: Sub BeginRead
+  overload: SuperOffice.IO.IStreamProvider.BeginRead*
+- uid: SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  commentId: M:SuperOffice.IO.IStreamProvider.Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  id: Read(System.Int64,System.Byte[],System.Int32,System.Int32)
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: Read(Int64, Byte[], Int32, Int32)
+  nameWithType: IStreamProvider.Read(Int64, Byte[], Int32, Int32)
+  fullName: SuperOffice.IO.IStreamProvider.Read(System.Int64, System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nRead data from the document\n"
+  remarks: "\n<xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> must be called before this method.  It is not \nrequred that <xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> is called within the scope of \nthis method.  It is required that it is called on bahalf of the same \nuser and on the same document and that either this method or \n<xref href=\"SuperOffice.IO.IStreamProvider.BeginRead\" data-throw-if-not-resolved=\"false\"></xref> is called during the last time period specified \nin the configuration.  Default time period is 24 hours.\n"
+  syntax:
+    content: int Read(long filePosition, byte[] buffer, int bufferStartPosition, int lenght)
+    parameters:
+    - id: filePosition
+      type: System.Int64
+      description: Position in the file to start reading from.
+    - id: buffer
+      type: System.Byte[]
+      description: Buffer to put the data read.
+    - id: bufferStartPosition
+      type: System.Int32
+      description: Position in buffer to start filling it.
+    - id: lenght
+      type: System.Int32
+      description: Number of bytes to read from the file.
+    return:
+      type: System.Int32
+      description: "\nNumber of bytes actually read from the file.  This should only be \nless then the file when the end of file is reached.\n"
+    content.vb: Function Read(filePosition As Long, buffer As Byte(), bufferStartPosition As Integer, lenght As Integer) As Integer
+  overload: SuperOffice.IO.IStreamProvider.Read*
+  nameWithType.vb: IStreamProvider.Read(Int64, Byte(), Int32, Int32)
+  fullName.vb: SuperOffice.IO.IStreamProvider.Read(System.Int64, System.Byte(), System.Int32, System.Int32)
+  name.vb: Read(Int64, Byte(), Int32, Int32)
+- uid: SuperOffice.IO.IStreamProvider.EndRead
+  commentId: M:SuperOffice.IO.IStreamProvider.EndRead
+  id: EndRead
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: EndRead()
+  nameWithType: IStreamProvider.EndRead()
+  fullName: SuperOffice.IO.IStreamProvider.EndRead()
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nExpress that you are finished reading the file.  If the file is read from \na temporary location, it will be removed from it.\n"
+  syntax:
+    content: void EndRead()
+    content.vb: Sub
+  overload: SuperOffice.IO.IStreamProvider.EndRead*
+- uid: SuperOffice.IO.IStreamProvider.Length
+  commentId: P:SuperOffice.IO.IStreamProvider.Length
+  id: Length
+  parent: SuperOffice.IO.IStreamProvider
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: IStreamProvider.Length
+  fullName: SuperOffice.IO.IStreamProvider.Length
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.IO
+  summary: "\nLength (in bytes) of the document.\n"
+  syntax:
+    content: long Length { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: ReadOnly Property Length As Long
+  overload: SuperOffice.IO.IStreamProvider.Length*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: SuperOffice.IO
+  commentId: N:SuperOffice.IO
+  isExternal: true
+  name: SuperOffice.IO
+  nameWithType: SuperOffice.IO
+  fullName: SuperOffice.IO
+- uid: SuperOffice.IO.IStreamProvider.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IStreamProvider, To>()
+  nameWithType: EnumUtil.MapEnums<IStreamProvider, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.IO.IStreamProvider, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IStreamProvider, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.IO.IStreamProvider, To)()
+  name.vb: MapEnums(Of IStreamProvider, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IStreamProvider, To>
+    nameWithType: EnumUtil.MapEnums<IStreamProvider, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.IO.IStreamProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IStreamProvider, To)
+    nameWithType: EnumUtil.MapEnums(Of IStreamProvider, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.IO.IStreamProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.IO.IStreamProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IStreamProvider, To>()
+  nameWithType: Converters.MapEnums<IStreamProvider, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.IStreamProvider, To>()
+  nameWithType.vb: Converters.MapEnums(Of IStreamProvider, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.IStreamProvider, To)()
+  name.vb: MapEnums(Of IStreamProvider, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IStreamProvider, To>
+    nameWithType: Converters.MapEnums<IStreamProvider, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.IO.IStreamProvider, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IStreamProvider, To)
+    nameWithType: Converters.MapEnums(Of IStreamProvider, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.IO.IStreamProvider, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.IO.IStreamProvider.BeginWrite*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.BeginWrite
+  isExternal: true
+  name: BeginWrite
+  nameWithType: IStreamProvider.BeginWrite
+  fullName: SuperOffice.IO.IStreamProvider.BeginWrite
+- uid: SuperOffice.IO.IStreamProvider.Write*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.Write
+  isExternal: true
+  name: Write
+  nameWithType: IStreamProvider.Write
+  fullName: SuperOffice.IO.IStreamProvider.Write
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.IO.IStreamProvider.EndWrite*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.EndWrite
+  isExternal: true
+  name: EndWrite
+  nameWithType: IStreamProvider.EndWrite
+  fullName: SuperOffice.IO.IStreamProvider.EndWrite
+- uid: SuperOffice.IO.IStreamProvider.BeginRead*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.BeginRead
+  isExternal: true
+  name: BeginRead
+  nameWithType: IStreamProvider.BeginRead
+  fullName: SuperOffice.IO.IStreamProvider.BeginRead
+- uid: SuperOffice.IO.IStreamProvider.Read*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.Read
+  isExternal: true
+  name: Read
+  nameWithType: IStreamProvider.Read
+  fullName: SuperOffice.IO.IStreamProvider.Read
+- uid: SuperOffice.IO.IStreamProvider.EndRead*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.EndRead
+  isExternal: true
+  name: EndRead
+  nameWithType: IStreamProvider.EndRead
+  fullName: SuperOffice.IO.IStreamProvider.EndRead
+- uid: SuperOffice.IO.IStreamProvider.Length*
+  commentId: Overload:SuperOffice.IO.IStreamProvider.Length
+  isExternal: true
+  name: Length
+  nameWithType: IStreamProvider.Length
+  fullName: SuperOffice.IO.IStreamProvider.Length

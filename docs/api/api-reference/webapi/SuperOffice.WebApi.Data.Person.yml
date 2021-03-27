@@ -1,0 +1,1751 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Person
+  commentId: T:SuperOffice.WebApi.Data.Person
+  id: Person
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Person.#ctor
+  - SuperOffice.WebApi.Data.Person.ActiveErpLinks
+  - SuperOffice.WebApi.Data.Person.ActiveInterests
+  - SuperOffice.WebApi.Data.Person.AssociateId
+  - SuperOffice.WebApi.Data.Person.AssociateName
+  - SuperOffice.WebApi.Data.Person.CategoryName
+  - SuperOffice.WebApi.Data.Person.ContactCountryId
+  - SuperOffice.WebApi.Data.Person.ContactDepartment
+  - SuperOffice.WebApi.Data.Person.ContactFax
+  - SuperOffice.WebApi.Data.Person.ContactFullName
+  - SuperOffice.WebApi.Data.Person.ContactId
+  - SuperOffice.WebApi.Data.Person.ContactName
+  - SuperOffice.WebApi.Data.Person.ContactOrgNr
+  - SuperOffice.WebApi.Data.Person.ContactPhone
+  - SuperOffice.WebApi.Data.Person.CountryId
+  - SuperOffice.WebApi.Data.Person.Description
+  - SuperOffice.WebApi.Data.Person.DirectPhone
+  - SuperOffice.WebApi.Data.Person.Email
+  - SuperOffice.WebApi.Data.Person.EmailName
+  - SuperOffice.WebApi.Data.Person.FaxPhone
+  - SuperOffice.WebApi.Data.Person.Firstname
+  - SuperOffice.WebApi.Data.Person.FormalName
+  - SuperOffice.WebApi.Data.Person.FullName
+  - SuperOffice.WebApi.Data.Person.Kanafname
+  - SuperOffice.WebApi.Data.Person.Kanalname
+  - SuperOffice.WebApi.Data.Person.Lastname
+  - SuperOffice.WebApi.Data.Person.MiddleName
+  - SuperOffice.WebApi.Data.Person.MobilePhone
+  - SuperOffice.WebApi.Data.Person.Mrmrs
+  - SuperOffice.WebApi.Data.Person.PersonId
+  - SuperOffice.WebApi.Data.Person.Position
+  - SuperOffice.WebApi.Data.Person.Post1
+  - SuperOffice.WebApi.Data.Person.Post2
+  - SuperOffice.WebApi.Data.Person.Post3
+  - SuperOffice.WebApi.Data.Person.Rank
+  - SuperOffice.WebApi.Data.Person.Retired
+  - SuperOffice.WebApi.Data.Person.SupportAssociateId
+  - SuperOffice.WebApi.Data.Person.SupportLanguageId
+  - SuperOffice.WebApi.Data.Person.TicketPriorityId
+  - SuperOffice.WebApi.Data.Person.Title
+  - SuperOffice.WebApi.Data.Person.UsePersonAddress
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: Person
+  fullName: SuperOffice.WebApi.Data.Person
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for Person.\n\n"
+  example:
+  - "\nGet Person 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new PersonAgent(configuration);\nvar person = agent.GetPerson( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class Person : Carrier'
+    content.vb: >-
+      Public Class Person
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Person.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Person.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Person()
+  nameWithType: Person.Person()
+  fullName: SuperOffice.WebApi.Data.Person.Person()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public Person()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Person.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Person.Position
+  commentId: P:SuperOffice.WebApi.Data.Person.Position
+  id: Position
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: Person.Position
+  fullName: SuperOffice.WebApi.Data.Person.Position
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe position. This is a predefined SuperOffice value, different from Title\n"
+  syntax:
+    content: public virtual string Position { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Position As String
+  overload: SuperOffice.WebApi.Data.Person.Position*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.PersonId
+  commentId: P:SuperOffice.WebApi.Data.Person.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: Person.PersonId
+  fullName: SuperOffice.WebApi.Data.Person.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.Person.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Mrmrs
+  commentId: P:SuperOffice.WebApi.Data.Person.Mrmrs
+  id: Mrmrs
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Mrmrs
+  nameWithType: Person.Mrmrs
+  fullName: SuperOffice.WebApi.Data.Person.Mrmrs
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\ne.g. Mrs   sex_title\n"
+  syntax:
+    content: public virtual string Mrmrs { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Mrmrs As String
+  overload: SuperOffice.WebApi.Data.Person.Mrmrs*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Firstname
+  commentId: P:SuperOffice.WebApi.Data.Person.Firstname
+  id: Firstname
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: Person.Firstname
+  fullName: SuperOffice.WebApi.Data.Person.Firstname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFirst name\n"
+  syntax:
+    content: public virtual string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Firstname As String
+  overload: SuperOffice.WebApi.Data.Person.Firstname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Lastname
+  commentId: P:SuperOffice.WebApi.Data.Person.Lastname
+  id: Lastname
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: Person.Lastname
+  fullName: SuperOffice.WebApi.Data.Person.Lastname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nLast name\n"
+  syntax:
+    content: public virtual string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Lastname As String
+  overload: SuperOffice.WebApi.Data.Person.Lastname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.MiddleName
+  commentId: P:SuperOffice.WebApi.Data.Person.MiddleName
+  id: MiddleName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: MiddleName
+  nameWithType: Person.MiddleName
+  fullName: SuperOffice.WebApi.Data.Person.MiddleName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nMiddle name or &apos;van&apos; etc.\n"
+  syntax:
+    content: public virtual string MiddleName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MiddleName As String
+  overload: SuperOffice.WebApi.Data.Person.MiddleName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Title
+  commentId: P:SuperOffice.WebApi.Data.Person.Title
+  id: Title
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: Person.Title
+  fullName: SuperOffice.WebApi.Data.Person.Title
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTitle\n"
+  syntax:
+    content: public virtual string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Title As String
+  overload: SuperOffice.WebApi.Data.Person.Title*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Description
+  commentId: P:SuperOffice.WebApi.Data.Person.Description
+  id: Description
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: Person.Description
+  fullName: SuperOffice.WebApi.Data.Person.Description
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nInfo text/description on person. \n"
+  syntax:
+    content: public virtual string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Description As String
+  overload: SuperOffice.WebApi.Data.Person.Description*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Email
+  commentId: P:SuperOffice.WebApi.Data.Person.Email
+  id: Email
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: Person.Email
+  fullName: SuperOffice.WebApi.Data.Person.Email
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nFirst email on contact person.\n"
+  syntax:
+    content: public virtual string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Email As String
+  overload: SuperOffice.WebApi.Data.Person.Email*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.FullName
+  commentId: P:SuperOffice.WebApi.Data.Person.FullName
+  id: FullName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: FullName
+  nameWithType: Person.FullName
+  fullName: SuperOffice.WebApi.Data.Person.FullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet the persons full name (internal name used in clients for employees). \n"
+  syntax:
+    content: public virtual string FullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FullName As String
+  overload: SuperOffice.WebApi.Data.Person.FullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.DirectPhone
+  commentId: P:SuperOffice.WebApi.Data.Person.DirectPhone
+  id: DirectPhone
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: DirectPhone
+  nameWithType: Person.DirectPhone
+  fullName: SuperOffice.WebApi.Data.Person.DirectPhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the direct phone that belong to the contact person.\n"
+  syntax:
+    content: public virtual string DirectPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property DirectPhone As String
+  overload: SuperOffice.WebApi.Data.Person.DirectPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.FormalName
+  commentId: P:SuperOffice.WebApi.Data.Person.FormalName
+  id: FormalName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: FormalName
+  nameWithType: Person.FormalName
+  fullName: SuperOffice.WebApi.Data.Person.FormalName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet formal name for a person, as used in labels. (Full name + person title + academic title)\n"
+  syntax:
+    content: public virtual string FormalName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormalName As String
+  overload: SuperOffice.WebApi.Data.Person.FormalName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.CountryId
+  commentId: P:SuperOffice.WebApi.Data.Person.CountryId
+  id: CountryId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: CountryId
+  nameWithType: Person.CountryId
+  fullName: SuperOffice.WebApi.Data.Person.CountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCountry\n"
+  syntax:
+    content: public virtual int CountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property CountryId As Integer
+  overload: SuperOffice.WebApi.Data.Person.CountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactId
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactId
+  id: ContactId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: Person.ContactId
+  fullName: SuperOffice.WebApi.Data.Person.ContactId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOwning contact ID\n"
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.WebApi.Data.Person.ContactId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactName
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactName
+  id: ContactName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactName
+  nameWithType: Person.ContactName
+  fullName: SuperOffice.WebApi.Data.Person.ContactName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe persons company name\n"
+  syntax:
+    content: public virtual string ContactName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactName As String
+  overload: SuperOffice.WebApi.Data.Person.ContactName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Retired
+  commentId: P:SuperOffice.WebApi.Data.Person.Retired
+  id: Retired
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Retired
+  nameWithType: Person.Retired
+  fullName: SuperOffice.WebApi.Data.Person.Retired
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1 = the user is retired and should have no rights, not appear in lists, etc.\n"
+  syntax:
+    content: public virtual short Retired { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Retired As Short
+  overload: SuperOffice.WebApi.Data.Person.Retired*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Rank
+  commentId: P:SuperOffice.WebApi.Data.Person.Rank
+  id: Rank
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: Person.Rank
+  fullName: SuperOffice.WebApi.Data.Person.Rank
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDisplay sort sequence for default sort order\n"
+  syntax:
+    content: public virtual short Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property Rank As Short
+  overload: SuperOffice.WebApi.Data.Person.Rank*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ActiveInterests
+  commentId: P:SuperOffice.WebApi.Data.Person.ActiveInterests
+  id: ActiveInterests
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ActiveInterests
+  nameWithType: Person.ActiveInterests
+  fullName: SuperOffice.WebApi.Data.Person.ActiveInterests
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nNumber of records in pintr table; select count(*) from pintr pi where pi.person_id = this.person_id == activeInterests is always true\n"
+  syntax:
+    content: public virtual short ActiveInterests { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property ActiveInterests As Short
+  overload: SuperOffice.WebApi.Data.Person.ActiveInterests*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactDepartment
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactDepartment
+  id: ContactDepartment
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactDepartment
+  nameWithType: Person.ContactDepartment
+  fullName: SuperOffice.WebApi.Data.Person.ContactDepartment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe persons contact department\n"
+  syntax:
+    content: public virtual string ContactDepartment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactDepartment As String
+  overload: SuperOffice.WebApi.Data.Person.ContactDepartment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactCountryId
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactCountryId
+  id: ContactCountryId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactCountryId
+  nameWithType: Person.ContactCountryId
+  fullName: SuperOffice.WebApi.Data.Person.ContactCountryId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe persons contact country id\n"
+  syntax:
+    content: public virtual int ContactCountryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactCountryId As Integer
+  overload: SuperOffice.WebApi.Data.Person.ContactCountryId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactOrgNr
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactOrgNr
+  id: ContactOrgNr
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactOrgNr
+  nameWithType: Person.ContactOrgNr
+  fullName: SuperOffice.WebApi.Data.Person.ContactOrgNr
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe persons contact organization number\n"
+  syntax:
+    content: public virtual string ContactOrgNr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactOrgNr As String
+  overload: SuperOffice.WebApi.Data.Person.ContactOrgNr*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.FaxPhone
+  commentId: P:SuperOffice.WebApi.Data.Person.FaxPhone
+  id: FaxPhone
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: FaxPhone
+  nameWithType: Person.FaxPhone
+  fullName: SuperOffice.WebApi.Data.Person.FaxPhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the fax phone that belong to the contact person.\n"
+  syntax:
+    content: public virtual string FaxPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FaxPhone As String
+  overload: SuperOffice.WebApi.Data.Person.FaxPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.MobilePhone
+  commentId: P:SuperOffice.WebApi.Data.Person.MobilePhone
+  id: MobilePhone
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: MobilePhone
+  nameWithType: Person.MobilePhone
+  fullName: SuperOffice.WebApi.Data.Person.MobilePhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the mobile phone that belong to the contact person.\n"
+  syntax:
+    content: public virtual string MobilePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property MobilePhone As String
+  overload: SuperOffice.WebApi.Data.Person.MobilePhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactPhone
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactPhone
+  id: ContactPhone
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactPhone
+  nameWithType: Person.ContactPhone
+  fullName: SuperOffice.WebApi.Data.Person.ContactPhone
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nReturns the direct phone that belong to the persons contact.\n"
+  syntax:
+    content: public virtual string ContactPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactPhone As String
+  overload: SuperOffice.WebApi.Data.Person.ContactPhone*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.AssociateName
+  commentId: P:SuperOffice.WebApi.Data.Person.AssociateName
+  id: AssociateName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: AssociateName
+  nameWithType: Person.AssociateName
+  fullName: SuperOffice.WebApi.Data.Person.AssociateName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nName of the person&apos;s owner\n"
+  syntax:
+    content: public virtual string AssociateName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property AssociateName As String
+  overload: SuperOffice.WebApi.Data.Person.AssociateName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.AssociateId
+  commentId: P:SuperOffice.WebApi.Data.Person.AssociateId
+  id: AssociateId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: Person.AssociateId
+  fullName: SuperOffice.WebApi.Data.Person.AssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nId of the item&apos;s owner (Associate id)\n"
+  syntax:
+    content: public virtual int AssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property AssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Person.AssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.UsePersonAddress
+  commentId: P:SuperOffice.WebApi.Data.Person.UsePersonAddress
+  id: UsePersonAddress
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: UsePersonAddress
+  nameWithType: Person.UsePersonAddress
+  fullName: SuperOffice.WebApi.Data.Person.UsePersonAddress
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nIf 1, use person&apos;s address for mailing instead of company address\n"
+  syntax:
+    content: public virtual bool UsePersonAddress { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property UsePersonAddress As Boolean
+  overload: SuperOffice.WebApi.Data.Person.UsePersonAddress*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactFax
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactFax
+  id: ContactFax
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactFax
+  nameWithType: Person.ContactFax
+  fullName: SuperOffice.WebApi.Data.Person.ContactFax
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nActual phone number as eneterd by the user\n"
+  syntax:
+    content: public virtual string ContactFax { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactFax As String
+  overload: SuperOffice.WebApi.Data.Person.ContactFax*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Kanafname
+  commentId: P:SuperOffice.WebApi.Data.Person.Kanafname
+  id: Kanafname
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Kanafname
+  nameWithType: Person.Kanafname
+  fullName: SuperOffice.WebApi.Data.Person.Kanafname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nKana first name, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Kanafname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Kanafname As String
+  overload: SuperOffice.WebApi.Data.Person.Kanafname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Kanalname
+  commentId: P:SuperOffice.WebApi.Data.Person.Kanalname
+  id: Kanalname
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Kanalname
+  nameWithType: Person.Kanalname
+  fullName: SuperOffice.WebApi.Data.Person.Kanalname
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nKana last name, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Kanalname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Kanalname As String
+  overload: SuperOffice.WebApi.Data.Person.Kanalname*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Post1
+  commentId: P:SuperOffice.WebApi.Data.Person.Post1
+  id: Post1
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Post1
+  nameWithType: Person.Post1
+  fullName: SuperOffice.WebApi.Data.Person.Post1
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Post1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post1 As String
+  overload: SuperOffice.WebApi.Data.Person.Post1*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Post2
+  commentId: P:SuperOffice.WebApi.Data.Person.Post2
+  id: Post2
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Post2
+  nameWithType: Person.Post2
+  fullName: SuperOffice.WebApi.Data.Person.Post2
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Post2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post2 As String
+  overload: SuperOffice.WebApi.Data.Person.Post2*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.Post3
+  commentId: P:SuperOffice.WebApi.Data.Person.Post3
+  id: Post3
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: Post3
+  nameWithType: Person.Post3
+  fullName: SuperOffice.WebApi.Data.Person.Post3
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPostal address, used in Japanese versions only\n"
+  syntax:
+    content: public virtual string Post3 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Post3 As String
+  overload: SuperOffice.WebApi.Data.Person.Post3*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.EmailName
+  commentId: P:SuperOffice.WebApi.Data.Person.EmailName
+  id: EmailName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: EmailName
+  nameWithType: Person.EmailName
+  fullName: SuperOffice.WebApi.Data.Person.EmailName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nE-mail description\n"
+  syntax:
+    content: public virtual string EmailName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property EmailName As String
+  overload: SuperOffice.WebApi.Data.Person.EmailName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ContactFullName
+  commentId: P:SuperOffice.WebApi.Data.Person.ContactFullName
+  id: ContactFullName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ContactFullName
+  nameWithType: Person.ContactFullName
+  fullName: SuperOffice.WebApi.Data.Person.ContactFullName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCompany full name + department\n"
+  syntax:
+    content: public virtual string ContactFullName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ContactFullName As String
+  overload: SuperOffice.WebApi.Data.Person.ContactFullName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.ActiveErpLinks
+  commentId: P:SuperOffice.WebApi.Data.Person.ActiveErpLinks
+  id: ActiveErpLinks
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: ActiveErpLinks
+  nameWithType: Person.ActiveErpLinks
+  fullName: SuperOffice.WebApi.Data.Person.ActiveErpLinks
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nHow many active ERP links are there for this person?\n"
+  syntax:
+    content: public virtual int ActiveErpLinks { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ActiveErpLinks As Integer
+  overload: SuperOffice.WebApi.Data.Person.ActiveErpLinks*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.TicketPriorityId
+  commentId: P:SuperOffice.WebApi.Data.Person.TicketPriorityId
+  id: TicketPriorityId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: TicketPriorityId
+  nameWithType: Person.TicketPriorityId
+  fullName: SuperOffice.WebApi.Data.Person.TicketPriorityId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nTicket priority ID\n"
+  syntax:
+    content: public virtual int TicketPriorityId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property TicketPriorityId As Integer
+  overload: SuperOffice.WebApi.Data.Person.TicketPriorityId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.SupportLanguageId
+  commentId: P:SuperOffice.WebApi.Data.Person.SupportLanguageId
+  id: SupportLanguageId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: SupportLanguageId
+  nameWithType: Person.SupportLanguageId
+  fullName: SuperOffice.WebApi.Data.Person.SupportLanguageId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nSupport priority ID\n"
+  syntax:
+    content: public virtual int SupportLanguageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SupportLanguageId As Integer
+  overload: SuperOffice.WebApi.Data.Person.SupportLanguageId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.SupportAssociateId
+  commentId: P:SuperOffice.WebApi.Data.Person.SupportAssociateId
+  id: SupportAssociateId
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: SupportAssociateId
+  nameWithType: Person.SupportAssociateId
+  fullName: SuperOffice.WebApi.Data.Person.SupportAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOur support contact for this person\n"
+  syntax:
+    content: public virtual int SupportAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property SupportAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Person.SupportAssociateId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.Person.CategoryName
+  commentId: P:SuperOffice.WebApi.Data.Person.CategoryName
+  id: CategoryName
+  parent: SuperOffice.WebApi.Data.Person
+  langs:
+  - csharp
+  - vb
+  name: CategoryName
+  nameWithType: Person.CategoryName
+  fullName: SuperOffice.WebApi.Data.Person.CategoryName
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe category list item name\n"
+  syntax:
+    content: public virtual string CategoryName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property CategoryName As String
+  overload: SuperOffice.WebApi.Data.Person.CategoryName*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Person.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.#ctor
+  isExternal: true
+  name: Person
+  nameWithType: Person.Person
+  fullName: SuperOffice.WebApi.Data.Person.Person
+- uid: SuperOffice.WebApi.Data.Person.Position*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Position
+  isExternal: true
+  name: Position
+  nameWithType: Person.Position
+  fullName: SuperOffice.WebApi.Data.Person.Position
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Person.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: Person.PersonId
+  fullName: SuperOffice.WebApi.Data.Person.PersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Person.Mrmrs*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Mrmrs
+  isExternal: true
+  name: Mrmrs
+  nameWithType: Person.Mrmrs
+  fullName: SuperOffice.WebApi.Data.Person.Mrmrs
+- uid: SuperOffice.WebApi.Data.Person.Firstname*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Firstname
+  isExternal: true
+  name: Firstname
+  nameWithType: Person.Firstname
+  fullName: SuperOffice.WebApi.Data.Person.Firstname
+- uid: SuperOffice.WebApi.Data.Person.Lastname*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Lastname
+  isExternal: true
+  name: Lastname
+  nameWithType: Person.Lastname
+  fullName: SuperOffice.WebApi.Data.Person.Lastname
+- uid: SuperOffice.WebApi.Data.Person.MiddleName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.MiddleName
+  isExternal: true
+  name: MiddleName
+  nameWithType: Person.MiddleName
+  fullName: SuperOffice.WebApi.Data.Person.MiddleName
+- uid: SuperOffice.WebApi.Data.Person.Title*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Title
+  isExternal: true
+  name: Title
+  nameWithType: Person.Title
+  fullName: SuperOffice.WebApi.Data.Person.Title
+- uid: SuperOffice.WebApi.Data.Person.Description*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Description
+  isExternal: true
+  name: Description
+  nameWithType: Person.Description
+  fullName: SuperOffice.WebApi.Data.Person.Description
+- uid: SuperOffice.WebApi.Data.Person.Email*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Email
+  isExternal: true
+  name: Email
+  nameWithType: Person.Email
+  fullName: SuperOffice.WebApi.Data.Person.Email
+- uid: SuperOffice.WebApi.Data.Person.FullName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.FullName
+  isExternal: true
+  name: FullName
+  nameWithType: Person.FullName
+  fullName: SuperOffice.WebApi.Data.Person.FullName
+- uid: SuperOffice.WebApi.Data.Person.DirectPhone*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.DirectPhone
+  isExternal: true
+  name: DirectPhone
+  nameWithType: Person.DirectPhone
+  fullName: SuperOffice.WebApi.Data.Person.DirectPhone
+- uid: SuperOffice.WebApi.Data.Person.FormalName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.FormalName
+  isExternal: true
+  name: FormalName
+  nameWithType: Person.FormalName
+  fullName: SuperOffice.WebApi.Data.Person.FormalName
+- uid: SuperOffice.WebApi.Data.Person.CountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.CountryId
+  isExternal: true
+  name: CountryId
+  nameWithType: Person.CountryId
+  fullName: SuperOffice.WebApi.Data.Person.CountryId
+- uid: SuperOffice.WebApi.Data.Person.ContactId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactId
+  isExternal: true
+  name: ContactId
+  nameWithType: Person.ContactId
+  fullName: SuperOffice.WebApi.Data.Person.ContactId
+- uid: SuperOffice.WebApi.Data.Person.ContactName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactName
+  isExternal: true
+  name: ContactName
+  nameWithType: Person.ContactName
+  fullName: SuperOffice.WebApi.Data.Person.ContactName
+- uid: SuperOffice.WebApi.Data.Person.Retired*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Retired
+  isExternal: true
+  name: Retired
+  nameWithType: Person.Retired
+  fullName: SuperOffice.WebApi.Data.Person.Retired
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.Person.Rank*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: Person.Rank
+  fullName: SuperOffice.WebApi.Data.Person.Rank
+- uid: SuperOffice.WebApi.Data.Person.ActiveInterests*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ActiveInterests
+  isExternal: true
+  name: ActiveInterests
+  nameWithType: Person.ActiveInterests
+  fullName: SuperOffice.WebApi.Data.Person.ActiveInterests
+- uid: SuperOffice.WebApi.Data.Person.ContactDepartment*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactDepartment
+  isExternal: true
+  name: ContactDepartment
+  nameWithType: Person.ContactDepartment
+  fullName: SuperOffice.WebApi.Data.Person.ContactDepartment
+- uid: SuperOffice.WebApi.Data.Person.ContactCountryId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactCountryId
+  isExternal: true
+  name: ContactCountryId
+  nameWithType: Person.ContactCountryId
+  fullName: SuperOffice.WebApi.Data.Person.ContactCountryId
+- uid: SuperOffice.WebApi.Data.Person.ContactOrgNr*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactOrgNr
+  isExternal: true
+  name: ContactOrgNr
+  nameWithType: Person.ContactOrgNr
+  fullName: SuperOffice.WebApi.Data.Person.ContactOrgNr
+- uid: SuperOffice.WebApi.Data.Person.FaxPhone*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.FaxPhone
+  isExternal: true
+  name: FaxPhone
+  nameWithType: Person.FaxPhone
+  fullName: SuperOffice.WebApi.Data.Person.FaxPhone
+- uid: SuperOffice.WebApi.Data.Person.MobilePhone*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.MobilePhone
+  isExternal: true
+  name: MobilePhone
+  nameWithType: Person.MobilePhone
+  fullName: SuperOffice.WebApi.Data.Person.MobilePhone
+- uid: SuperOffice.WebApi.Data.Person.ContactPhone*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactPhone
+  isExternal: true
+  name: ContactPhone
+  nameWithType: Person.ContactPhone
+  fullName: SuperOffice.WebApi.Data.Person.ContactPhone
+- uid: SuperOffice.WebApi.Data.Person.AssociateName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.AssociateName
+  isExternal: true
+  name: AssociateName
+  nameWithType: Person.AssociateName
+  fullName: SuperOffice.WebApi.Data.Person.AssociateName
+- uid: SuperOffice.WebApi.Data.Person.AssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.AssociateId
+  isExternal: true
+  name: AssociateId
+  nameWithType: Person.AssociateId
+  fullName: SuperOffice.WebApi.Data.Person.AssociateId
+- uid: SuperOffice.WebApi.Data.Person.UsePersonAddress*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.UsePersonAddress
+  isExternal: true
+  name: UsePersonAddress
+  nameWithType: Person.UsePersonAddress
+  fullName: SuperOffice.WebApi.Data.Person.UsePersonAddress
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Data.Person.ContactFax*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactFax
+  isExternal: true
+  name: ContactFax
+  nameWithType: Person.ContactFax
+  fullName: SuperOffice.WebApi.Data.Person.ContactFax
+- uid: SuperOffice.WebApi.Data.Person.Kanafname*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Kanafname
+  isExternal: true
+  name: Kanafname
+  nameWithType: Person.Kanafname
+  fullName: SuperOffice.WebApi.Data.Person.Kanafname
+- uid: SuperOffice.WebApi.Data.Person.Kanalname*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Kanalname
+  isExternal: true
+  name: Kanalname
+  nameWithType: Person.Kanalname
+  fullName: SuperOffice.WebApi.Data.Person.Kanalname
+- uid: SuperOffice.WebApi.Data.Person.Post1*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Post1
+  isExternal: true
+  name: Post1
+  nameWithType: Person.Post1
+  fullName: SuperOffice.WebApi.Data.Person.Post1
+- uid: SuperOffice.WebApi.Data.Person.Post2*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Post2
+  isExternal: true
+  name: Post2
+  nameWithType: Person.Post2
+  fullName: SuperOffice.WebApi.Data.Person.Post2
+- uid: SuperOffice.WebApi.Data.Person.Post3*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.Post3
+  isExternal: true
+  name: Post3
+  nameWithType: Person.Post3
+  fullName: SuperOffice.WebApi.Data.Person.Post3
+- uid: SuperOffice.WebApi.Data.Person.EmailName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.EmailName
+  isExternal: true
+  name: EmailName
+  nameWithType: Person.EmailName
+  fullName: SuperOffice.WebApi.Data.Person.EmailName
+- uid: SuperOffice.WebApi.Data.Person.ContactFullName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ContactFullName
+  isExternal: true
+  name: ContactFullName
+  nameWithType: Person.ContactFullName
+  fullName: SuperOffice.WebApi.Data.Person.ContactFullName
+- uid: SuperOffice.WebApi.Data.Person.ActiveErpLinks*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.ActiveErpLinks
+  isExternal: true
+  name: ActiveErpLinks
+  nameWithType: Person.ActiveErpLinks
+  fullName: SuperOffice.WebApi.Data.Person.ActiveErpLinks
+- uid: SuperOffice.WebApi.Data.Person.TicketPriorityId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.TicketPriorityId
+  isExternal: true
+  name: TicketPriorityId
+  nameWithType: Person.TicketPriorityId
+  fullName: SuperOffice.WebApi.Data.Person.TicketPriorityId
+- uid: SuperOffice.WebApi.Data.Person.SupportLanguageId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.SupportLanguageId
+  isExternal: true
+  name: SupportLanguageId
+  nameWithType: Person.SupportLanguageId
+  fullName: SuperOffice.WebApi.Data.Person.SupportLanguageId
+- uid: SuperOffice.WebApi.Data.Person.SupportAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.SupportAssociateId
+  isExternal: true
+  name: SupportAssociateId
+  nameWithType: Person.SupportAssociateId
+  fullName: SuperOffice.WebApi.Data.Person.SupportAssociateId
+- uid: SuperOffice.WebApi.Data.Person.CategoryName*
+  commentId: Overload:SuperOffice.WebApi.Data.Person.CategoryName
+  isExternal: true
+  name: CategoryName
+  nameWithType: Person.CategoryName
+  fullName: SuperOffice.WebApi.Data.Person.CategoryName

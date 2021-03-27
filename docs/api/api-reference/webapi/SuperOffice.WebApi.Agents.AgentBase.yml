@@ -1,0 +1,1160 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Agents.AgentBase
+  commentId: T:SuperOffice.WebApi.Agents.AgentBase
+  id: AgentBase
+  parent: SuperOffice.WebApi.Agents
+  children:
+  - SuperOffice.WebApi.Agents.AgentBase.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.AgentBase.#ctor(System.String,System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.AgentBase._binary
+  - SuperOffice.WebApi.Agents.AgentBase._client
+  - SuperOffice.WebApi.Agents.AgentBase._config
+  - SuperOffice.WebApi.Agents.AgentBase._json
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  - SuperOffice.WebApi.Agents.AgentBase.Client
+  - SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  - SuperOffice.WebApi.Agents.AgentBase.Configuration
+  - SuperOffice.WebApi.Agents.AgentBase.Dispose
+  - SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  - SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  - SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  - SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  - SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  langs:
+  - csharp
+  - vb
+  name: AgentBase
+  nameWithType: AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nBase class for client Agents. Uses a <xref href=\"System.Net.Http.HttpClient\" data-throw-if-not-resolved=\"false\"></xref> to call the SuperOffice REST API.\nWill use a default implementation with gzip and progress callbacks if nothing is specified.\n"
+  remarks: Disposes of the client when the agent is disposed.
+  syntax:
+    content: 'public class AgentBase : Object, IDisposable'
+    content.vb: >-
+      Public Class AgentBase
+          Inherits Object
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - SuperOffice.WebApi.Agents.AIAgent
+  - SuperOffice.WebApi.Agents.ApiAgent
+  - SuperOffice.WebApi.Agents.AppointmentAgent
+  - SuperOffice.WebApi.Agents.ArchiveAgent
+  - SuperOffice.WebApi.Agents.AssociateAgent
+  - SuperOffice.WebApi.Agents.AudienceAgent
+  - SuperOffice.WebApi.Agents.BatchAgent
+  - SuperOffice.WebApi.Agents.BLOBAgent
+  - SuperOffice.WebApi.Agents.BulkUpdateAgent
+  - SuperOffice.WebApi.Agents.ChatAgent
+  - SuperOffice.WebApi.Agents.ConfigurationAgent
+  - SuperOffice.WebApi.Agents.ContactAgent
+  - SuperOffice.WebApi.Agents.CRMScriptAgent
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent
+  - SuperOffice.WebApi.Agents.DashboardAgent
+  - SuperOffice.WebApi.Agents.DatabaseAgent
+  - SuperOffice.WebApi.Agents.DatabaseTableAgent
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent
+  - SuperOffice.WebApi.Agents.DocumentAgent
+  - SuperOffice.WebApi.Agents.EMailAgent
+  - SuperOffice.WebApi.Agents.ErpSyncAgent
+  - SuperOffice.WebApi.Agents.FavouriteAgent
+  - SuperOffice.WebApi.Agents.FindAgent
+  - SuperOffice.WebApi.Agents.ForeignSystemAgent
+  - SuperOffice.WebApi.Agents.FreeTextAgent
+  - SuperOffice.WebApi.Agents.ImportAgent
+  - SuperOffice.WebApi.Agents.LicenseAgent
+  - SuperOffice.WebApi.Agents.ListAgent
+  - SuperOffice.WebApi.Agents.MarketingAgent
+  - SuperOffice.WebApi.Agents.MDOAgent
+  - SuperOffice.WebApi.Agents.MessagingAgent
+  - SuperOffice.WebApi.Agents.NavigatorAgent
+  - SuperOffice.WebApi.Agents.NumberAllocationAgent
+  - SuperOffice.WebApi.Agents.OidcConfigAgent
+  - SuperOffice.WebApi.Agents.PersonAgent
+  - SuperOffice.WebApi.Agents.PhoneListAgent
+  - SuperOffice.WebApi.Agents.PocketAgent
+  - SuperOffice.WebApi.Agents.PreferenceAgent
+  - SuperOffice.WebApi.Agents.PreviewsAgent
+  - SuperOffice.WebApi.Agents.ProjectAgent
+  - SuperOffice.WebApi.Agents.QuoteAgent
+  - SuperOffice.WebApi.Agents.RelationAgent
+  - SuperOffice.WebApi.Agents.ReplicationAgent
+  - SuperOffice.WebApi.Agents.ReportAgent
+  - SuperOffice.WebApi.Agents.ResourceAgent
+  - SuperOffice.WebApi.Agents.SaintAgent
+  - SuperOffice.WebApi.Agents.SaleAgent
+  - SuperOffice.WebApi.Agents.SelectionAgent
+  - SuperOffice.WebApi.Agents.SentryAgent
+  - SuperOffice.WebApi.Agents.TicketAgent
+  - SuperOffice.WebApi.Agents.TimeZoneAgent
+  - SuperOffice.WebApi.Agents.TooltipsAgent
+  - SuperOffice.WebApi.Agents.UserAgent
+  - SuperOffice.WebApi.Agents.UserDefinedFieldInfoAgent
+  - SuperOffice.WebApi.Agents.ViewStateAgent
+  - SuperOffice.WebApi.Agents.WebhookAgent
+  implements:
+  - System.IDisposable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Agents.AgentBase._json
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._json
+  id: _json
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: _json
+  nameWithType: AgentBase._json
+  fullName: SuperOffice.WebApi.Agents.AgentBase._json
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected const string _json = "application/json"
+    return:
+      type: System.String
+    content.vb: Protected Const _json As String = "application/json"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.WebApi.Agents.AgentBase._binary
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._binary
+  id: _binary
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: _binary
+  nameWithType: AgentBase._binary
+  fullName: SuperOffice.WebApi.Agents.AgentBase._binary
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected const string _binary = "application/octet-stream"
+    return:
+      type: System.String
+    content.vb: Protected Const _binary As String = "application/octet-stream"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.WebApi.Agents.AgentBase._config
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._config
+  id: _config
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: _config
+  nameWithType: AgentBase._config
+  fullName: SuperOffice.WebApi.Agents.AgentBase._config
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected WebApiOptions _config
+    return:
+      type: SuperOffice.WebApi.WebApiOptions
+    content.vb: Protected _config As WebApiOptions
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase._client
+  commentId: F:SuperOffice.WebApi.Agents.AgentBase._client
+  id: _client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: _client
+  nameWithType: AgentBase._client
+  fullName: SuperOffice.WebApi.Agents.AgentBase._client
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected HttpClient _client
+    return:
+      type: System.Net.Http.HttpClient
+    content.vb: Protected _client As HttpClient
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.#ctor(System.String,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.#ctor(System.String,System.Net.Http.HttpClient)
+  id: '#ctor(System.String,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: AgentBase(String, HttpClient)
+  nameWithType: AgentBase.AgentBase(String, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.AgentBase(System.String, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent base class.\n"
+  syntax:
+    content: protected AgentBase(string baseUrl, HttpClient httpClient = null)
+    parameters:
+    - id: baseUrl
+      type: System.String
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    content.vb: Protected Sub New(baseUrl As String, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.AgentBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
+  id: '#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)'
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: AgentBase(WebApiOptions, HttpClient)
+  nameWithType: AgentBase.AgentBase(WebApiOptions, HttpClient)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.AgentBase(SuperOffice.WebApi.WebApiOptions, System.Net.Http.HttpClient)
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nAgent base class.\n"
+  syntax:
+    content: protected AgentBase(WebApiOptions configuration, HttpClient httpClient = null)
+    parameters:
+    - id: configuration
+      type: SuperOffice.WebApi.WebApiOptions
+    - id: httpClient
+      type: System.Net.Http.HttpClient
+    content.vb: Protected Sub New(configuration As WebApiOptions, httpClient As HttpClient = Nothing)
+  overload: SuperOffice.WebApi.Agents.AgentBase.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  id: Merge(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: Merge(RequestOptions)
+  nameWithType: AgentBase.Merge(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected WebApiOptions Merge(RequestOptions options)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.RequestOptions
+    return:
+      type: SuperOffice.WebApi.WebApiOptions
+    content.vb: Protected Function Merge(options As RequestOptions) As WebApiOptions
+  overload: SuperOffice.WebApi.Agents.AgentBase.Merge*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  id: BuildRequestFromObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected HttpRequestMessage BuildRequestFromObject(HttpMethod method, string url, object body, WebApiOptions config, string contentType)
+    parameters:
+    - id: method
+      type: System.Net.Http.HttpMethod
+    - id: url
+      type: System.String
+    - id: body
+      type: System.Object
+    - id: config
+      type: SuperOffice.WebApi.WebApiOptions
+    - id: contentType
+      type: System.String
+    return:
+      type: System.Net.Http.HttpRequestMessage
+    content.vb: Protected Function BuildRequestFromObject(method As HttpMethod, url As String, body As Object, config As WebApiOptions, contentType As String) As HttpRequestMessage
+  overload: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  id: BuildRequestFromStream(System.Net.Http.HttpMethod,System.String,System.IO.Stream,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  nameWithType: AgentBase.BuildRequestFromStream(HttpMethod, String, Stream, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream(System.Net.Http.HttpMethod, System.String, System.IO.Stream, SuperOffice.WebApi.WebApiOptions, System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected HttpRequestMessage BuildRequestFromStream(HttpMethod method, string url, Stream body, WebApiOptions config, string contentType)
+    parameters:
+    - id: method
+      type: System.Net.Http.HttpMethod
+    - id: url
+      type: System.String
+    - id: body
+      type: System.IO.Stream
+    - id: config
+      type: SuperOffice.WebApi.WebApiOptions
+    - id: contentType
+      type: System.String
+    return:
+      type: System.Net.Http.HttpRequestMessage
+    content.vb: Protected Function BuildRequestFromStream(method As HttpMethod, url As String, body As Stream, config As WebApiOptions, contentType As String) As HttpRequestMessage
+  overload: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  id: ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: ParseAuthorization(IAuthorization)
+  nameWithType: AgentBase.ParseAuthorization(IAuthorization)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization(SuperOffice.WebApi.IAuthorization)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nCreates authentication headers based on <xref href=\"SuperOffice.WebApi.IAuthorization\" data-throw-if-not-resolved=\"false\"></xref> scheme and parameter.\n"
+  syntax:
+    content: protected AuthenticationHeaderValue ParseAuthorization(IAuthorization authorization)
+    parameters:
+    - id: authorization
+      type: SuperOffice.WebApi.IAuthorization
+      description: Contains authorization scheme and parameter values.
+    return:
+      type: System.Net.Http.Headers.AuthenticationHeaderValue
+      description: Authorization header.
+    content.vb: Protected Function ParseAuthorization(authorization As IAuthorization) As AuthenticationHeaderValue
+  overload: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  id: CancelRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: CancelRequest()
+  nameWithType: AgentBase.CancelRequest()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUsed by the client to terminate the current method call.\n"
+  syntax:
+    content: public void CancelRequest()
+    content.vb: Public Sub CancelRequest
+  overload: SuperOffice.WebApi.Agents.AgentBase.CancelRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  id: SendRequestObject(System.Net.Http.HttpMethod,System.String,System.Object,SuperOffice.WebApi.WebApiOptions,System.String)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  nameWithType: AgentBase.SendRequestObject(HttpMethod, String, Object, WebApiOptions, String)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject(System.Net.Http.HttpMethod, System.String, System.Object, SuperOffice.WebApi.WebApiOptions, System.String)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected Task<HttpResponseMessage> SendRequestObject(HttpMethod method, string url, object args, WebApiOptions config, string contentType)
+    parameters:
+    - id: method
+      type: System.Net.Http.HttpMethod
+    - id: url
+      type: System.String
+    - id: args
+      type: System.Object
+    - id: config
+      type: SuperOffice.WebApi.WebApiOptions
+    - id: contentType
+      type: System.String
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+    content.vb: Protected Function SendRequestObject(method As HttpMethod, url As String, args As Object, config As WebApiOptions, contentType As String) As Task(Of HttpResponseMessage)
+  overload: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  id: SendRequest(System.Net.Http.HttpRequestMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: SendRequest(HttpRequestMessage)
+  nameWithType: AgentBase.SendRequest(HttpRequestMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest(System.Net.Http.HttpRequestMessage)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nSend request, and throw error exception if not OK.\n"
+  syntax:
+    content: protected Task<HttpResponseMessage> SendRequest(HttpRequestMessage request)
+    parameters:
+    - id: request
+      type: System.Net.Http.HttpRequestMessage
+      description: HTTP Request object
+    return:
+      type: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+      description: HTTP Response message with headers read
+    content.vb: Protected Function SendRequest(request As HttpRequestMessage) As Task(Of HttpResponseMessage)
+  overload: SuperOffice.WebApi.Agents.AgentBase.SendRequest*
+  exceptions:
+  - type: System.Threading.Tasks.TaskCanceledException
+    commentId: T:System.Threading.Tasks.TaskCanceledException
+    description: Thrown when client cancels request using Agent.CancelRequest() method.
+  - type: System.TimeoutException
+    commentId: T:System.TimeoutException
+    description: Thrown when client request surpassed RequestOptions.Timeout timespan.
+  - type: SuperOffice.Exceptions.WebApiException
+    commentId: T:SuperOffice.Exceptions.WebApiException
+    description: Thrown for all other HttpClient exceptions.
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  id: ThrowOnResponseError(System.Net.Http.HttpRequestMessage,System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  nameWithType: AgentBase.ThrowOnResponseError(HttpRequestMessage, HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError(System.Net.Http.HttpRequestMessage, System.Net.Http.HttpResponseMessage)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nReturn NULL on NOT-FOUND errors\n"
+  syntax:
+    content: protected void ThrowOnResponseError(HttpRequestMessage request, HttpResponseMessage response)
+    parameters:
+    - id: request
+      type: System.Net.Http.HttpRequestMessage
+    - id: response
+      type: System.Net.Http.HttpResponseMessage
+    content.vb: Protected Sub ThrowOnResponseError(request As HttpRequestMessage, response As HttpResponseMessage)
+  overload: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  id: ParseResponse``1(System.Net.Http.HttpResponseMessage)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: ParseResponse<T>(HttpResponseMessage)
+  nameWithType: AgentBase.ParseResponse<T>(HttpResponseMessage)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse<T>(System.Net.Http.HttpResponseMessage)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected Task<T> ParseResponse<T>(HttpResponseMessage response)
+    parameters:
+    - id: response
+      type: System.Net.Http.HttpResponseMessage
+    typeParameters:
+    - id: T
+    return:
+      type: System.Threading.Tasks.Task{{T}}
+    content.vb: Protected Function ParseResponse(Of T)(response As HttpResponseMessage) As Task(Of T)
+  overload: SuperOffice.WebApi.Agents.AgentBase.ParseResponse*
+  nameWithType.vb: AgentBase.ParseResponse(Of T)(HttpResponseMessage)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.WebApi.Agents.AgentBase.ParseResponse(Of T)(System.Net.Http.HttpResponseMessage)
+  name.vb: ParseResponse(Of T)(HttpResponseMessage)
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  id: Finally(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: Finally(RequestOptions)
+  nameWithType: AgentBase.Finally(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  syntax:
+    content: protected void Finally(RequestOptions options)
+    parameters:
+    - id: options
+      type: SuperOffice.WebApi.RequestOptions
+    content.vb: Protected Sub Finally(options As RequestOptions)
+  overload: SuperOffice.WebApi.Agents.AgentBase.Finally*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose
+  commentId: M:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  id: Dispose
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: AgentBase.Dispose()
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose()
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nDisposes of the HTTP Client.\n"
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: SuperOffice.WebApi.Agents.AgentBase.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  id: Configuration
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nConfiguration this agent was initalized with.\n"
+  syntax:
+    content: public WebApiOptions Configuration { get; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.WebApiOptions
+    content.vb: Public ReadOnly Property Configuration As WebApiOptions
+  overload: SuperOffice.WebApi.Agents.AgentBase.Configuration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.Client
+  id: Client
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nThe HTTP Client we are using. \nCreate a default SO HttpClient if not specified in constructor.\n"
+  syntax:
+    content: protected HttpClient Client { get; }
+    parameters: []
+    return:
+      type: System.Net.Http.HttpClient
+    content.vb: Protected ReadOnly Property Client As HttpClient
+  overload: SuperOffice.WebApi.Agents.AgentBase.Client*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  id: HasRunningRequest
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nIs an HTTP request in flight?\n"
+  syntax:
+    content: public bool HasRunningRequest { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property HasRunningRequest As Boolean
+  overload: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  id: ClientCancellationTokenSource
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nUsed in SendRequest to allow clients to cancel requests.\n"
+  syntax:
+    content: protected CancellationTokenSource ClientCancellationTokenSource { get; set; }
+    parameters: []
+    return:
+      type: System.Threading.CancellationTokenSource
+    content.vb: Protected Property ClientCancellationTokenSource As CancellationTokenSource
+  overload: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  commentId: P:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  id: ProgressListener
+  parent: SuperOffice.WebApi.Agents.AgentBase
+  langs:
+  - csharp
+  - vb
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nProgress callback receiver\n"
+  syntax:
+    content: public IProgressListener ProgressListener { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.IProgressListener
+    content.vb: Public Property ProgressListener As IProgressListener
+  overload: SuperOffice.WebApi.Agents.AgentBase.ProgressListener*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Agents
+  commentId: N:SuperOffice.WebApi.Agents
+  isExternal: true
+  name: SuperOffice.WebApi.Agents
+  nameWithType: SuperOffice.WebApi.Agents
+  fullName: SuperOffice.WebApi.Agents
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.WebApiOptions
+  commentId: T:SuperOffice.WebApi.WebApiOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: WebApiOptions
+  nameWithType: WebApiOptions
+  fullName: SuperOffice.WebApi.WebApiOptions
+- uid: SuperOffice.WebApi
+  commentId: N:SuperOffice.WebApi
+  isExternal: true
+  name: SuperOffice.WebApi
+  nameWithType: SuperOffice.WebApi
+  fullName: SuperOffice.WebApi
+- uid: System.Net.Http.HttpClient
+  isExternal: true
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
+- uid: SuperOffice.WebApi.Agents.AgentBase.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.#ctor
+  isExternal: true
+  name: AgentBase
+  nameWithType: AgentBase.AgentBase
+  fullName: SuperOffice.WebApi.Agents.AgentBase.AgentBase
+- uid: SuperOffice.WebApi.Agents.AgentBase.Merge*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: AgentBase.Merge
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Merge
+- uid: SuperOffice.WebApi.RequestOptions
+  commentId: T:SuperOffice.WebApi.RequestOptions
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: RequestOptions
+  nameWithType: RequestOptions
+  fullName: SuperOffice.WebApi.RequestOptions
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+  isExternal: true
+  name: BuildRequestFromObject
+  nameWithType: AgentBase.BuildRequestFromObject
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromObject
+- uid: System.Net.Http.HttpMethod
+  isExternal: true
+  name: HttpMethod
+  nameWithType: HttpMethod
+  fullName: System.Net.Http.HttpMethod
+- uid: System.Net.Http.HttpRequestMessage
+  isExternal: true
+  name: HttpRequestMessage
+  nameWithType: HttpRequestMessage
+  fullName: System.Net.Http.HttpRequestMessage
+- uid: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+  isExternal: true
+  name: BuildRequestFromStream
+  nameWithType: AgentBase.BuildRequestFromStream
+  fullName: SuperOffice.WebApi.Agents.AgentBase.BuildRequestFromStream
+- uid: System.IO.Stream
+  commentId: '!:System.IO.Stream'
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+  isExternal: true
+  name: ParseAuthorization
+  nameWithType: AgentBase.ParseAuthorization
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseAuthorization
+- uid: SuperOffice.WebApi.IAuthorization
+  commentId: T:SuperOffice.WebApi.IAuthorization
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: SuperOffice.WebApi.IAuthorization
+- uid: System.Net.Http.Headers.AuthenticationHeaderValue
+  commentId: '!:System.Net.Http.Headers.AuthenticationHeaderValue'
+  isExternal: true
+  name: AuthenticationHeaderValue
+  nameWithType: AuthenticationHeaderValue
+  fullName: System.Net.Http.Headers.AuthenticationHeaderValue
+- uid: SuperOffice.WebApi.Agents.AgentBase.CancelRequest*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+  isExternal: true
+  name: CancelRequest
+  nameWithType: AgentBase.CancelRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.CancelRequest
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+  isExternal: true
+  name: SendRequestObject
+  nameWithType: AgentBase.SendRequestObject
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequestObject
+- uid: System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}
+  commentId: '!:System.Threading.Tasks.Task{System.Net.Http.HttpResponseMessage}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<HttpResponseMessage>
+  nameWithType: Task<HttpResponseMessage>
+  fullName: System.Threading.Tasks.Task<System.Net.Http.HttpResponseMessage>
+  nameWithType.vb: Task(Of HttpResponseMessage)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Net.Http.HttpResponseMessage)
+  name.vb: Task(Of HttpResponseMessage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Net.Http.HttpResponseMessage
+    name: HttpResponseMessage
+    nameWithType: HttpResponseMessage
+    fullName: System.Net.Http.HttpResponseMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.SendRequest*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.SendRequest
+  isExternal: true
+  name: SendRequest
+  nameWithType: AgentBase.SendRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.SendRequest
+- uid: System.Threading.Tasks.TaskCanceledException
+  commentId: T:System.Threading.Tasks.TaskCanceledException
+  isExternal: true
+- uid: System.TimeoutException
+  commentId: T:System.TimeoutException
+  isExternal: true
+- uid: SuperOffice.Exceptions.WebApiException
+  commentId: T:SuperOffice.Exceptions.WebApiException
+  parent: SuperOffice.Exceptions
+  isExternal: true
+  name: WebApiException
+  nameWithType: WebApiException
+  fullName: SuperOffice.Exceptions.WebApiException
+- uid: SuperOffice.Exceptions
+  commentId: N:SuperOffice.Exceptions
+  isExternal: true
+  name: SuperOffice.Exceptions
+  nameWithType: SuperOffice.Exceptions
+  fullName: SuperOffice.Exceptions
+- uid: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+  isExternal: true
+  name: ThrowOnResponseError
+  nameWithType: AgentBase.ThrowOnResponseError
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ThrowOnResponseError
+- uid: System.Net.Http.HttpResponseMessage
+  isExternal: true
+  name: HttpResponseMessage
+  nameWithType: HttpResponseMessage
+  fullName: System.Net.Http.HttpResponseMessage
+- uid: SuperOffice.WebApi.Agents.AgentBase.ParseResponse*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.ParseResponse
+  isExternal: true
+  name: ParseResponse
+  nameWithType: AgentBase.ParseResponse
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ParseResponse
+- uid: System.Threading.Tasks.Task{{T}}
+  commentId: '!:System.Threading.Tasks.Task{``0}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<T>
+  nameWithType: Task<T>
+  fullName: System.Threading.Tasks.Task<T>
+  nameWithType.vb: Task(Of T)
+  fullName.vb: System.Threading.Tasks.Task(Of T)
+  name.vb: Task(Of T)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.AgentBase.Finally*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.Finally
+  isExternal: true
+  name: Finally
+  nameWithType: AgentBase.Finally
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Finally
+- uid: SuperOffice.WebApi.Agents.AgentBase.Dispose*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.Dispose
+  isExternal: true
+  name: Dispose
+  nameWithType: AgentBase.Dispose
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Dispose
+- uid: SuperOffice.WebApi.Agents.AgentBase.Configuration*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.Configuration
+  isExternal: true
+  name: Configuration
+  nameWithType: AgentBase.Configuration
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Configuration
+- uid: SuperOffice.WebApi.Agents.AgentBase.Client*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.Client
+  isExternal: true
+  name: Client
+  nameWithType: AgentBase.Client
+  fullName: SuperOffice.WebApi.Agents.AgentBase.Client
+- uid: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+  isExternal: true
+  name: HasRunningRequest
+  nameWithType: AgentBase.HasRunningRequest
+  fullName: SuperOffice.WebApi.Agents.AgentBase.HasRunningRequest
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+  isExternal: true
+  name: ClientCancellationTokenSource
+  nameWithType: AgentBase.ClientCancellationTokenSource
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ClientCancellationTokenSource
+- uid: System.Threading.CancellationTokenSource
+  commentId: '!:System.Threading.CancellationTokenSource'
+  isExternal: true
+  name: CancellationTokenSource
+  nameWithType: CancellationTokenSource
+  fullName: System.Threading.CancellationTokenSource
+- uid: SuperOffice.WebApi.Agents.AgentBase.ProgressListener*
+  commentId: Overload:SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+  isExternal: true
+  name: ProgressListener
+  nameWithType: AgentBase.ProgressListener
+  fullName: SuperOffice.WebApi.Agents.AgentBase.ProgressListener
+- uid: SuperOffice.WebApi.IProgressListener
+  commentId: T:SuperOffice.WebApi.IProgressListener
+  parent: SuperOffice.WebApi
+  isExternal: true
+  name: IProgressListener
+  nameWithType: IProgressListener
+  fullName: SuperOffice.WebApi.IProgressListener

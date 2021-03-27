@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  commentId: T:SuperOffice.CRM.Services.ErpSyncEngineStatus
+  id: ErpSyncEngineStatus
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.ErpSyncEngineStatus.#ctor
+  - SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval
+  - SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning
+  - SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage
+  - SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString
+  - SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncEngineStatus
+  nameWithType: ErpSyncEngineStatus
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  type: Class
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStatus of the Sync engine\n<p></p>\nCarrier object for ErpSyncEngineStatus.\nServices for the ErpSyncEngineStatus Carrier is available from the <xref href=\"SuperOffice.CRM.Services.IErpSyncAgent\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: 'public class ErpSyncEngineStatus : Carrier'
+    content.vb: >-
+      Public Class ErpSyncEngineStatus
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.ErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  - linkId: SuperOffice.CRM.Services.IErpSyncAgent
+    commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.#ctor
+  commentId: M:SuperOffice.CRM.Services.ErpSyncEngineStatus.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: ErpSyncEngineStatus()
+  nameWithType: ErpSyncEngineStatus.ErpSyncEngineStatus()
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.ErpSyncEngineStatus()
+  type: Constructor
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDefault constructor\n"
+  syntax:
+    content: public ErpSyncEngineStatus()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Services.ErpSyncEngineStatus.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString
+  commentId: M:SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ErpSyncEngineStatus.ToString()
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string.\n"
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString As String
+  overload: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: ToString(String)
+  nameWithType: ErpSyncEngineStatus.ToString(String)
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the carrier contents as a formatted string, useful for debugging.\nEach line in the output is prefixed with the input value.\n"
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning
+  commentId: P:SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning
+  id: IsRunning
+  parent: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: IsRunning
+  nameWithType: ErpSyncEngineStatus.IsRunning
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nIs the engine currently running \n"
+  syntax:
+    content: public virtual bool IsRunning { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsRunning As Boolean
+  overload: SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage
+  commentId: P:SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage
+  id: StatusMessage
+  parent: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: StatusMessage
+  nameWithType: ErpSyncEngineStatus.StatusMessage
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCurrent status message from the engine \n"
+  syntax:
+    content: public virtual string StatusMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StatusMessage As String
+  overload: SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval
+  commentId: P:SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval
+  id: Interval
+  parent: SuperOffice.CRM.Services.ErpSyncEngineStatus
+  langs:
+  - csharp
+  - vb
+  name: Interval
+  nameWithType: ErpSyncEngineStatus.Interval
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nThe interval for each iteration of the sync engine \n"
+  syntax:
+    content: public virtual TimeSpan Interval { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Overridable Property Interval As TimeSpan
+  overload: SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.CRM.Services.ErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.ErpSyncAgent
+  isExternal: true
+  name: ErpSyncAgent
+  nameWithType: ErpSyncAgent
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent
+- uid: SuperOffice.CRM.Services.IErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IErpSyncAgent
+  nameWithType: IErpSyncAgent
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncEngineStatus.#ctor
+  isExternal: true
+  name: ErpSyncEngineStatus
+  nameWithType: ErpSyncEngineStatus.ErpSyncEngineStatus
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.ErpSyncEngineStatus
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString
+  isExternal: true
+  name: ToString
+  nameWithType: ErpSyncEngineStatus.ToString
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning
+  isExternal: true
+  name: IsRunning
+  nameWithType: ErpSyncEngineStatus.IsRunning
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.IsRunning
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage
+  isExternal: true
+  name: StatusMessage
+  nameWithType: ErpSyncEngineStatus.StatusMessage
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.StatusMessage
+- uid: SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval
+  isExternal: true
+  name: Interval
+  nameWithType: ErpSyncEngineStatus.Interval
+  fullName: SuperOffice.CRM.Services.ErpSyncEngineStatus.Interval
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan

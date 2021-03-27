@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  id: ErrorReport
+  parent: SuperOffice.DCF.Web.UI.Controls.Common
+  children:
+  - SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor
+  - SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor(System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage
+  - SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error
+  - SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render(System.Web.UI.HtmlTextWriter)
+  langs:
+  - csharp
+  - vb
+  name: ErrorReport
+  nameWithType: ErrorReport
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls.Common
+  syntax:
+    content: 'public class ErrorReport : Control'
+    content.vb: >-
+      Public Class ErrorReport
+          Inherits Control
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor
+  id: '#ctor'
+  parent: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  langs:
+  - csharp
+  - vb
+  name: ErrorReport()
+  nameWithType: ErrorReport.ErrorReport()
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.ErrorReport()
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls.Common
+  syntax:
+    content: public ErrorReport()
+    content.vb: Public Sub New
+  overload: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  langs:
+  - csharp
+  - vb
+  name: ErrorReport(Boolean)
+  nameWithType: ErrorReport.ErrorReport(Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.ErrorReport(System.Boolean)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls.Common
+  syntax:
+    content: public ErrorReport(bool asPage)
+    parameters:
+    - id: asPage
+      type: System.Boolean
+    content.vb: Public Sub New(asPage As Boolean)
+  overload: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: ErrorReport.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls.Common
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overload: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage
+  id: AsPage
+  parent: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  langs:
+  - csharp
+  - vb
+  name: AsPage
+  nameWithType: ErrorReport.AsPage
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls.Common
+  syntax:
+    content: public bool AsPage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AsPage As Boolean
+  overload: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error
+  id: Error
+  parent: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: ErrorReport.Error
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error
+  type: Property
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web.UI.Controls.Common
+  syntax:
+    content: public Exception Error { get; set; }
+    parameters: []
+    return:
+      type: System.Exception
+    content.vb: Public Property Error As Exception
+  overload: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web.UI.Controls.Common
+  commentId: N:SuperOffice.DCF.Web.UI.Controls.Common
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls.Common
+  nameWithType: SuperOffice.DCF.Web.UI.Controls.Common
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.#ctor
+  isExternal: true
+  name: ErrorReport
+  nameWithType: ErrorReport.ErrorReport
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.ErrorReport
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render
+  isExternal: true
+  name: Render
+  nameWithType: ErrorReport.Render
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage
+  isExternal: true
+  name: AsPage
+  nameWithType: ErrorReport.AsPage
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.AsPage
+- uid: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error*
+  commentId: Overload:SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error
+  isExternal: true
+  name: Error
+  nameWithType: ErrorReport.Error
+  fullName: SuperOffice.DCF.Web.UI.Controls.Common.ErrorReport.Error
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception

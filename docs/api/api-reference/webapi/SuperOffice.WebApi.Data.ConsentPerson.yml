@@ -1,0 +1,398 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.ConsentPerson
+  commentId: T:SuperOffice.WebApi.Data.ConsentPerson
+  id: ConsentPerson
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.ConsentPerson.#ctor
+  - SuperOffice.WebApi.Data.ConsentPerson.Comment
+  - SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId
+  - SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose
+  - SuperOffice.WebApi.Data.ConsentPerson.ConsentSource
+  - SuperOffice.WebApi.Data.ConsentPerson.LegalBase
+  - SuperOffice.WebApi.Data.ConsentPerson.PersonId
+  langs:
+  - csharp
+  - vb
+  name: ConsentPerson
+  nameWithType: ConsentPerson
+  fullName: SuperOffice.WebApi.Data.ConsentPerson
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for ConsentPerson.\n\n"
+  example:
+  - "\nGet ConsentPerson 123 using the WebApi client:\n<pre><code>var configuration = new WebApiConfiguration(url);\nvar agent = new PersonAgent(configuration);\nvar consentPerson = agent.GetConsentPerson( 123 );</code></pre>\n"
+  syntax:
+    content: 'public class ConsentPerson : Carrier'
+    content.vb: >-
+      Public Class ConsentPerson
+          Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.ConsentPerson.#ctor
+  commentId: M:SuperOffice.WebApi.Data.ConsentPerson.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: ConsentPerson()
+  nameWithType: ConsentPerson.ConsentPerson()
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentPerson()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public ConsentPerson()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.ConsentPerson.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId
+  commentId: P:SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId
+  id: ConsentPersonId
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: ConsentPersonId
+  nameWithType: ConsentPerson.ConsentPersonId
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nConsentPerson ID\n"
+  syntax:
+    content: public virtual int ConsentPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ConsentPersonId As Integer
+  overload: SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConsentPerson.ConsentSource
+  commentId: P:SuperOffice.WebApi.Data.ConsentPerson.ConsentSource
+  id: ConsentSource
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: ConsentSource
+  nameWithType: ConsentPerson.ConsentSource
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentSource
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe consent source\n"
+  syntax:
+    content: public virtual ConsentSource ConsentSource { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ConsentSource
+    content.vb: Public Overridable Property ConsentSource As ConsentSource
+  overload: SuperOffice.WebApi.Data.ConsentPerson.ConsentSource*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConsentPerson.LegalBase
+  commentId: P:SuperOffice.WebApi.Data.ConsentPerson.LegalBase
+  id: LegalBase
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: LegalBase
+  nameWithType: ConsentPerson.LegalBase
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.LegalBase
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe legal base\n"
+  syntax:
+    content: public virtual LegalBase LegalBase { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.LegalBase
+    content.vb: Public Overridable Property LegalBase As LegalBase
+  overload: SuperOffice.WebApi.Data.ConsentPerson.LegalBase*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConsentPerson.PersonId
+  commentId: P:SuperOffice.WebApi.Data.ConsentPerson.PersonId
+  id: PersonId
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: ConsentPerson.PersonId
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.PersonId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPerson ID\n"
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.WebApi.Data.ConsentPerson.PersonId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose
+  commentId: P:SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose
+  id: ConsentPurpose
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: ConsentPurpose
+  nameWithType: ConsentPerson.ConsentPurpose
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe consent purpose\n"
+  syntax:
+    content: public virtual ConsentPurpose ConsentPurpose { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.ConsentPurpose
+    content.vb: Public Overridable Property ConsentPurpose As ConsentPurpose
+  overload: SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.ConsentPerson.Comment
+  commentId: P:SuperOffice.WebApi.Data.ConsentPerson.Comment
+  id: Comment
+  parent: SuperOffice.WebApi.Data.ConsentPerson
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: ConsentPerson.Comment
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.Comment
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nComment regarding this specific consent\n"
+  syntax:
+    content: public virtual string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Comment As String
+  overload: SuperOffice.WebApi.Data.ConsentPerson.Comment*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.ConsentPerson.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.#ctor
+  isExternal: true
+  name: ConsentPerson
+  nameWithType: ConsentPerson.ConsentPerson
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentPerson
+- uid: SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId
+  isExternal: true
+  name: ConsentPersonId
+  nameWithType: ConsentPerson.ConsentPersonId
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentPersonId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.ConsentPerson.ConsentSource*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.ConsentSource
+  isExternal: true
+  name: ConsentSource
+  nameWithType: ConsentPerson.ConsentSource
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentSource
+- uid: SuperOffice.WebApi.Data.ConsentSource
+  commentId: T:SuperOffice.WebApi.Data.ConsentSource
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConsentSource
+  nameWithType: ConsentSource
+  fullName: SuperOffice.WebApi.Data.ConsentSource
+- uid: SuperOffice.WebApi.Data.ConsentPerson.LegalBase*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.LegalBase
+  isExternal: true
+  name: LegalBase
+  nameWithType: ConsentPerson.LegalBase
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.LegalBase
+- uid: SuperOffice.WebApi.Data.LegalBase
+  commentId: T:SuperOffice.WebApi.Data.LegalBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: LegalBase
+  nameWithType: LegalBase
+  fullName: SuperOffice.WebApi.Data.LegalBase
+- uid: SuperOffice.WebApi.Data.ConsentPerson.PersonId*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.PersonId
+  isExternal: true
+  name: PersonId
+  nameWithType: ConsentPerson.PersonId
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.PersonId
+- uid: SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose
+  isExternal: true
+  name: ConsentPurpose
+  nameWithType: ConsentPerson.ConsentPurpose
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.ConsentPurpose
+- uid: SuperOffice.WebApi.Data.ConsentPurpose
+  commentId: T:SuperOffice.WebApi.Data.ConsentPurpose
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: ConsentPurpose
+  nameWithType: ConsentPurpose
+  fullName: SuperOffice.WebApi.Data.ConsentPurpose
+- uid: SuperOffice.WebApi.Data.ConsentPerson.Comment*
+  commentId: Overload:SuperOffice.WebApi.Data.ConsentPerson.Comment
+  isExternal: true
+  name: Comment
+  nameWithType: ConsentPerson.Comment
+  fullName: SuperOffice.WebApi.Data.ConsentPerson.Comment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

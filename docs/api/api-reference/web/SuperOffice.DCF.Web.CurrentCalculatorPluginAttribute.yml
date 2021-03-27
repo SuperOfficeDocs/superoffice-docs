@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+  commentId: T:SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+  id: CurrentCalculatorPluginAttribute
+  parent: SuperOffice.DCF.Web
+  children:
+  - SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String)
+  - SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CurrentCalculatorPluginAttribute
+  nameWithType: CurrentCalculatorPluginAttribute
+  fullName: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+  type: Class
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: 'public class CurrentCalculatorPluginAttribute : PrioritizedPluginAttribute'
+    content.vb: >-
+      Public Class CurrentCalculatorPluginAttribute
+          Inherits PrioritizedPluginAttribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String)
+  commentId: M:SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: CurrentCalculatorPluginAttribute(String)
+  nameWithType: CurrentCalculatorPluginAttribute.CurrentCalculatorPluginAttribute(String)
+  fullName: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.CurrentCalculatorPluginAttribute(System.String)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public CurrentCalculatorPluginAttribute(string name)
+    parameters:
+    - id: name
+      type: System.String
+    content.vb: Public Sub New(name As String)
+  overload: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String,System.Int32)
+  commentId: M:SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute
+  langs:
+  - csharp
+  - vb
+  name: CurrentCalculatorPluginAttribute(String, Int32)
+  nameWithType: CurrentCalculatorPluginAttribute.CurrentCalculatorPluginAttribute(String, Int32)
+  fullName: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.CurrentCalculatorPluginAttribute(System.String, System.Int32)
+  type: Constructor
+  source:
+    path: SuperOffice.DCFWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.DCFWeb
+  namespace: SuperOffice.DCF.Web
+  syntax:
+    content: public CurrentCalculatorPluginAttribute(string name, int priority)
+    parameters:
+    - id: name
+      type: System.String
+    - id: priority
+      type: System.Int32
+    content.vb: Public Sub New(name As String, priority As Integer)
+  overload: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.DCF.Web
+  commentId: N:SuperOffice.DCF.Web
+  isExternal: true
+  name: SuperOffice.DCF.Web
+  nameWithType: SuperOffice.DCF.Web
+  fullName: SuperOffice.DCF.Web
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor*
+  commentId: Overload:SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.#ctor
+  isExternal: true
+  name: CurrentCalculatorPluginAttribute
+  nameWithType: CurrentCalculatorPluginAttribute.CurrentCalculatorPluginAttribute
+  fullName: SuperOffice.DCF.Web.CurrentCalculatorPluginAttribute.CurrentCalculatorPluginAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

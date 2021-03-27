@@ -1,0 +1,699 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Security.EOwnershipIndex
+  commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
+  id: EOwnershipIndex
+  parent: SuperOffice.CRM.Security
+  children:
+  - SuperOffice.CRM.Security.EOwnershipIndex.Anonymous
+  - SuperOffice.CRM.Security.EOwnershipIndex.External
+  - SuperOffice.CRM.Security.EOwnershipIndex.Group
+  - SuperOffice.CRM.Security.EOwnershipIndex.MyCompany
+  - SuperOffice.CRM.Security.EOwnershipIndex.Other
+  - SuperOffice.CRM.Security.EOwnershipIndex.OtherGroup
+  - SuperOffice.CRM.Security.EOwnershipIndex.OtherToExternal
+  - SuperOffice.CRM.Security.EOwnershipIndex.Owner
+  - SuperOffice.CRM.Security.EOwnershipIndex.SameProject
+  - SuperOffice.CRM.Security.EOwnershipIndex.System
+  langs:
+  - csharp
+  - vb
+  name: EOwnershipIndex
+  nameWithType: EOwnershipIndex
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex
+  type: Enum
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThis is used as an index into a matrix of tablerights when calculating \nthe access rights for an associate.\n"
+  syntax:
+    content: public enum EOwnershipIndex
+    content.vb: Public Enum EOwnershipIndex
+  extensionMethods:
+  - SuperOffice.CRM.Security.EOwnershipIndex.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Security.EOwnershipIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.EOwnershipIndex)
+  - SuperOffice.CRM.Security.EOwnershipIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Security.EOwnershipIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.Owner
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.Owner
+  id: Owner
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: Owner
+  nameWithType: EOwnershipIndex.Owner
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.Owner
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe record is owned by same associate as ourselves. \ni.e. it is our very own, our preciousssss\n<pre><code>value = 0</code></pre>\n"
+  syntax:
+    content: Owner = 0
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.Group
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.Group
+  id: Group
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: Group
+  nameWithType: EOwnershipIndex.Group
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.Group
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe record belongs to someone is the same user group as us, \nbut it isn&apos;t ours\n<pre><code>value = 1</code></pre>\n"
+  syntax:
+    content: Group = 1
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.Other
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.Other
+  id: Other
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: EOwnershipIndex.Other
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.Other
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe record belongs to someone in a separate group from us.\n<pre><code>value = 2</code></pre>\n"
+  syntax:
+    content: Other = 2
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.OtherGroup
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.OtherGroup
+  id: OtherGroup
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: OtherGroup
+  nameWithType: EOwnershipIndex.OtherGroup
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.OtherGroup
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nThe record belongs to a secondary group common to us.\n<pre><code>value = 3</code></pre>\n"
+  syntax:
+    content: OtherGroup = 3
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.External
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.External
+  id: External
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: External
+  nameWithType: EOwnershipIndex.External
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.External
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nExternal users are not employees, and are always mapped to the same row in the matrix\n<pre><code>value = 4</code></pre>\n"
+  syntax:
+    content: External = 4
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.Anonymous
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.Anonymous
+  id: Anonymous
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: Anonymous
+  nameWithType: EOwnershipIndex.Anonymous
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.Anonymous
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nAnonymous users are not employees, could be anyone. Could be Neo trying to hack into your system...\nAll anonymous users are mapped to this row in the rights matrix\n<pre><code>value = 5</code></pre>\n"
+  syntax:
+    content: Anonymous = 5
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.MyCompany
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.MyCompany
+  id: MyCompany
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: MyCompany
+  nameWithType: EOwnershipIndex.MyCompany
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.MyCompany
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nExternal users: Other user belonging to the same contact (e.g. company)\n<pre><code>value = 6</code></pre>\n"
+  syntax:
+    content: MyCompany = 6
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.SameProject
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.SameProject
+  id: SameProject
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: SameProject
+  nameWithType: EOwnershipIndex.SameProject
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.SameProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nExternal users: Other user participating in the same project\n<pre><code>value = 7</code></pre>\n"
+  syntax:
+    content: SameProject = 7
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.OtherToExternal
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.OtherToExternal
+  id: OtherToExternal
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: OtherToExternal
+  nameWithType: EOwnershipIndex.OtherToExternal
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.OtherToExternal
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  summary: "\nExternal users: ???\n<pre><code>value = 8</code></pre>\n"
+  syntax:
+    content: OtherToExternal = 8
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.System
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.System
+  id: System
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: System
+  nameWithType: EOwnershipIndex.System
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.System
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM.Security
+  syntax:
+    content: >-
+      [Obsolete("System is obsolete", true)]
+
+      System = -1
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+    content.vb: >-
+      <Obsolete("System is obsolete", True)>
+
+      System = -1
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: System is obsolete
+    - type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Security
+  commentId: N:SuperOffice.CRM.Security
+  isExternal: true
+  name: SuperOffice.CRM.Security
+  nameWithType: SuperOffice.CRM.Security
+  fullName: SuperOffice.CRM.Security
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<EOwnershipIndex, To>()
+  nameWithType: EnumUtil.MapEnums<EOwnershipIndex, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.EOwnershipIndex, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of EOwnershipIndex, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.EOwnershipIndex, To)()
+  name.vb: MapEnums(Of EOwnershipIndex, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<EOwnershipIndex, To>
+    nameWithType: EnumUtil.MapEnums<EOwnershipIndex, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Security.EOwnershipIndex, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of EOwnershipIndex, To)
+    nameWithType: EnumUtil.MapEnums(Of EOwnershipIndex, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Security.EOwnershipIndex, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Security.EOwnershipIndex)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<EOwnershipIndex>(EOwnershipIndex)
+  nameWithType: ObjectExtensions.AssignByReflection<EOwnershipIndex>(EOwnershipIndex)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.EOwnershipIndex>(SuperOffice.CRM.Security.EOwnershipIndex)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EOwnershipIndex)(EOwnershipIndex)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.EOwnershipIndex)(SuperOffice.CRM.Security.EOwnershipIndex)
+  name.vb: AssignByReflection(Of EOwnershipIndex)(EOwnershipIndex)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<EOwnershipIndex>
+    nameWithType: ObjectExtensions.AssignByReflection<EOwnershipIndex>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Security.EOwnershipIndex>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.EOwnershipIndex
+    name: EOwnershipIndex
+    nameWithType: EOwnershipIndex
+    fullName: SuperOffice.CRM.Security.EOwnershipIndex
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of EOwnershipIndex)
+    nameWithType: ObjectExtensions.AssignByReflection(Of EOwnershipIndex)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Security.EOwnershipIndex)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Security.EOwnershipIndex
+    name: EOwnershipIndex
+    nameWithType: EOwnershipIndex
+    fullName: SuperOffice.CRM.Security.EOwnershipIndex
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<EOwnershipIndex>()
+  nameWithType: ObjectExtensions.GraphCopy<EOwnershipIndex>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.EOwnershipIndex>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EOwnershipIndex)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.EOwnershipIndex)()
+  name.vb: GraphCopy(Of EOwnershipIndex)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<EOwnershipIndex>
+    nameWithType: ObjectExtensions.GraphCopy<EOwnershipIndex>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Security.EOwnershipIndex>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of EOwnershipIndex)
+    nameWithType: ObjectExtensions.GraphCopy(Of EOwnershipIndex)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Security.EOwnershipIndex)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<EOwnershipIndex, To>()
+  nameWithType: Converters.MapEnums<EOwnershipIndex, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.EOwnershipIndex, To>()
+  nameWithType.vb: Converters.MapEnums(Of EOwnershipIndex, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.EOwnershipIndex, To)()
+  name.vb: MapEnums(Of EOwnershipIndex, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<EOwnershipIndex, To>
+    nameWithType: Converters.MapEnums<EOwnershipIndex, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Security.EOwnershipIndex, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of EOwnershipIndex, To)
+    nameWithType: Converters.MapEnums(Of EOwnershipIndex, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Security.EOwnershipIndex, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.CRM.Security.EOwnershipIndex
+  commentId: T:SuperOffice.CRM.Security.EOwnershipIndex
+  parent: SuperOffice.CRM.Security
+  isExternal: true
+  name: EOwnershipIndex
+  nameWithType: EOwnershipIndex
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex

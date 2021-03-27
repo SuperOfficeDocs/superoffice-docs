@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  id: UserPreferenceStrings.ToolTips
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  - SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  langs:
+  - csharp
+  - vb
+  name: UserPreferenceStrings.ToolTips
+  nameWithType: UserPreferenceStrings.ToolTips
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltips in the application\n"
+  syntax:
+    content: public static class ToolTips
+    content.vb: Public Module ToolTips
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
+  id: Section
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: Section
+  nameWithType: UserPreferenceStrings.ToolTips.Section
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.Section
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nSection heading\n"
+  syntax:
+    content: public const string Section = "ToolTips"
+    return:
+      type: System.String
+    content.vb: Public Const Section As String = "ToolTips"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  id: TooltipOnBApp
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBApp
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBApp
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBApp
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Appointment button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBApp = "TooltipOnBApp"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBApp As String = "TooltipOnBApp"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  id: TooltipOnBEmail
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBEmail
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on E-mail button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBEmail = "TooltipOnBEmail"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBEmail As String = "TooltipOnBEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  id: TooltipOnBNote
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBNote
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBNote
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBNote
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Note button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBNote = "TooltipOnBNote"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBNote As String = "TooltipOnBNote"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  id: TooltipOnBPhone
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBPhone
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBPhone
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Phone call button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBPhone = "TooltipOnBPhone"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBPhone As String = "TooltipOnBPhone"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  id: TooltipOnBSale
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBSale
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBSale
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBSale
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Sale button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBSale = "TooltipOnBSale"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBSale As String = "TooltipOnBSale"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  id: TooltipOnBTask
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBTask
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBTask
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBTask
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Task button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBTask = "TooltipOnBTask"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBTask As String = "TooltipOnBTask"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  id: TooltipOnBWrite
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnBWrite
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnBWrite
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Write button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnBWrite = "TooltipOnBWrite"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnBWrite As String = "TooltipOnBWrite"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  id: TooltipOnLContact
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLContact
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLContact
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLContact
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Company button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLContact = "TooltipOnLContact"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLContact As String = "TooltipOnLContact"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  id: TooltipOnLDiary
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLDiary
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLDiary
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Diary button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLDiary = "TooltipOnLDiary"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLDiary As String = "TooltipOnLDiary"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  id: TooltipOnLEmail
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLEmail
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLEmail
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on E-mail button in the Navigator\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLEmail = "TooltipOnLEmail"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLEmail As String = "TooltipOnLEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  id: TooltipOnLProject
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLProject
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLProject
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLProject
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Project button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLProject = "TooltipOnLProject"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLProject As String = "TooltipOnLProject"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  id: TooltipOnLReporter
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLReporter
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLReporter
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Reports button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLReporter = "TooltipOnLReporter"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLReporter As String = "TooltipOnLReporter"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  id: TooltipOnLSelection
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipOnLSelection
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipOnLSelection
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nTooltip on Selection button\n<p></p>Control type: Text, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipOnLSelection = "TooltipOnLSelection"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipOnLSelection As String = "TooltipOnLSelection"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  id: TooltipsReadFactor
+  parent: SuperOffice.CRM.UserPreferenceStrings.ToolTips
+  langs:
+  - csharp
+  - vb
+  name: TooltipsReadFactor
+  nameWithType: UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  fullName: SuperOffice.CRM.UserPreferenceStrings.ToolTips.TooltipsReadFactor
+  type: Field
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.CRM
+  summary: "\nDefault read time for tooltip is multiplied by this factor\n<p></p>Control type: Number, access: Admin, Admin users, Wizard\n"
+  syntax:
+    content: public const string TooltipsReadFactor = "TooltipsReadFactor"
+    return:
+      type: System.String
+    content.vb: Public Const TooltipsReadFactor As String = "TooltipsReadFactor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

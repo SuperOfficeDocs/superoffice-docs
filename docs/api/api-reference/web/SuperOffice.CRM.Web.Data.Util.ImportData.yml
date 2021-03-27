@@ -1,0 +1,1288 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ImportData
+  id: ImportData
+  parent: SuperOffice.CRM.Web.Data.Util
+  children:
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ClearData
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetContext
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetData
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetName
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData
+  - SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage
+  - SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport
+  - SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust(System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine},System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo})
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns(SuperOffice.CRM.Services.ImportColumnInfo[])
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetContext(System.String)
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[])
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType)
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType,System.String)
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact(System.Boolean)
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson(System.Boolean)
+  - SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ImportData
+  nameWithType: ImportData
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static class ImportData
+    content.vb: Public Module ImportData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns
+  id: GetColumns
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetColumns()
+  nameWithType: ImportData.GetColumns()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static ImportColumnInfo[] GetColumns()
+    return:
+      type: SuperOffice.CRM.Services.ImportColumnInfo[]
+    content.vb: Public Shared Function GetColumns As ImportColumnInfo()
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns
+  id: ClearColumns
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: ClearColumns()
+  nameWithType: ImportData.ClearColumns()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void ClearColumns()
+    content.vb: Public Shared Sub ClearColumns
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson(System.Boolean)
+  id: SetIgnorePerson(System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetIgnorePerson(Boolean)
+  nameWithType: ImportData.SetIgnorePerson(Boolean)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetIgnorePerson(bool ignorePerson)
+    parameters:
+    - id: ignorePerson
+      type: System.Boolean
+    content.vb: Public Shared Sub SetIgnorePerson(ignorePerson As Boolean)
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact(System.Boolean)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact(System.Boolean)
+  id: SetIgnoreContact(System.Boolean)
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetIgnoreContact(Boolean)
+  nameWithType: ImportData.SetIgnoreContact(Boolean)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetIgnoreContact(bool ignoreContact)
+    parameters:
+    - id: ignoreContact
+      type: System.Boolean
+    content.vb: Public Shared Sub SetIgnoreContact(ignoreContact As Boolean)
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns(SuperOffice.CRM.Services.ImportColumnInfo[])
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns(SuperOffice.CRM.Services.ImportColumnInfo[])
+  id: SetColumns(SuperOffice.CRM.Services.ImportColumnInfo[])
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetColumns(ImportColumnInfo[])
+  nameWithType: ImportData.SetColumns(ImportColumnInfo[])
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns(SuperOffice.CRM.Services.ImportColumnInfo[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetColumns(ImportColumnInfo[] columns)
+    parameters:
+    - id: columns
+      type: SuperOffice.CRM.Services.ImportColumnInfo[]
+    content.vb: Public Shared Sub SetColumns(columns As ImportColumnInfo())
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns*
+  nameWithType.vb: ImportData.SetColumns(ImportColumnInfo())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns(SuperOffice.CRM.Services.ImportColumnInfo())
+  name.vb: SetColumns(ImportColumnInfo())
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache
+  id: ClearPreviewCache
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: ClearPreviewCache()
+  nameWithType: ImportData.ClearPreviewCache()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void ClearPreviewCache()
+    content.vb: Public Shared Sub ClearPreviewCache
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetName
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetName
+  id: GetName
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetName()
+  nameWithType: ImportData.GetName()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetName()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static string GetName()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetName As String
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetData
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetData
+  id: GetData
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetData()
+  nameWithType: ImportData.GetData()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetData()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static ImportLine[] GetData()
+    return:
+      type: SuperOffice.CRM.Services.ImportLine[]
+    content.vb: Public Shared Function GetData As ImportLine()
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData
+  id: GetPreviewData
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetPreviewData()
+  nameWithType: ImportData.GetPreviewData()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static ImportLine[] GetPreviewData()
+    return:
+      type: SuperOffice.CRM.Services.ImportLine[]
+    content.vb: Public Shared Function GetPreviewData As ImportLine()
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ClearData
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.ClearData
+  id: ClearData
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: ClearData()
+  nameWithType: ImportData.ClearData()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ClearData()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void ClearData()
+    content.vb: Public Shared Sub ClearData
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.ClearData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[])
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[])
+  id: SetData(SuperOffice.CRM.Services.ImportLine[])
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetData(ImportLine[])
+  nameWithType: ImportData.SetData(ImportLine[])
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[])
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetData(ImportLine[] importLines)
+    parameters:
+    - id: importLines
+      type: SuperOffice.CRM.Services.ImportLine[]
+    content.vb: Public Shared Sub SetData(importLines As ImportLine())
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetData*
+  nameWithType.vb: ImportData.SetData(ImportLine())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine())
+  name.vb: SetData(ImportLine())
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetContext(System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetContext(System.String)
+  id: SetContext(System.String)
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetContext(String)
+  nameWithType: ImportData.SetContext(String)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetContext(System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetContext(string context)
+    parameters:
+    - id: context
+      type: System.String
+    content.vb: Public Shared Sub SetContext(context As String)
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetContext
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetContext
+  id: GetContext
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetContext()
+  nameWithType: ImportData.GetContext()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetContext()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static string GetContext()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetContext As String
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetContext*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType)
+  id: SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType)
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetData(ImportLine[], ImportData.ImportType)
+  nameWithType: ImportData.SetData(ImportLine[], ImportData.ImportType)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[], SuperOffice.CRM.Web.Data.Util.ImportData.ImportType)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetData(ImportLine[] importLines, ImportData.ImportType importType)
+    parameters:
+    - id: importLines
+      type: SuperOffice.CRM.Services.ImportLine[]
+    - id: importType
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+    content.vb: Public Shared Sub SetData(importLines As ImportLine(), importType As ImportData.ImportType)
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetData*
+  nameWithType.vb: ImportData.SetData(ImportLine(), ImportData.ImportType)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine(), SuperOffice.CRM.Web.Data.Util.ImportData.ImportType)
+  name.vb: SetData(ImportLine(), ImportData.ImportType)
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType,System.String)
+  id: SetData(SuperOffice.CRM.Services.ImportLine[],SuperOffice.CRM.Web.Data.Util.ImportData.ImportType,System.String)
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetData(ImportLine[], ImportData.ImportType, String)
+  nameWithType: ImportData.SetData(ImportLine[], ImportData.ImportType, String)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine[], SuperOffice.CRM.Web.Data.Util.ImportData.ImportType, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetData(ImportLine[] importLines, ImportData.ImportType importType, string name)
+    parameters:
+    - id: importLines
+      type: SuperOffice.CRM.Services.ImportLine[]
+    - id: importType
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+    - id: name
+      type: System.String
+    content.vb: Public Shared Sub SetData(importLines As ImportLine(), importType As ImportData.ImportType, name As String)
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetData*
+  nameWithType.vb: ImportData.SetData(ImportLine(), ImportData.ImportType, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.ImportData.SetData(SuperOffice.CRM.Services.ImportLine(), SuperOffice.CRM.Web.Data.Util.ImportData.ImportType, System.String)
+  name.vb: SetData(ImportLine(), ImportData.ImportType, String)
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust(System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine},System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo})
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust(System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine},System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo})
+  id: RemoveAndAdjust(System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine},System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo})
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: RemoveAndAdjust(List<ImportLine>, List<ImportColumnInfo>)
+  nameWithType: ImportData.RemoveAndAdjust(List<ImportLine>, List<ImportColumnInfo>)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust(System.Collections.Generic.List<SuperOffice.CRM.Services.ImportLine>, System.Collections.Generic.List<SuperOffice.CRM.Services.ImportColumnInfo>)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void RemoveAndAdjust(List<ImportLine> importLines, List<ImportColumnInfo> columns)
+    parameters:
+    - id: importLines
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine}
+    - id: columns
+      type: System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo}
+    content.vb: Public Shared Sub RemoveAndAdjust(importLines As List(Of ImportLine), columns As List(Of ImportColumnInfo))
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust*
+  nameWithType.vb: ImportData.RemoveAndAdjust(List(Of ImportLine), List(Of ImportColumnInfo))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust(System.Collections.Generic.List(Of SuperOffice.CRM.Services.ImportLine), System.Collections.Generic.List(Of SuperOffice.CRM.Services.ImportColumnInfo))
+  name.vb: RemoveAndAdjust(List(Of ImportLine), List(Of ImportColumnInfo))
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage
+  id: GetValidationMessage
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetValidationMessage()
+  nameWithType: ImportData.GetValidationMessage()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static ImportData.ValidationMessage GetValidationMessage()
+    return:
+      type: SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
+    content.vb: Public Shared Function GetValidationMessage As ImportData.ValidationMessage
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage
+  id: GetFloatErrorsMessage
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: GetFloatErrorsMessage()
+  nameWithType: ImportData.GetFloatErrorsMessage()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static string GetFloatErrorsMessage()
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetFloatErrorsMessage As String
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage(System.String,System.String)
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage(System.String,System.String)
+  id: SetValidationMessage(System.String,System.String)
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: SetValidationMessage(String, String)
+  nameWithType: ImportData.SetValidationMessage(String, String)
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage(System.String, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static void SetValidationMessage(string message, string label)
+    parameters:
+    - id: message
+      type: System.String
+    - id: label
+      type: System.String
+    content.vb: Public Shared Sub SetValidationMessage(message As String, label As String)
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport
+  commentId: M:SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport
+  id: ReadyToImport
+  parent: SuperOffice.CRM.Web.Data.Util.ImportData
+  langs:
+  - csharp
+  - vb
+  name: ReadyToImport()
+  nameWithType: ImportData.ReadyToImport()
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.Data.Util
+  syntax:
+    content: public static bool ReadyToImport()
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function ReadyToImport As Boolean
+  overload: SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.CRM.Web.Data.Util
+  commentId: N:SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: SuperOffice.CRM.Web.Data.Util
+  nameWithType: SuperOffice.CRM.Web.Data.Util
+  fullName: SuperOffice.CRM.Web.Data.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns
+  isExternal: true
+  name: GetColumns
+  nameWithType: ImportData.GetColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetColumns
+- uid: SuperOffice.CRM.Services.ImportColumnInfo[]
+  isExternal: true
+  name: ImportColumnInfo[]
+  nameWithType: ImportColumnInfo[]
+  fullName: SuperOffice.CRM.Services.ImportColumnInfo[]
+  nameWithType.vb: ImportColumnInfo()
+  fullName.vb: SuperOffice.CRM.Services.ImportColumnInfo()
+  name.vb: ImportColumnInfo()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.CRM.Services.ImportColumnInfo
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.CRM.Services.ImportColumnInfo
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns
+  isExternal: true
+  name: ClearColumns
+  nameWithType: ImportData.ClearColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ClearColumns
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson
+  isExternal: true
+  name: SetIgnorePerson
+  nameWithType: ImportData.SetIgnorePerson
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnorePerson
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact
+  isExternal: true
+  name: SetIgnoreContact
+  nameWithType: ImportData.SetIgnoreContact
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetIgnoreContact
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns
+  isExternal: true
+  name: SetColumns
+  nameWithType: ImportData.SetColumns
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetColumns
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache
+  isExternal: true
+  name: ClearPreviewCache
+  nameWithType: ImportData.ClearPreviewCache
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ClearPreviewCache
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetName*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetName
+  isExternal: true
+  name: GetName
+  nameWithType: ImportData.GetName
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetData*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetData
+  isExternal: true
+  name: GetData
+  nameWithType: ImportData.GetData
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetData
+- uid: SuperOffice.CRM.Services.ImportLine[]
+  isExternal: true
+  name: ImportLine[]
+  nameWithType: ImportLine[]
+  fullName: SuperOffice.CRM.Services.ImportLine[]
+  nameWithType.vb: ImportLine()
+  fullName.vb: SuperOffice.CRM.Services.ImportLine()
+  name.vb: ImportLine()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData
+  isExternal: true
+  name: GetPreviewData
+  nameWithType: ImportData.GetPreviewData
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetPreviewData
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ClearData*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.ClearData
+  isExternal: true
+  name: ClearData
+  nameWithType: ImportData.ClearData
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ClearData
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetData*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.SetData
+  isExternal: true
+  name: SetData
+  nameWithType: ImportData.SetData
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetData
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetContext*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.SetContext
+  isExternal: true
+  name: SetContext
+  nameWithType: ImportData.SetContext
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetContext
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetContext*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetContext
+  isExternal: true
+  name: GetContext
+  nameWithType: ImportData.GetContext
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetContext
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ImportData.ImportType
+  nameWithType: ImportData.ImportType
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ImportType
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust
+  isExternal: true
+  name: RemoveAndAdjust
+  nameWithType: ImportData.RemoveAndAdjust
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.RemoveAndAdjust
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.ImportLine}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ImportLine>
+  nameWithType: List<ImportLine>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Services.ImportLine>
+  nameWithType.vb: List(Of ImportLine)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Services.ImportLine)
+  name.vb: List(Of ImportLine)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ImportLine
+    name: ImportLine
+    nameWithType: ImportLine
+    fullName: SuperOffice.CRM.Services.ImportLine
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo}
+  commentId: T:System.Collections.Generic.List{SuperOffice.CRM.Services.ImportColumnInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ImportColumnInfo>
+  nameWithType: List<ImportColumnInfo>
+  fullName: System.Collections.Generic.List<SuperOffice.CRM.Services.ImportColumnInfo>
+  nameWithType.vb: List(Of ImportColumnInfo)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.CRM.Services.ImportColumnInfo)
+  name.vb: List(Of ImportColumnInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.CRM.Services.ImportColumnInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.CRM.Services.ImportColumnInfo
+    name: ImportColumnInfo
+    nameWithType: ImportColumnInfo
+    fullName: SuperOffice.CRM.Services.ImportColumnInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage
+  isExternal: true
+  name: GetValidationMessage
+  nameWithType: ImportData.GetValidationMessage
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetValidationMessage
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
+  commentId: T:SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
+  parent: SuperOffice.CRM.Web.Data.Util
+  isExternal: true
+  name: ImportData.ValidationMessage
+  nameWithType: ImportData.ValidationMessage
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ValidationMessage
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage
+  isExternal: true
+  name: GetFloatErrorsMessage
+  nameWithType: ImportData.GetFloatErrorsMessage
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.GetFloatErrorsMessage
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage
+  isExternal: true
+  name: SetValidationMessage
+  nameWithType: ImportData.SetValidationMessage
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.SetValidationMessage
+- uid: SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport*
+  commentId: Overload:SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport
+  isExternal: true
+  name: ReadyToImport
+  nameWithType: ImportData.ReadyToImport
+  fullName: SuperOffice.CRM.Web.Data.Util.ImportData.ReadyToImport

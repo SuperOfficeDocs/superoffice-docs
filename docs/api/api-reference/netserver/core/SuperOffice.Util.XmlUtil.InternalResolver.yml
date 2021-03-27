@@ -1,0 +1,598 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.XmlUtil.InternalResolver
+  commentId: T:SuperOffice.Util.XmlUtil.InternalResolver
+  id: XmlUtil.InternalResolver
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.XmlUtil.InternalResolver.#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])
+  - SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
+  - SuperOffice.Util.XmlUtil.InternalResolver.Credentials
+  - SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri,System.String,System.Type)
+  langs:
+  - csharp
+  - vb
+  name: XmlUtil.InternalResolver
+  nameWithType: XmlUtil.InternalResolver
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nXmlResolver subclass that resolves uri&apos;s to corresponding xml nodes without\ngoing through temporary files. \n"
+  syntax:
+    content: 'public class InternalResolver : XmlResolver'
+    content.vb: >-
+      Public Class InternalResolver
+          Inherits XmlResolver
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Util.XmlUtil.InternalResolver.EnumUtil.MapEnums``2
+  - SuperOffice.Util.XmlUtil.InternalResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri,System.String,System.Type)
+  commentId: M:SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri,System.String,System.Type)
+  id: GetEntity(System.Uri,System.String,System.Type)
+  parent: SuperOffice.Util.XmlUtil.InternalResolver
+  langs:
+  - csharp
+  - vb
+  name: GetEntity(Uri, String, Type)
+  nameWithType: XmlUtil.InternalResolver.GetEntity(Uri, String, Type)
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity(System.Uri, System.String, System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nResolve an URI, override from base class. If the last part of the uri matches the name of\nan element passed to the constructor, this element is returned; otherwise null.\n"
+  syntax:
+    content: public override object GetEntity(Uri absoluteUri, string role, Type ofObjectToReturn)
+    parameters:
+    - id: absoluteUri
+      type: System.Uri
+      description: URI from calling system
+    - id: role
+      type: System.String
+      description: Not used
+    - id: ofObjectToReturn
+      type: System.Type
+      description: Not used
+    return:
+      type: System.Object
+      description: Matching XmlNode or null
+    content.vb: Public Overrides Function GetEntity(absoluteUri As Uri, role As String, ofObjectToReturn As Type) As Object
+  overload: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])
+  commentId: M:SuperOffice.Util.XmlUtil.InternalResolver.#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])
+  id: '#ctor(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[])'
+  parent: SuperOffice.Util.XmlUtil.InternalResolver
+  langs:
+  - csharp
+  - vb
+  name: InternalResolver(KeyValuePair<String, XmlNode>[])
+  nameWithType: XmlUtil.InternalResolver.InternalResolver(KeyValuePair<String, XmlNode>[])
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver(System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>[])
+  type: Constructor
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nConstruct a resolver and set its content. This is equivalent to passing an empty parameter list\nand calling the Add method.\n"
+  example:
+  - "<pre><code>            		public static string Merge( XmlNode first, XmlNode second)\n            		{\n            			XmlDocument stylesheet = new XmlDocument();\n            			stylesheet.LoadXml( _mergeXSLT );\n\n            			XsltSettings settings = new XsltSettings( true, false );\n            			XslCompiledTransform transform = new XslCompiledTransform( true );\n            			transform.Load( stylesheet, settings, new XmlUrlResolver() );\n\n\n            			string mergeDriver = &quot;&lt;merge xmlns=\\&quot;http://informatik.hu-berlin.de/merge\\&quot;>&quot; +\n            							  &quot;&lt;file1>first.xml&lt;/file1>&quot; +\n            							  &quot;&lt;file2>second.xml&lt;/file2>&quot; +\n            							   &quot;&lt;/merge>&quot;;\n\n            			StringWriter stringWriter = new StringWriter();\n            			XmlWriterSettings writerSettings = new XmlWriterSettings();\n            			writerSettings.ConformanceLevel = ConformanceLevel.Auto;\n\n            			XmlWriter writer = XmlWriter.Create( stringWriter, writerSettings );\n            			InternalResolver res = new InternalResolver( new KeyValuePair&lt;string,XmlNode>( &quot;first.xml&quot;, first ), \n            				new KeyValuePair&lt;string,XmlNode>( &quot;second.xml&quot;, second ) );\n            			transform.Transform( XmlReader.Create( new StringReader( mergeDriver ) ), null, writer, res );</code></pre>"
+  syntax:
+    content: public InternalResolver(params KeyValuePair<string, XmlNode>[] elements)
+    parameters:
+    - id: elements
+      type: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[]
+      description: Array of KeyValuePairs that map an URI terminal component name to an XmlNode
+    content.vb: Public Sub New(ParamArray elements As KeyValuePair(Of String, XmlNode)())
+  overload: SuperOffice.Util.XmlUtil.InternalResolver.#ctor*
+  nameWithType.vb: XmlUtil.InternalResolver.InternalResolver(KeyValuePair(Of String, XmlNode)())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver(System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode)())
+  name.vb: InternalResolver(KeyValuePair(Of String, XmlNode)())
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
+  commentId: M:SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
+  id: Add(System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode})
+  parent: SuperOffice.Util.XmlUtil.InternalResolver
+  langs:
+  - csharp
+  - vb
+  name: Add(KeyValuePair<String, XmlNode>)
+  nameWithType: XmlUtil.InternalResolver.Add(KeyValuePair<String, XmlNode>)
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nAdd a name / XmlNode element to those handled by this resolver instance\n"
+  syntax:
+    content: public void Add(KeyValuePair<string, XmlNode> element)
+    parameters:
+    - id: element
+      type: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
+      description: KeyValuePair that maps an URI terminal component name to an XmlNode
+    content.vb: Public Sub Add(element As KeyValuePair(Of String, XmlNode))
+  overload: SuperOffice.Util.XmlUtil.InternalResolver.Add*
+  nameWithType.vb: XmlUtil.InternalResolver.Add(KeyValuePair(Of String, XmlNode))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.XmlUtil.InternalResolver.Add(System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode))
+  name.vb: Add(KeyValuePair(Of String, XmlNode))
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
+  commentId: P:SuperOffice.Util.XmlUtil.InternalResolver.Credentials
+  id: Credentials
+  parent: SuperOffice.Util.XmlUtil.InternalResolver
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: XmlUtil.InternalResolver.Credentials
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
+  type: Property
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nRequired override, does nothing\n"
+  syntax:
+    content: public override ICredentials Credentials { set; }
+    parameters: []
+    return:
+      type: System.Net.ICredentials
+    content.vb: Public Overrides WriteOnly Property Credentials As ICredentials
+  overload: SuperOffice.Util.XmlUtil.InternalResolver.Credentials*
+  modifiers.csharp:
+  - public
+  - override
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+  - WriteOnly
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<XmlUtil.InternalResolver, To>()
+  nameWithType: EnumUtil.MapEnums<XmlUtil.InternalResolver, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of XmlUtil.InternalResolver, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)()
+  name.vb: MapEnums(Of XmlUtil.InternalResolver, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<XmlUtil.InternalResolver, To>
+    nameWithType: EnumUtil.MapEnums<XmlUtil.InternalResolver, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of XmlUtil.InternalResolver, To)
+    nameWithType: EnumUtil.MapEnums(Of XmlUtil.InternalResolver, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<XmlUtil.InternalResolver, To>()
+  nameWithType: Converters.MapEnums<XmlUtil.InternalResolver, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>()
+  nameWithType.vb: Converters.MapEnums(Of XmlUtil.InternalResolver, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)()
+  name.vb: MapEnums(Of XmlUtil.InternalResolver, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<XmlUtil.InternalResolver, To>
+    nameWithType: Converters.MapEnums<XmlUtil.InternalResolver, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.XmlUtil.InternalResolver, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of XmlUtil.InternalResolver, To)
+    nameWithType: Converters.MapEnums(Of XmlUtil.InternalResolver, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.XmlUtil.InternalResolver, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity*
+  commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.GetEntity
+  isExternal: true
+  name: GetEntity
+  nameWithType: XmlUtil.InternalResolver.GetEntity
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.GetEntity
+- uid: System.Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.#ctor*
+  commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.#ctor
+  isExternal: true
+  name: InternalResolver
+  nameWithType: XmlUtil.InternalResolver.InternalResolver
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.InternalResolver
+- uid: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}[]
+  isExternal: true
+  name: KeyValuePair<String, XmlNode>[]
+  nameWithType: KeyValuePair<String, XmlNode>[]
+  fullName: System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>[]
+  nameWithType.vb: KeyValuePair(Of String, XmlNode)()
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode)()
+  name.vb: KeyValuePair(Of String, XmlNode)()
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.Add*
+  commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.Add
+  isExternal: true
+  name: Add
+  nameWithType: XmlUtil.InternalResolver.Add
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.Add
+- uid: System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
+  commentId: T:System.Collections.Generic.KeyValuePair{System.String,System.Xml.XmlNode}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.KeyValuePair`2
+  name: KeyValuePair<String, XmlNode>
+  nameWithType: KeyValuePair<String, XmlNode>
+  fullName: System.Collections.Generic.KeyValuePair<System.String, System.Xml.XmlNode>
+  nameWithType.vb: KeyValuePair(Of String, XmlNode)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of System.String, System.Xml.XmlNode)
+  name.vb: KeyValuePair(Of String, XmlNode)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.KeyValuePair`2
+  commentId: T:System.Collections.Generic.KeyValuePair`2
+  isExternal: true
+  name: KeyValuePair<TKey, TValue>
+  nameWithType: KeyValuePair<TKey, TValue>
+  fullName: System.Collections.Generic.KeyValuePair<TKey, TValue>
+  nameWithType.vb: KeyValuePair(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.KeyValuePair(Of TKey, TValue)
+  name.vb: KeyValuePair(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: System.Collections.Generic.KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Util.XmlUtil.InternalResolver.Credentials*
+  commentId: Overload:SuperOffice.Util.XmlUtil.InternalResolver.Credentials
+  isExternal: true
+  name: Credentials
+  nameWithType: XmlUtil.InternalResolver.Credentials
+  fullName: SuperOffice.Util.XmlUtil.InternalResolver.Credentials
+- uid: System.Net.ICredentials
+  commentId: '!:System.Net.ICredentials'
+  isExternal: true
+  name: ICredentials
+  nameWithType: ICredentials
+  fullName: System.Net.ICredentials

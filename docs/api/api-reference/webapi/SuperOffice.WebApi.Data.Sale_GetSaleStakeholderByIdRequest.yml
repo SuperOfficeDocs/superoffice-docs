@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest
+  id: Sale_GetSaleStakeholderByIdRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.#ctor
+  - SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSaleStakeholderByIdRequest
+  nameWithType: Sale_GetSaleStakeholderByIdRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Sale_GetSaleStakeholderByIdRequest : Object'
+    content.vb: >-
+      Public Class Sale_GetSaleStakeholderByIdRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest
+  langs:
+  - csharp
+  - vb
+  name: Sale_GetSaleStakeholderByIdRequest()
+  nameWithType: Sale_GetSaleStakeholderByIdRequest.Sale_GetSaleStakeholderByIdRequest()
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.Sale_GetSaleStakeholderByIdRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Sale_GetSaleStakeholderByIdRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  commentId: P:SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  id: SaleStakeholderIds
+  parent: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest
+  langs:
+  - csharp
+  - vb
+  name: SaleStakeholderIds
+  nameWithType: Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] SaleStakeholderIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property SaleStakeholderIds As Integer()
+  overload: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.#ctor
+  isExternal: true
+  name: Sale_GetSaleStakeholderByIdRequest
+  nameWithType: Sale_GetSaleStakeholderByIdRequest.Sale_GetSaleStakeholderByIdRequest
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.Sale_GetSaleStakeholderByIdRequest
+- uid: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  isExternal: true
+  name: SaleStakeholderIds
+  nameWithType: Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+  fullName: SuperOffice.WebApi.Data.Sale_GetSaleStakeholderByIdRequest.SaleStakeholderIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

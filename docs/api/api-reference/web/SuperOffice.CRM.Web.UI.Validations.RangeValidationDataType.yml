@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  commentId: T:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  id: RangeValidationDataType
+  parent: SuperOffice.CRM.Web.UI.Validations
+  children:
+  - SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Date
+  - SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Double
+  - SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Float
+  - SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Integer
+  - SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.String
+  langs:
+  - csharp
+  - vb
+  name: RangeValidationDataType
+  nameWithType: RangeValidationDataType
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  type: Enum
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: public enum RangeValidationDataType
+    content.vb: Public Enum RangeValidationDataType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.String
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.String
+  id: String
+  parent: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  langs:
+  - csharp
+  - vb
+  name: String
+  nameWithType: RangeValidationDataType.String
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.String
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: String = 0
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Integer
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Integer
+  id: Integer
+  parent: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  langs:
+  - csharp
+  - vb
+  name: Integer
+  nameWithType: RangeValidationDataType.Integer
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Integer
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Integer = 1
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Float
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Float
+  id: Float
+  parent: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  langs:
+  - csharp
+  - vb
+  name: Float
+  nameWithType: RangeValidationDataType.Float
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Float
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Float = 2
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Double
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Double
+  id: Double
+  parent: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  langs:
+  - csharp
+  - vb
+  name: Double
+  nameWithType: RangeValidationDataType.Double
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Double
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Double = 3
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Date
+  commentId: F:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Date
+  id: Date
+  parent: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: RangeValidationDataType.Date
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType.Date
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Validations
+  syntax:
+    content: Date = 4
+    return:
+      type: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.CRM.Web.UI.Validations
+  commentId: N:SuperOffice.CRM.Web.UI.Validations
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Validations
+  nameWithType: SuperOffice.CRM.Web.UI.Validations
+  fullName: SuperOffice.CRM.Web.UI.Validations
+- uid: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  commentId: T:SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType
+  parent: SuperOffice.CRM.Web.UI.Validations
+  isExternal: true
+  name: RangeValidationDataType
+  nameWithType: RangeValidationDataType
+  fullName: SuperOffice.CRM.Web.UI.Validations.RangeValidationDataType

@@ -1,0 +1,1229 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TypeHelper
+  commentId: T:SuperOffice.Util.TypeHelper
+  id: TypeHelper
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TypeHelper.CreateDefaultEntity(System.Type)
+  - SuperOffice.Util.TypeHelper.GetAllInterfaces(System.Type)
+  - SuperOffice.Util.TypeHelper.GetPublicReadableProperties(System.Type)
+  - SuperOffice.Util.TypeHelper.IsComplex(System.Type)
+  - SuperOffice.Util.TypeHelper.IsDecimalNumber(System.Type)
+  - SuperOffice.Util.TypeHelper.IsDictionary(System.Type,System.Type@,System.Type@)
+  - SuperOffice.Util.TypeHelper.IsEnumerable(System.Type)
+  - SuperOffice.Util.TypeHelper.IsEnumerable(System.Type,System.Type@)
+  - SuperOffice.Util.TypeHelper.IsGenericEnumerable(System.Type,System.Type@)
+  - SuperOffice.Util.TypeHelper.IsGenericIDictionary(System.Type,System.Type@,System.Type@)
+  - SuperOffice.Util.TypeHelper.IsGenericIList(System.Type,System.Type@)
+  - SuperOffice.Util.TypeHelper.IsNongenericEnumerable(System.Type)
+  - SuperOffice.Util.TypeHelper.IsNonGenericIDictionary(System.Type)
+  - SuperOffice.Util.TypeHelper.IsNongenericIList(System.Type)
+  - SuperOffice.Util.TypeHelper.IsNullable(System.Type)
+  - SuperOffice.Util.TypeHelper.IsSimple(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: TypeHelper
+  nameWithType: TypeHelper
+  fullName: SuperOffice.Util.TypeHelper
+  type: Class
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nUtility/Extension class to assist analysis of data-types when doing reflection-code.\n"
+  syntax:
+    content: public static class TypeHelper
+    content.vb: Public Module TypeHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsEnumerable(System.Type)
+  id: IsEnumerable(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEnumerable(Type)
+  nameWithType: TypeHelper.IsEnumerable(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks if the instance represents an enumerable type.\n<remarks>\nWhile <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> technically is an enumerable of char, it will\nnot be reported as an enumerable type.\n</remarks>\n"
+  syntax:
+    content: public static bool IsEnumerable(this Type instance)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    return:
+      type: System.Boolean
+      description: true if enumerable.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsEnumerable(instance As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsEnumerable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type,System.Type@)
+  commentId: M:SuperOffice.Util.TypeHelper.IsEnumerable(System.Type,System.Type@)
+  id: IsEnumerable(System.Type,System.Type@)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsEnumerable(Type, out Type)
+  nameWithType: TypeHelper.IsEnumerable(Type, out Type)
+  fullName: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type, out System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks if the instance represents an enumerable type and attempts to\ndiscover the type it enumerates over.\n<remarks>\nWhile <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> technically is an enumerable of char, it will\nnot be reported as an enumerable type.\n</remarks>\n"
+  syntax:
+    content: public static bool IsEnumerable(this Type instance, out Type elementType)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    - id: elementType
+      type: System.Type
+      description: The type which the enumerable contains. Set to null if result type is unenumerable.
+    return:
+      type: System.Boolean
+      description: true if enumerable.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsEnumerable(instance As Type, ByRef elementType As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsEnumerable*
+  nameWithType.vb: TypeHelper.IsEnumerable(Type, ByRef Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TypeHelper.IsEnumerable(System.Type, ByRef System.Type)
+  name.vb: IsEnumerable(Type, ByRef Type)
+- uid: SuperOffice.Util.TypeHelper.IsDictionary(System.Type,System.Type@,System.Type@)
+  commentId: M:SuperOffice.Util.TypeHelper.IsDictionary(System.Type,System.Type@,System.Type@)
+  id: IsDictionary(System.Type,System.Type@,System.Type@)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsDictionary(Type, out Type, out Type)
+  nameWithType: TypeHelper.IsDictionary(Type, out Type, out Type)
+  fullName: SuperOffice.Util.TypeHelper.IsDictionary(System.Type, out System.Type, out System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an generic dictionary and attempts to discover the types used for its key/value-pairs.\n"
+  syntax:
+    content: public static bool IsDictionary(this Type instance, out Type keyType, out Type valueType)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    - id: keyType
+      type: System.Type
+      description: The key-type in the dictionary. Set to null if result type isn&apos;t a dictionary.
+    - id: valueType
+      type: System.Type
+      description: The value-type in the dictionary. Set to null if result type isn&apos;t a dictionary.
+    return:
+      type: System.Boolean
+      description: true if a dictionary.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsDictionary(instance As Type, ByRef keyType As Type, ByRef valueType As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsDictionary*
+  nameWithType.vb: TypeHelper.IsDictionary(Type, ByRef Type, ByRef Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TypeHelper.IsDictionary(System.Type, ByRef System.Type, ByRef System.Type)
+  name.vb: IsDictionary(Type, ByRef Type, ByRef Type)
+- uid: SuperOffice.Util.TypeHelper.IsGenericIDictionary(System.Type,System.Type@,System.Type@)
+  commentId: M:SuperOffice.Util.TypeHelper.IsGenericIDictionary(System.Type,System.Type@,System.Type@)
+  id: IsGenericIDictionary(System.Type,System.Type@,System.Type@)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsGenericIDictionary(Type, out Type, out Type)
+  nameWithType: TypeHelper.IsGenericIDictionary(Type, out Type, out Type)
+  fullName: SuperOffice.Util.TypeHelper.IsGenericIDictionary(System.Type, out System.Type, out System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an generic dictionary and attempts to discover the types used for its key/value-pairs.\n"
+  syntax:
+    content: public static bool IsGenericIDictionary(this Type instance, out Type keyType, out Type valueType)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    - id: keyType
+      type: System.Type
+      description: The key-type in the dictionary. Set to null if result type isn&apos;t a dictionary.
+    - id: valueType
+      type: System.Type
+      description: The value-type in the dictionary. Set to null if result type isn&apos;t a dictionary.
+    return:
+      type: System.Boolean
+      description: true if a dictionary.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsGenericIDictionary(instance As Type, ByRef keyType As Type, ByRef valueType As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsGenericIDictionary*
+  nameWithType.vb: TypeHelper.IsGenericIDictionary(Type, ByRef Type, ByRef Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TypeHelper.IsGenericIDictionary(System.Type, ByRef System.Type, ByRef System.Type)
+  name.vb: IsGenericIDictionary(Type, ByRef Type, ByRef Type)
+- uid: SuperOffice.Util.TypeHelper.IsNonGenericIDictionary(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsNonGenericIDictionary(System.Type)
+  id: IsNonGenericIDictionary(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNonGenericIDictionary(Type)
+  nameWithType: TypeHelper.IsNonGenericIDictionary(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsNonGenericIDictionary(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an non-generic dictionary.\n"
+  syntax:
+    content: public static bool IsNonGenericIDictionary(this Type instance)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    return:
+      type: System.Boolean
+      description: true if a dictionary.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNonGenericIDictionary(instance As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsNonGenericIDictionary*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsGenericEnumerable(System.Type,System.Type@)
+  commentId: M:SuperOffice.Util.TypeHelper.IsGenericEnumerable(System.Type,System.Type@)
+  id: IsGenericEnumerable(System.Type,System.Type@)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsGenericEnumerable(Type, out Type)
+  nameWithType: TypeHelper.IsGenericEnumerable(Type, out Type)
+  fullName: SuperOffice.Util.TypeHelper.IsGenericEnumerable(System.Type, out System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an generic enemurable and attempts to discover the type it\nenumerates over.\n"
+  syntax:
+    content: public static bool IsGenericEnumerable(this Type instance, out Type elementType)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    - id: elementType
+      type: System.Type
+      description: The type which the enumerable contains. Set to null if result type is unenumerable.
+    return:
+      type: System.Boolean
+      description: true if enumerable.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsGenericEnumerable(instance As Type, ByRef elementType As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsGenericEnumerable*
+  nameWithType.vb: TypeHelper.IsGenericEnumerable(Type, ByRef Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TypeHelper.IsGenericEnumerable(System.Type, ByRef System.Type)
+  name.vb: IsGenericEnumerable(Type, ByRef Type)
+- uid: SuperOffice.Util.TypeHelper.IsNongenericEnumerable(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsNongenericEnumerable(System.Type)
+  id: IsNongenericEnumerable(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNongenericEnumerable(Type)
+  nameWithType: TypeHelper.IsNongenericEnumerable(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsNongenericEnumerable(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an non-generic IEnumerable.\n<remarks>\nWhile <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> technically is an enumerable of char, it will\nnot be reported as an enumerable type.\n</remarks>\n"
+  syntax:
+    content: public static bool IsNongenericEnumerable(this Type instance)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    return:
+      type: System.Boolean
+      description: true if nongeneric IEnumerable.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNongenericEnumerable(instance As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsNongenericEnumerable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsGenericIList(System.Type,System.Type@)
+  commentId: M:SuperOffice.Util.TypeHelper.IsGenericIList(System.Type,System.Type@)
+  id: IsGenericIList(System.Type,System.Type@)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsGenericIList(Type, out Type)
+  nameWithType: TypeHelper.IsGenericIList(Type, out Type)
+  fullName: SuperOffice.Util.TypeHelper.IsGenericIList(System.Type, out System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an generic List and attempts to discover the type it\nenumerates over.\n"
+  syntax:
+    content: public static bool IsGenericIList(this Type instance, out Type elementType)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    - id: elementType
+      type: System.Type
+      description: The type which the enumerable contains. Set to null if result type is unenumerable.
+    return:
+      type: System.Boolean
+      description: true if generic List.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsGenericIList(instance As Type, ByRef elementType As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsGenericIList*
+  nameWithType.vb: TypeHelper.IsGenericIList(Type, ByRef Type)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SuperOffice.Util.TypeHelper.IsGenericIList(System.Type, ByRef System.Type)
+  name.vb: IsGenericIList(Type, ByRef Type)
+- uid: SuperOffice.Util.TypeHelper.IsNongenericIList(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsNongenericIList(System.Type)
+  id: IsNongenericIList(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNongenericIList(Type)
+  nameWithType: TypeHelper.IsNongenericIList(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsNongenericIList(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nChecks is the instance repesent an non-generic IList.\n"
+  syntax:
+    content: public static bool IsNongenericIList(this Type instance)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyse
+    return:
+      type: System.Boolean
+      description: true if nongeneric IList.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNongenericIList(instance As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsNongenericIList*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.GetPublicReadableProperties(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.GetPublicReadableProperties(System.Type)
+  id: GetPublicReadableProperties(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPublicReadableProperties(Type)
+  nameWithType: TypeHelper.GetPublicReadableProperties(Type)
+  fullName: SuperOffice.Util.TypeHelper.GetPublicReadableProperties(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGets the public, readable instance-properties of a type.\n"
+  syntax:
+    content: public static IEnumerable<PropertyInfo> GetPublicReadableProperties(this Type instance)
+    parameters:
+    - id: instance
+      type: System.Type
+      description: The type to analyze.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+      description: Empty array if no properties found.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPublicReadableProperties(instance As Type) As IEnumerable(Of PropertyInfo)
+  overload: SuperOffice.Util.TypeHelper.GetPublicReadableProperties*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsSimple(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsSimple(System.Type)
+  id: IsSimple(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsSimple(Type)
+  nameWithType: TypeHelper.IsSimple(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsSimple(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDetermines if the type represents a simple/primitive type.\n"
+  syntax:
+    content: public static bool IsSimple(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type to analyze.
+    return:
+      type: System.Boolean
+      description: true if simple
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsSimple(type As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsSimple*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsDecimalNumber(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsDecimalNumber(System.Type)
+  id: IsDecimalNumber(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsDecimalNumber(Type)
+  nameWithType: TypeHelper.IsDecimalNumber(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsDecimalNumber(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDetermins if the type represents a type which can represent decimal nubers.\n"
+  syntax:
+    content: public static bool IsDecimalNumber(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type to analyze.
+    return:
+      type: System.Boolean
+      description: true if decimal number
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsDecimalNumber(type As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsDecimalNumber*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsNullable(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsNullable(System.Type)
+  id: IsNullable(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsNullable(Type)
+  nameWithType: TypeHelper.IsNullable(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsNullable(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDetermines if the provided type is a Nullable one.\n"
+  syntax:
+    content: public static bool IsNullable(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsNullable(type As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsNullable*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.IsComplex(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.IsComplex(System.Type)
+  id: IsComplex(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: IsComplex(Type)
+  nameWithType: TypeHelper.IsComplex(Type)
+  fullName: SuperOffice.Util.TypeHelper.IsComplex(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nDetermines if the type represents a complex type.\n"
+  syntax:
+    content: public static bool IsComplex(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+      description: The type to analyze.
+    return:
+      type: System.Boolean
+      description: true is complex.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsComplex(type As Type) As Boolean
+  overload: SuperOffice.Util.TypeHelper.IsComplex*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.GetAllInterfaces(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.GetAllInterfaces(System.Type)
+  id: GetAllInterfaces(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetAllInterfaces(Type)
+  nameWithType: TypeHelper.GetAllInterfaces(Type)
+  fullName: SuperOffice.Util.TypeHelper.GetAllInterfaces(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nGets all interfaces implemented by the type.\nThis may includes the type itself it if itself is an interface.\n"
+  syntax:
+    content: public static Type[] GetAllInterfaces(this Type instance)
+    parameters:
+    - id: instance
+      type: System.Type
+    return:
+      type: System.Type[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetAllInterfaces(instance As Type) As Type()
+  overload: SuperOffice.Util.TypeHelper.GetAllInterfaces*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TypeHelper.CreateDefaultEntity(System.Type)
+  commentId: M:SuperOffice.Util.TypeHelper.CreateDefaultEntity(System.Type)
+  id: CreateDefaultEntity(System.Type)
+  isExtensionMethod: true
+  parent: SuperOffice.Util.TypeHelper
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultEntity(Type)
+  nameWithType: TypeHelper.CreateDefaultEntity(Type)
+  fullName: SuperOffice.Util.TypeHelper.CreateDefaultEntity(System.Type)
+  type: Method
+  source:
+    path: SOCore
+    isExternal: true
+  assemblies:
+  - SOCore
+  namespace: SuperOffice.Util
+  summary: "\nSafely creates a default-value for the specified type.\n"
+  syntax:
+    content: public static object CreateDefaultEntity(this Type type)
+    parameters:
+    - id: type
+      type: System.Type
+    return:
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDefaultEntity(type As Type) As Object
+  overload: SuperOffice.Util.TypeHelper.CreateDefaultEntity*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Util.TypeHelper.IsEnumerable*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsEnumerable
+  isExternal: true
+  name: IsEnumerable
+  nameWithType: TypeHelper.IsEnumerable
+  fullName: SuperOffice.Util.TypeHelper.IsEnumerable
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.Util.TypeHelper.IsDictionary*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsDictionary
+  isExternal: true
+  name: IsDictionary
+  nameWithType: TypeHelper.IsDictionary
+  fullName: SuperOffice.Util.TypeHelper.IsDictionary
+- uid: SuperOffice.Util.TypeHelper.IsGenericIDictionary*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsGenericIDictionary
+  isExternal: true
+  name: IsGenericIDictionary
+  nameWithType: TypeHelper.IsGenericIDictionary
+  fullName: SuperOffice.Util.TypeHelper.IsGenericIDictionary
+- uid: SuperOffice.Util.TypeHelper.IsNonGenericIDictionary*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsNonGenericIDictionary
+  isExternal: true
+  name: IsNonGenericIDictionary
+  nameWithType: TypeHelper.IsNonGenericIDictionary
+  fullName: SuperOffice.Util.TypeHelper.IsNonGenericIDictionary
+- uid: SuperOffice.Util.TypeHelper.IsGenericEnumerable*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsGenericEnumerable
+  isExternal: true
+  name: IsGenericEnumerable
+  nameWithType: TypeHelper.IsGenericEnumerable
+  fullName: SuperOffice.Util.TypeHelper.IsGenericEnumerable
+- uid: SuperOffice.Util.TypeHelper.IsNongenericEnumerable*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsNongenericEnumerable
+  isExternal: true
+  name: IsNongenericEnumerable
+  nameWithType: TypeHelper.IsNongenericEnumerable
+  fullName: SuperOffice.Util.TypeHelper.IsNongenericEnumerable
+- uid: SuperOffice.Util.TypeHelper.IsGenericIList*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsGenericIList
+  isExternal: true
+  name: IsGenericIList
+  nameWithType: TypeHelper.IsGenericIList
+  fullName: SuperOffice.Util.TypeHelper.IsGenericIList
+- uid: SuperOffice.Util.TypeHelper.IsNongenericIList*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsNongenericIList
+  isExternal: true
+  name: IsNongenericIList
+  nameWithType: TypeHelper.IsNongenericIList
+  fullName: SuperOffice.Util.TypeHelper.IsNongenericIList
+- uid: SuperOffice.Util.TypeHelper.GetPublicReadableProperties*
+  commentId: Overload:SuperOffice.Util.TypeHelper.GetPublicReadableProperties
+  isExternal: true
+  name: GetPublicReadableProperties
+  nameWithType: TypeHelper.GetPublicReadableProperties
+  fullName: SuperOffice.Util.TypeHelper.GetPublicReadableProperties
+- uid: System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<PropertyInfo>
+  nameWithType: IEnumerable<PropertyInfo>
+  fullName: System.Collections.Generic.IEnumerable<System.Reflection.PropertyInfo>
+  nameWithType.vb: IEnumerable(Of PropertyInfo)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Reflection.PropertyInfo)
+  name.vb: IEnumerable(Of PropertyInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: SuperOffice.Util.TypeHelper.IsSimple*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsSimple
+  isExternal: true
+  name: IsSimple
+  nameWithType: TypeHelper.IsSimple
+  fullName: SuperOffice.Util.TypeHelper.IsSimple
+- uid: SuperOffice.Util.TypeHelper.IsDecimalNumber*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsDecimalNumber
+  isExternal: true
+  name: IsDecimalNumber
+  nameWithType: TypeHelper.IsDecimalNumber
+  fullName: SuperOffice.Util.TypeHelper.IsDecimalNumber
+- uid: SuperOffice.Util.TypeHelper.IsNullable*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsNullable
+  isExternal: true
+  name: IsNullable
+  nameWithType: TypeHelper.IsNullable
+  fullName: SuperOffice.Util.TypeHelper.IsNullable
+- uid: SuperOffice.Util.TypeHelper.IsComplex*
+  commentId: Overload:SuperOffice.Util.TypeHelper.IsComplex
+  isExternal: true
+  name: IsComplex
+  nameWithType: TypeHelper.IsComplex
+  fullName: SuperOffice.Util.TypeHelper.IsComplex
+- uid: SuperOffice.Util.TypeHelper.GetAllInterfaces*
+  commentId: Overload:SuperOffice.Util.TypeHelper.GetAllInterfaces
+  isExternal: true
+  name: GetAllInterfaces
+  nameWithType: TypeHelper.GetAllInterfaces
+  fullName: SuperOffice.Util.TypeHelper.GetAllInterfaces
+- uid: System.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.Util.TypeHelper.CreateDefaultEntity*
+  commentId: Overload:SuperOffice.Util.TypeHelper.CreateDefaultEntity
+  isExternal: true
+  name: CreateDefaultEntity
+  nameWithType: TypeHelper.CreateDefaultEntity
+  fullName: SuperOffice.Util.TypeHelper.CreateDefaultEntity

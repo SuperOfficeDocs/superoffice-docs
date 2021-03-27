@@ -1,0 +1,4061 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  id: CalendarContainer
+  parent: SuperOffice.CRM.Web.UI.Controls
+  children:
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.#ctor
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._appointments
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._bottom
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarClientObjects
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarLayout
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._caption
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._captionType
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientObject
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientScript
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._dates
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayAmPmTime
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayHeader
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayTimeScale
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._headerHeight
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._heigth
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._initialStartTimeHour
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._left
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._numberOfDays
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingBottom
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingLeft
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingRight
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingTop
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._printerFriendly
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._receiveMouseScrollEvent
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startDate
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startTimeCurrent
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleTopOffset
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleType
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._top
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer._width
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize(System.Xml.XmlNode,System.String)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleWidth
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour(SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType,System.Int32)
+  - SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width
+  langs:
+  - csharp
+  - vb
+  name: CalendarContainer
+  nameWithType: CalendarContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  type: Class
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: 'public class CalendarContainer : ControlBase, IControl, ILayout, IDatabindingMode, IHasSchema, INamingContainer, ICalendarContainerClientObject'
+    content.vb: >-
+      Public Class CalendarContainer
+          Inherits ControlBase
+          Implements IControl, ILayout, IDatabindingMode, IHasSchema, INamingContainer, ICalendarContainerClientObject
+  inheritance:
+  - System.Object
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase
+  implements:
+  - SuperOffice.DCF.Web.UI.IControl
+  - SuperOffice.DCF.Web.UI.ILayout
+  - SuperOffice.Configuration.IHasSchema
+  - System.Web.UI.INamingContainer
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  inheritedMembers:
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+  - SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleWidth
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleWidth
+  id: TimeScaleWidth
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: TimeScaleWidth
+  nameWithType: CalendarContainer.TimeScaleWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleWidth
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected const int TimeScaleWidth = 26
+    return:
+      type: System.Int32
+    content.vb: Protected Const TimeScaleWidth As Integer = 26
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._printerFriendly
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._printerFriendly
+  id: _printerFriendly
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _printerFriendly
+  nameWithType: CalendarContainer._printerFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._printerFriendly
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected CalendarContainer.PrinterFriendly _printerFriendly
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+    content.vb: Protected _printerFriendly As CalendarContainer.PrinterFriendly
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startTimeCurrent
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startTimeCurrent
+  id: _startTimeCurrent
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _startTimeCurrent
+  nameWithType: CalendarContainer._startTimeCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startTimeCurrent
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _startTimeCurrent
+    return:
+      type: System.String
+    content.vb: Protected _startTimeCurrent As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientScript
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientScript
+  id: _clientScript
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _clientScript
+  nameWithType: CalendarContainer._clientScript
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientScript
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _clientScript
+    return:
+      type: System.String
+    content.vb: Protected _clientScript As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientObject
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientObject
+  id: _clientObject
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _clientObject
+  nameWithType: CalendarContainer._clientObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._clientObject
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected CalendarContainer.ClientObject _clientObject
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+    content.vb: Protected _clientObject As CalendarContainer.ClientObject
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._appointments
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._appointments
+  id: _appointments
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _appointments
+  nameWithType: CalendarContainer._appointments
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._appointments
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected Appointment[] _appointments
+    return:
+      type: SuperOffice.CRM.Services.Appointment[]
+    content.vb: Protected _appointments As Appointment()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarLayout
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarLayout
+  id: _calendarLayout
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _calendarLayout
+  nameWithType: CalendarContainer._calendarLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarLayout
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected CalendarLayoutEnum _calendarLayout
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+    content.vb: Protected _calendarLayout As CalendarLayoutEnum
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._top
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._top
+  id: _top
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _top
+  nameWithType: CalendarContainer._top
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._top
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _top
+    return:
+      type: System.String
+    content.vb: Protected _top As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._bottom
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._bottom
+  id: _bottom
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _bottom
+  nameWithType: CalendarContainer._bottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._bottom
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _bottom
+    return:
+      type: System.String
+    content.vb: Protected _bottom As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._left
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._left
+  id: _left
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _left
+  nameWithType: CalendarContainer._left
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._left
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _left
+    return:
+      type: System.String
+    content.vb: Protected _left As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._width
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._width
+  id: _width
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _width
+  nameWithType: CalendarContainer._width
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._width
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _width
+    return:
+      type: System.String
+    content.vb: Protected _width As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._heigth
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._heigth
+  id: _heigth
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _heigth
+  nameWithType: CalendarContainer._heigth
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._heigth
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _heigth
+    return:
+      type: System.String
+    content.vb: Protected _heigth As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingTop
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingTop
+  id: _paddingTop
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _paddingTop
+  nameWithType: CalendarContainer._paddingTop
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingTop
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _paddingTop
+    return:
+      type: System.Int32
+    content.vb: Protected _paddingTop As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingLeft
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingLeft
+  id: _paddingLeft
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _paddingLeft
+  nameWithType: CalendarContainer._paddingLeft
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingLeft
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _paddingLeft
+    return:
+      type: System.Int32
+    content.vb: Protected _paddingLeft As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingBottom
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingBottom
+  id: _paddingBottom
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _paddingBottom
+  nameWithType: CalendarContainer._paddingBottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingBottom
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _paddingBottom
+    return:
+      type: System.Int32
+    content.vb: Protected _paddingBottom As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingRight
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingRight
+  id: _paddingRight
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _paddingRight
+  nameWithType: CalendarContainer._paddingRight
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._paddingRight
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _paddingRight
+    return:
+      type: System.Int32
+    content.vb: Protected _paddingRight As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._receiveMouseScrollEvent
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._receiveMouseScrollEvent
+  id: _receiveMouseScrollEvent
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _receiveMouseScrollEvent
+  nameWithType: CalendarContainer._receiveMouseScrollEvent
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._receiveMouseScrollEvent
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _receiveMouseScrollEvent
+    return:
+      type: System.Boolean
+    content.vb: Protected _receiveMouseScrollEvent As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayHeader
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayHeader
+  id: _displayHeader
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _displayHeader
+  nameWithType: CalendarContainer._displayHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayHeader
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _displayHeader
+    return:
+      type: System.Boolean
+    content.vb: Protected _displayHeader As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._caption
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._caption
+  id: _caption
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _caption
+  nameWithType: CalendarContainer._caption
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._caption
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected string _caption
+    return:
+      type: System.String
+    content.vb: Protected _caption As String
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._headerHeight
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._headerHeight
+  id: _headerHeight
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _headerHeight
+  nameWithType: CalendarContainer._headerHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._headerHeight
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _headerHeight
+    return:
+      type: System.Int32
+    content.vb: Protected _headerHeight As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._captionType
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._captionType
+  id: _captionType
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _captionType
+  nameWithType: CalendarContainer._captionType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._captionType
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected CalendarCaptionType _captionType
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+    content.vb: Protected _captionType As CalendarCaptionType
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayAmPmTime
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayAmPmTime
+  id: _displayAmPmTime
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _displayAmPmTime
+  nameWithType: CalendarContainer._displayAmPmTime
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayAmPmTime
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _displayAmPmTime
+    return:
+      type: System.Boolean
+    content.vb: Protected _displayAmPmTime As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayTimeScale
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayTimeScale
+  id: _displayTimeScale
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _displayTimeScale
+  nameWithType: CalendarContainer._displayTimeScale
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._displayTimeScale
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected bool _displayTimeScale
+    return:
+      type: System.Boolean
+    content.vb: Protected _displayTimeScale As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleType
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleType
+  id: _timeScaleType
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _timeScaleType
+  nameWithType: CalendarContainer._timeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleType
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected CalendarTimeScaleType _timeScaleType
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+    content.vb: Protected _timeScaleType As CalendarTimeScaleType
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleTopOffset
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleTopOffset
+  id: _timeScaleTopOffset
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _timeScaleTopOffset
+  nameWithType: CalendarContainer._timeScaleTopOffset
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._timeScaleTopOffset
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _timeScaleTopOffset
+    return:
+      type: System.Int32
+    content.vb: Protected _timeScaleTopOffset As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._initialStartTimeHour
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._initialStartTimeHour
+  id: _initialStartTimeHour
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _initialStartTimeHour
+  nameWithType: CalendarContainer._initialStartTimeHour
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._initialStartTimeHour
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _initialStartTimeHour
+    return:
+      type: System.Int32
+    content.vb: Protected _initialStartTimeHour As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._dates
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._dates
+  id: _dates
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _dates
+  nameWithType: CalendarContainer._dates
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._dates
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected DateTime[] _dates
+    return:
+      type: System.DateTime[]
+    content.vb: Protected _dates As Date()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startDate
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startDate
+  id: _startDate
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _startDate
+  nameWithType: CalendarContainer._startDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._startDate
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected DateTime _startDate
+    return:
+      type: System.DateTime
+    content.vb: Protected _startDate As Date
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._numberOfDays
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._numberOfDays
+  id: _numberOfDays
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _numberOfDays
+  nameWithType: CalendarContainer._numberOfDays
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._numberOfDays
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int _numberOfDays
+    return:
+      type: System.Int32
+    content.vb: Protected _numberOfDays As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarClientObjects
+  commentId: F:SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarClientObjects
+  id: _calendarClientObjects
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: _calendarClientObjects
+  nameWithType: CalendarContainer._calendarClientObjects
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer._calendarClientObjects
+  type: Field
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected ICalendarClientObject[] _calendarClientObjects
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject[]
+    content.vb: Protected _calendarClientObjects As ICalendarClientObject()
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.#ctor
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CalendarContainer()
+  nameWithType: CalendarContainer.CalendarContainer()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarContainer()
+  type: Constructor
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public CalendarContainer()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize(System.Xml.XmlNode,System.String)
+  id: Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Initialize(XmlNode, String)
+  nameWithType: CalendarContainer.Initialize(XmlNode, String)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize(System.Xml.XmlNode, System.String)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void Initialize(XmlNode config, string id)
+    parameters:
+    - id: config
+      type: System.Xml.XmlNode
+    - id: id
+      type: System.String
+    content.vb: Public Overrides Sub Initialize(config As XmlNode, id As String)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render(System.Web.UI.HtmlTextWriter)
+  id: Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Render(HtmlTextWriter)
+  nameWithType: CalendarContainer.Render(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected override void Render(HtmlTextWriter writer)
+    parameters:
+    - id: writer
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overrides Sub Render(writer As HtmlTextWriter)
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay
+  id: CreateDay
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CreateDay()
+  nameWithType: CalendarContainer.CreateDay()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void CreateDay()
+    content.vb: Protected Overridable Sub CreateDay
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView
+  id: CreateView
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CreateView()
+  nameWithType: CalendarContainer.CreateView()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void CreateView()
+    content.vb: Protected Overridable Sub CreateView
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour(SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType,System.Int32)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour(SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType,System.Int32)
+  id: VerifyInititialStartTimeHour(SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType,System.Int32)
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: VerifyInititialStartTimeHour(CalendarTimeScaleType, Int32)
+  nameWithType: CalendarContainer.VerifyInititialStartTimeHour(CalendarTimeScaleType, Int32)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour(SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected void VerifyInititialStartTimeHour(CalendarTimeScaleType timeScaleType, int calendareight)
+    parameters:
+    - id: timeScaleType
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+    - id: calendareight
+      type: System.Int32
+    content.vb: Protected Sub VerifyInititialStartTimeHour(timeScaleType As CalendarTimeScaleType, calendareight As Integer)
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek
+  id: CreateWeek
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CreateWeek()
+  nameWithType: CalendarContainer.CreateWeek()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void CreateWeek()
+    content.vb: Protected Overridable Sub CreateWeek
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars(System.Web.UI.HtmlTextWriter)
+  id: RenderCalendars(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: RenderCalendars(HtmlTextWriter)
+  nameWithType: CalendarContainer.RenderCalendars(HtmlTextWriter)
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars(System.Web.UI.HtmlTextWriter)
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void RenderCalendars(HtmlTextWriter w)
+    parameters:
+    - id: w
+      type: System.Web.UI.HtmlTextWriter
+    content.vb: Protected Overridable Sub RenderCalendars(w As HtmlTextWriter)
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth
+  id: CreateMonth
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CreateMonth()
+  nameWithType: CalendarContainer.CreateMonth()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void CreateMonth()
+    content.vb: Protected Overridable Sub CreateMonth
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek
+  id: CreateMiniWeek
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CreateMiniWeek()
+  nameWithType: CalendarContainer.CreateMiniWeek()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void CreateMiniWeek()
+    content.vb: Protected Overridable Sub CreateMiniWeek
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay
+  id: CreateMiniDay
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CreateMiniDay()
+  nameWithType: CalendarContainer.CreateMiniDay()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected virtual void CreateMiniDay()
+    content.vb: Protected Overridable Sub CreateMiniDay
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind
+  commentId: M:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind
+  id: DataBind
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: DataBind()
+  nameWithType: CalendarContainer.DataBind()
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind()
+  type: Method
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public override void DataBind()
+    content.vb: Public Overrides Sub DataBind
+  overridden: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly
+  id: IsPrinterFriendly
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: IsPrinterFriendly
+  nameWithType: CalendarContainer.IsPrinterFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool IsPrinterFriendly { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsPrinterFriendly As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent
+  id: StartTimeCurrent
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: StartTimeCurrent
+  nameWithType: CalendarContainer.StartTimeCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string StartTimeCurrent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartTimeCurrent As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow
+  id: CalendarsHasTimeFollow
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CalendarsHasTimeFollow
+  nameWithType: CalendarContainer.CalendarsHasTimeFollow
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool CalendarsHasTimeFollow { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CalendarsHasTimeFollow As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript
+  id: ClientScript
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: ClientScript
+  nameWithType: CalendarContainer.ClientScript
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string ClientScript { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ClientScript As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript*
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects
+  id: CalendarClientObjects
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CalendarClientObjects
+  nameWithType: CalendarContainer.CalendarClientObjects
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Calendar.ClientObject[] CalendarClientObjects { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject[]
+    content.vb: Public ReadOnly Property CalendarClientObjects As Calendar.ClientObject()
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects*
+  implements:
+  - SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType
+  id: CaptionType
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CaptionType
+  nameWithType: CalendarContainer.CaptionType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public CalendarCaptionType CaptionType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+    content.vb: Public Property CaptionType As CalendarCaptionType
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates
+  id: Dates
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Dates
+  nameWithType: CalendarContainer.Dates
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public DateTime[] Dates { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime[]
+    content.vb: Public Property Dates As Date()
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate
+  id: StartDate
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: CalendarContainer.StartDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property StartDate As Date
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays
+  id: NumberOfDays
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: NumberOfDays
+  nameWithType: CalendarContainer.NumberOfDays
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int NumberOfDays { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NumberOfDays As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption
+  id: Caption
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: CalendarContainer.Caption
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments
+  id: Appointments
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Appointments
+  nameWithType: CalendarContainer.Appointments
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Appointment[] Appointments { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Appointment[]
+    content.vb: Public Property Appointments As Appointment()
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates
+  id: Associates
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Associates
+  nameWithType: CalendarContainer.Associates
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public Associate[] Associates { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Associate[]
+    content.vb: Public Property Associates As Associate()
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale
+  id: DisplayTimeScale
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: DisplayTimeScale
+  nameWithType: CalendarContainer.DisplayTimeScale
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool DisplayTimeScale { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DisplayTimeScale As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime
+  id: DisplayAmPmTime
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: DisplayAmPmTime
+  nameWithType: CalendarContainer.DisplayAmPmTime
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool DisplayAmPmTime { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DisplayAmPmTime As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType
+  id: TimeScaleType
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: TimeScaleType
+  nameWithType: CalendarContainer.TimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public CalendarTimeScaleType TimeScaleType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+    content.vb: Public Property TimeScaleType As CalendarTimeScaleType
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight
+  id: HeaderHeight
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: HeaderHeight
+  nameWithType: CalendarContainer.HeaderHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int HeaderHeight { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property HeaderHeight As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader
+  id: DisplayHeader
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: DisplayHeader
+  nameWithType: CalendarContainer.DisplayHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool DisplayHeader { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DisplayHeader As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent
+  id: ReceiveMouseScrollEvent
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: ReceiveMouseScrollEvent
+  nameWithType: CalendarContainer.ReceiveMouseScrollEvent
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public bool ReceiveMouseScrollEvent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReceiveMouseScrollEvent As Boolean
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout
+  id: CalendarLayout
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: CalendarLayout
+  nameWithType: CalendarContainer.CalendarLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public CalendarLayoutEnum CalendarLayout { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+    content.vb: Public Property CalendarLayout As CalendarLayoutEnum
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour
+  id: InitialStartTimeHour
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: InitialStartTimeHour
+  nameWithType: CalendarContainer.InitialStartTimeHour
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public int InitialStartTimeHour { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InitialStartTimeHour As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top
+  id: Top
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Top
+  nameWithType: CalendarContainer.Top
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Top { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Top As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom
+  id: Bottom
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Bottom
+  nameWithType: CalendarContainer.Bottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Bottom { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Bottom As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left
+  id: Left
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: CalendarContainer.Left
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Left { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Left As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width
+  id: Width
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CalendarContainer.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Width { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Width As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height
+  id: Height
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CalendarContainer.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: public string Height { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Height As String
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight
+  id: nHeight
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: nHeight
+  nameWithType: CalendarContainer.nHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int nHeight { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected ReadOnly Property nHeight As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth
+  id: nWidth
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: nWidth
+  nameWithType: CalendarContainer.nWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int nWidth { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected ReadOnly Property nWidth As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset
+  id: LeftOffset
+  parent: SuperOffice.CRM.Web.UI.Controls.CalendarContainer
+  langs:
+  - csharp
+  - vb
+  name: LeftOffset
+  nameWithType: CalendarContainer.LeftOffset
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset
+  type: Property
+  source:
+    path: SuperOffice.CRMWeb
+    isExternal: true
+  assemblies:
+  - SuperOffice.CRMWeb
+  namespace: SuperOffice.CRM.Web.UI.Controls
+  syntax:
+    content: protected int LeftOffset { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Protected ReadOnly Property LeftOffset As Integer
+  overload: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Web.UI.Controls
+  commentId: N:SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.CRM.Web.UI.Controls
+  nameWithType: SuperOffice.CRM.Web.UI.Controls
+  fullName: SuperOffice.CRM.Web.UI.Controls
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  commentId: T:SuperOffice.DCF.Web.UI.Controls.ControlBase
+  parent: SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: ControlBase
+  nameWithType: ControlBase
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase
+- uid: SuperOffice.DCF.Web.UI.IControl
+  commentId: T:SuperOffice.DCF.Web.UI.IControl
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: IControl
+  nameWithType: IControl
+  fullName: SuperOffice.DCF.Web.UI.IControl
+- uid: SuperOffice.DCF.Web.UI.ILayout
+  commentId: T:SuperOffice.DCF.Web.UI.ILayout
+  parent: SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: ILayout
+  nameWithType: ILayout
+  fullName: SuperOffice.DCF.Web.UI.ILayout
+- uid: SuperOffice.Configuration.IHasSchema
+  commentId: T:SuperOffice.Configuration.IHasSchema
+  parent: SuperOffice.Configuration
+  isExternal: true
+  name: IHasSchema
+  nameWithType: IHasSchema
+  fullName: SuperOffice.Configuration.IHasSchema
+- uid: System.Web.UI.INamingContainer
+  isExternal: true
+  name: INamingContainer
+  nameWithType: INamingContainer
+  fullName: System.Web.UI.INamingContainer
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: ICalendarContainerClientObject
+  nameWithType: ICalendarContainerClientObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: GetSafeId(String)
+  nameWithType: ControlBase.GetSafeId(String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+    name: GetSafeId
+    nameWithType: ControlBase.GetSafeId
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId(System.String)
+    name: GetSafeId
+    nameWithType: ControlBase.GetSafeId
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.GetSafeId
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(AttributeCollection)
+  nameWithType: ControlBase.RegisterSoIdAttribute(AttributeCollection)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(AttributeCollection, String)
+  nameWithType: ControlBase.RegisterSoIdAttribute(AttributeCollection, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.AttributeCollection,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.AttributeCollection
+    name: AttributeCollection
+    nameWithType: AttributeCollection
+    fullName: System.Web.UI.AttributeCollection
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(HtmlTextWriter)
+  nameWithType: ControlBase.RegisterSoIdAttribute(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(HtmlTextWriter, String)
+  nameWithType: ControlBase.RegisterSoIdAttribute(HtmlTextWriter, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RegisterSoIdAttribute(HtmlTextWriter, String, Boolean)
+  nameWithType: ControlBase.RegisterSoIdAttribute(HtmlTextWriter, String, Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter, System.String, System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute(System.Web.UI.HtmlTextWriter,System.String,System.Boolean)
+    name: RegisterSoIdAttribute
+    nameWithType: ControlBase.RegisterSoIdAttribute
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RegisterSoIdAttribute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetVisibility(CssStyleCollection)
+  nameWithType: ControlBase.SetVisibility(CssStyleCollection)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.CssStyleCollection
+    name: CssStyleCollection
+    nameWithType: CssStyleCollection
+    fullName: System.Web.UI.CssStyleCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.CssStyleCollection)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.CssStyleCollection
+    name: CssStyleCollection
+    nameWithType: CssStyleCollection
+    fullName: System.Web.UI.CssStyleCollection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetVisibility(HtmlTextWriter)
+  nameWithType: ControlBase.SetVisibility(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility(System.Web.UI.HtmlTextWriter)
+    name: SetVisibility
+    nameWithType: ControlBase.SetVisibility
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetVisibility
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetIfFound(XmlNode, String, Expression<Func<String>>)
+  nameWithType: ControlBase.SetIfFound(XmlNode, String, Expression<Func<String>>)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode, System.String, System.Linq.Expressions.Expression<System.Func<System.String>>)
+  nameWithType.vb: ControlBase.SetIfFound(XmlNode, String, Expression(Of Func(Of String)))
+  fullName.vb: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode, System.String, System.Linq.Expressions.Expression(Of System.Func(Of System.String)))
+  name.vb: SetIfFound(XmlNode, String, Expression(Of Func(Of String)))
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+    name: SetIfFound
+    nameWithType: ControlBase.SetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound(System.Xml.XmlNode,System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+    name: SetIfFound
+    nameWithType: ControlBase.SetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: AutoSetIfFound(XmlNode, Expression<Func<String>>[])
+  nameWithType: ControlBase.AutoSetIfFound(XmlNode, Expression<Func<String>>[])
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode, System.Linq.Expressions.Expression<System.Func<System.String>>[])
+  nameWithType.vb: ControlBase.AutoSetIfFound(XmlNode, Expression(Of Func(Of String))())
+  fullName.vb: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode, System.Linq.Expressions.Expression(Of System.Func(Of System.String))())
+  name.vb: AutoSetIfFound(XmlNode, Expression(Of Func(Of String))())
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+    name: AutoSetIfFound
+    nameWithType: ControlBase.AutoSetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound(System.Xml.XmlNode,System.Linq.Expressions.Expression{System.Func{System.String}}[])
+    name: AutoSetIfFound
+    nameWithType: ControlBase.AutoSetIfFound
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AutoSetIfFound
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`1
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: AssignProperty(XmlNode, PropertyInfo)
+  nameWithType: ControlBase.AssignProperty(XmlNode, PropertyInfo)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode, System.Reflection.PropertyInfo)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+    name: AssignProperty
+    nameWithType: ControlBase.AssignProperty
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty(System.Xml.XmlNode,System.Reflection.PropertyInfo)
+    name: AssignProperty
+    nameWithType: ControlBase.AssignProperty
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AssignProperty
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Reflection.PropertyInfo
+    name: PropertyInfo
+    nameWithType: PropertyInfo
+    fullName: System.Reflection.PropertyInfo
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: SetReadOnly(Boolean)
+  nameWithType: ControlBase.SetReadOnly(Boolean)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+    name: SetReadOnly
+    nameWithType: ControlBase.SetReadOnly
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly(System.Boolean)
+    name: SetReadOnly
+    nameWithType: ControlBase.SetReadOnly
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.SetReadOnly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: UpdateDataSource()
+  nameWithType: ControlBase.UpdateDataSource()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    name: UpdateDataSource
+    nameWithType: ControlBase.UpdateDataSource
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.UpdateDataSource
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: BeforeDataBind()
+  nameWithType: ControlBase.BeforeDataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    name: BeforeDataBind
+    nameWithType: ControlBase.BeforeDataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    name: BeforeDataBind
+    nameWithType: ControlBase.BeforeDataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BeforeDataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Validate()
+  nameWithType: ControlBase.Validate()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    name: Validate
+    nameWithType: ControlBase.Validate
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    name: Validate
+    nameWithType: ControlBase.Validate
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validate
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: OnGetStringValue(Type, Object, String)
+  nameWithType: ControlBase.OnGetStringValue(Type, Object, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type, System.Object, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+    name: OnGetStringValue
+    nameWithType: ControlBase.OnGetStringValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue(System.Type,System.Object,System.String@)
+    name: OnGetStringValue
+    nameWithType: ControlBase.OnGetStringValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetStringValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: OnGetTypedValue(Type, String, Object)
+  nameWithType: ControlBase.OnGetTypedValue(Type, String, Object)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type, System.String, System.Object)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+    name: OnGetTypedValue
+    nameWithType: ControlBase.OnGetTypedValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue(System.Type,System.String,System.Object@)
+    name: OnGetTypedValue
+    nameWithType: ControlBase.OnGetTypedValue
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.OnGetTypedValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ID
+  nameWithType: ControlBase.ID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ID
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ClientID
+  nameWithType: ControlBase.ClientID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ClientID
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: LabelContainer
+  nameWithType: ControlBase.LabelContainer
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.LabelContainer
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: MenuClientID
+  nameWithType: ControlBase.MenuClientID
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuClientID
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: MenuObject
+  nameWithType: ControlBase.MenuObject
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.MenuObject
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: AjaxHelper
+  nameWithType: ControlBase.AjaxHelper
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.AjaxHelper
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataSource
+  nameWithType: ControlBase.DataSource
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSource
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataRight
+  nameWithType: ControlBase.DataRight
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataRight
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TableRightName
+  nameWithType: ControlBase.TableRightName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TableRightNameBinding
+  nameWithType: ControlBase.TableRightNameBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRightNameBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: FieldRight
+  nameWithType: ControlBase.FieldRight
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldRight
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TableRight
+  nameWithType: ControlBase.TableRight
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TableRight
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: FieldLength
+  nameWithType: ControlBase.FieldLength
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.FieldLength
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: CssClass
+  nameWithType: ControlBase.CssClass
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.CssClass
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: EditMode
+  nameWithType: ControlBase.EditMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.EditMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ForcedMode
+  nameWithType: ControlBase.ForcedMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedMode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ReadOnly
+  nameWithType: ControlBase.ReadOnly
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ReadOnly
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Disabled
+  nameWithType: ControlBase.Disabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Disabled
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: CaptionBinding
+  nameWithType: ControlBase.CaptionBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.CaptionBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Tooltip
+  nameWithType: ControlBase.Tooltip
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Tooltip
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: TooltipBinding
+  nameWithType: ControlBase.TooltipBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.TooltipBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataSourceName
+  nameWithType: ControlBase.DataSourceName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataSourceName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ContextStyle
+  nameWithType: ControlBase.ContextStyle
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ContextStyle
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DisplayAccessKey
+  nameWithType: ControlBase.DisplayAccessKey
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DisplayAccessKey
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: IsValid
+  nameWithType: ControlBase.IsValid
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.IsValid
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Validations
+  nameWithType: ControlBase.Validations
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Validations
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: MandatoryValidatorName
+  nameWithType: ControlBase.MandatoryValidatorName
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.MandatoryValidatorName
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ForcedDisabled
+  nameWithType: ControlBase.ForcedDisabled
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ForcedDisabled
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: BackgroundColor
+  nameWithType: ControlBase.BackgroundColor
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.BackgroundColor
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: LayoutPosition
+  nameWithType: ControlBase.LayoutPosition
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.LayoutPosition
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Position
+  nameWithType: ControlBase.Position
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Position
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Right
+  nameWithType: ControlBase.Right
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Right
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ZIndex
+  nameWithType: ControlBase.ZIndex
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ZIndex
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Overflow
+  nameWithType: ControlBase.Overflow
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Overflow
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Column
+  nameWithType: ControlBase.Column
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Column
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Row
+  nameWithType: ControlBase.Row
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Row
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: RowSpan
+  nameWithType: ControlBase.RowSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.RowSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ColSpan
+  nameWithType: ControlBase.ColSpan
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ColSpan
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Align
+  nameWithType: ControlBase.Align
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Align
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Visibility
+  nameWithType: ControlBase.Visibility
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Visibility
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: ConfigurationSchema
+  nameWithType: ControlBase.ConfigurationSchema
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.ConfigurationSchema
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: VisibilityBinding
+  nameWithType: ControlBase.VisibilityBinding
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.VisibilityBinding
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+  commentId: P:SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DatabindingMode
+  nameWithType: ControlBase.DatabindingMode
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DatabindingMode
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.DCF.Web.UI.Controls
+  commentId: N:SuperOffice.DCF.Web.UI.Controls
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI.Controls
+  nameWithType: SuperOffice.DCF.Web.UI.Controls
+  fullName: SuperOffice.DCF.Web.UI.Controls
+- uid: SuperOffice.DCF.Web.UI
+  commentId: N:SuperOffice.DCF.Web.UI
+  isExternal: true
+  name: SuperOffice.DCF.Web.UI
+  nameWithType: SuperOffice.DCF.Web.UI
+  fullName: SuperOffice.DCF.Web.UI
+- uid: SuperOffice.Configuration
+  commentId: N:SuperOffice.Configuration
+  isExternal: true
+  name: SuperOffice.Configuration
+  nameWithType: SuperOffice.Configuration
+  fullName: SuperOffice.Configuration
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarContainer.PrinterFriendly
+  nameWithType: CalendarContainer.PrinterFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.PrinterFriendly
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarContainer.ClientObject
+  nameWithType: CalendarContainer.ClientObject
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientObject
+- uid: SuperOffice.CRM.Services.Appointment[]
+  isExternal: true
+  name: Appointment[]
+  nameWithType: Appointment[]
+  fullName: SuperOffice.CRM.Services.Appointment[]
+  nameWithType.vb: Appointment()
+  fullName.vb: SuperOffice.CRM.Services.Appointment()
+  name.vb: Appointment()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: SuperOffice.CRM.Services.Appointment
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Appointment
+    name: Appointment
+    nameWithType: Appointment
+    fullName: SuperOffice.CRM.Services.Appointment
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarLayoutEnum
+  nameWithType: CalendarLayoutEnum
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarLayoutEnum
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarCaptionType
+  nameWithType: CalendarCaptionType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarCaptionType
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+  commentId: T:SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+  parent: SuperOffice.CRM.Web.UI.Controls
+  isExternal: true
+  name: CalendarTimeScaleType
+  nameWithType: CalendarTimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarTimeScaleType
+- uid: System.DateTime[]
+  isExternal: true
+  name: DateTime[]
+  nameWithType: DateTime[]
+  fullName: System.DateTime[]
+  nameWithType.vb: DateTime()
+  fullName.vb: System.DateTime()
+  name.vb: DateTime()
+  spec.csharp:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject[]
+  isExternal: true
+  name: ICalendarClientObject[]
+  nameWithType: ICalendarClientObject[]
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject[]
+  nameWithType.vb: ICalendarClientObject()
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject()
+  name.vb: ICalendarClientObject()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject
+    name: ICalendarClientObject
+    nameWithType: ICalendarClientObject
+    fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject
+    name: ICalendarClientObject
+    nameWithType: ICalendarClientObject
+    fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarClientObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.#ctor*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.#ctor
+  isExternal: true
+  name: CalendarContainer
+  nameWithType: CalendarContainer.CalendarContainer
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarContainer
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Initialize(XmlNode, String)
+  nameWithType: ControlBase.Initialize(XmlNode, String)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode, System.String)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize(System.Xml.XmlNode,System.String)
+    name: Initialize
+    nameWithType: ControlBase.Initialize
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Xml.XmlNode
+    name: XmlNode
+    nameWithType: XmlNode
+    fullName: System.Xml.XmlNode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize
+  isExternal: true
+  name: Initialize
+  nameWithType: CalendarContainer.Initialize
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Initialize
+- uid: System.Xml.XmlNode
+  isExternal: true
+  name: XmlNode
+  nameWithType: XmlNode
+  fullName: System.Xml.XmlNode
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: Render(HtmlTextWriter)
+  nameWithType: ControlBase.Render(HtmlTextWriter)
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render(System.Web.UI.HtmlTextWriter)
+    name: Render
+    nameWithType: ControlBase.Render
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.Render
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Web.UI.HtmlTextWriter
+    name: HtmlTextWriter
+    nameWithType: HtmlTextWriter
+    fullName: System.Web.UI.HtmlTextWriter
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render
+  isExternal: true
+  name: Render
+  nameWithType: CalendarContainer.Render
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Render
+- uid: System.Web.UI.HtmlTextWriter
+  isExternal: true
+  name: HtmlTextWriter
+  nameWithType: HtmlTextWriter
+  fullName: System.Web.UI.HtmlTextWriter
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay
+  isExternal: true
+  name: CreateDay
+  nameWithType: CalendarContainer.CreateDay
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateDay
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView
+  isExternal: true
+  name: CreateView
+  nameWithType: CalendarContainer.CreateView
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateView
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour
+  isExternal: true
+  name: VerifyInititialStartTimeHour
+  nameWithType: CalendarContainer.VerifyInititialStartTimeHour
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.VerifyInititialStartTimeHour
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek
+  isExternal: true
+  name: CreateWeek
+  nameWithType: CalendarContainer.CreateWeek
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateWeek
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars
+  isExternal: true
+  name: RenderCalendars
+  nameWithType: CalendarContainer.RenderCalendars
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.RenderCalendars
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth
+  isExternal: true
+  name: CreateMonth
+  nameWithType: CalendarContainer.CreateMonth
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMonth
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek
+  isExternal: true
+  name: CreateMiniWeek
+  nameWithType: CalendarContainer.CreateMiniWeek
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniWeek
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay
+  isExternal: true
+  name: CreateMiniDay
+  nameWithType: CalendarContainer.CreateMiniDay
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CreateMiniDay
+- uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+  commentId: M:SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+  parent: SuperOffice.DCF.Web.UI.Controls.ControlBase
+  isExternal: true
+  name: DataBind()
+  nameWithType: ControlBase.DataBind()
+  fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind()
+  spec.csharp:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    name: DataBind
+    nameWithType: ControlBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    name: DataBind
+    nameWithType: ControlBase.DataBind
+    fullName: SuperOffice.DCF.Web.UI.Controls.ControlBase.DataBind
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind
+  isExternal: true
+  name: DataBind
+  nameWithType: CalendarContainer.DataBind
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DataBind
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly
+  isExternal: true
+  name: IsPrinterFriendly
+  nameWithType: CalendarContainer.IsPrinterFriendly
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.IsPrinterFriendly
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent
+  isExternal: true
+  name: StartTimeCurrent
+  nameWithType: CalendarContainer.StartTimeCurrent
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartTimeCurrent
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow
+  isExternal: true
+  name: CalendarsHasTimeFollow
+  nameWithType: CalendarContainer.CalendarsHasTimeFollow
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarsHasTimeFollow
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript
+  isExternal: true
+  name: ClientScript
+  nameWithType: CalendarContainer.ClientScript
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ClientScript
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  isExternal: true
+  name: ClientScript
+  nameWithType: ICalendarContainerClientObject.ClientScript
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.ClientScript
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects
+  isExternal: true
+  name: CalendarClientObjects
+  nameWithType: CalendarContainer.CalendarClientObjects
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarClientObjects
+- uid: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  commentId: P:SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+  parent: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject
+  isExternal: true
+  name: CalendarClientObjects
+  nameWithType: ICalendarContainerClientObject.CalendarClientObjects
+  fullName: SuperOffice.CRM.Web.UI.Controls.ICalendarContainerClientObject.CalendarClientObjects
+- uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject[]
+  isExternal: true
+  name: Calendar.ClientObject[]
+  nameWithType: Calendar.ClientObject[]
+  fullName: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject[]
+  nameWithType.vb: Calendar.ClientObject()
+  fullName.vb: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject()
+  name.vb: Calendar.ClientObject()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    name: Calendar.ClientObject
+    nameWithType: Calendar.ClientObject
+    fullName: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    name: Calendar.ClientObject
+    nameWithType: Calendar.ClientObject
+    fullName: SuperOffice.CRM.Web.UI.Controls.Calendar.ClientObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType
+  isExternal: true
+  name: CaptionType
+  nameWithType: CalendarContainer.CaptionType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CaptionType
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates
+  isExternal: true
+  name: Dates
+  nameWithType: CalendarContainer.Dates
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Dates
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: CalendarContainer.StartDate
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.StartDate
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays
+  isExternal: true
+  name: NumberOfDays
+  nameWithType: CalendarContainer.NumberOfDays
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.NumberOfDays
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption
+  isExternal: true
+  name: Caption
+  nameWithType: CalendarContainer.Caption
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Caption
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments
+  isExternal: true
+  name: Appointments
+  nameWithType: CalendarContainer.Appointments
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Appointments
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates
+  isExternal: true
+  name: Associates
+  nameWithType: CalendarContainer.Associates
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Associates
+- uid: SuperOffice.CRM.Services.Associate[]
+  isExternal: true
+  name: Associate[]
+  nameWithType: Associate[]
+  fullName: SuperOffice.CRM.Services.Associate[]
+  nameWithType.vb: Associate()
+  fullName.vb: SuperOffice.CRM.Services.Associate()
+  name.vb: Associate()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.CRM.Services.Associate
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Associate
+    name: Associate
+    nameWithType: Associate
+    fullName: SuperOffice.CRM.Services.Associate
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale
+  isExternal: true
+  name: DisplayTimeScale
+  nameWithType: CalendarContainer.DisplayTimeScale
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayTimeScale
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime
+  isExternal: true
+  name: DisplayAmPmTime
+  nameWithType: CalendarContainer.DisplayAmPmTime
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayAmPmTime
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType
+  isExternal: true
+  name: TimeScaleType
+  nameWithType: CalendarContainer.TimeScaleType
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.TimeScaleType
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight
+  isExternal: true
+  name: HeaderHeight
+  nameWithType: CalendarContainer.HeaderHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.HeaderHeight
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader
+  isExternal: true
+  name: DisplayHeader
+  nameWithType: CalendarContainer.DisplayHeader
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.DisplayHeader
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent
+  isExternal: true
+  name: ReceiveMouseScrollEvent
+  nameWithType: CalendarContainer.ReceiveMouseScrollEvent
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.ReceiveMouseScrollEvent
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout
+  isExternal: true
+  name: CalendarLayout
+  nameWithType: CalendarContainer.CalendarLayout
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.CalendarLayout
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour
+  isExternal: true
+  name: InitialStartTimeHour
+  nameWithType: CalendarContainer.InitialStartTimeHour
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.InitialStartTimeHour
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top
+  isExternal: true
+  name: Top
+  nameWithType: CalendarContainer.Top
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Top
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom
+  isExternal: true
+  name: Bottom
+  nameWithType: CalendarContainer.Bottom
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Bottom
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left
+  isExternal: true
+  name: Left
+  nameWithType: CalendarContainer.Left
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Left
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width
+  isExternal: true
+  name: Width
+  nameWithType: CalendarContainer.Width
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Width
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height
+  isExternal: true
+  name: Height
+  nameWithType: CalendarContainer.Height
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.Height
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight
+  isExternal: true
+  name: nHeight
+  nameWithType: CalendarContainer.nHeight
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nHeight
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth
+  isExternal: true
+  name: nWidth
+  nameWithType: CalendarContainer.nWidth
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.nWidth
+- uid: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset*
+  commentId: Overload:SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset
+  isExternal: true
+  name: LeftOffset
+  nameWithType: CalendarContainer.LeftOffset
+  fullName: SuperOffice.CRM.Web.UI.Controls.CalendarContainer.LeftOffset

@@ -1,0 +1,2078 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.IProjectAgent
+  commentId: T:SuperOffice.CRM.Services.IProjectAgent
+  id: IProjectAgent
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers(System.Int32,SuperOffice.CRM.Services.ProjectMember[])
+  - SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity
+  - SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity
+  - SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember
+  - SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  - SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds(System.Int32[])
+  - SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers(System.Int32,System.Int32[])
+  - SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules
+  - SuperOffice.CRM.Services.IProjectAgent.GetDuplicates(System.String)
+  - SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects
+  - SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents
+  - SuperOffice.CRM.Services.IProjectAgent.GetMyProjects(System.Boolean)
+  - SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects
+  - SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProject(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList(System.Int32[])
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson(System.Int32,System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectImage(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectList(System.Int32[])
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectMember(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById(System.Int32[])
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects(System.Int32[])
+  - SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.HasGuide(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.IsNumberValid(System.Int32,System.String)
+  - SuperOffice.CRM.Services.IProjectAgent.Merge(System.Int32,System.Int32,System.Boolean)
+  - SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(System.Int32)
+  - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity(SuperOffice.CRM.Services.ProjectEventEntity)
+  - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment(System.Int32[],System.Int32,System.String)
+  - SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  - SuperOffice.CRM.Services.IProjectAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  - SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  - SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  langs:
+  - csharp
+  - vb
+  name: IProjectAgent
+  nameWithType: IProjectAgent
+  fullName: SuperOffice.CRM.Services.IProjectAgent
+  type: Interface
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nInterface for the Project Agent\nCollection of all services that works with Project data.\n"
+  example:
+  - "\n<pre><code>  using SuperOffice;\n  using SuperOffice.CRM.Services;\n\n  using (SoSession mySession = SoSession.Authenticate(&quot;user&quot;, &quot;pass&quot;))\n  {\n     using (ProjectAgent agent = new ProjectAgent())\n     {\n        // call methods on agent here...\n     }\n  }</code></pre>\n"
+  syntax:
+    content: >-
+      [Agent("Project Agent", "Interface for the Project Agent. Collection of all services that works with Project data.")]
+
+      public interface IProjectAgent : IAgent
+    content.vb: >-
+      <Agent("Project Agent", "Interface for the Project Agent. Collection of all services that works with Project data.")>
+
+      Public Interface IProjectAgent
+          Inherits IAgent
+  attributes:
+  - type: SuperOffice.CRM.Services.Reflection.AgentAttribute
+    ctor: SuperOffice.CRM.Services.Reflection.AgentAttribute.#ctor(System.String,System.String)
+    arguments:
+    - type: System.String
+      value: Project Agent
+    - type: System.String
+      value: Interface for the Project Agent. Collection of all services that works with Project data.
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity
+  id: CreateDefaultProjectEntity
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectEntity()
+  nameWithType: IProjectAgent.CreateDefaultProjectEntity()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ProjectEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ProjectEntity CreateDefaultProjectEntity()
+    return:
+      type: SuperOffice.CRM.Services.ProjectEntity
+      description: New ProjectEntity with default values
+    content.vb: Function CreateDefaultProjectEntity As ProjectEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  id: SaveProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEntity(ProjectEntity)
+  nameWithType: IProjectAgent.SaveProjectEntity(ProjectEntity)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty\n"
+  syntax:
+    content: ProjectEntity SaveProjectEntity(ProjectEntity projectEntity)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.CRM.Services.ProjectEntity
+      description: The ProjectEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ProjectEntity
+      description: New or updated ProjectEntity
+    content.vb: Function SaveProjectEntity(projectEntity As ProjectEntity) As ProjectEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity(System.Int32)
+  id: DeleteProjectEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEntity(Int32)
+  nameWithType: IProjectAgent.DeleteProjectEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ProjectEntity\n"
+  syntax:
+    content: void DeleteProjectEntity(int projectEntityId)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: The identity of the ProjectEntity
+    content.vb: Sub DeleteProjectEntity(projectEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity
+  id: CreateDefaultProjectEventEntity
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectEventEntity()
+  nameWithType: IProjectAgent.CreateDefaultProjectEventEntity()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ProjectEventEntity.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ProjectEventEntity CreateDefaultProjectEventEntity()
+    return:
+      type: SuperOffice.CRM.Services.ProjectEventEntity
+      description: New ProjectEventEntity with default values
+    content.vb: Function CreateDefaultProjectEventEntity As ProjectEventEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity(SuperOffice.CRM.Services.ProjectEventEntity)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity(SuperOffice.CRM.Services.ProjectEventEntity)
+  id: SaveProjectEventEntity(SuperOffice.CRM.Services.ProjectEventEntity)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEventEntity(ProjectEventEntity)
+  nameWithType: IProjectAgent.SaveProjectEventEntity(ProjectEventEntity)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity(SuperOffice.CRM.Services.ProjectEventEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty\n"
+  syntax:
+    content: ProjectEventEntity SaveProjectEventEntity(ProjectEventEntity projectEventEntity)
+    parameters:
+    - id: projectEventEntity
+      type: SuperOffice.CRM.Services.ProjectEventEntity
+      description: The ProjectEventEntity that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ProjectEventEntity
+      description: New or updated ProjectEventEntity
+    content.vb: Function SaveProjectEventEntity(projectEventEntity As ProjectEventEntity) As ProjectEventEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity(System.Int32)
+  id: DeleteProjectEventEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEventEntity(Int32)
+  nameWithType: IProjectAgent.DeleteProjectEventEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ProjectEventEntity\n"
+  syntax:
+    content: void DeleteProjectEventEntity(int projectEventEntityId)
+    parameters:
+    - id: projectEventEntityId
+      type: System.Int32
+      description: The identity of the ProjectEventEntity
+    content.vb: Sub DeleteProjectEventEntity(projectEventEntityId As Integer)
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember
+  id: CreateDefaultProjectMember
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectMember()
+  nameWithType: IProjectAgent.CreateDefaultProjectMember()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nLoading default values into a new ProjectMember.\nNetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance\n"
+  syntax:
+    content: ProjectMember CreateDefaultProjectMember()
+    return:
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: New ProjectMember with default values
+    content.vb: Function CreateDefaultProjectMember As ProjectMember
+  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  id: SaveProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectMember(ProjectMember)
+  nameWithType: IProjectAgent.SaveProjectMember(ProjectMember)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty\n"
+  syntax:
+    content: ProjectMember SaveProjectMember(ProjectMember projectMember)
+    parameters:
+    - id: projectMember
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: The ProjectMember that is saved.
+    return:
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: New or updated ProjectMember
+    content.vb: Function SaveProjectMember(projectMember As ProjectMember) As ProjectMember
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember(System.Int32)
+  id: DeleteProjectMember(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMember(Int32)
+  nameWithType: IProjectAgent.DeleteProjectMember(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes the ProjectMember\n"
+  syntax:
+    content: void DeleteProjectMember(int projectMemberId)
+    parameters:
+    - id: projectMemberId
+      type: System.Int32
+      description: The identity of the ProjectMember
+    content.vb: Sub DeleteProjectMember(projectMemberId As Integer)
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProject(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProject(System.Int32)
+  id: GetProject(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProject(Int32)
+  nameWithType: IProjectAgent.GetProject(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProject(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a Project object.                        \n"
+  syntax:
+    content: Project GetProject(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The identifier of the Project object
+    return:
+      type: SuperOffice.CRM.Services.Project
+      description: Project
+    content.vb: Function GetProject(projectId As Integer) As Project
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProject*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity(System.Int32)
+  id: GetProjectEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEntity(Int32)
+  nameWithType: IProjectAgent.GetProjectEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ProjectEntity object.                        \n"
+  syntax:
+    content: ProjectEntity GetProjectEntity(int projectEntityId)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: The identifier of the ProjectEntity object
+    return:
+      type: SuperOffice.CRM.Services.ProjectEntity
+      description: ProjectEntity
+    content.vb: Function GetProjectEntity(projectEntityId As Integer) As ProjectEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers(System.Int32,SuperOffice.CRM.Services.ProjectMember[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers(System.Int32,SuperOffice.CRM.Services.ProjectMember[])
+  id: AddProjectMembers(System.Int32,SuperOffice.CRM.Services.ProjectMember[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: AddProjectMembers(Int32, ProjectMember[])
+  nameWithType: IProjectAgent.AddProjectMembers(Int32, ProjectMember[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers(System.Int32, SuperOffice.CRM.Services.ProjectMember[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAdd multiple project members to a project\n"
+  syntax:
+    content: void AddProjectMembers(int projectEntityId, ProjectMember[] projectMembers)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: Project to add members to
+    - id: projectMembers
+      type: SuperOffice.CRM.Services.ProjectMember[]
+      description: Project members to add
+    content.vb: Sub AddProjectMembers(projectEntityId As Integer, projectMembers As ProjectMember())
+  overload: SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers*
+  nameWithType.vb: IProjectAgent.AddProjectMembers(Int32, ProjectMember())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers(System.Int32, SuperOffice.CRM.Services.ProjectMember())
+  name.vb: AddProjectMembers(Int32, ProjectMember())
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers(System.Int32,System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers(System.Int32,System.Int32[])
+  id: DeleteProjectMembers(System.Int32,System.Int32[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMembers(Int32, Int32[])
+  nameWithType: IProjectAgent.DeleteProjectMembers(Int32, Int32[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers(System.Int32, System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete the given project members from a project\n"
+  syntax:
+    content: void DeleteProjectMembers(int projectEntityId, int[] memberIds)
+    parameters:
+    - id: projectEntityId
+      type: System.Int32
+      description: Project to remove members from
+    - id: memberIds
+      type: System.Int32[]
+      description: Project member ids
+    content.vb: Sub DeleteProjectMembers(projectEntityId As Integer, memberIds As Integer())
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers*
+  nameWithType.vb: IProjectAgent.DeleteProjectMembers(Int32, Int32())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers(System.Int32, System.Int32())
+  name.vb: DeleteProjectMembers(Int32, Int32())
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectImage(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectImage(System.Int32)
+  id: GetProjectImage(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectImage(Int32)
+  nameWithType: IProjectAgent.GetProjectImage(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectImage(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: Image GetProjectImage(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    return:
+      type: System.Drawing.Image
+      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+    content.vb: Function GetProjectImage(projectId As Integer) As Image
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectImage*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetProjectImage(System.Int32,System.Drawing.Image)
+  id: SetProjectImage(System.Int32,System.Drawing.Image)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SetProjectImage(Int32, Image)
+  nameWithType: IProjectAgent.SetProjectImage(Int32, Image)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImage(System.Int32, System.Drawing.Image)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nStores the project image that is displayed in the CRM application.\n"
+  syntax:
+    content: void SetProjectImage(int projectId, Image image)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the project the image belongs to.
+    - id: image
+      type: System.Drawing.Image
+      description: The image that is stored on the project (System.Drawing.Image)
+    content.vb: Sub SetProjectImage(projectId As Integer, image As Image)
+  overload: SuperOffice.CRM.Services.IProjectAgent.SetProjectImage*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds(System.Int32[])
+  id: DeleteProjectMemberByIds(System.Int32[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMemberByIds(Int32[])
+  nameWithType: IProjectAgent.DeleteProjectMemberByIds(Int32[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDeletes projectmembers rows.\n"
+  syntax:
+    content: void DeleteProjectMemberByIds(int[] projectMemberIds)
+    parameters:
+    - id: projectMemberIds
+      type: System.Int32[]
+      description: An Array of projectmember ids.
+    content.vb: Sub DeleteProjectMemberByIds(projectMemberIds As Integer())
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds*
+  nameWithType.vb: IProjectAgent.DeleteProjectMemberByIds(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds(System.Int32())
+  name.vb: DeleteProjectMemberByIds(Int32())
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetDuplicates(System.String)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetDuplicates(System.String)
+  id: GetDuplicates(System.String)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicates(String)
+  nameWithType: IProjectAgent.GetDuplicates(String)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetDuplicates(System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet duplicates(exact or similar in the database) based on the name\n"
+  syntax:
+    content: DuplicateEntry[] GetDuplicates(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name used for lookup
+    return:
+      type: SuperOffice.CRM.Services.DuplicateEntry[]
+      description: Any records matching the specified name
+    content.vb: Function GetDuplicates(name As String) As DuplicateEntry()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetDuplicates*
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  id: CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateNewEntry(DuplicateEntry)
+  nameWithType: IProjectAgent.CreateNewEntry(DuplicateEntry)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry(SuperOffice.CRM.Services.DuplicateEntry)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCreates a new project based on external duplicate\n"
+  syntax:
+    content: int CreateNewEntry(DuplicateEntry duplicate)
+    parameters:
+    - id: duplicate
+      type: SuperOffice.CRM.Services.DuplicateEntry
+      description: The duplicate to create a new entry based upon
+    return:
+      type: System.Int32
+      description: The database identity of the newly created entry
+    content.vb: Function CreateNewEntry(duplicate As DuplicateEntry) As Integer
+  overload: SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  id: SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SetDuplicateRulesStatus(DuplicateRule[])
+  nameWithType: IProjectAgent.SetDuplicateRulesStatus(DuplicateRule[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet which duplicate rules should be active or not\n"
+  syntax:
+    content: void SetDuplicateRulesStatus(DuplicateRule[] rules)
+    parameters:
+    - id: rules
+      type: SuperOffice.CRM.Services.DuplicateRule[]
+      description: Duplicate rules to update active status for
+    content.vb: Sub SetDuplicateRulesStatus(rules As DuplicateRule())
+  overload: SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus*
+  nameWithType.vb: IProjectAgent.SetDuplicateRulesStatus(DuplicateRule())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus(SuperOffice.CRM.Services.DuplicateRule())
+  name.vb: SetDuplicateRulesStatus(DuplicateRule())
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules
+  id: GetDuplicateRules
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDuplicateRules()
+  nameWithType: IProjectAgent.GetDuplicateRules()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nRetrieve all available duplicate rules for project\n"
+  syntax:
+    content: DuplicateRule[] GetDuplicateRules()
+    return:
+      type: SuperOffice.CRM.Services.DuplicateRule[]
+      description: All available duplicate rules
+    content.vb: Function GetDuplicateRules As DuplicateRule()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules*
+- uid: SuperOffice.CRM.Services.IProjectAgent.Merge(System.Int32,System.Int32,System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.Merge(System.Int32,System.Int32,System.Boolean)
+  id: Merge(System.Int32,System.Int32,System.Boolean)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: Merge(Int32, Int32, Boolean)
+  nameWithType: IProjectAgent.Merge(Int32, Int32, Boolean)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.Merge(System.Int32, System.Int32, System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nMerge two projects into one, removing the source project in the process\n"
+  syntax:
+    content: void Merge(int sourceProjectId, int destinationProjectId, bool replaceEmptyFieldsOnDestination)
+    parameters:
+    - id: sourceProjectId
+      type: System.Int32
+      description: Id of source project for merge. This project is removed after the merge is completed.
+    - id: destinationProjectId
+      type: System.Int32
+      description: Id of destination project to merge to. This project is updated with info from the source.
+    - id: replaceEmptyFieldsOnDestination
+      type: System.Boolean
+      description: Fill in empty fields on destination from source?
+    content.vb: Sub Merge(sourceProjectId As Integer, destinationProjectId As Integer, replaceEmptyFieldsOnDestination As Boolean)
+  overload: SuperOffice.CRM.Services.IProjectAgent.Merge*
+- uid: SuperOffice.CRM.Services.IProjectAgent.IsNumberValid(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.IsNumberValid(System.Int32,System.String)
+  id: IsNumberValid(System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: IsNumberValid(Int32, String)
+  nameWithType: IProjectAgent.IsNumberValid(Int32, String)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.IsNumberValid(System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nChecks if the number is unique or required.  The setting is configured from admin under system options.\n"
+  syntax:
+    content: bool IsNumberValid(int contactId, string number)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The Project id
+    - id: number
+      type: System.String
+      description: The number to check for uniqueness and validity
+    return:
+      type: System.Boolean
+      description: True if the number is valid
+    content.vb: Function IsNumberValid(contactId As Integer, number As String) As Boolean
+  overload: SuperOffice.CRM.Services.IProjectAgent.IsNumberValid*
+- uid: SuperOffice.CRM.Services.IProjectAgent.HasGuide(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.HasGuide(System.Int32)
+  id: HasGuide(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: HasGuide(Int32)
+  nameWithType: IProjectAgent.HasGuide(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.HasGuide(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDoes this project have a guide associated with its project type?\n"
+  syntax:
+    content: bool HasGuide(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: Project id
+    return:
+      type: System.Boolean
+      description: True if the project has a guide
+    content.vb: Function HasGuide(projectId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.IProjectAgent.HasGuide*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone(System.Int32)
+  id: GetNextMilestone(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextMilestone(Int32)
+  nameWithType: IProjectAgent.GetNextMilestone(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nNext upcoming milestone appointment\n"
+  syntax:
+    content: Appointment GetNextMilestone(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: Project id - primary key
+    return:
+      type: SuperOffice.CRM.Services.Appointment
+      description: Upcoming milestone appointment
+    content.vb: Function GetNextMilestone(projectId As Integer) As Appointment
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone*
+- uid: SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(System.Int32)
+  id: OfferAutoNextStatusOnApppointmentCompleted(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: OfferAutoNextStatusOnApppointmentCompleted(Int32)
+  nameWithType: IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: bool OfferAutoNextStatusOnApppointmentCompleted(int appointmentId)
+    parameters:
+    - id: appointmentId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function OfferAutoNextStatusOnApppointmentCompleted(appointmentId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus(System.Int32)
+  id: GetNextProjectStatus(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetNextProjectStatus(Int32)
+  nameWithType: IProjectAgent.GetNextProjectStatus(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: int GetNextProjectStatus(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Function GetNextProjectStatus(projectId As Integer) As Integer
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus*
+- uid: SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities(System.Int32)
+  id: HasGuideActivities(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: HasGuideActivities(Int32)
+  nameWithType: IProjectAgent.HasGuideActivities(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\n\n"
+  syntax:
+    content: bool HasGuideActivities(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function HasGuideActivities(projectId As Integer) As Boolean
+  overload: SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities*
+- uid: SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  id: ValidateProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: ValidateProjectEntity(ProjectEntity)
+  nameWithType: IProjectAgent.ValidateProjectEntity(ProjectEntity)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity(SuperOffice.CRM.Services.ProjectEntity)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nCheck that entity is ready for saving, return error messages by field.\n"
+  syntax:
+    content: StringDictionary ValidateProjectEntity(ProjectEntity projectEntity)
+    parameters:
+    - id: projectEntity
+      type: SuperOffice.CRM.Services.ProjectEntity
+      description: Entity to be checked for errors.
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+      description: Error messages tagged by field.
+    content.vb: Function ValidateProjectEntity(projectEntity As ProjectEntity) As StringDictionary
+  overload: SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent(System.Int32)
+  id: GetProjectEvent(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEvent(Int32)
+  nameWithType: IProjectAgent.GetProjectEvent(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ProjectEvent object.                        \n"
+  syntax:
+    content: ProjectEvent GetProjectEvent(int projectEventId)
+    parameters:
+    - id: projectEventId
+      type: System.Int32
+      description: The identifier of the ProjectEvent object
+    return:
+      type: SuperOffice.CRM.Services.ProjectEvent
+      description: ProjectEvent
+    content.vb: Function GetProjectEvent(projectEventId As Integer) As ProjectEvent
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson(System.Int32,System.Int32)
+  id: GetProjectEventOnPerson(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventOnPerson(Int32, Int32)
+  nameWithType: IProjectAgent.GetProjectEventOnPerson(Int32, Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson(System.Int32, System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ProjectEvent object from a project and a person.\n"
+  syntax:
+    content: ProjectEvent GetProjectEventOnPerson(int projectId, int personId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project Id
+    - id: personId
+      type: System.Int32
+      description: Id of the person the project events belong to.
+    return:
+      type: SuperOffice.CRM.Services.ProjectEvent
+    content.vb: Function GetProjectEventOnPerson(projectId As Integer, personId As Integer) As ProjectEvent
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity(System.Int32)
+  id: GetProjectEventEntity(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventEntity(Int32)
+  nameWithType: IProjectAgent.GetProjectEventEntity(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ProjectEventEntity object.                        \n"
+  syntax:
+    content: ProjectEventEntity GetProjectEventEntity(int projectEventEntityId)
+    parameters:
+    - id: projectEventEntityId
+      type: System.Int32
+      description: The identifier of the ProjectEventEntity object
+    return:
+      type: SuperOffice.CRM.Services.ProjectEventEntity
+      description: ProjectEventEntity
+    content.vb: Function GetProjectEventEntity(projectEventEntityId As Integer) As ProjectEventEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId(System.Int32)
+  id: GetProjectEventEntityFromProjectId(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventEntityFromProjectId(Int32)
+  nameWithType: IProjectAgent.GetProjectEventEntityFromProjectId(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a ProjectEventEntity based on a projectId.\n"
+  syntax:
+    content: ProjectEventEntity GetProjectEventEntityFromProjectId(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The projectId to get a ProjectEventEntity for
+    return:
+      type: SuperOffice.CRM.Services.ProjectEventEntity
+      description: ProjectEventEntity
+    content.vb: Function GetProjectEventEntityFromProjectId(projectId As Integer) As ProjectEventEntity
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId(System.Int32)
+  id: DeleteProjectEventEntityFromProjectId(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEventEntityFromProjectId(Int32)
+  nameWithType: IProjectAgent.DeleteProjectEventEntityFromProjectId(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nDelete a project event based on a project id. Does not delete the project, but does delete the published and ExternalEvent and AudienceVisibility records.\n"
+  syntax:
+    content: void DeleteProjectEventEntityFromProjectId(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id of the external event to delete.
+    content.vb: Sub DeleteProjectEventEntityFromProjectId(projectId As Integer)
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList(System.Int32[])
+  id: GetProjectEventList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventList(Int32[])
+  nameWithType: IProjectAgent.GetProjectEventList(Int32[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of ProjectEvent objects.                        \n"
+  syntax:
+    content: ProjectEvent[] GetProjectEventList(int[] projectEventIds)
+    parameters:
+    - id: projectEventIds
+      type: System.Int32[]
+      description: The identifiers of the ProjectEvent object
+    return:
+      type: SuperOffice.CRM.Services.ProjectEvent[]
+      description: Array of ProjectEvent objects
+    content.vb: Function GetProjectEventList(projectEventIds As Integer()) As ProjectEvent()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList*
+  nameWithType.vb: IProjectAgent.GetProjectEventList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList(System.Int32())
+  name.vb: GetProjectEventList(Int32())
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents
+  id: GetMyProjectEvents
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyProjectEvents()
+  nameWithType: IProjectAgent.GetMyProjectEvents()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets all project events that belongs to the currently logged on user. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.\n"
+  syntax:
+    content: ProjectEvent[] GetMyProjectEvents()
+    return:
+      type: SuperOffice.CRM.Services.ProjectEvent[]
+      description: Array of project events
+    content.vb: Function GetMyProjectEvents As ProjectEvent()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson(System.Int32)
+  id: GetProjectEventsOnPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectEventsOnPerson(Int32)
+  nameWithType: IProjectAgent.GetProjectEventsOnPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets all project events that belongs to the person specified. The list of events are filtered by the Audience Visibility restrictions set when the project event is created.\n"
+  syntax:
+    content: ProjectEvent[] GetProjectEventsOnPerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: Id of the person the project events belong to.
+    return:
+      type: SuperOffice.CRM.Services.ProjectEvent[]
+      description: Array of project events
+    content.vb: Function GetProjectEventsOnPerson(personId As Integer) As ProjectEvent()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectList(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectList(System.Int32[])
+  id: GetProjectList(System.Int32[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectList(Int32[])
+  nameWithType: IProjectAgent.GetProjectList(Int32[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectList(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets an array of Project objects.                        \n"
+  syntax:
+    content: Project[] GetProjectList(int[] projectIds)
+    parameters:
+    - id: projectIds
+      type: System.Int32[]
+      description: The identifiers of the Project object
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: Array of Project objects
+    content.vb: Function GetProjectList(projectIds As Integer()) As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectList*
+  nameWithType.vb: IProjectAgent.GetProjectList(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectList(System.Int32())
+  name.vb: GetProjectList(Int32())
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyProjects(System.Boolean)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetMyProjects(System.Boolean)
+  id: GetMyProjects(System.Boolean)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyProjects(Boolean)
+  nameWithType: IProjectAgent.GetMyProjects(Boolean)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyProjects(System.Boolean)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning the projects belonging to an associate. If memberProjects is false only the projects where the associate is project responsible is returned, otherwise both the projects where the associate is project responsible and project member is returned.\n"
+  syntax:
+    content: Project[] GetMyProjects(bool includeMemberProjects)
+    parameters:
+    - id: includeMemberProjects
+      type: System.Boolean
+      description: True to include projects where the user is project member.
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: The list of projects
+    content.vb: Function GetMyProjects(includeMemberProjects As Boolean) As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetMyProjects*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects
+  id: GetMyMemberProjects
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyMemberProjects()
+  nameWithType: IProjectAgent.GetMyMemberProjects()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturning the projects where an user is project member.\n"
+  syntax:
+    content: Project[] GetMyMemberProjects()
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: The list of projects.
+    content.vb: Function GetMyMemberProjects As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson(System.Int32)
+  id: GetProjectsFromPerson(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectsFromPerson(Int32)
+  nameWithType: IProjectAgent.GetProjectsFromPerson(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturn all projects where the person is project member.\n"
+  syntax:
+    content: Project[] GetProjectsFromPerson(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: ProjectListEntity
+    content.vb: Function GetProjectsFromPerson(personId As Integer) As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact(System.Int32)
+  id: GetProjectsFromContact(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectsFromContact(Int32)
+  nameWithType: IProjectAgent.GetProjectsFromContact(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns all projects where the given contact has projectmembers.\n"
+  syntax:
+    content: Project[] GetProjectsFromContact(int contactId)
+    parameters:
+    - id: contactId
+      type: System.Int32
+      description: The contact id
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: ProjectListEntity
+    content.vb: Function GetProjectsFromContact(contactId As Integer) As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject(System.Int32)
+  id: GetPublishedProject(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPublishedProject(Int32)
+  nameWithType: IProjectAgent.GetPublishedProject(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet published project by project id.\n"
+  syntax:
+    content: Project GetPublishedProject(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id.
+    return:
+      type: SuperOffice.CRM.Services.Project
+      description: Project
+    content.vb: Function GetPublishedProject(projectId As Integer) As Project
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects(System.Int32[])
+  id: GetPublishedProjects(System.Int32[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPublishedProjects(Int32[])
+  nameWithType: IProjectAgent.GetPublishedProjects(Int32[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet published projects by project ids.\n"
+  syntax:
+    content: Project[] GetPublishedProjects(int[] projectIds)
+    parameters:
+    - id: projectIds
+      type: System.Int32[]
+      description: The array of project ids
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: Projects
+    content.vb: Function GetPublishedProjects(projectIds As Integer()) As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects*
+  nameWithType.vb: IProjectAgent.GetPublishedProjects(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects(System.Int32())
+  name.vb: GetPublishedProjects(Int32())
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects
+  id: GetMyPublishedProjects
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetMyPublishedProjects()
+  nameWithType: IProjectAgent.GetMyPublishedProjects()
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects()
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet published projects from the logged in user.\n"
+  syntax:
+    content: Project[] GetMyPublishedProjects()
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: Projects
+    content.vb: Function GetMyPublishedProjects As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId(System.Int32)
+  id: GetPublishedProjectsOnPersonId(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetPublishedProjectsOnPersonId(Int32)
+  nameWithType: IProjectAgent.GetPublishedProjectsOnPersonId(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet published projects where person  is a member\n"
+  syntax:
+    content: Project[] GetPublishedProjectsOnPersonId(int personId)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id
+    return:
+      type: SuperOffice.CRM.Services.Project[]
+      description: Array of project
+    content.vb: Function GetPublishedProjectsOnPersonId(personId As Integer) As Project()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMember(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectMember(System.Int32)
+  id: GetProjectMember(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectMember(Int32)
+  nameWithType: IProjectAgent.GetProjectMember(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectMember(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGets a ProjectMember object.                        \n"
+  syntax:
+    content: ProjectMember GetProjectMember(int projectMemberId)
+    parameters:
+    - id: projectMemberId
+      type: System.Int32
+      description: The identifier of the ProjectMember object
+    return:
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: ProjectMember
+    content.vb: Function GetProjectMember(projectMemberId As Integer) As ProjectMember
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectMember*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers(System.Int32)
+  id: GetProjectMembers(System.Int32)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectMembers(Int32)
+  nameWithType: IProjectAgent.GetProjectMembers(Int32)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns an array of project members\n"
+  syntax:
+    content: ProjectMember[] GetProjectMembers(int projectId)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The project id
+    return:
+      type: SuperOffice.CRM.Services.ProjectMember[]
+      description: An array of project members
+    content.vb: Function GetProjectMembers(projectId As Integer) As ProjectMember()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers*
+- uid: SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  id: UpdateProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: UpdateProjectMember(ProjectMember)
+  nameWithType: IProjectAgent.UpdateProjectMember(ProjectMember)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember(SuperOffice.CRM.Services.ProjectMember)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nUpdates a ProjectMember row.\n"
+  syntax:
+    content: ProjectMember UpdateProjectMember(ProjectMember projectMember)
+    parameters:
+    - id: projectMember
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: ProjectMember to update
+    return:
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: The Updated ProjectMember
+    content.vb: Function UpdateProjectMember(projectMember As ProjectMember) As ProjectMember
+  overload: SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember*
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById(System.Int32[])
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById(System.Int32[])
+  id: GetProjectMembersById(System.Int32[])
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectMembersById(Int32[])
+  nameWithType: IProjectAgent.GetProjectMembersById(Int32[])
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById(System.Int32[])
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nReturns an array of project members\n"
+  syntax:
+    content: ProjectMember[] GetProjectMembersById(int[] projectMemberIds)
+    parameters:
+    - id: projectMemberIds
+      type: System.Int32[]
+    return:
+      type: SuperOffice.CRM.Services.ProjectMember[]
+      description: An array of project members
+    content.vb: Function GetProjectMembersById(projectMemberIds As Integer()) As ProjectMember()
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById*
+  nameWithType.vb: IProjectAgent.GetProjectMembersById(Int32())
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById(System.Int32())
+  name.vb: GetProjectMembersById(Int32())
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment(System.Int32[],System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment(System.Int32[],System.Int32,System.String)
+  id: SaveProjectMembersFunctionAndComment(System.Int32[],System.Int32,System.String)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectMembersFunctionAndComment(Int32[], Int32, String)
+  nameWithType: IProjectAgent.SaveProjectMembersFunctionAndComment(Int32[], Int32, String)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment(System.Int32[], System.Int32, System.String)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSaves role and comment on an array of projectmembers represented by ids\n"
+  syntax:
+    content: void SaveProjectMembersFunctionAndComment(int[] projectMemberIds, int roleId, string comment)
+    parameters:
+    - id: projectMemberIds
+      type: System.Int32[]
+    - id: roleId
+      type: System.Int32
+    - id: comment
+      type: System.String
+    content.vb: Sub SaveProjectMembersFunctionAndComment(projectMemberIds As Integer(), roleId As Integer, comment As String)
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment*
+  nameWithType.vb: IProjectAgent.SaveProjectMembersFunctionAndComment(Int32(), Int32, String)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment(System.Int32(), System.Int32, System.String)
+  name.vb: SaveProjectMembersFunctionAndComment(Int32(), Int32, String)
+references:
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity
+  isExternal: true
+  name: CreateDefaultProjectEntity
+  nameWithType: IProjectAgent.CreateDefaultProjectEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntity
+- uid: SuperOffice.CRM.Services.ProjectEntity
+  commentId: T:SuperOffice.CRM.Services.ProjectEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ProjectEntity
+  nameWithType: ProjectEntity
+  fullName: SuperOffice.CRM.Services.ProjectEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity
+  isExternal: true
+  name: SaveProjectEntity
+  nameWithType: IProjectAgent.SaveProjectEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity
+  isExternal: true
+  name: DeleteProjectEntity
+  nameWithType: IProjectAgent.DeleteProjectEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntity
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity
+  isExternal: true
+  name: CreateDefaultProjectEventEntity
+  nameWithType: IProjectAgent.CreateDefaultProjectEventEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntity
+- uid: SuperOffice.CRM.Services.ProjectEventEntity
+  commentId: T:SuperOffice.CRM.Services.ProjectEventEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ProjectEventEntity
+  nameWithType: ProjectEventEntity
+  fullName: SuperOffice.CRM.Services.ProjectEventEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity
+  isExternal: true
+  name: SaveProjectEventEntity
+  nameWithType: IProjectAgent.SaveProjectEventEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity
+  isExternal: true
+  name: DeleteProjectEventEntity
+  nameWithType: IProjectAgent.DeleteProjectEventEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember
+  isExternal: true
+  name: CreateDefaultProjectMember
+  nameWithType: IProjectAgent.CreateDefaultProjectMember
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMember
+- uid: SuperOffice.CRM.Services.ProjectMember
+  commentId: T:SuperOffice.CRM.Services.ProjectMember
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Services.ProjectMember
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember
+  isExternal: true
+  name: SaveProjectMember
+  nameWithType: IProjectAgent.SaveProjectMember
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMember
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember
+  isExternal: true
+  name: DeleteProjectMember
+  nameWithType: IProjectAgent.DeleteProjectMember
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMember
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProject*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProject
+  isExternal: true
+  name: GetProject
+  nameWithType: IProjectAgent.GetProject
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProject
+- uid: SuperOffice.CRM.Services.Project
+  commentId: T:SuperOffice.CRM.Services.Project
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Project
+  nameWithType: Project
+  fullName: SuperOffice.CRM.Services.Project
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity
+  isExternal: true
+  name: GetProjectEntity
+  nameWithType: IProjectAgent.GetProjectEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers
+  isExternal: true
+  name: AddProjectMembers
+  nameWithType: IProjectAgent.AddProjectMembers
+  fullName: SuperOffice.CRM.Services.IProjectAgent.AddProjectMembers
+- uid: SuperOffice.CRM.Services.ProjectMember[]
+  isExternal: true
+  name: ProjectMember[]
+  nameWithType: ProjectMember[]
+  fullName: SuperOffice.CRM.Services.ProjectMember[]
+  nameWithType.vb: ProjectMember()
+  fullName.vb: SuperOffice.CRM.Services.ProjectMember()
+  name.vb: ProjectMember()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.CRM.Services.ProjectMember
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProjectMember
+    name: ProjectMember
+    nameWithType: ProjectMember
+    fullName: SuperOffice.CRM.Services.ProjectMember
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers
+  isExternal: true
+  name: DeleteProjectMembers
+  nameWithType: IProjectAgent.DeleteProjectMembers
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMembers
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectImage
+  isExternal: true
+  name: GetProjectImage
+  nameWithType: IProjectAgent.GetProjectImage
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectImage
+- uid: System.Drawing.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: System.Drawing.Image
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetProjectImage*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SetProjectImage
+  isExternal: true
+  name: SetProjectImage
+  nameWithType: IProjectAgent.SetProjectImage
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetProjectImage
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds
+  isExternal: true
+  name: DeleteProjectMemberByIds
+  nameWithType: IProjectAgent.DeleteProjectMemberByIds
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberByIds
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetDuplicates*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetDuplicates
+  isExternal: true
+  name: GetDuplicates
+  nameWithType: IProjectAgent.GetDuplicates
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetDuplicates
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.CRM.Services.DuplicateEntry[]
+  isExternal: true
+  name: DuplicateEntry[]
+  nameWithType: DuplicateEntry[]
+  fullName: SuperOffice.CRM.Services.DuplicateEntry[]
+  nameWithType.vb: DuplicateEntry()
+  fullName.vb: SuperOffice.CRM.Services.DuplicateEntry()
+  name.vb: DuplicateEntry()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DuplicateEntry
+    name: DuplicateEntry
+    nameWithType: DuplicateEntry
+    fullName: SuperOffice.CRM.Services.DuplicateEntry
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry
+  isExternal: true
+  name: CreateNewEntry
+  nameWithType: IProjectAgent.CreateNewEntry
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateNewEntry
+- uid: SuperOffice.CRM.Services.DuplicateEntry
+  commentId: T:SuperOffice.CRM.Services.DuplicateEntry
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: DuplicateEntry
+  nameWithType: DuplicateEntry
+  fullName: SuperOffice.CRM.Services.DuplicateEntry
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus
+  isExternal: true
+  name: SetDuplicateRulesStatus
+  nameWithType: IProjectAgent.SetDuplicateRulesStatus
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatus
+- uid: SuperOffice.CRM.Services.DuplicateRule[]
+  isExternal: true
+  name: DuplicateRule[]
+  nameWithType: DuplicateRule[]
+  fullName: SuperOffice.CRM.Services.DuplicateRule[]
+  nameWithType.vb: DuplicateRule()
+  fullName.vb: SuperOffice.CRM.Services.DuplicateRule()
+  name.vb: DuplicateRule()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.DuplicateRule
+    name: DuplicateRule
+    nameWithType: DuplicateRule
+    fullName: SuperOffice.CRM.Services.DuplicateRule
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules
+  isExternal: true
+  name: GetDuplicateRules
+  nameWithType: IProjectAgent.GetDuplicateRules
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetDuplicateRules
+- uid: SuperOffice.CRM.Services.IProjectAgent.Merge*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.Merge
+  isExternal: true
+  name: Merge
+  nameWithType: IProjectAgent.Merge
+  fullName: SuperOffice.CRM.Services.IProjectAgent.Merge
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Services.IProjectAgent.IsNumberValid*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.IsNumberValid
+  isExternal: true
+  name: IsNumberValid
+  nameWithType: IProjectAgent.IsNumberValid
+  fullName: SuperOffice.CRM.Services.IProjectAgent.IsNumberValid
+- uid: SuperOffice.CRM.Services.IProjectAgent.HasGuide*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.HasGuide
+  isExternal: true
+  name: HasGuide
+  nameWithType: IProjectAgent.HasGuide
+  fullName: SuperOffice.CRM.Services.IProjectAgent.HasGuide
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone
+  isExternal: true
+  name: GetNextMilestone
+  nameWithType: IProjectAgent.GetNextMilestone
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetNextMilestone
+- uid: SuperOffice.CRM.Services.Appointment
+  commentId: T:SuperOffice.CRM.Services.Appointment
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: Appointment
+  nameWithType: Appointment
+  fullName: SuperOffice.CRM.Services.Appointment
+- uid: SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
+  isExternal: true
+  name: OfferAutoNextStatusOnApppointmentCompleted
+  nameWithType: IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
+  fullName: SuperOffice.CRM.Services.IProjectAgent.OfferAutoNextStatusOnApppointmentCompleted
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus
+  isExternal: true
+  name: GetNextProjectStatus
+  nameWithType: IProjectAgent.GetNextProjectStatus
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetNextProjectStatus
+- uid: SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities
+  isExternal: true
+  name: HasGuideActivities
+  nameWithType: IProjectAgent.HasGuideActivities
+  fullName: SuperOffice.CRM.Services.IProjectAgent.HasGuideActivities
+- uid: SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity
+  isExternal: true
+  name: ValidateProjectEntity
+  nameWithType: IProjectAgent.ValidateProjectEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntity
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent
+  isExternal: true
+  name: GetProjectEvent
+  nameWithType: IProjectAgent.GetProjectEvent
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEvent
+- uid: SuperOffice.CRM.Services.ProjectEvent
+  commentId: T:SuperOffice.CRM.Services.ProjectEvent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: ProjectEvent
+  nameWithType: ProjectEvent
+  fullName: SuperOffice.CRM.Services.ProjectEvent
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson
+  isExternal: true
+  name: GetProjectEventOnPerson
+  nameWithType: IProjectAgent.GetProjectEventOnPerson
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPerson
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity
+  isExternal: true
+  name: GetProjectEventEntity
+  nameWithType: IProjectAgent.GetProjectEventEntity
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId
+  isExternal: true
+  name: GetProjectEventEntityFromProjectId
+  nameWithType: IProjectAgent.GetProjectEventEntityFromProjectId
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityFromProjectId
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId
+  isExternal: true
+  name: DeleteProjectEventEntityFromProjectId
+  nameWithType: IProjectAgent.DeleteProjectEventEntityFromProjectId
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityFromProjectId
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList
+  isExternal: true
+  name: GetProjectEventList
+  nameWithType: IProjectAgent.GetProjectEventList
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventList
+- uid: SuperOffice.CRM.Services.ProjectEvent[]
+  isExternal: true
+  name: ProjectEvent[]
+  nameWithType: ProjectEvent[]
+  fullName: SuperOffice.CRM.Services.ProjectEvent[]
+  nameWithType.vb: ProjectEvent()
+  fullName.vb: SuperOffice.CRM.Services.ProjectEvent()
+  name.vb: ProjectEvent()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ProjectEvent
+    name: ProjectEvent
+    nameWithType: ProjectEvent
+    fullName: SuperOffice.CRM.Services.ProjectEvent
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ProjectEvent
+    name: ProjectEvent
+    nameWithType: ProjectEvent
+    fullName: SuperOffice.CRM.Services.ProjectEvent
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents
+  isExternal: true
+  name: GetMyProjectEvents
+  nameWithType: IProjectAgent.GetMyProjectEvents
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyProjectEvents
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson
+  isExternal: true
+  name: GetProjectEventsOnPerson
+  nameWithType: IProjectAgent.GetProjectEventsOnPerson
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventsOnPerson
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectList*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectList
+  isExternal: true
+  name: GetProjectList
+  nameWithType: IProjectAgent.GetProjectList
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectList
+- uid: SuperOffice.CRM.Services.Project[]
+  isExternal: true
+  name: Project[]
+  nameWithType: Project[]
+  fullName: SuperOffice.CRM.Services.Project[]
+  nameWithType.vb: Project()
+  fullName.vb: SuperOffice.CRM.Services.Project()
+  name.vb: Project()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Project
+    name: Project
+    nameWithType: Project
+    fullName: SuperOffice.CRM.Services.Project
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Project
+    name: Project
+    nameWithType: Project
+    fullName: SuperOffice.CRM.Services.Project
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyProjects*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetMyProjects
+  isExternal: true
+  name: GetMyProjects
+  nameWithType: IProjectAgent.GetMyProjects
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyProjects
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects
+  isExternal: true
+  name: GetMyMemberProjects
+  nameWithType: IProjectAgent.GetMyMemberProjects
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyMemberProjects
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson
+  isExternal: true
+  name: GetProjectsFromPerson
+  nameWithType: IProjectAgent.GetProjectsFromPerson
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromPerson
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact
+  isExternal: true
+  name: GetProjectsFromContact
+  nameWithType: IProjectAgent.GetProjectsFromContact
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectsFromContact
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject
+  isExternal: true
+  name: GetPublishedProject
+  nameWithType: IProjectAgent.GetPublishedProject
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProject
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects
+  isExternal: true
+  name: GetPublishedProjects
+  nameWithType: IProjectAgent.GetPublishedProjects
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjects
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects
+  isExternal: true
+  name: GetMyPublishedProjects
+  nameWithType: IProjectAgent.GetMyPublishedProjects
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetMyPublishedProjects
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId
+  isExternal: true
+  name: GetPublishedProjectsOnPersonId
+  nameWithType: IProjectAgent.GetPublishedProjectsOnPersonId
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonId
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMember*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectMember
+  isExternal: true
+  name: GetProjectMember
+  nameWithType: IProjectAgent.GetProjectMember
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectMember
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers
+  isExternal: true
+  name: GetProjectMembers
+  nameWithType: IProjectAgent.GetProjectMembers
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembers
+- uid: SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember
+  isExternal: true
+  name: UpdateProjectMember
+  nameWithType: IProjectAgent.UpdateProjectMember
+  fullName: SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMember
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById
+  isExternal: true
+  name: GetProjectMembersById
+  nameWithType: IProjectAgent.GetProjectMembersById
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectMembersById
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment
+  isExternal: true
+  name: SaveProjectMembersFunctionAndComment
+  nameWithType: IProjectAgent.SaveProjectMembersFunctionAndComment
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndComment

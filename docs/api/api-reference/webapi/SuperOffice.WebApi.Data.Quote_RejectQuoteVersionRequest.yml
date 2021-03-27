@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  commentId: T:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  id: Quote_RejectQuoteVersionRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.#ctor
+  - SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId
+  - SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  - SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText
+  - SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText
+  langs:
+  - csharp
+  - vb
+  name: Quote_RejectQuoteVersionRequest
+  nameWithType: Quote_RejectQuoteVersionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Quote_RejectQuoteVersionRequest : Object'
+    content.vb: >-
+      Public Class Quote_RejectQuoteVersionRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: Quote_RejectQuoteVersionRequest()
+  nameWithType: Quote_RejectQuoteVersionRequest.Quote_RejectQuoteVersionRequest()
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.Quote_RejectQuoteVersionRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Quote_RejectQuoteVersionRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId
+  commentId: P:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId
+  id: QuoteVersionId
+  parent: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: QuoteVersionId
+  nameWithType: Quote_RejectQuoteVersionRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int QuoteVersionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property QuoteVersionId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText
+  commentId: P:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText
+  id: RejectedByText
+  parent: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: RejectedByText
+  nameWithType: Quote_RejectQuoteVersionRequest.RejectedByText
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RejectedByText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RejectedByText As String
+  overload: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  commentId: P:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  id: RejectedByAssociateId
+  parent: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: RejectedByAssociateId
+  nameWithType: Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int RejectedByAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property RejectedByAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText
+  commentId: P:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText
+  id: RejectionText
+  parent: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest
+  langs:
+  - csharp
+  - vb
+  name: RejectionText
+  nameWithType: Quote_RejectQuoteVersionRequest.RejectionText
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public string RejectionText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RejectionText As String
+  overload: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.#ctor
+  isExternal: true
+  name: Quote_RejectQuoteVersionRequest
+  nameWithType: Quote_RejectQuoteVersionRequest.Quote_RejectQuoteVersionRequest
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.Quote_RejectQuoteVersionRequest
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId
+  isExternal: true
+  name: QuoteVersionId
+  nameWithType: Quote_RejectQuoteVersionRequest.QuoteVersionId
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.QuoteVersionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText
+  isExternal: true
+  name: RejectedByText
+  nameWithType: Quote_RejectQuoteVersionRequest.RejectedByText
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  isExternal: true
+  name: RejectedByAssociateId
+  nameWithType: Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectedByAssociateId
+- uid: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText*
+  commentId: Overload:SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText
+  isExternal: true
+  name: RejectionText
+  nameWithType: Quote_RejectQuoteVersionRequest.RejectionText
+  fullName: SuperOffice.WebApi.Data.Quote_RejectQuoteVersionRequest.RejectionText

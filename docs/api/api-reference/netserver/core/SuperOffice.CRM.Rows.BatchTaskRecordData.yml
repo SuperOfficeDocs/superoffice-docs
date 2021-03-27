@@ -1,0 +1,1334 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData
+  commentId: T:SuperOffice.CRM.Rows.BatchTaskRecordData
+  id: BatchTaskRecordData
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.#ctor
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskDefinitionId
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskId
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.DbTag
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.Description
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsRecord
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsTable
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.LastStarted
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressDescription
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressPercent
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.Registered
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.RegisteredAssociateId
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.Request
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.Response
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.StartCount
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.State
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.Updated
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedAssociateId
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskRecordData
+  nameWithType: BatchTaskRecordData
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPOCO (Plain Old CLR Object) class that can be used to hold data corresponding\nto a row from the BatchTask table.\n"
+  remarks: "\nPlease use this class instead of a full <xref href=\"SuperOffice.CRM.Rows.BatchTaskRow\" data-throw-if-not-resolved=\"false\"></xref> object when\nyou do not need to <strong>create or update</strong> a value in the database. Row objects have a large overhead\nsince they carry the corresponding <xref href=\"SuperOffice.CRM.Data.BatchTaskTableInfo\" data-throw-if-not-resolved=\"false\"></xref> object, which\nin turn defines fields and aliases; there may be a Sentry on a row, and various other helper objects.\n"
+  syntax:
+    content: public class BatchTaskRecordData
+    content.vb: Public Class BatchTaskRecordData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+  - SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskId
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskId
+  id: BatchTaskId
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskId
+  nameWithType: BatchTaskRecordData.BatchTaskId
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPrimary key \n"
+  syntax:
+    content: public int BatchTaskId
+    return:
+      type: System.Int32
+    content.vb: Public BatchTaskId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskDefinitionId
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskDefinitionId
+  id: BatchTaskDefinitionId
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskDefinitionId
+  nameWithType: BatchTaskRecordData.BatchTaskDefinitionId
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskDefinitionId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nBatch task definition, which is populated from code attributes \n"
+  syntax:
+    content: public int BatchTaskDefinitionId
+    return:
+      type: System.Int32
+    content.vb: Public BatchTaskDefinitionId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.Description
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.Description
+  id: Description
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: BatchTaskRecordData.Description
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.Description
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescription of task (for monitoring and debugging) \n"
+  syntax:
+    content: public string Description
+    return:
+      type: System.String
+    content.vb: Public Description As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.DbTag
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.DbTag
+  id: DbTag
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: DbTag
+  nameWithType: BatchTaskRecordData.DbTag
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.DbTag
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDatabase tag that this task applies to, to ensure tasks are execute on the correct database only \n"
+  syntax:
+    content: public string DbTag
+    return:
+      type: System.String
+    content.vb: Public DbTag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.State
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.State
+  id: State
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: BatchTaskRecordData.State
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.State
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n0=Unknown; 1=New; 2=Assigned; 3=Started; 4=Succeeded; 5=Failed \n"
+  syntax:
+    content: public int State
+    return:
+      type: System.Int32
+    content.vb: Public State As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsTable
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsTable
+  id: DetailsTable
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: DetailsTable
+  nameWithType: BatchTaskRecordData.DetailsTable
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsTable
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional table containing further details that will not fit in the standard request/response fields \n"
+  syntax:
+    content: public short DetailsTable
+    return:
+      type: System.Int16
+    content.vb: Public DetailsTable As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsRecord
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsRecord
+  id: DetailsRecord
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: DetailsRecord
+  nameWithType: BatchTaskRecordData.DetailsRecord
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.DetailsRecord
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nOptional record containing further details that will not fit in the standard request/response fields \n"
+  syntax:
+    content: public int DetailsRecord
+    return:
+      type: System.Int32
+    content.vb: Public DetailsRecord As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.Request
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.Request
+  id: Request
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: BatchTaskRecordData.Request
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.Request
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe batch request, specifying what to do \n"
+  syntax:
+    content: public string Request
+    return:
+      type: System.String
+    content.vb: Public Request As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.Response
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.Response
+  id: Response
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: BatchTaskRecordData.Response
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.Response
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nThe response from the batch task processor \n"
+  syntax:
+    content: public string Response
+    return:
+      type: System.String
+    content.vb: Public Response As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.StartCount
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.StartCount
+  id: StartCount
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: StartCount
+  nameWithType: BatchTaskRecordData.StartCount
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.StartCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nNumber of times this batch task has been started (0 for tasks that have never been executed) \n"
+  syntax:
+    content: public int StartCount
+    return:
+      type: System.Int32
+    content.vb: Public StartCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.LastStarted
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.LastStarted
+  id: LastStarted
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: LastStarted
+  nameWithType: BatchTaskRecordData.LastStarted
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.LastStarted
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nWhen was this job last started \n"
+  syntax:
+    content: public DateTime LastStarted
+    return:
+      type: System.DateTime
+    content.vb: Public LastStarted As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressPercent
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressPercent
+  id: ProgressPercent
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProgressPercent
+  nameWithType: BatchTaskRecordData.ProgressPercent
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressPercent
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nTask progress, in percent of estimated total \n"
+  syntax:
+    content: public short ProgressPercent
+    return:
+      type: System.Int16
+    content.vb: Public ProgressPercent As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressDescription
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressDescription
+  id: ProgressDescription
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: ProgressDescription
+  nameWithType: BatchTaskRecordData.ProgressDescription
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.ProgressDescription
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nDescriptive text for the current stage \n"
+  syntax:
+    content: public string ProgressDescription
+    return:
+      type: System.String
+    content.vb: Public ProgressDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.Registered
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: BatchTaskRecordData.Registered
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.Registered
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered when in UTC.  \n"
+  syntax:
+    content: public DateTime Registered
+    return:
+      type: System.DateTime
+    content.vb: Public Registered As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: BatchTaskRecordData.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.RegisteredAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nRegistered by whom \n"
+  syntax:
+    content: public int RegisteredAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public RegisteredAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.Updated
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: BatchTaskRecordData.Updated
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.Updated
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n&apos;heartbeat&apos; that is updated once a minute by the batch task process in UTC.  \n"
+  syntax:
+    content: public DateTime Updated
+    return:
+      type: System.DateTime
+    content.vb: Public Updated As Date
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: BatchTaskRecordData.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedAssociateId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n&apos;heartbeat&apos; that is updated once a minute by the batch task process \n"
+  syntax:
+    content: public int UpdatedAssociateId
+    return:
+      type: System.Int32
+    content.vb: Public UpdatedAssociateId As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedCount
+  commentId: F:SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: BatchTaskRecordData.UpdatedCount
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.UpdatedCount
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n&apos;heartbeat&apos; that is updated once a minute by the batch task process \n"
+  syntax:
+    content: public short UpdatedCount
+    return:
+      type: System.Int16
+    content.vb: Public UpdatedCount As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.#ctor
+  commentId: M:SuperOffice.CRM.Rows.BatchTaskRecordData.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordData
+  langs:
+  - csharp
+  - vb
+  name: BatchTaskRecordData()
+  nameWithType: BatchTaskRecordData.BatchTaskRecordData()
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskRecordData()
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public BatchTaskRecordData()
+    content.vb: Public Sub New
+  overload: SuperOffice.CRM.Rows.BatchTaskRecordData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<BatchTaskRecordData, To>()
+  nameWithType: EnumUtil.MapEnums<BatchTaskRecordData, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.BatchTaskRecordData, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of BatchTaskRecordData, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.BatchTaskRecordData, To)()
+  name.vb: MapEnums(Of BatchTaskRecordData, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<BatchTaskRecordData, To>
+    nameWithType: EnumUtil.MapEnums<BatchTaskRecordData, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.CRM.Rows.BatchTaskRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of BatchTaskRecordData, To)
+    nameWithType: EnumUtil.MapEnums(Of BatchTaskRecordData, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.CRM.Rows.BatchTaskRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  name: AssignByReflection<BatchTaskRecordData>(BatchTaskRecordData)
+  nameWithType: ObjectExtensions.AssignByReflection<BatchTaskRecordData>(BatchTaskRecordData)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.BatchTaskRecordData>(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BatchTaskRecordData)(BatchTaskRecordData)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.BatchTaskRecordData)(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  name.vb: AssignByReflection(Of BatchTaskRecordData)(BatchTaskRecordData)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection<BatchTaskRecordData>
+    nameWithType: ObjectExtensions.AssignByReflection<BatchTaskRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Rows.BatchTaskRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordData
+    name: BatchTaskRecordData
+    nameWithType: BatchTaskRecordData
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0)
+    name: AssignByReflection(Of BatchTaskRecordData)
+    nameWithType: ObjectExtensions.AssignByReflection(Of BatchTaskRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Rows.BatchTaskRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordData
+    name: BatchTaskRecordData
+    nameWithType: BatchTaskRecordData
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  name: GraphCopy<BatchTaskRecordData>()
+  nameWithType: ObjectExtensions.GraphCopy<BatchTaskRecordData>()
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.BatchTaskRecordData>()
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BatchTaskRecordData)()
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.BatchTaskRecordData)()
+  name.vb: GraphCopy(Of BatchTaskRecordData)()
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy<BatchTaskRecordData>
+    nameWithType: ObjectExtensions.GraphCopy<BatchTaskRecordData>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Rows.BatchTaskRecordData>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1
+    name: GraphCopy(Of BatchTaskRecordData)
+    nameWithType: ObjectExtensions.GraphCopy(Of BatchTaskRecordData)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Rows.BatchTaskRecordData)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+  commentId: M:SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  parent: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions
+  definition: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  name: ToInsert()
+  nameWithType: BatchTaskRecordDataExtensions.ToInsert()
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: BatchTaskRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+    name: ToInsert
+    nameWithType: BatchTaskRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<BatchTaskRecordData, To>()
+  nameWithType: Converters.MapEnums<BatchTaskRecordData, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.BatchTaskRecordData, To>()
+  nameWithType.vb: Converters.MapEnums(Of BatchTaskRecordData, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.BatchTaskRecordData, To)()
+  name.vb: MapEnums(Of BatchTaskRecordData, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<BatchTaskRecordData, To>
+    nameWithType: Converters.MapEnums<BatchTaskRecordData, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Rows.BatchTaskRecordData, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of BatchTaskRecordData, To)
+    nameWithType: Converters.MapEnums(Of BatchTaskRecordData, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Rows.BatchTaskRecordData, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection<T>
+    nameWithType: ObjectExtensions.AssignByReflection<T>
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection(Of T)
+    nameWithType: ObjectExtensions.AssignByReflection(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy<T>
+    nameWithType: ObjectExtensions.GraphCopy<T>
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy(Of T)
+    nameWithType: ObjectExtensions.GraphCopy(Of T)
+    fullName: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  commentId: M:SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  isExternal: true
+  name: ToInsert(BatchTaskRecordData)
+  nameWithType: BatchTaskRecordDataExtensions.ToInsert(BatchTaskRecordData)
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+    name: ToInsert
+    nameWithType: BatchTaskRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordData
+    name: BatchTaskRecordData
+    nameWithType: BatchTaskRecordData
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert(SuperOffice.CRM.Rows.BatchTaskRecordData)
+    name: ToInsert
+    nameWithType: BatchTaskRecordDataExtensions.ToInsert
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions.ToInsert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Rows.BatchTaskRecordData
+    name: BatchTaskRecordData
+    nameWithType: BatchTaskRecordData
+    fullName: SuperOffice.CRM.Rows.BatchTaskRecordData
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  name: BatchTaskRecordDataExtensions
+  nameWithType: BatchTaskRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordDataExtensions
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.CRM.Rows.BatchTaskRecordData.#ctor*
+  commentId: Overload:SuperOffice.CRM.Rows.BatchTaskRecordData.#ctor
+  isExternal: true
+  name: BatchTaskRecordData
+  nameWithType: BatchTaskRecordData.BatchTaskRecordData
+  fullName: SuperOffice.CRM.Rows.BatchTaskRecordData.BatchTaskRecordData

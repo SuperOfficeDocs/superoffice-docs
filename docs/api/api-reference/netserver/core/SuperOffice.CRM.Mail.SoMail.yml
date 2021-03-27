@@ -1,0 +1,1299 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Mail.SoMail
+  commentId: T:SuperOffice.CRM.Mail.SoMail
+  id: SoMail
+  parent: SuperOffice.CRM.Mail
+  children:
+  - SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder)
+  - SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.BeginSend
+  - SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String)
+  - SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.CanRead
+  - SuperOffice.CRM.Mail.SoMail.CanSend
+  - SuperOffice.CRM.Mail.SoMail.GetFolderName(SuperOffice.CRM.Mail.SoMailFolder)
+  - SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.Int32,System.String)
+  - SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.String)
+  - SuperOffice.CRM.Mail.SoMail.LoginIncoming(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.LoginOutgoing(System.String,System.String,System.String,System.Boolean)
+  - SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended(System.String,System.String,System.Int32,System.String,System.String)
+  - SuperOffice.CRM.Mail.SoMail.MailReader
+  - SuperOffice.CRM.Mail.SoMail.MailSender
+  langs:
+  - csharp
+  - vb
+  name: SoMail
+  nameWithType: SoMail
+  fullName: SuperOffice.CRM.Mail.SoMail
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nHelper class for sending and receiving e-mails\n"
+  syntax:
+    content: public static class SoMail
+    content.vb: Public Module SoMail
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  id: LoginIncomingExtended(System.String,System.String,System.Int32,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: LoginIncomingExtended(String, String, Int32, String, String, String, Boolean, Boolean)
+  nameWithType: SoMail.LoginIncomingExtended(String, String, Int32, String, String, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended(System.String, System.String, System.Int32, System.String, System.String, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog in to an incoming mail server\n"
+  syntax:
+    content: public static ISoIncomingMailInterface LoginIncomingExtended(string protocol, string server, int port, string username, string password, string folder, bool readOnly, bool createFolderIfNotFound)
+    parameters:
+    - id: protocol
+      type: System.String
+    - id: server
+      type: System.String
+      description: DNS or IP to mailserver. Port may be appended by suffixing with &apos;:port&apos;
+    - id: port
+      type: System.Int32
+    - id: username
+      type: System.String
+      description: Account username
+    - id: password
+      type: System.String
+      description: Account password
+    - id: folder
+      type: System.String
+      description: Name of folder to set as active
+    - id: readOnly
+      type: System.Boolean
+      description: Should folder be selected as read only
+    - id: createFolderIfNotFound
+      type: System.Boolean
+      description: Create the folder if it does not exist
+    return:
+      type: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+      description: Instance of the created mail connection
+    content.vb: Public Shared Function LoginIncomingExtended(protocol As String, server As String, port As Integer, username As String, password As String, folder As String, readOnly As Boolean, createFolderIfNotFound As Boolean) As ISoIncomingMailInterface
+  overload: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.LoginIncoming(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginIncoming(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean)
+  id: LoginIncoming(System.String,System.String,System.String,System.Boolean,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: LoginIncoming(String, String, String, Boolean, String, Boolean, Boolean)
+  nameWithType: SoMail.LoginIncoming(String, String, String, Boolean, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncoming(System.String, System.String, System.String, System.Boolean, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog in to an incoming mail server\n"
+  syntax:
+    content: public static ISoIncomingMailInterface LoginIncoming(string server, string username, string password, bool useSSL, string folder, bool readOnly, bool createFolderIfNotFound)
+    parameters:
+    - id: server
+      type: System.String
+      description: DNS or IP to mailserver. Port may be appended by suffixing with &apos;:port&apos;
+    - id: username
+      type: System.String
+      description: Account username
+    - id: password
+      type: System.String
+      description: Account password
+    - id: useSSL
+      type: System.Boolean
+      description: Use secure connection
+    - id: folder
+      type: System.String
+      description: Name of folder to set as active
+    - id: readOnly
+      type: System.Boolean
+      description: Should folder be selected as read only
+    - id: createFolderIfNotFound
+      type: System.Boolean
+      description: Create the folder if it does not exist
+    return:
+      type: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+      description: Instance of the created mail connection
+    content.vb: Public Shared Function LoginIncoming(server As String, username As String, password As String, useSSL As Boolean, folder As String, readOnly As Boolean, createFolderIfNotFound As Boolean) As ISoIncomingMailInterface
+  overload: SuperOffice.CRM.Mail.SoMail.LoginIncoming*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended(System.String,System.String,System.Int32,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended(System.String,System.String,System.Int32,System.String,System.String)
+  id: LoginOutgoingExtended(System.String,System.String,System.Int32,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: LoginOutgoingExtended(String, String, Int32, String, String)
+  nameWithType: SoMail.LoginOutgoingExtended(String, String, Int32, String, String)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended(System.String, System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog in to an outgoing mail server\n"
+  syntax:
+    content: public static ISoOutgoingMailInterface LoginOutgoingExtended(string protocol, string server, int port, string username, string password)
+    parameters:
+    - id: protocol
+      type: System.String
+    - id: server
+      type: System.String
+      description: DNS or IP to mailserver. Port may be appended by suffixing with &apos;:port&apos;
+    - id: port
+      type: System.Int32
+    - id: username
+      type: System.String
+      description: Account username
+    - id: password
+      type: System.String
+      description: Account password
+    return:
+      type: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
+      description: Instance of the created mail connection
+    content.vb: Public Shared Function LoginOutgoingExtended(protocol As String, server As String, port As Integer, username As String, password As String) As ISoOutgoingMailInterface
+  overload: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoing(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.LoginOutgoing(System.String,System.String,System.String,System.Boolean)
+  id: LoginOutgoing(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: LoginOutgoing(String, String, String, Boolean)
+  nameWithType: SoMail.LoginOutgoing(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoing(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nLog in to an outgoing mail server\n"
+  syntax:
+    content: public static ISoOutgoingMailInterface LoginOutgoing(string server, string username, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+      description: DNS or IP to mailserver. Port may be appended by suffixing with &apos;:port&apos;
+    - id: username
+      type: System.String
+      description: Account username
+    - id: password
+      type: System.String
+      description: Account password
+    - id: useSSL
+      type: System.Boolean
+      description: Use secure connection
+    return:
+      type: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
+      description: Instance of the created mail connection
+    content.vb: Public Shared Function LoginOutgoing(server As String, username As String, password As String, useSSL As Boolean) As ISoOutgoingMailInterface
+  overload: SuperOffice.CRM.Mail.SoMail.LoginOutgoing*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder)
+  id: BeginRead(SuperOffice.CRM.Mail.SoMailFolder)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(SoMailFolder)
+  nameWithType: SoMail.BeginRead(SoMailFolder)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for incoming mail server/message store (i.e. IMAP).\n"
+  syntax:
+    content: public static MessageStoreSession BeginRead(SoMailFolder folder)
+    parameters:
+    - id: folder
+      type: SuperOffice.CRM.Mail.SoMailFolder
+      description: Folder to set active
+    return:
+      type: SuperOffice.CRM.Mail.MessageStoreSession
+      description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
+    content.vb: Public Shared Function BeginRead(folder As SoMailFolder) As MessageStoreSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String,System.Boolean)
+  id: BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(SoMailFolder, String, String, String, Boolean)
+  nameWithType: SoMail.BeginRead(SoMailFolder, String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder, System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for incoming mail server/message store (i.e. IMAP).\n"
+  syntax:
+    content: public static MessageStoreSession BeginRead(SoMailFolder folder, string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: folder
+      type: SuperOffice.CRM.Mail.SoMailFolder
+      description: Folder to set active
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Use SSL
+    return:
+      type: SuperOffice.CRM.Mail.MessageStoreSession
+      description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
+    content.vb: Public Shared Function BeginRead(folder As SoMailFolder, server As String, userName As String, password As String, useSSL As Boolean) As MessageStoreSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String)
+  id: BeginRead(SuperOffice.CRM.Mail.SoMailFolder,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(SoMailFolder, String, String, String)
+  nameWithType: SoMail.BeginRead(SoMailFolder, String, String, String)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead(SuperOffice.CRM.Mail.SoMailFolder, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for incoming mail server/message store (i.e. IMAP).\n"
+  syntax:
+    content: public static MessageStoreSession BeginRead(SoMailFolder folder, string server, string userName, string password)
+    parameters:
+    - id: folder
+      type: SuperOffice.CRM.Mail.SoMailFolder
+      description: Folder to set active
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    return:
+      type: SuperOffice.CRM.Mail.MessageStoreSession
+      description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
+    content.vb: Public Shared Function BeginRead(folder As SoMailFolder, server As String, userName As String, password As String) As MessageStoreSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String)
+  id: BeginRead(System.String,System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(String, String, String, String)
+  nameWithType: SoMail.BeginRead(String, String, String, String)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead(System.String, System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for incoming mail server/message store (i.e. IMAP).\n"
+  syntax:
+    content: public static MessageStoreSession BeginRead(string folderName, string server, string userName, string password)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to set active
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    return:
+      type: SuperOffice.CRM.Mail.MessageStoreSession
+      description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
+    content.vb: Public Shared Function BeginRead(folderName As String, server As String, userName As String, password As String) As MessageStoreSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String,System.Boolean)
+  id: BeginRead(System.String,System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(String, String, String, String, Boolean)
+  nameWithType: SoMail.BeginRead(String, String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead(System.String, System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for incoming mail server/message store (i.e. IMAP).\n"
+  syntax:
+    content: public static MessageStoreSession BeginRead(string folderName, string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to set active
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+    return:
+      type: SuperOffice.CRM.Mail.MessageStoreSession
+      description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
+    content.vb: Public Shared Function BeginRead(folderName As String, server As String, userName As String, password As String, useSSL As Boolean) As MessageStoreSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginRead(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  id: BeginRead(System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginRead(String, String, String, String, Boolean, Boolean)
+  nameWithType: SoMail.BeginRead(String, String, String, String, Boolean, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead(System.String, System.String, System.String, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for incoming mail server/message store (i.e. IMAP).\n"
+  syntax:
+    content: public static MessageStoreSession BeginRead(string folderName, string server, string userName, string password, bool useSSL, bool readOnly)
+    parameters:
+    - id: folderName
+      type: System.String
+      description: Full path and name of folder to set active
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+    - id: readOnly
+      type: System.Boolean
+      description: Should folder be selected as readonly
+    return:
+      type: SuperOffice.CRM.Mail.MessageStoreSession
+      description: Disposable object holding session to incoming mail server/message store (i.e. IMAP).
+    content.vb: Public Shared Function BeginRead(folderName As String, server As String, userName As String, password As String, useSSL As Boolean, readOnly As Boolean) As MessageStoreSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginSend
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginSend
+  id: BeginSend
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginSend()
+  nameWithType: SoMail.BeginSend()
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginSend()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for outgoing (i.e. SMTP) mail server according to the current users configuration.\n"
+  syntax:
+    content: public static OutgoingMailSession BeginSend()
+    return:
+      type: SuperOffice.CRM.Mail.OutgoingMailSession
+      description: Disposable object holding session to outgoing (i.e. SMTP) mail server.
+    content.vb: Public Shared Function BeginSend As OutgoingMailSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginSend*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String)
+  id: BeginSend(System.String,System.String,System.String)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginSend(String, String, String)
+  nameWithType: SoMail.BeginSend(String, String, String)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginSend(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for outgoing (i.e. SMTP) mail server.\n"
+  syntax:
+    content: public static OutgoingMailSession BeginSend(string server, string userName, string password)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    return:
+      type: SuperOffice.CRM.Mail.OutgoingMailSession
+      description: Disposable object holding session to outgoing (i.e. SMTP) mail server.
+    content.vb: Public Shared Function BeginSend(server As String, userName As String, password As String) As OutgoingMailSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginSend*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.BeginSend(System.String,System.String,System.String,System.Boolean)
+  id: BeginSend(System.String,System.String,System.String,System.Boolean)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: BeginSend(String, String, String, Boolean)
+  nameWithType: SoMail.BeginSend(String, String, String, Boolean)
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginSend(System.String, System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nObtain reference to session for outgoing (i.e. SMTP) mail server.\n"
+  syntax:
+    content: public static OutgoingMailSession BeginSend(string server, string userName, string password, bool useSSL)
+    parameters:
+    - id: server
+      type: System.String
+      description: Name of outgoing (i.e. SMTP) server with optional port.
+    - id: userName
+      type: System.String
+      description: User name used to authenticate to the mail server
+    - id: password
+      type: System.String
+      description: Password used to authenticate to the mail server
+    - id: useSSL
+      type: System.Boolean
+      description: Should we use a secure connection
+    return:
+      type: SuperOffice.CRM.Mail.OutgoingMailSession
+      description: Disposable object holding session to outgoing (i.e. SMTP) mail server.
+    content.vb: Public Shared Function BeginSend(server As String, userName As String, password As String, useSSL As Boolean) As OutgoingMailSession
+  overload: SuperOffice.CRM.Mail.SoMail.BeginSend*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.GetFolderName(SuperOffice.CRM.Mail.SoMailFolder)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.GetFolderName(SuperOffice.CRM.Mail.SoMailFolder)
+  id: GetFolderName(SuperOffice.CRM.Mail.SoMailFolder)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: GetFolderName(SoMailFolder)
+  nameWithType: SoMail.GetFolderName(SoMailFolder)
+  fullName: SuperOffice.CRM.Mail.SoMail.GetFolderName(SuperOffice.CRM.Mail.SoMailFolder)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet folder name from <xref href=\"SuperOffice.CRM.Mail.SoMailFolder\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  syntax:
+    content: public static string GetFolderName(SoMailFolder folder)
+    parameters:
+    - id: folder
+      type: SuperOffice.CRM.Mail.SoMailFolder
+      description: Folder to find name for.
+    return:
+      type: System.String
+      description: Name of folder.
+    content.vb: Public Shared Function GetFolderName(folder As SoMailFolder) As String
+  overload: SuperOffice.CRM.Mail.SoMail.GetFolderName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.String)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.String)
+  id: GetLoginCredentials(System.String)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: GetLoginCredentials(String)
+  nameWithType: SoMail.GetLoginCredentials(String)
+  fullName: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet login info for specified type. Ex: &quot;imap&quot;, &quot;smtp&quot;.\n"
+  syntax:
+    content: public static SoMailCredentials GetLoginCredentials(string type)
+    parameters:
+    - id: type
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Mail.SoMailCredentials
+    content.vb: Public Shared Function GetLoginCredentials(type As String) As SoMailCredentials
+  overload: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.Int32,System.String)
+  id: GetLoginCredentials(System.Int32,System.String)
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: GetLoginCredentials(Int32, String)
+  nameWithType: SoMail.GetLoginCredentials(Int32, String)
+  fullName: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials(System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet login info for specified type. Ex: &quot;imap&quot;, &quot;smtp&quot; for a specified associate\n"
+  syntax:
+    content: public static SoMailCredentials GetLoginCredentials(int associateId, string type)
+    parameters:
+    - id: associateId
+      type: System.Int32
+    - id: type
+      type: System.String
+    return:
+      type: SuperOffice.CRM.Mail.SoMailCredentials
+    content.vb: Public Shared Function GetLoginCredentials(associateId As Integer, type As String) As SoMailCredentials
+  overload: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.CRM.Mail.SoMail.MailReader
+  commentId: P:SuperOffice.CRM.Mail.SoMail.MailReader
+  id: MailReader
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: MailReader
+  nameWithType: SoMail.MailReader
+  fullName: SuperOffice.CRM.Mail.SoMail.MailReader
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static ISoIncomingMailInterface MailReader { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+    content.vb: Public Shared ReadOnly Property MailReader As ISoIncomingMailInterface
+  overload: SuperOffice.CRM.Mail.SoMail.MailReader*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Mail.SoMail.MailSender
+  commentId: P:SuperOffice.CRM.Mail.SoMail.MailSender
+  id: MailSender
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: MailSender
+  nameWithType: SoMail.MailSender
+  fullName: SuperOffice.CRM.Mail.SoMail.MailSender
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  syntax:
+    content: public static ISoOutgoingMailInterface MailSender { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
+    content.vb: Public Shared ReadOnly Property MailSender As ISoOutgoingMailInterface
+  overload: SuperOffice.CRM.Mail.SoMail.MailSender*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Mail.SoMail.CanRead
+  commentId: P:SuperOffice.CRM.Mail.SoMail.CanRead
+  id: CanRead
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: CanRead
+  nameWithType: SoMail.CanRead
+  fullName: SuperOffice.CRM.Mail.SoMail.CanRead
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet if the currently logged in user can read e-mails and access the message store.\n"
+  syntax:
+    content: public static bool CanRead { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property CanRead As Boolean
+  overload: SuperOffice.CRM.Mail.SoMail.CanRead*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: SuperOffice.CRM.Mail.SoMail.CanSend
+  commentId: P:SuperOffice.CRM.Mail.SoMail.CanSend
+  id: CanSend
+  parent: SuperOffice.CRM.Mail.SoMail
+  langs:
+  - csharp
+  - vb
+  name: CanSend
+  nameWithType: SoMail.CanSend
+  fullName: SuperOffice.CRM.Mail.SoMail.CanSend
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Mail
+  summary: "\nGet if the currently logged in user can send e-mails\n"
+  syntax:
+    content: public static bool CanSend { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property CanSend As Boolean
+  overload: SuperOffice.CRM.Mail.SoMail.CanSend*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: SuperOffice.CRM.Mail
+  commentId: N:SuperOffice.CRM.Mail
+  isExternal: true
+  name: SuperOffice.CRM.Mail
+  nameWithType: SuperOffice.CRM.Mail
+  fullName: SuperOffice.CRM.Mail
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended
+  isExternal: true
+  name: LoginIncomingExtended
+  nameWithType: SoMail.LoginIncomingExtended
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncomingExtended
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+  isExternal: true
+  name: ISoIncomingMailInterface
+  nameWithType: ISoIncomingMailInterface
+  fullName: SuperOffice.CRM.Mail.ISoIncomingMailInterface
+- uid: SuperOffice.CRM.Mail.SoMail.LoginIncoming*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginIncoming
+  isExternal: true
+  name: LoginIncoming
+  nameWithType: SoMail.LoginIncoming
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginIncoming
+- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended
+  isExternal: true
+  name: LoginOutgoingExtended
+  nameWithType: SoMail.LoginOutgoingExtended
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoingExtended
+- uid: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
+  isExternal: true
+  name: ISoOutgoingMailInterface
+  nameWithType: ISoOutgoingMailInterface
+  fullName: SuperOffice.CRM.Mail.ISoOutgoingMailInterface
+- uid: SuperOffice.CRM.Mail.SoMail.LoginOutgoing*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.LoginOutgoing
+  isExternal: true
+  name: LoginOutgoing
+  nameWithType: SoMail.LoginOutgoing
+  fullName: SuperOffice.CRM.Mail.SoMail.LoginOutgoing
+- uid: SuperOffice.CRM.Mail.SoMail.BeginRead*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.BeginRead
+  isExternal: true
+  name: BeginRead
+  nameWithType: SoMail.BeginRead
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginRead
+- uid: SuperOffice.CRM.Mail.SoMailFolder
+  isExternal: true
+  name: SoMailFolder
+  nameWithType: SoMailFolder
+  fullName: SuperOffice.CRM.Mail.SoMailFolder
+- uid: SuperOffice.CRM.Mail.MessageStoreSession
+  commentId: T:SuperOffice.CRM.Mail.MessageStoreSession
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: MessageStoreSession
+  nameWithType: MessageStoreSession
+  fullName: SuperOffice.CRM.Mail.MessageStoreSession
+- uid: SuperOffice.CRM.Mail.SoMail.BeginSend*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.BeginSend
+  isExternal: true
+  name: BeginSend
+  nameWithType: SoMail.BeginSend
+  fullName: SuperOffice.CRM.Mail.SoMail.BeginSend
+- uid: SuperOffice.CRM.Mail.OutgoingMailSession
+  commentId: T:SuperOffice.CRM.Mail.OutgoingMailSession
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: OutgoingMailSession
+  nameWithType: OutgoingMailSession
+  fullName: SuperOffice.CRM.Mail.OutgoingMailSession
+- uid: SuperOffice.CRM.Mail.SoMail.GetFolderName*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.GetFolderName
+  isExternal: true
+  name: GetFolderName
+  nameWithType: SoMail.GetFolderName
+  fullName: SuperOffice.CRM.Mail.SoMail.GetFolderName
+- uid: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.GetLoginCredentials
+  isExternal: true
+  name: GetLoginCredentials
+  nameWithType: SoMail.GetLoginCredentials
+  fullName: SuperOffice.CRM.Mail.SoMail.GetLoginCredentials
+- uid: SuperOffice.CRM.Mail.SoMailCredentials
+  commentId: T:SuperOffice.CRM.Mail.SoMailCredentials
+  parent: SuperOffice.CRM.Mail
+  isExternal: true
+  name: SoMailCredentials
+  nameWithType: SoMailCredentials
+  fullName: SuperOffice.CRM.Mail.SoMailCredentials
+- uid: SuperOffice.CRM.Mail.SoMail.MailReader*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.MailReader
+  isExternal: true
+  name: MailReader
+  nameWithType: SoMail.MailReader
+  fullName: SuperOffice.CRM.Mail.SoMail.MailReader
+- uid: SuperOffice.CRM.Mail.SoMail.MailSender*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.MailSender
+  isExternal: true
+  name: MailSender
+  nameWithType: SoMail.MailSender
+  fullName: SuperOffice.CRM.Mail.SoMail.MailSender
+- uid: SuperOffice.CRM.Mail.SoMail.CanRead*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.CanRead
+  isExternal: true
+  name: CanRead
+  nameWithType: SoMail.CanRead
+  fullName: SuperOffice.CRM.Mail.SoMail.CanRead
+- uid: SuperOffice.CRM.Mail.SoMail.CanSend*
+  commentId: Overload:SuperOffice.CRM.Mail.SoMail.CanSend
+  isExternal: true
+  name: CanSend
+  nameWithType: SoMail.CanSend
+  fullName: SuperOffice.CRM.Mail.SoMail.CanSend

@@ -1,0 +1,867 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceInfo
+  id: RecurrenceInfo
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.RecurrenceInfo.#ctor
+  - SuperOffice.WebApi.Data.RecurrenceInfo.Dates
+  - SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern
+  - SuperOffice.WebApi.Data.RecurrenceInfo.EndDate
+  - SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence
+  - SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern
+  - SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  - SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  - SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter
+  - SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  - SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  - SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId
+  - SuperOffice.WebApi.Data.RecurrenceInfo.StartDate
+  - SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern
+  - SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nCarrier object for RecurrenceInfo.\nClass representing a recurrence date.    \n"
+  syntax:
+    content: 'public class RecurrenceInfo : Object'
+    content.vb: >-
+      Public Class RecurrenceInfo
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.#ctor
+  commentId: M:SuperOffice.WebApi.Data.RecurrenceInfo.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceInfo()
+  nameWithType: RecurrenceInfo.RecurrenceInfo()
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceInfo()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault constructor - defaults any enum props to 0. \n"
+  syntax:
+    content: public RecurrenceInfo()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId
+  id: RecurrenceId
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceId
+  nameWithType: RecurrenceInfo.RecurrenceId
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPrimary key\n"
+  syntax:
+    content: public virtual int RecurrenceId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecurrenceId As Integer
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.StartDate
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.StartDate
+  id: StartDate
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: RecurrenceInfo.StartDate
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.StartDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nStart date for repetition pattern\n"
+  syntax:
+    content: public virtual DateTime StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property StartDate As DateTime
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.StartDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.EndDate
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.EndDate
+  id: EndDate
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: RecurrenceInfo.EndDate
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.EndDate
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nEnd date for repetition pattern\n"
+  syntax:
+    content: public virtual DateTime EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property EndDate As DateTime
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.EndDate*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  id: RecurrenceEndType_String
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceEndType_String
+  nameWithType: RecurrenceInfo.RecurrenceEndType_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType defining how the end of the recurrence sequence should be calculated\nRaw string enum value.\n"
+  syntax:
+    content: public string RecurrenceEndType_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RecurrenceEndType_String As String
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  id: RecurrenceEndType
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceEndType
+  nameWithType: RecurrenceInfo.RecurrenceEndType
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nType defining how the end of the recurrence sequence should be calculated\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RecurrenceEndType> RecurrenceEndType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RecurrenceEndType}
+    content.vb: Public Property RecurrenceEndType As Nullable(Of RecurrenceEndType)
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  id: Pattern_String
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: Pattern_String
+  nameWithType: RecurrenceInfo.Pattern_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecurrence pattern (daily, weekly etc)\nRaw string enum value.\n"
+  syntax:
+    content: public string Pattern_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Pattern_String As String
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  id: Pattern
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: Pattern
+  nameWithType: RecurrenceInfo.Pattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nRecurrence pattern (daily, weekly etc)\nNULL if unknown enum value.\n"
+  syntax:
+    content: public Nullable<RecurrencePattern> Pattern { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.RecurrencePattern}
+    content.vb: Public Property Pattern As Nullable(Of RecurrencePattern)
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+    commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern
+  id: DayPattern
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: DayPattern
+  nameWithType: RecurrenceInfo.DayPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPattern describing a daily recurrence. Only set when the recurrence pattern i daily.\n"
+  syntax:
+    content: public virtual RecurrenceDayPattern DayPattern { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceDayPattern
+    content.vb: Public Overridable Property DayPattern As RecurrenceDayPattern
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern
+  id: WeekPattern
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: WeekPattern
+  nameWithType: RecurrenceInfo.WeekPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPattern describing a daily recurrence. Only set when the recurrence pattern i weekly.\n"
+  syntax:
+    content: public virtual RecurrenceWeekPattern WeekPattern { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceWeekPattern
+    content.vb: Public Overridable Property WeekPattern As RecurrenceWeekPattern
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern
+  id: MonthPattern
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: MonthPattern
+  nameWithType: RecurrenceInfo.MonthPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPattern describing a daily recurrence. Only set when the recurrence pattern i monthly.\n"
+  syntax:
+    content: public virtual RecurrenceMonthPattern MonthPattern { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+    content.vb: Public Overridable Property MonthPattern As RecurrenceMonthPattern
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern
+  id: YearPattern
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: YearPattern
+  nameWithType: RecurrenceInfo.YearPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nPattern describing a daily recurrence. Only set when the recurrence pattern i yearly.\n"
+  syntax:
+    content: public virtual RecurrenceYearPattern YearPattern { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceYearPattern
+    content.vb: Public Overridable Property YearPattern As RecurrenceYearPattern
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Dates
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Dates
+  id: Dates
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: Dates
+  nameWithType: RecurrenceInfo.Dates
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.Dates
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nList of all dates where this recurrence occurs\n"
+  syntax:
+    content: public virtual RecurrenceDate[] Dates { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.RecurrenceDate[]
+    content.vb: Public Overridable Property Dates As RecurrenceDate()
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.Dates*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter
+  id: RecurrenceCounter
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: RecurrenceCounter
+  nameWithType: RecurrenceInfo.RecurrenceCounter
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n\n"
+  syntax:
+    content: public virtual int RecurrenceCounter { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property RecurrenceCounter As Integer
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence
+  id: IsRecurrence
+  parent: SuperOffice.WebApi.Data.RecurrenceInfo
+  langs:
+  - csharp
+  - vb
+  name: IsRecurrence
+  nameWithType: RecurrenceInfo.IsRecurrence
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nGet a or set IsRecurrence, indicating if this is a repeating appointment or not.\n"
+  syntax:
+    content: public virtual bool IsRecurrence { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property IsRecurrence As Boolean
+  overload: SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.#ctor
+  isExternal: true
+  name: RecurrenceInfo
+  nameWithType: RecurrenceInfo.RecurrenceInfo
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceInfo
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId
+  isExternal: true
+  name: RecurrenceId
+  nameWithType: RecurrenceInfo.RecurrenceId
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.StartDate*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.StartDate
+  isExternal: true
+  name: StartDate
+  nameWithType: RecurrenceInfo.StartDate
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.StartDate
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.EndDate*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.EndDate
+  isExternal: true
+  name: EndDate
+  nameWithType: RecurrenceInfo.EndDate
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.EndDate
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  isExternal: true
+  name: RecurrenceEndType_String
+  nameWithType: RecurrenceInfo.RecurrenceEndType_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  isExternal: true
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+  isExternal: true
+  name: RecurrenceEndType
+  nameWithType: RecurrenceInfo.RecurrenceEndType
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceEndType_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.RecurrenceEndType}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RecurrenceEndType}'
+  definition: System.Nullable`1
+  name: Nullable<RecurrenceEndType>
+  nameWithType: Nullable<RecurrenceEndType>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RecurrenceEndType>
+  nameWithType.vb: Nullable(Of RecurrenceEndType)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RecurrenceEndType)
+  name.vb: Nullable(Of RecurrenceEndType)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RecurrenceEndType
+    name: RecurrenceEndType
+    nameWithType: RecurrenceEndType
+    fullName: SuperOffice.WebApi.Data.RecurrenceEndType
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RecurrenceEndType
+    name: RecurrenceEndType
+    nameWithType: RecurrenceEndType
+    fullName: SuperOffice.WebApi.Data.RecurrenceEndType
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  isExternal: true
+  name: Pattern_String
+  nameWithType: RecurrenceInfo.Pattern_String
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  isExternal: true
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+  isExternal: true
+  name: Pattern
+  nameWithType: RecurrenceInfo.Pattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  commentId: P:SuperOffice.WebApi.Data.RecurrenceInfo.Pattern_String
+  isExternal: true
+- uid: System.Nullable{SuperOffice.WebApi.Data.RecurrencePattern}
+  commentId: '!:System.Nullable{SuperOffice.WebApi.Data.RecurrencePattern}'
+  definition: System.Nullable`1
+  name: Nullable<RecurrencePattern>
+  nameWithType: Nullable<RecurrencePattern>
+  fullName: System.Nullable<SuperOffice.WebApi.Data.RecurrencePattern>
+  nameWithType.vb: Nullable(Of RecurrencePattern)
+  fullName.vb: System.Nullable(Of SuperOffice.WebApi.Data.RecurrencePattern)
+  name.vb: Nullable(Of RecurrencePattern)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.WebApi.Data.RecurrencePattern
+    name: RecurrencePattern
+    nameWithType: RecurrencePattern
+    fullName: SuperOffice.WebApi.Data.RecurrencePattern
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.WebApi.Data.RecurrencePattern
+    name: RecurrencePattern
+    nameWithType: RecurrencePattern
+    fullName: SuperOffice.WebApi.Data.RecurrencePattern
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern
+  isExternal: true
+  name: DayPattern
+  nameWithType: RecurrenceInfo.DayPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.DayPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceDayPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceDayPattern
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceDayPattern
+  nameWithType: RecurrenceDayPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceDayPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern
+  isExternal: true
+  name: WeekPattern
+  nameWithType: RecurrenceInfo.WeekPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.WeekPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceWeekPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceWeekPattern
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceWeekPattern
+  nameWithType: RecurrenceWeekPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceWeekPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern
+  isExternal: true
+  name: MonthPattern
+  nameWithType: RecurrenceInfo.MonthPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.MonthPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceMonthPattern
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceMonthPattern
+  nameWithType: RecurrenceMonthPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceMonthPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern
+  isExternal: true
+  name: YearPattern
+  nameWithType: RecurrenceInfo.YearPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.YearPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceYearPattern
+  commentId: T:SuperOffice.WebApi.Data.RecurrenceYearPattern
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: RecurrenceYearPattern
+  nameWithType: RecurrenceYearPattern
+  fullName: SuperOffice.WebApi.Data.RecurrenceYearPattern
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.Dates*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.Dates
+  isExternal: true
+  name: Dates
+  nameWithType: RecurrenceInfo.Dates
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.Dates
+- uid: SuperOffice.WebApi.Data.RecurrenceDate[]
+  isExternal: true
+  name: RecurrenceDate[]
+  nameWithType: RecurrenceDate[]
+  fullName: SuperOffice.WebApi.Data.RecurrenceDate[]
+  nameWithType.vb: RecurrenceDate()
+  fullName.vb: SuperOffice.WebApi.Data.RecurrenceDate()
+  name.vb: RecurrenceDate()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.RecurrenceDate
+    name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.WebApi.Data.RecurrenceDate
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.RecurrenceDate
+    name: RecurrenceDate
+    nameWithType: RecurrenceDate
+    fullName: SuperOffice.WebApi.Data.RecurrenceDate
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter
+  isExternal: true
+  name: RecurrenceCounter
+  nameWithType: RecurrenceInfo.RecurrenceCounter
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.RecurrenceCounter
+- uid: SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence*
+  commentId: Overload:SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence
+  isExternal: true
+  name: IsRecurrence
+  nameWithType: RecurrenceInfo.IsRecurrence
+  fullName: SuperOffice.WebApi.Data.RecurrenceInfo.IsRecurrence
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

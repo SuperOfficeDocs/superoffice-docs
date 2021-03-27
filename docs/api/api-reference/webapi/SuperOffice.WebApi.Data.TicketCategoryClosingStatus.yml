@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  id: TicketCategoryClosingStatus
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Active
+  - SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Closed
+  - SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Postponed
+  - SuperOffice.WebApi.Data.TicketCategoryClosingStatus.UserDefined
+  - SuperOffice.WebApi.Data.TicketCategoryClosingStatus.value__
+  langs:
+  - csharp
+  - vb
+  name: TicketCategoryClosingStatus
+  nameWithType: TicketCategoryClosingStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nDefault status for requests. Note that this is a preference which should be respected if making UI. It is not enforced by the APIs\nThis Enum is used by:  ej_category.closing_status; ej_category.msg_closing_status\n"
+  syntax:
+    content: 'public sealed class TicketCategoryClosingStatus : Enum'
+    content.vb: >-
+      Public NotInheritable Class TicketCategoryClosingStatus
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.value__
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryClosingStatus.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: TicketCategoryClosingStatus.value__
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.UserDefined
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryClosingStatus.UserDefined
+  id: UserDefined
+  parent: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  langs:
+  - csharp
+  - vb
+  name: UserDefined
+  nameWithType: TicketCategoryClosingStatus.UserDefined
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.UserDefined
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: The ticket status should respect the user defined behaviour\n"
+  syntax:
+    content: public const TicketCategoryClosingStatus UserDefined
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+    content.vb: Public Const UserDefined As TicketCategoryClosingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Active
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Active
+  id: Active
+  parent: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  langs:
+  - csharp
+  - vb
+  name: Active
+  nameWithType: TicketCategoryClosingStatus.Active
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Active
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: Indicates that the ticket status should be active as default\n"
+  syntax:
+    content: public const TicketCategoryClosingStatus Active
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+    content.vb: Public Const Active As TicketCategoryClosingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Closed
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Closed
+  id: Closed
+  parent: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  langs:
+  - csharp
+  - vb
+  name: Closed
+  nameWithType: TicketCategoryClosingStatus.Closed
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Closed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Indicates that the ticket status should be closed as default\n"
+  syntax:
+    content: public const TicketCategoryClosingStatus Closed
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+    content.vb: Public Const Closed As TicketCategoryClosingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Postponed
+  commentId: F:SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Postponed
+  id: Postponed
+  parent: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  langs:
+  - csharp
+  - vb
+  name: Postponed
+  nameWithType: TicketCategoryClosingStatus.Postponed
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus.Postponed
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Indicates that the ticket status should be postponed as default\n"
+  syntax:
+    content: public const TicketCategoryClosingStatus Postponed
+    return:
+      type: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+    content.vb: Public Const Postponed As TicketCategoryClosingStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  commentId: T:SuperOffice.WebApi.Data.TicketCategoryClosingStatus
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: TicketCategoryClosingStatus
+  nameWithType: TicketCategoryClosingStatus
+  fullName: SuperOffice.WebApi.Data.TicketCategoryClosingStatus
