@@ -1,6 +1,6 @@
 items:
 - name: CRMScript
-  href: ../automation/crmscript.md
+  href: ../automation/crmscript-intro.md
 - name: Event model
   href: ../automation/event-model/index.md
   items:

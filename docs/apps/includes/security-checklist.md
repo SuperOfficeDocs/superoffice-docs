@@ -8,5 +8,5 @@
 [1]: ../redirects/index.md
 [2]: https://www.ssllabs.com/ssltest/analyze.html
 [3]: https://owasp.org/www-project-cheat-sheets/cheatsheets/Input_Validation_Cheat_Sheet
-[4]: ../../authentication/federated-auth.md
-[5]: ../../authentication/certificates/validate-security-tokens.md
+[4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
+[5]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/validate-security-tokens.md

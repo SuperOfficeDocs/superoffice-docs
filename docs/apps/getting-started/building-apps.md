@@ -27,7 +27,7 @@ When creating an application for SuperOffice CRM Online, you need to learn abou
 2. Register your application idea to get your [client ID and client secret (token)][3]
 
     * it's essential that you provide us with your [redirect URLs][4] at this point
-    * you receive a unique set of keys to identify your application and [certificates][5] for authentication
+    * you receive a unique set of keys to identify your application and certificates for authentication
 
 3. Develop your application
 
@@ -94,7 +94,6 @@ Creating an application for the SuperOffice App Store is not something to take l
 [2]: ../tenant-status/index.md
 [3]: ../client-id-secret.md
 [4]: ../redirects/index.md
-[5]: ../../authentication/certificates/index.md
 [6]: ../certification/certify-app.md
 [7]: ../validation/validate-app.md
 [8]: ../publish/get-listed.md

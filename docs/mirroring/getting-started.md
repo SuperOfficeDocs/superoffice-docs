@@ -52,7 +52,7 @@ If you believe you have a great case for an application, navigate to the [applic
 
 <!-- Referenced links -->
 [1]: https://community.superoffice.com/en/developer/create-apps/resources/application-registration/
-[2]: ../authentication/certificates/configure.md
-[3]: ../authentication/index.md
+[2]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/configure.md
+[3]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/index.md
 [4]: https://www.nuget.org/packages/SuperOffice.Crm.Online.Mirroring
 [6]: https://community.superoffice.com/en/developer/create-apps/resources/developer-registration/
