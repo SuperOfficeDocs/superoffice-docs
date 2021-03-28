@@ -1,0 +1,179 @@
+items:
+- name: Custom screens
+  href: custom-screens/index.md
+  items:
+  - name: bLogic query syntax
+    href: custom-screens/blogic-query-syntax.md
+  - name: Layout elements
+    href: custom-screens/layout-elements.md
+  - name: View elements
+    href: custom-screens/view-elements.md
+  - name: Form elements
+    href: custom-screens/form-elements.md
+  - name: Form elements per entity
+    href: custom-screens/form-elements-per-entity.md
+  - name: How to add a screen element
+    href: custom-screens/add-screen-element.md
+- name: Button scripts
+  href: button-scripts.md
+- name: Extra menus
+  href: extra-menus.md
+- name: Screen choosers
+  href: screen-choosers.md
+- name: Screen events
+  href: screen-events.md
+- name: URL parameters
+  href: url-parameters.md
+- name: bLogic screen element reference
+  href: blogic-screen-elements/index.md
+  items:
+  - name: Address book
+    href: blogic-screen-elements/address-book.md
+  - name: Anchor line
+    href: blogic-screen-elements/anchor-line.md
+  - name: Attachment
+    href: blogic-screen-elements/attachment.md
+  - name: Br
+    href: blogic-screen-elements/br.md
+  - name: Button
+    href: blogic-screen-elements/button.md
+  - name: Button row
+    href: blogic-screen-elements/button-row.md
+  - name: Category membership
+    href: blogic-screen-elements/category-membership.md
+  - name: Chart
+    href: blogic-screen-elements/chart.md
+  - name: Checkbox
+    href: blogic-screen-elements/checkbox.md
+  - name: Ck editor
+    href: blogic-screen-elements/ck-editor.md
+  - name: Contact and recipient
+    href: blogic-screen-elements/contact-and-recipient.md
+  - name: Data table
+    href: blogic-screen-elements/data-table.md
+  - name: Dependency graph
+    href: blogic-screen-elements/dependency-graph.md
+  - name: Edit entity menu
+    href: blogic-screen-elements/edit-entity-menu.md
+  - name: Ejscript element
+    href: blogic-screen-elements/ejscript-element.md
+  - name: Element table
+    href: blogic-screen-elements/element-table.md
+  - name: Element table 2
+    href: blogic-screen-elements/element-table-2.md
+  - name: Fck editor
+    href: blogic-screen-elements/fck-editor.md
+  - name: Fieldset
+    href: blogic-screen-elements/fieldset.md
+  - name: Form page
+    href: blogic-screen-elements/form-page.md
+  - name: Group end
+    href: blogic-screen-elements/group-end.md
+  - name: Header
+    href: blogic-screen-elements/header.md
+  - name: Hr
+    href: blogic-screen-elements/hr.md
+  - name: Html grid
+    href: blogic-screen-elements/html-grid.md
+  - name: Info fields 2
+    href: blogic-screen-elements/info-fields-2.md
+  - name: Invoice
+    href: blogic-screen-elements/invoice.md
+  - name: Language menu
+    href: blogic-screen-elements/language-menu.md
+  - name: List box
+    href: blogic-screen-elements/list-box.md
+  - name: Mdo list
+    href: blogic-screen-elements/mdo-list.md
+  - name: Message grid
+    href: blogic-screen-elements/message-grid.md
+  - name: Messages
+    href: blogic-screen-elements/messages.md
+  - name: Pane
+    href: blogic-screen-elements/pane.md
+  - name: Panel
+    href: blogic-screen-elements/panel.md
+  - name: Panes
+    href: blogic-screen-elements/panes.md
+  - name: Parser code
+    href: blogic-screen-elements/parser-code.md
+  - name: Planner
+    href: blogic-screen-elements/planner.md
+  - name: Radio buttons
+    href: blogic-screen-elements/radio-buttons.md
+  - name: Recipients
+    href: blogic-screen-elements/recipients.md
+  - name: Related drop downs
+    href: blogic-screen-elements/related-drop-downs.md
+  - name: Select agent
+    href: blogic-screen-elements/select-agent.md
+  - name: Select appointment
+    href: blogic-screen-elements/select-appointment.md
+  - name: Select category
+    href: blogic-screen-elements/select-category.md
+  - name: Select company
+    href: blogic-screen-elements/select-company.md
+  - name: Select contact business
+    href: blogic-screen-elements/select-contact-business.md
+  - name: Select contact category
+    href: blogic-screen-elements/select-contact-category.md
+  - name: Select crm selection
+    href: blogic-screen-elements/select-crm-selection.md
+  - name: Select customer
+    href: blogic-screen-elements/select-customer.md
+  - name: Select customers
+    href: blogic-screen-elements/select-customers.md
+  - name: Select date
+    href: blogic-screen-elements/select-date.md
+  - name: Select datetime
+    href: blogic-screen-elements/select-datetime.md
+  - name: Select extra field
+    href: blogic-screen-elements/select-extra-field.md
+  - name: Select faq
+    href: blogic-screen-elements/select-faq.md
+  - name: Select insert text
+    href: blogic-screen-elements/select-insert-text.md
+  - name: Select message
+    href: blogic-screen-elements/select-message.md
+  - name: Select priority
+    href: blogic-screen-elements/select-priority.md
+  - name: Select project
+    href: blogic-screen-elements/select-project.md
+  - name: Select relation
+    href: blogic-screen-elements/select-relation.md
+  - name: Select relations
+    href: blogic-screen-elements/select-relations.md
+  - name: Select reply template
+    href: blogic-screen-elements/select-reply-template.md
+  - name: Select request status
+    href: blogic-screen-elements/select-request-status.md
+  - name: Select sale
+    href: blogic-screen-elements/select-sale.md
+  - name: Select slevel
+    href: blogic-screen-elements/select-slevel.md
+  - name: Select table
+    href: blogic-screen-elements/select-table.md
+  - name: Select ticket status
+    href: blogic-screen-elements/select-ticket-status.md
+  - name: Select time
+    href: blogic-screen-elements/select-time.md
+  - name: Select timespan
+    href: blogic-screen-elements/select-timespan.md
+  - name: Select user
+    href: blogic-screen-elements/select-user.md
+  - name: Show recipients
+    href: blogic-screen-elements/show-recipients.md
+  - name: Static grid
+    href: blogic-screen-elements/static-grid.md
+  - name: Text
+    href: blogic-screen-elements/text.md
+  - name: Textarea
+    href: blogic-screen-elements/textarea.md
+  - name: Ticket status
+    href: blogic-screen-elements/ticket-status.md
+  - name: Tree explorer
+    href: blogic-screen-elements/tree-explorer.md
+- name: Tutorials
+  items:
+  - name: Custom database and UI
+    href: tutorials/custom-db-and-ui.md
