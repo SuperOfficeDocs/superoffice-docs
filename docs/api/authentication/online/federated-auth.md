@@ -65,7 +65,7 @@ When Google is sure it knows who the user is, and the user has allowed the appli
 
 Note that Google checks the Google database for app registrations to find the correct URL to send this information back to. This makes it hard for a 3rd party to intercept the authentication results.
 
-![x][img7]
+![x][img4]
 
 The SuperOffice sign-in page receives the user’s email and security token from Google and can call Google to verify that these are valid. The SuperOffice sign-in page now knows what Google knows, and can, therefore, let you into the SuperOffice application.
 
@@ -80,4 +80,3 @@ The SuperOffice sign-in page receives the user’s email and security token from
 [img4]: media/diagram-user-superid-database-googledata-annotation.png
 [img5]: media/googlelogin-screen.png
 [img6]: media/googleapprove.png
-[img7]: media/diagram-user-superid-database-googledata-annotation-2.png
