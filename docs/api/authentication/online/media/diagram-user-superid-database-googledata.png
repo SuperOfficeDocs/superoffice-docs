@@ -1,0 +1,2771 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<head id="ctl00_head1"><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Bootstrap -->
+    <link id="ctl00_cssSupernet" type="text/css" href="/Templates/RelatePlus/css/supernet.css?v=8.9.7612.1309" rel="stylesheet" />
+    <title>
+	SuperOffice Community | Home
+</title>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="rating" content="General" /><meta name="revisit-after" content="4 weeks" /><meta name="generator" content="EPiServer" /><meta name="creation_date" content="Wed, 16 Jun 2010 08:51:00 GMT" /><meta name="last-modified" content="Thu, 14 Nov 2019 23:30:44 GMT" /><meta name="revised" content="Thu, 14 Nov 2019 23:30:44 GMT" /><meta http-equiv="Content-Language" content="en" /><meta name="Published" content="11/3/2020 1:09:42 PM" /><meta property="og:url" content="https://community.superoffice.com/?ReturnUrl=%2fcontentassets%2f8f6ed4acd47042359fcd5352126d1af5%2fdiagram_user_superid_database_googledata.png" /><meta property="og:type" content="website" /><meta property="og:title" content="SuperOffice Community" /><meta property="og:description" content="We are happy to greet you on our community site. You can search, get started, find inspiration and help in your quest to get more out of your SuperOffice solution." /><meta property="og:image" content="https://community.superoffice.com/globalassets/superofficelogo_linksharingdefault.png" /><meta name="twitter:card" content="summary" /><meta name="ROBOTS" content="NOINDEX, NOFOLLOW" /><meta name="google-site-verification" content="YkUBYHkVmJvQ0vjq07EANOzR5QxcYkxSWDK6BQ8p9S4" />
+
+<!-- Google Tag Manager US#75782 -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-PF4GSGC');</script>
+    <!-- End Google Tag Manager -->
+
+<link rel="profile" href="http://microformats.org/profile/hcard" />
+<link rel="stylesheet" href="/Templates/RelatePlus/css/jquery-ui-1.11.4.custom.min.css" media="all" />
+<link rel="stylesheet" href="/Templates/RelatePlus/css/kendoUI/kendo.common.min.css" media="all" />
+<link rel="stylesheet" href="/Templates/RelatePlus/css/kendoUI/kendo.default.min.css" media="all" />
+
+<!--[if IE 7]><link rel="stylesheet" href="/Templates/RelatePlus/css/ie7.css" /><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="/Templates/RelatePlus/css/ie8.css" /><![endif]-->
+<!--[if IE 9]><link rel="stylesheet" href="/Templates/RelatePlus/css/ie9.css" /><![endif]-->
+
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/site.js'></script>
+<script type="text/javascript" src="/scripts/jquery-3.5.1.min.js"></script>
+
+
+
+
+
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/jquery-ui-1.11.4.custom.min.js'></script>
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/cufon-yui.js'></script>
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/jquery.hoverIntent.minified.js'></script>
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/knockout-2.1.0.js'></script>
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/jquery.colorbox.1.5.10.min.js'></script>
+<script type="text/javascript" src="/Templates/RelatePlus/JavaScripts/code.js"></script>
+<script type="text/javascript" src="/Templates/RelatePlus/JavaScripts/popper.min.js"></script>
+<script type="text/javascript" src="/Templates/RelatePlus/JavaScripts/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="/Templates/RelatePlus/JavaScripts/kendoUI/kendo.all.min.js"></script>
+
+<script>
+    (function (d) {
+        var config = {
+                kitId: 'cxv5fft',
+                scriptTimeout: 3000
+            },
+            h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = '//use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+</script>
+
+<script type='text/javascript' src='/JavaScripts/init.js?v=8.9.7612.1309'></script>
+
+<script type="text/javascript" src="/scripts/jquery.signalR-2.4.1.min.js"></script>
+<script type="text/javascript" src='/signalr/hubs'></script>
+
+
+
+<script type="text/javascript">
+    
+
+    
+    //var appInsights = window.appInsights || function (config) {
+    //    function i(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, u = document, e = window, o = "script", s = "AuthenticatedUserContext", h = "start", c = "stop", l = "Track", a = l + "Event", v = l + "Page", y = u.createElement(o), r, f; y.src = config.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js"; u.getElementsByTagName(o)[0].parentNode.appendChild(y); try { t.cookie = u.cookie } catch (p) { } for (t.queue = [], t.version = "1.0", r = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; r.length;) i("track" + r.pop()); return i("set" + s), i("clear" + s), i(h + a), i(c + a), i(h + v), i(c + v), i("flush"), config.disableExceptionTracking || (r = "onerror", i("_" + r), f = e[r], e[r] = function (config, i, u, e, o) { var s = f && f(config, i, u, e, o); return s !== !0 && t["_" + r](config, i, u, e, o), s }), t
+    //}({
+    //    instrumentationKey: "777c92d1-8026-4d6c-a1c0-09579040d48e"
+    //});
+
+    //window.appInsights = appInsights;
+    //appInsights.trackPageView();
+
+
+    
+    setTimeout(function() {
+        var a = document.createElement("script");
+        var b = document.getElementsByTagName("script")[0];
+        a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0045/8971.js?" + Math.floor(new Date().getTime() / 3600000);
+        a.async = true;
+        a.type = "text/javascript";
+        b.parentNode.insertBefore(a, b);
+    }, 1);
+    
+
+    Cufon.replace('ul.oe_menu div a', { hover: true });
+    Cufon.replace('h1,h2,.oe_heading');
+
+    var kendoCulture = 'en';
+
+    // Used this CDN to dynamically load the relevant culture without having to include all in the repository. 
+    $.getScript("https://kendo.cdn.telerik.com/" + kendo.version + "/js/cultures/kendo.culture." + kendoCulture + ".min.js", function () {
+        kendo.culture(kendoCulture);
+    });
+
+    $(document).ready(function () {
+        //Append the language specified link to the <head>
+        
+        $('head').append('<link rel="alternate" href="https://community.superoffice.com/?ReturnUrl=%2fcontentassets%2f8f6ed4acd47042359fcd5352126d1af5%2fdiagram_user_superid_database_googledata.png" hreflang="en" />');
+        
+        $('head').append('<link rel="alternate" href="https://community.superoffice.com/?ReturnUrl=%2fcontentassets%2f8f6ed4acd47042359fcd5352126d1af5%2fdiagram_user_superid_database_googledata.png" hreflang="en-gb" />');
+        
+        $('head').append('<link rel="alternate" href="https://community.superoffice.com/?ReturnUrl=%2fcontentassets%2f8f6ed4acd47042359fcd5352126d1af5%2fdiagram_user_superid_database_googledata.png" hreflang="en-us" />');
+        
+        
+        $('.image_zoom').each(function () {
+            var src = $(this).attr('src');
+            var title = 'Click to Zoom';
+            var a = $('<a></a>').addClass('pop').attr('title', title);
+            a.hover(function () {
+                $(this).css('cursor', 'url(/Templates/RelatePlus/images/ui/zoom-in.cur), pointer');
+            });
+            $(this).wrap(a);
+        });
+
+        // #imagemodal is defined in the Responsive.Master page. 
+        $(function () {
+            $('.pop').on('click', function () {
+                $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+                $('#imagemodal').modal('show');
+            });
+        });
+        
+         $(".imagepreview") 
+              .attr("src", $("#img-tag-id").attr("src"))
+                .on('load',function () {
+                    var width = this.width;
+                    var height = this.height
+
+                     $('.modal-content').resizable({
+                         minWidth: 300,
+                         minHeight: 300,
+                         maxWidth: 2000
+                     });
+                }); 
+           
+        $('#imagemodal .modal-dialog').draggable();
+
+        // Render Kendo UI Accordions if available
+        $(".kendoUiAccordian").kendoPanelBar({
+        }); 
+        
+    });
+
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
+    window.getShortMonthName = function (month) {
+        switch (month) {
+        case 1:
+            return capitalizeFirstLetter("Jan");
+        case 2:
+            return capitalizeFirstLetter("Feb");
+        case 3:
+            return capitalizeFirstLetter("Mar");
+        case 4:
+            return capitalizeFirstLetter("Apr");
+        case 5:
+            return capitalizeFirstLetter("May");
+        case 6:
+            return capitalizeFirstLetter("Jun");
+        case 7:
+            return capitalizeFirstLetter("Jul");
+        case 8:
+            return capitalizeFirstLetter("Aug");
+        case 9:
+            return capitalizeFirstLetter("Sep");
+        case 10:
+            return capitalizeFirstLetter("Oct");
+        case 11:
+            return capitalizeFirstLetter("Nov");
+        case 12:
+            return capitalizeFirstLetter("Dec");
+        default:
+            return "";
+        }
+    }
+
+    window.getLongMonthName = function (month) {
+        switch (month) {
+        case 1:
+            return capitalizeFirstLetter("January");
+        case 2:
+            return capitalizeFirstLetter("February");
+        case 3:
+            return capitalizeFirstLetter("March");
+        case 4:
+            return capitalizeFirstLetter("April");
+        case 5:
+            return capitalizeFirstLetter("May");
+        case 6:
+            return capitalizeFirstLetter("June");
+        case 7:
+            return capitalizeFirstLetter("July");
+        case 8:
+            return capitalizeFirstLetter("August");
+        case 9:
+            return capitalizeFirstLetter("September");
+        case 10:
+            return capitalizeFirstLetter("October");
+        case 11:
+            return capitalizeFirstLetter("November");
+        case 12:
+            return capitalizeFirstLetter("December");
+        default:
+            return "";
+        }
+    }
+</script><link rel="stylesheet" type="text/css" href="/Scripts/tinymce/plugins/codesample/css/prism.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) US#75782 -->
+    <noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-PF4GSGC' height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="/Scripts/tinymce/plugins/codesample/prism.js"></script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-25216140-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+
+
+    <form name="aspnetForm" method="post" action="/?ReturnUrl=%2fcontentassets%2f8f6ed4acd47042359fcd5352126d1af5%2fdiagram_user_superid_database_googledata.png" id="aspnetForm">
+<input type="hidden" name="ctl00_RelateScriptManager_HiddenField" id="ctl00_RelateScriptManager_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="ZdiD7FNVuLyhYqUTRb6KUgqLuj8owLFF4aLX6PmAJwoawL+k20HmTK2ya7Z/TZKxJrntfiG1HuHAX/ltp6Sh26894e9nh1/KSLIgmS5bOnPmnKQeEF8BAScU10LuKCWTt0JVBP2gopoUY6wjJKbFKBOMNFigXKamTgaZoPgvrYSrBTbAhgIC6/4HuIKauZhOfys/za2a1Xe1BSrHgp0C26eiM5vxiRNkMoFAu7Nm5rIrBSrIvSDCA/nCQzSkavQMogQmwbCvQDLaIOMYnJCpbSxlU1QLmt/BK59KlnuqZGVSBA8nzt592S/9VYbQO1xWRvg3S1qS0lqwTzyuXLSuETsbhCdMMSnydvMjL+rBF5H68TEFzfmVz91SC2ar7jyYPUCZgMOj27wXx+vz00wkK92YUtS98o/Akg+azsFwZ5i5lJqaZ+sKd4jI/1wncrsSe/tCkhWzU3DjU/v1vJVRmdoxQyyfk0ioHXS6Lq4f+1vxzWa3X1lf3bbfBxGWuuAow4LeWCyiTwdhxKpvk8YGbwBjuOGdIDKgvakDJXZoQj77N0t+2VARvEIiiwj18sDDlp6fmLS+JFsUuU37v6+22YjL47xwmxQRkiFNEEVjFWkBGuj6n0iAJDId0yzxVVpvN0EBviuO52sxwPHV5rz4VVH6K7hqjsA4OazdlgpKUjAdqqNbZEdYtNwHXi5ijnjFg1Xoi57dEaCTwtesuE6fILSlU6sVMkGuEOVJ7wc2A3VLaf/k4PNpbabzRQF0iuHfo3UqR9q+uII6J1GykaN+oAl01yk4GwW3wQwM9qWBIfgl2zxAIbTpcTe99Vb8Q6425fXeLjFs8/J65/b6m9JV1RItxECcHABsINsSKl++fZFl9CAmL/xB6mygieNcz8m8e5Tt1uBc2ESaJPHPBUIMRjEyDxnH9RqDKjRAl8AKxRtTCWuYiTwdzZ+m5i9wJwgzQJeXof0Bv3WJsLhyf5amnFGMPlZYt6Sv8V3NsVHiO1SOa4wUS/fHgb9LO/OYUSaIfYTnWz3RxR4QXR1iIaY0vaHJa5HKZ0/zqQr/RJbpwSfp9cCvS0VEoOKAfTw+qR6S3xfzURrGypT7WFF0UVuWAUNmNYT9AucwrjTedYajTfDhtD2VXuap9UBNFYdx5GyqeGZZuDvhyLl8drfCf9RHCl9uKut/V4iDfdYBlaQwdLHrTmnSZtNE23r9rLn5rB6UXIg/0plPNY93feZISkDGmO2mtHiQiV9XTj5h75dSj5clu6XuLSiQ/0e0Q0zVk6zC0JPUQcOLPoB/5esBxyLSULAy+nVE8vouEsltfQ42DroX9nHz0WkFuKCbFGsIfrQFh4g/U3oTF+l39tlfAPtPvaIDKCAnKhnpxeUrMHCh/rR+4Dm3m6clDzr802/Q61SQKQPDiTk7XaqPLrhiUaYGa25PwlYOEk4796l1p8k7Cwem1VXnfr1HJQs6RLR1OfURp9keOnnvMgcJsAXKG/dEjFWH67oAtwKNyaVjWM2VKQWikQRAJaJPyYZlA5BoBxE82BYZhzxfJyH6QOeDhMPWDUbYeObF34+hoIoc2Ytyt5Gy686rUMjSVitq90uy7AVnYxO6fWM58YJ/q9qLwMwYXUr6FgIEAH+XpFdd0DqJp63u9Mio7BuF6299BwX2bY8re63ODAwvHOWCzfpmkbA683PAsPdmGyt1ss0upMQBVCnkVECONIoneQKtYtrKwBoT9T/+bRbsA5SbKHmUQpe/T66cd8Cdv+TdqVEQDQ7BqN4KT0r9uodrvWQSm6VLYFHMSrSwVX+2xH0xIyXP/4ZArv6m5ESRrlV3Rt+AOWpSiPUuH2R6QJIB56yZJR8kBKWL235pnz/zRdoU9fbpYyGSdBZ3A7Ds8s2E6DsnxHUdQrxGe9DjSEV4aOZ4E3ju0XiBOOK0dIaQm5CRbL4btn3ESYyt1HjD76V4PMzuKsF1XZVspl/dWyw49TolyutB8t0yGZ8kh0rjVPAVK8KCFnWdgiToI1ERyFXSwg26ZMOFfU6OzI7wWXaLkljHR59ZkLhasoWSwqdZilGpi7LDpL/5t5dQmjEJAgn+MMoPpe2ubEq2nuDOJJFREJlCWdPs5HlkYDshkoScTxfHJXw6iiIFkVF7IqNGBIXe52LZYXVdI8CfqRCmoV5A1JPgguzrfWrHu9JyxZ5FVkuI5XQ0soGN4DH/TmQht5PkT+ToBkLajJRHdEoQP11EBfGsfnU5ETT7MW23e4U8+2wQIjTbs2kl5l4gVHewJ4CYqQlzWfdrV1Nk5SOj4FqayJ3pB6Wbp7uAGHijgqUAZrXTTmKzsX+5JoUPIyHaBXyRbPU4vVMyunn8tB5iRgXWQrkXlWESBzCnrWEEkqVSksE8ZgcAaqlP9AxkDeVTZgVXYXE9wCq39fM0AC5+qJ06BRtiTmsa6Bs0dzRprEB7AjGQZPOMb1AUdkB9YmtpYa8fuAUilfRYzfPZu9tP5P8Ip75cQU5VqSpX9lr5Vu1fRk8E+R58x5WBsaIMMVkfosrWzPWBsAKSKkqEf9mc58xOrAFMp8Wf7lBhGNpVH1J959YQ+FKJp/295V61BppdHnt5L0jDhp02AsC/RO3xe0Xp7i1aD0lNiTxS3EsOPfl+rDUUpW3qOT9c2IKyPOH10npgeISBMutSF0bgM+hKkR4c37RNirizSRb9kxzoHv1m1H21Czm2xjort/nw2lQs51at4X+/yTlHoYZZyb/pxP4/Jd4WGNf2hdR9NiExH4x99bv5ktvWxAtRZO6Uf1pFBuptMz1YUcUFdflPCZ3qz3JMgNjd+NPE0FTzWUZGkbQXgOQG5ADeJZ4kY27LNYGiV+5xwWdRfSa00eZDp3d7GBxDWOOK1NVEbnAZ72DD9YIPRUI5Zob7VQyGsA9rwwq5rDElMXO6uvhjJWoj3/ah172peXmCjWu8blS1gbGdYSEbk6ukf4VkfmADwocBa/kTlu8bbpPSjnNcxO6LRYwAg09G4561Nt6YfQ6QRyO8uvbod5a67qSgwFqwO4+SSLsL3SlZnCq82CtBIzGI8DjsSzPSN4SwLUDTNJX8cPhg6zo+l1XIVq+DMIvnEgSEC8VNdoCEP15YDjCeErie9un0VdiBBK4A18DuKOfZjQGl98VfvSWL7r/ToTwIAKDoTwE6J6SLeznyWOvrij0DtNkBHstK6gZip8xygMMe2ni12xLC2DKSUHS8lB/yc+yoDpo2E7CjY5tlYjiK1/Gv/wfjaE/I80wnjMvxVX96A3H6lafQ4Oy2XnyGDoYtPWsRB3EQgemnBXY1bXrKVwzfsoWnUzv4cbXfLshnbeN2g77/eC0s/AR7IC9/IZlWDQ7D8T7fOy1XuSf8rqy+9h66KTtuICgwJ3gMjQZFotj8+rfhfMae6fwt4ohiE0D8u1k79jc3Yr52k/6ExSBkuABysEhwKT2EOeggtn3UJJmy1KwKRYnZgHw8lAG9qkR8M3CWhQcbIw/Q/qWd+qC6FXwEKkthnnv8AoDHSvTA1zhppuftUOvfk/1uwszE4FrS8j+vBC5XPTTvYZNJkBzRD/mkmT/JvyQ0W+TH4EQBkBWPOB8at58iJaRUTODeDYl0O09LyKpTEs4ZQR1lxBSYeNj8qbM9672naqANDV9x9mnJk0Rw/7OBB8JgjQ9tqdA13TML8NGtU8EjaQuxC8DIOcnXY0H64HtiqATDOM3zHhLI+DDNFirEBbwittuuhd6L68QyC5UhR/imLk4zgQZ4dc2DK34WSOOe26YtgIbDNZ4MLJswu4PVaNMZC+nidOBdvXoTm5hpYeY0NVQsbwj4jelUlHSEtRVDitMji9JUfMlIq4dF0553GdQT6n1MHQ6PVgNy3ALWw4fHJCGrhEMrVKKfFQbbRaFdDCNh30abA+X/Qoe82q9qCUmpAio+3+PZ632PR5KzdhiMx6JSJYAFr4UDC4p262W524XLCvNfjUfJtqfFc+xFI9SJKoacY3L5Nx4T9Y5wNz4qcsqP9QEX46FYOs9L6khuaU8q5+2LJhsoQyQtzml8VsxYOVVgiGY/nrKD8Qf+fF1OD4yslnKO9THOAB2X/vUvMjbcRwqsnuH5B/4ssuVt9yqR6JxBZK8E+7h05mQj0fGJybBlJGcvcwd2rBil9V86FoercmOFSHVKmGxpBzhgzEKdL1CT4f4oEEG/wUCb0g70ZqbOX9tQAXM0ukwmvuzf6BTk0SobaRHi4BUrBytZn5Soi2SCqDRjbnot1EeaHVlhsE3r2j6Eai17SxuGcRyN27Ts7iGss0YOo+R0BYRyQKJ32VVs8Og0h+PPqnAXDbm7gWOsV1IOMstiVcadrppNJhHqdCqbT+69h5RUhA+isXMVHY9Wjyr2mhkM5xYt8/xeZaQYqNOXm65P2R+QyaLT1KHe+pHqGBvp42JVULDtvXfKe1ZdmR/nppIcRrsZ0uHet9vtjPjB/kKVzxN9Ldc6uaMP63tDQ4fBlhWT0HUQoPJmG6jE0wuMh8ZiRRAzMA2BkqJRneE5fii6d4csGSrWDkr/zI8pGJkomVHfvkST0S+Mg8jNER+YO0QfrC6D6tsda39GnH8vghVvSWTi3EcJFel4VRhlEE9wfuu2x40FOqzEyQbivPC10ZlGIMoHxbHKQ7gXTN7aXY3OE8Klg86pXQ25p8FTxsMAB7wZ1+kXf+UlHZsE0GqnNUJsw6LCgJX+c3CzhWV2kjc8846Ek5AB5jKvPWWvoQcDwatSQi6+v/zHQgfRUDB/jMCWY0zvXfHHYkq6SZyx/BlkexOOrk0cK8M0TDlcRpkugjA4AzovtYeSsj9av2t5HUNaXRZoANSAcwKbRnFf7Ym6hClVTJ4u7Wm833MMnx7ekLJUp0UszZPerdXHXRQak2mtJvQGeCiRIQp2eN+UIoMYqgNBEb5tlooT9h6kle0rRmJBYu+x0o+QDnzk5Bt9wub6xrqycZA+4GakzI1AOXrPlg39/5kYXvsFf4Fgd9P9CyCwOg4OzMkoPXpZnPfZeHpe4hjsDpHFSRagiQwfY1Onru+LmZH486uF9iMSJWTM4701xjvXgyt4gfLBMXeMH30k/Ot/w7nAX1/3Z4jLWZyyaARd6v5xSppHqm7baXhAVVk4iW2aADm0Tmh4GeIDAzd2V84rK8d/0m0eBsqIPGD6flq3yfJJItN+KmqiyQiV8JuP0nIWyciw1jtbWR+58NjOOfPlr0ZrkPVUn3nNgVhy1OQQUNHOMHA8ptdOcw8DfkfJwqWNPtDXdJ1or+kiMQo2daVEU4nVDirbS4bkHrD7gu9dc698Cpr9M/gec+jsYXkCNu1oyjSCJVMKPHAeO7z/3ovDpdtblmxU4iw9BufTlD+YbLPMFsXICLEEz8XrtjJFWsdj4ln+4SpzyP2knXR6QhCER/wZu8+lWV6H7Oh7gALqjSLdeckiU76+kEJrz6UE1rrtjBg9uwMrelck8PqVWCSgMKxI7VFNEaE92mjar3pXgvPq3mxYg41g5N2rfTrUIEuka3aqGHJvZggCNeXnrVpnXjhWd6wGwjLZ4P3IQ/990s1Q4W0gdnVgXgtaGc/1btahpcj0BMeW52NhASlkN60cjmktPhmlF6FImG1wPITpuuxDFT85CKstE/fII8sY3kugFxHbWDbJeWUPaowUmLgHgZRzDX9sBVOWnHh92CdnvFEmTURsqw4e3SP+0/nPihTsHrNydGHLK7wavqRZtuglqWVfVcz6H1S314UGygIuhBSS8Fye24rp8bxKPb7OIiuxRQLeBWyMeW0aqtTvqZUVHxfTsSTbsaHBVgQ+zs4BLoKJmL3NQtuQ4maOv+eAxcqtqqLsLozs+JZLluCDyIlkuVUlHkHHz8l/piDDWfjNpV7Ws8+RR8OBsI0zlM8CJG68PJLFE18yHvg60jYouatjpAo14PTzQlyvn81W+PFlvCRwHDaFYSjLeI6cSyrMwLtiTXR9vzeXSI6I+OIPm3TpoI1MK934WfED77DicE+o1ZEo2fNL0rK4veMsKzLklXcXIzmkTrw0WAn8oSx6s8szf8+ipHG2kmZ9yjwH8Fje2KCrQoWz+VkrtcNb4iQK4bexHao5NUxnqLPjQQX9OXzeSpVj1IMWYLnURHNxmRcPq03eJ6ZTLLbyuIyQr1Le4rUkQVG9FL5f7iAaduYR6CMlQJckQ/vCojY2AqRiO1O5DN+DIllAghFagD0SFTJOsudQQlXCD82Qvi13iNQ9Ba7yH4bB/7BsIoOHMpNJm7cVq646h2E+R985K3v8Wl4QLPvxGKNy0j6YzwLzut8HtNA6HhMNS1GhZGTe3TpgGALTbm7kFyXF4ZyjBzxwIFoi/EoV324lJSiLbSBC0m0unLGukFK38DntfSLROZojvebHUCReRJlShMduCy56RU4e0MyjhGnT90nWEuoteBgx6x5lTpi/MDDVsg6myIX0/gRi4P+wcZQIHc32AusGg+BDRd5dKL32zCD7idsNpGjsIJ5tVxk4Sfhv6Y9zd56ZqlQbWnJ38qkPgxGyVJmZVZywJkuTwsl/YyUGQ3aV8IZtIv7iwVXhu+k5y2A2gzmwHqo/78vPCsEWhuIShLg4hFiLSl93DJmeWfg7NmSWg1+VNzJl0IBZNHThkk8COzkEJORoKndPNBsfwLuxqlVgccaxYdkLwVSEcC4OuOEbImfMR6/Qn3SrfB17R2SnN//0IPZS7+rAIv2FK+/hswKPcNK9ajZ1Y/Gc6AHoPDkbwErZL6h2v9sxOlWHCviF5jPRDnShsTo2xwlF90Qsb5XOXDb6BgADKbEm3j4ZK7Lt5+Sby/VKdASqCVHaYDn/QQUDIqXfb4W+fnzpeR/XRhqhI/hyFQra9jgab8lb04nExFKg8SDcbIaSntUpHm2aAchTyPYNbemL81NzSE/0ESAbnU9K07217sqIgFK4db7xsTT2HFid0MvjL4oFydRqyWcvwE5t2M2qK9NYBoHeglqjKMWvNeZE0rhEjdCsK3OCwzHSY/1wlws8qK1QI0snJnjyQsdKs67qOiTAHgHoQOHzoU0vwBQoj6zdHlpt3WdkV+o94vLLqU6D5+S5J7t69TlGY1EhcTxiH2zKW2yzTmLbEji6jsCXBSnuexUW19gLghS+d4ZhTGd8xIzSmXm462EBFPLKT6nrpgRjbKR+Zm+cm/ZqBWSw+w4EU+Suujqg6qq/fOouS9QErUqnwv9NXb5OtyA4BWHVfe598Qws3wGHkdVjI/WvMUKl2muiai4dGW5kpNp2P5L5Y6Lri02MtR6dnERNaOaw7anMq7y+LSeDVF5zABoo2c2fJpJSzDEO0n/ehXjVOmpRDw4Rf9AECPajVG3SOj5ErYRDQ0ZewRN/PEygq+Z8C5qEY28BMjl5i2dezcaD/kP3bo1Vg+ocwjIpVHbaS0xAnpLNDchW0PKDbMU/FNqG/ZrBlYJaCryqLZtKKij+lU09NrwuyjkpdwVNu96eyEoLm8flXrU9Dj4jrYtQ7zuoHfiUDYFH80gxhE12Nchoev4lD84cjp8CtpWppeJO12JMw+jKEp3tpzBDoovofMWCY1/5lKFPrLQD8hpPpl2MLqFcATSY6YmTqayBki1zv0qcSF3ppW2APDkJfbOUAv6HIbLQuQ2pNuo86/cRn9SbA/kgA+fn4qjPRQWbrmk7GXOepNBNYpcuHJKJb7O5oGS1Tty24DTOVy/uXCUD91UHbZBQMcDblXwan5jampMlQZya+XDiafldy8xquGJf4DPJUxDG2y0cTCcQgcI57Z9gRoo5yltGyAhYkANwpKjxUOGm0s5EFSc68D6I0uCxMQbYOhwbvRYOOUA6S2baF5kVWW9VK2qbp3lqv/stej9SUuQkP/p7zRjmO9WptHgpN/7p3y4O1XDgudrdM4egCUutIW47TiIzCrgCeBn7OzbGQU49D5oS512Yl/eS4eOioLVVkMP2LAadbTfXcgkRvarX6rfJfrReyCFAfZbHThWjEPc46W7I9aH9moAhMCtO9Ak9O9p06P9X7JQj/SXa5hNKUM+6Ei9SCu3X/2TPXDAk72v0Mgwjsayfu6hQM8St2BECSCZUps4o1l5umtnbiL2US2imqIbFEW49IMcAMofjY8FaU6YzywDZ2KJx7a1kTGmOnKx1cGznPTpxhS2svuD7MAPVX+hLYCTLcNfaOPIuhCTjHfrI2mBpsinubgawz0LamqmjjvXFXs3d+/vS5jWLXYLnAElVSy+CRuaBUINeQOznQPgA+Txwr8Ax8AHhn8AQ0rO3yjxKnCOGbFLFzJ1/Ax8IEys3Aebpmhf5E6NA0MxZaUAjz2uSL/9l/xXop/iABYlHVwq/5Yp0PEE6RLssRllb3Jnuc1gbm/RYIh1zmsIzXMLEsdKJ86QoDFQxEBDfmyl25lBs0v9CwWYtqXwQcCodOQ7x/fgfQxDcFCzQzPaFwH46iamCGMx9ymeN3IozoExnFKj7xuFvDiSiBsm/tIT1UwmVZWFW2xdMnz3wnIisqqtRUNl3jgC/eFfehIPkSVvWkgMQBYCwB9I5kCjyJUktnZbV2vP/6oGYpJzHwmhuF2+3V1s0t80rOm44rEWjrvGQgBiFChb15NI7eHYsPerxArxjFzyJj9plcia9Q3qKrYbWPMvpct+CqyOxcrrxtbB/yr1MtwjTnDWKzM5PzPMBuVfr0dC0GFKy4Xe1hdYzYX8+mLiC1hk4BaikIsdpfPwJQBApBPfi4uSN7Qsit/UbVcaUTX4ULeUVbzqdv/we9Tmhrs5O5Il7YeD7VCYwkKsnX/FdZzkgtp6oYinekjTGg9MvvUM7npqjWCkmymlScMo0SMO2GgyVPWwSKoGct9XePrLvgjUgUr9piHox3x20NxVhkt6U5UzTB8sKoIkyI9kk7Vzo3spfW49a7Z4GxAXAGosn9iVrACSqU9loEv8hjEqcsOZnr171CmB0l/Sywn5CDYXmp+XREUAAPVf6F2PLjUHk0qGg1oeW45LFm1ECQJCbR0VdNX33DQlOiHN7tKj26YKZMkHtiPdzt6qg29ZYpXeCImrcZIkQwFtzBdcMnoFauTw881xZXy5n1tYqF7MgZM/vKnGlPHCYRIIZFWlfFcwrTpXicVCJagEQx4in7UBPvK5xIWVhEYZULUCq2xAIqN5fW07oZ0+yXQKAW3iiFWUpH5X0DxSNV2DmI1rJI85vIq9l3Ykw51RNIUnLeFa+gvH23CjqXnlbHd8DJX7+8M4IibPmg4zyI8M8iLq5Gq2nLY1LAONdWJINhY5/M2TBdbX81+2K2GQqkCahVjjxoeW6oItuA2wjvFs5BLdaILpGXrwMdsmbrmyKr0vIHk9VZy7Fo+hNHpY9BVQH7p5bdlcZc520A3iT4irHCFUpYCg8ZfgC6RMc5jcEB1IKMdECdzEU4/tju9gOBeF3ciOwEv5PQ+ZY97vUdMWo0zjtK5p/P91kYHHV3JuQnRIpB3pSKg/UMKLDAeHYlQoUZmKawyaRj6AUfjeS+8nlwDDWJNP+7ARzxxt3BKdQN0kFXzatWQTfVuiIO4m5bKawZBvMW0icyGnSsVo3TJjzqQex6iF9wRjAo/zxOlHglQ3QXlmHXux10nhbxkF9A0puLDrT46sfxdi+B8ET+Rdv2L7K3ptFG9vBrwIUt56lZkul69ViDOPouc5chnumwTJuRoXPj8aRBrx3+nczI+0Vzm3NRz4pIxOEAC48PvsiwOVqrQcTEIdO2n/svvCCrLMl8DJrhuaytTtUCWgmBltZ7RG6n0CTT1vyjR2+AL4Mk17hLtRgBJcK3vVdfe0FkFIr7V4ubNvWdMuf3/pghfRG/t+kP/KvLBAbul6ZZMdScRG+Fodo5SYKgMuGI535fN7mPkQlPXvVCFjlPB0k3d1nt6XaXEzOzu8oemz6r5t6IbmnfTfQ9xOugoPLTIbqSnWK2HeSus/Z8mcc+JbLhzRWUfUw5y285gpjN7lDwu+qLIyTzllimZDP3L1hQuVKJrq7SelB8ZXABXM2ZR6IHSMrh/QuLD0F3m4TcbyFiL/rCQ3YjKDOqpvDODUwE5cZo4P21pMEjVJlGNm782/K1YRf/4wPAqfyOMNhBEwzDggRPPuZLFoPzckan2eSuNfGbUQw1tRDWvvtLT85yU5O+vm8N4v+KztlDJWxFI1pm75vONSdWYznoG9D/1cOnXamEi5vJCErZpELOAcjgp+ZRuRuLg8YzRAywyD1sf9TH77KhwBl97rn6/Tq/KpD9nmNq0D7uzODffVAVCzq76b0BwlaBwHeUG9yv59oxSioOa4p3wNYdG044G5cpPxNKaOCeH4XMCMAsRNfATrye/lDhbJErVPNl5Zsfhmht4g2NI8qUBIBo51Le0nK7oI73kT4k5cjNfl/jBR88IqK1n4PzSwW71nHT1OS0bWa8QHPPI9gEpBmTVFR/sCJJT253fl0ZgzSm8sKMVrm4naCSSaQ0UQUBWgu63t2Gk5slbfjBdCvCmDnfC8Pw7jf08TdVvbtyg9xbYZmlfp3JNhHzuRLs6QI4Ns3NqKtMdXVYvI8D7MJioe2LgYmyi8gYNgd3bj54LLH4SZJXw4vZkR555FnaCdU8EoV3vSMS09P2MoCDydurf1m++b24zw6BvCP/OwyZVcWXk4pKmrKNpXcNMyQfmBhu050bhL/gbRrK2kNWOndIpQupgNKIa+bez2X8aAslsQEBPHGEHYg9ssOTAph4W/pHgBo6wrTje2wE6t2/JrZgZkCvc80sW4g/Rd8xBQISxz5cUNM9LPcycpyOmNJU2KQqmXMc3/S9beTSdkpX1GK5d+CkCu37jYkrMWDpAppfM8v+GYjKKBmDuCs+mxZkK/817kzMyU3EMfoBJ5TwOYtQB0g4/AH3VMFhYVkbmmburok7YzCQyRke52uqJr5JGFigIyxDHHCsrwOVuChpt+I0GAnWZ9cKEfzLyo5hOmRkBTPPeoN/rCMjbsRRY0mzpGbDuR3QWSMrjOS0RYZ7MPnIiikEtg9pXYuQ2DHJD549KFU5hOIyfd2u7mjxL5lL4jMpzCwhsZcKxB8ssIiLC4ElMOPjhafO/YtAfR1puFmCEBXzXNY8AAFrXHWPsuMyDDKFbf7TcAouQicx1jpV2kgvpmc/eYZ/5sLwU/Kv5Lo9Caj4TgA4acdii+Zn35HSvZw+uYSYMm9vejcHCpuXoF+YpMxZfo+q6h6uevGfv3DUxCss/HIXoHvHlOyZKr+FS7Pkh+YH14db80AdI2MTMOMTyT/g4WpBgzkneaxBvDzypLrzvPOBq6WYgeIGGmKzWgTXWVpkpRKWIWhIzKyAvIw+hKBTsAdRVR8LzGh4AevY2sr4bLD5NNzo8IlNAM/qZDO2BnpnjPFtIHpkKhqDy9L+0kqta+vgZDVyOlUfVLm5w3jj9VeA6kvDgNhojwCwwnrQOb7pYzqQ7M9C83iEBCcX641UALWPmgM9e0iD8QbVJYm72y4jaFgaAMFpthd18hTttAm4c8hr0sc2ascikZ+cHTBKZCMQyZ/pBAN1INZiQlpmWArizt6M2RtgWJmhez9dhHFsubRNpxyvzCFFjCbIFAZ/Mj3gudQKtgMtukhKAeRRYkL7CUZuHWo9v6WmIa0Q0d6iUKkhxV10BOk3yJEDWisw7fRyT7QNx1vzvCr0Pz9TngcRJqF74c9hZIU4rb794sGrSJjDblod57cDYGZasFv8AMzrTTfqnGFc/XJVAckt4BdT0QQMUxKzbMReIEEbU94Mf4VYUUsji+YwW1h0iKNsmIykSpNPzJUzPqxgWruNgbBhLzLPH+pGOO4OukAobhVTEzNkeBd/0D2PHzLR3Jf5awQ/jVfQlLgfqwOxf/mv1CvuDqIPL9TuXXOWUyF+uxz7ycfKJ+9HWskCRV78zMgKZ430sQqw46540x/5ZL8TwY7c82KPk+RLxZPqglWpCiFDrVS3wNmo5Di6ZPqsLUbpm3ANqC4GKS1XMTEeCH3E7U+AI11aNCTKHsa5LV6YnpyuLEs9iyxN0ldzzlZgaT2HwesfZ/5/33677kA2awJoubFMMTjLQpQxKxEfngKGvTDY/PZTgAsoBO6WKtkkLQr/8vhlvOo1ljwMgLUhn59QqO61zP8muDmtcOpQPqOolwNt3yjA9GJpw62pV0od/UL9Be3BQimUIBuVfeIn1M7dIGTzR9yjZXjJ58x57Pj+/lCUa7anyvLh4eXbZ/zIzPAEhREbyJ6zIexEqkgUg9RRcAE2xWGqpqtOC84s9uDmI2u1EpdfbwK5+hhy6ZBvJGGBFAZ3n03PyrL1zFEX6221cKQO4XzMdC3RFX0KPfcB7fzhJfNLsHsiEQdYEhrur9gOcYMAzzaZ5Xz+1vR7O/9fQux86RyJ0xf/kIwS8ArkTP35/OzhESbHyx+Nnb0iZaTjnjH/GmAWDtLu7pDTp0Wkh3dvXAnYuZjvcNzyevyKfx8ybMi8UxdSF12XxRNjfbGHyUWPUPmO81BsPO1nvbOUWDQV4iGprBkVmBF5EBYY1ELLhrikLFB5LYCS6iybXpA1efepp2YkagB8UngjIRiOz431qss00blEK1q5cPgUGpyofQ2XULvEIYCUnle321lwhMC/u3gCOn3B8G1/eKVoxxjy2NxUax75/A1josx1iGXWI6gRcjUxKGPF0AQhrr7LqUBLYgkiIwgM3fqXjPm1d7HLqlQHoUMP7Ppj1QAaYX38+49/HBVYYvnrPM35xr5qRlRZcmOKWQDV/NTkZVaqk+fQiQHYsALNi8bo6jLTv/uyPStZc0NVzie42spUUX8W8Uht1IhSVtFKY2fAw1t8yBns0/beCh0OLsGkQC4dBOG0bhBzwyzy5CCAY+vYUNqkdSS7gLn44RqvJOAYFHTBYKNqg7VylDTCrsL0taqZ4lQaxgcrkTRbIBrRWjxyxfZh+io1OqQXDK+231xTh/wyp6stwWMAwVF0Tn0E/t+1GVycyXpxeEDTaGQWjuH7rTF84bP8FUoaYKc2yFWd1sP3/xJqmsg0CI2efL5pSVsGWZAfi1zw8tkC3/kU9CEwPMBGQg9c/J7D031xET+CvzeRGthSnbOKZFI7raSHGyBXGlREtTwANNes5R97Itu0/DEE5Kmi6nAhnY5w//6RLBTPBLbyC8YucyYXOzfRIq7PPeS+7UuuM0I1tVd72ZwO0D+qdzIHSc+Fl5pgMf/XoDaBX8lZWov2X1jHuIPwXRtChB0g6g1cz5ZCk5caitOeWoHvHgBrDMXHPaXjEnBQ7s+du2VWG805yNoj4ThVKfe7Pl1f/NuZmDZr7BK49jptmSY/lDDe7/IxndWAllW12VnadOBMSXrZEJYeb2LbX88XwIQcQxXuaIf6ohF8+gQ/Qmr4viMbprKM+vZmYaAPNSFBLmOvfu+CdF+YV48AHTDwihFwHAwJryQRhb4H77p0nY+xHEBCuqYpnUaXUCeYqGlXrph044fLEXRapnyXztirsoNl0LNzZ9CnC8ZEuFEd4vZwdwzNBsA7MeNZe4lSJxepgPoAnXaObME2V6xmpnwZ5mxsmXo71nq04kB8c0/zXNcN67/graDOOle8KqyQ7+vSqmx8LA1L2TDQuxi9ALLdvZMJ0yZlCLaeneHP/8gBnIlYkDW+SkHJVfU1g51JE6AaWtQ1LfJTG0dJvaBoiCtTrVeXsyCu+gGtWxiGsm3Azwj/mdHyq1Sh1vYNNLob8wkx33V3q9SBYxxkO7TNJPjyjAc4CqF8qQzL7RKu22FvZqy7sPGPK3HnpWJDq8HQ7zU4SLed2cUV7FfIrSe9bbvhd0ViRun/f0WJY5/qtFushcaKTwLBzeHxezacwm8P8kCOqbNPOXPyyRi0qLePosLF5Vn2sHgiLP3ShHE6+mRn1nvu6XPUoICmrZV6W/8UnBSmfLMg3yfqz1pivtNnfaoUVvxe4LJAcIy2UaQYgM5z5yIFAhuWqOZgiI+6cpBDB8f0unwJ0cOV9hFfjcjve89Mr4AWb5n1SHJNR243u+YZPHx0k99041Cfd660SIlf4zHeZB+TGupbMI9Q5//j1CRVmowleU029jmywDsdQxyOvwIfV1XIsAJXsGIGhfFgF4JrqXqp2Q6iOmN20pxrJnDLBtfIVybmDikm6CkUhkACw8qTEiwKrLWvWwNQm0FDFKRgt6cUyUkTuitEJAmvS3IJy3xlz1pHCp92IF4QjIkNAb0uBxROkvZDjflZGbWe72m1u+w9LrtHpVOhGPtgz/n6Vxbkl/lmAiNyYyrnyRUcmlwp4Ltr+gPwZ6VNTywdxKUi3lqP0NT3YPKMlCfxZjdXyAoaEuJmsXgIuHGvRVUGualJAeTDet0g+bPhr9KC8Ev6VlIt7ACzUBEOkGYqw07vXaBTz7s4UwxOno8jO0Yp4Jf+LKEgERFgzfoDHD0xFsjlv3y52Ya9b+DcCTcB0oMFrZwDwS5ZWAs8nJvTFggC2oh3TFBQOsrGvHEOJbm73c4ceoZ4PFtuIrHFCWcHBYXQ6vVLjsXcvGNfe1VUHCCEdxuF8Y6+tw3I0nmNrjIGOTr4Y51ap1G7rdSSSXB7768ki13ALPzeP3/43+yAu2sbnQuEu80pb9t4rraZih3dB9tBeBmi/wHtaJnde+PbGsM//TbFwXYXP78rqLU+zeHm8kcGb6uulyVrBXqOhlRGxt17WQxPtIlgbcw2+BrntRfaXwsygqrF6FxxE+MX1TvAyNVcKD8zrmdARLqKUcL//xQPxLWXrfbaVgTTDmmntqlKj7QouR0m4TAuwaq7Hdlna5wythyTjRE19a3NS28kZlk4LaQwoDKQgdUy32j3DNU3W+AAnzjMFwGcsVHaxG8QAm6NrCOL462l4INIEYPht+xTLLCFFw1364xujWqk43v75CNGsW3NJN6A0F/j/QQjuOTCBEgFv+3aQ8PnPCv6LcTjuBLXygQFy1ir+RebuClgoxs7yDoGPnbyMASLbtyFwu9RGeWLim5F1djCaiUv5O6bCInGIIuRAzAsBaOirQenWDZx8gn89CzyYTDPWR0SW+NwEktAQkaVaysjifzS0xl5KWEXDX3rLWn8Yo0A1qd1X0mly9OviLvxKRU9ImMM1UKDx7jjnrsiHMzg4QH0Pd3wb8UmHUK3jcwAugZrScCk1T8fJEXQ56fsM59yMdRhVQ84yYut//4lFrPANxQ/YiA8lBC+CkA55o0dXtbL89lgIQZ6//AkzSgEZYXiOB++zq4IVtcZpJjUniijhkra6qdR4aGhzN+/3NOyGvJdKu9992qaV3dLjqS74YC31MpMJvZ5vYIaI6ZbzvdZukubgemDJ3ItNClndxVyiEpnBSyEYWjDm7UZzN0sQH5hatBAnsOC6F2MNg03gSlT8aMg290ZjW+/kYzRxk7wiaJi5lyUDSsGUG2FQ9hE8H51WC16P4tqZiNeFXiR9Npwfa1zxSfbs4KtMGjgTlK6j6GaUE6BSaK6moZ6+Aw3gqd+aXG6vQIRaARzSpBR2ITUiasBS/KvwxJatv1XFcpJlvbhCX42DoK0qC6y5AXMIWgKY67DehhzZNW31bieSI/eME2YUdSBQhetHF5bionnPV8ojOyrG0l8eXZ7W+DDlSqmXxbEXxNPC4sMAJ85VxLGUnrC/k3M1k0UFohEGQyEJ1KWjqdFxuWMMn7DqpW5cQTBKZpM0COYbQyGXloIFSlGnEhnOYeDGXYhbtkV8WmimCZlXXJ2sFdTTJv1NefP3+Q8/2mdLdY9gyZFZX8Hu4kLB2oaZ+KNukrT1gMavDY+tHsxDbyfE0AUg9xDCFPNbb8RAqux2m7v386bduaxDoaJ75dpc9x4ya2BTsDYPVBZvkW8mo5sFvqWeOxXPUjEdFTUtSUvyjE2PFz1u5OpaNLBz/u1c2JahSywO8RsFVUfiQXQA5tZpRHuOXXJTaasJK3rF2rm1Y83YYRU+fUdpEVcH1Q4pGQxNppSYzFQBJQquwpl64oyXDyUMSozhUZAHy+XBBSUDY6u2cx4V8EfmxyIY6mr/1CuteyYACJ/bvqP3gRwARYipo1hvgInNAv8nDbRbLR++s21KjzoGrRNJeNoshEYS59G+QBGbFPfmsxQOHwnxhhGNOg8rivVbMC1z+DU/p2xIo/lPBfQBhnrUa5+cF6BDOD3xVZOpk3a7VuwuCpMTwMfNZBjkC49AUo9o0olTW4gQsPqcQPu3a1rbAXyEUFLLIoT061M/q2yg8Cw/F9ESe3ttKzjHUAeVGaLOQmKDlBpM7foe58QgqJrvPtcIaAkeQJPMFEKuo6pn/07WDExCvu5d+7RveAJi4xBSjsUif6O7pzAaFGYcQynKC6tWwDcSBXsbFL0LrOz8oVPYjUiyWOlyFgHxnzcK2Zd/bjJURueJFKCx771obvwctypCbVOYSTYZT5R5PwKpydZqC+a9npX5Uk7W+hknF7D9rsiLNkG7ZDj0xeshXAdeD0tYSKGleILDH/T3SOsTAqwYNQvfNqURKrw6fdHpFNVdIRN/s/fHhqyGiRBOnhOJ8LmlsgW4fH41Bgnzs5p/ZPeHiUm0qbODVaMuVzJh+CnyeVZc6d3BjZKsHH/VFU/NYJgxiczQaGgfsDha1Ftxwhsj3VBbw159ZAHYbXefLMzD2DHH+iRxddlKGRcgghJmDepKjQE2X36oBo6ltgswZqArJ5x7W6T3aYMq/jgwRRPbtLplDw9O+vTvM487AIkvIxml7QHSeuVFL0LKBB9sRC57qvGpN3ie1gAChPrmrxyZRXO6t/kBuqyM62vBVu2yrhl44JasBxQJwF5av9LezBDBbDZkKrxZ71GlzX08CXutPFD+7/hdDytTUuab1lCkSZHiXQYv+H7jAoLF/wV58b9LiuJ+Z3SN2v/1OLZ7Vmyanzrg6vbRpF2GWmKjPr3L7FLJiq+eL6Z+5vt/OJ+fid+DL/HWwrhpQdzlH8WKt0UrkTlOekJhcpwhl1o2sK1RSAqn87sVt17NbYEc3XW2OWd7sqIKoqkOJfCvbJAefc5ZgF4YGgq5w3uuNOD7X9X8gbcPG+yWztycg8puSW8Tv8LO2Es3Fjj+JcjVhs5OHpX5V1tdAqXWhL3+hCd668RGahctv6Eeb7HxJMMiF3Yv3AgDfAab+NnRlj8SfL5MtrkpPKoTVC33a+dQeEUdedaxPKsLOLUaKezzum/0GIIu3EUa7ETwjZwY1O+kS8C3zxjRkm3rwBF+jPBvWNKmcaJn1a7rTQntmLpTKmI0XCwdNTp52fqv3rpFdz7e+LcDnG+6nZ5YGLITnq0sX287EfJEMu3JaWz6YbWwFtQs8n9WkwGB71GQzA3gsFafriWqw5E9KZ6FZk61K9eJUcL//7pKXRroTHO/uHojhz51BkT/98kMg8nCKiuAMB+tYcmFJj3U8Ga7CE4lYKWI++YuUToj98wYkrswDfNF18xd4nBY/k3cGjNnXXlpfzj/WFpJ2QRR0v04220urMxzgmTgxI75guRzp1BV0DWQXqynqSsLE20kWFuInciXA0N+lMFn+2DG/iLw4nlAj1iQQmhQrxc8+YVpAKwYPKgQt3wGUIDR08yj/Ybsdv0VeXmNrmOLjHtH6g1bOunySX34YMLFCbUV/RgWBFPdtrNAP4X4HDTJM0CYLvu5kU/7H3dpjv91zI7D3nV50Er7meQ0dcnGEmLh0+Gz0u/a7dThlpwu+cN5HC3QQm6EycM98PPXOJHBH83ppOS7fPvJE6Sv3ky1vd6I3t3UCAw/+o+CLhMFLsBcb7CsFF44hEcFAbPSBjMZdZorHGs9OStvolchx1JJGrZWfbP6dkr0MRBLbhViMgKKwkBIyQ1kS8M9J/gY6Nu1nNh/RgyASH/4dZpqBXn/6eqWSka+XswY3PlSWjYat+pSNg0OrNcbxtP2EK2mkUYw/FDdpshFExW3KqyrMmVRlHeAH/yjO8Wo9KxNFyOZVncaW4/dm7AdQGXvWryvB/ZA6xoGq2BjQQI2vD1zBwi1Gvk5INZBGIfXkXUxHjBVOufhNq8waihXj7ZofWvgPs7yp7CJqT+/UN5VGtI/wf+gYZW5bLEwD6PTPWMNrdW+/7Fp80oq9bk7zclaMt6MMEYhrZbn42szPk+Tn1oqJpRF3fhFUkoKMq0iCDtrVa+/mzz8aO8PvZLm1dHzjAhbHda1GsOMeWH0ux5xB3iqf2r85F63+/NyP9AcFvV4VaHDMu/aEKjY0bJXUm/vmYXFFFWXWniraxuIV/AO/bHOa4QoKFDTlHGSHPzv92T6FrvRNvr/jyFME+/yfkaXdkVjzHxkCXZUDRCnldmd7CCy+7NW7pQeeBUPULEm10MqRVCDJu870FIHzkiONN1WcR8JricGRZO22NdFFEHQ7O4cLy//t+pnCFX8RrDD/aw6bMDs9dqL5/ciH9mUIfw7VG50QPYRrALqwaZb5Jl0mguaOobee+eNNO2/hOboOjzslMS0hwFandcr/ZsXdhcs5pLrVsR0Hmsilh9oN1kc9gjzrq04/Ire2IVCRwxeA1h/cymyu0ohLGtFeDpgEMfHOOmsmmQr6vNQqiAhu3Ll4QF/kV0K2vmuZkU6+gF7794r5pwhAC+AUHmjfJUYqTcj8XrzTMQ1hJoNxXqoxtocl3zXPO7kcM6+g21z23PxagqOqOEYu1rhsOyd6pyFyEQb+WrP3tJxfyHgSUSU+wPVZKouKmQUHMubSr9DlrnXyP86/Pn4ww0gk2X381IYYTuXKwA0yGmmjIRpamQNYEX+pPLwYVHTAbfhWLzh9M56Ug+LaNI2OKeCrgj+GI0m3g+Ndou65G/cclxG56VKjbH3KZLfI0Q6YZmefcGEpcP+fwv1TV/XmFb9eCEzDWo6+02EHin2JCTJca/UR47gXQfXAZTWkMIHZEoeJcFzTz/geqYtc25ItzKERQKS4rhLju1nf+r2eg2FQYUe5oJ9nfAnto5RjH8081fEeLZSMcYehElDRYOMyvPLGNIem14yFXVBbFGKOyUXXJZGUXydPhegM3zm6JuUNXVzvteK5gMk//ZIfcQL40Hy07dEl8FwnUkAJARFDRpE6d9sFv1GT3H4B4ij353hhQ3Tyteifg8pUmxQEdVyV/TBaYm6cT35eoygdBjQSl+syE01h6H68a7mxRqNsby7GtHNh5Y+7uFLQwVwRDkYZB8318yi8l8bZaddeI1q8uLYFndS+23Rc1IGfKQnPle5rm5C3rV6cbIUpWJOEWY4yRp9sIyB0VhqgVLyTRyjHmIw3+qxJENoKpWwuFybAPGN4v1SD2b0mpz3rBIp+TcgiZHcS57u70+3M86Jb7FFoy9IcLpCbPenPrBlt9SbT5EqyU19TKAFNoKbfpv6ayPmZT6NOGMvD8mZjfhZjeh66RtT7rF4MPaM3Bvvnfcw1Q09TlJkGhnoLLm/HuO8/2lfU/k8vqo8KR86x0Hza7Psp1+uPp+2EI2+EnA7d3JrjNIbjHZxH5zNtO/novmZ12DUH/lB/8yT9OaHy7ByGPwXA2h38eSQPblwuVRqhh9HsQWarEQczlVoZqwnXCG6rVOa3CKUJNT0EWA4bmC7wo82VjI14SYln/SNHE+uQrMUabODUxOKuxBYbrHbRyleuRxCMCk2OD5UjDODsOM86W4dzDaEmlAupSMfcQU8sujVl5NZNnXv1JYue8O4GnJ3Lvsf03+gLMd3imrxD/TCrxFdlBbxs40s5dYs6+SxakRCBXWhDFQI3b2XRoP7368uAQhVmf8hu+U/pNyIl+y8VHVz4iDRohxvhK/s7F/zY0YBJf4l0USb5Ft4UTtlpzmYzHZ0Yuos6yCapOWzLFb9meiPTiekzR4kRvYMXmKnFkjs+UOq3kE8JZUJxwg1wD+XSNvRGsmGx20CDa0zwKXjozawsj7ILnEYODjfegKSdo150LO6pI44TAnz6NjgSHCed/wEd3Bupnqsgt0SiDWG+laU2BMGVLSQGtTClGeFVp/jx3/UxKLOl0bJOimNG11X6rgmrcHCpuOeo1ADnvNCSMtiihWXsPxlDqBd33VrLiqSz4QkIvAx4ReHosLs6s75b/tSQxNziP9ZZmiu2BSYmRmU6doLHb/rowYSmFgPL/t5hvtkrl1fq8gOOVMdWpsKa16QoHMZW1vcaEHaiGWmdXl79J/2GskdYpNpQjHZ12OYwwUmmjynJSQdtCyZpD4GX3/HJFWm+zYHZj7xANrx9KaBQtBXGsnQ1GAnTI2WkXMr8/pPNFcXn7mkFERgZ0zXg6z9jDrjwRoKsc3d5cBYzoMYBPTeZ36tUdnfkIkXonXTWwGITgrFTayPhhFDmJOeh5guKDp8lX37V1qMu1VgdER05aemGDifxqHOSrvbhvk7NytuQpPnm5ig7SPQV0fT6wLU+583UyPaUauQFqivPAN41UF1KnMQgQpWPv3eg1EB2BR4UFuNaetdjU7yfQhh1jvEUb+oMVdoqTZkXJkMF0g346nUoyAPMZsRHLBRdNLCgXpYy0xsplF75r3kmC88xmbafiLi9DDhyyabHBIb0GOhLeLm9Y6zsCy63btXDgxsfr66Jwwd8G+CpWxMVz6J1mKVn51BRAfGwHLZliCC0F3SiMD/KrIn8vDs57G1QPjYY2vbK4mXuNIoiq0L9Yo4y1sDGahX0/p2n4ZXp8SdWspsJzzIVbD21Yr5MF7Gx3EdRyobUB+Jo1Zt3qGMuHQK72MGbVb5slWEBB1y4dIsWsrq7IqYqU8aNee2xWIZMxZjV1WpVjeUQVTKMNcDbph4tcS9OxIoSoDqryQsHv0m2mJwxXqG1P+WbzUJffpGMEsFTPVMr/g6LrlylJrbG2w7ocOyTh9NpAELkLvBaoM950SAF8v+QOp9eCrVdTKDgMPenZMBLxK+elTD7qiqXp7erlN497cqw1YR0iAw+RaHHZStuA7Pewvp0djeknWYHezNF06EIf0UMcGu8ztczz4drDjsim5ZVaFAxXyMn/pYj7OQ1NoXFCTJN9+AkIRiaYbDksEaIJrpwe9zeKer3r9VYGFiJ+d91EcUy3R4o=" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+//<![CDATA[
+                                           function hideLoginButton() {
+                                           if(Page_ClientValidate('loginFormGroup')){
+                                             $get('ctl00_PageHeader1_ucGlobalLogin_puGlobalLogin_tbGlobalLogin_relateLogin_btnLogin').style.display = 'none';
+                                             $get('loginProgress_ctl00_PageHeader1_ucGlobalLogin_puGlobalLogin_tbGlobalLogin_relateLogin_btnLogin').style.display = '';
+                                           }}
+                                           //]]>>//<![CDATA[
+                                           function hideLoginButton() {
+                                           if(Page_ClientValidate('loginFormGroup')){
+                                             $get('ctl00_PageHeader1_ucCommunityGlobalLogin_puGlobalLogin_tbGlobalLogin_relateLogin_btnLogin').style.display = 'none';
+                                             $get('loginProgress_ctl00_PageHeader1_ucCommunityGlobalLogin_puGlobalLogin_tbGlobalLogin_relateLogin_btnLogin').style.display = '';
+                                           }}
+                                           //]]>>//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=qph9tUZ6hGPLbkznkRkqTT104vP12u-NL7Ly708FRmCeO2s_gZiBH1ju9ac52KLxpMe83IYRJSL_gLdBwDnlx5VuqEEzQmx1tmKPo7UIElEpaqw00&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/Templates/RelatePlus/JavaScripts/ajaxTweaks.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="42CAD920" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+
+        
+
+        <div class="header">
+            
+
+
+<a href="#pnlFullWidthPageContainer" class="skip">Skip to content</a>
+
+<div class="IT-message-wrapper clearfix">
+    <span id="ctl00_PageHeader1_lblSiteMessage" class="editMessage"></span>
+</div>
+
+<div class="site-header">
+    <div class="site-header-content">
+        <a href="/en/" class="site-logo" aria-label="SuperOffice logo"></a>
+        <span class="mobile-menu-trigger"></span>
+        <span class="mobile-menu-close"></span>
+
+        <nav class="nav-secondary no-parliament">
+            <ul class="nav-list">
+                <li class='nav-item'><a target='_blank' href='https://online.superoffice.com/' title='CRM Online'>CRM Online</a></li><li class='nav-item'><a target='_blank' href='https://online.superoffice.com/appstore' title='App Store'>App Store</a></li><li class='nav-item'><a target='_blank' href='http://www.superoffice.com/' title='SuperOffice.com'>SuperOffice.com</a></li><li class='nav-item'><a target='_blank' href='https://support.superoffice.com/' title='Support'>Support</a></li>
+                <li class="nav-item language-selection">
+                    <div class="dropdown">
+                        <button class="btn btn-link dropdown-toggle selected-language" type="button" data-toggle="dropdown">English
+                        <span class="caret"></span></button>
+                        
+                          <ul class="dropdown-menu language-dropdown">
+                              
+                            <li class="dansk">
+                                    <a id="ctl00_PageHeader1_rpLaguageSelection_ctl01_btnLanguage" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$rpLaguageSelection$ctl01$btnLanguage&#39;,&#39;&#39;)">Dansk</a></li>
+                            
+                            <li class="deutsch">
+                                    <a id="ctl00_PageHeader1_rpLaguageSelection_ctl02_btnLanguage" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$rpLaguageSelection$ctl02$btnLanguage&#39;,&#39;&#39;)">Deutsch</a></li>
+                            
+                            <li class="nederlands">
+                                    <a id="ctl00_PageHeader1_rpLaguageSelection_ctl03_btnLanguage" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$rpLaguageSelection$ctl03$btnLanguage&#39;,&#39;&#39;)">Nederlands</a></li>
+                            
+                            <li class="english">
+                                    <a id="ctl00_PageHeader1_rpLaguageSelection_ctl04_btnLanguage" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$rpLaguageSelection$ctl04$btnLanguage&#39;,&#39;&#39;)">English</a></li>
+                            
+                            <li class="norsk">
+                                    <a id="ctl00_PageHeader1_rpLaguageSelection_ctl05_btnLanguage" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$rpLaguageSelection$ctl05$btnLanguage&#39;,&#39;&#39;)">Norsk</a></li>
+                            
+                            <li class="svenska">
+                                    <a id="ctl00_PageHeader1_rpLaguageSelection_ctl06_btnLanguage" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$rpLaguageSelection$ctl06$btnLanguage&#39;,&#39;&#39;)">Svenska</a></li>
+                            
+                                </ul>
+                            
+                    </div>
+                </li>
+                <li class="nav-item login-section">
+                    
+                            <ul class="before-login">
+                                <li class="nav-item">
+                                    <a id="ctl00_PageHeader1_lvHeaderLogin_lbRegistration" class="forgot_password" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$lvHeaderLogin$lbRegistration&#39;,&#39;&#39;)">Register</a></li>
+
+                                
+                                <li class="nav-item">
+                                    <a id="ctl00_PageHeader1_lvHeaderLogin_LinkButton1" class="forgot_password" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$lvHeaderLogin$LinkButton1&#39;,&#39;&#39;)">Log in</a>
+                                </li>
+                                
+                            </ul>
+                        
+                </li>
+                 <li class="nav-item search-menu">
+                   
+                    <div class="search-control-wrapper">
+                        
+<script type="text/javascript">
+    $(document).ready(function() {
+        swap_val = [];
+        $(".inputswap").each(function(i) {
+            swap_val[i] = $(this).val();
+            $(this).focusin(function() {
+                if ($(this).val() == swap_val[i]) {
+                    $(this).val("");
+                }
+            }).focusout(function() {
+                if ($.trim($(this).val()) == "") {
+                    $(this).val(swap_val[i]);
+                }
+            });
+        });
+        $(".close-button").on("click", function () { 
+            $(".search-control-wrapper").css('display','none');
+        });
+        
+    });
+</script>
+<div class="search-control">
+    <div>
+	
+    <input name="ctl00$PageHeader1$ctl00$tbSearch" type="text" id="ctl00_PageHeader1_ctl00_tbSearch" class="search-input" aria-label="Search" placeholder="Search..." onKeyPress="javascript:if (event.keyCode == 13){__doPostBack(&#39;ctl00$PageHeader1$ctl00$btnSearchV2&#39;,&#39;&#39;)}" />
+    <a id="ctl00_PageHeader1_ctl00_btnSearchV2" class="top-search-button" aria-label="Search button" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$ctl00$btnSearchV2&#39;,&#39;&#39;)"> </a>
+    
+</div>
+</div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="mega-menu-wrapper">
+            
+
+<div class="nav">
+    <div class="oe_wrapper">
+        <div id="oe_overlay" class="oe_overlay" style="display: none;">
+        </div>
+        
+        <ul id="oe_menu" class="oe_menu">
+            <li class="active"><a href="/en/">Home</a>
+                <div class="SubMenuItem">
+                    <div class="submenu-home-link">
+                        <a href="/en/">Home</a>
+                    </div>
+                    
+                            <ul>
+                                <li class="oe_heading ">
+                                    <a href='/en/search/'>Search</a>
+                                    
+                                </li>
+                                
+                                        <li class=''>
+                                            <a href='/en/search/'>Global search</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/Members/'>Community members</a>
+                                            
+                                        </li>
+                                    
+                            </ul>
+                        
+                            <ul>
+                                <li class="oe_heading ">
+                                    <a href='/en/product-releases/release-notes/'>Product Releases</a>
+                                    
+                                </li>
+                                
+                                        <li class=''>
+                                            <a href='/en/product-releases/release-notes/'>Releases</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/product-releases/bugs-wishes/'>Bugs & wishes</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/link/4a8affcda4c84da286bf7b4ebd9c147b.aspx?category=Product+news'>News</a>
+                                            
+                                        </li>
+                                    
+                            </ul>
+                        
+                            <ul>
+                                <li class="oe_heading ">
+                                    <a href='/en/video-center/'>Videos</a>
+                                    
+                                </li>
+                                
+                                        <li class=''>
+                                            <a href='/en/video-center/#all/91/published/all'>CRM</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/video-center/#all/92/published/all'>Service</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/video-center/#all/94/published/all'>Marketing</a>
+                                            
+                                        </li>
+                                    
+                            </ul>
+                        
+                            <ul>
+                                <li class="oe_heading ">
+                                    <a href='/en/help-center/'>Help Center</a>
+                                    
+                                </li>
+                                
+                                        <li class=''>
+                                            <a href='/en/help-center/9-crm-user/'>CRM User 9</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/help-center/9-crm-admin/'>CRM Admin 9</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/help-center/'>All user help</a>
+                                            
+                                        </li>
+                                    
+                            </ul>
+                        
+                            <ul>
+                                <li class="oe_heading ">
+                                    <a href='/en/events/'>Events</a>
+                                    
+                                </li>
+                                
+                                        <li class=''>
+                                            <a href='/en/developer/resource/?clubId=3&amp;category=SuperOffice+Events'>Expander World Downloads</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/events/'>Upcoming events</a>
+                                            
+                                        </li>
+                                    
+                            </ul>
+                        
+                            <ul>
+                                <li class="oe_heading ">
+                                    <a href='/en/blog/'>Blog</a>
+                                    
+                                </li>
+                                
+                                        <li class=''>
+                                            <a href='/en/developer/blog/'>Developer</a>
+                                            
+                                        </li>
+                                    
+                                        <li class=''>
+                                            <a href='/en/technical/blog/'>Technical</a>
+                                            
+                                        </li>
+                                    
+                            </ul>
+                        
+                </div>
+            </li>
+            
+                    <li class="Customer ">
+                        <a href="/en/customer/">
+                            <div class="indicator customer small">
+                            </div>
+                            Customer
+                        </a>
+                        
+                                <div class="SubMenuItem">
+                                    <div class="submenu-home-link">
+                                        <a href="/en/customer/">Customer</a>
+                                    </div>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/customer/learn/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl00_ClubMenuList_ctl01_MenuItemSelected" class="">
+                                            <span>Learn the Essentials</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/customer/learn/standard/'>Standard CRM</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/learn/settings-maintenance/'>Settings & maintenance</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/learn/sales/'>Sales</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/learn/service/'>Service</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/learn/marketing/'>Marketing</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/learn/management/'>Management</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/customer/inspiration/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl00_ClubMenuList_ctl02_MenuItemSelected" class="">
+                                            <span>Inspiration</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/customer/inspiration/'>Articles</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/inspiration/'>Tips & tricks</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/inspiration/videos/'>Videos</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/customer/news/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl00_ClubMenuList_ctl03_MenuItemSelected" class="">
+                                            <span>News</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/customer/news/?category=Product+news'>Product news</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/news/?category=Apps+%26+partner+news'>Apps & partner news</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/news/?category=General+news'>General news</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/customer/news/pilot-programs/'>Pilot programs</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                </div>
+                            
+                    </li>
+                
+                    <li class="Technical ">
+                        <a href="/en/technical/">
+                            <div class="indicator technology small">
+                            </div>
+                            Technical
+                        </a>
+                        
+                                <div class="SubMenuItem">
+                                    <div class="submenu-home-link">
+                                        <a href="/en/technical/">Technical</a>
+                                    </div>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/technical/documentation/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl01_ClubMenuList_ctl01_MenuItemSelected" class="">
+                                            <span>Documentation</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/technical/documentation/prepare/'>Preparations</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/technical/documentation/install-upgrade/'>Install / Upgrade / Migrate</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/technical/documentation/administration/'>Administration / configuration</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/technical/documentation/older-versions/'>Older versions</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/technical/documentation/identity-management/'>Identity management</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/technical/Articles/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl01_ClubMenuList_ctl02_MenuItemSelected" class="">
+                                            <span>Articles</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2'>All Articles</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=SuperOffice%20Audience'>SuperOffice Audience</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=Sales%20&amp;%20Marketing%20Web%20Client'>Web Client</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=Database-Related'>Database</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=General%20Topics'>General</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=Sales%20&amp;%20Marketing%20Windows%20Client'>Windows Client</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=NetServer%20API'>NetServer</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=Service%20Development'>Customer Service</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Articles/?clubId=2&amp;category=Code%20Examples'>Code Samples</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/technical/Forum/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl01_ClubMenuList_ctl03_MenuItemSelected" class="">
+                                            <span>Forum</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/Technical/Forum/Rooms/superoffice-product-group/crm-web-application/'>Sales Client (Web)</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Forum/Rooms/superoffice-product-group/crm-windows-application/'>Sales Client (Win)</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Forum/Rooms/superoffice-product-group/customer-service/'>Service Client</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Forum/Rooms/superoffice-product-group/pocketcrm-application/'>Pocket CRM</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Forum/Rooms/superoffice-product-group/emarketing-application/'>eMarketing</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/technical/Forum/rooms/general-tech-group/general-tech-questions/'>General Questions</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/technical/Forum/rooms/general-tech-group/general-tech-annoucements/'>Announcements</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Technical/Forum/Rooms/superoffice-product-group/devnet-20-web-site/'>Community Website</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/technical/blog/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl01_ClubMenuList_ctl04_MenuItemSelected" class="">
+                                            <span>Blog</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                </ul>
+                            
+                                </div>
+                            
+                    </li>
+                
+                    <li class="Developer ">
+                        <a href="/en/developer/">
+                            <div class="indicator developer small">
+                            </div>
+                            Developer
+                        </a>
+                        
+                                <div class="SubMenuItem">
+                                    <div class="submenu-home-link">
+                                        <a href="/en/developer/">Developer</a>
+                                    </div>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/developer/documentation/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl02_ClubMenuList_ctl01_MenuItemSelected" class="">
+                                            <span>Documentation</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/SDK/SO.COM.IApplication/index.html'>COM API - Application</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/SDK/SO.COM.IDatabase/index.html'>COM API - Database</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/SDK/SO.Customer.Service.Support/Index.html'>Customer Service</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/SDK/SO.Database/index.html'>Database Reference</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/Index.html'>NetServer Core</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/Index.html'>NetServer Web Services</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/SDK/SO.Web.Application/Index.html'>SuperOffice Web</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm'>REST & SOAP</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/developer/resource/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl02_ClubMenuList_ctl02_MenuItemSelected" class="">
+                                            <span>Downloads</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/Developer/Resource/?clubId=3&amp;category=General%20Topics'>General</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Resource/?clubId=3&amp;category=SuperOffice%20Events'>SuperOffice Events</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Resource/?clubId=3&amp;category=NetServer%20API'>SuperOffice Netserver</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Resource/?clubId=3&amp;category=Expander%20SDK'>Expander SDK</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Resource/?clubId=3&amp;category=Sales%20&amp;%20Marketing%20Web%20Client'>SuperOffice Web</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Resource/?clubId=3'>All Downloads</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/developer/articles/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl02_ClubMenuList_ctl03_MenuItemSelected" class="">
+                                            <span>Articles</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3'>All Articles</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3&amp;category=SuperOffice%20Audience'>Audience</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?category=Sales%20%26%20Marketing%20Web%20Client'>Web Client</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3&amp;category=Database-Related'>Database</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3&amp;category=General%20Topics'>General</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?category=Sales%20%26%20Marketing%20Windows%20Client'>Windows Client</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3&amp;category=NetServer%20API'>NetServer</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3&amp;category=Service%20Development'>Customer Service</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Articles/?clubId=3&amp;category=Code%20Examples'>Code Samples</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/developer/forum/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl02_ClubMenuList_ctl04_MenuItemSelected" class="">
+                                            <span>Forum</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/netserver-api-group/core-components/'>NetServer Core</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/netserver-api-group/web-services/'>Web Services</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/superoffice-product-api-group/crm-online-application/'>Online Development</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/superoffice-product-api-group/crm-web-application/'>Sales Client (Web)</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/superoffice-product-api-group/crm-windows-application/'>Sales Client (Win)</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/superoffice-product-api-group/customer-service/'>Service Client</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/Developer/Forum/Rooms/superoffice-product-api-group/continuous-database-development/'>Continuous Database</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/forum/rooms/gen-dev-group/general-dev-api/'>General Questions</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/forum/rooms/gen-dev-group/gen-dev-annoucements/'>Announcements</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/developer/create-apps/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl02_ClubMenuList_ctl05_MenuItemSelected" class="">
+                                            <span>Create Apps</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/overview/'>Overview</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/quickstart/'>Quickstart</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/reference/'>Reference</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/concepts/'>Concepts</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/how-to/'>How-To</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/samples/'>Samples</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/requirements/'>Requirements</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/tutorials/'>Tutorials</a>
+                                                
+                                            </li>
+                                        
+                                            <li class="">
+                                                <a href='/en/developer/create-apps/resources/'>Resources</a>
+                                                
+                                            </li>
+                                        
+                                </ul>
+                            
+                                <ul>
+                                    <li class="oe_heading ">
+
+                                        <a href="/en/developer/blog/" id="ctl00_PageHeader1_ucMegaMenu_repClubsMenu_ctl02_ClubMenuList_ctl06_MenuItemSelected" class="">
+                                            <span>Blog</span>
+                                        </a>
+                                        
+                                    </li>
+
+                                    
+                                </ul>
+                            
+                                </div>
+                            
+                    </li>
+                
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var $oe_menu = $('#oe_menu');
+        var $oe_menu_items = $('#oe_menu>li');
+        var $oe_overlay = $('#oe_overlay');
+
+        //var configMenuItems = {
+        //    over: ShowMenu, // function = onMouseOver callback (REQUIRED)    
+        //    timeout: 300, // number = milliseconds delay before onMouseOut 
+        //    interval: 100,
+        //    out: HideMenu // function = onMouseOut callback (REQUIRED)    
+        //};
+
+        //if (Modernizr.touch) { var touchactive = 1; }
+        //else if (window.navigator.msMaxTouchPoints) { var touchactive = 1 }
+        //else { var touchactive = 0; }
+
+        //if (touchactive > 0) {
+
+        var currentlyOpen = "";
+        $oe_menu_items.on("click", function (e) { 
+            var defThis = $(this);
+            currentlyOpen = $(this).children("a").attr("href");
+            e.preventDefault();
+            ShowMenu($(this));
+
+            $(this).find("a").on("click", function (e) { 
+                var sh = $(this).parents(".selected2").children("a").attr("href");
+                if (currentlyOpen == sh) {
+                    parent.location = $(this).attr("href");
+                }
+            });
+
+            $("body").on("click", function () { 
+                HideMenu(defThis);
+                var $this = defThis;
+                $this.css("height", "auto");
+                $('#oe_menu').removeClass('hovered');
+
+                $oe_overlay.stop(true, true).fadeTo(200, 0);
+                $oe_overlay.hide(200);
+                $oe_menu_items.children('div').hide();
+            });
+
+            $('#oe_menu').on("click", function (e) { 
+                e.stopPropagation();
+            });
+        });
+
+        //}
+        //else {
+
+        //    $('body').one('mousemove', function (e) {
+
+        //        $oe_menu_items.hoverIntent(configMenuItems);
+        //        $oe_menu.bind('mouseleave', function () {
+
+        //            var $this = $(this);
+        //            $this.removeClass('hovered');
+
+
+        //            $this.css("height", "auto");
+
+        //            $oe_overlay.stop(true, true).fadeTo(200, 0);
+        //            $oe_overlay.hide(200);
+
+        //            setTimeout(function () {
+        //                $oe_menu_items.children('div').fadeOut();
+        //            }, 300);
+
+        //        });
+
+        //    });
+        //}
+
+        // Hide mega menu on click
+        $oe_menu_items.on("click", function (e) { 
+            $oe_menu.trigger('mouseleave');
+        });
+
+        function HideMenu(elm) {
+            if (elm && elm.length > 0) {
+                var $this = elm;
+            } else {
+                var $this = $(this);
+            }
+            $this.removeClass('selected2').children('div').css('z-index', '1');
+        }
+
+        function ShowMenu(elm) {
+            if (elm && elm.length > 0) {
+                var $this = elm;
+            } else {
+                var $this = $(this);
+            }
+
+            var $oe_menu = $('#oe_menu');
+            var $oe_menu_items = $oe_menu.children('li');
+            var $oe_overlay = $('#oe_overlay');
+            if (!$oe_menu.hasClass("hovered")) {
+                $oe_menu.css("height", "34px");
+                $oe_overlay.stop(true, true).fadeTo(200, 0.6);
+                $oe_menu.addClass('hovered');
+            }
+
+            $oe_menu_items.removeClass('slided selected2');
+            $this.addClass('slided selected2');
+            $this.children('div').css('z-index', '9999').stop(true, true).slideDown(200, function () {
+                $oe_menu_items.not('.slided').children('div').hide();
+                $this.removeClass('slided');
+            });
+        }
+    });
+
+</script>
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="login-wrapper">
+    
+    
+    
+</div>
+<div id="splashScreen" class="splash-screen" style="display: none;">
+    <div id="puSplashScreen_hostDiv_" class="modal" style="visibility:visible; display:block;">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+    <div class="splashPage" style="display: block">
+        <div class="splashPageHeader">
+            
+        </div>
+        <div class="splashPageContent">
+            
+            <div class="splashPageButtonPanel">
+                <a id="lbClose" class="splashPagePrimaryButton" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$UcCommunitySplashScreen$puSplashScreen$lbClose&#39;,&#39;&#39;)"></a>
+                <a id="lbRegister" class="splashPageSecondaryButton" href="javascript:__doPostBack(&#39;ctl00$PageHeader1$UcCommunitySplashScreen$puSplashScreen$lbRegister&#39;,&#39;&#39;)"></a>
+            </div>
+        </div>
+    </div>
+<input name="ctl00$PageHeader1$UcCommunitySplashScreen$puSplashScreen$ctl00" type="hidden" value="false" />
+		</div>
+	</div>
+</div>
+
+
+</div>
+
+<script type='text/javascript' src='/JavaScripts/util.js?v=8.9.7612.1309'></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#searchfield').focus();
+        var showWelcomeMessage = '0';
+        var isMasterResponsive = 'True';
+        var isGlobalLoginVisible = $('.globalLoginBox').is(':visible');
+
+        if ($('.editMessage').text().trim() !== '') {
+            $('body').css('margin-top', $('.IT-message-wrapper').height() + 'px');
+            $('.IT-message-wrapper').show();
+            $(window).resize(function () {
+                $('body').css('margin-top', $('.IT-message-wrapper').height() + 'px');
+            });
+        } else {
+            $('.IT-message-wrapper').hide();
+            $('body').css('margin-top', '0');
+        }
+
+        //Do not show splash screen when embedded in an iframe
+        if (SuperOffice.Community.Util.inIframe()) {
+            return false;
+        }
+
+        if (showWelcomeMessage === '1' && getCookie('welcome') == null && !isGlobalLoginVisible && isMasterResponsive === 'True') {
+            $('#splashScreen').css('display', 'block');
+            setCookie('welcome', 'displayed', (10 * 365));
+        }
+
+        // Set focus to main content when skip to main content
+        $(".skip").on("click", function (event) { 
+            var skipTo = "#" + this.href.split('#')[1];
+            $(skipTo).attr('tabindex', -1).on('blur focusout', function () {
+                $(this).prop( "tabindex", false );
+            }).focus();
+        });
+
+        
+        //Go to manage subscription
+        $('#manageSubscription').on("click", function () {
+            var newWindow = window.open('', '_blank');
+            $.get('/Templates/SuperNet/Handlers/SubscriptionHandler.ashx',
+                function(url) {
+                    newWindow.location = url;
+                    newWindow.focus();
+                });
+        });
+
+    });
+
+    $("li.language-selection").on("click", function () {
+        $("div.language-dropdown-wrapper").toggle();
+        $('#headerLanguageSelector').attr('aria-expanded', $('#headerLanguageSelector').attr('aria-expanded') === 'false' ? 'true' : 'false');
+    });
+
+    $("li.language-selection").mouseleave(function () {
+        $("div.language-dropdown-wrapper").slideUp();
+        $('#headerLanguageSelector').attr('aria-expanded', $('#headerLanguageSelector').attr('aria-expanded') === 'false' ? 'true' : 'false');
+    });
+
+    $("li.profile-selection").on("click", function () {
+        if (!$('.mobile-menu-close').is(':visible')) {
+            $("div.profile-dropdown-wrapper").toggle();
+        }
+    });
+
+    $("li.profile-selection").mouseleave(function () {
+        if (!$('.mobile-menu-close').is(':visible')) {
+            $("div.profile-dropdown-wrapper").slideUp();
+        }
+    });
+
+    $("span.search-menu-icon").on("click", function () {
+        $("div.search-control-wrapper").toggle();
+        $(".search-input").val('');
+        $(".search-input").focus();
+    });
+    $("span.search-menu-text").on("click", function () {
+        $("div.search-control-wrapper").toggle();
+        $(".search-input").val('');
+        $(".search-input").focus();
+    });
+    $(".mobile-menu-trigger").on("click", function () {
+        $(".mobile-menu-close").toggle();
+        $(".mobile-menu-trigger").toggle();
+        $(".nav-secondary").toggle();
+        $(".oe_wrapper").toggle();
+        $("div.profile-dropdown-wrapper").show();
+    });
+    $(".mobile-menu-close").on("click", function () {
+        $(".mobile-menu-trigger").toggle();
+        $(".mobile-menu-close").toggle();
+        $(".nav-secondary").toggle();
+        $(".oe_wrapper").toggle();
+        $("div.profile-dropdown-wrapper").hide();
+    });
+
+    $(window).on("resize", function () {
+        //if (window.innerWidth >= 768) {
+        //    $(".mobile-menu-trigger").css('display', 'none');
+        //    $(".mobile-menu-close").css('display', 'none');
+        //    $(".nav-secondary").css('display', 'block');
+        //}
+
+    }).resize();
+
+    
+</script>
+
+        </div>
+
+        <div class="content resposive-content">
+            
+
+            
+            
+                
+                
+                    
+                
+            
+            
+        </div>
+
+        <div id="pnlFullWidthPageContainer" class="full-width-page-container">
+	
+           <div class="breadcrumb-wrapper-fullwidth-wrapper"> </div>
+            
+    <div>
+        <div>
+            <div><div>
+		
+
+<div class="hero-block-wrapper  hide-margin ">
+    <div id="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl01_ctl00_textWithImageWrapper" class="hero-block" style="background-image:url(/globalassets/home/help-support-community-superoffice.jpg);background-repeat: no-repeat;">
+        <div id="heroWrapper" onclick="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl01_ctl00changeLocation();">
+            <img id="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl01_ctl00_bannerBlockImage" class="hero-image" src="/globalassets/home/help-support-community-superoffice.jpg" border="0" />
+            <div class="hero-content-wrapper">
+
+                <div id="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl01_ctl00_pnlTextWithImage" class="text-content col-xs-12 col-sm-6" style="background-color:rgba(255, 255, 255, 0.8);"><font color="#494949">
+			
+                    <div class="hero-title">
+                        <span id="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl01_ctl00_lblHeading" class="heading">SuperOffice Community</span>
+                    </div>
+                    <div class="block-text"><p>Find guides and best practices for using, implementing, and developing for SuperOffice.</p></div>
+                    <div class="button-panel">
+                        
+                    </div>
+                
+		</font></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    function ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl01_ctl00changeLocation() {
+        var url = "";
+        var openInNewWindow = false;
+
+        if (url.trim()) {
+            if (openInNewWindow) {
+                window.open(url, '_blank');
+            } else {
+                window.location = url;
+            }
+        }
+        return false;
+    }
+
+</script>
+
+	</div><div>
+		
+
+<section class="iconbox-set iconbox-set--tonal-grey-2 ">
+
+    <div class="container">
+
+        
+
+        <div class="row">
+
+            <div class="col-xs-12 col-md-4">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="Customer community">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl00_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="">
+            <img src="/globalassets/global/icons/individual-grey.png" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">Customer community</h4>
+            <p class="iconbox__desc">Everything you need for learning how to use SuperOffice 
+</p>
+        </div>
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl00_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/dbbfac3543fe41b29086713e6251245f.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl00_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="Technical community">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl01_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="">
+            <img src="/globalassets/global/icons/technical-community.png" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">Technical community</h4>
+            <p class="iconbox__desc">Find documentation, answers and product downloads</p>
+        </div>
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl01_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/38f0f07a88ab4f0a9b568974720b7ef7.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl01_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+
+            <div class="col-xs-12 col-md-4">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="Developer community">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl02_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="">
+            <img src="/globalassets/global/icons/developer-grey-2.png" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">Developer community</h4>
+            <p class="iconbox__desc">Access developer documentation, SDK, answers and articles</p>
+        </div>
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl02_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/35232946ce4e4241963b47dbb1a60624.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl02_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+            
+            <div class="col-xs-12 col-md-4 hidden">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl03_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style=""></h4>
+            <p class="iconbox__desc"></p>
+        </div>
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl03_ctl00_ctl00_ctl00gotoLink() {
+        var url = "";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl03_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+            
+            <div class="col-xs-12 col-md-4 hidden">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl04_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style=""></h4>
+            <p class="iconbox__desc"></p>
+        </div>
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl04_ctl00_ctl00_ctl00gotoLink() {
+        var url = "";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl00_ctl00_ctl02_ctl00_ctl04_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</section>
+
+	</div></div>
+        </div>
+        <div id="ctl00_plhFullWidthContentArea_pnlMiddleA" class="two-col-wrapper">
+		
+            <div class="two-col-section">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+	</div>
+        <div id="ctl00_plhFullWidthContentArea_pnlMiddleB" class="two-col-wrapper">
+		
+            <div class="two-col-section">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div>
+                            <div><div>
+			
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/knockout.mapping-latest.min.js'></script>
+<div class="section box global-news-feed activityBlock ">
+				
+    <div id="activityFeedModelWrapper" class="activity-stream  hide-margin ">
+
+        <div class="block-title">
+            <span>Activity stream</span>
+        </div>
+        <!-- ko if: loading  -->
+        <span class="newsFeedLoading">Loading activites...</span>
+        <!-- /ko -->
+        <div id="feed" data-bind="with: feedResults" role="list">
+            <div data-bind="foreach: $data" role="presentation">
+                <div class="activity-item" tabindex="0" aria-label="Activity stream item" role="listitem">
+                    <div>
+                        <a data-bind="attr: {title: $data.AuthorName, href: $data.AuthorLink }" class="badge-container">
+                            
+                            <span data-bind="attr: { class: &#39;badge-tag&#39; }, css: { &#39;staff&#39;: $data.AuthorRole() === &#39;STAFF&#39;, &#39;partner&#39;: $data.AuthorRole() === &#39;PARTNER&#39; }, html: $data.AuthorRole"></span>
+                            
+                            <img data-bind="attr: {alt: $data.AuthorName, src: $data.AuthorImageUrl }" alt="Profile avatar" />
+                        </a>
+                    </div>
+                    <div>
+                        <div class="activity-text-wrapper">
+
+                            <a class="person-name" data-bind="attr: {title: $data.AuthorName, href: $data.AuthorLink }">
+                                <span data-bind="text: $data.AuthorName"></span>
+                            </a>
+                            <span class="activity-time" data-bind="html: $root.DateToShow($data.DatePublished())"></span><span>&nbsp;</span>
+                            <span class="activity-time" data-bind="html: $data.TimePublished"></span>
+                            <span class="action-text">
+
+                                <!-- ko if: $data.Header().length > 0 -->
+
+                                <!-- ko ifnot: $data.ActivityType() === 'actionForumTopic' || $data.ActivityType() === 'actionForumReply' || $data.ActivityType() === 'cmsPageComment' || $data.ActivityType() === 'actionBlogComment' || $data.ActivityType() === 'actionVideoComment' -->
+                                <span data-bind="html: $root.GetActivity($data.ActivityType, $data.Header, $data.Url)"></span>
+                                <!-- /ko -->
+                                
+                                <!-- ko if: $data.ActivityType() === 'cmsPageComment' || $data.ActivityType() === 'actionBlogComment' || $data.ActivityType() === 'actionVideoComment' -->
+                                <span data-bind="html: $root.GetCommentActivity($data.ActivityType, $data.Header, $data.EntityParent, $data.Url)"></span>
+                                <!-- /ko -->
+
+                                <!-- ko if: $data.ActivityType() == 'actionForumTopic' -->
+                                <span data-bind="html: $root.GetForumTopic($data.Header, $data.Url, $data.EntityParent, $data.EntityParentUrl)"></span>
+                                <!-- /ko -->
+
+                                <!-- ko if: $data.ActivityType() == 'actionForumReply' -->
+                                <span data-bind="html: $root.GetForumReply($data.Header, $data.ActivityRepliedTo, $data.Url, $data.EntityParent, $data.EntityParentUrl)"></span>
+                                <!-- /ko -->
+
+                                <!-- /ko -->
+
+
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="button-container">
+            <input type="button" id="loadMore" class="btn btn-primary" value="Load More" title="Load More" data-bind="click: $root.loadMoreActivities" />
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+
+        var activityViewModel = new ActivityViewModel();
+        ko.applyBindings(activityViewModel, document.getElementById("activityFeedModelWrapper"));
+        var communityStreamHub = $.connection.communityStreamHub;
+        $.connection.hub.start();
+        var communityStreamUpdateTimer;
+        var currentClubId = 0;
+        
+        var prevDate = "";
+        function ActivityViewModel() {
+            var self = this;
+            self.feedResults = ko.observableArray([]);
+            self.loading = ko.observable(false);
+            self.page = ko.observable(2);
+            self.total = 0;
+            self.pageSize = '8';
+
+            // Auto load new activities - to do refactor
+            self.getNewItem = function() {
+                $.get('/templates/SuperNet/Handlers/ActivityFeedHandler.ashx', { clubId: currentClubId, showUserImg: "true", page: 1, pagesize: 1, r: new Date().getMilliseconds()}, function (data) {
+                    var newItemArray = ko.observableArray([]);
+                    addToObservableArray(newItemArray, data.items);
+                    self.feedResults.unshift(newItemArray()[0]);
+                    self.feedResults.pop();
+                    self.loading(false);
+                    self.showFirstDate();
+                }).always(function () {
+                    $(".search-list div:first").hide().fadeIn('fast');
+                    $(".search-list div.SOcommentBlog:not(.doNotShowJet):last").hide();
+                });
+            };
+
+            // Get activities 
+            self.getActivites = function (page) {
+                self.loading(true);
+                $.get('/templates/SuperNet/Handlers/ActivityFeedHandler.ashx', { clubId: "0", showUserImg: "true", page: page, pagesize: self.pageSize, r: new Date().getMilliseconds() }, function(data) {
+                    if (data != null) {
+                        addToObservableArray(self.feedResults, data.items);
+                        self.total = data.total;
+                    }
+                }).always(function() {
+                    self.loading(false);
+                    self.showFirstDate();
+                });
+            };
+            self.getActivites(1);
+
+            self.ShowDateHeading = function(datePublished) {
+                if (datePublished === prevDate) {
+                    return false;
+                } else {
+                    prevDate = datePublished;
+                    return true;
+                }
+            };
+
+            // Due to calling the data-bindins twice, the date becomes invisible if the stream has only one date
+            // To fix this issues, showFirstDate implicitly 
+            self.showFirstDate = function() {
+                if (!self.loading()) {
+                    $('.newsFeedDate').first().show();
+                }
+            };
+
+            self.DateToShow = function(datePublished) {
+                var dateParts = datePublished.split("-");
+                var date = new Date(dateParts[2], dateParts[1] - 1, dateParts[0]);
+                var now = new Date();
+                if (datePublished === now.format("dd-MM-yyyy")) {
+                    return "Today";
+                } else {
+                    return date.format("d MMM yyyy");
+                }
+            };
+
+            self.GetActivityText = function(activityType) {
+                var text = null;
+
+                switch (activityType()) {
+
+                case 'cmsPageComment':
+                    text = 'Commented - {0} on article {1}';   
+                        break;
+                    case 'actionBlogComment':
+                        text = 'Commented - {0} on blog entry {1}';  
+                        break;
+                    case 'actionBlogEntry':
+                        text = 'Blogged {0}';
+                        break;
+                    case 'actionVideoComment':
+                        text = 'Commented - {0} on video {1}';    
+                        break;
+                    case 'actionVideoUpload':
+                        text = 'Uploaded a video {0}';
+                        break;
+                    case 'actionPublishedArticle':
+                        text = 'Published {0}';
+                        break;
+                    case 'actionPublishedResources':
+                        text = 'Made {0}';
+                        break;
+                    case 'articleUpdate':
+                    case 'resourceUpdate':
+                        text = 'Updated {0}';
+                        break;
+                    case 'actionNewEvent': 
+                        text = 'Created a new event {0}';
+                        break;
+                    default:
+                        break;
+                }
+
+                return text;
+            };
+
+            self.GetActivity = function(activityType, header, url) {
+                //We can live with the language error, it is better to have the link in the stream.
+                var activityText = this.GetActivityText(activityType);
+                var headerLink = '<a title="' + header() + '" href="' + url() + '"><span>' + header() + '</span></a>';
+                return String.format(activityText, headerLink);
+            };
+
+            self.GetCommentActivity = function(activityType, comment, parent, parentUrl) {
+                var activityText = this.GetActivityText(activityType);
+                var commentText = '<span>' + comment() + '</span><br/>';
+                var parentLink = '<a title="' + parent() + '" href="' + parentUrl() + '"><span>' + parent() + '</span></a>';
+                return String.format(activityText, commentText, parentLink);
+            };
+
+            self.GetForumTopic = function(topic, topicUrl, parent, parentUrl) {
+                var activityText = 'Posted - {0} in {1} ';
+                var topicLink = '<a title="' + topic() + '" href="' + topicUrl() + '"><span>' + topic() + '</span></a><br/>';
+                var parentLink = '<a title="' + parent() + '" href="' + parentUrl() + '"><span>' + parent() + '</span></a>';
+                return String.format(activityText, topicLink, parentLink);
+            };
+
+            self.GetForumReply = function(reply, topic, topicUrl, parent, parentUrl) {
+                var activityText = 'Replied - {0} to {1} in {2} ';
+                var replyText = '<span>' + reply() + '</span><br/>';
+                var topicLink = '<a title="' + topic() + '" href="' + topicUrl() + '"><span>' + topic() + '</span></a>';
+                var parentLink = '<a title="' + parent() + '" href="' + parentUrl() + '"><span>' + parent() + '</span></a>';
+                return String.format(activityText, replyText, topicLink, parentLink);
+            };
+
+            self.loadMoreActivities = function () {
+                self.getActivites(self.page());
+                self.page(self.page() + 1);
+                $('#loadMore').trigger( "blur" );
+            };
+
+            self.getBadgeStyle = function(role) {
+                if (role!== '') {
+                    return 'badge-tag ' + role;
+                }
+                return 'badge-tag';
+            };
+
+            var addToObservableArray = function (currentArray, data) {
+                var peopleItems = ko.observableArray();
+                ko.mapping.fromJS(data, {}, peopleItems);
+                self.loading(true);
+                currentArray.valueWillMutate();
+                ko.utils.arrayPushAll(currentArray, peopleItems());
+                currentArray.valueHasMutated();
+
+            };
+        }
+
+        // update activity feed using SignalR
+        communityStreamHub.client.sendActivityFeedUpdate = function (clubId) {
+            if (clubId === currentClubId) {
+                // updates are only allowed at a maximum refresh rate of 1.5 second.
+                clearTimeout(communityStreamUpdateTimer);
+                communityStreamUpdateTimer = setTimeout(function () {
+                    activityViewModel.getNewItem();
+                }, 1500);
+            }
+        };
+
+        // String format for javascript
+        String.format = function() {
+            // The string containing the format items (e.g. "{0}")
+            // will and always has to be the first argument.
+            var theString = arguments[0];
+
+            // start with the second argument (i = 1)
+            for (var i = 1; i < arguments.length; i++) {
+                // "gm" = RegEx options for Global search (more than one instance)
+                // and for Multiline search
+                var regEx = new RegExp("\\{" + (i - 1) + "\\}", "gm");
+                theString = theString.replace(regEx, arguments[i]);
+            }
+
+            return theString;
+        };
+
+    </script>
+
+			</div>
+
+		</div></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div>
+                            <div><div>
+			
+<script type="text/javascript" src='/Templates/RelatePlus/JavaScripts/jquery.cookie.min.js'></script>
+<!-- What's happening -->
+<div id="WhatsHappeningWrapper" class="">
+    <div class="event-control">
+        <div class="block-title">
+            Events    
+        </div>
+        <div>
+            <!-- ko if:loading  -->
+            <span class="eventLoading">Loading...</span>
+            <!-- /ko -->
+        </div>
+        <!-- Todays date-->
+
+        <div class="options">
+            <span id="country-options"></span>
+            <ul id="sel-option"></ul>
+        </div>
+        <div id="upcomingEventList" class="event-content " data-bind="with: results">
+            <!-- ko foreach:$data -->
+            <div class="event-line">
+                <!-- ko if: $index() !== 0 -->
+                <div class="date-part">
+                    <span class="date-number" data-bind="html: $root.dateToShow($data.Start, $root.DisplayDateFormat.DateOnly, false)"></span>
+                    <span class="date-month" data-bind="html: $root.dateToShow($data.Start, $root.DisplayDateFormat.MonthOnly, false)"></span>
+                </div>
+                <!-- /ko -->
+                <!-- ko if: $index() === 0 -->
+                <div class="date-part">
+                    <span class="date-number" data-bind="html: $root.dateToShow($data.Start, $root.DisplayDateFormat.DateOnly, false)"></span>
+                    <span class="date-month" data-bind="html: $root.dateToShow($data.Start, $root.DisplayDateFormat.MonthOnly, false)"></span>
+                </div>
+                <!-- /ko -->
+                <div class="text-part">
+                    <div class="text-wrapper">
+                        <div class="event-header">
+                            <a data-bind="attr: { title: $data.Header, href: $root.GetUrl($data.URLSegment) }, hoverIntent: { over: function() { $root.showPopup($data.Id) }, out: function() { $root.hidePopup($data.Id) }, timeout: 300 }">
+                                <span data-bind="html: $data.Header"></span>
+                            </a>
+                            <div class="event-popup" data-bind="attr: {&#39;id&#39;: &#39;event-popup-&#39; + $data.Id}, hoverIntent: { out: function() { $root.hidePopup($data.Id) }, timeout: 300 }">
+                                <div class="popover-arrow"></div>
+                                <div data-bind="html: $root.GetBodyText($data.Body, 200)"></div>
+                                <br />
+                                Audience: <span data-bind="html: $data.Audience"></span>
+                                <br />
+                                Hosted by: <span data-bind="html: $data.ArrangerName == &#39;&#39; ? $data.AuthorName : $data.ArrangerName"></span>
+                                <br />
+                                Location: <span data-bind="html: $data.Place"></span>
+                                <br />
+                                Language: <span data-bind="html: $data.Language "></span>
+                                <br />
+                                Time: <span data-bind="html: $data.TimeDuration"></span>
+                                <br />
+                                Number of days: <span data-bind="html: $data.NoOfDays"></span>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="event-description" data-bind="html: $root.GetBodyText($data.Body, 100)">
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                </div>
+
+            <!-- /ko -->
+        </div>
+        <div class="button-panel">
+
+            
+            <a id="ctl00_plhFullWidthContentArea_ctl05_ctl00_ctl01_ctl00_linkAllEvents" title="All Events" class="link-button" href="/en/events/">All Events</a>
+        </div>
+
+    </div>
+    <div id="newGlobalEventContainer" style="display: none;">
+        
+    </div>
+</div>
+
+<script type="text/javascript">
+    function showPopUp() {
+        $.cookie("showDialog", "1");
+    }
+
+    $(document).ready(function () {
+        if ($('#PopUp').length > 0 && $.cookie("showDialog") === "1") {
+            $('#newGlobalEventContainer').css('display', 'block');
+            var popUpOffsetTop = $('#PopUp').offset().top;
+            $("html, body").animate({ scrollTop: (popUpOffsetTop - 5) }, "slow");
+        }
+    });
+
+    $('#closeEventDialog').on("click", function () { 
+        $('#newGlobalEventContainer').css("display", "none");
+        $.cookie("showDialog", "0");
+    });
+
+    var prevDate = new Date(1900, 1, 1, 0, 0, 0, 0);
+    var eventSubsidiary = "0";
+    var eventLanguage = "all";
+    var upcomingEventsViewModel = new UpcomingEventsViewModel();
+    var clubEventUrl = '/en/events/';
+    var serverTimeZoneOffsetHours = 1;
+
+    ko.applyBindings(upcomingEventsViewModel, document.getElementById("WhatsHappeningWrapper"));
+
+    function UpcomingEventsViewModel() {
+        var self = this;
+        self.results = ko.observable([]);
+        self.loading = ko.observable(false);
+        self.filterBy = 'Language';
+
+        self.separatorIndex = ko.computed(function () {
+            var breakIndex = 0;
+            var previousDate = new Date(1900, 1, 1, 0, 0, 0, 0);
+            var date;
+            for (var i = 0; i < self.results().length; i++) {
+                date = new Date(parseInt(self.results()[i].Start.substr(6)));
+                if (i > 0) {
+                    if (date.format("dd/MM/yyyy") === previousDate.format("dd/MM/yyyy")) {
+                        breakIndex = i;
+                    } else {
+                        break;
+                    }
+                }
+                previousDate = date;
+            }
+            if (breakIndex === self.results().length - 1) {
+                breakIndex = self.results().length;
+            }
+            return breakIndex;
+        });
+
+        self.getUpcomingEvents = function (subsidiaryId, language) {
+            $('.toolWrapper').slideUp();
+            $('#upcomingEventList').slideUp();
+            self.loading(true);
+            $.get('/templates/SuperNet/Handlers/EventHandler.ashx', { SubsidiaryId: subsidiaryId, AreaId: '', Language: language, r: new Date().getMilliseconds() }, function (data) {
+                self.results(data);
+            }).always(function () {
+                self.loading(false);
+                $('.toolWrapper').slideDown();
+                $('#upcomingEventList').slideDown();
+            });
+        };
+
+        self.GetUrl = function (urlSegment) {
+            return clubEventUrl + urlSegment;
+        };
+
+        self.GetBodyText = function (bodyText, chars) {
+            var text = bodyText;
+            var limit = chars;
+
+            if (text !== "") {
+                if (text.length > limit) {
+                    text = text.substring(0, limit) + "...";
+                }
+            }
+            return text;
+        };
+
+        self.showPopup = function(id) {
+            $("#event-popup-"+id).slideDown();
+        };
+
+        self.hidePopup = function(id) {
+            var isHovered = $("#event-popup-"+id).is(":hover"); 
+            if (!isHovered) {
+                $("#event-popup-"+id).slideUp();
+            }
+        };
+
+        self.DisplayDateFormat = {
+            DateOnly: 1,
+            MonthOnly: 2
+        };
+
+        self.addZero = function(i) {
+            return i < 10 ? "0" + i : i;
+        }
+
+        self.getFormattedDate = function (date, dateFormat) {
+            date.setHours(date.getHours() + serverTimeZoneOffsetHours);
+            switch (dateFormat) {
+                case self.DisplayDateFormat.DateOnly:
+                    return self.addZero(date.getUTCDate());
+                case self.DisplayDateFormat.MonthOnly:
+                    return window.getLongMonthName(date.getUTCMonth() + 1);
+                default:
+                    return date;
+            }
+        };
+
+        self.dateToShow = function (datePublished, dateFormat, hideDate) {
+            var date = datePublished;
+            if (typeof date.getMonth !== 'function') {
+                date = new Date(parseInt(datePublished.substr(6)));
+            }
+            if (hideDate) {
+                if (prevDate.format("dd/MM/yyyy") === date.format("dd/MM/yyyy")) {
+                    return '';
+                }
+            }
+            prevDate = date;
+            return self.getFormattedDate(date, dateFormat);
+        };
+
+        self.sortSubsidiaries = function(a, b) {
+            return $.trim($(a).find("a.sortItem").text()).localeCompare($.trim($(b).find("a.sortItem").text()));
+        };
+
+        self.initCountryDropdown = function () {
+            $('#sel-option').hide();
+
+            $.get('/templates/SuperNet/Handlers/GetSubsidiaries.ashx', function (subsidiaries) {
+                var firstItem = true;
+                $.each(subsidiaries, function(key, value) {
+                    $('#sel-option')
+                        .append($("<li></li>")
+                            .append($("<a class='subItem" + (firstItem ? "" : " sortItem") + "'></a>")
+                                .attr("href", key)
+                                .text(value)));
+                    firstItem = false;
+                });
+
+                var sortedSubsidiaries = $("ul#sel-option li").has("a.sortItem").sort(self.sortSubsidiaries);
+                $('#sel-option').append(sortedSubsidiaries);
+
+                $('#country-options').text($('#sel-option .subItem').first().text());
+
+                $('#sel-option a').on("click", function (e) { 
+                    if (eventSubsidiary !== $(this).attr('href')) {
+                        eventSubsidiary = $(this).attr('href');
+                        self.getUpcomingEvents(eventSubsidiary, "all");
+                        $('#country-options').text($(this).text());
+                    }
+                    $('#sel-option').slideUp();
+                    e.preventDefault();
+                });
+            });
+
+            $("#country-options").on("click", function () { 
+                $("#sel-option").slideToggle();
+            });
+
+            $('.options').mouseleave(function () {
+                $("#sel-option").slideUp();
+            });
+        };
+
+        self.initLanguageDropdown = function () {
+            $('#sel-option').hide();
+
+            var languages = {"all":"All Languages","da":"Danish","nl":"Dutch","en":"English","de":"German","no":"Norwegian","se":"Swedish"};
+            $.each(languages, function (key, value) {
+                $('#sel-option')
+                    .append($("<li></li>")
+                        .append($("<a class='subItem'></a>")
+                            .attr("href", key)
+                            .text(value)));
+            });
+
+            $('#country-options').text($('#sel-option .subItem').first().text());
+
+            $('#sel-option a').on("click", function (e) { 
+                if (eventLanguage !== $(this).attr('href')) {
+                    eventLanguage = $(this).attr('href');
+                    self.getUpcomingEvents("0", eventLanguage);
+                    $('#country-options').text($(this).text());
+                }
+                $('#sel-option').slideUp();
+                e.preventDefault();
+            });
+
+            $("#country-options").on("click", function () { 
+                $("#sel-option").slideToggle();
+            });
+
+            $('.options').mouseleave(function () {
+                $("#sel-option").slideUp();
+            });
+        };
+
+        if (self.filterBy === 'Language') {
+            self.initLanguageDropdown();
+            self.getUpcomingEvents("0", eventLanguage);
+        } else {
+            self.initCountryDropdown();
+            self.getUpcomingEvents(eventSubsidiary, "all");
+        }
+
+        ko.bindingHandlers.hoverIntent = {
+            update: function(elem, value) {
+                var options = ko.utils.unwrapObservable(value());
+                if (typeof options === 'object') {
+                    for (var option in options)
+                        options[option] = ko.utils.unwrapObservable(options[option]);
+                }
+                $(elem).hoverIntent(options);
+            }
+        }
+    }
+</script>
+
+		</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+	</div>
+        <div>
+            <div><div>
+		
+
+<section class="iconbox-set  ">
+
+    <div class="container">
+
+        
+
+        <div class="row">
+
+            <div class="col-xs-12 col-md-3">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="Bugs &amp; wishes">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="display:none">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">Bugs & wishes</h4>
+            <p class="iconbox__desc">Search registered bugs and product wishes.
+</p>
+        </div>
+    
+        
+            <div class="iconbox__btn-container">
+                <a id="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00_ctl00_ctl00-iconbox-btn" class="btn iconbox__btn" role="button" name="go to Search bugs &amp; wishes" tabindex="0">Search bugs & wishes</a>
+            </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/2dcaba4e8f2e41d2b9a110255ab4e259.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="Template variables">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="display:none">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">Template variables</h4>
+            <p class="iconbox__desc">Complete list of variables to personalize mailings & documents. </p>
+        </div>
+    
+        
+            <div class="iconbox__btn-container">
+                <a id="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00-iconbox-btn" class="btn iconbox__btn" role="button" name="go to All template variables" tabindex="0">All template variables</a>
+            </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/876a8c579b5749b3bde622fe2db54868.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl01_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="Email integration">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl02_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="display:none">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">Email integration</h4>
+            <p class="iconbox__desc">Connect your email to save and send email in SuperOffice.</p>
+        </div>
+    
+        
+            <div class="iconbox__btn-container">
+                <a id="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl02_ctl00_ctl00_ctl00-iconbox-btn" class="btn iconbox__btn" role="button" name="go to Install email integration" tabindex="0">Install email integration</a>
+            </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl02_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/7527850e1daf4272be2069f788992f82.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl02_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+            
+            <div class="col-xs-12 col-md-3">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="SuperOffice APIs">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl03_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="display:none">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style="">SuperOffice APIs</h4>
+            <p class="iconbox__desc">Get started with our APIs and creating integrations for SuperOffice.</p>
+        </div>
+    
+        
+            <div class="iconbox__btn-container">
+                <a id="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl03_ctl00_ctl00_ctl00-iconbox-btn" class="btn iconbox__btn" role="button" name="go to Introduction to our APIs" tabindex="0">Introduction to our APIs</a>
+            </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl03_ctl00_ctl00_ctl00gotoLink() {
+        var url = "/link/f0c4688a937d4ee4b6d57bb60ece872a.aspx";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl03_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+            
+            <div class="col-xs-12 col-md-3 hidden">
+                <div>
+			
+
+<div class="iconbox" role="article" aria-label="">
+    <div id="iconBoxWrapper" onclick="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl04_ctl00_ctl00_ctl00gotoLink();"> 
+        <div class="iconbox__img-container" style="">
+            <img src="" alt="iconset block image" title="" />
+        </div>   
+        <div class="iconbox__content">
+            <h4 class="iconbox__title" style=""></h4>
+            <p class="iconbox__desc"></p>
+        </div>
+    
+        
+    </div>
+</div>
+<script type="text/javascript">
+    function ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl04_ctl00_ctl00_ctl00gotoLink() {
+        var url = "";
+        
+        if (url.trim()) {
+            if (url.substr(1, 4) === "link") {
+                window.location = url;
+            } else {
+                window.open(url, '_blank');
+            }
+        }
+        return false;
+    }
+
+    $(document).ready(function () {
+        $("#ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl01_ctl00_ctl04_ctl00_ctl00_ctl00-iconbox-btn").keypress(function (event) {
+            if (event.which === 13) // Enter key
+            {
+                event.target.click();
+                return true;
+            }
+            return false;
+        });
+    });
+</script>
+		</div>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</section>
+
+	</div><div>
+		
+
+<section class='story story--gradient-1 story--flush-bottom hide-margin'>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+
+                <h1 class="story__header">Product releases</h1>
+
+            </div>
+            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                <p class="story__content">If you’re wondering what releases are coming, or what has just been released, our product release center will keep you up to speed. </p>
+            </div>
+        </div>
+        
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="btn--centered">
+                        
+                        <a href="/en/product-releases/release-notes/" class="btn story__btn"> Go to product releases</a>
+                    </div>
+                </div>
+            </div>  
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <img class='no-img-btm-mgn' src="/globalassets/customer/news/product/9.1-gen-9/generation-9.png" alt="" title="" />
+            </div>
+        </div>
+    </div>
+
+</section>
+
+	</div><div>
+		<div id="ctl00_plhFullWidthContentArea_ctl01_ctl00_ctl03_ctl00_pnlEngagementBlock"><font color="#4A4A4A">
+			
+    <div class="container-fluid community-engagement-block">
+    <div id="engagement-block-597cbc76-c996-4b9d-a34e-3bbba06435ce" class="row">
+        <div data-bind="if: loading" class="loading"><p>Loading...</p></div>
+        <div class="col-xs-12" data-bind="ifnot: loading">
+            <div class="status_block">
+                <div class="status_block_title">
+                    <span></span>
+                </div>
+                <div class="status_block_content_container" data-bind="with: EngagementData">
+                    <!-- ko if: (Members != 0) --> 
+                    <div class="status_block_content">
+                          <span data-bind="text: Members"></span>
+                          <p> Members </p>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: (Forums != 0) --> 
+                    <div class="status_block_content">
+                          <span data-bind="text: Forums"></span>
+                          <p> Forums </p>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: (Events != 0) --> 
+                    <div class="status_block_content">
+                          <span data-bind="text: Events"></span>
+                          <p> Events </p>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: (Videos != 0) --> 
+                    <div class="status_block_content">
+                          <span data-bind="text: Videos"></span>
+                          <p> Videos </p>
+                    </div>
+                    <!-- /ko -->
+                    <!-- ko if: (Articles != 0) --> 
+                    <div class="status_block_content">
+                          <span data-bind="text: Articles"></span>
+                          <p> Articles </p>
+                    </div>
+                    <!-- /ko -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+		</font></div>
+
+<script>
+    // Get Engagements
+    engagementVM = new CommunityEngagementViewModel();
+    ko.applyBindings(engagementVM, document.getElementById("engagement-block-597cbc76-c996-4b9d-a34e-3bbba06435ce"));
+    
+    function CommunityEngagementViewModel() {
+        var self = this;
+        self.loading = ko.observable(true);
+        self.EngagementData = ko.observable();
+
+        $.get('/api/Engagement/',{
+                isMembers: '1',
+                isForums: '1',
+                isEvents: '1',
+                isVideos: '1',
+                isArticles: '1'
+            },
+            function (data) {
+                self.EngagementData(data);
+                self.loading(false);
+            });
+    }
+</script>
+	</div></div>
+        </div>
+    </div>
+
+        
+</div>
+
+        <div class="footer">
+            
+
+<footer class="site-footer">
+    <div class="top-section-wrapper">
+        <div class="top-section">
+            <div class="row">
+                <div class="col-xs-12">
+                    
+<div class="follow-console">
+    <ul>
+        <li style="display: none">Follow us on:</li>
+        <li title="Follow us on YouTube">
+            <a href="/en/system/follow-us/" class="btn" aria-label="Follow us on YouTube">
+                <span class="icon icon-youtube"></span>
+            </a>
+        </li>
+        <li title="Follow us on Facebook">
+            <a href="/en/system/follow-us/" class="btn" aria-label="Follow us on Facebook">
+                <span class="icon icon-facebook"></span>
+            </a>
+        </li>
+        <li title="Follow us on LinkedIn">
+            <a href="/en/system/follow-us/" class="btn" aria-label="Follow us on LinkedIn">
+                <span class="icon icon-linkedin2"></span>
+            </a>
+        </li>
+        <li title="Follow us on Twitter">
+            <a href="/en/system/follow-us/" class="btn" aria-label="Follow us on Twitter">
+                <span class="icon icon-twitter"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <span class="site-footer-title">Community</span>
+                    <ul class="site-footer-list"><li><a href="/en/siteinformation/contact-us/">Contact us</a></li><li><a target="_blank" href="http://www.superoffice.com/company/">About us</a></li><li><a href="/en/siteinformation/job-opportunities/">Job opportunities</a></li><li><a href="/en/siteinformation/legal/">Community Legal Information</a></li><li><a title="status.superoffice.com" target="_blank" href="http://status.superoffice.com/">status.superoffice.com</a></li></ul>
+                </div>
+                <div class="col-xs-12 col-md-4 col-sm-6">
+                    <span class="site-footer-title">Quick links</span>
+                    <ul class="site-footer-list"><li><a href="/en/product-releases/bugs-wishes/">Bugs &amp; wishes</a></li><li><a href="/en/technical/Resource/">Technical resources</a></li><li><a href="/en/developer/resource/">Developer resources</a></li><li><a href="/en/technical/documentation/">Technical documents</a></li><li><a href="/link/039196aca74346fda72752433d8dfca7.aspx">SuperOffice App Store</a></li><li><a target="_blank" href="https://www.superoffice.com/trust-center/">SuperOffice Trust Center</a></li></ul>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <span class="site-footer-title">Sections</span>
+                    <ul class="site-footer-list"><li><a href="/en/customer/">Customer</a></li><li><a href="/en/technical/">Technical</a></li><li><a href="/en/developer/">Developer</a></li><li><a href="/en/the-parliament/">The Parliament</a></li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <div>
+            <span>SuperOffice Headquarters,     
+                            Wergelandsveien 27,
+                            N-0167
+                            Oslo,
+                            Norway
+            </span>
+            <span><a href="tel:+47 23 35 40 00" class="tel">Phone +47 23 35 40 00</a></span>
+            <div>© Copyright SuperOffice AS 2021</div>
+        </div>
+    </div>
+</footer>
+<link rel="image_src" type="image/svg+xml" href="/templates/relateplus/images/ui/svg/SO_logo.svg" />
+<div id="cookie-bar" class="cookie-bar">
+    <p><a href="" class="closeButton">Close</a>This site is using cookies. SuperOffice is using cookies mainly for monitoring website traffic and content optimization. Please continue to use this site if you accept our use of cookies. Read more:&nbsp;<a href="/en/SiteInformation/Legal/">Privacy Statement</a></p>
+</div>
+<script type='text/javascript' src='/JavaScripts/util.js?v=8.9.7612.1309'></script>
+
+<script type="text/javascript">
+    if (SuperOffice.Community.Util.inIframe() === false && getCookie('ok_cookie') == null) {
+        $('#cookie-bar').css('display', 'block');
+    }
+
+    $('.closeButton').on("click", function (event){
+        event.preventDefault();
+        setCookie('ok_cookie', 'ON', (10 * 365));
+        $('#cookie-bar').slideUp('fast', function () {
+            $('#cookie-bar').remove();
+        });
+    });
+</script>
+
+        </div>
+    </form>
+    
+    
+
+    
+    
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header image-modal-header">
+                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                </div>
+                <div class="modal-body" style="max-height: 100%;">
+                    <img class="imagepreview" style="width: 100%;" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
