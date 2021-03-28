@@ -4,7 +4,7 @@ using SuperOffice.WebApi.Agents;
 
 // set up the DatabaseTable agent
 
-var options = new WebApiOptions(webApiUrl, authorization);
+WebApiOptions options = //Get WebApiOptions with SystemUser Authorization
 var dbTableAgent = new SuperOffice.WebApi.Agents.DatabaseTableAgent(options);
 
 // set the table name and primary key parameters
