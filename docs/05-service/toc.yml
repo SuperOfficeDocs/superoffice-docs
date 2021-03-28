@@ -8,14 +8,14 @@
     items:
     - name: System templates
       href: ../reply-templates/system-templates.md
-    - name: Debug automated tasks
-      href: ../service/debug-automated-tasks.md
-    - name: Set up Facebook integration
-      href: ../service/set-up-facebook-integration.md
+  - name: Debug automated tasks
+    href: ../service/debug-automated-tasks.md
   - name: Config
     items:
     - name: FAQ
       href: ../service/config-faq.md
+    - name: Set up Facebook integration
+    href: ../service/set-up-facebook-integration.md
   - name: SMS
     href: ../service/sms/index.md
     items:
