@@ -131,7 +131,7 @@ This has been a walk-through of some of the most common usages of the SearchEngi
 Good luck!
 
 <!-- Referenced links -->
-[1]: ../index.md
+[1]: ../overview/what-is-crmscript.md
 [2]: ../classes/searchengine/searchengine.md
 [3]: dot-syntax.md
 
