@@ -259,4 +259,3 @@ Read more about each platform API in the SDK documentation.
 [img2]: media/automationcapabilitiesbyplatform.png
 [img3]: media/targetapibysuperofficecrmplatform.png
 [img4]: media/netserverarchitecture-blue-650.png
-

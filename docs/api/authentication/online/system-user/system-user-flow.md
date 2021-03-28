@@ -19,7 +19,7 @@ High-level intro to system user flow for non-interactive server-to-server commun
 
 ![System user flow][img1]
 
-1. A customer tenant administrator must [approve your application][1].
+1. A customer tenant administrator must [approve your application][1]. This is a one-time interactive login.
 
     * Behind the scenes, a system user token is generated and appended to an application authorization record in the Operation Center, and the application authorization record binds the application to the tenant.
 
@@ -39,7 +39,7 @@ High-level intro to system user flow for non-interactive server-to-server commun
 5. Let the application go about its business chatting with the SuperOffice web services using the ticket as credentials.
 
 <!-- Referenced links -->
-[1]: ../../apps/provisioning/index.md
+[1]: ../federated-auth.md
 [2]: ../../apps/redirects/index.md
 [3]: ../certificates/validate-security-tokens.md
 [4]: ../id-token.md
