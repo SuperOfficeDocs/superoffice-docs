@@ -1,0 +1,52 @@
+---
+title: chatbot_overview
+description: Chatbot overview
+author: christianm
+so.date: 2021-03-08
+keywords: chatbot, ai
+so.topic: concept
+---
+
+## Chatbot needs AI License
+
+Chatbot functionality in SuperOffice requires the AI license. This enables the **Chatbot** tab in chat administration.
+
+![Chat channel admin: chatbot tab](../media/chatbot-channel-admin.png)
+
+## CrmScripts
+
+Chatbots are folders that contain one or more CrmScripts with names that fit a pattern.
+
+* `...bot register...` signals the presence of a chatbot in the folder.
+* `...bot session create...` is called when a new chat session starts.
+* `...bot session change...` is called when the chat session changes state.
+* `...bot message receive...` is called when a new message is received.
+
+The names of the scripts must follow this pattern, but they allow any prefix or suffix you want.
+`echobot register`, `my bot registered` and `BotRegister` are all acceptable names for the registration script.
+
+The CrmScripts are not called after  the chatbot hands the session off to the queue for human processing.
+The `bot message receive` script is only called for incoming messages. 
+This removes the need for a bunch of book-keeping logic, simplifying the bot scripts.
+
+![Chatbot scripts in a folder](../media/chatbot-scripts-folder.png)
+
+The name of the folder is shown in the chatbot picker.
+
+The chatbot scripts are called when events happen:
+
+![Chatbot scripts sequence](../media/chatbot-scripts-sequence.png)
+
+When a session starts on a channel with a chatbot:
+
+* First the `bot session create` script is called.
+* Then the `bot session change` script may be called if there is a pre-chat form or faq suggestion.
+* Then the `bot message receive` script is called once for each message received from the customer.
+* Then the `bot session change` script is called when the session state changes.
+* Then the `bot message receive` script is called once for each message received from the customer.
+* Repeat until completed or handed off to queue for processing.
+
+A script can hand off a chat session to a human by calling `resetChat(sessionId)`. This will tag the session
+with `botIsActive` = false, so that the bot scripts are no longer called.
+
+A script can end a session by setting it to closed: `setChatStatus(sessionId, 7);`  (7 = closed).
