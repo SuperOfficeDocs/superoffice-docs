@@ -28,7 +28,7 @@ External consultants **MAY NOT** approve access to a customer's production data
 3. Provision the application.
 
 <!-- Referenced links -->
-[1]: ../../authentication/auth-user.md
+[1]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/auth-user.md
 [2]: index.md
 
 <!-- Referenced images -->

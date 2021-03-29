@@ -120,8 +120,8 @@ The Mirroring Task sends the SuperOffice signed token with every call so that t
 [6]: sql-server-schema.md
 [8]: ../apps/custom.md
 [9]: ../apps/provisioning/get-consent.md
-[10]: ../authentication/certificates/validate-security-tokens.md
-[11]: ../authentication/system-user/sign-system-user-token.md
+[10]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/certificates/validate-security-tokens.md
+[11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/system-user/sign-system-user-token.md
 
 <!-- Referenced images -->
 [img1]: media/trendsyapp.png

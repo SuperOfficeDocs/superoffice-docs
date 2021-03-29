@@ -49,7 +49,7 @@ When it is time to develop your application idea, you have 3 options:
 [2]: standard.md
 [3]: tenant-status/index.md
 [4]: getting-started/app-envir.md
-[5]: validation/index.md
-[6]: publish/activate-custom-app.md
+[5]: activate/index.md
+[6]: activate/activate-custom-app.md
 [7]: ../license/expander-services/index.md
 [8]: ../license/user-plans.md

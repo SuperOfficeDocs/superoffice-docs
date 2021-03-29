@@ -1,0 +1,99 @@
+items:
+- name: Cloud document integrations
+  href: ../documents/cloud-document-integrations.md
+  items:
+  - name: Configure cloud document handling
+    href: ../documents/configure-cloud-document-handling.md
+  - name: Set up cloud document integration
+    href: ../documents/set-up-cloud-document-integration.md
+  - name: G suite document integration
+    href: ../documents/g-suite-document-integration/index.md
+    items:
+    - name: Requirements
+      href: ../documents/g-suite-document-integration/requirements.md
+    - name: Security
+      href: ../documents/g-suite-document-integration/security.md
+    - name: Quick start
+      href: ../documents/g-suite-document-integration/quick-start.md
+    - name: Set up
+      href: ../documents/g-suite-document-integration/set-up.md
+  - name: Office 365 document integration
+    href: ../documents/office-365-document-integration/index.md
+    items:
+    - name: Requirements
+      href: ../documents/office-365-document-integration/requirements.md
+    - name: Security
+      href: ../documents/office-365-document-integration/security.md
+    - name: Prepare SharePoint for set up
+      href: ../documents/office-365-document-integration/prepare-sharepoint-for-set-up.md
+    - name: Set up
+      href: ../documents/office-365-document-integration/set-up.md
+    - name: Troubleshooting
+      href: ../documents/office-365-document-integration/troubleshooting.md
+- name: ODF
+  href: ../documents/odf.md
+- name: Report parameters
+  href: ../reports/parameters.md
+- name: Ribbons
+  href: ../documents/ribbons/index.md
+  items:
+  - name: Enable debug
+    href: ../documents/ribbons/enable-debug.md
+  - name: Troubleshooting
+    href: ../documents/ribbons/troubleshooting.md
+- name: Templates
+  href: ../documents/templates/index.md
+  items:
+  - name: Variables
+    items:
+    - name: For appointments
+      href: ../documents/templates/variables/for-appointments.md
+    - name: For ical
+      href: ../documents/templates/variables/for-ical.md
+    - name: For int address
+      href: ../documents/templates/variables/for-int-address.md
+    - name: For mail gateway
+      href: ../documents/templates/variables/for-mail-gateway.md
+    - name: For pocket
+      href: ../documents/templates/variables/for-pocket.md
+    - name: For quote alternative
+      href: ../documents/templates/variables/for-quote-alternative.md
+    - name: For quote info
+      href: ../documents/templates/variables/for-quote-info.md
+    - name: For quote line
+      href: ../documents/templates/variables/for-quote-line.md
+    - name: For quote line with subscription
+      href: ../documents/templates/variables/for-quote-line-with-subscription.md
+    - name: For sales
+      href: ../documents/templates/variables/for-sales.md
+    - name: For selected contact
+      href: ../documents/templates/variables/for-selected-contact.md
+    - name: For selections
+      href: ../documents/templates/variables/for-selections.md
+    - name: For sender contact dialog
+      href: ../documents/templates/variables/for-sender-contact-dialog.md
+    - name: For service
+      href: ../documents/templates/variables/for-service.md
+    - name: For web app
+      href: ../documents/templates/variables/for-web-app.md
+    - name: From company card
+      href: ../documents/templates/variables/from-company-card.md
+    - name: From doc dialog or system
+      href: ../documents/templates/variables/from-doc-dialog-or-system.md
+    - name: From project card
+      href: ../documents/templates/variables/from-project-card.md
+    - name: From senders company card
+      href: ../documents/templates/variables/from-senders-company-card.md
+    - name: Misc
+      href: ../documents/templates/variables/misc.md
+  - name: Quote
+    href: ../documents/templates/quote/index.md
+    items:
+    - name: Add template variables
+      href: ../documents/templates/quote/add-template-var.md
+    - name: Language and  culture
+      href: ../documents/templates/quote/lang-culture.md
+    - name: Mergefields
+      href: ../documents/templates/quote/mergefields.md
+  - name: Troubleshooting
+    href: ../documents/templates/troubleshooting.md
