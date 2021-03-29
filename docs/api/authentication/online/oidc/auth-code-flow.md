@@ -123,10 +123,9 @@ There are two types of Authorization Code Flow. The standard as described below,
 | `expires_in` | The lifetime in seconds of the access token. |
 | `refresh_token` | The refresh token, which can be used to [obtain new access tokens][4].<br>The refresh token is a long-lived JWT token that can be re-used.<br>It is coupled to an end-users consent and is valid as long as the application authorization record (consent) exists. Tenants can revoke authorizations. |
 | `id_token` | JSON Web Token or JWT, which consists of a Header, Payload, and Signature. The claims in the token form part of the payload. |
-\
+
 <!-- Referenced links -->
-[1]: ../../apps/redirects/index.md
-[2]: ../id-token.md
+[1]: ../id-token.md
 [3]: ../access-token.md
 [4]: ../refresh-token.md
 [5]: https://tools.ietf.org/html/rfc7636

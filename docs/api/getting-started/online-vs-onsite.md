@@ -77,13 +77,13 @@ Further reading about online API's:
 
 **Web Service API's**
 
-* [REST](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-WebAPI-WebAPI.htm)
-* [SOAP](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/Reference-SOAP-SOAP.htm)
-* [Webhooks](https://community.superoffice.com/documentation/sdk/SO.NetServer.Web.Services/html/webhooks_ref.htm)
+* [REST](../api-reference/restful/index.md)
+* [SOAP](../api-reference/soap/index.md)
+* [Webhooks](../webhooks/index.md)
 
 **Integration Services**
 
-* [ERP Connectors](https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/DevelopersGuide-ERPConnectors-ERPSyncConnectorInterface-ERPSyncConnectorInterface.htm)
-* [Quote Connectors](https://community.superoffice.com/documentation/SDK/SO.NetServer.Data.Access/html/DevelopersGuide-ERPConnectors-ERPQuoteConnectorInterface-ERPQuoteConnectorInterface.htm)
-* [Database Mirroring](https://community.superoffice.com/en/content/content/online/database-mirroring/)
+* [ERP Connectors](../erp-connectors/index.md)
+* [Quote Connectors](../quote-connectors/index.md)
+* [Database Mirroring](../../../../superoffice-docs/superoffice-docs/docs/mirroring/index.md)
 

@@ -1,0 +1,60 @@
+items:
+- name: Fundamentals
+  href: ../getting-started/index.md
+- name: Authentication
+  href: ../authentication/index.md
+  items: 
+  - name: Online Authentication
+    href: ../authentication/online/index.md
+    items:
+    - name: OpenID Connect / OAuth 2.0
+      href: ../authentication/online/index.md
+      items:
+      - name: Authorization Code Flow
+        href: ../authentication/online/oidc/auth-code-flow.md
+      - name: Hybrid Flow
+        href: ../authentication/online/oidc//hybrid-flow.md
+      - name: Implicit Flow
+        href: ../authentication/online/oidc/implicit-flow.md
+      - name: Native Apps (Mobile / Desktop)
+        href: ../authentication/online/oidc/native-apps.md
+    - name: System User (back-channel)
+      href: ../authentication/online/system-user/system-user.md
+  - name: Onsite Authentication
+    href: ../authentication/index.md
+    items:
+    - name: Basic
+      href: ../authentication/index.md
+    - name: Ticket credential
+      href: ../authentication/index.md
+    - name: Windows
+      href: ../authentication/index.md
+- name: Overview
+  href: ../getting-started/online-vs-onsite.md
+  items:
+  - name: What is NetServer
+    items:
+    - name: What is NetServer I
+      href: ../netserver/what-is-netserver-part-1.md
+    - name: What is NetServer II
+      href: ../netserver/what-is-netserver-part-2.md
+  - name: Bulk Operation
+    href: ../bulk-operations/index.md
+    items:
+    - name: Bulk Update
+      href: ../bulk-operations/bulk-update/index.md
+    - name: Mass Operations
+      href: ../bulk-operations/mass-operations/index.md
+  - name: Search APIs
+    items:
+    - name: Find Selection API
+      href: ../search/new-selection/new-selection.md
+    - name: Archive Providers
+      href: ../archive-providers/index.md
+      items:
+      - name: Encoded values
+        href: ../archive-providers/encoded-values.md
+      - name: Perform query
+        href: ../archive-providers/how-to-query.md
+      - name: Aggregation
+        href: data-aggregation

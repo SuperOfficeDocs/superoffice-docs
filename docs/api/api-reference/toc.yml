@@ -1,22 +1,21 @@
 items:
 - name: API Reference
-  href: ../../../superoffice-docs/docs/apps/intro-to-superoffice-apis.md
+  href: ../getting-started/index.md
+- name: Web Services
   items:
-  - name: Web Services
-    items:
-    - name: RESTful REST Services
-      href: restful/rest/index.md
-    - name: RESTful AGENT Services
-      href: restful/agent/index.md
-    - name: SOAP Services
-      href: soap/index.md
-  - name: NetServer
-    items:
-    - name: Core
-      href: netserver/core/index.md
-    - name: Services
-      href: netserver/services/index.md
-  - name: Web Application
-    href: web/toc.yml
-  - name: WebAPI Client
-    href: webapi/index.md
+  - name: RESTful REST Services
+    href: restful/rest/index.md
+  - name: RESTful AGENT Services
+    href: restful/agent/index.md
+  - name: SOAP Services
+    href: soap/index.md
+- name: NetServer
+  items:
+  - name: Core
+    href: netserver/core/index.md
+  - name: Services
+    href: netserver/services/index.md
+- name: Web Application
+  href: web/index.md
+- name: WebAPI Client
+  href: webapi/index.md
