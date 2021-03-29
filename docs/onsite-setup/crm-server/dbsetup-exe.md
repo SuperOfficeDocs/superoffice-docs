@@ -1,6 +1,6 @@
 ---
-title: _exe
-description: .exe - Database maintenance
+title: dbsetup_exe
+description: DBSetup.exe - Database maintenance
 author: {github-id}
 keywords:
 so.topic: article # article, howto, reference, concept, guide
@@ -10,23 +10,23 @@ so.envir: onsite # cloud or onsite
 # so.client:# online, web, win, pocket, or mobile
 ---
 
-# .exe - Database maintenance
+# DBSetup.exe - Database maintenance
 
-Earlier versions of  may differ a bit in the user interface, but the basic functionality is still the same. Please note the warning - there is no turning back once you have started the different operations.
+Earlier versions of DBSetup may differ a bit in the user interface, but the basic functionality is still the same. Please note the warning - there is no turning back once you have started the different operations.
 
-See also the [SoTables.ini info][1] - but with CDD note that the priming data provided by SuperOffice are no longer packaged as individual files; this function is only intended for adding new data specific to a customer or partner feature.
+See also the [SoTables.ini info][1] - but with CDD note that the priming data provided by SuperOffice are no longer packaged as individual files; this function is only intended for adding new data specific to a customer or partner feature.
 
-Since SuperOffice 8.1  can create a *Database.log* file.
+Since SuperOffice 8.1 DBSetup can create a *Database.log* file.
 
 ![Database maintenance client ][img1]
 
-/ServerSetup will create all tables, both SuperOffice and Service. Also, Service needs to tweak them a little, with its setup program.
+DbSetup/ServerSetup will create all tables, both SuperOffice and Service. Also, Service needs to tweak them a little, with its setup program.
 
- will export & import all standard tables & fields for both products.
+DbSetup will export & import all standard tables & fields for both products.
 
- does not see extra tables and extra fields. We will have a separate solution for that. Service has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "not go there" in this first release.
+DbSetup does not see extra tables and extra fields. We will have a separate solution for that. Service has its own dictionary and way of specifying extension fields and tables. The C++ code is not very fond of dynamically-changing tables and we have chosen to "not go there" in this first release.
 
-The new "dynamic" archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the web service APIs are still fairly static, and transporting new data there presents a challenge. On the main entities, this is solved using the existing name/value extrafields dictionary.
+The new "dynamic" archive provider in NetServer does see these fields & tables. NetServer is inherently designed to be more flexible, so it sees all the new fields and tables with no problems.  However, the web service APIs are still fairly static, and transporting new data there presents a challenge. On the main entities, this is solved using the existing name/value extrafields dictionary.
 
 ## Rebuild (copy) a database, any 8.1+ version, no version change
 
@@ -64,7 +64,7 @@ Some preferences that ServerSetup writes during installation will not be written
 
 Load or re-load initial data into an 8.1+ database
 
-Import or update the basic (initial) data in an existing database. You can choose which section to import from the dropdown list, which shows sections defined in your [SoTables.ini][1] file.
+Import or update the basic (initial) data in an existing database. You can choose which section to import from the dropdown list, which shows sections defined in your [SoTables.ini][1] file.
 
 Priming data that are part of the standard set provided by SuperOffice are no longer packaged as individual files; this function is only intended for adding new data specific to a customer or partner feature. **The old impfiles may contain old data and importing it to an upgraded database may overwrite data that have been updated with a dictionary step during database upgrade.**
 
@@ -113,7 +113,7 @@ Create or update the freetext index on an existing 8.1+ database. The same funct
 
 [!include[ALT](../includes/req-valid-db-user.md)]
 
-## Rebuild SAINT counters and statuses (8.1+)
+## Rebuild SAINT counters and statuses (8.1+)
 
 Perform a total rebuild of the SAINT counters, and subsequently the SAINT status flags. Depending on the number of contacts, project, appointments, sales, and Intent list entries, this can be a fairly lenghty process.
 
@@ -121,19 +121,19 @@ This task may also be automated by using the Travel gateway service.
 
 [!include[ALT](../includes/req-valid-db-user.md)]
 
-## Recalculate Next Due Date for all Sales (8.1+)
+## Recalculate Next Due Date for all Sales (8.1+)
 
 Scan all appointments bound to sales, and update the Next Due Date on all sales. Depending on the number of sales and appointments, this can be a fairly lengthy process.
 
 The user name must be a valid employee or system user, not just a database user.
 
-## Recalculate Next Milestone for all Projects  (8.1+)
+## Recalculate Next Milestone for all Projects  (8.1+)
 
 Scan all appointments bound to a project, and update the Next Milestone on all projects. Depending on the number of sales and appointments, this can be a fairly lengthy process.
 
 The user name must be a valid employee or system user, not just a database user.
 
-## Database consistency checks (click\[Start\] to choose)  (8.1+)
+## Database consistency checks (click\[Start\] to choose)  (8.1+)
 
 Run consistency checks on the target database; and fix what problems may be fixed automatically.
 
@@ -164,9 +164,9 @@ Here you may run and fix problems found in the database:
 
 If you have imported data to the SuperOffice database via SOAdmin we recommend you run these to verify that the rank is set correctly. Rank will not be set during import due to performance issues.
 
-## Start  with parameters
+## Start DBSetup with parameters
 
-.exe can be run with command line parameters to specify an action. The program will perform the action automatically and exit. User interaction may occur if something goes wrong (this may be corrected in a future version ).
+Dbsetup.exe can be run with command line parameters to specify an action. The program will perform the action automatically and exit. User interaction may occur if something goes wrong (this may be corrected in a future version ).
 
 The command line consists of a command followed by parameters. They correspond to the radio buttons in the GUI.
 
@@ -217,9 +217,9 @@ Parameters also correspond to the GUI. Parameters are separated by spaces and al
 
 An error message is given if the supplied command line has the wrong command or number of parameters. Normal errors are given for other problems, such as the wrong password. If everything is OK, normal progress dialogs are shown, but the program terminates automatically after execution.
 
-##  Database log file
+## DBSetup Database log file
 
-Since SuperOffice 8.1 is  able to create a Database.log file, which contains detailed and valuable database debugging information. To get this file you need to have the \[Error\] section in SuperOffice.ini in the SuperOffice Server folder (where .exe resides) and also specify the location of the log file (without the Logpath the Database.log file won't be created).
+Since SuperOffice 8.1 is DBSetup able to create a Database.log file, which contains detailed and valuable database debugging information. To get this file you need to have the \[Error\] section in SuperOffice.ini in the SuperOffice Server folder (where DBsetup.exe resides) and also specify the location of the log file (without the Logpath the Database.log file won't be created).
 
 Example of the \[Error\] section in SuperOffice.ini in SuperOffice Server folder:
 
@@ -232,16 +232,17 @@ Truncate=1
 Logpath=e:\SuperOffice\SOError.log
 ```
 
-If you run  now, it will create 2 log files in *E:\\SuperOffice*. One standard SOError.log file and one SOError.Database.log file with database debug information.
+If you run DBSetup now, it will create 2 log files in *E:\\SuperOffice*. One standard SOError.log file and one SOError.Database.log file with database debug information.
 
 The Database.log file is also generated by ServerSetup when a database upgrade happens and goes into the same place that *so\_log.txt* does unless specified otherwise by the LogPath in the \[Error\] section.
 
 > [!NOTE]
-> If you are using  to rebuild or move a database, you MUST run \<cs installfolder>\\bin\\Upgrade.exe after to set the CS fields values correct.<br>NULL Values (may be used on some fields made in CS):  does not have the data structures/flags required to carry this additional information. So, when doing a rebuild/import of a database that contains NULL values (some CS tables do), those will be changed into the nearest-to-empty value for that type - empty string, number 0, and so on.
+> If you are using DBSetup to rebuild or move a database, you MUST run \<cs installfolder>\\bin\\[Upgrade.exe][2] after to set the CS fields values correct.<br>NULL Values (may be used on some fields made in CS): DBsetup does not have the data structures/flags required to carry this additional information. So, when doing a rebuild/import of a database that contains NULL values (some CS tables do), those will be changed into the nearest-to-empty value for that type - empty string, number 0, and so on.
 
 <!-- Referenced links -->
 [1]: ../config-and-ini/sotables-ini.md
+[2]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/cs/upgrade/upgrade-from-7x-to-71/
 
 <!-- Referenced images -->
-[img1]: media/cdd.png
+[img1]: media/dbsetupcdd.png
 [img2]: media/consistency-checks.png
