@@ -75,15 +75,14 @@ This policy decision is related to security reasons, and SuperOffice is not will
 
 Further reading about online API's:
 
-**Web Service API's**
+**Web Service APIs:**
 
 * [REST](../api-reference/restful/index.md)
 * [SOAP](../api-reference/soap/index.md)
 * [Webhooks](../webhooks/index.md)
 
-**Integration Services**
+**Integration Services:**
 
 * [ERP Connectors](../erp-connectors/index.md)
 * [Quote Connectors](../quote-connectors/index.md)
-* [Database Mirroring](../../../../superoffice-docs/superoffice-docs/docs/mirroring/index.md)
-
+* [Database Mirroring](https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/mirroring/index.md)

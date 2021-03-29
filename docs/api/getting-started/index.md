@@ -243,11 +243,11 @@ Read more about each platform API in the SDK documentation.
 [2]: https://msdn.microsoft.com/en-us/library/aa227633(v=vs.60).aspx
 [5]: https://community.superoffice.com/documentation/SDK/SO.Application/html/top_home.htm
 [6]: https://community.superoffice.com/documentation/SDK/SO.Database/html/top_home.htm
-[8]: ../../authentication/federated-auth.md
+[8]: ../authentication/online/federated-auth.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/soap/reference/index.md
 [12]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-2.md
 [13]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/ns-web-services/what-is-netserver-part-1.md
-[15]: ../../automation/webhook/index.md
+[15]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/automation/webhook/index.md
 [17]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/web-api/rest/reference/index.md
 [18]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/index.md
 [19]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/services/index.md

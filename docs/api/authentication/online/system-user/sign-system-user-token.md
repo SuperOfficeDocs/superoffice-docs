@@ -37,7 +37,7 @@ System User Token.YYYYMMDDHHMM.mwhpYcNBfFqEaL0uLkCwXB99sM/Wo7DOnhjRwsmwNAd2EmBM1
 * You have [validated the claim][2] and extracted the system user token from the [SuperIdToken][3]
 * You have your private key file ([converted from RSA to PEM][4]
 
-<a href="../../assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice public key</<a>>.
+<a href="../../../assets/downloads/superofficeonlinecertificates.zip" download>Click to download the SuperOffice public key</<a>>.
 
 ## To sign the token
 

@@ -15,7 +15,7 @@ You need a system user ticket to perform non-interactive REST API calls. To get 
 
 The [system user token][1] is embedded in the [SuperIdToken][2] that you received when you [validated][3] the JWT security token from the initial authentication.
 
-<a href="../../assets/downloads/system-user-node-sample.zip" download>Click to download sample</a>
+<a href="../../../assets/downloads/system-user-node-sample.zip" download>Click to download sample</a>
 
 ## Pre-requisites
 
