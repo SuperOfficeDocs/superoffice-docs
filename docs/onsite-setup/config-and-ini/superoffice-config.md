@@ -20,7 +20,7 @@ Used for NetServer config info for the Win client and MailLink.
 ## You will find SuperOffice.config in
 
 a) your SuperOffice server installation folder *\[server\_inst.-path\]\\SuperOffice\\*
-b) and if Windows client is installed: in your locale SuperOffice folder on each of the clients, default: *C:\\Program Files\\SuperOffice\\SuperOffice Windows*. The file will be "copied" (settings are transferred over) from server's SuperOffice.config / SuperOffice.ini while installing ([running MSI installer][1]).
+b) and if Windows client is installed: in your locale SuperOffice folder on each of the clients, default: *C:\\Program Files\\SuperOffice\\SuperOffice Windows*. The file will be "copied" (settings are transferred over) from server's SuperOffice.config / SuperOffice.ini while installing.
 
 ## Application Configuration Files
 
@@ -99,7 +99,6 @@ This configuration is required when the user executing SoAdmin has limited right
 This advanced configuration has to be tweaked manually in the SuperOffice.config file. These settings are not added by default when installing the Windows client, so they have to be added manually. [Read more in this blog][5].
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/SM/winclient/msi-installer/
 [2]: https://www.microsoft.com/en-us/download/details.aspx?id=55984
 [3]: ../win-client/debug.md
 [4]: ../win-client/command-line-switches.md

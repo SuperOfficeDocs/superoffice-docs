@@ -34,15 +34,15 @@ For Win app users, this folder must be shared, the user must be able to create a
 
 ### Prepare IIS web server
 
-* [How to configure ISS][3]
+* [How to configure IIS][3]
 
 ### Prepare the database
 
 The central database may be running on either Microsoft SQL Server or Oracle before you start the server installer. Please refer to the manufacturers' webpages for more information.
 
-* [list of supported databases][4]
-* [create Oracle database][5]
-* [create Microsoft SQL Server database][6]
+* [List of supported databases][4]
+* [Create Oracle database][5]
+* [Create Microsoft SQL Server database][6]
 
 > [!NOTE]
 > The ODBC data source must be set up as a 32-bit system DSN.
@@ -57,7 +57,7 @@ The more powerful the SQL Server computer is, the faster SuperOffice CRM will pe
 
 #### Choosing Between Unicode and ANSI database
 
-For new customers, we recommend using [Unicode][1]. This removes all ambiguity of future planning and ensures compatibility.
+For new customers, we recommend using Unicode. This removes all ambiguity of future planning and ensures compatibility.
 
 ### Which Services end point to use?
 
@@ -110,7 +110,6 @@ In a new installation, only the main language is used for most of the translated
 If you are upgrading from an earlier version of SuperOffice, make sure to select the same main language as in the last installation, or you risk getting a mix of languages in the database/program.
 
 <!-- Referenced links -->
-[1]: https://community.superoffice.com/en/technical/documentation/older-versions/documentation-7/onpremise/database-maintenance/unicode-vs-ansi/
 [2]: system-requirements.md
 [3]: iis-web-server/prepare.md
 [4]: ../compatibility/database.md

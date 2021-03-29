@@ -17,19 +17,19 @@ so.envir: onsite                    # cloud or onsite
 
 Currently tested server operating systems if running SuperOffice Onsite.
 
-Want to know if a newly released operating system is compatible? Check your [compatibility reports](index.md).
+Want to know if a newly released operating system is compatible? Check the [compatibility reports](index.md).
 
-| Operating system | 8.0 SR1 - SR3 | 8.0 SR4 - SR6 | 8.1 | 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9.1 |
-|---------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| Windows Server 2019 | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2016 | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2012 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2012 Standard | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
-| Windows Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] |
-| Windows Server 2008 x86 / x64 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
+| Operating system | 8.0, SR1 - SR3 | 8.0 SR4 - SR6 | 8.1 | 8.2 | 8.3 R01 - R03 | 8.3 R04 | 8.4 | 8.5 | 9.1 | 9.2 |
+|---------------------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| Windows Server 2019 | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Windows Server 2016 | ![i][img3] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Windows Server 2012 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Windows Server 2012 Standard | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] |
+| Windows Server 2008 R2 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img3] | ![i][img3] |
+| Windows Server 2008 x86 / x64 | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img1] | ![i][img3] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] | ![i][img2] |
 
 > [!NOTE]
-> Windows Server 2016, 2012 Standard, and 2008 R2 are also tested as Terminal Server / Citrix Server.
+> Windows Server 2019, 2016, 2012 and 2008 R2 are also tested as Terminal Server / Citrix Server.
 
 Our experience tells us that other configurations also should work, but SuperOffice will not guarantee any other configurations than the ones listed.
 

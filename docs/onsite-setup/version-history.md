@@ -13,11 +13,11 @@ so.envir: onsite               # cloud or onsite
 # so.client:                    # online, web, win, pocket, or mobile
 ---
 
-# SuperOffice version history overview
+# SuperOffice Onsite version history
 
-An overview of releases name, with release number, date, and build number
+An overview of Release names, with Release number, Date and Build number.
 
-It does NOT contain Red Alerts or [CRM Online release versions][1].
+It does not contain Red Alerts or [CRM Online release versions][1].
 
 | Onsite Release Name | Release number | Date | Build number |
 |-----|-----|-----|-----|
@@ -80,10 +80,10 @@ It does NOT contain Red Alerts or [CRM Online release versions][1].
 | 8.2 R02 | (Onsite skipped) | 16.01.2018 | |
 | 8.2 R03 | 8.2.6617.1308 | 14.02.2018 | 2018.02.12-03 |
 | 8.2 R04 | | 13.03.2018 | 2018.03.09-05 |
-| 8.2 R05 | (Onsite skipped) | | | |
-| 8.2 R06 | 8.2.6689.1603 | | | 2018.04.25-01 |
+| 8.2 R05 | (Onsite skipped) | | |
+| 8.2 R06 | 8.2.6689.1603 | | 2018.04.25-01 |
 | 8.3 R01 | 8.3.6718.18 | 24.05.2018 | |
-| 8.3 R02 | | | 21.06.2018 | 2018.06.21-01 |
+| 8.3 R02 | | 21.06.2018 | 2018.06.21-01 |
 | 8.3 R03 | (Onsite skipped) | | |
 | 8.3 R04 | | 28.08.2018 | 2018.08.24-01 |
 | 8.4 R01 | | 21.09.2018 | 2018.09.20-03 |
@@ -115,6 +115,9 @@ It does NOT contain Red Alerts or [CRM Online release versions][1].
 | 9.1 R03 | | 08.10.2020 | 2020.10.06-03 |
 | 9.2 R01 | (Onsite skipped) | | |
 | 9.2 R02 | (Onsite skipped) | | |
-
+| 9.2 R03 | | 16.12.2020 | 2020.12.15-04 |
+| 9.2 R04 | (Onsite skipped) | | |
+| 9.2 R05 | (Onsite skipped) | | |
+| 9.2 R06 | (Onsite skipped) | | |
 <!-- Referenced links -->
 [1]: ../online/version-history.md
