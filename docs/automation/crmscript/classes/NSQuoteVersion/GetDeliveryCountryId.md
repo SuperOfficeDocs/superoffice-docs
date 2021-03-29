@@ -1,9 +1,9 @@
 ---
-title: Integer GetDeliveryCountryId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetDeliveryCountryId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetDeliveryCountryId
+description: NSQuoteVersion.GetDeliveryCountryId()
+intellisense: NSQuoteVersion.GetDeliveryCountryId
 keywords: GetDeliveryCountryId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetStyleHint()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/String GetStyleHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetStyleHint
+description: NSSelectableMDOListItem.GetStyleHint()
+intellisense: NSSelectableMDOListItem.GetStyleHint
 keywords: GetStyleHint()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetInterval(TimeSpan Interval)
-path: /EJScript/Classes/NSErpSyncEngineStatus/Member functions/Void SetInterval(TimeSpan p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncEngineStatus_SetInterval_TimeSpan_p_0
+description: NSErpSyncEngineStatus.SetInterval(TimeSpan p_0)
+intellisense: NSErpSyncEngineStatus.SetInterval
 sortOrder: 3280
 keywords: SetInterval(TimeSpan)
+so.topic: reference
 ---
 
 

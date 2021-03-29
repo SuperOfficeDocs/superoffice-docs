@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceDate_GetTooltip
+description: NSRecurrenceDate.GetTooltip()
+intellisense: NSRecurrenceDate.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

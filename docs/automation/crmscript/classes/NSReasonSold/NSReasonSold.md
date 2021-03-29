@@ -1,8 +1,8 @@
 ---
-title: NSReasonSold
-path: /EJScript/Classes/NSReasonSold
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReasonSold
+description: NSReasonSold
+intellisense: Void.NSReasonSold
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetProjectImage(Integer projectId, NSImage image)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void SetProjectImage(Integer p_0, NSImage p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_SetProjectImage_Integer_p_0_NSImage_p_1
+description: NSBLOBAgent.SetProjectImage(Integer p_0, NSImage p_1)
+intellisense: NSBLOBAgent.SetProjectImage
 sortOrder: 1437
 keywords: SetProjectImage(Integer,NSImage)
+so.topic: reference
 ---
 
 

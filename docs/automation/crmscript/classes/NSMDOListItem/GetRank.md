@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSMDOListItem/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetRank
+description: NSMDOListItem.GetRank()
+intellisense: NSMDOListItem.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

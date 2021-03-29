@@ -1,10 +1,10 @@
 ---
-title: Integer GetDetailsTable()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetDetailsTable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetDetailsTable
+description: NSBatchTaskInfo.GetDetailsTable()
+intellisense: NSBatchTaskInfo.GetDetailsTable
 sortOrder: 1370
 keywords: GetDetailsTable()
+so.topic: reference
 ---
 
 

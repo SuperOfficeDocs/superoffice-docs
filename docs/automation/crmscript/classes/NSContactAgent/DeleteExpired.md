@@ -1,10 +1,10 @@
 ---
-title: Void DeleteExpired()
-path: /EJScript/Classes/NSContactAgent/Member functions/Void DeleteExpired()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_DeleteExpired
+description: NSContactAgent.DeleteExpired()
+intellisense: NSContactAgent.DeleteExpired
 sortOrder: 1825
 keywords: DeleteExpired()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetProgId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetProgId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetProgId
+description: NSUserDefinedFieldInfo.GetProgId()
+intellisense: NSUserDefinedFieldInfo.GetProgId
 keywords: GetProgId()
+so.topic: reference
 ---
 
 

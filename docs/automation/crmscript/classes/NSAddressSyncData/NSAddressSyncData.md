@@ -1,9 +1,9 @@
 ---
-title: NSAddressSyncData
-path: /EJScript/Classes/NSAddressSyncData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData
+description: NSAddressSyncData
+intellisense: Void.NSAddressSyncData
 sortOrder: 615
+so.topic: reference
 ---
 
 

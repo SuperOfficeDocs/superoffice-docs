@@ -1,9 +1,9 @@
 ---
-title: Bool NormalizeRanks(Integer contactId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Bool NormalizeRanks(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_NormalizeRanks_Integer_p_0
+description: NSPersonAgent.NormalizeRanks(Integer p_0)
+intellisense: NSPersonAgent.NormalizeRanks
 keywords: NormalizeRanks(Integer)
+so.topic: reference
 ---
 
 

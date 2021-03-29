@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(Integer Status)
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus_SetStatus_Integer_p_0
+description: NSMessageDeliveryStatus.SetStatus(Integer p_0)
+intellisense: NSMessageDeliveryStatus.SetStatus
 keywords: SetStatus(Integer)
+so.topic: reference
 ---
 
 

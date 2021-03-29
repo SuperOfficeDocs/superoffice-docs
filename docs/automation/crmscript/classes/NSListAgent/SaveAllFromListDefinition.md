@@ -1,9 +1,9 @@
 ---
-title: NSListItemEntity[] SaveAllFromListDefinition(Integer udListDefinitionId, NSListItemEntity[] items)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] SaveAllFromListDefinition(Integer p_0, NSListItemEntity[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveAllFromListDefinition_Integer_p_0_NSListItemEntity__p_1
+description: NSListAgent.SaveAllFromListDefinition(Integer p_0, NSListItemEntity[] p_1)
+intellisense: NSListAgent.SaveAllFromListDefinition
 keywords: SaveAllFromListDefinition(Integer,NSListItemEntity[])
+so.topic: reference
 ---
 
 

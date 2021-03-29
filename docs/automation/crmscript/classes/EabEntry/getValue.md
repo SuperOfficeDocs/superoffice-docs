@@ -1,10 +1,10 @@
 ---
-title: String getValue(String p0)
-path: /EJScript/Classes/EabEntry/Member functions/String getValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EabEntry_getValue_String_p_0
+description: EabEntry.getValue(String p_0)
+intellisense: EabEntry.getValue
 sortOrder: 277
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Get the value of the given field in the EabEntry instance.

@@ -1,9 +1,9 @@
 ---
-title: Bool GetShowInMenuBar()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetShowInMenuBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetShowInMenuBar
+description: NSWebPanelEntity.GetShowInMenuBar()
+intellisense: NSWebPanelEntity.GetShowInMenuBar
 keywords: GetShowInMenuBar()
+so.topic: reference
 ---
 
 

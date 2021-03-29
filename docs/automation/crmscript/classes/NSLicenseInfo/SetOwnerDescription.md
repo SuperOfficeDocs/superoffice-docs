@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnerDescription(String OwnerDescription)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetOwnerDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetOwnerDescription_String_p_0
+description: NSLicenseInfo.SetOwnerDescription(String p_0)
+intellisense: NSLicenseInfo.SetOwnerDescription
 keywords: SetOwnerDescription(String)
+so.topic: reference
 ---
 
 

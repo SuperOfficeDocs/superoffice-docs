@@ -1,10 +1,10 @@
 ---
-title: Void SaveRestrictionsWithContext(String storageType, String providerName, String storageKey, NSArchiveRestrictionInfo[] restrictions, String context)
-path: /EJScript/Classes/NSFindAgent/Member functions/Void SaveRestrictionsWithContext(String p_0, String p_1, String p_2, NSArchiveRestrictionInfo[] p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_SaveRestrictionsWithContext_String_p_0_String_p_1_String_p_2_NSArchiveRestrictionInfo__p_3_String_p_4
+description: NSFindAgent.SaveRestrictionsWithContext(String p_0, String p_1, String p_2, NSArchiveRestrictionInfo[] p_3, String p_4)
+intellisense: NSFindAgent.SaveRestrictionsWithContext
 sortOrder: 3686
 keywords: SaveRestrictionsWithContext(String,String,String,NSArchiveRestrictionInfo[],String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetCreatedBy()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetCreatedBy
+description: NSAppointment.GetCreatedBy()
+intellisense: NSAppointment.GetCreatedBy
 sortOrder: 756
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

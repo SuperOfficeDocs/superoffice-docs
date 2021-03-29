@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraId(Integer ExtraId)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetExtraId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetExtraId_Integer_p_0
+description: NSWindowPosSize.SetExtraId(Integer p_0)
+intellisense: NSWindowPosSize.SetExtraId
 keywords: SetExtraId(Integer)
+so.topic: reference
 ---
 
 

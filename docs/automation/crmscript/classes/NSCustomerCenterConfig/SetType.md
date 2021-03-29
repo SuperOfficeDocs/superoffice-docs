@@ -1,10 +1,10 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_SetType_Integer_p_0
+description: NSCustomerCenterConfig.SetType(Integer p_0)
+intellisense: NSCustomerCenterConfig.SetType
 sortOrder: 2208
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

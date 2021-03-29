@@ -1,10 +1,10 @@
 ---
-title: Void SetGroupId(Integer GroupId)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetGroupId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetGroupId_Integer_p_0
+description: NSDashboardTile.SetGroupId(Integer p_0)
+intellisense: NSDashboardTile.SetGroupId
 sortOrder: 2310
 keywords: SetGroupId(Integer)
+so.topic: reference
 ---
 
 

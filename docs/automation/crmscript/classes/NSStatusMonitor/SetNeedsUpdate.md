@@ -1,9 +1,9 @@
 ---
-title: Void SetNeedsUpdate(Bool NeedsUpdate)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetNeedsUpdate(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetNeedsUpdate_Bool_p_0
+description: NSStatusMonitor.SetNeedsUpdate(Bool p_0)
+intellisense: NSStatusMonitor.SetNeedsUpdate
 keywords: SetNeedsUpdate(Bool)
+so.topic: reference
 ---
 
 

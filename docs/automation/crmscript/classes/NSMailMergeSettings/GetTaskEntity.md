@@ -1,9 +1,9 @@
 ---
-title: NSMailMergeTask GetTaskEntity()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/NSMailMergeTask GetTaskEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetTaskEntity
+description: NSMailMergeSettings.GetTaskEntity()
+intellisense: NSMailMergeSettings.GetTaskEntity
 keywords: GetTaskEntity()
+so.topic: reference
 ---
 
 

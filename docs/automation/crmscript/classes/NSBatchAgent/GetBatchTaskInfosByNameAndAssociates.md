@@ -1,10 +1,10 @@
 ---
-title: NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String name, Integer[] associateIds)
-path: /EJScript/Classes/NSBatchAgent/Member functions/NSBatchTaskInfo[] GetBatchTaskInfosByNameAndAssociates(String p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByNameAndAssociates_String_p_0_Integer__p_1
+description: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates(String p_0, Integer[] p_1)
+intellisense: NSBatchAgent.GetBatchTaskInfosByNameAndAssociates
 sortOrder: 1357
 keywords: GetBatchTaskInfosByNameAndAssociates(String,Integer[])
+so.topic: reference
 ---
 
 

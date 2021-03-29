@@ -1,9 +1,9 @@
 ---
-title: Map GetConnectionConfigFields(Integer p0)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Map GetConnectionConfigFields(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetConnectionConfigFields_Integer_p_0
+description: NSQuoteAgent.GetConnectionConfigFields(Integer p_0)
+intellisense: NSQuoteAgent.GetConnectionConfigFields
 keywords: GetConnectionConfigFields(Integer)
+so.topic: reference
 ---
 
 

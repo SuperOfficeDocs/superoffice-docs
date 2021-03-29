@@ -1,10 +1,10 @@
 ---
-title: String GetProgressDescription()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetProgressDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetProgressDescription
+description: NSBatchTaskInfo.GetProgressDescription()
+intellisense: NSBatchTaskInfo.GetProgressDescription
 sortOrder: 1380
 keywords: GetProgressDescription()
+so.topic: reference
 ---
 
 

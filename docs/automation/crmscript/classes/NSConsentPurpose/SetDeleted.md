@@ -1,10 +1,10 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_SetDeleted_Bool_p_0
+description: NSConsentPurpose.SetDeleted(Bool p_0)
+intellisense: NSConsentPurpose.SetDeleted
 sortOrder: 1690
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

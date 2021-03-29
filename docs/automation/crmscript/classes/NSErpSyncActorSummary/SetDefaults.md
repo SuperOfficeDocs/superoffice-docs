@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaults(String Defaults)
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Void SetDefaults(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_SetDefaults_String_p_0
+description: NSErpSyncActorSummary.SetDefaults(String p_0)
+intellisense: NSErpSyncActorSummary.SetDefaults
 sortOrder: 3157
 keywords: SetDefaults(String)
+so.topic: reference
 ---
 
 

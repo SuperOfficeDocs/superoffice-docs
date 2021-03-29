@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityEscalateEvent GetTicketClosed()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityEscalateEvent GetTicketClosed()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetTicketClosed
+description: NSTicketPriorityEntity.GetTicketClosed()
+intellisense: NSTicketPriorityEntity.GetTicketClosed
 keywords: GetTicketClosed()
+so.topic: reference
 ---
 
 

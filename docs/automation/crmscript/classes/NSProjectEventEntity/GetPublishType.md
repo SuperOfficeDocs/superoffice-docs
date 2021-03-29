@@ -1,9 +1,9 @@
 ---
-title: Integer GetPublishType()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Integer GetPublishType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetPublishType
+description: NSProjectEventEntity.GetPublishType()
+intellisense: NSProjectEventEntity.GetPublishType
 keywords: GetPublishType()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSUser/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetType
+description: NSUser.GetType()
+intellisense: NSUser.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

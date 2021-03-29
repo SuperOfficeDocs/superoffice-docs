@@ -1,9 +1,9 @@
 ---
-title: Integer GetIncludePerson()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetIncludePerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetIncludePerson
+description: NSSelectionEntity.GetIncludePerson()
+intellisense: NSSelectionEntity.GetIncludePerson
 keywords: GetIncludePerson()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetSourcePersonName()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetSourcePersonName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetSourcePersonName
+description: NSContactRelationEntity.GetSourcePersonName()
+intellisense: NSContactRelationEntity.GetSourcePersonName
 sortOrder: 1961
 keywords: GetSourcePersonName()
+so.topic: reference
 ---
 
 

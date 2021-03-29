@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncActorSummary
-path: /EJScript/Classes/NSErpSyncActorSummary
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary
+description: NSErpSyncActorSummary
+intellisense: Void.NSErpSyncActorSummary
 sortOrder: 3150
+so.topic: reference
 ---
 
 

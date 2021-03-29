@@ -1,9 +1,9 @@
 ---
-title: Void SetDurationUnit(Integer p0)
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetDurationUnit(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeEntity_SetDurationUnit_Integer_p_0
+description: NSProjectTypeEntity.SetDurationUnit(Integer p_0)
+intellisense: NSProjectTypeEntity.SetDurationUnit
 keywords: SetDurationUnit(Integer)
+so.topic: reference
 ---
 
 Units for the duration

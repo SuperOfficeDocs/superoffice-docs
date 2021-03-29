@@ -1,9 +1,9 @@
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetIconHint_String_p_0
+description: NSQuoteVersionStatusInformation.SetIconHint(String p_0)
+intellisense: NSQuoteVersionStatusInformation.SetIconHint
 keywords: SetIconHint(String)
+so.topic: reference
 ---
 
 

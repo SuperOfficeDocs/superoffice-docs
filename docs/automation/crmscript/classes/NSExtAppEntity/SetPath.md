@@ -1,10 +1,10 @@
 ---
-title: Void SetPath(String Path)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetPath(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetPath_String_p_0
+description: NSExtAppEntity.SetPath(String p_0)
+intellisense: NSExtAppEntity.SetPath
 sortOrder: 3390
 keywords: SetPath(String)
+so.topic: reference
 ---
 
 

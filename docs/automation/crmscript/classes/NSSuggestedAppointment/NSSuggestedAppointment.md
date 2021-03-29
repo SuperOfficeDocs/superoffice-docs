@@ -1,8 +1,8 @@
 ---
-title: NSSuggestedAppointment
-path: /EJScript/Classes/NSSuggestedAppointment
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment
+description: NSSuggestedAppointment
+intellisense: Void.NSSuggestedAppointment
+so.topic: reference
 ---
 
 

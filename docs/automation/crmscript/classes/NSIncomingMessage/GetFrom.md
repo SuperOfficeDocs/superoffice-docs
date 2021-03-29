@@ -1,10 +1,10 @@
 ---
-title: String GetFrom()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_GetFrom
+description: NSIncomingMessage.GetFrom()
+intellisense: NSIncomingMessage.GetFrom
 sortOrder: 3988
 keywords: GetFrom()
+so.topic: reference
 ---
 
 

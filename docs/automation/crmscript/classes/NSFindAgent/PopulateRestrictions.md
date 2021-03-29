@@ -1,10 +1,10 @@
 ---
-title: NSArchiveRestrictionInfo[] PopulateRestrictions(String providerName, NSArchiveRestrictionInfo[] restrictions)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveRestrictionInfo[] PopulateRestrictions(String p_0, NSArchiveRestrictionInfo[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_PopulateRestrictions_String_p_0_NSArchiveRestrictionInfo__p_1
+description: NSFindAgent.PopulateRestrictions(String p_0, NSArchiveRestrictionInfo[] p_1)
+intellisense: NSFindAgent.PopulateRestrictions
 sortOrder: 3662
 keywords: PopulateRestrictions(String,NSArchiveRestrictionInfo[])
+so.topic: reference
 ---
 
 

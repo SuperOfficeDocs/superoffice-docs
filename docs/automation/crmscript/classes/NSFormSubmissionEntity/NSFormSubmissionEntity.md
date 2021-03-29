@@ -1,9 +1,9 @@
 ---
-title: NSFormSubmissionEntity
-path: /EJScript/Classes/NSFormSubmissionEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity
+description: NSFormSubmissionEntity
+intellisense: Void.NSFormSubmissionEntity
 sortOrder: 3828
+so.topic: reference
 ---
 
 

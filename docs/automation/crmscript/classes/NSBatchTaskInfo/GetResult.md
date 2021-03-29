@@ -1,10 +1,10 @@
 ---
-title: String GetResult()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetResult()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetResult
+description: NSBatchTaskInfo.GetResult()
+intellisense: NSBatchTaskInfo.GetResult
 sortOrder: 1383
 keywords: GetResult()
+so.topic: reference
 ---
 
 

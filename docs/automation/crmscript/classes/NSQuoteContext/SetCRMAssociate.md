@@ -1,9 +1,9 @@
 ---
-title: Void SetCRMAssociate(NSAssociate CRMAssociate)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_SetCRMAssociate_NSAssociate_p_0
+description: NSQuoteContext.SetCRMAssociate(NSAssociate p_0)
+intellisense: NSQuoteContext.SetCRMAssociate
 keywords: SetCRMAssociate(NSAssociate)
+so.topic: reference
 ---
 
 

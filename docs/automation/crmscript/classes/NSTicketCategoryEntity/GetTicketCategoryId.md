@@ -1,9 +1,9 @@
 ---
-title: Integer GetTicketCategoryId()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetTicketCategoryId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetTicketCategoryId
+description: NSTicketCategoryEntity.GetTicketCategoryId()
+intellisense: NSTicketCategoryEntity.GetTicketCategoryId
 keywords: GetTicketCategoryId()
+so.topic: reference
 ---
 
 

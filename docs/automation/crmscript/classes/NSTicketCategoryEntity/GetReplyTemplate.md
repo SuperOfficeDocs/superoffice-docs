@@ -1,9 +1,9 @@
 ---
-title: Integer GetReplyTemplate()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetReplyTemplate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetReplyTemplate
+description: NSTicketCategoryEntity.GetReplyTemplate()
+intellisense: NSTicketCategoryEntity.GetReplyTemplate
 keywords: GetReplyTemplate()
+so.topic: reference
 ---
 
 

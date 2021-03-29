@@ -1,9 +1,9 @@
 ---
-title: Void SetMonStop(DateTime MonStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetMonStop(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetMonStop_DateTime_p_0
+description: NSTicketPriorityEntity.SetMonStop(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetMonStop
 keywords: SetMonStop(DateTime)
+so.topic: reference
 ---
 
 

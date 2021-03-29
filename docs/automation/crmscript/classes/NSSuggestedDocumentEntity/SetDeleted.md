@@ -1,9 +1,9 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_SetDeleted_Bool_p_0
+description: NSSuggestedDocumentEntity.SetDeleted(Bool p_0)
+intellisense: NSSuggestedDocumentEntity.SetDeleted
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

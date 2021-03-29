@@ -1,10 +1,10 @@
 ---
-title: NSEMailAccount CreateDefaultEMailAccount()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount CreateDefaultEMailAccount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAccount
+description: NSEMailAgent.CreateDefaultEMailAccount()
+intellisense: NSEMailAgent.CreateDefaultEMailAccount
 sortOrder: 2794
 keywords: CreateDefaultEMailAccount()
+so.topic: reference
 ---
 
 

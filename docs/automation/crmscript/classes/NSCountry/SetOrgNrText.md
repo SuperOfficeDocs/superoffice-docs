@@ -1,10 +1,10 @@
 ---
-title: Void SetOrgNrText(String OrgNrText)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetOrgNrText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_SetOrgNrText_String_p_0
+description: NSCountry.SetOrgNrText(String p_0)
+intellisense: NSCountry.SetOrgNrText
 sortOrder: 2042
 keywords: SetOrgNrText(String)
+so.topic: reference
 ---
 
 

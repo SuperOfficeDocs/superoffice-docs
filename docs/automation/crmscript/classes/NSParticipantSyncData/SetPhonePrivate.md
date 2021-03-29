@@ -1,9 +1,9 @@
 ---
-title: Void SetPhonePrivate(String[] PhonePrivate)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhonePrivate(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPhonePrivate_String__p_0
+description: NSParticipantSyncData.SetPhonePrivate(String[] p_0)
+intellisense: NSParticipantSyncData.SetPhonePrivate
 keywords: SetPhonePrivate(String[])
+so.topic: reference
 ---
 
 

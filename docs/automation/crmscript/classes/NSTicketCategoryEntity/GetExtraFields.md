@@ -1,9 +1,9 @@
 ---
-title: Map GetExtraFields()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Map GetExtraFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetExtraFields
+description: NSTicketCategoryEntity.GetExtraFields()
+intellisense: NSTicketCategoryEntity.GetExtraFields
 keywords: GetExtraFields()
+so.topic: reference
 ---
 
 

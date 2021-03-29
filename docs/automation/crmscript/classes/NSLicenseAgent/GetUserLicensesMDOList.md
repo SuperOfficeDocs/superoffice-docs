@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetUserLicensesMDOList()
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSSelectableMDOListItem[] GetUserLicensesMDOList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetUserLicensesMDOList
+description: NSLicenseAgent.GetUserLicensesMDOList()
+intellisense: NSLicenseAgent.GetUserLicensesMDOList
 keywords: GetUserLicensesMDOList()
+so.topic: reference
 ---
 
 

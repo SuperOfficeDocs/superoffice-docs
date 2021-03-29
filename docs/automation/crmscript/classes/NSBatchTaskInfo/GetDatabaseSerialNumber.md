@@ -1,10 +1,10 @@
 ---
-title: String GetDatabaseSerialNumber()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetDatabaseSerialNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetDatabaseSerialNumber
+description: NSBatchTaskInfo.GetDatabaseSerialNumber()
+intellisense: NSBatchTaskInfo.GetDatabaseSerialNumber
 sortOrder: 1377
 keywords: GetDatabaseSerialNumber()
+so.topic: reference
 ---
 
 

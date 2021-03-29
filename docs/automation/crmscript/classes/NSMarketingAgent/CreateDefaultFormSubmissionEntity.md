@@ -1,9 +1,9 @@
 ---
-title: NSFormSubmissionEntity CreateDefaultFormSubmissionEntity()
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity CreateDefaultFormSubmissionEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent_CreateDefaultFormSubmissionEntity
+description: NSMarketingAgent.CreateDefaultFormSubmissionEntity()
+intellisense: NSMarketingAgent.CreateDefaultFormSubmissionEntity
 keywords: CreateDefaultFormSubmissionEntity()
+so.topic: reference
 ---
 
 

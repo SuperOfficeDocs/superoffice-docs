@@ -1,9 +1,9 @@
 ---
-title: Void SetFutureOpenTotalBaseCurrency(Float FutureOpenTotalBaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetFutureOpenTotalBaseCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetFutureOpenTotalBaseCurrency_Float_p_0
+description: NSSaleSummary.SetFutureOpenTotalBaseCurrency(Float p_0)
+intellisense: NSSaleSummary.SetFutureOpenTotalBaseCurrency
 keywords: SetFutureOpenTotalBaseCurrency(Float)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetBlobSize(Integer BlobSize)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetBlobSize(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetBlobSize_Integer_p_0
+description: NSBlobEntity.SetBlobSize(Integer p_0)
+intellisense: NSBlobEntity.SetBlobSize
 sortOrder: 1454
 keywords: SetBlobSize(Integer)
+so.topic: reference
 ---
 
 

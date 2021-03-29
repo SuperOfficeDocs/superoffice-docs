@@ -1,10 +1,10 @@
 ---
-title: Void SetRuleName(String p0)
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/Void SetRuleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDuplicateEntry_SetRuleName_String_p_0
+description: NSDuplicateEntry.SetRuleName(String p_0)
+intellisense: NSDuplicateEntry.SetRuleName
 sortOrder: 2730
 keywords: SetRuleName(String)
+so.topic: reference
 ---
 
 Identifying name for rule

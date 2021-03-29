@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteLineId(Integer QuoteLineId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetQuoteLineId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetQuoteLineId_Integer_p_0
+description: NSTemplateVariablesParameters.SetQuoteLineId(Integer p_0)
+intellisense: NSTemplateVariablesParameters.SetQuoteLineId
 keywords: SetQuoteLineId(Integer)
+so.topic: reference
 ---
 
 

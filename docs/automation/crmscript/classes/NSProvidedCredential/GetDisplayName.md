@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSProvidedCredential/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProvidedCredential_GetDisplayName
+description: NSProvidedCredential.GetDisplayName()
+intellisense: NSProvidedCredential.GetDisplayName
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

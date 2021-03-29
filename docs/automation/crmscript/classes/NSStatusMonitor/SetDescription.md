@@ -1,9 +1,9 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetDescription_String_p_0
+description: NSStatusMonitor.SetDescription(String p_0)
+intellisense: NSStatusMonitor.SetDescription
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

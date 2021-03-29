@@ -1,9 +1,9 @@
 ---
-title: String GetPassword()
-path: /EJScript/Classes/NSServiceAuth/Member functions/String GetPassword()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_GetPassword
+description: NSServiceAuth.GetPassword()
+intellisense: NSServiceAuth.GetPassword
 keywords: GetPassword()
+so.topic: reference
 ---
 
 

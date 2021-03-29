@@ -1,9 +1,9 @@
 ---
-title: Integer GetResourceId()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Integer GetResourceId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_GetResourceId
+description: NSLocalizedText.GetResourceId()
+intellisense: NSLocalizedText.GetResourceId
 keywords: GetResourceId()
+so.topic: reference
 ---
 
 

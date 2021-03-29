@@ -1,10 +1,10 @@
 ---
-title: Void SetIsBookingMain(Bool IsBookingMain)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsBookingMain(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetIsBookingMain_Bool_p_0
+description: NSAppointment.SetIsBookingMain(Bool p_0)
+intellisense: NSAppointment.SetIsBookingMain
 sortOrder: 796
 keywords: SetIsBookingMain(Bool)
+so.topic: reference
 ---
 
 

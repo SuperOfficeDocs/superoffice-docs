@@ -1,9 +1,9 @@
 ---
-title: NSDataRight
-path: /EJScript/Classes/NSDataRight
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDataRight
+description: NSDataRight
+intellisense: Void.NSDataRight
 sortOrder: 2342
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SendPushNotification(Integer[] associateIds, NSPocketNotificationMessage message)
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void SendPushNotification(Integer[] p_0, NSPocketNotificationMessage p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_SendPushNotification_Integer__p_0_NSPocketNotificationMessage_p_1
+description: NSPocketAgent.SendPushNotification(Integer[] p_0, NSPocketNotificationMessage p_1)
+intellisense: NSPocketAgent.SendPushNotification
 keywords: SendPushNotification(Integer[],NSPocketNotificationMessage)
+so.topic: reference
 ---
 
 

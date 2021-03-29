@@ -1,9 +1,9 @@
 ---
-title: Bool GetShowInToolBar()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetShowInToolBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetShowInToolBar
+description: NSWebPanelEntity.GetShowInToolBar()
+intellisense: NSWebPanelEntity.GetShowInToolBar
 keywords: GetShowInToolBar()
+so.topic: reference
 ---
 
 

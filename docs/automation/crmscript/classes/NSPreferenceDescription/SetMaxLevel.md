@@ -1,9 +1,9 @@
 ---
-title: Void SetMaxLevel(Integer p0)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetMaxLevel(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetMaxLevel_Integer_p_0
+description: NSPreferenceDescription.SetMaxLevel(Integer p_0)
+intellisense: NSPreferenceDescription.SetMaxLevel
 keywords: SetMaxLevel(Integer)
+so.topic: reference
 ---
 
 

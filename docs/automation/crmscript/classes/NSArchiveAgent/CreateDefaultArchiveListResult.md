@@ -1,10 +1,10 @@
 ---
-title: NSArchiveListResult CreateDefaultArchiveListResult()
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSArchiveListResult CreateDefaultArchiveListResult()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_CreateDefaultArchiveListResult
+description: NSArchiveAgent.CreateDefaultArchiveListResult()
+intellisense: NSArchiveAgent.CreateDefaultArchiveListResult
 sortOrder: 1113
 keywords: CreateDefaultArchiveListResult()
+so.topic: reference
 ---
 
 

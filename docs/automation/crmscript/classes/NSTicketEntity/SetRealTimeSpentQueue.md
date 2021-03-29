@@ -1,9 +1,9 @@
 ---
-title: Void SetRealTimeSpentQueue(Integer RealTimeSpentQueue)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRealTimeSpentQueue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetRealTimeSpentQueue_Integer_p_0
+description: NSTicketEntity.SetRealTimeSpentQueue(Integer p_0)
+intellisense: NSTicketEntity.SetRealTimeSpentQueue
 keywords: SetRealTimeSpentQueue(Integer)
+so.topic: reference
 ---
 
 

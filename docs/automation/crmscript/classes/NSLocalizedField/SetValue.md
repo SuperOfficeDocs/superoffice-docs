@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String p0)
-path: /EJScript/Classes/NSLocalizedField/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedField_SetValue_String_p_0
+description: NSLocalizedField.SetValue(String p_0)
+intellisense: NSLocalizedField.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

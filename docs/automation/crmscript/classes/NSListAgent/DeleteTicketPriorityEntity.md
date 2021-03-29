@@ -1,9 +1,9 @@
 ---
-title: Void DeleteTicketPriorityEntity(Integer ticketPriorityEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteTicketPriorityEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteTicketPriorityEntity_Integer_p_0
+description: NSListAgent.DeleteTicketPriorityEntity(Integer p_0)
+intellisense: NSListAgent.DeleteTicketPriorityEntity
 keywords: DeleteTicketPriorityEntity(Integer)
+so.topic: reference
 ---
 
 

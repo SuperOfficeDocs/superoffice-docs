@@ -1,9 +1,9 @@
 ---
-title: String GetCategoryName()
-path: /EJScript/Classes/NSMailbox/Member functions/String GetCategoryName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox_GetCategoryName
+description: NSMailbox.GetCategoryName()
+intellisense: NSMailbox.GetCategoryName
 keywords: GetCategoryName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSContactActivity[] GetMyActiveContacts(DateTime activityStartTime, Integer[] contactCategories, Integer actionType)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactActivity[] GetMyActiveContacts(DateTime p_0, Integer[] p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetMyActiveContacts_DateTime_p_0_Integer__p_1_Integer_p_2
+description: NSContactAgent.GetMyActiveContacts(DateTime p_0, Integer[] p_1, Integer p_2)
+intellisense: NSContactAgent.GetMyActiveContacts
 sortOrder: 1807
 keywords: GetMyActiveContacts(DateTime,Integer[],Integer)
+so.topic: reference
 ---
 
 

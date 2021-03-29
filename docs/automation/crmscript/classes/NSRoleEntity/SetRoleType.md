@@ -1,9 +1,9 @@
 ---
-title: Void SetRoleType(Integer RoleType)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetRoleType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_SetRoleType_Integer_p_0
+description: NSRoleEntity.SetRoleType(Integer p_0)
+intellisense: NSRoleEntity.SetRoleType
 keywords: SetRoleType(Integer)
+so.topic: reference
 ---
 
 

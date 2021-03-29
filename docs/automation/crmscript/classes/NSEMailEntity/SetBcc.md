@@ -1,10 +1,10 @@
 ---
-title: Void SetBcc(NSEMailAddress[] Bcc)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetBcc(NSEMailAddress[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetBcc_NSEMailAddress__p_0
+description: NSEMailEntity.SetBcc(NSEMailAddress[] p_0)
+intellisense: NSEMailEntity.SetBcc
 sortOrder: 2974
 keywords: SetBcc(NSEMailAddress[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void addDataField(String field1, String field2, String func)
-path: /EJScript/Classes/SearchEngine/member functions/Void addDataField(String field1, String field2, String func)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addDataField_String_field1_String_field2_String_func
+description: SearchEngine.addDataField(String field1, String field2, String func)
+intellisense: SearchEngine.addDataField
 keywords: addDataField(String,String,String)
+so.topic: reference
 ---
 
 

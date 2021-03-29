@@ -1,8 +1,8 @@
 ---
-title: NSMailMergeSettings
-path: /EJScript/Classes/NSMailMergeSettings
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings
+description: NSMailMergeSettings
+intellisense: Void.NSMailMergeSettings
+so.topic: reference
 ---
 
 

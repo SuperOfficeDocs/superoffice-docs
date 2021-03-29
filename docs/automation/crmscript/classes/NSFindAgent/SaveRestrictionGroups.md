@@ -1,10 +1,10 @@
 ---
-title: NSArchiveRestrictionGroup[] SaveRestrictionGroups(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup[] restrictionGroups, String context)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveRestrictionGroup[] SaveRestrictionGroups(String p_0, String p_1, String p_2, NSArchiveRestrictionGroup[] p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_SaveRestrictionGroups_String_p_0_String_p_1_String_p_2_NSArchiveRestrictionGroup__p_3_String_p_4
+description: NSFindAgent.SaveRestrictionGroups(String p_0, String p_1, String p_2, NSArchiveRestrictionGroup[] p_3, String p_4)
+intellisense: NSFindAgent.SaveRestrictionGroups
 sortOrder: 3661
 keywords: SaveRestrictionGroups(String,String,String,NSArchiveRestrictionGroup[],String)
+so.topic: reference
 ---
 
 

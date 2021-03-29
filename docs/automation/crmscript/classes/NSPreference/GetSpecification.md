@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceSpec GetSpecification()
-path: /EJScript/Classes/NSPreference/Member functions/NSPreferenceSpec GetSpecification()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetSpecification
+description: NSPreference.GetSpecification()
+intellisense: NSPreference.GetSpecification
 keywords: GetSpecification()
+so.topic: reference
 ---
 
 

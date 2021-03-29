@@ -1,9 +1,9 @@
 ---
-title: NSHistory GetPreviousCurrent(String historyName, Integer id)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory GetPreviousCurrent(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_GetPreviousCurrent_String_p_0_Integer_p_1
+description: NSViewStateAgent.GetPreviousCurrent(String p_0, Integer p_1)
+intellisense: NSViewStateAgent.GetPreviousCurrent
 keywords: GetPreviousCurrent(String,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPublishTo(DateTime PublishTo)
-path: /EJScript/Classes/NSProject/Member functions/Void SetPublishTo(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_SetPublishTo_DateTime_p_0
+description: NSProject.SetPublishTo(DateTime p_0)
+intellisense: NSProject.SetPublishTo
 keywords: SetPublishTo(DateTime)
+so.topic: reference
 ---
 
 

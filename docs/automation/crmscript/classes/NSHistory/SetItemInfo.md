@@ -1,10 +1,10 @@
 ---
-title: Void SetItemInfo(String ItemInfo)
-path: /EJScript/Classes/NSHistory/Member functions/Void SetItemInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_SetItemInfo_String_p_0
+description: NSHistory.SetItemInfo(String p_0)
+intellisense: NSHistory.SetItemInfo
 sortOrder: 3937
 keywords: SetItemInfo(String)
+so.topic: reference
 ---
 
 

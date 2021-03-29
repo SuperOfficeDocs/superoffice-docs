@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice SaveDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier, NSForeignDevice foreignDevice)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice SaveDeviceByIdentifier(String p_0, String p_1, String p_2, NSForeignDevice p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_SaveDeviceByIdentifier_String_p_0_String_p_1_String_p_2_NSForeignDevice_p_3
+description: NSForeignSystemAgent.SaveDeviceByIdentifier(String p_0, String p_1, String p_2, NSForeignDevice p_3)
+intellisense: NSForeignSystemAgent.SaveDeviceByIdentifier
 sortOrder: 3760
 keywords: SaveDeviceByIdentifier(String,String,String,NSForeignDevice)
+so.topic: reference
 ---
 
 

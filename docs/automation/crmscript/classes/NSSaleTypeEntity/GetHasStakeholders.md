@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasStakeholders()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetHasStakeholders()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetHasStakeholders
+description: NSSaleTypeEntity.GetHasStakeholders()
+intellisense: NSSaleTypeEntity.GetHasStakeholders
 keywords: GetHasStakeholders()
+so.topic: reference
 ---
 
 

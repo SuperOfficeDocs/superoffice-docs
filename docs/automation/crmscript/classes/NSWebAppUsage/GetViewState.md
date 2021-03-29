@@ -1,9 +1,9 @@
 ---
-title: String GetViewState()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/String GetViewState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetViewState
+description: NSWebAppUsage.GetViewState()
+intellisense: NSWebAppUsage.GetViewState
 keywords: GetViewState()
+so.topic: reference
 ---
 
 

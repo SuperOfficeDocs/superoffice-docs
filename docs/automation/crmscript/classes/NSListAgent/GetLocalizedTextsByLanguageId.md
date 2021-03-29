@@ -1,9 +1,9 @@
 ---
-title: NSLocalizedText[] GetLocalizedTextsByLanguageId(Integer languageId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText[] GetLocalizedTextsByLanguageId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLocalizedTextsByLanguageId_Integer_p_0
+description: NSListAgent.GetLocalizedTextsByLanguageId(Integer p_0)
+intellisense: NSListAgent.GetLocalizedTextsByLanguageId
 keywords: GetLocalizedTextsByLanguageId(Integer)
+so.topic: reference
 ---
 
 

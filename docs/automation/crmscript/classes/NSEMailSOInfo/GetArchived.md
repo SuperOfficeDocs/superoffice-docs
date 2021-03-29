@@ -1,10 +1,10 @@
 ---
-title: Bool GetArchived()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Bool GetArchived()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetArchived
+description: NSEMailSOInfo.GetArchived()
+intellisense: NSEMailSOInfo.GetArchived
 sortOrder: 3044
 keywords: GetArchived()
+so.topic: reference
 ---
 
 

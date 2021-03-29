@@ -1,9 +1,9 @@
 ---
-title: Void SetTableRights(NSETableRight[] TableRights)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetTableRights(NSETableRight[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetTableRights_NSETableRight__p_0
+description: NSPocketStartupData.SetTableRights(NSETableRight[] p_0)
+intellisense: NSPocketStartupData.SetTableRights
 keywords: SetTableRights(NSETableRight[])
+so.topic: reference
 ---
 
 

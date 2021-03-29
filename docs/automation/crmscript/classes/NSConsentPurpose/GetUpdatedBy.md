@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_GetUpdatedBy
+description: NSConsentPurpose.GetUpdatedBy()
+intellisense: NSConsentPurpose.GetUpdatedBy
 sortOrder: 1679
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetProjectName()
-path: /EJScript/Classes/NSDocument/Member functions/String GetProjectName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument_GetProjectName
+description: NSDocument.GetProjectName()
+intellisense: NSDocument.GetProjectName
 sortOrder: 2444
 keywords: GetProjectName()
+so.topic: reference
 ---
 
 

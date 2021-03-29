@@ -1,10 +1,10 @@
 ---
-title: Void SetHasFirstSyncDefaultValue(Bool HasFirstSyncDefaultValue)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetHasFirstSyncDefaultValue(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_SetHasFirstSyncDefaultValue_Bool_p_0
+description: NSErpSyncDefaultValue.SetHasFirstSyncDefaultValue(Bool p_0)
+intellisense: NSErpSyncDefaultValue.SetHasFirstSyncDefaultValue
 sortOrder: 3271
 keywords: SetHasFirstSyncDefaultValue(Bool)
+so.topic: reference
 ---
 
 

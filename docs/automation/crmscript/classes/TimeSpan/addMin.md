@@ -1,9 +1,9 @@
 ---
-title: Void addMin(Integer num)
-path: /EJScript/Classes/TimeSpan/Member functions/Void addMin(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_addMin_Integer_num
+description: TimeSpan.addMin(Integer num)
+intellisense: TimeSpan.addMin
 keywords: addMin(Integer)
+so.topic: reference
 ---
 
 

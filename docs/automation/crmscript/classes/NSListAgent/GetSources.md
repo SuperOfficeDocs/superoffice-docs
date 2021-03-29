@@ -1,9 +1,9 @@
 ---
-title: NSSource[] GetSources()
-path: /EJScript/Classes/NSListAgent/Member functions/NSSource[] GetSources()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSources
+description: NSListAgent.GetSources()
+intellisense: NSListAgent.GetSources
 keywords: GetSources()
+so.topic: reference
 ---
 
 

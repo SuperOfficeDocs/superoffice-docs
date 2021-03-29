@@ -1,9 +1,9 @@
 ---
-title: Integer GetAddCompanyInterest()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetAddCompanyInterest()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetAddCompanyInterest
+description: NSMailMergeSettings.GetAddCompanyInterest()
+intellisense: NSMailMergeSettings.GetAddCompanyInterest
 keywords: GetAddCompanyInterest()
+so.topic: reference
 ---
 
 

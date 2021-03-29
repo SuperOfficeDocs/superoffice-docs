@@ -1,10 +1,10 @@
 ---
-title: String[] ToggleErpConnectionActive(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/String[] ToggleErpConnectionActive(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ToggleErpConnectionActive_Integer_p_0
+description: NSErpSyncAgent.ToggleErpConnectionActive(Integer p_0)
+intellisense: NSErpSyncAgent.ToggleErpConnectionActive
 sortOrder: 3216
 keywords: ToggleErpConnectionActive(Integer)
+so.topic: reference
 ---
 
 

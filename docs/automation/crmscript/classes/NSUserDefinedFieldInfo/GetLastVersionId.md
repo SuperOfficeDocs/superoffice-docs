@@ -1,9 +1,9 @@
 ---
-title: Integer GetLastVersionId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLastVersionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetLastVersionId
+description: NSUserDefinedFieldInfo.GetLastVersionId()
+intellisense: NSUserDefinedFieldInfo.GetLastVersionId
 keywords: GetLastVersionId()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSPreferenceAgent
-path: /EJScript/Classes/NSPreferenceAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent
+description: NSPreferenceAgent
+intellisense: Void.NSPreferenceAgent
+so.topic: reference
 ---
 
 

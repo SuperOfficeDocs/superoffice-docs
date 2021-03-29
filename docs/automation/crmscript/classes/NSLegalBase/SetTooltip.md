@@ -1,9 +1,9 @@
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_SetTooltip_String_p_0
+description: NSLegalBase.SetTooltip(String p_0)
+intellisense: NSLegalBase.SetTooltip
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

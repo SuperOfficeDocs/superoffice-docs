@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncConnectorEntity SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity erpSyncConnectorEntity)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncConnectorEntity SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SaveErpSyncConnectorEntity_NSErpSyncConnectorEntity_p_0
+description: NSErpSyncAgent.SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity p_0)
+intellisense: NSErpSyncAgent.SaveErpSyncConnectorEntity
 sortOrder: 3202
 keywords: SaveErpSyncConnectorEntity(NSErpSyncConnectorEntity)
+so.topic: reference
 ---
 
 

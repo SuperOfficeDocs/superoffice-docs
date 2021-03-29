@@ -1,10 +1,10 @@
 ---
-title: Void SetUseSSL(Bool UseSSL)
-path: /EJScript/Classes/NSEMailConnectionInfo/Member functions/Void SetUseSSL(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfo_SetUseSSL_Bool_p_0
+description: NSEMailConnectionInfo.SetUseSSL(Bool p_0)
+intellisense: NSEMailConnectionInfo.SetUseSSL
 sortOrder: 2919
 keywords: SetUseSSL(Bool)
+so.topic: reference
 ---
 
 

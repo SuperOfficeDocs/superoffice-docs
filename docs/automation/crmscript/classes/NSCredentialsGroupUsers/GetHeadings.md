@@ -1,10 +1,10 @@
 ---
-title: String[] GetHeadings()
-path: /EJScript/Classes/NSCredentialsGroupUsers/Member functions/String[] GetHeadings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroupUsers_GetHeadings
+description: NSCredentialsGroupUsers.GetHeadings()
+intellisense: NSCredentialsGroupUsers.GetHeadings
 sortOrder: 2065
 keywords: GetHeadings()
+so.topic: reference
 ---
 
 

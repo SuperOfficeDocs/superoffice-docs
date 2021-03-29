@@ -1,10 +1,10 @@
 ---
-title: NSDashboardTile CreateDefaultDashboardTile()
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile CreateDefaultDashboardTile()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_CreateDefaultDashboardTile
+description: NSDashboardAgent.CreateDefaultDashboardTile()
+intellisense: NSDashboardAgent.CreateDefaultDashboardTile
 sortOrder: 2277
 keywords: CreateDefaultDashboardTile()
+so.topic: reference
 ---
 
 

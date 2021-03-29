@@ -1,9 +1,9 @@
 ---
-title: Integer GetDuration()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetDuration()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetDuration
+description: NSSuggestedAppointment.GetDuration()
+intellisense: NSSuggestedAppointment.GetDuration
 keywords: GetDuration()
+so.topic: reference
 ---
 
 

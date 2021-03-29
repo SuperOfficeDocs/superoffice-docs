@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescriptionLine CreateDefaultPreferenceDescriptionLine()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_CreateDefaultPreferenceDescriptionLine
+description: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine()
+intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescriptionLine
 keywords: CreateDefaultPreferenceDescriptionLine()
+so.topic: reference
 ---
 
 

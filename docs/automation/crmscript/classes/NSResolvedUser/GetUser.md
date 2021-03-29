@@ -1,9 +1,9 @@
 ---
-title: NSUser GetUser()
-path: /EJScript/Classes/NSResolvedUser/Member functions/NSUser GetUser()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResolvedUser_GetUser
+description: NSResolvedUser.GetUser()
+intellisense: NSResolvedUser.GetUser
 keywords: GetUser()
+so.topic: reference
 ---
 
 

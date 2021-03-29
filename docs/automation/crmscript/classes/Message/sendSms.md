@@ -1,10 +1,10 @@
 ---
-title: Bool sendSms(Vector to)
-path: /EJScript/Classes/Message/Member functions/Bool sendSms(Vector to)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_sendSms_Vector_to
+description: Message.sendSms(Vector to)
+intellisense: Message.sendSms
 sortOrder: 546
 keywords: sendSms(Vector)
+so.topic: reference
 ---
 
 Sends an sms-version of the message to the numbers in the vector.

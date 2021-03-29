@@ -1,10 +1,10 @@
 ---
-title: Void SetMandatory(Bool Mandatory)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetMandatory(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetMandatory_Bool_p_0
+description: NSFieldValueInfo.SetMandatory(Bool p_0)
+intellisense: NSFieldValueInfo.SetMandatory
 sortOrder: 3647
 keywords: SetMandatory(Bool)
+so.topic: reference
 ---
 
 

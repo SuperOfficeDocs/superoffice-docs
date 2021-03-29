@@ -1,10 +1,10 @@
 ---
-title: DateTime GetReceivedAt()
-path: /EJScript/Classes/NSEMailEntity/Member functions/DateTime GetReceivedAt()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetReceivedAt
+description: NSEMailEntity.GetReceivedAt()
+intellisense: NSEMailEntity.GetReceivedAt
 sortOrder: 2946
 keywords: GetReceivedAt()
+so.topic: reference
 ---
 
 

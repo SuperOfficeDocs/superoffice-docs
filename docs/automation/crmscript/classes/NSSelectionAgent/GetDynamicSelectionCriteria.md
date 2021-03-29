@@ -1,9 +1,9 @@
 ---
-title: NSArchiveRestrictionInfo[] GetDynamicSelectionCriteria(Integer selectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveRestrictionInfo[] GetDynamicSelectionCriteria(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetDynamicSelectionCriteria_Integer_p_0
+description: NSSelectionAgent.GetDynamicSelectionCriteria(Integer p_0)
+intellisense: NSSelectionAgent.GetDynamicSelectionCriteria
 keywords: GetDynamicSelectionCriteria(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void clear()
-path: /EJScript/Classes/AppointmentSlicer/Member functions/Void clear()
-intellisense: 1
-classref: 1
+title: crmscript_ref_AppointmentSlicer_clear
+description: AppointmentSlicer.clear()
+intellisense: AppointmentSlicer.clear
 sortOrder: 113
 keywords: clear()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetOwner()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetOwner()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetOwner
+description: NSSystemEventEntity.GetOwner()
+intellisense: NSSystemEventEntity.GetOwner
 keywords: GetOwner()
+so.topic: reference
 ---
 
 

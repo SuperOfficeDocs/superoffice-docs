@@ -1,10 +1,10 @@
 ---
-title: Void setIsFixedValue(Bool p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setIsFixedValue(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroParameter_setIsFixedValue_Bool_p_0
+description: MacroParameter.setIsFixedValue(Bool p_0)
+intellisense: MacroParameter.setIsFixedValue
 sortOrder: 489
 keywords: setIsFixedValue(Bool)
+so.topic: reference
 ---
 
 

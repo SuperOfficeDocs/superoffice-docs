@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdated()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetUpdated
+description: NSCustomerCenterConfig.GetUpdated()
+intellisense: NSCustomerCenterConfig.GetUpdated
 sortOrder: 2196
 keywords: GetUpdated()
+so.topic: reference
 ---
 
 

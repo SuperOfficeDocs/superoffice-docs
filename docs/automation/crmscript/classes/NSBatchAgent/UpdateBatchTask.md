@@ -1,10 +1,10 @@
 ---
-title: NSBatchTaskInfo UpdateBatchTask(NSBatchTaskInfo batchTaskInfo)
-path: /EJScript/Classes/NSBatchAgent/Member functions/NSBatchTaskInfo UpdateBatchTask(NSBatchTaskInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent_UpdateBatchTask_NSBatchTaskInfo_p_0
+description: NSBatchAgent.UpdateBatchTask(NSBatchTaskInfo p_0)
+intellisense: NSBatchAgent.UpdateBatchTask
 sortOrder: 1354
 keywords: UpdateBatchTask(NSBatchTaskInfo)
+so.topic: reference
 ---
 
 

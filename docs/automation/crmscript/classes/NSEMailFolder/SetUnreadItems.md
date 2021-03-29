@@ -1,10 +1,10 @@
 ---
-title: Void SetUnreadItems(Integer UnreadItems)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetUnreadItems(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_SetUnreadItems_Integer_p_0
+description: NSEMailFolder.SetUnreadItems(Integer p_0)
+intellisense: NSEMailFolder.SetUnreadItems
 sortOrder: 3041
 keywords: SetUnreadItems(Integer)
+so.topic: reference
 ---
 
 

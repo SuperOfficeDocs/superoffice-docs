@@ -1,9 +1,9 @@
 ---
-title: NSCredentialsGroup
-path: /EJScript/Classes/NSCredentialsGroup
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroup
+description: NSCredentialsGroup
+intellisense: Void.NSCredentialsGroup
 sortOrder: 2056
+so.topic: reference
 ---
 
 

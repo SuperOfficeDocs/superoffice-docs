@@ -1,9 +1,9 @@
 ---
-title: Void SetRoleDescription(String p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetRoleDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetRoleDescription_String_p_0
+description: NSSoPrincipalCarrier.SetRoleDescription(String p_0)
+intellisense: NSSoPrincipalCarrier.SetRoleDescription
 keywords: SetRoleDescription(String)
+so.topic: reference
 ---
 
 

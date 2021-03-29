@@ -1,9 +1,9 @@
 ---
-title: Void SetLanguage(String Language)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetLanguage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetLanguage_String_p_0
+description: NSPocketDeviceInfo.SetLanguage(String p_0)
+intellisense: NSPocketDeviceInfo.SetLanguage
 keywords: SetLanguage(String)
+so.topic: reference
 ---
 
 

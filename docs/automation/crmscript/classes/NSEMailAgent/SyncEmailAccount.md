@@ -1,10 +1,10 @@
 ---
-title: Void SyncEmailAccount(NSSyncUserAccount syncUserAccount)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void SyncEmailAccount(NSSyncUserAccount p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SyncEmailAccount_NSSyncUserAccount_p_0
+description: NSEMailAgent.SyncEmailAccount(NSSyncUserAccount p_0)
+intellisense: NSEMailAgent.SyncEmailAccount
 sortOrder: 2869
 keywords: SyncEmailAccount(NSSyncUserAccount)
+so.topic: reference
 ---
 
 

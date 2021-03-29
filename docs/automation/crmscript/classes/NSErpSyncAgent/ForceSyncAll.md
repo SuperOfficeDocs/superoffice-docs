@@ -1,10 +1,10 @@
 ---
-title: NSPluginResponse ForceSyncAll()
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSPluginResponse ForceSyncAll()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ForceSyncAll
+description: NSErpSyncAgent.ForceSyncAll()
+intellisense: NSErpSyncAgent.ForceSyncAll
 sortOrder: 3213
 keywords: ForceSyncAll()
+so.topic: reference
 ---
 
 

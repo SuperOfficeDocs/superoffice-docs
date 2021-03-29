@@ -1,10 +1,10 @@
 ---
-title: String GetKey()
-path: /EJScript/Classes/NSConsentSource/Member functions/String GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentSource_GetKey
+description: NSConsentSource.GetKey()
+intellisense: NSConsentSource.GetKey
 sortOrder: 1706
 keywords: GetKey()
+so.topic: reference
 ---
 
 

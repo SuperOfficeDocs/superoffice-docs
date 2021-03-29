@@ -1,9 +1,9 @@
 ---
-title: NSIncomingMessage
-path: /EJScript/Classes/NSIncomingMessage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage
+description: NSIncomingMessage
+intellisense: Void.NSIncomingMessage
 sortOrder: 3984
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool ChangePassword(Integer associateId, String oldPassword, String newPassword)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool ChangePassword(Integer p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_ChangePassword_Integer_p_0_String_p_1_String_p_2
+description: NSUserAgent.ChangePassword(Integer p_0, String p_1, String p_2)
+intellisense: NSUserAgent.ChangePassword
 keywords: ChangePassword(Integer,String,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetCompleted_Integer_p_0
+description: NSMailMergeTask.SetCompleted(Integer p_0)
+intellisense: NSMailMergeTask.SetCompleted
 keywords: SetCompleted(Integer)
+so.topic: reference
 ---
 
 

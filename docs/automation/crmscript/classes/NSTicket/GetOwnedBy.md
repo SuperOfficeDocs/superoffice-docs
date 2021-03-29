@@ -1,9 +1,9 @@
 ---
-title: Integer GetOwnedBy()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetOwnedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetOwnedBy
+description: NSTicket.GetOwnedBy()
+intellisense: NSTicket.GetOwnedBy
 keywords: GetOwnedBy()
+so.topic: reference
 ---
 
 

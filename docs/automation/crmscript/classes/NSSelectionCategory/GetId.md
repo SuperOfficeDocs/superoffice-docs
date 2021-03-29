@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSSelectionCategory/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionCategory_GetId
+description: NSSelectionCategory.GetId()
+intellisense: NSSelectionCategory.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

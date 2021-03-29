@@ -1,8 +1,8 @@
 ---
-title: NSRelationDefinitionEntity
-path: /EJScript/Classes/NSRelationDefinitionEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity
+description: NSRelationDefinitionEntity
+intellisense: Void.NSRelationDefinitionEntity
+so.topic: reference
 ---
 
 

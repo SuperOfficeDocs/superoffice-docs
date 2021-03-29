@@ -1,9 +1,9 @@
 ---
-title: Void DeleteProjectEntity(Integer projectEntityId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void DeleteProjectEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_DeleteProjectEntity_Integer_p_0
+description: NSProjectAgent.DeleteProjectEntity(Integer p_0)
+intellisense: NSProjectAgent.DeleteProjectEntity
 keywords: DeleteProjectEntity(Integer)
+so.topic: reference
 ---
 
 

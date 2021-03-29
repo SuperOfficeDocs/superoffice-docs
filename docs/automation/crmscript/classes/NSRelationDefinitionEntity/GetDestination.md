@@ -1,9 +1,9 @@
 ---
-title: Integer GetDestination()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Integer GetDestination()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_GetDestination
+description: NSRelationDefinitionEntity.GetDestination()
+intellisense: NSRelationDefinitionEntity.GetDestination
 keywords: GetDestination()
+so.topic: reference
 ---
 
 

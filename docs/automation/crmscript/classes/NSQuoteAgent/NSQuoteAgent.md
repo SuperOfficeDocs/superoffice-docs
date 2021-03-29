@@ -1,8 +1,8 @@
 ---
-title: NSQuoteAgent
-path: /EJScript/Classes/NSQuoteAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent
+description: NSQuoteAgent
+intellisense: Void.NSQuoteAgent
+so.topic: reference
 ---
 
 

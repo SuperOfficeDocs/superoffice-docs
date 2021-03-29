@@ -1,9 +1,9 @@
 ---
-title: String getInvolvedOnly()
-path: /EJScript/Classes/Ticket/Member functions/String getInvolvedOnly()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_getInvolvedOnly
+description: Ticket.getInvolvedOnly()
+intellisense: Ticket.getInvolvedOnly
 keywords: getInvolvedOnly()
+so.topic: reference
 ---
 
 

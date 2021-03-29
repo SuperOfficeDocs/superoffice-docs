@@ -1,9 +1,9 @@
 ---
-title: String GetPrefShowValue()
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/String GetPrefShowValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescriptionLine_GetPrefShowValue
+description: NSPreferenceDescriptionLine.GetPrefShowValue()
+intellisense: NSPreferenceDescriptionLine.GetPrefShowValue
 keywords: GetPrefShowValue()
+so.topic: reference
 ---
 
 

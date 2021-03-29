@@ -1,9 +1,9 @@
 ---
-title: NSCurrency GetOwnerCompanysCurrency()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency GetOwnerCompanysCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetOwnerCompanysCurrency
+description: NSListAgent.GetOwnerCompanysCurrency()
+intellisense: NSListAgent.GetOwnerCompanysCurrency
 keywords: GetOwnerCompanysCurrency()
+so.topic: reference
 ---
 
 

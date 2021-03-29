@@ -1,9 +1,9 @@
 ---
-title: Void SetCountry(String Country)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetCountry(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetCountry_String_p_0
+description: NSParticipantSyncData.SetCountry(String p_0)
+intellisense: NSParticipantSyncData.SetCountry
 keywords: SetCountry(String)
+so.topic: reference
 ---
 
 

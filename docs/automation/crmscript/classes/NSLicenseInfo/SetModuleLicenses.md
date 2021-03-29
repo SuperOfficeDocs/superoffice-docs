@@ -1,9 +1,9 @@
 ---
-title: Void SetModuleLicenses(NSModuleLicense[] ModuleLicenses)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetModuleLicenses(NSModuleLicense[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetModuleLicenses_NSModuleLicense__p_0
+description: NSLicenseInfo.SetModuleLicenses(NSModuleLicense[] p_0)
+intellisense: NSLicenseInfo.SetModuleLicenses
 keywords: SetModuleLicenses(NSModuleLicense[])
+so.topic: reference
 ---
 
 

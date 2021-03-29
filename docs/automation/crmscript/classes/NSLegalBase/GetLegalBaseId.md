@@ -1,9 +1,9 @@
 ---
-title: Integer GetLegalBaseId()
-path: /EJScript/Classes/NSLegalBase/Member functions/Integer GetLegalBaseId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_GetLegalBaseId
+description: NSLegalBase.GetLegalBaseId()
+intellisense: NSLegalBase.GetLegalBaseId
 keywords: GetLegalBaseId()
+so.topic: reference
 ---
 
 

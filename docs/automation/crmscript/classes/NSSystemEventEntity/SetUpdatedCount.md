@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdatedCount(Integer UpdatedCount)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetUpdatedCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetUpdatedCount_Integer_p_0
+description: NSSystemEventEntity.SetUpdatedCount(Integer p_0)
+intellisense: NSSystemEventEntity.SetUpdatedCount
 keywords: SetUpdatedCount(Integer)
+so.topic: reference
 ---
 
 

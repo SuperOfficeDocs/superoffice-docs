@@ -1,9 +1,9 @@
 ---
-title: Bool isAdministrator()
-path: /EJScript/Classes/User/Member functions/Bool isAdministrator()
-intellisense: 1
-classref: 1
+title: crmscript_ref_User_isAdministrator
+description: User.isAdministrator()
+intellisense: User.isAdministrator
 keywords: isAdministrator()
+so.topic: reference
 ---
 
 Returns true if the user is an administrator, false if not.

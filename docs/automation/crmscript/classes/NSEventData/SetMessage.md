@@ -1,10 +1,10 @@
 ---
-title: Void SetMessage(String Message)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetMessage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetMessage_String_p_0
+description: NSEventData.SetMessage(String p_0)
+intellisense: NSEventData.SetMessage
 sortOrder: 3350
 keywords: SetMessage(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSContactRelationEntity GetContactRelationEntity(Integer contactRelationEntityId)
-path: /EJScript/Classes/NSRelationAgent/Member functions/NSContactRelationEntity GetContactRelationEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationAgent_GetContactRelationEntity_Integer_p_0
+description: NSRelationAgent.GetContactRelationEntity(Integer p_0)
+intellisense: NSRelationAgent.GetContactRelationEntity
 keywords: GetContactRelationEntity(Integer)
+so.topic: reference
 ---
 
 

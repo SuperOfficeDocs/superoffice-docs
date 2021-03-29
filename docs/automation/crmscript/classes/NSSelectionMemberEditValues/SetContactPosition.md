@@ -1,9 +1,9 @@
 ---
-title: Void SetContactPosition(Integer p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetContactPosition(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_SetContactPosition_Integer_p_0
+description: NSSelectionMemberEditValues.SetContactPosition(Integer p_0)
+intellisense: NSSelectionMemberEditValues.SetContactPosition
 keywords: SetContactPosition(Integer)
+so.topic: reference
 ---
 
 

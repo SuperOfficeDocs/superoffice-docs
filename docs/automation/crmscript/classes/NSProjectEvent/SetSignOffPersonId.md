@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOffPersonId(Integer SignOffPersonId)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOffPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetSignOffPersonId_Integer_p_0
+description: NSProjectEvent.SetSignOffPersonId(Integer p_0)
+intellisense: NSProjectEvent.SetSignOffPersonId
 keywords: SetSignOffPersonId(Integer)
+so.topic: reference
 ---
 
 

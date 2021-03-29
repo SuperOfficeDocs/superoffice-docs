@@ -1,9 +1,9 @@
 ---
-title: String GetEventName()
-path: /EJScript/Classes/NSProjectEvent/Member functions/String GetEventName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetEventName
+description: NSProjectEvent.GetEventName()
+intellisense: NSProjectEvent.GetEventName
 keywords: GetEventName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSCustomerLanguage/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerLanguage_GetValue
+description: NSCustomerLanguage.GetValue()
+intellisense: NSCustomerLanguage.GetValue
 sortOrder: 2215
 keywords: GetValue()
+so.topic: reference
 ---
 
 

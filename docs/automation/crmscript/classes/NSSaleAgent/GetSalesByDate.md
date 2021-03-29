@@ -1,9 +1,9 @@
 ---
-title: NSSale[] GetSalesByDate(DateTime fromDate, DateTime toDate, Integer amountLimit, Integer status)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetSalesByDate(DateTime p_0, DateTime p_1, Integer p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSalesByDate_DateTime_p_0_DateTime_p_1_Integer_p_2_Integer_p_3
+description: NSSaleAgent.GetSalesByDate(DateTime p_0, DateTime p_1, Integer p_2, Integer p_3)
+intellisense: NSSaleAgent.GetSalesByDate
 keywords: GetSalesByDate(DateTime,DateTime,Integer,Integer)
+so.topic: reference
 ---
 
 

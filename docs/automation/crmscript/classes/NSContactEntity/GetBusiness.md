@@ -1,10 +1,10 @@
 ---
-title: NSBusiness GetBusiness()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSBusiness GetBusiness()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetBusiness
+description: NSContactEntity.GetBusiness()
+intellisense: NSContactEntity.GetBusiness
 sortOrder: 1854
 keywords: GetBusiness()
+so.topic: reference
 ---
 
 

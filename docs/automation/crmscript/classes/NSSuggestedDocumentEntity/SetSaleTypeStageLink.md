@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleTypeStageLink(NSSaleTypeStageLink SaleTypeStageLink)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetSaleTypeStageLink(NSSaleTypeStageLink p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_SetSaleTypeStageLink_NSSaleTypeStageLink_p_0
+description: NSSuggestedDocumentEntity.SetSaleTypeStageLink(NSSaleTypeStageLink p_0)
+intellisense: NSSuggestedDocumentEntity.SetSaleTypeStageLink
 keywords: SetSaleTypeStageLink(NSSaleTypeStageLink)
+so.topic: reference
 ---
 
 

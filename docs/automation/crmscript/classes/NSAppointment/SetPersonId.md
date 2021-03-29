@@ -1,10 +1,10 @@
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetPersonId_Integer_p_0
+description: NSAppointment.SetPersonId(Integer p_0)
+intellisense: NSAppointment.SetPersonId
 sortOrder: 803
 keywords: SetPersonId(Integer)
+so.topic: reference
 ---
 
 

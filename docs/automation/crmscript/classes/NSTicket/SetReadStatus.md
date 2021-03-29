@@ -1,9 +1,9 @@
 ---
-title: Void SetReadStatus(NSTicketReadStatus ReadStatus)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetReadStatus(NSTicketReadStatus p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetReadStatus_NSTicketReadStatus_p_0
+description: NSTicket.SetReadStatus(NSTicketReadStatus p_0)
+intellisense: NSTicket.SetReadStatus
 keywords: SetReadStatus(NSTicketReadStatus)
+so.topic: reference
 ---
 
 

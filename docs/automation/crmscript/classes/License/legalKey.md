@@ -1,10 +1,10 @@
 ---
-title: Bool legalKey()
-path: /EJScript/Classes/License/Member functions/Bool legalKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_License_legalKey
+description: License.legalKey()
+intellisense: License.legalKey
 sortOrder: 460
 keywords: legalKey()
+so.topic: reference
 ---
 
 

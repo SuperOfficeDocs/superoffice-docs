@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssignmentStatus()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetAssignmentStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetAssignmentStatus
+description: NSAlarmData.GetAssignmentStatus()
+intellisense: NSAlarmData.GetAssignmentStatus
 sortOrder: 648
 keywords: GetAssignmentStatus()
+so.topic: reference
 ---
 
 

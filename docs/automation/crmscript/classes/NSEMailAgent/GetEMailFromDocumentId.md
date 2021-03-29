@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetEMailFromDocumentId(Integer documentId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetEMailFromDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailFromDocumentId_Integer_p_0
+description: NSEMailAgent.GetEMailFromDocumentId(Integer p_0)
+intellisense: NSEMailAgent.GetEMailFromDocumentId
 sortOrder: 2819
 keywords: GetEMailFromDocumentId(Integer)
+so.topic: reference
 ---
 
 

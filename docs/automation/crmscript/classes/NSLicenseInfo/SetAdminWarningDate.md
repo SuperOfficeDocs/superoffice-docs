@@ -1,9 +1,9 @@
 ---
-title: Void SetAdminWarningDate(DateTime AdminWarningDate)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetAdminWarningDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetAdminWarningDate_DateTime_p_0
+description: NSLicenseInfo.SetAdminWarningDate(DateTime p_0)
+intellisense: NSLicenseInfo.SetAdminWarningDate
 keywords: SetAdminWarningDate(DateTime)
+so.topic: reference
 ---
 
 

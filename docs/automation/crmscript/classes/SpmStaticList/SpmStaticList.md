@@ -1,8 +1,8 @@
 ---
-title: SpmStaticList
-path: /EJScript/Classes/SpmStaticList
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmStaticList
+description: SpmStaticList
+intellisense: Void.SpmStaticList
+so.topic: reference
 ---
 
 

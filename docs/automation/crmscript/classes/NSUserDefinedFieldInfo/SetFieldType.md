@@ -1,9 +1,9 @@
 ---
-title: Void SetFieldType(Integer FieldType)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldType_Integer_p_0
+description: NSUserDefinedFieldInfo.SetFieldType(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetFieldType
 keywords: SetFieldType(Integer)
+so.topic: reference
 ---
 
 

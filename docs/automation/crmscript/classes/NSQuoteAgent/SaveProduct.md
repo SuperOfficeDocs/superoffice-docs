@@ -1,9 +1,9 @@
 ---
-title: NSProduct SaveProduct(NSProduct product)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct SaveProduct(NSProduct p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveProduct_NSProduct_p_0
+description: NSQuoteAgent.SaveProduct(NSProduct p_0)
+intellisense: NSQuoteAgent.SaveProduct
 keywords: SaveProduct(NSProduct)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetPrivate(Integer p0)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetPrivate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetPrivate_Integer_p_0
+description: NSAppointment.SetPrivate(Integer p_0)
+intellisense: NSAppointment.SetPrivate
 sortOrder: 806
 keywords: SetPrivate(Integer)
+so.topic: reference
 ---
 
 

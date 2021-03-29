@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsDefaultPublished()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Bool GetIsDefaultPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetIsDefaultPublished
+description: NSTaskListItem.GetIsDefaultPublished()
+intellisense: NSTaskListItem.GetIsDefaultPublished
 keywords: GetIsDefaultPublished()
+so.topic: reference
 ---
 
 

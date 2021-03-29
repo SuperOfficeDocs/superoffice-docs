@@ -1,9 +1,9 @@
 ---
-title: Void SetTargetTableNumber(Integer TargetTableNumber)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetTargetTableNumber(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetTargetTableNumber_Integer_p_0
+description: NSSelectionEntity.SetTargetTableNumber(Integer p_0)
+intellisense: NSSelectionEntity.SetTargetTableNumber
 keywords: SetTargetTableNumber(Integer)
+so.topic: reference
 ---
 
 

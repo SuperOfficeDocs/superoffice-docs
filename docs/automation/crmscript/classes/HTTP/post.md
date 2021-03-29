@@ -1,10 +1,10 @@
 ---
-title: Byte[] post(String p0)
-path: /EJScript/Classes/HTTP/Member functions/Byte[] post(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_post_String_p_0
+description: HTTP.post(String p_0)
+intellisense: HTTP.post
 sortOrder: 403
 keywords: post(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a byte array.

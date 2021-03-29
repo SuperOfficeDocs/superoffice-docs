@@ -1,9 +1,9 @@
 ---
-title: String GetComment()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetComment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetComment
+description: NSSaleStakeholder.GetComment()
+intellisense: NSSaleStakeholder.GetComment
 keywords: GetComment()
+so.topic: reference
 ---
 
 

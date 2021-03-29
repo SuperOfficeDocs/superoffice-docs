@@ -1,9 +1,9 @@
 ---
-title: String GetListType()
-path: /EJScript/Classes/NSListEntity/Member functions/String GetListType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_GetListType
+description: NSListEntity.GetListType()
+intellisense: NSListEntity.GetListType
 keywords: GetListType()
+so.topic: reference
 ---
 
 

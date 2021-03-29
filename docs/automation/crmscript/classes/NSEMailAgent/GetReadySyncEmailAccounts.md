@@ -1,10 +1,10 @@
 ---
-title: NSSyncUserAccount[] GetReadySyncEmailAccounts()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSSyncUserAccount[] GetReadySyncEmailAccounts()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetReadySyncEmailAccounts
+description: NSEMailAgent.GetReadySyncEmailAccounts()
+intellisense: NSEMailAgent.GetReadySyncEmailAccounts
 sortOrder: 2846
 keywords: GetReadySyncEmailAccounts()
+so.topic: reference
 ---
 
 

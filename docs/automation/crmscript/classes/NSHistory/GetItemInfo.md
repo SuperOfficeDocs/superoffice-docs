@@ -1,10 +1,10 @@
 ---
-title: String GetItemInfo()
-path: /EJScript/Classes/NSHistory/Member functions/String GetItemInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_GetItemInfo
+description: NSHistory.GetItemInfo()
+intellisense: NSHistory.GetItemInfo
 sortOrder: 3931
 keywords: GetItemInfo()
+so.topic: reference
 ---
 
 

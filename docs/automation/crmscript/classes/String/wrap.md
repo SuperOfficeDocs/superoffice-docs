@@ -1,9 +1,9 @@
 ---
-title: Void wrap(Integer length, Bool ignoreQuote)
-path: /EJScript/Classes/String/Member functions/Void wrap(Integer length, Bool ignoreQuote)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_wrap_Integer_length_Bool_ignoreQuote
+description: String.wrap(Integer length, Bool ignoreQuote)
+intellisense: String.wrap
 keywords: wrap(Integer,Bool)
+so.topic: reference
 ---
 
 This function will wrap the String in lines of wanted length.

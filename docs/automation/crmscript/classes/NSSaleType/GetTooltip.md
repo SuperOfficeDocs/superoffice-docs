@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSSaleType/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleType_GetTooltip
+description: NSSaleType.GetTooltip()
+intellisense: NSSaleType.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

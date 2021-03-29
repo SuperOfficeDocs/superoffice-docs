@@ -1,9 +1,9 @@
 ---
-title: Void SetValidFaxNumbers(Integer p0)
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Void SetValidFaxNumbers(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecipientStatistics_SetValidFaxNumbers_Integer_p_0
+description: NSRecipientStatistics.SetValidFaxNumbers(Integer p_0)
+intellisense: NSRecipientStatistics.SetValidFaxNumbers
 keywords: SetValidFaxNumbers(Integer)
+so.topic: reference
 ---
 
 

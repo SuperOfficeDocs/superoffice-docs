@@ -1,10 +1,10 @@
 ---
-title: String GetLocation()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetLocation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetLocation
+description: NSAlarmData.GetLocation()
+intellisense: NSAlarmData.GetLocation
 sortOrder: 663
 keywords: GetLocation()
+so.topic: reference
 ---
 
 

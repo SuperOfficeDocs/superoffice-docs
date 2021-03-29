@@ -1,9 +1,9 @@
 ---
-title: NSTicketOrigin GetOrigin()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketOrigin GetOrigin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetOrigin
+description: NSTicketEntity.GetOrigin()
+intellisense: NSTicketEntity.GetOrigin
 keywords: GetOrigin()
+so.topic: reference
 ---
 
 

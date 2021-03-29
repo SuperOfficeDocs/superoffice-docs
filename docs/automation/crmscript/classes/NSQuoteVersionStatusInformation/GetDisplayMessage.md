@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayMessage()
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/String GetDisplayMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_GetDisplayMessage
+description: NSQuoteVersionStatusInformation.GetDisplayMessage()
+intellisense: NSQuoteVersionStatusInformation.GetDisplayMessage
 keywords: GetDisplayMessage()
+so.topic: reference
 ---
 
 

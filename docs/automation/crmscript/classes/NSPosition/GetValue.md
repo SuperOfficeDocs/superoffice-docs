@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSPosition/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPosition_GetValue
+description: NSPosition.GetValue()
+intellisense: NSPosition.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

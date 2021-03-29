@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSAssociate/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_GetRank
+description: NSAssociate.GetRank()
+intellisense: NSAssociate.GetRank
 sortOrder: 1259
 keywords: GetRank()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSBatchTaskInfo
-path: /EJScript/Classes/NSBatchTaskInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo
+description: NSBatchTaskInfo
+intellisense: Void.NSBatchTaskInfo
 sortOrder: 1362
+so.topic: reference
 ---
 
 

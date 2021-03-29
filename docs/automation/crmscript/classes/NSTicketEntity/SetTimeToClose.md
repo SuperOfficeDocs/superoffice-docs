@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeToClose(Integer TimeToClose)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTimeToClose(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetTimeToClose_Integer_p_0
+description: NSTicketEntity.SetTimeToClose(Integer p_0)
+intellisense: NSTicketEntity.SetTimeToClose
 keywords: SetTimeToClose(Integer)
+so.topic: reference
 ---
 
 

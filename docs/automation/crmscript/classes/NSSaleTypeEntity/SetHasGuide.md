@@ -1,9 +1,9 @@
 ---
-title: Void SetHasGuide(Bool HasGuide)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetHasGuide(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetHasGuide_Bool_p_0
+description: NSSaleTypeEntity.SetHasGuide(Bool p_0)
+intellisense: NSSaleTypeEntity.SetHasGuide
 keywords: SetHasGuide(Bool)
+so.topic: reference
 ---
 
 

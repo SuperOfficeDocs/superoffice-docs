@@ -1,9 +1,9 @@
 ---
-title: String GetPersonName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetPersonName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_GetPersonName
+description: NSTicketInfo.GetPersonName()
+intellisense: NSTicketInfo.GetPersonName
 keywords: GetPersonName()
+so.topic: reference
 ---
 
 

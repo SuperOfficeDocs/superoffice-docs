@@ -1,10 +1,10 @@
 ---
-title: TimeSpan GetInterval()
-path: /EJScript/Classes/NSErpSyncEngineStatus/Member functions/TimeSpan GetInterval()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncEngineStatus_GetInterval
+description: NSErpSyncEngineStatus.GetInterval()
+intellisense: NSErpSyncEngineStatus.GetInterval
 sortOrder: 3279
 keywords: GetInterval()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetImportLines(NSImportLine[] ImportLines)
-path: /EJScript/Classes/NSImportErpData/Member functions/Void SetImportLines(NSImportLine[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportErpData_SetImportLines_NSImportLine__p_0
+description: NSImportErpData.SetImportLines(NSImportLine[] p_0)
+intellisense: NSImportErpData.SetImportLines
 sortOrder: 3971
 keywords: SetImportLines(NSImportLine[])
+so.topic: reference
 ---
 
 

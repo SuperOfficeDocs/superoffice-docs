@@ -1,9 +1,9 @@
 ---
-title: DateTime GetApprovedRegisteredDate()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetApprovedRegisteredDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredDate
+description: NSQuoteVersion.GetApprovedRegisteredDate()
+intellisense: NSQuoteVersion.GetApprovedRegisteredDate
 keywords: GetApprovedRegisteredDate()
+so.topic: reference
 ---
 
 

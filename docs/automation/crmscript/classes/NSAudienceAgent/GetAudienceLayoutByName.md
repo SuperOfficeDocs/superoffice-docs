@@ -1,10 +1,10 @@
 ---
-title: NSAudienceLayoutEntity GetAudienceLayoutByName(String layoutName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity GetAudienceLayoutByName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetAudienceLayoutByName_String_p_0
+description: NSAudienceAgent.GetAudienceLayoutByName(String p_0)
+intellisense: NSAudienceAgent.GetAudienceLayoutByName
 sortOrder: 1298
 keywords: GetAudienceLayoutByName(String)
+so.topic: reference
 ---
 
 

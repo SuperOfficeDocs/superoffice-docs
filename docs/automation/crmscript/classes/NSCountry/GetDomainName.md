@@ -1,10 +1,10 @@
 ---
-title: String GetDomainName()
-path: /EJScript/Classes/NSCountry/Member functions/String GetDomainName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetDomainName
+description: NSCountry.GetDomainName()
+intellisense: NSCountry.GetDomainName
 sortOrder: 2020
 keywords: GetDomainName()
+so.topic: reference
 ---
 
 

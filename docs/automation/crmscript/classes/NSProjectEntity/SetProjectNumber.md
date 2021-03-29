@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectNumber(String ProjectNumber)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetProjectNumber_String_p_0
+description: NSProjectEntity.SetProjectNumber(String p_0)
+intellisense: NSProjectEntity.SetProjectNumber
 keywords: SetProjectNumber(String)
+so.topic: reference
 ---
 
 

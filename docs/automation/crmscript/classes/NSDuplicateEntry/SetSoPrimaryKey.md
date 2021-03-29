@@ -1,10 +1,10 @@
 ---
-title: Void SetSoPrimaryKey(Integer p0)
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/Void SetSoPrimaryKey(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDuplicateEntry_SetSoPrimaryKey_Integer_p_0
+description: NSDuplicateEntry.SetSoPrimaryKey(Integer p_0)
+intellisense: NSDuplicateEntry.SetSoPrimaryKey
 sortOrder: 2731
 keywords: SetSoPrimaryKey(Integer)
+so.topic: reference
 ---
 
 Identity of an entry in the SuperOffice database. Should be 0 for matches from external systems.

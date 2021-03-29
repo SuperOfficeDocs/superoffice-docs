@@ -1,10 +1,10 @@
 ---
-title: Bool SupportsAdvancedSearch(Integer erpConnectionId, Integer erpActorType)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool SupportsAdvancedSearch(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SupportsAdvancedSearch_Integer_p_0_Integer_p_1
+description: NSErpSyncAgent.SupportsAdvancedSearch(Integer p_0, Integer p_1)
+intellisense: NSErpSyncAgent.SupportsAdvancedSearch
 sortOrder: 3183
 keywords: SupportsAdvancedSearch(Integer,Integer)
+so.topic: reference
 ---
 
 

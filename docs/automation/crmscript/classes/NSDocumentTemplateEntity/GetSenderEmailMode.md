@@ -1,10 +1,10 @@
 ---
-title: NSSenderMailMode GetSenderEmailMode()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/NSSenderMailMode GetSenderEmailMode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetSenderEmailMode
+description: NSDocumentTemplateEntity.GetSenderEmailMode()
+intellisense: NSDocumentTemplateEntity.GetSenderEmailMode
 sortOrder: 2669
 keywords: GetSenderEmailMode()
+so.topic: reference
 ---
 
 

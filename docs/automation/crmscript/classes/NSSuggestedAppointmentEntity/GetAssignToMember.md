@@ -1,9 +1,9 @@
 ---
-title: Bool GetAssignToMember()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Bool GetAssignToMember()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetAssignToMember
+description: NSSuggestedAppointmentEntity.GetAssignToMember()
+intellisense: NSSuggestedAppointmentEntity.GetAssignToMember
 keywords: GetAssignToMember()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void Merge(Integer sourceContactId, Integer destinationContactId, Bool mergeIdenticalPersons, Bool replaceEmptyFieldsOnDestination)
-path: /EJScript/Classes/NSContactAgent/Member functions/Void Merge(Integer p_0, Integer p_1, Bool p_2, Bool p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_Merge_Integer_p_0_Integer_p_1_Bool_p_2_Bool_p_3
+description: NSContactAgent.Merge(Integer p_0, Integer p_1, Bool p_2, Bool p_3)
+intellisense: NSContactAgent.Merge
 sortOrder: 1826
 keywords: Merge(Integer,Integer,Bool,Bool)
+so.topic: reference
 ---
 
 

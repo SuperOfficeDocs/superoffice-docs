@@ -1,8 +1,8 @@
 ---
-title: NSUserDefinedFieldInfo
-path: /EJScript/Classes/NSUserDefinedFieldInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo
+description: NSUserDefinedFieldInfo
+intellisense: Void.NSUserDefinedFieldInfo
+so.topic: reference
 ---
 
 

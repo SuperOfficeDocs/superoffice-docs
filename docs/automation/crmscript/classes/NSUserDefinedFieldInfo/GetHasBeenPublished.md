@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasBeenPublished()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetHasBeenPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetHasBeenPublished
+description: NSUserDefinedFieldInfo.GetHasBeenPublished()
+intellisense: NSUserDefinedFieldInfo.GetHasBeenPublished
 keywords: GetHasBeenPublished()
+so.topic: reference
 ---
 
 

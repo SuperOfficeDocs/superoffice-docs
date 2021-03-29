@@ -1,9 +1,9 @@
 ---
-title: NSRating GetRating()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSRating GetRating()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetRating
+description: NSSaleEntity.GetRating()
+intellisense: NSSaleEntity.GetRating
 keywords: GetRating()
+so.topic: reference
 ---
 
 

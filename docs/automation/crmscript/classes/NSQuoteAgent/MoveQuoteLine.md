@@ -1,9 +1,9 @@
 ---
-title: Void MoveQuoteLine(Integer quoteLineId, Bool direction)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void MoveQuoteLine(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_MoveQuoteLine_Integer_p_0_Bool_p_1
+description: NSQuoteAgent.MoveQuoteLine(Integer p_0, Bool p_1)
+intellisense: NSQuoteAgent.MoveQuoteLine
 keywords: MoveQuoteLine(Integer,Bool)
+so.topic: reference
 ---
 
 

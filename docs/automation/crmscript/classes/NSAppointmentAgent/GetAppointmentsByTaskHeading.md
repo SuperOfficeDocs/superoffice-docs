@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetAppointmentsByTaskHeading(Integer taskHeadingId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetAppointmentsByTaskHeading(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetAppointmentsByTaskHeading_Integer_p_0
+description: NSAppointmentAgent.GetAppointmentsByTaskHeading(Integer p_0)
+intellisense: NSAppointmentAgent.GetAppointmentsByTaskHeading
 sortOrder: 839
 keywords: GetAppointmentsByTaskHeading(Integer)
+so.topic: reference
 ---
 
 

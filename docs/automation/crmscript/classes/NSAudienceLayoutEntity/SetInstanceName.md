@@ -1,10 +1,10 @@
 ---
-title: Void SetInstanceName(String InstanceName)
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/Void SetInstanceName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceName_String_p_0
+description: NSAudienceLayoutEntity.SetInstanceName(String p_0)
+intellisense: NSAudienceLayoutEntity.SetInstanceName
 sortOrder: 1346
 keywords: SetInstanceName(String)
+so.topic: reference
 ---
 
 

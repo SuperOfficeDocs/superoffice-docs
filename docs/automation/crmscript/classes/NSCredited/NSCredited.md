@@ -1,9 +1,9 @@
 ---
-title: NSCredited
-path: /EJScript/Classes/NSCredited
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredited
+description: NSCredited
+intellisense: Void.NSCredited
 sortOrder: 2094
+so.topic: reference
 ---
 
 

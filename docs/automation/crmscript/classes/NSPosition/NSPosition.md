@@ -1,8 +1,8 @@
 ---
-title: NSPosition
-path: /EJScript/Classes/NSPosition
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPosition
+description: NSPosition
+intellisense: Void.NSPosition
+so.topic: reference
 ---
 
 

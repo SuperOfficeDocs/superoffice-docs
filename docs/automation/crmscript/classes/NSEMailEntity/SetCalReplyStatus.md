@@ -1,10 +1,10 @@
 ---
-title: Void SetCalReplyStatus(Integer CalReplyStatus)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetCalReplyStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetCalReplyStatus_Integer_p_0
+description: NSEMailEntity.SetCalReplyStatus(Integer p_0)
+intellisense: NSEMailEntity.SetCalReplyStatus
 sortOrder: 2976
 keywords: SetCalReplyStatus(Integer)
+so.topic: reference
 ---
 
 

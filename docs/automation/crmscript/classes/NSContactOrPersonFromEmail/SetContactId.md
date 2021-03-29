@@ -1,10 +1,10 @@
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactOrPersonFromEmail_SetContactId_Integer_p_0
+description: NSContactOrPersonFromEmail.SetContactId(Integer p_0)
+intellisense: NSContactOrPersonFromEmail.SetContactId
 sortOrder: 1930
 keywords: SetContactId(Integer)
+so.topic: reference
 ---
 
 

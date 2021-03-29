@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjStatusId()
-path: /EJScript/Classes/NSProjectTypeStatusLink/Member functions/Integer GetProjStatusId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeStatusLink_GetProjStatusId
+description: NSProjectTypeStatusLink.GetProjStatusId()
+intellisense: NSProjectTypeStatusLink.GetProjStatusId
 keywords: GetProjStatusId()
+so.topic: reference
 ---
 
 

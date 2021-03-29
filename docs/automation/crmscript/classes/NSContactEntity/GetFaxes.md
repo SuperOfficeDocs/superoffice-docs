@@ -1,10 +1,10 @@
 ---
-title: NSEntityElement[] GetFaxes()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetFaxes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetFaxes
+description: NSContactEntity.GetFaxes()
+intellisense: NSContactEntity.GetFaxes
 sortOrder: 1859
 keywords: GetFaxes()
+so.topic: reference
 ---
 
 

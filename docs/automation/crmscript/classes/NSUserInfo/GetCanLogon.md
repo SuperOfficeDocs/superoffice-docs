@@ -1,9 +1,9 @@
 ---
-title: Bool GetCanLogon()
-path: /EJScript/Classes/NSUserInfo/Member functions/Bool GetCanLogon()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_GetCanLogon
+description: NSUserInfo.GetCanLogon()
+intellisense: NSUserInfo.GetCanLogon
 keywords: GetCanLogon()
+so.topic: reference
 ---
 
 

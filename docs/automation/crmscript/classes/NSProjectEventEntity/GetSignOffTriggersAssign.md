@@ -1,9 +1,9 @@
 ---
-title: Bool GetSignOffTriggersAssign()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetSignOffTriggersAssign()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetSignOffTriggersAssign
+description: NSProjectEventEntity.GetSignOffTriggersAssign()
+intellisense: NSProjectEventEntity.GetSignOffTriggersAssign
 keywords: GetSignOffTriggersAssign()
+so.topic: reference
 ---
 
 

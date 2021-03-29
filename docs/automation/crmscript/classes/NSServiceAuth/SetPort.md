@@ -1,9 +1,9 @@
 ---
-title: Void SetPort(Integer Port)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetPort(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_SetPort_Integer_p_0
+description: NSServiceAuth.SetPort(Integer p_0)
+intellisense: NSServiceAuth.SetPort
 keywords: SetPort(Integer)
+so.topic: reference
 ---
 
 

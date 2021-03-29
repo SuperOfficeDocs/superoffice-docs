@@ -1,9 +1,9 @@
 ---
-title: Cache
-path: /EJScript/Classes/Cache
-intellisense: 1
-classref: 1
+title: crmscript_ref_Cache
+description: Cache
+intellisense: Void.Cache
 sortOrder: 140
+so.topic: reference
 ---
 
 

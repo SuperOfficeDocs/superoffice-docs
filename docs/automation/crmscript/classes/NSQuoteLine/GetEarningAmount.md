@@ -1,9 +1,9 @@
 ---
-title: Float GetEarningAmount()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetEarningAmount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetEarningAmount
+description: NSQuoteLine.GetEarningAmount()
+intellisense: NSQuoteLine.GetEarningAmount
 keywords: GetEarningAmount()
+so.topic: reference
 ---
 
 

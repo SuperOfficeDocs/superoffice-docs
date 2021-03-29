@@ -1,9 +1,9 @@
 ---
-title: Void SetChangedQuoteAlternative(NSQuoteAlternative ChangedQuoteAlternative)
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetChangedQuoteAlternative(NSQuoteAlternative p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternativeRecalculated_SetChangedQuoteAlternative_NSQuoteAlternative_p_0
+description: NSQuoteAlternativeRecalculated.SetChangedQuoteAlternative(NSQuoteAlternative p_0)
+intellisense: NSQuoteAlternativeRecalculated.SetChangedQuoteAlternative
 keywords: SetChangedQuoteAlternative(NSQuoteAlternative)
+so.topic: reference
 ---
 
 

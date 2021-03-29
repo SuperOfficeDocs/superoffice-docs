@@ -1,9 +1,9 @@
 ---
-title: String GetWindowName()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetWindowName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetWindowName
+description: NSWebPanelEntity.GetWindowName()
+intellisense: NSWebPanelEntity.GetWindowName
 keywords: GetWindowName()
+so.topic: reference
 ---
 
 

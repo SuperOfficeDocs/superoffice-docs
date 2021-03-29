@@ -1,10 +1,10 @@
 ---
-title: String GetListLeadText()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListLeadText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_GetListLeadText
+description: NSControlInfo.GetListLeadText()
+intellisense: NSControlInfo.GetListLeadText
 sortOrder: 1998
 keywords: GetListLeadText()
+so.topic: reference
 ---
 
 

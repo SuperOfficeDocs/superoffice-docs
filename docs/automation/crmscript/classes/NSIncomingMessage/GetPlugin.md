@@ -1,10 +1,10 @@
 ---
-title: String GetPlugin()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetPlugin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_GetPlugin
+description: NSIncomingMessage.GetPlugin()
+intellisense: NSIncomingMessage.GetPlugin
 sortOrder: 3989
 keywords: GetPlugin()
+so.topic: reference
 ---
 
 

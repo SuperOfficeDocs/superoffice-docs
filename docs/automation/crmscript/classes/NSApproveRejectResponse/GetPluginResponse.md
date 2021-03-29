@@ -1,10 +1,10 @@
 ---
-title: NSPluginResponse GetPluginResponse()
-path: /EJScript/Classes/NSApproveRejectResponse/Member functions/NSPluginResponse GetPluginResponse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSApproveRejectResponse_GetPluginResponse
+description: NSApproveRejectResponse.GetPluginResponse()
+intellisense: NSApproveRejectResponse.GetPluginResponse
 sortOrder: 1095
 keywords: GetPluginResponse()
+so.topic: reference
 ---
 
 

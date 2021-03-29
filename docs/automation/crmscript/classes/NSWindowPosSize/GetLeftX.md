@@ -1,9 +1,9 @@
 ---
-title: Integer GetLeftX()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetLeftX()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetLeftX
+description: NSWindowPosSize.GetLeftX()
+intellisense: NSWindowPosSize.GetLeftX
 keywords: GetLeftX()
+so.topic: reference
 ---
 
 

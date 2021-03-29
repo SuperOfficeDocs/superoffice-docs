@@ -1,9 +1,9 @@
 ---
-title: Void SetColumnId(Integer ColumnId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetColumnId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetColumnId_Integer_p_0
+description: NSUserDefinedFieldInfo.SetColumnId(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetColumnId
 keywords: SetColumnId(Integer)
+so.topic: reference
 ---
 
 

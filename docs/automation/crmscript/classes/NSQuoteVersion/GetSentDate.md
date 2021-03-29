@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSentDate()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetSentDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetSentDate
+description: NSQuoteVersion.GetSentDate()
+intellisense: NSQuoteVersion.GetSentDate
 keywords: GetSentDate()
+so.topic: reference
 ---
 
 

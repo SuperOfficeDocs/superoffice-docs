@@ -1,9 +1,9 @@
 ---
-title: Map GetCustomFields()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Map GetCustomFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetCustomFields
+description: NSTicketCategoryEntity.GetCustomFields()
+intellisense: NSTicketCategoryEntity.GetCustomFields
 keywords: GetCustomFields()
+so.topic: reference
 ---
 
 

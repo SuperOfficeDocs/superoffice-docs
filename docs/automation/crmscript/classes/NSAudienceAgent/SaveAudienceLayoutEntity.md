@@ -1,10 +1,10 @@
 ---
-title: NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity audienceLayoutEntity)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity SaveAudienceLayoutEntity(NSAudienceLayoutEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_SaveAudienceLayoutEntity_NSAudienceLayoutEntity_p_0
+description: NSAudienceAgent.SaveAudienceLayoutEntity(NSAudienceLayoutEntity p_0)
+intellisense: NSAudienceAgent.SaveAudienceLayoutEntity
 sortOrder: 1302
 keywords: SaveAudienceLayoutEntity(NSAudienceLayoutEntity)
+so.topic: reference
 ---
 
 

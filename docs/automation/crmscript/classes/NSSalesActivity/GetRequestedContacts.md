@@ -1,9 +1,9 @@
 ---
-title: NSContact[] GetRequestedContacts()
-path: /EJScript/Classes/NSSalesActivity/Member functions/NSContact[] GetRequestedContacts()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSalesActivity_GetRequestedContacts
+description: NSSalesActivity.GetRequestedContacts()
+intellisense: NSSalesActivity.GetRequestedContacts
 keywords: GetRequestedContacts()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocTmplPrivacyType GetPrivacyDocType()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/NSDocTmplPrivacyType GetPrivacyDocType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetPrivacyDocType
+description: NSDocumentTemplateEntity.GetPrivacyDocType()
+intellisense: NSDocumentTemplateEntity.GetPrivacyDocType
 sortOrder: 2666
 keywords: GetPrivacyDocType()
+so.topic: reference
 ---
 
 

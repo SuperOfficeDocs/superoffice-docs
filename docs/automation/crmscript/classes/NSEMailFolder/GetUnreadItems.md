@@ -1,10 +1,10 @@
 ---
-title: Integer GetUnreadItems()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Integer GetUnreadItems()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_GetUnreadItems
+description: NSEMailFolder.GetUnreadItems()
+intellisense: NSEMailFolder.GetUnreadItems
 sortOrder: 3031
 keywords: GetUnreadItems()
+so.topic: reference
 ---
 
 

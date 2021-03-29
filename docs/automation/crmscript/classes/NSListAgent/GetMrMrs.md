@@ -1,9 +1,9 @@
 ---
-title: NSMrMrs GetMrMrs(Integer mrMrsId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs GetMrMrs(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetMrMrs_Integer_p_0
+description: NSListAgent.GetMrMrs(Integer p_0)
+intellisense: NSListAgent.GetMrMrs
 keywords: GetMrMrs(Integer)
+so.topic: reference
 ---
 
 

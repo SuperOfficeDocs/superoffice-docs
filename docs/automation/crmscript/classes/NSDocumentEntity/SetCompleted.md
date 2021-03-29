@@ -1,10 +1,10 @@
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetCompleted_Integer_p_0
+description: NSDocumentEntity.SetCompleted(Integer p_0)
+intellisense: NSDocumentEntity.SetCompleted
 sortOrder: 2587
 keywords: SetCompleted(Integer)
+so.topic: reference
 ---
 
 

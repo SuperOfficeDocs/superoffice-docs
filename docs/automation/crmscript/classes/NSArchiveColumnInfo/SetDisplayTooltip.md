@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayTooltip(String DisplayTooltip)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetDisplayTooltip_String_p_0
+description: NSArchiveColumnInfo.SetDisplayTooltip(String p_0)
+intellisense: NSArchiveColumnInfo.SetDisplayTooltip
 sortOrder: 1155
 keywords: SetDisplayTooltip(String)
+so.topic: reference
 ---
 
 

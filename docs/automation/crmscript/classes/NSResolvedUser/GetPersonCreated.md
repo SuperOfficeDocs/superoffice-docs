@@ -1,9 +1,9 @@
 ---
-title: Bool GetPersonCreated()
-path: /EJScript/Classes/NSResolvedUser/Member functions/Bool GetPersonCreated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResolvedUser_GetPersonCreated
+description: NSResolvedUser.GetPersonCreated()
+intellisense: NSResolvedUser.GetPersonCreated
 keywords: GetPersonCreated()
+so.topic: reference
 ---
 
 

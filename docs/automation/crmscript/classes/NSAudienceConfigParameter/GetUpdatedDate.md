@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_GetUpdatedDate
+description: NSAudienceConfigParameter.GetUpdatedDate()
+intellisense: NSAudienceConfigParameter.GetUpdatedDate
 sortOrder: 1320
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

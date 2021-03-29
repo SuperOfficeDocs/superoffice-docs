@@ -1,10 +1,10 @@
 ---
-title: NSAudienceConfigParameter[] GetMyConfigParameters()
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter[] GetMyConfigParameters()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetMyConfigParameters
+description: NSAudienceAgent.GetMyConfigParameters()
+intellisense: NSAudienceAgent.GetMyConfigParameters
 sortOrder: 1296
 keywords: GetMyConfigParameters()
+so.topic: reference
 ---
 
 

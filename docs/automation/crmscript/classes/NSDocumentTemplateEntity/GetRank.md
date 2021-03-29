@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetRank
+description: NSDocumentTemplateEntity.GetRank()
+intellisense: NSDocumentTemplateEntity.GetRank
 sortOrder: 2662
 keywords: GetRank()
+so.topic: reference
 ---
 
 

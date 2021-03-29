@@ -1,9 +1,9 @@
 ---
-title: Void RebuildFullnames()
-path: /EJScript/Classes/NSListAgent/Member functions/Void RebuildFullnames()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_RebuildFullnames
+description: NSListAgent.RebuildFullnames()
+intellisense: NSListAgent.RebuildFullnames
 keywords: RebuildFullnames()
+so.topic: reference
 ---
 
 

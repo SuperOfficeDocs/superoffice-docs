@@ -1,9 +1,9 @@
 ---
-title: Integer GetTZLocationID()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Integer GetTZLocationID()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_GetTZLocationID
+description: NSTimeZoneData.GetTZLocationID()
+intellisense: NSTimeZoneData.GetTZLocationID
 keywords: GetTZLocationID()
+so.topic: reference
 ---
 
 

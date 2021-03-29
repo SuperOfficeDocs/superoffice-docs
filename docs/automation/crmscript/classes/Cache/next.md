@@ -1,10 +1,10 @@
 ---
-title: Bool next()
-path: /EJScript/Classes/Cache/Member functions/Bool next()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Cache_next
+description: Cache.next()
+intellisense: Cache.next
 sortOrder: 144
 keywords: next()
+so.topic: reference
 ---
 
 Sets the iterator to the next field.

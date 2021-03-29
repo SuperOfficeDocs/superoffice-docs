@@ -1,9 +1,9 @@
 ---
-title: String GetPersonFullName()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPersonFullName
+description: NSParticipantSyncData.GetPersonFullName()
+intellisense: NSParticipantSyncData.GetPersonFullName
 keywords: GetPersonFullName()
+so.topic: reference
 ---
 
 

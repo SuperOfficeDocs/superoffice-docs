@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsRunning()
-path: /EJScript/Classes/NSErpSyncEngineStatus/Member functions/Bool GetIsRunning()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncEngineStatus_GetIsRunning
+description: NSErpSyncEngineStatus.GetIsRunning()
+intellisense: NSErpSyncEngineStatus.GetIsRunning
 sortOrder: 3277
 keywords: GetIsRunning()
+so.topic: reference
 ---
 
 

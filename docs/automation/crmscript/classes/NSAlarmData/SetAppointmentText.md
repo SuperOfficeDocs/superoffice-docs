@@ -1,10 +1,10 @@
 ---
-title: Void SetAppointmentText(String AppointmentText)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetAppointmentText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetAppointmentText_String_p_0
+description: NSAlarmData.SetAppointmentText(String p_0)
+intellisense: NSAlarmData.SetAppointmentText
 sortOrder: 670
 keywords: SetAppointmentText(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Float GetPreviousOverdueWeightedBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetPreviousOverdueWeightedBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetPreviousOverdueWeightedBaseCurrency
+description: NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency()
+intellisense: NSSaleSummary.GetPreviousOverdueWeightedBaseCurrency
 keywords: GetPreviousOverdueWeightedBaseCurrency()
+so.topic: reference
 ---
 
 

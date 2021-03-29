@@ -1,9 +1,9 @@
 ---
-title: Integer GetRightMargin()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetRightMargin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetRightMargin
+description: NSReportLabelLayoutEntity.GetRightMargin()
+intellisense: NSReportLabelLayoutEntity.GetRightMargin
 keywords: GetRightMargin()
+so.topic: reference
 ---
 
 

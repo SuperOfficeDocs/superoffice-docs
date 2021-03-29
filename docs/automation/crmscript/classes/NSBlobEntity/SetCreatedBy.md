@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetCreatedBy_NSAssociate_p_0
+description: NSBlobEntity.SetCreatedBy(NSAssociate p_0)
+intellisense: NSBlobEntity.SetCreatedBy
 sortOrder: 1456
 keywords: SetCreatedBy(NSAssociate)
+so.topic: reference
 ---
 
 

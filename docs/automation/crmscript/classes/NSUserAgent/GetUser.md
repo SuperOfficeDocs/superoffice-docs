@@ -1,9 +1,9 @@
 ---
-title: NSUser GetUser(Integer userId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser GetUser(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetUser_Integer_p_0
+description: NSUserAgent.GetUser(Integer p_0)
+intellisense: NSUserAgent.GetUser
 keywords: GetUser(Integer)
+so.topic: reference
 ---
 
 

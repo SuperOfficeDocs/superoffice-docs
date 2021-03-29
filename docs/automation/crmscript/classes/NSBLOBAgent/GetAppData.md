@@ -1,10 +1,10 @@
 ---
-title: String GetAppData(String key)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/String GetAppData(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetAppData_String_p_0
+description: NSBLOBAgent.GetAppData(String p_0)
+intellisense: NSBLOBAgent.GetAppData
 sortOrder: 1425
 keywords: GetAppData(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(String[] progIds, Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetUserDefinedFieldFromProgIds(String[] p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds_String__p_0_Integer_p_1
+description: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds(String[] p_0, Integer p_1)
+intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromProgIds
 keywords: GetUserDefinedFieldFromProgIds(String[],Integer)
+so.topic: reference
 ---
 
 

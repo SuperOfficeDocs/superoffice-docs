@@ -1,9 +1,9 @@
 ---
-title: Void SetRequestedContacts(NSContact[] RequestedContacts)
-path: /EJScript/Classes/NSSalesActivity/Member functions/Void SetRequestedContacts(NSContact[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSalesActivity_SetRequestedContacts_NSContact__p_0
+description: NSSalesActivity.SetRequestedContacts(NSContact[] p_0)
+intellisense: NSSalesActivity.SetRequestedContacts
 keywords: SetRequestedContacts(NSContact[])
+so.topic: reference
 ---
 
 

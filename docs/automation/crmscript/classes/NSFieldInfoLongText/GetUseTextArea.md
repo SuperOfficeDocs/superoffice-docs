@@ -1,10 +1,10 @@
 ---
-title: Bool GetUseTextArea()
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Bool GetUseTextArea()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoLongText_GetUseTextArea
+description: NSFieldInfoLongText.GetUseTextArea()
+intellisense: NSFieldInfoLongText.GetUseTextArea
 sortOrder: 3520
 keywords: GetUseTextArea()
+so.topic: reference
 ---
 
 

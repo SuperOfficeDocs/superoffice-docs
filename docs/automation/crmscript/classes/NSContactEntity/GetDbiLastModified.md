@@ -1,10 +1,10 @@
 ---
-title: DateTime GetDbiLastModified()
-path: /EJScript/Classes/NSContactEntity/Member functions/DateTime GetDbiLastModified()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetDbiLastModified
+description: NSContactEntity.GetDbiLastModified()
+intellisense: NSContactEntity.GetDbiLastModified
 sortOrder: 1835
 keywords: GetDbiLastModified()
+so.topic: reference
 ---
 
 

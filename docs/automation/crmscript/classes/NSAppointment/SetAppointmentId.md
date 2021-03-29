@@ -1,10 +1,10 @@
 ---
-title: Void SetAppointmentId(Integer AppointmentId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetAppointmentId_Integer_p_0
+description: NSAppointment.SetAppointmentId(Integer p_0)
+intellisense: NSAppointment.SetAppointmentId
 sortOrder: 770
 keywords: SetAppointmentId(Integer)
+so.topic: reference
 ---
 
 

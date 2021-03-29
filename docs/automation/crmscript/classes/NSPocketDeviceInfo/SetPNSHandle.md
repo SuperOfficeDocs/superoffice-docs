@@ -1,9 +1,9 @@
 ---
-title: Void SetPNSHandle(String PNSHandle)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetPNSHandle(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetPNSHandle_String_p_0
+description: NSPocketDeviceInfo.SetPNSHandle(String p_0)
+intellisense: NSPocketDeviceInfo.SetPNSHandle
 keywords: SetPNSHandle(String)
+so.topic: reference
 ---
 
 

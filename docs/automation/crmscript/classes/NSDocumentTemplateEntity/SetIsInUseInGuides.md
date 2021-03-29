@@ -1,10 +1,10 @@
 ---
-title: Void SetIsInUseInGuides(Bool IsInUseInGuides)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetIsInUseInGuides(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetIsInUseInGuides_Bool_p_0
+description: NSDocumentTemplateEntity.SetIsInUseInGuides(Bool p_0)
+intellisense: NSDocumentTemplateEntity.SetIsInUseInGuides
 sortOrder: 2689
 keywords: SetIsInUseInGuides(Bool)
+so.topic: reference
 ---
 
 

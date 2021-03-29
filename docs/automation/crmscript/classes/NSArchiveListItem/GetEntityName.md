@@ -1,10 +1,10 @@
 ---
-title: String GetEntityName()
-path: /EJScript/Classes/NSArchiveListItem/Member functions/String GetEntityName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_GetEntityName
+description: NSArchiveListItem.GetEntityName()
+intellisense: NSArchiveListItem.GetEntityName
 sortOrder: 1179
 keywords: GetEntityName()
+so.topic: reference
 ---
 
 

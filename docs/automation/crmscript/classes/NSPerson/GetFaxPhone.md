@@ -1,9 +1,9 @@
 ---
-title: String GetFaxPhone()
-path: /EJScript/Classes/NSPerson/Member functions/String GetFaxPhone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetFaxPhone
+description: NSPerson.GetFaxPhone()
+intellisense: NSPerson.GetFaxPhone
 keywords: GetFaxPhone()
+so.topic: reference
 ---
 
 

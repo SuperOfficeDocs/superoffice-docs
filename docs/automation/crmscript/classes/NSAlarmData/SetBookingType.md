@@ -1,10 +1,10 @@
 ---
-title: Void SetBookingType(Integer BookingType)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetBookingType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetBookingType_Integer_p_0
+description: NSAlarmData.SetBookingType(Integer p_0)
+intellisense: NSAlarmData.SetBookingType
 sortOrder: 674
 keywords: SetBookingType(Integer)
+so.topic: reference
 ---
 
 

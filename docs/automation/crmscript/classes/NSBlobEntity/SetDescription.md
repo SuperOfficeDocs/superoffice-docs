@@ -1,10 +1,10 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetDescription_String_p_0
+description: NSBlobEntity.SetDescription(String p_0)
+intellisense: NSBlobEntity.SetDescription
 sortOrder: 1458
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

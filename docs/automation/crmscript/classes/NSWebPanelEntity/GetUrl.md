@@ -1,9 +1,9 @@
 ---
-title: String GetUrl()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetUrl
+description: NSWebPanelEntity.GetUrl()
+intellisense: NSWebPanelEntity.GetUrl
 keywords: GetUrl()
+so.topic: reference
 ---
 
 

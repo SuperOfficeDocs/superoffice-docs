@@ -1,9 +1,9 @@
 ---
-title: Void SetType(Integer p0)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_SetType_Integer_p_0
+description: NSTaskListItem.SetType(Integer p_0)
+intellisense: NSTaskListItem.SetType
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

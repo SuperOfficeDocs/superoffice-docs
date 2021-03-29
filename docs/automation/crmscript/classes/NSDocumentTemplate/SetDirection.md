@@ -1,10 +1,10 @@
 ---
-title: Void SetDirection(Integer p0)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetDirection(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_SetDirection_Integer_p_0
+description: NSDocumentTemplate.SetDirection(Integer p_0)
+intellisense: NSDocumentTemplate.SetDirection
 sortOrder: 2637
 keywords: SetDirection(Integer)
+so.topic: reference
 ---
 
 

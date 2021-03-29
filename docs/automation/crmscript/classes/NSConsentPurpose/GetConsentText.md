@@ -1,10 +1,10 @@
 ---
-title: String GetConsentText()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/String GetConsentText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_GetConsentText
+description: NSConsentPurpose.GetConsentText()
+intellisense: NSConsentPurpose.GetConsentText
 sortOrder: 1680
 keywords: GetConsentText()
+so.topic: reference
 ---
 
 

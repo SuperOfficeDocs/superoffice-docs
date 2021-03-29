@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSPosition/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPosition_GetId
+description: NSPosition.GetId()
+intellisense: NSPosition.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDashboardTile GetDashboardTile(Integer dashboardTileId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile GetDashboardTile(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_GetDashboardTile_Integer_p_0
+description: NSDashboardAgent.GetDashboardTile(Integer p_0)
+intellisense: NSDashboardAgent.GetDashboardTile
 sortOrder: 2279
 keywords: GetDashboardTile(Integer)
+so.topic: reference
 ---
 
 

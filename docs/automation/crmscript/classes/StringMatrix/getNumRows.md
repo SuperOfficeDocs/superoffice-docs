@@ -1,9 +1,9 @@
 ---
-title: Integer getNumRows()
-path: /EJScript/Classes/StringMatrix/Member functions/Integer getNumRows()
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_getNumRows
+description: StringMatrix.getNumRows()
+intellisense: StringMatrix.getNumRows
 keywords: getNumRows()
+so.topic: reference
 ---
 
 

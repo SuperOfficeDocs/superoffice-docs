@@ -1,10 +1,10 @@
 ---
-title: Void SetIsUserNameSupported(Bool IsUserNameSupported)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetIsUserNameSupported(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_SetIsUserNameSupported_Bool_p_0
+description: NSCredentialType.SetIsUserNameSupported(Bool p_0)
+intellisense: NSCredentialType.SetIsUserNameSupported
 sortOrder: 2080
 keywords: SetIsUserNameSupported(Bool)
+so.topic: reference
 ---
 
 

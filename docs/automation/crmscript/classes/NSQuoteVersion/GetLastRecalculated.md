@@ -1,9 +1,9 @@
 ---
-title: DateTime GetLastRecalculated()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetLastRecalculated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetLastRecalculated
+description: NSQuoteVersion.GetLastRecalculated()
+intellisense: NSQuoteVersion.GetLastRecalculated
 keywords: GetLastRecalculated()
+so.topic: reference
 ---
 
 

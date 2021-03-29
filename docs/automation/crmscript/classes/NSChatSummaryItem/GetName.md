@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetName
+description: NSChatSummaryItem.GetName()
+intellisense: NSChatSummaryItem.GetName
 sortOrder: 1541
 keywords: GetName()
+so.topic: reference
 ---
 
 

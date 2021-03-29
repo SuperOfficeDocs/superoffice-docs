@@ -1,10 +1,10 @@
 ---
-title: NSImage GetProjectImage(Integer projectId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetProjectImage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetProjectImage_Integer_p_0
+description: NSBLOBAgent.GetProjectImage(Integer p_0)
+intellisense: NSBLOBAgent.GetProjectImage
 sortOrder: 1421
 keywords: GetProjectImage(Integer)
+so.topic: reference
 ---
 
 

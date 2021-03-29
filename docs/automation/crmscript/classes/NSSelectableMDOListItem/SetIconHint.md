@@ -1,9 +1,9 @@
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetIconHint_String_p_0
+description: NSSelectableMDOListItem.SetIconHint(String p_0)
+intellisense: NSSelectableMDOListItem.SetIconHint
 keywords: SetIconHint(String)
+so.topic: reference
 ---
 
 

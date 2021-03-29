@@ -1,10 +1,10 @@
 ---
-title: Void ConnectActor(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String p3, Integer erpActorType, NSErpSyncFieldValue[] fieldValues)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Void ConnectActor(Integer p_0, Integer p_1, Integer p_2, String p_3, Integer p_4, NSErpSyncFieldValue[] p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ConnectActor_Integer_p_0_Integer_p_1_Integer_p_2_String_p_3_Integer_p_4_NSErpSyncFieldValue__p_5
+description: NSErpSyncAgent.ConnectActor(Integer p_0, Integer p_1, Integer p_2, String p_3, Integer p_4, NSErpSyncFieldValue[] p_5)
+intellisense: NSErpSyncAgent.ConnectActor
 sortOrder: 3219
 keywords: ConnectActor(Integer,Integer,Integer,String,Integer,NSErpSyncFieldValue[])
+so.topic: reference
 ---
 
 

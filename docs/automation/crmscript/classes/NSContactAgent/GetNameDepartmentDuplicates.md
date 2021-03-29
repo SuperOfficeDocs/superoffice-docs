@@ -1,10 +1,10 @@
 ---
-title: NSDuplicateEntry[] GetNameDepartmentDuplicates(String name, String department)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSDuplicateEntry[] GetNameDepartmentDuplicates(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetNameDepartmentDuplicates_String_p_0_String_p_1
+description: NSContactAgent.GetNameDepartmentDuplicates(String p_0, String p_1)
+intellisense: NSContactAgent.GetNameDepartmentDuplicates
 sortOrder: 1818
 keywords: GetNameDepartmentDuplicates(String,String)
+so.topic: reference
 ---
 
 

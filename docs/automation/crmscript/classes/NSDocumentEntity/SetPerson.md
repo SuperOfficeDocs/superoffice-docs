@@ -1,10 +1,10 @@
 ---
-title: Void SetPerson(NSPerson Person)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetPerson_NSPerson_p_0
+description: NSDocumentEntity.SetPerson(NSPerson p_0)
+intellisense: NSDocumentEntity.SetPerson
 sortOrder: 2605
 keywords: SetPerson(NSPerson)
+so.topic: reference
 ---
 
 

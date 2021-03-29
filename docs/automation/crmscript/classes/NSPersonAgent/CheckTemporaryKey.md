@@ -1,9 +1,9 @@
 ---
-title: NSTemporaryKeyInfo CheckTemporaryKey(String temporaryKey)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSTemporaryKeyInfo CheckTemporaryKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_CheckTemporaryKey_String_p_0
+description: NSPersonAgent.CheckTemporaryKey(String p_0)
+intellisense: NSPersonAgent.CheckTemporaryKey
 keywords: CheckTemporaryKey(String)
+so.topic: reference
 ---
 
 

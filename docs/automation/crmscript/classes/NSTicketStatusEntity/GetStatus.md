@@ -1,9 +1,9 @@
 ---
-title: NSTicketBaseStatus GetStatus()
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/NSTicketBaseStatus GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketStatusEntity_GetStatus
+description: NSTicketStatusEntity.GetStatus()
+intellisense: NSTicketStatusEntity.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

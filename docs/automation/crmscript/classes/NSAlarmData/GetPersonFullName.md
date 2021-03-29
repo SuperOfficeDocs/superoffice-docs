@@ -1,10 +1,10 @@
 ---
-title: String GetPersonFullName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetPersonFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetPersonFullName
+description: NSAlarmData.GetPersonFullName()
+intellisense: NSAlarmData.GetPersonFullName
 sortOrder: 664
 keywords: GetPersonFullName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetAlertTimeout()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetAlertTimeout()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetAlertTimeout
+description: NSTicket.GetAlertTimeout()
+intellisense: NSTicket.GetAlertTimeout
 keywords: GetAlertTimeout()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteAttachmentIds(Integer[] QuoteAttachmentIds)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetQuoteAttachmentIds(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetQuoteAttachmentIds_Integer__p_0
+description: NSQuotePublishDocuments.SetQuoteAttachmentIds(Integer[] p_0)
+intellisense: NSQuotePublishDocuments.SetQuoteAttachmentIds
 keywords: SetQuoteAttachmentIds(Integer[])
+so.topic: reference
 ---
 
 

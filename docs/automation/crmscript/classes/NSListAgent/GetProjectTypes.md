@@ -1,9 +1,9 @@
 ---
-title: NSProjectType[] GetProjectTypes()
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectType[] GetProjectTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProjectTypes
+description: NSListAgent.GetProjectTypes()
+intellisense: NSListAgent.GetProjectTypes
 keywords: GetProjectTypes()
+so.topic: reference
 ---
 
 

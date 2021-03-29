@@ -1,9 +1,9 @@
 ---
-title: String GetSourceInput()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String GetSourceInput()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetSourceInput
+description: NSTemplateVariablesParameters.GetSourceInput()
+intellisense: NSTemplateVariablesParameters.GetSourceInput
 keywords: GetSourceInput()
+so.topic: reference
 ---
 
 

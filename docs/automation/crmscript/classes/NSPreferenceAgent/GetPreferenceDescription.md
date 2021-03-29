@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescription GetPreferenceDescription(Integer preferenceDescriptionId)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription GetPreferenceDescription(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetPreferenceDescription_Integer_p_0
+description: NSPreferenceAgent.GetPreferenceDescription(Integer p_0)
+intellisense: NSPreferenceAgent.GetPreferenceDescription
 keywords: GetPreferenceDescription(Integer)
+so.topic: reference
 ---
 
 

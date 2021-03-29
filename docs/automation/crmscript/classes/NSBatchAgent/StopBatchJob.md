@@ -1,10 +1,10 @@
 ---
-title: Bool StopBatchJob(Integer id)
-path: /EJScript/Classes/NSBatchAgent/Member functions/Bool StopBatchJob(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent_StopBatchJob_Integer_p_0
+description: NSBatchAgent.StopBatchJob(Integer p_0)
+intellisense: NSBatchAgent.StopBatchJob
 sortOrder: 1351
 keywords: StopBatchJob(Integer)
+so.topic: reference
 ---
 
 

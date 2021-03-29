@@ -1,8 +1,8 @@
 ---
-title: NSReportAgent
-path: /EJScript/Classes/NSReportAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent
+description: NSReportAgent
+intellisense: Void.NSReportAgent
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetLoginId(Integer LoginId)
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Void SetLoginId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsSessionKey_SetLoginId_Integer_p_0
+description: NSCsSessionKey.SetLoginId(Integer p_0)
+intellisense: NSCsSessionKey.SetLoginId
 sortOrder: 2167
 keywords: SetLoginId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSForeignKey GetKeyByValue(String applicationName, String deviceName, String keyName, String keyValue, String tableName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey GetKeyByValue(String p_0, String p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetKeyByValue_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4
+description: NSForeignSystemAgent.GetKeyByValue(String p_0, String p_1, String p_2, String p_3, String p_4)
+intellisense: NSForeignSystemAgent.GetKeyByValue
 sortOrder: 3765
 keywords: GetKeyByValue(String,String,String,String,String)
+so.topic: reference
 ---
 
 

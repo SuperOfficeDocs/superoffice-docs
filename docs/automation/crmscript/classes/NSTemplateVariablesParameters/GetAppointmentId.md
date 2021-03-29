@@ -1,9 +1,9 @@
 ---
-title: Integer GetAppointmentId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetAppointmentId
+description: NSTemplateVariablesParameters.GetAppointmentId()
+intellisense: NSTemplateVariablesParameters.GetAppointmentId
 keywords: GetAppointmentId()
+so.topic: reference
 ---
 
 

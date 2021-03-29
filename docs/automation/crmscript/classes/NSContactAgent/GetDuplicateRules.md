@@ -1,10 +1,10 @@
 ---
-title: NSDuplicateRule[] GetDuplicateRules()
-path: /EJScript/Classes/NSContactAgent/Member functions/NSDuplicateRule[] GetDuplicateRules()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetDuplicateRules
+description: NSContactAgent.GetDuplicateRules()
+intellisense: NSContactAgent.GetDuplicateRules
 sortOrder: 1819
 keywords: GetDuplicateRules()
+so.topic: reference
 ---
 
 

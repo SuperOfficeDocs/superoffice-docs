@@ -1,9 +1,9 @@
 ---
-title: NSLicenseOwner[] GetLicenseOwners()
-path: /EJScript/Classes/NSUser/Member functions/NSLicenseOwner[] GetLicenseOwners()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetLicenseOwners
+description: NSUser.GetLicenseOwners()
+intellisense: NSUser.GetLicenseOwners
 keywords: GetLicenseOwners()
+so.topic: reference
 ---
 
 

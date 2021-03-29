@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsActive()
-path: /EJScript/Classes/NSResourceOverride/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_GetIsActive
+description: NSResourceOverride.GetIsActive()
+intellisense: NSResourceOverride.GetIsActive
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 

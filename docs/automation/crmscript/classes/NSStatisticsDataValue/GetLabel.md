@@ -1,9 +1,9 @@
 ---
-title: String GetLabel()
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/String GetLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataValue_GetLabel
+description: NSStatisticsDataValue.GetLabel()
+intellisense: NSStatisticsDataValue.GetLabel
 keywords: GetLabel()
+so.topic: reference
 ---
 
 

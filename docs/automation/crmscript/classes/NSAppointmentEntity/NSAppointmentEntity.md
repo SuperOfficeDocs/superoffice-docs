@@ -1,9 +1,9 @@
 ---
-title: NSAppointmentEntity
-path: /EJScript/Classes/NSAppointmentEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity
+description: NSAppointmentEntity
+intellisense: Void.NSAppointmentEntity
 sortOrder: 921
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSArchiveColumnData/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnData_SetDisplayValue_String_p_0
+description: NSArchiveColumnData.SetDisplayValue(String p_0)
+intellisense: NSArchiveColumnData.SetDisplayValue
 sortOrder: 1129
 keywords: SetDisplayValue(String)
+so.topic: reference
 ---
 
 

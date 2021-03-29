@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetName
+description: NSContactEntity.GetName()
+intellisense: NSContactEntity.GetName
 sortOrder: 1871
 keywords: GetName()
+so.topic: reference
 ---
 
 

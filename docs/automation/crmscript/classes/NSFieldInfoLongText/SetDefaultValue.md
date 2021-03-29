@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultValue(String DefaultValue)
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Void SetDefaultValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoLongText_SetDefaultValue_String_p_0
+description: NSFieldInfoLongText.SetDefaultValue(String p_0)
+intellisense: NSFieldInfoLongText.SetDefaultValue
 sortOrder: 3525
 keywords: SetDefaultValue(String)
+so.topic: reference
 ---
 
 

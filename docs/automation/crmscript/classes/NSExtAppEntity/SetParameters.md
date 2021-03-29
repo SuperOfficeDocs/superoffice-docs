@@ -1,10 +1,10 @@
 ---
-title: Void SetParameters(String Parameters)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetParameters(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetParameters_String_p_0
+description: NSExtAppEntity.SetParameters(String p_0)
+intellisense: NSExtAppEntity.SetParameters
 sortOrder: 3389
 keywords: SetParameters(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetPersonId_Integer_p_0
+description: NSSale.SetPersonId(Integer p_0)
+intellisense: NSSale.SetPersonId
 keywords: SetPersonId(Integer)
+so.topic: reference
 ---
 
 

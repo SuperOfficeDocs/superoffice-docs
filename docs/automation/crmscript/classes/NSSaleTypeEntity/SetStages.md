@@ -1,9 +1,9 @@
 ---
-title: Void SetStages(NSSelectableMDOListItem[] Stages)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetStages(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetStages_NSSelectableMDOListItem__p_0
+description: NSSaleTypeEntity.SetStages(NSSelectableMDOListItem[] p_0)
+intellisense: NSSaleTypeEntity.SetStages
 keywords: SetStages(NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

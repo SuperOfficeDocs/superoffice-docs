@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSUser/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetName
+description: NSUser.GetName()
+intellisense: NSUser.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

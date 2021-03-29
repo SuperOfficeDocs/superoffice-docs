@@ -1,9 +1,9 @@
 ---
-title: Bool UpdateTimeZoneData()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Bool UpdateTimeZoneData()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_UpdateTimeZoneData
+description: NSTimeZoneAgent.UpdateTimeZoneData()
+intellisense: NSTimeZoneAgent.UpdateTimeZoneData
 keywords: UpdateTimeZoneData()
+so.topic: reference
 ---
 
 

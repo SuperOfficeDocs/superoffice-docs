@@ -1,9 +1,9 @@
 ---
-title: Void SetState(Integer p0)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetState_Integer_p_0
+description: NSWindowPosSize.SetState(Integer p_0)
+intellisense: NSWindowPosSize.SetState
 keywords: SetState(Integer)
+so.topic: reference
 ---
 
 

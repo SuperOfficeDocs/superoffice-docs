@@ -1,9 +1,9 @@
 ---
-title: Void SetFavoriteQuoteAlternative(NSQuoteAlternative FavoriteQuoteAlternative)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetFavoriteQuoteAlternative(NSQuoteAlternative p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetFavoriteQuoteAlternative_NSQuoteAlternative_p_0
+description: NSQuote.SetFavoriteQuoteAlternative(NSQuoteAlternative p_0)
+intellisense: NSQuote.SetFavoriteQuoteAlternative
 keywords: SetFavoriteQuoteAlternative(NSQuoteAlternative)
+so.topic: reference
 ---
 
 

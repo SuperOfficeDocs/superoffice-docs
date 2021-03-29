@@ -1,10 +1,10 @@
 ---
-title: NSWindowPosSize[] GetMyWindowPosSizes()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSWindowPosSize[] GetMyWindowPosSizes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetMyWindowPosSizes
+description: NSConfigurationAgent.GetMyWindowPosSizes()
+intellisense: NSConfigurationAgent.GetMyWindowPosSizes
 sortOrder: 1598
 keywords: GetMyWindowPosSizes()
+so.topic: reference
 ---
 
 

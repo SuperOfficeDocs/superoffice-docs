@@ -1,10 +1,10 @@
 ---
-title: Void SetChoices(String[] Choices)
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Void SetChoices(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoLongText_SetChoices_String__p_0
+description: NSFieldInfoLongText.SetChoices(String[] p_0)
+intellisense: NSFieldInfoLongText.SetChoices
 sortOrder: 3524
 keywords: SetChoices(String[])
+so.topic: reference
 ---
 
 

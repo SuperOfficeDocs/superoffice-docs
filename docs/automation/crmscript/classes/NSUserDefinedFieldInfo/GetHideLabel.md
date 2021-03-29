@@ -1,9 +1,9 @@
 ---
-title: Bool GetHideLabel()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetHideLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetHideLabel
+description: NSUserDefinedFieldInfo.GetHideLabel()
+intellisense: NSUserDefinedFieldInfo.GetHideLabel
 keywords: GetHideLabel()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSaveDocument(Bool SaveDocument)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetSaveDocument(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetSaveDocument_Bool_p_0
+description: NSMailMergeSettings.SetSaveDocument(Bool p_0)
+intellisense: NSMailMergeSettings.SetSaveDocument
 keywords: SetSaveDocument(Bool)
+so.topic: reference
 ---
 
 

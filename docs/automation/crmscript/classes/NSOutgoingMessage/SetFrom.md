@@ -1,9 +1,9 @@
 ---
-title: Void SetFrom(String From)
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetFrom(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_SetFrom_String_p_0
+description: NSOutgoingMessage.SetFrom(String p_0)
+intellisense: NSOutgoingMessage.SetFrom
 keywords: SetFrom(String)
+so.topic: reference
 ---
 
 

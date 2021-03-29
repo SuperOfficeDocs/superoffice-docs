@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsOk()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Bool GetIsOk()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_GetIsOk
+description: NSQuoteVersionValidated.GetIsOk()
+intellisense: NSQuoteVersionValidated.GetIsOk
 keywords: GetIsOk()
+so.topic: reference
 ---
 
 

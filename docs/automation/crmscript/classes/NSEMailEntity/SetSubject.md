@@ -1,10 +1,10 @@
 ---
-title: Void SetSubject(String Subject)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetSubject(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetSubject_String_p_0
+description: NSEMailEntity.SetSubject(String p_0)
+intellisense: NSEMailEntity.SetSubject
 sortOrder: 2998
 keywords: SetSubject(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetLeftX(Integer LeftX)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetLeftX(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetLeftX_Integer_p_0
+description: NSWindowPosSize.SetLeftX(Integer p_0)
+intellisense: NSWindowPosSize.SetLeftX
 keywords: SetLeftX(Integer)
+so.topic: reference
 ---
 
 

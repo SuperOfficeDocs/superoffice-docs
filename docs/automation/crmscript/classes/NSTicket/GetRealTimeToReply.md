@@ -1,9 +1,9 @@
 ---
-title: Integer GetRealTimeToReply()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeToReply()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetRealTimeToReply
+description: NSTicket.GetRealTimeToReply()
+intellisense: NSTicket.GetRealTimeToReply
 keywords: GetRealTimeToReply()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSFieldMetadata[] GetErpFields()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/NSFieldMetadata[] GetErpFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_GetErpFields
+description: NSErpConnectionData.GetErpFields()
+intellisense: NSErpConnectionData.GetErpFields
 sortOrder: 3112
 keywords: GetErpFields()
+so.topic: reference
 ---
 
 

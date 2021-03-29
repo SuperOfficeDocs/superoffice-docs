@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedAppointmentId(Integer CreatedAppointmentId)
-path: /EJScript/Classes/NSApproveRejectResponse/Member functions/Void SetCreatedAppointmentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSApproveRejectResponse_SetCreatedAppointmentId_Integer_p_0
+description: NSApproveRejectResponse.SetCreatedAppointmentId(Integer p_0)
+intellisense: NSApproveRejectResponse.SetCreatedAppointmentId
 sortOrder: 1096
 keywords: SetCreatedAppointmentId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetContactName(String ContactName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetContactName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetContactName_String_p_0
+description: NSAppointment.SetContactName(String p_0)
+intellisense: NSAppointment.SetContactName
 sortOrder: 783
 keywords: SetContactName(String)
+so.topic: reference
 ---
 
 

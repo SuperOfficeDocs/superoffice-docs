@@ -1,9 +1,9 @@
 ---
-title: Bool GetSuccess()
-path: /EJScript/Classes/NSWebhookResult/Member functions/Bool GetSuccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookResult_GetSuccess
+description: NSWebhookResult.GetSuccess()
+intellisense: NSWebhookResult.GetSuccess
 keywords: GetSuccess()
+so.topic: reference
 ---
 
 

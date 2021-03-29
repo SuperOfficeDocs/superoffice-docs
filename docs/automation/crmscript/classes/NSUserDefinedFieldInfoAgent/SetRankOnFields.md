@@ -1,9 +1,9 @@
 ---
-title: Void SetRankOnFields(Integer ownerType, Integer[] rankedFieldsIds)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void SetRankOnFields(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetRankOnFields_Integer_p_0_Integer__p_1
+description: NSUserDefinedFieldInfoAgent.SetRankOnFields(Integer p_0, Integer[] p_1)
+intellisense: NSUserDefinedFieldInfoAgent.SetRankOnFields
 keywords: SetRankOnFields(Integer,Integer[])
+so.topic: reference
 ---
 
 

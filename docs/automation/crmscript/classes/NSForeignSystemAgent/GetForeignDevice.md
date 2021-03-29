@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice GetForeignDevice(Integer foreignDeviceId)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice GetForeignDevice(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetForeignDevice_Integer_p_0
+description: NSForeignSystemAgent.GetForeignDevice(Integer p_0)
+intellisense: NSForeignSystemAgent.GetForeignDevice
 sortOrder: 3759
 keywords: GetForeignDevice(Integer)
+so.topic: reference
 ---
 
 

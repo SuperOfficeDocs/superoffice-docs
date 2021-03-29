@@ -1,9 +1,9 @@
 ---
-title: TimeSpan getDifference(DateTime start, DateTime stop)
-path: /EJScript/Classes/WeekSchedule/Member functions/TimeSpan getDifference(DateTime start, DateTime stop)
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_getDifference_DateTime_start_DateTime_stop
+description: WeekSchedule.getDifference(DateTime start, DateTime stop)
+intellisense: WeekSchedule.getDifference
 keywords: getDifference(DateTime,DateTime)
+so.topic: reference
 ---
 
 

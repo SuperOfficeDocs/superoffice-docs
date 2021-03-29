@@ -1,9 +1,9 @@
 ---
-title: Integer GetQuotedProductsId()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Integer GetQuotedProductsId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetQuotedProductsId
+description: NSQuotePublishDocuments.GetQuotedProductsId()
+intellisense: NSQuotePublishDocuments.GetQuotedProductsId
 keywords: GetQuotedProductsId()
+so.topic: reference
 ---
 
 

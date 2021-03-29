@@ -1,9 +1,9 @@
 ---
-title: FHBitSet
-path: /EJScript/Classes/FHBitSet
-intellisense: 1
-classref: 1
+title: crmscript_ref_FHBitSet
+description: FHBitSet
+intellisense: Void.FHBitSet
 sortOrder: 332
+so.topic: reference
 ---
 
 

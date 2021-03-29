@@ -1,9 +1,9 @@
 ---
-title: Void SetIsHidden(Bool IsHidden)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetIsHidden(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_SetIsHidden_Bool_p_0
+description: NSModuleLicenseLink.SetIsHidden(Bool p_0)
+intellisense: NSModuleLicenseLink.SetIsHidden
 keywords: SetIsHidden(Bool)
+so.topic: reference
 ---
 
 

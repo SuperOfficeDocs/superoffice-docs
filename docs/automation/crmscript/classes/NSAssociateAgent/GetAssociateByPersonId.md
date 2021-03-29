@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetAssociateByPersonId(Integer personId)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/NSAssociate GetAssociateByPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_GetAssociateByPersonId_Integer_p_0
+description: NSAssociateAgent.GetAssociateByPersonId(Integer p_0)
+intellisense: NSAssociateAgent.GetAssociateByPersonId
 sortOrder: 1281
 keywords: GetAssociateByPersonId(Integer)
+so.topic: reference
 ---
 
 

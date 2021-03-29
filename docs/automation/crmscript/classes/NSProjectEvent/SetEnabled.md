@@ -1,9 +1,9 @@
 ---
-title: Void SetEnabled(Bool Enabled)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetEnabled(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetEnabled_Bool_p_0
+description: NSProjectEvent.SetEnabled(Bool p_0)
+intellisense: NSProjectEvent.SetEnabled
 keywords: SetEnabled(Bool)
+so.topic: reference
 ---
 
 

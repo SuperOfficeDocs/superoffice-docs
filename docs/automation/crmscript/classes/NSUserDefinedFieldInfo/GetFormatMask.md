@@ -1,9 +1,9 @@
 ---
-title: String GetFormatMask()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetFormatMask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetFormatMask
+description: NSUserDefinedFieldInfo.GetFormatMask()
+intellisense: NSUserDefinedFieldInfo.GetFormatMask
 keywords: GetFormatMask()
+so.topic: reference
 ---
 
 

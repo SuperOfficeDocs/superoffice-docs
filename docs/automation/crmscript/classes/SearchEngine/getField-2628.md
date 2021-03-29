@@ -1,9 +1,9 @@
 ---
-title: String getField(String name)
-path: /EJScript/Classes/SearchEngine/member functions/String getField(String name)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_getField_String_name
+description: SearchEngine.getField(String name)
+intellisense: SearchEngine.getField
 keywords: getField(String)
+so.topic: reference
 ---
 
 

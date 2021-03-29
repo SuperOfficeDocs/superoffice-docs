@@ -1,9 +1,9 @@
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSSelectionCategory/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionCategory_SetId_Integer_p_0
+description: NSSelectionCategory.SetId(Integer p_0)
+intellisense: NSSelectionCategory.SetId
 keywords: SetId(Integer)
+so.topic: reference
 ---
 
 

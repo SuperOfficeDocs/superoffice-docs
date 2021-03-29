@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayValue()
-path: /EJScript/Classes/NSQuoteListItem/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteListItem_GetDisplayValue
+description: NSQuoteListItem.GetDisplayValue()
+intellisense: NSQuoteListItem.GetDisplayValue
 keywords: GetDisplayValue()
+so.topic: reference
 ---
 
 

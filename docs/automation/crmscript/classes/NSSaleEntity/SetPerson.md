@@ -1,9 +1,9 @@
 ---
-title: Void SetPerson(NSPerson Person)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetPerson_NSPerson_p_0
+description: NSSaleEntity.SetPerson(NSPerson p_0)
+intellisense: NSSaleEntity.SetPerson
 keywords: SetPerson(NSPerson)
+so.topic: reference
 ---
 
 

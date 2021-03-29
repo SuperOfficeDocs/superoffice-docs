@@ -1,9 +1,9 @@
 ---
-title: Void SetUnitMinimumPrice(Float UnitMinimumPrice)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetUnitMinimumPrice(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetUnitMinimumPrice_Float_p_0
+description: NSProduct.SetUnitMinimumPrice(Float p_0)
+intellisense: NSProduct.SetUnitMinimumPrice
 keywords: SetUnitMinimumPrice(Float)
+so.topic: reference
 ---
 
 

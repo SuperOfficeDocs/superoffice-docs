@@ -1,9 +1,9 @@
 ---
-title: Integer GetColorBlock()
-path: /EJScript/Classes/NSMDOListItem/Member functions/Integer GetColorBlock()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetColorBlock
+description: NSMDOListItem.GetColorBlock()
+intellisense: NSMDOListItem.GetColorBlock
 keywords: GetColorBlock()
+so.topic: reference
 ---
 
 

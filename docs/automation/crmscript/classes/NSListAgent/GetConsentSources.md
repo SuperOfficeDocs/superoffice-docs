@@ -1,9 +1,9 @@
 ---
-title: NSConsentSource[] GetConsentSources()
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentSource[] GetConsentSources()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetConsentSources
+description: NSListAgent.GetConsentSources()
+intellisense: NSListAgent.GetConsentSources
 keywords: GetConsentSources()
+so.topic: reference
 ---
 
 

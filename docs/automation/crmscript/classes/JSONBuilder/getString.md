@@ -1,10 +1,10 @@
 ---
-title: String getString()
-path: /EJScript/Classes/JSONBuilder/Member functions/String getString()
-intellisense: 1
-classref: 1
+title: crmscript_ref_JSONBuilder_getString
+description: JSONBuilder.getString()
+intellisense: JSONBuilder.getString
 sortOrder: 445
 keywords: getString()
+so.topic: reference
 ---
 
 Returns the JSON-formatted string that has been built by all push* and add* methods.

@@ -1,10 +1,10 @@
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSDeliveryType/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDeliveryType_SetId_Integer_p_0
+description: NSDeliveryType.SetId(Integer p_0)
+intellisense: NSDeliveryType.SetId
 sortOrder: 2377
 keywords: SetId(Integer)
+so.topic: reference
 ---
 
 

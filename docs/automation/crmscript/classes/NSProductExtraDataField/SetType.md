@@ -1,9 +1,9 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductExtraDataField_SetType_Integer_p_0
+description: NSProductExtraDataField.SetType(Integer p_0)
+intellisense: NSProductExtraDataField.SetType
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

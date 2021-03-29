@@ -1,8 +1,8 @@
 ---
-title: NSLicenseResult
-path: /EJScript/Classes/NSLicenseResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseResult
+description: NSLicenseResult
+intellisense: Void.NSLicenseResult
+so.topic: reference
 ---
 
 

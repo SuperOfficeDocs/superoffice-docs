@@ -1,9 +1,9 @@
 ---
-title: String GetSignOnConfirmationText()
-path: /EJScript/Classes/NSProjectEvent/Member functions/String GetSignOnConfirmationText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOnConfirmationText
+description: NSProjectEvent.GetSignOnConfirmationText()
+intellisense: NSProjectEvent.GetSignOnConfirmationText
 keywords: GetSignOnConfirmationText()
+so.topic: reference
 ---
 
 

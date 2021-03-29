@@ -1,9 +1,9 @@
 ---
-title: Void SetCurrency(String Currency)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetCurrency(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_SetCurrency_String_p_0
+description: NSPriceList.SetCurrency(String p_0)
+intellisense: NSPriceList.SetCurrency
 keywords: SetCurrency(String)
+so.topic: reference
 ---
 
 

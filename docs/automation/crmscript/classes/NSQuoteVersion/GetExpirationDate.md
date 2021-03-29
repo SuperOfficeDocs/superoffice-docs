@@ -1,9 +1,9 @@
 ---
-title: DateTime GetExpirationDate()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/DateTime GetExpirationDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetExpirationDate
+description: NSQuoteVersion.GetExpirationDate()
+intellisense: NSQuoteVersion.GetExpirationDate
 keywords: GetExpirationDate()
+so.topic: reference
 ---
 
 

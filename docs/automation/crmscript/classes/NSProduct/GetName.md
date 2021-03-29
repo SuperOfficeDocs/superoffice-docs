@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSProduct/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetName
+description: NSProduct.GetName()
+intellisense: NSProduct.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

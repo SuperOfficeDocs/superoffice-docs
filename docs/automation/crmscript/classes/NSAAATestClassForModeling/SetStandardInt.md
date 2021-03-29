@@ -1,10 +1,10 @@
 ---
-title: Void SetStandardInt(Integer StandardInt)
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Void SetStandardInt(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_SetStandardInt_Integer_p_0
+description: NSAAATestClassForModeling.SetStandardInt(Integer p_0)
+intellisense: NSAAATestClassForModeling.SetStandardInt
 sortOrder: 8949
 keywords: SetStandardInt(Integer)
+so.topic: reference
 ---
 
 

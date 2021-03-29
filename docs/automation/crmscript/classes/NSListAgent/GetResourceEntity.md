@@ -1,9 +1,9 @@
 ---
-title: NSResourceEntity GetResourceEntity(Integer resourceEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity GetResourceEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetResourceEntity_Integer_p_0
+description: NSListAgent.GetResourceEntity(Integer p_0)
+intellisense: NSListAgent.GetResourceEntity
 keywords: GetResourceEntity(Integer)
+so.topic: reference
 ---
 
 

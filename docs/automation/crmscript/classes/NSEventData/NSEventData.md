@@ -1,9 +1,9 @@
 ---
-title: NSEventData
-path: /EJScript/Classes/NSEventData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData
+description: NSEventData
+intellisense: Void.NSEventData
 sortOrder: 3337
+so.topic: reference
 ---
 
 

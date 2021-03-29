@@ -1,10 +1,10 @@
 ---
-title: NSPerson GetParticipantInfoFromEmailAddress(String emailAddress, Integer appointmentId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSPerson GetParticipantInfoFromEmailAddress(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetParticipantInfoFromEmailAddress_String_p_0_Integer_p_1
+description: NSEMailAgent.GetParticipantInfoFromEmailAddress(String p_0, Integer p_1)
+intellisense: NSEMailAgent.GetParticipantInfoFromEmailAddress
 sortOrder: 2840
 keywords: GetParticipantInfoFromEmailAddress(String,Integer)
+so.topic: reference
 ---
 
 

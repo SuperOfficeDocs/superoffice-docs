@@ -1,10 +1,10 @@
 ---
-title: Bool GetOnCentral()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetOnCentral()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetOnCentral
+description: NSExtAppEntity.GetOnCentral()
+intellisense: NSExtAppEntity.GetOnCentral
 sortOrder: 3358
 keywords: GetOnCentral()
+so.topic: reference
 ---
 
 

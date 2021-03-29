@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo[] GetUserDefinedFieldList(Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetUserDefinedFieldList(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldList_Integer_p_0
+description: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList(Integer p_0)
+intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldList
 keywords: GetUserDefinedFieldList(Integer)
+so.topic: reference
 ---
 
 

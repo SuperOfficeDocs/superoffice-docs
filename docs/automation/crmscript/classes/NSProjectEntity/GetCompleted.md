@@ -1,9 +1,9 @@
 ---
-title: Bool GetCompleted()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Bool GetCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetCompleted
+description: NSProjectEntity.GetCompleted()
+intellisense: NSProjectEntity.GetCompleted
 keywords: GetCompleted()
+so.topic: reference
 ---
 
 

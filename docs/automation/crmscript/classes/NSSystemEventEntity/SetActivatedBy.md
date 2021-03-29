@@ -1,9 +1,9 @@
 ---
-title: Void SetActivatedBy(NSAssociate ActivatedBy)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetActivatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetActivatedBy_NSAssociate_p_0
+description: NSSystemEventEntity.SetActivatedBy(NSAssociate p_0)
+intellisense: NSSystemEventEntity.SetActivatedBy
 keywords: SetActivatedBy(NSAssociate)
+so.topic: reference
 ---
 
 

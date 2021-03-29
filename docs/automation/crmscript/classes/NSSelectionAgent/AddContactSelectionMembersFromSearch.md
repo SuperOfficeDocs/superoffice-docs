@@ -1,9 +1,9 @@
 ---
-title: Integer AddContactSelectionMembersFromSearch(Integer selectionId, String storageKey)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer AddContactSelectionMembersFromSearch(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_AddContactSelectionMembersFromSearch_Integer_p_0_String_p_1
+description: NSSelectionAgent.AddContactSelectionMembersFromSearch(Integer p_0, String p_1)
+intellisense: NSSelectionAgent.AddContactSelectionMembersFromSearch
 keywords: AddContactSelectionMembersFromSearch(Integer,String)
+so.topic: reference
 ---
 
 

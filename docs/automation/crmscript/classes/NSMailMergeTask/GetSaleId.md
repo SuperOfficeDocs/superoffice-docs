@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetSaleId
+description: NSMailMergeTask.GetSaleId()
+intellisense: NSMailMergeTask.GetSaleId
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetFreeTextEnabled()
-path: /EJScript/Classes/NSFreeText/Member functions/Bool GetFreeTextEnabled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetFreeTextEnabled
+description: NSFreeText.GetFreeTextEnabled()
+intellisense: NSFreeText.GetFreeTextEnabled
 sortOrder: 3853
 keywords: GetFreeTextEnabled()
+so.topic: reference
 ---
 
 

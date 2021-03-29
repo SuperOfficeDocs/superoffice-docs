@@ -1,9 +1,9 @@
 ---
-title: NSPreference SavePreferenceEntity(NSPreference preference, Bool removeLowerLevels)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference SavePreferenceEntity(NSPreference p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_SavePreferenceEntity_NSPreference_p_0_Bool_p_1
+description: NSPreferenceAgent.SavePreferenceEntity(NSPreference p_0, Bool p_1)
+intellisense: NSPreferenceAgent.SavePreferenceEntity
 keywords: SavePreferenceEntity(NSPreference,Bool)
+so.topic: reference
 ---
 
 

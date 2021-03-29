@@ -1,10 +1,10 @@
 ---
-title: NSCriteriaInformation GetSpecifiedCriteriaInformationWithDefaultsWithContext(String storageType, String providerName, String storageKey, String[] desiredColumnNames, String[] staticColumns, String context)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSCriteriaInformation GetSpecifiedCriteriaInformationWithDefaultsWithContext(String p_0, String p_1, String p_2, String[] p_3, String[] p_4, String p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetSpecifiedCriteriaInformationWithDefaultsWithContext_String_p_0_String_p_1_String_p_2_String__p_3_String__p_4_String_p_5
+description: NSFindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext(String p_0, String p_1, String p_2, String[] p_3, String[] p_4, String p_5)
+intellisense: NSFindAgent.GetSpecifiedCriteriaInformationWithDefaultsWithContext
 sortOrder: 3666
 keywords: GetSpecifiedCriteriaInformationWithDefaultsWithContext(String,String,String,String[],String[],String)
+so.topic: reference
 ---
 
 

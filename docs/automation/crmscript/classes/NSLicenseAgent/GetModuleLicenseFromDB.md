@@ -1,9 +1,9 @@
 ---
-title: NSModuleLicense GetModuleLicenseFromDB(String ownerName, String moduleName)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSModuleLicense GetModuleLicenseFromDB(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetModuleLicenseFromDB_String_p_0_String_p_1
+description: NSLicenseAgent.GetModuleLicenseFromDB(String p_0, String p_1)
+intellisense: NSLicenseAgent.GetModuleLicenseFromDB
 keywords: GetModuleLicenseFromDB(String,String)
+so.topic: reference
 ---
 
 

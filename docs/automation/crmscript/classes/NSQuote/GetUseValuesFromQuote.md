@@ -1,9 +1,9 @@
 ---
-title: Integer GetUseValuesFromQuote()
-path: /EJScript/Classes/NSQuote/Member functions/Integer GetUseValuesFromQuote()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetUseValuesFromQuote
+description: NSQuote.GetUseValuesFromQuote()
+intellisense: NSQuote.GetUseValuesFromQuote
 keywords: GetUseValuesFromQuote()
+so.topic: reference
 ---
 
 

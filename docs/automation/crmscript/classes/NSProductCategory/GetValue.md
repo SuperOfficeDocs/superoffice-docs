@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSProductCategory/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductCategory_GetValue
+description: NSProductCategory.GetValue()
+intellisense: NSProductCategory.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

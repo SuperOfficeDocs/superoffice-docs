@@ -1,9 +1,9 @@
 ---
-title: NSPhoneListItem[] GetFavoritesPhones()
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] GetFavoritesPhones()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_GetFavoritesPhones
+description: NSPhoneListAgent.GetFavoritesPhones()
+intellisense: NSPhoneListAgent.GetFavoritesPhones
 keywords: GetFavoritesPhones()
+so.topic: reference
 ---
 
 

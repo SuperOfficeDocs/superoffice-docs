@@ -1,10 +1,10 @@
 ---
-title: Void SetPersons(NSPerson[] Persons)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetPersons(NSPerson[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetPersons_NSPerson__p_0
+description: NSContactEntity.SetPersons(NSPerson[] p_0)
+intellisense: NSContactEntity.SetPersons
 sortOrder: 1907
 keywords: SetPersons(NSPerson[])
+so.topic: reference
 ---
 
 

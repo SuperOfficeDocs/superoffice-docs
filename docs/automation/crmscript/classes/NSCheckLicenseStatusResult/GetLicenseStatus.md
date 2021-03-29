@@ -1,10 +1,10 @@
 ---
-title: Integer GetLicenseStatus()
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/Integer GetLicenseStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckLicenseStatusResult_GetLicenseStatus
+description: NSCheckLicenseStatusResult.GetLicenseStatus()
+intellisense: NSCheckLicenseStatusResult.GetLicenseStatus
 sortOrder: 1551
 keywords: GetLicenseStatus()
+so.topic: reference
 ---
 
 

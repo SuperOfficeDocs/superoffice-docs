@@ -1,9 +1,9 @@
 ---
-title: Void SetReldefId(Integer ReldefId)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetReldefId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_SetReldefId_Integer_p_0
+description: NSRelationDefinitionEntity.SetReldefId(Integer p_0)
+intellisense: NSRelationDefinitionEntity.SetReldefId
 keywords: SetReldefId(Integer)
+so.topic: reference
 ---
 
 

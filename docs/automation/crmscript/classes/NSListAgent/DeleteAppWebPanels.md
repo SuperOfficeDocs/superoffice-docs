@@ -1,9 +1,9 @@
 ---
-title: Void DeleteAppWebPanels()
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteAppWebPanels()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteAppWebPanels
+description: NSListAgent.DeleteAppWebPanels()
+intellisense: NSListAgent.DeleteAppWebPanels
 keywords: DeleteAppWebPanels()
+so.topic: reference
 ---
 
 

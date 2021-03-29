@@ -1,9 +1,9 @@
 ---
-title: String GetRequestSignature()
-path: /EJScript/Classes/NSUser/Member functions/String GetRequestSignature()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetRequestSignature
+description: NSUser.GetRequestSignature()
+intellisense: NSUser.GetRequestSignature
 keywords: GetRequestSignature()
+so.topic: reference
 ---
 
 

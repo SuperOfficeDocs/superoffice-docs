@@ -1,10 +1,10 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetType_Integer_p_0
+description: NSEventData.SetType(Integer p_0)
+intellisense: NSEventData.SetType
 sortOrder: 3354
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

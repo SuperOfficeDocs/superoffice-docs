@@ -1,10 +1,10 @@
 ---
-title: StringDictionary GetInputValues()
-path: /EJScript/Classes/NSEventData/Member functions/StringDictionary GetInputValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetInputValues
+description: NSEventData.GetInputValues()
+intellisense: NSEventData.GetInputValues
 sortOrder: 3344
 keywords: GetInputValues()
+so.topic: reference
 ---
 
 

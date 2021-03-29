@@ -1,9 +1,9 @@
 ---
-title: String prettyChop(Integer length)
-path: /EJScript/Classes/String/Member functions/String prettyChop(Integer length)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_prettyChop_Integer_length
+description: String.prettyChop(Integer length)
+intellisense: String.prettyChop
 keywords: prettyChop(Integer)
+so.topic: reference
 ---
 
 

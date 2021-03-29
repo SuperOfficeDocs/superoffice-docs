@@ -1,10 +1,10 @@
 ---
-title: NSEMailEnvelope[] GetNewMail(Integer[] folders)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEnvelope[] GetNewMail(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetNewMail_Integer__p_0
+description: NSEMailAgent.GetNewMail(Integer[] p_0)
+intellisense: NSEMailAgent.GetNewMail
 sortOrder: 2834
 keywords: GetNewMail(Integer[])
+so.topic: reference
 ---
 
 

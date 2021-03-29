@@ -1,9 +1,9 @@
 ---
-title: Bool SetPasswordFromName(String associateName, String password)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool SetPasswordFromName(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SetPasswordFromName_String_p_0_String_p_1
+description: NSUserAgent.SetPasswordFromName(String p_0, String p_1)
+intellisense: NSUserAgent.SetPasswordFromName
 keywords: SetPasswordFromName(String,String)
+so.topic: reference
 ---
 
 

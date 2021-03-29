@@ -1,9 +1,9 @@
 ---
-title: NSLicenseOwner[] GetUserLicenses(Integer associateId)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseOwner[] GetUserLicenses(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetUserLicenses_Integer_p_0
+description: NSLicenseAgent.GetUserLicenses(Integer p_0)
+intellisense: NSLicenseAgent.GetUserLicenses
 keywords: GetUserLicenses(Integer)
+so.topic: reference
 ---
 
 

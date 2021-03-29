@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraInfo(String p0)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetExtraInfo_String_p_0
+description: NSLicenseInfo.SetExtraInfo(String p_0)
+intellisense: NSLicenseInfo.SetExtraInfo
 keywords: SetExtraInfo(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice SaveForeignDevice(NSForeignDevice foreignDevice, String applicationName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice SaveForeignDevice(NSForeignDevice p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_SaveForeignDevice_NSForeignDevice_p_0_String_p_1
+description: NSForeignSystemAgent.SaveForeignDevice(NSForeignDevice p_0, String p_1)
+intellisense: NSForeignSystemAgent.SaveForeignDevice
 sortOrder: 3761
 keywords: SaveForeignDevice(NSForeignDevice,String)
+so.topic: reference
 ---
 
 

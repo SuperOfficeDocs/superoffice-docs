@@ -1,9 +1,9 @@
 ---
-title: Integer CreateNewEntry(NSDuplicateEntry duplicate)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer CreateNewEntry(NSDuplicateEntry p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateNewEntry_NSDuplicateEntry_p_0
+description: NSSelectionAgent.CreateNewEntry(NSDuplicateEntry p_0)
+intellisense: NSSelectionAgent.CreateNewEntry
 keywords: CreateNewEntry(NSDuplicateEntry)
+so.topic: reference
 ---
 
 

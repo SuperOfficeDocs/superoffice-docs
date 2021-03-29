@@ -1,9 +1,9 @@
 ---
-title: Void SetUserDefinedListId(Integer UserDefinedListId)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetUserDefinedListId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetUserDefinedListId_Integer_p_0
+description: NSPreferenceDescription.SetUserDefinedListId(Integer p_0)
+intellisense: NSPreferenceDescription.SetUserDefinedListId
 keywords: SetUserDefinedListId(Integer)
+so.topic: reference
 ---
 
 

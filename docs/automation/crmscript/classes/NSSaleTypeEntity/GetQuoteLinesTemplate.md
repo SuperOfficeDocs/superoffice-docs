@@ -1,9 +1,9 @@
 ---
-title: Integer GetQuoteLinesTemplate()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetQuoteLinesTemplate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetQuoteLinesTemplate
+description: NSSaleTypeEntity.GetQuoteLinesTemplate()
+intellisense: NSSaleTypeEntity.GetQuoteLinesTemplate
 keywords: GetQuoteLinesTemplate()
+so.topic: reference
 ---
 
 

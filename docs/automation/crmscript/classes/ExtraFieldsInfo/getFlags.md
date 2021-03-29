@@ -1,10 +1,10 @@
 ---
-title: Integer getFlags()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Integer getFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraFieldsInfo_getFlags
+description: ExtraFieldsInfo.getFlags()
+intellisense: ExtraFieldsInfo.getFlags
 sortOrder: 304
 keywords: getFlags()
+so.topic: reference
 ---
 
 Returns the flags for the current extra field.

@@ -1,10 +1,10 @@
 ---
-title: NSEMailFolder[] GetFolderInfo(NSEMailConnectionInfo connectionInfo, String[] folders)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailFolder[] GetFolderInfo(NSEMailConnectionInfo p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetFolderInfo_NSEMailConnectionInfo_p_0_String__p_1
+description: NSEMailAgent.GetFolderInfo(NSEMailConnectionInfo p_0, String[] p_1)
+intellisense: NSEMailAgent.GetFolderInfo
 sortOrder: 2837
 keywords: GetFolderInfo(NSEMailConnectionInfo,String[])
+so.topic: reference
 ---
 
 

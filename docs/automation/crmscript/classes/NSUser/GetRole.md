@@ -1,9 +1,9 @@
 ---
-title: NSRole GetRole()
-path: /EJScript/Classes/NSUser/Member functions/NSRole GetRole()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetRole
+description: NSUser.GetRole()
+intellisense: NSUser.GetRole
 keywords: GetRole()
+so.topic: reference
 ---
 
 

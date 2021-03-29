@@ -1,9 +1,9 @@
 ---
-title: Integer GetDurationUnit()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetDurationUnit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetDurationUnit
+description: NSSaleTypeEntity.GetDurationUnit()
+intellisense: NSSaleTypeEntity.GetDurationUnit
 keywords: GetDurationUnit()
+so.topic: reference
 ---
 
 Units for the duration (day, week, whatever)

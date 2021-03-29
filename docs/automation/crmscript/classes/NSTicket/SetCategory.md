@@ -1,9 +1,9 @@
 ---
-title: Void SetCategory(Integer Category)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetCategory(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetCategory_Integer_p_0
+description: NSTicket.SetCategory(Integer p_0)
+intellisense: NSTicket.SetCategory
 keywords: SetCategory(Integer)
+so.topic: reference
 ---
 
 

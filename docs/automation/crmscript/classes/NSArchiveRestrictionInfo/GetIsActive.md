@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsActive()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_GetIsActive
+description: NSArchiveRestrictionInfo.GetIsActive()
+intellisense: NSArchiveRestrictionInfo.GetIsActive
 sortOrder: 1212
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 

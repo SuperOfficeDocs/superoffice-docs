@@ -1,10 +1,10 @@
 ---
-title: Void SetPriorityId(Integer PriorityId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetPriorityId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetPriorityId_Integer_p_0
+description: NSAppointment.SetPriorityId(Integer p_0)
+intellisense: NSAppointment.SetPriorityId
 sortOrder: 804
 keywords: SetPriorityId(Integer)
+so.topic: reference
 ---
 
 

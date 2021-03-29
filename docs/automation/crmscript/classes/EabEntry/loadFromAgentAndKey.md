@@ -1,10 +1,10 @@
 ---
-title: Bool loadFromAgentAndKey(Integer p0, String p1)
-path: /EJScript/Classes/EabEntry/Member functions/Bool loadFromAgentAndKey(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EabEntry_loadFromAgentAndKey_Integer_p_0_String_p_1
+description: EabEntry.loadFromAgentAndKey(Integer p_0, String p_1)
+intellisense: EabEntry.loadFromAgentAndKey
 sortOrder: 275
 keywords: loadFromAgentAndKey(Integer,String)
+so.topic: reference
 ---
 
 Used in conjunction with DBI. Load an entry with the specified key from the specified agent.

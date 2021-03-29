@@ -1,9 +1,9 @@
 ---
-title: Void SetConsent(Integer personId, String purpose, String source, String legalBase, String comment)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void SetConsent(Integer p_0, String p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_SetConsent_Integer_p_0_String_p_1_String_p_2_String_p_3_String_p_4
+description: NSPersonAgent.SetConsent(Integer p_0, String p_1, String p_2, String p_3, String p_4)
+intellisense: NSPersonAgent.SetConsent
 keywords: SetConsent(Integer,String,String,String,String)
+so.topic: reference
 ---
 
 

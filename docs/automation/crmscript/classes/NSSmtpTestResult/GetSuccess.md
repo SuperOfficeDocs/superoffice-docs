@@ -1,9 +1,9 @@
 ---
-title: Bool GetSuccess()
-path: /EJScript/Classes/NSSmtpTestResult/Member functions/Bool GetSuccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmtpTestResult_GetSuccess
+description: NSSmtpTestResult.GetSuccess()
+intellisense: NSSmtpTestResult.GetSuccess
 keywords: GetSuccess()
+so.topic: reference
 ---
 
 

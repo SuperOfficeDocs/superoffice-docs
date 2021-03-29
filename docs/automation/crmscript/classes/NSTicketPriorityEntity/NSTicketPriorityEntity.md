@@ -1,8 +1,8 @@
 ---
-title: NSTicketPriorityEntity
-path: /EJScript/Classes/NSTicketPriorityEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity
+description: NSTicketPriorityEntity
+intellisense: Void.NSTicketPriorityEntity
+so.topic: reference
 ---
 
 

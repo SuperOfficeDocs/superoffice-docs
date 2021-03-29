@@ -1,9 +1,9 @@
 ---
-title: String GetLastname()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetLastname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetLastname
+description: NSPersonEntity.GetLastname()
+intellisense: NSPersonEntity.GetLastname
 keywords: GetLastname()
+so.topic: reference
 ---
 
 

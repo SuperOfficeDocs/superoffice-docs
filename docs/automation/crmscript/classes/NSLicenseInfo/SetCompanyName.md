@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyName(String CompanyName)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetCompanyName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetCompanyName_String_p_0
+description: NSLicenseInfo.SetCompanyName(String p_0)
+intellisense: NSLicenseInfo.SetCompanyName
 keywords: SetCompanyName(String)
+so.topic: reference
 ---
 
 

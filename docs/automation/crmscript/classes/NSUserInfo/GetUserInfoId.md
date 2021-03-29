@@ -1,9 +1,9 @@
 ---
-title: Integer GetUserInfoId()
-path: /EJScript/Classes/NSUserInfo/Member functions/Integer GetUserInfoId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_GetUserInfoId
+description: NSUserInfo.GetUserInfoId()
+intellisense: NSUserInfo.GetUserInfoId
 keywords: GetUserInfoId()
+so.topic: reference
 ---
 
 

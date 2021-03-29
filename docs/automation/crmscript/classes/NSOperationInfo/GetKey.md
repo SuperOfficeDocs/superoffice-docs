@@ -1,9 +1,9 @@
 ---
-title: String GetKey()
-path: /EJScript/Classes/NSOperationInfo/Member functions/String GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOperationInfo_GetKey
+description: NSOperationInfo.GetKey()
+intellisense: NSOperationInfo.GetKey
 keywords: GetKey()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyCountry(Integer p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyCountry(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_SetCompanyCountry_Integer_p_0
+description: NSSelectionMemberEditValues.SetCompanyCountry(Integer p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyCountry
 keywords: SetCompanyCountry(Integer)
+so.topic: reference
 ---
 
 

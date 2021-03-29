@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/Customer/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Customer_load_Integer_id
+description: Customer.load(Integer id)
+intellisense: Customer.load
 sortOrder: 178
 keywords: load(Integer)
+so.topic: reference
 ---
 
 Loads the customer with the given id.

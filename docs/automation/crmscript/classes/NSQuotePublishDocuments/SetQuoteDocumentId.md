@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteDocumentId(Integer QuoteDocumentId)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetQuoteDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetQuoteDocumentId_Integer_p_0
+description: NSQuotePublishDocuments.SetQuoteDocumentId(Integer p_0)
+intellisense: NSQuotePublishDocuments.SetQuoteDocumentId
 keywords: SetQuoteDocumentId(Integer)
+so.topic: reference
 ---
 
 

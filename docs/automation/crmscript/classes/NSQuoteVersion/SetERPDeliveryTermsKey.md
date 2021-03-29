@@ -1,9 +1,9 @@
 ---
-title: Void SetERPDeliveryTermsKey(String ERPDeliveryTermsKey)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPDeliveryTermsKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetERPDeliveryTermsKey_String_p_0
+description: NSQuoteVersion.SetERPDeliveryTermsKey(String p_0)
+intellisense: NSQuoteVersion.SetERPDeliveryTermsKey
 keywords: SetERPDeliveryTermsKey(String)
+so.topic: reference
 ---
 
 

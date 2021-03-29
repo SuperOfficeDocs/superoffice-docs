@@ -1,9 +1,9 @@
 ---
-title: NSPerson GetOwnerOnPersonId(Integer p0)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson GetOwnerOnPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetOwnerOnPersonId_Integer_p_0
+description: NSPersonAgent.GetOwnerOnPersonId(Integer p_0)
+intellisense: NSPersonAgent.GetOwnerOnPersonId
 keywords: GetOwnerOnPersonId(Integer)
+so.topic: reference
 ---
 
 

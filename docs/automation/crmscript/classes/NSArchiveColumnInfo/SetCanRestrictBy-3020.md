@@ -1,10 +1,10 @@
 ---
-title: Void SetCanRestrictBy(Boolean p0)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetCanRestrictBy(Boolean p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetCanRestrictBy_Boolean_p_0
+description: NSArchiveColumnInfo.SetCanRestrictBy(Boolean p_0)
+intellisense: NSArchiveColumnInfo.SetCanRestrictBy
 sortOrder: 1153
 keywords: SetCanRestrictBy(Boolean)
+so.topic: reference
 ---
 
 

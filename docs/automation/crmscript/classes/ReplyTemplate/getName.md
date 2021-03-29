@@ -1,9 +1,9 @@
 ---
-title: String getName()
-path: /EJScript/Classes/ReplyTemplate/Member functions/String getName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ReplyTemplate_getName
+description: ReplyTemplate.getName()
+intellisense: ReplyTemplate.getName
 keywords: getName()
+so.topic: reference
 ---
 
 Returns the name of the Reply Template

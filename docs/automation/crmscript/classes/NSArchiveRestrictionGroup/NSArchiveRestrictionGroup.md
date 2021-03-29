@@ -1,9 +1,9 @@
 ---
-title: NSArchiveRestrictionGroup
-path: /EJScript/Classes/NSArchiveRestrictionGroup
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionGroup
+description: NSArchiveRestrictionGroup
+intellisense: Void.NSArchiveRestrictionGroup
 sortOrder: 1200
+so.topic: reference
 ---
 
 

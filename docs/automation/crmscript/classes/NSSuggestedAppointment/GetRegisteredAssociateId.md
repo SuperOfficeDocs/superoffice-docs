@@ -1,9 +1,9 @@
 ---
-title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetRegisteredAssociateId
+description: NSSuggestedAppointment.GetRegisteredAssociateId()
+intellisense: NSSuggestedAppointment.GetRegisteredAssociateId
 keywords: GetRegisteredAssociateId()
+so.topic: reference
 ---
 
 

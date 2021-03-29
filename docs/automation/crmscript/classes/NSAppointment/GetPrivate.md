@@ -1,10 +1,10 @@
 ---
-title: Integer GetPrivate()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetPrivate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetPrivate
+description: NSAppointment.GetPrivate()
+intellisense: NSAppointment.GetPrivate
 sortOrder: 741
 keywords: GetPrivate()
+so.topic: reference
 ---
 
 

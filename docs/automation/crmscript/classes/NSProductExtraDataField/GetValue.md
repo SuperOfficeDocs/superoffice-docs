@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductExtraDataField_GetValue
+description: NSProductExtraDataField.GetValue()
+intellisense: NSProductExtraDataField.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

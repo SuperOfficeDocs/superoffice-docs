@@ -1,9 +1,9 @@
 ---
-title: Integer GetCountryId()
-path: /EJScript/Classes/NSPerson/Member functions/Integer GetCountryId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetCountryId
+description: NSPerson.GetCountryId()
+intellisense: NSPerson.GetCountryId
 keywords: GetCountryId()
+so.topic: reference
 ---
 
 

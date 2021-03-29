@@ -1,10 +1,10 @@
 ---
-title: Void SetGroupId(Integer GroupId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetGroupId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetGroupId_Integer_p_0
+description: NSFormEntity.SetGroupId(Integer p_0)
+intellisense: NSFormEntity.SetGroupId
 sortOrder: 3814
 keywords: SetGroupId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLineConfiguration[] GetInUseQuoteLineConfigurations()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration[] GetInUseQuoteLineConfigurations()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetInUseQuoteLineConfigurations
+description: NSQuoteAgent.GetInUseQuoteLineConfigurations()
+intellisense: NSQuoteAgent.GetInUseQuoteLineConfigurations
 keywords: GetInUseQuoteLineConfigurations()
+so.topic: reference
 ---
 
 

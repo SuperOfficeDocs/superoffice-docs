@@ -1,10 +1,10 @@
 ---
-title: Bool GetIncludeSignature()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetIncludeSignature()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetIncludeSignature
+description: NSDocumentTemplateEntity.GetIncludeSignature()
+intellisense: NSDocumentTemplateEntity.GetIncludeSignature
 sortOrder: 2651
 keywords: GetIncludeSignature()
+so.topic: reference
 ---
 
 

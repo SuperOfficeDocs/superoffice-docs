@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetPublishedProjectAppointments(Integer projectId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetPublishedProjectAppointments(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetPublishedProjectAppointments_Integer_p_0
+description: NSAppointmentAgent.GetPublishedProjectAppointments(Integer p_0)
+intellisense: NSAppointmentAgent.GetPublishedProjectAppointments
 sortOrder: 870
 keywords: GetPublishedProjectAppointments(Integer)
+so.topic: reference
 ---
 
 

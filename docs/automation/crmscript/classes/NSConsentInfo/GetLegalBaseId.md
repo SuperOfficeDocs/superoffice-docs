@@ -1,10 +1,10 @@
 ---
-title: Integer GetLegalBaseId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetLegalBaseId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_GetLegalBaseId
+description: NSConsentInfo.GetLegalBaseId()
+intellisense: NSConsentInfo.GetLegalBaseId
 sortOrder: 1633
 keywords: GetLegalBaseId()
+so.topic: reference
 ---
 
 

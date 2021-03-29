@@ -1,9 +1,9 @@
 ---
-title: Bool HasGuide(Integer projectId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Bool HasGuide(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_HasGuide_Integer_p_0
+description: NSProjectAgent.HasGuide(Integer p_0)
+intellisense: NSProjectAgent.HasGuide
 keywords: HasGuide(Integer)
+so.topic: reference
 ---
 
 

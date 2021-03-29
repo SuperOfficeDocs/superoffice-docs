@@ -1,9 +1,9 @@
 ---
-title: String GetExternalName()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetExternalName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetExternalName
+description: NSTicketCategoryEntity.GetExternalName()
+intellisense: NSTicketCategoryEntity.GetExternalName
 keywords: GetExternalName()
+so.topic: reference
 ---
 
 

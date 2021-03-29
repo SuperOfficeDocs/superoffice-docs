@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetMyPublishedAppointments()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetMyPublishedAppointments()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetMyPublishedAppointments
+description: NSAppointmentAgent.GetMyPublishedAppointments()
+intellisense: NSAppointmentAgent.GetMyPublishedAppointments
 sortOrder: 850
 keywords: GetMyPublishedAppointments()
+so.topic: reference
 ---
 
 

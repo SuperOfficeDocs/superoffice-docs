@@ -1,9 +1,9 @@
 ---
-title: NSQuote SaveQuote(NSQuote quote)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuote SaveQuote(NSQuote p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuote_NSQuote_p_0
+description: NSQuoteAgent.SaveQuote(NSQuote p_0)
+intellisense: NSQuoteAgent.SaveQuote
 keywords: SaveQuote(NSQuote)
+so.topic: reference
 ---
 
 

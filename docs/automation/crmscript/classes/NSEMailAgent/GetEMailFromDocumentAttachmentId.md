@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetEMailFromDocumentAttachmentId(Integer docId, String[] attachmentIds, Bool includeAttachments)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetEMailFromDocumentAttachmentId(Integer p_0, String[] p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailFromDocumentAttachmentId_Integer_p_0_String__p_1_Bool_p_2
+description: NSEMailAgent.GetEMailFromDocumentAttachmentId(Integer p_0, String[] p_1, Bool p_2)
+intellisense: NSEMailAgent.GetEMailFromDocumentAttachmentId
 sortOrder: 2818
 keywords: GetEMailFromDocumentAttachmentId(Integer,String[],Bool)
+so.topic: reference
 ---
 
 

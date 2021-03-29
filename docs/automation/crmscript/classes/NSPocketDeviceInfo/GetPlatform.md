@@ -1,9 +1,9 @@
 ---
-title: Integer GetPlatform()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Integer GetPlatform()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetPlatform
+description: NSPocketDeviceInfo.GetPlatform()
+intellisense: NSPocketDeviceInfo.GetPlatform
 keywords: GetPlatform()
+so.topic: reference
 ---
 
 

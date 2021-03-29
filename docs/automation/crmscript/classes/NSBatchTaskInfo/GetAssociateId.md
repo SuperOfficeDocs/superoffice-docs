@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetAssociateId
+description: NSBatchTaskInfo.GetAssociateId()
+intellisense: NSBatchTaskInfo.GetAssociateId
 sortOrder: 1368
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

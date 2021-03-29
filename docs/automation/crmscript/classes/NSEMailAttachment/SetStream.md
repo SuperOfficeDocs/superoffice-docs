@@ -1,10 +1,10 @@
 ---
-title: Void SetStream(NSStream Stream)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetStream(NSStream p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_SetStream_NSStream_p_0
+description: NSEMailAttachment.SetStream(NSStream p_0)
+intellisense: NSEMailAttachment.SetStream
 sortOrder: 2906
 keywords: SetStream(NSStream)
+so.topic: reference
 ---
 
 

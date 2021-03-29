@@ -1,8 +1,8 @@
 ---
-title: NSUser
-path: /EJScript/Classes/NSUser
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser
+description: NSUser
+intellisense: Void.NSUser
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetAlreadyMapped()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Bool GetAlreadyMapped()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetAlreadyMapped
+description: NSErpSyncFieldMapping.GetAlreadyMapped()
+intellisense: NSErpSyncFieldMapping.GetAlreadyMapped
 sortOrder: 3285
 keywords: GetAlreadyMapped()
+so.topic: reference
 ---
 
 

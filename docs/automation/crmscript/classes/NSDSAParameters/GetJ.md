@@ -1,10 +1,10 @@
 ---
-title: NSBinary GetJ()
-path: /EJScript/Classes/NSDSAParameters/Member functions/NSBinary GetJ()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_GetJ
+description: NSDSAParameters.GetJ()
+intellisense: NSDSAParameters.GetJ
 sortOrder: 2708
 keywords: GetJ()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool WebAppUsageExistsInPeriod(Integer associateId, String viewState, DateTime fromDate)
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Bool WebAppUsageExistsInPeriod(Integer p_0, String p_1, DateTime p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_WebAppUsageExistsInPeriod_Integer_p_0_String_p_1_DateTime_p_2
+description: NSDiagnosticsAgent.WebAppUsageExistsInPeriod(Integer p_0, String p_1, DateTime p_2)
+intellisense: NSDiagnosticsAgent.WebAppUsageExistsInPeriod
 sortOrder: 2390
 keywords: WebAppUsageExistsInPeriod(Integer,String,DateTime)
+so.topic: reference
 ---
 
 

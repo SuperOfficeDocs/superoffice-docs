@@ -1,10 +1,10 @@
 ---
-title: Integer GetActorTypeErp()
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Integer GetActorTypeErp()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeErp
+description: NSErpSyncActorTypeMapping.GetActorTypeErp()
+intellisense: NSErpSyncActorTypeMapping.GetActorTypeErp
 sortOrder: 3164
 keywords: GetActorTypeErp()
+so.topic: reference
 ---
 
 The actor type (ERP side)

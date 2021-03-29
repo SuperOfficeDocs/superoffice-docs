@@ -1,9 +1,9 @@
 ---
-title: Void SetDuration(Integer Duration)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDuration(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetDuration_Integer_p_0
+description: NSSuggestedAppointment.SetDuration(Integer p_0)
+intellisense: NSSuggestedAppointment.SetDuration
 keywords: SetDuration(Integer)
+so.topic: reference
 ---
 
 

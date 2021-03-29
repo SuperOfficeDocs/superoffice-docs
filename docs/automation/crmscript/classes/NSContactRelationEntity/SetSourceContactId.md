@@ -1,10 +1,10 @@
 ---
-title: Void SetSourceContactId(Integer SourceContactId)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetSourceContactId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetSourceContactId_Integer_p_0
+description: NSContactRelationEntity.SetSourceContactId(Integer p_0)
+intellisense: NSContactRelationEntity.SetSourceContactId
 sortOrder: 1974
 keywords: SetSourceContactId(Integer)
+so.topic: reference
 ---
 
 

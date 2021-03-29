@@ -1,10 +1,10 @@
 ---
-title: Void SetLocation(String Location)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetLocation(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetLocation_String_p_0
+description: NSAlarmData.SetLocation(String p_0)
+intellisense: NSAlarmData.SetLocation
 sortOrder: 684
 keywords: SetLocation(String)
+so.topic: reference
 ---
 
 

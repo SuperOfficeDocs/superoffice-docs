@@ -1,9 +1,9 @@
 ---
-title: String[] GetEMail()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetEMail()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetEMail
+description: NSParticipantSyncData.GetEMail()
+intellisense: NSParticipantSyncData.GetEMail
 keywords: GetEMail()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetCheckedInByAssociateId()
-path: /EJScript/Classes/NSVersionInfo/Member functions/Integer GetCheckedInByAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_GetCheckedInByAssociateId
+description: NSVersionInfo.GetCheckedInByAssociateId()
+intellisense: NSVersionInfo.GetCheckedInByAssociateId
 keywords: GetCheckedInByAssociateId()
+so.topic: reference
 ---
 
 

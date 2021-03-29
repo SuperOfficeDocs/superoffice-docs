@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_GetName
+description: NSAmountClassEntity.GetName()
+intellisense: NSAmountClassEntity.GetName
 sortOrder: 701
 keywords: GetName()
+so.topic: reference
 ---
 
 

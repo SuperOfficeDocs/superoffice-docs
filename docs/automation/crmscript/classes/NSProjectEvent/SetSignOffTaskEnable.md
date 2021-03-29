@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOffTaskEnable(Bool SignOffTaskEnable)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOffTaskEnable(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetSignOffTaskEnable_Bool_p_0
+description: NSProjectEvent.SetSignOffTaskEnable(Bool p_0)
+intellisense: NSProjectEvent.SetSignOffTaskEnable
 keywords: SetSignOffTaskEnable(Bool)
+so.topic: reference
 ---
 
 

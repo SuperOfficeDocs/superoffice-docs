@@ -1,10 +1,10 @@
 ---
-title: Void SetDirection(Integer Direction)
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/Void SetDirection(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveOrderByInfo_SetDirection_Integer_p_0
+description: NSArchiveOrderByInfo.SetDirection(Integer p_0)
+intellisense: NSArchiveOrderByInfo.SetDirection
 sortOrder: 1198
 keywords: SetDirection(Integer)
+so.topic: reference
 ---
 
 

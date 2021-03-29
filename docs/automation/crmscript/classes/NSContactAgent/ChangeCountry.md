@@ -1,10 +1,10 @@
 ---
-title: NSContactEntity ChangeCountry(NSContactEntity p0, Integer toCountryId)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactEntity ChangeCountry(NSContactEntity p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_ChangeCountry_NSContactEntity_p_0_Integer_p_1
+description: NSContactAgent.ChangeCountry(NSContactEntity p_0, Integer p_1)
+intellisense: NSContactAgent.ChangeCountry
 sortOrder: 1808
 keywords: ChangeCountry(NSContactEntity,Integer)
+so.topic: reference
 ---
 
 

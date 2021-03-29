@@ -1,9 +1,9 @@
 ---
-title: Bool HasFunctionRight(String functionRight)
-path: /EJScript/Classes/NSSentryAgent/Member functions/Bool HasFunctionRight(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent_HasFunctionRight_String_p_0
+description: NSSentryAgent.HasFunctionRight(String p_0)
+intellisense: NSSentryAgent.HasFunctionRight
 keywords: HasFunctionRight(String)
+so.topic: reference
 ---
 
 

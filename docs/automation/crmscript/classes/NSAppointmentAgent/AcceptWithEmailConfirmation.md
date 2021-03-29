@@ -1,10 +1,10 @@
 ---
-title: Void AcceptWithEmailConfirmation(Integer appointmentId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void AcceptWithEmailConfirmation(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_AcceptWithEmailConfirmation_Integer_p_0_Integer_p_1
+description: NSAppointmentAgent.AcceptWithEmailConfirmation(Integer p_0, Integer p_1)
+intellisense: NSAppointmentAgent.AcceptWithEmailConfirmation
 sortOrder: 910
 keywords: AcceptWithEmailConfirmation(Integer,Integer)
+so.topic: reference
 ---
 
 

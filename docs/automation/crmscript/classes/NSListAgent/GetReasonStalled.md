@@ -1,9 +1,9 @@
 ---
-title: NSReasonStalled GetReasonStalled(Integer reasonStalledId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSReasonStalled GetReasonStalled(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetReasonStalled_Integer_p_0
+description: NSListAgent.GetReasonStalled(Integer p_0)
+intellisense: NSListAgent.GetReasonStalled
 keywords: GetReasonStalled(Integer)
+so.topic: reference
 ---
 
 

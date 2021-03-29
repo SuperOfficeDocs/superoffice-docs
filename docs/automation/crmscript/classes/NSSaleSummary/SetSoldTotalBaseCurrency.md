@@ -1,9 +1,9 @@
 ---
-title: Void SetSoldTotalBaseCurrency(Float SoldTotalBaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetSoldTotalBaseCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetSoldTotalBaseCurrency_Float_p_0
+description: NSSaleSummary.SetSoldTotalBaseCurrency(Float p_0)
+intellisense: NSSaleSummary.SetSoldTotalBaseCurrency
 keywords: SetSoldTotalBaseCurrency(Float)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetAssociate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSAssociate GetAssociate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetAssociate
+description: NSAppointmentEntity.GetAssociate()
+intellisense: NSAppointmentEntity.GetAssociate
 sortOrder: 957
 keywords: GetAssociate()
+so.topic: reference
 ---
 
 

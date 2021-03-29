@@ -1,10 +1,10 @@
 ---
-title: Void SetValueType(String ValueType)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetValueType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetValueType_String_p_0
+description: NSFieldValueInfo.SetValueType(String p_0)
+intellisense: NSFieldValueInfo.SetValueType
 sortOrder: 3650
 keywords: SetValueType(String)
+so.topic: reference
 ---
 
 

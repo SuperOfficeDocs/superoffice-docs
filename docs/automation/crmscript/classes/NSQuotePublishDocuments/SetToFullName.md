@@ -1,9 +1,9 @@
 ---
-title: Void SetToFullName(String ToFullName)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetToFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetToFullName_String_p_0
+description: NSQuotePublishDocuments.SetToFullName(String p_0)
+intellisense: NSQuotePublishDocuments.SetToFullName
 keywords: SetToFullName(String)
+so.topic: reference
 ---
 
 

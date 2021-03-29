@@ -1,10 +1,10 @@
 ---
-title: NSSmsConfig CreateDefaultSmsConfig()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSSmsConfig CreateDefaultSmsConfig()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_CreateDefaultSmsConfig
+description: NSCustomerServiceAgent.CreateDefaultSmsConfig()
+intellisense: NSCustomerServiceAgent.CreateDefaultSmsConfig
 sortOrder: 2234
 keywords: CreateDefaultSmsConfig()
+so.topic: reference
 ---
 
 

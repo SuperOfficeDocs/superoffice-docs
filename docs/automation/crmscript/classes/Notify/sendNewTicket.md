@@ -1,9 +1,9 @@
 ---
-title: Void sendNewTicket(Integer ticketId)
-path: /EJScript/Classes/Notify/Member functions/Void sendNewTicket(Integer ticketId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Notify_sendNewTicket_Integer_ticketId
+description: Notify.sendNewTicket(Integer ticketId)
+intellisense: Notify.sendNewTicket
 keywords: sendNewTicket(Integer)
+so.topic: reference
 ---
 
 

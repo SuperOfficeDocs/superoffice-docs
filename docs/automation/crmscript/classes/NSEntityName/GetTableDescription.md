@@ -1,10 +1,10 @@
 ---
-title: String GetTableDescription()
-path: /EJScript/Classes/NSEntityName/Member functions/String GetTableDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEntityName_GetTableDescription
+description: NSEntityName.GetTableDescription()
+intellisense: NSEntityName.GetTableDescription
 sortOrder: 3070
 keywords: GetTableDescription()
+so.topic: reference
 ---
 
 

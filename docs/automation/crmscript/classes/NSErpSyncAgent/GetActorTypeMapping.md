@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncActorTypeMapping GetActorTypeMapping(Integer erpConnectionId, Integer actorType)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncActorTypeMapping GetActorTypeMapping(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetActorTypeMapping_Integer_p_0_Integer_p_1
+description: NSErpSyncAgent.GetActorTypeMapping(Integer p_0, Integer p_1)
+intellisense: NSErpSyncAgent.GetActorTypeMapping
 sortOrder: 3197
 keywords: GetActorTypeMapping(Integer,Integer)
+so.topic: reference
 ---
 
 

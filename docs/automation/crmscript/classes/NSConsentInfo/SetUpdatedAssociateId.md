@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedAssociateId(Integer UpdatedAssociateId)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetUpdatedAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_SetUpdatedAssociateId_Integer_p_0
+description: NSConsentInfo.SetUpdatedAssociateId(Integer p_0)
+intellisense: NSConsentInfo.SetUpdatedAssociateId
 sortOrder: 1657
 keywords: SetUpdatedAssociateId(Integer)
+so.topic: reference
 ---
 
 

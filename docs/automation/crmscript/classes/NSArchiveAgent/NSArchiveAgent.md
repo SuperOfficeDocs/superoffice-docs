@@ -1,9 +1,9 @@
 ---
-title: NSArchiveAgent
-path: /EJScript/Classes/NSArchiveAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent
+description: NSArchiveAgent
+intellisense: Void.NSArchiveAgent
 sortOrder: 1098
+so.topic: reference
 ---
 
 

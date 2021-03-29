@@ -1,9 +1,9 @@
 ---
-title: NSErpConnectionListMapping
-path: /EJScript/Classes/NSErpConnectionListMapping
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMapping
+description: NSErpConnectionListMapping
+intellisense: Void.NSErpConnectionListMapping
 sortOrder: 3122
+so.topic: reference
 ---
 
 

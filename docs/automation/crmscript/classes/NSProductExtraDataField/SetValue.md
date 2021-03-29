@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductExtraDataField_SetValue_String_p_0
+description: NSProductExtraDataField.SetValue(String p_0)
+intellisense: NSProductExtraDataField.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

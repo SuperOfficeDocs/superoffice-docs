@@ -1,10 +1,10 @@
 ---
-title: Void DeleteCRMScriptByUniqueIdentifier(String uniqueIdentifier)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/Void DeleteCRMScriptByUniqueIdentifier(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptByUniqueIdentifier_String_p_0
+description: NSCRMScriptAgent.DeleteCRMScriptByUniqueIdentifier(String p_0)
+intellisense: NSCRMScriptAgent.DeleteCRMScriptByUniqueIdentifier
 sortOrder: 2123
 keywords: DeleteCRMScriptByUniqueIdentifier(String)
+so.topic: reference
 ---
 
 

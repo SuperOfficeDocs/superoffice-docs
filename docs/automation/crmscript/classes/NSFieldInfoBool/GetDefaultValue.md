@@ -1,10 +1,10 @@
 ---
-title: Bool GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoBool/Member functions/Bool GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBool_GetDefaultValue
+description: NSFieldInfoBool.GetDefaultValue()
+intellisense: NSFieldInfoBool.GetDefaultValue
 sortOrder: 3489
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

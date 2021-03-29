@@ -1,9 +1,9 @@
 ---
-title: Integer GetDefaultTask()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetDefaultTask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetDefaultTask
+description: NSStatusMonitor.GetDefaultTask()
+intellisense: NSStatusMonitor.GetDefaultTask
 keywords: GetDefaultTask()
+so.topic: reference
 ---
 
 

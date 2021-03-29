@@ -1,9 +1,9 @@
 ---
-title: NSEMailEntity
-path: /EJScript/Classes/NSEMailEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity
+description: NSEMailEntity
+intellisense: Void.NSEMailEntity
 sortOrder: 2942
+so.topic: reference
 ---
 
 

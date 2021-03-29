@@ -1,10 +1,10 @@
 ---
-title: Void SetId(String Id)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_SetId_String_p_0
+description: NSEMailAttachment.SetId(String p_0)
+intellisense: NSEMailAttachment.SetId
 sortOrder: 2904
 keywords: SetId(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Category
-path: /EJScript/Classes/Category
-intellisense: 1
-classref: 1
+title: crmscript_ref_Category
+description: Category
+intellisense: Void.Category
 sortOrder: 149
+so.topic: reference
 ---
 
 

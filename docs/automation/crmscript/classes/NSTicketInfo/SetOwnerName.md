@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnerName(String OwnerName)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetOwnerName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_SetOwnerName_String_p_0
+description: NSTicketInfo.SetOwnerName(String p_0)
+intellisense: NSTicketInfo.SetOwnerName
 keywords: SetOwnerName(String)
+so.topic: reference
 ---
 
 

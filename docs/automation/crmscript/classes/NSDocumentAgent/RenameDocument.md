@@ -1,10 +1,10 @@
 ---
-title: String RenameDocument(Integer documentId, String newFilename)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/String RenameDocument(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_RenameDocument_Integer_p_0_String_p_1
+description: NSDocumentAgent.RenameDocument(Integer p_0, String p_1)
+intellisense: NSDocumentAgent.RenameDocument
 sortOrder: 2535
 keywords: RenameDocument(Integer,String)
+so.topic: reference
 ---
 
 

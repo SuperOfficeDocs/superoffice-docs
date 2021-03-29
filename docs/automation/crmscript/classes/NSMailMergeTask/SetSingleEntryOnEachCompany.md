@@ -1,9 +1,9 @@
 ---
-title: Void SetSingleEntryOnEachCompany(Bool SingleEntryOnEachCompany)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetSingleEntryOnEachCompany(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetSingleEntryOnEachCompany_Bool_p_0
+description: NSMailMergeTask.SetSingleEntryOnEachCompany(Bool p_0)
+intellisense: NSMailMergeTask.SetSingleEntryOnEachCompany
 keywords: SetSingleEntryOnEachCompany(Bool)
+so.topic: reference
 ---
 
 

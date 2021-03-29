@@ -1,9 +1,9 @@
 ---
-title: Void SetDeviceName(String DeviceName)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetDeviceName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetDeviceName_String_p_0
+description: NSPocketDeviceInfo.SetDeviceName(String p_0)
+intellisense: NSPocketDeviceInfo.SetDeviceName
 keywords: SetDeviceName(String)
+so.topic: reference
 ---
 
 

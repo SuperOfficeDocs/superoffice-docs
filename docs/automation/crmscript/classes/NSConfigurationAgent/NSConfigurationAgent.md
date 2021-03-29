@@ -1,9 +1,9 @@
 ---
-title: NSConfigurationAgent
-path: /EJScript/Classes/NSConfigurationAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent
+description: NSConfigurationAgent
+intellisense: Void.NSConfigurationAgent
 sortOrder: 1586
+so.topic: reference
 ---
 
 

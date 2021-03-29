@@ -1,9 +1,9 @@
 ---
-title: Void SetRestrictEdit(Bool RestrictEdit)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetRestrictEdit(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetRestrictEdit_Bool_p_0
+description: NSQuoteLineConfiguration.SetRestrictEdit(Bool p_0)
+intellisense: NSQuoteLineConfiguration.SetRestrictEdit
 keywords: SetRestrictEdit(Bool)
+so.topic: reference
 ---
 
 

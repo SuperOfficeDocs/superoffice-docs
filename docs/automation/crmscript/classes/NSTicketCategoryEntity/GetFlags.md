@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryFlags GetFlags()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/NSTicketCategoryFlags GetFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetFlags
+description: NSTicketCategoryEntity.GetFlags()
+intellisense: NSTicketCategoryEntity.GetFlags
 keywords: GetFlags()
+so.topic: reference
 ---
 
 

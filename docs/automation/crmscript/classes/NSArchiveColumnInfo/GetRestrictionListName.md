@@ -1,10 +1,10 @@
 ---
-title: String GetRestrictionListName()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetRestrictionListName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetRestrictionListName
+description: NSArchiveColumnInfo.GetRestrictionListName()
+intellisense: NSArchiveColumnInfo.GetRestrictionListName
 sortOrder: 1146
 keywords: GetRestrictionListName()
+so.topic: reference
 ---
 
 

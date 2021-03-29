@@ -1,10 +1,10 @@
 ---
-title: Void SetRecordType(Integer p0)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetRecordType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_SetRecordType_Integer_p_0
+description: NSDocumentTemplate.SetRecordType(Integer p_0)
+intellisense: NSDocumentTemplate.SetRecordType
 sortOrder: 2644
 keywords: SetRecordType(Integer)
+so.topic: reference
 ---
 
 

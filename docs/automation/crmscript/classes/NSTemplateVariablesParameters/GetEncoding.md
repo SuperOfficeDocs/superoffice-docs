@@ -1,9 +1,9 @@
 ---
-title: Integer GetEncoding()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetEncoding()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetEncoding
+description: NSTemplateVariablesParameters.GetEncoding()
+intellisense: NSTemplateVariablesParameters.GetEncoding
 keywords: GetEncoding()
+so.topic: reference
 ---
 
 

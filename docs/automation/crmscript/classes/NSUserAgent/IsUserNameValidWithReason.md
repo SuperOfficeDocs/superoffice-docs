@@ -1,9 +1,9 @@
 ---
-title: NSUserValidationResult IsUserNameValidWithReason(Integer p0, Integer p1, Integer p2, String p3)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserValidationResult IsUserNameValidWithReason(Integer p_0, Integer p_1, Integer p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_IsUserNameValidWithReason_Integer_p_0_Integer_p_1_Integer_p_2_String_p_3
+description: NSUserAgent.IsUserNameValidWithReason(Integer p_0, Integer p_1, Integer p_2, String p_3)
+intellisense: NSUserAgent.IsUserNameValidWithReason
 keywords: IsUserNameValidWithReason(Integer,Integer,Integer,String)
+so.topic: reference
 ---
 
 

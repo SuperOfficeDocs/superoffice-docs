@@ -1,9 +1,9 @@
 ---
-title: Void SetIsSatellite(Bool p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetIsSatellite(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetIsSatellite_Bool_p_0
+description: NSSoSystemInfoCarrier.SetIsSatellite(Bool p_0)
+intellisense: NSSoSystemInfoCarrier.SetIsSatellite
 keywords: SetIsSatellite(Bool)
+so.topic: reference
 ---
 
 

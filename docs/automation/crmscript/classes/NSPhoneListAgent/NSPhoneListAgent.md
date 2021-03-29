@@ -1,8 +1,8 @@
 ---
-title: NSPhoneListAgent
-path: /EJScript/Classes/NSPhoneListAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent
+description: NSPhoneListAgent
+intellisense: Void.NSPhoneListAgent
+so.topic: reference
 ---
 
 

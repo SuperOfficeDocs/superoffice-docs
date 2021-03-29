@@ -1,10 +1,10 @@
 ---
-title: Void SetListReference(String ListReference)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetListReference(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetListReference_String_p_0
+description: NSErpSyncFieldMapping.SetListReference(String p_0)
+intellisense: NSErpSyncFieldMapping.SetListReference
 sortOrder: 3316
 keywords: SetListReference(String)
+so.topic: reference
 ---
 
 

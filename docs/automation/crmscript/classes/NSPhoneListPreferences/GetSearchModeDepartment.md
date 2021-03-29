@@ -1,9 +1,9 @@
 ---
-title: Integer GetSearchModeDepartment()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Integer GetSearchModeDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_GetSearchModeDepartment
+description: NSPhoneListPreferences.GetSearchModeDepartment()
+intellisense: NSPhoneListPreferences.GetSearchModeDepartment
 keywords: GetSearchModeDepartment()
+so.topic: reference
 ---
 
 

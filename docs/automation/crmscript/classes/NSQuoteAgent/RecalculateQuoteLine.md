@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLine RecalculateQuoteLine(NSQuoteLine quoteLine, String[] changedFields)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine RecalculateQuoteLine(NSQuoteLine p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_RecalculateQuoteLine_NSQuoteLine_p_0_String__p_1
+description: NSQuoteAgent.RecalculateQuoteLine(NSQuoteLine p_0, String[] p_1)
+intellisense: NSQuoteAgent.RecalculateQuoteLine
 keywords: RecalculateQuoteLine(NSQuoteLine,String[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTestOnly(Bool TestOnly)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetTestOnly(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetTestOnly_Bool_p_0
+description: NSMailMergeSettings.SetTestOnly(Bool p_0)
+intellisense: NSMailMergeSettings.SetTestOnly
 keywords: SetTestOnly(Bool)
+so.topic: reference
 ---
 
 

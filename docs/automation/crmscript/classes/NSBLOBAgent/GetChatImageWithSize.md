@@ -1,10 +1,10 @@
 ---
-title: NSImage GetChatImageWithSize(Integer chatTopicId, Integer width, Integer height)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetChatImageWithSize(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetChatImageWithSize_Integer_p_0_Integer_p_1_Integer_p_2
+description: NSBLOBAgent.GetChatImageWithSize(Integer p_0, Integer p_1, Integer p_2)
+intellisense: NSBLOBAgent.GetChatImageWithSize
 sortOrder: 1416
 keywords: GetChatImageWithSize(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

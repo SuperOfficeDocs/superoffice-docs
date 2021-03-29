@@ -1,9 +1,9 @@
 ---
-title: NSBusiness
-path: /EJScript/Classes/NSBusiness
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBusiness
+description: NSBusiness
+intellisense: Void.NSBusiness
 sortOrder: 1476
+so.topic: reference
 ---
 
 

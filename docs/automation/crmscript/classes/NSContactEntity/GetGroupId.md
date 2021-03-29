@@ -1,10 +1,10 @@
 ---
-title: Integer GetGroupId()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetGroupId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetGroupId
+description: NSContactEntity.GetGroupId()
+intellisense: NSContactEntity.GetGroupId
 sortOrder: 1844
 keywords: GetGroupId()
+so.topic: reference
 ---
 
 

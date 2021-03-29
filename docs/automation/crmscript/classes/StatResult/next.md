@@ -1,9 +1,9 @@
 ---
-title: Bool next()
-path: /EJScript/Classes/StatResult/Member functions/Bool next()
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatResult_next
+description: StatResult.next()
+intellisense: StatResult.next
 keywords: next()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSWebhookAgent
-path: /EJScript/Classes/NSWebhookAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent
+description: NSWebhookAgent
+intellisense: Void.NSWebhookAgent
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetCc(NSEMailAddress[] Cc)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetCc(NSEMailAddress[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetCc_NSEMailAddress__p_0
+description: NSEMailEntity.SetCc(NSEMailAddress[] p_0)
+intellisense: NSEMailEntity.SetCc
 sortOrder: 2977
 keywords: SetCc(NSEMailAddress[])
+so.topic: reference
 ---
 
 

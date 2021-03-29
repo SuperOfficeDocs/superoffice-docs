@@ -1,9 +1,9 @@
 ---
-title: Void toParser(Parser parser)
-path: /EJScript/Classes/User/Member functions/Void toParser(Parser parser)
-intellisense: 1
-classref: 1
+title: crmscript_ref_User_toParser_Parser_parser
+description: User.toParser(Parser parser)
+intellisense: User.toParser
 keywords: toParser(Parser)
+so.topic: reference
 ---
 
 Loads a user and returns it to a given Parser.

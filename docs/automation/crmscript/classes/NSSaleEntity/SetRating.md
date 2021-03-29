@@ -1,9 +1,9 @@
 ---
-title: Void SetRating(NSRating Rating)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetRating(NSRating p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetRating_NSRating_p_0
+description: NSSaleEntity.SetRating(NSRating p_0)
+intellisense: NSSaleEntity.SetRating
 keywords: SetRating(NSRating)
+so.topic: reference
 ---
 
 

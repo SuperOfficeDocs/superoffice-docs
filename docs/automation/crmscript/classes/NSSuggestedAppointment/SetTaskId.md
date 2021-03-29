@@ -1,9 +1,9 @@
 ---
-title: Void SetTaskId(Integer TaskId)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetTaskId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetTaskId_Integer_p_0
+description: NSSuggestedAppointment.SetTaskId(Integer p_0)
+intellisense: NSSuggestedAppointment.SetTaskId
 keywords: SetTaskId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetEMail(String[] EMail)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetEMail(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetEMail_String__p_0
+description: NSParticipantSyncData.SetEMail(String[] p_0)
+intellisense: NSParticipantSyncData.SetEMail
 keywords: SetEMail(String[])
+so.topic: reference
 ---
 
 

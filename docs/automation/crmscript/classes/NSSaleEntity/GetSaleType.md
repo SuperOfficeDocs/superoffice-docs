@@ -1,9 +1,9 @@
 ---
-title: NSSaleType GetSaleType()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSSaleType GetSaleType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetSaleType
+description: NSSaleEntity.GetSaleType()
+intellisense: NSSaleEntity.GetSaleType
 keywords: GetSaleType()
+so.topic: reference
 ---
 
 

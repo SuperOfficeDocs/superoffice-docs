@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjectDuration()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Integer GetProjectDuration()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeEntity_GetProjectDuration
+description: NSProjectTypeEntity.GetProjectDuration()
+intellisense: NSProjectTypeEntity.GetProjectDuration
 keywords: GetProjectDuration()
+so.topic: reference
 ---
 
 

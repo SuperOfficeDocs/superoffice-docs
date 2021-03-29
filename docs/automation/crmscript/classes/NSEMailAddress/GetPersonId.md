@@ -1,10 +1,10 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSEMailAddress/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_GetPersonId
+description: NSEMailAddress.GetPersonId()
+intellisense: NSEMailAddress.GetPersonId
 sortOrder: 2765
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

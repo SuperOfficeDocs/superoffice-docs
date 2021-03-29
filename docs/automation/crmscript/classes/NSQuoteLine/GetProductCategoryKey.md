@@ -1,9 +1,9 @@
 ---
-title: String GetProductCategoryKey()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetProductCategoryKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetProductCategoryKey
+description: NSQuoteLine.GetProductCategoryKey()
+intellisense: NSQuoteLine.GetProductCategoryKey
 keywords: GetProductCategoryKey()
+so.topic: reference
 ---
 
 

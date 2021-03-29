@@ -1,9 +1,9 @@
 ---
-title: NSCheckLicenseStatusResult
-path: /EJScript/Classes/NSCheckLicenseStatusResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckLicenseStatusResult
+description: NSCheckLicenseStatusResult
+intellisense: Void.NSCheckLicenseStatusResult
 sortOrder: 1549
+so.topic: reference
 ---
 
 

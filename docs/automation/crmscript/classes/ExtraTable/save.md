@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/ExtraTable/Member functions/Integer save()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraTable_save
+description: ExtraTable.save()
+intellisense: ExtraTable.save
 sortOrder: 320
 keywords: save()
+so.topic: reference
 ---
 
 This functions is called to save changes and new objects.

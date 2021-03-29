@@ -1,10 +1,10 @@
 ---
-title: String GetDefaultValue()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetDefaultValue
+description: NSFieldMetadata.GetDefaultValue()
+intellisense: NSFieldMetadata.GetDefaultValue
 sortOrder: 3580
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

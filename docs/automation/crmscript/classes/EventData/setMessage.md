@@ -1,10 +1,10 @@
 ---
-title: Void setMessage(String message)
-path: /EJScript/Classes/EventData/member functions/Void setMessage(String message)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_setMessage_String_message
+description: EventData.setMessage(String message)
+intellisense: EventData.setMessage
 sortOrder: 296
 keywords: setMessage(String)
+so.topic: reference
 ---
 
 # Void setMessage(String message)

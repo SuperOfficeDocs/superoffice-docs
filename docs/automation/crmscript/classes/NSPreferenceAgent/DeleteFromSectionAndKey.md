@@ -1,9 +1,9 @@
 ---
-title: Void DeleteFromSectionAndKey(String section, String key)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void DeleteFromSectionAndKey(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_DeleteFromSectionAndKey_String_p_0_String_p_1
+description: NSPreferenceAgent.DeleteFromSectionAndKey(String p_0, String p_1)
+intellisense: NSPreferenceAgent.DeleteFromSectionAndKey
 keywords: DeleteFromSectionAndKey(String,String)
+so.topic: reference
 ---
 
 

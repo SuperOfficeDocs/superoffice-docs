@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetRank
+description: NSQuoteLine.GetRank()
+intellisense: NSQuoteLine.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSArchiveColumnInfo[] GetColumns()
-path: /EJScript/Classes/NSTileData/Member functions/NSArchiveColumnInfo[] GetColumns()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTileData_GetColumns
+description: NSTileData.GetColumns()
+intellisense: NSTileData.GetColumns
 keywords: GetColumns()
+so.topic: reference
 ---
 
 

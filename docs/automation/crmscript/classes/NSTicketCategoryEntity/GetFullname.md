@@ -1,9 +1,9 @@
 ---
-title: String GetFullname()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetFullname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetFullname
+description: NSTicketCategoryEntity.GetFullname()
+intellisense: NSTicketCategoryEntity.GetFullname
 keywords: GetFullname()
+so.topic: reference
 ---
 
 

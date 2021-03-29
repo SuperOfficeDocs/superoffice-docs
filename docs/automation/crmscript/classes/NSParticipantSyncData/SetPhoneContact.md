@@ -1,9 +1,9 @@
 ---
-title: Void SetPhoneContact(String[] PhoneContact)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhoneContact(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPhoneContact_String__p_0
+description: NSParticipantSyncData.SetPhoneContact(String[] p_0)
+intellisense: NSParticipantSyncData.SetPhoneContact
 keywords: SetPhoneContact(String[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Time toTime()
-path: /EJScript/Classes/String/Member functions/Time toTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toTime
+description: String.toTime()
+intellisense: String.toTime
 keywords: toTime()
+so.topic: reference
 ---
 
 

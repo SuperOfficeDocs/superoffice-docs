@@ -1,9 +1,9 @@
 ---
-title: Integer GetSource()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetSource
+description: NSSelectionEntity.GetSource()
+intellisense: NSSelectionEntity.GetSource
 keywords: GetSource()
+so.topic: reference
 ---
 
 

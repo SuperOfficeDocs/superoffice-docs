@@ -1,10 +1,10 @@
 ---
-title: Void SetEmailAddress(String EmailAddress)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetEmailAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_SetEmailAddress_String_p_0
+description: NSFormSubmissionEntity.SetEmailAddress(String p_0)
+intellisense: NSFormSubmissionEntity.SetEmailAddress
 sortOrder: 3841
 keywords: SetEmailAddress(String)
+so.topic: reference
 ---
 
 

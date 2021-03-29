@@ -1,9 +1,9 @@
 ---
-title: Integer GetLocalizedTextId()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Integer GetLocalizedTextId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_GetLocalizedTextId
+description: NSLocalizedText.GetLocalizedTextId()
+intellisense: NSLocalizedText.GetLocalizedTextId
 keywords: GetLocalizedTextId()
+so.topic: reference
 ---
 
 

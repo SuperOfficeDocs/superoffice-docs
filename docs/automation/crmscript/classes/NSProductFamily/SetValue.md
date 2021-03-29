@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSProductFamily/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductFamily_SetValue_String_p_0
+description: NSProductFamily.SetValue(String p_0)
+intellisense: NSProductFamily.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

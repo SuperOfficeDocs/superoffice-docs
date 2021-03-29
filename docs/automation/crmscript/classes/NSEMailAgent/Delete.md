@@ -1,10 +1,10 @@
 ---
-title: Void Delete(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds, String moveToFolder)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void Delete(NSEMailConnectionInfo p_0, Integer[] p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_Delete_NSEMailConnectionInfo_p_0_Integer__p_1_String_p_2
+description: NSEMailAgent.Delete(NSEMailConnectionInfo p_0, Integer[] p_1, String p_2)
+intellisense: NSEMailAgent.Delete
 sortOrder: 2855
 keywords: Delete(NSEMailConnectionInfo,Integer[],String)
+so.topic: reference
 ---
 
 

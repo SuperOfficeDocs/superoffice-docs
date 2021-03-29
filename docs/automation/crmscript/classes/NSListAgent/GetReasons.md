@@ -1,9 +1,9 @@
 ---
-title: NSReason[] GetReasons()
-path: /EJScript/Classes/NSListAgent/Member functions/NSReason[] GetReasons()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetReasons
+description: NSListAgent.GetReasons()
+intellisense: NSListAgent.GetReasons
 keywords: GetReasons()
+so.topic: reference
 ---
 
 

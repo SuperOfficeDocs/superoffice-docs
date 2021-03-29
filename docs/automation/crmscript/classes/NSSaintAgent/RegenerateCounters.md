@@ -1,9 +1,9 @@
 ---
-title: NSBatchTaskInfo RegenerateCounters(Bool runAsBatch)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSBatchTaskInfo RegenerateCounters(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_RegenerateCounters_Bool_p_0
+description: NSSaintAgent.RegenerateCounters(Bool p_0)
+intellisense: NSSaintAgent.RegenerateCounters
 keywords: RegenerateCounters(Bool)
+so.topic: reference
 ---
 
 

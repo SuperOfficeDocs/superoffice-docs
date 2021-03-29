@@ -1,9 +1,9 @@
 ---
-title: NSUserGroup[] GetUserGroupList(Integer[] p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserGroup[] GetUserGroupList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetUserGroupList_Integer__p_0
+description: NSUserAgent.GetUserGroupList(Integer[] p_0)
+intellisense: NSUserAgent.GetUserGroupList
 keywords: GetUserGroupList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of UserGroup objects.

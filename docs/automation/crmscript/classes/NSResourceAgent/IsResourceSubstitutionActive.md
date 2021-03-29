@@ -1,9 +1,9 @@
 ---
-title: NSResourceOverride[] IsResourceSubstitutionActive(String[] resourceNames, String culture)
-path: /EJScript/Classes/NSResourceAgent/Member functions/NSResourceOverride[] IsResourceSubstitutionActive(String[] p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceAgent_IsResourceSubstitutionActive_String__p_0_String_p_1
+description: NSResourceAgent.IsResourceSubstitutionActive(String[] p_0, String p_1)
+intellisense: NSResourceAgent.IsResourceSubstitutionActive
 keywords: IsResourceSubstitutionActive(String[],String)
+so.topic: reference
 ---
 
 

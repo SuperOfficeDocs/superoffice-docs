@@ -1,9 +1,9 @@
 ---
-title: Void SetActiveInterests(Integer ActiveInterests)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetActiveInterests(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetActiveInterests_Integer_p_0
+description: NSPersonEntity.SetActiveInterests(Integer p_0)
+intellisense: NSPersonEntity.SetActiveInterests
 keywords: SetActiveInterests(Integer)
+so.topic: reference
 ---
 
 

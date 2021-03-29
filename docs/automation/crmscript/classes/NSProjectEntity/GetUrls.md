@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetUrls()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSEntityElement[] GetUrls()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetUrls
+description: NSProjectEntity.GetUrls()
+intellisense: NSProjectEntity.GetUrls
 keywords: GetUrls()
+so.topic: reference
 ---
 
 

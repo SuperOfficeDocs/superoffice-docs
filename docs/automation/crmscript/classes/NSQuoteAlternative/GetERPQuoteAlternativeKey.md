@@ -1,9 +1,9 @@
 ---
-title: String GetERPQuoteAlternativeKey()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetERPQuoteAlternativeKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_GetERPQuoteAlternativeKey
+description: NSQuoteAlternative.GetERPQuoteAlternativeKey()
+intellisense: NSQuoteAlternative.GetERPQuoteAlternativeKey
 keywords: GetERPQuoteAlternativeKey()
+so.topic: reference
 ---
 
 

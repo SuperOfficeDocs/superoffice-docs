@@ -1,9 +1,9 @@
 ---
-title: Bool GetNumberEachTemplate()
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/Bool GetNumberEachTemplate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent_GetNumberEachTemplate
+description: NSNumberAllocationAgent.GetNumberEachTemplate()
+intellisense: NSNumberAllocationAgent.GetNumberEachTemplate
 keywords: GetNumberEachTemplate()
+so.topic: reference
 ---
 
 

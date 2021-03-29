@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity SetDocumentStream(NSDocumentEntity documentEntity, NSStream stream, Bool overwriteExistingData)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity SetDocumentStream(NSDocumentEntity p_0, NSStream p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SetDocumentStream_NSDocumentEntity_p_0_NSStream_p_1_Bool_p_2
+description: NSDocumentAgent.SetDocumentStream(NSDocumentEntity p_0, NSStream p_1, Bool p_2)
+intellisense: NSDocumentAgent.SetDocumentStream
 sortOrder: 2506
 keywords: SetDocumentStream(NSDocumentEntity,NSStream,Bool)
+so.topic: reference
 ---
 
 

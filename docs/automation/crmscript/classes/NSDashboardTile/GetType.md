@@ -1,10 +1,10 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetType
+description: NSDashboardTile.GetType()
+intellisense: NSDashboardTile.GetType
 sortOrder: 2294
 keywords: GetType()
+so.topic: reference
 ---
 
 

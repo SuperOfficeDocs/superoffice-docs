@@ -1,9 +1,9 @@
 ---
-title: String GetDatabaseType()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetDatabaseType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_GetDatabaseType
+description: NSSoSystemInfoCarrier.GetDatabaseType()
+intellisense: NSSoSystemInfoCarrier.GetDatabaseType
 keywords: GetDatabaseType()
+so.topic: reference
 ---
 
 

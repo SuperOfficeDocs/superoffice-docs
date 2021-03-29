@@ -1,9 +1,9 @@
 ---
-title: NSSaleSummary GetSummaryByAssociate(Integer p0, DateTime p1, DateTime p2)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleSummary GetSummaryByAssociate(Integer p_0, DateTime p_1, DateTime p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSummaryByAssociate_Integer_p_0_DateTime_p_1_DateTime_p_2
+description: NSSaleAgent.GetSummaryByAssociate(Integer p_0, DateTime p_1, DateTime p_2)
+intellisense: NSSaleAgent.GetSummaryByAssociate
 keywords: GetSummaryByAssociate(Integer,DateTime,DateTime)
+so.topic: reference
 ---
 
 

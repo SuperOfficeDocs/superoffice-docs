@@ -1,10 +1,10 @@
 ---
-title: String CheckSymmetricEncryption(String encryptedString)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/String CheckSymmetricEncryption(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_CheckSymmetricEncryption_String_p_0
+description: NSCustomerServiceAgent.CheckSymmetricEncryption(String p_0)
+intellisense: NSCustomerServiceAgent.CheckSymmetricEncryption
 sortOrder: 2243
 keywords: CheckSymmetricEncryption(String)
+so.topic: reference
 ---
 
 

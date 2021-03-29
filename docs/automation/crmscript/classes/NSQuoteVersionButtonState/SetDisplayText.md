@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayText(String DisplayText)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetDisplayText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_SetDisplayText_String_p_0
+description: NSQuoteVersionButtonState.SetDisplayText(String p_0)
+intellisense: NSQuoteVersionButtonState.SetDisplayText
 keywords: SetDisplayText(String)
+so.topic: reference
 ---
 
 

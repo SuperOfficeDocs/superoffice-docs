@@ -1,9 +1,9 @@
 ---
-title: NSPluginUrlResponse PlaceOrder(Integer quoteAlternativeId, Bool markSaleAsSold, String poNumber, String orderComment, String culture)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginUrlResponse PlaceOrder(Integer p_0, Bool p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_PlaceOrder_Integer_p_0_Bool_p_1_String_p_2_String_p_3_String_p_4
+description: NSQuoteAgent.PlaceOrder(Integer p_0, Bool p_1, String p_2, String p_3, String p_4)
+intellisense: NSQuoteAgent.PlaceOrder
 keywords: PlaceOrder(Integer,Bool,String,String,String)
+so.topic: reference
 ---
 
 

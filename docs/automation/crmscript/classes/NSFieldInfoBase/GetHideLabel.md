@@ -1,10 +1,10 @@
 ---
-title: Bool GetHideLabel()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Bool GetHideLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetHideLabel
+description: NSFieldInfoBase.GetHideLabel()
+intellisense: NSFieldInfoBase.GetHideLabel
 sortOrder: 3462
 keywords: GetHideLabel()
+so.topic: reference
 ---
 
 

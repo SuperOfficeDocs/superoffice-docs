@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetPublishedDocumentsByDate(Integer personId, Bool includeProjectDocuments, DateTime startTime, DateTime endTime, Integer count)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetPublishedDocumentsByDate(Integer p_0, Bool p_1, DateTime p_2, DateTime p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetPublishedDocumentsByDate_Integer_p_0_Bool_p_1_DateTime_p_2_DateTime_p_3_Integer_p_4
+description: NSDocumentAgent.GetPublishedDocumentsByDate(Integer p_0, Bool p_1, DateTime p_2, DateTime p_3, Integer p_4)
+intellisense: NSDocumentAgent.GetPublishedDocumentsByDate
 sortOrder: 2494
 keywords: GetPublishedDocumentsByDate(Integer,Bool,DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

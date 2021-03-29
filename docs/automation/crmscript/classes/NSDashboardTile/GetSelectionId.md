@@ -1,10 +1,10 @@
 ---
-title: Integer GetSelectionId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetSelectionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetSelectionId
+description: NSDashboardTile.GetSelectionId()
+intellisense: NSDashboardTile.GetSelectionId
 sortOrder: 2293
 keywords: GetSelectionId()
+so.topic: reference
 ---
 
 

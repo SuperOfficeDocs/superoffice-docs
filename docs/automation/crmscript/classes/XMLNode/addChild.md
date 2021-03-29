@@ -1,9 +1,9 @@
 ---
-title: Void addChild(XMLNode node)
-path: /EJScript/Classes/XMLNode/Member functions/Void addChild(XMLNode node)
-intellisense: 1
-classref: 1
+title: crmscript_ref_XMLNode_addChild_XMLNode_node
+description: XMLNode.addChild(XMLNode node)
+intellisense: XMLNode.addChild
 keywords: addChild(XMLNode)
+so.topic: reference
 ---
 
 

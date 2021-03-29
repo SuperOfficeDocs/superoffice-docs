@@ -1,10 +1,10 @@
 ---
-title: Integer GetMotherId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetMotherId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetMotherId
+description: NSAppointment.GetMotherId()
+intellisense: NSAppointment.GetMotherId
 sortOrder: 738
 keywords: GetMotherId()
+so.topic: reference
 ---
 
 

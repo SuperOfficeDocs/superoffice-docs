@@ -1,10 +1,10 @@
 ---
-title: Void SetDocumentTemplateId(Integer DocumentTemplateId)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetDocumentTemplateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_SetDocumentTemplateId_Integer_p_0
+description: NSDocumentTemplate.SetDocumentTemplateId(Integer p_0)
+intellisense: NSDocumentTemplate.SetDocumentTemplateId
 sortOrder: 2639
 keywords: SetDocumentTemplateId(Integer)
+so.topic: reference
 ---
 
 

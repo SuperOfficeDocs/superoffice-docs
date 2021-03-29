@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_SetAssociateId_Integer_p_0
+description: NSReportEntity.SetAssociateId(Integer p_0)
+intellisense: NSReportEntity.SetAssociateId
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

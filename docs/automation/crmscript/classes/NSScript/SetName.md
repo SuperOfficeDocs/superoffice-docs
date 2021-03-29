@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSScript/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_SetName_String_p_0
+description: NSScript.SetName(String p_0)
+intellisense: NSScript.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

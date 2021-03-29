@@ -1,9 +1,9 @@
 ---
-title: NSListItemEntity CreateDefaultListItemEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity CreateDefaultListItemEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultListItemEntity
+description: NSListAgent.CreateDefaultListItemEntity()
+intellisense: NSListAgent.CreateDefaultListItemEntity
 keywords: CreateDefaultListItemEntity()
+so.topic: reference
 ---
 
 

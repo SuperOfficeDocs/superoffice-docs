@@ -1,9 +1,9 @@
 ---
-title: String[][] GetCustomTags()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String[][] GetCustomTags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetCustomTags
+description: NSTemplateVariablesParameters.GetCustomTags()
+intellisense: NSTemplateVariablesParameters.GetCustomTags
 keywords: GetCustomTags()
+so.topic: reference
 ---
 
 

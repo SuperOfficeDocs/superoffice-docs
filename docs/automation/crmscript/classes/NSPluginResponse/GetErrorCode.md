@@ -1,9 +1,9 @@
 ---
-title: String GetErrorCode()
-path: /EJScript/Classes/NSPluginResponse/Member functions/String GetErrorCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse_GetErrorCode
+description: NSPluginResponse.GetErrorCode()
+intellisense: NSPluginResponse.GetErrorCode
 keywords: GetErrorCode()
+so.topic: reference
 ---
 
 

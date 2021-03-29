@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetDescription
+description: NSAppointment.GetDescription()
+intellisense: NSAppointment.GetDescription
 sortOrder: 758
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsBookingMain()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsBookingMain()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetIsBookingMain
+description: NSAppointment.GetIsBookingMain()
+intellisense: NSAppointment.GetIsBookingMain
 sortOrder: 716
 keywords: GetIsBookingMain()
+so.topic: reference
 ---
 
 

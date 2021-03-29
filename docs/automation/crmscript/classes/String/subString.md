@@ -1,9 +1,9 @@
 ---
-title: String subString(Integer pos, Integer len)
-path: /EJScript/Classes/String/Member functions/String subString(Integer pos, Integer len)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_subString_Integer_pos_Integer_len
+description: String.subString(Integer pos, Integer len)
+intellisense: String.subString
 keywords: subString(Integer,Integer)
+so.topic: reference
 ---
 
 

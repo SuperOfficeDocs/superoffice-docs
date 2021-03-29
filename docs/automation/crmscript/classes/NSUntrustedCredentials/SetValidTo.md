@@ -1,9 +1,9 @@
 ---
-title: Void SetValidTo(DateTime ValidTo)
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetValidTo(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_SetValidTo_DateTime_p_0
+description: NSUntrustedCredentials.SetValidTo(DateTime p_0)
+intellisense: NSUntrustedCredentials.SetValidTo
 keywords: SetValidTo(DateTime)
+so.topic: reference
 ---
 
 

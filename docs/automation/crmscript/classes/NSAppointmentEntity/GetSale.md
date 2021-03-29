@@ -1,10 +1,10 @@
 ---
-title: NSSale GetSale()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSSale GetSale()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetSale
+description: NSAppointmentEntity.GetSale()
+intellisense: NSAppointmentEntity.GetSale
 sortOrder: 971
 keywords: GetSale()
+so.topic: reference
 ---
 
 

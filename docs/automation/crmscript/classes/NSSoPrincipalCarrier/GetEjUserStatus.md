@@ -1,9 +1,9 @@
 ---
-title: Integer GetEjUserStatus()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetEjUserStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetEjUserStatus
+description: NSSoPrincipalCarrier.GetEjUserStatus()
+intellisense: NSSoPrincipalCarrier.GetEjUserStatus
 keywords: GetEjUserStatus()
+so.topic: reference
 ---
 
 

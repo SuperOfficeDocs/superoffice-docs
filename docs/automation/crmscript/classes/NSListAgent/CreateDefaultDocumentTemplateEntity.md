@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplateEntity CreateDefaultDocumentTemplateEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity CreateDefaultDocumentTemplateEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultDocumentTemplateEntity
+description: NSListAgent.CreateDefaultDocumentTemplateEntity()
+intellisense: NSListAgent.CreateDefaultDocumentTemplateEntity
 keywords: CreateDefaultDocumentTemplateEntity()
+so.topic: reference
 ---
 
 

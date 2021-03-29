@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjectId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetProjectId
+description: NSTemplateVariablesParameters.GetProjectId()
+intellisense: NSTemplateVariablesParameters.GetProjectId
 keywords: GetProjectId()
+so.topic: reference
 ---
 
 

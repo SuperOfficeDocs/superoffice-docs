@@ -1,9 +1,9 @@
 ---
-title: Void SetNumReplies(Integer NumReplies)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetNumReplies(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetNumReplies_Integer_p_0
+description: NSTicketEntity.SetNumReplies(Integer p_0)
+intellisense: NSTicketEntity.SetNumReplies
 keywords: SetNumReplies(Integer)
+so.topic: reference
 ---
 
 

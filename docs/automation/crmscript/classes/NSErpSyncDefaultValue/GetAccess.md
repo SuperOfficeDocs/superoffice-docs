@@ -1,10 +1,10 @@
 ---
-title: Integer GetAccess()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Integer GetAccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetAccess
+description: NSErpSyncDefaultValue.GetAccess()
+intellisense: NSErpSyncDefaultValue.GetAccess
 sortOrder: 3254
 keywords: GetAccess()
+so.topic: reference
 ---
 
 Access restrictions for the field

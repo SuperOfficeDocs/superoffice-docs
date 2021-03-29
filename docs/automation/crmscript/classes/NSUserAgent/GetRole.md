@@ -1,9 +1,9 @@
 ---
-title: NSRole GetRole(Integer roleId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRole GetRole(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetRole_Integer_p_0
+description: NSUserAgent.GetRole(Integer p_0)
+intellisense: NSUserAgent.GetRole
 keywords: GetRole(Integer)
+so.topic: reference
 ---
 
 

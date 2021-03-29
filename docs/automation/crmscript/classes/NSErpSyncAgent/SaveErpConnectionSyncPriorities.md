@@ -1,10 +1,10 @@
 ---
-title: Bool SaveErpConnectionSyncPriorities(Integer[] erpConnectionIds)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool SaveErpConnectionSyncPriorities(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SaveErpConnectionSyncPriorities_Integer__p_0
+description: NSErpSyncAgent.SaveErpConnectionSyncPriorities(Integer[] p_0)
+intellisense: NSErpSyncAgent.SaveErpConnectionSyncPriorities
 sortOrder: 3182
 keywords: SaveErpConnectionSyncPriorities(Integer[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteEntity SaveQuoteEntity(NSQuoteEntity quoteEntity)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteEntity SaveQuoteEntity(NSQuoteEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuoteEntity_NSQuoteEntity_p_0
+description: NSQuoteAgent.SaveQuoteEntity(NSQuoteEntity p_0)
+intellisense: NSQuoteAgent.SaveQuoteEntity
 keywords: SaveQuoteEntity(NSQuoteEntity)
+so.topic: reference
 ---
 
 

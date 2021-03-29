@@ -1,9 +1,9 @@
 ---
-title: Void SetAllowedUserType(Integer AllowedUserType)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetAllowedUserType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetAllowedUserType_Integer_p_0
+description: NSModuleLicense.SetAllowedUserType(Integer p_0)
+intellisense: NSModuleLicense.SetAllowedUserType
 keywords: SetAllowedUserType(Integer)
+so.topic: reference
 ---
 
 

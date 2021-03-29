@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetName
+description: NSModuleLicenseLink.GetName()
+intellisense: NSModuleLicenseLink.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

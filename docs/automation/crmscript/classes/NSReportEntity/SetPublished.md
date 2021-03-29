@@ -1,9 +1,9 @@
 ---
-title: Void SetPublished(Bool Published)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetPublished(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_SetPublished_Bool_p_0
+description: NSReportEntity.SetPublished(Bool p_0)
+intellisense: NSReportEntity.SetPublished
 keywords: SetPublished(Bool)
+so.topic: reference
 ---
 
 

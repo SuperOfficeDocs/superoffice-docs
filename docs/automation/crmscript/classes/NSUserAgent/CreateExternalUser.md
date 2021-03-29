@@ -1,9 +1,9 @@
 ---
-title: Integer CreateExternalUser(Integer personId, String userName, String password, Integer roleId, Bool isActive)
-path: /EJScript/Classes/NSUserAgent/Member functions/Integer CreateExternalUser(Integer p_0, String p_1, String p_2, Integer p_3, Bool p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateExternalUser_Integer_p_0_String_p_1_String_p_2_Integer_p_3_Bool_p_4
+description: NSUserAgent.CreateExternalUser(Integer p_0, String p_1, String p_2, Integer p_3, Bool p_4)
+intellisense: NSUserAgent.CreateExternalUser
 keywords: CreateExternalUser(Integer,String,String,Integer,Bool)
+so.topic: reference
 ---
 
 

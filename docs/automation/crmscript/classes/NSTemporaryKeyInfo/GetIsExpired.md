@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsExpired()
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Bool GetIsExpired()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemporaryKeyInfo_GetIsExpired
+description: NSTemporaryKeyInfo.GetIsExpired()
+intellisense: NSTemporaryKeyInfo.GetIsExpired
 keywords: GetIsExpired()
+so.topic: reference
 ---
 
 

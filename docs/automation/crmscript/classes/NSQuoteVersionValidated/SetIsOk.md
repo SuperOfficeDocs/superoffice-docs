@@ -1,9 +1,9 @@
 ---
-title: Void SetIsOk(Bool IsOk)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetIsOk(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_SetIsOk_Bool_p_0
+description: NSQuoteVersionValidated.SetIsOk(Bool p_0)
+intellisense: NSQuoteVersionValidated.SetIsOk
 keywords: SetIsOk(Bool)
+so.topic: reference
 ---
 
 

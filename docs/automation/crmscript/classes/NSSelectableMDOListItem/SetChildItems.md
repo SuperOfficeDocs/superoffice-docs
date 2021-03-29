@@ -1,9 +1,9 @@
 ---
-title: Void SetChildItems(NSSelectableMDOListItem[] ChildItems)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetChildItems(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetChildItems_NSSelectableMDOListItem__p_0
+description: NSSelectableMDOListItem.SetChildItems(NSSelectableMDOListItem[] p_0)
+intellisense: NSSelectableMDOListItem.SetChildItems
 keywords: SetChildItems(NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

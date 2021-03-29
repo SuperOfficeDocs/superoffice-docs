@@ -1,10 +1,10 @@
 ---
-title: Void SetFlags(Integer Flags)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetFlags(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_SetFlags_Integer_p_0
+description: NSEMailEnvelope.SetFlags(Integer p_0)
+intellisense: NSEMailEnvelope.SetFlags
 sortOrder: 3015
 keywords: SetFlags(Integer)
+so.topic: reference
 ---
 
 

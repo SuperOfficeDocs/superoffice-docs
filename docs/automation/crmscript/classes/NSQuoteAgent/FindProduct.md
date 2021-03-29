@@ -1,9 +1,9 @@
 ---
-title: NSProduct[] FindProduct(Integer quoteAlternativeId, String userInput, String priceListKey)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct[] FindProduct(Integer p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_FindProduct_Integer_p_0_String_p_1_String_p_2
+description: NSQuoteAgent.FindProduct(Integer p_0, String p_1, String p_2)
+intellisense: NSQuoteAgent.FindProduct
 keywords: FindProduct(Integer,String,String)
+so.topic: reference
 ---
 
 

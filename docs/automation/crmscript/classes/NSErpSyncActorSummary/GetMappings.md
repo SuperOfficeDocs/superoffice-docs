@@ -1,10 +1,10 @@
 ---
-title: String GetMappings()
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/String GetMappings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_GetMappings
+description: NSErpSyncActorSummary.GetMappings()
+intellisense: NSErpSyncActorSummary.GetMappings
 sortOrder: 3155
 keywords: GetMappings()
+so.topic: reference
 ---
 
 

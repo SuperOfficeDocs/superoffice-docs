@@ -1,8 +1,8 @@
 ---
-title: NSTicketMessage
-path: /EJScript/Classes/NSTicketMessage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessage
+description: NSTicketMessage
+intellisense: Void.NSTicketMessage
+so.topic: reference
 ---
 
 

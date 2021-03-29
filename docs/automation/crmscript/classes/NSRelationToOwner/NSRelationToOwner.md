@@ -1,8 +1,8 @@
 ---
-title: NSRelationToOwner
-path: /EJScript/Classes/NSRelationToOwner
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationToOwner
+description: NSRelationToOwner
+intellisense: Void.NSRelationToOwner
+so.topic: reference
 ---
 
 

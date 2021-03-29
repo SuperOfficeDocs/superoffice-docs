@@ -1,10 +1,10 @@
 ---
-title: NSFindResults FindWithColumns(String storageType, String providerName, String storageKey, String[] desiredColumns, Integer pageSize, Integer pageNumber, NSArchiveOrderByInfo[] orderBy)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSFindResults FindWithColumns(String p_0, String p_1, String p_2, String[] p_3, Integer p_4, Integer p_5, NSArchiveOrderByInfo[] p_6)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_FindWithColumns_String_p_0_String_p_1_String_p_2_String__p_3_Integer_p_4_Integer_p_5_NSArchiveOrderByInfo__p_6
+description: NSFindAgent.FindWithColumns(String p_0, String p_1, String p_2, String[] p_3, Integer p_4, Integer p_5, NSArchiveOrderByInfo[] p_6)
+intellisense: NSFindAgent.FindWithColumns
 sortOrder: 3678
 keywords: FindWithColumns(String,String,String,String[],Integer,Integer,NSArchiveOrderByInfo[])
+so.topic: reference
 ---
 
 

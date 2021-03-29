@@ -1,9 +1,9 @@
 ---
-title: Void SetInAssortment(Bool InAssortment)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetInAssortment(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetInAssortment_Bool_p_0
+description: NSProduct.SetInAssortment(Bool p_0)
+intellisense: NSProduct.SetInAssortment
 keywords: SetInAssortment(Bool)
+so.topic: reference
 ---
 
 

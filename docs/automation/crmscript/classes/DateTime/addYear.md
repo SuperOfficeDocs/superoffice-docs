@@ -1,10 +1,10 @@
 ---
-title: DateTime addYear(Integer num)
-path: /EJScript/Classes/DateTime/Member functions/DateTime addYear(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_addYear_Integer_num
+description: DateTime.addYear(Integer num)
+intellisense: DateTime.addYear
 sortOrder: 215
 keywords: addYear(Integer)
+so.topic: reference
 ---
 
 Adds num years to the date and returns datetime object.

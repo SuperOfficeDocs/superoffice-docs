@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsDefaultNow()
-path: /EJScript/Classes/NSFieldInfoDate/Member functions/Bool GetIsDefaultNow()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDate_GetIsDefaultNow
+description: NSFieldInfoDate.GetIsDefaultNow()
+intellisense: NSFieldInfoDate.GetIsDefaultNow
 sortOrder: 3493
 keywords: GetIsDefaultNow()
+so.topic: reference
 ---
 
 

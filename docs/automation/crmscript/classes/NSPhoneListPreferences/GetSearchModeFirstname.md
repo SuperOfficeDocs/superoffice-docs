@@ -1,9 +1,9 @@
 ---
-title: Integer GetSearchModeFirstname()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Integer GetSearchModeFirstname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_GetSearchModeFirstname
+description: NSPhoneListPreferences.GetSearchModeFirstname()
+intellisense: NSPhoneListPreferences.GetSearchModeFirstname
 keywords: GetSearchModeFirstname()
+so.topic: reference
 ---
 
 

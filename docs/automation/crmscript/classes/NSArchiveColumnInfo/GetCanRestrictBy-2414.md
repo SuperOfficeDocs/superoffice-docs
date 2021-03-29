@@ -1,10 +1,10 @@
 ---
-title: Boolean GetCanRestrictBy()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Boolean GetCanRestrictBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetCanRestrictBy
+description: NSArchiveColumnInfo.GetCanRestrictBy()
+intellisense: NSArchiveColumnInfo.GetCanRestrictBy
 sortOrder: 1138
 keywords: GetCanRestrictBy()
+so.topic: reference
 ---
 
 

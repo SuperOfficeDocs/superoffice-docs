@@ -1,9 +1,9 @@
 ---
-title: NSDuplicateRule
-path: /EJScript/Classes/NSDuplicateRule
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDuplicateRule
+description: NSDuplicateRule
+intellisense: Void.NSDuplicateRule
 sortOrder: 2732
+so.topic: reference
 ---
 
 Carrier object for DuplicateRule.

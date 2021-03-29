@@ -1,10 +1,10 @@
 ---
-title: Void SetParticipants(String[] Participants)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetParticipants(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_SetParticipants_String__p_0
+description: NSEMailAppointment.SetParticipants(String[] p_0)
+intellisense: NSEMailAppointment.SetParticipants
 sortOrder: 2887
 keywords: SetParticipants(String[])
+so.topic: reference
 ---
 
 

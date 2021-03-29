@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetTicketCategories()
-path: /EJScript/Classes/NSUser/Member functions/NSMDOListItem[] GetTicketCategories()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetTicketCategories
+description: NSUser.GetTicketCategories()
+intellisense: NSUser.GetTicketCategories
 keywords: GetTicketCategories()
+so.topic: reference
 ---
 
 

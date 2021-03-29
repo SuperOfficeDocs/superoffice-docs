@@ -1,9 +1,9 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetDeleted_Bool_p_0
+description: NSSelectableMDOListItem.SetDeleted(Bool p_0)
+intellisense: NSSelectableMDOListItem.SetDeleted
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

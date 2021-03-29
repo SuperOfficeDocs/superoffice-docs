@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStageEntity_GetRank
+description: NSSaleStageEntity.GetRank()
+intellisense: NSSaleStageEntity.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

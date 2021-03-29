@@ -1,9 +1,9 @@
 ---
-title: Void SetRawValue(String RawValue)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetRawValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetRawValue_String_p_0
+description: NSPreference.SetRawValue(String p_0)
+intellisense: NSPreference.SetRawValue
 keywords: SetRawValue(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSExtendedLicenseInfo AddLicenseFromFile(String fileContent)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSExtendedLicenseInfo AddLicenseFromFile(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_AddLicenseFromFile_String_p_0
+description: NSLicenseAgent.AddLicenseFromFile(String p_0)
+intellisense: NSLicenseAgent.AddLicenseFromFile
 keywords: AddLicenseFromFile(String)
+so.topic: reference
 ---
 
 

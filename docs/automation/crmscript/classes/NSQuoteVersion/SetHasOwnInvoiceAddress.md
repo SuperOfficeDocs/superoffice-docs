@@ -1,9 +1,9 @@
 ---
-title: Void SetHasOwnInvoiceAddress(Bool HasOwnInvoiceAddress)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetHasOwnInvoiceAddress(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetHasOwnInvoiceAddress_Bool_p_0
+description: NSQuoteVersion.SetHasOwnInvoiceAddress(Bool p_0)
+intellisense: NSQuoteVersion.SetHasOwnInvoiceAddress
 keywords: SetHasOwnInvoiceAddress(Bool)
+so.topic: reference
 ---
 
 

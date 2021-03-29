@@ -1,9 +1,9 @@
 ---
-title: Void SetMandatory(Bool Mandatory)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetMandatory(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetMandatory_Bool_p_0
+description: NSQuoteLineConfiguration.SetMandatory(Bool p_0)
+intellisense: NSQuoteLineConfiguration.SetMandatory
 keywords: SetMandatory(Bool)
+so.topic: reference
 ---
 
 

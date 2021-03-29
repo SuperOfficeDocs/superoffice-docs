@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsMandatory()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetIsMandatory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetIsMandatory
+description: NSUserDefinedFieldInfo.GetIsMandatory()
+intellisense: NSUserDefinedFieldInfo.GetIsMandatory
 keywords: GetIsMandatory()
+so.topic: reference
 ---
 
 

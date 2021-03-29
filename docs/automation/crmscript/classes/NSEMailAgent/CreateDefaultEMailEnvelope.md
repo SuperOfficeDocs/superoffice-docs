@@ -1,10 +1,10 @@
 ---
-title: NSEMailEnvelope CreateDefaultEMailEnvelope()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEnvelope CreateDefaultEMailEnvelope()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailEnvelope
+description: NSEMailAgent.CreateDefaultEMailEnvelope()
+intellisense: NSEMailAgent.CreateDefaultEMailEnvelope
 sortOrder: 2832
 keywords: CreateDefaultEMailEnvelope()
+so.topic: reference
 ---
 
 

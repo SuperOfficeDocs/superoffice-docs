@@ -1,9 +1,9 @@
 ---
-title: NSConsentPerson GetConsentPerson(Integer consentPersonId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson GetConsentPerson(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetConsentPerson_Integer_p_0
+description: NSPersonAgent.GetConsentPerson(Integer p_0)
+intellisense: NSPersonAgent.GetConsentPerson
 keywords: GetConsentPerson(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetUpdatedBy_NSAssociate_p_0
+description: NSBlobEntity.SetUpdatedBy(NSAssociate p_0)
+intellisense: NSBlobEntity.SetUpdatedBy
 sortOrder: 1464
 keywords: SetUpdatedBy(NSAssociate)
+so.topic: reference
 ---
 
 

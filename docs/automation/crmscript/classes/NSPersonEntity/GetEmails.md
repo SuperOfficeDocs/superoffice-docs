@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetEmails()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetEmails()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetEmails
+description: NSPersonEntity.GetEmails()
+intellisense: NSPersonEntity.GetEmails
 keywords: GetEmails()
+so.topic: reference
 ---
 
 

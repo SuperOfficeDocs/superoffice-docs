@@ -1,10 +1,10 @@
 ---
-title: Void SetEnabled(Bool enabled)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void SetEnabled(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_SetEnabled_Bool_p_0
+description: NSFreeTextAgent.SetEnabled(Bool p_0)
+intellisense: NSFreeTextAgent.SetEnabled
 sortOrder: 3875
 keywords: SetEnabled(Bool)
+so.topic: reference
 ---
 
 

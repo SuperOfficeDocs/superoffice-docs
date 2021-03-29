@@ -1,10 +1,10 @@
 ---
-title: NSEMailAppointment GetEmailAppointment(Integer mailItemId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAppointment GetEmailAppointment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEmailAppointment_Integer_p_0
+description: NSEMailAgent.GetEmailAppointment(Integer p_0)
+intellisense: NSEMailAgent.GetEmailAppointment
 sortOrder: 2803
 keywords: GetEmailAppointment(Integer)
+so.topic: reference
 ---
 
 

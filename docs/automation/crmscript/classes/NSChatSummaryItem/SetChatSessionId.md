@@ -1,10 +1,10 @@
 ---
-title: Void SetChatSessionId(Integer ChatSessionId)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetChatSessionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_SetChatSessionId_Integer_p_0
+description: NSChatSummaryItem.SetChatSessionId(Integer p_0)
+intellisense: NSChatSummaryItem.SetChatSessionId
 sortOrder: 1542
 keywords: SetChatSessionId(Integer)
+so.topic: reference
 ---
 
 

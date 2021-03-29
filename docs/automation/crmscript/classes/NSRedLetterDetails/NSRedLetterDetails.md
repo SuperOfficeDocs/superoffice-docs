@@ -1,8 +1,8 @@
 ---
-title: NSRedLetterDetails
-path: /EJScript/Classes/NSRedLetterDetails
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterDetails
+description: NSRedLetterDetails
+intellisense: Void.NSRedLetterDetails
+so.topic: reference
 ---
 
 

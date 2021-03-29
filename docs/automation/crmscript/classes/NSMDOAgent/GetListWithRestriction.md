@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetListWithRestriction(String name, String additionalInfo, String searchValue)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSMDOListItem[] GetListWithRestriction(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetListWithRestriction_String_p_0_String_p_1_String_p_2
+description: NSMDOAgent.GetListWithRestriction(String p_0, String p_1, String p_2)
+intellisense: NSMDOAgent.GetListWithRestriction
 keywords: GetListWithRestriction(String,String,String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void Reject(Integer appointmentId, String rejectReason, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void Reject(Integer p_0, String p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_Reject_Integer_p_0_String_p_1_Integer_p_2
+description: NSAppointmentAgent.Reject(Integer p_0, String p_1, Integer p_2)
+intellisense: NSAppointmentAgent.Reject
 sortOrder: 916
 keywords: Reject(Integer,String,Integer)
+so.topic: reference
 ---
 
 

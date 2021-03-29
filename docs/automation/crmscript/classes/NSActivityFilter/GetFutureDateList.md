@@ -1,10 +1,10 @@
 ---
-title: NSMDOListItem[] GetFutureDateList()
-path: /EJScript/Classes/NSActivityFilter/Member functions/NSMDOListItem[] GetFutureDateList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_GetFutureDateList
+description: NSActivityFilter.GetFutureDateList()
+intellisense: NSActivityFilter.GetFutureDateList
 sortOrder: 571
 keywords: GetFutureDateList()
+so.topic: reference
 ---
 
 

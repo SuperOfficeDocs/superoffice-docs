@@ -1,9 +1,9 @@
 ---
-title: Integer GetRefCountsId()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetRefCountsId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetRefCountsId
+description: NSRefCountEntity.GetRefCountsId()
+intellisense: NSRefCountEntity.GetRefCountsId
 keywords: GetRefCountsId()
+so.topic: reference
 ---
 
 

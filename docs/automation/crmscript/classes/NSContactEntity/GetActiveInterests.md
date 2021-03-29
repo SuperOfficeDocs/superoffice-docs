@@ -1,10 +1,10 @@
 ---
-title: Integer GetActiveInterests()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetActiveInterests()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetActiveInterests
+description: NSContactEntity.GetActiveInterests()
+intellisense: NSContactEntity.GetActiveInterests
 sortOrder: 1839
 keywords: GetActiveInterests()
+so.topic: reference
 ---
 
 

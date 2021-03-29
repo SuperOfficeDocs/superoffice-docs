@@ -1,10 +1,10 @@
 ---
-title: String GetCsProgramUrl(String language, String programName, String action, String extraParameters)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetCsProgramUrl(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetCsProgramUrl_String_p_0_String_p_1_String_p_2_String_p_3
+description: NSConfigurationAgent.GetCsProgramUrl(String p_0, String p_1, String p_2, String p_3)
+intellisense: NSConfigurationAgent.GetCsProgramUrl
 sortOrder: 1609
 keywords: GetCsProgramUrl(String,String,String,String)
+so.topic: reference
 ---
 
 

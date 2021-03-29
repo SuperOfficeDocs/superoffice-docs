@@ -1,10 +1,10 @@
 ---
-title: NSSale GetSale()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSSale GetSale()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetSale
+description: NSDocumentEntity.GetSale()
+intellisense: NSDocumentEntity.GetSale
 sortOrder: 2575
 keywords: GetSale()
+so.topic: reference
 ---
 
 

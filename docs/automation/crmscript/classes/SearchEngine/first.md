@@ -1,9 +1,9 @@
 ---
-title: Bool first()
-path: /EJScript/Classes/SearchEngine/member functions/Bool first()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_first
+description: SearchEngine.first()
+intellisense: SearchEngine.first
 keywords: first()
+so.topic: reference
 ---
 
 

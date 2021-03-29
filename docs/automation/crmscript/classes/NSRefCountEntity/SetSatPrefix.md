@@ -1,9 +1,9 @@
 ---
-title: Void SetSatPrefix(Integer SatPrefix)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetSatPrefix(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetSatPrefix_Integer_p_0
+description: NSRefCountEntity.SetSatPrefix(Integer p_0)
+intellisense: NSRefCountEntity.SetSatPrefix
 keywords: SetSatPrefix(Integer)
+so.topic: reference
 ---
 
 

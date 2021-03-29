@@ -1,9 +1,9 @@
 ---
-title: String GetUserExplanation()
-path: /EJScript/Classes/NSPluginResponse/Member functions/String GetUserExplanation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse_GetUserExplanation
+description: NSPluginResponse.GetUserExplanation()
+intellisense: NSPluginResponse.GetUserExplanation
 keywords: GetUserExplanation()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSContactEntity CreateDefaultContactEntity()
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactEntity CreateDefaultContactEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_CreateDefaultContactEntity
+description: NSContactAgent.CreateDefaultContactEntity()
+intellisense: NSContactAgent.CreateDefaultContactEntity
 sortOrder: 1809
 keywords: CreateDefaultContactEntity()
+so.topic: reference
 ---
 
 

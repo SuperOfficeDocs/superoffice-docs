@@ -1,10 +1,10 @@
 ---
-title: DateTime GetDbiLastSyncronized()
-path: /EJScript/Classes/NSContactEntity/Member functions/DateTime GetDbiLastSyncronized()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetDbiLastSyncronized
+description: NSContactEntity.GetDbiLastSyncronized()
+intellisense: NSContactEntity.GetDbiLastSyncronized
 sortOrder: 1836
 keywords: GetDbiLastSyncronized()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsPersonRetired()
-path: /EJScript/Classes/NSUser/Member functions/Bool GetIsPersonRetired()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetIsPersonRetired
+description: NSUser.GetIsPersonRetired()
+intellisense: NSUser.GetIsPersonRetired
 keywords: GetIsPersonRetired()
+so.topic: reference
 ---
 
 

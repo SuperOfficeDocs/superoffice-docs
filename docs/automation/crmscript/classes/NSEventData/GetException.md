@@ -1,10 +1,10 @@
 ---
-title: String GetException()
-path: /EJScript/Classes/NSEventData/Member functions/String GetException()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetException
+description: NSEventData.GetException()
+intellisense: NSEventData.GetException
 sortOrder: 3341
 keywords: GetException()
+so.topic: reference
 ---
 
 

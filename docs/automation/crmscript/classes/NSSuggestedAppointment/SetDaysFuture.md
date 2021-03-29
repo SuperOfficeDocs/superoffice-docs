@@ -1,9 +1,9 @@
 ---
-title: Void SetDaysFuture(Integer DaysFuture)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetDaysFuture(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetDaysFuture_Integer_p_0
+description: NSSuggestedAppointment.SetDaysFuture(Integer p_0)
+intellisense: NSSuggestedAppointment.SetDaysFuture
 keywords: SetDaysFuture(Integer)
+so.topic: reference
 ---
 
 

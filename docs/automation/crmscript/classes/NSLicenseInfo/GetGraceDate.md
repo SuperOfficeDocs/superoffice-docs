@@ -1,9 +1,9 @@
 ---
-title: DateTime GetGraceDate()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetGraceDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetGraceDate
+description: NSLicenseInfo.GetGraceDate()
+intellisense: NSLicenseInfo.GetGraceDate
 keywords: GetGraceDate()
+so.topic: reference
 ---
 
 

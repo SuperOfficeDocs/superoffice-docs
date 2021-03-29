@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsDefault()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Bool GetIsDefault()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetIsDefault
+description: NSDashboardTile.GetIsDefault()
+intellisense: NSDashboardTile.GetIsDefault
 sortOrder: 2288
 keywords: GetIsDefault()
+so.topic: reference
 ---
 
 

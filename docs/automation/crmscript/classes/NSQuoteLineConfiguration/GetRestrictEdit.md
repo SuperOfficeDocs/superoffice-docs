@@ -1,9 +1,9 @@
 ---
-title: Bool GetRestrictEdit()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetRestrictEdit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetRestrictEdit
+description: NSQuoteLineConfiguration.GetRestrictEdit()
+intellisense: NSQuoteLineConfiguration.GetRestrictEdit
 keywords: GetRestrictEdit()
+so.topic: reference
 ---
 
 

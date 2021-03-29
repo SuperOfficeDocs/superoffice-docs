@@ -1,9 +1,9 @@
 ---
-title: NSCredentialsGroupUsers GetCredentialUsers(String type, String groupName)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSCredentialsGroupUsers GetCredentialUsers(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetCredentialUsers_String_p_0_String_p_1
+description: NSUserAgent.GetCredentialUsers(String p_0, String p_1)
+intellisense: NSUserAgent.GetCredentialUsers
 keywords: GetCredentialUsers(String,String)
+so.topic: reference
 ---
 
 

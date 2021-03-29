@@ -1,10 +1,10 @@
 ---
-title: Void SetImageDescription(String ImageDescription)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetImageDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_SetImageDescription_String_p_0
+description: NSCountry.SetImageDescription(String p_0)
+intellisense: NSCountry.SetImageDescription
 sortOrder: 2039
 keywords: SetImageDescription(String)
+so.topic: reference
 ---
 
 

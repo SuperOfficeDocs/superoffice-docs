@@ -1,10 +1,10 @@
 ---
-title: String GetSourceCode()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetSourceCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetSourceCode
+description: NSArchiveColumnInfo.GetSourceCode()
+intellisense: NSArchiveColumnInfo.GetSourceCode
 sortOrder: 1148
 keywords: GetSourceCode()
+so.topic: reference
 ---
 
 

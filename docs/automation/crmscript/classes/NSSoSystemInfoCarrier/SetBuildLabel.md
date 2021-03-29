@@ -1,9 +1,9 @@
 ---
-title: Void SetBuildLabel(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetBuildLabel(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetBuildLabel_String_p_0
+description: NSSoSystemInfoCarrier.SetBuildLabel(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetBuildLabel
 keywords: SetBuildLabel(String)
+so.topic: reference
 ---
 
 

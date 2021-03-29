@@ -1,10 +1,10 @@
 ---
-title: Integer GetInvitationStatus()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetInvitationStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetInvitationStatus
+description: NSAlarmData.GetInvitationStatus()
+intellisense: NSAlarmData.GetInvitationStatus
 sortOrder: 651
 keywords: GetInvitationStatus()
+so.topic: reference
 ---
 
 

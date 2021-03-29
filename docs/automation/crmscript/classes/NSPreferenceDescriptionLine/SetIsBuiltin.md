@@ -1,9 +1,9 @@
 ---
-title: Void SetIsBuiltin(Bool IsBuiltin)
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Void SetIsBuiltin(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescriptionLine_SetIsBuiltin_Bool_p_0
+description: NSPreferenceDescriptionLine.SetIsBuiltin(Bool p_0)
+intellisense: NSPreferenceDescriptionLine.SetIsBuiltin
 keywords: SetIsBuiltin(Bool)
+so.topic: reference
 ---
 
 

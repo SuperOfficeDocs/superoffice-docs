@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetChildItems()
-path: /EJScript/Classes/NSMDOListItem/Member functions/NSMDOListItem[] GetChildItems()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetChildItems
+description: NSMDOListItem.GetChildItems()
+intellisense: NSMDOListItem.GetChildItems
 keywords: GetChildItems()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetColorIndex(Integer ColorIndex)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetColorIndex(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_SetColorIndex_Integer_p_0
+description: NSTaskListItem.SetColorIndex(Integer p_0)
+intellisense: NSTaskListItem.SetColorIndex
 keywords: SetColorIndex(Integer)
+so.topic: reference
 ---
 
 

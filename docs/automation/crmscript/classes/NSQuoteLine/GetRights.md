@@ -1,9 +1,9 @@
 ---
-title: String GetRights()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetRights()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetRights
+description: NSQuoteLine.GetRights()
+intellisense: NSQuoteLine.GetRights
 keywords: GetRights()
+so.topic: reference
 ---
 
 

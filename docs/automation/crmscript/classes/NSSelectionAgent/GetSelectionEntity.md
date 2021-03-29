@@ -1,9 +1,9 @@
 ---
-title: NSSelectionEntity GetSelectionEntity(Integer selectionEntityId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity GetSelectionEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetSelectionEntity_Integer_p_0
+description: NSSelectionAgent.GetSelectionEntity(Integer p_0)
+intellisense: NSSelectionAgent.GetSelectionEntity
 keywords: GetSelectionEntity(Integer)
+so.topic: reference
 ---
 
 

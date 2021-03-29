@@ -1,9 +1,9 @@
 ---
-title: String GetEmailDescription()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetEmailDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetEmailDescription
+description: NSSaleStakeholder.GetEmailDescription()
+intellisense: NSSaleStakeholder.GetEmailDescription
 keywords: GetEmailDescription()
+so.topic: reference
 ---
 
 

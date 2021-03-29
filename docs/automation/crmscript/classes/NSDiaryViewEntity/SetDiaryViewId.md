@@ -1,10 +1,10 @@
 ---
-title: Void SetDiaryViewId(Integer DiaryViewId)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetDiaryViewId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_SetDiaryViewId_Integer_p_0
+description: NSDiaryViewEntity.SetDiaryViewId(Integer p_0)
+intellisense: NSDiaryViewEntity.SetDiaryViewId
 sortOrder: 2415
 keywords: SetDiaryViewId(Integer)
+so.topic: reference
 ---
 
 

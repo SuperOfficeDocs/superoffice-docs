@@ -1,9 +1,9 @@
 ---
-title: Void Revert(Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void Revert(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_Revert_Integer_p_0
+description: NSUserDefinedFieldInfoAgent.Revert(Integer p_0)
+intellisense: NSUserDefinedFieldInfoAgent.Revert
 keywords: Revert(Integer)
+so.topic: reference
 ---
 
 

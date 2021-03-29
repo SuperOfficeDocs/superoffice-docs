@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdated()
-path: /EJScript/Classes/NSFormEntity/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetUpdated
+description: NSFormEntity.GetUpdated()
+intellisense: NSFormEntity.GetUpdated
 sortOrder: 3788
 keywords: GetUpdated()
+so.topic: reference
 ---
 
 

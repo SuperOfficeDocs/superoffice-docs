@@ -1,9 +1,9 @@
 ---
-title: Void SetListItemsForHeadingFromListName(String udListDefinitionName, Integer headingId, Integer[] listItemIds, Bool enable)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SetListItemsForHeadingFromListName(String p_0, Integer p_1, Integer[] p_2, Bool p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetListItemsForHeadingFromListName_String_p_0_Integer_p_1_Integer__p_2_Bool_p_3
+description: NSListAgent.SetListItemsForHeadingFromListName(String p_0, Integer p_1, Integer[] p_2, Bool p_3)
+intellisense: NSListAgent.SetListItemsForHeadingFromListName
 keywords: SetListItemsForHeadingFromListName(String,Integer,Integer[],Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSActivityFilter GetActivityFilter()
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSActivityFilter GetActivityFilter()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetActivityFilter
+description: NSArchiveAgent.GetActivityFilter()
+intellisense: NSArchiveAgent.GetActivityFilter
 sortOrder: 1101
 keywords: GetActivityFilter()
+so.topic: reference
 ---
 
 

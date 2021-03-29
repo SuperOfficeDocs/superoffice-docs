@@ -1,10 +1,10 @@
 ---
-title: Void StringInput(String stringArgument)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void StringInput(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_StringInput_String_p_0
+description: NSAAAMockAgent.StringInput(String p_0)
+intellisense: NSAAAMockAgent.StringInput
 sortOrder: 8914
 keywords: StringInput(String)
+so.topic: reference
 ---
 
 

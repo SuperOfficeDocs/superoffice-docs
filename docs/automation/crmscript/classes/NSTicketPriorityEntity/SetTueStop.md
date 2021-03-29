@@ -1,9 +1,9 @@
 ---
-title: Void SetTueStop(DateTime TueStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTueStop(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetTueStop_DateTime_p_0
+description: NSTicketPriorityEntity.SetTueStop(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetTueStop
 keywords: SetTueStop(DateTime)
+so.topic: reference
 ---
 
 

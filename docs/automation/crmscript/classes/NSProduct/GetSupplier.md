@@ -1,9 +1,9 @@
 ---
-title: String GetSupplier()
-path: /EJScript/Classes/NSProduct/Member functions/String GetSupplier()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetSupplier
+description: NSProduct.GetSupplier()
+intellisense: NSProduct.GetSupplier
 keywords: GetSupplier()
+so.topic: reference
 ---
 
 

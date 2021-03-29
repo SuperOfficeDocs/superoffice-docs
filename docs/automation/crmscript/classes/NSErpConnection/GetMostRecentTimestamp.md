@@ -1,10 +1,10 @@
 ---
-title: String GetMostRecentTimestamp()
-path: /EJScript/Classes/NSErpConnection/Member functions/String GetMostRecentTimestamp()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_GetMostRecentTimestamp
+description: NSErpConnection.GetMostRecentTimestamp()
+intellisense: NSErpConnection.GetMostRecentTimestamp
 sortOrder: 3088
 keywords: GetMostRecentTimestamp()
+so.topic: reference
 ---
 
 

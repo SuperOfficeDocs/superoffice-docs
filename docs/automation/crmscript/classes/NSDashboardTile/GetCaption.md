@@ -1,10 +1,10 @@
 ---
-title: String GetCaption()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetCaption()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetCaption
+description: NSDashboardTile.GetCaption()
+intellisense: NSDashboardTile.GetCaption
 sortOrder: 2296
 keywords: GetCaption()
+so.topic: reference
 ---
 
 

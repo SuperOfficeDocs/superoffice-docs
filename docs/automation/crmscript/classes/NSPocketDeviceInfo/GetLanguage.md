@@ -1,9 +1,9 @@
 ---
-title: String GetLanguage()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetLanguage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetLanguage
+description: NSPocketDeviceInfo.GetLanguage()
+intellisense: NSPocketDeviceInfo.GetLanguage
 keywords: GetLanguage()
+so.topic: reference
 ---
 
 

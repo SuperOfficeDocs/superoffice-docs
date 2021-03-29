@@ -1,9 +1,9 @@
 ---
-title: Void SetSupportLanguageId(Integer SupportLanguageId)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetSupportLanguageId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetSupportLanguageId_Integer_p_0
+description: NSPerson.SetSupportLanguageId(Integer p_0)
+intellisense: NSPerson.SetSupportLanguageId
 keywords: SetSupportLanguageId(Integer)
+so.topic: reference
 ---
 
 

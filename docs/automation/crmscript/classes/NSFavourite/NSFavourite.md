@@ -1,9 +1,9 @@
 ---
-title: NSFavourite
-path: /EJScript/Classes/NSFavourite
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavourite
+description: NSFavourite
+intellisense: Void.NSFavourite
 sortOrder: 3433
+so.topic: reference
 ---
 
 

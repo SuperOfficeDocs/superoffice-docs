@@ -1,9 +1,9 @@
 ---
-title: Integer GetUdListDefinitionId()
-path: /EJScript/Classes/NSListItemEntity/Member functions/Integer GetUdListDefinitionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListItemEntity_GetUdListDefinitionId
+description: NSListItemEntity.GetUdListDefinitionId()
+intellisense: NSListItemEntity.GetUdListDefinitionId
 keywords: GetUdListDefinitionId()
+so.topic: reference
 ---
 
 

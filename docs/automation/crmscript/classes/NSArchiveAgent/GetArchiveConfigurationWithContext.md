@@ -1,10 +1,10 @@
 ---
-title: NSArchiveConfiguration GetArchiveConfigurationWithContext(String guiName, String providerName, String context)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSArchiveConfiguration GetArchiveConfigurationWithContext(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetArchiveConfigurationWithContext_String_p_0_String_p_1_String_p_2
+description: NSArchiveAgent.GetArchiveConfigurationWithContext(String p_0, String p_1, String p_2)
+intellisense: NSArchiveAgent.GetArchiveConfigurationWithContext
 sortOrder: 1104
 keywords: GetArchiveConfigurationWithContext(String,String,String)
+so.topic: reference
 ---
 
 

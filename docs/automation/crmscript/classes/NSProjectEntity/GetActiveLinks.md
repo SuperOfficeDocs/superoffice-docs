@@ -1,9 +1,9 @@
 ---
-title: Integer GetActiveLinks()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Integer GetActiveLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetActiveLinks
+description: NSProjectEntity.GetActiveLinks()
+intellisense: NSProjectEntity.GetActiveLinks
 keywords: GetActiveLinks()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSConsentPerson CreateDefaultConsentPerson()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson CreateDefaultConsentPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_CreateDefaultConsentPerson
+description: NSPersonAgent.CreateDefaultConsentPerson()
+intellisense: NSPersonAgent.CreateDefaultConsentPerson
 keywords: CreateDefaultConsentPerson()
+so.topic: reference
 ---
 
 

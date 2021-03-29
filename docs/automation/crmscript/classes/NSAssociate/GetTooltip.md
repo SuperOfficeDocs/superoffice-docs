@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSAssociate/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_GetTooltip
+description: NSAssociate.GetTooltip()
+intellisense: NSAssociate.GetTooltip
 sortOrder: 1264
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

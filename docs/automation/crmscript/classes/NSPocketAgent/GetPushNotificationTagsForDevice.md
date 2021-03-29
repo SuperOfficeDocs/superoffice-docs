@@ -1,9 +1,9 @@
 ---
-title: String GetPushNotificationTagsForDevice(String deviceIdentifier)
-path: /EJScript/Classes/NSPocketAgent/Member functions/String GetPushNotificationTagsForDevice(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_GetPushNotificationTagsForDevice_String_p_0
+description: NSPocketAgent.GetPushNotificationTagsForDevice(String p_0)
+intellisense: NSPocketAgent.GetPushNotificationTagsForDevice
 keywords: GetPushNotificationTagsForDevice(String)
+so.topic: reference
 ---
 
 

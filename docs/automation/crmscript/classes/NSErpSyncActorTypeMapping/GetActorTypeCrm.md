@@ -1,10 +1,10 @@
 ---
-title: Integer GetActorTypeCrm()
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Integer GetActorTypeCrm()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorTypeMapping_GetActorTypeCrm
+description: NSErpSyncActorTypeMapping.GetActorTypeCrm()
+intellisense: NSErpSyncActorTypeMapping.GetActorTypeCrm
 sortOrder: 3163
 keywords: GetActorTypeCrm()
+so.topic: reference
 ---
 
 

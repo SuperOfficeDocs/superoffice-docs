@@ -1,9 +1,9 @@
 ---
-title: Bool IncludeQuoteVersionAttachment(Integer quoteVersionId, Integer documentId, Bool include)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Bool IncludeQuoteVersionAttachment(Integer p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_IncludeQuoteVersionAttachment_Integer_p_0_Integer_p_1_Bool_p_2
+description: NSQuoteAgent.IncludeQuoteVersionAttachment(Integer p_0, Integer p_1, Bool p_2)
+intellisense: NSQuoteAgent.IncludeQuoteVersionAttachment
 keywords: IncludeQuoteVersionAttachment(Integer,Integer,Bool)
+so.topic: reference
 ---
 
 

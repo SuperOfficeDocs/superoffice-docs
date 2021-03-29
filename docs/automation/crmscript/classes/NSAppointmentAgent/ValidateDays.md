@@ -1,10 +1,10 @@
 ---
-title: NSRecurrenceDate[] ValidateDays(NSAppointmentEntity p0, DateTime[] dates)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSRecurrenceDate[] ValidateDays(NSAppointmentEntity p_0, DateTime[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_ValidateDays_NSAppointmentEntity_p_0_DateTime__p_1
+description: NSAppointmentAgent.ValidateDays(NSAppointmentEntity p_0, DateTime[] p_1)
+intellisense: NSAppointmentAgent.ValidateDays
 sortOrder: 890
 keywords: ValidateDays(NSAppointmentEntity,DateTime[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetPage1LineNo()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetPage1LineNo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetPage1LineNo
+description: NSUserDefinedFieldInfo.GetPage1LineNo()
+intellisense: NSUserDefinedFieldInfo.GetPage1LineNo
 keywords: GetPage1LineNo()
+so.topic: reference
 ---
 
 

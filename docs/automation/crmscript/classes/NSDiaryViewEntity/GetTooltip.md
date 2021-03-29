@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetTooltip
+description: NSDiaryViewEntity.GetTooltip()
+intellisense: NSDiaryViewEntity.GetTooltip
 sortOrder: 2412
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

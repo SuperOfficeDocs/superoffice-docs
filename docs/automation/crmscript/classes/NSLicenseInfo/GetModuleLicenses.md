@@ -1,9 +1,9 @@
 ---
-title: NSModuleLicense[] GetModuleLicenses()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/NSModuleLicense[] GetModuleLicenses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetModuleLicenses
+description: NSLicenseInfo.GetModuleLicenses()
+intellisense: NSLicenseInfo.GetModuleLicenses
 keywords: GetModuleLicenses()
+so.topic: reference
 ---
 
 

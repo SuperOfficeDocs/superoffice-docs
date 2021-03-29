@@ -1,9 +1,9 @@
 ---
-title: Integer toSeconds()
-path: /EJScript/Classes/TimeSpan/Member functions/Integer toSeconds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_toSeconds
+description: TimeSpan.toSeconds()
+intellisense: TimeSpan.toSeconds
 keywords: toSeconds()
+so.topic: reference
 ---
 
 This function will return the timespan as a number of seconds. A one minute timespan will return 60.

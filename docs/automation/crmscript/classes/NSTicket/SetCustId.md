@@ -1,9 +1,9 @@
 ---
-title: Void SetCustId(Integer CustId)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetCustId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetCustId_Integer_p_0
+description: NSTicket.SetCustId(Integer p_0)
+intellisense: NSTicket.SetCustId
 keywords: SetCustId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetEncoding()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetEncoding()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_GetEncoding
+description: NSEMailAttachment.GetEncoding()
+intellisense: NSEMailAttachment.GetEncoding
 sortOrder: 2896
 keywords: GetEncoding()
+so.topic: reference
 ---
 
 

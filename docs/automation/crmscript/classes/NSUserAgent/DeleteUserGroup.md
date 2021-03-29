@@ -1,9 +1,9 @@
 ---
-title: Void DeleteUserGroup(Integer userGroupToDelete, Integer userGroupToMoveTo)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void DeleteUserGroup(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_DeleteUserGroup_Integer_p_0_Integer_p_1
+description: NSUserAgent.DeleteUserGroup(Integer p_0, Integer p_1)
+intellisense: NSUserAgent.DeleteUserGroup
 keywords: DeleteUserGroup(Integer,Integer)
+so.topic: reference
 ---
 
 

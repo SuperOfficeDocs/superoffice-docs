@@ -1,9 +1,9 @@
 ---
-title: Bool GetSignOnTaskEnable()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetSignOnTaskEnable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOnTaskEnable
+description: NSProjectEvent.GetSignOnTaskEnable()
+intellisense: NSProjectEvent.GetSignOnTaskEnable
 keywords: GetSignOnTaskEnable()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSListItemEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListItemEntity_SetName_String_p_0
+description: NSListItemEntity.SetName(String p_0)
+intellisense: NSListItemEntity.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

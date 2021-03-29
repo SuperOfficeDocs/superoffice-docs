@@ -1,9 +1,9 @@
 ---
-title: NSDeliveryTerm
-path: /EJScript/Classes/NSDeliveryTerm
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDeliveryTerm
+description: NSDeliveryTerm
+intellisense: Void.NSDeliveryTerm
 sortOrder: 2364
+so.topic: reference
 ---
 
 

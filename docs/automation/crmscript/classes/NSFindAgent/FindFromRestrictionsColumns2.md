@@ -1,10 +1,10 @@
 ---
-title: NSFindResults FindFromRestrictionsColumns2(String restrictions, String providerName, String desiredColumns, Integer pageSize, Integer pageNumber)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSFindResults FindFromRestrictionsColumns2(String p_0, String p_1, String p_2, Integer p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_FindFromRestrictionsColumns2_String_p_0_String_p_1_String_p_2_Integer_p_3_Integer_p_4
+description: NSFindAgent.FindFromRestrictionsColumns2(String p_0, String p_1, String p_2, Integer p_3, Integer p_4)
+intellisense: NSFindAgent.FindFromRestrictionsColumns2
 sortOrder: 3673
 keywords: FindFromRestrictionsColumns2(String,String,String,Integer,Integer)
+so.topic: reference
 ---
 
 

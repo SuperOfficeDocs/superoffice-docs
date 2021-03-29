@@ -1,10 +1,10 @@
 ---
-title: Void SetLegalBase(NSLegalBase LegalBase)
-path: /EJScript/Classes/NSConsentPerson/Member functions/Void SetLegalBase(NSLegalBase p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_SetLegalBase_NSLegalBase_p_0
+description: NSConsentPerson.SetLegalBase(NSLegalBase p_0)
+intellisense: NSConsentPerson.SetLegalBase
 sortOrder: 1670
 keywords: SetLegalBase(NSLegalBase)
+so.topic: reference
 ---
 
 

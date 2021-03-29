@@ -1,10 +1,10 @@
 ---
-title: Integer GetForeignDeviceId()
-path: /EJScript/Classes/NSForeignDevice/Member functions/Integer GetForeignDeviceId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetForeignDeviceId
+description: NSForeignDevice.GetForeignDeviceId()
+intellisense: NSForeignDevice.GetForeignDeviceId
 sortOrder: 3717
 keywords: GetForeignDeviceId()
+so.topic: reference
 ---
 
 

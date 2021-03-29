@@ -1,9 +1,9 @@
 ---
-title: Void SetERPQuoteKey(String ERPQuoteKey)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetERPQuoteKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetERPQuoteKey_String_p_0
+description: NSQuote.SetERPQuoteKey(String p_0)
+intellisense: NSQuote.SetERPQuoteKey
 keywords: SetERPQuoteKey(String)
+so.topic: reference
 ---
 
 

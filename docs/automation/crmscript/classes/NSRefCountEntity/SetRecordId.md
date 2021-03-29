@@ -1,9 +1,9 @@
 ---
-title: Void SetRecordId(Integer RecordId)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetRecordId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetRecordId_Integer_p_0
+description: NSRefCountEntity.SetRecordId(Integer p_0)
+intellisense: NSRefCountEntity.SetRecordId
 keywords: SetRecordId(Integer)
+so.topic: reference
 ---
 
 

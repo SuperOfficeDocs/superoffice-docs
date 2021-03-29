@@ -1,9 +1,9 @@
 ---
-title: String GetAccessToken(String app-token, Bool includeCsSession)
-path: /EJScript/Classes/NSUserAgent/Member functions/String GetAccessToken(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetAccessToken_String_p_0_Bool_p_1
+description: NSUserAgent.GetAccessToken(String p_0, Bool p_1)
+intellisense: NSUserAgent.GetAccessToken
 keywords: GetAccessToken(String,Bool)
+so.topic: reference
 ---
 
 

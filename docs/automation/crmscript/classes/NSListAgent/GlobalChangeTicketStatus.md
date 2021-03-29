@@ -1,9 +1,9 @@
 ---
-title: Void GlobalChangeTicketStatus(Integer fromTicketStatusId, Integer toTicketStatusId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void GlobalChangeTicketStatus(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GlobalChangeTicketStatus_Integer_p_0_Integer_p_1
+description: NSListAgent.GlobalChangeTicketStatus(Integer p_0, Integer p_1)
+intellisense: NSListAgent.GlobalChangeTicketStatus
 keywords: GlobalChangeTicketStatus(Integer,Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSFavourite/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavourite_SetExtraInfo_String_p_0
+description: NSFavourite.SetExtraInfo(String p_0)
+intellisense: NSFavourite.SetExtraInfo
 sortOrder: 3441
 keywords: SetExtraInfo(String)
+so.topic: reference
 ---
 
 

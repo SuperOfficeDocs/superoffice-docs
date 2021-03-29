@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssignmentStatus()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetAssignmentStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetAssignmentStatus
+description: NSAppointment.GetAssignmentStatus()
+intellisense: NSAppointment.GetAssignmentStatus
 sortOrder: 729
 keywords: GetAssignmentStatus()
+so.topic: reference
 ---
 
 

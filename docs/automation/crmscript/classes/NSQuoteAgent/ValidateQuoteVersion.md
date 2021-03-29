@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionValidated ValidateQuoteVersion(Integer quoteVersionId, Integer action)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionValidated ValidateQuoteVersion(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_ValidateQuoteVersion_Integer_p_0_Integer_p_1
+description: NSQuoteAgent.ValidateQuoteVersion(Integer p_0, Integer p_1)
+intellisense: NSQuoteAgent.ValidateQuoteVersion
 keywords: ValidateQuoteVersion(Integer,Integer)
+so.topic: reference
 ---
 
 

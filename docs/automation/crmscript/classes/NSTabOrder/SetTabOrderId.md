@@ -1,9 +1,9 @@
 ---
-title: Void SetTabOrderId(Integer TabOrderId)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetTabOrderId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_SetTabOrderId_Integer_p_0
+description: NSTabOrder.SetTabOrderId(Integer p_0)
+intellisense: NSTabOrder.SetTabOrderId
 keywords: SetTabOrderId(Integer)
+so.topic: reference
 ---
 
 

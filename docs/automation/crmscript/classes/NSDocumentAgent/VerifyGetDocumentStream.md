@@ -1,10 +1,10 @@
 ---
-title: Void VerifyGetDocumentStream(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/Void VerifyGetDocumentStream(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_VerifyGetDocumentStream_Integer_p_0
+description: NSDocumentAgent.VerifyGetDocumentStream(Integer p_0)
+intellisense: NSDocumentAgent.VerifyGetDocumentStream
 sortOrder: 2548
 keywords: VerifyGetDocumentStream(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetClosedAt()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetClosedAt()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetClosedAt
+description: NSTicket.GetClosedAt()
+intellisense: NSTicket.GetClosedAt
 keywords: GetClosedAt()
+so.topic: reference
 ---
 
 

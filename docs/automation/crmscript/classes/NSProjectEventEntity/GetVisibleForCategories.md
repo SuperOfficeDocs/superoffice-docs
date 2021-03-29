@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetVisibleForCategories()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/NSMDOListItem[] GetVisibleForCategories()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetVisibleForCategories
+description: NSProjectEventEntity.GetVisibleForCategories()
+intellisense: NSProjectEventEntity.GetVisibleForCategories
 keywords: GetVisibleForCategories()
+so.topic: reference
 ---
 
 

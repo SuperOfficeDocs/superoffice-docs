@@ -1,9 +1,9 @@
 ---
-title: NSProjectEntity SaveProjectEntity(NSProjectEntity projectEntity)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEntity SaveProjectEntity(NSProjectEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_SaveProjectEntity_NSProjectEntity_p_0
+description: NSProjectAgent.SaveProjectEntity(NSProjectEntity p_0)
+intellisense: NSProjectAgent.SaveProjectEntity
 keywords: SaveProjectEntity(NSProjectEntity)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetResponse()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetResponse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetResponse
+description: NSBatchTaskInfo.GetResponse()
+intellisense: NSBatchTaskInfo.GetResponse
 sortOrder: 1382
 keywords: GetResponse()
+so.topic: reference
 ---
 
 

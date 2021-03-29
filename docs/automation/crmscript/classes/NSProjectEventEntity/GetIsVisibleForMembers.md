@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsVisibleForMembers()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetIsVisibleForMembers()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetIsVisibleForMembers
+description: NSProjectEventEntity.GetIsVisibleForMembers()
+intellisense: NSProjectEventEntity.GetIsVisibleForMembers
 keywords: GetIsVisibleForMembers()
+so.topic: reference
 ---
 
 

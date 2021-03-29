@@ -1,10 +1,10 @@
 ---
-title: NSReturnInfo ExecuteDocumentCommand(Integer documentId, String versionId, String[] allowedReturnTypes, String command, String[] additionalData)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSReturnInfo ExecuteDocumentCommand(Integer p_0, String p_1, String[] p_2, String p_3, String[] p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_ExecuteDocumentCommand_Integer_p_0_String_p_1_String__p_2_String_p_3_String__p_4
+description: NSDocumentAgent.ExecuteDocumentCommand(Integer p_0, String p_1, String[] p_2, String p_3, String[] p_4)
+intellisense: NSDocumentAgent.ExecuteDocumentCommand
 sortOrder: 2512
 keywords: ExecuteDocumentCommand(Integer,String,String[],String,String[])
+so.topic: reference
 ---
 
 

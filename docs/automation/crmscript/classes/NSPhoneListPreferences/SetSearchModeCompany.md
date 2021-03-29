@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchModeCompany(Integer SearchModeCompany)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchModeCompany(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_SetSearchModeCompany_Integer_p_0
+description: NSPhoneListPreferences.SetSearchModeCompany(Integer p_0)
+intellisense: NSPhoneListPreferences.SetSearchModeCompany
 keywords: SetSearchModeCompany(Integer)
+so.topic: reference
 ---
 
 

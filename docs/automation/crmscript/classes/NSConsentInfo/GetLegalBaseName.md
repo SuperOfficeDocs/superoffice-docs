@@ -1,10 +1,10 @@
 ---
-title: String GetLegalBaseName()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetLegalBaseName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_GetLegalBaseName
+description: NSConsentInfo.GetLegalBaseName()
+intellisense: NSConsentInfo.GetLegalBaseName
 sortOrder: 1642
 keywords: GetLegalBaseName()
+so.topic: reference
 ---
 
 

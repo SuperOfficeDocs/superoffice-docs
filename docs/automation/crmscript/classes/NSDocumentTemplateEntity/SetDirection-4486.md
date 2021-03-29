@@ -1,10 +1,10 @@
 ---
-title: Void SetDirection(NSDocTmplDirection Direction)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetDirection(NSDocTmplDirection p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetDirection_NSDocTmplDirection_p_0
+description: NSDocumentTemplateEntity.SetDirection(NSDocTmplDirection p_0)
+intellisense: NSDocumentTemplateEntity.SetDirection
 sortOrder: 2681
 keywords: SetDirection(NSDocTmplDirection)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetConceptualType()
-path: /EJScript/Classes/NSBlobEntity/Member functions/String GetConceptualType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetConceptualType
+description: NSBlobEntity.GetConceptualType()
+intellisense: NSBlobEntity.GetConceptualType
 sortOrder: 1449
 keywords: GetConceptualType()
+so.topic: reference
 ---
 
 

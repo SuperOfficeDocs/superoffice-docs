@@ -1,10 +1,10 @@
 ---
-title: NSErpCrmListItemMapping[] GetErpCrmListItemMappings()
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/NSErpCrmListItemMapping[] GetErpCrmListItemMappings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMapping_GetErpCrmListItemMappings
+description: NSErpConnectionListMapping.GetErpCrmListItemMappings()
+intellisense: NSErpConnectionListMapping.GetErpCrmListItemMappings
 sortOrder: 3125
 keywords: GetErpCrmListItemMappings()
+so.topic: reference
 ---
 
 

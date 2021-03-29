@@ -1,10 +1,10 @@
 ---
-title: DateTime GetPublishTo()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/DateTime GetPublishTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetPublishTo
+description: NSDocumentEntity.GetPublishTo()
+intellisense: NSDocumentEntity.GetPublishTo
 sortOrder: 2556
 keywords: GetPublishTo()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetInternetPhones()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetInternetPhones()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetInternetPhones
+description: NSPersonEntity.GetInternetPhones()
+intellisense: NSPersonEntity.GetInternetPhones
 keywords: GetInternetPhones()
+so.topic: reference
 ---
 
 

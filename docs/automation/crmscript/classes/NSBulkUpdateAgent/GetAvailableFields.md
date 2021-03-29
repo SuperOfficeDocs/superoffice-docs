@@ -1,10 +1,10 @@
 ---
-title: NSFieldValueInfo[] GetAvailableFields(String tablename)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/NSFieldValueInfo[] GetAvailableFields(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_GetAvailableFields_String_p_0
+description: NSBulkUpdateAgent.GetAvailableFields(String p_0)
+intellisense: NSBulkUpdateAgent.GetAvailableFields
 sortOrder: 1471
 keywords: GetAvailableFields(String)
+so.topic: reference
 ---
 
 

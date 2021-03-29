@@ -1,9 +1,9 @@
 ---
-title: NSCriteriaInformation
-path: /EJScript/Classes/NSCriteriaInformation
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCriteriaInformation
+description: NSCriteriaInformation
+intellisense: Void.NSCriteriaInformation
 sortOrder: 2102
+so.topic: reference
 ---
 
 

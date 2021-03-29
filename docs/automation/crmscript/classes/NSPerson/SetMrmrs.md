@@ -1,9 +1,9 @@
 ---
-title: Void SetMrmrs(String Mrmrs)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetMrmrs(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetMrmrs_String_p_0
+description: NSPerson.SetMrmrs(String p_0)
+intellisense: NSPerson.SetMrmrs
 keywords: SetMrmrs(String)
+so.topic: reference
 ---
 
 

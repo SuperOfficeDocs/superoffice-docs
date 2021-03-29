@@ -1,9 +1,9 @@
 ---
-title: String[] GetOtherCountryDayTexts()
-path: /EJScript/Classes/NSRedLetterDetails/Member functions/String[] GetOtherCountryDayTexts()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterDetails_GetOtherCountryDayTexts
+description: NSRedLetterDetails.GetOtherCountryDayTexts()
+intellisense: NSRedLetterDetails.GetOtherCountryDayTexts
 keywords: GetOtherCountryDayTexts()
+so.topic: reference
 ---
 
 

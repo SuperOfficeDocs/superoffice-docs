@@ -1,10 +1,10 @@
 ---
-title: NSDashboard SetTile(Integer dashboardId, Integer tileId, Integer position)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard SetTile(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_SetTile_Integer_p_0_Integer_p_1_Integer_p_2
+description: NSDashboardAgent.SetTile(Integer p_0, Integer p_1, Integer p_2)
+intellisense: NSDashboardAgent.SetTile
 sortOrder: 2275
 keywords: SetTile(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

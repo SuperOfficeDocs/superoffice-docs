@@ -1,9 +1,9 @@
 ---
-title: Void SetSoundEx(String SoundEx)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSoundEx(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetSoundEx_String_p_0
+description: NSSelectionEntity.SetSoundEx(String p_0)
+intellisense: NSSelectionEntity.SetSoundEx
 keywords: SetSoundEx(String)
+so.topic: reference
 ---
 
 

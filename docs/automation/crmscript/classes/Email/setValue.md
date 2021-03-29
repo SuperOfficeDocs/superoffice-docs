@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String name, String value)
-path: /EJScript/Classes/Email/Member functions/Void setValue(String name, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Email_setValue_String_name_String_value
+description: Email.setValue(String name, String value)
+intellisense: Email.setValue
 sortOrder: 284
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 Sets the value of the given field in the email instance.

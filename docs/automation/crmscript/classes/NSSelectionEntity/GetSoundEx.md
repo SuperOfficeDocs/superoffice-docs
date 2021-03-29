@@ -1,9 +1,9 @@
 ---
-title: String GetSoundEx()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetSoundEx()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetSoundEx
+description: NSSelectionEntity.GetSoundEx()
+intellisense: NSSelectionEntity.GetSoundEx
 keywords: GetSoundEx()
+so.topic: reference
 ---
 
 

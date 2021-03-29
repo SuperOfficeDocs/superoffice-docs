@@ -1,8 +1,8 @@
 ---
-title: NSLicenseAgent
-path: /EJScript/Classes/NSLicenseAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent
+description: NSLicenseAgent
+intellisense: Void.NSLicenseAgent
+so.topic: reference
 ---
 
 

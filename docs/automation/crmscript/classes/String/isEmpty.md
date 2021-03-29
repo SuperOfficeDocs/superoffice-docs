@@ -1,9 +1,9 @@
 ---
-title: Bool isEmpty()
-path: /EJScript/Classes/String/Member functions/Bool isEmpty()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_isEmpty
+description: String.isEmpty()
+intellisense: String.isEmpty
 keywords: isEmpty()
+so.topic: reference
 ---
 
 

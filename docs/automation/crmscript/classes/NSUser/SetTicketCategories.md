@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketCategories(NSMDOListItem[] TicketCategories)
-path: /EJScript/Classes/NSUser/Member functions/Void SetTicketCategories(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetTicketCategories_NSMDOListItem__p_0
+description: NSUser.SetTicketCategories(NSMDOListItem[] p_0)
+intellisense: NSUser.SetTicketCategories
 keywords: SetTicketCategories(NSMDOListItem[])
+so.topic: reference
 ---
 
 

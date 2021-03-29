@@ -1,10 +1,10 @@
 ---
-title: String toString()
-path: /EJScript/Classes/Integer/Member functions/String toString()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Integer_toString
+description: Integer.toString()
+intellisense: Integer.toString
 sortOrder: 429
 keywords: toString()
+so.topic: reference
 ---
 
 This function returns a string representation of the Integer.

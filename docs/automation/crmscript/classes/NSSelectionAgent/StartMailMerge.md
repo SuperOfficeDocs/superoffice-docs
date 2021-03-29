@@ -1,9 +1,9 @@
 ---
-title: Void StartMailMerge(NSMailMergeSettings settings)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void StartMailMerge(NSMailMergeSettings p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_StartMailMerge_NSMailMergeSettings_p_0
+description: NSSelectionAgent.StartMailMerge(NSMailMergeSettings p_0)
+intellisense: NSSelectionAgent.StartMailMerge
 keywords: StartMailMerge(NSMailMergeSettings)
+so.topic: reference
 ---
 
 

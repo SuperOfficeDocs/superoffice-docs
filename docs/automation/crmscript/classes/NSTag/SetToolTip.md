@@ -1,9 +1,9 @@
 ---
-title: Void SetToolTip(String ToolTip)
-path: /EJScript/Classes/NSTag/Member functions/Void SetToolTip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTag_SetToolTip_String_p_0
+description: NSTag.SetToolTip(String p_0)
+intellisense: NSTag.SetToolTip
 keywords: SetToolTip(String)
+so.topic: reference
 ---
 
 

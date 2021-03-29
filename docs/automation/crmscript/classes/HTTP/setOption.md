@@ -1,10 +1,10 @@
 ---
-title: Void setOption(String p\_name, String p\_value)
-path: /EJScript/Classes/HTTP/Member functions/Void setOption(String p_name, String p_value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_setOption_String_p_name_String_p_value
+description: HTTP.setOption(String p_name, String p_value)
+intellisense: HTTP.setOption
 sortOrder: 417
 keywords: setOption(String,String)
+so.topic: reference
 ---
 
 

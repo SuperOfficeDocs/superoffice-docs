@@ -1,9 +1,9 @@
 ---
-title: Void SetOnSalesMarketingPocket(Bool OnSalesMarketingPocket)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnSalesMarketingPocket(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingPocket_Bool_p_0
+description: NSWebPanelEntity.SetOnSalesMarketingPocket(Bool p_0)
+intellisense: NSWebPanelEntity.SetOnSalesMarketingPocket
 keywords: SetOnSalesMarketingPocket(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetLabelLeft(Integer LabelLeft)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelLeft(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelLeft_Integer_p_0
+description: NSUserDefinedFieldInfo.SetLabelLeft(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetLabelLeft
 keywords: SetLabelLeft(Integer)
+so.topic: reference
 ---
 
 

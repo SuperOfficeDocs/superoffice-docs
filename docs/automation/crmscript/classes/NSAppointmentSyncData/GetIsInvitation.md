@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsInvitation()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsInvitation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetIsInvitation
+description: NSAppointmentSyncData.GetIsInvitation()
+intellisense: NSAppointmentSyncData.GetIsInvitation
 sortOrder: 1045
 keywords: GetIsInvitation()
+so.topic: reference
 ---
 
 

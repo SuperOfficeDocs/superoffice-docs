@@ -1,9 +1,9 @@
 ---
-title: Bool GetIncluded()
-path: /EJScript/Classes/NSQuoteVersionAttachment/Member functions/Bool GetIncluded()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionAttachment_GetIncluded
+description: NSQuoteVersionAttachment.GetIncluded()
+intellisense: NSQuoteVersionAttachment.GetIncluded
 keywords: GetIncluded()
+so.topic: reference
 ---
 
 

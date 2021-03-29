@@ -1,9 +1,9 @@
 ---
-title: Void SetNoMailing(Bool NoMailing)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetNoMailing(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetNoMailing_Bool_p_0
+description: NSPersonEntity.SetNoMailing(Bool p_0)
+intellisense: NSPersonEntity.SetNoMailing
 keywords: SetNoMailing(Bool)
+so.topic: reference
 ---
 
 

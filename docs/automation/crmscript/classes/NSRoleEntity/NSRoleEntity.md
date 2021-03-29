@@ -1,8 +1,8 @@
 ---
-title: NSRoleEntity
-path: /EJScript/Classes/NSRoleEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity
+description: NSRoleEntity
+intellisense: Void.NSRoleEntity
+so.topic: reference
 ---
 
 

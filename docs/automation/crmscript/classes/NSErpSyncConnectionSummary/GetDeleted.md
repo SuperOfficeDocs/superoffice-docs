@@ -1,10 +1,10 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_GetDeleted
+description: NSErpSyncConnectionSummary.GetDeleted()
+intellisense: NSErpSyncConnectionSummary.GetDeleted
 sortOrder: 3228
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

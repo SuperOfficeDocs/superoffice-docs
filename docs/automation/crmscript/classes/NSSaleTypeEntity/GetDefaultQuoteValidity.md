@@ -1,9 +1,9 @@
 ---
-title: Integer GetDefaultQuoteValidity()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetDefaultQuoteValidity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetDefaultQuoteValidity
+description: NSSaleTypeEntity.GetDefaultQuoteValidity()
+intellisense: NSSaleTypeEntity.GetDefaultQuoteValidity
 keywords: GetDefaultQuoteValidity()
+so.topic: reference
 ---
 
 

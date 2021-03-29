@@ -1,9 +1,9 @@
 ---
-title: Void SetStatusId(Integer StatusId)
-path: /EJScript/Classes/NSProject/Member functions/Void SetStatusId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_SetStatusId_Integer_p_0
+description: NSProject.SetStatusId(Integer p_0)
+intellisense: NSProject.SetStatusId
 keywords: SetStatusId(Integer)
+so.topic: reference
 ---
 
 

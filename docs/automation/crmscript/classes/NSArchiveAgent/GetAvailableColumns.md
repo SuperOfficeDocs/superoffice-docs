@@ -1,10 +1,10 @@
 ---
-title: NSArchiveColumnInfo[] GetAvailableColumns(String providerName, String context)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSArchiveColumnInfo[] GetAvailableColumns(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetAvailableColumns_String_p_0_String_p_1
+description: NSArchiveAgent.GetAvailableColumns(String p_0, String p_1)
+intellisense: NSArchiveAgent.GetAvailableColumns
 sortOrder: 1102
 keywords: GetAvailableColumns(String,String)
+so.topic: reference
 ---
 
 

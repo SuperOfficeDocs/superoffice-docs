@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultValue(DateTime DefaultValue)
-path: /EJScript/Classes/NSFieldInfoTime/Member functions/Void SetDefaultValue(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTime_SetDefaultValue_DateTime_p_0
+description: NSFieldInfoTime.SetDefaultValue(DateTime p_0)
+intellisense: NSFieldInfoTime.SetDefaultValue
 sortOrder: 3561
 keywords: SetDefaultValue(DateTime)
+so.topic: reference
 ---
 
 

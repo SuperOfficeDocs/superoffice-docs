@@ -1,10 +1,10 @@
 ---
-title: NSDashboard GetDashboard(Integer dashboardId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard GetDashboard(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_GetDashboard_Integer_p_0
+description: NSDashboardAgent.GetDashboard(Integer p_0)
+intellisense: NSDashboardAgent.GetDashboard
 sortOrder: 2273
 keywords: GetDashboard(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetOptions(NSDashboardTileOption[] Options)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetOptions(NSDashboardTileOption[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetOptions_NSDashboardTileOption__p_0
+description: NSDashboardTile.SetOptions(NSDashboardTileOption[] p_0)
+intellisense: NSDashboardTile.SetOptions
 sortOrder: 2312
 keywords: SetOptions(NSDashboardTileOption[])
+so.topic: reference
 ---
 
 

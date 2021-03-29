@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(NSTicketStatusEntity Status)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetStatus(NSTicketStatusEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetStatus_NSTicketStatusEntity_p_0
+description: NSTicketEntity.SetStatus(NSTicketStatusEntity p_0)
+intellisense: NSTicketEntity.SetStatus
 keywords: SetStatus(NSTicketStatusEntity)
+so.topic: reference
 ---
 
 

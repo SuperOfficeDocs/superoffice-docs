@@ -1,10 +1,10 @@
 ---
-title: NSEntityElement[] GetPhones()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetPhones()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetPhones
+description: NSContactEntity.GetPhones()
+intellisense: NSContactEntity.GetPhones
 sortOrder: 1860
 keywords: GetPhones()
+so.topic: reference
 ---
 
 

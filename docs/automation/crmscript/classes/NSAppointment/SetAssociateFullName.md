@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateFullName(String AssociateFullName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssociateFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetAssociateFullName_String_p_0
+description: NSAppointment.SetAssociateFullName(String p_0)
+intellisense: NSAppointment.SetAssociateFullName
 sortOrder: 775
 keywords: SetAssociateFullName(String)
+so.topic: reference
 ---
 
 

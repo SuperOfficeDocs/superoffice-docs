@@ -1,9 +1,9 @@
 ---
-title: Integer GetCategoryMaster()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetCategoryMaster()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetCategoryMaster
+description: NSTicketCategoryEntity.GetCategoryMaster()
+intellisense: NSTicketCategoryEntity.GetCategoryMaster
 keywords: GetCategoryMaster()
+so.topic: reference
 ---
 
 

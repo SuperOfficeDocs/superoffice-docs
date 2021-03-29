@@ -1,9 +1,9 @@
 ---
-title: Void SetDeploymentType(Integer DeploymentType)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetDeploymentType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetDeploymentType_Integer_p_0
+description: NSLicenseInfo.SetDeploymentType(Integer p_0)
+intellisense: NSLicenseInfo.SetDeploymentType
 keywords: SetDeploymentType(Integer)
+so.topic: reference
 ---
 
 

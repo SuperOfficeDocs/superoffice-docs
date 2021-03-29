@@ -1,9 +1,9 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/SpmShipment/Member functions/Integer save()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmShipment_save
+description: SpmShipment.save()
+intellisense: SpmShipment.save
 keywords: save()
+so.topic: reference
 ---
 
 

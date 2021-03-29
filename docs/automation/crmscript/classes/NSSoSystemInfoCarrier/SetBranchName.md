@@ -1,9 +1,9 @@
 ---
-title: Void SetBranchName(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetBranchName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetBranchName_String_p_0
+description: NSSoSystemInfoCarrier.SetBranchName(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetBranchName
 keywords: SetBranchName(String)
+so.topic: reference
 ---
 
 

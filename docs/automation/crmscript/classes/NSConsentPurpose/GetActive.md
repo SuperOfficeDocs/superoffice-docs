@@ -1,10 +1,10 @@
 ---
-title: Integer GetActive()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Integer GetActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_GetActive
+description: NSConsentPurpose.GetActive()
+intellisense: NSConsentPurpose.GetActive
 sortOrder: 1676
 keywords: GetActive()
+so.topic: reference
 ---
 
 

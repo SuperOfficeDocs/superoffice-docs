@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjectId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetProjectId
+description: NSMailMergeTask.GetProjectId()
+intellisense: NSMailMergeTask.GetProjectId
 keywords: GetProjectId()
+so.topic: reference
 ---
 
 

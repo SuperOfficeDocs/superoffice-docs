@@ -1,10 +1,10 @@
 ---
-title: Void SetTemplateStream(String filename, Bool personal, NSStream stream)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/Void SetTemplateStream(String p_0, Bool p_1, NSStream p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SetTemplateStream_String_p_0_Bool_p_1_NSStream_p_2
+description: NSDocumentAgent.SetTemplateStream(String p_0, Bool p_1, NSStream p_2)
+intellisense: NSDocumentAgent.SetTemplateStream
 sortOrder: 2547
 keywords: SetTemplateStream(String,Bool,NSStream)
+so.topic: reference
 ---
 
 

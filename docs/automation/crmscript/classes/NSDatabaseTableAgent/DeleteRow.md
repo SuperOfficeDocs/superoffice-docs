@@ -1,10 +1,10 @@
 ---
-title: Void DeleteRow(String tableName, Integer id)
-path: /EJScript/Classes/NSDatabaseTableAgent/Member functions/Void DeleteRow(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseTableAgent_DeleteRow_String_p_0_Integer_p_1
+description: NSDatabaseTableAgent.DeleteRow(String p_0, Integer p_1)
+intellisense: NSDatabaseTableAgent.DeleteRow
 sortOrder: 2340
 keywords: DeleteRow(String,Integer)
+so.topic: reference
 ---
 
 

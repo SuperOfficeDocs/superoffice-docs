@@ -1,10 +1,10 @@
 ---
-title: Bool GetDefaultShowInSelector()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Bool GetDefaultShowInSelector()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetDefaultShowInSelector
+description: NSFieldValueInfo.GetDefaultShowInSelector()
+intellisense: NSFieldValueInfo.GetDefaultShowInSelector
 sortOrder: 3619
 keywords: GetDefaultShowInSelector()
+so.topic: reference
 ---
 
 

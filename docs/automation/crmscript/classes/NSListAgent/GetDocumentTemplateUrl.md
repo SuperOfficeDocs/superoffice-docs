@@ -1,9 +1,9 @@
 ---
-title: String GetDocumentTemplateUrl(Integer documentTemplateId, Bool writableUrl, String languageCode)
-path: /EJScript/Classes/NSListAgent/Member functions/String GetDocumentTemplateUrl(Integer p_0, Bool p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateUrl_Integer_p_0_Bool_p_1_String_p_2
+description: NSListAgent.GetDocumentTemplateUrl(Integer p_0, Bool p_1, String p_2)
+intellisense: NSListAgent.GetDocumentTemplateUrl
 keywords: GetDocumentTemplateUrl(Integer,Bool,String)
+so.topic: reference
 ---
 
 

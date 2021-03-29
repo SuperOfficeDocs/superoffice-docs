@@ -1,9 +1,9 @@
 ---
-title: NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer selectionId, NSArchiveRestrictionInfo[] criteria, String filter)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveRestrictionInfo[] SetDynamicSelectionCriteria3(Integer p_0, NSArchiveRestrictionInfo[] p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_SetDynamicSelectionCriteria3_Integer_p_0_NSArchiveRestrictionInfo__p_1_String_p_2
+description: NSSelectionAgent.SetDynamicSelectionCriteria3(Integer p_0, NSArchiveRestrictionInfo[] p_1, String p_2)
+intellisense: NSSelectionAgent.SetDynamicSelectionCriteria3
 keywords: SetDynamicSelectionCriteria3(Integer,NSArchiveRestrictionInfo[],String)
+so.topic: reference
 ---
 
 

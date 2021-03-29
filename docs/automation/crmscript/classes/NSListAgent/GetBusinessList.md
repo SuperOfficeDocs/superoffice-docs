@@ -1,9 +1,9 @@
 ---
-title: NSBusiness[] GetBusinessList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSBusiness[] GetBusinessList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetBusinessList_Integer__p_0
+description: NSListAgent.GetBusinessList(Integer[] p_0)
+intellisense: NSListAgent.GetBusinessList
 keywords: GetBusinessList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Business objects.

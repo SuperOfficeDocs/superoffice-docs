@@ -1,9 +1,9 @@
 ---
-title: Void SetUniqueId(String UniqueId)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetUniqueId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_SetUniqueId_String_p_0
+description: NSPhoneListItem.SetUniqueId(String p_0)
+intellisense: NSPhoneListItem.SetUniqueId
 keywords: SetUniqueId(String)
+so.topic: reference
 ---
 
 

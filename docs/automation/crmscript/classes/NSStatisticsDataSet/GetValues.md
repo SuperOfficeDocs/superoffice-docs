@@ -1,9 +1,9 @@
 ---
-title: NSStatisticsDataValue[] GetValues()
-path: /EJScript/Classes/NSStatisticsDataSet/Member functions/NSStatisticsDataValue[] GetValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataSet_GetValues
+description: NSStatisticsDataSet.GetValues()
+intellisense: NSStatisticsDataSet.GetValues
 keywords: GetValues()
+so.topic: reference
 ---
 
 

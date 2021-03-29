@@ -1,10 +1,10 @@
 ---
-title: Void SetEmailSubject(String EmailSubject)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetEmailSubject(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetEmailSubject_String_p_0
+description: NSDocumentTemplateEntity.SetEmailSubject(String p_0)
+intellisense: NSDocumentTemplateEntity.SetEmailSubject
 sortOrder: 2684
 keywords: SetEmailSubject(String)
+so.topic: reference
 ---
 
 

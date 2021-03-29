@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity CreateDefaultAppointmentEntityByType(Integer type)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity CreateDefaultAppointmentEntityByType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntityByType_Integer_p_0
+description: NSAppointmentAgent.CreateDefaultAppointmentEntityByType(Integer p_0)
+intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityByType
 sortOrder: 875
 keywords: CreateDefaultAppointmentEntityByType(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void delegate()
-path: /EJScript/Classes/Ticket/Member functions/Void delegate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_delegate
+description: Ticket.delegate()
+intellisense: Ticket.delegate
 keywords: delegate()
+so.topic: reference
 ---
 
 

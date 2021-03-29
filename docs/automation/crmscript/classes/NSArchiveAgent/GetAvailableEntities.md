@@ -1,10 +1,10 @@
 ---
-title: NSMDOListItem[] GetAvailableEntities(String providerName, String context)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSMDOListItem[] GetAvailableEntities(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetAvailableEntities_String_p_0_String_p_1
+description: NSArchiveAgent.GetAvailableEntities(String p_0, String p_1)
+intellisense: NSArchiveAgent.GetAvailableEntities
 sortOrder: 1118
 keywords: GetAvailableEntities(String,String)
+so.topic: reference
 ---
 
 

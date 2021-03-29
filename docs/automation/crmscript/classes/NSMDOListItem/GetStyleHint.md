@@ -1,9 +1,9 @@
 ---
-title: String GetStyleHint()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetStyleHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetStyleHint
+description: NSMDOListItem.GetStyleHint()
+intellisense: NSMDOListItem.GetStyleHint
 keywords: GetStyleHint()
+so.topic: reference
 ---
 
 

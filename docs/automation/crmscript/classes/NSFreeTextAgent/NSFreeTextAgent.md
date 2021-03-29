@@ -1,9 +1,9 @@
 ---
-title: NSFreeTextAgent
-path: /EJScript/Classes/NSFreeTextAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent
+description: NSFreeTextAgent
+intellisense: Void.NSFreeTextAgent
 sortOrder: 3866
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetCanCreatePerson()
-path: /EJScript/Classes/NSCredentialUser/Member functions/Bool GetCanCreatePerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser_GetCanCreatePerson
+description: NSCredentialUser.GetCanCreatePerson()
+intellisense: NSCredentialUser.GetCanCreatePerson
 sortOrder: 2086
 keywords: GetCanCreatePerson()
+so.topic: reference
 ---
 
 

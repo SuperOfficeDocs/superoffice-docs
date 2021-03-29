@@ -1,10 +1,10 @@
 ---
-title: Float GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Float GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDecimal_GetDefaultValue
+description: NSFieldInfoDecimal.GetDefaultValue()
+intellisense: NSFieldInfoDecimal.GetDefaultValue
 sortOrder: 3505
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

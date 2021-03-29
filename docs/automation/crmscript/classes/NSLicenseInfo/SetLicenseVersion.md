@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenseVersion(String LicenseVersion)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetLicenseVersion(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetLicenseVersion_String_p_0
+description: NSLicenseInfo.SetLicenseVersion(String p_0)
+intellisense: NSLicenseInfo.SetLicenseVersion
 keywords: SetLicenseVersion(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetConfirmationLinesTemplate()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetConfirmationLinesTemplate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetConfirmationLinesTemplate
+description: NSSaleTypeEntity.GetConfirmationLinesTemplate()
+intellisense: NSSaleTypeEntity.GetConfirmationLinesTemplate
 keywords: GetConfirmationLinesTemplate()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetStakeholderRoleId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetStakeholderRoleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetStakeholderRoleId
+description: NSSaleStakeholder.GetStakeholderRoleId()
+intellisense: NSSaleStakeholder.GetStakeholderRoleId
 keywords: GetStakeholderRoleId()
+so.topic: reference
 ---
 
 

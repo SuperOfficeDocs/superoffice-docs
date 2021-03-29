@@ -1,10 +1,10 @@
 ---
-title: Void SetCountWords(Integer CountWords)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetCountWords(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_SetCountWords_Integer_p_0
+description: NSFreeText.SetCountWords(Integer p_0)
+intellisense: NSFreeText.SetCountWords
 sortOrder: 3860
 keywords: SetCountWords(Integer)
+so.topic: reference
 ---
 
 

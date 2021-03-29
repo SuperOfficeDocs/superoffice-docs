@@ -1,10 +1,10 @@
 ---
-title: Void DeleteDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/Void DeleteDeviceByIdentifier(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_DeleteDeviceByIdentifier_String_p_0_String_p_1_String_p_2
+description: NSForeignSystemAgent.DeleteDeviceByIdentifier(String p_0, String p_1, String p_2)
+intellisense: NSForeignSystemAgent.DeleteDeviceByIdentifier
 sortOrder: 3776
 keywords: DeleteDeviceByIdentifier(String,String,String)
+so.topic: reference
 ---
 
 

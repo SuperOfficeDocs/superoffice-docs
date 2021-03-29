@@ -1,10 +1,10 @@
 ---
-title: String GetTo()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_GetTo
+description: NSIncomingMessage.GetTo()
+intellisense: NSIncomingMessage.GetTo
 sortOrder: 3991
 keywords: GetTo()
+so.topic: reference
 ---
 
 

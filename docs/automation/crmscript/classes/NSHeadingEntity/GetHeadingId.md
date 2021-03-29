@@ -1,10 +1,10 @@
 ---
-title: Integer GetHeadingId()
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Integer GetHeadingId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHeadingEntity_GetHeadingId
+description: NSHeadingEntity.GetHeadingId()
+intellisense: NSHeadingEntity.GetHeadingId
 sortOrder: 3913
 keywords: GetHeadingId()
+so.topic: reference
 ---
 
 

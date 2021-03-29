@@ -1,10 +1,10 @@
 ---
-title: NSImage GetProjectImageWithSize(Integer projectId, Integer width, Integer height)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetProjectImageWithSize(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetProjectImageWithSize_Integer_p_0_Integer_p_1_Integer_p_2
+description: NSBLOBAgent.GetProjectImageWithSize(Integer p_0, Integer p_1, Integer p_2)
+intellisense: NSBLOBAgent.GetProjectImageWithSize
 sortOrder: 1422
 keywords: GetProjectImageWithSize(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

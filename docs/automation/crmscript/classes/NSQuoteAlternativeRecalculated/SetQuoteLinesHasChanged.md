@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteLinesHasChanged(Bool QuoteLinesHasChanged)
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetQuoteLinesHasChanged(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternativeRecalculated_SetQuoteLinesHasChanged_Bool_p_0
+description: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged(Bool p_0)
+intellisense: NSQuoteAlternativeRecalculated.SetQuoteLinesHasChanged
 keywords: SetQuoteLinesHasChanged(Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity SaveDocumentEntity(NSDocumentEntity documentEntity)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity SaveDocumentEntity(NSDocumentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SaveDocumentEntity_NSDocumentEntity_p_0
+description: NSDocumentAgent.SaveDocumentEntity(NSDocumentEntity p_0)
+intellisense: NSDocumentAgent.SaveDocumentEntity
 sortOrder: 2505
 keywords: SaveDocumentEntity(NSDocumentEntity)
+so.topic: reference
 ---
 
 

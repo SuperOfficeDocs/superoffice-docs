@@ -1,9 +1,9 @@
 ---
-title: Void RestoreConnection(Integer quoteConnectionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void RestoreConnection(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_RestoreConnection_Integer_p_0
+description: NSQuoteAgent.RestoreConnection(Integer p_0)
+intellisense: NSQuoteAgent.RestoreConnection
 keywords: RestoreConnection(Integer)
+so.topic: reference
 ---
 
 

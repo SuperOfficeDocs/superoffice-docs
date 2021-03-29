@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetCreatedDate_DateTime_p_0
+description: NSContactEntity.SetCreatedDate(DateTime p_0)
+intellisense: NSContactEntity.SetCreatedDate
 sortOrder: 1886
 keywords: SetCreatedDate(DateTime)
+so.topic: reference
 ---
 
 

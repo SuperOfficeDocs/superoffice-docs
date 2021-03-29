@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsHtml()
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Bool GetIsHtml()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText_GetIsHtml
+description: NSFieldInfoShortText.GetIsHtml()
+intellisense: NSFieldInfoShortText.GetIsHtml
 sortOrder: 3547
 keywords: GetIsHtml()
+so.topic: reference
 ---
 
 

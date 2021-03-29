@@ -1,9 +1,9 @@
 ---
-title: Void SetRepliedAt(DateTime RepliedAt)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRepliedAt(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetRepliedAt_DateTime_p_0
+description: NSTicketEntity.SetRepliedAt(DateTime p_0)
+intellisense: NSTicketEntity.SetRepliedAt
 keywords: SetRepliedAt(DateTime)
+so.topic: reference
 ---
 
 

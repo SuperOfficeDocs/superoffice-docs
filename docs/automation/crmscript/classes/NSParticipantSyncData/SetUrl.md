@@ -1,9 +1,9 @@
 ---
-title: Void SetUrl(String[] Url)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetUrl(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetUrl_String__p_0
+description: NSParticipantSyncData.SetUrl(String[] p_0)
+intellisense: NSParticipantSyncData.SetUrl
 keywords: SetUrl(String[])
+so.topic: reference
 ---
 
 

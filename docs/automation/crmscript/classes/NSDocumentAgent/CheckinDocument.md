@@ -1,10 +1,10 @@
 ---
-title: NSReturnInfo CheckinDocument(Integer documentId, String[] allowedReturnTypes, String versionDescription, String[] versionExtraFields)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSReturnInfo CheckinDocument(Integer p_0, String[] p_1, String p_2, String[] p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CheckinDocument_Integer_p_0_String__p_1_String_p_2_String__p_3
+description: NSDocumentAgent.CheckinDocument(Integer p_0, String[] p_1, String p_2, String[] p_3)
+intellisense: NSDocumentAgent.CheckinDocument
 sortOrder: 2509
 keywords: CheckinDocument(Integer,String[],String,String[])
+so.topic: reference
 ---
 
 

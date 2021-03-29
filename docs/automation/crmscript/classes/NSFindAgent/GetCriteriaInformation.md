@@ -1,10 +1,10 @@
 ---
-title: NSCriteriaInformation GetCriteriaInformation(String storageType, String providerName, String storageKey, String[] staticColumns)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSCriteriaInformation GetCriteriaInformation(String p_0, String p_1, String p_2, String[] p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetCriteriaInformation_String_p_0_String_p_1_String_p_2_String__p_3
+description: NSFindAgent.GetCriteriaInformation(String p_0, String p_1, String p_2, String[] p_3)
+intellisense: NSFindAgent.GetCriteriaInformation
 sortOrder: 3663
 keywords: GetCriteriaInformation(String,String,String,String[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSControlInfo[] GetControlInfos()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/NSControlInfo[] GetControlInfos()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetControlInfos
+description: NSFieldValueInfo.GetControlInfos()
+intellisense: NSFieldValueInfo.GetControlInfos
 sortOrder: 3622
 keywords: GetControlInfos()
+so.topic: reference
 ---
 
 

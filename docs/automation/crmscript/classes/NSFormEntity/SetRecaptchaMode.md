@@ -1,10 +1,10 @@
 ---
-title: Void SetRecaptchaMode(Integer RecaptchaMode)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetRecaptchaMode(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetRecaptchaMode_Integer_p_0
+description: NSFormEntity.SetRecaptchaMode(Integer p_0)
+intellisense: NSFormEntity.SetRecaptchaMode
 sortOrder: 3818
 keywords: SetRecaptchaMode(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSImage GetPersonImage(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSImage GetPersonImage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetPersonImage_Integer_p_0
+description: NSPersonAgent.GetPersonImage(Integer p_0)
+intellisense: NSPersonAgent.GetPersonImage
 keywords: GetPersonImage(Integer)
+so.topic: reference
 ---
 
 

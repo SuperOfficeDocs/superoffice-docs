@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsVisible()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Bool GetIsVisible()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetIsVisible
+description: NSArchiveColumnInfo.GetIsVisible()
+intellisense: NSArchiveColumnInfo.GetIsVisible
 sortOrder: 1136
 keywords: GetIsVisible()
+so.topic: reference
 ---
 
 

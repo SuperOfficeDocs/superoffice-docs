@@ -1,9 +1,9 @@
 ---
-title: Void SetCustomMailSubject(String CustomMailSubject)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetCustomMailSubject(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetCustomMailSubject_String_p_0
+description: NSMailMergeSettings.SetCustomMailSubject(String p_0)
+intellisense: NSMailMergeSettings.SetCustomMailSubject
 keywords: SetCustomMailSubject(String)
+so.topic: reference
 ---
 
 

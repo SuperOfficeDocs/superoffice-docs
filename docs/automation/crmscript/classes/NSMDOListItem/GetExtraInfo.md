@@ -1,9 +1,9 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetExtraInfo
+description: NSMDOListItem.GetExtraInfo()
+intellisense: NSMDOListItem.GetExtraInfo
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

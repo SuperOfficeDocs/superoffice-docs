@@ -1,9 +1,9 @@
 ---
-title: Void SetLostTotalBaseCurrency(Float LostTotalBaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetLostTotalBaseCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetLostTotalBaseCurrency_Float_p_0
+description: NSSaleSummary.SetLostTotalBaseCurrency(Float p_0)
+intellisense: NSSaleSummary.SetLostTotalBaseCurrency
 keywords: SetLostTotalBaseCurrency(Float)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetInterParenthesis(Integer InterParenthesis)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetInterParenthesis(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_SetInterParenthesis_Integer_p_0
+description: NSArchiveRestrictionInfo.SetInterParenthesis(Integer p_0)
+intellisense: NSArchiveRestrictionInfo.SetInterParenthesis
 sortOrder: 1229
 keywords: SetInterParenthesis(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetNumMatches()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetNumMatches()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetNumMatches
+description: NSStatusMonitor.GetNumMatches()
+intellisense: NSStatusMonitor.GetNumMatches
 keywords: GetNumMatches()
+so.topic: reference
 ---
 
 

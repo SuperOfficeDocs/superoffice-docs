@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetName
+description: NSQuoteLine.GetName()
+intellisense: NSQuoteLine.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

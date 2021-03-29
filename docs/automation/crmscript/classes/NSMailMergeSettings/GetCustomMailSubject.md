@@ -1,9 +1,9 @@
 ---
-title: String GetCustomMailSubject()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetCustomMailSubject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetCustomMailSubject
+description: NSMailMergeSettings.GetCustomMailSubject()
+intellisense: NSMailMergeSettings.GetCustomMailSubject
 keywords: GetCustomMailSubject()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSProvidedCredential
-path: /EJScript/Classes/NSProvidedCredential
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProvidedCredential
+description: NSProvidedCredential
+intellisense: Void.NSProvidedCredential
+so.topic: reference
 ---
 
 

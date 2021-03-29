@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsPerson()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Bool GetIsPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetIsPerson
+description: NSSoPrincipalCarrier.GetIsPerson()
+intellisense: NSSoPrincipalCarrier.GetIsPerson
 keywords: GetIsPerson()
+so.topic: reference
 ---
 
 

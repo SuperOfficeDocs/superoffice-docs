@@ -1,10 +1,10 @@
 ---
-title: Map GetExtraFields()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Map GetExtraFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetExtraFields
+description: NSAppointmentEntity.GetExtraFields()
+intellisense: NSAppointmentEntity.GetExtraFields
 sortOrder: 953
 keywords: GetExtraFields()
+so.topic: reference
 ---
 
 

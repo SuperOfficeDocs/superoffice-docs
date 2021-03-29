@@ -1,9 +1,9 @@
 ---
-title: Void SetUdListDefinitionId(Integer UdListDefinitionId)
-path: /EJScript/Classes/NSListItemEntity/Member functions/Void SetUdListDefinitionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListItemEntity_SetUdListDefinitionId_Integer_p_0
+description: NSListItemEntity.SetUdListDefinitionId(Integer p_0)
+intellisense: NSListItemEntity.SetUdListDefinitionId
 keywords: SetUdListDefinitionId(Integer)
+so.topic: reference
 ---
 
 

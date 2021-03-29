@@ -1,9 +1,9 @@
 ---
-title: Integer GetUserPreferenceId()
-path: /EJScript/Classes/NSPreference/Member functions/Integer GetUserPreferenceId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetUserPreferenceId
+description: NSPreference.GetUserPreferenceId()
+intellisense: NSPreference.GetUserPreferenceId
 keywords: GetUserPreferenceId()
+so.topic: reference
 ---
 
 

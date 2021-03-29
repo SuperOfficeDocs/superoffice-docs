@@ -1,10 +1,10 @@
 ---
-title: String GetAttention()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/String GetAttention()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetAttention
+description: NSDocumentEntity.GetAttention()
+intellisense: NSDocumentEntity.GetAttention
 sortOrder: 2576
 keywords: GetAttention()
+so.topic: reference
 ---
 
 

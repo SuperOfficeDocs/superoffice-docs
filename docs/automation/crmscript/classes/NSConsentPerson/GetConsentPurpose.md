@@ -1,10 +1,10 @@
 ---
-title: NSConsentPurpose GetConsentPurpose()
-path: /EJScript/Classes/NSConsentPerson/Member functions/NSConsentPurpose GetConsentPurpose()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_GetConsentPurpose
+description: NSConsentPerson.GetConsentPurpose()
+intellisense: NSConsentPerson.GetConsentPurpose
 sortOrder: 1662
 keywords: GetConsentPurpose()
+so.topic: reference
 ---
 
 

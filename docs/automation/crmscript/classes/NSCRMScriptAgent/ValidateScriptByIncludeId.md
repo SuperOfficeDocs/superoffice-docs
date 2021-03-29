@@ -1,10 +1,10 @@
 ---
-title: NSCRMScriptResult ValidateScriptByIncludeId(String cRMScriptIncludeId)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSCRMScriptResult ValidateScriptByIncludeId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_ValidateScriptByIncludeId_String_p_0
+description: NSCRMScriptAgent.ValidateScriptByIncludeId(String p_0)
+intellisense: NSCRMScriptAgent.ValidateScriptByIncludeId
 sortOrder: 2118
 keywords: ValidateScriptByIncludeId(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Map GetExtraFields()
-path: /EJScript/Classes/NSContactEntity/Member functions/Map GetExtraFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetExtraFields
+description: NSContactEntity.GetExtraFields()
+intellisense: NSContactEntity.GetExtraFields
 sortOrder: 1847
 keywords: GetExtraFields()
+so.topic: reference
 ---
 
 

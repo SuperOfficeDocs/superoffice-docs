@@ -1,10 +1,10 @@
 ---
-title: String GetRejectReason()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/String GetRejectReason()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetRejectReason
+description: NSAppointmentEntity.GetRejectReason()
+intellisense: NSAppointmentEntity.GetRejectReason
 sortOrder: 975
 keywords: GetRejectReason()
+so.topic: reference
 ---
 
 

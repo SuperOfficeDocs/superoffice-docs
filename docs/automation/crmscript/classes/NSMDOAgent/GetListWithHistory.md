@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetListWithHistory(String name, Bool forceFlatList, String additionalInfo, Integer[] historyItems, Bool onlyHistory)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSMDOListItem[] GetListWithHistory(String p_0, Bool p_1, String p_2, Integer[] p_3, Bool p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetListWithHistory_String_p_0_Bool_p_1_String_p_2_Integer__p_3_Bool_p_4
+description: NSMDOAgent.GetListWithHistory(String p_0, Bool p_1, String p_2, Integer[] p_3, Bool p_4)
+intellisense: NSMDOAgent.GetListWithHistory
 keywords: GetListWithHistory(String,Bool,String,Integer[],Bool)
+so.topic: reference
 ---
 
 

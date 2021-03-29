@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_GetName
+description: NSCurrencyEntity.GetName()
+intellisense: NSCurrencyEntity.GetName
 sortOrder: 2184
 keywords: GetName()
+so.topic: reference
 ---
 
 

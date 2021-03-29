@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetAssociateId_Integer_p_0
+description: NSSale.SetAssociateId(Integer p_0)
+intellisense: NSSale.SetAssociateId
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

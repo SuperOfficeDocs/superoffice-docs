@@ -1,9 +1,9 @@
 ---
-title: Void SetRealTimeToClose(Integer RealTimeToClose)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetRealTimeToClose(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetRealTimeToClose_Integer_p_0
+description: NSTicket.SetRealTimeToClose(Integer p_0)
+intellisense: NSTicket.SetRealTimeToClose
 keywords: SetRealTimeToClose(Integer)
+so.topic: reference
 ---
 
 

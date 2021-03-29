@@ -1,10 +1,10 @@
 ---
-title: Void setName(String p0)
-path: /EJScript/Classes/MacroReturnValue/Member functions/Void setName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroReturnValue_setName_String_p_0
+description: MacroReturnValue.setName(String p_0)
+intellisense: MacroReturnValue.setName
 sortOrder: 501
 keywords: setName(String)
+so.topic: reference
 ---
 
 

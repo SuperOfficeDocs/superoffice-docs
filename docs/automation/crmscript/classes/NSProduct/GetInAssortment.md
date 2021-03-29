@@ -1,9 +1,9 @@
 ---
-title: Bool GetInAssortment()
-path: /EJScript/Classes/NSProduct/Member functions/Bool GetInAssortment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetInAssortment
+description: NSProduct.GetInAssortment()
+intellisense: NSProduct.GetInAssortment
 keywords: GetInAssortment()
+so.topic: reference
 ---
 
 

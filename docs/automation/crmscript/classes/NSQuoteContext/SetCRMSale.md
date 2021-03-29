@@ -1,9 +1,9 @@
 ---
-title: Void SetCRMSale(NSSale CRMSale)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMSale(NSSale p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_SetCRMSale_NSSale_p_0
+description: NSQuoteContext.SetCRMSale(NSSale p_0)
+intellisense: NSQuoteContext.SetCRMSale
 keywords: SetCRMSale(NSSale)
+so.topic: reference
 ---
 
 

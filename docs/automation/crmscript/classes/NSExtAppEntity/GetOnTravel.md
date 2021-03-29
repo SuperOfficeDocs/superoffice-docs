@@ -1,10 +1,10 @@
 ---
-title: Bool GetOnTravel()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetOnTravel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetOnTravel
+description: NSExtAppEntity.GetOnTravel()
+intellisense: NSExtAppEntity.GetOnTravel
 sortOrder: 3361
 keywords: GetOnTravel()
+so.topic: reference
 ---
 
 

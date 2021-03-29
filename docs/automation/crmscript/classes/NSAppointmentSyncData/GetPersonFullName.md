@@ -1,10 +1,10 @@
 ---
-title: String GetPersonFullName()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetPersonFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetPersonFullName
+description: NSAppointmentSyncData.GetPersonFullName()
+intellisense: NSAppointmentSyncData.GetPersonFullName
 sortOrder: 1062
 keywords: GetPersonFullName()
+so.topic: reference
 ---
 
 

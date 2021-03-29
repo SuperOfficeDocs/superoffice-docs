@@ -1,10 +1,10 @@
 ---
-title: NSCheckoutInfo GetCheckoutState(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSCheckoutInfo GetCheckoutState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetCheckoutState_Integer_p_0
+description: NSDocumentAgent.GetCheckoutState(Integer p_0)
+intellisense: NSDocumentAgent.GetCheckoutState
 sortOrder: 2468
 keywords: GetCheckoutState(Integer)
+so.topic: reference
 ---
 
 

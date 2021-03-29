@@ -1,9 +1,9 @@
 ---
-title: NSContactSummary
-path: /EJScript/Classes/NSContactSummary
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactSummary
+description: NSContactSummary
+intellisense: Void.NSContactSummary
 sortOrder: 1980
+so.topic: reference
 ---
 
 

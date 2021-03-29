@@ -1,9 +1,9 @@
 ---
-title: Email
-path: /EJScript/Classes/Email
-intellisense: 1
-classref: 1
+title: crmscript_ref_Email
+description: Email
+intellisense: Void.Email
 sortOrder: 280
+so.topic: reference
 ---
 
 Class for representing and sending emails.

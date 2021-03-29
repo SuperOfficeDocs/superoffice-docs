@@ -1,10 +1,10 @@
 ---
-title: NSContactEntity GetContactWithPersons(Integer contactId)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactEntity GetContactWithPersons(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetContactWithPersons_Integer_p_0
+description: NSContactAgent.GetContactWithPersons(Integer p_0)
+intellisense: NSContactAgent.GetContactWithPersons
 sortOrder: 1811
 keywords: GetContactWithPersons(Integer)
+so.topic: reference
 ---
 
 

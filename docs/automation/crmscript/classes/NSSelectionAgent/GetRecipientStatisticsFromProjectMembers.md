@@ -1,9 +1,9 @@
 ---
-title: NSRecipientStatistics GetRecipientStatisticsFromProjectMembers(Integer projectId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSRecipientStatistics GetRecipientStatisticsFromProjectMembers(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetRecipientStatisticsFromProjectMembers_Integer_p_0
+description: NSSelectionAgent.GetRecipientStatisticsFromProjectMembers(Integer p_0)
+intellisense: NSSelectionAgent.GetRecipientStatisticsFromProjectMembers
 keywords: GetRecipientStatisticsFromProjectMembers(Integer)
+so.topic: reference
 ---
 
 

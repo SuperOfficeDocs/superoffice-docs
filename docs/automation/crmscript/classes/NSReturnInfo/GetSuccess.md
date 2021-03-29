@@ -1,9 +1,9 @@
 ---
-title: Bool GetSuccess()
-path: /EJScript/Classes/NSReturnInfo/Member functions/Bool GetSuccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReturnInfo_GetSuccess
+description: NSReturnInfo.GetSuccess()
+intellisense: NSReturnInfo.GetSuccess
 keywords: GetSuccess()
+so.topic: reference
 ---
 
 

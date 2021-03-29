@@ -1,10 +1,10 @@
 ---
-title: Void SetShowInSearch(Bool ShowInSearch)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetShowInSearch(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetShowInSearch_Bool_p_0
+description: NSErpSyncFieldMapping.SetShowInSearch(Bool p_0)
+intellisense: NSErpSyncFieldMapping.SetShowInSearch
 sortOrder: 3320
 keywords: SetShowInSearch(Bool)
+so.topic: reference
 ---
 
 

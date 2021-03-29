@@ -1,9 +1,9 @@
 ---
-title: Integer GetOrientation()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetOrientation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetOrientation
+description: NSReportLabelLayoutEntity.GetOrientation()
+intellisense: NSReportLabelLayoutEntity.GetOrientation
 keywords: GetOrientation()
+so.topic: reference
 ---
 
 

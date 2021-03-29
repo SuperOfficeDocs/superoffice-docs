@@ -1,9 +1,9 @@
 ---
-title: Bool GetOnSattelite()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnSattelite()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetOnSattelite
+description: NSWebPanelEntity.GetOnSattelite()
+intellisense: NSWebPanelEntity.GetOnSattelite
 keywords: GetOnSattelite()
+so.topic: reference
 ---
 
 

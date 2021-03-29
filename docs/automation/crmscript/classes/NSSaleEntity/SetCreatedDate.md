@@ -1,9 +1,9 @@
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetCreatedDate_DateTime_p_0
+description: NSSaleEntity.SetCreatedDate(DateTime p_0)
+intellisense: NSSaleEntity.SetCreatedDate
 keywords: SetCreatedDate(DateTime)
+so.topic: reference
 ---
 
 

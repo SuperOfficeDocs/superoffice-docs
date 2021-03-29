@@ -1,9 +1,9 @@
 ---
-title: Void SetIsConflict(Bool p0)
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/Void SetIsConflict(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceDate_SetIsConflict_Bool_p_0
+description: NSRecurrenceDate.SetIsConflict(Bool p_0)
+intellisense: NSRecurrenceDate.SetIsConflict
 keywords: SetIsConflict(Bool)
+so.topic: reference
 ---
 
 

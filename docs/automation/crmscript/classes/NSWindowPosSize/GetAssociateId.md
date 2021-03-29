@@ -1,9 +1,9 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetAssociateId
+description: NSWindowPosSize.GetAssociateId()
+intellisense: NSWindowPosSize.GetAssociateId
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

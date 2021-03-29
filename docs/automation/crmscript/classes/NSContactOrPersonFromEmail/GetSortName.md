@@ -1,10 +1,10 @@
 ---
-title: String GetSortName()
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/String GetSortName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactOrPersonFromEmail_GetSortName
+description: NSContactOrPersonFromEmail.GetSortName()
+intellisense: NSContactOrPersonFromEmail.GetSortName
 sortOrder: 1927
 keywords: GetSortName()
+so.topic: reference
 ---
 
 

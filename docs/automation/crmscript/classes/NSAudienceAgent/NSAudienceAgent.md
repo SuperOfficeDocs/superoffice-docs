@@ -1,9 +1,9 @@
 ---
-title: NSAudienceAgent
-path: /EJScript/Classes/NSAudienceAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent
+description: NSAudienceAgent
+intellisense: Void.NSAudienceAgent
 sortOrder: 1288
+so.topic: reference
 ---
 
 

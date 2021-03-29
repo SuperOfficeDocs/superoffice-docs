@@ -1,9 +1,9 @@
 ---
-title: NSListEntity SaveListEntity(NSListEntity listEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity SaveListEntity(NSListEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveListEntity_NSListEntity_p_0
+description: NSListAgent.SaveListEntity(NSListEntity p_0)
+intellisense: NSListAgent.SaveListEntity
 keywords: SaveListEntity(NSListEntity)
+so.topic: reference
 ---
 
 

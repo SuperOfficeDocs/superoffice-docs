@@ -1,10 +1,10 @@
 ---
-title: NSEntityName[] GetRowsInfo()
-path: /EJScript/Classes/NSDataRights/Member functions/NSEntityName[] GetRowsInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDataRights_GetRowsInfo
+description: NSDataRights.GetRowsInfo()
+intellisense: NSDataRights.GetRowsInfo
 sortOrder: 2351
 keywords: GetRowsInfo()
+so.topic: reference
 ---
 
 

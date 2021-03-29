@@ -1,9 +1,9 @@
 ---
-title: String keepChars(String charsToKeep)
-path: /EJScript/Classes/String/Member functions/String keepChars(String charsToKeep)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_keepChars_String_charsToKeep
+description: String.keepChars(String charsToKeep)
+intellisense: String.keepChars
 keywords: keepChars(String)
+so.topic: reference
 ---
 
 

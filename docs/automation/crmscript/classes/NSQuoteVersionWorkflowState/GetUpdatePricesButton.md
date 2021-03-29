@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionButtonState GetUpdatePricesButton()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionButtonState GetUpdatePricesButton()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_GetUpdatePricesButton
+description: NSQuoteVersionWorkflowState.GetUpdatePricesButton()
+intellisense: NSQuoteVersionWorkflowState.GetUpdatePricesButton
 keywords: GetUpdatePricesButton()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetIsSystemTask(Bool IsSystemTask)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetIsSystemTask(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetIsSystemTask_Bool_p_0
+description: NSBatchTaskInfo.SetIsSystemTask(Bool p_0)
+intellisense: NSBatchTaskInfo.SetIsSystemTask
 sortOrder: 1394
 keywords: SetIsSystemTask(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void RemoveLicenses(Integer p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void RemoveLicenses(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_RemoveLicenses_Integer_p_0
+description: NSUserAgent.RemoveLicenses(Integer p_0)
+intellisense: NSUserAgent.RemoveLicenses
 keywords: RemoveLicenses(Integer)
+so.topic: reference
 ---
 
 

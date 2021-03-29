@@ -1,9 +1,9 @@
 ---
-title: String GetUniqueId()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetUniqueId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_GetUniqueId
+description: NSPhoneListItem.GetUniqueId()
+intellisense: NSPhoneListItem.GetUniqueId
 keywords: GetUniqueId()
+so.topic: reference
 ---
 
 

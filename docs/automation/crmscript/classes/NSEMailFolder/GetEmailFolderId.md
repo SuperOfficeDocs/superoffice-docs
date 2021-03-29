@@ -1,10 +1,10 @@
 ---
-title: Integer GetEmailFolderId()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Integer GetEmailFolderId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_GetEmailFolderId
+description: NSEMailFolder.GetEmailFolderId()
+intellisense: NSEMailFolder.GetEmailFolderId
 sortOrder: 3029
 keywords: GetEmailFolderId()
+so.topic: reference
 ---
 
 

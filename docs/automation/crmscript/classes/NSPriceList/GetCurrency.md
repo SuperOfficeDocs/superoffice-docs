@@ -1,9 +1,9 @@
 ---
-title: String GetCurrency()
-path: /EJScript/Classes/NSPriceList/Member functions/String GetCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_GetCurrency
+description: NSPriceList.GetCurrency()
+intellisense: NSPriceList.GetCurrency
 keywords: GetCurrency()
+so.topic: reference
 ---
 
 

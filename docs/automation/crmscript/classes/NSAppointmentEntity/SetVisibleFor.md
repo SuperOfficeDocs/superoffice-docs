@@ -1,10 +1,10 @@
 ---
-title: Void SetVisibleFor(VisibleFor[] fields)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetVisibleFor(VisibleFor[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetVisibleFor_VisibleFor__p_0
+description: NSAppointmentEntity.SetVisibleFor(VisibleFor[] p_0)
+intellisense: NSAppointmentEntity.SetVisibleFor
 sortOrder: 1037
 keywords: SetVisibleFor(VisibleFor[])
+so.topic: reference
 ---
 
 

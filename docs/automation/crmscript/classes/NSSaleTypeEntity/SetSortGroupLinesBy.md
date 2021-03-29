@@ -1,9 +1,9 @@
 ---
-title: Void SetSortGroupLinesBy(Integer SortGroupLinesBy)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetSortGroupLinesBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetSortGroupLinesBy_Integer_p_0
+description: NSSaleTypeEntity.SetSortGroupLinesBy(Integer p_0)
+intellisense: NSSaleTypeEntity.SetSortGroupLinesBy
 keywords: SetSortGroupLinesBy(Integer)
+so.topic: reference
 ---
 
 

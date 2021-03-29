@@ -1,10 +1,10 @@
 ---
-title: Void next()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Void next()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraFieldsInfo_next
+description: ExtraFieldsInfo.next()
+intellisense: ExtraFieldsInfo.next
 sortOrder: 315
 keywords: next()
+so.topic: reference
 ---
 
 This function moves to the next field in the result.

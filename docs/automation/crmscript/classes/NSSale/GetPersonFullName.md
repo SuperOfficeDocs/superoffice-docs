@@ -1,9 +1,9 @@
 ---
-title: String GetPersonFullName()
-path: /EJScript/Classes/NSSale/Member functions/String GetPersonFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetPersonFullName
+description: NSSale.GetPersonFullName()
+intellisense: NSSale.GetPersonFullName
 keywords: GetPersonFullName()
+so.topic: reference
 ---
 
 

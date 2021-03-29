@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetProjectId_Integer_p_0
+description: NSProjectEventEntity.SetProjectId(Integer p_0)
+intellisense: NSProjectEventEntity.SetProjectId
 keywords: SetProjectId(Integer)
+so.topic: reference
 ---
 
 

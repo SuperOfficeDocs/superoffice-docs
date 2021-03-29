@@ -1,9 +1,9 @@
 ---
-title: NSFormSubmissionEntity SaveFormSubmissionEntity(NSFormSubmissionEntity formSubmissionEntity)
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity SaveFormSubmissionEntity(NSFormSubmissionEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent_SaveFormSubmissionEntity_NSFormSubmissionEntity_p_0
+description: NSMarketingAgent.SaveFormSubmissionEntity(NSFormSubmissionEntity p_0)
+intellisense: NSMarketingAgent.SaveFormSubmissionEntity
 keywords: SaveFormSubmissionEntity(NSFormSubmissionEntity)
+so.topic: reference
 ---
 
 

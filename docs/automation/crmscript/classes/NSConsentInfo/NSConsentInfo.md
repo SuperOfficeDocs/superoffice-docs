@@ -1,9 +1,9 @@
 ---
-title: NSConsentInfo
-path: /EJScript/Classes/NSConsentInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo
+description: NSConsentInfo
+intellisense: Void.NSConsentInfo
 sortOrder: 1626
+so.topic: reference
 ---
 
 

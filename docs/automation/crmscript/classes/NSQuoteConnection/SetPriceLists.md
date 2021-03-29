@@ -1,9 +1,9 @@
 ---
-title: Void SetPriceLists(NSPriceList[] PriceLists)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetPriceLists(NSPriceList[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetPriceLists_NSPriceList__p_0
+description: NSQuoteConnection.SetPriceLists(NSPriceList[] p_0)
+intellisense: NSQuoteConnection.SetPriceLists
 keywords: SetPriceLists(NSPriceList[])
+so.topic: reference
 ---
 
 

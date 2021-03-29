@@ -1,9 +1,9 @@
 ---
-title: Void SetRule(String Rule)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetRule(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetRule_String_p_0
+description: NSProduct.SetRule(String p_0)
+intellisense: NSProduct.SetRule
 keywords: SetRule(String)
+so.topic: reference
 ---
 
 

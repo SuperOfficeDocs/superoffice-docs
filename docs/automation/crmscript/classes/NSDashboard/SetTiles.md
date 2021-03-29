@@ -1,10 +1,10 @@
 ---
-title: Void SetTiles(NSDashboardTile[] Tiles)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetTiles(NSDashboardTile[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboard_SetTiles_NSDashboardTile__p_0
+description: NSDashboard.SetTiles(NSDashboardTile[] p_0)
+intellisense: NSDashboard.SetTiles
 sortOrder: 2269
 keywords: SetTiles(NSDashboardTile[])
+so.topic: reference
 ---
 
 

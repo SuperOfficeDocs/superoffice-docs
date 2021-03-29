@@ -1,10 +1,10 @@
 ---
-title: NSPerson GetPerson()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSPerson GetPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetPerson
+description: NSAppointmentEntity.GetPerson()
+intellisense: NSAppointmentEntity.GetPerson
 sortOrder: 967
 keywords: GetPerson()
+so.topic: reference
 ---
 
 

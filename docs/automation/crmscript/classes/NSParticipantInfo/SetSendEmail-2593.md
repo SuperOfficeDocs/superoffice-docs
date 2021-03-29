@@ -1,9 +1,9 @@
 ---
-title: Void SetSendEmail(Boolean p0)
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Void SetSendEmail(Boolean p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo_SetSendEmail_Boolean_p_0
+description: NSParticipantInfo.SetSendEmail(Boolean p_0)
+intellisense: NSParticipantInfo.SetSendEmail
 keywords: SetSendEmail(Boolean)
+so.topic: reference
 ---
 
 

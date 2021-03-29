@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityEntity[] GetAllTicketPriorities(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriorityEntity[] GetAllTicketPriorities(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAllTicketPriorities_Bool_p_0
+description: NSListAgent.GetAllTicketPriorities(Bool p_0)
+intellisense: NSListAgent.GetAllTicketPriorities
 keywords: GetAllTicketPriorities(Bool)
+so.topic: reference
 ---
 
 

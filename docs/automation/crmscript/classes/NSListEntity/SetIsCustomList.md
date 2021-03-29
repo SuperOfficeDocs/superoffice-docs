@@ -1,9 +1,9 @@
 ---
-title: Void SetIsCustomList(Bool IsCustomList)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetIsCustomList(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_SetIsCustomList_Bool_p_0
+description: NSListEntity.SetIsCustomList(Bool p_0)
+intellisense: NSListEntity.SetIsCustomList
 keywords: SetIsCustomList(Bool)
+so.topic: reference
 ---
 
 

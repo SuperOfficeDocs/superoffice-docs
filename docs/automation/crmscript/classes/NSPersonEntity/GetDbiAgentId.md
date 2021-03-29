@@ -1,9 +1,9 @@
 ---
-title: Integer GetDbiAgentId()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetDbiAgentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetDbiAgentId
+description: NSPersonEntity.GetDbiAgentId()
+intellisense: NSPersonEntity.GetDbiAgentId
 keywords: GetDbiAgentId()
+so.topic: reference
 ---
 
 

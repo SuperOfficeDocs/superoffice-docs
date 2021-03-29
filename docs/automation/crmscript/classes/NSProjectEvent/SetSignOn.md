@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOn(Bool SignOn)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOn(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetSignOn_Bool_p_0
+description: NSProjectEvent.SetSignOn(Bool p_0)
+intellisense: NSProjectEvent.SetSignOn
 keywords: SetSignOn(Bool)
+so.topic: reference
 ---
 
 

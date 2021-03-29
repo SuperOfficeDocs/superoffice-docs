@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetAssociateId
+description: NSDashboardTile.GetAssociateId()
+intellisense: NSDashboardTile.GetAssociateId
 sortOrder: 2289
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

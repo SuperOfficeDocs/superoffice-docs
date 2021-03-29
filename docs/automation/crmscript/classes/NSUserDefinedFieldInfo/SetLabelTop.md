@@ -1,9 +1,9 @@
 ---
-title: Void SetLabelTop(Integer LabelTop)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelTop(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelTop_Integer_p_0
+description: NSUserDefinedFieldInfo.SetLabelTop(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetLabelTop
 keywords: SetLabelTop(Integer)
+so.topic: reference
 ---
 
 

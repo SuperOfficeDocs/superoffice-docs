@@ -1,8 +1,8 @@
 ---
-title: NSTask
-path: /EJScript/Classes/NSTask
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTask
+description: NSTask
+intellisense: Void.NSTask
+so.topic: reference
 ---
 
 

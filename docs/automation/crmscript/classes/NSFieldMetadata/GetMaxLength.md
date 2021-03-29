@@ -1,10 +1,10 @@
 ---
-title: Integer GetMaxLength()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Integer GetMaxLength()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetMaxLength
+description: NSFieldMetadata.GetMaxLength()
+intellisense: NSFieldMetadata.GetMaxLength
 sortOrder: 3578
 keywords: GetMaxLength()
+so.topic: reference
 ---
 
 

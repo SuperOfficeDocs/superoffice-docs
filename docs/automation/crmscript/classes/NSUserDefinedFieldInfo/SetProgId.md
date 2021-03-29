@@ -1,9 +1,9 @@
 ---
-title: Void SetProgId(String ProgId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetProgId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetProgId_String_p_0
+description: NSUserDefinedFieldInfo.SetProgId(String p_0)
+intellisense: NSUserDefinedFieldInfo.SetProgId
 keywords: SetProgId(String)
+so.topic: reference
 ---
 
 

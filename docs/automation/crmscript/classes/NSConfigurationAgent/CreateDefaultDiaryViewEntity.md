@@ -1,10 +1,10 @@
 ---
-title: NSDiaryViewEntity CreateDefaultDiaryViewEntity()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSDiaryViewEntity CreateDefaultDiaryViewEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_CreateDefaultDiaryViewEntity
+description: NSConfigurationAgent.CreateDefaultDiaryViewEntity()
+intellisense: NSConfigurationAgent.CreateDefaultDiaryViewEntity
 sortOrder: 1590
 keywords: CreateDefaultDiaryViewEntity()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetDuplicateRulesStatus(NSDuplicateRule[] rules)
-path: /EJScript/Classes/NSContactAgent/Member functions/Void SetDuplicateRulesStatus(NSDuplicateRule[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_SetDuplicateRulesStatus_NSDuplicateRule__p_0
+description: NSContactAgent.SetDuplicateRulesStatus(NSDuplicateRule[] p_0)
+intellisense: NSContactAgent.SetDuplicateRulesStatus
 sortOrder: 1828
 keywords: SetDuplicateRulesStatus(NSDuplicateRule[])
+so.topic: reference
 ---
 
 

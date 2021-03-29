@@ -1,9 +1,9 @@
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSOperationInfo/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOperationInfo_SetKey_String_p_0
+description: NSOperationInfo.SetKey(String p_0)
+intellisense: NSOperationInfo.SetKey
 keywords: SetKey(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SaveRestrictionGroup(String storageType, String providerName, String storageKey, NSArchiveRestrictionGroup restrictionGroup, String context)
-path: /EJScript/Classes/NSFindAgent/Member functions/Void SaveRestrictionGroup(String p_0, String p_1, String p_2, NSArchiveRestrictionGroup p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_SaveRestrictionGroup_String_p_0_String_p_1_String_p_2_NSArchiveRestrictionGroup_p_3_String_p_4
+description: NSFindAgent.SaveRestrictionGroup(String p_0, String p_1, String p_2, NSArchiveRestrictionGroup p_3, String p_4)
+intellisense: NSFindAgent.SaveRestrictionGroup
 sortOrder: 3683
 keywords: SaveRestrictionGroup(String,String,String,NSArchiveRestrictionGroup,String)
+so.topic: reference
 ---
 
 

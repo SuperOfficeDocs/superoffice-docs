@@ -1,10 +1,10 @@
 ---
-title: Void SetDestinationPersonName(String DestinationPersonName)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetDestinationPersonName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetDestinationPersonName_String_p_0
+description: NSContactRelationEntity.SetDestinationPersonName(String p_0)
+intellisense: NSContactRelationEntity.SetDestinationPersonName
 sortOrder: 1969
 keywords: SetDestinationPersonName(String)
+so.topic: reference
 ---
 
 

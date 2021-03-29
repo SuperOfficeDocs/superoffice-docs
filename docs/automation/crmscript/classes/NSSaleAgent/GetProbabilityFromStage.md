@@ -1,9 +1,9 @@
 ---
-title: Integer GetProbabilityFromStage(Integer stageId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Integer GetProbabilityFromStage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetProbabilityFromStage_Integer_p_0
+description: NSSaleAgent.GetProbabilityFromStage(Integer p_0)
+intellisense: NSSaleAgent.GetProbabilityFromStage
 keywords: GetProbabilityFromStage(Integer)
+so.topic: reference
 ---
 
 

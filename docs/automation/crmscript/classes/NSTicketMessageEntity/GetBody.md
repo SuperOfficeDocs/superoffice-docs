@@ -1,9 +1,9 @@
 ---
-title: String GetBody()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetBody()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetBody
+description: NSTicketMessageEntity.GetBody()
+intellisense: NSTicketMessageEntity.GetBody
 keywords: GetBody()
+so.topic: reference
 ---
 
 

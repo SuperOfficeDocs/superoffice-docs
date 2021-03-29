@@ -1,9 +1,9 @@
 ---
-title: Void SetImageDescription(String ImageDescription)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetImageDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetImageDescription_String_p_0
+description: NSProjectEntity.SetImageDescription(String p_0)
+intellisense: NSProjectEntity.SetImageDescription
 keywords: SetImageDescription(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetDomesticAddressLayoutId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetDomesticAddressLayoutId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetDomesticAddressLayoutId
+description: NSCountry.GetDomesticAddressLayoutId()
+intellisense: NSCountry.GetDomesticAddressLayoutId
 sortOrder: 2016
 keywords: GetDomesticAddressLayoutId()
+so.topic: reference
 ---
 
 

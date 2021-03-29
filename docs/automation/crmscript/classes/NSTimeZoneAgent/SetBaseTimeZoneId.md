@@ -1,9 +1,9 @@
 ---
-title: Bool SetBaseTimeZoneId(Integer timezoneId)
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Bool SetBaseTimeZoneId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_SetBaseTimeZoneId_Integer_p_0
+description: NSTimeZoneAgent.SetBaseTimeZoneId(Integer p_0)
+intellisense: NSTimeZoneAgent.SetBaseTimeZoneId
 keywords: SetBaseTimeZoneId(Integer)
+so.topic: reference
 ---
 
 

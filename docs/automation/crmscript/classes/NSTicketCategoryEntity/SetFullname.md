@@ -1,9 +1,9 @@
 ---
-title: Void SetFullname(String Fullname)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetFullname(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetFullname_String_p_0
+description: NSTicketCategoryEntity.SetFullname(String p_0)
+intellisense: NSTicketCategoryEntity.SetFullname
 keywords: SetFullname(String)
+so.topic: reference
 ---
 
 

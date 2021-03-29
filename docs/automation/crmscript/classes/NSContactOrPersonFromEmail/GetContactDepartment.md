@@ -1,10 +1,10 @@
 ---
-title: String GetContactDepartment()
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/String GetContactDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactOrPersonFromEmail_GetContactDepartment
+description: NSContactOrPersonFromEmail.GetContactDepartment()
+intellisense: NSContactOrPersonFromEmail.GetContactDepartment
 sortOrder: 1923
 keywords: GetContactDepartment()
+so.topic: reference
 ---
 
 

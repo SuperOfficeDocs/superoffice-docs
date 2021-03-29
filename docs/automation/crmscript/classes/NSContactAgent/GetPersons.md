@@ -1,10 +1,10 @@
 ---
-title: NSPerson[] GetPersons(Integer p0)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSPerson[] GetPersons(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetPersons_Integer_p_0
+description: NSContactAgent.GetPersons(Integer p_0)
+intellisense: NSContactAgent.GetPersons
 sortOrder: 1822
 keywords: GetPersons(Integer)
+so.topic: reference
 ---
 
 

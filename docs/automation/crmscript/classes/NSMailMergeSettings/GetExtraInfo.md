@@ -1,9 +1,9 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetExtraInfo
+description: NSMailMergeSettings.GetExtraInfo()
+intellisense: NSMailMergeSettings.GetExtraInfo
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

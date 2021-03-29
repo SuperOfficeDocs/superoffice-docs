@@ -1,9 +1,9 @@
 ---
-title: String stripLeading(String characters)
-path: /EJScript/Classes/String/Member functions/String stripLeading(String characters)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_stripLeading_String_characters
+description: String.stripLeading(String characters)
+intellisense: String.stripLeading
 keywords: stripLeading(String)
+so.topic: reference
 ---
 
 

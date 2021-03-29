@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersion GetActiveQuoteVersion()
-path: /EJScript/Classes/NSQuote/Member functions/NSQuoteVersion GetActiveQuoteVersion()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetActiveQuoteVersion
+description: NSQuote.GetActiveQuoteVersion()
+intellisense: NSQuote.GetActiveQuoteVersion
 keywords: GetActiveQuoteVersion()
+so.topic: reference
 ---
 
 

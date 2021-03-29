@@ -1,9 +1,9 @@
 ---
-title: NSCustomerServiceAgent
-path: /EJScript/Classes/NSCustomerServiceAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent
+description: NSCustomerServiceAgent
+intellisense: Void.NSCustomerServiceAgent
 sortOrder: 2219
+so.topic: reference
 ---
 
 

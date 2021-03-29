@@ -1,9 +1,9 @@
 ---
-title: NSCRMScriptEntity
-path: /EJScript/Classes/NSCRMScriptEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity
+description: NSCRMScriptEntity
+intellisense: Void.NSCRMScriptEntity
 sortOrder: 2125
+so.topic: reference
 ---
 
 

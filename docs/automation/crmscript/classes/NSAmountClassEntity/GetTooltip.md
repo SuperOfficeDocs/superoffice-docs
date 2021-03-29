@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_GetTooltip
+description: NSAmountClassEntity.GetTooltip()
+intellisense: NSAmountClassEntity.GetTooltip
 sortOrder: 702
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

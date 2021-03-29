@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboard_SetAssociateId_Integer_p_0
+description: NSDashboard.SetAssociateId(Integer p_0)
+intellisense: NSDashboard.SetAssociateId
 sortOrder: 2265
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

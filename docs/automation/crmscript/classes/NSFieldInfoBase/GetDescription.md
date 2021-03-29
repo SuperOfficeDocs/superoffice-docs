@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetDescription
+description: NSFieldInfoBase.GetDescription()
+intellisense: NSFieldInfoBase.GetDescription
 sortOrder: 3469
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

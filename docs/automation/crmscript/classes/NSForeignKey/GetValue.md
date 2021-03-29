@@ -1,10 +1,10 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSForeignKey/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_GetValue
+description: NSForeignKey.GetValue()
+intellisense: NSForeignKey.GetValue
 sortOrder: 3741
 keywords: GetValue()
+so.topic: reference
 ---
 
 

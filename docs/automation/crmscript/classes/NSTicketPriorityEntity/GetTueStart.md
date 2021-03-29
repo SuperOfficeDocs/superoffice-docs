@@ -1,9 +1,9 @@
 ---
-title: DateTime GetTueStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetTueStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetTueStart
+description: NSTicketPriorityEntity.GetTueStart()
+intellisense: NSTicketPriorityEntity.GetTueStart
 keywords: GetTueStart()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTooltipText(String TooltipText)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetTooltipText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_SetTooltipText_String_p_0
+description: NSQuoteVersionButtonState.SetTooltipText(String p_0)
+intellisense: NSQuoteVersionButtonState.SetTooltipText
 keywords: SetTooltipText(String)
+so.topic: reference
 ---
 
 

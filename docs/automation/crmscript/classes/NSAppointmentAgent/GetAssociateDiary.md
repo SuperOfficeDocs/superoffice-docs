@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetAssociateDiary(Integer p0, DateTime p1, DateTime p2, Integer p3)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetAssociateDiary(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetAssociateDiary_Integer_p_0_DateTime_p_1_DateTime_p_2_Integer_p_3
+description: NSAppointmentAgent.GetAssociateDiary(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3)
+intellisense: NSAppointmentAgent.GetAssociateDiary
 sortOrder: 840
 keywords: GetAssociateDiary(Integer,DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

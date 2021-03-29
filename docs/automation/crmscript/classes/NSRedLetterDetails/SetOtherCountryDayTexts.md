@@ -1,9 +1,9 @@
 ---
-title: Void SetOtherCountryDayTexts(String[] OtherCountryDayTexts)
-path: /EJScript/Classes/NSRedLetterDetails/Member functions/Void SetOtherCountryDayTexts(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterDetails_SetOtherCountryDayTexts_String__p_0
+description: NSRedLetterDetails.SetOtherCountryDayTexts(String[] p_0)
+intellisense: NSRedLetterDetails.SetOtherCountryDayTexts
 keywords: SetOtherCountryDayTexts(String[])
+so.topic: reference
 ---
 
 

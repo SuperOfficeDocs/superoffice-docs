@@ -1,9 +1,9 @@
 ---
-title: Void SetEarningAmount(Float EarningAmount)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetEarningAmount(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetEarningAmount_Float_p_0
+description: NSQuoteAlternative.SetEarningAmount(Float p_0)
+intellisense: NSQuoteAlternative.SetEarningAmount
 keywords: SetEarningAmount(Float)
+so.topic: reference
 ---
 
 

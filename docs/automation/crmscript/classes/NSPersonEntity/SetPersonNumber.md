@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonNumber(String PersonNumber)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetPersonNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetPersonNumber_String_p_0
+description: NSPersonEntity.SetPersonNumber(String p_0)
+intellisense: NSPersonEntity.SetPersonNumber
 keywords: SetPersonNumber(String)
+so.topic: reference
 ---
 
 

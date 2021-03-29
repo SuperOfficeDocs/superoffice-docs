@@ -1,10 +1,10 @@
 ---
-title: Integer GetUserId()
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Integer GetUserId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsSessionKey_GetUserId
+description: NSCsSessionKey.GetUserId()
+intellisense: NSCsSessionKey.GetUserId
 sortOrder: 2164
 keywords: GetUserId()
+so.topic: reference
 ---
 
 

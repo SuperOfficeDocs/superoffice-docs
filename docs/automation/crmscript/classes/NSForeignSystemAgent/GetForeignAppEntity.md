@@ -1,10 +1,10 @@
 ---
-title: NSForeignAppEntity GetForeignAppEntity(Integer foreignAppEntityId)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignAppEntity GetForeignAppEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetForeignAppEntity_Integer_p_0
+description: NSForeignSystemAgent.GetForeignAppEntity(Integer p_0)
+intellisense: NSForeignSystemAgent.GetForeignAppEntity
 sortOrder: 3754
 keywords: GetForeignAppEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetValues(String[] Values)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetValues(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_SetValues_String__p_0
+description: NSArchiveRestrictionInfo.SetValues(String[] p_0)
+intellisense: NSArchiveRestrictionInfo.SetValues
 sortOrder: 1237
 keywords: SetValues(String[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetUpdatedBy
+description: NSAppointmentEntity.GetUpdatedBy()
+intellisense: NSAppointmentEntity.GetUpdatedBy
 sortOrder: 960
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetListLeadText(String ListLeadText)
-path: /EJScript/Classes/NSControlInfo/Member functions/Void SetListLeadText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_SetListLeadText_String_p_0
+description: NSControlInfo.SetListLeadText(String p_0)
+intellisense: NSControlInfo.SetListLeadText
 sortOrder: 2005
 keywords: SetListLeadText(String)
+so.topic: reference
 ---
 
 

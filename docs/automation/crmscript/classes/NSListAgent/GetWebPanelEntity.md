@@ -1,9 +1,9 @@
 ---
-title: NSWebPanelEntity GetWebPanelEntity(Integer webPanelEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity GetWebPanelEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetWebPanelEntity_Integer_p_0
+description: NSListAgent.GetWebPanelEntity(Integer p_0)
+intellisense: NSListAgent.GetWebPanelEntity
 keywords: GetWebPanelEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetRecordId(Integer RecordId)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetRecordId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetRecordId_Integer_p_0
+description: NSPocketNotificationMessage.SetRecordId(Integer p_0)
+intellisense: NSPocketNotificationMessage.SetRecordId
 keywords: SetRecordId(Integer)
+so.topic: reference
 ---
 
 

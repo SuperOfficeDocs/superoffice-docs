@@ -1,9 +1,9 @@
 ---
-title: String GetTechExplanation()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetTechExplanation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginUrlResponse_GetTechExplanation
+description: NSPluginUrlResponse.GetTechExplanation()
+intellisense: NSPluginUrlResponse.GetTechExplanation
 keywords: GetTechExplanation()
+so.topic: reference
 ---
 
 

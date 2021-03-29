@@ -1,9 +1,9 @@
 ---
-title: NSSaleStageEntity GetSaleStageEntity(Integer saleStageEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleStageEntity GetSaleStageEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSaleStageEntity_Integer_p_0
+description: NSListAgent.GetSaleStageEntity(Integer p_0)
+intellisense: NSListAgent.GetSaleStageEntity
 keywords: GetSaleStageEntity(Integer)
+so.topic: reference
 ---
 
 

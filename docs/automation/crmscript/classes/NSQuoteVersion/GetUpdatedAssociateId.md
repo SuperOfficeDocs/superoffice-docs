@@ -1,9 +1,9 @@
 ---
-title: Integer GetUpdatedAssociateId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetUpdatedAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetUpdatedAssociateId
+description: NSQuoteVersion.GetUpdatedAssociateId()
+intellisense: NSQuoteVersion.GetUpdatedAssociateId
 keywords: GetUpdatedAssociateId()
+so.topic: reference
 ---
 
 

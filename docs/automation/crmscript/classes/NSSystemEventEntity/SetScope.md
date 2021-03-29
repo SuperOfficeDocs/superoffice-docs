@@ -1,9 +1,9 @@
 ---
-title: Void SetScope(Integer Scope)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetScope(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetScope_Integer_p_0
+description: NSSystemEventEntity.SetScope(Integer p_0)
+intellisense: NSSystemEventEntity.SetScope
 keywords: SetScope(Integer)
+so.topic: reference
 ---
 
 

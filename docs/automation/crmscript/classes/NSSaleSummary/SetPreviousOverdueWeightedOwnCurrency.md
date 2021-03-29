@@ -1,9 +1,9 @@
 ---
-title: Void SetPreviousOverdueWeightedOwnCurrency(Float PreviousOverdueWeightedOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetPreviousOverdueWeightedOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetPreviousOverdueWeightedOwnCurrency_Float_p_0
+description: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency(Float p_0)
+intellisense: NSSaleSummary.SetPreviousOverdueWeightedOwnCurrency
 keywords: SetPreviousOverdueWeightedOwnCurrency(Float)
+so.topic: reference
 ---
 
 

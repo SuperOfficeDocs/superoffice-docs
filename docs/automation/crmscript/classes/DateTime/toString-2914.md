@@ -1,10 +1,10 @@
 ---
-title: String toString(String format)
-path: /EJScript/Classes/DateTime/Member functions/String toString(String format)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_toString_String_format
+description: DateTime.toString(String format)
+intellisense: DateTime.toString
 sortOrder: 238
 keywords: toString(String)
+so.topic: reference
 ---
 
 Returns a String representation of the DateTime, formatted on the form specified in the String format.

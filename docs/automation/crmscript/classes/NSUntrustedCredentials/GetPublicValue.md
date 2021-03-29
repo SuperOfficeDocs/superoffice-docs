@@ -1,9 +1,9 @@
 ---
-title: String GetPublicValue()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/String GetPublicValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_GetPublicValue
+description: NSUntrustedCredentials.GetPublicValue()
+intellisense: NSUntrustedCredentials.GetPublicValue
 keywords: GetPublicValue()
+so.topic: reference
 ---
 
 

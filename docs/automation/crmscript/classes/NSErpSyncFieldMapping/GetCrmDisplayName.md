@@ -1,10 +1,10 @@
 ---
-title: String GetCrmDisplayName()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/String GetCrmDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetCrmDisplayName
+description: NSErpSyncFieldMapping.GetCrmDisplayName()
+intellisense: NSErpSyncFieldMapping.GetCrmDisplayName
 sortOrder: 3297
 keywords: GetCrmDisplayName()
+so.topic: reference
 ---
 
 

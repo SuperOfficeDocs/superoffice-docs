@@ -1,9 +1,9 @@
 ---
-title: NSDocumentAgent
-path: /EJScript/Classes/NSDocumentAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent
+description: NSDocumentAgent
+intellisense: Void.NSDocumentAgent
 sortOrder: 2463
+so.topic: reference
 ---
 
 

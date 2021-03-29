@@ -1,10 +1,10 @@
 ---
-title: Void SetStartDate(DateTime StartDate)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetStartDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetStartDate_DateTime_p_0
+description: NSAppointment.SetStartDate(DateTime p_0)
+intellisense: NSAppointment.SetStartDate
 sortOrder: 817
 keywords: SetStartDate(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetTabOrder()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetTabOrder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetTabOrder
+description: NSUserDefinedFieldInfo.GetTabOrder()
+intellisense: NSUserDefinedFieldInfo.GetTabOrder
 keywords: GetTabOrder()
+so.topic: reference
 ---
 
 

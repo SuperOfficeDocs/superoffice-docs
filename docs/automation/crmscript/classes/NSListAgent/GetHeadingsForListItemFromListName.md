@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, Bool showDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetHeadingsForListItemFromListName(String p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetHeadingsForListItemFromListName_String_p_0_Integer_p_1_Bool_p_2
+description: NSListAgent.GetHeadingsForListItemFromListName(String p_0, Integer p_1, Bool p_2)
+intellisense: NSListAgent.GetHeadingsForListItemFromListName
 keywords: GetHeadingsForListItemFromListName(String,Integer,Bool)
+so.topic: reference
 ---
 
 

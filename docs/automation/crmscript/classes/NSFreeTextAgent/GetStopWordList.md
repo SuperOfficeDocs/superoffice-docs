@@ -1,10 +1,10 @@
 ---
-title: String[] GetStopWordList()
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/String[] GetStopWordList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_GetStopWordList
+description: NSFreeTextAgent.GetStopWordList()
+intellisense: NSFreeTextAgent.GetStopWordList
 sortOrder: 3871
 keywords: GetStopWordList()
+so.topic: reference
 ---
 
 

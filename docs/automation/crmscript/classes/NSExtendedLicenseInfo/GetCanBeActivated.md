@@ -1,10 +1,10 @@
 ---
-title: Bool GetCanBeActivated()
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/Bool GetCanBeActivated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedLicenseInfo_GetCanBeActivated
+description: NSExtendedLicenseInfo.GetCanBeActivated()
+intellisense: NSExtendedLicenseInfo.GetCanBeActivated
 sortOrder: 3403
 keywords: GetCanBeActivated()
+so.topic: reference
 ---
 
 

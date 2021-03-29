@@ -1,10 +1,10 @@
 ---
-title: String GetSource()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_GetSource
+description: NSCRMScriptEntity.GetSource()
+intellisense: NSCRMScriptEntity.GetSource
 sortOrder: 2136
 keywords: GetSource()
+so.topic: reference
 ---
 
 

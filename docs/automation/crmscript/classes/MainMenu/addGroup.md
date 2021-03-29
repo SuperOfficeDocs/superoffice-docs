@@ -1,10 +1,10 @@
 ---
-title: Void addGroup(String label, String image)
-path: /EJScript/Classes/MainMenu/Member functions/Void addGroup(String label, String image)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu_addGroup_String_label_String_image
+description: MainMenu.addGroup(String label, String image)
+intellisense: MainMenu.addGroup
 sortOrder: 510
 keywords: addGroup(String,String)
+so.topic: reference
 ---
 
 # Void addGroup(String label, String image)

@@ -1,8 +1,8 @@
 ---
-title: NSNavigatorAgent
-path: /EJScript/Classes/NSNavigatorAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNavigatorAgent
+description: NSNavigatorAgent
+intellisense: Void.NSNavigatorAgent
+so.topic: reference
 ---
 
 

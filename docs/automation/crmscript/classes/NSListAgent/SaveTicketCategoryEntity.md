@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity ticketCategoryEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity SaveTicketCategoryEntity(NSTicketCategoryEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveTicketCategoryEntity_NSTicketCategoryEntity_p_0
+description: NSListAgent.SaveTicketCategoryEntity(NSTicketCategoryEntity p_0)
+intellisense: NSListAgent.SaveTicketCategoryEntity
 keywords: SaveTicketCategoryEntity(NSTicketCategoryEntity)
+so.topic: reference
 ---
 
 

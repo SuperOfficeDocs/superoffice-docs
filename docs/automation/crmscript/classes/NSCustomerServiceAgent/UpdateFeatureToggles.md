@@ -1,10 +1,10 @@
 ---
-title: Void UpdateFeatureToggles(NSCsFeatureToggle[] featureToggles)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Void UpdateFeatureToggles(NSCsFeatureToggle[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_UpdateFeatureToggles_NSCsFeatureToggle__p_0
+description: NSCustomerServiceAgent.UpdateFeatureToggles(NSCsFeatureToggle[] p_0)
+intellisense: NSCustomerServiceAgent.UpdateFeatureToggles
 sortOrder: 2249
 keywords: UpdateFeatureToggles(NSCsFeatureToggle[])
+so.topic: reference
 ---
 
 

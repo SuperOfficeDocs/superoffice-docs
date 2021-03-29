@@ -1,9 +1,9 @@
 ---
-title: NSWebPanelEntity GetWebPanelByProgId(String progId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity GetWebPanelByProgId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetWebPanelByProgId_String_p_0
+description: NSListAgent.GetWebPanelByProgId(String p_0)
+intellisense: NSListAgent.GetWebPanelByProgId
 keywords: GetWebPanelByProgId(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetMinEarningPercentSet(Bool MinEarningPercentSet)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetMinEarningPercentSet(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercentSet_Bool_p_0
+description: NSSaleTypeEntity.SetMinEarningPercentSet(Bool p_0)
+intellisense: NSSaleTypeEntity.SetMinEarningPercentSet
 keywords: SetMinEarningPercentSet(Bool)
+so.topic: reference
 ---
 
 

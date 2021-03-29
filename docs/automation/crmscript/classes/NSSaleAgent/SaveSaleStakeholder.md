@@ -1,9 +1,9 @@
 ---
-title: NSSaleStakeholder SaveSaleStakeholder(NSSaleStakeholder saleStakeholder)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder SaveSaleStakeholder(NSSaleStakeholder p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_SaveSaleStakeholder_NSSaleStakeholder_p_0
+description: NSSaleAgent.SaveSaleStakeholder(NSSaleStakeholder p_0)
+intellisense: NSSaleAgent.SaveSaleStakeholder
 keywords: SaveSaleStakeholder(NSSaleStakeholder)
+so.topic: reference
 ---
 
 

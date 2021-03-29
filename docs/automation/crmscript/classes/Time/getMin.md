@@ -1,9 +1,9 @@
 ---
-title: Integer getMin()
-path: /EJScript/Classes/Time/Member functions/Integer getMin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Time_getMin
+description: Time.getMin()
+intellisense: Time.getMin
 keywords: getMin()
+so.topic: reference
 ---
 
 This function returns the minutes of the time as an Integer.

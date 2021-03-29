@@ -1,9 +1,9 @@
 ---
-title: String GetFieldLabel()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetFieldLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldLabel
+description: NSUserDefinedFieldInfo.GetFieldLabel()
+intellisense: NSUserDefinedFieldInfo.GetFieldLabel
 keywords: GetFieldLabel()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOnTaskId(Integer SignOnTaskId)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOnTaskId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetSignOnTaskId_Integer_p_0
+description: NSProjectEventEntity.SetSignOnTaskId(Integer p_0)
+intellisense: NSProjectEventEntity.SetSignOnTaskId
 keywords: SetSignOnTaskId(Integer)
+so.topic: reference
 ---
 
 

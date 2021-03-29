@@ -1,9 +1,9 @@
 ---
-title: Void SetFormalName(String FormalName)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetFormalName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetFormalName_String_p_0
+description: NSPersonEntity.SetFormalName(String p_0)
+intellisense: NSPersonEntity.SetFormalName
 keywords: SetFormalName(String)
+so.topic: reference
 ---
 
 

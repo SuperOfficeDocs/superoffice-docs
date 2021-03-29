@@ -1,9 +1,9 @@
 ---
-title: Bool GetIncludeRetiredRecipients()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetIncludeRetiredRecipients()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetIncludeRetiredRecipients
+description: NSMailMergeSettings.GetIncludeRetiredRecipients()
+intellisense: NSMailMergeSettings.GetIncludeRetiredRecipients
 keywords: GetIncludeRetiredRecipients()
+so.topic: reference
 ---
 
 

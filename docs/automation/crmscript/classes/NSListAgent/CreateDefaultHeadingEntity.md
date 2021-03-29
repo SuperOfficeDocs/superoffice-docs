@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity CreateDefaultHeadingEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity CreateDefaultHeadingEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultHeadingEntity
+description: NSListAgent.CreateDefaultHeadingEntity()
+intellisense: NSListAgent.CreateDefaultHeadingEntity
 keywords: CreateDefaultHeadingEntity()
+so.topic: reference
 ---
 
 

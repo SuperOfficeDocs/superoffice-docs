@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStageEntity_SetValue_String_p_0
+description: NSSaleStageEntity.SetValue(String p_0)
+intellisense: NSSaleStageEntity.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

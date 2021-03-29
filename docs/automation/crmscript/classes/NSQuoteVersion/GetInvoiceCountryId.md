@@ -1,9 +1,9 @@
 ---
-title: Integer GetInvoiceCountryId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetInvoiceCountryId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetInvoiceCountryId
+description: NSQuoteVersion.GetInvoiceCountryId()
+intellisense: NSQuoteVersion.GetInvoiceCountryId
 keywords: GetInvoiceCountryId()
+so.topic: reference
 ---
 
 

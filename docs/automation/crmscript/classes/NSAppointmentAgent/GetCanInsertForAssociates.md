@@ -1,10 +1,10 @@
 ---
-title: Bool[] GetCanInsertForAssociates(Integer[] associateIds)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Bool[] GetCanInsertForAssociates(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetCanInsertForAssociates_Integer__p_0
+description: NSAppointmentAgent.GetCanInsertForAssociates(Integer[] p_0)
+intellisense: NSAppointmentAgent.GetCanInsertForAssociates
 sortOrder: 826
 keywords: GetCanInsertForAssociates(Integer[])
+so.topic: reference
 ---
 
 

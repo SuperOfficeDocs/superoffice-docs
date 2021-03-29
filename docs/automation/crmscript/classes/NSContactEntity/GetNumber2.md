@@ -1,10 +1,10 @@
 ---
-title: String GetNumber2()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetNumber2()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetNumber2
+description: NSContactEntity.GetNumber2()
+intellisense: NSContactEntity.GetNumber2
 sortOrder: 1873
 keywords: GetNumber2()
+so.topic: reference
 ---
 
 

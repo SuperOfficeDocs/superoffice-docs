@@ -1,9 +1,9 @@
 ---
-title: Void SetFlags(NSTicketCategoryFlags Flags)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetFlags(NSTicketCategoryFlags p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetFlags_NSTicketCategoryFlags_p_0
+description: NSTicketCategoryEntity.SetFlags(NSTicketCategoryFlags p_0)
+intellisense: NSTicketCategoryEntity.SetFlags
 keywords: SetFlags(NSTicketCategoryFlags)
+so.topic: reference
 ---
 
 

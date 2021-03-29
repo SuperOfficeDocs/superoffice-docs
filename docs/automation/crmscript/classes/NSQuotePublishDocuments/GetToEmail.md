@@ -1,9 +1,9 @@
 ---
-title: String GetToEmail()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetToEmail()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetToEmail
+description: NSQuotePublishDocuments.GetToEmail()
+intellisense: NSQuotePublishDocuments.GetToEmail
 keywords: GetToEmail()
+so.topic: reference
 ---
 
 

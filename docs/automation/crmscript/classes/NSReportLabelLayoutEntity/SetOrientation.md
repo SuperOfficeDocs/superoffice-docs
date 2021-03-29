@@ -1,9 +1,9 @@
 ---
-title: Void SetOrientation(Integer Orientation)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetOrientation(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_SetOrientation_Integer_p_0
+description: NSReportLabelLayoutEntity.SetOrientation(Integer p_0)
+intellisense: NSReportLabelLayoutEntity.SetOrientation
 keywords: SetOrientation(Integer)
+so.topic: reference
 ---
 
 

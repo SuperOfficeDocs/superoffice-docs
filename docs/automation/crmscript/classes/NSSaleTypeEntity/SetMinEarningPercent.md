@@ -1,9 +1,9 @@
 ---
-title: Void SetMinEarningPercent(Integer MinEarningPercent)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetMinEarningPercent(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetMinEarningPercent_Integer_p_0
+description: NSSaleTypeEntity.SetMinEarningPercent(Integer p_0)
+intellisense: NSSaleTypeEntity.SetMinEarningPercent
 keywords: SetMinEarningPercent(Integer)
+so.topic: reference
 ---
 
 

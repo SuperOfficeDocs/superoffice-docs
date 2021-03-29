@@ -1,10 +1,10 @@
 ---
-title: String GetOrgNr()
-path: /EJScript/Classes/NSContact/Member functions/String GetOrgNr()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetOrgNr
+description: NSContact.GetOrgNr()
+intellisense: NSContact.GetOrgNr
 sortOrder: 1738
 keywords: GetOrgNr()
+so.topic: reference
 ---
 
 

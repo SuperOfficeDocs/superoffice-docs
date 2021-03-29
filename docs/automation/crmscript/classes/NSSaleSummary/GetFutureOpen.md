@@ -1,9 +1,9 @@
 ---
-title: Integer GetFutureOpen()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetFutureOpen()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetFutureOpen
+description: NSSaleSummary.GetFutureOpen()
+intellisense: NSSaleSummary.GetFutureOpen
 keywords: GetFutureOpen()
+so.topic: reference
 ---
 
 

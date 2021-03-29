@@ -1,9 +1,9 @@
 ---
-title: String GetToolTip()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/String GetToolTip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetToolTip
+description: NSSelectableMDOListItem.GetToolTip()
+intellisense: NSSelectableMDOListItem.GetToolTip
 keywords: GetToolTip()
+so.topic: reference
 ---
 
 

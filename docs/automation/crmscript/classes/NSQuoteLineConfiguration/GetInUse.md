@@ -1,9 +1,9 @@
 ---
-title: Bool GetInUse()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetInUse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetInUse
+description: NSQuoteLineConfiguration.GetInUse()
+intellisense: NSQuoteLineConfiguration.GetInUse
 keywords: GetInUse()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetMessagingId(Integer MessagingId)
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetMessagingId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus_SetMessagingId_Integer_p_0
+description: NSMessageDeliveryStatus.SetMessagingId(Integer p_0)
+intellisense: NSMessageDeliveryStatus.SetMessagingId
 keywords: SetMessagingId(Integer)
+so.topic: reference
 ---
 
 

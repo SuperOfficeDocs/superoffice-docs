@@ -1,10 +1,10 @@
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetProjectId_Integer_p_0
+description: NSAlarmData.SetProjectId(Integer p_0)
+intellisense: NSAlarmData.SetProjectId
 sortOrder: 687
 keywords: SetProjectId(Integer)
+so.topic: reference
 ---
 
 

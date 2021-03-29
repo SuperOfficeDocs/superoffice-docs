@@ -1,9 +1,9 @@
 ---
-title: Void SetFutureOpenWeightedOwnCurrency(Float FutureOpenWeightedOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetFutureOpenWeightedOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetFutureOpenWeightedOwnCurrency_Float_p_0
+description: NSSaleSummary.SetFutureOpenWeightedOwnCurrency(Float p_0)
+intellisense: NSSaleSummary.SetFutureOpenWeightedOwnCurrency
 keywords: SetFutureOpenWeightedOwnCurrency(Float)
+so.topic: reference
 ---
 
 

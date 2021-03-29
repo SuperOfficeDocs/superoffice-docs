@@ -1,10 +1,10 @@
 ---
-title: NSLicenseInfo GetNew()
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/NSLicenseInfo GetNew()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedLicenseInfo_GetNew
+description: NSExtendedLicenseInfo.GetNew()
+intellisense: NSExtendedLicenseInfo.GetNew
 sortOrder: 3407
 keywords: GetNew()
+so.topic: reference
 ---
 
 

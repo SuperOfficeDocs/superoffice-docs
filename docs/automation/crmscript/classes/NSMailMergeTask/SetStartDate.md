@@ -1,9 +1,9 @@
 ---
-title: Void SetStartDate(DateTime StartDate)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetStartDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetStartDate_DateTime_p_0
+description: NSMailMergeTask.SetStartDate(DateTime p_0)
+intellisense: NSMailMergeTask.SetStartDate
 keywords: SetStartDate(DateTime)
+so.topic: reference
 ---
 
 

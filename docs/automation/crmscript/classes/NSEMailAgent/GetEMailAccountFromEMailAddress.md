@@ -1,10 +1,10 @@
 ---
-title: NSEMailAccount GetEMailAccountFromEMailAddress(String fromAddress)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount GetEMailAccountFromEMailAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailAccountFromEMailAddress_String_p_0
+description: NSEMailAgent.GetEMailAccountFromEMailAddress(String p_0)
+intellisense: NSEMailAgent.GetEMailAccountFromEMailAddress
 sortOrder: 2797
 keywords: GetEMailAccountFromEMailAddress(String)
+so.topic: reference
 ---
 
 

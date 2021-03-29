@@ -1,9 +1,9 @@
 ---
-title: Void setNegative(Bool negative)
-path: /EJScript/Classes/TimeSpan/Member functions/Void setNegative(Bool negative)
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_setNegative_Bool_negative
+description: TimeSpan.setNegative(Bool negative)
+intellisense: TimeSpan.setNegative
 keywords: setNegative(Bool)
+so.topic: reference
 ---
 
 

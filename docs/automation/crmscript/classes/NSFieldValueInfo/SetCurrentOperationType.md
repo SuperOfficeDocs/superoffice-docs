@@ -1,10 +1,10 @@
 ---
-title: Void SetCurrentOperationType(String CurrentOperationType)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetCurrentOperationType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetCurrentOperationType_String_p_0
+description: NSFieldValueInfo.SetCurrentOperationType(String p_0)
+intellisense: NSFieldValueInfo.SetCurrentOperationType
 sortOrder: 3636
 keywords: SetCurrentOperationType(String)
+so.topic: reference
 ---
 
 

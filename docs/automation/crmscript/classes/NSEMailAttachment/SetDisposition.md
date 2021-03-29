@@ -1,10 +1,10 @@
 ---
-title: Void SetDisposition(String Disposition)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetDisposition(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_SetDisposition_String_p_0
+description: NSEMailAttachment.SetDisposition(String p_0)
+intellisense: NSEMailAttachment.SetDisposition
 sortOrder: 2901
 keywords: SetDisposition(String)
+so.topic: reference
 ---
 
 

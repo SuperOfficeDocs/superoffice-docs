@@ -1,10 +1,10 @@
 ---
-title: Void SetDbiKey(String DbiKey)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetDbiKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetDbiKey_String_p_0
+description: NSContactEntity.SetDbiKey(String p_0)
+intellisense: NSContactEntity.SetDbiKey
 sortOrder: 1890
 keywords: SetDbiKey(String)
+so.topic: reference
 ---
 
 

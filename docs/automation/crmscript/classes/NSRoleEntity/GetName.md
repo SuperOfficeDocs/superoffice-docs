@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSRoleEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetName
+description: NSRoleEntity.GetName()
+intellisense: NSRoleEntity.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

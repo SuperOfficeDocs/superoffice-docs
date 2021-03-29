@@ -1,9 +1,9 @@
 ---
-title: NSDiaryViewEntity
-path: /EJScript/Classes/NSDiaryViewEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity
+description: NSDiaryViewEntity
+intellisense: Void.NSDiaryViewEntity
 sortOrder: 2403
+so.topic: reference
 ---
 
 

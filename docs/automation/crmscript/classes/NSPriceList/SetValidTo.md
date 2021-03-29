@@ -1,9 +1,9 @@
 ---
-title: Void SetValidTo(DateTime ValidTo)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetValidTo(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_SetValidTo_DateTime_p_0
+description: NSPriceList.SetValidTo(DateTime p_0)
+intellisense: NSPriceList.SetValidTo
 keywords: SetValidTo(DateTime)
+so.topic: reference
 ---
 
 

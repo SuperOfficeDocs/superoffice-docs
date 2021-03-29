@@ -1,9 +1,9 @@
 ---
-title: Integer GetMinEarningPercent()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetMinEarningPercent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetMinEarningPercent
+description: NSSaleTypeEntity.GetMinEarningPercent()
+intellisense: NSSaleTypeEntity.GetMinEarningPercent
 keywords: GetMinEarningPercent()
+so.topic: reference
 ---
 
 

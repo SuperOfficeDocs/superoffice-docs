@@ -1,9 +1,9 @@
 ---
-title: Void SetRegisteredAssociate(NSAssociate RegisteredAssociate)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetRegisteredAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetRegisteredAssociate_NSAssociate_p_0
+description: NSWebhook.SetRegisteredAssociate(NSAssociate p_0)
+intellisense: NSWebhook.SetRegisteredAssociate
 keywords: SetRegisteredAssociate(NSAssociate)
+so.topic: reference
 ---
 
 

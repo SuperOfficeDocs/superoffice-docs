@@ -1,9 +1,9 @@
 ---
-title: NSProjectTypeStatusLink GetProjectTypeStatusLink()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/NSProjectTypeStatusLink GetProjectTypeStatusLink()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetProjectTypeStatusLink
+description: NSSuggestedAppointmentEntity.GetProjectTypeStatusLink()
+intellisense: NSSuggestedAppointmentEntity.GetProjectTypeStatusLink
 keywords: GetProjectTypeStatusLink()
+so.topic: reference
 ---
 
 

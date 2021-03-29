@@ -1,9 +1,9 @@
 ---
-title: Integer GetEjMessageId()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Integer GetEjMessageId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetEjMessageId
+description: NSTicketMessageEntity.GetEjMessageId()
+intellisense: NSTicketMessageEntity.GetEjMessageId
 keywords: GetEjMessageId()
+so.topic: reference
 ---
 
 

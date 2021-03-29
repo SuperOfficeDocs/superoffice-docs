@@ -1,9 +1,9 @@
 ---
-title: Bool isNull()
-path: /EJScript/Classes/String/Member functions/Bool isNull()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_isNull
+description: String.isNull()
+intellisense: String.isNull
 keywords: isNull()
+so.topic: reference
 ---
 
 

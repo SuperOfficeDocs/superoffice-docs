@@ -1,9 +1,9 @@
 ---
-title: Integer GetCycle()
-path: /EJScript/Classes/NSRecurrenceWeekPattern/Member functions/Integer GetCycle()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceWeekPattern_GetCycle
+description: NSRecurrenceWeekPattern.GetCycle()
+intellisense: NSRecurrenceWeekPattern.GetCycle
 keywords: GetCycle()
+so.topic: reference
 ---
 
 

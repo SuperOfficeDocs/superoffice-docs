@@ -1,10 +1,10 @@
 ---
-title: Void SetListName(String ListName)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetListName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_SetListName_String_p_0
+description: NSDashboardTileOption.SetListName(String p_0)
+intellisense: NSDashboardTileOption.SetListName
 sortOrder: 2328
 keywords: SetListName(String)
+so.topic: reference
 ---
 
 

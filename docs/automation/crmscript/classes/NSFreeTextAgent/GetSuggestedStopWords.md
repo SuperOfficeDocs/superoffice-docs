@@ -1,10 +1,10 @@
 ---
-title: NSMDOListItem[] GetSuggestedStopWords(Integer countWords)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/NSMDOListItem[] GetSuggestedStopWords(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_GetSuggestedStopWords_Integer_p_0
+description: NSFreeTextAgent.GetSuggestedStopWords(Integer p_0)
+intellisense: NSFreeTextAgent.GetSuggestedStopWords
 sortOrder: 3870
 keywords: GetSuggestedStopWords(Integer)
+so.topic: reference
 ---
 
 

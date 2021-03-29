@@ -1,9 +1,9 @@
 ---
-title: NSEMailAccount
-path: /EJScript/Classes/NSEMailAccount
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount
+description: NSEMailAccount
+intellisense: Void.NSEMailAccount
 sortOrder: 2742
+so.topic: reference
 ---
 
 Properties for an email account

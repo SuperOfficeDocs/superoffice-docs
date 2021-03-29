@@ -1,9 +1,9 @@
 ---
-title: DateTime GetMonStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetMonStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetMonStart
+description: NSTicketPriorityEntity.GetMonStart()
+intellisense: NSTicketPriorityEntity.GetMonStart
 keywords: GetMonStart()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SaveUntrustedCredentials(String type, NSUntrustedCredentials credentials)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void SaveUntrustedCredentials(String p_0, NSUntrustedCredentials p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SaveUntrustedCredentials_String_p_0_NSUntrustedCredentials_p_1
+description: NSUserAgent.SaveUntrustedCredentials(String p_0, NSUntrustedCredentials p_1)
+intellisense: NSUserAgent.SaveUntrustedCredentials
 keywords: SaveUntrustedCredentials(String,NSUntrustedCredentials)
+so.topic: reference
 ---
 
 

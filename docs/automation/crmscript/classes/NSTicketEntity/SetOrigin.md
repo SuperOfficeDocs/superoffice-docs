@@ -1,9 +1,9 @@
 ---
-title: Void SetOrigin(NSTicketOrigin Origin)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetOrigin(NSTicketOrigin p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetOrigin_NSTicketOrigin_p_0
+description: NSTicketEntity.SetOrigin(NSTicketOrigin p_0)
+intellisense: NSTicketEntity.SetOrigin
 keywords: SetOrigin(NSTicketOrigin)
+so.topic: reference
 ---
 
 

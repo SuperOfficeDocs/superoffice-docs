@@ -1,10 +1,10 @@
 ---
-title: String GetYourRef()
-path: /EJScript/Classes/NSDocument/Member functions/String GetYourRef()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument_GetYourRef
+description: NSDocument.GetYourRef()
+intellisense: NSDocument.GetYourRef
 sortOrder: 2445
 keywords: GetYourRef()
+so.topic: reference
 ---
 
 

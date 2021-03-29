@@ -1,9 +1,9 @@
 ---
-title: String GetERPProductKey()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetERPProductKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetERPProductKey
+description: NSQuoteLine.GetERPProductKey()
+intellisense: NSQuoteLine.GetERPProductKey
 keywords: GetERPProductKey()
+so.topic: reference
 ---
 
 

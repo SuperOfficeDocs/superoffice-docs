@@ -1,9 +1,9 @@
 ---
-title: Integer GetTimeSpent()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Integer GetTimeSpent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetTimeSpent
+description: NSTicketMessageEntity.GetTimeSpent()
+intellisense: NSTicketMessageEntity.GetTimeSpent
 keywords: GetTimeSpent()
+so.topic: reference
 ---
 
 

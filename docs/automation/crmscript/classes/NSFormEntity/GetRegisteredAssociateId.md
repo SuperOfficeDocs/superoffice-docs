@@ -1,10 +1,10 @@
 ---
-title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetRegisteredAssociateId
+description: NSFormEntity.GetRegisteredAssociateId()
+intellisense: NSFormEntity.GetRegisteredAssociateId
 sortOrder: 3794
 keywords: GetRegisteredAssociateId()
+so.topic: reference
 ---
 
 

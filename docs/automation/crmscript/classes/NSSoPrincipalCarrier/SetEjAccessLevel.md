@@ -1,9 +1,9 @@
 ---
-title: Void SetEjAccessLevel(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetEjAccessLevel(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetEjAccessLevel_Integer_p_0
+description: NSSoPrincipalCarrier.SetEjAccessLevel(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetEjAccessLevel
 keywords: SetEjAccessLevel(Integer)
+so.topic: reference
 ---
 
 

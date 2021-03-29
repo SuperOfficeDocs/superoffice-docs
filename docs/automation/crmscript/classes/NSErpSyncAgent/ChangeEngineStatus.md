@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncEngineStatus ChangeEngineStatus(Bool run)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncEngineStatus ChangeEngineStatus(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ChangeEngineStatus_Bool_p_0
+description: NSErpSyncAgent.ChangeEngineStatus(Bool p_0)
+intellisense: NSErpSyncAgent.ChangeEngineStatus
 sortOrder: 3205
 keywords: ChangeEngineStatus(Bool)
+so.topic: reference
 ---
 
 

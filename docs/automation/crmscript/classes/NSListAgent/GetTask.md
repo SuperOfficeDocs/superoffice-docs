@@ -1,9 +1,9 @@
 ---
-title: NSTask GetTask(Integer taskId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask GetTask(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTask_Integer_p_0
+description: NSListAgent.GetTask(Integer p_0)
+intellisense: NSListAgent.GetTask
 keywords: GetTask(Integer)
+so.topic: reference
 ---
 
 

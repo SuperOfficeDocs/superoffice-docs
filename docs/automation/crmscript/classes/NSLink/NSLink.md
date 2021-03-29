@@ -1,8 +1,8 @@
 ---
-title: NSLink
-path: /EJScript/Classes/NSLink
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLink
+description: NSLink
+intellisense: Void.NSLink
+so.topic: reference
 ---
 
 

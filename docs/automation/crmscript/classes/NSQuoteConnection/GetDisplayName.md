@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetDisplayName
+description: NSQuoteConnection.GetDisplayName()
+intellisense: NSQuoteConnection.GetDisplayName
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

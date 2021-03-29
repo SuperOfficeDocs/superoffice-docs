@@ -1,9 +1,9 @@
 ---
-title: Void SetPostit(String Postit)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetPostit(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetPostit_String_p_0
+description: NSSaleEntity.SetPostit(String p_0)
+intellisense: NSSaleEntity.SetPostit
 keywords: SetPostit(String)
+so.topic: reference
 ---
 
 

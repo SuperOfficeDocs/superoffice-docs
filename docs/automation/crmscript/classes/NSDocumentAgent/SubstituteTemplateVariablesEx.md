@@ -1,10 +1,10 @@
 ---
-title: String SubstituteTemplateVariablesEx(NSTemplateVariablesParameters parameters)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/String SubstituteTemplateVariablesEx(NSTemplateVariablesParameters p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesEx_NSTemplateVariablesParameters_p_0
+description: NSDocumentAgent.SubstituteTemplateVariablesEx(NSTemplateVariablesParameters p_0)
+intellisense: NSDocumentAgent.SubstituteTemplateVariablesEx
 sortOrder: 2537
 keywords: SubstituteTemplateVariablesEx(NSTemplateVariablesParameters)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetForeignAppId()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/Integer GetForeignAppId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignAppEntity_GetForeignAppId
+description: NSForeignAppEntity.GetForeignAppId()
+intellisense: NSForeignAppEntity.GetForeignAppId
 sortOrder: 3700
 keywords: GetForeignAppId()
+so.topic: reference
 ---
 
 

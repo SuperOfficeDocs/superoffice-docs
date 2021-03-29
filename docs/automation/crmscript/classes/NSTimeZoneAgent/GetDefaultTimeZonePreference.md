@@ -1,9 +1,9 @@
 ---
-title: Integer GetDefaultTimeZonePreference()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Integer GetDefaultTimeZonePreference()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_GetDefaultTimeZonePreference
+description: NSTimeZoneAgent.GetDefaultTimeZonePreference()
+intellisense: NSTimeZoneAgent.GetDefaultTimeZonePreference
 keywords: GetDefaultTimeZonePreference()
+so.topic: reference
 ---
 
 

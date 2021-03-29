@@ -1,9 +1,9 @@
 ---
-title: NSUser ChangeUserType(NSUser user, Integer p1)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser ChangeUserType(NSUser p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_ChangeUserType_NSUser_p_0_Integer_p_1
+description: NSUserAgent.ChangeUserType(NSUser p_0, Integer p_1)
+intellisense: NSUserAgent.ChangeUserType
 keywords: ChangeUserType(NSUser,Integer)
+so.topic: reference
 ---
 
 

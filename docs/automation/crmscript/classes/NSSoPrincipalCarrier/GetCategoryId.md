@@ -1,9 +1,9 @@
 ---
-title: Integer GetCategoryId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetCategoryId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetCategoryId
+description: NSSoPrincipalCarrier.GetCategoryId()
+intellisense: NSSoPrincipalCarrier.GetCategoryId
 keywords: GetCategoryId()
+so.topic: reference
 ---
 
 

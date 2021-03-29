@@ -1,10 +1,10 @@
 ---
-title: String GetTooltipHint()
-path: /EJScript/Classes/NSArchiveColumnData/Member functions/String GetTooltipHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnData_GetTooltipHint
+description: NSArchiveColumnData.GetTooltipHint()
+intellisense: NSArchiveColumnData.GetTooltipHint
 sortOrder: 1128
 keywords: GetTooltipHint()
+so.topic: reference
 ---
 
 

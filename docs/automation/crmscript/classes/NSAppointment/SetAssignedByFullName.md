@@ -1,10 +1,10 @@
 ---
-title: Void SetAssignedByFullName(String AssignedByFullName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssignedByFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetAssignedByFullName_String_p_0
+description: NSAppointment.SetAssignedByFullName(String p_0)
+intellisense: NSAppointment.SetAssignedByFullName
 sortOrder: 772
 keywords: SetAssignedByFullName(String)
+so.topic: reference
 ---
 
 

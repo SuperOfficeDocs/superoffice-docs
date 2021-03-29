@@ -1,10 +1,10 @@
 ---
-title: Void SetFolder(String Folder)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetFolder(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetFolder_String_p_0
+description: NSEMailConnectionInfoExtended.SetFolder(String p_0)
+intellisense: NSEMailConnectionInfoExtended.SetFolder
 sortOrder: 2929
 keywords: SetFolder(String)
+so.topic: reference
 ---
 
 

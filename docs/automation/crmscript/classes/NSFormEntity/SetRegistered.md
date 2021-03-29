@@ -1,10 +1,10 @@
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetRegistered_DateTime_p_0
+description: NSFormEntity.SetRegistered(DateTime p_0)
+intellisense: NSFormEntity.SetRegistered
 sortOrder: 3820
 keywords: SetRegistered(DateTime)
+so.topic: reference
 ---
 
 

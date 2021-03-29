@@ -1,9 +1,9 @@
 ---
-title: Integer GetSelectionUnionType()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetSelectionUnionType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetSelectionUnionType
+description: NSSelectionEntity.GetSelectionUnionType()
+intellisense: NSSelectionEntity.GetSelectionUnionType
 keywords: GetSelectionUnionType()
+so.topic: reference
 ---
 
 

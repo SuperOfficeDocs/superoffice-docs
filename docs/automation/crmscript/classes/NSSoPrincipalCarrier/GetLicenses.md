@@ -1,9 +1,9 @@
 ---
-title: NSGrantedModuleLicense[] GetLicenses()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/NSGrantedModuleLicense[] GetLicenses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetLicenses
+description: NSSoPrincipalCarrier.GetLicenses()
+intellisense: NSSoPrincipalCarrier.GetLicenses
 keywords: GetLicenses()
+so.topic: reference
 ---
 
 

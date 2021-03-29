@@ -1,9 +1,9 @@
 ---
-title: String GetMailSubject()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetMailSubject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetMailSubject
+description: NSQuotePublishDocuments.GetMailSubject()
+intellisense: NSQuotePublishDocuments.GetMailSubject
 keywords: GetMailSubject()
+so.topic: reference
 ---
 
 

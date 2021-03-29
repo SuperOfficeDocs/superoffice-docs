@@ -1,9 +1,9 @@
 ---
-title: Integer GetSignOnTaskId()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Integer GetSignOnTaskId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetSignOnTaskId
+description: NSProjectEventEntity.GetSignOnTaskId()
+intellisense: NSProjectEventEntity.GetSignOnTaskId
 keywords: GetSignOnTaskId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Map GetUserDefinedFields()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Map GetUserDefinedFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetUserDefinedFields
+description: NSPersonEntity.GetUserDefinedFields()
+intellisense: NSPersonEntity.GetUserDefinedFields
 keywords: GetUserDefinedFields()
+so.topic: reference
 ---
 
 

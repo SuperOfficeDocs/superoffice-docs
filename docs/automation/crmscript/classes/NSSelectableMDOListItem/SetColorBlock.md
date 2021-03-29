@@ -1,9 +1,9 @@
 ---
-title: Void SetColorBlock(Integer ColorBlock)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetColorBlock(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetColorBlock_Integer_p_0
+description: NSSelectableMDOListItem.SetColorBlock(Integer p_0)
+intellisense: NSSelectableMDOListItem.SetColorBlock
 keywords: SetColorBlock(Integer)
+so.topic: reference
 ---
 
 

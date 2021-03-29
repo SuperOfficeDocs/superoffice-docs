@@ -1,10 +1,10 @@
 ---
-title: Integer GetValueControl()
-path: /EJScript/Classes/NSCredentialType/Member functions/Integer GetValueControl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_GetValueControl
+description: NSCredentialType.GetValueControl()
+intellisense: NSCredentialType.GetValueControl
 sortOrder: 2072
 keywords: GetValueControl()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetContent()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetContent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_GetContent
+description: NSOutgoingMessage.GetContent()
+intellisense: NSOutgoingMessage.GetContent
 keywords: GetContent()
+so.topic: reference
 ---
 
 

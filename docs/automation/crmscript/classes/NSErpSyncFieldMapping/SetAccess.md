@@ -1,10 +1,10 @@
 ---
-title: Void SetAccess(Integer p0)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetAccess(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetAccess_Integer_p_0
+description: NSErpSyncFieldMapping.SetAccess(Integer p_0)
+intellisense: NSErpSyncFieldMapping.SetAccess
 sortOrder: 3304
 keywords: SetAccess(Integer)
+so.topic: reference
 ---
 
 Access restrictions for the field

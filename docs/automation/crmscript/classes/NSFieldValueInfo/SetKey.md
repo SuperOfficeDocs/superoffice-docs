@@ -1,10 +1,10 @@
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetKey_String_p_0
+description: NSFieldValueInfo.SetKey(String p_0)
+intellisense: NSFieldValueInfo.SetKey
 sortOrder: 3646
 keywords: SetKey(String)
+so.topic: reference
 ---
 
 

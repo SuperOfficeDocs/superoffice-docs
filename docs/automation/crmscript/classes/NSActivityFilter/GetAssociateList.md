@@ -1,10 +1,10 @@
 ---
-title: NSSelectableMDOListItem[] GetAssociateList()
-path: /EJScript/Classes/NSActivityFilter/Member functions/NSSelectableMDOListItem[] GetAssociateList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_GetAssociateList
+description: NSActivityFilter.GetAssociateList()
+intellisense: NSActivityFilter.GetAssociateList
 sortOrder: 572
 keywords: GetAssociateList()
+so.topic: reference
 ---
 
 

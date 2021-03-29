@@ -1,10 +1,10 @@
 ---
-title: String GetEntryName()
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/String GetEntryName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDuplicateEntry_GetEntryName
+description: NSDuplicateEntry.GetEntryName()
+intellisense: NSDuplicateEntry.GetEntryName
 sortOrder: 2724
 keywords: GetEntryName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetAllowBlank(Bool AllowBlank)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetAllowBlank(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetAllowBlank_Bool_p_0
+description: NSRefCountEntity.SetAllowBlank(Bool p_0)
+intellisense: NSRefCountEntity.SetAllowBlank
 keywords: SetAllowBlank(Bool)
+so.topic: reference
 ---
 
 

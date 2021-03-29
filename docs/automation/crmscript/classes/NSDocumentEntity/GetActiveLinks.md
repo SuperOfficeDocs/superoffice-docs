@@ -1,10 +1,10 @@
 ---
-title: Integer GetActiveLinks()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetActiveLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetActiveLinks
+description: NSDocumentEntity.GetActiveLinks()
+intellisense: NSDocumentEntity.GetActiveLinks
 sortOrder: 2558
 keywords: GetActiveLinks()
+so.topic: reference
 ---
 
 

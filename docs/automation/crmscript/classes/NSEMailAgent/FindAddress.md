@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress[] FindAddress(String address)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAddress[] FindAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_FindAddress_String_p_0
+description: NSEMailAgent.FindAddress(String p_0)
+intellisense: NSEMailAgent.FindAddress
 sortOrder: 2800
 keywords: FindAddress(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetVisibleForCategories(NSMDOListItem[] VisibleForCategories)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetVisibleForCategories(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetVisibleForCategories_NSMDOListItem__p_0
+description: NSProjectEventEntity.SetVisibleForCategories(NSMDOListItem[] p_0)
+intellisense: NSProjectEventEntity.SetVisibleForCategories
 keywords: SetVisibleForCategories(NSMDOListItem[])
+so.topic: reference
 ---
 
 

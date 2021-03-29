@@ -1,10 +1,10 @@
 ---
-title: Void SetHeader(String Header)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetHeader(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetHeader_String_p_0
+description: NSDocumentEntity.SetHeader(String p_0)
+intellisense: NSDocumentEntity.SetHeader
 sortOrder: 2598
 keywords: SetHeader(String)
+so.topic: reference
 ---
 
 

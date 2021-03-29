@@ -1,9 +1,9 @@
 ---
-title: String GetCode()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetCode
+description: NSQuoteLine.GetCode()
+intellisense: NSQuoteLine.GetCode
 keywords: GetCode()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetBlobSize()
-path: /EJScript/Classes/NSBlobEntity/Member functions/Integer GetBlobSize()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetBlobSize
+description: NSBlobEntity.GetBlobSize()
+intellisense: NSBlobEntity.GetBlobSize
 sortOrder: 1445
 keywords: GetBlobSize()
+so.topic: reference
 ---
 
 

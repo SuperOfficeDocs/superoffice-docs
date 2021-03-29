@@ -1,9 +1,9 @@
 ---
-title: NSChatSummaryItem
-path: /EJScript/Classes/NSChatSummaryItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem
+description: NSChatSummaryItem
+intellisense: Void.NSChatSummaryItem
 sortOrder: 1533
+so.topic: reference
 ---
 
 

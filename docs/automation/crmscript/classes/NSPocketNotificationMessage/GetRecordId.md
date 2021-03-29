@@ -1,9 +1,9 @@
 ---
-title: Integer GetRecordId()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetRecordId
+description: NSPocketNotificationMessage.GetRecordId()
+intellisense: NSPocketNotificationMessage.GetRecordId
 keywords: GetRecordId()
+so.topic: reference
 ---
 
 

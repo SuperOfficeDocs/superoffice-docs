@@ -1,9 +1,9 @@
 ---
-title: Void SetUserGroup(NSUserGroup UserGroup)
-path: /EJScript/Classes/NSUser/Member functions/Void SetUserGroup(NSUserGroup p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetUserGroup_NSUserGroup_p_0
+description: NSUser.SetUserGroup(NSUserGroup p_0)
+intellisense: NSUser.SetUserGroup
 keywords: SetUserGroup(NSUserGroup)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPhoneId(Integer PhoneId)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetPhoneId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_SetPhoneId_Integer_p_0
+description: NSSaleStakeholder.SetPhoneId(Integer p_0)
+intellisense: NSSaleStakeholder.SetPhoneId
 keywords: SetPhoneId(Integer)
+so.topic: reference
 ---
 
 

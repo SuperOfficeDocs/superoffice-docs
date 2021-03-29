@@ -1,9 +1,9 @@
 ---
-title: NSCommandInfo
-path: /EJScript/Classes/NSCommandInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCommandInfo
+description: NSCommandInfo
+intellisense: Void.NSCommandInfo
 sortOrder: 1566
+so.topic: reference
 ---
 
 

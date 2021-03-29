@@ -1,9 +1,9 @@
 ---
-title: Void SetTZLocationID(Integer TZLocationID)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTZLocationID(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_SetTZLocationID_Integer_p_0
+description: NSTimeZoneData.SetTZLocationID(Integer p_0)
+intellisense: NSTimeZoneData.SetTZLocationID
 keywords: SetTZLocationID(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetProjectAppointmentsByTaskHeading(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer taskHeadingId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetProjectAppointmentsByTaskHeading(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetProjectAppointmentsByTaskHeading_Integer_p_0_DateTime_p_1_DateTime_p_2_Integer_p_3_Integer_p_4
+description: NSAppointmentAgent.GetProjectAppointmentsByTaskHeading(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer p_4)
+intellisense: NSAppointmentAgent.GetProjectAppointmentsByTaskHeading
 sortOrder: 861
 keywords: GetProjectAppointmentsByTaskHeading(Integer,DateTime,DateTime,Integer,Integer)
+so.topic: reference
 ---
 
 

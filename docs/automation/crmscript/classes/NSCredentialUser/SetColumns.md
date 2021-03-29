@@ -1,10 +1,10 @@
 ---
-title: Void SetColumns(String[] Columns)
-path: /EJScript/Classes/NSCredentialUser/Member functions/Void SetColumns(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser_SetColumns_String__p_0
+description: NSCredentialUser.SetColumns(String[] p_0)
+intellisense: NSCredentialUser.SetColumns
 sortOrder: 2091
 keywords: SetColumns(String[])
+so.topic: reference
 ---
 
 

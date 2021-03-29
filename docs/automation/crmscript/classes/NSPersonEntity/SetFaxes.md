@@ -1,9 +1,9 @@
 ---
-title: Void SetFaxes(NSEntityElement[] Faxes)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetFaxes(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetFaxes_NSEntityElement__p_0
+description: NSPersonEntity.SetFaxes(NSEntityElement[] p_0)
+intellisense: NSPersonEntity.SetFaxes
 keywords: SetFaxes(NSEntityElement[])
+so.topic: reference
 ---
 
 

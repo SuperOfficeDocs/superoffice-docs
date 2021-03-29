@@ -1,9 +1,9 @@
 ---
-title: Void SetReason(String p0)
-path: /EJScript/Classes/NSTableRight/Member functions/Void SetReason(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTableRight_SetReason_String_p_0
+description: NSTableRight.SetReason(String p_0)
+intellisense: NSTableRight.SetReason
 keywords: SetReason(String)
+so.topic: reference
 ---
 
 

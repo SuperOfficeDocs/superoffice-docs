@@ -1,9 +1,9 @@
 ---
-title: String GetProjStatusTooltip()
-path: /EJScript/Classes/NSProjectTypeStatusLink/Member functions/String GetProjStatusTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeStatusLink_GetProjStatusTooltip
+description: NSProjectTypeStatusLink.GetProjStatusTooltip()
+intellisense: NSProjectTypeStatusLink.GetProjStatusTooltip
 keywords: GetProjStatusTooltip()
+so.topic: reference
 ---
 
 

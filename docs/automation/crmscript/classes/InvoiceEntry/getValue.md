@@ -1,10 +1,10 @@
 ---
-title: String getValue(String field)
-path: /EJScript/Classes/InvoiceEntry/Member functions/String getValue(String field)
-intellisense: 1
-classref: 1
+title: crmscript_ref_InvoiceEntry_getValue_String_field
+description: InvoiceEntry.getValue(String field)
+intellisense: InvoiceEntry.getValue
 sortOrder: 437
 keywords: getValue(String)
+so.topic: reference
 ---
 
 

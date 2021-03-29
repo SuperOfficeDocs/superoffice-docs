@@ -1,9 +1,9 @@
 ---
-title: Void SetVisibleForPersonInterests(NSMDOListItem[] VisibleForPersonInterests)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetVisibleForPersonInterests(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetVisibleForPersonInterests_NSMDOListItem__p_0
+description: NSProjectEventEntity.SetVisibleForPersonInterests(NSMDOListItem[] p_0)
+intellisense: NSProjectEventEntity.SetVisibleForPersonInterests
 keywords: SetVisibleForPersonInterests(NSMDOListItem[])
+so.topic: reference
 ---
 
 

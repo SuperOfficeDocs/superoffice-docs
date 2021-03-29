@@ -1,9 +1,9 @@
 ---
-title: NSMrMrs[] GetMrMrsList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs[] GetMrMrsList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetMrMrsList_Integer__p_0
+description: NSListAgent.GetMrMrsList(Integer[] p_0)
+intellisense: NSListAgent.GetMrMrsList
 keywords: GetMrMrsList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of MrMrs objects.

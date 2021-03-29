@@ -1,10 +1,10 @@
 ---
-title: Integer GetLockSemantics()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetLockSemantics()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetLockSemantics
+description: NSDocumentEntity.GetLockSemantics()
+intellisense: NSDocumentEntity.GetLockSemantics
 sortOrder: 2561
 keywords: GetLockSemantics()
+so.topic: reference
 ---
 
 

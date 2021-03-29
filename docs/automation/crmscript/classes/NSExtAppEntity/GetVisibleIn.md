@@ -1,10 +1,10 @@
 ---
-title: Integer GetVisibleIn()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetVisibleIn()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetVisibleIn
+description: NSExtAppEntity.GetVisibleIn()
+intellisense: NSExtAppEntity.GetVisibleIn
 sortOrder: 3371
 keywords: GetVisibleIn()
+so.topic: reference
 ---
 
 

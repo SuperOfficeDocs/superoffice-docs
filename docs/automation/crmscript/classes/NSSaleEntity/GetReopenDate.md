@@ -1,9 +1,9 @@
 ---
-title: DateTime GetReopenDate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetReopenDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetReopenDate
+description: NSSaleEntity.GetReopenDate()
+intellisense: NSSaleEntity.GetReopenDate
 keywords: GetReopenDate()
+so.topic: reference
 ---
 
 

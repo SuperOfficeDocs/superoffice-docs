@@ -1,10 +1,10 @@
 ---
-title: Integer GetProjectId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetProjectId
+description: NSEMailSOInfo.GetProjectId()
+intellisense: NSEMailSOInfo.GetProjectId
 sortOrder: 3049
 keywords: GetProjectId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetContactCountryId(Integer ContactCountryId)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetContactCountryId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetContactCountryId_Integer_p_0
+description: NSPerson.SetContactCountryId(Integer p_0)
+intellisense: NSPerson.SetContactCountryId
 keywords: SetContactCountryId(Integer)
+so.topic: reference
 ---
 
 

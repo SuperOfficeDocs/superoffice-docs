@@ -1,9 +1,9 @@
 ---
-title: NSConsentPerson SaveConsentPerson(NSConsentPerson consentPerson)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSConsentPerson SaveConsentPerson(NSConsentPerson p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_SaveConsentPerson_NSConsentPerson_p_0
+description: NSPersonAgent.SaveConsentPerson(NSConsentPerson p_0)
+intellisense: NSPersonAgent.SaveConsentPerson
 keywords: SaveConsentPerson(NSConsentPerson)
+so.topic: reference
 ---
 
 

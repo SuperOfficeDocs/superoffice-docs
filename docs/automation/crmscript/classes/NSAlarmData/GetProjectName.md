@@ -1,10 +1,10 @@
 ---
-title: String GetProjectName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetProjectName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetProjectName
+description: NSAlarmData.GetProjectName()
+intellisense: NSAlarmData.GetProjectName
 sortOrder: 665
 keywords: GetProjectName()
+so.topic: reference
 ---
 
 

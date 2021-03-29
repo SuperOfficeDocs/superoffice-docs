@@ -1,10 +1,10 @@
 ---
-title: Void SetDtStart(DateTime DtStart)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetDtStart(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_SetDtStart_DateTime_p_0
+description: NSEMailAppointment.SetDtStart(DateTime p_0)
+intellisense: NSEMailAppointment.SetDtStart
 sortOrder: 2886
 keywords: SetDtStart(DateTime)
+so.topic: reference
 ---
 
 

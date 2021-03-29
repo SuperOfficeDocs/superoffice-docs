@@ -1,10 +1,10 @@
 ---
-title: Void SetActiveText(String ActiveText)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetActiveText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetActiveText_String_p_0
+description: NSContactRelationEntity.SetActiveText(String p_0)
+intellisense: NSContactRelationEntity.SetActiveText
 sortOrder: 1962
 keywords: SetActiveText(String)
+so.topic: reference
 ---
 
 

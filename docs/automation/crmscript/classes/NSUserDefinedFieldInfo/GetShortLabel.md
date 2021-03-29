@@ -1,9 +1,9 @@
 ---
-title: String GetShortLabel()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetShortLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetShortLabel
+description: NSUserDefinedFieldInfo.GetShortLabel()
+intellisense: NSUserDefinedFieldInfo.GetShortLabel
 keywords: GetShortLabel()
+so.topic: reference
 ---
 
 

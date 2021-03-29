@@ -1,9 +1,9 @@
 ---
-title: NSFindResults
-path: /EJScript/Classes/NSFindResults
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindResults
+description: NSFindResults
+intellisense: Void.NSFindResults
 sortOrder: 3688
+so.topic: reference
 ---
 
 

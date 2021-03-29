@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetUpdated_DateTime_p_0
+description: NSWebhook.SetUpdated(DateTime p_0)
+intellisense: NSWebhook.SetUpdated
 keywords: SetUpdated(DateTime)
+so.topic: reference
 ---
 
 

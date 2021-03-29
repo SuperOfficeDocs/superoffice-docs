@@ -1,8 +1,8 @@
 ---
-title: NSUserValidationResult
-path: /EJScript/Classes/NSUserValidationResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserValidationResult
+description: NSUserValidationResult
+intellisense: Void.NSUserValidationResult
+so.topic: reference
 ---
 
 

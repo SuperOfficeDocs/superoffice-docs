@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoDynamicLink
-path: /EJScript/Classes/NSFieldInfoDynamicLink
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDynamicLink
+description: NSFieldInfoDynamicLink
+intellisense: Void.NSFieldInfoDynamicLink
 sortOrder: 3509
+so.topic: reference
 ---
 
 

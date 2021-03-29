@@ -1,9 +1,9 @@
 ---
-title: NSPerson[] GetColleagues()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson[] GetColleagues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetColleagues
+description: NSPersonAgent.GetColleagues()
+intellisense: NSPersonAgent.GetColleagues
 keywords: GetColleagues()
+so.topic: reference
 ---
 
 

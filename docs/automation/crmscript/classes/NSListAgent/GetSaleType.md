@@ -1,9 +1,9 @@
 ---
-title: NSSaleType GetSaleType(Integer saleTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleType GetSaleType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSaleType_Integer_p_0
+description: NSListAgent.GetSaleType(Integer p_0)
+intellisense: NSListAgent.GetSaleType
 keywords: GetSaleType(Integer)
+so.topic: reference
 ---
 
 

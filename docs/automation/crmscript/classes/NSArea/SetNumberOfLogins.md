@@ -1,10 +1,10 @@
 ---
-title: Void SetNumberOfLogins(Integer NumberOfLogins)
-path: /EJScript/Classes/NSArea/Member functions/Void SetNumberOfLogins(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_SetNumberOfLogins_Integer_p_0
+description: NSArea.SetNumberOfLogins(Integer p_0)
+intellisense: NSArea.SetNumberOfLogins
 sortOrder: 1250
 keywords: SetNumberOfLogins(Integer)
+so.topic: reference
 ---
 
 

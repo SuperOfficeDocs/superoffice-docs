@@ -1,9 +1,9 @@
 ---
-title: Void SetPocketPreferences(NSPreference[] PocketPreferences)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetPocketPreferences(NSPreference[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetPocketPreferences_NSPreference__p_0
+description: NSPocketStartupData.SetPocketPreferences(NSPreference[] p_0)
+intellisense: NSPocketStartupData.SetPocketPreferences
 keywords: SetPocketPreferences(NSPreference[])
+so.topic: reference
 ---
 
 

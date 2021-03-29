@@ -1,10 +1,10 @@
 ---
-title: NSAudienceConfigParameter[] GetConfigParametersByLayoutName(String layoutName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter[] GetConfigParametersByLayoutName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetConfigParametersByLayoutName_String_p_0
+description: NSAudienceAgent.GetConfigParametersByLayoutName(String p_0)
+intellisense: NSAudienceAgent.GetConfigParametersByLayoutName
 sortOrder: 1294
 keywords: GetConfigParametersByLayoutName(String)
+so.topic: reference
 ---
 
 

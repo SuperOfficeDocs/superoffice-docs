@@ -1,10 +1,10 @@
 ---
-title: Void addWhereId(Integer id)
-path: /EJScript/Classes/DBWrite/Member functions/Void addWhereId(Integer id)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DBWrite_addWhereId_Integer_id
+description: DBWrite.addWhereId(Integer id)
+intellisense: DBWrite.addWhereId
 sortOrder: 269
 keywords: addWhereId(Integer)
+so.topic: reference
 ---
 
 

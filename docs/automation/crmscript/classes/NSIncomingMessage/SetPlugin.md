@@ -1,10 +1,10 @@
 ---
-title: Void SetPlugin(String Plugin)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetPlugin(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_SetPlugin_String_p_0
+description: NSIncomingMessage.SetPlugin(String p_0)
+intellisense: NSIncomingMessage.SetPlugin
 sortOrder: 3995
 keywords: SetPlugin(String)
+so.topic: reference
 ---
 
 

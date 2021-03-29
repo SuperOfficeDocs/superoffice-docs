@@ -1,10 +1,10 @@
 ---
-title: Void addInteger(String name, Integer value)
-path: /EJScript/Classes/DBWrite/Member functions/Void addInteger(String name, Integer value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DBWrite_addInteger_String_name_Integer_value
+description: DBWrite.addInteger(String name, Integer value)
+intellisense: DBWrite.addInteger
 sortOrder: 265
 keywords: addInteger(String,Integer)
+so.topic: reference
 ---
 
 

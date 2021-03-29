@@ -1,10 +1,10 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetDeleted
+description: NSExtAppEntity.GetDeleted()
+intellisense: NSExtAppEntity.GetDeleted
 sortOrder: 3357
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

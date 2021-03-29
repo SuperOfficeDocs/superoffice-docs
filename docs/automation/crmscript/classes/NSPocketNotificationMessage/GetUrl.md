@@ -1,9 +1,9 @@
 ---
-title: String GetUrl()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetUrl
+description: NSPocketNotificationMessage.GetUrl()
+intellisense: NSPocketNotificationMessage.GetUrl
 keywords: GetUrl()
+so.topic: reference
 ---
 
 

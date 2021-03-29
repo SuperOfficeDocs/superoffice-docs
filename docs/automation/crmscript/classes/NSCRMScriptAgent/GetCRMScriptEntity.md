@@ -1,10 +1,10 @@
 ---
-title: NSCRMScriptEntity GetCRMScriptEntity(Integer cRMScriptEntityId)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSCRMScriptEntity GetCRMScriptEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_GetCRMScriptEntity_Integer_p_0
+description: NSCRMScriptAgent.GetCRMScriptEntity(Integer p_0)
+intellisense: NSCRMScriptAgent.GetCRMScriptEntity
 sortOrder: 2115
 keywords: GetCRMScriptEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSTicketPriority/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriority_SetValue_String_p_0
+description: NSTicketPriority.SetValue(String p_0)
+intellisense: NSTicketPriority.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

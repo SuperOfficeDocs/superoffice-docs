@@ -1,9 +1,9 @@
 ---
-title: Integer GetAction()
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Integer GetAction()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_GetAction
+description: NSQuoteVersionButtonState.GetAction()
+intellisense: NSQuoteVersionButtonState.GetAction
 keywords: GetAction()
+so.topic: reference
 ---
 
 

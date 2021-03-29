@@ -1,8 +1,8 @@
 ---
-title: NSRefCountEntity
-path: /EJScript/Classes/NSRefCountEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity
+description: NSRefCountEntity
+intellisense: Void.NSRefCountEntity
+so.topic: reference
 ---
 
 

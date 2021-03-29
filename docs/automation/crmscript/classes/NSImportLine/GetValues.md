@@ -1,10 +1,10 @@
 ---
-title: String[] GetValues()
-path: /EJScript/Classes/NSImportLine/Member functions/String[] GetValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_GetValues
+description: NSImportLine.GetValues()
+intellisense: NSImportLine.GetValues
 sortOrder: 3978
 keywords: GetValues()
+so.topic: reference
 ---
 
 

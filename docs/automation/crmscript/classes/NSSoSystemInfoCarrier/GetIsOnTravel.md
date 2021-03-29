@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsOnTravel()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Bool GetIsOnTravel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_GetIsOnTravel
+description: NSSoSystemInfoCarrier.GetIsOnTravel()
+intellisense: NSSoSystemInfoCarrier.GetIsOnTravel
 keywords: GetIsOnTravel()
+so.topic: reference
 ---
 
 

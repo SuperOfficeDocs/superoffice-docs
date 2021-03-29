@@ -1,9 +1,9 @@
 ---
-title: Void setSearchEngine(SearchEngine se)
-path: /EJScript/Classes/StatLib/Member functions/Void setSearchEngine(SearchEngine se)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatLib_setSearchEngine_SearchEngine_se
+description: StatLib.setSearchEngine(SearchEngine se)
+intellisense: StatLib.setSearchEngine
 keywords: setSearchEngine(SearchEngine)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionButtonState GetStateImage()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionButtonState GetStateImage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_GetStateImage
+description: NSQuoteVersionWorkflowState.GetStateImage()
+intellisense: NSQuoteVersionWorkflowState.GetStateImage
 keywords: GetStateImage()
+so.topic: reference
 ---
 
 

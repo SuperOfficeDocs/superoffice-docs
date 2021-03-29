@@ -1,10 +1,10 @@
 ---
-title: NSChangedDataItem[] GetAddedRecords()
-path: /EJScript/Classes/NSChangedData/Member functions/NSChangedDataItem[] GetAddedRecords()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChangedData_GetAddedRecords
+description: NSChangedData.GetAddedRecords()
+intellisense: NSChangedData.GetAddedRecords
 sortOrder: 1500
 keywords: GetAddedRecords()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetListName()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/String GetListName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetListName
+description: NSErpSyncDefaultValue.GetListName()
+intellisense: NSErpSyncDefaultValue.GetListName
 sortOrder: 3262
 keywords: GetListName()
+so.topic: reference
 ---
 
 

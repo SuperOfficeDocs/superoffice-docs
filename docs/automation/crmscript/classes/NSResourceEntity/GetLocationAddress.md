@@ -1,9 +1,9 @@
 ---
-title: String GetLocationAddress()
-path: /EJScript/Classes/NSResourceEntity/Member functions/String GetLocationAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceEntity_GetLocationAddress
+description: NSResourceEntity.GetLocationAddress()
+intellisense: NSResourceEntity.GetLocationAddress
 keywords: GetLocationAddress()
+so.topic: reference
 ---
 
 

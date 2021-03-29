@@ -1,9 +1,9 @@
 ---
-title: NSPaymentType[] GetPaymentTypes()
-path: /EJScript/Classes/NSListAgent/Member functions/NSPaymentType[] GetPaymentTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPaymentTypes
+description: NSListAgent.GetPaymentTypes()
+intellisense: NSListAgent.GetPaymentTypes
 keywords: GetPaymentTypes()
+so.topic: reference
 ---
 
 

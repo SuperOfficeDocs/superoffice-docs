@@ -1,9 +1,9 @@
 ---
-title: String GetERPName()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetERPName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetERPName
+description: NSQuoteConnection.GetERPName()
+intellisense: NSQuoteConnection.GetERPName
 keywords: GetERPName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetSales(NSSaleSummaryItem[] Sales)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetSales(NSSaleSummaryItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactSummary_SetSales_NSSaleSummaryItem__p_0
+description: NSContactSummary.SetSales(NSSaleSummaryItem[] p_0)
+intellisense: NSContactSummary.SetSales
 sortOrder: 1992
 keywords: SetSales(NSSaleSummaryItem[])
+so.topic: reference
 ---
 
 

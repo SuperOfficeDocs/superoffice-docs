@@ -1,10 +1,10 @@
 ---
-title: String GetFormalName()
-path: /EJScript/Classes/NSAssociate/Member functions/String GetFormalName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_GetFormalName
+description: NSAssociate.GetFormalName()
+intellisense: NSAssociate.GetFormalName
 sortOrder: 1261
 keywords: GetFormalName()
+so.topic: reference
 ---
 
 

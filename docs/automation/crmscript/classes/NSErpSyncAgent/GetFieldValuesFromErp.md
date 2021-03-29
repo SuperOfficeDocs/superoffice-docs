@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncFieldValue[] GetFieldValuesFromErp(Integer erpConnectionId, Integer actorTypeErp, String erpKey)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncFieldValue[] GetFieldValuesFromErp(Integer p_0, Integer p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetFieldValuesFromErp_Integer_p_0_Integer_p_1_String_p_2
+description: NSErpSyncAgent.GetFieldValuesFromErp(Integer p_0, Integer p_1, String p_2)
+intellisense: NSErpSyncAgent.GetFieldValuesFromErp
 sortOrder: 3208
 keywords: GetFieldValuesFromErp(Integer,Integer,String)
+so.topic: reference
 ---
 
 

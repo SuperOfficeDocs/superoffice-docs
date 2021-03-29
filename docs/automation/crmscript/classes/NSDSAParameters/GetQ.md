@@ -1,10 +1,10 @@
 ---
-title: NSBinary GetQ()
-path: /EJScript/Classes/NSDSAParameters/Member functions/NSBinary GetQ()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_GetQ
+description: NSDSAParameters.GetQ()
+intellisense: NSDSAParameters.GetQ
 sortOrder: 2710
 keywords: GetQ()
+so.topic: reference
 ---
 
 

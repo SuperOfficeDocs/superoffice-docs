@@ -1,9 +1,9 @@
 ---
-title: String GetPersonPagerNumber()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonPagerNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_GetPersonPagerNumber
+description: NSPhoneListItem.GetPersonPagerNumber()
+intellisense: NSPhoneListItem.GetPersonPagerNumber
 keywords: GetPersonPagerNumber()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSLegalBase/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_GetDeleted
+description: NSLegalBase.GetDeleted()
+intellisense: NSLegalBase.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

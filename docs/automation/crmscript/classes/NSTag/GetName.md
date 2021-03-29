@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSTag/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTag_GetName
+description: NSTag.GetName()
+intellisense: NSTag.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

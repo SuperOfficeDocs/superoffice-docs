@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo p0, Integer p1)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetListTableIdAndUDListDefinitionIdFromSelectedListId_NSUserDefinedFieldInfo_p_0_Integer_p_1
+description: NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo p_0, Integer p_1)
+intellisense: NSUserDefinedFieldInfoAgent.SetListTableIdAndUDListDefinitionIdFromSelectedListId
 keywords: SetListTableIdAndUDListDefinitionIdFromSelectedListId(NSUserDefinedFieldInfo,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPriority(Integer Priority)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetPriority(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetPriority_Integer_p_0
+description: NSTicket.SetPriority(Integer p_0)
+intellisense: NSTicket.SetPriority
 keywords: SetPriority(Integer)
+so.topic: reference
 ---
 
 

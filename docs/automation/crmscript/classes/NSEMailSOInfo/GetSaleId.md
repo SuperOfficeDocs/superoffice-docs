@@ -1,10 +1,10 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetSaleId
+description: NSEMailSOInfo.GetSaleId()
+intellisense: NSEMailSOInfo.GetSaleId
 sortOrder: 3050
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

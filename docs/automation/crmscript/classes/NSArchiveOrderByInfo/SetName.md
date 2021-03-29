@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveOrderByInfo_SetName_String_p_0
+description: NSArchiveOrderByInfo.SetName(String p_0)
+intellisense: NSArchiveOrderByInfo.SetName
 sortOrder: 1199
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

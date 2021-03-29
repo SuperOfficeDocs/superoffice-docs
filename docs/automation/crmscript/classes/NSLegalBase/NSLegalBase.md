@@ -1,8 +1,8 @@
 ---
-title: NSLegalBase
-path: /EJScript/Classes/NSLegalBase
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase
+description: NSLegalBase
+intellisense: Void.NSLegalBase
+so.topic: reference
 ---
 
 

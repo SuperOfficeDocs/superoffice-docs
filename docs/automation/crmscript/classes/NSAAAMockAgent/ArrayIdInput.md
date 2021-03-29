@@ -1,10 +1,10 @@
 ---
-title: Void ArrayIdInput(Integer[] intArrayArgumentIds)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void ArrayIdInput(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_ArrayIdInput_Integer__p_0
+description: NSAAAMockAgent.ArrayIdInput(Integer[] p_0)
+intellisense: NSAAAMockAgent.ArrayIdInput
 sortOrder: 8901
 keywords: ArrayIdInput(Integer[])
+so.topic: reference
 ---
 
 

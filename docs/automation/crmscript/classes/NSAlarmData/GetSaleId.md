@@ -1,10 +1,10 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetSaleId
+description: NSAlarmData.GetSaleId()
+intellisense: NSAlarmData.GetSaleId
 sortOrder: 654
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetShowInMenuBar(Bool ShowInMenuBar)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetShowInMenuBar(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetShowInMenuBar_Bool_p_0
+description: NSWebPanelEntity.SetShowInMenuBar(Bool p_0)
+intellisense: NSWebPanelEntity.SetShowInMenuBar
 keywords: SetShowInMenuBar(Bool)
+so.topic: reference
 ---
 
 

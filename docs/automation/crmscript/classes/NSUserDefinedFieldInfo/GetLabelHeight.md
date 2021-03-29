@@ -1,9 +1,9 @@
 ---
-title: Integer GetLabelHeight()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLabelHeight()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetLabelHeight
+description: NSUserDefinedFieldInfo.GetLabelHeight()
+intellisense: NSUserDefinedFieldInfo.GetLabelHeight
 keywords: GetLabelHeight()
+so.topic: reference
 ---
 
 

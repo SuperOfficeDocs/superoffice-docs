@@ -1,9 +1,9 @@
 ---
-title: String GetLastError(Integer webhookId)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/String GetLastError(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_GetLastError_Integer_p_0
+description: NSWebhookAgent.GetLastError(Integer p_0)
+intellisense: NSWebhookAgent.GetLastError
 keywords: GetLastError(Integer)
+so.topic: reference
 ---
 
 

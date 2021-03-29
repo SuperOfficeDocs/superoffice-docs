@@ -1,10 +1,10 @@
 ---
-title: Void setPricePrUnit(Float price)
-path: /EJScript/Classes/InvoiceEntry/Member functions/Void setPricePrUnit(Float price)
-intellisense: 1
-classref: 1
+title: crmscript_ref_InvoiceEntry_setPricePrUnit_Float_price
+description: InvoiceEntry.setPricePrUnit(Float price)
+intellisense: InvoiceEntry.setPricePrUnit
 sortOrder: 440
 keywords: setPricePrUnit(Float)
+so.topic: reference
 ---
 
 

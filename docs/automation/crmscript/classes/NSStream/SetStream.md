@@ -1,9 +1,9 @@
 ---
-title: Void SetStream(Byte[] p0)
-path: /EJScript/Classes/NSStream/Member functions/Void SetStream(Byte[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStream_SetStream_Byte__p_0
+description: NSStream.SetStream(Byte[] p_0)
+intellisense: NSStream.SetStream
 keywords: SetStream(Byte[])
+so.topic: reference
 ---
 
 

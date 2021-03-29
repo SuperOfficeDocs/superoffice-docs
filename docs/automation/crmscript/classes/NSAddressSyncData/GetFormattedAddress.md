@@ -1,10 +1,10 @@
 ---
-title: String GetFormattedAddress()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetFormattedAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetFormattedAddress
+description: NSAddressSyncData.GetFormattedAddress()
+intellisense: NSAddressSyncData.GetFormattedAddress
 sortOrder: 626
 keywords: GetFormattedAddress()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSArchiveColumnInfo GetColumnInfo()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/NSArchiveColumnInfo GetColumnInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_GetColumnInfo
+description: NSArchiveRestrictionInfo.GetColumnInfo()
+intellisense: NSArchiveRestrictionInfo.GetColumnInfo
 sortOrder: 1218
 keywords: GetColumnInfo()
+so.topic: reference
 ---
 
 

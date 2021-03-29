@@ -1,9 +1,9 @@
 ---
-title: String GetDeviceIdentifier()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetDeviceIdentifier()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetDeviceIdentifier
+description: NSPocketDeviceInfo.GetDeviceIdentifier()
+intellisense: NSPocketDeviceInfo.GetDeviceIdentifier
 keywords: GetDeviceIdentifier()
+so.topic: reference
 ---
 
 

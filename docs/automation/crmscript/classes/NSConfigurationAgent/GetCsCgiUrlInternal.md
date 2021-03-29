@@ -1,10 +1,10 @@
 ---
-title: String GetCsCgiUrlInternal()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetCsCgiUrlInternal()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetCsCgiUrlInternal
+description: NSConfigurationAgent.GetCsCgiUrlInternal()
+intellisense: NSConfigurationAgent.GetCsCgiUrlInternal
 sortOrder: 1608
 keywords: GetCsCgiUrlInternal()
+so.topic: reference
 ---
 
 

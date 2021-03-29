@@ -1,9 +1,9 @@
 ---
-title: NSPhoneListItem[] GetContactPhones(Integer contactId)
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] GetContactPhones(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_GetContactPhones_Integer_p_0
+description: NSPhoneListAgent.GetContactPhones(Integer p_0)
+intellisense: NSPhoneListAgent.GetContactPhones
 keywords: GetContactPhones(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSFavouriteAgent
-path: /EJScript/Classes/NSFavouriteAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavouriteAgent
+description: NSFavouriteAgent
+intellisense: Void.NSFavouriteAgent
 sortOrder: 3445
+so.topic: reference
 ---
 
 

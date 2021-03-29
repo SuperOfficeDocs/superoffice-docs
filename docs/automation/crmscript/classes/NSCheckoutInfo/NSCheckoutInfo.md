@@ -1,9 +1,9 @@
 ---
-title: NSCheckoutInfo
-path: /EJScript/Classes/NSCheckoutInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckoutInfo
+description: NSCheckoutInfo
+intellisense: Void.NSCheckoutInfo
 sortOrder: 1558
+so.topic: reference
 ---
 
 

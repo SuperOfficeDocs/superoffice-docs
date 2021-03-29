@@ -1,10 +1,10 @@
 ---
-title: Bool isNull()
-path: /EJScript/Classes/DateTime/Member functions/Bool isNull()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_isNull
+description: DateTime.isNull()
+intellisense: DateTime.isNull
 sortOrder: 208
 keywords: isNull()
+so.topic: reference
 ---
 
 Returns true if the DateTime is NULL/NUL/NIL

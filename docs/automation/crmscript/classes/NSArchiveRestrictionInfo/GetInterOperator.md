@@ -1,10 +1,10 @@
 ---
-title: Integer GetInterOperator()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Integer GetInterOperator()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_GetInterOperator
+description: NSArchiveRestrictionInfo.GetInterOperator()
+intellisense: NSArchiveRestrictionInfo.GetInterOperator
 sortOrder: 1214
 keywords: GetInterOperator()
+so.topic: reference
 ---
 
 

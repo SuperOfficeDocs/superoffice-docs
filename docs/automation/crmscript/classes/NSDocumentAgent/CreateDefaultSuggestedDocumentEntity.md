@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedDocumentEntity CreateDefaultSuggestedDocumentEntity()
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSSuggestedDocumentEntity CreateDefaultSuggestedDocumentEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateDefaultSuggestedDocumentEntity
+description: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity()
+intellisense: NSDocumentAgent.CreateDefaultSuggestedDocumentEntity
 sortOrder: 2527
 keywords: CreateDefaultSuggestedDocumentEntity()
+so.topic: reference
 ---
 
 

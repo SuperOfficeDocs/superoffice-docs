@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetAssociate_NSAssociate_p_0
+description: NSPersonEntity.SetAssociate(NSAssociate p_0)
+intellisense: NSPersonEntity.SetAssociate
 keywords: SetAssociate(NSAssociate)
+so.topic: reference
 ---
 
 

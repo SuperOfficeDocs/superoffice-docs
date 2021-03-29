@@ -1,9 +1,9 @@
 ---
-title: Integer GetSystemEventId()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetSystemEventId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetSystemEventId
+description: NSSystemEventEntity.GetSystemEventId()
+intellisense: NSSystemEventEntity.GetSystemEventId
 keywords: GetSystemEventId()
+so.topic: reference
 ---
 
 

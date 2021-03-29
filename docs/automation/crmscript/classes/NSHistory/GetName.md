@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSHistory/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_GetName
+description: NSHistory.GetName()
+intellisense: NSHistory.GetName
 sortOrder: 3932
 keywords: GetName()
+so.topic: reference
 ---
 
 

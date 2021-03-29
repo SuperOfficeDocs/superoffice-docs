@@ -1,9 +1,9 @@
 ---
-title: Void DeletePreference(Integer id)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void DeletePreference(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_DeletePreference_Integer_p_0
+description: NSPreferenceAgent.DeletePreference(Integer p_0)
+intellisense: NSPreferenceAgent.DeletePreference
 keywords: DeletePreference(Integer)
+so.topic: reference
 ---
 
 

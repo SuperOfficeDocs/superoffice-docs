@@ -1,9 +1,9 @@
 ---
-title: Integer GetSatPrefix()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetSatPrefix()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetSatPrefix
+description: NSRefCountEntity.GetSatPrefix()
+intellisense: NSRefCountEntity.GetSatPrefix
 keywords: GetSatPrefix()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSmtpTestResult
-path: /EJScript/Classes/NSSmtpTestResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmtpTestResult
+description: NSSmtpTestResult
+intellisense: Void.NSSmtpTestResult
+so.topic: reference
 ---
 
 

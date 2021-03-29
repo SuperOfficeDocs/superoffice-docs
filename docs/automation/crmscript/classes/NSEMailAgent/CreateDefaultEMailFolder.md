@@ -1,10 +1,10 @@
 ---
-title: NSEMailFolder CreateDefaultEMailFolder()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailFolder CreateDefaultEMailFolder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailFolder
+description: NSEMailAgent.CreateDefaultEMailFolder()
+intellisense: NSEMailAgent.CreateDefaultEMailFolder
 sortOrder: 2835
 keywords: CreateDefaultEMailFolder()
+so.topic: reference
 ---
 
 

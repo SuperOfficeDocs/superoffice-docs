@@ -1,9 +1,9 @@
 ---
-title: Void SetAccessFlags(Integer AccessFlags)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetAccessFlags(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetAccessFlags_Integer_p_0
+description: NSPreferenceDescription.SetAccessFlags(Integer p_0)
+intellisense: NSPreferenceDescription.SetAccessFlags
 keywords: SetAccessFlags(Integer)
+so.topic: reference
 ---
 
 

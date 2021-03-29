@@ -1,10 +1,10 @@
 ---
-title: Map getInputValues()
-path: /EJScript/Classes/EventData/member functions/Map getInputValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_getInputValues
+description: EventData.getInputValues()
+intellisense: EventData.getInputValues
 sortOrder: 289
 keywords: getInputValues()
+so.topic: reference
 ---
 
 # Map getInputValues()

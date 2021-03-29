@@ -1,9 +1,9 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetExtraInfo
+description: NSLicenseInfo.GetExtraInfo()
+intellisense: NSLicenseInfo.GetExtraInfo
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

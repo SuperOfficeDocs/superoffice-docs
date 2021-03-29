@@ -1,9 +1,9 @@
 ---
-title: String EndReadStream(String streamId, String communicationModuleName, String communicationModuleVersion, String communicationModuleData)
-path: /EJScript/Classes/NSTrayAppAgent/Member functions/String EndReadStream(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTrayAppAgent_EndReadStream_String_p_0_String_p_1_String_p_2_String_p_3
+description: NSTrayAppAgent.EndReadStream(String p_0, String p_1, String p_2, String p_3)
+intellisense: NSTrayAppAgent.EndReadStream
 keywords: EndReadStream(String,String,String,String)
+so.topic: reference
 ---
 
 

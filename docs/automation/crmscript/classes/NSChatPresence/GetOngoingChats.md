@@ -1,10 +1,10 @@
 ---
-title: Integer GetOngoingChats()
-path: /EJScript/Classes/NSChatPresence/Member functions/Integer GetOngoingChats()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_GetOngoingChats
+description: NSChatPresence.GetOngoingChats()
+intellisense: NSChatPresence.GetOngoingChats
 sortOrder: 1520
 keywords: GetOngoingChats()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSTask GetType()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/NSTask GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetType
+description: NSSuggestedAppointmentEntity.GetType()
+intellisense: NSSuggestedAppointmentEntity.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

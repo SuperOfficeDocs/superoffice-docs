@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteId(Integer QuoteId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetQuoteId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetQuoteId_Integer_p_0
+description: NSQuoteVersion.SetQuoteId(Integer p_0)
+intellisense: NSQuoteVersion.SetQuoteId
 keywords: SetQuoteId(Integer)
+so.topic: reference
 ---
 
 

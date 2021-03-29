@@ -1,10 +1,10 @@
 ---
-title: Bool ToggleFavourite(String tableName, Integer p1, Integer p2, String p3)
-path: /EJScript/Classes/NSFavouriteAgent/Member functions/Bool ToggleFavourite(String p_0, Integer p_1, Integer p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavouriteAgent_ToggleFavourite_String_p_0_Integer_p_1_Integer_p_2_String_p_3
+description: NSFavouriteAgent.ToggleFavourite(String p_0, Integer p_1, Integer p_2, String p_3)
+intellisense: NSFavouriteAgent.ToggleFavourite
 sortOrder: 3448
 keywords: ToggleFavourite(String,Integer,Integer,String)
+so.topic: reference
 ---
 
 

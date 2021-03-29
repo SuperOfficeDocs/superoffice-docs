@@ -1,10 +1,10 @@
 ---
-title: Void SetActivityStatus(String[] activityIdentifier, Integer activityStatus)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void SetActivityStatus(String[] p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_SetActivityStatus_String__p_0_Integer_p_1
+description: NSAppointmentAgent.SetActivityStatus(String[] p_0, Integer p_1)
+intellisense: NSAppointmentAgent.SetActivityStatus
 sortOrder: 919
 keywords: SetActivityStatus(String[],Integer)
+so.topic: reference
 ---
 
 

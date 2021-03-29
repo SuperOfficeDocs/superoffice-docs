@@ -1,9 +1,9 @@
 ---
-title: String GetIconHint()
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/String GetIconHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_GetIconHint
+description: NSQuoteVersionStatusInformation.GetIconHint()
+intellisense: NSQuoteVersionStatusInformation.GetIconHint
 keywords: GetIconHint()
+so.topic: reference
 ---
 
 

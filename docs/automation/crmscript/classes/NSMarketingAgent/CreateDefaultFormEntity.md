@@ -1,9 +1,9 @@
 ---
-title: NSFormEntity CreateDefaultFormEntity()
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormEntity CreateDefaultFormEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent_CreateDefaultFormEntity
+description: NSMarketingAgent.CreateDefaultFormEntity()
+intellisense: NSMarketingAgent.CreateDefaultFormEntity
 keywords: CreateDefaultFormEntity()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetRowCount()
-path: /EJScript/Classes/NSFindResults/Member functions/Integer GetRowCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindResults_GetRowCount
+description: NSFindResults.GetRowCount()
+intellisense: NSFindResults.GetRowCount
 sortOrder: 3690
 keywords: GetRowCount()
+so.topic: reference
 ---
 
 

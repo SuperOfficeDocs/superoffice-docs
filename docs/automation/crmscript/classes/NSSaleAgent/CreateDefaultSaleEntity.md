@@ -1,9 +1,9 @@
 ---
-title: NSSaleEntity CreateDefaultSaleEntity()
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleEntity CreateDefaultSaleEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_CreateDefaultSaleEntity
+description: NSSaleAgent.CreateDefaultSaleEntity()
+intellisense: NSSaleAgent.CreateDefaultSaleEntity
 keywords: CreateDefaultSaleEntity()
+so.topic: reference
 ---
 
 

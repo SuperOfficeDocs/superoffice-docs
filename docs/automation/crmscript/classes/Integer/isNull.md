@@ -1,10 +1,10 @@
 ---
-title: Bool isNull()
-path: /EJScript/Classes/Integer/Member functions/Bool isNull()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Integer_isNull
+description: Integer.isNull()
+intellisense: Integer.isNull
 sortOrder: 424
 keywords: isNull()
+so.topic: reference
 ---
 
 

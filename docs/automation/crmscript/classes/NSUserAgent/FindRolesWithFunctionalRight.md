@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] FindRolesWithFunctionalRight(String functionalRightName)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSMDOListItem[] FindRolesWithFunctionalRight(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRight_String_p_0
+description: NSUserAgent.FindRolesWithFunctionalRight(String p_0)
+intellisense: NSUserAgent.FindRolesWithFunctionalRight
 keywords: FindRolesWithFunctionalRight(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetErrorReason(String ErrorReason)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetErrorReason(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_SetErrorReason_String_p_0
+description: NSEMailAccount.SetErrorReason(String p_0)
+intellisense: NSEMailAccount.SetErrorReason
 sortOrder: 2757
 keywords: SetErrorReason(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetUniqueIdentifier(String UniqueIdentifier)
-path: /EJScript/Classes/NSScript/Member functions/Void SetUniqueIdentifier(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_SetUniqueIdentifier_String_p_0
+description: NSScript.SetUniqueIdentifier(String p_0)
+intellisense: NSScript.SetUniqueIdentifier
 keywords: SetUniqueIdentifier(String)
+so.topic: reference
 ---
 
 

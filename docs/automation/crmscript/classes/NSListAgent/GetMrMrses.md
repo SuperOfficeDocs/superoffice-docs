@@ -1,9 +1,9 @@
 ---
-title: NSMrMrs[] GetMrMrses()
-path: /EJScript/Classes/NSListAgent/Member functions/NSMrMrs[] GetMrMrses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetMrMrses
+description: NSListAgent.GetMrMrses()
+intellisense: NSListAgent.GetMrMrses
 keywords: GetMrMrses()
+so.topic: reference
 ---
 
 

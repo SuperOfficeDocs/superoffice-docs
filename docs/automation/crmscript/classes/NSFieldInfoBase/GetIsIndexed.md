@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsIndexed()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Bool GetIsIndexed()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetIsIndexed
+description: NSFieldInfoBase.GetIsIndexed()
+intellisense: NSFieldInfoBase.GetIsIndexed
 sortOrder: 3464
 keywords: GetIsIndexed()
+so.topic: reference
 ---
 
 

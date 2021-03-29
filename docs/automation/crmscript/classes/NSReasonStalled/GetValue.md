@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSReasonStalled/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReasonStalled_GetValue
+description: NSReasonStalled.GetValue()
+intellisense: NSReasonStalled.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

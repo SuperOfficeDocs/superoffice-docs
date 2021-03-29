@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_GetUpdatedBy
+description: NSAudienceLayoutEntity.GetUpdatedBy()
+intellisense: NSAudienceLayoutEntity.GetUpdatedBy
 sortOrder: 1339
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

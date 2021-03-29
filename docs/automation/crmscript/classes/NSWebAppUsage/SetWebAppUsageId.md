@@ -1,9 +1,9 @@
 ---
-title: Void SetWebAppUsageId(Integer WebAppUsageId)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetWebAppUsageId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_SetWebAppUsageId_Integer_p_0
+description: NSWebAppUsage.SetWebAppUsageId(Integer p_0)
+intellisense: NSWebAppUsage.SetWebAppUsageId
 keywords: SetWebAppUsageId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSContact GetContact()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSContact GetContact()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetContact
+description: NSDocumentEntity.GetContact()
+intellisense: NSDocumentEntity.GetContact
 sortOrder: 2570
 keywords: GetContact()
+so.topic: reference
 ---
 
 

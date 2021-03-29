@@ -1,9 +1,9 @@
 ---
-title: Integer GetStartMonth()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetStartMonth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetStartMonth
+description: NSTimeZoneRule.GetStartMonth()
+intellisense: NSTimeZoneRule.GetStartMonth
 keywords: GetStartMonth()
+so.topic: reference
 ---
 
 

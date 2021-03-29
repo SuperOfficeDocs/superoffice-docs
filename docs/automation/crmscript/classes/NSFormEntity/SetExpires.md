@@ -1,10 +1,10 @@
 ---
-title: Void SetExpires(DateTime Expires)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetExpires(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetExpires_DateTime_p_0
+description: NSFormEntity.SetExpires(DateTime p_0)
+intellisense: NSFormEntity.SetExpires
 sortOrder: 3809
 keywords: SetExpires(DateTime)
+so.topic: reference
 ---
 
 

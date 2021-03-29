@@ -1,10 +1,10 @@
 ---
-title: Void SetColumnWidths(String guiName, String[] columnWidths)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/Void SetColumnWidths(String p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_SetColumnWidths_String_p_0_String__p_1
+description: NSArchiveAgent.SetColumnWidths(String p_0, String[] p_1)
+intellisense: NSArchiveAgent.SetColumnWidths
 sortOrder: 1123
 keywords: SetColumnWidths(String,String[])
+so.topic: reference
 ---
 
 

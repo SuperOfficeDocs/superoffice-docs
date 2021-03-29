@@ -1,10 +1,10 @@
 ---
-title: Void CollectWinUsage()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void CollectWinUsage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_CollectWinUsage
+description: NSDiagnosticsAgent.CollectWinUsage()
+intellisense: NSDiagnosticsAgent.CollectWinUsage
 sortOrder: 2398
 keywords: CollectWinUsage()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetExternalKey()
-path: /EJScript/Classes/NSImportLine/Member functions/String GetExternalKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_GetExternalKey
+description: NSImportLine.GetExternalKey()
+intellisense: NSImportLine.GetExternalKey
 sortOrder: 3977
 keywords: GetExternalKey()
+so.topic: reference
 ---
 
 

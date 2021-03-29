@@ -1,9 +1,9 @@
 ---
-title: NSCustomerCenterConfig
-path: /EJScript/Classes/NSCustomerCenterConfig
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig
+description: NSCustomerCenterConfig
+intellisense: Void.NSCustomerCenterConfig
 sortOrder: 2193
+so.topic: reference
 ---
 
 

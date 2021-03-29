@@ -1,10 +1,10 @@
 ---
-title: NSBinary GetSeed()
-path: /EJScript/Classes/NSDSAParameters/Member functions/NSBinary GetSeed()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_GetSeed
+description: NSDSAParameters.GetSeed()
+intellisense: NSDSAParameters.GetSeed
 sortOrder: 2711
 keywords: GetSeed()
+so.topic: reference
 ---
 
 

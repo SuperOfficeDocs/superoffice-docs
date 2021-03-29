@@ -1,10 +1,10 @@
 ---
-title: Void SetIsDefault(Bool IsDefault)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetIsDefault(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetIsDefault_Bool_p_0
+description: NSDashboardTile.SetIsDefault(Bool p_0)
+intellisense: NSDashboardTile.SetIsDefault
 sortOrder: 2311
 keywords: SetIsDefault(Bool)
+so.topic: reference
 ---
 
 

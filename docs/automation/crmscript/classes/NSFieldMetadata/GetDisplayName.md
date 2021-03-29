@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetDisplayName
+description: NSFieldMetadata.GetDisplayName()
+intellisense: NSFieldMetadata.GetDisplayName
 sortOrder: 3582
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_SetRank_Integer_p_0
+description: NSUserInfo.SetRank(Integer p_0)
+intellisense: NSUserInfo.SetRank
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetLinkHint(String LinkHint)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetLinkHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_SetLinkHint_String_p_0
+description: NSArchiveListItem.SetLinkHint(String p_0)
+intellisense: NSArchiveListItem.SetLinkHint
 sortOrder: 1185
 keywords: SetLinkHint(String)
+so.topic: reference
 ---
 
 

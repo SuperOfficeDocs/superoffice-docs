@@ -1,10 +1,10 @@
 ---
-title: String GetTask()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetTask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetTask
+description: NSAppointment.GetTask()
+intellisense: NSAppointment.GetTask
 sortOrder: 765
 keywords: GetTask()
+so.topic: reference
 ---
 
 

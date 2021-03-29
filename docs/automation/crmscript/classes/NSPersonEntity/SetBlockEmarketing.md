@@ -1,9 +1,9 @@
 ---
-title: Void SetBlockEmarketing(Integer p0)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetBlockEmarketing(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetBlockEmarketing_Integer_p_0
+description: NSPersonEntity.SetBlockEmarketing(Integer p_0)
+intellisense: NSPersonEntity.SetBlockEmarketing
 keywords: SetBlockEmarketing(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetHasBeenPublished(Bool HasBeenPublished)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetHasBeenPublished(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetHasBeenPublished_Bool_p_0
+description: NSUserDefinedFieldInfo.SetHasBeenPublished(Bool p_0)
+intellisense: NSUserDefinedFieldInfo.SetHasBeenPublished
 keywords: SetHasBeenPublished(Bool)
+so.topic: reference
 ---
 
 

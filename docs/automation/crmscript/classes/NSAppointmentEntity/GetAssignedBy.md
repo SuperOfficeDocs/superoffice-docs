@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetAssignedBy()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSAssociate GetAssignedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetAssignedBy
+description: NSAppointmentEntity.GetAssignedBy()
+intellisense: NSAppointmentEntity.GetAssignedBy
 sortOrder: 956
 keywords: GetAssignedBy()
+so.topic: reference
 ---
 
 

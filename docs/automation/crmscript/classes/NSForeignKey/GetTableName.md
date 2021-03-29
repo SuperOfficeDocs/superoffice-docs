@@ -1,10 +1,10 @@
 ---
-title: String GetTableName()
-path: /EJScript/Classes/NSForeignKey/Member functions/String GetTableName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_GetTableName
+description: NSForeignKey.GetTableName()
+intellisense: NSForeignKey.GetTableName
 sortOrder: 3739
 keywords: GetTableName()
+so.topic: reference
 ---
 
 

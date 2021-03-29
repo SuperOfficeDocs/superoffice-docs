@@ -1,9 +1,9 @@
 ---
-title: Float GetSubscriptionQuantity()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetSubscriptionQuantity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetSubscriptionQuantity
+description: NSQuoteLine.GetSubscriptionQuantity()
+intellisense: NSQuoteLine.GetSubscriptionQuantity
 keywords: GetSubscriptionQuantity()
+so.topic: reference
 ---
 
 

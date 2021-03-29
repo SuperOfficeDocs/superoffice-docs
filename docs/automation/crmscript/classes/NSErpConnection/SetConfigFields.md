@@ -1,10 +1,10 @@
 ---
-title: Void SetConfigFields(Map p0)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetConfigFields(Map p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetConfigFields_Map_p_0
+description: NSErpConnection.SetConfigFields(Map p_0)
+intellisense: NSErpConnection.SetConfigFields
 sortOrder: 3094
 keywords: SetConfigFields(Map)
+so.topic: reference
 ---
 
 

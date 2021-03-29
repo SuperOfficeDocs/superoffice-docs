@@ -1,9 +1,9 @@
 ---
-title: Void SetSentInfo(Integer SentInfo)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetSentInfo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetSentInfo_Integer_p_0
+description: NSPersonEntity.SetSentInfo(Integer p_0)
+intellisense: NSPersonEntity.SetSentInfo
 keywords: SetSentInfo(Integer)
+so.topic: reference
 ---
 
 

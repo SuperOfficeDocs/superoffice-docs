@@ -1,10 +1,10 @@
 ---
-title: NSAddress[] GetQuoteVersionAddresses(Integer quoteVersionId)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSAddress[] GetQuoteVersionAddresses(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetQuoteVersionAddresses_Integer_p_0
+description: NSContactAgent.GetQuoteVersionAddresses(Integer p_0)
+intellisense: NSContactAgent.GetQuoteVersionAddresses
 sortOrder: 1802
 keywords: GetQuoteVersionAddresses(Integer)
+so.topic: reference
 ---
 
 

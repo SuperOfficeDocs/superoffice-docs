@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetActivatedBy()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/NSAssociate GetActivatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetActivatedBy
+description: NSSystemEventEntity.GetActivatedBy()
+intellisense: NSSystemEventEntity.GetActivatedBy
 keywords: GetActivatedBy()
+so.topic: reference
 ---
 
 

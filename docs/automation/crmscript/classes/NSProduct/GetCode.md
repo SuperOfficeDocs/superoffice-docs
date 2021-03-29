@@ -1,9 +1,9 @@
 ---
-title: String GetCode()
-path: /EJScript/Classes/NSProduct/Member functions/String GetCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetCode
+description: NSProduct.GetCode()
+intellisense: NSProduct.GetCode
 keywords: GetCode()
+so.topic: reference
 ---
 
 

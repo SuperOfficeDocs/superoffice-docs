@@ -1,9 +1,9 @@
 ---
-title: NSXmlDocument GetTaskRequest(String parameters)
-path: /EJScript/Classes/NSTrayAppAgent/Member functions/NSXmlDocument GetTaskRequest(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTrayAppAgent_GetTaskRequest_String_p_0
+description: NSTrayAppAgent.GetTaskRequest(String p_0)
+intellisense: NSTrayAppAgent.GetTaskRequest
 keywords: GetTaskRequest(String)
+so.topic: reference
 ---
 
 

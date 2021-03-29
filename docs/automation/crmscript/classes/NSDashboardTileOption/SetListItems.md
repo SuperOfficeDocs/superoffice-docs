@@ -1,10 +1,10 @@
 ---
-title: Void SetListItems(NSMDOListItem[] ListItems)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetListItems(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_SetListItems_NSMDOListItem__p_0
+description: NSDashboardTileOption.SetListItems(NSMDOListItem[] p_0)
+intellisense: NSDashboardTileOption.SetListItems
 sortOrder: 2327
 keywords: SetListItems(NSMDOListItem[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetActive()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Bool GetActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_GetActive
+description: NSErpSyncConnectionSummary.GetActive()
+intellisense: NSErpSyncConnectionSummary.GetActive
 sortOrder: 3227
 keywords: GetActive()
+so.topic: reference
 ---
 
 

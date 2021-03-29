@@ -1,9 +1,9 @@
 ---
-title: NSDepartment[] GetDepartmentList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDepartment[] GetDepartmentList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDepartmentList_Integer__p_0
+description: NSListAgent.GetDepartmentList(Integer[] p_0)
+intellisense: NSListAgent.GetDepartmentList
 keywords: GetDepartmentList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Department objects.

@@ -1,9 +1,9 @@
 ---
-title: NSCurrencyEntity GetBaseCurrency()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity GetBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetBaseCurrency
+description: NSListAgent.GetBaseCurrency()
+intellisense: NSListAgent.GetBaseCurrency
 keywords: GetBaseCurrency()
+so.topic: reference
 ---
 
 

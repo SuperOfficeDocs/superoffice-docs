@@ -1,9 +1,9 @@
 ---
-title: Void addCell(String value)
-path: /EJScript/Classes/StringMatrix/Member functions/Void addCell(String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_addCell_String_value
+description: StringMatrix.addCell(String value)
+intellisense: StringMatrix.addCell
 keywords: addCell(String)
+so.topic: reference
 ---
 
 

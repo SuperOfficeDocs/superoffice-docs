@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_GetCreatedBy
+description: NSAudienceLayoutEntity.GetCreatedBy()
+intellisense: NSAudienceLayoutEntity.GetCreatedBy
 sortOrder: 1338
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

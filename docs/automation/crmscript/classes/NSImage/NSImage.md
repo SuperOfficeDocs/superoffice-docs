@@ -1,9 +1,9 @@
 ---
-title: NSImage
-path: /EJScript/Classes/NSImage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImage
+description: NSImage
+intellisense: Void.NSImage
 sortOrder: 3948
+so.topic: reference
 ---
 
 

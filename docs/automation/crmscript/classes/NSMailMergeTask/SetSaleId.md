@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetSaleId_Integer_p_0
+description: NSMailMergeTask.SetSaleId(Integer p_0)
+intellisense: NSMailMergeTask.SetSaleId
 keywords: SetSaleId(Integer)
+so.topic: reference
 ---
 
 

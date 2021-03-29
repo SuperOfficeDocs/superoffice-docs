@@ -1,9 +1,9 @@
 ---
-title: NSTableRight GetTableRightByOwnership(String tableName, Integer contactGroupId, Integer contactAssociateId)
-path: /EJScript/Classes/NSSentryAgent/Member functions/NSTableRight GetTableRightByOwnership(String p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent_GetTableRightByOwnership_String_p_0_Integer_p_1_Integer_p_2
+description: NSSentryAgent.GetTableRightByOwnership(String p_0, Integer p_1, Integer p_2)
+intellisense: NSSentryAgent.GetTableRightByOwnership
 keywords: GetTableRightByOwnership(String,Integer,Integer)
+so.topic: reference
 ---
 
 

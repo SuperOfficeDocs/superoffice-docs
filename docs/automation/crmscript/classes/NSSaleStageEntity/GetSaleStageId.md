@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleStageId()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Integer GetSaleStageId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStageEntity_GetSaleStageId
+description: NSSaleStageEntity.GetSaleStageId()
+intellisense: NSSaleStageEntity.GetSaleStageId
 keywords: GetSaleStageId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetMemberCount(Integer MemberCount)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetMemberCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetMemberCount_Integer_p_0
+description: NSSelectionEntity.SetMemberCount(Integer p_0)
+intellisense: NSSelectionEntity.SetMemberCount
 keywords: SetMemberCount(Integer)
+so.topic: reference
 ---
 
 

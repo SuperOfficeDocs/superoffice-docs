@@ -1,9 +1,9 @@
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_SetIconHint_String_p_0
+description: NSMDOListItem.SetIconHint(String p_0)
+intellisense: NSMDOListItem.SetIconHint
 keywords: SetIconHint(String)
+so.topic: reference
 ---
 
 

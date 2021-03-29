@@ -1,8 +1,8 @@
 ---
-title: NSReturnInfo
-path: /EJScript/Classes/NSReturnInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReturnInfo
+description: NSReturnInfo
+intellisense: Void.NSReturnInfo
+so.topic: reference
 ---
 
 

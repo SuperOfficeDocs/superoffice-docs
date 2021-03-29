@@ -1,9 +1,9 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/SpmCustomerList/Member functions/Integer save()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmCustomerList_save
+description: SpmCustomerList.save()
+intellisense: SpmCustomerList.save
 keywords: save()
+so.topic: reference
 ---
 
 

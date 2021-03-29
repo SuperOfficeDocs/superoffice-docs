@@ -1,9 +1,9 @@
 ---
-title: Void SetUrlEncoding(Integer UrlEncoding)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetUrlEncoding(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetUrlEncoding_Integer_p_0
+description: NSWebPanelEntity.SetUrlEncoding(Integer p_0)
+intellisense: NSWebPanelEntity.SetUrlEncoding
 keywords: SetUrlEncoding(Integer)
+so.topic: reference
 ---
 
 

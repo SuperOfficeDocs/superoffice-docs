@@ -1,9 +1,9 @@
 ---
-title: String[] findRelations(String p0, Bool p1)
-path: /EJScript/Classes/SearchEngine/member functions/String[] findRelations(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_findRelations_String_p_0_Bool_p_1
+description: SearchEngine.findRelations(String p_0, Bool p_1)
+intellisense: SearchEngine.findRelations
 keywords: findRelations(String,Bool)
+so.topic: reference
 ---
 
 

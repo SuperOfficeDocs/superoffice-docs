@@ -1,9 +1,9 @@
 ---
-title: Void SetFieldDefault(String FieldDefault)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldDefault(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldDefault_String_p_0
+description: NSUserDefinedFieldInfo.SetFieldDefault(String p_0)
+intellisense: NSUserDefinedFieldInfo.SetFieldDefault
 keywords: SetFieldDefault(String)
+so.topic: reference
 ---
 
 

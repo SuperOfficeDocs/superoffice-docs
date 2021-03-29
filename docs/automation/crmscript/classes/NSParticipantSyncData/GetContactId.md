@@ -1,9 +1,9 @@
 ---
-title: Integer GetContactId()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetContactId
+description: NSParticipantSyncData.GetContactId()
+intellisense: NSParticipantSyncData.GetContactId
 keywords: GetContactId()
+so.topic: reference
 ---
 
 

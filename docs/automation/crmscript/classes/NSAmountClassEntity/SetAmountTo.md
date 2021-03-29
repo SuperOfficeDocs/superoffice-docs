@@ -1,10 +1,10 @@
 ---
-title: Void SetAmountTo(Float AmountTo)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetAmountTo(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_SetAmountTo_Float_p_0
+description: NSAmountClassEntity.SetAmountTo(Float p_0)
+intellisense: NSAmountClassEntity.SetAmountTo
 sortOrder: 705
 keywords: SetAmountTo(Float)
+so.topic: reference
 ---
 
 

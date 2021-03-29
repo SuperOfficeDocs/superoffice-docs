@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo info, Integer fieldType, Bool isIndexed)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo ChangeFieldType(NSUserDefinedFieldInfo p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_ChangeFieldType_NSUserDefinedFieldInfo_p_0_Integer_p_1_Bool_p_2
+description: NSUserDefinedFieldInfoAgent.ChangeFieldType(NSUserDefinedFieldInfo p_0, Integer p_1, Bool p_2)
+intellisense: NSUserDefinedFieldInfoAgent.ChangeFieldType
 keywords: ChangeFieldType(NSUserDefinedFieldInfo,Integer,Bool)
+so.topic: reference
 ---
 
 

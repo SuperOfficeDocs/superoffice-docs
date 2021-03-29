@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveOrderByInfo_GetName
+description: NSArchiveOrderByInfo.GetName()
+intellisense: NSArchiveOrderByInfo.GetName
 sortOrder: 1197
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSentryAgent
-path: /EJScript/Classes/NSSentryAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent
+description: NSSentryAgent
+intellisense: Void.NSSentryAgent
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Time getMonStart()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getMonStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_getMonStart
+description: WeekSchedule.getMonStart()
+intellisense: WeekSchedule.getMonStart
 keywords: getMonStart()
+so.topic: reference
 ---
 
 

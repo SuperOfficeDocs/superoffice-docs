@@ -1,8 +1,8 @@
 ---
-title: NSQuoteListItem
-path: /EJScript/Classes/NSQuoteListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteListItem
+description: NSQuoteListItem
+intellisense: Void.NSQuoteListItem
+so.topic: reference
 ---
 
 

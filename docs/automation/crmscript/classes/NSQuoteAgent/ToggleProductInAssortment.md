@@ -1,9 +1,9 @@
 ---
-title: Void ToggleProductInAssortment(Integer productId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void ToggleProductInAssortment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_ToggleProductInAssortment_Integer_p_0
+description: NSQuoteAgent.ToggleProductInAssortment(Integer p_0)
+intellisense: NSQuoteAgent.ToggleProductInAssortment
 keywords: ToggleProductInAssortment(Integer)
+so.topic: reference
 ---
 
 

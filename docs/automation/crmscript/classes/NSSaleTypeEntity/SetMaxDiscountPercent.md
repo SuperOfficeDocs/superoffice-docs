@@ -1,9 +1,9 @@
 ---
-title: Void SetMaxDiscountPercent(Integer MaxDiscountPercent)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetMaxDiscountPercent(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetMaxDiscountPercent_Integer_p_0
+description: NSSaleTypeEntity.SetMaxDiscountPercent(Integer p_0)
+intellisense: NSSaleTypeEntity.SetMaxDiscountPercent
 keywords: SetMaxDiscountPercent(Integer)
+so.topic: reference
 ---
 
 

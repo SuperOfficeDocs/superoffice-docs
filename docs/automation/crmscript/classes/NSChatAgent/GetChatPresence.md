@@ -1,10 +1,10 @@
 ---
-title: NSChatPresence[] GetChatPresence()
-path: /EJScript/Classes/NSChatAgent/Member functions/NSChatPresence[] GetChatPresence()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatAgent_GetChatPresence
+description: NSChatAgent.GetChatPresence()
+intellisense: NSChatAgent.GetChatPresence
 sortOrder: 1515
 keywords: GetChatPresence()
+so.topic: reference
 ---
 
 

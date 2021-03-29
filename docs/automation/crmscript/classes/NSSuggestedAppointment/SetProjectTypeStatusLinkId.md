@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectTypeStatusLinkId(Integer ProjectTypeStatusLinkId)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetProjectTypeStatusLinkId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetProjectTypeStatusLinkId_Integer_p_0
+description: NSSuggestedAppointment.SetProjectTypeStatusLinkId(Integer p_0)
+intellisense: NSSuggestedAppointment.SetProjectTypeStatusLinkId
 keywords: SetProjectTypeStatusLinkId(Integer)
+so.topic: reference
 ---
 
 

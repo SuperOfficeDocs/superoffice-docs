@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo userDefinedFieldInfo)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo_NSUserDefinedFieldInfo_p_0
+description: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo p_0)
+intellisense: NSUserDefinedFieldInfoAgent.SaveUserDefinedFieldInfo
 keywords: SaveUserDefinedFieldInfo(NSUserDefinedFieldInfo)
+so.topic: reference
 ---
 
 

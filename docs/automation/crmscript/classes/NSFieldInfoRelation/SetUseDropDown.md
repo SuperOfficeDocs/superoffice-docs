@@ -1,10 +1,10 @@
 ---
-title: Void SetUseDropDown(Bool UseDropDown)
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Void SetUseDropDown(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_SetUseDropDown_Bool_p_0
+description: NSFieldInfoRelation.SetUseDropDown(Bool p_0)
+intellisense: NSFieldInfoRelation.SetUseDropDown
 sortOrder: 3544
 keywords: SetUseDropDown(Bool)
+so.topic: reference
 ---
 
 

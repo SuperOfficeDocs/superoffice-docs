@@ -1,9 +1,9 @@
 ---
-title: NSForeignDevice
-path: /EJScript/Classes/NSForeignDevice
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice
+description: NSForeignDevice
+intellisense: Void.NSForeignDevice
 sortOrder: 3712
+so.topic: reference
 ---
 
 

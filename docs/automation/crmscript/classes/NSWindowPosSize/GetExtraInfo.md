@@ -1,9 +1,9 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetExtraInfo
+description: NSWindowPosSize.GetExtraInfo()
+intellisense: NSWindowPosSize.GetExtraInfo
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

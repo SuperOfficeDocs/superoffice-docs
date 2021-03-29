@@ -1,9 +1,9 @@
 ---
-title: Integer GetUdefIdentity()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetUdefIdentity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetUdefIdentity
+description: NSUserDefinedFieldInfo.GetUdefIdentity()
+intellisense: NSUserDefinedFieldInfo.GetUdefIdentity
 keywords: GetUdefIdentity()
+so.topic: reference
 ---
 
 

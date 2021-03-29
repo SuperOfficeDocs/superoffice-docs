@@ -1,9 +1,9 @@
 ---
-title: NSTask GetDocumentTemplateTask(Integer documentTemplateId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask GetDocumentTemplateTask(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateTask_Integer_p_0
+description: NSListAgent.GetDocumentTemplateTask(Integer p_0)
+intellisense: NSListAgent.GetDocumentTemplateTask
 keywords: GetDocumentTemplateTask(Integer)
+so.topic: reference
 ---
 
 

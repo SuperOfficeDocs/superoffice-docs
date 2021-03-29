@@ -1,9 +1,9 @@
 ---
-title: String GetOwnerWindow()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/String GetOwnerWindow()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetOwnerWindow
+description: NSWindowPosSize.GetOwnerWindow()
+intellisense: NSWindowPosSize.GetOwnerWindow
 keywords: GetOwnerWindow()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetDayPattern(NSRecurrenceDayPattern p0)
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Void SetDayPattern(NSRecurrenceDayPattern p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceInfo_SetDayPattern_NSRecurrenceDayPattern_p_0
+description: NSRecurrenceInfo.SetDayPattern(NSRecurrenceDayPattern p_0)
+intellisense: NSRecurrenceInfo.SetDayPattern
 keywords: SetDayPattern(NSRecurrenceDayPattern)
+so.topic: reference
 ---
 
 

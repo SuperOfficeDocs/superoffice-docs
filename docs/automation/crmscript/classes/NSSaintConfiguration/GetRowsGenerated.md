@@ -1,9 +1,9 @@
 ---
-title: Integer GetRowsGenerated()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetRowsGenerated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_GetRowsGenerated
+description: NSSaintConfiguration.GetRowsGenerated()
+intellisense: NSSaintConfiguration.GetRowsGenerated
 keywords: GetRowsGenerated()
+so.topic: reference
 ---
 
 

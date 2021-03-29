@@ -1,10 +1,10 @@
 ---
-title: Integer GetRecordId()
-path: /EJScript/Classes/NSFavourite/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavourite_GetRecordId
+description: NSFavourite.GetRecordId()
+intellisense: NSFavourite.GetRecordId
 sortOrder: 3437
 keywords: GetRecordId()
+so.topic: reference
 ---
 
 

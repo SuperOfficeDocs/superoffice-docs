@@ -1,9 +1,9 @@
 ---
-title: Void SetFieldLabel(String FieldLabel)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldLabel(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldLabel_String_p_0
+description: NSUserDefinedFieldInfo.SetFieldLabel(String p_0)
+intellisense: NSUserDefinedFieldInfo.SetFieldLabel
 keywords: SetFieldLabel(String)
+so.topic: reference
 ---
 
 

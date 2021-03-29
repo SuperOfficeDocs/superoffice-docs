@@ -1,10 +1,10 @@
 ---
-title: Void SetTickets(NSTicketSummaryItem[] Tickets)
-path: /EJScript/Classes/NSContactSummary/Member functions/Void SetTickets(NSTicketSummaryItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactSummary_SetTickets_NSTicketSummaryItem__p_0
+description: NSContactSummary.SetTickets(NSTicketSummaryItem[] p_0)
+intellisense: NSContactSummary.SetTickets
 sortOrder: 1993
 keywords: SetTickets(NSTicketSummaryItem[])
+so.topic: reference
 ---
 
 

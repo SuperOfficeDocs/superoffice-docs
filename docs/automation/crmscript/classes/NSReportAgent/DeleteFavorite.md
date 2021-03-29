@@ -1,9 +1,9 @@
 ---
-title: Void DeleteFavorite(Integer reportEntityId)
-path: /EJScript/Classes/NSReportAgent/Member functions/Void DeleteFavorite(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_DeleteFavorite_Integer_p_0
+description: NSReportAgent.DeleteFavorite(Integer p_0)
+intellisense: NSReportAgent.DeleteFavorite
 keywords: DeleteFavorite(Integer)
+so.topic: reference
 ---
 
 

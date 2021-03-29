@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraInfo(NSProductExtraDataField[] ExtraInfo)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetExtraInfo(NSProductExtraDataField[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetExtraInfo_NSProductExtraDataField__p_0
+description: NSProduct.SetExtraInfo(NSProductExtraDataField[] p_0)
+intellisense: NSProduct.SetExtraInfo
 keywords: SetExtraInfo(NSProductExtraDataField[])
+so.topic: reference
 ---
 
 

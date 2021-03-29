@@ -1,10 +1,10 @@
 ---
-title: Bool EventHandlerExists(Integer eventHandlerType)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Bool EventHandlerExists(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_EventHandlerExists_Integer_p_0
+description: NSCustomerServiceAgent.EventHandlerExists(Integer p_0)
+intellisense: NSCustomerServiceAgent.EventHandlerExists
 sortOrder: 2222
 keywords: EventHandlerExists(Integer)
+so.topic: reference
 ---
 
 

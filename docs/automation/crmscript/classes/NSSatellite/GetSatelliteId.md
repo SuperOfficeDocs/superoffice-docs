@@ -1,9 +1,9 @@
 ---
-title: Integer GetSatelliteId()
-path: /EJScript/Classes/NSSatellite/Member functions/Integer GetSatelliteId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_GetSatelliteId
+description: NSSatellite.GetSatelliteId()
+intellisense: NSSatellite.GetSatelliteId
 keywords: GetSatelliteId()
+so.topic: reference
 ---
 
 

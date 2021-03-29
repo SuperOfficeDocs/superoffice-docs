@@ -1,10 +1,10 @@
 ---
-title: Void SetPresent(Bool Present)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetPresent(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_SetPresent_Bool_p_0
+description: NSChatPresence.SetPresent(Bool p_0)
+intellisense: NSChatPresence.SetPresent
 sortOrder: 1527
 keywords: SetPresent(Bool)
+so.topic: reference
 ---
 
 

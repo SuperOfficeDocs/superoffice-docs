@@ -1,9 +1,9 @@
 ---
-title: Void SetUserLanguageCode(String UserLanguageCode)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetUserLanguageCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_SetUserLanguageCode_String_p_0
+description: NSQuoteContext.SetUserLanguageCode(String p_0)
+intellisense: NSQuoteContext.SetUserLanguageCode
 keywords: SetUserLanguageCode(String)
+so.topic: reference
 ---
 
 

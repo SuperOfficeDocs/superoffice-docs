@@ -1,8 +1,8 @@
 ---
-title: NSQuotePublishDocuments
-path: /EJScript/Classes/NSQuotePublishDocuments
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments
+description: NSQuotePublishDocuments
+intellisense: Void.NSQuotePublishDocuments
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool SessionIsValid(String csSessionKey)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Bool SessionIsValid(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_SessionIsValid_String_p_0
+description: NSCustomerServiceAgent.SessionIsValid(String p_0)
+intellisense: NSCustomerServiceAgent.SessionIsValid
 sortOrder: 2224
 keywords: SessionIsValid(String)
+so.topic: reference
 ---
 
 

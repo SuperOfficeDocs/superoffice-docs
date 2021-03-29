@@ -1,10 +1,10 @@
 ---
-title: Integer[] SaveImport(NSImportLine[] importLines, String[] columnDefinition, Bool createSelection, String culture, String context)
-path: /EJScript/Classes/NSImportAgent/Member functions/Integer[] SaveImport(NSImportLine[] p_0, String[] p_1, Bool p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportAgent_SaveImport_NSImportLine__p_0_String__p_1_Bool_p_2_String_p_3_String_p_4
+description: NSImportAgent.SaveImport(NSImportLine[] p_0, String[] p_1, Bool p_2, String p_3, String p_4)
+intellisense: NSImportAgent.SaveImport
 sortOrder: 3954
 keywords: SaveImport(NSImportLine[],String[],Bool,String,String)
+so.topic: reference
 ---
 
 

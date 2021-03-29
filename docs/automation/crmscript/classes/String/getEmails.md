@@ -1,9 +1,9 @@
 ---
-title: Vector getEmails()
-path: /EJScript/Classes/String/Member functions/Vector getEmails()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_getEmails
+description: String.getEmails()
+intellisense: String.getEmails
 keywords: getEmails()
+so.topic: reference
 ---
 
 

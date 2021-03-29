@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayType(Integer DisplayType)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetDisplayType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetDisplayType_Integer_p_0
+description: NSPreference.SetDisplayType(Integer p_0)
+intellisense: NSPreference.SetDisplayType
 keywords: SetDisplayType(Integer)
+so.topic: reference
 ---
 
 

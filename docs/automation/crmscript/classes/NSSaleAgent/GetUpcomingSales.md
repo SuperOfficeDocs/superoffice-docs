@@ -1,9 +1,9 @@
 ---
-title: NSSale[] GetUpcomingSales(Integer weightedAmountLimit, Integer count)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetUpcomingSales(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetUpcomingSales_Integer_p_0_Integer_p_1
+description: NSSaleAgent.GetUpcomingSales(Integer p_0, Integer p_1)
+intellisense: NSSaleAgent.GetUpcomingSales
 keywords: GetUpcomingSales(Integer,Integer)
+so.topic: reference
 ---
 
 

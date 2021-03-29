@@ -1,9 +1,9 @@
 ---
-title: NSApproveRejectResponse ApproveQuoteVersion(Integer quoteVersionId, String approvedByText, Integer approvedByAssociateId, String approvalText)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSApproveRejectResponse ApproveQuoteVersion(Integer p_0, String p_1, Integer p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_ApproveQuoteVersion_Integer_p_0_String_p_1_Integer_p_2_String_p_3
+description: NSQuoteAgent.ApproveQuoteVersion(Integer p_0, String p_1, Integer p_2, String p_3)
+intellisense: NSQuoteAgent.ApproveQuoteVersion
 keywords: ApproveQuoteVersion(Integer,String,Integer,String)
+so.topic: reference
 ---
 
 

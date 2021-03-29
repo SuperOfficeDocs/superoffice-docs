@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetAssociate(Integer associateId)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/NSAssociate GetAssociate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_GetAssociate_Integer_p_0
+description: NSAssociateAgent.GetAssociate(Integer p_0)
+intellisense: NSAssociateAgent.GetAssociate
 sortOrder: 1280
 keywords: GetAssociate(Integer)
+so.topic: reference
 ---
 
 

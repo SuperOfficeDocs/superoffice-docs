@@ -1,10 +1,10 @@
 ---
-title: String GetDisposition()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetDisposition()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_GetDisposition
+description: NSEMailAttachment.GetDisposition()
+intellisense: NSEMailAttachment.GetDisposition
 sortOrder: 2895
 keywords: GetDisposition()
+so.topic: reference
 ---
 
 

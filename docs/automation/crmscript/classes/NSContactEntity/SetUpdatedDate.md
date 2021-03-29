@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedDate(DateTime UpdatedDate)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetUpdatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetUpdatedDate_DateTime_p_0
+description: NSContactEntity.SetUpdatedDate(DateTime p_0)
+intellisense: NSContactEntity.SetUpdatedDate
 sortOrder: 1914
 keywords: SetUpdatedDate(DateTime)
+so.topic: reference
 ---
 
 

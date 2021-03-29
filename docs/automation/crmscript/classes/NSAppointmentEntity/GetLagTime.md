@@ -1,10 +1,10 @@
 ---
-title: TimeSpan GetLagTime()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/TimeSpan GetLagTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetLagTime
+description: NSAppointmentEntity.GetLagTime()
+intellisense: NSAppointmentEntity.GetLagTime
 sortOrder: 977
 keywords: GetLagTime()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetPeriod3()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetPeriod3()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_GetPeriod3
+description: NSSaintConfiguration.GetPeriod3()
+intellisense: NSSaintConfiguration.GetPeriod3
 keywords: GetPeriod3()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(NSQuoteVersionStatusInformation Status)
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/Void SetStatus(NSQuoteVersionStatusInformation p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_SetStatus_NSQuoteVersionStatusInformation_p_0
+description: NSQuoteVersionWorkflowState.SetStatus(NSQuoteVersionStatusInformation p_0)
+intellisense: NSQuoteVersionWorkflowState.SetStatus
 keywords: SetStatus(NSQuoteVersionStatusInformation)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetFullName()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_GetFullName
+description: NSProjectMember.GetFullName()
+intellisense: NSProjectMember.GetFullName
 keywords: GetFullName()
+so.topic: reference
 ---
 
 

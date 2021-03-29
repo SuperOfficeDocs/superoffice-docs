@@ -1,10 +1,10 @@
 ---
-title: Bool HasChatNotify()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Bool HasChatNotify()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_HasChatNotify
+description: NSCustomerServiceAgent.HasChatNotify()
+intellisense: NSCustomerServiceAgent.HasChatNotify
 sortOrder: 2223
 keywords: HasChatNotify()
+so.topic: reference
 ---
 
 

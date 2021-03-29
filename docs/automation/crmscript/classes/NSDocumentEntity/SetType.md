@@ -1,10 +1,10 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetType_Integer_p_0
+description: NSDocumentEntity.SetType(Integer p_0)
+intellisense: NSDocumentEntity.SetType
 sortOrder: 2612
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

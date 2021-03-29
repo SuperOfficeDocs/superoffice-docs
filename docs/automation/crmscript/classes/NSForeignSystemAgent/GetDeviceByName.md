@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice GetDeviceByName(String applicationName, String deviceName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice GetDeviceByName(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetDeviceByName_String_p_0_String_p_1
+description: NSForeignSystemAgent.GetDeviceByName(String p_0, String p_1)
+intellisense: NSForeignSystemAgent.GetDeviceByName
 sortOrder: 3758
 keywords: GetDeviceByName(String,String)
+so.topic: reference
 ---
 
 

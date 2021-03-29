@@ -1,10 +1,10 @@
 ---
-title: Void SetEntityName(String EntityName)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetEntityName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_SetEntityName_String_p_0
+description: NSArchiveListItem.SetEntityName(String p_0)
+intellisense: NSArchiveListItem.SetEntityName
 sortOrder: 1184
 keywords: SetEntityName(String)
+so.topic: reference
 ---
 
 

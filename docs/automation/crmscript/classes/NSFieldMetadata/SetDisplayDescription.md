@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_SetDisplayDescription_String_p_0
+description: NSFieldMetadata.SetDisplayDescription(String p_0)
+intellisense: NSFieldMetadata.SetDisplayDescription
 sortOrder: 3587
 keywords: SetDisplayDescription(String)
+so.topic: reference
 ---
 
 

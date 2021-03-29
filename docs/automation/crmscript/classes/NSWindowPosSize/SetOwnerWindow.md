@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnerWindow(String OwnerWindow)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetOwnerWindow(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetOwnerWindow_String_p_0
+description: NSWindowPosSize.SetOwnerWindow(String p_0)
+intellisense: NSWindowPosSize.SetOwnerWindow
 keywords: SetOwnerWindow(String)
+so.topic: reference
 ---
 
 

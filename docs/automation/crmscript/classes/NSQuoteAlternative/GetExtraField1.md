@@ -1,9 +1,9 @@
 ---
-title: String GetExtraField1()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/String GetExtraField1()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_GetExtraField1
+description: NSQuoteAlternative.GetExtraField1()
+intellisense: NSQuoteAlternative.GetExtraField1
 keywords: GetExtraField1()
+so.topic: reference
 ---
 
 

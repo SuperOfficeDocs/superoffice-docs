@@ -1,9 +1,9 @@
 ---
-title: Float GetDeliveredQuantity()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetDeliveredQuantity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetDeliveredQuantity
+description: NSQuoteLine.GetDeliveredQuantity()
+intellisense: NSQuoteLine.GetDeliveredQuantity
 keywords: GetDeliveredQuantity()
+so.topic: reference
 ---
 
 

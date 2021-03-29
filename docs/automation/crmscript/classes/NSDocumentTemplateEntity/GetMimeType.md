@@ -1,10 +1,10 @@
 ---
-title: String GetMimeType()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/String GetMimeType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetMimeType
+description: NSDocumentTemplateEntity.GetMimeType()
+intellisense: NSDocumentTemplateEntity.GetMimeType
 sortOrder: 2673
 keywords: GetMimeType()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: JSONBuilder
-path: /EJScript/Classes/JSONBuilder
-intellisense: 1
-classref: 1
+title: crmscript_ref_JSONBuilder
+description: JSONBuilder
+intellisense: Void.JSONBuilder
 sortOrder: 442
+so.topic: reference
 ---
 
 

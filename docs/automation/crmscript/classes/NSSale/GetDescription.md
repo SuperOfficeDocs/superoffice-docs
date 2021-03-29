@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSSale/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetDescription
+description: NSSale.GetDescription()
+intellisense: NSSale.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetAssignedBy(Integer AssignedBy)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssignedBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetAssignedBy_Integer_p_0
+description: NSAppointment.SetAssignedBy(Integer p_0)
+intellisense: NSAppointment.SetAssignedBy
 sortOrder: 771
 keywords: SetAssignedBy(Integer)
+so.topic: reference
 ---
 
 

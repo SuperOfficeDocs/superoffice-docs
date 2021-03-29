@@ -1,10 +1,10 @@
 ---
-title: Integer GetDirection()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetDirection()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_GetDirection
+description: NSDocumentTemplate.GetDirection()
+intellisense: NSDocumentTemplate.GetDirection
 sortOrder: 2622
 keywords: GetDirection()
+so.topic: reference
 ---
 
 

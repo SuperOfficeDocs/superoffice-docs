@@ -1,9 +1,9 @@
 ---
-title: Integer GetInUse()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Integer GetInUse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetInUse
+description: NSModuleLicenseLink.GetInUse()
+intellisense: NSModuleLicenseLink.GetInUse
 keywords: GetInUse()
+so.topic: reference
 ---
 
 

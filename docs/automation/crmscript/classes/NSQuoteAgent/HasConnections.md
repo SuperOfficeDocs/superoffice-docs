@@ -1,9 +1,9 @@
 ---
-title: NSPluginResponse HasConnections()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginResponse HasConnections()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_HasConnections
+description: NSQuoteAgent.HasConnections()
+intellisense: NSQuoteAgent.HasConnections
 keywords: HasConnections()
+so.topic: reference
 ---
 
 

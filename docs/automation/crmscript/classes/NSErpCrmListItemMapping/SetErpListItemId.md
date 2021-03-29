@@ -1,10 +1,10 @@
 ---
-title: Void SetErpListItemId(String ErpListItemId)
-path: /EJScript/Classes/NSErpCrmListItemMapping/Member functions/Void SetErpListItemId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpCrmListItemMapping_SetErpListItemId_String_p_0
+description: NSErpCrmListItemMapping.SetErpListItemId(String p_0)
+intellisense: NSErpCrmListItemMapping.SetErpListItemId
 sortOrder: 3148
 keywords: SetErpListItemId(String)
+so.topic: reference
 ---
 
 

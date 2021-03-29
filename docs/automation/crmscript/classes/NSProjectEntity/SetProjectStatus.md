@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectStatus(NSProjectStatus ProjectStatus)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectStatus(NSProjectStatus p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetProjectStatus_NSProjectStatus_p_0
+description: NSProjectEntity.SetProjectStatus(NSProjectStatus p_0)
+intellisense: NSProjectEntity.SetProjectStatus
 keywords: SetProjectStatus(NSProjectStatus)
+so.topic: reference
 ---
 
 

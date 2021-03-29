@@ -1,9 +1,9 @@
 ---
-title: Integer GetListIdByListName(String name)
-path: /EJScript/Classes/NSMDOAgent/Member functions/Integer GetListIdByListName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetListIdByListName_String_p_0
+description: NSMDOAgent.GetListIdByListName(String p_0)
+intellisense: NSMDOAgent.GetListIdByListName
 keywords: GetListIdByListName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer TestConnectorUrl(String url)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Integer TestConnectorUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_TestConnectorUrl_String_p_0
+description: NSErpSyncAgent.TestConnectorUrl(String p_0)
+intellisense: NSErpSyncAgent.TestConnectorUrl
 sortOrder: 3190
 keywords: TestConnectorUrl(String)
+so.topic: reference
 ---
 
 

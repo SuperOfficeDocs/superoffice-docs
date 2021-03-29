@@ -1,9 +1,9 @@
 ---
-title: Void SetAppointment(NSAppointment Appointment)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetAppointment(NSAppointment p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetAppointment_NSAppointment_p_0
+description: NSSaleEntity.SetAppointment(NSAppointment p_0)
+intellisense: NSSaleEntity.SetAppointment
 keywords: SetAppointment(NSAppointment)
+so.topic: reference
 ---
 
 

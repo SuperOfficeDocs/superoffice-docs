@@ -1,10 +1,10 @@
 ---
-title: Void toParser(Parser parser)
-path: /EJScript/Classes/License/Member functions/Void toParser(Parser parser)
-intellisense: 1
-classref: 1
+title: crmscript_ref_License_toParser_Parser_parser
+description: License.toParser(Parser parser)
+intellisense: License.toParser
 sortOrder: 464
 keywords: toParser(Parser)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteConnection[] GetAllAvailableQuoteConnectionsWithPriceLists()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetAllAvailableQuoteConnectionsWithPriceLists
+description: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists()
+intellisense: NSQuoteAgent.GetAllAvailableQuoteConnectionsWithPriceLists
 keywords: GetAllAvailableQuoteConnectionsWithPriceLists()
+so.topic: reference
 ---
 
 

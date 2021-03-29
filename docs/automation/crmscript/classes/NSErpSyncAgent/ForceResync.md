@@ -1,10 +1,10 @@
 ---
-title: NSPluginResponse ForceResync(Integer erpConnectionId, Integer[] internalKeyIds)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSPluginResponse ForceResync(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ForceResync_Integer_p_0_Integer__p_1
+description: NSErpSyncAgent.ForceResync(Integer p_0, Integer[] p_1)
+intellisense: NSErpSyncAgent.ForceResync
 sortOrder: 3211
 keywords: ForceResync(Integer,Integer[])
+so.topic: reference
 ---
 
 

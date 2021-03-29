@@ -1,10 +1,10 @@
 ---
-title: Void SetActivityInformation(NSActivitySummary ActivityInformation)
-path: /EJScript/Classes/NSDayInformationListItem/Member functions/Void SetActivityInformation(NSActivitySummary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDayInformationListItem_SetActivityInformation_NSActivitySummary_p_0
+description: NSDayInformationListItem.SetActivityInformation(NSActivitySummary p_0)
+intellisense: NSDayInformationListItem.SetActivityInformation
 sortOrder: 2361
 keywords: SetActivityInformation(NSActivitySummary)
+so.topic: reference
 ---
 
 

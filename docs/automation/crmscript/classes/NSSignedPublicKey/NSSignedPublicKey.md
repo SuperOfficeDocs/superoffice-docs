@@ -1,8 +1,8 @@
 ---
-title: NSSignedPublicKey
-path: /EJScript/Classes/NSSignedPublicKey
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey
+description: NSSignedPublicKey
+intellisense: Void.NSSignedPublicKey
+so.topic: reference
 ---
 
 

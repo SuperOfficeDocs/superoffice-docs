@@ -1,10 +1,10 @@
 ---
-title: Integer GetSomeId()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Integer GetSomeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_GetSomeId
+description: NSAAAMockAgent.GetSomeId()
+intellisense: NSAAAMockAgent.GetSomeId
 sortOrder: 8891
 keywords: GetSomeId()
+so.topic: reference
 ---
 
 

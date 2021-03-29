@@ -1,9 +1,9 @@
 ---
-title: NSApproveRejectResponse
-path: /EJScript/Classes/NSApproveRejectResponse
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSApproveRejectResponse
+description: NSApproveRejectResponse
+intellisense: Void.NSApproveRejectResponse
 sortOrder: 1092
+so.topic: reference
 ---
 
 

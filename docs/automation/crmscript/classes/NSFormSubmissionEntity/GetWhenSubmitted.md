@@ -1,10 +1,10 @@
 ---
-title: DateTime GetWhenSubmitted()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/DateTime GetWhenSubmitted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetWhenSubmitted
+description: NSFormSubmissionEntity.GetWhenSubmitted()
+intellisense: NSFormSubmissionEntity.GetWhenSubmitted
 sortOrder: 3830
 keywords: GetWhenSubmitted()
+so.topic: reference
 ---
 
 

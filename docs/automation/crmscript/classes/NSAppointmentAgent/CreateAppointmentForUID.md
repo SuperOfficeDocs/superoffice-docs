@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity CreateAppointmentForUID(NSAppointmentEntity p0, String uID)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity CreateAppointmentForUID(NSAppointmentEntity p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateAppointmentForUID_NSAppointmentEntity_p_0_String_p_1
+description: NSAppointmentAgent.CreateAppointmentForUID(NSAppointmentEntity p_0, String p_1)
+intellisense: NSAppointmentAgent.CreateAppointmentForUID
 sortOrder: 873
 keywords: CreateAppointmentForUID(NSAppointmentEntity,String)
+so.topic: reference
 ---
 
 

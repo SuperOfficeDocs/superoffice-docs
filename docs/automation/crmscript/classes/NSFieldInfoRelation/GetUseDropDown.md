@@ -1,10 +1,10 @@
 ---
-title: Bool GetUseDropDown()
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Bool GetUseDropDown()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_GetUseDropDown
+description: NSFieldInfoRelation.GetUseDropDown()
+intellisense: NSFieldInfoRelation.GetUseDropDown
 sortOrder: 3537
 keywords: GetUseDropDown()
+so.topic: reference
 ---
 
 

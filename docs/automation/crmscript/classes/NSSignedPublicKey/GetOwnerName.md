@@ -1,9 +1,9 @@
 ---
-title: String GetOwnerName()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/String GetOwnerName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_GetOwnerName
+description: NSSignedPublicKey.GetOwnerName()
+intellisense: NSSignedPublicKey.GetOwnerName
 keywords: GetOwnerName()
+so.topic: reference
 ---
 
 

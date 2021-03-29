@@ -1,10 +1,10 @@
 ---
-title: Integer GetUpdatedAssociateId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetUpdatedAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_GetUpdatedAssociateId
+description: NSConsentInfo.GetUpdatedAssociateId()
+intellisense: NSConsentInfo.GetUpdatedAssociateId
 sortOrder: 1635
 keywords: GetUpdatedAssociateId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity SaveToMailServer(NSEMailEntity email)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity SaveToMailServer(NSEMailEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SaveToMailServer_NSEMailEntity_p_0
+description: NSEMailAgent.SaveToMailServer(NSEMailEntity p_0)
+intellisense: NSEMailAgent.SaveToMailServer
 sortOrder: 2829
 keywords: SaveToMailServer(NSEMailEntity)
+so.topic: reference
 ---
 
 

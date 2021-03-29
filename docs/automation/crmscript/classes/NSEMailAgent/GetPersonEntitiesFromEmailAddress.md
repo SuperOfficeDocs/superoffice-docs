@@ -1,10 +1,10 @@
 ---
-title: NSPersonEntity[] GetPersonEntitiesFromEmailAddress(String emailAddress)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSPersonEntity[] GetPersonEntitiesFromEmailAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetPersonEntitiesFromEmailAddress_String_p_0
+description: NSEMailAgent.GetPersonEntitiesFromEmailAddress(String p_0)
+intellisense: NSEMailAgent.GetPersonEntitiesFromEmailAddress
 sortOrder: 2842
 keywords: GetPersonEntitiesFromEmailAddress(String)
+so.topic: reference
 ---
 
 

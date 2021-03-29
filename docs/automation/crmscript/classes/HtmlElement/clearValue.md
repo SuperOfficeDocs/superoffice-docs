@@ -1,10 +1,10 @@
 ---
-title: Void clearValue()
-path: /EJScript/Classes/HtmlElement/Member functions/Void clearValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_clearValue
+description: HtmlElement.clearValue()
+intellisense: HtmlElement.clearValue
 sortOrder: 388
 keywords: clearValue()
+so.topic: reference
 ---
 
 # Void clearValue()

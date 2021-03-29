@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeContactPosition()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeContactPosition()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetChangeContactPosition
+description: NSSelectionMemberEditValues.GetChangeContactPosition()
+intellisense: NSSelectionMemberEditValues.GetChangeContactPosition
 keywords: GetChangeContactPosition()
+so.topic: reference
 ---
 
 

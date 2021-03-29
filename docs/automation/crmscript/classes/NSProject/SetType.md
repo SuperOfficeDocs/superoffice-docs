@@ -1,9 +1,9 @@
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSProject/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_SetType_String_p_0
+description: NSProject.SetType(String p_0)
+intellisense: NSProject.SetType
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

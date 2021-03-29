@@ -1,9 +1,9 @@
 ---
-title: NSErpConnectionData
-path: /EJScript/Classes/NSErpConnectionData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData
+description: NSErpConnectionData
+intellisense: Void.NSErpConnectionData
 sortOrder: 3104
+so.topic: reference
 ---
 
 

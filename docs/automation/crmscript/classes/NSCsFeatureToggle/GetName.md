@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSCsFeatureToggle/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsFeatureToggle_GetName
+description: NSCsFeatureToggle.GetName()
+intellisense: NSCsFeatureToggle.GetName
 sortOrder: 2158
 keywords: GetName()
+so.topic: reference
 ---
 
 

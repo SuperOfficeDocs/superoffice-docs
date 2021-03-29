@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetDeleted
+description: NSSuggestedAppointmentEntity.GetDeleted()
+intellisense: NSSuggestedAppointmentEntity.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

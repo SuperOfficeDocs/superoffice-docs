@@ -1,9 +1,9 @@
 ---
-title: Void executeInto(StringMatrix matrix)
-path: /EJScript/Classes/SearchEngine/member functions/Void executeInto(StringMatrix matrix)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_executeInto_StringMatrix_matrix
+description: SearchEngine.executeInto(StringMatrix matrix)
+intellisense: SearchEngine.executeInto
 keywords: executeInto(StringMatrix)
+so.topic: reference
 ---
 
 Execute the query and returns the result in the matrix.

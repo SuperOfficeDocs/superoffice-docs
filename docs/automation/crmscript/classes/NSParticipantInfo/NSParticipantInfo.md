@@ -1,8 +1,8 @@
 ---
-title: NSParticipantInfo
-path: /EJScript/Classes/NSParticipantInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo
+description: NSParticipantInfo
+intellisense: Void.NSParticipantInfo
+so.topic: reference
 ---
 
 

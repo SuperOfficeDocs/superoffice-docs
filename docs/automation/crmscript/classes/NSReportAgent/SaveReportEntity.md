@@ -1,9 +1,9 @@
 ---
-title: NSReportEntity SaveReportEntity(NSReportEntity reportEntity)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity SaveReportEntity(NSReportEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_SaveReportEntity_NSReportEntity_p_0
+description: NSReportAgent.SaveReportEntity(NSReportEntity p_0)
+intellisense: NSReportAgent.SaveReportEntity
 keywords: SaveReportEntity(NSReportEntity)
+so.topic: reference
 ---
 
 

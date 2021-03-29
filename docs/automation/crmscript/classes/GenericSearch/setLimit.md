@@ -1,10 +1,10 @@
 ---
-title: Void setLimit(Integer limit)
-path: /EJScript/Classes/GenericSearch/Member functions/Void setLimit(Integer limit)
-intellisense: 1
-classref: 1
+title: crmscript_ref_GenericSearch_setLimit_Integer_limit
+description: GenericSearch.setLimit(Integer limit)
+intellisense: GenericSearch.setLimit
 sortOrder: 376
 keywords: setLimit(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetLastGenerated(DateTime LastGenerated)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetLastGenerated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetLastGenerated_DateTime_p_0
+description: NSStatusMonitor.SetLastGenerated(DateTime p_0)
+intellisense: NSStatusMonitor.SetLastGenerated
 keywords: SetLastGenerated(DateTime)
+so.topic: reference
 ---
 
 

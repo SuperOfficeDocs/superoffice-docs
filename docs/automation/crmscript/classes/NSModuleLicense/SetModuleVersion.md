@@ -1,9 +1,9 @@
 ---
-title: Void SetModuleVersion(String ModuleVersion)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetModuleVersion(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetModuleVersion_String_p_0
+description: NSModuleLicense.SetModuleVersion(String p_0)
+intellisense: NSModuleLicense.SetModuleVersion
 keywords: SetModuleVersion(String)
+so.topic: reference
 ---
 
 

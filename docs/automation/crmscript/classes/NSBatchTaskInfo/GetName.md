@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetName
+description: NSBatchTaskInfo.GetName()
+intellisense: NSBatchTaskInfo.GetName
 sortOrder: 1379
 keywords: GetName()
+so.topic: reference
 ---
 
 

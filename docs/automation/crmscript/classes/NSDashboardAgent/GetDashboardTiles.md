@@ -1,10 +1,10 @@
 ---
-title: NSDashboardTile[] GetDashboardTiles(Integer[] dashboardTileIds)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile[] GetDashboardTiles(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_GetDashboardTiles_Integer__p_0
+description: NSDashboardAgent.GetDashboardTiles(Integer[] p_0)
+intellisense: NSDashboardAgent.GetDashboardTiles
 sortOrder: 2281
 keywords: GetDashboardTiles(Integer[])
+so.topic: reference
 ---
 
 

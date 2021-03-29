@@ -1,10 +1,10 @@
 ---
-title: Void SetEntityType(Integer EntityType)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetEntityType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetEntityType_Integer_p_0
+description: NSDashboardTile.SetEntityType(Integer p_0)
+intellisense: NSDashboardTile.SetEntityType
 sortOrder: 2309
 keywords: SetEntityType(Integer)
+so.topic: reference
 ---
 
 

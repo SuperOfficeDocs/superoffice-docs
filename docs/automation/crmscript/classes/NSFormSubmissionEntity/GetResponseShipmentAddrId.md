@@ -1,10 +1,10 @@
 ---
-title: Integer GetResponseShipmentAddrId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetResponseShipmentAddrId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetResponseShipmentAddrId
+description: NSFormSubmissionEntity.GetResponseShipmentAddrId()
+intellisense: NSFormSubmissionEntity.GetResponseShipmentAddrId
 sortOrder: 3835
 keywords: GetResponseShipmentAddrId()
+so.topic: reference
 ---
 
 

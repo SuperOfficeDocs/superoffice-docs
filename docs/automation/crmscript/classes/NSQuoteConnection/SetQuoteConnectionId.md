@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteConnectionId(Integer QuoteConnectionId)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetQuoteConnectionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetQuoteConnectionId_Integer_p_0
+description: NSQuoteConnection.SetQuoteConnectionId(Integer p_0)
+intellisense: NSQuoteConnection.SetQuoteConnectionId
 keywords: SetQuoteConnectionId(Integer)
+so.topic: reference
 ---
 
 

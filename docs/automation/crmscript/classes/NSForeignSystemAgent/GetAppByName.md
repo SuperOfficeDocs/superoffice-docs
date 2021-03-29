@@ -1,10 +1,10 @@
 ---
-title: NSForeignAppEntity GetAppByName(String applicationName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignAppEntity GetAppByName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetAppByName_String_p_0
+description: NSForeignSystemAgent.GetAppByName(String p_0)
+intellisense: NSForeignSystemAgent.GetAppByName
 sortOrder: 3753
 keywords: GetAppByName(String)
+so.topic: reference
 ---
 
 

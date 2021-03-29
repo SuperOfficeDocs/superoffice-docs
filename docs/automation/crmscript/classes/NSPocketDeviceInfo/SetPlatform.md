@@ -1,9 +1,9 @@
 ---
-title: Void SetPlatform(Integer Platform)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetPlatform(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetPlatform_Integer_p_0
+description: NSPocketDeviceInfo.SetPlatform(Integer p_0)
+intellisense: NSPocketDeviceInfo.SetPlatform
 keywords: SetPlatform(Integer)
+so.topic: reference
 ---
 
 

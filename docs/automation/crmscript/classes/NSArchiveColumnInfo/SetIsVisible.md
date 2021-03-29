@@ -1,10 +1,10 @@
 ---
-title: Void SetIsVisible(Bool IsVisible)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetIsVisible(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetIsVisible_Bool_p_0
+description: NSArchiveColumnInfo.SetIsVisible(Bool p_0)
+intellisense: NSArchiveColumnInfo.SetIsVisible
 sortOrder: 1159
 keywords: SetIsVisible(Bool)
+so.topic: reference
 ---
 
 

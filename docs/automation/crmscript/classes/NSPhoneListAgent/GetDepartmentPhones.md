@@ -1,9 +1,9 @@
 ---
-title: NSPhoneListItem[] GetDepartmentPhones(Integer departmentId)
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] GetDepartmentPhones(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_GetDepartmentPhones_Integer_p_0
+description: NSPhoneListAgent.GetDepartmentPhones(Integer p_0)
+intellisense: NSPhoneListAgent.GetDepartmentPhones
 keywords: GetDepartmentPhones(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetActiveErpLinks()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetActiveErpLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetActiveErpLinks
+description: NSPersonEntity.GetActiveErpLinks()
+intellisense: NSPersonEntity.GetActiveErpLinks
 keywords: GetActiveErpLinks()
+so.topic: reference
 ---
 
 

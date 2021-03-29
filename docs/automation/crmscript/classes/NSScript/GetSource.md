@@ -1,9 +1,9 @@
 ---
-title: String GetSource()
-path: /EJScript/Classes/NSScript/Member functions/String GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_GetSource
+description: NSScript.GetSource()
+intellisense: NSScript.GetSource
 keywords: GetSource()
+so.topic: reference
 ---
 
 

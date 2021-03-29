@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity SaveEMail(NSEMailConnectionInfo connectionInfo, NSEMailEntity email)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity SaveEMail(NSEMailConnectionInfo p_0, NSEMailEntity p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SaveEMail_NSEMailConnectionInfo_p_0_NSEMailEntity_p_1
+description: NSEMailAgent.SaveEMail(NSEMailConnectionInfo p_0, NSEMailEntity p_1)
+intellisense: NSEMailAgent.SaveEMail
 sortOrder: 2828
 keywords: SaveEMail(NSEMailConnectionInfo,NSEMailEntity)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetWaitToFinish(Bool WaitToFinish)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetWaitToFinish(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetWaitToFinish_Bool_p_0
+description: NSExtAppEntity.SetWaitToFinish(Bool p_0)
+intellisense: NSExtAppEntity.SetWaitToFinish
 sortOrder: 3399
 keywords: SetWaitToFinish(Bool)
+so.topic: reference
 ---
 
 

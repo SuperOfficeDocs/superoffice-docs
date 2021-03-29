@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetName
+description: NSSuggestedDocumentEntity.GetName()
+intellisense: NSSuggestedDocumentEntity.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

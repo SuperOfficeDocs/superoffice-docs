@@ -1,8 +1,8 @@
 ---
-title: ReplyTemplate
-path: /EJScript/Classes/ReplyTemplate
-intellisense: 1
-classref: 1
+title: crmscript_ref_ReplyTemplate
+description: ReplyTemplate
+intellisense: Void.ReplyTemplate
+so.topic: reference
 ---
 
 This class represents a reply template.

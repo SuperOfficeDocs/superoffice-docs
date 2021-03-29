@@ -1,9 +1,9 @@
 ---
-title: Void SetContent(String Content)
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetContent(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_SetContent_String_p_0
+description: NSOutgoingMessage.SetContent(String p_0)
+intellisense: NSOutgoingMessage.SetContent
 keywords: SetContent(String)
+so.topic: reference
 ---
 
 

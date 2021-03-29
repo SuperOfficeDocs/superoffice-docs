@@ -1,10 +1,10 @@
 ---
-title: Void SetBookingType(Integer BookingType)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetBookingType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetBookingType_Integer_p_0
+description: NSAppointment.SetBookingType(Integer p_0)
+intellisense: NSAppointment.SetBookingType
 sortOrder: 778
 keywords: SetBookingType(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/Attachment/Member functions/Integer save()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Attachment_save
+description: Attachment.save()
+intellisense: Attachment.save
 sortOrder: 121
 keywords: save()
+so.topic: reference
 ---
 
 Save the attachment to disk.

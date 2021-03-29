@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsSubscription()
-path: /EJScript/Classes/NSProduct/Member functions/Bool GetIsSubscription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetIsSubscription
+description: NSProduct.GetIsSubscription()
+intellisense: NSProduct.GetIsSubscription
 keywords: GetIsSubscription()
+so.topic: reference
 ---
 
 

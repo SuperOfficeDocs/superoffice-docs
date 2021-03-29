@@ -1,9 +1,9 @@
 ---
-title: NSDocument
-path: /EJScript/Classes/NSDocument
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument
+description: NSDocument
+intellisense: Void.NSDocument
 sortOrder: 2427
+so.topic: reference
 ---
 
 

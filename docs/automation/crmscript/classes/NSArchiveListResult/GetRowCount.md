@@ -1,10 +1,10 @@
 ---
-title: Integer GetRowCount()
-path: /EJScript/Classes/NSArchiveListResult/Member functions/Integer GetRowCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListResult_GetRowCount
+description: NSArchiveListResult.GetRowCount()
+intellisense: NSArchiveListResult.GetRowCount
 sortOrder: 1190
 keywords: GetRowCount()
+so.topic: reference
 ---
 
 

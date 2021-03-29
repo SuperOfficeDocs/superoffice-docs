@@ -1,9 +1,9 @@
 ---
-title: Void SaveSaleEntity(NSSaleEntity saleEntity)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void SaveSaleEntity(NSSaleEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_SaveSaleEntity_NSSaleEntity_p_0
+description: NSSaleAgent.SaveSaleEntity(NSSaleEntity p_0)
+intellisense: NSSaleAgent.SaveSaleEntity
 keywords: SaveSaleEntity(NSSaleEntity)
+so.topic: reference
 ---
 
 

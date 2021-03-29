@@ -1,9 +1,9 @@
 ---
-title: Void SetDbiAgentId(Integer DbiAgentId)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiAgentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetDbiAgentId_Integer_p_0
+description: NSPersonEntity.SetDbiAgentId(Integer p_0)
+intellisense: NSPersonEntity.SetDbiAgentId
 keywords: SetDbiAgentId(Integer)
+so.topic: reference
 ---
 
 

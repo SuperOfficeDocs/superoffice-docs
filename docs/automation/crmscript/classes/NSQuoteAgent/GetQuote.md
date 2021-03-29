@@ -1,9 +1,9 @@
 ---
-title: NSQuote GetQuote(Integer quoteId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuote GetQuote(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetQuote_Integer_p_0
+description: NSQuoteAgent.GetQuote(Integer p_0)
+intellisense: NSQuoteAgent.GetQuote
 keywords: GetQuote(Integer)
+so.topic: reference
 ---
 
 

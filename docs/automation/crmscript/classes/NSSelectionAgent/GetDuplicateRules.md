@@ -1,9 +1,9 @@
 ---
-title: NSDuplicateRule[] GetDuplicateRules()
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSDuplicateRule[] GetDuplicateRules()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetDuplicateRules
+description: NSSelectionAgent.GetDuplicateRules()
+intellisense: NSSelectionAgent.GetDuplicateRules
 keywords: GetDuplicateRules()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSCategory GetCategory()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSCategory GetCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetCategory
+description: NSPersonEntity.GetCategory()
+intellisense: NSPersonEntity.GetCategory
 keywords: GetCategory()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSContact[] GetMyRecentContacts(Integer sourceType)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContact[] GetMyRecentContacts(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetMyRecentContacts_Integer_p_0
+description: NSContactAgent.GetMyRecentContacts(Integer p_0)
+intellisense: NSContactAgent.GetMyRecentContacts
 sortOrder: 1806
 keywords: GetMyRecentContacts(Integer)
+so.topic: reference
 ---
 
 

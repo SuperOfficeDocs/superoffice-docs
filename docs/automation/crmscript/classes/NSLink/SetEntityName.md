@@ -1,9 +1,9 @@
 ---
-title: Void SetEntityName(String EntityName)
-path: /EJScript/Classes/NSLink/Member functions/Void SetEntityName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLink_SetEntityName_String_p_0
+description: NSLink.SetEntityName(String p_0)
+intellisense: NSLink.SetEntityName
 keywords: SetEntityName(String)
+so.topic: reference
 ---
 
 

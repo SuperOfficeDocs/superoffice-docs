@@ -1,9 +1,9 @@
 ---
-title: String GetKanalname()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetKanalname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetKanalname
+description: NSPersonEntity.GetKanalname()
+intellisense: NSPersonEntity.GetKanalname
 keywords: GetKanalname()
+so.topic: reference
 ---
 
 

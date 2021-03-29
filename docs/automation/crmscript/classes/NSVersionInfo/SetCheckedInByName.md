@@ -1,9 +1,9 @@
 ---
-title: Void SetCheckedInByName(String CheckedInByName)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetCheckedInByName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_SetCheckedInByName_String_p_0
+description: NSVersionInfo.SetCheckedInByName(String p_0)
+intellisense: NSVersionInfo.SetCheckedInByName
 keywords: SetCheckedInByName(String)
+so.topic: reference
 ---
 
 

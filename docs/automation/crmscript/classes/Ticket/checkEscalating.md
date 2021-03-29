@@ -1,9 +1,9 @@
 ---
-title: Void checkEscalating(Integer action)
-path: /EJScript/Classes/Ticket/Member functions/Void checkEscalating(Integer action)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_checkEscalating_Integer_action
+description: Ticket.checkEscalating(Integer action)
+intellisense: Ticket.checkEscalating
 keywords: checkEscalating(Integer)
+so.topic: reference
 ---
 
 

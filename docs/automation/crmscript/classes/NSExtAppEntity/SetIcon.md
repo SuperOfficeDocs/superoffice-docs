@@ -1,10 +1,10 @@
 ---
-title: Void SetIcon(Integer Icon)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetIcon(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetIcon_Integer_p_0
+description: NSExtAppEntity.SetIcon(Integer p_0)
+intellisense: NSExtAppEntity.SetIcon
 sortOrder: 3383
 keywords: SetIcon(Integer)
+so.topic: reference
 ---
 
 

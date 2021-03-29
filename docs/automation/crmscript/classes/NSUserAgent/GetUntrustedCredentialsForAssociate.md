@@ -1,9 +1,9 @@
 ---
-title: NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer associateId, String type)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUntrustedCredentials[] GetUntrustedCredentialsForAssociate(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetUntrustedCredentialsForAssociate_Integer_p_0_String_p_1
+description: NSUserAgent.GetUntrustedCredentialsForAssociate(Integer p_0, String p_1)
+intellisense: NSUserAgent.GetUntrustedCredentialsForAssociate
 keywords: GetUntrustedCredentialsForAssociate(Integer,String)
+so.topic: reference
 ---
 
 

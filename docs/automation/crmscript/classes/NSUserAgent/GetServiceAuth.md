@@ -1,9 +1,9 @@
 ---
-title: NSServiceAuth GetServiceAuth(Integer serviceAuthId)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth GetServiceAuth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetServiceAuth_Integer_p_0
+description: NSUserAgent.GetServiceAuth(Integer p_0)
+intellisense: NSUserAgent.GetServiceAuth
 keywords: GetServiceAuth(Integer)
+so.topic: reference
 ---
 
 

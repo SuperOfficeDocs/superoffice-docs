@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleText(String SaleText)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSaleText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetSaleText_String_p_0
+description: NSSaleEntity.SetSaleText(String p_0)
+intellisense: NSSaleEntity.SetSaleText
 keywords: SetSaleText(String)
+so.topic: reference
 ---
 
 

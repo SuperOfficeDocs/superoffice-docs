@@ -1,10 +1,10 @@
 ---
-title: Void SetNumberOfLicensesNewTotal(Integer NumberOfLicensesNewTotal)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetNumberOfLicensesNewTotal(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesNewTotal_Integer_p_0
+description: NSExtendedModuleLicense.SetNumberOfLicensesNewTotal(Integer p_0)
+intellisense: NSExtendedModuleLicense.SetNumberOfLicensesNewTotal
 sortOrder: 3431
 keywords: SetNumberOfLicensesNewTotal(Integer)
+so.topic: reference
 ---
 
 

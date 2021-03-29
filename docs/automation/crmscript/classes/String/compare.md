@@ -1,9 +1,9 @@
 ---
-title: Integer compare(String p0)
-path: /EJScript/Classes/String/Member functions/Integer compare(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_compare_String_p_0
+description: String.compare(String p_0)
+intellisense: String.compare
 keywords: compare(String)
+so.topic: reference
 ---
 
 

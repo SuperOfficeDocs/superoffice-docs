@@ -1,10 +1,10 @@
 ---
-title: DateTime GetEndDate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetEndDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetEndDate
+description: NSAppointmentEntity.GetEndDate()
+intellisense: NSAppointmentEntity.GetEndDate
 sortOrder: 933
 keywords: GetEndDate()
+so.topic: reference
 ---
 
 

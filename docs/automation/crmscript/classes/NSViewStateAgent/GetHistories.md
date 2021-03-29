@@ -1,9 +1,9 @@
 ---
-title: NSHistory[] GetHistories()
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] GetHistories()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_GetHistories
+description: NSViewStateAgent.GetHistories()
+intellisense: NSViewStateAgent.GetHistories
 keywords: GetHistories()
+so.topic: reference
 ---
 
 

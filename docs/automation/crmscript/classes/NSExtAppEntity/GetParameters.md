@@ -1,10 +1,10 @@
 ---
-title: String GetParameters()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetParameters()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetParameters
+description: NSExtAppEntity.GetParameters()
+intellisense: NSExtAppEntity.GetParameters
 sortOrder: 3375
 keywords: GetParameters()
+so.topic: reference
 ---
 
 

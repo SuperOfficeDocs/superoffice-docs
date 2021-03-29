@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity[] SendEMails(NSEMailConnectionInfo outgoingConnectionInfo, NSEMailEntity[] emails, NSEMailConnectionInfo sentItemsConnectionInfo)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity[] SendEMails(NSEMailConnectionInfo p_0, NSEMailEntity[] p_1, NSEMailConnectionInfo p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SendEMails_NSEMailConnectionInfo_p_0_NSEMailEntity__p_1_NSEMailConnectionInfo_p_2
+description: NSEMailAgent.SendEMails(NSEMailConnectionInfo p_0, NSEMailEntity[] p_1, NSEMailConnectionInfo p_2)
+intellisense: NSEMailAgent.SendEMails
 sortOrder: 2831
 keywords: SendEMails(NSEMailConnectionInfo,NSEMailEntity[],NSEMailConnectionInfo)
+so.topic: reference
 ---
 
 

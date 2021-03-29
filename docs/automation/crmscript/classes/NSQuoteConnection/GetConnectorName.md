@@ -1,9 +1,9 @@
 ---
-title: String GetConnectorName()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetConnectorName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetConnectorName
+description: NSQuoteConnection.GetConnectorName()
+intellisense: NSQuoteConnection.GetConnectorName
 keywords: GetConnectorName()
+so.topic: reference
 ---
 
 

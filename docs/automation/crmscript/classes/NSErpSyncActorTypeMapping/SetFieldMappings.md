@@ -1,10 +1,10 @@
 ---
-title: Void SetFieldMappings(NSErpSyncFieldMapping[] FieldMappings)
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Void SetFieldMappings(NSErpSyncFieldMapping[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorTypeMapping_SetFieldMappings_NSErpSyncFieldMapping__p_0
+description: NSErpSyncActorTypeMapping.SetFieldMappings(NSErpSyncFieldMapping[] p_0)
+intellisense: NSErpSyncActorTypeMapping.SetFieldMappings
 sortOrder: 3174
 keywords: SetFieldMappings(NSErpSyncFieldMapping[])
+so.topic: reference
 ---
 
 

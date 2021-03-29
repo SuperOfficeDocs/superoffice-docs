@@ -1,9 +1,9 @@
 ---
-title: Integer GetPluginId()
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Integer GetPluginId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo_GetPluginId
+description: NSTemplateInfo.GetPluginId()
+intellisense: NSTemplateInfo.GetPluginId
 keywords: GetPluginId()
+so.topic: reference
 ---
 
 

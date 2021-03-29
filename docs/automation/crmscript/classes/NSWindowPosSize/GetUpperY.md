@@ -1,9 +1,9 @@
 ---
-title: Integer GetUpperY()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetUpperY()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetUpperY
+description: NSWindowPosSize.GetUpperY()
+intellisense: NSWindowPosSize.GetUpperY
 keywords: GetUpperY()
+so.topic: reference
 ---
 
 

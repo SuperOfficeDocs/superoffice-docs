@@ -1,9 +1,9 @@
 ---
-title: String GetNotificationEmail()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetNotificationEmail()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetNotificationEmail
+description: NSTicketCategoryEntity.GetNotificationEmail()
+intellisense: NSTicketCategoryEntity.GetNotificationEmail
 keywords: GetNotificationEmail()
+so.topic: reference
 ---
 
 

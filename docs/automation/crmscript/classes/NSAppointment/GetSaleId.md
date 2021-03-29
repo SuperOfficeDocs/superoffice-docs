@@ -1,10 +1,10 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetSaleId
+description: NSAppointment.GetSaleId()
+intellisense: NSAppointment.GetSaleId
 sortOrder: 744
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

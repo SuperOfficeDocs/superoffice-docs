@@ -1,9 +1,9 @@
 ---
-title: Void AddBounce(String emailAddress)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void AddBounce(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_AddBounce_String_p_0
+description: NSPersonAgent.AddBounce(String p_0)
+intellisense: NSPersonAgent.AddBounce
 keywords: AddBounce(String)
+so.topic: reference
 ---
 
 

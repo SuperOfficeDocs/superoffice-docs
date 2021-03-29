@@ -1,8 +1,8 @@
 ---
-title: XMLNode
-path: /EJScript/Classes/XMLNode
-intellisense: 1
-classref: 1
+title: crmscript_ref_XMLNode
+description: XMLNode
+intellisense: Void.XMLNode
+so.topic: reference
 ---
 
 

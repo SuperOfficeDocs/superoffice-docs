@@ -1,9 +1,9 @@
 ---
-title: Void SetImageHint(String ImageHint)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetImageHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_SetImageHint_String_p_0
+description: NSQuoteVersionButtonState.SetImageHint(String p_0)
+intellisense: NSQuoteVersionButtonState.SetImageHint
 keywords: SetImageHint(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,11 @@
 ---
-title: Byte GenericToByte(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Byte GenericToByte(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_GenericToByte_Generic_generic
+description: Generic.GenericToByte(Generic generic)
+intellisense: Generic.GenericToByte
 langref: 1
 sortOrder: 30
 keywords: GenericToByte(Generic)
+so.topic: reference
 ---
 
 

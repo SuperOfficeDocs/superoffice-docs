@@ -1,8 +1,8 @@
 ---
-title: NSSaleSummaryItem
-path: /EJScript/Classes/NSSaleSummaryItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem
+description: NSSaleSummaryItem
+intellisense: Void.NSSaleSummaryItem
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSaleStakeholder
-path: /EJScript/Classes/NSSaleStakeholder
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder
+description: NSSaleStakeholder
+intellisense: Void.NSSaleStakeholder
+so.topic: reference
 ---
 
 

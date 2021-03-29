@@ -1,9 +1,9 @@
 ---
-title: NSLicenseResult ActivateLicenseInfo(NSExtendedLicenseInfo newLicense)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseResult ActivateLicenseInfo(NSExtendedLicenseInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_ActivateLicenseInfo_NSExtendedLicenseInfo_p_0
+description: NSLicenseAgent.ActivateLicenseInfo(NSExtendedLicenseInfo p_0)
+intellisense: NSLicenseAgent.ActivateLicenseInfo
 keywords: ActivateLicenseInfo(NSExtendedLicenseInfo)
+so.topic: reference
 ---
 
 

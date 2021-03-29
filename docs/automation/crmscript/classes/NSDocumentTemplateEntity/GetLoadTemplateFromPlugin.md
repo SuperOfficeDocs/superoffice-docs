@@ -1,10 +1,10 @@
 ---
-title: Integer GetLoadTemplateFromPlugin()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetLoadTemplateFromPlugin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetLoadTemplateFromPlugin
+description: NSDocumentTemplateEntity.GetLoadTemplateFromPlugin()
+intellisense: NSDocumentTemplateEntity.GetLoadTemplateFromPlugin
 sortOrder: 2660
 keywords: GetLoadTemplateFromPlugin()
+so.topic: reference
 ---
 
 

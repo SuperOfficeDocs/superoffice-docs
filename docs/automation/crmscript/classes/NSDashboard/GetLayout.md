@@ -1,10 +1,10 @@
 ---
-title: Integer GetLayout()
-path: /EJScript/Classes/NSDashboard/Member functions/Integer GetLayout()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboard_GetLayout
+description: NSDashboard.GetLayout()
+intellisense: NSDashboard.GetLayout
 sortOrder: 2262
 keywords: GetLayout()
+so.topic: reference
 ---
 
 

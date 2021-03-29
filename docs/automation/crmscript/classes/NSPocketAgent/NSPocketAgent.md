@@ -1,8 +1,8 @@
 ---
-title: NSPocketAgent
-path: /EJScript/Classes/NSPocketAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent
+description: NSPocketAgent
+intellisense: Void.NSPocketAgent
+so.topic: reference
 ---
 
 

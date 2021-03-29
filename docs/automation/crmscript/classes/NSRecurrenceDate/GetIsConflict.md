@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsConflict()
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/Bool GetIsConflict()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceDate_GetIsConflict
+description: NSRecurrenceDate.GetIsConflict()
+intellisense: NSRecurrenceDate.GetIsConflict
 keywords: GetIsConflict()
+so.topic: reference
 ---
 
 

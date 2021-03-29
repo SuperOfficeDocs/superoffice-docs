@@ -1,9 +1,9 @@
 ---
-title: String GetAddressType()
-path: /EJScript/Classes/NSLocalizedField/Member functions/String GetAddressType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedField_GetAddressType
+description: NSLocalizedField.GetAddressType()
+intellisense: NSLocalizedField.GetAddressType
 keywords: GetAddressType()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool ToggleQuoteVersionAttachmentIncluded(Integer quoteVersionAttachmentId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Bool ToggleQuoteVersionAttachmentIncluded(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_ToggleQuoteVersionAttachmentIncluded_Integer_p_0
+description: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded(Integer p_0)
+intellisense: NSQuoteAgent.ToggleQuoteVersionAttachmentIncluded
 keywords: ToggleQuoteVersionAttachmentIncluded(Integer)
+so.topic: reference
 ---
 
 

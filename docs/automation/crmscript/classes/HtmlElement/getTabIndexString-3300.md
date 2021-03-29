@@ -1,10 +1,10 @@
 ---
-title: String getTabIndexString(Bool noId)
-path: /EJScript/Classes/HtmlElement/Member functions/String getTabIndexString(Bool noId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_getTabIndexString_Bool_noId
+description: HtmlElement.getTabIndexString(Bool noId)
+intellisense: HtmlElement.getTabIndexString
 sortOrder: 385
 keywords: getTabIndexString(Bool)
+so.topic: reference
 ---
 
 A variant of `getTabIndexString()` that omits element ID if it is the 1st element.

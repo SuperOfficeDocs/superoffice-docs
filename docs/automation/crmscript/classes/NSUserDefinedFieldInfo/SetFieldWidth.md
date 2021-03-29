@@ -1,9 +1,9 @@
 ---
-title: Void SetFieldWidth(Integer FieldWidth)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFieldWidth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFieldWidth_Integer_p_0
+description: NSUserDefinedFieldInfo.SetFieldWidth(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetFieldWidth
 keywords: SetFieldWidth(Integer)
+so.topic: reference
 ---
 
 

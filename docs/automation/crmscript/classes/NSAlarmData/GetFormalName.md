@@ -1,10 +1,10 @@
 ---
-title: String GetFormalName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetFormalName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetFormalName
+description: NSAlarmData.GetFormalName()
+intellisense: NSAlarmData.GetFormalName
 sortOrder: 662
 keywords: GetFormalName()
+so.topic: reference
 ---
 
 

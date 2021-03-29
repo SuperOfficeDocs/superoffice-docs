@@ -1,10 +1,10 @@
 ---
-title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_GetCreatedDate
+description: NSAudienceLayoutEntity.GetCreatedDate()
+intellisense: NSAudienceLayoutEntity.GetCreatedDate
 sortOrder: 1335
 keywords: GetCreatedDate()
+so.topic: reference
 ---
 
 

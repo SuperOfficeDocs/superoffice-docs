@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetListItemsForUserGroup(Integer udListDefinitionId, Integer groupId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetListItemsForUserGroup(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetListItemsForUserGroup_Integer_p_0_Integer_p_1
+description: NSListAgent.GetListItemsForUserGroup(Integer p_0, Integer p_1)
+intellisense: NSListAgent.GetListItemsForUserGroup
 keywords: GetListItemsForUserGroup(Integer,Integer)
+so.topic: reference
 ---
 
 

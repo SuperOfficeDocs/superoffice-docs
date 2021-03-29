@@ -1,10 +1,10 @@
 ---
-title: Void SetColumnInfos(NSImportColumnInfo[] ColumnInfos)
-path: /EJScript/Classes/NSImportErpData/Member functions/Void SetColumnInfos(NSImportColumnInfo[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportErpData_SetColumnInfos_NSImportColumnInfo__p_0
+description: NSImportErpData.SetColumnInfos(NSImportColumnInfo[] p_0)
+intellisense: NSImportErpData.SetColumnInfos
 sortOrder: 3970
 keywords: SetColumnInfos(NSImportColumnInfo[])
+so.topic: reference
 ---
 
 

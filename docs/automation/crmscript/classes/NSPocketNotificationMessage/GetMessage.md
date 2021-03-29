@@ -1,9 +1,9 @@
 ---
-title: String GetMessage()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetMessage
+description: NSPocketNotificationMessage.GetMessage()
+intellisense: NSPocketNotificationMessage.GetMessage
 keywords: GetMessage()
+so.topic: reference
 ---
 
 

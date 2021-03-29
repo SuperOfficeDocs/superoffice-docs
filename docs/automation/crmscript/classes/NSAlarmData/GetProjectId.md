@@ -1,10 +1,10 @@
 ---
-title: Integer GetProjectId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetProjectId
+description: NSAlarmData.GetProjectId()
+intellisense: NSAlarmData.GetProjectId
 sortOrder: 653
 keywords: GetProjectId()
+so.topic: reference
 ---
 
 

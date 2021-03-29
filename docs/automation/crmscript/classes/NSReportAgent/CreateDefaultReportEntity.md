@@ -1,9 +1,9 @@
 ---
-title: NSReportEntity CreateDefaultReportEntity()
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity CreateDefaultReportEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_CreateDefaultReportEntity
+description: NSReportAgent.CreateDefaultReportEntity()
+intellisense: NSReportAgent.CreateDefaultReportEntity
 keywords: CreateDefaultReportEntity()
+so.topic: reference
 ---
 
 

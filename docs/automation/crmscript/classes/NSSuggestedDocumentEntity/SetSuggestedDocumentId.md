@@ -1,9 +1,9 @@
 ---
-title: Void SetSuggestedDocumentId(Integer SuggestedDocumentId)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetSuggestedDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_SetSuggestedDocumentId_Integer_p_0
+description: NSSuggestedDocumentEntity.SetSuggestedDocumentId(Integer p_0)
+intellisense: NSSuggestedDocumentEntity.SetSuggestedDocumentId
 keywords: SetSuggestedDocumentId(Integer)
+so.topic: reference
 ---
 
 

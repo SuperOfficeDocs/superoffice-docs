@@ -1,9 +1,9 @@
 ---
-title: NSPosition GetPosition()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSPosition GetPosition()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetPosition
+description: NSPersonEntity.GetPosition()
+intellisense: NSPersonEntity.GetPosition
 keywords: GetPosition()
+so.topic: reference
 ---
 
 

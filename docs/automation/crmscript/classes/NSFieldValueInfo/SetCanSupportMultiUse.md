@@ -1,10 +1,10 @@
 ---
-title: Void SetCanSupportMultiUse(Bool CanSupportMultiUse)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetCanSupportMultiUse(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetCanSupportMultiUse_Bool_p_0
+description: NSFieldValueInfo.SetCanSupportMultiUse(Bool p_0)
+intellisense: NSFieldValueInfo.SetCanSupportMultiUse
 sortOrder: 3634
 keywords: SetCanSupportMultiUse(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSListEntity GetListEntity(Integer listEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity GetListEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetListEntity_Integer_p_0
+description: NSListAgent.GetListEntity(Integer p_0)
+intellisense: NSListAgent.GetListEntity
 keywords: GetListEntity(Integer)
+so.topic: reference
 ---
 
 

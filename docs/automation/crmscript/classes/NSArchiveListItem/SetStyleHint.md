@@ -1,10 +1,10 @@
 ---
-title: Void SetStyleHint(String StyleHint)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetStyleHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_SetStyleHint_String_p_0
+description: NSArchiveListItem.SetStyleHint(String p_0)
+intellisense: NSArchiveListItem.SetStyleHint
 sortOrder: 1187
 keywords: SetStyleHint(String)
+so.topic: reference
 ---
 
 

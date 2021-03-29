@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetOwnedBy()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSAssociate GetOwnedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetOwnedBy
+description: NSTicketEntity.GetOwnedBy()
+intellisense: NSTicketEntity.GetOwnedBy
 keywords: GetOwnedBy()
+so.topic: reference
 ---
 
 

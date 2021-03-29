@@ -1,9 +1,9 @@
 ---
-title: Bool GetRetired()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetRetired()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetRetired
+description: NSPersonEntity.GetRetired()
+intellisense: NSPersonEntity.GetRetired
 keywords: GetRetired()
+so.topic: reference
 ---
 
 

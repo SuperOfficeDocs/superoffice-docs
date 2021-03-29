@@ -1,9 +1,9 @@
 ---
-title: NSModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer associateId, String moduleOwner)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSModuleLicenseLink[] GetThirdPartyLicenseAssignments(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetThirdPartyLicenseAssignments_Integer_p_0_String_p_1
+description: NSLicenseAgent.GetThirdPartyLicenseAssignments(Integer p_0, String p_1)
+intellisense: NSLicenseAgent.GetThirdPartyLicenseAssignments
 keywords: GetThirdPartyLicenseAssignments(Integer,String)
+so.topic: reference
 ---
 
 

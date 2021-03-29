@@ -1,10 +1,10 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetPersonId
+description: NSAlarmData.GetPersonId()
+intellisense: NSAlarmData.GetPersonId
 sortOrder: 652
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

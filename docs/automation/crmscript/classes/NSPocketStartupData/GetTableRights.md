@@ -1,9 +1,9 @@
 ---
-title: NSETableRight[] GetTableRights()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/NSETableRight[] GetTableRights()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_GetTableRights
+description: NSPocketStartupData.GetTableRights()
+intellisense: NSPocketStartupData.GetTableRights
 keywords: GetTableRights()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String CreateTemporaryKey(Integer domain, Integer targetId, Integer personId, DateTime expires)
-path: /EJScript/Classes/NSPersonAgent/Member functions/String CreateTemporaryKey(Integer p_0, Integer p_1, Integer p_2, DateTime p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_CreateTemporaryKey_Integer_p_0_Integer_p_1_Integer_p_2_DateTime_p_3
+description: NSPersonAgent.CreateTemporaryKey(Integer p_0, Integer p_1, Integer p_2, DateTime p_3)
+intellisense: NSPersonAgent.CreateTemporaryKey
 keywords: CreateTemporaryKey(Integer,Integer,Integer,DateTime)
+so.topic: reference
 ---
 
 

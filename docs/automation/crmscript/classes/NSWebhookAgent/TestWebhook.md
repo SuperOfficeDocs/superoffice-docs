@@ -1,9 +1,9 @@
 ---
-title: NSWebhookResult TestWebhook(NSWebhook webhook)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhookResult TestWebhook(NSWebhook p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_TestWebhook_NSWebhook_p_0
+description: NSWebhookAgent.TestWebhook(NSWebhook p_0)
+intellisense: NSWebhookAgent.TestWebhook
 keywords: TestWebhook(NSWebhook)
+so.topic: reference
 ---
 
 

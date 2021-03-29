@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayText()
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/String GetDisplayText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_GetDisplayText
+description: NSQuoteVersionButtonState.GetDisplayText()
+intellisense: NSQuoteVersionButtonState.GetDisplayText
 keywords: GetDisplayText()
+so.topic: reference
 ---
 
 

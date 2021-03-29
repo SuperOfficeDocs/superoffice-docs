@@ -1,10 +1,10 @@
 ---
-title: NSImportColumnInfo[] GetColumnInfos()
-path: /EJScript/Classes/NSImportErpData/Member functions/NSImportColumnInfo[] GetColumnInfos()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportErpData_GetColumnInfos
+description: NSImportErpData.GetColumnInfos()
+intellisense: NSImportErpData.GetColumnInfos
 sortOrder: 3968
 keywords: GetColumnInfos()
+so.topic: reference
 ---
 
 

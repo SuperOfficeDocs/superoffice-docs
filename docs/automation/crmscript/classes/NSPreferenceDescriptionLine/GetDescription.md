@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescriptionLine_GetDescription
+description: NSPreferenceDescriptionLine.GetDescription()
+intellisense: NSPreferenceDescriptionLine.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSSale/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetProjectName_String_p_0
+description: NSSale.SetProjectName(String p_0)
+intellisense: NSSale.SetProjectName
 keywords: SetProjectName(String)
+so.topic: reference
 ---
 
 

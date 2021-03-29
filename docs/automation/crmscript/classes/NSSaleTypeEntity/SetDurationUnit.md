@@ -1,9 +1,9 @@
 ---
-title: Void SetDurationUnit(Integer p0)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetDurationUnit(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetDurationUnit_Integer_p_0
+description: NSSaleTypeEntity.SetDurationUnit(Integer p_0)
+intellisense: NSSaleTypeEntity.SetDurationUnit
 keywords: SetDurationUnit(Integer)
+so.topic: reference
 ---
 
 Units for the duration (day, week, whatever)

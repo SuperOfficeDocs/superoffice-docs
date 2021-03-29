@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity CreateDefaultEMailEntity()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity CreateDefaultEMailEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailEntity
+description: NSEMailAgent.CreateDefaultEMailEntity()
+intellisense: NSEMailAgent.CreateDefaultEMailEntity
 sortOrder: 2812
 keywords: CreateDefaultEMailEntity()
+so.topic: reference
 ---
 
 

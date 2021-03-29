@@ -1,9 +1,9 @@
 ---
-title: Float getTimer()
-path: /EJScript/Classes/Timer/Member functions/Float getTimer()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Timer_getTimer
+description: Timer.getTimer()
+intellisense: Timer.getTimer
 keywords: getTimer()
+so.topic: reference
 ---
 
 Get a timer value in seconds from the real time system clock. This is normally a low resolution timer.

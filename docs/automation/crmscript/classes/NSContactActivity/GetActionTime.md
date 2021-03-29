@@ -1,10 +1,10 @@
 ---
-title: DateTime GetActionTime()
-path: /EJScript/Classes/NSContactActivity/Member functions/DateTime GetActionTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_GetActionTime
+description: NSContactActivity.GetActionTime()
+intellisense: NSContactActivity.GetActionTime
 sortOrder: 1766
 keywords: GetActionTime()
+so.topic: reference
 ---
 
 

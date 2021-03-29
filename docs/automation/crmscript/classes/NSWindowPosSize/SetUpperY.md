@@ -1,9 +1,9 @@
 ---
-title: Void SetUpperY(Integer UpperY)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetUpperY(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetUpperY_Integer_p_0
+description: NSWindowPosSize.SetUpperY(Integer p_0)
+intellisense: NSWindowPosSize.SetUpperY
 keywords: SetUpperY(Integer)
+so.topic: reference
 ---
 
 

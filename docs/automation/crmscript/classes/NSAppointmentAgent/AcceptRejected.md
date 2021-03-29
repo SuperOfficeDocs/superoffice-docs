@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity AcceptRejected(Integer appointmentId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity AcceptRejected(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_AcceptRejected_Integer_p_0_Integer_p_1
+description: NSAppointmentAgent.AcceptRejected(Integer p_0, Integer p_1)
+intellisense: NSAppointmentAgent.AcceptRejected
 sortOrder: 871
 keywords: AcceptRejected(Integer,Integer)
+so.topic: reference
 ---
 
 

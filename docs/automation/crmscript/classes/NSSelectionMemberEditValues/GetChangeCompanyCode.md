@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeCompanyCode()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeCompanyCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetChangeCompanyCode
+description: NSSelectionMemberEditValues.GetChangeCompanyCode()
+intellisense: NSSelectionMemberEditValues.GetChangeCompanyCode
 keywords: GetChangeCompanyCode()
+so.topic: reference
 ---
 
 

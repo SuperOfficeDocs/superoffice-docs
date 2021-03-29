@@ -1,9 +1,9 @@
 ---
-title: Bool CanChangePassword(Integer associateId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool CanChangePassword(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CanChangePassword_Integer_p_0
+description: NSUserAgent.CanChangePassword(Integer p_0)
+intellisense: NSUserAgent.CanChangePassword
 keywords: CanChangePassword(Integer)
+so.topic: reference
 ---
 
 

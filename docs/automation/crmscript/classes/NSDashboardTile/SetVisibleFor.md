@@ -1,10 +1,10 @@
 ---
-title: Void SetVisibleFor(VisibleFor[] fields)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetVisibleFor(VisibleFor[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetVisibleFor_VisibleFor__p_0
+description: NSDashboardTile.SetVisibleFor(VisibleFor[] p_0)
+intellisense: NSDashboardTile.SetVisibleFor
 sortOrder: 2315
 keywords: SetVisibleFor(VisibleFor[])
+so.topic: reference
 ---
 
 

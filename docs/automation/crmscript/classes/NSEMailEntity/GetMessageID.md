@@ -1,10 +1,10 @@
 ---
-title: String GetMessageID()
-path: /EJScript/Classes/NSEMailEntity/Member functions/String GetMessageID()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetMessageID
+description: NSEMailEntity.GetMessageID()
+intellisense: NSEMailEntity.GetMessageID
 sortOrder: 2969
 keywords: GetMessageID()
+so.topic: reference
 ---
 
 

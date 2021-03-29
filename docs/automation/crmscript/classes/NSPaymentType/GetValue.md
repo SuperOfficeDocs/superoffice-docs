@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSPaymentType/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPaymentType_GetValue
+description: NSPaymentType.GetValue()
+intellisense: NSPaymentType.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

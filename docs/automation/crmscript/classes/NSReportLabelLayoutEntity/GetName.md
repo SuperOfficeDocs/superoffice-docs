@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetName
+description: NSReportLabelLayoutEntity.GetName()
+intellisense: NSReportLabelLayoutEntity.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

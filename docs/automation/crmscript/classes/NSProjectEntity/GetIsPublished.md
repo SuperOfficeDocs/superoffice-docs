@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetIsPublished
+description: NSProjectEntity.GetIsPublished()
+intellisense: NSProjectEntity.GetIsPublished
 keywords: GetIsPublished()
+so.topic: reference
 ---
 
 

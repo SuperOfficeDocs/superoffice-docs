@@ -1,10 +1,10 @@
 ---
-title: Void SetIsAllDay(Bool IsAllDay)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetIsAllDay(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetIsAllDay_Bool_p_0
+description: NSAppointmentSyncData.SetIsAllDay(Bool p_0)
+intellisense: NSAppointmentSyncData.SetIsAllDay
 sortOrder: 1075
 keywords: SetIsAllDay(Bool)
+so.topic: reference
 ---
 
 

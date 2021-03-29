@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsVisual()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Bool GetIsVisual()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetIsVisual
+description: NSStatusMonitor.GetIsVisual()
+intellisense: NSStatusMonitor.GetIsVisual
 keywords: GetIsVisual()
+so.topic: reference
 ---
 
 

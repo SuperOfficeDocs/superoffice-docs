@@ -1,9 +1,9 @@
 ---
-title: Void SetDestination(Integer Destination)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetDestination(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_SetDestination_Integer_p_0
+description: NSRelationDefinitionEntity.SetDestination(Integer p_0)
+intellisense: NSRelationDefinitionEntity.SetDestination
 keywords: SetDestination(Integer)
+so.topic: reference
 ---
 
 

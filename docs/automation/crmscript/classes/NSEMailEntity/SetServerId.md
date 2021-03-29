@@ -1,10 +1,10 @@
 ---
-title: Void SetServerId(Integer ServerId)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetServerId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetServerId_Integer_p_0
+description: NSEMailEntity.SetServerId(Integer p_0)
+intellisense: NSEMailEntity.SetServerId
 sortOrder: 2996
 keywords: SetServerId(Integer)
+so.topic: reference
 ---
 
 

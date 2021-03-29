@@ -1,9 +1,9 @@
 ---
-title: Void SetActiveTimeZoneRow(Integer id, Bool active)
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Void SetActiveTimeZoneRow(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZoneRow_Integer_p_0_Bool_p_1
+description: NSTimeZoneAgent.SetActiveTimeZoneRow(Integer p_0, Bool p_1)
+intellisense: NSTimeZoneAgent.SetActiveTimeZoneRow
 keywords: SetActiveTimeZoneRow(Integer,Bool)
+so.topic: reference
 ---
 
 

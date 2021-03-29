@@ -1,10 +1,10 @@
 ---
-title: Integer countRows()
-path: /EJScript/Classes/GenericSearch/Member functions/Integer countRows()
-intellisense: 1
-classref: 1
+title: crmscript_ref_GenericSearch_countRows
+description: GenericSearch.countRows()
+intellisense: GenericSearch.countRows
 sortOrder: 366
 keywords: countRows()
+so.topic: reference
 ---
 
 

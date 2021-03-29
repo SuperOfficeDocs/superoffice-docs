@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsAutoAdvance()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetIsAutoAdvance()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetIsAutoAdvance
+description: NSSaleTypeEntity.GetIsAutoAdvance()
+intellisense: NSSaleTypeEntity.GetIsAutoAdvance
 keywords: GetIsAutoAdvance()
+so.topic: reference
 ---
 
 

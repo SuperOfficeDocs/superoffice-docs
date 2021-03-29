@@ -1,9 +1,9 @@
 ---
-title: String GetFormalName()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetFormalName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetFormalName
+description: NSPersonEntity.GetFormalName()
+intellisense: NSPersonEntity.GetFormalName
 keywords: GetFormalName()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSTicketStatusEntity
-path: /EJScript/Classes/NSTicketStatusEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketStatusEntity
+description: NSTicketStatusEntity
+intellisense: Void.NSTicketStatusEntity
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void InputId(Integer argumentId)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void InputId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_InputId_Integer_p_0
+description: NSAAAMockAgent.InputId(Integer p_0)
+intellisense: NSAAAMockAgent.InputId
 sortOrder: 8910
 keywords: InputId(Integer)
+so.topic: reference
 ---
 
 

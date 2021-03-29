@@ -1,10 +1,10 @@
 ---
-title: Integer GetRecordId()
-path: /EJScript/Classes/NSForeignKey/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_GetRecordId
+description: NSForeignKey.GetRecordId()
+intellisense: NSForeignKey.GetRecordId
 sortOrder: 3736
 keywords: GetRecordId()
+so.topic: reference
 ---
 
 

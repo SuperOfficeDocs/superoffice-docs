@@ -1,10 +1,10 @@
 ---
-title: Void MarkAsRead(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds, Bool read)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void MarkAsRead(NSEMailConnectionInfo p_0, Integer[] p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_MarkAsRead_NSEMailConnectionInfo_p_0_Integer__p_1_Bool_p_2
+description: NSEMailAgent.MarkAsRead(NSEMailConnectionInfo p_0, Integer[] p_1, Bool p_2)
+intellisense: NSEMailAgent.MarkAsRead
 sortOrder: 2861
 keywords: MarkAsRead(NSEMailConnectionInfo,Integer[],Bool)
+so.topic: reference
 ---
 
 

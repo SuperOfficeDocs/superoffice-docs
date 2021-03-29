@@ -1,9 +1,9 @@
 ---
-title: Integer GetDomain()
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Integer GetDomain()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemporaryKeyInfo_GetDomain
+description: NSTemporaryKeyInfo.GetDomain()
+intellisense: NSTemporaryKeyInfo.GetDomain
 keywords: GetDomain()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetOngoingChats(Integer OngoingChats)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetOngoingChats(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_SetOngoingChats_Integer_p_0
+description: NSChatPresence.SetOngoingChats(Integer p_0)
+intellisense: NSChatPresence.SetOngoingChats
 sortOrder: 1526
 keywords: SetOngoingChats(Integer)
+so.topic: reference
 ---
 
 

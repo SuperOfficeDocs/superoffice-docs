@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumRows()
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Integer GetNumRows()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoLongText_GetNumRows
+description: NSFieldInfoLongText.GetNumRows()
+intellisense: NSFieldInfoLongText.GetNumRows
 sortOrder: 3521
 keywords: GetNumRows()
+so.topic: reference
 ---
 
 

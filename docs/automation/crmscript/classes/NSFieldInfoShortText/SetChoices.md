@@ -1,10 +1,10 @@
 ---
-title: Void SetChoices(String[] Choices)
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Void SetChoices(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText_SetChoices_String__p_0
+description: NSFieldInfoShortText.SetChoices(String[] p_0)
+intellisense: NSFieldInfoShortText.SetChoices
 sortOrder: 3552
 keywords: SetChoices(String[])
+so.topic: reference
 ---
 
 

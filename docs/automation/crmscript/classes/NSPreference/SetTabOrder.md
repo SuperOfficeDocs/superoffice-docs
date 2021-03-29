@@ -1,9 +1,9 @@
 ---
-title: Void SetTabOrder(NSTabOrder TabOrder)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetTabOrder(NSTabOrder p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetTabOrder_NSTabOrder_p_0
+description: NSPreference.SetTabOrder(NSTabOrder p_0)
+intellisense: NSPreference.SetTabOrder
 keywords: SetTabOrder(NSTabOrder)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetLinks(NSLink[] Links)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetLinks(NSLink[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetLinks_NSLink__p_0
+description: NSProjectEntity.SetLinks(NSLink[] p_0)
+intellisense: NSProjectEntity.SetLinks
 keywords: SetLinks(NSLink[])
+so.topic: reference
 ---
 
 

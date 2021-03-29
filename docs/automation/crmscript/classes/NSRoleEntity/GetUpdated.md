@@ -1,9 +1,9 @@
 ---
-title: DateTime GetUpdated()
-path: /EJScript/Classes/NSRoleEntity/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetUpdated
+description: NSRoleEntity.GetUpdated()
+intellisense: NSRoleEntity.GetUpdated
 keywords: GetUpdated()
+so.topic: reference
 ---
 
 

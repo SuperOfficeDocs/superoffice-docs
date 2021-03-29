@@ -1,9 +1,9 @@
 ---
-title: Void SetIsOwnCountryHoliday(Bool IsOwnCountryHoliday)
-path: /EJScript/Classes/NSRedLetterSummary/Member functions/Void SetIsOwnCountryHoliday(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterSummary_SetIsOwnCountryHoliday_Bool_p_0
+description: NSRedLetterSummary.SetIsOwnCountryHoliday(Bool p_0)
+intellisense: NSRedLetterSummary.SetIsOwnCountryHoliday
 keywords: SetIsOwnCountryHoliday(Bool)
+so.topic: reference
 ---
 
 

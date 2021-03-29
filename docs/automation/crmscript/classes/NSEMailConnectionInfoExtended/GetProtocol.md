@@ -1,10 +1,10 @@
 ---
-title: String GetProtocol()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/String GetProtocol()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_GetProtocol
+description: NSEMailConnectionInfoExtended.GetProtocol()
+intellisense: NSEMailConnectionInfoExtended.GetProtocol
 sortOrder: 2926
 keywords: GetProtocol()
+so.topic: reference
 ---
 
 

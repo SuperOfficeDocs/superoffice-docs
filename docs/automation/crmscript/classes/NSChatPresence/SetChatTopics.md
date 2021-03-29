@@ -1,10 +1,10 @@
 ---
-title: Void SetChatTopics(Integer[] ChatTopics)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetChatTopics(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_SetChatTopics_Integer__p_0
+description: NSChatPresence.SetChatTopics(Integer[] p_0)
+intellisense: NSChatPresence.SetChatTopics
 sortOrder: 1524
 keywords: SetChatTopics(Integer[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetEndDate()
-path: /EJScript/Classes/NSProjectEntity/Member functions/DateTime GetEndDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetEndDate
+description: NSProjectEntity.GetEndDate()
+intellisense: NSProjectEntity.GetEndDate
 keywords: GetEndDate()
+so.topic: reference
 ---
 
 

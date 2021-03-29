@@ -1,10 +1,10 @@
 ---
-title: Void SetInterests(NSSelectableMDOListItem[] Interests)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetInterests(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetInterests_NSSelectableMDOListItem__p_0
+description: NSContactEntity.SetInterests(NSSelectableMDOListItem[] p_0)
+intellisense: NSContactEntity.SetInterests
 sortOrder: 1900
 keywords: SetInterests(NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

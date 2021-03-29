@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSProjectStatus/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectStatus_GetValue
+description: NSProjectStatus.GetValue()
+intellisense: NSProjectStatus.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetFolderId()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetFolderId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetFolderId
+description: NSFormEntity.GetFolderId()
+intellisense: NSFormEntity.GetFolderId
 sortOrder: 3789
 keywords: GetFolderId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetLanguageId()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Integer GetLanguageId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_GetLanguageId
+description: NSLocalizedText.GetLanguageId()
+intellisense: NSLocalizedText.GetLanguageId
 keywords: GetLanguageId()
+so.topic: reference
 ---
 
 

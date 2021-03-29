@@ -1,10 +1,10 @@
 ---
-title: NSDashboardTile CreateNewFromTemplate(Integer dashboardTileId, String caption, String description, Integer selectionId, VisibleFor[] visibleFor)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile CreateNewFromTemplate(Integer p_0, String p_1, String p_2, Integer p_3, VisibleFor[] p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_CreateNewFromTemplate_Integer_p_0_String_p_1_String_p_2_Integer_p_3_VisibleFor__p_4
+description: NSDashboardAgent.CreateNewFromTemplate(Integer p_0, String p_1, String p_2, Integer p_3, VisibleFor[] p_4)
+intellisense: NSDashboardAgent.CreateNewFromTemplate
 sortOrder: 2278
 keywords: CreateNewFromTemplate(Integer,String,String,Integer,VisibleFor[])
+so.topic: reference
 ---
 
 

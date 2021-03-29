@@ -1,9 +1,9 @@
 ---
-title: Integer GetLevel()
-path: /EJScript/Classes/NSPreference/Member functions/Integer GetLevel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetLevel
+description: NSPreference.GetLevel()
+intellisense: NSPreference.GetLevel
 keywords: GetLevel()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSPersonSummary
-path: /EJScript/Classes/NSPersonSummary
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary
+description: NSPersonSummary
+intellisense: Void.NSPersonSummary
+so.topic: reference
 ---
 
 

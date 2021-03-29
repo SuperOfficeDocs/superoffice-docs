@@ -1,10 +1,10 @@
 ---
-title: Integer GetShowState()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetShowState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetShowState
+description: NSExtAppEntity.GetShowState()
+intellisense: NSExtAppEntity.GetShowState
 sortOrder: 3370
 keywords: GetShowState()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetSaleName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetSaleName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetSaleName
+description: NSAlarmData.GetSaleName()
+intellisense: NSAlarmData.GetSaleName
 sortOrder: 666
 keywords: GetSaleName()
+so.topic: reference
 ---
 
 

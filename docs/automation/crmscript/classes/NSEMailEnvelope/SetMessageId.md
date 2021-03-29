@@ -1,10 +1,10 @@
 ---
-title: Void SetMessageId(String MessageId)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetMessageId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_SetMessageId_String_p_0
+description: NSEMailEnvelope.SetMessageId(String p_0)
+intellisense: NSEMailEnvelope.SetMessageId
 sortOrder: 3018
 keywords: SetMessageId(String)
+so.topic: reference
 ---
 
 

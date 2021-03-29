@@ -1,10 +1,10 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSCredentialUser/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser_GetValue
+description: NSCredentialUser.GetValue()
+intellisense: NSCredentialUser.GetValue
 sortOrder: 2088
 keywords: GetValue()
+so.topic: reference
 ---
 
 

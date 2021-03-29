@@ -1,9 +1,9 @@
 ---
-title: NSPosition[] GetPositions()
-path: /EJScript/Classes/NSListAgent/Member functions/NSPosition[] GetPositions()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPositions
+description: NSListAgent.GetPositions()
+intellisense: NSListAgent.GetPositions
 keywords: GetPositions()
+so.topic: reference
 ---
 
 

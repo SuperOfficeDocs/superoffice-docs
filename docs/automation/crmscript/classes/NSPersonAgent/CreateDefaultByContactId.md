@@ -1,9 +1,9 @@
 ---
-title: NSPersonEntity CreateDefaultByContactId(Integer contactId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultByContactId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_CreateDefaultByContactId_Integer_p_0
+description: NSPersonAgent.CreateDefaultByContactId(Integer p_0)
+intellisense: NSPersonAgent.CreateDefaultByContactId
 keywords: CreateDefaultByContactId(Integer)
+so.topic: reference
 ---
 
 

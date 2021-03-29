@@ -1,10 +1,10 @@
 ---
-title: NSCRMScriptEntity SaveCRMScriptEntity(NSCRMScriptEntity cRMScriptEntity)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSCRMScriptEntity SaveCRMScriptEntity(NSCRMScriptEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptEntity_NSCRMScriptEntity_p_0
+description: NSCRMScriptAgent.SaveCRMScriptEntity(NSCRMScriptEntity p_0)
+intellisense: NSCRMScriptAgent.SaveCRMScriptEntity
 sortOrder: 2116
 keywords: SaveCRMScriptEntity(NSCRMScriptEntity)
+so.topic: reference
 ---
 
 

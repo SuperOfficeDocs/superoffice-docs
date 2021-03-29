@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedBy(String CreatedBy)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetCreatedBy(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_SetCreatedBy_String_p_0
+description: NSForeignDevice.SetCreatedBy(String p_0)
+intellisense: NSForeignDevice.SetCreatedBy
 sortOrder: 3724
 keywords: SetCreatedBy(String)
+so.topic: reference
 ---
 
 

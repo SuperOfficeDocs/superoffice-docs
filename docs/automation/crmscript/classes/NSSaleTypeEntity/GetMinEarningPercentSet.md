@@ -1,9 +1,9 @@
 ---
-title: Bool GetMinEarningPercentSet()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetMinEarningPercentSet()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetMinEarningPercentSet
+description: NSSaleTypeEntity.GetMinEarningPercentSet()
+intellisense: NSSaleTypeEntity.GetMinEarningPercentSet
 keywords: GetMinEarningPercentSet()
+so.topic: reference
 ---
 
 

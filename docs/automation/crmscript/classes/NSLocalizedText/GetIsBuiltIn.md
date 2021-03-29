@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsBuiltIn()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Bool GetIsBuiltIn()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_GetIsBuiltIn
+description: NSLocalizedText.GetIsBuiltIn()
+intellisense: NSLocalizedText.GetIsBuiltIn
 keywords: GetIsBuiltIn()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayTooltip()
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/String GetDisplayTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_GetDisplayTooltip
+description: NSQuoteVersionStatusInformation.GetDisplayTooltip()
+intellisense: NSQuoteVersionStatusInformation.GetDisplayTooltip
 keywords: GetDisplayTooltip()
+so.topic: reference
 ---
 
 

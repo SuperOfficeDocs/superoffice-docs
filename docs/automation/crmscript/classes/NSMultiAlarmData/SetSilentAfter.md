@@ -1,9 +1,9 @@
 ---
-title: Void SetSilentAfter(Integer SilentAfter)
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Void SetSilentAfter(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMultiAlarmData_SetSilentAfter_Integer_p_0
+description: NSMultiAlarmData.SetSilentAfter(Integer p_0)
+intellisense: NSMultiAlarmData.SetSilentAfter
 keywords: SetSilentAfter(Integer)
+so.topic: reference
 ---
 
 

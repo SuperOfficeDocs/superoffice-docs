@@ -1,9 +1,9 @@
 ---
-title: NSProjectType GetProjectType(Integer projectTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectType GetProjectType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProjectType_Integer_p_0
+description: NSListAgent.GetProjectType(Integer p_0)
+intellisense: NSListAgent.GetProjectType
 keywords: GetProjectType(Integer)
+so.topic: reference
 ---
 
 

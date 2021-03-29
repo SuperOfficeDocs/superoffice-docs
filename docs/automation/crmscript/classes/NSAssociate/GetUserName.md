@@ -1,10 +1,10 @@
 ---
-title: String GetUserName()
-path: /EJScript/Classes/NSAssociate/Member functions/String GetUserName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_GetUserName
+description: NSAssociate.GetUserName()
+intellisense: NSAssociate.GetUserName
 sortOrder: 1265
 keywords: GetUserName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSSaleSummary GetSummaryByGroup(Integer p0, DateTime p1, DateTime p2)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleSummary GetSummaryByGroup(Integer p_0, DateTime p_1, DateTime p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSummaryByGroup_Integer_p_0_DateTime_p_1_DateTime_p_2
+description: NSSaleAgent.GetSummaryByGroup(Integer p_0, DateTime p_1, DateTime p_2)
+intellisense: NSSaleAgent.GetSummaryByGroup
 keywords: GetSummaryByGroup(Integer,DateTime,DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo p0)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Integer FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_FigureOutListIdFromListTableIdAndUDListDefinitionId_NSUserDefinedFieldInfo_p_0
+description: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo p_0)
+intellisense: NSUserDefinedFieldInfoAgent.FigureOutListIdFromListTableIdAndUDListDefinitionId
 keywords: FigureOutListIdFromListTableIdAndUDListDefinitionId(NSUserDefinedFieldInfo)
+so.topic: reference
 ---
 
 

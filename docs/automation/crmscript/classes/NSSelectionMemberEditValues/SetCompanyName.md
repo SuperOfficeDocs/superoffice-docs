@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyName(String p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetCompanyName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_SetCompanyName_String_p_0
+description: NSSelectionMemberEditValues.SetCompanyName(String p_0)
+intellisense: NSSelectionMemberEditValues.SetCompanyName
 keywords: SetCompanyName(String)
+so.topic: reference
 ---
 
 

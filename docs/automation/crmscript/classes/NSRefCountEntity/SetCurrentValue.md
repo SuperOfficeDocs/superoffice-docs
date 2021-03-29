@@ -1,9 +1,9 @@
 ---
-title: Void SetCurrentValue(Integer CurrentValue)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetCurrentValue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetCurrentValue_Integer_p_0
+description: NSRefCountEntity.SetCurrentValue(Integer p_0)
+intellisense: NSRefCountEntity.SetCurrentValue
 keywords: SetCurrentValue(Integer)
+so.topic: reference
 ---
 
 

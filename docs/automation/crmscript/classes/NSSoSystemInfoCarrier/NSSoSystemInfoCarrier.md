@@ -1,8 +1,8 @@
 ---
-title: NSSoSystemInfoCarrier
-path: /EJScript/Classes/NSSoSystemInfoCarrier
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier
+description: NSSoSystemInfoCarrier
+intellisense: Void.NSSoSystemInfoCarrier
+so.topic: reference
 ---
 
 

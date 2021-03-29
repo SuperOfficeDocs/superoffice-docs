@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonFullName(String PersonFullName)
-path: /EJScript/Classes/NSSale/Member functions/Void SetPersonFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetPersonFullName_String_p_0
+description: NSSale.SetPersonFullName(String p_0)
+intellisense: NSSale.SetPersonFullName
 keywords: SetPersonFullName(String)
+so.topic: reference
 ---
 
 

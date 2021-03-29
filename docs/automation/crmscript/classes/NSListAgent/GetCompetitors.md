@@ -1,9 +1,9 @@
 ---
-title: NSCompetitor[] GetCompetitors()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCompetitor[] GetCompetitors()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCompetitors
+description: NSListAgent.GetCompetitors()
+intellisense: NSListAgent.GetCompetitors
 keywords: GetCompetitors()
+so.topic: reference
 ---
 
 

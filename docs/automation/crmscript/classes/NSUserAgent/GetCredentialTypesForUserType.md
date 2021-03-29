@@ -1,9 +1,9 @@
 ---
-title: NSCredentialType[] GetCredentialTypesForUserType(Integer userType)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSCredentialType[] GetCredentialTypesForUserType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetCredentialTypesForUserType_Integer_p_0
+description: NSUserAgent.GetCredentialTypesForUserType(Integer p_0)
+intellisense: NSUserAgent.GetCredentialTypesForUserType
 keywords: GetCredentialTypesForUserType(Integer)
+so.topic: reference
 ---
 
 

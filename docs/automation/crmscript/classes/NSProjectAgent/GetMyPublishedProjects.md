@@ -1,9 +1,9 @@
 ---
-title: NSProject[] GetMyPublishedProjects()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetMyPublishedProjects()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetMyPublishedProjects
+description: NSProjectAgent.GetMyPublishedProjects()
+intellisense: NSProjectAgent.GetMyPublishedProjects
 keywords: GetMyPublishedProjects()
+so.topic: reference
 ---
 
 

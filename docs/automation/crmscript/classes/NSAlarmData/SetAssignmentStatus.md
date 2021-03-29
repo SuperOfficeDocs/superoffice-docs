@@ -1,10 +1,10 @@
 ---
-title: Void SetAssignmentStatus(Integer AssignmentStatus)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetAssignmentStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetAssignmentStatus_Integer_p_0
+description: NSAlarmData.SetAssignmentStatus(Integer p_0)
+intellisense: NSAlarmData.SetAssignmentStatus
 sortOrder: 672
 keywords: SetAssignmentStatus(Integer)
+so.topic: reference
 ---
 
 

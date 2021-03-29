@@ -1,10 +1,10 @@
 ---
-title: String GetAnyConfiguration(String application, String instance, String item, String type)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetAnyConfiguration(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetAnyConfiguration_String_p_0_String_p_1_String_p_2_String_p_3
+description: NSConfigurationAgent.GetAnyConfiguration(String p_0, String p_1, String p_2, String p_3)
+intellisense: NSConfigurationAgent.GetAnyConfiguration
 sortOrder: 1604
 keywords: GetAnyConfiguration(String,String,String,String)
+so.topic: reference
 ---
 
 

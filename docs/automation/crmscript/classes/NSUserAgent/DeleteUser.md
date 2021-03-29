@@ -1,9 +1,9 @@
 ---
-title: Void DeleteUser(Integer userId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void DeleteUser(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_DeleteUser_Integer_p_0
+description: NSUserAgent.DeleteUser(Integer p_0)
+intellisense: NSUserAgent.DeleteUser
 keywords: DeleteUser(Integer)
+so.topic: reference
 ---
 
 

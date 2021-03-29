@@ -1,9 +1,9 @@
 ---
-title: Void Merge(Integer sourceProjectId, Integer destinationProjectId, Bool replaceEmptyFieldsOnDestination)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void Merge(Integer p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_Merge_Integer_p_0_Integer_p_1_Bool_p_2
+description: NSProjectAgent.Merge(Integer p_0, Integer p_1, Bool p_2)
+intellisense: NSProjectAgent.Merge
 keywords: Merge(Integer,Integer,Bool)
+so.topic: reference
 ---
 
 

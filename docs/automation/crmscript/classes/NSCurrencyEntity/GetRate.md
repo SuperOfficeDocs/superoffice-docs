@@ -1,10 +1,10 @@
 ---
-title: Float GetRate()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Float GetRate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_GetRate
+description: NSCurrencyEntity.GetRate()
+intellisense: NSCurrencyEntity.GetRate
 sortOrder: 2180
 keywords: GetRate()
+so.topic: reference
 ---
 
 

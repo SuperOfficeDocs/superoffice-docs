@@ -1,9 +1,9 @@
 ---
-title: Void SetClosingStatus(NSTicketCategoryClosingStatus ClosingStatus)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetClosingStatus(NSTicketCategoryClosingStatus p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetClosingStatus_NSTicketCategoryClosingStatus_p_0
+description: NSTicketCategoryEntity.SetClosingStatus(NSTicketCategoryClosingStatus p_0)
+intellisense: NSTicketCategoryEntity.SetClosingStatus
 keywords: SetClosingStatus(NSTicketCategoryClosingStatus)
+so.topic: reference
 ---
 
 

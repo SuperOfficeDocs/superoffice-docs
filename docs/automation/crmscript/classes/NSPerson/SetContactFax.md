@@ -1,9 +1,9 @@
 ---
-title: Void SetContactFax(String ContactFax)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetContactFax(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetContactFax_String_p_0
+description: NSPerson.SetContactFax(String p_0)
+intellisense: NSPerson.SetContactFax
 keywords: SetContactFax(String)
+so.topic: reference
 ---
 
 

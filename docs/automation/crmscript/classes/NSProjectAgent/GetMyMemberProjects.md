@@ -1,9 +1,9 @@
 ---
-title: NSProject[] GetMyMemberProjects()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetMyMemberProjects()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetMyMemberProjects
+description: NSProjectAgent.GetMyMemberProjects()
+intellisense: NSProjectAgent.GetMyMemberProjects
 keywords: GetMyMemberProjects()
+so.topic: reference
 ---
 
 

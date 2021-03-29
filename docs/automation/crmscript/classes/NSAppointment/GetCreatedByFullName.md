@@ -1,10 +1,10 @@
 ---
-title: String GetCreatedByFullName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetCreatedByFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetCreatedByFullName
+description: NSAppointment.GetCreatedByFullName()
+intellisense: NSAppointment.GetCreatedByFullName
 sortOrder: 757
 keywords: GetCreatedByFullName()
+so.topic: reference
 ---
 
 

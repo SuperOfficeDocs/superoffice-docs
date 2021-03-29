@@ -1,9 +1,9 @@
 ---
-title: String GetNumber()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetNumber
+description: NSQuoteVersion.GetNumber()
+intellisense: NSQuoteVersion.GetNumber
 keywords: GetNumber()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool isNumber()
-path: /EJScript/Classes/String/Member functions/Bool isNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_isNumber
+description: String.isNumber()
+intellisense: String.isNumber
 keywords: isNumber()
+so.topic: reference
 ---
 
 Method should return true if it is possible to convert string to integer. If string begins with number it is possible to convert until illegal character occurs.

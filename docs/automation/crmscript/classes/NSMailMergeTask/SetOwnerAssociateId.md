@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnerAssociateId(Integer OwnerAssociateId)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetOwnerAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetOwnerAssociateId_Integer_p_0
+description: NSMailMergeTask.SetOwnerAssociateId(Integer p_0)
+intellisense: NSMailMergeTask.SetOwnerAssociateId
 keywords: SetOwnerAssociateId(Integer)
+so.topic: reference
 ---
 
 

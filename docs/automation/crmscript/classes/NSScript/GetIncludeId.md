@@ -1,9 +1,9 @@
 ---
-title: String GetIncludeId()
-path: /EJScript/Classes/NSScript/Member functions/String GetIncludeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_GetIncludeId
+description: NSScript.GetIncludeId()
+intellisense: NSScript.GetIncludeId
 keywords: GetIncludeId()
+so.topic: reference
 ---
 
 

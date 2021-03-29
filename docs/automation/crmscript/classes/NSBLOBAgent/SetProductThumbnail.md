@@ -1,10 +1,10 @@
 ---
-title: Void SetProductThumbnail(Integer productId, NSImage image)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void SetProductThumbnail(Integer p_0, NSImage p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_SetProductThumbnail_Integer_p_0_NSImage_p_1
+description: NSBLOBAgent.SetProductThumbnail(Integer p_0, NSImage p_1)
+intellisense: NSBLOBAgent.SetProductThumbnail
 sortOrder: 1436
 keywords: SetProductThumbnail(Integer,NSImage)
+so.topic: reference
 ---
 
 

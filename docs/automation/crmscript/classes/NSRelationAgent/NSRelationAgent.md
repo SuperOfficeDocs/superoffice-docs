@@ -1,8 +1,8 @@
 ---
-title: NSRelationAgent
-path: /EJScript/Classes/NSRelationAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationAgent
+description: NSRelationAgent
+intellisense: Void.NSRelationAgent
+so.topic: reference
 ---
 
 

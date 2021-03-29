@@ -1,10 +1,10 @@
 ---
-title: DateTime GetStartTime()
-path: /EJScript/Classes/NSAlarmData/Member functions/DateTime GetStartTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetStartTime
+description: NSAlarmData.GetStartTime()
+intellisense: NSAlarmData.GetStartTime
 sortOrder: 645
 keywords: GetStartTime()
+so.topic: reference
 ---
 
 

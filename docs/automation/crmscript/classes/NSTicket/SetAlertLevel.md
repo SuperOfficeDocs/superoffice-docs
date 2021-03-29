@@ -1,9 +1,9 @@
 ---
-title: Void SetAlertLevel(Integer AlertLevel)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetAlertLevel(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetAlertLevel_Integer_p_0
+description: NSTicket.SetAlertLevel(Integer p_0)
+intellisense: NSTicket.SetAlertLevel
 keywords: SetAlertLevel(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetLocation(String Location)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetLocation(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetLocation_String_p_0
+description: NSAppointmentEntity.SetLocation(String p_0)
+intellisense: NSAppointmentEntity.SetLocation
 sortOrder: 1014
 keywords: SetLocation(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetUpdated()
-path: /EJScript/Classes/NSSatellite/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_GetUpdated
+description: NSSatellite.GetUpdated()
+intellisense: NSSatellite.GetUpdated
 keywords: GetUpdated()
+so.topic: reference
 ---
 
 

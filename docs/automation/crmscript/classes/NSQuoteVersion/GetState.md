@@ -1,9 +1,9 @@
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetState
+description: NSQuoteVersion.GetState()
+intellisense: NSQuoteVersion.GetState
 keywords: GetState()
+so.topic: reference
 ---
 
 Current state of this quote version.

@@ -1,9 +1,9 @@
 ---
-title: Void SetLanguageId(Integer LanguageId)
-path: /EJScript/Classes/NSLocalizedText/Member functions/Void SetLanguageId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_SetLanguageId_Integer_p_0
+description: NSLocalizedText.SetLanguageId(Integer p_0)
+intellisense: NSLocalizedText.SetLanguageId
 keywords: SetLanguageId(Integer)
+so.topic: reference
 ---
 
 

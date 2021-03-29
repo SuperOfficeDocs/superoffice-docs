@@ -1,9 +1,9 @@
 ---
-title: NSPhoneListPreferences GetPreferences()
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListPreferences GetPreferences()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_GetPreferences
+description: NSPhoneListAgent.GetPreferences()
+intellisense: NSPhoneListAgent.GetPreferences
 keywords: GetPreferences()
+so.topic: reference
 ---
 
 

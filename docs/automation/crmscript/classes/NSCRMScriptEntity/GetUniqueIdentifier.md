@@ -1,10 +1,10 @@
 ---
-title: String GetUniqueIdentifier()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetUniqueIdentifier()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_GetUniqueIdentifier
+description: NSCRMScriptEntity.GetUniqueIdentifier()
+intellisense: NSCRMScriptEntity.GetUniqueIdentifier
 sortOrder: 2137
 keywords: GetUniqueIdentifier()
+so.topic: reference
 ---
 
 

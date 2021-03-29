@@ -1,9 +1,9 @@
 ---
-title: Void SetGenerationStart(DateTime GenerationStart)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetGenerationStart(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetGenerationStart_DateTime_p_0
+description: NSStatusMonitor.SetGenerationStart(DateTime p_0)
+intellisense: NSStatusMonitor.SetGenerationStart
 keywords: SetGenerationStart(DateTime)
+so.topic: reference
 ---
 
 

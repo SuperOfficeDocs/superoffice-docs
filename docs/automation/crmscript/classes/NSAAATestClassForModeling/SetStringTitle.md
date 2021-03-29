@@ -1,10 +1,10 @@
 ---
-title: Void SetStringTitle(String StringTitle)
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Void SetStringTitle(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_SetStringTitle_String_p_0
+description: NSAAATestClassForModeling.SetStringTitle(String p_0)
+intellisense: NSAAATestClassForModeling.SetStringTitle
 sortOrder: 8953
 keywords: SetStringTitle(String)
+so.topic: reference
 ---
 
 

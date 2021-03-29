@@ -1,9 +1,9 @@
 ---
-title: NSSatellite GetSatellite(Integer satelliteId)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSSatellite GetSatellite(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_GetSatellite_Integer_p_0
+description: NSReplicationAgent.GetSatellite(Integer p_0)
+intellisense: NSReplicationAgent.GetSatellite
 keywords: GetSatellite(Integer)
+so.topic: reference
 ---
 
 

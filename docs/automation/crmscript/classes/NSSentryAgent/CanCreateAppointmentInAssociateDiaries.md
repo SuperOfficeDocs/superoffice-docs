@@ -1,9 +1,9 @@
 ---
-title: Bool CanCreateAppointmentInAssociateDiaries(Integer[] associateIds)
-path: /EJScript/Classes/NSSentryAgent/Member functions/Bool CanCreateAppointmentInAssociateDiaries(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAssociateDiaries_Integer__p_0
+description: NSSentryAgent.CanCreateAppointmentInAssociateDiaries(Integer[] p_0)
+intellisense: NSSentryAgent.CanCreateAppointmentInAssociateDiaries
 keywords: CanCreateAppointmentInAssociateDiaries(Integer[])
+so.topic: reference
 ---
 
 

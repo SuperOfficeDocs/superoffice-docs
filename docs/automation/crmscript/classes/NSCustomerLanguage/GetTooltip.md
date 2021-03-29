@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSCustomerLanguage/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerLanguage_GetTooltip
+description: NSCustomerLanguage.GetTooltip()
+intellisense: NSCustomerLanguage.GetTooltip
 sortOrder: 2214
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

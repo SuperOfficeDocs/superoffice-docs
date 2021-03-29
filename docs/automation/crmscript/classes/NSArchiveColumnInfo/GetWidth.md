@@ -1,10 +1,10 @@
 ---
-title: String GetWidth()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetWidth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetWidth
+description: NSArchiveColumnInfo.GetWidth()
+intellisense: NSArchiveColumnInfo.GetWidth
 sortOrder: 1149
 keywords: GetWidth()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetArchivedBy()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetArchivedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetArchivedBy
+description: NSEMailSOInfo.GetArchivedBy()
+intellisense: NSEMailSOInfo.GetArchivedBy
 sortOrder: 3047
 keywords: GetArchivedBy()
+so.topic: reference
 ---
 
 

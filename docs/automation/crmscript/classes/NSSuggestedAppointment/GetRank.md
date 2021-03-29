@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetRank
+description: NSSuggestedAppointment.GetRank()
+intellisense: NSSuggestedAppointment.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

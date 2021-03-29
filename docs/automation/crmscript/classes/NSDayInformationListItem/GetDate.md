@@ -1,10 +1,10 @@
 ---
-title: DateTime GetDate()
-path: /EJScript/Classes/NSDayInformationListItem/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDayInformationListItem_GetDate
+description: NSDayInformationListItem.GetDate()
+intellisense: NSDayInformationListItem.GetDate
 sortOrder: 2358
 keywords: GetDate()
+so.topic: reference
 ---
 
 

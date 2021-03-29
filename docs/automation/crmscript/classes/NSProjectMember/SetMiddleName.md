@@ -1,9 +1,9 @@
 ---
-title: Void SetMiddleName(String MiddleName)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetMiddleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_SetMiddleName_String_p_0
+description: NSProjectMember.SetMiddleName(String p_0)
+intellisense: NSProjectMember.SetMiddleName
 keywords: SetMiddleName(String)
+so.topic: reference
 ---
 
 

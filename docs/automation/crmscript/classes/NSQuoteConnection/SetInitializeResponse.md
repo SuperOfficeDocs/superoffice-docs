@@ -1,9 +1,9 @@
 ---
-title: Void SetInitializeResponse(NSPluginResponse InitializeResponse)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetInitializeResponse(NSPluginResponse p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetInitializeResponse_NSPluginResponse_p_0
+description: NSQuoteConnection.SetInitializeResponse(NSPluginResponse p_0)
+intellisense: NSQuoteConnection.SetInitializeResponse
 keywords: SetInitializeResponse(NSPluginResponse)
+so.topic: reference
 ---
 
 

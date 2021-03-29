@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetDescription
+description: NSContactEntity.GetDescription()
+intellisense: NSContactEntity.GetDescription
 sortOrder: 1869
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

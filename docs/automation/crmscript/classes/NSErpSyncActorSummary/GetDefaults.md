@@ -1,10 +1,10 @@
 ---
-title: String GetDefaults()
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/String GetDefaults()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_GetDefaults
+description: NSErpSyncActorSummary.GetDefaults()
+intellisense: NSErpSyncActorSummary.GetDefaults
 sortOrder: 3154
 keywords: GetDefaults()
+so.topic: reference
 ---
 
 

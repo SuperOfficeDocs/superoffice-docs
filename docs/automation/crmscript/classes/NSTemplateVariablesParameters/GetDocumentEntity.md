@@ -1,9 +1,9 @@
 ---
-title: NSDocumentEntity GetDocumentEntity()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/NSDocumentEntity GetDocumentEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetDocumentEntity
+description: NSTemplateVariablesParameters.GetDocumentEntity()
+intellisense: NSTemplateVariablesParameters.GetDocumentEntity
 keywords: GetDocumentEntity()
+so.topic: reference
 ---
 
 

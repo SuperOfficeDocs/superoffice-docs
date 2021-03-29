@@ -1,10 +1,10 @@
 ---
-title: String GetAssociateFullName()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetAssociateFullName
+description: NSForeignDevice.GetAssociateFullName()
+intellisense: NSForeignDevice.GetAssociateFullName
 sortOrder: 3718
 keywords: GetAssociateFullName()
+so.topic: reference
 ---
 
 

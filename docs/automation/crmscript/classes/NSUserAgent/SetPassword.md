@@ -1,9 +1,9 @@
 ---
-title: Bool SetPassword(Integer associateId, String password)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool SetPassword(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SetPassword_Integer_p_0_String_p_1
+description: NSUserAgent.SetPassword(Integer p_0, String p_1)
+intellisense: NSUserAgent.SetPassword
 keywords: SetPassword(Integer,String)
+so.topic: reference
 ---
 
 

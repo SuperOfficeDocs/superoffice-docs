@@ -1,10 +1,10 @@
 ---
-title: NSAudienceConfigParameter[] GetConfigParametersOnPerson(Integer personId)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter[] GetConfigParametersOnPerson(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetConfigParametersOnPerson_Integer_p_0
+description: NSAudienceAgent.GetConfigParametersOnPerson(Integer p_0)
+intellisense: NSAudienceAgent.GetConfigParametersOnPerson
 sortOrder: 1295
 keywords: GetConfigParametersOnPerson(Integer)
+so.topic: reference
 ---
 
 

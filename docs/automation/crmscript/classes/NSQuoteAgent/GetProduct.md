@@ -1,9 +1,9 @@
 ---
-title: NSProduct GetProduct(Integer quoteConnectionId, String eRPProductKey)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct GetProduct(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetProduct_Integer_p_0_String_p_1
+description: NSQuoteAgent.GetProduct(Integer p_0, String p_1)
+intellisense: NSQuoteAgent.GetProduct
 keywords: GetProduct(Integer,String)
+so.topic: reference
 ---
 
 

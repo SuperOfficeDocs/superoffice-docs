@@ -1,10 +1,10 @@
 ---
-title: Integer GetReversed()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetReversed()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetReversed
+description: NSContactRelationEntity.GetReversed()
+intellisense: NSContactRelationEntity.GetReversed
 sortOrder: 1950
 keywords: GetReversed()
+so.topic: reference
 ---
 
 

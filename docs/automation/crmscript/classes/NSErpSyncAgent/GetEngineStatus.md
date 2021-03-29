@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncEngineStatus GetEngineStatus()
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncEngineStatus GetEngineStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetEngineStatus
+description: NSErpSyncAgent.GetEngineStatus()
+intellisense: NSErpSyncAgent.GetEngineStatus
 sortOrder: 3206
 keywords: GetEngineStatus()
+so.topic: reference
 ---
 
 

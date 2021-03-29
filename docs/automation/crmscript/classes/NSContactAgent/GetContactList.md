@@ -1,10 +1,10 @@
 ---
-title: NSContact[] GetContactList(Integer[] contactIds)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContact[] GetContactList(Integer[] contactIds)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetContactList_Integer__contactIds
+description: NSContactAgent.GetContactList(Integer[] contactIds)
+intellisense: NSContactAgent.GetContactList
 sortOrder: 1804
 keywords: GetContactList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Contact objects.

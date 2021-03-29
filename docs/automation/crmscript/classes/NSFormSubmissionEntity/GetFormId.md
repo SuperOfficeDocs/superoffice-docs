@@ -1,10 +1,10 @@
 ---
-title: Integer GetFormId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetFormId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetFormId
+description: NSFormSubmissionEntity.GetFormId()
+intellisense: NSFormSubmissionEntity.GetFormId
 sortOrder: 3832
 keywords: GetFormId()
+so.topic: reference
 ---
 
 

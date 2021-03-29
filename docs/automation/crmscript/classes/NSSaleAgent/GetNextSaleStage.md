@@ -1,9 +1,9 @@
 ---
-title: Integer GetNextSaleStage(Integer p0, Bool p1)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Integer GetNextSaleStage(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetNextSaleStage_Integer_p_0_Bool_p_1
+description: NSSaleAgent.GetNextSaleStage(Integer p_0, Bool p_1)
+intellisense: NSSaleAgent.GetNextSaleStage
 keywords: GetNextSaleStage(Integer,Bool)
+so.topic: reference
 ---
 
 

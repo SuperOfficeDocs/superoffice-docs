@@ -1,10 +1,10 @@
 ---
-title: Integer GetChatSessionId()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Integer GetChatSessionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetChatSessionId
+description: NSChatSummaryItem.GetChatSessionId()
+intellisense: NSChatSummaryItem.GetChatSessionId
 sortOrder: 1537
 keywords: GetChatSessionId()
+so.topic: reference
 ---
 
 

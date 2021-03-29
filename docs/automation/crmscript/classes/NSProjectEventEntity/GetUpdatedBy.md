@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetUpdatedBy
+description: NSProjectEventEntity.GetUpdatedBy()
+intellisense: NSProjectEventEntity.GetUpdatedBy
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSupplierCode(String SupplierCode)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSupplierCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetSupplierCode_String_p_0
+description: NSQuoteLine.SetSupplierCode(String p_0)
+intellisense: NSQuoteLine.SetSupplierCode
 keywords: SetSupplierCode(String)
+so.topic: reference
 ---
 
 

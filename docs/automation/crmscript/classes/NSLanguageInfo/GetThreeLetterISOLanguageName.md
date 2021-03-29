@@ -1,10 +1,10 @@
 ---
-title: String GetThreeLetterISOLanguageName()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/String GetThreeLetterISOLanguageName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLanguageInfo_GetThreeLetterISOLanguageName
+description: NSLanguageInfo.GetThreeLetterISOLanguageName()
+intellisense: NSLanguageInfo.GetThreeLetterISOLanguageName
 sortOrder: 4005
 keywords: GetThreeLetterISOLanguageName()
+so.topic: reference
 ---
 
 

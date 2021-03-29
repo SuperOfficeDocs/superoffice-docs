@@ -1,9 +1,9 @@
 ---
-title: Integer GetSource()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetSource
+description: NSPersonEntity.GetSource()
+intellisense: NSPersonEntity.GetSource
 keywords: GetSource()
+so.topic: reference
 ---
 
 

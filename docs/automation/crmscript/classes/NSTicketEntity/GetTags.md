@@ -1,9 +1,9 @@
 ---
-title: NSTag[] GetTags()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTag[] GetTags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetTags
+description: NSTicketEntity.GetTags()
+intellisense: NSTicketEntity.GetTags
 keywords: GetTags()
+so.topic: reference
 ---
 
 

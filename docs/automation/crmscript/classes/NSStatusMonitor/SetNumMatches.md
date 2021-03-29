@@ -1,9 +1,9 @@
 ---
-title: Void SetNumMatches(Integer NumMatches)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetNumMatches(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetNumMatches_Integer_p_0
+description: NSStatusMonitor.SetNumMatches(Integer p_0)
+intellisense: NSStatusMonitor.SetNumMatches
 keywords: SetNumMatches(Integer)
+so.topic: reference
 ---
 
 

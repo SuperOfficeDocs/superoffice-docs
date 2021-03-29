@@ -1,9 +1,9 @@
 ---
-title: Bool CheckNewTimeZoneDataAvailable()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Bool CheckNewTimeZoneDataAvailable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_CheckNewTimeZoneDataAvailable
+description: NSTimeZoneAgent.CheckNewTimeZoneDataAvailable()
+intellisense: NSTimeZoneAgent.CheckNewTimeZoneDataAvailable
 keywords: CheckNewTimeZoneDataAvailable()
+so.topic: reference
 ---
 
 

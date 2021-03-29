@@ -1,10 +1,10 @@
 ---
-title: Void SetUniqueHash(Integer UniqueHash)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetUniqueHash(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_SetUniqueHash_Integer_p_0
+description: NSArchiveRestrictionInfo.SetUniqueHash(Integer p_0)
+intellisense: NSArchiveRestrictionInfo.SetUniqueHash
 sortOrder: 1236
 keywords: SetUniqueHash(Integer)
+so.topic: reference
 ---
 
 

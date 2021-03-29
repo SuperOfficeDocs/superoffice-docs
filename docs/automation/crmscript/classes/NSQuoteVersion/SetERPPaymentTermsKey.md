@@ -1,9 +1,9 @@
 ---
-title: Void SetERPPaymentTermsKey(String ERPPaymentTermsKey)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPPaymentTermsKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetERPPaymentTermsKey_String_p_0
+description: NSQuoteVersion.SetERPPaymentTermsKey(String p_0)
+intellisense: NSQuoteVersion.SetERPPaymentTermsKey
 keywords: SetERPPaymentTermsKey(String)
+so.topic: reference
 ---
 
 

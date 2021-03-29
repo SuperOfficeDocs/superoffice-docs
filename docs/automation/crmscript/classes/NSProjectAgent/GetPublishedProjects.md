@@ -1,9 +1,9 @@
 ---
-title: NSProject[] GetPublishedProjects(Integer[] projectIds)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetPublishedProjects(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetPublishedProjects_Integer__p_0
+description: NSProjectAgent.GetPublishedProjects(Integer[] p_0)
+intellisense: NSProjectAgent.GetPublishedProjects
 keywords: GetPublishedProjects(Integer[])
+so.topic: reference
 ---
 
 

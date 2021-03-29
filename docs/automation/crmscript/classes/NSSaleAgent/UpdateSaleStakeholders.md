@@ -1,9 +1,9 @@
 ---
-title: NSSaleStakeholder[] UpdateSaleStakeholders(NSSaleStakeholder[] p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder[] UpdateSaleStakeholders(NSSaleStakeholder[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_UpdateSaleStakeholders_NSSaleStakeholder__p_0
+description: NSSaleAgent.UpdateSaleStakeholders(NSSaleStakeholder[] p_0)
+intellisense: NSSaleAgent.UpdateSaleStakeholders
 keywords: UpdateSaleStakeholders(NSSaleStakeholder[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_SetKey_String_p_0
+description: NSConsentPurpose.SetKey(String p_0)
+intellisense: NSConsentPurpose.SetKey
 sortOrder: 1692
 keywords: SetKey(String)
+so.topic: reference
 ---
 
 

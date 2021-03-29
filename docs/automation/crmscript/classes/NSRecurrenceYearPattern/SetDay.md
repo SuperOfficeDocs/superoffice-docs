@@ -1,9 +1,9 @@
 ---
-title: Void SetDay(Integer p0)
-path: /EJScript/Classes/NSRecurrenceYearPattern/Member functions/Void SetDay(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceYearPattern_SetDay_Integer_p_0
+description: NSRecurrenceYearPattern.SetDay(Integer p_0)
+intellisense: NSRecurrenceYearPattern.SetDay
 keywords: SetDay(Integer)
+so.topic: reference
 ---
 
 

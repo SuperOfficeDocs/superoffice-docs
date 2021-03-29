@@ -1,9 +1,9 @@
 ---
-title: Void SetFreetextSearchEnabledOnArea(Integer areaId, Bool freetextEnabled)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/Void SetFreetextSearchEnabledOnArea(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_SetFreetextSearchEnabledOnArea_Integer_p_0_Bool_p_1
+description: NSReplicationAgent.SetFreetextSearchEnabledOnArea(Integer p_0, Bool p_1)
+intellisense: NSReplicationAgent.SetFreetextSearchEnabledOnArea
 keywords: SetFreetextSearchEnabledOnArea(Integer,Bool)
+so.topic: reference
 ---
 
 

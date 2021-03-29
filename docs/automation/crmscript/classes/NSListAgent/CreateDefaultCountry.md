@@ -1,9 +1,9 @@
 ---
-title: NSCountry CreateDefaultCountry()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry CreateDefaultCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultCountry
+description: NSListAgent.CreateDefaultCountry()
+intellisense: NSListAgent.CreateDefaultCountry
 keywords: CreateDefaultCountry()
+so.topic: reference
 ---
 
 

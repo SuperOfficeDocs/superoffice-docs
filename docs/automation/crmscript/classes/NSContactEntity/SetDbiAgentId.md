@@ -1,10 +1,10 @@
 ---
-title: Void SetDbiAgentId(Integer DbiAgentId)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetDbiAgentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetDbiAgentId_Integer_p_0
+description: NSContactEntity.SetDbiAgentId(Integer p_0)
+intellisense: NSContactEntity.SetDbiAgentId
 sortOrder: 1889
 keywords: SetDbiAgentId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSCurrencyEntity CreateDefaultCurrencyEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity CreateDefaultCurrencyEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultCurrencyEntity
+description: NSListAgent.CreateDefaultCurrencyEntity()
+intellisense: NSListAgent.CreateDefaultCurrencyEntity
 keywords: CreateDefaultCurrencyEntity()
+so.topic: reference
 ---
 
 

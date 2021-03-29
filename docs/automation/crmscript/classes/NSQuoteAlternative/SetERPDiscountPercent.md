@@ -1,9 +1,9 @@
 ---
-title: Void SetERPDiscountPercent(Float ERPDiscountPercent)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetERPDiscountPercent(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetERPDiscountPercent_Float_p_0
+description: NSQuoteAlternative.SetERPDiscountPercent(Float p_0)
+intellisense: NSQuoteAlternative.SetERPDiscountPercent
 keywords: SetERPDiscountPercent(Float)
+so.topic: reference
 ---
 
 

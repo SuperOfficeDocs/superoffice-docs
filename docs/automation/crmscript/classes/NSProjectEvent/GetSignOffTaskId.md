@@ -1,9 +1,9 @@
 ---
-title: Integer GetSignOffTaskId()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetSignOffTaskId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOffTaskId
+description: NSProjectEvent.GetSignOffTaskId()
+intellisense: NSProjectEvent.GetSignOffTaskId
 keywords: GetSignOffTaskId()
+so.topic: reference
 ---
 
 

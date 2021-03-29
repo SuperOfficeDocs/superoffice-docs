@@ -1,9 +1,9 @@
 ---
-title: Void SetHasAttachment(Bool HasAttachment)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetHasAttachment(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetHasAttachment_Bool_p_0
+description: NSTicket.SetHasAttachment(Bool p_0)
+intellisense: NSTicket.SetHasAttachment
 keywords: SetHasAttachment(Bool)
+so.topic: reference
 ---
 
 

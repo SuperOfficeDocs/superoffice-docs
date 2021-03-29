@@ -1,10 +1,10 @@
 ---
-title: Bool findFromCellphone(String cellphone)
-path: /EJScript/Classes/Customer/Member functions/Bool findFromCellphone(String cellphone)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Customer_findFromCellphone_String_cellphone
+description: Customer.findFromCellphone(String cellphone)
+intellisense: Customer.findFromCellphone
 sortOrder: 176
 keywords: findFromCellphone(String)
+so.topic: reference
 ---
 
 Find an entry based on the cellphone

@@ -1,10 +1,10 @@
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetIsActive_Bool_p_0
+description: NSFieldValueInfo.SetIsActive(Bool p_0)
+intellisense: NSFieldValueInfo.SetIsActive
 sortOrder: 3645
 keywords: SetIsActive(Bool)
+so.topic: reference
 ---
 
 

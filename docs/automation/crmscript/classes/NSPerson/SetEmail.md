@@ -1,9 +1,9 @@
 ---
-title: Void SetEmail(String Email)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetEmail(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetEmail_String_p_0
+description: NSPerson.SetEmail(String p_0)
+intellisense: NSPerson.SetEmail
 keywords: SetEmail(String)
+so.topic: reference
 ---
 
 

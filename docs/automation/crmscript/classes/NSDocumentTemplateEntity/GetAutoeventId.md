@@ -1,10 +1,10 @@
 ---
-title: Integer GetAutoeventId()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetAutoeventId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetAutoeventId
+description: NSDocumentTemplateEntity.GetAutoeventId()
+intellisense: NSDocumentTemplateEntity.GetAutoeventId
 sortOrder: 2655
 keywords: GetAutoeventId()
+so.topic: reference
 ---
 
 

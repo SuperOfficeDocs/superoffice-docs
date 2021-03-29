@@ -1,10 +1,10 @@
 ---
-title: Void setParameter(String name, String val)
-path: /EJScript/Classes/DbiControl/Member functions/Void setParameter(String name, String val)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbiControl_setParameter_String_name_String_val
+description: DbiControl.setParameter(String name, String val)
+intellisense: DbiControl.setParameter
 sortOrder: 258
 keywords: setParameter(String,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetTestOnly()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetTestOnly()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetTestOnly
+description: NSMailMergeSettings.GetTestOnly()
+intellisense: NSMailMergeSettings.GetTestOnly
 keywords: GetTestOnly()
+so.topic: reference
 ---
 
 

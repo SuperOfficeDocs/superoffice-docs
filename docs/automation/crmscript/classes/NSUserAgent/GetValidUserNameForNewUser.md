@@ -1,9 +1,9 @@
 ---
-title: String GetValidUserNameForNewUser(NSUser p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/String GetValidUserNameForNewUser(NSUser p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetValidUserNameForNewUser_NSUser_p_0
+description: NSUserAgent.GetValidUserNameForNewUser(NSUser p_0)
+intellisense: NSUserAgent.GetValidUserNameForNewUser
 keywords: GetValidUserNameForNewUser(NSUser)
+so.topic: reference
 ---
 
 

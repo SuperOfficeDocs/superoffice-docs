@@ -1,9 +1,9 @@
 ---
-title: Void addFields(String table, String fields)
-path: /EJScript/Classes/SearchEngine/member functions/Void addFields(String table, String fields)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addFields_String_table_String_fields
+description: SearchEngine.addFields(String table, String fields)
+intellisense: SearchEngine.addFields
 keywords: addFields(String,String)
+so.topic: reference
 ---
 
 

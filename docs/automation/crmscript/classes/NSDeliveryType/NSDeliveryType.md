@@ -1,9 +1,9 @@
 ---
-title: NSDeliveryType
-path: /EJScript/Classes/NSDeliveryType
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDeliveryType
+description: NSDeliveryType
+intellisense: Void.NSDeliveryType
 sortOrder: 2372
+so.topic: reference
 ---
 
 

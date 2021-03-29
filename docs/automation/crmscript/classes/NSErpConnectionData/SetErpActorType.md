@@ -1,10 +1,10 @@
 ---
-title: Void SetErpActorType(Integer ErpActorType)
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Void SetErpActorType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_SetErpActorType_Integer_p_0
+description: NSErpConnectionData.SetErpActorType(Integer p_0)
+intellisense: NSErpConnectionData.SetErpActorType
 sortOrder: 3117
 keywords: SetErpActorType(Integer)
+so.topic: reference
 ---
 
 

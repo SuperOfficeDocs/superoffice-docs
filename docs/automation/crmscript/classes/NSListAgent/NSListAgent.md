@@ -1,8 +1,8 @@
 ---
-title: NSListAgent
-path: /EJScript/Classes/NSListAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent
+description: NSListAgent
+intellisense: Void.NSListAgent
+so.topic: reference
 ---
 
 

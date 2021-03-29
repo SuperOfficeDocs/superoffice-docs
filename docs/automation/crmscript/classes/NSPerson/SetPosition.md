@@ -1,9 +1,9 @@
 ---
-title: Void SetPosition(String Position)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetPosition(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetPosition_String_p_0
+description: NSPerson.SetPosition(String p_0)
+intellisense: NSPerson.SetPosition
 keywords: SetPosition(String)
+so.topic: reference
 ---
 
 

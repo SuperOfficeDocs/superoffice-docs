@@ -1,9 +1,9 @@
 ---
-title: DateTime GetNextMilestoneDate()
-path: /EJScript/Classes/NSProjectEntity/Member functions/DateTime GetNextMilestoneDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetNextMilestoneDate
+description: NSProjectEntity.GetNextMilestoneDate()
+intellisense: NSProjectEntity.GetNextMilestoneDate
 keywords: GetNextMilestoneDate()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String readAll()
-path: /EJScript/Classes/File/Member functions/String readAll()
-intellisense: 1
-classref: 1
+title: crmscript_ref_File_readAll
+description: File.readAll()
+intellisense: File.readAll
 sortOrder: 347
 keywords: readAll()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSEMailAttachment
-path: /EJScript/Classes/NSEMailAttachment
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment
+description: NSEMailAttachment
+intellisense: Void.NSEMailAttachment
 sortOrder: 2890
+so.topic: reference
 ---
 
 

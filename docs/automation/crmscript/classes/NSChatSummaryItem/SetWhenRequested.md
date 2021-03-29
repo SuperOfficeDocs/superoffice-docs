@@ -1,10 +1,10 @@
 ---
-title: Void SetWhenRequested(DateTime WhenRequested)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetWhenRequested(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_SetWhenRequested_DateTime_p_0
+description: NSChatSummaryItem.SetWhenRequested(DateTime p_0)
+intellisense: NSChatSummaryItem.SetWhenRequested
 sortOrder: 1548
 keywords: SetWhenRequested(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSEMailAttachment GetPreviewAttachmentFromDocId(Integer docId, String attachmentId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAttachment GetPreviewAttachmentFromDocId(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetPreviewAttachmentFromDocId_Integer_p_0_String_p_1
+description: NSEMailAgent.GetPreviewAttachmentFromDocId(Integer p_0, String p_1)
+intellisense: NSEMailAgent.GetPreviewAttachmentFromDocId
 sortOrder: 2807
 keywords: GetPreviewAttachmentFromDocId(Integer,String)
+so.topic: reference
 ---
 
 

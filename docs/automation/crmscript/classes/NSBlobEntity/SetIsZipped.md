@@ -1,10 +1,10 @@
 ---
-title: Void SetIsZipped(Bool IsZipped)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetIsZipped(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetIsZipped_Bool_p_0
+description: NSBlobEntity.SetIsZipped(Bool p_0)
+intellisense: NSBlobEntity.SetIsZipped
 sortOrder: 1461
 keywords: SetIsZipped(Bool)
+so.topic: reference
 ---
 
 

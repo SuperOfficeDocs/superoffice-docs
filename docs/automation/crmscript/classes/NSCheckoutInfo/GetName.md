@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckoutInfo_GetName
+description: NSCheckoutInfo.GetName()
+intellisense: NSCheckoutInfo.GetName
 sortOrder: 1562
 keywords: GetName()
+so.topic: reference
 ---
 
 

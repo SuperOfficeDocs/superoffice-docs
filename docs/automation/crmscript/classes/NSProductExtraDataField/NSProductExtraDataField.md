@@ -1,8 +1,8 @@
 ---
-title: NSProductExtraDataField
-path: /EJScript/Classes/NSProductExtraDataField
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductExtraDataField
+description: NSProductExtraDataField
+intellisense: Void.NSProductExtraDataField
+so.topic: reference
 ---
 
 

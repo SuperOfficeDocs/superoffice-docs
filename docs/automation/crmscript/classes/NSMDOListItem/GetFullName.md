@@ -1,9 +1,9 @@
 ---
-title: String GetFullName()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetFullName
+description: NSMDOListItem.GetFullName()
+intellisense: NSMDOListItem.GetFullName
 keywords: GetFullName()
+so.topic: reference
 ---
 
 

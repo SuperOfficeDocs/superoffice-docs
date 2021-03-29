@@ -1,9 +1,9 @@
 ---
-title: DateTime GetUpdated()
-path: /EJScript/Classes/NSWebhook/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetUpdated
+description: NSWebhook.GetUpdated()
+intellisense: NSWebhook.GetUpdated
 keywords: GetUpdated()
+so.topic: reference
 ---
 
 

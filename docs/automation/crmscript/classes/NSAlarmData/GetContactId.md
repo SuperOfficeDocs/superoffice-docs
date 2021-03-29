@@ -1,10 +1,10 @@
 ---
-title: Integer GetContactId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetContactId
+description: NSAlarmData.GetContactId()
+intellisense: NSAlarmData.GetContactId
 sortOrder: 650
 keywords: GetContactId()
+so.topic: reference
 ---
 
 

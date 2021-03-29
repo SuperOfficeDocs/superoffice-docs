@@ -1,10 +1,10 @@
 ---
-title: NSServiceAuth GetOutgoingCredentials()
-path: /EJScript/Classes/NSEMailAccount/Member functions/NSServiceAuth GetOutgoingCredentials()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetOutgoingCredentials
+description: NSEMailAccount.GetOutgoingCredentials()
+intellisense: NSEMailAccount.GetOutgoingCredentials
 sortOrder: 2749
 keywords: GetOutgoingCredentials()
+so.topic: reference
 ---
 
 

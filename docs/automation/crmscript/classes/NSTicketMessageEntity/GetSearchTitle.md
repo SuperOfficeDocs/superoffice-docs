@@ -1,9 +1,9 @@
 ---
-title: String GetSearchTitle()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetSearchTitle()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetSearchTitle
+description: NSTicketMessageEntity.GetSearchTitle()
+intellisense: NSTicketMessageEntity.GetSearchTitle
 keywords: GetSearchTitle()
+so.topic: reference
 ---
 
 

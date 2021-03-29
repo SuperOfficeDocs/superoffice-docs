@@ -1,10 +1,10 @@
 ---
-title: NSServiceAuth GetIncomingCredentials()
-path: /EJScript/Classes/NSEMailAccount/Member functions/NSServiceAuth GetIncomingCredentials()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetIncomingCredentials
+description: NSEMailAccount.GetIncomingCredentials()
+intellisense: NSEMailAccount.GetIncomingCredentials
 sortOrder: 2748
 keywords: GetIncomingCredentials()
+so.topic: reference
 ---
 
 

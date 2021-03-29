@@ -1,10 +1,10 @@
 ---
-title: NSBatchTaskInfo[] GetBatchTaskInfosByState(Integer state)
-path: /EJScript/Classes/NSBatchAgent/Member functions/NSBatchTaskInfo[] GetBatchTaskInfosByState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent_GetBatchTaskInfosByState_Integer_p_0
+description: NSBatchAgent.GetBatchTaskInfosByState(Integer p_0)
+intellisense: NSBatchAgent.GetBatchTaskInfosByState
 sortOrder: 1359
 keywords: GetBatchTaskInfosByState(Integer)
+so.topic: reference
 ---
 
 

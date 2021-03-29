@@ -1,9 +1,9 @@
 ---
-title: License
-path: /EJScript/Classes/License
-intellisense: 1
-classref: 1
+title: crmscript_ref_License
+description: License
+intellisense: Void.License
 sortOrder: 458
+so.topic: reference
 ---
 
 

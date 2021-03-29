@@ -1,8 +1,8 @@
 ---
-title: NSQuoteVersionAttachment
-path: /EJScript/Classes/NSQuoteVersionAttachment
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionAttachment
+description: NSQuoteVersionAttachment
+intellisense: Void.NSQuoteVersionAttachment
+so.topic: reference
 ---
 
 

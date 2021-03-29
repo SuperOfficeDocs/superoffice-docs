@@ -1,9 +1,9 @@
 ---
-title: Void SetEarningPercent(Float EarningPercent)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetEarningPercent(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetEarningPercent_Float_p_0
+description: NSQuoteLine.SetEarningPercent(Float p_0)
+intellisense: NSQuoteLine.SetEarningPercent
 keywords: SetEarningPercent(Float)
+so.topic: reference
 ---
 
 

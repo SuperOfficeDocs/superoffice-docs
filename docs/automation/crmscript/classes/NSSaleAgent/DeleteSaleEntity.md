@@ -1,9 +1,9 @@
 ---
-title: Void DeleteSaleEntity(Integer saleEntityId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void DeleteSaleEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_DeleteSaleEntity_Integer_p_0
+description: NSSaleAgent.DeleteSaleEntity(Integer p_0)
+intellisense: NSSaleAgent.DeleteSaleEntity
 keywords: DeleteSaleEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_GetName
+description: NSAudienceConfigParameter.GetName()
+intellisense: NSAudienceConfigParameter.GetName
 sortOrder: 1323
 keywords: GetName()
+so.topic: reference
 ---
 
 

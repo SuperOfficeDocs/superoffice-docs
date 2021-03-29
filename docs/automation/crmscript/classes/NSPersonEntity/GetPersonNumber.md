@@ -1,9 +1,9 @@
 ---
-title: String GetPersonNumber()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetPersonNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetPersonNumber
+description: NSPersonEntity.GetPersonNumber()
+intellisense: NSPersonEntity.GetPersonNumber
 keywords: GetPersonNumber()
+so.topic: reference
 ---
 
 

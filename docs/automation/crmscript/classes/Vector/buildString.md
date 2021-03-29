@@ -1,9 +1,9 @@
 ---
-title: String buildString(String delimiter)
-path: /EJScript/Classes/Vector/Member functions/String buildString(String delimiter)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Vector_buildString_String_delimiter
+description: Vector.buildString(String delimiter)
+intellisense: Vector.buildString
 keywords: buildString(String)
+so.topic: reference
 ---
 
 

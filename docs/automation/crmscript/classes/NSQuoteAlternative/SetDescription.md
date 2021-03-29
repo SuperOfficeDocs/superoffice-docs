@@ -1,9 +1,9 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetDescription_String_p_0
+description: NSQuoteAlternative.SetDescription(String p_0)
+intellisense: NSQuoteAlternative.SetDescription
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSFreeText
-path: /EJScript/Classes/NSFreeText
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText
+description: NSFreeText
+intellisense: Void.NSFreeText
 sortOrder: 3850
+so.topic: reference
 ---
 
 

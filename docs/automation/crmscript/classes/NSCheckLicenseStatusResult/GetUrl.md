@@ -1,10 +1,10 @@
 ---
-title: String GetUrl()
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckLicenseStatusResult_GetUrl
+description: NSCheckLicenseStatusResult.GetUrl()
+intellisense: NSCheckLicenseStatusResult.GetUrl
 sortOrder: 1553
 keywords: GetUrl()
+so.topic: reference
 ---
 
 

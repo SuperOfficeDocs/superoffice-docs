@@ -1,9 +1,9 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetType
+description: NSPocketNotificationMessage.GetType()
+intellisense: NSPocketNotificationMessage.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

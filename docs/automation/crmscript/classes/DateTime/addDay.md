@@ -1,10 +1,10 @@
 ---
-title: DateTime addDay(Integer num)
-path: /EJScript/Classes/DateTime/Member functions/DateTime addDay(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_addDay_Integer_num
+description: DateTime.addDay(Integer num)
+intellisense: DateTime.addDay
 sortOrder: 210
 keywords: addDay(Integer)
+so.topic: reference
 ---
 
 Adds num days to the date and returns datetime object.

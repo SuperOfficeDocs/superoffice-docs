@@ -1,9 +1,9 @@
 ---
-title: Void SetFunctionalRights(Integer roleId, Integer[] functionalRightIds)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void SetFunctionalRights(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SetFunctionalRights_Integer_p_0_Integer__p_1
+description: NSUserAgent.SetFunctionalRights(Integer p_0, Integer[] p_1)
+intellisense: NSUserAgent.SetFunctionalRights
 keywords: SetFunctionalRights(Integer,Integer[])
+so.topic: reference
 ---
 
 

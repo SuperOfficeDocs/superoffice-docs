@@ -1,9 +1,9 @@
 ---
-title: Void SetExpiryDate(DateTime ExpiryDate)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetExpiryDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_SetExpiryDate_DateTime_p_0
+description: NSSignedPublicKey.SetExpiryDate(DateTime p_0)
+intellisense: NSSignedPublicKey.SetExpiryDate
 keywords: SetExpiryDate(DateTime)
+so.topic: reference
 ---
 
 

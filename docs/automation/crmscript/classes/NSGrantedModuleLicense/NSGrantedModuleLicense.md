@@ -1,9 +1,9 @@
 ---
-title: NSGrantedModuleLicense
-path: /EJScript/Classes/NSGrantedModuleLicense
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense
+description: NSGrantedModuleLicense
+intellisense: Void.NSGrantedModuleLicense
 sortOrder: 3878
+so.topic: reference
 ---
 
 

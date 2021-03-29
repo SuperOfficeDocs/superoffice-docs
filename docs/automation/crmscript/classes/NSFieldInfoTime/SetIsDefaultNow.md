@@ -1,10 +1,10 @@
 ---
-title: Void SetIsDefaultNow(Bool IsDefaultNow)
-path: /EJScript/Classes/NSFieldInfoTime/Member functions/Void SetIsDefaultNow(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTime_SetIsDefaultNow_Bool_p_0
+description: NSFieldInfoTime.SetIsDefaultNow(Bool p_0)
+intellisense: NSFieldInfoTime.SetIsDefaultNow
 sortOrder: 3562
 keywords: SetIsDefaultNow(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void AddContactSelectionMembers(Integer selectionId, NSContactPersonId[] contactPersonIds)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void AddContactSelectionMembers(Integer p_0, NSContactPersonId[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_AddContactSelectionMembers_Integer_p_0_NSContactPersonId__p_1
+description: NSSelectionAgent.AddContactSelectionMembers(Integer p_0, NSContactPersonId[] p_1)
+intellisense: NSSelectionAgent.AddContactSelectionMembers
 keywords: AddContactSelectionMembers(Integer,NSContactPersonId[])
+so.topic: reference
 ---
 
 

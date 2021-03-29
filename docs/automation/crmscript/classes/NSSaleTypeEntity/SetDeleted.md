@@ -1,9 +1,9 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetDeleted_Bool_p_0
+description: NSSaleTypeEntity.SetDeleted(Bool p_0)
+intellisense: NSSaleTypeEntity.SetDeleted
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

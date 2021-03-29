@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetName
+description: NSDiaryViewEntity.GetName()
+intellisense: NSDiaryViewEntity.GetName
 sortOrder: 2411
 keywords: GetName()
+so.topic: reference
 ---
 
 

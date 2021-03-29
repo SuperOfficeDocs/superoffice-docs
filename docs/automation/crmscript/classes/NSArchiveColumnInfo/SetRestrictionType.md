@@ -1,10 +1,10 @@
 ---
-title: Void SetRestrictionType(String RestrictionType)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetRestrictionType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetRestrictionType_String_p_0
+description: NSArchiveColumnInfo.SetRestrictionType(String p_0)
+intellisense: NSArchiveColumnInfo.SetRestrictionType
 sortOrder: 1163
 keywords: SetRestrictionType(String)
+so.topic: reference
 ---
 
 

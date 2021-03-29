@@ -1,8 +1,8 @@
 ---
-title: NSPaymentType
-path: /EJScript/Classes/NSPaymentType
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPaymentType
+description: NSPaymentType
+intellisense: Void.NSPaymentType
+so.topic: reference
 ---
 
 

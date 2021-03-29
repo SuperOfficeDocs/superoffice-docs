@@ -1,9 +1,9 @@
 ---
-title: NSProvidedCredential[] GetProvidedCredentials()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/NSProvidedCredential[] GetProvidedCredentials()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetProvidedCredentials
+description: NSSoPrincipalCarrier.GetProvidedCredentials()
+intellisense: NSSoPrincipalCarrier.GetProvidedCredentials
 keywords: GetProvidedCredentials()
+so.topic: reference
 ---
 
 

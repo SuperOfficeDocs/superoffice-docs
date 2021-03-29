@@ -1,10 +1,10 @@
 ---
-title: Float GetLatitude()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Float GetLatitude()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetLatitude
+description: NSAddressSyncData.GetLatitude()
+intellisense: NSAddressSyncData.GetLatitude
 sortOrder: 617
 keywords: GetLatitude()
+so.topic: reference
 ---
 
 

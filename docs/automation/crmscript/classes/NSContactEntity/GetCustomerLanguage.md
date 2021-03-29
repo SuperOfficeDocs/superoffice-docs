@@ -1,10 +1,10 @@
 ---
-title: NSCustomerLanguage GetCustomerLanguage()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSCustomerLanguage GetCustomerLanguage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetCustomerLanguage
+description: NSContactEntity.GetCustomerLanguage()
+intellisense: NSContactEntity.GetCustomerLanguage
 sortOrder: 1857
 keywords: GetCustomerLanguage()
+so.topic: reference
 ---
 
 

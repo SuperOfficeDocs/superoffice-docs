@@ -1,10 +1,10 @@
 ---
-title: Void SetCustomerLanguage(NSCustomerLanguage CustomerLanguage)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetCustomerLanguage(NSCustomerLanguage p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetCustomerLanguage_NSCustomerLanguage_p_0
+description: NSContactEntity.SetCustomerLanguage(NSCustomerLanguage p_0)
+intellisense: NSContactEntity.SetCustomerLanguage
 sortOrder: 1887
 keywords: SetCustomerLanguage(NSCustomerLanguage)
+so.topic: reference
 ---
 
 

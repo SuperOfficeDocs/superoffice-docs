@@ -1,9 +1,9 @@
 ---
-title: Void SetDocumentEntity(NSDocumentEntity DocumentEntity)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetDocumentEntity(NSDocumentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetDocumentEntity_NSDocumentEntity_p_0
+description: NSTemplateVariablesParameters.SetDocumentEntity(NSDocumentEntity p_0)
+intellisense: NSTemplateVariablesParameters.SetDocumentEntity
 keywords: SetDocumentEntity(NSDocumentEntity)
+so.topic: reference
 ---
 
 

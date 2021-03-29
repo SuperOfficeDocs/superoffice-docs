@@ -1,10 +1,10 @@
 ---
-title: DateTime GetRepliedAt()
-path: /EJScript/Classes/NSEMailEntity/Member functions/DateTime GetRepliedAt()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetRepliedAt
+description: NSEMailEntity.GetRepliedAt()
+intellisense: NSEMailEntity.GetRepliedAt
 sortOrder: 2947
 keywords: GetRepliedAt()
+so.topic: reference
 ---
 
 

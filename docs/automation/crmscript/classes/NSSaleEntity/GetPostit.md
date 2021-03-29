@@ -1,9 +1,9 @@
 ---
-title: String GetPostit()
-path: /EJScript/Classes/NSSaleEntity/Member functions/String GetPostit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetPostit
+description: NSSaleEntity.GetPostit()
+intellisense: NSSaleEntity.GetPostit
 keywords: GetPostit()
+so.topic: reference
 ---
 
 

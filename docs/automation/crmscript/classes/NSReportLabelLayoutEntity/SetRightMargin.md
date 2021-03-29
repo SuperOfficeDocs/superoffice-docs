@@ -1,9 +1,9 @@
 ---
-title: Void SetRightMargin(Integer RightMargin)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetRightMargin(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_SetRightMargin_Integer_p_0
+description: NSReportLabelLayoutEntity.SetRightMargin(Integer p_0)
+intellisense: NSReportLabelLayoutEntity.SetRightMargin
 keywords: SetRightMargin(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: DateTime GetAlarmTime()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/DateTime GetAlarmTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetAlarmTime
+description: NSAppointmentSyncData.GetAlarmTime()
+intellisense: NSAppointmentSyncData.GetAlarmTime
 sortOrder: 1047
 keywords: GetAlarmTime()
+so.topic: reference
 ---
 
 

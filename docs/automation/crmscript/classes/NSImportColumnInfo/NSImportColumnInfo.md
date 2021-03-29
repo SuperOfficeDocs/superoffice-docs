@@ -1,9 +1,9 @@
 ---
-title: NSImportColumnInfo
-path: /EJScript/Classes/NSImportColumnInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportColumnInfo
+description: NSImportColumnInfo
+intellisense: Void.NSImportColumnInfo
 sortOrder: 3958
+so.topic: reference
 ---
 
 

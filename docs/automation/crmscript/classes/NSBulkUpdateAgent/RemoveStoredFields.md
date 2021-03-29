@@ -1,10 +1,10 @@
 ---
-title: Bool RemoveStoredFields(String tableName, String context)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/Bool RemoveStoredFields(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_RemoveStoredFields_String_p_0_String_p_1
+description: NSBulkUpdateAgent.RemoveStoredFields(String p_0, String p_1)
+intellisense: NSBulkUpdateAgent.RemoveStoredFields
 sortOrder: 1468
 keywords: RemoveStoredFields(String,String)
+so.topic: reference
 ---
 
 

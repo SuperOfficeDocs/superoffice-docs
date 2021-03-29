@@ -1,8 +1,8 @@
 ---
-title: Ticket
-path: /EJScript/Classes/Ticket
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket
+description: Ticket
+intellisense: Void.Ticket
+so.topic: reference
 ---
 
 

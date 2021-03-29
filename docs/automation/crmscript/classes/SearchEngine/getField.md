@@ -1,9 +1,9 @@
 ---
-title: String getField(Integer num)
-path: /EJScript/Classes/SearchEngine/member functions/String getField(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_getField_Integer_num
+description: SearchEngine.getField(Integer num)
+intellisense: SearchEngine.getField
 keywords: getField(Integer)
+so.topic: reference
 ---
 
 Returns the value as a String of the field number num.

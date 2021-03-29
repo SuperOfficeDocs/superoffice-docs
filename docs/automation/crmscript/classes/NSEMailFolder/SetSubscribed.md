@@ -1,10 +1,10 @@
 ---
-title: Void SetSubscribed(Bool Subscribed)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetSubscribed(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_SetSubscribed_Bool_p_0
+description: NSEMailFolder.SetSubscribed(Bool p_0)
+intellisense: NSEMailFolder.SetSubscribed
 sortOrder: 3039
 keywords: SetSubscribed(Bool)
+so.topic: reference
 ---
 
 

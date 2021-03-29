@@ -1,9 +1,9 @@
 ---
-title: Void SetInUse(Bool InUse)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetInUse(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetInUse_Bool_p_0
+description: NSQuoteLineConfiguration.SetInUse(Bool p_0)
+intellisense: NSQuoteLineConfiguration.SetInUse
 keywords: SetInUse(Bool)
+so.topic: reference
 ---
 
 

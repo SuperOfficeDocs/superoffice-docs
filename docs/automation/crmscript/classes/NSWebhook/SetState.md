@@ -1,9 +1,9 @@
 ---
-title: Void SetState(Integer State)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetState_Integer_p_0
+description: NSWebhook.SetState(Integer p_0)
+intellisense: NSWebhook.SetState
 keywords: SetState(Integer)
+so.topic: reference
 ---
 
 

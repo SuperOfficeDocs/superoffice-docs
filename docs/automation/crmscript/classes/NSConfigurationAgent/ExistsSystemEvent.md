@@ -1,10 +1,10 @@
 ---
-title: Bool ExistsSystemEvent(String key)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/Bool ExistsSystemEvent(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_ExistsSystemEvent_String_p_0
+description: NSConfigurationAgent.ExistsSystemEvent(String p_0)
+intellisense: NSConfigurationAgent.ExistsSystemEvent
 sortOrder: 1588
 keywords: ExistsSystemEvent(String)
+so.topic: reference
 ---
 
 

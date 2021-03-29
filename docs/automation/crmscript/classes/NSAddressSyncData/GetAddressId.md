@@ -1,10 +1,10 @@
 ---
-title: Integer GetAddressId()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Integer GetAddressId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetAddressId
+description: NSAddressSyncData.GetAddressId()
+intellisense: NSAddressSyncData.GetAddressId
 sortOrder: 619
 keywords: GetAddressId()
+so.topic: reference
 ---
 
 

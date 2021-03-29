@@ -1,10 +1,10 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetType_Integer_p_0
+description: NSAppointmentEntity.SetType(Integer p_0)
+intellisense: NSAppointmentEntity.SetType
 sortOrder: 1033
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFaxes(NSEntityElement[] Faxes)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetFaxes(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetFaxes_NSEntityElement__p_0
+description: NSContactEntity.SetFaxes(NSEntityElement[] p_0)
+intellisense: NSContactEntity.SetFaxes
 sortOrder: 1898
 keywords: SetFaxes(NSEntityElement[])
+so.topic: reference
 ---
 
 

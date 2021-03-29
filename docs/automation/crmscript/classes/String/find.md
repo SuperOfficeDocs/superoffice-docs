@@ -1,9 +1,9 @@
 ---
-title: Integer find(String subStr)
-path: /EJScript/Classes/String/Member functions/Integer find(String subStr)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_find_String_subStr
+description: String.find(String subStr)
+intellisense: String.find
 keywords: find(String)
+so.topic: reference
 ---
 
 

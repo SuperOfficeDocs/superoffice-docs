@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_SetDisplayDescription_String_p_0
+description: NSErpSyncConnectionSummary.SetDisplayDescription(String p_0)
+intellisense: NSErpSyncConnectionSummary.SetDisplayDescription
 sortOrder: 3236
 keywords: SetDisplayDescription(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetPersonPrivatePhone()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonPrivatePhone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_GetPersonPrivatePhone
+description: NSPhoneListItem.GetPersonPrivatePhone()
+intellisense: NSPhoneListItem.GetPersonPrivatePhone
 keywords: GetPersonPrivatePhone()
+so.topic: reference
 ---
 
 

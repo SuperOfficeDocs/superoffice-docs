@@ -1,9 +1,9 @@
 ---
-title: NSIntStringDictionary GetDocumentTypesForPlugin(Integer pluginId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSIntStringDictionary GetDocumentTypesForPlugin(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTypesForPlugin_Integer_p_0
+description: NSListAgent.GetDocumentTypesForPlugin(Integer p_0)
+intellisense: NSListAgent.GetDocumentTypesForPlugin
 keywords: GetDocumentTypesForPlugin(Integer)
+so.topic: reference
 ---
 
 

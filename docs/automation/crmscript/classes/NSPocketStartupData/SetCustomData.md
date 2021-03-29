@@ -1,9 +1,9 @@
 ---
-title: Void SetCustomData(String CustomData)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetCustomData(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetCustomData_String_p_0
+description: NSPocketStartupData.SetCustomData(String p_0)
+intellisense: NSPocketStartupData.SetCustomData
 keywords: SetCustomData(String)
+so.topic: reference
 ---
 
 

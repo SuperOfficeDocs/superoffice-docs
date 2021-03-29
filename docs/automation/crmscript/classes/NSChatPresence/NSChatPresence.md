@@ -1,9 +1,9 @@
 ---
-title: NSChatPresence
-path: /EJScript/Classes/NSChatPresence
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence
+description: NSChatPresence
+intellisense: Void.NSChatPresence
 sortOrder: 1517
+so.topic: reference
 ---
 
 

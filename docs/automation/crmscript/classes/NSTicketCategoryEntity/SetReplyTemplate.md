@@ -1,9 +1,9 @@
 ---
-title: Void SetReplyTemplate(Integer ReplyTemplate)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetReplyTemplate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetReplyTemplate_Integer_p_0
+description: NSTicketCategoryEntity.SetReplyTemplate(Integer p_0)
+intellisense: NSTicketCategoryEntity.SetReplyTemplate
 keywords: SetReplyTemplate(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String[] GetSupportedMessagingFormats()
-path: /EJScript/Classes/NSProviderInfo/Member functions/String[] GetSupportedMessagingFormats()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProviderInfo_GetSupportedMessagingFormats
+description: NSProviderInfo.GetSupportedMessagingFormats()
+intellisense: NSProviderInfo.GetSupportedMessagingFormats
 keywords: GetSupportedMessagingFormats()
+so.topic: reference
 ---
 
 

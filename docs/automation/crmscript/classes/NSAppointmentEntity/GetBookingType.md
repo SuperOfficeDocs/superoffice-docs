@@ -1,10 +1,10 @@
 ---
-title: Integer GetBookingType()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Integer GetBookingType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetBookingType
+description: NSAppointmentEntity.GetBookingType()
+intellisense: NSAppointmentEntity.GetBookingType
 sortOrder: 942
 keywords: GetBookingType()
+so.topic: reference
 ---
 
 

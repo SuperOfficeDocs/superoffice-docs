@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplate[] GetDocumentTemplates()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplate[] GetDocumentTemplates()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplates
+description: NSListAgent.GetDocumentTemplates()
+intellisense: NSListAgent.GetDocumentTemplates
 keywords: GetDocumentTemplates()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void DoNada()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void DoNada()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_DoNada
+description: NSAAAMockAgent.DoNada()
+intellisense: NSAAAMockAgent.DoNada
 sortOrder: 8908
 keywords: DoNada()
+so.topic: reference
 ---
 
 

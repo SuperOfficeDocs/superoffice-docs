@@ -1,10 +1,10 @@
 ---
-title: Void SetVisibleIn(Integer VisibleIn)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetVisibleIn(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetVisibleIn_Integer_p_0
+description: NSExtAppEntity.SetVisibleIn(Integer p_0)
+intellisense: NSExtAppEntity.SetVisibleIn
 sortOrder: 3398
 keywords: SetVisibleIn(Integer)
+so.topic: reference
 ---
 
 

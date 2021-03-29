@@ -1,9 +1,9 @@
 ---
-title: Void RemoveSelectionMembers(Integer selectionId, Integer[] selectionMemberIds)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void RemoveSelectionMembers(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_RemoveSelectionMembers_Integer_p_0_Integer__p_1
+description: NSSelectionAgent.RemoveSelectionMembers(Integer p_0, Integer[] p_1)
+intellisense: NSSelectionAgent.RemoveSelectionMembers
 keywords: RemoveSelectionMembers(Integer,Integer[])
+so.topic: reference
 ---
 
 

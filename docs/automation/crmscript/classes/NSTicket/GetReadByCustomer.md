@@ -1,9 +1,9 @@
 ---
-title: DateTime GetReadByCustomer()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetReadByCustomer()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetReadByCustomer
+description: NSTicket.GetReadByCustomer()
+intellisense: NSTicket.GetReadByCustomer
 keywords: GetReadByCustomer()
+so.topic: reference
 ---
 
 

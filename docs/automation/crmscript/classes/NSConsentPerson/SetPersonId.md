@@ -1,10 +1,10 @@
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSConsentPerson/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_SetPersonId_Integer_p_0
+description: NSConsentPerson.SetPersonId(Integer p_0)
+intellisense: NSConsentPerson.SetPersonId
 sortOrder: 1671
 keywords: SetPersonId(Integer)
+so.topic: reference
 ---
 
 

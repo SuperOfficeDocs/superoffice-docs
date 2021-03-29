@@ -1,10 +1,10 @@
 ---
-title: Void SetLatitude(Float Latitude)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetLatitude(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_SetLatitude_Float_p_0
+description: NSAddressSyncData.SetLatitude(Float p_0)
+intellisense: NSAddressSyncData.SetLatitude
 sortOrder: 637
 keywords: SetLatitude(Float)
+so.topic: reference
 ---
 
 

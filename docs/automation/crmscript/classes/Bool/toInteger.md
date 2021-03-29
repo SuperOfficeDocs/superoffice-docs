@@ -1,10 +1,10 @@
 ---
-title: Integer toInteger()
-path: /EJScript/Classes/Bool/Member functions/Integer toInteger()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Bool_toInteger
+description: Bool.toInteger()
+intellisense: Bool.toInteger
 sortOrder: 131
 keywords: toInteger()
+so.topic: reference
 ---
 
 

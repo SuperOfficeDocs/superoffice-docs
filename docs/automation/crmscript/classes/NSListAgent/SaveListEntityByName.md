@@ -1,9 +1,9 @@
 ---
-title: NSListEntity SaveListEntityByName(String name, NSListEntity listEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity SaveListEntityByName(String p_0, NSListEntity p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveListEntityByName_String_p_0_NSListEntity_p_1
+description: NSListAgent.SaveListEntityByName(String p_0, NSListEntity p_1)
+intellisense: NSListAgent.SaveListEntityByName
 keywords: SaveListEntityByName(String,NSListEntity)
+so.topic: reference
 ---
 
 

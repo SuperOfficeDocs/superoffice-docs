@@ -1,9 +1,9 @@
 ---
-title: String GetNetServerSmsProvider()
-path: /EJScript/Classes/NSSmsConfig/Member functions/String GetNetServerSmsProvider()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_GetNetServerSmsProvider
+description: NSSmsConfig.GetNetServerSmsProvider()
+intellisense: NSSmsConfig.GetNetServerSmsProvider
 keywords: GetNetServerSmsProvider()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFormalName(String FormalName)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetFormalName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_SetFormalName_String_p_0
+description: NSAssociate.SetFormalName(String p_0)
+intellisense: NSAssociate.SetFormalName
 sortOrder: 1269
 keywords: SetFormalName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoBool
-path: /EJScript/Classes/NSFieldInfoBool
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBool
+description: NSFieldInfoBool
+intellisense: Void.NSFieldInfoBool
 sortOrder: 3487
+so.topic: reference
 ---
 
 

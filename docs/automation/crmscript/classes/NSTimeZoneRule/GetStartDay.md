@@ -1,9 +1,9 @@
 ---
-title: Integer GetStartDay()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetStartDay()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetStartDay
+description: NSTimeZoneRule.GetStartDay()
+intellisense: NSTimeZoneRule.GetStartDay
 keywords: GetStartDay()
+so.topic: reference
 ---
 
 

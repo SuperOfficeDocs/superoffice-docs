@@ -1,10 +1,10 @@
 ---
-title: NSTaskListItem GetTaskListItem(Integer taskListItemId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSTaskListItem GetTaskListItem(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetTaskListItem_Integer_p_0
+description: NSAppointmentAgent.GetTaskListItem(Integer p_0)
+intellisense: NSAppointmentAgent.GetTaskListItem
 sortOrder: 903
 keywords: GetTaskListItem(Integer)
+so.topic: reference
 ---
 
 

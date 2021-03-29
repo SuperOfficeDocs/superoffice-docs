@@ -1,9 +1,9 @@
 ---
-title: Void SetURLName(String URLName)
-path: /EJScript/Classes/NSProject/Member functions/Void SetURLName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_SetURLName_String_p_0
+description: NSProject.SetURLName(String p_0)
+intellisense: NSProject.SetURLName
 keywords: SetURLName(String)
+so.topic: reference
 ---
 
 

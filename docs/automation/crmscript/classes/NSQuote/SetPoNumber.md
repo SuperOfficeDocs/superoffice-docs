@@ -1,9 +1,9 @@
 ---
-title: Void SetPoNumber(String PoNumber)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetPoNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetPoNumber_String_p_0
+description: NSQuote.SetPoNumber(String p_0)
+intellisense: NSQuote.SetPoNumber
 keywords: SetPoNumber(String)
+so.topic: reference
 ---
 
 

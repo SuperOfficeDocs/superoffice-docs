@@ -1,10 +1,10 @@
 ---
-title: Void SetListName(String ListName)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetListName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_SetListName_String_p_0
+description: NSFieldMetadata.SetListName(String p_0)
+intellisense: NSFieldMetadata.SetListName
 sortOrder: 3591
 keywords: SetListName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetTZOffset()
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/Integer GetTZOffset()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceStartup_GetTZOffset
+description: NSCustomerServiceStartup.GetTZOffset()
+intellisense: NSCustomerServiceStartup.GetTZOffset
 sortOrder: 2253
 keywords: GetTZOffset()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: StringDictionary GetStateValues()
-path: /EJScript/Classes/NSEventData/Member functions/StringDictionary GetStateValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetStateValues
+description: NSEventData.GetStateValues()
+intellisense: NSEventData.GetStateValues
 sortOrder: 3346
 keywords: GetStateValues()
+so.topic: reference
 ---
 
 

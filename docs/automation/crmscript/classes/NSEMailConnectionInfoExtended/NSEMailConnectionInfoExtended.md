@@ -1,9 +1,9 @@
 ---
-title: NSEMailConnectionInfoExtended
-path: /EJScript/Classes/NSEMailConnectionInfoExtended
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended
+description: NSEMailConnectionInfoExtended
+intellisense: Void.NSEMailConnectionInfoExtended
 sortOrder: 2920
+so.topic: reference
 ---
 
 

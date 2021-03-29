@@ -1,9 +1,9 @@
 ---
-title: Void SendConsentConfirmationEmail(Integer personId, String emailAddress, Integer emailTemplateId, Integer cultureLcidId, String subject)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void SendConsentConfirmationEmail(Integer p_0, String p_1, Integer p_2, Integer p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_SendConsentConfirmationEmail_Integer_p_0_String_p_1_Integer_p_2_Integer_p_3_String_p_4
+description: NSPersonAgent.SendConsentConfirmationEmail(Integer p_0, String p_1, Integer p_2, Integer p_3, String p_4)
+intellisense: NSPersonAgent.SendConsentConfirmationEmail
 keywords: SendConsentConfirmationEmail(Integer,String,Integer,Integer,String)
+so.topic: reference
 ---
 
 

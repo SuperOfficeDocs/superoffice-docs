@@ -1,9 +1,9 @@
 ---
-title: Void SetMinLevel(Integer MinLevel)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetMinLevel(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetMinLevel_Integer_p_0
+description: NSPreferenceDescription.SetMinLevel(Integer p_0)
+intellisense: NSPreferenceDescription.SetMinLevel
 keywords: SetMinLevel(Integer)
+so.topic: reference
 ---
 
 

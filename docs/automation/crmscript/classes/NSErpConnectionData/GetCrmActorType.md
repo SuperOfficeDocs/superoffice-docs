@@ -1,10 +1,10 @@
 ---
-title: Integer GetCrmActorType()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Integer GetCrmActorType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_GetCrmActorType
+description: NSErpConnectionData.GetCrmActorType()
+intellisense: NSErpConnectionData.GetCrmActorType
 sortOrder: 3107
 keywords: GetCrmActorType()
+so.topic: reference
 ---
 
 

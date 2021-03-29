@@ -1,9 +1,9 @@
 ---
-title: NSAppointment GetAppointment()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSAppointment GetAppointment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetAppointment
+description: NSSaleEntity.GetAppointment()
+intellisense: NSSaleEntity.GetAppointment
 keywords: GetAppointment()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetRank
+description: NSFieldInfoBase.GetRank()
+intellisense: NSFieldInfoBase.GetRank
 sortOrder: 3468
 keywords: GetRank()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetFilename()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetFilename()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetFilename
+description: NSExtAppEntity.GetFilename()
+intellisense: NSExtAppEntity.GetFilename
 sortOrder: 3373
 keywords: GetFilename()
+so.topic: reference
 ---
 
 

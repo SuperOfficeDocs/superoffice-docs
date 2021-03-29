@@ -1,10 +1,10 @@
 ---
-title: String GetCSRegistryValue(Integer entry)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetCSRegistryValue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetCSRegistryValue_Integer_p_0
+description: NSConfigurationAgent.GetCSRegistryValue(Integer p_0)
+intellisense: NSConfigurationAgent.GetCSRegistryValue
 sortOrder: 1610
 keywords: GetCSRegistryValue(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoBase
-path: /EJScript/Classes/NSFieldInfoBase
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase
+description: NSFieldInfoBase
+intellisense: Void.NSFieldInfoBase
 sortOrder: 3459
+so.topic: reference
 ---
 
 

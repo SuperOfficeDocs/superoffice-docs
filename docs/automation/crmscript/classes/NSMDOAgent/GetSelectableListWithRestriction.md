@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetSelectableListWithRestriction(String name, String additionalInfo, String searchValue)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] GetSelectableListWithRestriction(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetSelectableListWithRestriction_String_p_0_String_p_1_String_p_2
+description: NSMDOAgent.GetSelectableListWithRestriction(String p_0, String p_1, String p_2)
+intellisense: NSMDOAgent.GetSelectableListWithRestriction
 keywords: GetSelectableListWithRestriction(String,String,String)
+so.topic: reference
 ---
 
 

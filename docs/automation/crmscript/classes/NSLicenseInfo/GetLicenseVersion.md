@@ -1,9 +1,9 @@
 ---
-title: String GetLicenseVersion()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetLicenseVersion()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetLicenseVersion
+description: NSLicenseInfo.GetLicenseVersion()
+intellisense: NSLicenseInfo.GetLicenseVersion
 keywords: GetLicenseVersion()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Date
-path: /EJScript/Classes/Date
-intellisense: 1
-classref: 1
+title: crmscript_ref_Date
+description: Date
+intellisense: Void.Date
 sortOrder: 194
+so.topic: reference
 ---
 
 A class for representing dates as objects.

@@ -1,9 +1,9 @@
 ---
-title: NSReportEntity UpdateFavorite(NSReportEntity reportEntity)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity UpdateFavorite(NSReportEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_UpdateFavorite_NSReportEntity_p_0
+description: NSReportAgent.UpdateFavorite(NSReportEntity p_0)
+intellisense: NSReportAgent.UpdateFavorite
 keywords: UpdateFavorite(NSReportEntity)
+so.topic: reference
 ---
 
 

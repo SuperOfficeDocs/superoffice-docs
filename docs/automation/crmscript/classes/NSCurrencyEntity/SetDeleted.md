@@ -1,10 +1,10 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_SetDeleted_Bool_p_0
+description: NSCurrencyEntity.SetDeleted(Bool p_0)
+intellisense: NSCurrencyEntity.SetDeleted
 sortOrder: 2187
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

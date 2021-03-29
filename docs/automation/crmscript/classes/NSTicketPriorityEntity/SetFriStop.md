@@ -1,9 +1,9 @@
 ---
-title: Void SetFriStop(DateTime FriStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetFriStop(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetFriStop_DateTime_p_0
+description: NSTicketPriorityEntity.SetFriStop(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetFriStop
 keywords: SetFriStop(DateTime)
+so.topic: reference
 ---
 
 

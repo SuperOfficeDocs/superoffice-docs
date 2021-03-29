@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/InvoiceEntry/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+title: crmscript_ref_InvoiceEntry_load_Integer_id
+description: InvoiceEntry.load(Integer id)
+intellisense: InvoiceEntry.load
 sortOrder: 432
 keywords: load(Integer)
+so.topic: reference
 ---
 
 This method will load an existing InvoiceEntry object.

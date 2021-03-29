@@ -1,9 +1,9 @@
 ---
-title: Void SetRole(NSRole Role)
-path: /EJScript/Classes/NSUser/Member functions/Void SetRole(NSRole p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetRole_NSRole_p_0
+description: NSUser.SetRole(NSRole p_0)
+intellisense: NSUser.SetRole
 keywords: SetRole(NSRole)
+so.topic: reference
 ---
 
 

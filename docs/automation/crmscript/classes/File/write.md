@@ -1,10 +1,10 @@
 ---
-title: Void write(String data)
-path: /EJScript/Classes/File/Member functions/Void write(String data)
-intellisense: 1
-classref: 1
+title: crmscript_ref_File_write_String_data
+description: File.write(String data)
+intellisense: File.write
 sortOrder: 352
 keywords: write(String)
+so.topic: reference
 ---
 
 

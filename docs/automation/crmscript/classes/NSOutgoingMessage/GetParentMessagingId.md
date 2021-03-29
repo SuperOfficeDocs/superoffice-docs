@@ -1,9 +1,9 @@
 ---
-title: Integer GetParentMessagingId()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Integer GetParentMessagingId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_GetParentMessagingId
+description: NSOutgoingMessage.GetParentMessagingId()
+intellisense: NSOutgoingMessage.GetParentMessagingId
 keywords: GetParentMessagingId()
+so.topic: reference
 ---
 
 

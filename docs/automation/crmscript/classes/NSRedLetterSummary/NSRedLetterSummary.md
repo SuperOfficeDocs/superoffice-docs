@@ -1,8 +1,8 @@
 ---
-title: NSRedLetterSummary
-path: /EJScript/Classes/NSRedLetterSummary
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterSummary
+description: NSRedLetterSummary
+intellisense: Void.NSRedLetterSummary
+so.topic: reference
 ---
 
 

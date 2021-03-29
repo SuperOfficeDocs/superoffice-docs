@@ -1,9 +1,9 @@
 ---
-title: Void setHeader(String header)
-path: /EJScript/Classes/SpmMessage/Member functions/Void setHeader(String header)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmMessage_setHeader_String_header
+description: SpmMessage.setHeader(String header)
+intellisense: SpmMessage.setHeader
 keywords: setHeader(String)
+so.topic: reference
 ---
 
 

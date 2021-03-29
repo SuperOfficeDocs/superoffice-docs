@@ -1,10 +1,10 @@
 ---
-title: Void DeleteContactEntity(Integer contactEntityId)
-path: /EJScript/Classes/NSContactAgent/Member functions/Void DeleteContactEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_DeleteContactEntity_Integer_p_0
+description: NSContactAgent.DeleteContactEntity(Integer p_0)
+intellisense: NSContactAgent.DeleteContactEntity
 sortOrder: 1824
 keywords: DeleteContactEntity(Integer)
+so.topic: reference
 ---
 
 

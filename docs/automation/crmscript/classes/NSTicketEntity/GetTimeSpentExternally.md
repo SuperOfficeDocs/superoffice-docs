@@ -1,9 +1,9 @@
 ---
-title: Integer GetTimeSpentExternally()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetTimeSpentExternally()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetTimeSpentExternally
+description: NSTicketEntity.GetTimeSpentExternally()
+intellisense: NSTicketEntity.GetTimeSpentExternally
 keywords: GetTimeSpentExternally()
+so.topic: reference
 ---
 
 

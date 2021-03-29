@@ -1,9 +1,9 @@
 ---
-title: NSCredentialsGroupUsers
-path: /EJScript/Classes/NSCredentialsGroupUsers
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroupUsers
+description: NSCredentialsGroupUsers
+intellisense: Void.NSCredentialsGroupUsers
 sortOrder: 2062
+so.topic: reference
 ---
 
 

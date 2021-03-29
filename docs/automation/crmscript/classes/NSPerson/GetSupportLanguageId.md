@@ -1,9 +1,9 @@
 ---
-title: Integer GetSupportLanguageId()
-path: /EJScript/Classes/NSPerson/Member functions/Integer GetSupportLanguageId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetSupportLanguageId
+description: NSPerson.GetSupportLanguageId()
+intellisense: NSPerson.GetSupportLanguageId
 keywords: GetSupportLanguageId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_SetIsActive_Bool_p_0
+description: NSArchiveRestrictionInfo.SetIsActive(Bool p_0)
+intellisense: NSArchiveRestrictionInfo.SetIsActive
 sortOrder: 1230
 keywords: SetIsActive(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTitle(String Title)
-path: /EJScript/Classes/NSTicketSummaryItem/Member functions/Void SetTitle(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketSummaryItem_SetTitle_String_p_0
+description: NSTicketSummaryItem.SetTitle(String p_0)
+intellisense: NSTicketSummaryItem.SetTitle
 keywords: SetTitle(String)
+so.topic: reference
 ---
 
 

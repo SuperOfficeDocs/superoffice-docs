@@ -1,8 +1,8 @@
 ---
-title: NSPluginResponse
-path: /EJScript/Classes/NSPluginResponse
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse
+description: NSPluginResponse
+intellisense: Void.NSPluginResponse
+so.topic: reference
 ---
 
 

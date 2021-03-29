@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjectTypeStatusLinkId()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetProjectTypeStatusLinkId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetProjectTypeStatusLinkId
+description: NSSuggestedAppointment.GetProjectTypeStatusLinkId()
+intellisense: NSSuggestedAppointment.GetProjectTypeStatusLinkId
 keywords: GetProjectTypeStatusLinkId()
+so.topic: reference
 ---
 
 

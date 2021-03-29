@@ -1,9 +1,9 @@
 ---
-title: DateTime GetNextDueDate()
-path: /EJScript/Classes/NSSale/Member functions/DateTime GetNextDueDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetNextDueDate
+description: NSSale.GetNextDueDate()
+intellisense: NSSale.GetNextDueDate
 keywords: GetNextDueDate()
+so.topic: reference
 ---
 
 

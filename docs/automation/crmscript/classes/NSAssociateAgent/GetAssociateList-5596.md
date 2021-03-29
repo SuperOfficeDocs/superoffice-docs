@@ -1,10 +1,10 @@
 ---
-title: NSAssociateList[] GetAssociateList(Integer[] associateIds)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/NSAssociateList[] GetAssociateList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_GetAssociateList_Integer__p_0
+description: NSAssociateAgent.GetAssociateList(Integer[] p_0)
+intellisense: NSAssociateAgent.GetAssociateList
 sortOrder: 1284
 keywords: GetAssociateList(Integer[])
+so.topic: reference
 ---
 
 

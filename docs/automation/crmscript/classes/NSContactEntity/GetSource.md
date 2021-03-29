@@ -1,10 +1,10 @@
 ---
-title: Integer GetSource()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetSource
+description: NSContactEntity.GetSource()
+intellisense: NSContactEntity.GetSource
 sortOrder: 1845
 keywords: GetSource()
+so.topic: reference
 ---
 
 

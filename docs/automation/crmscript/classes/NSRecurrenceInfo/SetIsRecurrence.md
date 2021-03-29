@@ -1,9 +1,9 @@
 ---
-title: Void SetIsRecurrence(Bool p0)
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Void SetIsRecurrence(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceInfo_SetIsRecurrence_Bool_p_0
+description: NSRecurrenceInfo.SetIsRecurrence(Bool p_0)
+intellisense: NSRecurrenceInfo.SetIsRecurrence
 keywords: SetIsRecurrence(Bool)
+so.topic: reference
 ---
 
 

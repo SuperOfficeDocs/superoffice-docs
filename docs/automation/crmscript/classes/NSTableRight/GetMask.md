@@ -1,9 +1,9 @@
 ---
-title: Integer GetMask()
-path: /EJScript/Classes/NSTableRight/Member functions/Integer GetMask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTableRight_GetMask
+description: NSTableRight.GetMask()
+intellisense: NSTableRight.GetMask
 keywords: GetMask()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFormalName(String FormalName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetFormalName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetFormalName_String_p_0
+description: NSAlarmData.SetFormalName(String p_0)
+intellisense: NSAlarmData.SetFormalName
 sortOrder: 681
 keywords: SetFormalName(String)
+so.topic: reference
 ---
 
 

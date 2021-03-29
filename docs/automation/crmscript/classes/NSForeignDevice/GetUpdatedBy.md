@@ -1,10 +1,10 @@
 ---
-title: String GetUpdatedBy()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetUpdatedBy
+description: NSForeignDevice.GetUpdatedBy()
+intellisense: NSForeignDevice.GetUpdatedBy
 sortOrder: 3722
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetErpConnectorId(Integer ErpConnectorId)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetErpConnectorId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetErpConnectorId_Integer_p_0
+description: NSErpConnection.SetErpConnectorId(Integer p_0)
+intellisense: NSErpConnection.SetErpConnectorId
 sortOrder: 3101
 keywords: SetErpConnectorId(Integer)
+so.topic: reference
 ---
 
 

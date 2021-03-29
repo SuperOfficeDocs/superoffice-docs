@@ -1,9 +1,9 @@
 ---
-title: Integer GetMaxDiscountPercent()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetMaxDiscountPercent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetMaxDiscountPercent
+description: NSSaleTypeEntity.GetMaxDiscountPercent()
+intellisense: NSSaleTypeEntity.GetMaxDiscountPercent
 keywords: GetMaxDiscountPercent()
+so.topic: reference
 ---
 
 

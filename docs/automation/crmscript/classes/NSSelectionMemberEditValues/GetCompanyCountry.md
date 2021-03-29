@@ -1,9 +1,9 @@
 ---
-title: Integer GetCompanyCountry()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Integer GetCompanyCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyCountry
+description: NSSelectionMemberEditValues.GetCompanyCountry()
+intellisense: NSSelectionMemberEditValues.GetCompanyCountry
 keywords: GetCompanyCountry()
+so.topic: reference
 ---
 
 

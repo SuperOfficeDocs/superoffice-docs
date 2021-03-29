@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketPriorityId(Integer TicketPriorityId)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetTicketPriorityId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetTicketPriorityId_Integer_p_0
+description: NSPerson.SetTicketPriorityId(Integer p_0)
+intellisense: NSPerson.SetTicketPriorityId
 keywords: SetTicketPriorityId(Integer)
+so.topic: reference
 ---
 
 

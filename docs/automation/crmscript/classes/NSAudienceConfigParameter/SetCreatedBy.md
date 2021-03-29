@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedBy(String CreatedBy)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetCreatedBy(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_SetCreatedBy_String_p_0
+description: NSAudienceConfigParameter.SetCreatedBy(String p_0)
+intellisense: NSAudienceConfigParameter.SetCreatedBy
 sortOrder: 1327
 keywords: SetCreatedBy(String)
+so.topic: reference
 ---
 
 

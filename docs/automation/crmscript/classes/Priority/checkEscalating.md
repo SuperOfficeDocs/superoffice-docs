@@ -1,9 +1,9 @@
 ---
-title: Void checkEscalating(Integer ticketId, Integer action)
-path: /EJScript/Classes/Priority/Member functions/Void checkEscalating(Integer ticketId, Integer action)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Priority_checkEscalating_Integer_ticketId_Integer_action
+description: Priority.checkEscalating(Integer ticketId, Integer action)
+intellisense: Priority.checkEscalating
 keywords: checkEscalating(Integer,Integer)
+so.topic: reference
 ---
 
 

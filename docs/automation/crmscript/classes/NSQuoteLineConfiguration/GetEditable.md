@@ -1,9 +1,9 @@
 ---
-title: Bool GetEditable()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetEditable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetEditable
+description: NSQuoteLineConfiguration.GetEditable()
+intellisense: NSQuoteLineConfiguration.GetEditable
 keywords: GetEditable()
+so.topic: reference
 ---
 
 

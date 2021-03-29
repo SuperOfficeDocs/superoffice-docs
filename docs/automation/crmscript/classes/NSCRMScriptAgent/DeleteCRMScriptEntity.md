@@ -1,10 +1,10 @@
 ---
-title: Void DeleteCRMScriptEntity(Integer cRMScriptEntityId)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/Void DeleteCRMScriptEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_DeleteCRMScriptEntity_Integer_p_0
+description: NSCRMScriptAgent.DeleteCRMScriptEntity(Integer p_0)
+intellisense: NSCRMScriptAgent.DeleteCRMScriptEntity
 sortOrder: 2124
 keywords: DeleteCRMScriptEntity(Integer)
+so.topic: reference
 ---
 
 

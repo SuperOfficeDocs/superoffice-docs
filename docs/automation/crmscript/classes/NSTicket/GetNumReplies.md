@@ -1,9 +1,9 @@
 ---
-title: Integer GetNumReplies()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetNumReplies()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetNumReplies
+description: NSTicket.GetNumReplies()
+intellisense: NSTicket.GetNumReplies
 keywords: GetNumReplies()
+so.topic: reference
 ---
 
 

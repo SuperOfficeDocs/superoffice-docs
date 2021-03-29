@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsReadOnly()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Bool GetIsReadOnly()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetIsReadOnly
+description: NSFieldInfoBase.GetIsReadOnly()
+intellisense: NSFieldInfoBase.GetIsReadOnly
 sortOrder: 3466
 keywords: GetIsReadOnly()
+so.topic: reference
 ---
 
 

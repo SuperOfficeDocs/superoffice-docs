@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnedBy(Integer OwnedBy)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetOwnedBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetOwnedBy_Integer_p_0
+description: NSTicket.SetOwnedBy(Integer p_0)
+intellisense: NSTicket.SetOwnedBy
 keywords: SetOwnedBy(Integer)
+so.topic: reference
 ---
 
 

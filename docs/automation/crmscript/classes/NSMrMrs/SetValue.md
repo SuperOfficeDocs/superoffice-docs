@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSMrMrs/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMrMrs_SetValue_String_p_0
+description: NSMrMrs.SetValue(String p_0)
+intellisense: NSMrMrs.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

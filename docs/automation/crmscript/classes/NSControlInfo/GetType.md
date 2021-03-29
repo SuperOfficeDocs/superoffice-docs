@@ -1,10 +1,10 @@
 ---
-title: String GetType()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_GetType
+description: NSControlInfo.GetType()
+intellisense: NSControlInfo.GetType
 sortOrder: 2002
 keywords: GetType()
+so.topic: reference
 ---
 
 

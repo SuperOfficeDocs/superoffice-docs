@@ -1,9 +1,9 @@
 ---
-title: Integer GetAcceptedQuoteAlternativeId()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Integer GetAcceptedQuoteAlternativeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteEntity_GetAcceptedQuoteAlternativeId
+description: NSQuoteEntity.GetAcceptedQuoteAlternativeId()
+intellisense: NSQuoteEntity.GetAcceptedQuoteAlternativeId
 keywords: GetAcceptedQuoteAlternativeId()
+so.topic: reference
 ---
 
 

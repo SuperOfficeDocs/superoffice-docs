@@ -1,9 +1,9 @@
 ---
-title: Integer GetDoctmplId()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Integer GetDoctmplId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetDoctmplId
+description: NSSuggestedDocumentEntity.GetDoctmplId()
+intellisense: NSSuggestedDocumentEntity.GetDoctmplId
 keywords: GetDoctmplId()
+so.topic: reference
 ---
 
 

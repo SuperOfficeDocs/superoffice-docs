@@ -1,10 +1,10 @@
 ---
-title: String GetWwwUrlForSMWeb()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetWwwUrlForSMWeb()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetWwwUrlForSMWeb
+description: NSConfigurationAgent.GetWwwUrlForSMWeb()
+intellisense: NSConfigurationAgent.GetWwwUrlForSMWeb
 sortOrder: 1620
 keywords: GetWwwUrlForSMWeb()
+so.topic: reference
 ---
 
 

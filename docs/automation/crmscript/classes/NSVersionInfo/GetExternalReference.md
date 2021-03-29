@@ -1,9 +1,9 @@
 ---
-title: String GetExternalReference()
-path: /EJScript/Classes/NSVersionInfo/Member functions/String GetExternalReference()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_GetExternalReference
+description: NSVersionInfo.GetExternalReference()
+intellisense: NSVersionInfo.GetExternalReference
 keywords: GetExternalReference()
+so.topic: reference
 ---
 
 

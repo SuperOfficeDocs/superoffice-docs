@@ -1,8 +1,8 @@
 ---
-title: NSSatellite
-path: /EJScript/Classes/NSSatellite
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite
+description: NSSatellite
+intellisense: Void.NSSatellite
+so.topic: reference
 ---
 
 

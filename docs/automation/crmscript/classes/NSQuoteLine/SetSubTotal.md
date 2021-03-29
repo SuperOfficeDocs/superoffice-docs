@@ -1,9 +1,9 @@
 ---
-title: Void SetSubTotal(Float SubTotal)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubTotal(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetSubTotal_Float_p_0
+description: NSQuoteLine.SetSubTotal(Float p_0)
+intellisense: NSQuoteLine.SetSubTotal
 keywords: SetSubTotal(Float)
+so.topic: reference
 ---
 
 

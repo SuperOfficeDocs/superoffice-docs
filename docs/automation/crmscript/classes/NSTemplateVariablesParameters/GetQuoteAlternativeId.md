@@ -1,9 +1,9 @@
 ---
-title: Integer GetQuoteAlternativeId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetQuoteAlternativeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetQuoteAlternativeId
+description: NSTemplateVariablesParameters.GetQuoteAlternativeId()
+intellisense: NSTemplateVariablesParameters.GetQuoteAlternativeId
 keywords: GetQuoteAlternativeId()
+so.topic: reference
 ---
 
 

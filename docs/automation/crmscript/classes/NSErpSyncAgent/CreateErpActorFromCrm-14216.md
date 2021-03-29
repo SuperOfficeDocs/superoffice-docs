@@ -1,10 +1,10 @@
 ---
-title: Bool CreateErpActorFromCrm(Integer connectionId, Integer crmEntityId, Integer erpActorType, Integer crmActorType, StringDictionary erpFieldKeyValues)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool CreateErpActorFromCrm(Integer p_0, Integer p_1, Integer p_2, Integer p_3, StringDictionary p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_CreateErpActorFromCrm_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3_StringDictionary_p_4
+description: NSErpSyncAgent.CreateErpActorFromCrm(Integer p_0, Integer p_1, Integer p_2, Integer p_3, StringDictionary p_4)
+intellisense: NSErpSyncAgent.CreateErpActorFromCrm
 sortOrder: 3181
 keywords: CreateErpActorFromCrm(Integer,Integer,Integer,Integer,StringDictionary)
+so.topic: reference
 ---
 
 

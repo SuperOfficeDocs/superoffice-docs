@@ -1,9 +1,9 @@
 ---
-title: Void SetQuantity(Float Quantity)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetQuantity(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetQuantity_Float_p_0
+description: NSQuoteLine.SetQuantity(Float p_0)
+intellisense: NSQuoteLine.SetQuantity
 keywords: SetQuantity(Float)
+so.topic: reference
 ---
 
 

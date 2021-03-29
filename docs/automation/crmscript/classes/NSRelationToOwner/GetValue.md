@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSRelationToOwner/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationToOwner_GetValue
+description: NSRelationToOwner.GetValue()
+intellisense: NSRelationToOwner.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

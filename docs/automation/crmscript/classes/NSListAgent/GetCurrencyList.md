@@ -1,9 +1,9 @@
 ---
-title: NSCurrency[] GetCurrencyList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency[] GetCurrencyList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCurrencyList_Integer__p_0
+description: NSListAgent.GetCurrencyList(Integer[] p_0)
+intellisense: NSListAgent.GetCurrencyList
 keywords: GetCurrencyList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Currency objects.

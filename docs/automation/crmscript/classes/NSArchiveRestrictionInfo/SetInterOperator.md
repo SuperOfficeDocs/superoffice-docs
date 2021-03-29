@@ -1,10 +1,10 @@
 ---
-title: Void SetInterOperator(Integer InterOperator)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetInterOperator(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_SetInterOperator_Integer_p_0
+description: NSArchiveRestrictionInfo.SetInterOperator(Integer p_0)
+intellisense: NSArchiveRestrictionInfo.SetInterOperator
 sortOrder: 1227
 keywords: SetInterOperator(Integer)
+so.topic: reference
 ---
 
 

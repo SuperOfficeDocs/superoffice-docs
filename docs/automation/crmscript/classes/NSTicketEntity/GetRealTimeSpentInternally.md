@@ -1,9 +1,9 @@
 ---
-title: Integer GetRealTimeSpentInternally()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetRealTimeSpentInternally()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetRealTimeSpentInternally
+description: NSTicketEntity.GetRealTimeSpentInternally()
+intellisense: NSTicketEntity.GetRealTimeSpentInternally
 keywords: GetRealTimeSpentInternally()
+so.topic: reference
 ---
 
 

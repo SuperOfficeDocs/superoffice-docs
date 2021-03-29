@@ -1,9 +1,9 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_SetDescription_String_p_0
+description: NSPriceList.SetDescription(String p_0)
+intellisense: NSPriceList.SetDescription
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

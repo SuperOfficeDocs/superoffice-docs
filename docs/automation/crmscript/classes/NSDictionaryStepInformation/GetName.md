@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSDictionaryStepInformation/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDictionaryStepInformation_GetName
+description: NSDictionaryStepInformation.GetName()
+intellisense: NSDictionaryStepInformation.GetName
 sortOrder: 2424
 keywords: GetName()
+so.topic: reference
 ---
 
 

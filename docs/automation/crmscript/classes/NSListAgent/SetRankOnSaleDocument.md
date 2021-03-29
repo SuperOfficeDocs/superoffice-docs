@@ -1,9 +1,9 @@
 ---
-title: Void SetRankOnSaleDocument(Integer saleTypeStageLinkId, Integer[] itemsIds)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SetRankOnSaleDocument(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetRankOnSaleDocument_Integer_p_0_Integer__p_1
+description: NSListAgent.SetRankOnSaleDocument(Integer p_0, Integer[] p_1)
+intellisense: NSListAgent.SetRankOnSaleDocument
 keywords: SetRankOnSaleDocument(Integer,Integer[])
+so.topic: reference
 ---
 
 

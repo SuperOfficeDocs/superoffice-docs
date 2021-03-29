@@ -1,10 +1,10 @@
 ---
-title: String GetCrmFieldKey()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/String GetCrmFieldKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetCrmFieldKey
+description: NSErpSyncFieldMapping.GetCrmFieldKey()
+intellisense: NSErpSyncFieldMapping.GetCrmFieldKey
 sortOrder: 3299
 keywords: GetCrmFieldKey()
+so.topic: reference
 ---
 
 

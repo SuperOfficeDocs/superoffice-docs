@@ -1,8 +1,8 @@
 ---
-title: NSUntrustedCredentials
-path: /EJScript/Classes/NSUntrustedCredentials
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials
+description: NSUntrustedCredentials
+intellisense: Void.NSUntrustedCredentials
+so.topic: reference
 ---
 
 

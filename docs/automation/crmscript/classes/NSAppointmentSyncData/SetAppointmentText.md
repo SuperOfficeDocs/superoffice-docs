@@ -1,10 +1,10 @@
 ---
-title: Void SetAppointmentText(String AppointmentText)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetAppointmentText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetAppointmentText_String_p_0
+description: NSAppointmentSyncData.SetAppointmentText(String p_0)
+intellisense: NSAppointmentSyncData.SetAppointmentText
 sortOrder: 1068
 keywords: SetAppointmentText(String)
+so.topic: reference
 ---
 
 

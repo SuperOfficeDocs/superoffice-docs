@@ -1,9 +1,9 @@
 ---
-title: DateTime GetEventDate()
-path: /EJScript/Classes/NSProjectEvent/Member functions/DateTime GetEventDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetEventDate
+description: NSProjectEvent.GetEventDate()
+intellisense: NSProjectEvent.GetEventDate
 keywords: GetEventDate()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity CreateDefaultReportLabelLayoutEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_CreateDefaultReportLabelLayoutEntity
+description: NSReportAgent.CreateDefaultReportLabelLayoutEntity()
+intellisense: NSReportAgent.CreateDefaultReportLabelLayoutEntity
 keywords: CreateDefaultReportLabelLayoutEntity()
+so.topic: reference
 ---
 
 

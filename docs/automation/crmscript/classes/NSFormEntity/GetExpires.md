@@ -1,10 +1,10 @@
 ---
-title: DateTime GetExpires()
-path: /EJScript/Classes/NSFormEntity/Member functions/DateTime GetExpires()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetExpires
+description: NSFormEntity.GetExpires()
+intellisense: NSFormEntity.GetExpires
 sortOrder: 3786
 keywords: GetExpires()
+so.topic: reference
 ---
 
 

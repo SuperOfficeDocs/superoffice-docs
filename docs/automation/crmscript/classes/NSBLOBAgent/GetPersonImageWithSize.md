@@ -1,10 +1,10 @@
 ---
-title: NSImage GetPersonImageWithSize(Integer personId, Integer width, Integer height)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetPersonImageWithSize(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetPersonImageWithSize_Integer_p_0_Integer_p_1_Integer_p_2
+description: NSBLOBAgent.GetPersonImageWithSize(Integer p_0, Integer p_1, Integer p_2)
+intellisense: NSBLOBAgent.GetPersonImageWithSize
 sortOrder: 1418
 keywords: GetPersonImageWithSize(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetItemNumber(String ItemNumber)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetItemNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetItemNumber_String_p_0
+description: NSQuoteLine.SetItemNumber(String p_0)
+intellisense: NSQuoteLine.SetItemNumber
 keywords: SetItemNumber(String)
+so.topic: reference
 ---
 
 

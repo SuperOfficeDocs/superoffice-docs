@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] SaveHeadingsForListItemFromListName(String udListDefinitionName, Integer listItemId, NSSelectableMDOListItem[] headings)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] SaveHeadingsForListItemFromListName(String p_0, Integer p_1, NSSelectableMDOListItem[] p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveHeadingsForListItemFromListName_String_p_0_Integer_p_1_NSSelectableMDOListItem__p_2
+description: NSListAgent.SaveHeadingsForListItemFromListName(String p_0, Integer p_1, NSSelectableMDOListItem[] p_2)
+intellisense: NSListAgent.SaveHeadingsForListItemFromListName
 keywords: SaveHeadingsForListItemFromListName(String,Integer,NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

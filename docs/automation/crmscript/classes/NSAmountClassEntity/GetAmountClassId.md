@@ -1,10 +1,10 @@
 ---
-title: Integer GetAmountClassId()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Integer GetAmountClassId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_GetAmountClassId
+description: NSAmountClassEntity.GetAmountClassId()
+intellisense: NSAmountClassEntity.GetAmountClassId
 sortOrder: 698
 keywords: GetAmountClassId()
+so.topic: reference
 ---
 
 

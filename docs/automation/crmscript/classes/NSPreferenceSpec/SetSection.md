@@ -1,9 +1,9 @@
 ---
-title: Void SetSection(String Section)
-path: /EJScript/Classes/NSPreferenceSpec/Member functions/Void SetSection(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceSpec_SetSection_String_p_0
+description: NSPreferenceSpec.SetSection(String p_0)
+intellisense: NSPreferenceSpec.SetSection
 keywords: SetSection(String)
+so.topic: reference
 ---
 
 

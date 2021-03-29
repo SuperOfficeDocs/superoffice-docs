@@ -1,10 +1,10 @@
 ---
-title: Bool UpdateConnectionFields(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool UpdateConnectionFields(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_UpdateConnectionFields_Integer_p_0
+description: NSErpSyncAgent.UpdateConnectionFields(Integer p_0)
+intellisense: NSErpSyncAgent.UpdateConnectionFields
 sortOrder: 3187
 keywords: UpdateConnectionFields(Integer)
+so.topic: reference
 ---
 
 

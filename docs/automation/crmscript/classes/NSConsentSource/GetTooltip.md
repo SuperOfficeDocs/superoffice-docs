@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSConsentSource/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentSource_GetTooltip
+description: NSConsentSource.GetTooltip()
+intellisense: NSConsentSource.GetTooltip
 sortOrder: 1708
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

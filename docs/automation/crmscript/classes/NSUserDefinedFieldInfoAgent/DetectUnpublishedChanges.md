@@ -1,9 +1,9 @@
 ---
-title: Bool DetectUnpublishedChanges(Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Bool DetectUnpublishedChanges(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectUnpublishedChanges_Integer_p_0
+description: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges(Integer p_0)
+intellisense: NSUserDefinedFieldInfoAgent.DetectUnpublishedChanges
 keywords: DetectUnpublishedChanges(Integer)
+so.topic: reference
 ---
 
 

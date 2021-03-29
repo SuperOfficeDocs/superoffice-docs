@@ -1,9 +1,9 @@
 ---
-title: NSSale[] GetRecentSales(Integer amountLimit, Integer count)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetRecentSales(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetRecentSales_Integer_p_0_Integer_p_1
+description: NSSaleAgent.GetRecentSales(Integer p_0, Integer p_1)
+intellisense: NSSaleAgent.GetRecentSales
 keywords: GetRecentSales(Integer,Integer)
+so.topic: reference
 ---
 
 

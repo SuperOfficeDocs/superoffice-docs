@@ -1,10 +1,10 @@
 ---
-title: Void SetMandatory(Bool Mandatory)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetMandatory(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_SetMandatory_Bool_p_0
+description: NSErpSyncDefaultValue.SetMandatory(Bool p_0)
+intellisense: NSErpSyncDefaultValue.SetMandatory
 sortOrder: 3273
 keywords: SetMandatory(Bool)
+so.topic: reference
 ---
 
 

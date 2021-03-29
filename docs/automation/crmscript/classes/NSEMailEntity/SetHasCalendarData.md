@@ -1,10 +1,10 @@
 ---
-title: Void SetHasCalendarData(Bool HasCalendarData)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetHasCalendarData(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetHasCalendarData_Bool_p_0
+description: NSEMailEntity.SetHasCalendarData(Bool p_0)
+intellisense: NSEMailEntity.SetHasCalendarData
 sortOrder: 2985
 keywords: SetHasCalendarData(Bool)
+so.topic: reference
 ---
 
 

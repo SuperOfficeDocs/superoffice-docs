@@ -1,10 +1,10 @@
 ---
-title: NSParticipantInfo[] GetParticipants()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSParticipantInfo[] GetParticipants()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetParticipants
+description: NSAppointmentEntity.GetParticipants()
+intellisense: NSAppointmentEntity.GetParticipants
 sortOrder: 965
 keywords: GetParticipants()
+so.topic: reference
 ---
 
 

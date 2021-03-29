@@ -1,10 +1,10 @@
 ---
-title: Integer GetOriginalSize()
-path: /EJScript/Classes/NSBlobEntity/Member functions/Integer GetOriginalSize()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetOriginalSize
+description: NSBlobEntity.GetOriginalSize()
+intellisense: NSBlobEntity.GetOriginalSize
 sortOrder: 1446
 keywords: GetOriginalSize()
+so.topic: reference
 ---
 
 

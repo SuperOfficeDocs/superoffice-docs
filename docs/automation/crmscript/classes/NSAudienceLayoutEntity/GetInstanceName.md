@@ -1,10 +1,10 @@
 ---
-title: String GetInstanceName()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/String GetInstanceName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_GetInstanceName
+description: NSAudienceLayoutEntity.GetInstanceName()
+intellisense: NSAudienceLayoutEntity.GetInstanceName
 sortOrder: 1341
 keywords: GetInstanceName()
+so.topic: reference
 ---
 
 

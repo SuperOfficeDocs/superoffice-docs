@@ -1,9 +1,9 @@
 ---
-title: Void SetAlarms(NSAlarmData[] Alarms)
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Void SetAlarms(NSAlarmData[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMultiAlarmData_SetAlarms_NSAlarmData__p_0
+description: NSMultiAlarmData.SetAlarms(NSAlarmData[] p_0)
+intellisense: NSMultiAlarmData.SetAlarms
 keywords: SetAlarms(NSAlarmData[])
+so.topic: reference
 ---
 
 

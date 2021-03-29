@@ -1,10 +1,10 @@
 ---
-title: DateTime GetActiveDate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetActiveDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetActiveDate
+description: NSAppointmentEntity.GetActiveDate()
+intellisense: NSAppointmentEntity.GetActiveDate
 sortOrder: 931
 keywords: GetActiveDate()
+so.topic: reference
 ---
 
 

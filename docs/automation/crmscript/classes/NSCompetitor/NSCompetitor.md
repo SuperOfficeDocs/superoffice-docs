@@ -1,9 +1,9 @@
 ---
-title: NSCompetitor
-path: /EJScript/Classes/NSCompetitor
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCompetitor
+description: NSCompetitor
+intellisense: Void.NSCompetitor
 sortOrder: 1578
+so.topic: reference
 ---
 
 

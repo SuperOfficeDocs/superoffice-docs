@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSForeignDevice/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetUpdatedDate
+description: NSForeignDevice.GetUpdatedDate()
+intellisense: NSForeignDevice.GetUpdatedDate
 sortOrder: 3715
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

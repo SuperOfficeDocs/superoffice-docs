@@ -1,9 +1,9 @@
 ---
-title: NSWebhook[] GetAllWebhooks(String nameFilter, String eventFilter, Integer statusFilter)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook[] GetAllWebhooks(String p_0, String p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_GetAllWebhooks_String_p_0_String_p_1_Integer_p_2
+description: NSWebhookAgent.GetAllWebhooks(String p_0, String p_1, Integer p_2)
+intellisense: NSWebhookAgent.GetAllWebhooks
 keywords: GetAllWebhooks(String,String,Integer)
+so.topic: reference
 ---
 
 

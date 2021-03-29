@@ -1,10 +1,10 @@
 ---
-title: NSPluginResponse ForceResyncExternal(Integer erpConnectionId, Integer erpActorType, String[] externalKeys)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSPluginResponse ForceResyncExternal(Integer p_0, Integer p_1, String[] p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ForceResyncExternal_Integer_p_0_Integer_p_1_String__p_2
+description: NSErpSyncAgent.ForceResyncExternal(Integer p_0, Integer p_1, String[] p_2)
+intellisense: NSErpSyncAgent.ForceResyncExternal
 sortOrder: 3212
 keywords: ForceResyncExternal(Integer,Integer,String[])
+so.topic: reference
 ---
 
 

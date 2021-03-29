@@ -1,10 +1,10 @@
 ---
-title: NSTicketPriority GetTicketPriority()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSTicketPriority GetTicketPriority()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetTicketPriority
+description: NSContactEntity.GetTicketPriority()
+intellisense: NSContactEntity.GetTicketPriority
 sortOrder: 1866
 keywords: GetTicketPriority()
+so.topic: reference
 ---
 
 

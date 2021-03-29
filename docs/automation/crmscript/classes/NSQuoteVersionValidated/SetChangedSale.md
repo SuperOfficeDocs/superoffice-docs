@@ -1,9 +1,9 @@
 ---
-title: Void SetChangedSale(NSSale ChangedSale)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetChangedSale(NSSale p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_SetChangedSale_NSSale_p_0
+description: NSQuoteVersionValidated.SetChangedSale(NSSale p_0)
+intellisense: NSQuoteVersionValidated.SetChangedSale
 keywords: SetChangedSale(NSSale)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/Message/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_load_Integer_id
+description: Message.load(Integer id)
+intellisense: Message.load
 sortOrder: 541
 keywords: load(Integer)
+so.topic: reference
 ---
 
 Load message with given id, returns true if successful or false if not successful.

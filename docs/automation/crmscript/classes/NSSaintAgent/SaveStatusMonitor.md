@@ -1,9 +1,9 @@
 ---
-title: NSStatusMonitor SaveStatusMonitor(NSStatusMonitor statusMonitor)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor SaveStatusMonitor(NSStatusMonitor p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_SaveStatusMonitor_NSStatusMonitor_p_0
+description: NSSaintAgent.SaveStatusMonitor(NSStatusMonitor p_0)
+intellisense: NSSaintAgent.SaveStatusMonitor
 keywords: SaveStatusMonitor(NSStatusMonitor)
+so.topic: reference
 ---
 
 

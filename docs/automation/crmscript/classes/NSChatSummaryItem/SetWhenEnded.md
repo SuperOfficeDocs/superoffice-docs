@@ -1,10 +1,10 @@
 ---
-title: Void SetWhenEnded(DateTime WhenEnded)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetWhenEnded(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_SetWhenEnded_DateTime_p_0
+description: NSChatSummaryItem.SetWhenEnded(DateTime p_0)
+intellisense: NSChatSummaryItem.SetWhenEnded
 sortOrder: 1547
 keywords: SetWhenEnded(DateTime)
+so.topic: reference
 ---
 
 

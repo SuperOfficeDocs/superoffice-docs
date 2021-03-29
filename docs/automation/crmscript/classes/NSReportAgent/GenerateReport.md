@@ -1,9 +1,9 @@
 ---
-title: String GenerateReport(Integer reportId, Integer labelLayoutId, String filename, String language, String p4, NSArchiveRestrictionInfo[] restrictions)
-path: /EJScript/Classes/NSReportAgent/Member functions/String GenerateReport(Integer p_0, Integer p_1, String p_2, String p_3, String p_4, NSArchiveRestrictionInfo[] p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_GenerateReport_Integer_p_0_Integer_p_1_String_p_2_String_p_3_String_p_4_NSArchiveRestrictionInfo__p_5
+description: NSReportAgent.GenerateReport(Integer p_0, Integer p_1, String p_2, String p_3, String p_4, NSArchiveRestrictionInfo[] p_5)
+intellisense: NSReportAgent.GenerateReport
 keywords: GenerateReport(Integer,Integer,String,String,String,NSArchiveRestrictionInfo[])
+so.topic: reference
 ---
 
 

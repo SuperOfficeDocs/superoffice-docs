@@ -1,9 +1,9 @@
 ---
-title: Void SetStartRulePattern(String StartRulePattern)
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetStartRulePattern(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_SetStartRulePattern_String_p_0
+description: NSTimeZoneRule.SetStartRulePattern(String p_0)
+intellisense: NSTimeZoneRule.SetStartRulePattern
 keywords: SetStartRulePattern(String)
+so.topic: reference
 ---
 
 

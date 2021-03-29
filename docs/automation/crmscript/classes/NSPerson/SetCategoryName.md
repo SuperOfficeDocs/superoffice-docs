@@ -1,9 +1,9 @@
 ---
-title: Void SetCategoryName(String CategoryName)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetCategoryName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetCategoryName_String_p_0
+description: NSPerson.SetCategoryName(String p_0)
+intellisense: NSPerson.SetCategoryName
 keywords: SetCategoryName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetNumber2(String Number2)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetNumber2(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetNumber2_String_p_0
+description: NSContactEntity.SetNumber2(String p_0)
+intellisense: NSContactEntity.SetNumber2
 sortOrder: 1905
 keywords: SetNumber2(String)
+so.topic: reference
 ---
 
 

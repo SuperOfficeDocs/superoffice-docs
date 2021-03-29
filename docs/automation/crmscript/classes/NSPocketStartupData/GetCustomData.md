@@ -1,9 +1,9 @@
 ---
-title: String GetCustomData()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/String GetCustomData()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_GetCustomData
+description: NSPocketStartupData.GetCustomData()
+intellisense: NSPocketStartupData.GetCustomData
 keywords: GetCustomData()
+so.topic: reference
 ---
 
 

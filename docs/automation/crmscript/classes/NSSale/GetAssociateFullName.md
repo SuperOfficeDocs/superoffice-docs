@@ -1,9 +1,9 @@
 ---
-title: String GetAssociateFullName()
-path: /EJScript/Classes/NSSale/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetAssociateFullName
+description: NSSale.GetAssociateFullName()
+intellisense: NSSale.GetAssociateFullName
 keywords: GetAssociateFullName()
+so.topic: reference
 ---
 
 

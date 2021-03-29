@@ -1,9 +1,9 @@
 ---
-title: Integer ChangePersonRank(Integer personId, Bool moveUp)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Integer ChangePersonRank(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_ChangePersonRank_Integer_p_0_Bool_p_1
+description: NSPersonAgent.ChangePersonRank(Integer p_0, Bool p_1)
+intellisense: NSPersonAgent.ChangePersonRank
 keywords: ChangePersonRank(Integer,Bool)
+so.topic: reference
 ---
 
 

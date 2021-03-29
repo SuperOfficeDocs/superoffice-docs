@@ -1,10 +1,10 @@
 ---
-title: Void SetValues(String[] Values)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetValues(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetValues_String__p_0
+description: NSFieldValueInfo.SetValues(String[] p_0)
+intellisense: NSFieldValueInfo.SetValues
 sortOrder: 3649
 keywords: SetValues(String[])
+so.topic: reference
 ---
 
 

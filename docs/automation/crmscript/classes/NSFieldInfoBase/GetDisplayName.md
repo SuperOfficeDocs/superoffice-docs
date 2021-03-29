@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetDisplayName
+description: NSFieldInfoBase.GetDisplayName()
+intellisense: NSFieldInfoBase.GetDisplayName
 sortOrder: 3470
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

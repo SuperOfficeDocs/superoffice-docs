@@ -1,9 +1,9 @@
 ---
-title: DateTime GetRepliedAt()
-path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetRepliedAt()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetRepliedAt
+description: NSTicketEntity.GetRepliedAt()
+intellisense: NSTicketEntity.GetRepliedAt
 keywords: GetRepliedAt()
+so.topic: reference
 ---
 
 

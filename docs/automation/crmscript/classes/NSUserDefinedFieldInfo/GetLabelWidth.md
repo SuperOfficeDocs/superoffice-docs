@@ -1,9 +1,9 @@
 ---
-title: Integer GetLabelWidth()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLabelWidth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetLabelWidth
+description: NSUserDefinedFieldInfo.GetLabelWidth()
+intellisense: NSUserDefinedFieldInfo.GetLabelWidth
 keywords: GetLabelWidth()
+so.topic: reference
 ---
 
 

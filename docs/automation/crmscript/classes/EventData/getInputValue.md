@@ -1,10 +1,10 @@
 ---
-title: String getInputValue(String inputValue)
-path: /EJScript/Classes/EventData/member functions/String getInputValue(String inputValue)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_getInputValue_String_inputValue
+description: EventData.getInputValue(String inputValue)
+intellisense: EventData.getInputValue
 sortOrder: 291
 keywords: getInputValue(String)
+so.topic: reference
 ---
 
 # String getInputValue(String inputValue)

@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdatedAssociate(NSAssociate UpdatedAssociate)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetUpdatedAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetUpdatedAssociate_NSAssociate_p_0
+description: NSWebhook.SetUpdatedAssociate(NSAssociate p_0)
+intellisense: NSWebhook.SetUpdatedAssociate
 keywords: SetUpdatedAssociate(NSAssociate)
+so.topic: reference
 ---
 
 

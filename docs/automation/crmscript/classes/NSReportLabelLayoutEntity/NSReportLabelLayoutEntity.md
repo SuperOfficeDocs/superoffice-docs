@@ -1,8 +1,8 @@
 ---
-title: NSReportLabelLayoutEntity
-path: /EJScript/Classes/NSReportLabelLayoutEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity
+description: NSReportLabelLayoutEntity
+intellisense: Void.NSReportLabelLayoutEntity
+so.topic: reference
 ---
 
 

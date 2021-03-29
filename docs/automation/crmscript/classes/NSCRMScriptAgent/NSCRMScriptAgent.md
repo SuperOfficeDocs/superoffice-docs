@@ -1,9 +1,9 @@
 ---
-title: NSCRMScriptAgent
-path: /EJScript/Classes/NSCRMScriptAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent
+description: NSCRMScriptAgent
+intellisense: Void.NSCRMScriptAgent
 sortOrder: 2112
+so.topic: reference
 ---
 
 

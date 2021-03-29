@@ -1,9 +1,9 @@
 ---
-title: Float
-path: /EJScript/Classes/Float
-intellisense: 1
-classref: 1
+title: crmscript_ref_Float
+description: Float
+intellisense: Void.Float
 sortOrder: 354
+so.topic: reference
 ---
 
 

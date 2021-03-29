@@ -1,10 +1,10 @@
 ---
-title: String GetPriorityName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetPriorityName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetPriorityName
+description: NSAppointment.GetPriorityName()
+intellisense: NSAppointment.GetPriorityName
 sortOrder: 761
 keywords: GetPriorityName()
+so.topic: reference
 ---
 
 

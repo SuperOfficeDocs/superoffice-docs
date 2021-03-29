@@ -1,10 +1,10 @@
 ---
-title: Integer SavePrivacyReport(String htmlReport, String title, Integer personId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/Integer SavePrivacyReport(String p_0, String p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SavePrivacyReport_String_p_0_String_p_1_Integer_p_2
+description: NSDocumentAgent.SavePrivacyReport(String p_0, String p_1, Integer p_2)
+intellisense: NSDocumentAgent.SavePrivacyReport
 sortOrder: 2465
 keywords: SavePrivacyReport(String,String,Integer)
+so.topic: reference
 ---
 
 

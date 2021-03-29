@@ -1,10 +1,10 @@
 ---
-title: NSImage GetPersonImage(Integer personId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetPersonImage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetPersonImage_Integer_p_0
+description: NSBLOBAgent.GetPersonImage(Integer p_0)
+intellisense: NSBLOBAgent.GetPersonImage
 sortOrder: 1417
 keywords: GetPersonImage(Integer)
+so.topic: reference
 ---
 
 

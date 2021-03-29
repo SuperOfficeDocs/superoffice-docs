@@ -1,9 +1,9 @@
 ---
-title: Integer GetCustId()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetCustId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetCustId
+description: NSTicket.GetCustId()
+intellisense: NSTicket.GetCustId
 keywords: GetCustId()
+so.topic: reference
 ---
 
 

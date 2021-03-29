@@ -1,9 +1,9 @@
 ---
-title: NSUserGroup GetUserGroup()
-path: /EJScript/Classes/NSUser/Member functions/NSUserGroup GetUserGroup()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetUserGroup
+description: NSUser.GetUserGroup()
+intellisense: NSUser.GetUserGroup
 keywords: GetUserGroup()
+so.topic: reference
 ---
 
 

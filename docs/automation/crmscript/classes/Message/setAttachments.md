@@ -1,10 +1,10 @@
 ---
-title: Void setAttachments(Vector ids)
-path: /EJScript/Classes/Message/Member functions/Void setAttachments(Vector ids)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_setAttachments_Vector_ids
+description: Message.setAttachments(Vector ids)
+intellisense: Message.setAttachments
 sortOrder: 557
 keywords: setAttachments(Vector)
+so.topic: reference
 ---
 
 

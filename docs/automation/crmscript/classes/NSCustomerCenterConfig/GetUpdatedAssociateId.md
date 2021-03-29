@@ -1,10 +1,10 @@
 ---
-title: Integer GetUpdatedAssociateId()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Integer GetUpdatedAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetUpdatedAssociateId
+description: NSCustomerCenterConfig.GetUpdatedAssociateId()
+intellisense: NSCustomerCenterConfig.GetUpdatedAssociateId
 sortOrder: 2201
 keywords: GetUpdatedAssociateId()
+so.topic: reference
 ---
 
 

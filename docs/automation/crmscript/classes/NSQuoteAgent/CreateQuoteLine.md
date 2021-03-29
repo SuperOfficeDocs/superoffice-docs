@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLine CreateQuoteLine(Integer quoteAlternativeId, String eRPProductKey)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine CreateQuoteLine(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateQuoteLine_Integer_p_0_String_p_1
+description: NSQuoteAgent.CreateQuoteLine(Integer p_0, String p_1)
+intellisense: NSQuoteAgent.CreateQuoteLine
 keywords: CreateQuoteLine(Integer,String)
+so.topic: reference
 ---
 
 

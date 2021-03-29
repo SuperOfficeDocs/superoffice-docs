@@ -1,10 +1,10 @@
 ---
-title: String getValue(String field)
-path: /EJScript/Classes/AppointmentSlicer/Member functions/String getValue(String field)
-intellisense: 1
-classref: 1
+title: crmscript_ref_AppointmentSlicer_getValue_String_field
+description: AppointmentSlicer.getValue(String field)
+intellisense: AppointmentSlicer.getValue
 sortOrder: 111
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Returns the value for the given field for the appointment pointed to by the internal iterator.

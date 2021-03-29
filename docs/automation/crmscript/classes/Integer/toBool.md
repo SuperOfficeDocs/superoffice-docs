@@ -1,10 +1,10 @@
 ---
-title: Bool toBool()
-path: /EJScript/Classes/Integer/Member functions/Bool toBool()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Integer_toBool
+description: Integer.toBool()
+intellisense: Integer.toBool
 sortOrder: 425
 keywords: toBool()
+so.topic: reference
 ---
 
 Returns false if the integer is zero, otherwise true.

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionWorkflowState GetQuoteVersionWorkflowButtonStates(Integer quoteVersionId, Integer quoteAlternativeId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionWorkflowState GetQuoteVersionWorkflowButtonStates(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetQuoteVersionWorkflowButtonStates_Integer_p_0_Integer_p_1
+description: NSQuoteAgent.GetQuoteVersionWorkflowButtonStates(Integer p_0, Integer p_1)
+intellisense: NSQuoteAgent.GetQuoteVersionWorkflowButtonStates
 keywords: GetQuoteVersionWorkflowButtonStates(Integer,Integer)
+so.topic: reference
 ---
 
 

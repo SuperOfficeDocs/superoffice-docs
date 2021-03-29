@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress[] GetTo()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/NSEMailAddress[] GetTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_GetTo
+description: NSEMailEnvelope.GetTo()
+intellisense: NSEMailEnvelope.GetTo
 sortOrder: 3008
 keywords: GetTo()
+so.topic: reference
 ---
 
 

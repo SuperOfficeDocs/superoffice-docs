@@ -1,10 +1,10 @@
 ---
-title: NSForeignKey GetKey(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey GetKey(String p_0, String p_1, String p_2, String p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetKey_String_p_0_String_p_1_String_p_2_String_p_3_Integer_p_4
+description: NSForeignSystemAgent.GetKey(String p_0, String p_1, String p_2, String p_3, Integer p_4)
+intellisense: NSForeignSystemAgent.GetKey
 sortOrder: 3764
 keywords: GetKey(String,String,String,String,Integer)
+so.topic: reference
 ---
 
 

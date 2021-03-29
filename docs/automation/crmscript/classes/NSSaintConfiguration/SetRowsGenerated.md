@@ -1,9 +1,9 @@
 ---
-title: Void SetRowsGenerated(Integer RowsGenerated)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetRowsGenerated(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_SetRowsGenerated_Integer_p_0
+description: NSSaintConfiguration.SetRowsGenerated(Integer p_0)
+intellisense: NSSaintConfiguration.SetRowsGenerated
 keywords: SetRowsGenerated(Integer)
+so.topic: reference
 ---
 
 

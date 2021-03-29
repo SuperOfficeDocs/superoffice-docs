@@ -1,9 +1,9 @@
 ---
-title: Integer[] GetUserGroupAccessIds()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer[] GetUserGroupAccessIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetUserGroupAccessIds
+description: NSQuoteConnection.GetUserGroupAccessIds()
+intellisense: NSQuoteConnection.GetUserGroupAccessIds
 keywords: GetUserGroupAccessIds()
+so.topic: reference
 ---
 
 

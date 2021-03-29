@@ -1,9 +1,9 @@
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetState
+description: NSWindowPosSize.GetState()
+intellisense: NSWindowPosSize.GetState
 keywords: GetState()
+so.topic: reference
 ---
 
 

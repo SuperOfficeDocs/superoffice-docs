@@ -1,10 +1,10 @@
 ---
-title: Void SetCustLangId(Integer CustLangId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetCustLangId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_SetCustLangId_Integer_p_0
+description: NSCustomerCenterConfig.SetCustLangId(Integer p_0)
+intellisense: NSCustomerCenterConfig.SetCustLangId
 sortOrder: 2205
 keywords: SetCustLangId(Integer)
+so.topic: reference
 ---
 
 

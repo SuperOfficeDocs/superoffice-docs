@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInGui()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Bool GetShowInGui()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetShowInGui
+description: NSErpSyncFieldMapping.GetShowInGui()
+intellisense: NSErpSyncFieldMapping.GetShowInGui
 sortOrder: 3288
 keywords: GetShowInGui()
+so.topic: reference
 ---
 
 

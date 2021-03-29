@@ -1,10 +1,10 @@
 ---
-title: Integer getNextTabIndex()
-path: /EJScript/Classes/HtmlElement/Member functions/Integer getNextTabIndex()
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_getNextTabIndex
+description: HtmlElement.getNextTabIndex()
+intellisense: HtmlElement.getNextTabIndex
 sortOrder: 381
 keywords: getNextTabIndex()
+so.topic: reference
 ---
 
 # Integer getNextTabIndex()

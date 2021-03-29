@@ -1,8 +1,8 @@
 ---
-title: NSSaleStageEntity
-path: /EJScript/Classes/NSSaleStageEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStageEntity
+description: NSSaleStageEntity
+intellisense: Void.NSSaleStageEntity
+so.topic: reference
 ---
 
 

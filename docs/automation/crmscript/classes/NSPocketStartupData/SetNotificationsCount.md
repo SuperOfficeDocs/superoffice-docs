@@ -1,9 +1,9 @@
 ---
-title: Void SetNotificationsCount(Integer NotificationsCount)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetNotificationsCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetNotificationsCount_Integer_p_0
+description: NSPocketStartupData.SetNotificationsCount(Integer p_0)
+intellisense: NSPocketStartupData.SetNotificationsCount
 keywords: SetNotificationsCount(Integer)
+so.topic: reference
 ---
 
 

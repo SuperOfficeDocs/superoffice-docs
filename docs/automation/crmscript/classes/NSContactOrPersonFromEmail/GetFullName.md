@@ -1,10 +1,10 @@
 ---
-title: String GetFullName()
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/String GetFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactOrPersonFromEmail_GetFullName
+description: NSContactOrPersonFromEmail.GetFullName()
+intellisense: NSContactOrPersonFromEmail.GetFullName
 sortOrder: 1926
 keywords: GetFullName()
+so.topic: reference
 ---
 
 

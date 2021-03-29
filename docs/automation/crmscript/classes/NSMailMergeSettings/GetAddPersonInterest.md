@@ -1,9 +1,9 @@
 ---
-title: Integer GetAddPersonInterest()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetAddPersonInterest()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetAddPersonInterest
+description: NSMailMergeSettings.GetAddPersonInterest()
+intellisense: NSMailMergeSettings.GetAddPersonInterest
 keywords: GetAddPersonInterest()
+so.topic: reference
 ---
 
 

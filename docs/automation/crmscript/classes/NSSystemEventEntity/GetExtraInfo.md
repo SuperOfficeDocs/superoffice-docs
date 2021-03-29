@@ -1,9 +1,9 @@
 ---
-title: Integer GetExtraInfo()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetExtraInfo
+description: NSSystemEventEntity.GetExtraInfo()
+intellisense: NSSystemEventEntity.GetExtraInfo
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

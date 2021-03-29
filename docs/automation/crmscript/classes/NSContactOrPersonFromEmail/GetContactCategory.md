@@ -1,10 +1,10 @@
 ---
-title: String GetContactCategory()
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/String GetContactCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactOrPersonFromEmail_GetContactCategory
+description: NSContactOrPersonFromEmail.GetContactCategory()
+intellisense: NSContactOrPersonFromEmail.GetContactCategory
 sortOrder: 1922
 keywords: GetContactCategory()
+so.topic: reference
 ---
 
 

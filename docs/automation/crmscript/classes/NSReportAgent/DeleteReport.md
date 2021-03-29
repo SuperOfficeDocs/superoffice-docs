@@ -1,9 +1,9 @@
 ---
-title: Bool DeleteReport(Integer reportId)
-path: /EJScript/Classes/NSReportAgent/Member functions/Bool DeleteReport(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_DeleteReport_Integer_p_0
+description: NSReportAgent.DeleteReport(Integer p_0)
+intellisense: NSReportAgent.DeleteReport
 keywords: DeleteReport(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetNotificationEmail(String NotificationEmail)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetNotificationEmail(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetNotificationEmail_String_p_0
+description: NSTicketCategoryEntity.SetNotificationEmail(String p_0)
+intellisense: NSTicketCategoryEntity.SetNotificationEmail
 keywords: SetNotificationEmail(String)
+so.topic: reference
 ---
 
 

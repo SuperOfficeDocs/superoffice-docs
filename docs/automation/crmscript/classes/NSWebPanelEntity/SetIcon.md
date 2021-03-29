@@ -1,9 +1,9 @@
 ---
-title: Void SetIcon(Integer Icon)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetIcon(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetIcon_Integer_p_0
+description: NSWebPanelEntity.SetIcon(Integer p_0)
+intellisense: NSWebPanelEntity.SetIcon
 keywords: SetIcon(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSPriceList SavePriceList(NSPriceList priceList)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList SavePriceList(NSPriceList p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SavePriceList_NSPriceList_p_0
+description: NSQuoteAgent.SavePriceList(NSPriceList p_0)
+intellisense: NSQuoteAgent.SavePriceList
 keywords: SavePriceList(NSPriceList)
+so.topic: reference
 ---
 
 

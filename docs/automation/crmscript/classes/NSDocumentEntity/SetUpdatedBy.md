@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedBy(NSAssociate UpdatedBy)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetUpdatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetUpdatedBy_NSAssociate_p_0
+description: NSDocumentEntity.SetUpdatedBy(NSAssociate p_0)
+intellisense: NSDocumentEntity.SetUpdatedBy
 sortOrder: 2613
 keywords: SetUpdatedBy(NSAssociate)
+so.topic: reference
 ---
 
 

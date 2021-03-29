@@ -1,9 +1,9 @@
 ---
-title: Void addWS(WeekSchedule ws, Integer mStop, Integer dStop)
-path: /EJScript/Classes/YearSchedule/Member functions/Void addWS(WeekSchedule ws, Integer mStop, Integer dStop)
-intellisense: 1
-classref: 1
+title: crmscript_ref_YearSchedule_addWS_WeekSchedule_ws_Integer_mStop_Integer_dStop
+description: YearSchedule.addWS(WeekSchedule ws, Integer mStop, Integer dStop)
+intellisense: YearSchedule.addWS
 keywords: addWS(WeekSchedule,Integer,Integer)
+so.topic: reference
 ---
 
 This function adds a week schedule to the year schedule.

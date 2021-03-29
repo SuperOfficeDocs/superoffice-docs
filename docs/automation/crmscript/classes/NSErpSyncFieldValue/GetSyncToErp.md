@@ -1,10 +1,10 @@
 ---
-title: Bool GetSyncToErp()
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Bool GetSyncToErp()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldValue_GetSyncToErp
+description: NSErpSyncFieldValue.GetSyncToErp()
+intellisense: NSErpSyncFieldValue.GetSyncToErp
 sortOrder: 3326
 keywords: GetSyncToErp()
+so.topic: reference
 ---
 
 

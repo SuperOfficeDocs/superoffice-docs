@@ -1,9 +1,9 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSUser/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetDeleted_Bool_p_0
+description: NSUser.SetDeleted(Bool p_0)
+intellisense: NSUser.SetDeleted
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

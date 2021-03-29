@@ -1,10 +1,10 @@
 ---
-title: Void SetPassword(String Password)
-path: /EJScript/Classes/NSEMailConnectionInfo/Member functions/Void SetPassword(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfo_SetPassword_String_p_0
+description: NSEMailConnectionInfo.SetPassword(String p_0)
+intellisense: NSEMailConnectionInfo.SetPassword
 sortOrder: 2916
 keywords: SetPassword(String)
+so.topic: reference
 ---
 
 

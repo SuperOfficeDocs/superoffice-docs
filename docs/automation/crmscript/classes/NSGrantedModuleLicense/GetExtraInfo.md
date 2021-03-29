@@ -1,10 +1,10 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_GetExtraInfo
+description: NSGrantedModuleLicense.GetExtraInfo()
+intellisense: NSGrantedModuleLicense.GetExtraInfo
 sortOrder: 3890
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

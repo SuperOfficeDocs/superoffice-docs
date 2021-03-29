@@ -1,10 +1,10 @@
 ---
-title: NSDocument GetDocument(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument GetDocument(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetDocument_Integer_p_0
+description: NSDocumentAgent.GetDocument(Integer p_0)
+intellisense: NSDocumentAgent.GetDocument
 sortOrder: 2470
 keywords: GetDocument(Integer)
+so.topic: reference
 ---
 
 

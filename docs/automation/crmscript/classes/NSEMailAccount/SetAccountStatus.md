@@ -1,10 +1,10 @@
 ---
-title: Void SetAccountStatus(Integer AccountStatus)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetAccountStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_SetAccountStatus_Integer_p_0
+description: NSEMailAccount.SetAccountStatus(Integer p_0)
+intellisense: NSEMailAccount.SetAccountStatus
 sortOrder: 2752
 keywords: SetAccountStatus(Integer)
+so.topic: reference
 ---
 
 

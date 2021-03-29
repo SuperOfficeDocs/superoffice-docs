@@ -1,8 +1,8 @@
 ---
-title: NSPersonAgent
-path: /EJScript/Classes/NSPersonAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent
+description: NSPersonAgent
+intellisense: Void.NSPersonAgent
+so.topic: reference
 ---
 
 

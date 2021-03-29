@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_SetExtraInfo_String_p_0
+description: NSMDOListItem.SetExtraInfo(String p_0)
+intellisense: NSMDOListItem.SetExtraInfo
 keywords: SetExtraInfo(String)
+so.topic: reference
 ---
 
 

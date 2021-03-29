@@ -1,8 +1,8 @@
 ---
-title: NSReasonStalled
-path: /EJScript/Classes/NSReasonStalled
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReasonStalled
+description: NSReasonStalled
+intellisense: Void.NSReasonStalled
+so.topic: reference
 ---
 
 

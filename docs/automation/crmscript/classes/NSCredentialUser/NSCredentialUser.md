@@ -1,9 +1,9 @@
 ---
-title: NSCredentialUser
-path: /EJScript/Classes/NSCredentialUser
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser
+description: NSCredentialUser
+intellisense: Void.NSCredentialUser
 sortOrder: 2084
+so.topic: reference
 ---
 
 

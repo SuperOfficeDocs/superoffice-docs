@@ -1,9 +1,9 @@
 ---
-title: Generic
-path: /EJScript/Classes/Generic
-intellisense: 1
-classref: 1
+title: crmscript_ref_Generic
+description: Generic
+intellisense: Void.Generic
 sortOrder: 360
+so.topic: reference
 ---
 
 

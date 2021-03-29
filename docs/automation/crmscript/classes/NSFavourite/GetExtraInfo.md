@@ -1,10 +1,10 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSFavourite/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavourite_GetExtraInfo
+description: NSFavourite.GetExtraInfo()
+intellisense: NSFavourite.GetExtraInfo
 sortOrder: 3438
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

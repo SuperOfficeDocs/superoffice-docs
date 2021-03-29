@@ -1,9 +1,9 @@
 ---
-title: NSLegalBase SaveLegalBase(NSLegalBase p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase SaveLegalBase(NSLegalBase p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveLegalBase_NSLegalBase_p_0
+description: NSListAgent.SaveLegalBase(NSLegalBase p_0)
+intellisense: NSListAgent.SaveLegalBase
 keywords: SaveLegalBase(NSLegalBase)
+so.topic: reference
 ---
 
 

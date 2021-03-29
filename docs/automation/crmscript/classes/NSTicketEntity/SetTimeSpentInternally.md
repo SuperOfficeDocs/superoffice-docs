@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeSpentInternally(Integer TimeSpentInternally)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTimeSpentInternally(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetTimeSpentInternally_Integer_p_0
+description: NSTicketEntity.SetTimeSpentInternally(Integer p_0)
+intellisense: NSTicketEntity.SetTimeSpentInternally
 keywords: SetTimeSpentInternally(Integer)
+so.topic: reference
 ---
 
 

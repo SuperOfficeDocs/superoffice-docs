@@ -1,9 +1,9 @@
 ---
-title: NSEMailSOInfo
-path: /EJScript/Classes/NSEMailSOInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo
+description: NSEMailSOInfo
+intellisense: Void.NSEMailSOInfo
 sortOrder: 3042
+so.topic: reference
 ---
 
 

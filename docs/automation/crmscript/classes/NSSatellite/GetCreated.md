@@ -1,9 +1,9 @@
 ---
-title: DateTime GetCreated()
-path: /EJScript/Classes/NSSatellite/Member functions/DateTime GetCreated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_GetCreated
+description: NSSatellite.GetCreated()
+intellisense: NSSatellite.GetCreated
 keywords: GetCreated()
+so.topic: reference
 ---
 
 

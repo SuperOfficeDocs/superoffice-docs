@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity suggestedDocumentEntity)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSSuggestedDocumentEntity SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SaveSuggestedDocumentEntity_NSSuggestedDocumentEntity_p_0
+description: NSDocumentAgent.SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity p_0)
+intellisense: NSDocumentAgent.SaveSuggestedDocumentEntity
 sortOrder: 2529
 keywords: SaveSuggestedDocumentEntity(NSSuggestedDocumentEntity)
+so.topic: reference
 ---
 
 

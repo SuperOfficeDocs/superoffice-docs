@@ -1,14 +1,14 @@
 ---
-title: MainMenu
-path: /EJScript/Classes/MainMenu
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu
+description: MainMenu
+intellisense: Void.MainMenu
 sortOrder: 502
 description: MainMenu
 author:
 so.date:
 keywords:
 so.topic:
+so.topic: reference
 ---
 
 # MainMenu

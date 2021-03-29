@@ -1,10 +1,10 @@
 ---
-title: NSScript SaveCRMScriptByUniqueIdentifier(String uniqueIdentifier, NSScript crmscript)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSScript SaveCRMScriptByUniqueIdentifier(String p_0, NSScript p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_SaveCRMScriptByUniqueIdentifier_String_p_0_NSScript_p_1
+description: NSCRMScriptAgent.SaveCRMScriptByUniqueIdentifier(String p_0, NSScript p_1)
+intellisense: NSCRMScriptAgent.SaveCRMScriptByUniqueIdentifier
 sortOrder: 2120
 keywords: SaveCRMScriptByUniqueIdentifier(String,NSScript)
+so.topic: reference
 ---
 
 

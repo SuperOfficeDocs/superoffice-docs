@@ -1,10 +1,10 @@
 ---
-title: NSSystemEventEntity CreateDefaultSystemEventEntity()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSSystemEventEntity CreateDefaultSystemEventEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_CreateDefaultSystemEventEntity
+description: NSConfigurationAgent.CreateDefaultSystemEventEntity()
+intellisense: NSConfigurationAgent.CreateDefaultSystemEventEntity
 sortOrder: 1593
 keywords: CreateDefaultSystemEventEntity()
+so.topic: reference
 ---
 
 

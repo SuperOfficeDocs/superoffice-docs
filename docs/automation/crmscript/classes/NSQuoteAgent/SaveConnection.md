@@ -1,9 +1,9 @@
 ---
-title: NSQuoteConnection SaveConnection(NSQuoteConnection connection)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteConnection SaveConnection(NSQuoteConnection p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveConnection_NSQuoteConnection_p_0
+description: NSQuoteAgent.SaveConnection(NSQuoteConnection p_0)
+intellisense: NSQuoteAgent.SaveConnection
 keywords: SaveConnection(NSQuoteConnection)
+so.topic: reference
 ---
 
 

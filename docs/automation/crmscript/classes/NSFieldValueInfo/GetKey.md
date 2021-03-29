@@ -1,10 +1,10 @@
 ---
-title: String GetKey()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetKey
+description: NSFieldValueInfo.GetKey()
+intellisense: NSFieldValueInfo.GetKey
 sortOrder: 3630
 keywords: GetKey()
+so.topic: reference
 ---
 
 

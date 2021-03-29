@@ -1,10 +1,10 @@
 ---
-title: NSBatchTaskInfo RegenerateIndex(Bool runAsBatch)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/NSBatchTaskInfo RegenerateIndex(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_RegenerateIndex_Bool_p_0
+description: NSFreeTextAgent.RegenerateIndex(Bool p_0)
+intellisense: NSFreeTextAgent.RegenerateIndex
 sortOrder: 3868
 keywords: RegenerateIndex(Bool)
+so.topic: reference
 ---
 
 

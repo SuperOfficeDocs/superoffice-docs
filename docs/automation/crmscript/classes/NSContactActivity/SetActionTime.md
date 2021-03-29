@@ -1,10 +1,10 @@
 ---
-title: Void SetActionTime(DateTime ActionTime)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetActionTime(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_SetActionTime_DateTime_p_0
+description: NSContactActivity.SetActionTime(DateTime p_0)
+intellisense: NSContactActivity.SetActionTime
 sortOrder: 1782
 keywords: SetActionTime(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSDayInformationListItem
-path: /EJScript/Classes/NSDayInformationListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDayInformationListItem
+description: NSDayInformationListItem
+intellisense: Void.NSDayInformationListItem
 sortOrder: 2356
+so.topic: reference
 ---
 
 

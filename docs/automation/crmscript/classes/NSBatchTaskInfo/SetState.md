@@ -1,10 +1,10 @@
 ---
-title: Void SetState(Integer State)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetState_Integer_p_0
+description: NSBatchTaskInfo.SetState(Integer p_0)
+intellisense: NSBatchTaskInfo.SetState
 sortOrder: 1405
 keywords: SetState(Integer)
+so.topic: reference
 ---
 
 

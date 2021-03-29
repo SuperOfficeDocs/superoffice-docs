@@ -1,9 +1,9 @@
 ---
-title: Void DeleteUserFromName(String userName)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void DeleteUserFromName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_DeleteUserFromName_String_p_0
+description: NSUserAgent.DeleteUserFromName(String p_0)
+intellisense: NSUserAgent.DeleteUserFromName
 keywords: DeleteUserFromName(String)
+so.topic: reference
 ---
 
 

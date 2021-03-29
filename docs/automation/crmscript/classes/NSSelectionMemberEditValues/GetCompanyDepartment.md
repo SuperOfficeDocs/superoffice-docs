@@ -1,9 +1,9 @@
 ---
-title: String GetCompanyDepartment()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/String GetCompanyDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyDepartment
+description: NSSelectionMemberEditValues.GetCompanyDepartment()
+intellisense: NSSelectionMemberEditValues.GetCompanyDepartment
 keywords: GetCompanyDepartment()
+so.topic: reference
 ---
 
 

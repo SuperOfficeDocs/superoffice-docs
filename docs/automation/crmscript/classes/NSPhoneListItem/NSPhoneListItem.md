@@ -1,8 +1,8 @@
 ---
-title: NSPhoneListItem
-path: /EJScript/Classes/NSPhoneListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem
+description: NSPhoneListItem
+intellisense: Void.NSPhoneListItem
+so.topic: reference
 ---
 
 

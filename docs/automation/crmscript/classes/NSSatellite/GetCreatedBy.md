@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSSatellite/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_GetCreatedBy
+description: NSSatellite.GetCreatedBy()
+intellisense: NSSatellite.GetCreatedBy
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

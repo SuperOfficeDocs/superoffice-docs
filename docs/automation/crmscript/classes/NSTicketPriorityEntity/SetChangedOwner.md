@@ -1,9 +1,9 @@
 ---
-title: Void SetChangedOwner(NSTicketPriorityEscalateEvent ChangedOwner)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetChangedOwner(NSTicketPriorityEscalateEvent p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetChangedOwner_NSTicketPriorityEscalateEvent_p_0
+description: NSTicketPriorityEntity.SetChangedOwner(NSTicketPriorityEscalateEvent p_0)
+intellisense: NSTicketPriorityEntity.SetChangedOwner
 keywords: SetChangedOwner(NSTicketPriorityEscalateEvent)
+so.topic: reference
 ---
 
 

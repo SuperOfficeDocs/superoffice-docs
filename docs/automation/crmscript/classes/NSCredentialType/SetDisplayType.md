@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayType(String DisplayType)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetDisplayType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_SetDisplayType_String_p_0
+description: NSCredentialType.SetDisplayType(String p_0)
+intellisense: NSCredentialType.SetDisplayType
 sortOrder: 2079
 keywords: SetDisplayType(String)
+so.topic: reference
 ---
 
 

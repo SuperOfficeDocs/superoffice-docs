@@ -1,9 +1,9 @@
 ---
-title: NSRelationDefinitionEntity GetRelationDefinitionEntity(Integer relationDefinitionEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSRelationDefinitionEntity GetRelationDefinitionEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetRelationDefinitionEntity_Integer_p_0
+description: NSListAgent.GetRelationDefinitionEntity(Integer p_0)
+intellisense: NSListAgent.GetRelationDefinitionEntity
 keywords: GetRelationDefinitionEntity(Integer)
+so.topic: reference
 ---
 
 

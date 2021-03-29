@@ -1,9 +1,9 @@
 ---
-title: String GetContactBusiness()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetContactBusiness()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetContactBusiness
+description: NSParticipantSyncData.GetContactBusiness()
+intellisense: NSParticipantSyncData.GetContactBusiness
 keywords: GetContactBusiness()
+so.topic: reference
 ---
 
 

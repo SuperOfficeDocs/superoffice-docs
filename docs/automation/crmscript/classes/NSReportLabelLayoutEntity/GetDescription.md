@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetDescription
+description: NSReportLabelLayoutEntity.GetDescription()
+intellisense: NSReportLabelLayoutEntity.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

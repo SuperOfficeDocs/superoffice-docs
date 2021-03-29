@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity Save(NSAppointmentEntity p0, Integer updateMode, Bool sendEmailToParticipants, NSEMailConnectionInfo smtpEMailConnectionInfo, NSEMailConnectionInfo imapEMailConnectionInfo)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity Save(NSAppointmentEntity p_0, Integer p_1, Bool p_2, NSEMailConnectionInfo p_3, NSEMailConnectionInfo p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_Save_NSAppointmentEntity_p_0_Integer_p_1_Bool_p_2_NSEMailConnectionInfo_p_3_NSEMailConnectionInfo_p_4
+description: NSAppointmentAgent.Save(NSAppointmentEntity p_0, Integer p_1, Bool p_2, NSEMailConnectionInfo p_3, NSEMailConnectionInfo p_4)
+intellisense: NSAppointmentAgent.Save
 sortOrder: 883
 keywords: Save(NSAppointmentEntity,Integer,Bool,NSEMailConnectionInfo,NSEMailConnectionInfo)
+so.topic: reference
 ---
 
 

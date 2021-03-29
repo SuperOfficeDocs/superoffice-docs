@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoShortText
-path: /EJScript/Classes/NSFieldInfoShortText
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText
+description: NSFieldInfoShortText
+intellisense: Void.NSFieldInfoShortText
 sortOrder: 3545
+so.topic: reference
 ---
 
 

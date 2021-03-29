@@ -1,9 +1,9 @@
 ---
-title: Byte[] ExportSelectionMembersWithOrderBy(Integer selectionId, String templateName, Bool useContacts, String orderBy)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Byte[] ExportSelectionMembersWithOrderBy(Integer p_0, String p_1, Bool p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_ExportSelectionMembersWithOrderBy_Integer_p_0_String_p_1_Bool_p_2_String_p_3
+description: NSSelectionAgent.ExportSelectionMembersWithOrderBy(Integer p_0, String p_1, Bool p_2, String p_3)
+intellisense: NSSelectionAgent.ExportSelectionMembersWithOrderBy
 keywords: ExportSelectionMembersWithOrderBy(Integer,String,Bool,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSProductFamily GetProductFamily(Integer productFamilyId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductFamily GetProductFamily(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProductFamily_Integer_p_0
+description: NSListAgent.GetProductFamily(Integer p_0)
+intellisense: NSListAgent.GetProductFamily
 keywords: GetProductFamily(Integer)
+so.topic: reference
 ---
 
 

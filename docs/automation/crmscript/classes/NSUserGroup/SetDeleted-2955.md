@@ -1,9 +1,9 @@
 ---
-title: Void SetDeleted(Integer Deleted)
-path: /EJScript/Classes/NSUserGroup/Member functions/Void SetDeleted(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserGroup_SetDeleted_Integer_p_0
+description: NSUserGroup.SetDeleted(Integer p_0)
+intellisense: NSUserGroup.SetDeleted
 keywords: SetDeleted(Integer)
+so.topic: reference
 ---
 
 

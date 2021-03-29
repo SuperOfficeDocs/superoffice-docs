@@ -1,9 +1,9 @@
 ---
-title: Integer GetCurrentValue()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetCurrentValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetCurrentValue
+description: NSRefCountEntity.GetCurrentValue()
+intellisense: NSRefCountEntity.GetCurrentValue
 keywords: GetCurrentValue()
+so.topic: reference
 ---
 
 

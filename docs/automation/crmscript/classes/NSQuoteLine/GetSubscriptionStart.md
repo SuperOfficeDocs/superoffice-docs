@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSubscriptionStart()
-path: /EJScript/Classes/NSQuoteLine/Member functions/DateTime GetSubscriptionStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetSubscriptionStart
+description: NSQuoteLine.GetSubscriptionStart()
+intellisense: NSQuoteLine.GetSubscriptionStart
 keywords: GetSubscriptionStart()
+so.topic: reference
 ---
 
 

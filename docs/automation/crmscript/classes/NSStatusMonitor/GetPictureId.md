@@ -1,9 +1,9 @@
 ---
-title: Integer GetPictureId()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetPictureId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetPictureId
+description: NSStatusMonitor.GetPictureId()
+intellisense: NSStatusMonitor.GetPictureId
 keywords: GetPictureId()
+so.topic: reference
 ---
 
 

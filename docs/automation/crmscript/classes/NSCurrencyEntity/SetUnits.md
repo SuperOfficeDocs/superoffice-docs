@@ -1,10 +1,10 @@
 ---
-title: Void SetUnits(Float Units)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetUnits(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_SetUnits_Float_p_0
+description: NSCurrencyEntity.SetUnits(Float p_0)
+intellisense: NSCurrencyEntity.SetUnits
 sortOrder: 2192
 keywords: SetUnits(Float)
+so.topic: reference
 ---
 
 

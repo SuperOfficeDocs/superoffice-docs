@@ -1,10 +1,10 @@
 ---
-title: Void SetNumberOfUsers(Integer NumberOfUsers)
-path: /EJScript/Classes/NSArea/Member functions/Void SetNumberOfUsers(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_SetNumberOfUsers_Integer_p_0
+description: NSArea.SetNumberOfUsers(Integer p_0)
+intellisense: NSArea.SetNumberOfUsers
 sortOrder: 1251
 keywords: SetNumberOfUsers(Integer)
+so.topic: reference
 ---
 
 

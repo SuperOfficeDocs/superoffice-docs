@@ -1,9 +1,9 @@
 ---
-title: Integer GetDeploymentType()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Integer GetDeploymentType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetDeploymentType
+description: NSLicenseInfo.GetDeploymentType()
+intellisense: NSLicenseInfo.GetDeploymentType
 keywords: GetDeploymentType()
+so.topic: reference
 ---
 
 

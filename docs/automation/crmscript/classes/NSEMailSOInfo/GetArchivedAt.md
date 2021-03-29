@@ -1,10 +1,10 @@
 ---
-title: DateTime GetArchivedAt()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/DateTime GetArchivedAt()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetArchivedAt
+description: NSEMailSOInfo.GetArchivedAt()
+intellisense: NSEMailSOInfo.GetArchivedAt
 sortOrder: 3045
 keywords: GetArchivedAt()
+so.topic: reference
 ---
 
 

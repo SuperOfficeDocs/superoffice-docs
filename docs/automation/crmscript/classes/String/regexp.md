@@ -1,9 +1,9 @@
 ---
-title: String[] regexp(String pattern)
-path: /EJScript/Classes/String/Member functions/String[] regexp(String pattern)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_regexp_String_pattern
+description: String.regexp(String pattern)
+intellisense: String.regexp
 keywords: regexp(String)
+so.topic: reference
 ---
 
 

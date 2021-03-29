@@ -1,9 +1,9 @@
 ---
-title: NSEMailAgent
-path: /EJScript/Classes/NSEMailAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent
+description: NSEMailAgent
+intellisense: Void.NSEMailAgent
 sortOrder: 2780
+so.topic: reference
 ---
 
 

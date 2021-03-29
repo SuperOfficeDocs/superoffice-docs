@@ -1,9 +1,9 @@
 ---
-title: NSTicketReadStatus GetReadStatus()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketReadStatus GetReadStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetReadStatus
+description: NSTicketEntity.GetReadStatus()
+intellisense: NSTicketEntity.GetReadStatus
 keywords: GetReadStatus()
+so.topic: reference
 ---
 
 

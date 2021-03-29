@@ -1,10 +1,10 @@
 ---
-title: Void SetShowCurrents(Bool ShowCurrents)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetShowCurrents(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetShowCurrents_Bool_p_0
+description: NSDocumentTemplateEntity.SetShowCurrents(Bool p_0)
+intellisense: NSDocumentTemplateEntity.SetShowCurrents
 sortOrder: 2702
 keywords: SetShowCurrents(Bool)
+so.topic: reference
 ---
 
 

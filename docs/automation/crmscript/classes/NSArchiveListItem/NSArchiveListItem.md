@@ -1,9 +1,9 @@
 ---
-title: NSArchiveListItem
-path: /EJScript/Classes/NSArchiveListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem
+description: NSArchiveListItem
+intellisense: Void.NSArchiveListItem
 sortOrder: 1174
+so.topic: reference
 ---
 
 

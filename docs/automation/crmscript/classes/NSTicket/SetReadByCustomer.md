@@ -1,9 +1,9 @@
 ---
-title: Void SetReadByCustomer(DateTime ReadByCustomer)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetReadByCustomer(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetReadByCustomer_DateTime_p_0
+description: NSTicket.SetReadByCustomer(DateTime p_0)
+intellisense: NSTicket.SetReadByCustomer
 keywords: SetReadByCustomer(DateTime)
+so.topic: reference
 ---
 
 

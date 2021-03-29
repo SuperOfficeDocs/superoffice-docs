@@ -1,10 +1,10 @@
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetVisibleFor
+description: NSDocumentEntity.GetVisibleFor()
+intellisense: NSDocumentEntity.GetVisibleFor
 sortOrder: 2583
 keywords: GetVisibleFor()
+so.topic: reference
 ---
 
 

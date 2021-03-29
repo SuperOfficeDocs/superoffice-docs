@@ -1,10 +1,10 @@
 ---
-title: Void SetConnectionId(String ConnectionId)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetConnectionId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetConnectionId_String_p_0
+description: NSErpConnection.SetConnectionId(String p_0)
+intellisense: NSErpConnection.SetConnectionId
 sortOrder: 3096
 keywords: SetConnectionId(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer ownerType, Integer fieldType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo CreateUserDefinedFieldInfo(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo_Integer_p_0_Integer_p_1
+description: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo(Integer p_0, Integer p_1)
+intellisense: NSUserDefinedFieldInfoAgent.CreateUserDefinedFieldInfo
 keywords: CreateUserDefinedFieldInfo(Integer,Integer)
+so.topic: reference
 ---
 
 

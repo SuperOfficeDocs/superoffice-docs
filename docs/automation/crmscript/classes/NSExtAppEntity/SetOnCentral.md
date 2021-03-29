@@ -1,10 +1,10 @@
 ---
-title: Void SetOnCentral(Bool OnCentral)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetOnCentral(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetOnCentral_Bool_p_0
+description: NSExtAppEntity.SetOnCentral(Bool p_0)
+intellisense: NSExtAppEntity.SetOnCentral
 sortOrder: 3385
 keywords: SetOnCentral(Bool)
+so.topic: reference
 ---
 
 

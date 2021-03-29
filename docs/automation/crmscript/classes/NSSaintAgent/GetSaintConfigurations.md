@@ -1,9 +1,9 @@
 ---
-title: NSSaintConfiguration[] GetSaintConfigurations()
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSSaintConfiguration[] GetSaintConfigurations()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_GetSaintConfigurations
+description: NSSaintAgent.GetSaintConfigurations()
+intellisense: NSSaintAgent.GetSaintConfigurations
 keywords: GetSaintConfigurations()
+so.topic: reference
 ---
 
 

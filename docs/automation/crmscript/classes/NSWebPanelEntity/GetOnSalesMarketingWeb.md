@@ -1,9 +1,9 @@
 ---
-title: Bool GetOnSalesMarketingWeb()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnSalesMarketingWeb()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetOnSalesMarketingWeb
+description: NSWebPanelEntity.GetOnSalesMarketingWeb()
+intellisense: NSWebPanelEntity.GetOnSalesMarketingWeb
 keywords: GetOnSalesMarketingWeb()
+so.topic: reference
 ---
 
 

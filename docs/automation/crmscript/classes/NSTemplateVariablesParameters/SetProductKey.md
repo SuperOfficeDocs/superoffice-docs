@@ -1,9 +1,9 @@
 ---
-title: Void SetProductKey(String ProductKey)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetProductKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetProductKey_String_p_0
+description: NSTemplateVariablesParameters.SetProductKey(String p_0)
+intellisense: NSTemplateVariablesParameters.SetProductKey
 keywords: SetProductKey(String)
+so.topic: reference
 ---
 
 

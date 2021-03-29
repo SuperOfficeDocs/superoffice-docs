@@ -1,9 +1,9 @@
 ---
-title: Void SetListType(String ListType)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetListType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_SetListType_String_p_0
+description: NSListEntity.SetListType(String p_0)
+intellisense: NSListEntity.SetListType
 keywords: SetListType(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetInvoiceCountryId(Integer InvoiceCountryId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetInvoiceCountryId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetInvoiceCountryId_Integer_p_0
+description: NSQuoteVersion.SetInvoiceCountryId(Integer p_0)
+intellisense: NSQuoteVersion.SetInvoiceCountryId
 keywords: SetInvoiceCountryId(Integer)
+so.topic: reference
 ---
 
 

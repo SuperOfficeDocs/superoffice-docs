@@ -1,10 +1,10 @@
 ---
-title: Integer GetPrecision()
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Integer GetPrecision()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDecimal_GetPrecision
+description: NSFieldInfoDecimal.GetPrecision()
+intellisense: NSFieldInfoDecimal.GetPrecision
 sortOrder: 3506
 keywords: GetPrecision()
+so.topic: reference
 ---
 
 

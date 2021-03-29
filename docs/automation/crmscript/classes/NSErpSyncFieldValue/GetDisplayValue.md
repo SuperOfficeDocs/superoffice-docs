@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayValue()
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldValue_GetDisplayValue
+description: NSErpSyncFieldValue.GetDisplayValue()
+intellisense: NSErpSyncFieldValue.GetDisplayValue
 sortOrder: 3329
 keywords: GetDisplayValue()
+so.topic: reference
 ---
 
 

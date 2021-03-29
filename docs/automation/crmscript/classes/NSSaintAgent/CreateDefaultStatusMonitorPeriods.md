@@ -1,9 +1,9 @@
 ---
-title: NSStatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitorPeriods CreateDefaultStatusMonitorPeriods()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitorPeriods
+description: NSSaintAgent.CreateDefaultStatusMonitorPeriods()
+intellisense: NSSaintAgent.CreateDefaultStatusMonitorPeriods
 keywords: CreateDefaultStatusMonitorPeriods()
+so.topic: reference
 ---
 
 

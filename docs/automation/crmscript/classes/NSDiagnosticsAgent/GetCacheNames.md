@@ -1,10 +1,10 @@
 ---
-title: String[] GetCacheNames()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/String[] GetCacheNames()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_GetCacheNames
+description: NSDiagnosticsAgent.GetCacheNames()
+intellisense: NSDiagnosticsAgent.GetCacheNames
 sortOrder: 2392
 keywords: GetCacheNames()
+so.topic: reference
 ---
 
 

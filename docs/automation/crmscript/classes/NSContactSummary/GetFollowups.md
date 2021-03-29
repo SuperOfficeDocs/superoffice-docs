@@ -1,10 +1,10 @@
 ---
-title: NSActivitySummaryItem[] GetFollowups()
-path: /EJScript/Classes/NSContactSummary/Member functions/NSActivitySummaryItem[] GetFollowups()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactSummary_GetFollowups
+description: NSContactSummary.GetFollowups()
+intellisense: NSContactSummary.GetFollowups
 sortOrder: 1983
 keywords: GetFollowups()
+so.topic: reference
 ---
 
 

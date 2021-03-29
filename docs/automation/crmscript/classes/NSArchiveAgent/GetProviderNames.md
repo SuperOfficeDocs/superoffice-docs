@@ -1,10 +1,10 @@
 ---
-title: String[] GetProviderNames()
-path: /EJScript/Classes/NSArchiveAgent/Member functions/String[] GetProviderNames()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetProviderNames
+description: NSArchiveAgent.GetProviderNames()
+intellisense: NSArchiveAgent.GetProviderNames
 sortOrder: 1119
 keywords: GetProviderNames()
+so.topic: reference
 ---
 
 

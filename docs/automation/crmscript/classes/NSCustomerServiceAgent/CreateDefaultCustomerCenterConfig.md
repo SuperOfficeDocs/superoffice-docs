@@ -1,10 +1,10 @@
 ---
-title: NSCustomerCenterConfig CreateDefaultCustomerCenterConfig()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerCenterConfig CreateDefaultCustomerCenterConfig()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_CreateDefaultCustomerCenterConfig
+description: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig()
+intellisense: NSCustomerServiceAgent.CreateDefaultCustomerCenterConfig
 sortOrder: 2227
 keywords: CreateDefaultCustomerCenterConfig()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void CollectDataAdditions()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void CollectDataAdditions()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_CollectDataAdditions
+description: NSDiagnosticsAgent.CollectDataAdditions()
+intellisense: NSDiagnosticsAgent.CollectDataAdditions
 sortOrder: 2395
 keywords: CollectDataAdditions()
+so.topic: reference
 ---
 
 

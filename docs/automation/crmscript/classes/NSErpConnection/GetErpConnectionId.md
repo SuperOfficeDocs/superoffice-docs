@@ -1,10 +1,10 @@
 ---
-title: Integer GetErpConnectionId()
-path: /EJScript/Classes/NSErpConnection/Member functions/Integer GetErpConnectionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_GetErpConnectionId
+description: NSErpConnection.GetErpConnectionId()
+intellisense: NSErpConnection.GetErpConnectionId
 sortOrder: 3080
 keywords: GetErpConnectionId()
+so.topic: reference
 ---
 
 

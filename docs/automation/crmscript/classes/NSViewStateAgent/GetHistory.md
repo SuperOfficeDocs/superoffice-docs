@@ -1,9 +1,9 @@
 ---
-title: NSHistory GetHistory(Integer historyId)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory GetHistory(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_GetHistory_Integer_p_0
+description: NSViewStateAgent.GetHistory(Integer p_0)
+intellisense: NSViewStateAgent.GetHistory
 keywords: GetHistory(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void RunAppointmentAlarmBroker()
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void RunAppointmentAlarmBroker()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_RunAppointmentAlarmBroker
+description: NSPocketAgent.RunAppointmentAlarmBroker()
+intellisense: NSPocketAgent.RunAppointmentAlarmBroker
 keywords: RunAppointmentAlarmBroker()
+so.topic: reference
 ---
 
 

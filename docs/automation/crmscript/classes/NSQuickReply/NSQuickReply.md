@@ -1,8 +1,8 @@
 ---
-title: NSQuickReply
-path: /EJScript/Classes/NSQuickReply
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply
+description: NSQuickReply
+intellisense: Void.NSQuickReply
+so.topic: reference
 ---
 
 

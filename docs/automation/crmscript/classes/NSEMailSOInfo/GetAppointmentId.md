@@ -1,10 +1,10 @@
 ---
-title: Integer GetAppointmentId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetAppointmentId
+description: NSEMailSOInfo.GetAppointmentId()
+intellisense: NSEMailSOInfo.GetAppointmentId
 sortOrder: 3046
 keywords: GetAppointmentId()
+so.topic: reference
 ---
 
 

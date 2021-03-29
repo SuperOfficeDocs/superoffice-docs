@@ -1,9 +1,9 @@
 ---
-title: NSCredited[] GetCreditedList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCredited[] GetCreditedList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCreditedList_Integer__p_0
+description: NSListAgent.GetCreditedList(Integer[] p_0)
+intellisense: NSListAgent.GetCreditedList
 keywords: GetCreditedList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Credited objects.

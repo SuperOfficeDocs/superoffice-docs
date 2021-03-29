@@ -1,10 +1,10 @@
 ---
-title: NSBlobEntity GetBlobEntityOnProduct(Integer productId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity GetBlobEntityOnProduct(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnProduct_Integer_p_0
+description: NSBLOBAgent.GetBlobEntityOnProduct(Integer p_0)
+intellisense: NSBLOBAgent.GetBlobEntityOnProduct
 sortOrder: 1413
 keywords: GetBlobEntityOnProduct(Integer)
+so.topic: reference
 ---
 
 

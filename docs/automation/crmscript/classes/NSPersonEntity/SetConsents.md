@@ -1,9 +1,9 @@
 ---
-title: Void SetConsents(NSConsentInfo[] Consents)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetConsents(NSConsentInfo[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetConsents_NSConsentInfo__p_0
+description: NSPersonEntity.SetConsents(NSConsentInfo[] p_0)
+intellisense: NSPersonEntity.SetConsents
 keywords: SetConsents(NSConsentInfo[])
+so.topic: reference
 ---
 
 

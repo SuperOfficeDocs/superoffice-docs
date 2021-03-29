@@ -1,9 +1,9 @@
 ---
-title: Void SetVisibleIn(Integer VisibleIn)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetVisibleIn(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetVisibleIn_Integer_p_0
+description: NSWebPanelEntity.SetVisibleIn(Integer p_0)
+intellisense: NSWebPanelEntity.SetVisibleIn
 keywords: SetVisibleIn(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSBlobEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetDescription
+description: NSBlobEntity.GetDescription()
+intellisense: NSBlobEntity.GetDescription
 sortOrder: 1450
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

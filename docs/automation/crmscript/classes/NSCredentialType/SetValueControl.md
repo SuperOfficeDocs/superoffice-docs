@@ -1,10 +1,10 @@
 ---
-title: Void SetValueControl(Integer ValueControl)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetValueControl(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_SetValueControl_Integer_p_0
+description: NSCredentialType.SetValueControl(Integer p_0)
+intellisense: NSCredentialType.SetValueControl
 sortOrder: 2082
 keywords: SetValueControl(Integer)
+so.topic: reference
 ---
 
 

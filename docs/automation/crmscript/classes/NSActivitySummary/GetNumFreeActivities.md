@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumFreeActivities()
-path: /EJScript/Classes/NSActivitySummary/Member functions/Integer GetNumFreeActivities()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummary_GetNumFreeActivities
+description: NSActivitySummary.GetNumFreeActivities()
+intellisense: NSActivitySummary.GetNumFreeActivities
 sortOrder: 588
 keywords: GetNumFreeActivities()
+so.topic: reference
 ---
 
 

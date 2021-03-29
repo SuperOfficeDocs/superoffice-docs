@@ -1,9 +1,9 @@
 ---
-title: String GetUsername()
-path: /EJScript/Classes/NSServiceAuth/Member functions/String GetUsername()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_GetUsername
+description: NSServiceAuth.GetUsername()
+intellisense: NSServiceAuth.GetUsername
 keywords: GetUsername()
+so.topic: reference
 ---
 
 

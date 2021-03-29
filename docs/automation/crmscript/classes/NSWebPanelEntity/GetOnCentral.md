@@ -1,9 +1,9 @@
 ---
-title: Bool GetOnCentral()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnCentral()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetOnCentral
+description: NSWebPanelEntity.GetOnCentral()
+intellisense: NSWebPanelEntity.GetOnCentral
 keywords: GetOnCentral()
+so.topic: reference
 ---
 
 

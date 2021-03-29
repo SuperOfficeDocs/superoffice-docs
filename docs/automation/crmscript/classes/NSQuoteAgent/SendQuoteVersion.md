@@ -1,9 +1,9 @@
 ---
-title: NSPluginUrlResponse SendQuoteVersion(Integer quoteVersionId, DateTime expiryDate, DateTime followupDate, String followupText, String culture)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginUrlResponse SendQuoteVersion(Integer p_0, DateTime p_1, DateTime p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SendQuoteVersion_Integer_p_0_DateTime_p_1_DateTime_p_2_String_p_3_String_p_4
+description: NSQuoteAgent.SendQuoteVersion(Integer p_0, DateTime p_1, DateTime p_2, String p_3, String p_4)
+intellisense: NSQuoteAgent.SendQuoteVersion
 keywords: SendQuoteVersion(Integer,DateTime,DateTime,String,String)
+so.topic: reference
 ---
 
 

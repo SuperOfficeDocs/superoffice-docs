@@ -1,10 +1,10 @@
 ---
-title: NSArchiveColumnInfo[] GetDefaultDesiredColumns(String storageType, String providerName, String storageKey)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveColumnInfo[] GetDefaultDesiredColumns(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetDefaultDesiredColumns_String_p_0_String_p_1_String_p_2
+description: NSFindAgent.GetDefaultDesiredColumns(String p_0, String p_1, String p_2)
+intellisense: NSFindAgent.GetDefaultDesiredColumns
 sortOrder: 3653
 keywords: GetDefaultDesiredColumns(String,String,String)
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSOutgoingMessage
-path: /EJScript/Classes/NSOutgoingMessage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage
+description: NSOutgoingMessage
+intellisense: Void.NSOutgoingMessage
+so.topic: reference
 ---
 
 

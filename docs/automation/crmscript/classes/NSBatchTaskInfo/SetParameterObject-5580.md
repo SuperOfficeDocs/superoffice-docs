@@ -1,10 +1,10 @@
 ---
-title: Void SetParameterObject(StringDictionary ParameterObject)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetParameterObject(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetParameterObject_StringDictionary_p_0
+description: NSBatchTaskInfo.SetParameterObject(StringDictionary p_0)
+intellisense: NSBatchTaskInfo.SetParameterObject
 sortOrder: 1398
 keywords: SetParameterObject(StringDictionary)
+so.topic: reference
 ---
 
 

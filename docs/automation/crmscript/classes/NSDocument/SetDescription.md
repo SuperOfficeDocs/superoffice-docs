@@ -1,10 +1,10 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument_SetDescription_String_p_0
+description: NSDocument.SetDescription(String p_0)
+intellisense: NSDocument.SetDescription
 sortOrder: 2451
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

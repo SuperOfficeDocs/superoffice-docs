@@ -1,9 +1,9 @@
 ---
-title: Bool DeleteCredential(Integer userId, String credentialType)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool DeleteCredential(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_DeleteCredential_Integer_p_0_String_p_1
+description: NSUserAgent.DeleteCredential(Integer p_0, String p_1)
+intellisense: NSUserAgent.DeleteCredential
 keywords: DeleteCredential(Integer,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSignature(String Signature)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetSignature(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetSignature_String_p_0
+description: NSModuleLicense.SetSignature(String p_0)
+intellisense: NSModuleLicense.SetSignature
 keywords: SetSignature(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSServiceAuth SaveServiceAuth(NSServiceAuth serviceAuth)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth SaveServiceAuth(NSServiceAuth p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SaveServiceAuth_NSServiceAuth_p_0
+description: NSUserAgent.SaveServiceAuth(NSServiceAuth p_0)
+intellisense: NSUserAgent.SaveServiceAuth
 keywords: SaveServiceAuth(NSServiceAuth)
+so.topic: reference
 ---
 
 

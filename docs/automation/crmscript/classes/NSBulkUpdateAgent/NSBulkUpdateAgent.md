@@ -1,9 +1,9 @@
 ---
-title: NSBulkUpdateAgent
-path: /EJScript/Classes/NSBulkUpdateAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent
+description: NSBulkUpdateAgent
+intellisense: Void.NSBulkUpdateAgent
 sortOrder: 1466
+so.topic: reference
 ---
 
 

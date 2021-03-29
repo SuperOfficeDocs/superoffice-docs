@@ -1,10 +1,10 @@
 ---
-title: NSPluginResponse SyncAll()
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSPluginResponse SyncAll()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SyncAll
+description: NSErpSyncAgent.SyncAll()
+intellisense: NSErpSyncAgent.SyncAll
 sortOrder: 3214
 keywords: SyncAll()
+so.topic: reference
 ---
 
 

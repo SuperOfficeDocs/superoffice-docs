@@ -1,10 +1,10 @@
 ---
-title: NSStream deleteAsStream(String p0)
-path: /EJScript/Classes/HTTP/Member functions/NSStream deleteAsStream(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_deleteAsStream_String_p_0
+description: HTTP.deleteAsStream(String p_0)
+intellisense: HTTP.deleteAsStream
 sortOrder: 405
 keywords: deleteAsStream(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a NSStream.

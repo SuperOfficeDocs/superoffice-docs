@@ -1,10 +1,10 @@
 ---
-title: Void addGroup(String, String, Integer, String)
-path: /EJScript/Classes/MainMenu/Member functions/Void addGroup(String, String, Integer, String)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu_addGroup_String_String_Integer_String
+description: MainMenu.addGroup(String, String, Integer, String)
+intellisense: MainMenu.addGroup
 sortOrder: 512
 keywords: addGroup(String, String, Integer, String,String, String, Integer, String,String, String, Integer, String,String, String, Integer, String)
+so.topic: reference
 ---
 
 # Void addGroup(String label, String image, Integer position, String onClick)

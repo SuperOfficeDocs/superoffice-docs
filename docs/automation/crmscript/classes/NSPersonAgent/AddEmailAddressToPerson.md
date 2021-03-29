@@ -1,9 +1,9 @@
 ---
-title: Void AddEmailAddressToPerson(Integer personId, String emailAddress, Bool setAsPrimaryEmail)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void AddEmailAddressToPerson(Integer p_0, String p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_AddEmailAddressToPerson_Integer_p_0_String_p_1_Bool_p_2
+description: NSPersonAgent.AddEmailAddressToPerson(Integer p_0, String p_1, Bool p_2)
+intellisense: NSPersonAgent.AddEmailAddressToPerson
 keywords: AddEmailAddressToPerson(Integer,String,Bool)
+so.topic: reference
 ---
 
 

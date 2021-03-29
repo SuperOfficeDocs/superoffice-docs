@@ -1,10 +1,10 @@
 ---
-title: Void setDebugMode(Bool)
-path: /EJScript/Classes/HTTP/Member functions/Void setDebugMode(Bool)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_setDebugMode_Bool
+description: HTTP.setDebugMode(Bool)
+intellisense: HTTP.setDebugMode
 sortOrder: 416
 keywords: setDebugMode(Bool)
+so.topic: reference
 ---
 
 Turn on debug mode to record debug output and get the output by calling `getDebug()`.

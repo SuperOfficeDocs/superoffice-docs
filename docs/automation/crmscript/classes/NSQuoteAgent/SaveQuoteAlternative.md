@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative quoteAlternative)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative SaveQuoteAlternative(NSQuoteAlternative p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuoteAlternative_NSQuoteAlternative_p_0
+description: NSQuoteAgent.SaveQuoteAlternative(NSQuoteAlternative p_0)
+intellisense: NSQuoteAgent.SaveQuoteAlternative
 keywords: SaveQuoteAlternative(NSQuoteAlternative)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetPhones(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSEntityElement[] GetPhones(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetPhones_Integer_p_0
+description: NSPersonAgent.GetPhones(Integer p_0)
+intellisense: NSPersonAgent.GetPhones
 keywords: GetPhones(Integer)
+so.topic: reference
 ---
 
 

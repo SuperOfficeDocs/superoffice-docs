@@ -1,9 +1,9 @@
 ---
-title: Void SetUnique(Bool Unique)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetUnique(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetUnique_Bool_p_0
+description: NSRefCountEntity.SetUnique(Bool p_0)
+intellisense: NSRefCountEntity.SetUnique
 keywords: SetUnique(Bool)
+so.topic: reference
 ---
 
 

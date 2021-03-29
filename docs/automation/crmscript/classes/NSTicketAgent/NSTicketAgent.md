@@ -1,8 +1,8 @@
 ---
-title: NSTicketAgent
-path: /EJScript/Classes/NSTicketAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketAgent
+description: NSTicketAgent
+intellisense: Void.NSTicketAgent
+so.topic: reference
 ---
 
 

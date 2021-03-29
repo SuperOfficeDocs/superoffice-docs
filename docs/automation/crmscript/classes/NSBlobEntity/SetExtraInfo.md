@@ -1,10 +1,10 @@
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetExtraInfo_String_p_0
+description: NSBlobEntity.SetExtraInfo(String p_0)
+intellisense: NSBlobEntity.SetExtraInfo
 sortOrder: 1459
 keywords: SetExtraInfo(String)
+so.topic: reference
 ---
 
 

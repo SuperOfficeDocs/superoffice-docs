@@ -1,9 +1,9 @@
 ---
-title: Void SetHistoryLengthPrefValue(Integer length)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/Void SetHistoryLengthPrefValue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_SetHistoryLengthPrefValue_Integer_p_0
+description: NSViewStateAgent.SetHistoryLengthPrefValue(Integer p_0)
+intellisense: NSViewStateAgent.SetHistoryLengthPrefValue
 keywords: SetHistoryLengthPrefValue(Integer)
+so.topic: reference
 ---
 
 

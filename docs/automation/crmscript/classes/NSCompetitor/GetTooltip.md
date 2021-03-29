@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSCompetitor/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCompetitor_GetTooltip
+description: NSCompetitor.GetTooltip()
+intellisense: NSCompetitor.GetTooltip
 sortOrder: 1581
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

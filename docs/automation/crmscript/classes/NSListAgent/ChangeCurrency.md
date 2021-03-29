@@ -1,9 +1,9 @@
 ---
-title: Float ChangeCurrency(Float amount, String fromCurrency, String toCurrency)
-path: /EJScript/Classes/NSListAgent/Member functions/Float ChangeCurrency(Float p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_ChangeCurrency_Float_p_0_String_p_1_String_p_2
+description: NSListAgent.ChangeCurrency(Float p_0, String p_1, String p_2)
+intellisense: NSListAgent.ChangeCurrency
 keywords: ChangeCurrency(Float,String,String)
+so.topic: reference
 ---
 
 

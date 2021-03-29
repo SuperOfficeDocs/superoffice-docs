@@ -1,10 +1,10 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionGroup_SetDescription_String_p_0
+description: NSArchiveRestrictionGroup.SetDescription(String p_0)
+intellisense: NSArchiveRestrictionGroup.SetDescription
 sortOrder: 1206
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

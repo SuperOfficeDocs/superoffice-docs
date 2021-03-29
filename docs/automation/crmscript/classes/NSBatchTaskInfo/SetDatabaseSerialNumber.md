@@ -1,10 +1,10 @@
 ---
-title: Void SetDatabaseSerialNumber(String DatabaseSerialNumber)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetDatabaseSerialNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetDatabaseSerialNumber_String_p_0
+description: NSBatchTaskInfo.SetDatabaseSerialNumber(String p_0)
+intellisense: NSBatchTaskInfo.SetDatabaseSerialNumber
 sortOrder: 1388
 keywords: SetDatabaseSerialNumber(String)
+so.topic: reference
 ---
 
 

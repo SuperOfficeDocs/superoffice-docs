@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncEngineStatus
-path: /EJScript/Classes/NSErpSyncEngineStatus
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncEngineStatus
+description: NSErpSyncEngineStatus
+intellisense: Void.NSErpSyncEngineStatus
 sortOrder: 3275
+so.topic: reference
 ---
 
 

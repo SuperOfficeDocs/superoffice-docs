@@ -1,10 +1,10 @@
 ---
-title: String toString(String format, String months, String weekDays)
-path: /EJScript/Classes/DateTime/Member functions/String toString(String format, String months, String weekDays)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_toString_String_format_String_months_String_weekDays
+description: DateTime.toString(String format, String months, String weekDays)
+intellisense: DateTime.toString
 sortOrder: 239
 keywords: toString(String,String,String)
+so.topic: reference
 ---
 
 Returns a String representation of the DateTime, formatted on the form specified in the String format.

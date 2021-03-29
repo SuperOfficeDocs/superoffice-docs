@@ -1,10 +1,10 @@
 ---
-title: Void SetIsPublished(Bool p0)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetIsPublished(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetIsPublished_Bool_p_0
+description: NSDocumentEntity.SetIsPublished(Bool p_0)
+intellisense: NSDocumentEntity.SetIsPublished
 sortOrder: 2600
 keywords: SetIsPublished(Bool)
+so.topic: reference
 ---
 
 

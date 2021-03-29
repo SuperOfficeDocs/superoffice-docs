@@ -1,9 +1,9 @@
 ---
-title: NSTicketMessageType GetType()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSTicketMessageType GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetType
+description: NSTicketMessageEntity.GetType()
+intellisense: NSTicketMessageEntity.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

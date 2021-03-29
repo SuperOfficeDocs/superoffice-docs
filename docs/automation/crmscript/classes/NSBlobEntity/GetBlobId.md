@@ -1,10 +1,10 @@
 ---
-title: Integer GetBlobId()
-path: /EJScript/Classes/NSBlobEntity/Member functions/Integer GetBlobId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetBlobId
+description: NSBlobEntity.GetBlobId()
+intellisense: NSBlobEntity.GetBlobId
 sortOrder: 1444
 keywords: GetBlobId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetRank_Integer_p_0
+description: NSExtAppEntity.SetRank(Integer p_0)
+intellisense: NSExtAppEntity.SetRank
 sortOrder: 3391
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetLastMessage()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetLastMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetLastMessage
+description: NSChatSummaryItem.GetLastMessage()
+intellisense: NSChatSummaryItem.GetLastMessage
 sortOrder: 1540
 keywords: GetLastMessage()
+so.topic: reference
 ---
 
 

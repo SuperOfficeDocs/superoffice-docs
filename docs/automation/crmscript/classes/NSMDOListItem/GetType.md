@@ -1,9 +1,9 @@
 ---
-title: String GetType()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetType
+description: NSMDOListItem.GetType()
+intellisense: NSMDOListItem.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

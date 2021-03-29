@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonId(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetPersonId_Integer_p_0
+description: NSSoPrincipalCarrier.SetPersonId(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetPersonId
 keywords: SetPersonId(Integer)
+so.topic: reference
 ---
 
 

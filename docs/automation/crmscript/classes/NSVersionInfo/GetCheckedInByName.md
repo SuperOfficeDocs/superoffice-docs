@@ -1,9 +1,9 @@
 ---
-title: String GetCheckedInByName()
-path: /EJScript/Classes/NSVersionInfo/Member functions/String GetCheckedInByName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_GetCheckedInByName
+description: NSVersionInfo.GetCheckedInByName()
+intellisense: NSVersionInfo.GetCheckedInByName
 keywords: GetCheckedInByName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void update()
-path: /EJScript/Classes/SearchEngine/member functions/Void update()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_update
+description: SearchEngine.update()
+intellisense: SearchEngine.update
 keywords: update()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSHistory[] GetHistoriesByName(String historyName)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] GetHistoriesByName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_GetHistoriesByName_String_p_0
+description: NSViewStateAgent.GetHistoriesByName(String p_0)
+intellisense: NSViewStateAgent.GetHistoriesByName
 keywords: GetHistoriesByName(String)
+so.topic: reference
 ---
 
 

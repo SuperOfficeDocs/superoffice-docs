@@ -1,10 +1,10 @@
 ---
-title: Void SaveBlobEntity(NSBlobEntity blobEntity)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void SaveBlobEntity(NSBlobEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_SaveBlobEntity_NSBlobEntity_p_0
+description: NSBLOBAgent.SaveBlobEntity(NSBlobEntity p_0)
+intellisense: NSBLOBAgent.SaveBlobEntity
 sortOrder: 1430
 keywords: SaveBlobEntity(NSBlobEntity)
+so.topic: reference
 ---
 
 

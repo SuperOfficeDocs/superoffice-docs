@@ -1,8 +1,8 @@
 ---
-title: NSWebAppUsage
-path: /EJScript/Classes/NSWebAppUsage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage
+description: NSWebAppUsage
+intellisense: Void.NSWebAppUsage
+so.topic: reference
 ---
 
 

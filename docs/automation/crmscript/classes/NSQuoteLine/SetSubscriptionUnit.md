@@ -1,9 +1,9 @@
 ---
-title: Void SetSubscriptionUnit(String SubscriptionUnit)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubscriptionUnit(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetSubscriptionUnit_String_p_0
+description: NSQuoteLine.SetSubscriptionUnit(String p_0)
+intellisense: NSQuoteLine.SetSubscriptionUnit
 keywords: SetSubscriptionUnit(String)
+so.topic: reference
 ---
 
 

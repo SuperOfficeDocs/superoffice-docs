@@ -1,10 +1,10 @@
 ---
-title: DateTime GetAccumulatedNextCheckDate()
-path: /EJScript/Classes/NSExtendedLicenseInfo/Member functions/DateTime GetAccumulatedNextCheckDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedLicenseInfo_GetAccumulatedNextCheckDate
+description: NSExtendedLicenseInfo.GetAccumulatedNextCheckDate()
+intellisense: NSExtendedLicenseInfo.GetAccumulatedNextCheckDate
 sortOrder: 3404
 keywords: GetAccumulatedNextCheckDate()
+so.topic: reference
 ---
 
 

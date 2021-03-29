@@ -1,10 +1,10 @@
 ---
-title: Void SetContact(NSContact Contact)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetContact(NSContact p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetContact_NSContact_p_0
+description: NSAppointmentEntity.SetContact(NSContact p_0)
+intellisense: NSAppointmentEntity.SetContact
 sortOrder: 993
 keywords: SetContact(NSContact)
+so.topic: reference
 ---
 
 

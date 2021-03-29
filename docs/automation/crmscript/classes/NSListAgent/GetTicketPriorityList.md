@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriority[] GetTicketPriorityList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriority[] GetTicketPriorityList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTicketPriorityList_Integer__p_0
+description: NSListAgent.GetTicketPriorityList(Integer[] p_0)
+intellisense: NSListAgent.GetTicketPriorityList
 keywords: GetTicketPriorityList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of TicketPriority objects.

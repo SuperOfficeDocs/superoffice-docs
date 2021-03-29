@@ -1,9 +1,9 @@
 ---
-title: NSCurrencyEntity
-path: /EJScript/Classes/NSCurrencyEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity
+description: NSCurrencyEntity
+intellisense: Void.NSCurrencyEntity
 sortOrder: 2177
+so.topic: reference
 ---
 
 

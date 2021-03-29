@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSScript/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_SetUpdated_DateTime_p_0
+description: NSScript.SetUpdated(DateTime p_0)
+intellisense: NSScript.SetUpdated
 keywords: SetUpdated(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetOverdueSalesCount(Integer OverdueSalesCount)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetOverdueSalesCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetOverdueSalesCount_Integer_p_0
+description: NSPocketStartupData.SetOverdueSalesCount(Integer p_0)
+intellisense: NSPocketStartupData.SetOverdueSalesCount
 keywords: SetOverdueSalesCount(Integer)
+so.topic: reference
 ---
 
 

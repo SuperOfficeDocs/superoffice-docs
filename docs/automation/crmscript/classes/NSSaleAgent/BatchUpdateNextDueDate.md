@@ -1,9 +1,9 @@
 ---
-title: Void BatchUpdateNextDueDate()
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void BatchUpdateNextDueDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_BatchUpdateNextDueDate
+description: NSSaleAgent.BatchUpdateNextDueDate()
+intellisense: NSSaleAgent.BatchUpdateNextDueDate
 keywords: BatchUpdateNextDueDate()
+so.topic: reference
 ---
 
 

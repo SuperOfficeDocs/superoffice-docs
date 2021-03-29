@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonFirstName(String PersonFirstName)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonFirstName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPersonFirstName_String_p_0
+description: NSParticipantSyncData.SetPersonFirstName(String p_0)
+intellisense: NSParticipantSyncData.SetPersonFirstName
 keywords: SetPersonFirstName(String)
+so.topic: reference
 ---
 
 

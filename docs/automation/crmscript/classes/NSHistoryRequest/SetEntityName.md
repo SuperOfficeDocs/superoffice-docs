@@ -1,10 +1,10 @@
 ---
-title: Void SetEntityName(String EntityName)
-path: /EJScript/Classes/NSHistoryRequest/Member functions/Void SetEntityName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistoryRequest_SetEntityName_String_p_0
+description: NSHistoryRequest.SetEntityName(String p_0)
+intellisense: NSHistoryRequest.SetEntityName
 sortOrder: 3945
 keywords: SetEntityName(String)
+so.topic: reference
 ---
 
 

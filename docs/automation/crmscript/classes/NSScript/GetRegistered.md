@@ -1,9 +1,9 @@
 ---
-title: DateTime GetRegistered()
-path: /EJScript/Classes/NSScript/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_GetRegistered
+description: NSScript.GetRegistered()
+intellisense: NSScript.GetRegistered
 keywords: GetRegistered()
+so.topic: reference
 ---
 
 

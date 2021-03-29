@@ -1,10 +1,10 @@
 ---
-title: Void DeleteForeignKeyOnName(String applicationName, String deviceName, String deviceIdentifier, String keyName, String tableName, Integer recordId)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/Void DeleteForeignKeyOnName(String p_0, String p_1, String p_2, String p_3, String p_4, Integer p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_DeleteForeignKeyOnName_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4_Integer_p_5
+description: NSForeignSystemAgent.DeleteForeignKeyOnName(String p_0, String p_1, String p_2, String p_3, String p_4, Integer p_5)
+intellisense: NSForeignSystemAgent.DeleteForeignKeyOnName
 sortOrder: 3780
 keywords: DeleteForeignKeyOnName(String,String,String,String,String,Integer)
+so.topic: reference
 ---
 
 

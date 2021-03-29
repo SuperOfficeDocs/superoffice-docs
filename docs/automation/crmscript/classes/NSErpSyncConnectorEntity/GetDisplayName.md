@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSErpSyncConnectorEntity/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectorEntity_GetDisplayName
+description: NSErpSyncConnectorEntity.GetDisplayName()
+intellisense: NSErpSyncConnectorEntity.GetDisplayName
 sortOrder: 3243
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

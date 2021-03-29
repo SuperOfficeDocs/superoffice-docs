@@ -1,9 +1,9 @@
 ---
-title: Void DeleteSaleStakeholder(Integer saleStakeholderId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void DeleteSaleStakeholder(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_DeleteSaleStakeholder_Integer_p_0
+description: NSSaleAgent.DeleteSaleStakeholder(Integer p_0)
+intellisense: NSSaleAgent.DeleteSaleStakeholder
 keywords: DeleteSaleStakeholder(Integer)
+so.topic: reference
 ---
 
 

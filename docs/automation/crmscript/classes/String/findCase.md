@@ -1,9 +1,9 @@
 ---
-title: Integer findCase(String s)
-path: /EJScript/Classes/String/Member functions/Integer findCase(String s)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_findCase_String_s
+description: String.findCase(String s)
+intellisense: String.findCase
 keywords: findCase(String)
+so.topic: reference
 ---
 
 

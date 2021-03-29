@@ -1,10 +1,10 @@
 ---
-title: StringDictionary GetErpConnectionConfigFields(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/StringDictionary GetErpConnectionConfigFields(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields_Integer_p_0
+description: NSErpSyncAgent.GetErpConnectionConfigFields(Integer p_0)
+intellisense: NSErpSyncAgent.GetErpConnectionConfigFields
 sortOrder: 3217
 keywords: GetErpConnectionConfigFields(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetInReplyTo(NSEMailEnvelope InReplyTo)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetInReplyTo(NSEMailEnvelope p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetInReplyTo_NSEMailEnvelope_p_0
+description: NSEMailEntity.SetInReplyTo(NSEMailEnvelope p_0)
+intellisense: NSEMailEntity.SetInReplyTo
 sortOrder: 2987
 keywords: SetInReplyTo(NSEMailEnvelope)
+so.topic: reference
 ---
 
 

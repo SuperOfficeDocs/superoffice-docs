@@ -1,10 +1,10 @@
 ---
-title: Bool GetSubscribed()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Bool GetSubscribed()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_GetSubscribed
+description: NSEMailFolder.GetSubscribed()
+intellisense: NSEMailFolder.GetSubscribed
 sortOrder: 3028
 keywords: GetSubscribed()
+so.topic: reference
 ---
 
 

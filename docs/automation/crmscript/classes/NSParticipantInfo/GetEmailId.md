@@ -1,9 +1,9 @@
 ---
-title: Integer GetEmailId()
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Integer GetEmailId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo_GetEmailId
+description: NSParticipantInfo.GetEmailId()
+intellisense: NSParticipantInfo.GetEmailId
 keywords: GetEmailId()
+so.topic: reference
 ---
 
 

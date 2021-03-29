@@ -1,9 +1,9 @@
 ---
-title: Void SetQuantityUnit(String QuantityUnit)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetQuantityUnit(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetQuantityUnit_String_p_0
+description: NSProduct.SetQuantityUnit(String p_0)
+intellisense: NSProduct.SetQuantityUnit
 keywords: SetQuantityUnit(String)
+so.topic: reference
 ---
 
 

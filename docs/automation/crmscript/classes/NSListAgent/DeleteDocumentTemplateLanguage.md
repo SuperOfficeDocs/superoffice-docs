@@ -1,9 +1,9 @@
 ---
-title: Void DeleteDocumentTemplateLanguage(Integer documentTemplateId, String languageCode)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteDocumentTemplateLanguage(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteDocumentTemplateLanguage_Integer_p_0_String_p_1
+description: NSListAgent.DeleteDocumentTemplateLanguage(Integer p_0, String p_1)
+intellisense: NSListAgent.DeleteDocumentTemplateLanguage
 keywords: DeleteDocumentTemplateLanguage(Integer,String)
+so.topic: reference
 ---
 
 

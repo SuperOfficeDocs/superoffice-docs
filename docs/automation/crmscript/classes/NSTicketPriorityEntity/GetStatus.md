@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityStatus GetStatus()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityStatus GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetStatus
+description: NSTicketPriorityEntity.GetStatus()
+intellisense: NSTicketPriorityEntity.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

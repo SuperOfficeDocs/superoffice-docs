@@ -1,8 +1,8 @@
 ---
-title: NSMrMrs
-path: /EJScript/Classes/NSMrMrs
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMrMrs
+description: NSMrMrs
+intellisense: Void.NSMrMrs
+so.topic: reference
 ---
 
 

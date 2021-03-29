@@ -1,10 +1,10 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem_SetDescription_String_p_0
+description: NSActivitySummaryItem.SetDescription(String p_0)
+intellisense: NSActivitySummaryItem.SetDescription
 sortOrder: 604
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

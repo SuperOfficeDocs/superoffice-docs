@@ -1,9 +1,9 @@
 ---
-title: Void SetSucceeded(Bool Succeeded)
-path: /EJScript/Classes/NSLicenseResult/Member functions/Void SetSucceeded(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseResult_SetSucceeded_Bool_p_0
+description: NSLicenseResult.SetSucceeded(Bool p_0)
+intellisense: NSLicenseResult.SetSucceeded
 keywords: SetSucceeded(Bool)
+so.topic: reference
 ---
 
 

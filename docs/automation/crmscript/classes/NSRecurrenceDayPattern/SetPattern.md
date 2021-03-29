@@ -1,9 +1,9 @@
 ---
-title: Void SetPattern(Integer p0)
-path: /EJScript/Classes/NSRecurrenceDayPattern/Member functions/Void SetPattern(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceDayPattern_SetPattern_Integer_p_0
+description: NSRecurrenceDayPattern.SetPattern(Integer p_0)
+intellisense: NSRecurrenceDayPattern.SetPattern
 keywords: SetPattern(Integer)
+so.topic: reference
 ---
 
 

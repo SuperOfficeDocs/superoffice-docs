@@ -1,9 +1,9 @@
 ---
-title: NSWebhook GetWebhook(Integer webhookId)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook GetWebhook(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_GetWebhook_Integer_p_0
+description: NSWebhookAgent.GetWebhook(Integer p_0)
+intellisense: NSWebhookAgent.GetWebhook
 keywords: GetWebhook(Integer)
+so.topic: reference
 ---
 
 

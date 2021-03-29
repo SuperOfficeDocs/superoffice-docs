@@ -1,9 +1,9 @@
 ---
-title: String toJSON(Integer indent)
-path: /EJScript/Classes/XMLNode/Member functions/String toJSON(Integer indent)
-intellisense: 1
-classref: 1
+title: crmscript_ref_XMLNode_toJSON_Integer_indent
+description: XMLNode.toJSON(Integer indent)
+intellisense: XMLNode.toJSON
 keywords: toJSON(Integer)
+so.topic: reference
 ---
 
 Creates a string containing XML nodes formated as a JSON document. Child nodes are also included.

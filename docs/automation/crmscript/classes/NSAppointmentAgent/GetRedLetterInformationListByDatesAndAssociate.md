@@ -1,10 +1,10 @@
 ---
-title: NSRedLetterInformationListItem[] GetRedLetterInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSRedLetterInformationListItem[] GetRedLetterInformationListByDatesAndAssociate(DateTime p_0, DateTime p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetRedLetterInformationListByDatesAndAssociate_DateTime_p_0_DateTime_p_1_Integer_p_2
+description: NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate(DateTime p_0, DateTime p_1, Integer p_2)
+intellisense: NSAppointmentAgent.GetRedLetterInformationListByDatesAndAssociate
 sortOrder: 894
 keywords: GetRedLetterInformationListByDatesAndAssociate(DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

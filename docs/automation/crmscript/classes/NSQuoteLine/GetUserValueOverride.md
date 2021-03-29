@@ -1,9 +1,9 @@
 ---
-title: Integer GetUserValueOverride()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Integer GetUserValueOverride()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetUserValueOverride
+description: NSQuoteLine.GetUserValueOverride()
+intellisense: NSQuoteLine.GetUserValueOverride
 keywords: GetUserValueOverride()
+so.topic: reference
 ---
 
 Has the pre-calculated (from ERP) price information been overridden, and how. If the user has filled out the discountpercentage field, then the UserValueOverride field is set to OverridePercent. (The DiscountAmount, EarningPercent, EarningAmount and TotalPrice fields are calculated based on the DiscountPercent.)

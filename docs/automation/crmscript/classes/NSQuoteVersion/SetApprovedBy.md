@@ -1,9 +1,9 @@
 ---
-title: Void SetApprovedBy(Integer ApprovedBy)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetApprovedBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetApprovedBy_Integer_p_0
+description: NSQuoteVersion.SetApprovedBy(Integer p_0)
+intellisense: NSQuoteVersion.SetApprovedBy
 keywords: SetApprovedBy(Integer)
+so.topic: reference
 ---
 
 

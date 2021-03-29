@@ -1,10 +1,10 @@
 ---
-title: Map getValues()
-path: /EJScript/Classes/ExtraTable/Member functions/Map getValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraTable_getValues
+description: ExtraTable.getValues()
+intellisense: ExtraTable.getValues
 sortOrder: 322
 keywords: getValues()
+so.topic: reference
 ---
 
 

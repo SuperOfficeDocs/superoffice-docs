@@ -1,10 +1,10 @@
 ---
-title: String GetStyleHint()
-path: /EJScript/Classes/NSArchiveListItem/Member functions/String GetStyleHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_GetStyleHint
+description: NSArchiveListItem.GetStyleHint()
+intellisense: NSArchiveListItem.GetStyleHint
 sortOrder: 1181
 keywords: GetStyleHint()
+so.topic: reference
 ---
 
 

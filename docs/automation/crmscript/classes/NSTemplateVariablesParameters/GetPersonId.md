@@ -1,9 +1,9 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetPersonId
+description: NSTemplateVariablesParameters.GetPersonId()
+intellisense: NSTemplateVariablesParameters.GetPersonId
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

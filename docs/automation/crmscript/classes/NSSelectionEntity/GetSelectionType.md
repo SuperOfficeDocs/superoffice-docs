@@ -1,9 +1,9 @@
 ---
-title: Integer GetSelectionType()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetSelectionType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetSelectionType
+description: NSSelectionEntity.GetSelectionType()
+intellisense: NSSelectionEntity.GetSelectionType
 keywords: GetSelectionType()
+so.topic: reference
 ---
 
 

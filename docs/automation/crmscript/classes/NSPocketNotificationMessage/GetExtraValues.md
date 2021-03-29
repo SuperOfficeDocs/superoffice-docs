@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetExtraValues()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/StringDictionary GetExtraValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetExtraValues
+description: NSPocketNotificationMessage.GetExtraValues()
+intellisense: NSPocketNotificationMessage.GetExtraValues
 keywords: GetExtraValues()
+so.topic: reference
 ---
 
 

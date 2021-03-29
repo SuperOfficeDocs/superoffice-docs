@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSFavourite/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavourite_GetRank
+description: NSFavourite.GetRank()
+intellisense: NSFavourite.GetRank
 sortOrder: 3436
 keywords: GetRank()
+so.topic: reference
 ---
 
 

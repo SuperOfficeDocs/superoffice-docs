@@ -1,10 +1,10 @@
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_SetTooltip_String_p_0
+description: NSAmountClassEntity.SetTooltip(String p_0)
+intellisense: NSAmountClassEntity.SetTooltip
 sortOrder: 710
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

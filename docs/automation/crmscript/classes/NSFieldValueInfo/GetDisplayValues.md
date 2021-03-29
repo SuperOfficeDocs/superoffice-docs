@@ -1,10 +1,10 @@
 ---
-title: String[] GetDisplayValues()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String[] GetDisplayValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetDisplayValues
+description: NSFieldValueInfo.GetDisplayValues()
+intellisense: NSFieldValueInfo.GetDisplayValues
 sortOrder: 3632
 keywords: GetDisplayValues()
+so.topic: reference
 ---
 
 

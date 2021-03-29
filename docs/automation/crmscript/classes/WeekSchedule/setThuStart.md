@@ -1,9 +1,9 @@
 ---
-title: Void setThuStart(Time t)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setThuStart(Time t)
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_setThuStart_Time_t
+description: WeekSchedule.setThuStart(Time t)
+intellisense: WeekSchedule.setThuStart
 keywords: setThuStart(Time)
+so.topic: reference
 ---
 
 

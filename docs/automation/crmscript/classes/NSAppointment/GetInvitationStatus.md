@@ -1,10 +1,10 @@
 ---
-title: Integer GetInvitationStatus()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetInvitationStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetInvitationStatus
+description: NSAppointment.GetInvitationStatus()
+intellisense: NSAppointment.GetInvitationStatus
 sortOrder: 737
 keywords: GetInvitationStatus()
+so.topic: reference
 ---
 
 

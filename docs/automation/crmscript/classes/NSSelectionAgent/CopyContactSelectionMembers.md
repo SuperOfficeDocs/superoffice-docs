@@ -1,9 +1,9 @@
 ---
-title: Void CopyContactSelectionMembers(Integer fromSelectionId, Integer toSelectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void CopyContactSelectionMembers(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CopyContactSelectionMembers_Integer_p_0_Integer_p_1
+description: NSSelectionAgent.CopyContactSelectionMembers(Integer p_0, Integer p_1)
+intellisense: NSSelectionAgent.CopyContactSelectionMembers
 keywords: CopyContactSelectionMembers(Integer,Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String[] GetDisplayValues()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/String[] GetDisplayValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_GetDisplayValues
+description: NSArchiveRestrictionInfo.GetDisplayValues()
+intellisense: NSArchiveRestrictionInfo.GetDisplayValues
 sortOrder: 1223
 keywords: GetDisplayValues()
+so.topic: reference
 ---
 
 

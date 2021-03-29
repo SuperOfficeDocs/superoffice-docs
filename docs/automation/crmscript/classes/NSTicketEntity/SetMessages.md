@@ -1,9 +1,9 @@
 ---
-title: Void SetMessages(NSTicketMessage[] Messages)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetMessages(NSTicketMessage[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetMessages_NSTicketMessage__p_0
+description: NSTicketEntity.SetMessages(NSTicketMessage[] p_0)
+intellisense: NSTicketEntity.SetMessages
 keywords: SetMessages(NSTicketMessage[])
+so.topic: reference
 ---
 
 

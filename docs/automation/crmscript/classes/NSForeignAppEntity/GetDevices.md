@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice[] GetDevices()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/NSForeignDevice[] GetDevices()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignAppEntity_GetDevices
+description: NSForeignAppEntity.GetDevices()
+intellisense: NSForeignAppEntity.GetDevices
 sortOrder: 3703
 keywords: GetDevices()
+so.topic: reference
 ---
 
 

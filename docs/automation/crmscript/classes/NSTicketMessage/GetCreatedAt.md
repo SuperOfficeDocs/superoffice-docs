@@ -1,9 +1,9 @@
 ---
-title: DateTime GetCreatedAt()
-path: /EJScript/Classes/NSTicketMessage/Member functions/DateTime GetCreatedAt()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessage_GetCreatedAt
+description: NSTicketMessage.GetCreatedAt()
+intellisense: NSTicketMessage.GetCreatedAt
 keywords: GetCreatedAt()
+so.topic: reference
 ---
 
 

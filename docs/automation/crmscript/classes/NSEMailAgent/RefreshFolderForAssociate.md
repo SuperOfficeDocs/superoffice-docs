@@ -1,10 +1,10 @@
 ---
-title: String RefreshFolderForAssociate(String[] folders)
-path: /EJScript/Classes/NSEMailAgent/Member functions/String RefreshFolderForAssociate(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_RefreshFolderForAssociate_String__p_0
+description: NSEMailAgent.RefreshFolderForAssociate(String[] p_0)
+intellisense: NSEMailAgent.RefreshFolderForAssociate
 sortOrder: 2848
 keywords: RefreshFolderForAssociate(String[])
+so.topic: reference
 ---
 
 

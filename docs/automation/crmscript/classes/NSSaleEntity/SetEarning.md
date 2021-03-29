@@ -1,9 +1,9 @@
 ---
-title: Void SetEarning(Float Earning)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetEarning(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetEarning_Float_p_0
+description: NSSaleEntity.SetEarning(Float p_0)
+intellisense: NSSaleEntity.SetEarning
 keywords: SetEarning(Float)
+so.topic: reference
 ---
 
 

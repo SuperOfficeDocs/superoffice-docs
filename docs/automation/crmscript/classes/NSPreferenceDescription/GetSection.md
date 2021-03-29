@@ -1,9 +1,9 @@
 ---
-title: String GetSection()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetSection()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetSection
+description: NSPreferenceDescription.GetSection()
+intellisense: NSPreferenceDescription.GetSection
 keywords: GetSection()
+so.topic: reference
 ---
 
 

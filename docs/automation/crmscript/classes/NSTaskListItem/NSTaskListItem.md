@@ -1,8 +1,8 @@
 ---
-title: NSTaskListItem
-path: /EJScript/Classes/NSTaskListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem
+description: NSTaskListItem
+intellisense: Void.NSTaskListItem
+so.topic: reference
 ---
 
 

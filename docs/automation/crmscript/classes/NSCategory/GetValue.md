@@ -1,10 +1,10 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSCategory/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCategory_GetValue
+description: NSCategory.GetValue()
+intellisense: NSCategory.GetValue
 sortOrder: 1494
 keywords: GetValue()
+so.topic: reference
 ---
 
 

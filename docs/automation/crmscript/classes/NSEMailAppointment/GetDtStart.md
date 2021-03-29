@@ -1,10 +1,10 @@
 ---
-title: DateTime GetDtStart()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/DateTime GetDtStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_GetDtStart
+description: NSEMailAppointment.GetDtStart()
+intellisense: NSEMailAppointment.GetDtStart
 sortOrder: 2876
 keywords: GetDtStart()
+so.topic: reference
 ---
 
 

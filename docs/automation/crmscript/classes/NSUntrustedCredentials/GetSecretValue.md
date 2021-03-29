@@ -1,9 +1,9 @@
 ---
-title: String GetSecretValue()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/String GetSecretValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_GetSecretValue
+description: NSUntrustedCredentials.GetSecretValue()
+intellisense: NSUntrustedCredentials.GetSecretValue
 keywords: GetSecretValue()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetQuoteDocType()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetQuoteDocType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_GetQuoteDocType
+description: NSDocumentTemplate.GetQuoteDocType()
+intellisense: NSDocumentTemplate.GetQuoteDocType
 sortOrder: 2624
 keywords: GetQuoteDocType()
+so.topic: reference
 ---
 
 What type of quote document is this.

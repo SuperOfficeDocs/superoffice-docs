@@ -1,8 +1,8 @@
 ---
-title: NSResourceAgent
-path: /EJScript/Classes/NSResourceAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceAgent
+description: NSResourceAgent
+intellisense: Void.NSResourceAgent
+so.topic: reference
 ---
 
 

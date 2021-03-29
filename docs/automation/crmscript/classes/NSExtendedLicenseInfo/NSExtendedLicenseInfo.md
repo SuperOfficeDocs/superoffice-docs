@@ -1,9 +1,9 @@
 ---
-title: NSExtendedLicenseInfo
-path: /EJScript/Classes/NSExtendedLicenseInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedLicenseInfo
+description: NSExtendedLicenseInfo
+intellisense: Void.NSExtendedLicenseInfo
 sortOrder: 3401
+so.topic: reference
 ---
 
 

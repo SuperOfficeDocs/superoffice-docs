@@ -1,9 +1,9 @@
 ---
-title: String GetKey()
-path: /EJScript/Classes/NSLegalBase/Member functions/String GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_GetKey
+description: NSLegalBase.GetKey()
+intellisense: NSLegalBase.GetKey
 keywords: GetKey()
+so.topic: reference
 ---
 
 

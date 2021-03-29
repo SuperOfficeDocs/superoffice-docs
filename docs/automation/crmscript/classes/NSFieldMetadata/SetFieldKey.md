@@ -1,10 +1,10 @@
 ---
-title: Void SetFieldKey(String FieldKey)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetFieldKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_SetFieldKey_String_p_0
+description: NSFieldMetadata.SetFieldKey(String p_0)
+intellisense: NSFieldMetadata.SetFieldKey
 sortOrder: 3589
 keywords: SetFieldKey(String)
+so.topic: reference
 ---
 
 

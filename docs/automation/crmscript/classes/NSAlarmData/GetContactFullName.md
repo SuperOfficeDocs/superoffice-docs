@@ -1,10 +1,10 @@
 ---
-title: String GetContactFullName()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetContactFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetContactFullName
+description: NSAlarmData.GetContactFullName()
+intellisense: NSAlarmData.GetContactFullName
 sortOrder: 660
 keywords: GetContactFullName()
+so.topic: reference
 ---
 
 

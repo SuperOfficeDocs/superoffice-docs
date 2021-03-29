@@ -1,9 +1,9 @@
 ---
-title: Map GetCustomFields()
-path: /EJScript/Classes/NSUser/Member functions/Map GetCustomFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetCustomFields
+description: NSUser.GetCustomFields()
+intellisense: NSUser.GetCustomFields
 keywords: GetCustomFields()
+so.topic: reference
 ---
 
 

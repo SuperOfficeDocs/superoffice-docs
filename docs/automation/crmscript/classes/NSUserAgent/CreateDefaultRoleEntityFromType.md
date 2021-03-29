@@ -1,9 +1,9 @@
 ---
-title: NSRoleEntity CreateDefaultRoleEntityFromType(Integer type)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity CreateDefaultRoleEntityFromType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultRoleEntityFromType_Integer_p_0
+description: NSUserAgent.CreateDefaultRoleEntityFromType(Integer p_0)
+intellisense: NSUserAgent.CreateDefaultRoleEntityFromType
 keywords: CreateDefaultRoleEntityFromType(Integer)
+so.topic: reference
 ---
 
 

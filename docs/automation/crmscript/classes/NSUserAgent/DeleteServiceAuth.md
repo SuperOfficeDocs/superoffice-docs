@@ -1,9 +1,9 @@
 ---
-title: Void DeleteServiceAuth(Integer serviceAuthId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void DeleteServiceAuth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_DeleteServiceAuth_Integer_p_0
+description: NSUserAgent.DeleteServiceAuth(Integer p_0)
+intellisense: NSUserAgent.DeleteServiceAuth
 keywords: DeleteServiceAuth(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetProgressPercent()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetProgressPercent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetProgressPercent
+description: NSBatchTaskInfo.GetProgressPercent()
+intellisense: NSBatchTaskInfo.GetProgressPercent
 sortOrder: 1372
 keywords: GetProgressPercent()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetDate()
-path: /EJScript/Classes/NSRecurrenceDate/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceDate_GetDate
+description: NSRecurrenceDate.GetDate()
+intellisense: NSRecurrenceDate.GetDate
 keywords: GetDate()
+so.topic: reference
 ---
 
 

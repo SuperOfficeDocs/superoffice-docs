@@ -1,9 +1,9 @@
 ---
-title: NSCredentialType[] GetCredentialTypes()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSCredentialType[] GetCredentialTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetCredentialTypes
+description: NSUserAgent.GetCredentialTypes()
+intellisense: NSUserAgent.GetCredentialTypes
 keywords: GetCredentialTypes()
+so.topic: reference
 ---
 
 

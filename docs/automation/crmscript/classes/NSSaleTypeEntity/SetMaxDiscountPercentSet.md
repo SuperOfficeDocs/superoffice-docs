@@ -1,9 +1,9 @@
 ---
-title: Void SetMaxDiscountPercentSet(Bool MaxDiscountPercentSet)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetMaxDiscountPercentSet(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetMaxDiscountPercentSet_Bool_p_0
+description: NSSaleTypeEntity.SetMaxDiscountPercentSet(Bool p_0)
+intellisense: NSSaleTypeEntity.SetMaxDiscountPercentSet
 keywords: SetMaxDiscountPercentSet(Bool)
+so.topic: reference
 ---
 
 

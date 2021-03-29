@@ -1,9 +1,9 @@
 ---
-title: Integer GetPreviousOverdue()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetPreviousOverdue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetPreviousOverdue
+description: NSSaleSummary.GetPreviousOverdue()
+intellisense: NSSaleSummary.GetPreviousOverdue
 keywords: GetPreviousOverdue()
+so.topic: reference
 ---
 
 

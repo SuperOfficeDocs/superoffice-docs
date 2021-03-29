@@ -1,9 +1,9 @@
 ---
-title: Bool GetAllAccess()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetAllAccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetAllAccess
+description: NSQuoteConnection.GetAllAccess()
+intellisense: NSQuoteConnection.GetAllAccess
 keywords: GetAllAccess()
+so.topic: reference
 ---
 
 

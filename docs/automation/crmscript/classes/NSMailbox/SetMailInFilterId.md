@@ -1,9 +1,9 @@
 ---
-title: Void SetMailInFilterId(Integer MailInFilterId)
-path: /EJScript/Classes/NSMailbox/Member functions/Void SetMailInFilterId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox_SetMailInFilterId_Integer_p_0
+description: NSMailbox.SetMailInFilterId(Integer p_0)
+intellisense: NSMailbox.SetMailInFilterId
 keywords: SetMailInFilterId(Integer)
+so.topic: reference
 ---
 
 

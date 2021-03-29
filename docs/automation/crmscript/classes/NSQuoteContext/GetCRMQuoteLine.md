@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLine GetCRMQuoteLine()
-path: /EJScript/Classes/NSQuoteContext/Member functions/NSQuoteLine GetCRMQuoteLine()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_GetCRMQuoteLine
+description: NSQuoteContext.GetCRMQuoteLine()
+intellisense: NSQuoteContext.GetCRMQuoteLine
 keywords: GetCRMQuoteLine()
+so.topic: reference
 ---
 
 

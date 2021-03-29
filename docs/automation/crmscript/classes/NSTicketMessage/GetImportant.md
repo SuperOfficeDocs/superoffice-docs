@@ -1,9 +1,9 @@
 ---
-title: Bool GetImportant()
-path: /EJScript/Classes/NSTicketMessage/Member functions/Bool GetImportant()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessage_GetImportant
+description: NSTicketMessage.GetImportant()
+intellisense: NSTicketMessage.GetImportant
 keywords: GetImportant()
+so.topic: reference
 ---
 
 

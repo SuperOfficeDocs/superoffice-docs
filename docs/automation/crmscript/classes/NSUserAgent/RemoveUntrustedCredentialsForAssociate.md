@@ -1,9 +1,9 @@
 ---
-title: Void RemoveUntrustedCredentialsForAssociate(Integer associateId, String type, String publicValue)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void RemoveUntrustedCredentialsForAssociate(Integer p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_RemoveUntrustedCredentialsForAssociate_Integer_p_0_String_p_1_String_p_2
+description: NSUserAgent.RemoveUntrustedCredentialsForAssociate(Integer p_0, String p_1, String p_2)
+intellisense: NSUserAgent.RemoveUntrustedCredentialsForAssociate
 keywords: RemoveUntrustedCredentialsForAssociate(Integer,String,String)
+so.topic: reference
 ---
 
 

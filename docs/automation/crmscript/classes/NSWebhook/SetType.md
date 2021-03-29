@@ -1,9 +1,9 @@
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetType_String_p_0
+description: NSWebhook.SetType(String p_0)
+intellisense: NSWebhook.SetType
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetRegisteredAssociateId
+description: NSCustomerCenterConfig.GetRegisteredAssociateId()
+intellisense: NSCustomerCenterConfig.GetRegisteredAssociateId
 sortOrder: 2199
 keywords: GetRegisteredAssociateId()
+so.topic: reference
 ---
 
 

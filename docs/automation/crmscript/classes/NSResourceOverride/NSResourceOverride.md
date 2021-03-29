@@ -1,8 +1,8 @@
 ---
-title: NSResourceOverride
-path: /EJScript/Classes/NSResourceOverride
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride
+description: NSResourceOverride
+intellisense: Void.NSResourceOverride
+so.topic: reference
 ---
 
 

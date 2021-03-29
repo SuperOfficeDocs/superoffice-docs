@@ -1,9 +1,9 @@
 ---
-title: String GetTZLocationCities()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/String GetTZLocationCities()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_GetTZLocationCities
+description: NSTimeZoneData.GetTZLocationCities()
+intellisense: NSTimeZoneData.GetTZLocationCities
 keywords: GetTZLocationCities()
+so.topic: reference
 ---
 
 

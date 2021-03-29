@@ -1,10 +1,10 @@
 ---
-title: Void SetMaxLength(Integer MaxLength)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetMaxLength(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_SetMaxLength_Integer_p_0
+description: NSFieldMetadata.SetMaxLength(Integer p_0)
+intellisense: NSFieldMetadata.SetMaxLength
 sortOrder: 3592
 keywords: SetMaxLength(Integer)
+so.topic: reference
 ---
 
 

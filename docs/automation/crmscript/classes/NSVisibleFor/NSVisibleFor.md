@@ -1,8 +1,8 @@
 ---
-title: NSVisibleFor
-path: /EJScript/Classes/NSVisibleFor
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVisibleFor
+description: NSVisibleFor
+intellisense: Void.NSVisibleFor
+so.topic: reference
 ---
 
 

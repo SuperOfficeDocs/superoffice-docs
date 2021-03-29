@@ -1,9 +1,9 @@
 ---
-title: NSLink GetLink(Integer linkId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLink GetLink(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLink_Integer_p_0
+description: NSListAgent.GetLink(Integer p_0)
+intellisense: NSListAgent.GetLink
 keywords: GetLink(Integer)
+so.topic: reference
 ---
 
 

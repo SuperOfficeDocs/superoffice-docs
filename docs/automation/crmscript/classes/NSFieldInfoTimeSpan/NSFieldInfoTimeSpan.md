@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoTimeSpan
-path: /EJScript/Classes/NSFieldInfoTimeSpan
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTimeSpan
+description: NSFieldInfoTimeSpan
+intellisense: Void.NSFieldInfoTimeSpan
 sortOrder: 3563
+so.topic: reference
 ---
 
 

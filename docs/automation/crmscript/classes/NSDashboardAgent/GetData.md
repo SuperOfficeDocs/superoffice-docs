@@ -1,10 +1,10 @@
 ---
-title: NSTileData[] GetData(Integer dashboardTileId, String restrictions)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSTileData[] GetData(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_GetData_Integer_p_0_String_p_1
+description: NSDashboardAgent.GetData(Integer p_0, String p_1)
+intellisense: NSDashboardAgent.GetData
 sortOrder: 2282
 keywords: GetData(Integer,String)
+so.topic: reference
 ---
 
 

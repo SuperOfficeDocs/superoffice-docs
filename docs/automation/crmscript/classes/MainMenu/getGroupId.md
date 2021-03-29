@@ -1,10 +1,10 @@
 ---
-title: String getGroupId(Integer p\_group)
-path: /EJScript/Classes/MainMenu/Member functions/String getGroupId(Integer p_group)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu_getGroupId_Integer_p_group
+description: MainMenu.getGroupId(Integer p_group)
+intellisense: MainMenu.getGroupId
 sortOrder: 508
 keywords: getGroupId(Integer)
+so.topic: reference
 ---
 
 # String getGroupId(Integer group)

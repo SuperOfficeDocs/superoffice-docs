@@ -1,8 +1,8 @@
 ---
-title: NSMessagingAgent
-path: /EJScript/Classes/NSMessagingAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessagingAgent
+description: NSMessagingAgent
+intellisense: Void.NSMessagingAgent
+so.topic: reference
 ---
 
 

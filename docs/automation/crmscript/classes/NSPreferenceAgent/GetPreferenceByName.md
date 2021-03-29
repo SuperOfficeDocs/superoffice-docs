@@ -1,9 +1,9 @@
 ---
-title: NSPreference GetPreferenceByName(String prefSection, String prefKey, Integer prefLevel)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference GetPreferenceByName(String p_0, String p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetPreferenceByName_String_p_0_String_p_1_Integer_p_2
+description: NSPreferenceAgent.GetPreferenceByName(String p_0, String p_1, Integer p_2)
+intellisense: NSPreferenceAgent.GetPreferenceByName
 keywords: GetPreferenceByName(String,String,Integer)
+so.topic: reference
 ---
 
 

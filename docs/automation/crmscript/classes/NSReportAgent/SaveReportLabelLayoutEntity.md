@@ -1,9 +1,9 @@
 ---
-title: NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity reportLabelLayoutEntity)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportLabelLayoutEntity SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_SaveReportLabelLayoutEntity_NSReportLabelLayoutEntity_p_0
+description: NSReportAgent.SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity p_0)
+intellisense: NSReportAgent.SaveReportLabelLayoutEntity
 keywords: SaveReportLabelLayoutEntity(NSReportLabelLayoutEntity)
+so.topic: reference
 ---
 
 

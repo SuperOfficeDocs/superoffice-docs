@@ -1,10 +1,10 @@
 ---
-title: String GetCustomerUrl()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetCustomerUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetCustomerUrl
+description: NSConfigurationAgent.GetCustomerUrl()
+intellisense: NSConfigurationAgent.GetCustomerUrl
 sortOrder: 1612
 keywords: GetCustomerUrl()
+so.topic: reference
 ---
 
 

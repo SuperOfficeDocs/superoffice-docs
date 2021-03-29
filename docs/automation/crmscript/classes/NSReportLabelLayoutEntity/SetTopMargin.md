@@ -1,9 +1,9 @@
 ---
-title: Void SetTopMargin(Integer TopMargin)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetTopMargin(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_SetTopMargin_Integer_p_0
+description: NSReportLabelLayoutEntity.SetTopMargin(Integer p_0)
+intellisense: NSReportLabelLayoutEntity.SetTopMargin
 keywords: SetTopMargin(Integer)
+so.topic: reference
 ---
 
 

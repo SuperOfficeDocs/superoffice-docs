@@ -1,9 +1,9 @@
 ---
-title: Void SetIntentId(Integer IntentId)
-path: /EJScript/Classes/NSTaskListItem/Member functions/Void SetIntentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_SetIntentId_Integer_p_0
+description: NSTaskListItem.SetIntentId(Integer p_0)
+intellisense: NSTaskListItem.SetIntentId
 keywords: SetIntentId(Integer)
+so.topic: reference
 ---
 
 

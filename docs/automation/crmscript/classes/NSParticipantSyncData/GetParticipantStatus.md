@@ -1,9 +1,9 @@
 ---
-title: Integer GetParticipantStatus()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Integer GetParticipantStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetParticipantStatus
+description: NSParticipantSyncData.GetParticipantStatus()
+intellisense: NSParticipantSyncData.GetParticipantStatus
 keywords: GetParticipantStatus()
+so.topic: reference
 ---
 
 

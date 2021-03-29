@@ -1,9 +1,9 @@
 ---
-title: NSDepartment[] GetDepartments()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDepartment[] GetDepartments()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDepartments
+description: NSListAgent.GetDepartments()
+intellisense: NSListAgent.GetDepartments
 keywords: GetDepartments()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void addRow()
-path: /EJScript/Classes/StringMatrix/Member functions/Void addRow()
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_addRow
+description: StringMatrix.addRow()
+intellisense: StringMatrix.addRow
 keywords: addRow()
+so.topic: reference
 ---
 
 

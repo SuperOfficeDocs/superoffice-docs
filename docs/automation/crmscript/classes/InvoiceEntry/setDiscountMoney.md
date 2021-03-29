@@ -1,10 +1,10 @@
 ---
-title: Void setDiscountMoney(Float money)
-path: /EJScript/Classes/InvoiceEntry/Member functions/Void setDiscountMoney(Float money)
-intellisense: 1
-classref: 1
+title: crmscript_ref_InvoiceEntry_setDiscountMoney_Float_money
+description: InvoiceEntry.setDiscountMoney(Float money)
+intellisense: InvoiceEntry.setDiscountMoney
 sortOrder: 439
 keywords: setDiscountMoney(Float)
+so.topic: reference
 ---
 
 

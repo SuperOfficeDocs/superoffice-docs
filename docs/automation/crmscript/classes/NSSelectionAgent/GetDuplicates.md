@@ -1,9 +1,9 @@
 ---
-title: NSDuplicateEntry[] GetDuplicates(String name)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSDuplicateEntry[] GetDuplicates(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetDuplicates_String_p_0
+description: NSSelectionAgent.GetDuplicates(String p_0)
+intellisense: NSSelectionAgent.GetDuplicates
 keywords: GetDuplicates(String)
+so.topic: reference
 ---
 
 

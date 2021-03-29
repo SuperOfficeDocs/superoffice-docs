@@ -1,10 +1,10 @@
 ---
-title: Integer round()
-path: /EJScript/Classes/Float/Member functions/Integer round()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Float_round
+description: Float.round()
+intellisense: Float.round
 sortOrder: 359
 keywords: round()
+so.topic: reference
 ---
 
 Returns the integer round of the float

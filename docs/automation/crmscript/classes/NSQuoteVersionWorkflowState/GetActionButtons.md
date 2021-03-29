@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionButtonState[] GetActionButtons()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionButtonState[] GetActionButtons()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_GetActionButtons
+description: NSQuoteVersionWorkflowState.GetActionButtons()
+intellisense: NSQuoteVersionWorkflowState.GetActionButtons
 keywords: GetActionButtons()
+so.topic: reference
 ---
 
 

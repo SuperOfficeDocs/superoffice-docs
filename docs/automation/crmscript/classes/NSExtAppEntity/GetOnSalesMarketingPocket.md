@@ -1,10 +1,10 @@
 ---
-title: Bool GetOnSalesMarketingPocket()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetOnSalesMarketingPocket()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetOnSalesMarketingPocket
+description: NSExtAppEntity.GetOnSalesMarketingPocket()
+intellisense: NSExtAppEntity.GetOnSalesMarketingPocket
 sortOrder: 3359
 keywords: GetOnSalesMarketingPocket()
+so.topic: reference
 ---
 
 

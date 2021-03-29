@@ -1,8 +1,8 @@
 ---
-title: NSSaleTypeStageLink
-path: /EJScript/Classes/NSSaleTypeStageLink
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeStageLink
+description: NSSaleTypeStageLink
+intellisense: Void.NSSaleTypeStageLink
+so.topic: reference
 ---
 
 

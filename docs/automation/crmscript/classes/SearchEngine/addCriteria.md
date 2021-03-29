@@ -1,9 +1,9 @@
 ---
-title: Void addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
-path: /EJScript/Classes/SearchEngine/member functions/Void addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addCriteria_String_field_String_compOperator_String_value_String_rowOperator_Integer_priority
+description: SearchEngine.addCriteria(String field, String compOperator, String value, String rowOperator, Integer priority)
+intellisense: SearchEngine.addCriteria
 keywords: addCriteria(String,String,String,String,Integer)
+so.topic: reference
 ---
 
 

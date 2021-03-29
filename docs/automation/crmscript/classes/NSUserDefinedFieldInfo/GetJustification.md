@@ -1,9 +1,9 @@
 ---
-title: Integer GetJustification()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetJustification()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetJustification
+description: NSUserDefinedFieldInfo.GetJustification()
+intellisense: NSUserDefinedFieldInfo.GetJustification
 keywords: GetJustification()
+so.topic: reference
 ---
 
 Justification

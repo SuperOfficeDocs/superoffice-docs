@@ -1,9 +1,9 @@
 ---
-title: String GetMobilePhone()
-path: /EJScript/Classes/NSPerson/Member functions/String GetMobilePhone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetMobilePhone
+description: NSPerson.GetMobilePhone()
+intellisense: NSPerson.GetMobilePhone
 keywords: GetMobilePhone()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String[] GetEvents()
-path: /EJScript/Classes/NSWebhook/Member functions/String[] GetEvents()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetEvents
+description: NSWebhook.GetEvents()
+intellisense: NSWebhook.GetEvents
 keywords: GetEvents()
+so.topic: reference
 ---
 
 

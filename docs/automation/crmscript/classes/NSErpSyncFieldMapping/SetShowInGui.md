@@ -1,10 +1,10 @@
 ---
-title: Void SetShowInGui(Bool ShowInGui)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetShowInGui(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetShowInGui_Bool_p_0
+description: NSErpSyncFieldMapping.SetShowInGui(Bool p_0)
+intellisense: NSErpSyncFieldMapping.SetShowInGui
 sortOrder: 3319
 keywords: SetShowInGui(Bool)
+so.topic: reference
 ---
 
 

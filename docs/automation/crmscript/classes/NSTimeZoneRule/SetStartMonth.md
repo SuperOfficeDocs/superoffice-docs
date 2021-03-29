@@ -1,9 +1,9 @@
 ---
-title: Void SetStartMonth(Integer StartMonth)
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetStartMonth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_SetStartMonth_Integer_p_0
+description: NSTimeZoneRule.SetStartMonth(Integer p_0)
+intellisense: NSTimeZoneRule.SetStartMonth
 keywords: SetStartMonth(Integer)
+so.topic: reference
 ---
 
 

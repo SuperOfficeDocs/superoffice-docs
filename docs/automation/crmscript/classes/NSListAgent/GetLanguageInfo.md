@@ -1,9 +1,9 @@
 ---
-title: NSLanguageInfo GetLanguageInfo(Integer languageInfoId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLanguageInfo GetLanguageInfo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLanguageInfo_Integer_p_0
+description: NSListAgent.GetLanguageInfo(Integer p_0)
+intellisense: NSListAgent.GetLanguageInfo
 keywords: GetLanguageInfo(Integer)
+so.topic: reference
 ---
 
 

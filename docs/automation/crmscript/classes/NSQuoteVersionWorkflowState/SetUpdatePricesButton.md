@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdatePricesButton(NSQuoteVersionButtonState UpdatePricesButton)
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/Void SetUpdatePricesButton(NSQuoteVersionButtonState p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_SetUpdatePricesButton_NSQuoteVersionButtonState_p_0
+description: NSQuoteVersionWorkflowState.SetUpdatePricesButton(NSQuoteVersionButtonState p_0)
+intellisense: NSQuoteVersionWorkflowState.SetUpdatePricesButton
 keywords: SetUpdatePricesButton(NSQuoteVersionButtonState)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String get(Integer field, Integer fieldMask)
-path: /EJScript/Classes/GenericSearch/Member functions/String get(Integer field, Integer fieldMask)
-intellisense: 1
-classref: 1
+title: crmscript_ref_GenericSearch_get_Integer_field_Integer_fieldMask
+description: GenericSearch.get(Integer field, Integer fieldMask)
+intellisense: GenericSearch.get
 sortOrder: 367
 keywords: get(Integer,Integer)
+so.topic: reference
 ---
 
 

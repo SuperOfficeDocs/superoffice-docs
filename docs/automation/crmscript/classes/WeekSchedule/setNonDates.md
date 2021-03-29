@@ -1,9 +1,9 @@
 ---
-title: Void setNonDates(String dates)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setNonDates(String dates)
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_setNonDates_String_dates
+description: WeekSchedule.setNonDates(String dates)
+intellisense: WeekSchedule.setNonDates
 keywords: setNonDates(String)
+so.topic: reference
 ---
 
 

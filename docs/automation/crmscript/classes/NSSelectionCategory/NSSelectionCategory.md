@@ -1,8 +1,8 @@
 ---
-title: NSSelectionCategory
-path: /EJScript/Classes/NSSelectionCategory
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionCategory
+description: NSSelectionCategory
+intellisense: Void.NSSelectionCategory
+so.topic: reference
 ---
 
 

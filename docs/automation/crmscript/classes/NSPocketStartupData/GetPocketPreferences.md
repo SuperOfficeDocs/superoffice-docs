@@ -1,9 +1,9 @@
 ---
-title: NSPreference[] GetPocketPreferences()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/NSPreference[] GetPocketPreferences()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_GetPocketPreferences
+description: NSPocketStartupData.GetPocketPreferences()
+intellisense: NSPocketStartupData.GetPocketPreferences
 keywords: GetPocketPreferences()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity SetDocumentStreamFromId(Integer documentId, NSStream stream)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity SetDocumentStreamFromId(Integer p_0, NSStream p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SetDocumentStreamFromId_Integer_p_0_NSStream_p_1
+description: NSDocumentAgent.SetDocumentStreamFromId(Integer p_0, NSStream p_1)
+intellisense: NSDocumentAgent.SetDocumentStreamFromId
 sortOrder: 2507
 keywords: SetDocumentStreamFromId(Integer,NSStream)
+so.topic: reference
 ---
 
 

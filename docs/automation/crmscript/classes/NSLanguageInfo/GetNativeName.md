@@ -1,10 +1,10 @@
 ---
-title: String GetNativeName()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/String GetNativeName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLanguageInfo_GetNativeName
+description: NSLanguageInfo.GetNativeName()
+intellisense: NSLanguageInfo.GetNativeName
 sortOrder: 4004
 keywords: GetNativeName()
+so.topic: reference
 ---
 
 

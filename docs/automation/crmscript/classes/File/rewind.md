@@ -1,10 +1,10 @@
 ---
-title: Void rewind()
-path: /EJScript/Classes/File/Member functions/Void rewind()
-intellisense: 1
-classref: 1
+title: crmscript_ref_File_rewind
+description: File.rewind()
+intellisense: File.rewind
 sortOrder: 351
 keywords: rewind()
+so.topic: reference
 ---
 
 

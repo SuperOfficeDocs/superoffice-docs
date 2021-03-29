@@ -1,10 +1,10 @@
 ---
-title: Void write(String p0, Map p1)
-path: /EJScript/Classes/DbConverter/Member functions/Void write(String p_0, Map p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbConverter_write_String_p_0_Map_p_1
+description: DbConverter.write(String p_0, Map p_1)
+intellisense: DbConverter.write
 sortOrder: 250
 keywords: write(String,Map)
+so.topic: reference
 ---
 
 

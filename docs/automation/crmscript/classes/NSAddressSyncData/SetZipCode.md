@@ -1,10 +1,10 @@
 ---
-title: Void SetZipCode(String ZipCode)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetZipCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_SetZipCode_String_p_0
+description: NSAddressSyncData.SetZipCode(String p_0)
+intellisense: NSAddressSyncData.SetZipCode
 sortOrder: 640
 keywords: SetZipCode(String)
+so.topic: reference
 ---
 
 

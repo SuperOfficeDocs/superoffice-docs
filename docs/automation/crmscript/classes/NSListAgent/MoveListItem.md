@@ -1,9 +1,9 @@
 ---
-title: Void MoveListItem(Integer udListDefinitionId, Integer listItemId, Integer direction)
-path: /EJScript/Classes/NSListAgent/Member functions/Void MoveListItem(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_MoveListItem_Integer_p_0_Integer_p_1_Integer_p_2
+description: NSListAgent.MoveListItem(Integer p_0, Integer p_1, Integer p_2)
+intellisense: NSListAgent.MoveListItem
 keywords: MoveListItem(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

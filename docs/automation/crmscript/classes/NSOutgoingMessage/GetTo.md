@@ -1,9 +1,9 @@
 ---
-title: String GetTo()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_GetTo
+description: NSOutgoingMessage.GetTo()
+intellisense: NSOutgoingMessage.GetTo
 keywords: GetTo()
+so.topic: reference
 ---
 
 

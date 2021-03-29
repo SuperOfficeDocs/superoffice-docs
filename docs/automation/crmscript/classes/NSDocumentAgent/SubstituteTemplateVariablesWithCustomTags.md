@@ -1,10 +1,10 @@
 ---
-title: String SubstituteTemplateVariablesWithCustomTags(String source, Integer generatorEncoding, String[] customTags, String[] customValues, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/String SubstituteTemplateVariablesWithCustomTags(String p_0, Integer p_1, String[] p_2, String[] p_3, Integer p_4, Integer p_5, Integer p_6, Integer p_7, Integer p_8, Integer p_9, Integer p_10, String p_11)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariablesWithCustomTags_String_p_0_Integer_p_1_String__p_2_String__p_3_Integer_p_4_Integer_p_5_Integer_p_6_Integer_p_7_Integer_p_8_Integer_p_9_Integer_p_10_String_p_11
+description: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags(String p_0, Integer p_1, String[] p_2, String[] p_3, Integer p_4, Integer p_5, Integer p_6, Integer p_7, Integer p_8, Integer p_9, Integer p_10, String p_11)
+intellisense: NSDocumentAgent.SubstituteTemplateVariablesWithCustomTags
 sortOrder: 2538
 keywords: SubstituteTemplateVariablesWithCustomTags(String,Integer,String[],String[],Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+so.topic: reference
 ---
 
 

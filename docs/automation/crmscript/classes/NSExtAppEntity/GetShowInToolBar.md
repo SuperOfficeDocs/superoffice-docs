@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInToolBar()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetShowInToolBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetShowInToolBar
+description: NSExtAppEntity.GetShowInToolBar()
+intellisense: NSExtAppEntity.GetShowInToolBar
 sortOrder: 3365
 keywords: GetShowInToolBar()
+so.topic: reference
 ---
 
 

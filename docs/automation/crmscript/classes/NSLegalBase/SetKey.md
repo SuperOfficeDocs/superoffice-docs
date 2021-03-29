@@ -1,9 +1,9 @@
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_SetKey_String_p_0
+description: NSLegalBase.SetKey(String p_0)
+intellisense: NSLegalBase.SetKey
 keywords: SetKey(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void execute(Parser p)
-path: /EJScript/Classes/StatLib/Member functions/Void execute(Parser p)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatLib_execute_Parser_p
+description: StatLib.execute(Parser p)
+intellisense: StatLib.execute
 keywords: execute(Parser)
+so.topic: reference
 ---
 
 Execute the query and aggregation, and store the results in the Parser.

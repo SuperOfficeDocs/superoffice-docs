@@ -1,9 +1,9 @@
 ---
-title: Void addCriteria(String p0, String p1, String p2)
-path: /EJScript/Classes/SearchEngine/member functions/Void addCriteria(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addCriteria_String_p_0_String_p_1_String_p_2
+description: SearchEngine.addCriteria(String p_0, String p_1, String p_2)
+intellisense: SearchEngine.addCriteria
 keywords: addCriteria(String,String,String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer documentId, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity CreateNewPhysicalMailMergeDocumentFromTemplate(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateNewPhysicalMailMergeDocumentFromTemplate_Integer_p_0_String_p_1
+description: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate(Integer p_0, String p_1)
+intellisense: NSDocumentAgent.CreateNewPhysicalMailMergeDocumentFromTemplate
 sortOrder: 2503
 keywords: CreateNewPhysicalMailMergeDocumentFromTemplate(Integer,String)
+so.topic: reference
 ---
 
 

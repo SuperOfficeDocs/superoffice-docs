@@ -1,9 +1,9 @@
 ---
-title: NSDashboardTile
-path: /EJScript/Classes/NSDashboardTile
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile
+description: NSDashboardTile
+intellisense: Void.NSDashboardTile
 sortOrder: 2286
+so.topic: reference
 ---
 
 

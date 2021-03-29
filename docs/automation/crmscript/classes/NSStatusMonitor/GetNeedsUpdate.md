@@ -1,9 +1,9 @@
 ---
-title: Bool GetNeedsUpdate()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Bool GetNeedsUpdate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetNeedsUpdate
+description: NSStatusMonitor.GetNeedsUpdate()
+intellisense: NSStatusMonitor.GetNeedsUpdate
 keywords: GetNeedsUpdate()
+so.topic: reference
 ---
 
 

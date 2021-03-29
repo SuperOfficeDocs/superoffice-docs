@@ -1,9 +1,9 @@
 ---
-title: String GetContactFax()
-path: /EJScript/Classes/NSPerson/Member functions/String GetContactFax()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetContactFax
+description: NSPerson.GetContactFax()
+intellisense: NSPerson.GetContactFax
 keywords: GetContactFax()
+so.topic: reference
 ---
 
 

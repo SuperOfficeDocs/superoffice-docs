@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSTemplateInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo_GetName
+description: NSTemplateInfo.GetName()
+intellisense: NSTemplateInfo.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetCustConfigId(Integer CustConfigId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetCustConfigId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_SetCustConfigId_Integer_p_0
+description: NSCustomerCenterConfig.SetCustConfigId(Integer p_0)
+intellisense: NSCustomerCenterConfig.SetCustConfigId
 sortOrder: 2204
 keywords: SetCustConfigId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetTargetTableName()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetTargetTableName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetTargetTableName
+description: NSSelectionEntity.GetTargetTableName()
+intellisense: NSSelectionEntity.GetTargetTableName
 keywords: GetTargetTableName()
+so.topic: reference
 ---
 
 

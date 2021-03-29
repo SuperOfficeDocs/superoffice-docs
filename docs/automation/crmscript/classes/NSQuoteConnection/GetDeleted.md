@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetDeleted
+description: NSQuoteConnection.GetDeleted()
+intellisense: NSQuoteConnection.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

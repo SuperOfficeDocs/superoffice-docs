@@ -1,10 +1,10 @@
 ---
-title: String GetDefaultValue()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/String GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetDefaultValue
+description: NSErpSyncDefaultValue.GetDefaultValue()
+intellisense: NSErpSyncDefaultValue.GetDefaultValue
 sortOrder: 3259
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

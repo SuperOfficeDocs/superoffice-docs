@@ -1,9 +1,9 @@
 ---
-title: Bool GetSendEmail()
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Bool GetSendEmail()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo_GetSendEmail
+description: NSParticipantInfo.GetSendEmail()
+intellisense: NSParticipantInfo.GetSendEmail
 keywords: GetSendEmail()
+so.topic: reference
 ---
 
 

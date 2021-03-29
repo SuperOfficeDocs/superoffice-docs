@@ -1,8 +1,8 @@
 ---
-title: NSListEntity
-path: /EJScript/Classes/NSListEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity
+description: NSListEntity
+intellisense: Void.NSListEntity
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetPersonPosition()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonPosition()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPersonPosition
+description: NSParticipantSyncData.GetPersonPosition()
+intellisense: NSParticipantSyncData.GetPersonPosition
 keywords: GetPersonPosition()
+so.topic: reference
 ---
 
 

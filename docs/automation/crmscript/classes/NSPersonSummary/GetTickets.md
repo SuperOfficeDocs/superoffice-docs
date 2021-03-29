@@ -1,9 +1,9 @@
 ---
-title: NSTicketSummaryItem[] GetTickets()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSTicketSummaryItem[] GetTickets()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_GetTickets
+description: NSPersonSummary.GetTickets()
+intellisense: NSPersonSummary.GetTickets
 keywords: GetTickets()
+so.topic: reference
 ---
 
 

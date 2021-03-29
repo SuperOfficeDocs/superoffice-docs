@@ -1,9 +1,9 @@
 ---
-title: Integer GetSysMaxLevel()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetSysMaxLevel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetSysMaxLevel
+description: NSPreferenceDescription.GetSysMaxLevel()
+intellisense: NSPreferenceDescription.GetSysMaxLevel
 keywords: GetSysMaxLevel()
+so.topic: reference
 ---
 
 Lowest allowed setting level, set by SuperOffice

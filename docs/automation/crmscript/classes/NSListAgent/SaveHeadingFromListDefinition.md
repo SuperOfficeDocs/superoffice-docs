@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity SaveHeadingFromListDefinition(Integer id, NSHeadingEntity entity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity SaveHeadingFromListDefinition(Integer p_0, NSHeadingEntity p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveHeadingFromListDefinition_Integer_p_0_NSHeadingEntity_p_1
+description: NSListAgent.SaveHeadingFromListDefinition(Integer p_0, NSHeadingEntity p_1)
+intellisense: NSListAgent.SaveHeadingFromListDefinition
 keywords: SaveHeadingFromListDefinition(Integer,NSHeadingEntity)
+so.topic: reference
 ---
 
 

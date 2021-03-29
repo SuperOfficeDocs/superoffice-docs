@@ -1,10 +1,10 @@
 ---
-title: NSContact[] GetMyContacts()
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContact[] GetMyContacts()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetMyContacts
+description: NSContactAgent.GetMyContacts()
+intellisense: NSContactAgent.GetMyContacts
 sortOrder: 1805
 keywords: GetMyContacts()
+so.topic: reference
 ---
 
 

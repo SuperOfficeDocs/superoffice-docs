@@ -1,10 +1,10 @@
 ---
-title: Void SetPrecision(Integer Precision)
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Void SetPrecision(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDecimal_SetPrecision_Integer_p_0
+description: NSFieldInfoDecimal.SetPrecision(Integer p_0)
+intellisense: NSFieldInfoDecimal.SetPrecision
 sortOrder: 3508
 keywords: SetPrecision(Integer)
+so.topic: reference
 ---
 
 

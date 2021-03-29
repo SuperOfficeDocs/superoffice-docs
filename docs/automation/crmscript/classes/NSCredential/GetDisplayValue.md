@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayValue()
-path: /EJScript/Classes/NSCredential/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredential_GetDisplayValue
+description: NSCredential.GetDisplayValue()
+intellisense: NSCredential.GetDisplayValue
 sortOrder: 2051
 keywords: GetDisplayValue()
+so.topic: reference
 ---
 
 

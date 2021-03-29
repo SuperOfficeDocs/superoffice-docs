@@ -1,9 +1,9 @@
 ---
-title: NSSaleType[] GetSaleTypeList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleType[] GetSaleTypeList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSaleTypeList_Integer__p_0
+description: NSListAgent.GetSaleTypeList(Integer[] p_0)
+intellisense: NSListAgent.GetSaleTypeList
 keywords: GetSaleTypeList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of SaleType objects.

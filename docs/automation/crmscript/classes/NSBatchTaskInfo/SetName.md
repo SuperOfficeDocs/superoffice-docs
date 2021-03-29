@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetName_String_p_0
+description: NSBatchTaskInfo.SetName(String p_0)
+intellisense: NSBatchTaskInfo.SetName
 sortOrder: 1396
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

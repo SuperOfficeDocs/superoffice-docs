@@ -1,9 +1,9 @@
 ---
-title: Void DeleteAllHeadingsFromListDefinition(Integer id)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteAllHeadingsFromListDefinition(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteAllHeadingsFromListDefinition_Integer_p_0
+description: NSListAgent.DeleteAllHeadingsFromListDefinition(Integer p_0)
+intellisense: NSListAgent.DeleteAllHeadingsFromListDefinition
 keywords: DeleteAllHeadingsFromListDefinition(Integer)
+so.topic: reference
 ---
 
 

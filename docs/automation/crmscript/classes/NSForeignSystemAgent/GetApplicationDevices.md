@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice[] GetApplicationDevices(String applicationName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice[] GetApplicationDevices(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetApplicationDevices_String_p_0
+description: NSForeignSystemAgent.GetApplicationDevices(String p_0)
+intellisense: NSForeignSystemAgent.GetApplicationDevices
 sortOrder: 3762
 keywords: GetApplicationDevices(String)
+so.topic: reference
 ---
 
 

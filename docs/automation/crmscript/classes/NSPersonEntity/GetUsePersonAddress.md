@@ -1,9 +1,9 @@
 ---
-title: Bool GetUsePersonAddress()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetUsePersonAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetUsePersonAddress
+description: NSPersonEntity.GetUsePersonAddress()
+intellisense: NSPersonEntity.GetUsePersonAddress
 keywords: GetUsePersonAddress()
+so.topic: reference
 ---
 
 

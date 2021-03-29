@@ -1,9 +1,9 @@
 ---
-title: Void SetNumberEachTemplate(Bool setValue)
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/Void SetNumberEachTemplate(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent_SetNumberEachTemplate_Bool_p_0
+description: NSNumberAllocationAgent.SetNumberEachTemplate(Bool p_0)
+intellisense: NSNumberAllocationAgent.SetNumberEachTemplate
 keywords: SetNumberEachTemplate(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectMemberTypeId(Integer ProjectMemberTypeId)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetProjectMemberTypeId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_SetProjectMemberTypeId_Integer_p_0
+description: NSProjectMember.SetProjectMemberTypeId(Integer p_0)
+intellisense: NSProjectMember.SetProjectMemberTypeId
 keywords: SetProjectMemberTypeId(Integer)
+so.topic: reference
 ---
 
 

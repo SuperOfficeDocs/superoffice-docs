@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetEMail(Integer id, Bool includeAttachments)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetEMail(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMail_Integer_p_0_Bool_p_1
+description: NSEMailAgent.GetEMail(Integer p_0, Bool p_1)
+intellisense: NSEMailAgent.GetEMail
 sortOrder: 2816
 keywords: GetEMail(Integer,Bool)
+so.topic: reference
 ---
 
 

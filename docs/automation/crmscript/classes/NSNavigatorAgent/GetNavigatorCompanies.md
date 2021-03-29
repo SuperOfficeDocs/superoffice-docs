@@ -1,9 +1,9 @@
 ---
-title: NSNavigatorCompany[] GetNavigatorCompanies(String p0)
-path: /EJScript/Classes/NSNavigatorAgent/Member functions/NSNavigatorCompany[] GetNavigatorCompanies(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNavigatorAgent_GetNavigatorCompanies_String_p_0
+description: NSNavigatorAgent.GetNavigatorCompanies(String p_0)
+intellisense: NSNavigatorAgent.GetNavigatorCompanies
 keywords: GetNavigatorCompanies(String)
+so.topic: reference
 ---
 
 

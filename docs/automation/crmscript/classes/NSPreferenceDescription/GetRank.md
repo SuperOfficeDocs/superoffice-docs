@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetRank
+description: NSPreferenceDescription.GetRank()
+intellisense: NSPreferenceDescription.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

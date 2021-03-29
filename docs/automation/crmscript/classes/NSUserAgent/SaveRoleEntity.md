@@ -1,9 +1,9 @@
 ---
-title: NSRoleEntity SaveRoleEntity(NSRoleEntity roleEntity)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity SaveRoleEntity(NSRoleEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SaveRoleEntity_NSRoleEntity_p_0
+description: NSUserAgent.SaveRoleEntity(NSRoleEntity p_0)
+intellisense: NSUserAgent.SaveRoleEntity
 keywords: SaveRoleEntity(NSRoleEntity)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetBusinessName()
-path: /EJScript/Classes/NSContact/Member functions/String GetBusinessName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetBusinessName
+description: NSContact.GetBusinessName()
+intellisense: NSContact.GetBusinessName
 sortOrder: 1726
 keywords: GetBusinessName()
+so.topic: reference
 ---
 
 

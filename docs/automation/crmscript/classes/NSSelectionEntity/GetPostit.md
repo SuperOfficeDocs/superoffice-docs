@@ -1,9 +1,9 @@
 ---
-title: String GetPostit()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetPostit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetPostit
+description: NSSelectionEntity.GetPostit()
+intellisense: NSSelectionEntity.GetPostit
 keywords: GetPostit()
+so.topic: reference
 ---
 
 

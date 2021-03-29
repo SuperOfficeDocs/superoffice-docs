@@ -1,9 +1,9 @@
 ---
-title: Void SetReadOnly(Bool ReadOnly)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetReadOnly(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetReadOnly_Bool_p_0
+description: NSRefCountEntity.SetReadOnly(Bool p_0)
+intellisense: NSRefCountEntity.SetReadOnly
 keywords: SetReadOnly(Bool)
+so.topic: reference
 ---
 
 

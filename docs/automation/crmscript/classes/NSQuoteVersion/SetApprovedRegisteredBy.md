@@ -1,9 +1,9 @@
 ---
-title: Void SetApprovedRegisteredBy(Integer ApprovedRegisteredBy)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetApprovedRegisteredBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetApprovedRegisteredBy_Integer_p_0
+description: NSQuoteVersion.SetApprovedRegisteredBy(Integer p_0)
+intellisense: NSQuoteVersion.SetApprovedRegisteredBy
 keywords: SetApprovedRegisteredBy(Integer)
+so.topic: reference
 ---
 
 

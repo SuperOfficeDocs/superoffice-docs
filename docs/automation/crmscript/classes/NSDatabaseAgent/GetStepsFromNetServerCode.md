@@ -1,10 +1,10 @@
 ---
-title: NSDictionaryStepInformation[] GetStepsFromNetServerCode()
-path: /EJScript/Classes/NSDatabaseAgent/Member functions/NSDictionaryStepInformation[] GetStepsFromNetServerCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseAgent_GetStepsFromNetServerCode
+description: NSDatabaseAgent.GetStepsFromNetServerCode()
+intellisense: NSDatabaseAgent.GetStepsFromNetServerCode
 sortOrder: 2334
 keywords: GetStepsFromNetServerCode()
+so.topic: reference
 ---
 
 

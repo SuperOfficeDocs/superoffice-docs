@@ -1,9 +1,9 @@
 ---
-title: NSLink[] GetLinkList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLink[] GetLinkList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLinkList_Integer__p_0
+description: NSListAgent.GetLinkList(Integer[] p_0)
+intellisense: NSListAgent.GetLinkList
 keywords: GetLinkList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Link objects.

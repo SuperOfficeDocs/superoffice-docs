@@ -1,9 +1,9 @@
 ---
-title: Bool caseEndsWith(String s)
-path: /EJScript/Classes/String/Member functions/Bool caseEndsWith(String s)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_caseEndsWith_String_s
+description: String.caseEndsWith(String s)
+intellisense: String.caseEndsWith
 keywords: caseEndsWith(String)
+so.topic: reference
 ---
 
 

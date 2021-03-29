@@ -1,9 +1,9 @@
 ---
-title: Void SetParentId(Integer ParentId)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetParentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetParentId_Integer_p_0
+description: NSTicketCategoryEntity.SetParentId(Integer p_0)
+intellisense: NSTicketCategoryEntity.SetParentId
 keywords: SetParentId(Integer)
+so.topic: reference
 ---
 
 

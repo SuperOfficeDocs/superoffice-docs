@@ -1,9 +1,9 @@
 ---
-title: NSReportEntity CreateFavorite(Integer sourceId, String name, String description)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity CreateFavorite(Integer p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_CreateFavorite_Integer_p_0_String_p_1_String_p_2
+description: NSReportAgent.CreateFavorite(Integer p_0, String p_1, String p_2)
+intellisense: NSReportAgent.CreateFavorite
 keywords: CreateFavorite(Integer,String,String)
+so.topic: reference
 ---
 
 

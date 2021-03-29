@@ -1,8 +1,8 @@
 ---
-title: Priority
-path: /EJScript/Classes/Priority
-intellisense: 1
-classref: 1
+title: crmscript_ref_Priority
+description: Priority
+intellisense: Void.Priority
+so.topic: reference
 ---
 
 

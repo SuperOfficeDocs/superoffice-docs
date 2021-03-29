@@ -1,10 +1,10 @@
 ---
-title: DateTime GetPublishTo()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetPublishTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetPublishTo
+description: NSAppointmentEntity.GetPublishTo()
+intellisense: NSAppointmentEntity.GetPublishTo
 sortOrder: 936
 keywords: GetPublishTo()
+so.topic: reference
 ---
 
 

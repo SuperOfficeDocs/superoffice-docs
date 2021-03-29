@@ -1,10 +1,10 @@
 ---
-title: Void SetTableName(String TableName)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetTableName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_SetTableName_String_p_0
+description: NSForeignKey.SetTableName(String p_0)
+intellisense: NSForeignKey.SetTableName
 sortOrder: 3746
 keywords: SetTableName(String)
+so.topic: reference
 ---
 
 

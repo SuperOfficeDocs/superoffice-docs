@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraInfo(Integer ExtraInfo)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetExtraInfo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetExtraInfo_Integer_p_0
+description: NSSystemEventEntity.SetExtraInfo(Integer p_0)
+intellisense: NSSystemEventEntity.SetExtraInfo
 keywords: SetExtraInfo(Integer)
+so.topic: reference
 ---
 
 

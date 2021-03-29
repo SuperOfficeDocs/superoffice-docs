@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOffText(String SignOffText)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetSignOffText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetSignOffText_String_p_0
+description: NSProjectEvent.SetSignOffText(String p_0)
+intellisense: NSProjectEvent.SetSignOffText
 keywords: SetSignOffText(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetProductTypeKey()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetProductTypeKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetProductTypeKey
+description: NSQuoteLine.GetProductTypeKey()
+intellisense: NSQuoteLine.GetProductTypeKey
 keywords: GetProductTypeKey()
+so.topic: reference
 ---
 
 

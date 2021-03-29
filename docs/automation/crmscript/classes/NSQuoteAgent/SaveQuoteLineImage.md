@@ -1,9 +1,9 @@
 ---
-title: Void SaveQuoteLineImage(Integer quoteLineId, NSImage image, Integer rank)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void SaveQuoteLineImage(Integer p_0, NSImage p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuoteLineImage_Integer_p_0_NSImage_p_1_Integer_p_2
+description: NSQuoteAgent.SaveQuoteLineImage(Integer p_0, NSImage p_1, Integer p_2)
+intellisense: NSQuoteAgent.SaveQuoteLineImage
 keywords: SaveQuoteLineImage(Integer,NSImage,Integer)
+so.topic: reference
 ---
 
 

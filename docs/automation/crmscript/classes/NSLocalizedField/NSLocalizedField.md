@@ -1,8 +1,8 @@
 ---
-title: NSLocalizedField
-path: /EJScript/Classes/NSLocalizedField
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedField
+description: NSLocalizedField
+intellisense: Void.NSLocalizedField
+so.topic: reference
 ---
 
 

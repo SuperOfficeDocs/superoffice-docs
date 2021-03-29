@@ -1,9 +1,9 @@
 ---
-title: Void addOrder(String field, String function, Bool ascending)
-path: /EJScript/Classes/SearchEngine/member functions/Void addOrder(String field, String function, Bool ascending)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addOrder_String_field_String_function_Bool_ascending
+description: SearchEngine.addOrder(String field, String function, Bool ascending)
+intellisense: SearchEngine.addOrder
 keywords: addOrder(String,String,Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetMappings(String Mappings)
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Void SetMappings(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_SetMappings_String_p_0
+description: NSErpSyncActorSummary.SetMappings(String p_0)
+intellisense: NSErpSyncActorSummary.SetMappings
 sortOrder: 3159
 keywords: SetMappings(String)
+so.topic: reference
 ---
 
 

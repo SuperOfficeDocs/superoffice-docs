@@ -1,10 +1,10 @@
 ---
-title: Integer GetDocumentId()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetDocumentId
+description: NSEMailSOInfo.GetDocumentId()
+intellisense: NSEMailSOInfo.GetDocumentId
 sortOrder: 3048
 keywords: GetDocumentId()
+so.topic: reference
 ---
 
 

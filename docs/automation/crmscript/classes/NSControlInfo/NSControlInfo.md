@@ -1,9 +1,9 @@
 ---
-title: NSControlInfo
-path: /EJScript/Classes/NSControlInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo
+description: NSControlInfo
+intellisense: Void.NSControlInfo
 sortOrder: 1994
+so.topic: reference
 ---
 
 

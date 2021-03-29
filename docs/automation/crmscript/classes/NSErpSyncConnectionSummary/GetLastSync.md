@@ -1,10 +1,10 @@
 ---
-title: DateTime GetLastSync()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/DateTime GetLastSync()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_GetLastSync
+description: NSErpSyncConnectionSummary.GetLastSync()
+intellisense: NSErpSyncConnectionSummary.GetLastSync
 sortOrder: 3229
 keywords: GetLastSync()
+so.topic: reference
 ---
 
 

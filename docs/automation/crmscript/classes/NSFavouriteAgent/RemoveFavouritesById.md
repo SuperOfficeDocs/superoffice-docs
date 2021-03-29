@@ -1,10 +1,10 @@
 ---
-title: Void RemoveFavouritesById(Integer[] favouriteIds)
-path: /EJScript/Classes/NSFavouriteAgent/Member functions/Void RemoveFavouritesById(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavouriteAgent_RemoveFavouritesById_Integer__p_0
+description: NSFavouriteAgent.RemoveFavouritesById(Integer[] p_0)
+intellisense: NSFavouriteAgent.RemoveFavouritesById
 sortOrder: 3454
 keywords: RemoveFavouritesById(Integer[])
+so.topic: reference
 ---
 
 

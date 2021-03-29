@@ -1,9 +1,9 @@
 ---
-title: Void SetCustomFields(Map fields)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetCustomFields(Map p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetCustomFields_Map_p_0
+description: NSProjectEntity.SetCustomFields(Map p_0)
+intellisense: NSProjectEntity.SetCustomFields
 keywords: SetCustomFields(Map)
+so.topic: reference
 ---
 
 

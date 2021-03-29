@@ -1,9 +1,9 @@
 ---
-title: Float GetCurrentOverdueTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetCurrentOverdueTotalBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetCurrentOverdueTotalBaseCurrency
+description: NSSaleSummary.GetCurrentOverdueTotalBaseCurrency()
+intellisense: NSSaleSummary.GetCurrentOverdueTotalBaseCurrency
 keywords: GetCurrentOverdueTotalBaseCurrency()
+so.topic: reference
 ---
 
 

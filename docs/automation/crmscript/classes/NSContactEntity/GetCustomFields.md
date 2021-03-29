@@ -1,10 +1,10 @@
 ---
-title: Map GetCustomFields()
-path: /EJScript/Classes/NSContactEntity/Member functions/Map GetCustomFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetCustomFields
+description: NSContactEntity.GetCustomFields()
+intellisense: NSContactEntity.GetCustomFields
 sortOrder: 1846
 keywords: GetCustomFields()
+so.topic: reference
 ---
 
 

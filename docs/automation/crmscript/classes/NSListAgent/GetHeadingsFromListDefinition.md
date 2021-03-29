@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity[] GetHeadingsFromListDefinition(Integer id)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] GetHeadingsFromListDefinition(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetHeadingsFromListDefinition_Integer_p_0
+description: NSListAgent.GetHeadingsFromListDefinition(Integer p_0)
+intellisense: NSListAgent.GetHeadingsFromListDefinition
 keywords: GetHeadingsFromListDefinition(Integer)
+so.topic: reference
 ---
 
 

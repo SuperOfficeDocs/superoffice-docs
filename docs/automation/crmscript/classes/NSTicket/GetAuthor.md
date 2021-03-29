@@ -1,9 +1,9 @@
 ---
-title: String GetAuthor()
-path: /EJScript/Classes/NSTicket/Member functions/String GetAuthor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetAuthor
+description: NSTicket.GetAuthor()
+intellisense: NSTicket.GetAuthor
 keywords: GetAuthor()
+so.topic: reference
 ---
 
 

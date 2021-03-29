@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternative CreateDefaultQuoteAlternative()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative CreateDefaultQuoteAlternative()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateDefaultQuoteAlternative
+description: NSQuoteAgent.CreateDefaultQuoteAlternative()
+intellisense: NSQuoteAgent.CreateDefaultQuoteAlternative
 keywords: CreateDefaultQuoteAlternative()
+so.topic: reference
 ---
 
 

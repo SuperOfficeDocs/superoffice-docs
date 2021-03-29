@@ -1,9 +1,9 @@
 ---
-title: Void setFolderId(Integer folderId)
-path: /EJScript/Classes/SpmStaticList/Member functions/Void setFolderId(Integer folderId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmStaticList_setFolderId_Integer_folderId
+description: SpmStaticList.setFolderId(Integer folderId)
+intellisense: SpmStaticList.setFolderId
 keywords: setFolderId(Integer)
+so.topic: reference
 ---
 
 

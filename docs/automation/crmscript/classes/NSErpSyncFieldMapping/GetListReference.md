@@ -1,10 +1,10 @@
 ---
-title: String GetListReference()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/String GetListReference()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetListReference
+description: NSErpSyncFieldMapping.GetListReference()
+intellisense: NSErpSyncFieldMapping.GetListReference
 sortOrder: 3303
 keywords: GetListReference()
+so.topic: reference
 ---
 
 

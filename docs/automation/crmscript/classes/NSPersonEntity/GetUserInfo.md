@@ -1,9 +1,9 @@
 ---
-title: NSUserInfo GetUserInfo()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSUserInfo GetUserInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetUserInfo
+description: NSPersonEntity.GetUserInfo()
+intellisense: NSPersonEntity.GetUserInfo
 keywords: GetUserInfo()
+so.topic: reference
 ---
 
 

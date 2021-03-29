@@ -1,10 +1,10 @@
 ---
-title: Void ToggleSubscription(Integer folderId, Bool subscriptionStatus)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void ToggleSubscription(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_ToggleSubscription_Integer_p_0_Bool_p_1
+description: NSEMailAgent.ToggleSubscription(Integer p_0, Bool p_1)
+intellisense: NSEMailAgent.ToggleSubscription
 sortOrder: 2871
 keywords: ToggleSubscription(Integer,Bool)
+so.topic: reference
 ---
 
 

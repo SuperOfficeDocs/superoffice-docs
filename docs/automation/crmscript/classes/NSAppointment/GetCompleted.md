@@ -1,10 +1,10 @@
 ---
-title: Integer GetCompleted()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetCompleted
+description: NSAppointment.GetCompleted()
+intellisense: NSAppointment.GetCompleted
 sortOrder: 733
 keywords: GetCompleted()
+so.topic: reference
 ---
 
 

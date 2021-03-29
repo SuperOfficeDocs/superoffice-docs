@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsCompleted()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetIsCompleted
+description: NSAppointmentSyncData.GetIsCompleted()
+intellisense: NSAppointmentSyncData.GetIsCompleted
 sortOrder: 1044
 keywords: GetIsCompleted()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetProjectNumber()
-path: /EJScript/Classes/NSProjectEntity/Member functions/String GetProjectNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetProjectNumber
+description: NSProjectEntity.GetProjectNumber()
+intellisense: NSProjectEntity.GetProjectNumber
 keywords: GetProjectNumber()
+so.topic: reference
 ---
 
 

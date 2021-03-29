@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayTooltip()
-path: /EJScript/Classes/NSPreference/Member functions/String GetDisplayTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetDisplayTooltip
+description: NSPreference.GetDisplayTooltip()
+intellisense: NSPreference.GetDisplayTooltip
 keywords: GetDisplayTooltip()
+so.topic: reference
 ---
 
 

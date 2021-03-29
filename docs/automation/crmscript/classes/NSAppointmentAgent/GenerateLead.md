@@ -1,10 +1,10 @@
 ---
-title: NSSalesActivity GenerateLead(Integer associateIdForNewContact, String leadDescription, String relation, Integer relationId, String leadContact, String leadPersonFirstname, String leadPersonLastname, String leadPersonEmail, String leadPhoneNumber, String creatorsContact, String creatorsFirstname, String creatorsLastname)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSalesActivity GenerateLead(Integer p_0, String p_1, String p_2, Integer p_3, String p_4, String p_5, String p_6, String p_7, String p_8, String p_9, String p_10, String p_11)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GenerateLead_Integer_p_0_String_p_1_String_p_2_Integer_p_3_String_p_4_String_p_5_String_p_6_String_p_7_String_p_8_String_p_9_String_p_10_String_p_11
+description: NSAppointmentAgent.GenerateLead(Integer p_0, String p_1, String p_2, Integer p_3, String p_4, String p_5, String p_6, String p_7, String p_8, String p_9, String p_10, String p_11)
+intellisense: NSAppointmentAgent.GenerateLead
 sortOrder: 895
 keywords: GenerateLead(Integer,String,String,Integer,String,String,String,String,String,String,String,String)
+so.topic: reference
 ---
 
 

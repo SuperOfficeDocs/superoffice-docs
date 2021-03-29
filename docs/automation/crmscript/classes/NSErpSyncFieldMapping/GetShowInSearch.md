@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInSearch()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Bool GetShowInSearch()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetShowInSearch
+description: NSErpSyncFieldMapping.GetShowInSearch()
+intellisense: NSErpSyncFieldMapping.GetShowInSearch
 sortOrder: 3289
 keywords: GetShowInSearch()
+so.topic: reference
 ---
 
 

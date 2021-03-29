@@ -1,10 +1,10 @@
 ---
-title: Integer[] GetArrayOfIds()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Integer[] GetArrayOfIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetArrayOfIds
+description: NSAAATestClassForModeling.GetArrayOfIds()
+intellisense: NSAAATestClassForModeling.GetArrayOfIds
 sortOrder: 8928
 keywords: GetArrayOfIds()
+so.topic: reference
 ---
 
 

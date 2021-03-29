@@ -1,9 +1,9 @@
 ---
-title: NSTabOrder GetTabOrder(String tabName)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSTabOrder GetTabOrder(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetTabOrder_String_p_0
+description: NSPreferenceAgent.GetTabOrder(String p_0)
+intellisense: NSPreferenceAgent.GetTabOrder
 keywords: GetTabOrder(String)
+so.topic: reference
 ---
 
 

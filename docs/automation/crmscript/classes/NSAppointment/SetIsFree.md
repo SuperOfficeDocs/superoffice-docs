@@ -1,10 +1,10 @@
 ---
-title: Void SetIsFree(Bool IsFree)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsFree(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetIsFree_Bool_p_0
+description: NSAppointment.SetIsFree(Bool p_0)
+intellisense: NSAppointment.SetIsFree
 sortOrder: 797
 keywords: SetIsFree(Bool)
+so.topic: reference
 ---
 
 

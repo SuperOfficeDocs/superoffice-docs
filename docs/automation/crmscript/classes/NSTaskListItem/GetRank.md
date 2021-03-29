@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetRank
+description: NSTaskListItem.GetRank()
+intellisense: NSTaskListItem.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetMessage(String Message)
-path: /EJScript/Classes/NSWebhookResult/Member functions/Void SetMessage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookResult_SetMessage_String_p_0
+description: NSWebhookResult.SetMessage(String p_0)
+intellisense: NSWebhookResult.SetMessage
 keywords: SetMessage(String)
+so.topic: reference
 ---
 
 

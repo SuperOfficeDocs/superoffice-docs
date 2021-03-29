@@ -1,10 +1,10 @@
 ---
-title: String[] GetAvailableRestrictionColumns(String storageType, String providerName)
-path: /EJScript/Classes/NSFindAgent/Member functions/String[] GetAvailableRestrictionColumns(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetAvailableRestrictionColumns_String_p_0_String_p_1
+description: NSFindAgent.GetAvailableRestrictionColumns(String p_0, String p_1)
+intellisense: NSFindAgent.GetAvailableRestrictionColumns
 sortOrder: 3681
 keywords: GetAvailableRestrictionColumns(String,String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetSourcePersonId()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetSourcePersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetSourcePersonId
+description: NSContactRelationEntity.GetSourcePersonId()
+intellisense: NSContactRelationEntity.GetSourcePersonId
 sortOrder: 1952
 keywords: GetSourcePersonId()
+so.topic: reference
 ---
 
 

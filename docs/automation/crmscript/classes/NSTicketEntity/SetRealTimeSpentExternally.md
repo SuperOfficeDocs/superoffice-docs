@@ -1,9 +1,9 @@
 ---
-title: Void SetRealTimeSpentExternally(Integer RealTimeSpentExternally)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRealTimeSpentExternally(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetRealTimeSpentExternally_Integer_p_0
+description: NSTicketEntity.SetRealTimeSpentExternally(Integer p_0)
+intellisense: NSTicketEntity.SetRealTimeSpentExternally
 keywords: SetRealTimeSpentExternally(Integer)
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSelectableMDOListItem
-path: /EJScript/Classes/NSSelectableMDOListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem
+description: NSSelectableMDOListItem
+intellisense: Void.NSSelectableMDOListItem
+so.topic: reference
 ---
 
 

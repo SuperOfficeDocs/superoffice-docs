@@ -1,9 +1,9 @@
 ---
-title: Void SetCompleted(Bool Completed)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetCompleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetCompleted_Bool_p_0
+description: NSProjectEntity.SetCompleted(Bool p_0)
+intellisense: NSProjectEntity.SetCompleted
 keywords: SetCompleted(Bool)
+so.topic: reference
 ---
 
 

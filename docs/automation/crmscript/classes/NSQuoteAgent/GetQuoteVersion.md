@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersion GetQuoteVersion(Integer quoteVersionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersion GetQuoteVersion(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetQuoteVersion_Integer_p_0
+description: NSQuoteAgent.GetQuoteVersion(Integer p_0)
+intellisense: NSQuoteAgent.GetQuoteVersion
 keywords: GetQuoteVersion(Integer)
+so.topic: reference
 ---
 
 

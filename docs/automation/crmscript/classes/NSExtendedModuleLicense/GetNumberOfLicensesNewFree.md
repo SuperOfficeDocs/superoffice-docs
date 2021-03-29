@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumberOfLicensesNewFree()
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Integer GetNumberOfLicensesNewFree()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesNewFree
+description: NSExtendedModuleLicense.GetNumberOfLicensesNewFree()
+intellisense: NSExtendedModuleLicense.GetNumberOfLicensesNewFree
 sortOrder: 3420
 keywords: GetNumberOfLicensesNewFree()
+so.topic: reference
 ---
 
 

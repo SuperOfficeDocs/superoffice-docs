@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateAccessIds(Integer[] AssociateAccessIds)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetAssociateAccessIds(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetAssociateAccessIds_Integer__p_0
+description: NSErpConnection.SetAssociateAccessIds(Integer[] p_0)
+intellisense: NSErpConnection.SetAssociateAccessIds
 sortOrder: 3093
 keywords: SetAssociateAccessIds(Integer[])
+so.topic: reference
 ---
 
 

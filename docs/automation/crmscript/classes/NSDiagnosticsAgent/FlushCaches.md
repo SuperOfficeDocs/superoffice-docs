@@ -1,10 +1,10 @@
 ---
-title: Void FlushCaches()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void FlushCaches()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_FlushCaches
+description: NSDiagnosticsAgent.FlushCaches()
+intellisense: NSDiagnosticsAgent.FlushCaches
 sortOrder: 2399
 keywords: FlushCaches()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCountRows(Integer CountRows)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetCountRows(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_SetCountRows_Integer_p_0
+description: NSReportLabelLayoutEntity.SetCountRows(Integer p_0)
+intellisense: NSReportLabelLayoutEntity.SetCountRows
 keywords: SetCountRows(Integer)
+so.topic: reference
 ---
 
 

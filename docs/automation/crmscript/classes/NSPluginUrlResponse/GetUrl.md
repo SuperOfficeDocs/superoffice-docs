@@ -1,9 +1,9 @@
 ---
-title: String GetUrl()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginUrlResponse_GetUrl
+description: NSPluginUrlResponse.GetUrl()
+intellisense: NSPluginUrlResponse.GetUrl
 keywords: GetUrl()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Float GetUnits()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Float GetUnits()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_GetUnits
+description: NSCurrencyEntity.GetUnits()
+intellisense: NSCurrencyEntity.GetUnits
 sortOrder: 2181
 keywords: GetUnits()
+so.topic: reference
 ---
 
 

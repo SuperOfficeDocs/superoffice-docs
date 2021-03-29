@@ -1,9 +1,9 @@
 ---
-title: Void DeleteExternalUser(Integer associateId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void DeleteExternalUser(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_DeleteExternalUser_Integer_p_0
+description: NSUserAgent.DeleteExternalUser(Integer p_0)
+intellisense: NSUserAgent.DeleteExternalUser
 keywords: DeleteExternalUser(Integer)
+so.topic: reference
 ---
 
 

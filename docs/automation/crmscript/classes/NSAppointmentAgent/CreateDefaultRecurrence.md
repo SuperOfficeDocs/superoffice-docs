@@ -1,10 +1,10 @@
 ---
-title: NSRecurrenceInfo CreateDefaultRecurrence()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSRecurrenceInfo CreateDefaultRecurrence()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultRecurrence
+description: NSAppointmentAgent.CreateDefaultRecurrence()
+intellisense: NSAppointmentAgent.CreateDefaultRecurrence
 sortOrder: 892
 keywords: CreateDefaultRecurrence()
+so.topic: reference
 ---
 
 

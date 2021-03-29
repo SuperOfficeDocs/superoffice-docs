@@ -1,9 +1,9 @@
 ---
-title: Void SetProductId(Integer ProductId)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetProductId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetProductId_Integer_p_0
+description: NSProduct.SetProductId(Integer p_0)
+intellisense: NSProduct.SetProductId
 keywords: SetProductId(Integer)
+so.topic: reference
 ---
 
 

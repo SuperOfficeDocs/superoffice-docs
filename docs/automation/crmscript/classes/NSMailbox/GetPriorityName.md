@@ -1,9 +1,9 @@
 ---
-title: String GetPriorityName()
-path: /EJScript/Classes/NSMailbox/Member functions/String GetPriorityName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox_GetPriorityName
+description: NSMailbox.GetPriorityName()
+intellisense: NSMailbox.GetPriorityName
 keywords: GetPriorityName()
+so.topic: reference
 ---
 
 

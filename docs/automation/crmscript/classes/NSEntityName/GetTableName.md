@@ -1,10 +1,10 @@
 ---
-title: String GetTableName()
-path: /EJScript/Classes/NSEntityName/Member functions/String GetTableName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEntityName_GetTableName
+description: NSEntityName.GetTableName()
+intellisense: NSEntityName.GetTableName
 sortOrder: 3071
 keywords: GetTableName()
+so.topic: reference
 ---
 
 

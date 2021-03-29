@@ -1,9 +1,9 @@
 ---
-title: Void SetTimestamp(DateTime Timestamp)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetTimestamp(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_SetTimestamp_DateTime_p_0
+description: NSWebAppUsage.SetTimestamp(DateTime p_0)
+intellisense: NSWebAppUsage.SetTimestamp
 keywords: SetTimestamp(DateTime)
+so.topic: reference
 ---
 
 

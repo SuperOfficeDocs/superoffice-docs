@@ -1,8 +1,8 @@
 ---
-title: NSWindowPosSize
-path: /EJScript/Classes/NSWindowPosSize
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize
+description: NSWindowPosSize
+intellisense: Void.NSWindowPosSize
+so.topic: reference
 ---
 
 

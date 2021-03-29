@@ -1,9 +1,9 @@
 ---
-title: Void SetRights(String Rights)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetRights(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetRights_String_p_0
+description: NSQuoteLine.SetRights(String p_0)
+intellisense: NSQuoteLine.SetRights
 keywords: SetRights(String)
+so.topic: reference
 ---
 
 

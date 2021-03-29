@@ -1,10 +1,10 @@
 ---
-title: String GetHelpDispatcherUrl()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetHelpDispatcherUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetHelpDispatcherUrl
+description: NSConfigurationAgent.GetHelpDispatcherUrl()
+intellisense: NSConfigurationAgent.GetHelpDispatcherUrl
 sortOrder: 1615
 keywords: GetHelpDispatcherUrl()
+so.topic: reference
 ---
 
 

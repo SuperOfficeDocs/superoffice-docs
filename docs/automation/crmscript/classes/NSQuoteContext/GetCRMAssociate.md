@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetCRMAssociate()
-path: /EJScript/Classes/NSQuoteContext/Member functions/NSAssociate GetCRMAssociate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_GetCRMAssociate
+description: NSQuoteContext.GetCRMAssociate()
+intellisense: NSQuoteContext.GetCRMAssociate
 keywords: GetCRMAssociate()
+so.topic: reference
 ---
 
 

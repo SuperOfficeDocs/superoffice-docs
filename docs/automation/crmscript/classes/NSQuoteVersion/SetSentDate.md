@@ -1,9 +1,9 @@
 ---
-title: Void SetSentDate(DateTime SentDate)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetSentDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetSentDate_DateTime_p_0
+description: NSQuoteVersion.SetSentDate(DateTime p_0)
+intellisense: NSQuoteVersion.SetSentDate
 keywords: SetSentDate(DateTime)
+so.topic: reference
 ---
 
 

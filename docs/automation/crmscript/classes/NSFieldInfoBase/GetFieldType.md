@@ -1,10 +1,10 @@
 ---
-title: Integer GetFieldType()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Integer GetFieldType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetFieldType
+description: NSFieldInfoBase.GetFieldType()
+intellisense: NSFieldInfoBase.GetFieldType
 sortOrder: 3467
 keywords: GetFieldType()
+so.topic: reference
 ---
 
 

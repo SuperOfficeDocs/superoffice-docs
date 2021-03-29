@@ -1,9 +1,9 @@
 ---
-title: Void SetUnitCost(Float UnitCost)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetUnitCost(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetUnitCost_Float_p_0
+description: NSProduct.SetUnitCost(Float p_0)
+intellisense: NSProduct.SetUnitCost
 keywords: SetUnitCost(Float)
+so.topic: reference
 ---
 
 

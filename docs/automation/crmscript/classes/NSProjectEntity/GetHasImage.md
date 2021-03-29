@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasImage()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Bool GetHasImage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetHasImage
+description: NSProjectEntity.GetHasImage()
+intellisense: NSProjectEntity.GetHasImage
 keywords: GetHasImage()
+so.topic: reference
 ---
 
 

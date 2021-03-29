@@ -1,10 +1,11 @@
 ---
-title: DateTime GenericToDateTime(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/DateTime GenericToDateTime(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_GenericToDateTime_Generic_generic
+description: Generic.GenericToDateTime(Generic generic)
+intellisense: Generic.GenericToDateTime
 langref: 1
 sortOrder: 50
 keywords: GenericToDateTime(Generic)
+so.topic: reference
 ---
 
 

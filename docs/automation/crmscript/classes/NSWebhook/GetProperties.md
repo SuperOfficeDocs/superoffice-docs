@@ -1,9 +1,9 @@
 ---
-title: NSStringObjectDictionary GetProperties()
-path: /EJScript/Classes/NSWebhook/Member functions/NSStringObjectDictionary GetProperties()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetProperties
+description: NSWebhook.GetProperties()
+intellisense: NSWebhook.GetProperties
 keywords: GetProperties()
+so.topic: reference
 ---
 
 

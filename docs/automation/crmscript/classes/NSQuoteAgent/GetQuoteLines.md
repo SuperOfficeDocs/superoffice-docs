@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLine[] GetQuoteLines(Integer quoteAlternativeId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine[] GetQuoteLines(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetQuoteLines_Integer_p_0
+description: NSQuoteAgent.GetQuoteLines(Integer p_0)
+intellisense: NSQuoteAgent.GetQuoteLines
 keywords: GetQuoteLines(Integer)
+so.topic: reference
 ---
 
 

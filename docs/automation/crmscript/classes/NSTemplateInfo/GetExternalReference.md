@@ -1,9 +1,9 @@
 ---
-title: String GetExternalReference()
-path: /EJScript/Classes/NSTemplateInfo/Member functions/String GetExternalReference()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo_GetExternalReference
+description: NSTemplateInfo.GetExternalReference()
+intellisense: NSTemplateInfo.GetExternalReference
 keywords: GetExternalReference()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetFieldHeight()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetFieldHeight()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldHeight
+description: NSUserDefinedFieldInfo.GetFieldHeight()
+intellisense: NSUserDefinedFieldInfo.GetFieldHeight
 keywords: GetFieldHeight()
+so.topic: reference
 ---
 
 

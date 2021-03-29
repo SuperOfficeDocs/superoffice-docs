@@ -1,10 +1,10 @@
 ---
-title: NSTaskListItem[] GetTaskListItems(Bool includeDeleted)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSTaskListItem[] GetTaskListItems(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetTaskListItems_Bool_p_0
+description: NSAppointmentAgent.GetTaskListItems(Bool p_0)
+intellisense: NSAppointmentAgent.GetTaskListItems
 sortOrder: 905
 keywords: GetTaskListItems(Bool)
+so.topic: reference
 ---
 
 

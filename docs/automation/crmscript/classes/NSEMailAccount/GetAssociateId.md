@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSEMailAccount/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetAssociateId
+description: NSEMailAccount.GetAssociateId()
+intellisense: NSEMailAccount.GetAssociateId
 sortOrder: 2745
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

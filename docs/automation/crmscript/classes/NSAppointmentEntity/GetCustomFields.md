@@ -1,10 +1,10 @@
 ---
-title: Map GetCustomFields()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Map GetCustomFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetCustomFields
+description: NSAppointmentEntity.GetCustomFields()
+intellisense: NSAppointmentEntity.GetCustomFields
 sortOrder: 952
 keywords: GetCustomFields()
+so.topic: reference
 ---
 
 

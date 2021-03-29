@@ -1,9 +1,9 @@
 ---
-title: Void SetLinkId(Integer LinkId)
-path: /EJScript/Classes/NSLink/Member functions/Void SetLinkId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLink_SetLinkId_Integer_p_0
+description: NSLink.SetLinkId(Integer p_0)
+intellisense: NSLink.SetLinkId
 keywords: SetLinkId(Integer)
+so.topic: reference
 ---
 
 

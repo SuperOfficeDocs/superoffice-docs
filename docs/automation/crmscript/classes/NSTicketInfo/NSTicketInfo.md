@@ -1,8 +1,8 @@
 ---
-title: NSTicketInfo
-path: /EJScript/Classes/NSTicketInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo
+description: NSTicketInfo
+intellisense: Void.NSTicketInfo
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetEmailAddressName()
-path: /EJScript/Classes/NSContact/Member functions/String GetEmailAddressName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetEmailAddressName
+description: NSContact.GetEmailAddressName()
+intellisense: NSContact.GetEmailAddressName
 sortOrder: 1733
 keywords: GetEmailAddressName()
+so.topic: reference
 ---
 
 

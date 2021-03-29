@@ -1,9 +1,9 @@
 ---
-title: NSSaleTypeStageLink GetSaleTypeStageLink()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/NSSaleTypeStageLink GetSaleTypeStageLink()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetSaleTypeStageLink
+description: NSSuggestedAppointmentEntity.GetSaleTypeStageLink()
+intellisense: NSSuggestedAppointmentEntity.GetSaleTypeStageLink
 keywords: GetSaleTypeStageLink()
+so.topic: reference
 ---
 
 

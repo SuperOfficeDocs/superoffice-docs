@@ -1,10 +1,10 @@
 ---
-title: NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig customerCenterConfig)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerCenterConfig SaveCustomerCenterConfig(NSCustomerCenterConfig p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_SaveCustomerCenterConfig_NSCustomerCenterConfig_p_0
+description: NSCustomerServiceAgent.SaveCustomerCenterConfig(NSCustomerCenterConfig p_0)
+intellisense: NSCustomerServiceAgent.SaveCustomerCenterConfig
 sortOrder: 2229
 keywords: SaveCustomerCenterConfig(NSCustomerCenterConfig)
+so.topic: reference
 ---
 
 

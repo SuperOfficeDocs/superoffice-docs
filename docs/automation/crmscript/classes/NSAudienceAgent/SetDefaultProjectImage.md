@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultProjectImage(String layoutName, NSImage image)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/Void SetDefaultProjectImage(String p_0, NSImage p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_SetDefaultProjectImage_String_p_0_NSImage_p_1
+description: NSAudienceAgent.SetDefaultProjectImage(String p_0, NSImage p_1)
+intellisense: NSAudienceAgent.SetDefaultProjectImage
 sortOrder: 1315
 keywords: SetDefaultProjectImage(String,NSImage)
+so.topic: reference
 ---
 
 

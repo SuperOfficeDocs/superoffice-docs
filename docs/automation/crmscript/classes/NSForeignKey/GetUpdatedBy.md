@@ -1,10 +1,10 @@
 ---
-title: String GetUpdatedBy()
-path: /EJScript/Classes/NSForeignKey/Member functions/String GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_GetUpdatedBy
+description: NSForeignKey.GetUpdatedBy()
+intellisense: NSForeignKey.GetUpdatedBy
 sortOrder: 3740
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

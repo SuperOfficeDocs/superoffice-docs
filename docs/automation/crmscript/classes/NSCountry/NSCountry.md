@@ -1,9 +1,9 @@
 ---
-title: NSCountry
-path: /EJScript/Classes/NSCountry
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry
+description: NSCountry
+intellisense: Void.NSCountry
 sortOrder: 2010
+so.topic: reference
 ---
 
 

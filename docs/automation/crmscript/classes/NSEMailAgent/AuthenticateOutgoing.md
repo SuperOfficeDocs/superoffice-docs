@@ -1,10 +1,10 @@
 ---
-title: Bool AuthenticateOutgoing(NSEMailConnectionInfo connectionInfo)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool AuthenticateOutgoing(NSEMailConnectionInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_AuthenticateOutgoing_NSEMailConnectionInfo_p_0
+description: NSEMailAgent.AuthenticateOutgoing(NSEMailConnectionInfo p_0)
+intellisense: NSEMailAgent.AuthenticateOutgoing
 sortOrder: 2784
 keywords: AuthenticateOutgoing(NSEMailConnectionInfo)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetPaperWidth()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetPaperWidth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetPaperWidth
+description: NSReportLabelLayoutEntity.GetPaperWidth()
+intellisense: NSReportLabelLayoutEntity.GetPaperWidth
 keywords: GetPaperWidth()
+so.topic: reference
 ---
 
 

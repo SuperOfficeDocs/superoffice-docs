@@ -1,10 +1,10 @@
 ---
-title: Void SetDate(DateTime Date)
-path: /EJScript/Classes/NSActivityInformationListItem/Member functions/Void SetDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityInformationListItem_SetDate_DateTime_p_0
+description: NSActivityInformationListItem.SetDate(DateTime p_0)
+intellisense: NSActivityInformationListItem.SetDate
 sortOrder: 584
 keywords: SetDate(DateTime)
+so.topic: reference
 ---
 
 

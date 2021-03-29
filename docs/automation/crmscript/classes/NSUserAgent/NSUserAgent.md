@@ -1,8 +1,8 @@
 ---
-title: NSUserAgent
-path: /EJScript/Classes/NSUserAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent
+description: NSUserAgent
+intellisense: Void.NSUserAgent
+so.topic: reference
 ---
 
 

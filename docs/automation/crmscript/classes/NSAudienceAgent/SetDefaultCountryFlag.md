@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultCountryFlag(String layoutName, NSImage image)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/Void SetDefaultCountryFlag(String p_0, NSImage p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_SetDefaultCountryFlag_String_p_0_NSImage_p_1
+description: NSAudienceAgent.SetDefaultCountryFlag(String p_0, NSImage p_1)
+intellisense: NSAudienceAgent.SetDefaultCountryFlag
 sortOrder: 1313
 keywords: SetDefaultCountryFlag(String,NSImage)
+so.topic: reference
 ---
 
 

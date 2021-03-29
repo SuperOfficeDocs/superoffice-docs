@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSTag/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTag_GetId
+description: NSTag.GetId()
+intellisense: NSTag.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String getValue(String colName)
-path: /EJScript/Classes/Customer/Member functions/String getValue(String colName)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Customer_getValue_String_colName
+description: Customer.getValue(String colName)
+intellisense: Customer.getValue
 sortOrder: 184
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Returns the value of the given field of the customer.

@@ -1,10 +1,10 @@
 ---
-title: Integer GetFlags()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Integer GetFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_GetFlags
+description: NSEMailEnvelope.GetFlags()
+intellisense: NSEMailEnvelope.GetFlags
 sortOrder: 3003
 keywords: GetFlags()
+so.topic: reference
 ---
 
 

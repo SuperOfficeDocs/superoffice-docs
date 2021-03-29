@@ -1,10 +1,10 @@
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetPersonId_Integer_p_0
+description: NSAlarmData.SetPersonId(Integer p_0)
+intellisense: NSAlarmData.SetPersonId
 sortOrder: 686
 keywords: SetPersonId(Integer)
+so.topic: reference
 ---
 
 

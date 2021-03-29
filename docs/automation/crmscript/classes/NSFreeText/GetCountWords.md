@@ -1,10 +1,10 @@
 ---
-title: Integer GetCountWords()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetCountWords()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetCountWords
+description: NSFreeText.GetCountWords()
+intellisense: NSFreeText.GetCountWords
 sortOrder: 3855
 keywords: GetCountWords()
+so.topic: reference
 ---
 
 

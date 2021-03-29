@@ -1,9 +1,9 @@
 ---
-title: Void SetERPName(String ERPName)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetERPName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetERPName_String_p_0
+description: NSQuoteConnection.SetERPName(String p_0)
+intellisense: NSQuoteConnection.SetERPName
 keywords: SetERPName(String)
+so.topic: reference
 ---
 
 

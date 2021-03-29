@@ -1,10 +1,10 @@
 ---
-title: Integer abs()
-path: /EJScript/Classes/Integer/Member functions/Integer abs()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Integer_abs
+description: Integer.abs()
+intellisense: Integer.abs
 sortOrder: 426
 keywords: abs()
+so.topic: reference
 ---
 
 This function returns the absolute value of the integer.

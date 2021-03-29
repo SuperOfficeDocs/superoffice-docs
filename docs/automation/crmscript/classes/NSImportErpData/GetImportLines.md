@@ -1,10 +1,10 @@
 ---
-title: NSImportLine[] GetImportLines()
-path: /EJScript/Classes/NSImportErpData/Member functions/NSImportLine[] GetImportLines()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportErpData_GetImportLines
+description: NSImportErpData.GetImportLines()
+intellisense: NSImportErpData.GetImportLines
 sortOrder: 3969
 keywords: GetImportLines()
+so.topic: reference
 ---
 
 

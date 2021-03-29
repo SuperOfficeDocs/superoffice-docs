@@ -1,9 +1,9 @@
 ---
-title: Integer[] GetAssociateAccessIds()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer[] GetAssociateAccessIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetAssociateAccessIds
+description: NSQuoteConnection.GetAssociateAccessIds()
+intellisense: NSQuoteConnection.GetAssociateAccessIds
 keywords: GetAssociateAccessIds()
+so.topic: reference
 ---
 
 

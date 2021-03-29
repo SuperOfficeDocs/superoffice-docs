@@ -1,9 +1,9 @@
 ---
-title: Integer GetPhoneId()
-path: /EJScript/Classes/NSProjectMember/Member functions/Integer GetPhoneId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_GetPhoneId
+description: NSProjectMember.GetPhoneId()
+intellisense: NSProjectMember.GetPhoneId
 keywords: GetPhoneId()
+so.topic: reference
 ---
 
 

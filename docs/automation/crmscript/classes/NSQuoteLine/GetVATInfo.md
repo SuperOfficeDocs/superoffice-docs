@@ -1,9 +1,9 @@
 ---
-title: String GetVATInfo()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetVATInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetVATInfo
+description: NSQuoteLine.GetVATInfo()
+intellisense: NSQuoteLine.GetVATInfo
 keywords: GetVATInfo()
+so.topic: reference
 ---
 
 

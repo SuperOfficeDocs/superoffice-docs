@@ -1,8 +1,8 @@
 ---
-title: NSTemplateVariablesParameters
-path: /EJScript/Classes/NSTemplateVariablesParameters
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters
+description: NSTemplateVariablesParameters
+intellisense: Void.NSTemplateVariablesParameters
+so.topic: reference
 ---
 
 

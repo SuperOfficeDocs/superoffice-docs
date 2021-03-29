@@ -1,10 +1,10 @@
 ---
-title: Void SetInvitationStatus(Integer InvitationStatus)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetInvitationStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetInvitationStatus_Integer_p_0
+description: NSAlarmData.SetInvitationStatus(Integer p_0)
+intellisense: NSAlarmData.SetInvitationStatus
 sortOrder: 682
 keywords: SetInvitationStatus(Integer)
+so.topic: reference
 ---
 
 

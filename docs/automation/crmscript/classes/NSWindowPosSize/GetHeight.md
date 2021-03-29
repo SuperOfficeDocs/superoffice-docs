@@ -1,9 +1,9 @@
 ---
-title: Integer GetHeight()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetHeight()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetHeight
+description: NSWindowPosSize.GetHeight()
+intellisense: NSWindowPosSize.GetHeight
 keywords: GetHeight()
+so.topic: reference
 ---
 
 

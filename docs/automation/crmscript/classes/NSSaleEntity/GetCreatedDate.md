@@ -1,9 +1,9 @@
 ---
-title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetCreatedDate
+description: NSSaleEntity.GetCreatedDate()
+intellisense: NSSaleEntity.GetCreatedDate
 keywords: GetCreatedDate()
+so.topic: reference
 ---
 
 

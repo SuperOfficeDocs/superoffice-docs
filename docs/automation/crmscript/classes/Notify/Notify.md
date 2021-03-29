@@ -1,8 +1,8 @@
 ---
-title: Notify
-path: /EJScript/Classes/Notify
-intellisense: 1
-classref: 1
+title: crmscript_ref_Notify
+description: Notify
+intellisense: Void.Notify
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetIsPushNotificationEnabled(Bool IsPushNotificationEnabled)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetIsPushNotificationEnabled(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetIsPushNotificationEnabled_Bool_p_0
+description: NSPocketStartupData.SetIsPushNotificationEnabled(Bool p_0)
+intellisense: NSPocketStartupData.SetIsPushNotificationEnabled
 keywords: SetIsPushNotificationEnabled(Bool)
+so.topic: reference
 ---
 
 

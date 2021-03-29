@@ -1,9 +1,9 @@
 ---
-title: Void SetAutoSuggest(Bool AutoSuggest)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetAutoSuggest(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetAutoSuggest_Bool_p_0
+description: NSSuggestedAppointmentEntity.SetAutoSuggest(Bool p_0)
+intellisense: NSSuggestedAppointmentEntity.SetAutoSuggest
 keywords: SetAutoSuggest(Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSProject GetProject()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSProject GetProject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetProject
+description: NSDocumentEntity.GetProject()
+intellisense: NSDocumentEntity.GetProject
 sortOrder: 2574
 keywords: GetProject()
+so.topic: reference
 ---
 
 

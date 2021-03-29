@@ -1,9 +1,9 @@
 ---
-title: NSDiagnosticsAgent
-path: /EJScript/Classes/NSDiagnosticsAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent
+description: NSDiagnosticsAgent
+intellisense: Void.NSDiagnosticsAgent
 sortOrder: 2388
+so.topic: reference
 ---
 
 

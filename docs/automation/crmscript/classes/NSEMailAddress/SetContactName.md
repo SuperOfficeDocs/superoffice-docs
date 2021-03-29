@@ -1,10 +1,10 @@
 ---
-title: Void SetContactName(String ContactName)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetContactName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_SetContactName_String_p_0
+description: NSEMailAddress.SetContactName(String p_0)
+intellisense: NSEMailAddress.SetContactName
 sortOrder: 2774
 keywords: SetContactName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetName_String_p_0
+description: NSSuggestedAppointment.SetName(String p_0)
+intellisense: NSSuggestedAppointment.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

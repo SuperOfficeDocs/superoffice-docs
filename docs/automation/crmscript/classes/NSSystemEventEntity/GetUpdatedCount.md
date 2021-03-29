@@ -1,9 +1,9 @@
 ---
-title: Integer GetUpdatedCount()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetUpdatedCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetUpdatedCount
+description: NSSystemEventEntity.GetUpdatedCount()
+intellisense: NSSystemEventEntity.GetUpdatedCount
 keywords: GetUpdatedCount()
+so.topic: reference
 ---
 
 

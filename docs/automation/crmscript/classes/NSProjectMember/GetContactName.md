@@ -1,9 +1,9 @@
 ---
-title: String GetContactName()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetContactName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_GetContactName
+description: NSProjectMember.GetContactName()
+intellisense: NSProjectMember.GetContactName
 keywords: GetContactName()
+so.topic: reference
 ---
 
 

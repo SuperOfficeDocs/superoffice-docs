@@ -1,10 +1,10 @@
 ---
-title: String GetFormText()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/String GetFormText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_GetFormText
+description: NSConsentPurpose.GetFormText()
+intellisense: NSConsentPurpose.GetFormText
 sortOrder: 1681
 keywords: GetFormText()
+so.topic: reference
 ---
 
 

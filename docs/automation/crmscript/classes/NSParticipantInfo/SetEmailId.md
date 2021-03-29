@@ -1,9 +1,9 @@
 ---
-title: Void SetEmailId(Integer EmailId)
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Void SetEmailId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo_SetEmailId_Integer_p_0
+description: NSParticipantInfo.SetEmailId(Integer p_0)
+intellisense: NSParticipantInfo.SetEmailId
 keywords: SetEmailId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSFieldMetadata
-path: /EJScript/Classes/NSFieldMetadata
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata
+description: NSFieldMetadata
+intellisense: Void.NSFieldMetadata
 sortOrder: 3573
+so.topic: reference
 ---
 
 

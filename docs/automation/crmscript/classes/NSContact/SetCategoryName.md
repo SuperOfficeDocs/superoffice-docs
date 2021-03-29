@@ -1,10 +1,10 @@
 ---
-title: Void SetCategoryName(String CategoryName)
-path: /EJScript/Classes/NSContact/Member functions/Void SetCategoryName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetCategoryName_String_p_0
+description: NSContact.SetCategoryName(String p_0)
+intellisense: NSContact.SetCategoryName
 sortOrder: 1747
 keywords: SetCategoryName(String)
+so.topic: reference
 ---
 
 

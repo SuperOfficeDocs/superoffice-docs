@@ -1,9 +1,9 @@
 ---
-title: String[] GetDocumentTemplateUsedInSalesStage(Integer documentTemplateId)
-path: /EJScript/Classes/NSListAgent/Member functions/String[] GetDocumentTemplateUsedInSalesStage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateUsedInSalesStage_Integer_p_0
+description: NSListAgent.GetDocumentTemplateUsedInSalesStage(Integer p_0)
+intellisense: NSListAgent.GetDocumentTemplateUsedInSalesStage
 keywords: GetDocumentTemplateUsedInSalesStage(Integer)
+so.topic: reference
 ---
 
 

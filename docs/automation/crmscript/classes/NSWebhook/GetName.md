@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSWebhook/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetName
+description: NSWebhook.GetName()
+intellisense: NSWebhook.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

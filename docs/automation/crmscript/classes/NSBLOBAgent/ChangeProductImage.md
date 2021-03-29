@@ -1,10 +1,10 @@
 ---
-title: Void ChangeProductImage(Integer productId, Integer blobId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void ChangeProductImage(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_ChangeProductImage_Integer_p_0_Integer_p_1
+description: NSBLOBAgent.ChangeProductImage(Integer p_0, Integer p_1)
+intellisense: NSBLOBAgent.ChangeProductImage
 sortOrder: 1427
 keywords: ChangeProductImage(Integer,Integer)
+so.topic: reference
 ---
 
 

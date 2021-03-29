@@ -1,9 +1,9 @@
 ---
-title: NSExtendedLicenseInfo[] GetLicenseForAllOwnersFromDB()
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSExtendedLicenseInfo[] GetLicenseForAllOwnersFromDB()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetLicenseForAllOwnersFromDB
+description: NSLicenseAgent.GetLicenseForAllOwnersFromDB()
+intellisense: NSLicenseAgent.GetLicenseForAllOwnersFromDB
 keywords: GetLicenseForAllOwnersFromDB()
+so.topic: reference
 ---
 
 

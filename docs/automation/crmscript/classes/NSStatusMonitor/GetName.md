@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetName
+description: NSStatusMonitor.GetName()
+intellisense: NSStatusMonitor.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

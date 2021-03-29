@@ -1,9 +1,9 @@
 ---
-title: String[] split(String delimiter)
-path: /EJScript/Classes/String/Member functions/String[] split(String delimiter)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_split_String_delimiter
+description: String.split(String delimiter)
+intellisense: String.split
 keywords: split(String)
+so.topic: reference
 ---
 
 Split a string into an array of strings

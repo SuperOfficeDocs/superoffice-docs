@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetVisibleForPersonInterests()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/NSMDOListItem[] GetVisibleForPersonInterests()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetVisibleForPersonInterests
+description: NSProjectEventEntity.GetVisibleForPersonInterests()
+intellisense: NSProjectEventEntity.GetVisibleForPersonInterests
 keywords: GetVisibleForPersonInterests()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetRoleType()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetRoleType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetRoleType
+description: NSRoleEntity.GetRoleType()
+intellisense: NSRoleEntity.GetRoleType
 keywords: GetRoleType()
+so.topic: reference
 ---
 
 

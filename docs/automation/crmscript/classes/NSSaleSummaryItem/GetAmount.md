@@ -1,9 +1,9 @@
 ---
-title: Float GetAmount()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Float GetAmount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_GetAmount
+description: NSSaleSummaryItem.GetAmount()
+intellisense: NSSaleSummaryItem.GetAmount
 keywords: GetAmount()
+so.topic: reference
 ---
 
 

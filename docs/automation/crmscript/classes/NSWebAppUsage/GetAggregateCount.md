@@ -1,9 +1,9 @@
 ---
-title: Integer GetAggregateCount()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetAggregateCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetAggregateCount
+description: NSWebAppUsage.GetAggregateCount()
+intellisense: NSWebAppUsage.GetAggregateCount
 keywords: GetAggregateCount()
+so.topic: reference
 ---
 
 

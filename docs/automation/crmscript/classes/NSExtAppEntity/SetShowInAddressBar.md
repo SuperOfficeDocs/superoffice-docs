@@ -1,10 +1,10 @@
 ---
-title: Void SetShowInAddressBar(Bool ShowInAddressBar)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetShowInAddressBar(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetShowInAddressBar_Bool_p_0
+description: NSExtAppEntity.SetShowInAddressBar(Bool p_0)
+intellisense: NSExtAppEntity.SetShowInAddressBar
 sortOrder: 3392
 keywords: SetShowInAddressBar(Bool)
+so.topic: reference
 ---
 
 

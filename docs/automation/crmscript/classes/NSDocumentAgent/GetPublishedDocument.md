@@ -1,10 +1,10 @@
 ---
-title: NSDocument GetPublishedDocument(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument GetPublishedDocument(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetPublishedDocument_Integer_p_0
+description: NSDocumentAgent.GetPublishedDocument(Integer p_0)
+intellisense: NSDocumentAgent.GetPublishedDocument
 sortOrder: 2471
 keywords: GetPublishedDocument(Integer)
+so.topic: reference
 ---
 
 

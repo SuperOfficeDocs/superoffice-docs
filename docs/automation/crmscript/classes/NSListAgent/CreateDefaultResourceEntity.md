@@ -1,9 +1,9 @@
 ---
-title: NSResourceEntity CreateDefaultResourceEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity CreateDefaultResourceEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultResourceEntity
+description: NSListAgent.CreateDefaultResourceEntity()
+intellisense: NSListAgent.CreateDefaultResourceEntity
 keywords: CreateDefaultResourceEntity()
+so.topic: reference
 ---
 
 

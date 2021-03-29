@@ -1,9 +1,9 @@
 ---
-title: Bool GetSearchFirstname()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Bool GetSearchFirstname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_GetSearchFirstname
+description: NSPhoneListPreferences.GetSearchFirstname()
+intellisense: NSPhoneListPreferences.GetSearchFirstname
 keywords: GetSearchFirstname()
+so.topic: reference
 ---
 
 

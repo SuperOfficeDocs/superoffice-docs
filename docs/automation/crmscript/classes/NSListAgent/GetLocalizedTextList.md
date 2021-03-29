@@ -1,9 +1,9 @@
 ---
-title: NSLocalizedText[] GetLocalizedTextList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText[] GetLocalizedTextList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLocalizedTextList_Integer__p_0
+description: NSListAgent.GetLocalizedTextList(Integer[] p_0)
+intellisense: NSListAgent.GetLocalizedTextList
 keywords: GetLocalizedTextList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of LocalizedText objects.

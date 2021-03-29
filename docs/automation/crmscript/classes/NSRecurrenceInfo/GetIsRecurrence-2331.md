@@ -1,9 +1,9 @@
 ---
-title: Boolean GetIsRecurrence()
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/Boolean GetIsRecurrence()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceInfo_GetIsRecurrence
+description: NSRecurrenceInfo.GetIsRecurrence()
+intellisense: NSRecurrenceInfo.GetIsRecurrence
 keywords: GetIsRecurrence()
+so.topic: reference
 ---
 
 

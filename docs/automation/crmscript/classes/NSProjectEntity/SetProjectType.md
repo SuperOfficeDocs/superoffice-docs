@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectType(NSProjectType ProjectType)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectType(NSProjectType p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetProjectType_NSProjectType_p_0
+description: NSProjectEntity.SetProjectType(NSProjectType p_0)
+intellisense: NSProjectEntity.SetProjectType
 keywords: SetProjectType(NSProjectType)
+so.topic: reference
 ---
 
 

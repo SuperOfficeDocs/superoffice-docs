@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_GetName
+description: NSDocumentTemplate.GetName()
+intellisense: NSDocumentTemplate.GetName
 sortOrder: 2632
 keywords: GetName()
+so.topic: reference
 ---
 
 

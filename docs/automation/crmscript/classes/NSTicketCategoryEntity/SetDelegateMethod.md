@@ -1,9 +1,9 @@
 ---
-title: Void SetDelegateMethod(NSTicketCategoryDelegateMethod DelegateMethod)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetDelegateMethod(NSTicketCategoryDelegateMethod p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetDelegateMethod_NSTicketCategoryDelegateMethod_p_0
+description: NSTicketCategoryEntity.SetDelegateMethod(NSTicketCategoryDelegateMethod p_0)
+intellisense: NSTicketCategoryEntity.SetDelegateMethod
 keywords: SetDelegateMethod(NSTicketCategoryDelegateMethod)
+so.topic: reference
 ---
 
 

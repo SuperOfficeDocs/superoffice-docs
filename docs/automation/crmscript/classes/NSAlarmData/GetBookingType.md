@@ -1,10 +1,10 @@
 ---
-title: Integer GetBookingType()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetBookingType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetBookingType
+description: NSAlarmData.GetBookingType()
+intellisense: NSAlarmData.GetBookingType
 sortOrder: 649
 keywords: GetBookingType()
+so.topic: reference
 ---
 
 

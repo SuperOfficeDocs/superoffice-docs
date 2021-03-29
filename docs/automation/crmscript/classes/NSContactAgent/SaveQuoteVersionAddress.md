@@ -1,10 +1,10 @@
 ---
-title: NSAddress SaveQuoteVersionAddress(Integer quoteVersionId, NSAddress address, Integer addressType, Integer countryId)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSAddress SaveQuoteVersionAddress(Integer p_0, NSAddress p_1, Integer p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_SaveQuoteVersionAddress_Integer_p_0_NSAddress_p_1_Integer_p_2_Integer_p_3
+description: NSContactAgent.SaveQuoteVersionAddress(Integer p_0, NSAddress p_1, Integer p_2, Integer p_3)
+intellisense: NSContactAgent.SaveQuoteVersionAddress
 sortOrder: 1801
 keywords: SaveQuoteVersionAddress(Integer,NSAddress,Integer,Integer)
+so.topic: reference
 ---
 
 

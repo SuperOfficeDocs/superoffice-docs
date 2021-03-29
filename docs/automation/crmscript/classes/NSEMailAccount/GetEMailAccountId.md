@@ -1,10 +1,10 @@
 ---
-title: Integer GetEMailAccountId()
-path: /EJScript/Classes/NSEMailAccount/Member functions/Integer GetEMailAccountId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetEMailAccountId
+description: NSEMailAccount.GetEMailAccountId()
+intellisense: NSEMailAccount.GetEMailAccountId
 sortOrder: 2746
 keywords: GetEMailAccountId()
+so.topic: reference
 ---
 
 

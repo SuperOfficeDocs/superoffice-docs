@@ -1,9 +1,9 @@
 ---
-title: Void DeleteHistory(String historyName, Integer id)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/Void DeleteHistory(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_DeleteHistory_String_p_0_Integer_p_1
+description: NSViewStateAgent.DeleteHistory(String p_0, Integer p_1)
+intellisense: NSViewStateAgent.DeleteHistory
 keywords: DeleteHistory(String,Integer)
+so.topic: reference
 ---
 
 

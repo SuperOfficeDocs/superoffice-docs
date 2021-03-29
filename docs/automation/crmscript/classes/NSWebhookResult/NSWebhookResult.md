@@ -1,8 +1,8 @@
 ---
-title: NSWebhookResult
-path: /EJScript/Classes/NSWebhookResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookResult
+description: NSWebhookResult
+intellisense: Void.NSWebhookResult
+so.topic: reference
 ---
 
 

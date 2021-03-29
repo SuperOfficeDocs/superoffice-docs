@@ -1,9 +1,9 @@
 ---
-title: NSStatusMonitor GetStatusMonitor(Integer id)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor GetStatusMonitor(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_GetStatusMonitor_Integer_p_0
+description: NSSaintAgent.GetStatusMonitor(Integer p_0)
+intellisense: NSSaintAgent.GetStatusMonitor
 keywords: GetStatusMonitor(Integer)
+so.topic: reference
 ---
 
 

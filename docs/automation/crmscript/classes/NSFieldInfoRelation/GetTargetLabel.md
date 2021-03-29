@@ -1,10 +1,10 @@
 ---
-title: String GetTargetLabel()
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/String GetTargetLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_GetTargetLabel
+description: NSFieldInfoRelation.GetTargetLabel()
+intellisense: NSFieldInfoRelation.GetTargetLabel
 sortOrder: 3539
 keywords: GetTargetLabel()
+so.topic: reference
 ---
 
 

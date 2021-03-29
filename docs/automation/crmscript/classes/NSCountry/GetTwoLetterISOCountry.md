@@ -1,10 +1,10 @@
 ---
-title: String GetTwoLetterISOCountry()
-path: /EJScript/Classes/NSCountry/Member functions/String GetTwoLetterISOCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetTwoLetterISOCountry
+description: NSCountry.GetTwoLetterISOCountry()
+intellisense: NSCountry.GetTwoLetterISOCountry
 sortOrder: 2028
 keywords: GetTwoLetterISOCountry()
+so.topic: reference
 ---
 
 

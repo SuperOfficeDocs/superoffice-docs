@@ -1,9 +1,9 @@
 ---
-title: Customer
-path: /EJScript/Classes/Customer
-intellisense: 1
-classref: 1
+title: crmscript_ref_Customer
+description: Customer
+intellisense: Void.Customer
 sortOrder: 170
+so.topic: reference
 ---
 
 

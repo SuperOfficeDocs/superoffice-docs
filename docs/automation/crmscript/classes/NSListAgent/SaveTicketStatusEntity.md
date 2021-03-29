@@ -1,9 +1,9 @@
 ---
-title: NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity ticketStatusEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity SaveTicketStatusEntity(NSTicketStatusEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveTicketStatusEntity_NSTicketStatusEntity_p_0
+description: NSListAgent.SaveTicketStatusEntity(NSTicketStatusEntity p_0)
+intellisense: NSListAgent.SaveTicketStatusEntity
 keywords: SaveTicketStatusEntity(NSTicketStatusEntity)
+so.topic: reference
 ---
 
 

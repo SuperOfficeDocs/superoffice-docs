@@ -1,9 +1,9 @@
 ---
-title: Void SetDocuments(NSActivitySummaryItem[] Documents)
-path: /EJScript/Classes/NSPersonSummary/Member functions/Void SetDocuments(NSActivitySummaryItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_SetDocuments_NSActivitySummaryItem__p_0
+description: NSPersonSummary.SetDocuments(NSActivitySummaryItem[] p_0)
+intellisense: NSPersonSummary.SetDocuments
 keywords: SetDocuments(NSActivitySummaryItem[])
+so.topic: reference
 ---
 
 

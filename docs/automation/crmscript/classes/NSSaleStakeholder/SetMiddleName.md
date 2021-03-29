@@ -1,9 +1,9 @@
 ---
-title: Void SetMiddleName(String MiddleName)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetMiddleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_SetMiddleName_String_p_0
+description: NSSaleStakeholder.SetMiddleName(String p_0)
+intellisense: NSSaleStakeholder.SetMiddleName
 keywords: SetMiddleName(String)
+so.topic: reference
 ---
 
 

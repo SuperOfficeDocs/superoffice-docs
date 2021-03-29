@@ -1,9 +1,9 @@
 ---
-title: Void SetFree(Integer Free)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetFree(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_SetFree_Integer_p_0
+description: NSModuleLicenseLink.SetFree(Integer p_0)
+intellisense: NSModuleLicenseLink.SetFree
 keywords: SetFree(Integer)
+so.topic: reference
 ---
 
 

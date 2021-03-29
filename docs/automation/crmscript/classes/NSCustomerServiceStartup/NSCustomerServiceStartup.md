@@ -1,9 +1,9 @@
 ---
-title: NSCustomerServiceStartup
-path: /EJScript/Classes/NSCustomerServiceStartup
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceStartup
+description: NSCustomerServiceStartup
+intellisense: Void.NSCustomerServiceStartup
 sortOrder: 2250
+so.topic: reference
 ---
 
 

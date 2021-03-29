@@ -1,9 +1,9 @@
 ---
-title: Bool GetHidden()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Bool GetHidden()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetHidden
+description: NSSelectableMDOListItem.GetHidden()
+intellisense: NSSelectableMDOListItem.GetHidden
 keywords: GetHidden()
+so.topic: reference
 ---
 
 

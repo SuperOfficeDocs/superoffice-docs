@@ -1,10 +1,10 @@
 ---
-title: NSEMailAttachment CreateDefaultEMailAttachment()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAttachment CreateDefaultEMailAttachment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAttachment
+description: NSEMailAgent.CreateDefaultEMailAttachment()
+intellisense: NSEMailAgent.CreateDefaultEMailAttachment
 sortOrder: 2804
 keywords: CreateDefaultEMailAttachment()
+so.topic: reference
 ---
 
 

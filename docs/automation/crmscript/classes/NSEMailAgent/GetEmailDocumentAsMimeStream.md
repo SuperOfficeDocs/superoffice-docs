@@ -1,10 +1,10 @@
 ---
-title: NSStream GetEmailDocumentAsMimeStream(Integer documentId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSStream GetEmailDocumentAsMimeStream(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEmailDocumentAsMimeStream_Integer_p_0
+description: NSEMailAgent.GetEmailDocumentAsMimeStream(Integer p_0)
+intellisense: NSEMailAgent.GetEmailDocumentAsMimeStream
 sortOrder: 2845
 keywords: GetEmailDocumentAsMimeStream(Integer)
+so.topic: reference
 ---
 
 

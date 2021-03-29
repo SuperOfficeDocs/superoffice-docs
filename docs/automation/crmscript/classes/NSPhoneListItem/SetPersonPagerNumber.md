@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonPagerNumber(String PersonPagerNumber)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonPagerNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_SetPersonPagerNumber_String_p_0
+description: NSPhoneListItem.SetPersonPagerNumber(String p_0)
+intellisense: NSPhoneListItem.SetPersonPagerNumber
 keywords: SetPersonPagerNumber(String)
+so.topic: reference
 ---
 
 

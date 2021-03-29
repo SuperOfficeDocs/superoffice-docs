@@ -1,10 +1,10 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_GetValue
+description: NSDashboardTileOption.GetValue()
+intellisense: NSDashboardTileOption.GetValue
 sortOrder: 2324
 keywords: GetValue()
+so.topic: reference
 ---
 
 

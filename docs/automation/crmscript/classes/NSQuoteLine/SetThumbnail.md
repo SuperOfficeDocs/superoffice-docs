@@ -1,9 +1,9 @@
 ---
-title: Void SetThumbnail(String Thumbnail)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetThumbnail(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetThumbnail_String_p_0
+description: NSQuoteLine.SetThumbnail(String p_0)
+intellisense: NSQuoteLine.SetThumbnail
 keywords: SetThumbnail(String)
+so.topic: reference
 ---
 
 

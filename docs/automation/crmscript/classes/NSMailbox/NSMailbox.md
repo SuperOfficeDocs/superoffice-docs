@@ -1,8 +1,8 @@
 ---
-title: NSMailbox
-path: /EJScript/Classes/NSMailbox
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox
+description: NSMailbox
+intellisense: Void.NSMailbox
+so.topic: reference
 ---
 
 

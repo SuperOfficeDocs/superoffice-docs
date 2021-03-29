@@ -1,9 +1,9 @@
 ---
-title: Void SetIsPublished()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetIsPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetIsPublished
+description: NSProjectEntity.SetIsPublished()
+intellisense: NSProjectEntity.SetIsPublished
 keywords: SetIsPublished()
+so.topic: reference
 ---
 
 

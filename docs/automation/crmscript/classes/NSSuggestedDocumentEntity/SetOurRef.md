@@ -1,9 +1,9 @@
 ---
-title: Void SetOurRef(String OurRef)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetOurRef(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_SetOurRef_String_p_0
+description: NSSuggestedDocumentEntity.SetOurRef(String p_0)
+intellisense: NSSuggestedDocumentEntity.SetOurRef
 keywords: SetOurRef(String)
+so.topic: reference
 ---
 
 

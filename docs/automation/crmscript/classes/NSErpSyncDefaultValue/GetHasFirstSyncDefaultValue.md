@@ -1,10 +1,10 @@
 ---
-title: Bool GetHasFirstSyncDefaultValue()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Bool GetHasFirstSyncDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetHasFirstSyncDefaultValue
+description: NSErpSyncDefaultValue.GetHasFirstSyncDefaultValue()
+intellisense: NSErpSyncDefaultValue.GetHasFirstSyncDefaultValue
 sortOrder: 3251
 keywords: GetHasFirstSyncDefaultValue()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer getHour()
-path: /EJScript/Classes/TimeSpan/Member functions/Integer getHour()
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_getHour
+description: TimeSpan.getHour()
+intellisense: TimeSpan.getHour
 keywords: getHour()
+so.topic: reference
 ---
 
 This function will return the hour field of the timespan as an integer.

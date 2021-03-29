@@ -1,9 +1,9 @@
 ---
-title: String GetOrder()
-path: /EJScript/Classes/NSTabOrder/Member functions/String GetOrder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_GetOrder
+description: NSTabOrder.GetOrder()
+intellisense: NSTabOrder.GetOrder
 keywords: GetOrder()
+so.topic: reference
 ---
 
 

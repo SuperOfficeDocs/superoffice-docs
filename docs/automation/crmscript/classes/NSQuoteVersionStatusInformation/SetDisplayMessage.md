@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayMessage(String DisplayMessage)
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetDisplayMessage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayMessage_String_p_0
+description: NSQuoteVersionStatusInformation.SetDisplayMessage(String p_0)
+intellisense: NSQuoteVersionStatusInformation.SetDisplayMessage
 keywords: SetDisplayMessage(String)
+so.topic: reference
 ---
 
 

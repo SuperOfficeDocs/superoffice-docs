@@ -1,9 +1,9 @@
 ---
-title: Inbox
-path: /EJScript/Classes/Inbox
-intellisense: 1
-classref: 1
+title: crmscript_ref_Inbox
+description: Inbox
+intellisense: Void.Inbox
 sortOrder: 419
+so.topic: reference
 ---
 
 A class for managing the inbox.

@@ -1,10 +1,10 @@
 ---
-title: String GetContactName()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetContactName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetContactName
+description: NSAppointmentSyncData.GetContactName()
+intellisense: NSAppointmentSyncData.GetContactName
 sortOrder: 1059
 keywords: GetContactName()
+so.topic: reference
 ---
 
 

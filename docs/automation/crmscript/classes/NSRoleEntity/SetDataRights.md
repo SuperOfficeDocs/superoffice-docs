@@ -1,9 +1,9 @@
 ---
-title: Void SetDataRights(NSDataRights DataRights)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetDataRights(NSDataRights p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_SetDataRights_NSDataRights_p_0
+description: NSRoleEntity.SetDataRights(NSDataRights p_0)
+intellisense: NSRoleEntity.SetDataRights
 keywords: SetDataRights(NSDataRights)
+so.topic: reference
 ---
 
 

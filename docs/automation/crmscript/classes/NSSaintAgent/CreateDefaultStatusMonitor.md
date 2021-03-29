@@ -1,9 +1,9 @@
 ---
-title: NSStatusMonitor CreateDefaultStatusMonitor()
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitor CreateDefaultStatusMonitor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_CreateDefaultStatusMonitor
+description: NSSaintAgent.CreateDefaultStatusMonitor()
+intellisense: NSSaintAgent.CreateDefaultStatusMonitor
 keywords: CreateDefaultStatusMonitor()
+so.topic: reference
 ---
 
 

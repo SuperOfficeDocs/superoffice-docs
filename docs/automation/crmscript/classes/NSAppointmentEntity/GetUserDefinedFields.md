@@ -1,10 +1,10 @@
 ---
-title: Map GetUserDefinedFields()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Map GetUserDefinedFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetUserDefinedFields
+description: NSAppointmentEntity.GetUserDefinedFields()
+intellisense: NSAppointmentEntity.GetUserDefinedFields
 sortOrder: 954
 keywords: GetUserDefinedFields()
+so.topic: reference
 ---
 
 

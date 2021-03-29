@@ -1,10 +1,10 @@
 ---
-title: NSTicketInfo[] FindTicketsByTitleOrId(String titleOrId, Integer maxRows)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSTicketInfo[] FindTicketsByTitleOrId(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_FindTicketsByTitleOrId_String_p_0_Integer_p_1
+description: NSCustomerServiceAgent.FindTicketsByTitleOrId(String p_0, Integer p_1)
+intellisense: NSCustomerServiceAgent.FindTicketsByTitleOrId
 sortOrder: 2242
 keywords: FindTicketsByTitleOrId(String,Integer)
+so.topic: reference
 ---
 
 

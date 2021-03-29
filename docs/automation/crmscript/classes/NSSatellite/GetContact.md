@@ -1,9 +1,9 @@
 ---
-title: NSContact GetContact()
-path: /EJScript/Classes/NSSatellite/Member functions/NSContact GetContact()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_GetContact
+description: NSSatellite.GetContact()
+intellisense: NSSatellite.GetContact
 keywords: GetContact()
+so.topic: reference
 ---
 
 

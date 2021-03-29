@@ -1,9 +1,9 @@
 ---
-title: Bool GetQuoteLinesHasChanged()
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Bool GetQuoteLinesHasChanged()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternativeRecalculated_GetQuoteLinesHasChanged
+description: NSQuoteAlternativeRecalculated.GetQuoteLinesHasChanged()
+intellisense: NSQuoteAlternativeRecalculated.GetQuoteLinesHasChanged
 keywords: GetQuoteLinesHasChanged()
+so.topic: reference
 ---
 
 

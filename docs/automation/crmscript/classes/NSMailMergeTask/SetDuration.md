@@ -1,9 +1,9 @@
 ---
-title: Void SetDuration(Integer Duration)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetDuration(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetDuration_Integer_p_0
+description: NSMailMergeTask.SetDuration(Integer p_0)
+intellisense: NSMailMergeTask.SetDuration
 keywords: SetDuration(Integer)
+so.topic: reference
 ---
 
 

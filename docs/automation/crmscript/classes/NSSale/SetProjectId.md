@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetProjectId_Integer_p_0
+description: NSSale.SetProjectId(Integer p_0)
+intellisense: NSSale.SetProjectId
 keywords: SetProjectId(Integer)
+so.topic: reference
 ---
 
 

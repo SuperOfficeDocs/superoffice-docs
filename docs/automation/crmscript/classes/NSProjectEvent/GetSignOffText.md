@@ -1,9 +1,9 @@
 ---
-title: String GetSignOffText()
-path: /EJScript/Classes/NSProjectEvent/Member functions/String GetSignOffText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOffText
+description: NSProjectEvent.GetSignOffText()
+intellisense: NSProjectEvent.GetSignOffText
 keywords: GetSignOffText()
+so.topic: reference
 ---
 
 

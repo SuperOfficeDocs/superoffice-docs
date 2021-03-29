@@ -1,9 +1,9 @@
 ---
-title: Bool equals(String p0)
-path: /EJScript/Classes/String/Member functions/Bool equals(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_equals_String_p_0
+description: String.equals(String p_0)
+intellisense: String.equals
 keywords: equals(String)
+so.topic: reference
 ---
 
 

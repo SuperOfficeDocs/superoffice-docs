@@ -1,10 +1,10 @@
 ---
-title: Integer GetCreatedAppointmentId()
-path: /EJScript/Classes/NSApproveRejectResponse/Member functions/Integer GetCreatedAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSApproveRejectResponse_GetCreatedAppointmentId
+description: NSApproveRejectResponse.GetCreatedAppointmentId()
+intellisense: NSApproveRejectResponse.GetCreatedAppointmentId
 sortOrder: 1094
 keywords: GetCreatedAppointmentId()
+so.topic: reference
 ---
 
 

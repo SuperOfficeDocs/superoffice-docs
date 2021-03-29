@@ -1,9 +1,9 @@
 ---
-title: Bool GetShowInAddressBar()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetShowInAddressBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetShowInAddressBar
+description: NSWebPanelEntity.GetShowInAddressBar()
+intellisense: NSWebPanelEntity.GetShowInAddressBar
 keywords: GetShowInAddressBar()
+so.topic: reference
 ---
 
 

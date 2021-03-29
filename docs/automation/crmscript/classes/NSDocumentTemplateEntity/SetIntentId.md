@@ -1,10 +1,10 @@
 ---
-title: Void SetIntentId(Integer IntentId)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetIntentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetIntentId_Integer_p_0
+description: NSDocumentTemplateEntity.SetIntentId(Integer p_0)
+intellisense: NSDocumentTemplateEntity.SetIntentId
 sortOrder: 2687
 keywords: SetIntentId(Integer)
+so.topic: reference
 ---
 
 

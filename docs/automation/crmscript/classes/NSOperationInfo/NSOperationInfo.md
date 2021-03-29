@@ -1,8 +1,8 @@
 ---
-title: NSOperationInfo
-path: /EJScript/Classes/NSOperationInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOperationInfo
+description: NSOperationInfo
+intellisense: Void.NSOperationInfo
+so.topic: reference
 ---
 
 

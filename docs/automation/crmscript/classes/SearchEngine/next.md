@@ -1,9 +1,9 @@
 ---
-title: Bool next()
-path: /EJScript/Classes/SearchEngine/member functions/Bool next()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_next
+description: SearchEngine.next()
+intellisense: SearchEngine.next
 keywords: next()
+so.topic: reference
 ---
 
 

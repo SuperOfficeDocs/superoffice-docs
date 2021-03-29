@@ -1,8 +1,8 @@
 ---
-title: NSQuoteAlternative
-path: /EJScript/Classes/NSQuoteAlternative
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative
+description: NSQuoteAlternative
+intellisense: Void.NSQuoteAlternative
+so.topic: reference
 ---
 
 

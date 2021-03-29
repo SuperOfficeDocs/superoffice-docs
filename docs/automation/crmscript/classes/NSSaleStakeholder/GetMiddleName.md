@@ -1,9 +1,9 @@
 ---
-title: String GetMiddleName()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetMiddleName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetMiddleName
+description: NSSaleStakeholder.GetMiddleName()
+intellisense: NSSaleStakeholder.GetMiddleName
 keywords: GetMiddleName()
+so.topic: reference
 ---
 
 

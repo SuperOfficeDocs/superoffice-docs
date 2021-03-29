@@ -1,10 +1,10 @@
 ---
-title: Void SetComment(String Comment)
-path: /EJScript/Classes/NSConsentPerson/Member functions/Void SetComment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_SetComment_String_p_0
+description: NSConsentPerson.SetComment(String p_0)
+intellisense: NSConsentPerson.SetComment
 sortOrder: 1666
 keywords: SetComment(String)
+so.topic: reference
 ---
 
 

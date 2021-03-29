@@ -1,10 +1,10 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetPersonId
+description: NSFormSubmissionEntity.GetPersonId()
+intellisense: NSFormSubmissionEntity.GetPersonId
 sortOrder: 3834
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

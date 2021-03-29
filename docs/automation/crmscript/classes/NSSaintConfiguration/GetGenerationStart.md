@@ -1,9 +1,9 @@
 ---
-title: DateTime GetGenerationStart()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/DateTime GetGenerationStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_GetGenerationStart
+description: NSSaintConfiguration.GetGenerationStart()
+intellisense: NSSaintConfiguration.GetGenerationStart
 keywords: GetGenerationStart()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetId(Integer Id)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetId_Integer_p_0
+description: NSSelectableMDOListItem.SetId(Integer p_0)
+intellisense: NSSelectableMDOListItem.SetId
 keywords: SetId(Integer)
+so.topic: reference
 ---
 
 

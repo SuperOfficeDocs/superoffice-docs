@@ -1,9 +1,9 @@
 ---
-title: DateTime GetActivate()
-path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetActivate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetActivate
+description: NSTicketEntity.GetActivate()
+intellisense: NSTicketEntity.GetActivate
 keywords: GetActivate()
+so.topic: reference
 ---
 
 

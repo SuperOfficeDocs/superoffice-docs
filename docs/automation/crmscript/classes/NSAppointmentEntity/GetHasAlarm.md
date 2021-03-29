@@ -1,10 +1,10 @@
 ---
-title: Bool GetHasAlarm()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetHasAlarm()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetHasAlarm
+description: NSAppointmentEntity.GetHasAlarm()
+intellisense: NSAppointmentEntity.GetHasAlarm
 sortOrder: 925
 keywords: GetHasAlarm()
+so.topic: reference
 ---
 
 

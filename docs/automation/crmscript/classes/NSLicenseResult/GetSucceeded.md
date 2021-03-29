@@ -1,9 +1,9 @@
 ---
-title: Bool GetSucceeded()
-path: /EJScript/Classes/NSLicenseResult/Member functions/Bool GetSucceeded()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseResult_GetSucceeded
+description: NSLicenseResult.GetSucceeded()
+intellisense: NSLicenseResult.GetSucceeded
 keywords: GetSucceeded()
+so.topic: reference
 ---
 
 

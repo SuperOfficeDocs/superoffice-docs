@@ -1,9 +1,9 @@
 ---
-title: Void SetResourceName(String ResourceName)
-path: /EJScript/Classes/NSResourceOverride/Member functions/Void SetResourceName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_SetResourceName_String_p_0
+description: NSResourceOverride.SetResourceName(String p_0)
+intellisense: NSResourceOverride.SetResourceName
 keywords: SetResourceName(String)
+so.topic: reference
 ---
 
 

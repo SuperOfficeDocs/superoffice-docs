@@ -1,9 +1,9 @@
 ---
-title: NSReportEntity GetReportEntity(Integer reportEntityId)
-path: /EJScript/Classes/NSReportAgent/Member functions/NSReportEntity GetReportEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_GetReportEntity_Integer_p_0
+description: NSReportAgent.GetReportEntity(Integer p_0)
+intellisense: NSReportAgent.GetReportEntity
 keywords: GetReportEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSLicenseOwner[] SaveCentralLicense(NSLicenseOwner[] p0)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSLicenseOwner[] SaveCentralLicense(NSLicenseOwner[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_SaveCentralLicense_NSLicenseOwner__p_0
+description: NSReplicationAgent.SaveCentralLicense(NSLicenseOwner[] p_0)
+intellisense: NSReplicationAgent.SaveCentralLicense
 keywords: SaveCentralLicense(NSLicenseOwner[])
+so.topic: reference
 ---
 
 

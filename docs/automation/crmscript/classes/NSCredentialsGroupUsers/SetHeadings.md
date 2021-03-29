@@ -1,10 +1,10 @@
 ---
-title: Void SetHeadings(String[] Headings)
-path: /EJScript/Classes/NSCredentialsGroupUsers/Member functions/Void SetHeadings(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroupUsers_SetHeadings_String__p_0
+description: NSCredentialsGroupUsers.SetHeadings(String[] p_0)
+intellisense: NSCredentialsGroupUsers.SetHeadings
 sortOrder: 2066
 keywords: SetHeadings(String[])
+so.topic: reference
 ---
 
 

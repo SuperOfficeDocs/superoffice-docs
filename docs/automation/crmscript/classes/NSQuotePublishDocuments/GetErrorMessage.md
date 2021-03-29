@@ -1,9 +1,9 @@
 ---
-title: String GetErrorMessage()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetErrorMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetErrorMessage
+description: NSQuotePublishDocuments.GetErrorMessage()
+intellisense: NSQuotePublishDocuments.GetErrorMessage
 keywords: GetErrorMessage()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetErrorCode(String ErrorCode)
-path: /EJScript/Classes/NSPluginResponse/Member functions/Void SetErrorCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse_SetErrorCode_String_p_0
+description: NSPluginResponse.SetErrorCode(String p_0)
+intellisense: NSPluginResponse.SetErrorCode
 keywords: SetErrorCode(String)
+so.topic: reference
 ---
 
 

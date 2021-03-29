@@ -1,9 +1,9 @@
 ---
-title: Void SetPublicValue(String PublicValue)
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetPublicValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_SetPublicValue_String_p_0
+description: NSUntrustedCredentials.SetPublicValue(String p_0)
+intellisense: NSUntrustedCredentials.SetPublicValue
 keywords: SetPublicValue(String)
+so.topic: reference
 ---
 
 

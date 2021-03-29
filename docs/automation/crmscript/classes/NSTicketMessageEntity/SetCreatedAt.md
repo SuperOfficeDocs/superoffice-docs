@@ -1,9 +1,9 @@
 ---
-title: Void SetCreatedAt(DateTime CreatedAt)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetCreatedAt(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetCreatedAt_DateTime_p_0
+description: NSTicketMessageEntity.SetCreatedAt(DateTime p_0)
+intellisense: NSTicketMessageEntity.SetCreatedAt
 keywords: SetCreatedAt(DateTime)
+so.topic: reference
 ---
 
 

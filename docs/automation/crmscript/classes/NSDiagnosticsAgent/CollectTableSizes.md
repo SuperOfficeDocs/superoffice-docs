@@ -1,10 +1,10 @@
 ---
-title: Void CollectTableSizes()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void CollectTableSizes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_CollectTableSizes
+description: NSDiagnosticsAgent.CollectTableSizes()
+intellisense: NSDiagnosticsAgent.CollectTableSizes
 sortOrder: 2396
 keywords: CollectTableSizes()
+so.topic: reference
 ---
 
 

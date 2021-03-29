@@ -1,9 +1,9 @@
 ---
-title: Void SetFlags(NSTicketPriorityFlags Flags)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetFlags(NSTicketPriorityFlags p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetFlags_NSTicketPriorityFlags_p_0
+description: NSTicketPriorityEntity.SetFlags(NSTicketPriorityFlags p_0)
+intellisense: NSTicketPriorityEntity.SetFlags
 keywords: SetFlags(NSTicketPriorityFlags)
+so.topic: reference
 ---
 
 

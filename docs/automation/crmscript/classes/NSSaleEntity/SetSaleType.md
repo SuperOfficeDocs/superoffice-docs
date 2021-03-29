@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleType(NSSaleType SaleType)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetSaleType(NSSaleType p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetSaleType_NSSaleType_p_0
+description: NSSaleEntity.SetSaleType(NSSaleType p_0)
+intellisense: NSSaleEntity.SetSaleType
 keywords: SetSaleType(NSSaleType)
+so.topic: reference
 ---
 
 

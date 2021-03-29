@@ -1,9 +1,9 @@
 ---
-title: NSSelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[] contactPersonIds)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds_NSContactPersonId__p_0
+description: NSSelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[] p_0)
+intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromContactPersonIds
 keywords: CreateTemporaryContactSelectionFromContactPersonIds(NSContactPersonId[])
+so.topic: reference
 ---
 
 

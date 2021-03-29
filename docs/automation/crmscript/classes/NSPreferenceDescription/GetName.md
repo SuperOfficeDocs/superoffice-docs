@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetName
+description: NSPreferenceDescription.GetName()
+intellisense: NSPreferenceDescription.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

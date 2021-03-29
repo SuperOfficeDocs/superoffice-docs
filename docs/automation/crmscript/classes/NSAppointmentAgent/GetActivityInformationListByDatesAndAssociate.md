@@ -1,10 +1,10 @@
 ---
-title: NSActivityInformationListItem[] GetActivityInformationListByDatesAndAssociate(DateTime startDate, DateTime endDate, Integer associateId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSActivityInformationListItem[] GetActivityInformationListByDatesAndAssociate(DateTime p_0, DateTime p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetActivityInformationListByDatesAndAssociate_DateTime_p_0_DateTime_p_1_Integer_p_2
+description: NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate(DateTime p_0, DateTime p_1, Integer p_2)
+intellisense: NSAppointmentAgent.GetActivityInformationListByDatesAndAssociate
 sortOrder: 833
 keywords: GetActivityInformationListByDatesAndAssociate(DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

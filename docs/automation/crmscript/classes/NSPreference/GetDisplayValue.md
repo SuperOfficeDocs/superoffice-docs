@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayValue()
-path: /EJScript/Classes/NSPreference/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetDisplayValue
+description: NSPreference.GetDisplayValue()
+intellisense: NSPreference.GetDisplayValue
 keywords: GetDisplayValue()
+so.topic: reference
 ---
 
 

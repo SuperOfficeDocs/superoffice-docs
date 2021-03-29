@@ -1,10 +1,10 @@
 ---
-title: String GetMessage()
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckLicenseStatusResult_GetMessage
+description: NSCheckLicenseStatusResult.GetMessage()
+intellisense: NSCheckLicenseStatusResult.GetMessage
 sortOrder: 1552
 keywords: GetMessage()
+so.topic: reference
 ---
 
 

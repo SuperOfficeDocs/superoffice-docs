@@ -1,9 +1,9 @@
 ---
-title: Float GetQuantity()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetQuantity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetQuantity
+description: NSQuoteLine.GetQuantity()
+intellisense: NSQuoteLine.GetQuantity
 keywords: GetQuantity()
+so.topic: reference
 ---
 
 

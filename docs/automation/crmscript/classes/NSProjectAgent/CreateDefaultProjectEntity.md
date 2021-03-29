@@ -1,9 +1,9 @@
 ---
-title: NSProjectEntity CreateDefaultProjectEntity()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEntity CreateDefaultProjectEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_CreateDefaultProjectEntity
+description: NSProjectAgent.CreateDefaultProjectEntity()
+intellisense: NSProjectAgent.CreateDefaultProjectEntity
 keywords: CreateDefaultProjectEntity()
+so.topic: reference
 ---
 
 

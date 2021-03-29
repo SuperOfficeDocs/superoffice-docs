@@ -1,10 +1,10 @@
 ---
-title: Void SetAppData(String key, String data)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void SetAppData(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_SetAppData_String_p_0_String_p_1
+description: NSBLOBAgent.SetAppData(String p_0, String p_1)
+intellisense: NSBLOBAgent.SetAppData
 sortOrder: 1432
 keywords: SetAppData(String,String)
+so.topic: reference
 ---
 
 

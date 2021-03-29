@@ -1,9 +1,9 @@
 ---
-title: NSStatusMonitorPeriods GetStatusMonitorPeriods()
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitorPeriods GetStatusMonitorPeriods()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_GetStatusMonitorPeriods
+description: NSSaintAgent.GetStatusMonitorPeriods()
+intellisense: NSSaintAgent.GetStatusMonitorPeriods
 keywords: GetStatusMonitorPeriods()
+so.topic: reference
 ---
 
 

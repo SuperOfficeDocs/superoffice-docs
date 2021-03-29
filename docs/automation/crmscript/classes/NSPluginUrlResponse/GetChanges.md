@@ -1,9 +1,9 @@
 ---
-title: NSChangedData GetChanges()
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/NSChangedData GetChanges()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginUrlResponse_GetChanges
+description: NSPluginUrlResponse.GetChanges()
+intellisense: NSPluginUrlResponse.GetChanges
 keywords: GetChanges()
+so.topic: reference
 ---
 
 

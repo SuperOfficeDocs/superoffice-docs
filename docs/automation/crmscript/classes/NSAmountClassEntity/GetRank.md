@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_GetRank
+description: NSAmountClassEntity.GetRank()
+intellisense: NSAmountClassEntity.GetRank
 sortOrder: 700
 keywords: GetRank()
+so.topic: reference
 ---
 
 

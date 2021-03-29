@@ -1,9 +1,9 @@
 ---
-title: Void SetInStock(Float InStock)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetInStock(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetInStock_Float_p_0
+description: NSProduct.SetInStock(Float p_0)
+intellisense: NSProduct.SetInStock
 keywords: SetInStock(Float)
+so.topic: reference
 ---
 
 

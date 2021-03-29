@@ -1,9 +1,9 @@
 ---
-title: Void SetAddPersonInterest(Integer AddPersonInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetAddPersonInterest(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetAddPersonInterest_Integer_p_0
+description: NSMailMergeSettings.SetAddPersonInterest(Integer p_0)
+intellisense: NSMailMergeSettings.SetAddPersonInterest
 keywords: SetAddPersonInterest(Integer)
+so.topic: reference
 ---
 
 

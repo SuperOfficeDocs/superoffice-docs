@@ -1,9 +1,9 @@
 ---
-title: Bool GetSupportsConfig()
-path: /EJScript/Classes/NSProviderInfo/Member functions/Bool GetSupportsConfig()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProviderInfo_GetSupportsConfig
+description: NSProviderInfo.GetSupportsConfig()
+intellisense: NSProviderInfo.GetSupportsConfig
 keywords: GetSupportsConfig()
+so.topic: reference
 ---
 
 

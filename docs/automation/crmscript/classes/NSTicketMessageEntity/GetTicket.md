@@ -1,9 +1,9 @@
 ---
-title: NSTicket GetTicket()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSTicket GetTicket()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetTicket
+description: NSTicketMessageEntity.GetTicket()
+intellisense: NSTicketMessageEntity.GetTicket
 keywords: GetTicket()
+so.topic: reference
 ---
 
 

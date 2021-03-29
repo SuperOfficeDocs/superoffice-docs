@@ -1,9 +1,9 @@
 ---
-title: Void SetExternalUserInfo(Integer associateId, String userName, String password, Bool isActive, Integer roleId, Integer externalUserInfoModification)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void SetExternalUserInfo(Integer p_0, String p_1, String p_2, Bool p_3, Integer p_4, Integer p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SetExternalUserInfo_Integer_p_0_String_p_1_String_p_2_Bool_p_3_Integer_p_4_Integer_p_5
+description: NSUserAgent.SetExternalUserInfo(Integer p_0, String p_1, String p_2, Bool p_3, Integer p_4, Integer p_5)
+intellisense: NSUserAgent.SetExternalUserInfo
 keywords: SetExternalUserInfo(Integer,String,String,Bool,Integer,Integer)
+so.topic: reference
 ---
 
 

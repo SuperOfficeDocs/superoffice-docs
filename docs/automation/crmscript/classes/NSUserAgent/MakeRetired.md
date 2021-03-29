@@ -1,9 +1,9 @@
 ---
-title: Void MakeRetired(Integer p0, Bool p1)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void MakeRetired(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_MakeRetired_Integer_p_0_Bool_p_1
+description: NSUserAgent.MakeRetired(Integer p_0, Bool p_1)
+intellisense: NSUserAgent.MakeRetired
 keywords: MakeRetired(Integer,Bool)
+so.topic: reference
 ---
 
 

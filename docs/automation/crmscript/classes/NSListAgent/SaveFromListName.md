@@ -1,9 +1,9 @@
 ---
-title: NSListItemEntity SaveFromListName(Integer id, String udListDefinitionName, NSListItemEntity item)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity SaveFromListName(Integer p_0, String p_1, NSListItemEntity p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveFromListName_Integer_p_0_String_p_1_NSListItemEntity_p_2
+description: NSListAgent.SaveFromListName(Integer p_0, String p_1, NSListItemEntity p_2)
+intellisense: NSListAgent.SaveFromListName
 keywords: SaveFromListName(Integer,String,NSListItemEntity)
+so.topic: reference
 ---
 
 

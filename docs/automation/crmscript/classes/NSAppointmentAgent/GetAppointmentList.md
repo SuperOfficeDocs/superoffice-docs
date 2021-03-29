@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetAppointmentList(Integer[] p0)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetAppointmentList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetAppointmentList_Integer__p_0
+description: NSAppointmentAgent.GetAppointmentList(Integer[] p_0)
+intellisense: NSAppointmentAgent.GetAppointmentList
 sortOrder: 837
 keywords: GetAppointmentList(Integer[])
+so.topic: reference
 ---
 
 

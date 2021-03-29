@@ -1,9 +1,9 @@
 ---
-title: NSPriceList[] GetAllPriceListsByCurrencyId(Integer quoteConnectionId, Integer currencyId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList[] GetAllPriceListsByCurrencyId(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetAllPriceListsByCurrencyId_Integer_p_0_Integer_p_1
+description: NSQuoteAgent.GetAllPriceListsByCurrencyId(Integer p_0, Integer p_1)
+intellisense: NSQuoteAgent.GetAllPriceListsByCurrencyId
 keywords: GetAllPriceListsByCurrencyId(Integer,Integer)
+so.topic: reference
 ---
 
 

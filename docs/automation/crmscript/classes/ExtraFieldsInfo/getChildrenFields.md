@@ -1,10 +1,10 @@
 ---
-title: Void getChildrenFields(Integer type, Integer extraTableTarget)
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/Void getChildrenFields(Integer type, Integer extraTableTarget)
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraFieldsInfo_getChildrenFields_Integer_type_Integer_extraTableTarget
+description: ExtraFieldsInfo.getChildrenFields(Integer type, Integer extraTableTarget)
+intellisense: ExtraFieldsInfo.getChildrenFields
 sortOrder: 310
 keywords: getChildrenFields(Integer,Integer)
+so.topic: reference
 ---
 
 This function loads extra fields of the type given in the first parameter. If the type is an extra table relation, the second pointer is the id of the extra table it points to.

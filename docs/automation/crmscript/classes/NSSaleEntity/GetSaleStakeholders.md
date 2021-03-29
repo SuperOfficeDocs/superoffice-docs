@@ -1,9 +1,9 @@
 ---
-title: NSSaleStakeholder[] GetSaleStakeholders()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSSaleStakeholder[] GetSaleStakeholders()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetSaleStakeholders
+description: NSSaleEntity.GetSaleStakeholders()
+intellisense: NSSaleEntity.GetSaleStakeholders
 keywords: GetSaleStakeholders()
+so.topic: reference
 ---
 
 

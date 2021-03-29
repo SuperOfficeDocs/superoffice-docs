@@ -1,9 +1,9 @@
 ---
-title: String GetTabName()
-path: /EJScript/Classes/NSTabOrder/Member functions/String GetTabName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_GetTabName
+description: NSTabOrder.GetTabName()
+intellisense: NSTabOrder.GetTabName
 keywords: GetTabName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetVisibleFor(VisibleFor[] fields)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetVisibleFor(VisibleFor[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetVisibleFor_VisibleFor__p_0
+description: NSSaleEntity.SetVisibleFor(VisibleFor[] p_0)
+intellisense: NSSaleEntity.SetVisibleFor
 keywords: SetVisibleFor(VisibleFor[])
+so.topic: reference
 ---
 
 

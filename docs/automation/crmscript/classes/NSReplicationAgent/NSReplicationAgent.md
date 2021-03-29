@@ -1,8 +1,8 @@
 ---
-title: NSReplicationAgent
-path: /EJScript/Classes/NSReplicationAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent
+description: NSReplicationAgent
+intellisense: Void.NSReplicationAgent
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetLastStarted(DateTime LastStarted)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetLastStarted(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetLastStarted_DateTime_p_0
+description: NSBatchTaskInfo.SetLastStarted(DateTime p_0)
+intellisense: NSBatchTaskInfo.SetLastStarted
 sortOrder: 1395
 keywords: SetLastStarted(DateTime)
+so.topic: reference
 ---
 
 

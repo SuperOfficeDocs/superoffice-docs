@@ -1,9 +1,9 @@
 ---
-title: Integer GetTextLength()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetTextLength()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetTextLength
+description: NSUserDefinedFieldInfo.GetTextLength()
+intellisense: NSUserDefinedFieldInfo.GetTextLength
 keywords: GetTextLength()
+so.topic: reference
 ---
 
 

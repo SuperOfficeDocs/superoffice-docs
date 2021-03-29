@@ -1,10 +1,10 @@
 ---
-title: Integer GetCurrentAccountId()
-path: /EJScript/Classes/NSEMailAgent/Member functions/Integer GetCurrentAccountId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetCurrentAccountId
+description: NSEMailAgent.GetCurrentAccountId()
+intellisense: NSEMailAgent.GetCurrentAccountId
 sortOrder: 2788
 keywords: GetCurrentAccountId()
+so.topic: reference
 ---
 
 

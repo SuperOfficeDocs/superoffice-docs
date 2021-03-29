@@ -1,9 +1,9 @@
 ---
-title: Void DeleteEntities(Integer selectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void DeleteEntities(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_DeleteEntities_Integer_p_0
+description: NSSelectionAgent.DeleteEntities(Integer p_0)
+intellisense: NSSelectionAgent.DeleteEntities
 keywords: DeleteEntities(Integer)
+so.topic: reference
 ---
 
 

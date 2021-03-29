@@ -1,9 +1,9 @@
 ---
-title: Integer select()
-path: /EJScript/Classes/SearchEngine/member functions/Integer select()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_select
+description: SearchEngine.select()
+intellisense: SearchEngine.select
 keywords: select()
+so.topic: reference
 ---
 
 

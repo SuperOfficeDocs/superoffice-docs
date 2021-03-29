@@ -1,9 +1,9 @@
 ---
-title: String GetOwnerDescription()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetOwnerDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetOwnerDescription
+description: NSLicenseInfo.GetOwnerDescription()
+intellisense: NSLicenseInfo.GetOwnerDescription
 keywords: GetOwnerDescription()
+so.topic: reference
 ---
 
 

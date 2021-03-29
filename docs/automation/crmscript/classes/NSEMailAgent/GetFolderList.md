@@ -1,10 +1,10 @@
 ---
-title: String[] GetFolderList(NSEMailConnectionInfo connectionInfo, Bool includeItemCount)
-path: /EJScript/Classes/NSEMailAgent/Member functions/String[] GetFolderList(NSEMailConnectionInfo p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetFolderList_NSEMailConnectionInfo_p_0_Bool_p_1
+description: NSEMailAgent.GetFolderList(NSEMailConnectionInfo p_0, Bool p_1)
+intellisense: NSEMailAgent.GetFolderList
 sortOrder: 2853
 keywords: GetFolderList(NSEMailConnectionInfo,Bool)
+so.topic: reference
 ---
 
 

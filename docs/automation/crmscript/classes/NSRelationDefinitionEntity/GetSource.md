@@ -1,9 +1,9 @@
 ---
-title: Integer GetSource()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Integer GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_GetSource
+description: NSRelationDefinitionEntity.GetSource()
+intellisense: NSRelationDefinitionEntity.GetSource
 keywords: GetSource()
+so.topic: reference
 ---
 
 

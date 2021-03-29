@@ -1,10 +1,10 @@
 ---
-title: String getName()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/String getName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraFieldsInfo_getName
+description: ExtraFieldsInfo.getName()
+intellisense: ExtraFieldsInfo.getName
 sortOrder: 307
 keywords: getName()
+so.topic: reference
 ---
 
 This function returns the descriptive name (not the database name) of the current field.

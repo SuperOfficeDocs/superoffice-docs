@@ -1,9 +1,9 @@
 ---
-title: NSHistoryRequest
-path: /EJScript/Classes/NSHistoryRequest
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistoryRequest
+description: NSHistoryRequest
+intellisense: Void.NSHistoryRequest
 sortOrder: 3940
+so.topic: reference
 ---
 
 

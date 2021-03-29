@@ -1,9 +1,9 @@
 ---
-title: Void SaveSatellite(NSSatellite satellite)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/Void SaveSatellite(NSSatellite p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_SaveSatellite_NSSatellite_p_0
+description: NSReplicationAgent.SaveSatellite(NSSatellite p_0)
+intellisense: NSReplicationAgent.SaveSatellite
 keywords: SaveSatellite(NSSatellite)
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSPocketStartupData
-path: /EJScript/Classes/NSPocketStartupData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData
+description: NSPocketStartupData
+intellisense: Void.NSPocketStartupData
+so.topic: reference
 ---
 
 

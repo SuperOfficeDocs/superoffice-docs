@@ -1,9 +1,9 @@
 ---
-title: Void SetAssemblyVersion(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetAssemblyVersion(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetAssemblyVersion_String_p_0
+description: NSSoSystemInfoCarrier.SetAssemblyVersion(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetAssemblyVersion
 keywords: SetAssemblyVersion(String)
+so.topic: reference
 ---
 
 

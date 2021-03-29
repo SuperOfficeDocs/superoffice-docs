@@ -1,9 +1,9 @@
 ---
-title: NSSatellite CreateDefaultSatellite()
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSSatellite CreateDefaultSatellite()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_CreateDefaultSatellite
+description: NSReplicationAgent.CreateDefaultSatellite()
+intellisense: NSReplicationAgent.CreateDefaultSatellite
 keywords: CreateDefaultSatellite()
+so.topic: reference
 ---
 
 

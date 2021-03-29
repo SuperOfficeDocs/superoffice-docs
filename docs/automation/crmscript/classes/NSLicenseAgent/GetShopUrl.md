@@ -1,9 +1,9 @@
 ---
-title: String GetShopUrl(String ownerName)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/String GetShopUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetShopUrl_String_p_0
+description: NSLicenseAgent.GetShopUrl(String p_0)
+intellisense: NSLicenseAgent.GetShopUrl
 keywords: GetShopUrl(String)
+so.topic: reference
 ---
 
 

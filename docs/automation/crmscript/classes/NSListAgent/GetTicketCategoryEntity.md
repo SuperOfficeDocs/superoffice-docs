@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryEntity GetTicketCategoryEntity(Integer ticketCategoryEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity GetTicketCategoryEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTicketCategoryEntity_Integer_p_0
+description: NSListAgent.GetTicketCategoryEntity(Integer p_0)
+intellisense: NSListAgent.GetTicketCategoryEntity
 keywords: GetTicketCategoryEntity(Integer)
+so.topic: reference
 ---
 
 

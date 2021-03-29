@@ -1,10 +1,10 @@
 ---
-title: String GetListProviderPrimaryKeyName()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListProviderPrimaryKeyName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_GetListProviderPrimaryKeyName
+description: NSControlInfo.GetListProviderPrimaryKeyName()
+intellisense: NSControlInfo.GetListProviderPrimaryKeyName
 sortOrder: 2001
 keywords: GetListProviderPrimaryKeyName()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSaleType
-path: /EJScript/Classes/NSSaleType
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleType
+description: NSSaleType
+intellisense: Void.NSSaleType
+so.topic: reference
 ---
 
 

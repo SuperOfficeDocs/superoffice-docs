@@ -1,9 +1,9 @@
 ---
-title: NSContactRelationEntity SaveContactRelation(NSContactRelationEntity contactRelationEntity)
-path: /EJScript/Classes/NSRelationAgent/Member functions/NSContactRelationEntity SaveContactRelation(NSContactRelationEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationAgent_SaveContactRelation_NSContactRelationEntity_p_0
+description: NSRelationAgent.SaveContactRelation(NSContactRelationEntity p_0)
+intellisense: NSRelationAgent.SaveContactRelation
 keywords: SaveContactRelation(NSContactRelationEntity)
+so.topic: reference
 ---
 
 

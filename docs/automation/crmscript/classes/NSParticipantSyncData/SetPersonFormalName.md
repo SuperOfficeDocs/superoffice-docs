@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonFormalName(String PersonFormalName)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonFormalName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPersonFormalName_String_p_0
+description: NSParticipantSyncData.SetPersonFormalName(String p_0)
+intellisense: NSParticipantSyncData.SetPersonFormalName
 keywords: SetPersonFormalName(String)
+so.topic: reference
 ---
 
 

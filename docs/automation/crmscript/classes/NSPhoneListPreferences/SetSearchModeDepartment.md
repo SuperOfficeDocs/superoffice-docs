@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchModeDepartment(Integer SearchModeDepartment)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchModeDepartment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_SetSearchModeDepartment_Integer_p_0
+description: NSPhoneListPreferences.SetSearchModeDepartment(Integer p_0)
+intellisense: NSPhoneListPreferences.SetSearchModeDepartment
 keywords: SetSearchModeDepartment(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetEvents(String[] Events)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetEvents(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetEvents_String__p_0
+description: NSWebhook.SetEvents(String[] p_0)
+intellisense: NSWebhook.SetEvents
 keywords: SetEvents(String[])
+so.topic: reference
 ---
 
 

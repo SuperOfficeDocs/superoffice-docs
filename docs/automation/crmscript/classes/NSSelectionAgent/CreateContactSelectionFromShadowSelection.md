@@ -1,9 +1,9 @@
 ---
-title: NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer selectionId, String name)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateContactSelectionFromShadowSelection(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromShadowSelection_Integer_p_0_String_p_1
+description: NSSelectionAgent.CreateContactSelectionFromShadowSelection(Integer p_0, String p_1)
+intellisense: NSSelectionAgent.CreateContactSelectionFromShadowSelection
 keywords: CreateContactSelectionFromShadowSelection(Integer,String)
+so.topic: reference
 ---
 
 

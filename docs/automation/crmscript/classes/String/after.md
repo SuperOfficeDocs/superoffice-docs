@@ -1,9 +1,9 @@
 ---
-title: String after(String s)
-path: /EJScript/Classes/String/Member functions/String after(String s)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_after_String_s
+description: String.after(String s)
+intellisense: String.after
 keywords: after(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetNextCheckDate()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetNextCheckDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetNextCheckDate
+description: NSLicenseInfo.GetNextCheckDate()
+intellisense: NSLicenseInfo.GetNextCheckDate
 keywords: GetNextCheckDate()
+so.topic: reference
 ---
 
 

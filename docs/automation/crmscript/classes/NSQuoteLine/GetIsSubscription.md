@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsSubscription()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Bool GetIsSubscription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetIsSubscription
+description: NSQuoteLine.GetIsSubscription()
+intellisense: NSQuoteLine.GetIsSubscription
 keywords: GetIsSubscription()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPreferredEmailCulture(String PreferredEmailCulture)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetPreferredEmailCulture(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetPreferredEmailCulture_String_p_0
+description: NSQuote.SetPreferredEmailCulture(String p_0)
+intellisense: NSQuote.SetPreferredEmailCulture
 keywords: SetPreferredEmailCulture(String)
+so.topic: reference
 ---
 
 

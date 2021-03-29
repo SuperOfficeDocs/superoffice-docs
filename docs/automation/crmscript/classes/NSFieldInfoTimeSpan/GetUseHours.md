@@ -1,10 +1,10 @@
 ---
-title: Bool GetUseHours()
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Bool GetUseHours()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTimeSpan_GetUseHours
+description: NSFieldInfoTimeSpan.GetUseHours()
+intellisense: NSFieldInfoTimeSpan.GetUseHours
 sortOrder: 3566
 keywords: GetUseHours()
+so.topic: reference
 ---
 
 

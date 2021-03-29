@@ -1,9 +1,9 @@
 ---
-title: DateTime GetValidFrom()
-path: /EJScript/Classes/NSPriceList/Member functions/DateTime GetValidFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_GetValidFrom
+description: NSPriceList.GetValidFrom()
+intellisense: NSPriceList.GetValidFrom
 keywords: GetValidFrom()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSStatisticsDataValue
-path: /EJScript/Classes/NSStatisticsDataValue
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataValue
+description: NSStatisticsDataValue
+intellisense: Void.NSStatisticsDataValue
+so.topic: reference
 ---
 
 

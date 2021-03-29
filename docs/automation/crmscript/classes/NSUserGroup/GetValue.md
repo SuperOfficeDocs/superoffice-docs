@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSUserGroup/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserGroup_GetValue
+description: NSUserGroup.GetValue()
+intellisense: NSUserGroup.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

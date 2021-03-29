@@ -1,10 +1,10 @@
 ---
-title: Integer CleanUpRecurringBookingDeleted()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Integer CleanUpRecurringBookingDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CleanUpRecurringBookingDeleted
+description: NSAppointmentAgent.CleanUpRecurringBookingDeleted()
+intellisense: NSAppointmentAgent.CleanUpRecurringBookingDeleted
 sortOrder: 829
 keywords: CleanUpRecurringBookingDeleted()
+so.topic: reference
 ---
 
 

@@ -1,11 +1,11 @@
 ---
-title: Void setNotEditable(Bool onOff)
-path: /EJScript/Classes/HtmlElement/Member functions/Void setNotEditable(Bool onOff)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_setNotEditable_Bool_onOff
+description: HtmlElement.setNotEditable(Bool onOff)
+intellisense: HtmlElement.setNotEditable
 sortOrder: 394
 keywords: setNotEditable(Bool)
 so.version: 3.1.8.36
+so.topic: reference
 ---
 
 # Void setNotEditable(Bool canEdit)

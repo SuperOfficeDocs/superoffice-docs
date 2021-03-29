@@ -1,9 +1,9 @@
 ---
-title: Void SetHidden(Bool Hidden)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetHidden(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetHidden_Bool_p_0
+description: NSSelectableMDOListItem.SetHidden(Bool p_0)
+intellisense: NSSelectableMDOListItem.SetHidden
 keywords: SetHidden(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void AddSaleStakeholders(Integer p0, NSSaleStakeholder[] p1)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void AddSaleStakeholders(Integer p_0, NSSaleStakeholder[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_AddSaleStakeholders_Integer_p_0_NSSaleStakeholder__p_1
+description: NSSaleAgent.AddSaleStakeholders(Integer p_0, NSSaleStakeholder[] p_1)
+intellisense: NSSaleAgent.AddSaleStakeholders
 keywords: AddSaleStakeholders(Integer,NSSaleStakeholder[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTicket(NSTicket Ticket)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetTicket(NSTicket p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetTicket_NSTicket_p_0
+description: NSTicketMessageEntity.SetTicket(NSTicket p_0)
+intellisense: NSTicketMessageEntity.SetTicket
 keywords: SetTicket(NSTicket)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String p0)
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_SetName_String_p_0
+description: NSGrantedModuleLicense.SetName(String p_0)
+intellisense: NSGrantedModuleLicense.SetName
 sortOrder: 3904
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

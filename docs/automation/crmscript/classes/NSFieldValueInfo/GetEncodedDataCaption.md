@@ -1,10 +1,10 @@
 ---
-title: String GetEncodedDataCaption()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetEncodedDataCaption()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetEncodedDataCaption
+description: NSFieldValueInfo.GetEncodedDataCaption()
+intellisense: NSFieldValueInfo.GetEncodedDataCaption
 sortOrder: 3625
 keywords: GetEncodedDataCaption()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetCreatedBy()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/String GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_GetCreatedBy
+description: NSAudienceConfigParameter.GetCreatedBy()
+intellisense: NSAudienceConfigParameter.GetCreatedBy
 sortOrder: 1322
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

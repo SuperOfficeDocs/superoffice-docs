@@ -1,10 +1,10 @@
 ---
-title: Void SetRelationDefinitionId(Integer RelationDefinitionId)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetRelationDefinitionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetRelationDefinitionId_Integer_p_0
+description: NSContactRelationEntity.SetRelationDefinitionId(Integer p_0)
+intellisense: NSContactRelationEntity.SetRelationDefinitionId
 sortOrder: 1971
 keywords: SetRelationDefinitionId(Integer)
+so.topic: reference
 ---
 
 

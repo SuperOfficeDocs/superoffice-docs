@@ -1,10 +1,10 @@
 ---
-title: String GetConnectionId()
-path: /EJScript/Classes/NSErpConnection/Member functions/String GetConnectionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_GetConnectionId
+description: NSErpConnection.GetConnectionId()
+intellisense: NSErpConnection.GetConnectionId
 sortOrder: 3085
 keywords: GetConnectionId()
+so.topic: reference
 ---
 
 

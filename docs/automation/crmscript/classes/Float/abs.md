@@ -1,10 +1,10 @@
 ---
-title: Float abs()
-path: /EJScript/Classes/Float/Member functions/Float abs()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Float_abs
+description: Float.abs()
+intellisense: Float.abs
 sortOrder: 357
 keywords: abs()
+so.topic: reference
 ---
 
 Returns the absolute value of the float.

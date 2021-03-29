@@ -1,9 +1,9 @@
 ---
-title: NSProductCategory GetProductCategory(Integer productCategoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductCategory GetProductCategory(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProductCategory_Integer_p_0
+description: NSListAgent.GetProductCategory(Integer p_0)
+intellisense: NSListAgent.GetProductCategory
 keywords: GetProductCategory(Integer)
+so.topic: reference
 ---
 
 

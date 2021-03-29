@@ -1,9 +1,9 @@
 ---
-title: Void SetLastname(String Lastname)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetLastname(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetLastname_String_p_0
+description: NSPerson.SetLastname(String p_0)
+intellisense: NSPerson.SetLastname
 keywords: SetLastname(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetGenerationEnd(DateTime GenerationEnd)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetGenerationEnd(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_SetGenerationEnd_DateTime_p_0
+description: NSSaintConfiguration.SetGenerationEnd(DateTime p_0)
+intellisense: NSSaintConfiguration.SetGenerationEnd
 keywords: SetGenerationEnd(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetMrmrs()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetMrmrs()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetMrmrs
+description: NSPersonEntity.GetMrmrs()
+intellisense: NSPersonEntity.GetMrmrs
 keywords: GetMrmrs()
+so.topic: reference
 ---
 
 

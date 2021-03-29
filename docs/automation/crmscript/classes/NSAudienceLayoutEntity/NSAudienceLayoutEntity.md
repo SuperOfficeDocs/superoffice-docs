@@ -1,9 +1,9 @@
 ---
-title: NSAudienceLayoutEntity
-path: /EJScript/Classes/NSAudienceLayoutEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity
+description: NSAudienceLayoutEntity
+intellisense: Void.NSAudienceLayoutEntity
 sortOrder: 1333
+so.topic: reference
 ---
 
 

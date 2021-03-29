@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsBooking()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsBooking()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetIsBooking
+description: NSAppointment.GetIsBooking()
+intellisense: NSAppointment.GetIsBooking
 sortOrder: 715
 keywords: GetIsBooking()
+so.topic: reference
 ---
 
 

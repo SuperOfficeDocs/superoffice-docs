@@ -1,9 +1,9 @@
 ---
-title: Void SetEarningPercent(Float EarningPercent)
-path: /EJScript/Classes/NSSale/Member functions/Void SetEarningPercent(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetEarningPercent_Float_p_0
+description: NSSale.SetEarningPercent(Float p_0)
+intellisense: NSSale.SetEarningPercent
 keywords: SetEarningPercent(Float)
+so.topic: reference
 ---
 
 

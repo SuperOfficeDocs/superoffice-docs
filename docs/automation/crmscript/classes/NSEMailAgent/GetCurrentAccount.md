@@ -1,10 +1,10 @@
 ---
-title: NSEMailAccount GetCurrentAccount()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount GetCurrentAccount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetCurrentAccount
+description: NSEMailAgent.GetCurrentAccount()
+intellisense: NSEMailAgent.GetCurrentAccount
 sortOrder: 2795
 keywords: GetCurrentAccount()
+so.topic: reference
 ---
 
 

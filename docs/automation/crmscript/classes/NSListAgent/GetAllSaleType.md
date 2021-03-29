@@ -1,9 +1,9 @@
 ---
-title: NSSaleType[] GetAllSaleType()
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleType[] GetAllSaleType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAllSaleType
+description: NSListAgent.GetAllSaleType()
+intellisense: NSListAgent.GetAllSaleType
 keywords: GetAllSaleType()
+so.topic: reference
 ---
 
 

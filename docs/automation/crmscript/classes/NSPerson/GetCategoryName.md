@@ -1,9 +1,9 @@
 ---
-title: String GetCategoryName()
-path: /EJScript/Classes/NSPerson/Member functions/String GetCategoryName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetCategoryName
+description: NSPerson.GetCategoryName()
+intellisense: NSPerson.GetCategoryName
 keywords: GetCategoryName()
+so.topic: reference
 ---
 
 

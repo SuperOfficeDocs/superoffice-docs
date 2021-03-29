@@ -1,9 +1,9 @@
 ---
-title: Bool HasGuide(Integer saleId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Bool HasGuide(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_HasGuide_Integer_p_0
+description: NSSaleAgent.HasGuide(Integer p_0)
+intellisense: NSSaleAgent.HasGuide
 keywords: HasGuide(Integer)
+so.topic: reference
 ---
 
 

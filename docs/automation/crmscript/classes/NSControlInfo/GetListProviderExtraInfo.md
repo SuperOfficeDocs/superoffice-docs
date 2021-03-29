@@ -1,10 +1,10 @@
 ---
-title: String GetListProviderExtraInfo()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListProviderExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_GetListProviderExtraInfo
+description: NSControlInfo.GetListProviderExtraInfo()
+intellisense: NSControlInfo.GetListProviderExtraInfo
 sortOrder: 1999
 keywords: GetListProviderExtraInfo()
+so.topic: reference
 ---
 
 

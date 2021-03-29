@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraField1(String ExtraField1)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetExtraField1(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetExtraField1_String_p_0
+description: NSQuoteAlternative.SetExtraField1(String p_0)
+intellisense: NSQuoteAlternative.SetExtraField1
 keywords: SetExtraField1(String)
+so.topic: reference
 ---
 
 

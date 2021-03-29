@@ -1,9 +1,9 @@
 ---
-title: String GetTargetUrl()
-path: /EJScript/Classes/NSWebhook/Member functions/String GetTargetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetTargetUrl
+description: NSWebhook.GetTargetUrl()
+intellisense: NSWebhook.GetTargetUrl
 keywords: GetTargetUrl()
+so.topic: reference
 ---
 
 

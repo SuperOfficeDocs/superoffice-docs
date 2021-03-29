@@ -1,8 +1,8 @@
 ---
-title: NSProject
-path: /EJScript/Classes/NSProject
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject
+description: NSProject
+intellisense: Void.NSProject
+so.topic: reference
 ---
 
 

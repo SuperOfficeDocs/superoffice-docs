@@ -1,10 +1,10 @@
 ---
-title: Byte[] get(String p0)
-path: /EJScript/Classes/HTTP/Member functions/Byte[] get(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_get_String_p_0
+description: HTTP.get(String p_0)
+intellisense: HTTP.get
 sortOrder: 400
 keywords: get(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a byte array.

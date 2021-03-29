@@ -1,9 +1,9 @@
 ---
-title: String GetPreferredEmailCulture()
-path: /EJScript/Classes/NSQuote/Member functions/String GetPreferredEmailCulture()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetPreferredEmailCulture
+description: NSQuote.GetPreferredEmailCulture()
+intellisense: NSQuote.GetPreferredEmailCulture
 keywords: GetPreferredEmailCulture()
+so.topic: reference
 ---
 
 

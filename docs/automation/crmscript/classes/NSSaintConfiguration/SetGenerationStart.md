@@ -1,9 +1,9 @@
 ---
-title: Void SetGenerationStart(DateTime GenerationStart)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetGenerationStart(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_SetGenerationStart_DateTime_p_0
+description: NSSaintConfiguration.SetGenerationStart(DateTime p_0)
+intellisense: NSSaintConfiguration.SetGenerationStart
 keywords: SetGenerationStart(DateTime)
+so.topic: reference
 ---
 
 

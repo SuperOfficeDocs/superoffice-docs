@@ -1,9 +1,9 @@
 ---
-title: Void SetRankOnProjectActivity(Integer projectTypeStatusLinkId, Integer[] itemsIds)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SetRankOnProjectActivity(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetRankOnProjectActivity_Integer_p_0_Integer__p_1
+description: NSListAgent.SetRankOnProjectActivity(Integer p_0, Integer[] p_1)
+intellisense: NSListAgent.SetRankOnProjectActivity
 keywords: SetRankOnProjectActivity(Integer,Integer[])
+so.topic: reference
 ---
 
 

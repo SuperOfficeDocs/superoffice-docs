@@ -1,9 +1,9 @@
 ---
-title: Integer GetTotal()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Integer GetTotal()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetTotal
+description: NSModuleLicenseLink.GetTotal()
+intellisense: NSModuleLicenseLink.GetTotal
 keywords: GetTotal()
+so.topic: reference
 ---
 
 

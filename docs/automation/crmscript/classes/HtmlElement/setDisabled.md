@@ -1,10 +1,10 @@
 ---
-title: Void setDisabled(Bool disable)
-path: /EJScript/Classes/HtmlElement/Member functions/Void setDisabled(Bool disable)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_setDisabled_Bool_disable
+description: HtmlElement.setDisabled(Bool disable)
+intellisense: HtmlElement.setDisabled
 sortOrder: 389
 keywords: setDisabled(Bool)
+so.topic: reference
 ---
 
 ### Void setDisabled(Bool invisible)

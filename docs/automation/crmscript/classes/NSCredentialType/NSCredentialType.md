@@ -1,9 +1,9 @@
 ---
-title: NSCredentialType
-path: /EJScript/Classes/NSCredentialType
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType
+description: NSCredentialType
+intellisense: Void.NSCredentialType
 sortOrder: 2068
+so.topic: reference
 ---
 
 

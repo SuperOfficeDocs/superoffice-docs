@@ -1,9 +1,9 @@
 ---
-title: NSSaintConfiguration CreateDefaultSaintConfiguration()
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSSaintConfiguration CreateDefaultSaintConfiguration()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_CreateDefaultSaintConfiguration
+description: NSSaintAgent.CreateDefaultSaintConfiguration()
+intellisense: NSSaintAgent.CreateDefaultSaintConfiguration
 keywords: CreateDefaultSaintConfiguration()
+so.topic: reference
 ---
 
 

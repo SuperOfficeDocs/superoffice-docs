@@ -1,9 +1,9 @@
 ---
-title: Void DeletePersons(Integer selectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void DeletePersons(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_DeletePersons_Integer_p_0
+description: NSSelectionAgent.DeletePersons(Integer p_0)
+intellisense: NSSelectionAgent.DeletePersons
 keywords: DeletePersons(Integer)
+so.topic: reference
 ---
 
 

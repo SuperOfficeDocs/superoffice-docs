@@ -1,10 +1,10 @@
 ---
-title: Void SetIsOwnerContact(Bool IsOwnerContact)
-path: /EJScript/Classes/NSContact/Member functions/Void SetIsOwnerContact(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetIsOwnerContact_Bool_p_0
+description: NSContact.SetIsOwnerContact(Bool p_0)
+intellisense: NSContact.SetIsOwnerContact
 sortOrder: 1758
 keywords: SetIsOwnerContact(Bool)
+so.topic: reference
 ---
 
 

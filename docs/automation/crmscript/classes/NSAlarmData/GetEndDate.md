@@ -1,10 +1,10 @@
 ---
-title: DateTime GetEndDate()
-path: /EJScript/Classes/NSAlarmData/Member functions/DateTime GetEndDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetEndDate
+description: NSAlarmData.GetEndDate()
+intellisense: NSAlarmData.GetEndDate
 sortOrder: 644
 keywords: GetEndDate()
+so.topic: reference
 ---
 
 

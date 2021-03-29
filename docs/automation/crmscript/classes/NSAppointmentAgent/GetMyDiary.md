@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetMyDiary(DateTime startTime, DateTime endTime, Integer count)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetMyDiary(DateTime p_0, DateTime p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetMyDiary_DateTime_p_0_DateTime_p_1_Integer_p_2
+description: NSAppointmentAgent.GetMyDiary(DateTime p_0, DateTime p_1, Integer p_2)
+intellisense: NSAppointmentAgent.GetMyDiary
 sortOrder: 849
 keywords: GetMyDiary(DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

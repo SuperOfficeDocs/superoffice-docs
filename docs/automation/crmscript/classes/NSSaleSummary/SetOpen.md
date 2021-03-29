@@ -1,9 +1,9 @@
 ---
-title: Void SetOpen(Integer Open)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpen(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetOpen_Integer_p_0
+description: NSSaleSummary.SetOpen(Integer p_0)
+intellisense: NSSaleSummary.SetOpen
 keywords: SetOpen(Integer)
+so.topic: reference
 ---
 
 

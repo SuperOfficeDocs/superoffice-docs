@@ -1,10 +1,10 @@
 ---
-title: Void SetColorIndex(Integer ColorIndex)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetColorIndex(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetColorIndex_Integer_p_0
+description: NSAppointment.SetColorIndex(Integer p_0)
+intellisense: NSAppointment.SetColorIndex
 sortOrder: 780
 keywords: SetColorIndex(Integer)
+so.topic: reference
 ---
 
 

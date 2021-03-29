@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSaleDate()
-path: /EJScript/Classes/NSSale/Member functions/DateTime GetSaleDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetSaleDate
+description: NSSale.GetSaleDate()
+intellisense: NSSale.GetSaleDate
 keywords: GetSaleDate()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetExtraInfo()
-path: /EJScript/Classes/NSBlobEntity/Member functions/String GetExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetExtraInfo
+description: NSBlobEntity.GetExtraInfo()
+intellisense: NSBlobEntity.GetExtraInfo
 sortOrder: 1451
 keywords: GetExtraInfo()
+so.topic: reference
 ---
 
 

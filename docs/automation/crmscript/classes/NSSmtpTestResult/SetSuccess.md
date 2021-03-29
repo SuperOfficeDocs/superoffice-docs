@@ -1,9 +1,9 @@
 ---
-title: Void SetSuccess(Bool Success)
-path: /EJScript/Classes/NSSmtpTestResult/Member functions/Void SetSuccess(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmtpTestResult_SetSuccess_Bool_p_0
+description: NSSmtpTestResult.SetSuccess(Bool p_0)
+intellisense: NSSmtpTestResult.SetSuccess
 keywords: SetSuccess(Bool)
+so.topic: reference
 ---
 
 

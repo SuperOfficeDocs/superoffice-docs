@@ -1,8 +1,8 @@
 ---
-title: NSUserDefinedFieldInfoAgent
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent
+description: NSUserDefinedFieldInfoAgent
+intellisense: Void.NSUserDefinedFieldInfoAgent
+so.topic: reference
 ---
 
 

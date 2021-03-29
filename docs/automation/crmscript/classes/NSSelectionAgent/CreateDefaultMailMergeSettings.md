@@ -1,9 +1,9 @@
 ---
-title: NSMailMergeSettings CreateDefaultMailMergeSettings()
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSMailMergeSettings CreateDefaultMailMergeSettings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateDefaultMailMergeSettings
+description: NSSelectionAgent.CreateDefaultMailMergeSettings()
+intellisense: NSSelectionAgent.CreateDefaultMailMergeSettings
 keywords: CreateDefaultMailMergeSettings()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetContactName()
-path: /EJScript/Classes/NSSale/Member functions/String GetContactName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetContactName
+description: NSSale.GetContactName()
+intellisense: NSSale.GetContactName
 keywords: GetContactName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetAutoSuggest(Integer AutoSuggest)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetAutoSuggest(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetAutoSuggest_Integer_p_0
+description: NSSuggestedAppointment.SetAutoSuggest(Integer p_0)
+intellisense: NSSuggestedAppointment.SetAutoSuggest
 keywords: SetAutoSuggest(Integer)
+so.topic: reference
 ---
 
 

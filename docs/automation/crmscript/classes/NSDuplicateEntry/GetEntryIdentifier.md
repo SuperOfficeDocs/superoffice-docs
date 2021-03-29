@@ -1,10 +1,10 @@
 ---
-title: String GetEntryIdentifier()
-path: /EJScript/Classes/NSDuplicateEntry/Member functions/String GetEntryIdentifier()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDuplicateEntry_GetEntryIdentifier
+description: NSDuplicateEntry.GetEntryIdentifier()
+intellisense: NSDuplicateEntry.GetEntryIdentifier
 sortOrder: 2723
 keywords: GetEntryIdentifier()
+so.topic: reference
 ---
 
 

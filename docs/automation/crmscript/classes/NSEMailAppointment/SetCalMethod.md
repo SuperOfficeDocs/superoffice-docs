@@ -1,10 +1,10 @@
 ---
-title: Void SetCalMethod(Integer CalMethod)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetCalMethod(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_SetCalMethod_Integer_p_0
+description: NSEMailAppointment.SetCalMethod(Integer p_0)
+intellisense: NSEMailAppointment.SetCalMethod
 sortOrder: 2883
 keywords: SetCalMethod(Integer)
+so.topic: reference
 ---
 
 

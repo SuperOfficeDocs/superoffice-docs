@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeToLive(Integer TimeToLive)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetTimeToLive(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetTimeToLive_Integer_p_0
+description: NSPocketNotificationMessage.SetTimeToLive(Integer p_0)
+intellisense: NSPocketNotificationMessage.SetTimeToLive
 keywords: SetTimeToLive(Integer)
+so.topic: reference
 ---
 
 

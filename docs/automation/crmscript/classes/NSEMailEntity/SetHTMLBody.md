@@ -1,10 +1,10 @@
 ---
-title: Void SetHTMLBody(String HTMLBody)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetHTMLBody(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetHTMLBody_String_p_0
+description: NSEMailEntity.SetHTMLBody(String p_0)
+intellisense: NSEMailEntity.SetHTMLBody
 sortOrder: 2986
 keywords: SetHTMLBody(String)
+so.topic: reference
 ---
 
 

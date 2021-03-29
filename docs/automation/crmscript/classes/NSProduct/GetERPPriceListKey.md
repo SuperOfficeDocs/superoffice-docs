@@ -1,9 +1,9 @@
 ---
-title: String GetERPPriceListKey()
-path: /EJScript/Classes/NSProduct/Member functions/String GetERPPriceListKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetERPPriceListKey
+description: NSProduct.GetERPPriceListKey()
+intellisense: NSProduct.GetERPPriceListKey
 keywords: GetERPPriceListKey()
+so.topic: reference
 ---
 
 

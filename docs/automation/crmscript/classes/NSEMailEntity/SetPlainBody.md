@@ -1,10 +1,10 @@
 ---
-title: Void SetPlainBody(String PlainBody)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetPlainBody(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetPlainBody_String_p_0
+description: NSEMailEntity.SetPlainBody(String p_0)
+intellisense: NSEMailEntity.SetPlainBody
 sortOrder: 2990
 keywords: SetPlainBody(String)
+so.topic: reference
 ---
 
 

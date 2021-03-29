@@ -1,9 +1,9 @@
 ---
-title: Void SetDomain(Integer Domain)
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Void SetDomain(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemporaryKeyInfo_SetDomain_Integer_p_0
+description: NSTemporaryKeyInfo.SetDomain(Integer p_0)
+intellisense: NSTemporaryKeyInfo.SetDomain
 keywords: SetDomain(Integer)
+so.topic: reference
 ---
 
 

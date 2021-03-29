@@ -1,10 +1,10 @@
 ---
-title: Void SetPercentageBusy(Integer PercentageBusy)
-path: /EJScript/Classes/NSActivitySummary/Member functions/Void SetPercentageBusy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummary_SetPercentageBusy_Integer_p_0
+description: NSActivitySummary.SetPercentageBusy(Integer p_0)
+intellisense: NSActivitySummary.SetPercentageBusy
 sortOrder: 592
 keywords: SetPercentageBusy(Integer)
+so.topic: reference
 ---
 
 

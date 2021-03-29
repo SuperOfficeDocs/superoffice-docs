@@ -1,10 +1,10 @@
 ---
-title: Void SetFilename(String Filename)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetFilename(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetFilename_String_p_0
+description: NSDocumentTemplateEntity.SetFilename(String p_0)
+intellisense: NSDocumentTemplateEntity.SetFilename
 sortOrder: 2685
 keywords: SetFilename(String)
+so.topic: reference
 ---
 
 

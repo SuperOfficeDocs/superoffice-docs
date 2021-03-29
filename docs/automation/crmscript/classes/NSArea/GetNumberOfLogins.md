@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumberOfLogins()
-path: /EJScript/Classes/NSArea/Member functions/Integer GetNumberOfLogins()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_GetNumberOfLogins
+description: NSArea.GetNumberOfLogins()
+intellisense: NSArea.GetNumberOfLogins
 sortOrder: 1243
 keywords: GetNumberOfLogins()
+so.topic: reference
 ---
 
 

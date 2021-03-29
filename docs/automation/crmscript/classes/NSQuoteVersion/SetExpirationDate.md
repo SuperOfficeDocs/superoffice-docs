@@ -1,9 +1,9 @@
 ---
-title: Void SetExpirationDate(DateTime ExpirationDate)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetExpirationDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetExpirationDate_DateTime_p_0
+description: NSQuoteVersion.SetExpirationDate(DateTime p_0)
+intellisense: NSQuoteVersion.SetExpirationDate
 keywords: SetExpirationDate(DateTime)
+so.topic: reference
 ---
 
 

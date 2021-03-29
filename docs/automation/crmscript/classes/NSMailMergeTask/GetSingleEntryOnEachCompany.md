@@ -1,9 +1,9 @@
 ---
-title: Bool GetSingleEntryOnEachCompany()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Bool GetSingleEntryOnEachCompany()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetSingleEntryOnEachCompany
+description: NSMailMergeTask.GetSingleEntryOnEachCompany()
+intellisense: NSMailMergeTask.GetSingleEntryOnEachCompany
 keywords: GetSingleEntryOnEachCompany()
+so.topic: reference
 ---
 
 

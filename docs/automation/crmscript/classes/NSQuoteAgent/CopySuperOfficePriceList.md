@@ -1,9 +1,9 @@
 ---
-title: NSPriceList CopySuperOfficePriceList(Integer originalPriceListId, String newName, DateTime validFrom, DateTime validTo, Integer newCurrencyId, Bool convertCurrency)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList CopySuperOfficePriceList(Integer p_0, String p_1, DateTime p_2, DateTime p_3, Integer p_4, Bool p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CopySuperOfficePriceList_Integer_p_0_String_p_1_DateTime_p_2_DateTime_p_3_Integer_p_4_Bool_p_5
+description: NSQuoteAgent.CopySuperOfficePriceList(Integer p_0, String p_1, DateTime p_2, DateTime p_3, Integer p_4, Bool p_5)
+intellisense: NSQuoteAgent.CopySuperOfficePriceList
 keywords: CopySuperOfficePriceList(Integer,String,DateTime,DateTime,Integer,Bool)
+so.topic: reference
 ---
 
 

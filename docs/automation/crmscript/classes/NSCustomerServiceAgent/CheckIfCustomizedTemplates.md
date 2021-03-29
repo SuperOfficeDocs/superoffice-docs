@@ -1,10 +1,10 @@
 ---
-title: Bool CheckIfCustomizedTemplates()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Bool CheckIfCustomizedTemplates()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_CheckIfCustomizedTemplates
+description: NSCustomerServiceAgent.CheckIfCustomizedTemplates()
+intellisense: NSCustomerServiceAgent.CheckIfCustomizedTemplates
 sortOrder: 2221
 keywords: CheckIfCustomizedTemplates()
+so.topic: reference
 ---
 
 

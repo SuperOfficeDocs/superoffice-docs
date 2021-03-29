@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedAssociateId(Integer UpdatedAssociateId)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetUpdatedAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_SetUpdatedAssociateId_Integer_p_0
+description: NSCustomerCenterConfig.SetUpdatedAssociateId(Integer p_0)
+intellisense: NSCustomerCenterConfig.SetUpdatedAssociateId
 sortOrder: 2210
 keywords: SetUpdatedAssociateId(Integer)
+so.topic: reference
 ---
 
 

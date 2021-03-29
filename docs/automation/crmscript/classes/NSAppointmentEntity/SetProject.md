@@ -1,10 +1,10 @@
 ---
-title: Void SetProject(NSProject Project)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetProject(NSProject p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetProject_NSProject_p_0
+description: NSAppointmentEntity.SetProject(NSProject p_0)
+intellisense: NSAppointmentEntity.SetProject
 sortOrder: 1022
 keywords: SetProject(NSProject)
+so.topic: reference
 ---
 
 

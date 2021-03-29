@@ -1,9 +1,9 @@
 ---
-title: Float GetERPDiscountPercent()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetERPDiscountPercent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_GetERPDiscountPercent
+description: NSQuoteAlternative.GetERPDiscountPercent()
+intellisense: NSQuoteAlternative.GetERPDiscountPercent
 keywords: GetERPDiscountPercent()
+so.topic: reference
 ---
 
 

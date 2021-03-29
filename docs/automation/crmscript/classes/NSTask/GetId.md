@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSTask/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTask_GetId
+description: NSTask.GetId()
+intellisense: NSTask.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

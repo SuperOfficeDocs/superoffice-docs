@@ -1,10 +1,10 @@
 ---
-title: Integer GetDocumentId()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem_GetDocumentId
+description: NSActivitySummaryItem.GetDocumentId()
+intellisense: NSActivitySummaryItem.GetDocumentId
 sortOrder: 599
 keywords: GetDocumentId()
+so.topic: reference
 ---
 
 

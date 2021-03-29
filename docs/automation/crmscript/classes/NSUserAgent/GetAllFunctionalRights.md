@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetAllFunctionalRights(Integer roleType)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSSelectableMDOListItem[] GetAllFunctionalRights(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetAllFunctionalRights_Integer_p_0
+description: NSUserAgent.GetAllFunctionalRights(Integer p_0)
+intellisense: NSUserAgent.GetAllFunctionalRights
 keywords: GetAllFunctionalRights(Integer)
+so.topic: reference
 ---
 
 

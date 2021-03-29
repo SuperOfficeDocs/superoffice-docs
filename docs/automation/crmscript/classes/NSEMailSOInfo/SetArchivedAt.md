@@ -1,10 +1,10 @@
 ---
-title: Void SetArchivedAt(DateTime ArchivedAt)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchivedAt(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_SetArchivedAt_DateTime_p_0
+description: NSEMailSOInfo.SetArchivedAt(DateTime p_0)
+intellisense: NSEMailSOInfo.SetArchivedAt
 sortOrder: 3054
 keywords: SetArchivedAt(DateTime)
+so.topic: reference
 ---
 
 

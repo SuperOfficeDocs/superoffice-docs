@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem_GetDescription
+description: NSActivitySummaryItem.GetDescription()
+intellisense: NSActivitySummaryItem.GetDescription
 sortOrder: 600
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

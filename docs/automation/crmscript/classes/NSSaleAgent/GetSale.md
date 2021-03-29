@@ -1,9 +1,9 @@
 ---
-title: NSSale GetSale(Integer saleId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale GetSale(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSale_Integer_p_0
+description: NSSaleAgent.GetSale(Integer p_0)
+intellisense: NSSaleAgent.GetSale
 keywords: GetSale(Integer)
+so.topic: reference
 ---
 
 

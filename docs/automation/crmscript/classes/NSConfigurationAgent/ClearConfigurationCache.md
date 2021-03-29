@@ -1,10 +1,10 @@
 ---
-title: Void ClearConfigurationCache(String application, String instance, Bool forAllAssociates)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/Void ClearConfigurationCache(String p_0, String p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_ClearConfigurationCache_String_p_0_String_p_1_Bool_p_2
+description: NSConfigurationAgent.ClearConfigurationCache(String p_0, String p_1, Bool p_2)
+intellisense: NSConfigurationAgent.ClearConfigurationCache
 sortOrder: 1621
 keywords: ClearConfigurationCache(String,String,Bool)
+so.topic: reference
 ---
 
 

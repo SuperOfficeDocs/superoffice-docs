@@ -1,10 +1,10 @@
 ---
-title: Integer GetResponseShipmentId()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetResponseShipmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetResponseShipmentId
+description: NSFormEntity.GetResponseShipmentId()
+intellisense: NSFormEntity.GetResponseShipmentId
 sortOrder: 3795
 keywords: GetResponseShipmentId()
+so.topic: reference
 ---
 
 

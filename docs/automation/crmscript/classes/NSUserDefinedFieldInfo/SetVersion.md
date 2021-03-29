@@ -1,9 +1,9 @@
 ---
-title: Void SetVersion(Integer Version)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetVersion(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetVersion_Integer_p_0
+description: NSUserDefinedFieldInfo.SetVersion(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetVersion
 keywords: SetVersion(Integer)
+so.topic: reference
 ---
 
 

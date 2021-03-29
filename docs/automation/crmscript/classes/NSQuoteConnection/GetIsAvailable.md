@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsAvailable()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Bool GetIsAvailable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetIsAvailable
+description: NSQuoteConnection.GetIsAvailable()
+intellisense: NSQuoteConnection.GetIsAvailable
 keywords: GetIsAvailable()
+so.topic: reference
 ---
 
 

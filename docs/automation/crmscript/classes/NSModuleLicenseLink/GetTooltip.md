@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetTooltip
+description: NSModuleLicenseLink.GetTooltip()
+intellisense: NSModuleLicenseLink.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

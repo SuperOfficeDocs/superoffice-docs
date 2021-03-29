@@ -1,9 +1,9 @@
 ---
-title: Void SetGrantedLicenses(String[] GrantedLicenses)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetGrantedLicenses(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_SetGrantedLicenses_String__p_0
+description: NSUserInfo.SetGrantedLicenses(String[] p_0)
+intellisense: NSUserInfo.SetGrantedLicenses
 keywords: SetGrantedLicenses(String[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetPromptUser()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Bool GetPromptUser()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetPromptUser
+description: NSErpSyncDefaultValue.GetPromptUser()
+intellisense: NSErpSyncDefaultValue.GetPromptUser
 sortOrder: 3253
 keywords: GetPromptUser()
+so.topic: reference
 ---
 
 

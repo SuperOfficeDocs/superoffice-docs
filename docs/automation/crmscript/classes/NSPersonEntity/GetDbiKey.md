@@ -1,9 +1,9 @@
 ---
-title: String GetDbiKey()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetDbiKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetDbiKey
+description: NSPersonEntity.GetDbiKey()
+intellisense: NSPersonEntity.GetDbiKey
 keywords: GetDbiKey()
+so.topic: reference
 ---
 
 

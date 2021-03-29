@@ -1,9 +1,9 @@
 ---
-title: NSProjectEvent[] GetProjectEventList(Integer[] p0)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEvent[] GetProjectEventList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetProjectEventList_Integer__p_0
+description: NSProjectAgent.GetProjectEventList(Integer[] p_0)
+intellisense: NSProjectAgent.GetProjectEventList
 keywords: GetProjectEventList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of ProjectEvent objects.

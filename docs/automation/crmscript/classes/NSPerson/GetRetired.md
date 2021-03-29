@@ -1,9 +1,9 @@
 ---
-title: Integer GetRetired()
-path: /EJScript/Classes/NSPerson/Member functions/Integer GetRetired()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_GetRetired
+description: NSPerson.GetRetired()
+intellisense: NSPerson.GetRetired
 keywords: GetRetired()
+so.topic: reference
 ---
 
 

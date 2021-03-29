@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsAssociate()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Bool GetIsAssociate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetIsAssociate
+description: NSPersonEntity.GetIsAssociate()
+intellisense: NSPersonEntity.GetIsAssociate
 keywords: GetIsAssociate()
+so.topic: reference
 ---
 
 

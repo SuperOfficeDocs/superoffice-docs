@@ -1,9 +1,9 @@
 ---
-title: NSActivitySummaryItem
-path: /EJScript/Classes/NSActivitySummaryItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem
+description: NSActivitySummaryItem
+intellisense: Void.NSActivitySummaryItem
 sortOrder: 593
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSyncUserAccount
-path: /EJScript/Classes/NSSyncUserAccount
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSyncUserAccount
+description: NSSyncUserAccount
+intellisense: Void.NSSyncUserAccount
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultValue(Float DefaultValue)
-path: /EJScript/Classes/NSFieldInfoDecimal/Member functions/Void SetDefaultValue(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDecimal_SetDefaultValue_Float_p_0
+description: NSFieldInfoDecimal.SetDefaultValue(Float p_0)
+intellisense: NSFieldInfoDecimal.SetDefaultValue
 sortOrder: 3507
 keywords: SetDefaultValue(Float)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetSenderEmailAddress(String SenderEmailAddress)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetSenderEmailAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetSenderEmailAddress_String_p_0
+description: NSDocumentTemplateEntity.SetSenderEmailAddress(String p_0)
+intellisense: NSDocumentTemplateEntity.SetSenderEmailAddress
 sortOrder: 2700
 keywords: SetSenderEmailAddress(String)
+so.topic: reference
 ---
 
 

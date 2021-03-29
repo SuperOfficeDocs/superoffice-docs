@@ -1,10 +1,10 @@
 ---
-title: String getMessage()
-path: /EJScript/Classes/EventData/member functions/String getMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_getMessage
+description: EventData.getMessage()
+intellisense: EventData.getMessage
 sortOrder: 292
 keywords: getMessage()
+so.topic: reference
 ---
 
 # String getMessage()

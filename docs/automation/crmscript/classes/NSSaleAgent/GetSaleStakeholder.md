@@ -1,9 +1,9 @@
 ---
-title: NSSaleStakeholder GetSaleStakeholder(Integer saleStakeholderId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder GetSaleStakeholder(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSaleStakeholder_Integer_p_0
+description: NSSaleAgent.GetSaleStakeholder(Integer p_0)
+intellisense: NSSaleAgent.GetSaleStakeholder
 keywords: GetSaleStakeholder(Integer)
+so.topic: reference
 ---
 
 

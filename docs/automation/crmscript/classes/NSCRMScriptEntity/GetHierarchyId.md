@@ -1,10 +1,10 @@
 ---
-title: Integer GetHierarchyId()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Integer GetHierarchyId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_GetHierarchyId
+description: NSCRMScriptEntity.GetHierarchyId()
+intellisense: NSCRMScriptEntity.GetHierarchyId
 sortOrder: 2130
 keywords: GetHierarchyId()
+so.topic: reference
 ---
 
 

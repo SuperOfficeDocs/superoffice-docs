@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetRank
+description: NSDiaryViewEntity.GetRank()
+intellisense: NSDiaryViewEntity.GetRank
 sortOrder: 2407
 keywords: GetRank()
+so.topic: reference
 ---
 
 

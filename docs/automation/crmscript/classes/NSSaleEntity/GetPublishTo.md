@@ -1,9 +1,9 @@
 ---
-title: DateTime GetPublishTo()
-path: /EJScript/Classes/NSSaleEntity/Member functions/DateTime GetPublishTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetPublishTo
+description: NSSaleEntity.GetPublishTo()
+intellisense: NSSaleEntity.GetPublishTo
 keywords: GetPublishTo()
+so.topic: reference
 ---
 
 

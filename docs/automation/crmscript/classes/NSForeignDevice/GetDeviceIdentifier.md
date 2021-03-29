@@ -1,10 +1,10 @@
 ---
-title: String GetDeviceIdentifier()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetDeviceIdentifier()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetDeviceIdentifier
+description: NSForeignDevice.GetDeviceIdentifier()
+intellisense: NSForeignDevice.GetDeviceIdentifier
 sortOrder: 3720
 keywords: GetDeviceIdentifier()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetType_Integer_p_0
+description: NSPocketNotificationMessage.SetType(Integer p_0)
+intellisense: NSPocketNotificationMessage.SetType
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

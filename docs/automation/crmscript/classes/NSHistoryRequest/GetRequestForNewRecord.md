@@ -1,10 +1,10 @@
 ---
-title: Bool GetRequestForNewRecord()
-path: /EJScript/Classes/NSHistoryRequest/Member functions/Bool GetRequestForNewRecord()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistoryRequest_GetRequestForNewRecord
+description: NSHistoryRequest.GetRequestForNewRecord()
+intellisense: NSHistoryRequest.GetRequestForNewRecord
 sortOrder: 3942
 keywords: GetRequestForNewRecord()
+so.topic: reference
 ---
 
 

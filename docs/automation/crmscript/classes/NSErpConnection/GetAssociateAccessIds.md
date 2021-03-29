@@ -1,10 +1,10 @@
 ---
-title: Integer[] GetAssociateAccessIds()
-path: /EJScript/Classes/NSErpConnection/Member functions/Integer[] GetAssociateAccessIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_GetAssociateAccessIds
+description: NSErpConnection.GetAssociateAccessIds()
+intellisense: NSErpConnection.GetAssociateAccessIds
 sortOrder: 3082
 keywords: GetAssociateAccessIds()
+so.topic: reference
 ---
 
 

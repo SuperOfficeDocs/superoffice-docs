@@ -1,8 +1,8 @@
 ---
-title: NSSystemEventEntity
-path: /EJScript/Classes/NSSystemEventEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity
+description: NSSystemEventEntity
+intellisense: Void.NSSystemEventEntity
+so.topic: reference
 ---
 
 

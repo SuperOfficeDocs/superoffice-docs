@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchTitle(String SearchTitle)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetSearchTitle(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetSearchTitle_String_p_0
+description: NSTicketMessageEntity.SetSearchTitle(String p_0)
+intellisense: NSTicketMessageEntity.SetSearchTitle
 keywords: SetSearchTitle(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetOperationInfos(NSOperationInfo[] OperationInfos)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetOperationInfos(NSOperationInfo[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetOperationInfos_NSOperationInfo__p_0
+description: NSFieldValueInfo.SetOperationInfos(NSOperationInfo[] p_0)
+intellisense: NSFieldValueInfo.SetOperationInfos
 sortOrder: 3648
 keywords: SetOperationInfos(NSOperationInfo[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity[] GetHeadingsFromName(String name)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] GetHeadingsFromName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetHeadingsFromName_String_p_0
+description: NSListAgent.GetHeadingsFromName(String p_0)
+intellisense: NSListAgent.GetHeadingsFromName
 keywords: GetHeadingsFromName(String)
+so.topic: reference
 ---
 
 

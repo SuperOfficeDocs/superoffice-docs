@@ -1,10 +1,10 @@
 ---
-title: Integer GetTaskType()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetTaskType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetTaskType
+description: NSAppointment.GetTaskType()
+intellisense: NSAppointment.GetTaskType
 sortOrder: 745
 keywords: GetTaskType()
+so.topic: reference
 ---
 
 

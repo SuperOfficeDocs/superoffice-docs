@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumberOfLicensesInUse()
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Integer GetNumberOfLicensesInUse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedModuleLicense_GetNumberOfLicensesInUse
+description: NSExtendedModuleLicense.GetNumberOfLicensesInUse()
+intellisense: NSExtendedModuleLicense.GetNumberOfLicensesInUse
 sortOrder: 3419
 keywords: GetNumberOfLicensesInUse()
+so.topic: reference
 ---
 
 

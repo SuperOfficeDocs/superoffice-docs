@@ -1,9 +1,9 @@
 ---
-title: Void SetToEmail(String ToEmail)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetToEmail(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetToEmail_String_p_0
+description: NSQuotePublishDocuments.SetToEmail(String p_0)
+intellisense: NSQuotePublishDocuments.SetToEmail
 keywords: SetToEmail(String)
+so.topic: reference
 ---
 
 

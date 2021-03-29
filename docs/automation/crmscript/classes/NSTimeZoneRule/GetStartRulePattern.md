@@ -1,9 +1,9 @@
 ---
-title: String GetStartRulePattern()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/String GetStartRulePattern()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetStartRulePattern
+description: NSTimeZoneRule.GetStartRulePattern()
+intellisense: NSTimeZoneRule.GetStartRulePattern
 keywords: GetStartRulePattern()
+so.topic: reference
 ---
 
 

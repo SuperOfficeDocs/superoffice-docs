@@ -1,9 +1,9 @@
 ---
-title: String GetReason()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetReason()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetReason
+description: NSQuoteVersion.GetReason()
+intellisense: NSQuoteVersion.GetReason
 keywords: GetReason()
+so.topic: reference
 ---
 
 

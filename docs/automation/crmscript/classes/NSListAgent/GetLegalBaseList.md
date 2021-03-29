@@ -1,9 +1,9 @@
 ---
-title: NSLegalBase[] GetLegalBaseList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase[] GetLegalBaseList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLegalBaseList_Integer__p_0
+description: NSListAgent.GetLegalBaseList(Integer[] p_0)
+intellisense: NSListAgent.GetLegalBaseList
 keywords: GetLegalBaseList(Integer[])
+so.topic: reference
 ---
 
 

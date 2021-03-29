@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetStages()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/NSSelectableMDOListItem[] GetStages()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetStages
+description: NSSaleTypeEntity.GetStages()
+intellisense: NSSaleTypeEntity.GetStages
 keywords: GetStages()
+so.topic: reference
 ---
 
 

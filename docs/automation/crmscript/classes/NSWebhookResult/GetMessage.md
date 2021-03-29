@@ -1,9 +1,9 @@
 ---
-title: String GetMessage()
-path: /EJScript/Classes/NSWebhookResult/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookResult_GetMessage
+description: NSWebhookResult.GetMessage()
+intellisense: NSWebhookResult.GetMessage
 keywords: GetMessage()
+so.topic: reference
 ---
 
 

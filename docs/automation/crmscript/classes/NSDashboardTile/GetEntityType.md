@@ -1,10 +1,10 @@
 ---
-title: Integer GetEntityType()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetEntityType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetEntityType
+description: NSDashboardTile.GetEntityType()
+intellisense: NSDashboardTile.GetEntityType
 sortOrder: 2291
 keywords: GetEntityType()
+so.topic: reference
 ---
 
 

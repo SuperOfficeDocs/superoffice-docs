@@ -1,10 +1,10 @@
 ---
-title: Integer GetStartCount()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetStartCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetStartCount
+description: NSBatchTaskInfo.GetStartCount()
+intellisense: NSBatchTaskInfo.GetStartCount
 sortOrder: 1373
 keywords: GetStartCount()
+so.topic: reference
 ---
 
 

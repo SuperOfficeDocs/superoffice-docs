@@ -1,8 +1,8 @@
 ---
-title: TimeSpan
-path: /EJScript/Classes/TimeSpan
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan
+description: TimeSpan
+intellisense: Void.TimeSpan
+so.topic: reference
 ---
 
 A class for representing a timespan.

@@ -1,9 +1,9 @@
 ---
-title: Integer GetTimeSpentQueue()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetTimeSpentQueue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetTimeSpentQueue
+description: NSTicketEntity.GetTimeSpentQueue()
+intellisense: NSTicketEntity.GetTimeSpentQueue
 keywords: GetTimeSpentQueue()
+so.topic: reference
 ---
 
 

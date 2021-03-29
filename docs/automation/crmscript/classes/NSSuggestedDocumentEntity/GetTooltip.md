@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetTooltip
+description: NSSuggestedDocumentEntity.GetTooltip()
+intellisense: NSSuggestedDocumentEntity.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

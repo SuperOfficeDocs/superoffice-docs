@@ -1,10 +1,10 @@
 ---
-title: Integer RefreshFolder(NSEMailConnectionInfo connectionInfo, String[] folders)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Integer RefreshFolder(NSEMailConnectionInfo p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_RefreshFolder_NSEMailConnectionInfo_p_0_String__p_1
+description: NSEMailAgent.RefreshFolder(NSEMailConnectionInfo p_0, String[] p_1)
+intellisense: NSEMailAgent.RefreshFolder
 sortOrder: 2791
 keywords: RefreshFolder(NSEMailConnectionInfo,String[])
+so.topic: reference
 ---
 
 

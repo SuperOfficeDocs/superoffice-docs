@@ -1,10 +1,10 @@
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_SetDocumentId_Integer_p_0
+description: NSEMailSOInfo.SetDocumentId(Integer p_0)
+intellisense: NSEMailSOInfo.SetDocumentId
 sortOrder: 3057
 keywords: SetDocumentId(Integer)
+so.topic: reference
 ---
 
 

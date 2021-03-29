@@ -1,10 +1,11 @@
 ---
-title: String convertGenericToString(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/String convertGenericToString(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_convertGenericToString_Generic_generic
+description: Generic.convertGenericToString(Generic generic)
+intellisense: Generic.convertGenericToString
 langref: 1
 sortOrder: 120
 keywords: convertGenericToString(Generic)
+so.topic: reference
 ---
 
 Return the string representation of any variable (will automatically be up-casted to a generic). Not all types have implemented support for this, and might return "[complex]". All the basic types (String, Integer, Float, and so on) will return a correct string representation of their value.

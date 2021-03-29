@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplateEntity SetDocumentTemplateStream(NSDocumentTemplateEntity documentTemplateEntity, NSStream stream, String languageCode, Integer pluginId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SetDocumentTemplateStream(NSDocumentTemplateEntity p_0, NSStream p_1, String p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetDocumentTemplateStream_NSDocumentTemplateEntity_p_0_NSStream_p_1_String_p_2_Integer_p_3
+description: NSListAgent.SetDocumentTemplateStream(NSDocumentTemplateEntity p_0, NSStream p_1, String p_2, Integer p_3)
+intellisense: NSListAgent.SetDocumentTemplateStream
 keywords: SetDocumentTemplateStream(NSDocumentTemplateEntity,NSStream,String,Integer)
+so.topic: reference
 ---
 
 

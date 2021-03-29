@@ -1,10 +1,10 @@
 ---
-title: String[] GetChoices()
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/String[] GetChoices()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText_GetChoices
+description: NSFieldInfoShortText.GetChoices()
+intellisense: NSFieldInfoShortText.GetChoices
 sortOrder: 3551
 keywords: GetChoices()
+so.topic: reference
 ---
 
 

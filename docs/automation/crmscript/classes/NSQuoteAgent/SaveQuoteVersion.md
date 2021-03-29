@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersion SaveQuoteVersion(NSQuoteVersion quoteVersion)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersion SaveQuoteVersion(NSQuoteVersion p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuoteVersion_NSQuoteVersion_p_0
+description: NSQuoteAgent.SaveQuoteVersion(NSQuoteVersion p_0)
+intellisense: NSQuoteAgent.SaveQuoteVersion
 keywords: SaveQuoteVersion(NSQuoteVersion)
+so.topic: reference
 ---
 
 

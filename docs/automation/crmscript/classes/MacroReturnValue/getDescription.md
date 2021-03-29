@@ -1,10 +1,10 @@
 ---
-title: String getDescription()
-path: /EJScript/Classes/MacroReturnValue/Member functions/String getDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroReturnValue_getDescription
+description: MacroReturnValue.getDescription()
+intellisense: MacroReturnValue.getDescription
 sortOrder: 498
 keywords: getDescription()
+so.topic: reference
 ---
 
 

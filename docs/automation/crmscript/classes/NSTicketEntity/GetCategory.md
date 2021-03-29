@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryEntity GetCategory()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketCategoryEntity GetCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetCategory
+description: NSTicketEntity.GetCategory()
+intellisense: NSTicketEntity.GetCategory
 keywords: GetCategory()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSCompetitor GetCompetitor()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSCompetitor GetCompetitor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetCompetitor
+description: NSSaleEntity.GetCompetitor()
+intellisense: NSSaleEntity.GetCompetitor
 keywords: GetCompetitor()
+so.topic: reference
 ---
 
 

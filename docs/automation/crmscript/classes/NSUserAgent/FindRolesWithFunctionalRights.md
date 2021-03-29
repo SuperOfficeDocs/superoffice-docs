@@ -1,9 +1,9 @@
 ---
-title: Integer[] FindRolesWithFunctionalRights(String[] functionalRightNames)
-path: /EJScript/Classes/NSUserAgent/Member functions/Integer[] FindRolesWithFunctionalRights(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_FindRolesWithFunctionalRights_String__p_0
+description: NSUserAgent.FindRolesWithFunctionalRights(String[] p_0)
+intellisense: NSUserAgent.FindRolesWithFunctionalRights
 keywords: FindRolesWithFunctionalRights(String[])
+so.topic: reference
 ---
 
 

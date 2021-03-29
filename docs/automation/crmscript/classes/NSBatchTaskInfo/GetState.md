@@ -1,10 +1,10 @@
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetState
+description: NSBatchTaskInfo.GetState()
+intellisense: NSBatchTaskInfo.GetState
 sortOrder: 1374
 keywords: GetState()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetGenerationStart()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/DateTime GetGenerationStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetGenerationStart
+description: NSStatusMonitor.GetGenerationStart()
+intellisense: NSStatusMonitor.GetGenerationStart
 keywords: GetGenerationStart()
+so.topic: reference
 ---
 
 

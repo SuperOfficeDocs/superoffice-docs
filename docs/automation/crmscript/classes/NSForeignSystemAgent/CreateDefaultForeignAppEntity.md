@@ -1,10 +1,10 @@
 ---
-title: NSForeignAppEntity CreateDefaultForeignAppEntity()
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignAppEntity CreateDefaultForeignAppEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_CreateDefaultForeignAppEntity
+description: NSForeignSystemAgent.CreateDefaultForeignAppEntity()
+intellisense: NSForeignSystemAgent.CreateDefaultForeignAppEntity
 sortOrder: 3752
 keywords: CreateDefaultForeignAppEntity()
+so.topic: reference
 ---
 
 

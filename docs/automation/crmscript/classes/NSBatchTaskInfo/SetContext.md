@@ -1,10 +1,10 @@
 ---
-title: Void SetContext(String Context)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetContext(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetContext_String_p_0
+description: NSBatchTaskInfo.SetContext(String p_0)
+intellisense: NSBatchTaskInfo.SetContext
 sortOrder: 1386
 keywords: SetContext(String)
+so.topic: reference
 ---
 
 

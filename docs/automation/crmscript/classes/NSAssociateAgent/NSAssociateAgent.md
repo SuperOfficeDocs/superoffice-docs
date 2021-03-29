@@ -1,9 +1,9 @@
 ---
-title: NSAssociateAgent
-path: /EJScript/Classes/NSAssociateAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent
+description: NSAssociateAgent
+intellisense: Void.NSAssociateAgent
 sortOrder: 1278
+so.topic: reference
 ---
 
 

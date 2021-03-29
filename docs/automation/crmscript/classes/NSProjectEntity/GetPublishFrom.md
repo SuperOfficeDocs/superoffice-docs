@@ -1,9 +1,9 @@
 ---
-title: DateTime GetPublishFrom()
-path: /EJScript/Classes/NSProjectEntity/Member functions/DateTime GetPublishFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetPublishFrom
+description: NSProjectEntity.GetPublishFrom()
+intellisense: NSProjectEntity.GetPublishFrom
 keywords: GetPublishFrom()
+so.topic: reference
 ---
 
 

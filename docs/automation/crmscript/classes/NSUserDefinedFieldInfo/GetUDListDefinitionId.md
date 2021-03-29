@@ -1,9 +1,9 @@
 ---
-title: Integer GetUDListDefinitionId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetUDListDefinitionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetUDListDefinitionId
+description: NSUserDefinedFieldInfo.GetUDListDefinitionId()
+intellisense: NSUserDefinedFieldInfo.GetUDListDefinitionId
 keywords: GetUDListDefinitionId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSChangedData GetChanges()
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/NSChangedData GetChanges()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternativeRecalculated_GetChanges
+description: NSQuoteAlternativeRecalculated.GetChanges()
+intellisense: NSQuoteAlternativeRecalculated.GetChanges
 keywords: GetChanges()
+so.topic: reference
 ---
 
 

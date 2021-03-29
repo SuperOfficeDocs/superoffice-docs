@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersion[] GetQuoteVersions()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/NSQuoteVersion[] GetQuoteVersions()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteEntity_GetQuoteVersions
+description: NSQuoteEntity.GetQuoteVersions()
+intellisense: NSQuoteEntity.GetQuoteVersions
 keywords: GetQuoteVersions()
+so.topic: reference
 ---
 
 

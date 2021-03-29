@@ -1,9 +1,9 @@
 ---
-title: Void start()
-path: /EJScript/Classes/Timer/Member functions/Void start()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Timer_start
+description: Timer.start()
+intellisense: Timer.start
 keywords: start()
+so.topic: reference
 ---
 
 This function will start the timer.

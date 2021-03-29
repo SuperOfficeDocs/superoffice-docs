@@ -1,10 +1,10 @@
 ---
-title: NSEntityElement[] GetUrls()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetUrls()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetUrls
+description: NSContactEntity.GetUrls()
+intellisense: NSContactEntity.GetUrls
 sortOrder: 1861
 keywords: GetUrls()
+so.topic: reference
 ---
 
 

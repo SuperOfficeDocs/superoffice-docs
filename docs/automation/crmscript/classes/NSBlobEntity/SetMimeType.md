@@ -1,10 +1,10 @@
 ---
-title: Void SetMimeType(String MimeType)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetMimeType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetMimeType_String_p_0
+description: NSBlobEntity.SetMimeType(String p_0)
+intellisense: NSBlobEntity.SetMimeType
 sortOrder: 1462
 keywords: SetMimeType(String)
+so.topic: reference
 ---
 
 

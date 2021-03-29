@@ -1,10 +1,10 @@
 ---
-title: String GetAssignedByFullName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetAssignedByFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetAssignedByFullName
+description: NSAppointment.GetAssignedByFullName()
+intellisense: NSAppointment.GetAssignedByFullName
 sortOrder: 752
 keywords: GetAssignedByFullName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity CreateDefaultReOpenAppointment(Integer saleId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity CreateDefaultReOpenAppointment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultReOpenAppointment_Integer_p_0
+description: NSAppointmentAgent.CreateDefaultReOpenAppointment(Integer p_0)
+intellisense: NSAppointmentAgent.CreateDefaultReOpenAppointment
 sortOrder: 879
 keywords: CreateDefaultReOpenAppointment(Integer)
+so.topic: reference
 ---
 
 

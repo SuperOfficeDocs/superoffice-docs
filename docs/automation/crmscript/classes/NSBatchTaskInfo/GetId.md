@@ -1,10 +1,10 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetId
+description: NSBatchTaskInfo.GetId()
+intellisense: NSBatchTaskInfo.GetId
 sortOrder: 1371
 keywords: GetId()
+so.topic: reference
 ---
 
 

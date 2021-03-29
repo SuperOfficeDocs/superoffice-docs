@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsCustomList()
-path: /EJScript/Classes/NSListEntity/Member functions/Bool GetIsCustomList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_GetIsCustomList
+description: NSListEntity.GetIsCustomList()
+intellisense: NSListEntity.GetIsCustomList
 keywords: GetIsCustomList()
+so.topic: reference
 ---
 
 

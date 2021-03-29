@@ -1,10 +1,10 @@
 ---
-title: NSWindowPosSizeList[] GetWindowPosSizeList(Integer[] windowPosSizeIds)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSWindowPosSizeList[] GetWindowPosSizeList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetWindowPosSizeList_Integer__p_0
+description: NSConfigurationAgent.GetWindowPosSizeList(Integer[] p_0)
+intellisense: NSConfigurationAgent.GetWindowPosSizeList
 sortOrder: 1603
 keywords: GetWindowPosSizeList(Integer[])
+so.topic: reference
 ---
 
 

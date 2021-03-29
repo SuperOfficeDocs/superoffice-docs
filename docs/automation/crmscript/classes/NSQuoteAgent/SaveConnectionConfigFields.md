@@ -1,9 +1,9 @@
 ---
-title: Map SaveConnectionConfigFields(Integer p0, Map p1)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Map SaveConnectionConfigFields(Integer p_0, Map p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveConnectionConfigFields_Integer_p_0_Map_p_1
+description: NSQuoteAgent.SaveConnectionConfigFields(Integer p_0, Map p_1)
+intellisense: NSQuoteAgent.SaveConnectionConfigFields
 keywords: SaveConnectionConfigFields(Integer,Map)
+so.topic: reference
 ---
 
 

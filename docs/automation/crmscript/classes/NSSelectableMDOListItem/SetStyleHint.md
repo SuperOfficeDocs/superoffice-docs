@@ -1,9 +1,9 @@
 ---
-title: Void SetStyleHint(String StyleHint)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetStyleHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetStyleHint_String_p_0
+description: NSSelectableMDOListItem.SetStyleHint(String p_0)
+intellisense: NSSelectableMDOListItem.SetStyleHint
 keywords: SetStyleHint(String)
+so.topic: reference
 ---
 
 

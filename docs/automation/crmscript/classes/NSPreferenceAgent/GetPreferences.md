@@ -1,9 +1,9 @@
 ---
-title: NSPreference[] GetPreferences(NSPreferenceSpec[] specifications)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference[] GetPreferences(NSPreferenceSpec[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetPreferences_NSPreferenceSpec__p_0
+description: NSPreferenceAgent.GetPreferences(NSPreferenceSpec[] p_0)
+intellisense: NSPreferenceAgent.GetPreferences
 keywords: GetPreferences(NSPreferenceSpec[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSErpConnectionData[] GetConnectionsAndDisplayFields(Integer crmActorType, Integer entityId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnectionData[] GetConnectionsAndDisplayFields(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetConnectionsAndDisplayFields_Integer_p_0_Integer_p_1
+description: NSErpSyncAgent.GetConnectionsAndDisplayFields(Integer p_0, Integer p_1)
+intellisense: NSErpSyncAgent.GetConnectionsAndDisplayFields
 sortOrder: 3194
 keywords: GetConnectionsAndDisplayFields(Integer,Integer)
+so.topic: reference
 ---
 
 

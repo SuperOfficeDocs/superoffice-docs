@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetMyPublishedDocuments()
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetMyPublishedDocuments()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetMyPublishedDocuments
+description: NSDocumentAgent.GetMyPublishedDocuments()
+intellisense: NSDocumentAgent.GetMyPublishedDocuments
 sortOrder: 2479
 keywords: GetMyPublishedDocuments()
+so.topic: reference
 ---
 
 

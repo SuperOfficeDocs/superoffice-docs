@@ -1,9 +1,9 @@
 ---
-title: Void SetUserExplanation(String UserExplanation)
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/Void SetUserExplanation(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginUrlResponse_SetUserExplanation_String_p_0
+description: NSPluginUrlResponse.SetUserExplanation(String p_0)
+intellisense: NSPluginUrlResponse.SetUserExplanation
 keywords: SetUserExplanation(String)
+so.topic: reference
 ---
 
 

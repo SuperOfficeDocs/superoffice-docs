@@ -1,10 +1,10 @@
 ---
-title: NSArchiveRestrictionGroup[] GetRestrictionGroups()
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/NSArchiveRestrictionGroup[] GetRestrictionGroups()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCriteriaInformation_GetRestrictionGroups
+description: NSCriteriaInformation.GetRestrictionGroups()
+intellisense: NSCriteriaInformation.GetRestrictionGroups
 sortOrder: 2106
 keywords: GetRestrictionGroups()
+so.topic: reference
 ---
 
 

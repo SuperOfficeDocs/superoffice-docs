@@ -1,9 +1,9 @@
 ---
-title: NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity amountClassEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSAmountClassEntity SaveAmountClassEntity(NSAmountClassEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveAmountClassEntity_NSAmountClassEntity_p_0
+description: NSListAgent.SaveAmountClassEntity(NSAmountClassEntity p_0)
+intellisense: NSListAgent.SaveAmountClassEntity
 keywords: SaveAmountClassEntity(NSAmountClassEntity)
+so.topic: reference
 ---
 
 

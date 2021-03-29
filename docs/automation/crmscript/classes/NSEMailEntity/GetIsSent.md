@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsSent()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Bool GetIsSent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetIsSent
+description: NSEMailEntity.GetIsSent()
+intellisense: NSEMailEntity.GetIsSent
 sortOrder: 2945
 keywords: GetIsSent()
+so.topic: reference
 ---
 
 

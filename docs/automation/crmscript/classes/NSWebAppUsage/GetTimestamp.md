@@ -1,9 +1,9 @@
 ---
-title: DateTime GetTimestamp()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/DateTime GetTimestamp()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetTimestamp
+description: NSWebAppUsage.GetTimestamp()
+intellisense: NSWebAppUsage.GetTimestamp
 keywords: GetTimestamp()
+so.topic: reference
 ---
 
 

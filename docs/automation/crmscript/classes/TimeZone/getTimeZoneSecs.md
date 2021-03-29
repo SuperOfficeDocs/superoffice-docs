@@ -1,9 +1,9 @@
 ---
-title: Integer getTimeZoneSecs()
-path: /EJScript/Classes/TimeZone/Member functions/Integer getTimeZoneSecs()
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeZone_getTimeZoneSecs
+description: TimeZone.getTimeZoneSecs()
+intellisense: TimeZone.getTimeZoneSecs
 keywords: getTimeZoneSecs()
+so.topic: reference
 ---
 
 

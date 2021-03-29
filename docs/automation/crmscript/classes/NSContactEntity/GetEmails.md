@@ -1,10 +1,10 @@
 ---
-title: NSEntityElement[] GetEmails()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSEntityElement[] GetEmails()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetEmails
+description: NSContactEntity.GetEmails()
+intellisense: NSContactEntity.GetEmails
 sortOrder: 1858
 keywords: GetEmails()
+so.topic: reference
 ---
 
 

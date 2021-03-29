@@ -1,9 +1,9 @@
 ---
-title: String GetMiddleName()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetMiddleName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetMiddleName
+description: NSPersonEntity.GetMiddleName()
+intellisense: NSPersonEntity.GetMiddleName
 keywords: GetMiddleName()
+so.topic: reference
 ---
 
 

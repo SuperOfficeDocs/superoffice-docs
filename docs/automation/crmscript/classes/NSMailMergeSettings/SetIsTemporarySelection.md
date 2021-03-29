@@ -1,9 +1,9 @@
 ---
-title: Void SetIsTemporarySelection(Bool IsTemporarySelection)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetIsTemporarySelection(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetIsTemporarySelection_Bool_p_0
+description: NSMailMergeSettings.SetIsTemporarySelection(Bool p_0)
+intellisense: NSMailMergeSettings.SetIsTemporarySelection
 keywords: SetIsTemporarySelection(Bool)
+so.topic: reference
 ---
 
 

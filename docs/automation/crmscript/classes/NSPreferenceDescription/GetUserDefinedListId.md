@@ -1,9 +1,9 @@
 ---
-title: Integer GetUserDefinedListId()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetUserDefinedListId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetUserDefinedListId
+description: NSPreferenceDescription.GetUserDefinedListId()
+intellisense: NSPreferenceDescription.GetUserDefinedListId
 keywords: GetUserDefinedListId()
+so.topic: reference
 ---
 
 

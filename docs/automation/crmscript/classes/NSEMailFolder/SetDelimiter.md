@@ -1,10 +1,10 @@
 ---
-title: Void SetDelimiter(String Delimiter)
-path: /EJScript/Classes/NSEMailFolder/Member functions/Void SetDelimiter(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_SetDelimiter_String_p_0
+description: NSEMailFolder.SetDelimiter(String p_0)
+intellisense: NSEMailFolder.SetDelimiter
 sortOrder: 3035
 keywords: SetDelimiter(String)
+so.topic: reference
 ---
 
 

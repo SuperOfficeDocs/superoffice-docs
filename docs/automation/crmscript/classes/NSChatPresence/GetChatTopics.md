@@ -1,10 +1,10 @@
 ---
-title: Integer[] GetChatTopics()
-path: /EJScript/Classes/NSChatPresence/Member functions/Integer[] GetChatTopics()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_GetChatTopics
+description: NSChatPresence.GetChatTopics()
+intellisense: NSChatPresence.GetChatTopics
 sortOrder: 1522
 keywords: GetChatTopics()
+so.topic: reference
 ---
 
 

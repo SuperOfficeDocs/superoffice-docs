@@ -1,10 +1,10 @@
 ---
-title: Void SetImage(Byte[] p0)
-path: /EJScript/Classes/NSImage/Member functions/Void SetImage(Byte[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImage_SetImage_Byte__p_0
+description: NSImage.SetImage(Byte[] p_0)
+intellisense: NSImage.SetImage
 sortOrder: 3951
 keywords: SetImage(Byte[])
+so.topic: reference
 ---
 
 

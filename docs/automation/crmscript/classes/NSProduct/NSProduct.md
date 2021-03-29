@@ -1,8 +1,8 @@
 ---
-title: NSProduct
-path: /EJScript/Classes/NSProduct
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct
+description: NSProduct
+intellisense: Void.NSProduct
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Byte[] toByteArray()
-path: /EJScript/Classes/String/Member functions/Byte[] toByteArray()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toByteArray
+description: String.toByteArray()
+intellisense: String.toByteArray
 keywords: toByteArray()
+so.topic: reference
 ---
 
 

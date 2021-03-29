@@ -1,9 +1,9 @@
 ---
-title: String getField(String field)
-path: /EJScript/Classes/StatResult/Member functions/String getField(String field)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatResult_getField_String_field
+description: StatResult.getField(String field)
+intellisense: StatResult.getField
 keywords: getField(String)
+so.topic: reference
 ---
 
 

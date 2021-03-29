@@ -1,9 +1,9 @@
 ---
-title: Void SetERPPriceListKey(String ERPPriceListKey)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetERPPriceListKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_SetERPPriceListKey_String_p_0
+description: NSPriceList.SetERPPriceListKey(String p_0)
+intellisense: NSPriceList.SetERPPriceListKey
 keywords: SetERPPriceListKey(String)
+so.topic: reference
 ---
 
 

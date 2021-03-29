@@ -1,10 +1,10 @@
 ---
-title: String GetDestinationContactName()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetDestinationContactName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetDestinationContactName
+description: NSContactRelationEntity.GetDestinationContactName()
+intellisense: NSContactRelationEntity.GetDestinationContactName
 sortOrder: 1957
 keywords: GetDestinationContactName()
+so.topic: reference
 ---
 
 

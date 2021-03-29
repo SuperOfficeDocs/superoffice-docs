@@ -1,9 +1,9 @@
 ---
-title: NSActivityFilter
-path: /EJScript/Classes/NSActivityFilter
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter
+description: NSActivityFilter
+intellisense: Void.NSActivityFilter
 sortOrder: 567
+so.topic: reference
 ---
 
 

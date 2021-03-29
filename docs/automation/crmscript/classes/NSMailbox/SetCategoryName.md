@@ -1,9 +1,9 @@
 ---
-title: Void SetCategoryName(String CategoryName)
-path: /EJScript/Classes/NSMailbox/Member functions/Void SetCategoryName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox_SetCategoryName_String_p_0
+description: NSMailbox.SetCategoryName(String p_0)
+intellisense: NSMailbox.SetCategoryName
 keywords: SetCategoryName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSRole/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRole_GetValue
+description: NSRole.GetValue()
+intellisense: NSRole.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetEjUserId(Integer EjUserId)
-path: /EJScript/Classes/NSUser/Member functions/Void SetEjUserId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetEjUserId_Integer_p_0
+description: NSUser.SetEjUserId(Integer p_0)
+intellisense: NSUser.SetEjUserId
 keywords: SetEjUserId(Integer)
+so.topic: reference
 ---
 
 

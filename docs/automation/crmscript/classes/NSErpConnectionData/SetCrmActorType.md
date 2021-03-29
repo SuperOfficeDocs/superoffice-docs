@@ -1,10 +1,10 @@
 ---
-title: Void SetCrmActorType(Integer CrmActorType)
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Void SetCrmActorType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_SetCrmActorType_Integer_p_0
+description: NSErpConnectionData.SetCrmActorType(Integer p_0)
+intellisense: NSErpConnectionData.SetCrmActorType
 sortOrder: 3116
 keywords: SetCrmActorType(Integer)
+so.topic: reference
 ---
 
 

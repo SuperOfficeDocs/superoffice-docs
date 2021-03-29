@@ -1,9 +1,9 @@
 ---
-title: NSEMailAppointment
-path: /EJScript/Classes/NSEMailAppointment
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment
+description: NSEMailAppointment
+intellisense: Void.NSEMailAppointment
 sortOrder: 2872
+so.topic: reference
 ---
 
 

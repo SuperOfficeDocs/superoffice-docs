@@ -1,9 +1,9 @@
 ---
-title: NSContactEntity
-path: /EJScript/Classes/NSContactEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity
+description: NSContactEntity
+intellisense: Void.NSContactEntity
 sortOrder: 1830
+so.topic: reference
 ---
 
 

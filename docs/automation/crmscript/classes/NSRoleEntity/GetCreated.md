@@ -1,9 +1,9 @@
 ---
-title: DateTime GetCreated()
-path: /EJScript/Classes/NSRoleEntity/Member functions/DateTime GetCreated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetCreated
+description: NSRoleEntity.GetCreated()
+intellisense: NSRoleEntity.GetCreated
 keywords: GetCreated()
+so.topic: reference
 ---
 
 

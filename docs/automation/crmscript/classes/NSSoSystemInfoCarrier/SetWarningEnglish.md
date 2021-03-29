@@ -1,9 +1,9 @@
 ---
-title: Void SetWarningEnglish(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetWarningEnglish(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetWarningEnglish_String_p_0
+description: NSSoSystemInfoCarrier.SetWarningEnglish(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetWarningEnglish
 keywords: SetWarningEnglish(String)
+so.topic: reference
 ---
 
 

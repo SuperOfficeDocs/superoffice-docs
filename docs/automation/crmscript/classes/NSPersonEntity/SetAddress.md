@@ -1,9 +1,9 @@
 ---
-title: Void SetAddress(NSAddress Address)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetAddress(NSAddress p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetAddress_NSAddress_p_0
+description: NSPersonEntity.SetAddress(NSAddress p_0)
+intellisense: NSPersonEntity.SetAddress
 keywords: SetAddress(NSAddress)
+so.topic: reference
 ---
 
 

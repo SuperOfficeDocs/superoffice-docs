@@ -1,10 +1,10 @@
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetProjectName_String_p_0
+description: NSAppointment.SetProjectName(String p_0)
+intellisense: NSAppointment.SetProjectName
 sortOrder: 809
 keywords: SetProjectName(String)
+so.topic: reference
 ---
 
 

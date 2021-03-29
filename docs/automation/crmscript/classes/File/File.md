@@ -1,9 +1,9 @@
 ---
-title: File
-path: /EJScript/Classes/File
-intellisense: 1
-classref: 1
+title: crmscript_ref_File
+description: File
+intellisense: Void.File
 sortOrder: 340
+so.topic: reference
 ---
 
 This represents a file.

@@ -1,10 +1,10 @@
 ---
-title: Void SetRestrictionGroups(NSArchiveRestrictionGroup[] RestrictionGroups)
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/Void SetRestrictionGroups(NSArchiveRestrictionGroup[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCriteriaInformation_SetRestrictionGroups_NSArchiveRestrictionGroup__p_0
+description: NSCriteriaInformation.SetRestrictionGroups(NSArchiveRestrictionGroup[] p_0)
+intellisense: NSCriteriaInformation.SetRestrictionGroups
 sortOrder: 2110
 keywords: SetRestrictionGroups(NSArchiveRestrictionGroup[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPhoneMobile(String[] PhoneMobile)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhoneMobile(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPhoneMobile_String__p_0
+description: NSParticipantSyncData.SetPhoneMobile(String[] p_0)
+intellisense: NSParticipantSyncData.SetPhoneMobile
 keywords: SetPhoneMobile(String[])
+so.topic: reference
 ---
 
 

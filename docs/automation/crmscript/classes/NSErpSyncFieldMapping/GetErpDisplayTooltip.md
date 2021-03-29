@@ -1,10 +1,10 @@
 ---
-title: String GetErpDisplayTooltip()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/String GetErpDisplayTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetErpDisplayTooltip
+description: NSErpSyncFieldMapping.GetErpDisplayTooltip()
+intellisense: NSErpSyncFieldMapping.GetErpDisplayTooltip
 sortOrder: 3301
 keywords: GetErpDisplayTooltip()
+so.topic: reference
 ---
 
 

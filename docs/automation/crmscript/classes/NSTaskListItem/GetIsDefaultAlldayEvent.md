@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsDefaultAlldayEvent()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Bool GetIsDefaultAlldayEvent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetIsDefaultAlldayEvent
+description: NSTaskListItem.GetIsDefaultAlldayEvent()
+intellisense: NSTaskListItem.GetIsDefaultAlldayEvent
 keywords: GetIsDefaultAlldayEvent()
+so.topic: reference
 ---
 
 

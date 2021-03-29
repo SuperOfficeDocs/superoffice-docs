@@ -1,10 +1,10 @@
 ---
-title: Integer GetMultiWordOperator()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetMultiWordOperator()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetMultiWordOperator
+description: NSFreeText.GetMultiWordOperator()
+intellisense: NSFreeText.GetMultiWordOperator
 sortOrder: 3856
 keywords: GetMultiWordOperator()
+so.topic: reference
 ---
 
 

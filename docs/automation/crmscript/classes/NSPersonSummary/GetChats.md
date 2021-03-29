@@ -1,9 +1,9 @@
 ---
-title: NSChatSummaryItem[] GetChats()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSChatSummaryItem[] GetChats()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_GetChats
+description: NSPersonSummary.GetChats()
+intellisense: NSPersonSummary.GetChats
 keywords: GetChats()
+so.topic: reference
 ---
 
 

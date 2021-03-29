@@ -1,10 +1,10 @@
 ---
-title: Void DeleteChatSessions(Integer[] ids)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/Void DeleteChatSessions(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_DeleteChatSessions_Integer__p_0
+description: NSCustomerServiceAgent.DeleteChatSessions(Integer[] p_0)
+intellisense: NSCustomerServiceAgent.DeleteChatSessions
 sortOrder: 2245
 keywords: DeleteChatSessions(Integer[])
+so.topic: reference
 ---
 
 

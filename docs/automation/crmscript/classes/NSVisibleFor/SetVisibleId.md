@@ -1,9 +1,9 @@
 ---
-title: Void SetVisibleId(Integer VisibleId)
-path: /EJScript/Classes/NSVisibleFor/Member functions/Void SetVisibleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVisibleFor_SetVisibleId_Integer_p_0
+description: NSVisibleFor.SetVisibleId(Integer p_0)
+intellisense: NSVisibleFor.SetVisibleId
 keywords: SetVisibleId(Integer)
+so.topic: reference
 ---
 
 

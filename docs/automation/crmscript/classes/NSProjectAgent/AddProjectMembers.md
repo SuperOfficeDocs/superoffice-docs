@@ -1,9 +1,9 @@
 ---
-title: Void AddProjectMembers(Integer projectEntityId, NSProjectMember[] projectMembers)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void AddProjectMembers(Integer p_0, NSProjectMember[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_AddProjectMembers_Integer_p_0_NSProjectMember__p_1
+description: NSProjectAgent.AddProjectMembers(Integer p_0, NSProjectMember[] p_1)
+intellisense: NSProjectAgent.AddProjectMembers
 keywords: AddProjectMembers(Integer,NSProjectMember[])
+so.topic: reference
 ---
 
 

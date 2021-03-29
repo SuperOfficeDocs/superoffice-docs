@@ -1,9 +1,9 @@
 ---
-title: String[] GetPhoneFax()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetPhoneFax()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPhoneFax
+description: NSParticipantSyncData.GetPhoneFax()
+intellisense: NSParticipantSyncData.GetPhoneFax
 keywords: GetPhoneFax()
+so.topic: reference
 ---
 
 

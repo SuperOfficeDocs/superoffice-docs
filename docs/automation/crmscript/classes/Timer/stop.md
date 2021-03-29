@@ -1,9 +1,9 @@
 ---
-title: Void stop()
-path: /EJScript/Classes/Timer/Member functions/Void stop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Timer_stop
+description: Timer.stop()
+intellisense: Timer.stop
 keywords: stop()
+so.topic: reference
 ---
 
 This function will stop the timer.

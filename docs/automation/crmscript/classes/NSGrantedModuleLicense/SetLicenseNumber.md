@@ -1,10 +1,10 @@
 ---
-title: Void SetLicenseNumber(Integer p0)
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/Void SetLicenseNumber(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_SetLicenseNumber_Integer_p_0
+description: NSGrantedModuleLicense.SetLicenseNumber(Integer p_0)
+intellisense: NSGrantedModuleLicense.SetLicenseNumber
 sortOrder: 3901
 keywords: SetLicenseNumber(Integer)
+so.topic: reference
 ---
 
 

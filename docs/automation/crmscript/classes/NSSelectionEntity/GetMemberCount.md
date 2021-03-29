@@ -1,9 +1,9 @@
 ---
-title: Integer GetMemberCount()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetMemberCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetMemberCount
+description: NSSelectionEntity.GetMemberCount()
+intellisense: NSSelectionEntity.GetMemberCount
 keywords: GetMemberCount()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFormKey(String FormKey)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetFormKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetFormKey_String_p_0
+description: NSFormEntity.SetFormKey(String p_0)
+intellisense: NSFormEntity.SetFormKey
 sortOrder: 3813
 keywords: SetFormKey(String)
+so.topic: reference
 ---
 
 

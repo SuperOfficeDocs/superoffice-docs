@@ -1,9 +1,9 @@
 ---
-title: NSFieldValueInfo
-path: /EJScript/Classes/NSFieldValueInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo
+description: NSFieldValueInfo
+intellisense: Void.NSFieldValueInfo
 sortOrder: 3615
+so.topic: reference
 ---
 
 

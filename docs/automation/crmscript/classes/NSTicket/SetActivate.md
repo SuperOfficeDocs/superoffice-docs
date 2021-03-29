@@ -1,9 +1,9 @@
 ---
-title: Void SetActivate(DateTime Activate)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetActivate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetActivate_DateTime_p_0
+description: NSTicket.SetActivate(DateTime p_0)
+intellisense: NSTicket.SetActivate
 keywords: SetActivate(DateTime)
+so.topic: reference
 ---
 
 

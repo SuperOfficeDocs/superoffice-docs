@@ -1,10 +1,10 @@
 ---
-title: Integer GetPort()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Integer GetPort()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_GetPort
+description: NSEMailConnectionInfoExtended.GetPort()
+intellisense: NSEMailConnectionInfoExtended.GetPort
 sortOrder: 2923
 keywords: GetPort()
+so.topic: reference
 ---
 
 

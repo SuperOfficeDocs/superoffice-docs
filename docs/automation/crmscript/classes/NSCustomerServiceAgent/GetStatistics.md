@@ -1,10 +1,10 @@
 ---
-title: NSStatisticsDataSet[] GetStatistics(Integer p0)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSStatisticsDataSet[] GetStatistics(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_GetStatistics_Integer_p_0
+description: NSCustomerServiceAgent.GetStatistics(Integer p_0)
+intellisense: NSCustomerServiceAgent.GetStatistics
 sortOrder: 2238
 keywords: GetStatistics(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetUserInfo(NSUserInfo UserInfo)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetUserInfo(NSUserInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetUserInfo_NSUserInfo_p_0
+description: NSPersonEntity.SetUserInfo(NSUserInfo p_0)
+intellisense: NSPersonEntity.SetUserInfo
 keywords: SetUserInfo(NSUserInfo)
+so.topic: reference
 ---
 
 

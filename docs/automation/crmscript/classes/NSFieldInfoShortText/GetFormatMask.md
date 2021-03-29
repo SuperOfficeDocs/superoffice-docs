@@ -1,10 +1,10 @@
 ---
-title: String GetFormatMask()
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/String GetFormatMask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText_GetFormatMask
+description: NSFieldInfoShortText.GetFormatMask()
+intellisense: NSFieldInfoShortText.GetFormatMask
 sortOrder: 3550
 keywords: GetFormatMask()
+so.topic: reference
 ---
 
 

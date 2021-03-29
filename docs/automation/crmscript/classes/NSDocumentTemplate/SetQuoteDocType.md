@@ -1,10 +1,10 @@
 ---
-title: Void SetQuoteDocType(Integer p0)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetQuoteDocType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_SetQuoteDocType_Integer_p_0
+description: NSDocumentTemplate.SetQuoteDocType(Integer p_0)
+intellisense: NSDocumentTemplate.SetQuoteDocType
 sortOrder: 2642
 keywords: SetQuoteDocType(Integer)
+so.topic: reference
 ---
 
 

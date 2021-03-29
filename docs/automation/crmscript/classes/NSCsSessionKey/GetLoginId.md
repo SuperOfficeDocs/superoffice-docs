@@ -1,10 +1,10 @@
 ---
-title: Integer GetLoginId()
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Integer GetLoginId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsSessionKey_GetLoginId
+description: NSCsSessionKey.GetLoginId()
+intellisense: NSCsSessionKey.GetLoginId
 sortOrder: 2163
 keywords: GetLoginId()
+so.topic: reference
 ---
 
 

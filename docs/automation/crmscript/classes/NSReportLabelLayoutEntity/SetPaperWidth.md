@@ -1,9 +1,9 @@
 ---
-title: Void SetPaperWidth(Integer PaperWidth)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetPaperWidth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_SetPaperWidth_Integer_p_0
+description: NSReportLabelLayoutEntity.SetPaperWidth(Integer p_0)
+intellisense: NSReportLabelLayoutEntity.SetPaperWidth
 keywords: SetPaperWidth(Integer)
+so.topic: reference
 ---
 
 

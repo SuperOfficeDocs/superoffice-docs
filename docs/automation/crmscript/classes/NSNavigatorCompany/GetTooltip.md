@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSNavigatorCompany/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNavigatorCompany_GetTooltip
+description: NSNavigatorCompany.GetTooltip()
+intellisense: NSNavigatorCompany.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

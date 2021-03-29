@@ -1,10 +1,10 @@
 ---
-title: Void SetPriorityName(String PriorityName)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetPriorityName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetPriorityName_String_p_0
+description: NSAppointment.SetPriorityName(String p_0)
+intellisense: NSAppointment.SetPriorityName
 sortOrder: 805
 keywords: SetPriorityName(String)
+so.topic: reference
 ---
 
 

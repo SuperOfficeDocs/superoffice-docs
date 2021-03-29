@@ -1,9 +1,9 @@
 ---
-title: DateTime GetRegistered()
-path: /EJScript/Classes/NSWebhook/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetRegistered
+description: NSWebhook.GetRegistered()
+intellisense: NSWebhook.GetRegistered
 keywords: GetRegistered()
+so.topic: reference
 ---
 
 

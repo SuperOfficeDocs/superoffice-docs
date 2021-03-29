@@ -1,10 +1,10 @@
 ---
-title: Void SetHasAlarm(Bool HasAlarm)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetHasAlarm(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetHasAlarm_Bool_p_0
+description: NSAppointmentEntity.SetHasAlarm(Bool p_0)
+intellisense: NSAppointmentEntity.SetHasAlarm
 sortOrder: 1001
 keywords: SetHasAlarm(Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetFolderName()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetFolderName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetFolderName
+description: NSFormEntity.GetFolderName()
+intellisense: NSFormEntity.GetFolderName
 sortOrder: 3802
 keywords: GetFolderName()
+so.topic: reference
 ---
 
 

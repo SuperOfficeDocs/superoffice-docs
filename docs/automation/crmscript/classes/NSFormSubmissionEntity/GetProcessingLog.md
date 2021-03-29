@@ -1,10 +1,10 @@
 ---
-title: String GetProcessingLog()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/String GetProcessingLog()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetProcessingLog
+description: NSFormSubmissionEntity.GetProcessingLog()
+intellisense: NSFormSubmissionEntity.GetProcessingLog
 sortOrder: 3838
 keywords: GetProcessingLog()
+so.topic: reference
 ---
 
 

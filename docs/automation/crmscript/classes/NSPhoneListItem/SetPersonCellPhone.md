@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonCellPhone(String PersonCellPhone)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonCellPhone(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_SetPersonCellPhone_String_p_0
+description: NSPhoneListItem.SetPersonCellPhone(String p_0)
+intellisense: NSPhoneListItem.SetPersonCellPhone
 keywords: SetPersonCellPhone(String)
+so.topic: reference
 ---
 
 

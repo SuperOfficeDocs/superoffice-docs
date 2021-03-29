@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetAllRoles(Integer roleType)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSSelectableMDOListItem[] GetAllRoles(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetAllRoles_Integer_p_0
+description: NSUserAgent.GetAllRoles(Integer p_0)
+intellisense: NSUserAgent.GetAllRoles
 keywords: GetAllRoles(Integer)
+so.topic: reference
 ---
 
 

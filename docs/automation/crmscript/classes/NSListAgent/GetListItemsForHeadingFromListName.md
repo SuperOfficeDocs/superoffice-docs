@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetListItemsForHeadingFromListName(String udListDefinitionName, Integer headingId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetListItemsForHeadingFromListName(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetListItemsForHeadingFromListName_String_p_0_Integer_p_1
+description: NSListAgent.GetListItemsForHeadingFromListName(String p_0, Integer p_1)
+intellisense: NSListAgent.GetListItemsForHeadingFromListName
 keywords: GetListItemsForHeadingFromListName(String,Integer)
+so.topic: reference
 ---
 
 

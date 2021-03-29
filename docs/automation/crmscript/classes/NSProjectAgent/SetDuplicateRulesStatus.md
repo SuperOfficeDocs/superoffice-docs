@@ -1,9 +1,9 @@
 ---
-title: Void SetDuplicateRulesStatus(NSDuplicateRule[] rules)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void SetDuplicateRulesStatus(NSDuplicateRule[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_SetDuplicateRulesStatus_NSDuplicateRule__p_0
+description: NSProjectAgent.SetDuplicateRulesStatus(NSDuplicateRule[] p_0)
+intellisense: NSProjectAgent.SetDuplicateRulesStatus
 keywords: SetDuplicateRulesStatus(NSDuplicateRule[])
+so.topic: reference
 ---
 
 

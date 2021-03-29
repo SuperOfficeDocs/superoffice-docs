@@ -1,10 +1,10 @@
 ---
-title: String GetConfig()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetConfig()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetConfig
+description: NSDashboardTile.GetConfig()
+intellisense: NSDashboardTile.GetConfig
 sortOrder: 2299
 keywords: GetConfig()
+so.topic: reference
 ---
 
 

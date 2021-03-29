@@ -1,9 +1,9 @@
 ---
-title: String GetContactCategory()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetContactCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetContactCategory
+description: NSParticipantSyncData.GetContactCategory()
+intellisense: NSParticipantSyncData.GetContactCategory
 keywords: GetContactCategory()
+so.topic: reference
 ---
 
 

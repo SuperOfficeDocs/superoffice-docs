@@ -1,10 +1,10 @@
 ---
-title: Void LogViewState(String viewState)
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void LogViewState(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_LogViewState_String_p_0
+description: NSDiagnosticsAgent.LogViewState(String p_0)
+intellisense: NSDiagnosticsAgent.LogViewState
 sortOrder: 2401
 keywords: LogViewState(String)
+so.topic: reference
 ---
 
 

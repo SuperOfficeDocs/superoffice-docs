@@ -1,9 +1,9 @@
 ---
-title: Void SetLost(Integer Lost)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetLost(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetLost_Integer_p_0
+description: NSSaleSummary.SetLost(Integer p_0)
+intellisense: NSSaleSummary.SetLost
 keywords: SetLost(Integer)
+so.topic: reference
 ---
 
 

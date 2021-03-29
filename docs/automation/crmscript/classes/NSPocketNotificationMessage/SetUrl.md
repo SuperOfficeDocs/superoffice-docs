@@ -1,9 +1,9 @@
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetUrl_String_p_0
+description: NSPocketNotificationMessage.SetUrl(String p_0)
+intellisense: NSPocketNotificationMessage.SetUrl
 keywords: SetUrl(String)
+so.topic: reference
 ---
 
 

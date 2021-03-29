@@ -1,9 +1,9 @@
 ---
-title: Void SetErpConnectionId(Integer ErpConnectionId)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetErpConnectionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetErpConnectionId_Integer_p_0
+description: NSQuoteConnection.SetErpConnectionId(Integer p_0)
+intellisense: NSQuoteConnection.SetErpConnectionId
 keywords: SetErpConnectionId(Integer)
+so.topic: reference
 ---
 
 

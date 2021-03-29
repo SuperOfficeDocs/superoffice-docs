@@ -1,10 +1,10 @@
 ---
-title: NSQuoteLine GetQuoteLine()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/NSQuoteLine GetQuoteLine()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetQuoteLine
+description: NSAAATestClassForModeling.GetQuoteLine()
+intellisense: NSAAATestClassForModeling.GetQuoteLine
 sortOrder: 8929
 keywords: GetQuoteLine()
+so.topic: reference
 ---
 
 

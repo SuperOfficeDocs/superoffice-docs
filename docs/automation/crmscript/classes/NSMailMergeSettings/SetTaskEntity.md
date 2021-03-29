@@ -1,9 +1,9 @@
 ---
-title: Void SetTaskEntity(NSMailMergeTask TaskEntity)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetTaskEntity(NSMailMergeTask p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetTaskEntity_NSMailMergeTask_p_0
+description: NSMailMergeSettings.SetTaskEntity(NSMailMergeTask p_0)
+intellisense: NSMailMergeSettings.SetTaskEntity
 keywords: SetTaskEntity(NSMailMergeTask)
+so.topic: reference
 ---
 
 

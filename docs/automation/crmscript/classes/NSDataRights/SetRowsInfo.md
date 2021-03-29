@@ -1,10 +1,10 @@
 ---
-title: Void SetRowsInfo(NSEntityName[] RowsInfo)
-path: /EJScript/Classes/NSDataRights/Member functions/Void SetRowsInfo(NSEntityName[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDataRights_SetRowsInfo_NSEntityName__p_0
+description: NSDataRights.SetRowsInfo(NSEntityName[] p_0)
+intellisense: NSDataRights.SetRowsInfo
 sortOrder: 2355
 keywords: SetRowsInfo(NSEntityName[])
+so.topic: reference
 ---
 
 

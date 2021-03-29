@@ -1,10 +1,10 @@
 ---
-title: Void SetFromDate(DateTime FromDate)
-path: /EJScript/Classes/NSActivityFilter/Member functions/Void SetFromDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_SetFromDate_DateTime_p_0
+description: NSActivityFilter.SetFromDate(DateTime p_0)
+intellisense: NSActivityFilter.SetFromDate
 sortOrder: 575
 keywords: SetFromDate(DateTime)
+so.topic: reference
 ---
 
 

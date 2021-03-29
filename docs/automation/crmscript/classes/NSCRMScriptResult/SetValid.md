@@ -1,10 +1,10 @@
 ---
-title: Void SetValid(Bool Valid)
-path: /EJScript/Classes/NSCRMScriptResult/Member functions/Void SetValid(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptResult_SetValid_Bool_p_0
+description: NSCRMScriptResult.SetValid(Bool p_0)
+intellisense: NSCRMScriptResult.SetValid
 sortOrder: 2154
 keywords: SetValid(Bool)
+so.topic: reference
 ---
 
 

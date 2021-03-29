@@ -1,9 +1,9 @@
 ---
-title: NSPaymentTerm[] GetPaymentTerms()
-path: /EJScript/Classes/NSListAgent/Member functions/NSPaymentTerm[] GetPaymentTerms()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPaymentTerms
+description: NSListAgent.GetPaymentTerms()
+intellisense: NSListAgent.GetPaymentTerms
 keywords: GetPaymentTerms()
+so.topic: reference
 ---
 
 

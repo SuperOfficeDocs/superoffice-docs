@@ -1,10 +1,10 @@
 ---
-title: DateTime GetLastGenerated()
-path: /EJScript/Classes/NSFreeText/Member functions/DateTime GetLastGenerated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetLastGenerated
+description: NSFreeText.GetLastGenerated()
+intellisense: NSFreeText.GetLastGenerated
 sortOrder: 3854
 keywords: GetLastGenerated()
+so.topic: reference
 ---
 
 

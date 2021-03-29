@@ -1,9 +1,9 @@
 ---
-title: Void SetSerialNr(String SerialNr)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetSerialNr(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetSerialNr_String_p_0
+description: NSLicenseInfo.SetSerialNr(String p_0)
+intellisense: NSLicenseInfo.SetSerialNr
 keywords: SetSerialNr(String)
+so.topic: reference
 ---
 
 

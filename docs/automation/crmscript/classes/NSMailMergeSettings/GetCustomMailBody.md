@@ -1,9 +1,9 @@
 ---
-title: String GetCustomMailBody()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetCustomMailBody()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetCustomMailBody
+description: NSMailMergeSettings.GetCustomMailBody()
+intellisense: NSMailMergeSettings.GetCustomMailBody
 keywords: GetCustomMailBody()
+so.topic: reference
 ---
 
 

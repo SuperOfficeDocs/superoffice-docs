@@ -1,10 +1,10 @@
 ---
-title: Void SetState(Bool State)
-path: /EJScript/Classes/NSCsFeatureToggle/Member functions/Void SetState(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsFeatureToggle_SetState_Bool_p_0
+description: NSCsFeatureToggle.SetState(Bool p_0)
+intellisense: NSCsFeatureToggle.SetState
 sortOrder: 2160
 keywords: SetState(Bool)
+so.topic: reference
 ---
 
 

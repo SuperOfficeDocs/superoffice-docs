@@ -1,9 +1,9 @@
 ---
-title: Bool GetAutoSuggest()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Bool GetAutoSuggest()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetAutoSuggest
+description: NSSuggestedAppointmentEntity.GetAutoSuggest()
+intellisense: NSSuggestedAppointmentEntity.GetAutoSuggest
 keywords: GetAutoSuggest()
+so.topic: reference
 ---
 
 

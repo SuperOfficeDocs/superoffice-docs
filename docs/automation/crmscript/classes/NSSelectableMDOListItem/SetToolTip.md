@@ -1,9 +1,9 @@
 ---
-title: Void SetToolTip(String ToolTip)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetToolTip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetToolTip_String_p_0
+description: NSSelectableMDOListItem.SetToolTip(String p_0)
+intellisense: NSSelectableMDOListItem.SetToolTip
 keywords: SetToolTip(String)
+so.topic: reference
 ---
 
 

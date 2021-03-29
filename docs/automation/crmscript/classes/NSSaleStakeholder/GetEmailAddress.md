@@ -1,9 +1,9 @@
 ---
-title: String GetEmailAddress()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetEmailAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetEmailAddress
+description: NSSaleStakeholder.GetEmailAddress()
+intellisense: NSSaleStakeholder.GetEmailAddress
 keywords: GetEmailAddress()
+so.topic: reference
 ---
 
 

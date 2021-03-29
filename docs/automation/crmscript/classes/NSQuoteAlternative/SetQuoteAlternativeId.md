@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteAlternativeId(Integer QuoteAlternativeId)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetQuoteAlternativeId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetQuoteAlternativeId_Integer_p_0
+description: NSQuoteAlternative.SetQuoteAlternativeId(Integer p_0)
+intellisense: NSQuoteAlternative.SetQuoteAlternativeId
 keywords: SetQuoteAlternativeId(Integer)
+so.topic: reference
 ---
 
 

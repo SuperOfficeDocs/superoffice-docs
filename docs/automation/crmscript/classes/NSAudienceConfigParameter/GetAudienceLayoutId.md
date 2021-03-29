@@ -1,10 +1,10 @@
 ---
-title: Integer GetAudienceLayoutId()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Integer GetAudienceLayoutId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_GetAudienceLayoutId
+description: NSAudienceConfigParameter.GetAudienceLayoutId()
+intellisense: NSAudienceConfigParameter.GetAudienceLayoutId
 sortOrder: 1321
 keywords: GetAudienceLayoutId()
+so.topic: reference
 ---
 
 

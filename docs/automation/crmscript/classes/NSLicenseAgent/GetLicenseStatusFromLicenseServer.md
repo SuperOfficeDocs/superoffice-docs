@@ -1,9 +1,9 @@
 ---
-title: NSCheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String ownerName)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSCheckLicenseStatusResult GetLicenseStatusFromLicenseServer(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetLicenseStatusFromLicenseServer_String_p_0
+description: NSLicenseAgent.GetLicenseStatusFromLicenseServer(String p_0)
+intellisense: NSLicenseAgent.GetLicenseStatusFromLicenseServer
 keywords: GetLicenseStatusFromLicenseServer(String)
+so.topic: reference
 ---
 
 

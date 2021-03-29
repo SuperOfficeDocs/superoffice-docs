@@ -1,9 +1,9 @@
 ---
-title: NSUserGroup CreateUserGroup()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserGroup CreateUserGroup()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateUserGroup
+description: NSUserAgent.CreateUserGroup()
+intellisense: NSUserAgent.CreateUserGroup
 keywords: CreateUserGroup()
+so.topic: reference
 ---
 
 

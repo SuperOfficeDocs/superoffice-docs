@@ -1,9 +1,9 @@
 ---
-title: Void SetProductCategoryKey(String ProductCategoryKey)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetProductCategoryKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetProductCategoryKey_String_p_0
+description: NSQuoteLine.SetProductCategoryKey(String p_0)
+intellisense: NSQuoteLine.SetProductCategoryKey
 keywords: SetProductCategoryKey(String)
+so.topic: reference
 ---
 
 

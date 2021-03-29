@@ -1,9 +1,9 @@
 ---
-title: NSCategory
-path: /EJScript/Classes/NSCategory
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCategory
+description: NSCategory
+intellisense: Void.NSCategory
 sortOrder: 1490
+so.topic: reference
 ---
 
 

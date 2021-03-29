@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity AssignTo(Integer appointmentId, NSParticipantInfo p1, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity AssignTo(Integer p_0, NSParticipantInfo p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_AssignTo_Integer_p_0_NSParticipantInfo_p_1_Integer_p_2
+description: NSAppointmentAgent.AssignTo(Integer p_0, NSParticipantInfo p_1, Integer p_2)
+intellisense: NSAppointmentAgent.AssignTo
 sortOrder: 872
 keywords: AssignTo(Integer,NSParticipantInfo,Integer)
+so.topic: reference
 ---
 
 

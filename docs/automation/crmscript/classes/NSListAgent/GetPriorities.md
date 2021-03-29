@@ -1,9 +1,9 @@
 ---
-title: NSPriority[] GetPriorities()
-path: /EJScript/Classes/NSListAgent/Member functions/NSPriority[] GetPriorities()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPriorities
+description: NSListAgent.GetPriorities()
+intellisense: NSListAgent.GetPriorities
 keywords: GetPriorities()
+so.topic: reference
 ---
 
 

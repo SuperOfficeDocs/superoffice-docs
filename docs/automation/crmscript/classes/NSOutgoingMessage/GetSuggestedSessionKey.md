@@ -1,9 +1,9 @@
 ---
-title: String GetSuggestedSessionKey()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetSuggestedSessionKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_GetSuggestedSessionKey
+description: NSOutgoingMessage.GetSuggestedSessionKey()
+intellisense: NSOutgoingMessage.GetSuggestedSessionKey
 keywords: GetSuggestedSessionKey()
+so.topic: reference
 ---
 
 

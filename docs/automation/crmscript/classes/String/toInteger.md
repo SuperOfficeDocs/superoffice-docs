@@ -1,9 +1,9 @@
 ---
-title: Integer toInteger()
-path: /EJScript/Classes/String/Member functions/Integer toInteger()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toInteger
+description: String.toInteger()
+intellisense: String.toInteger
 keywords: toInteger()
+so.topic: reference
 ---
 
 

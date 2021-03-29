@@ -1,10 +1,10 @@
 ---
-title: Void SetRegisteredAssociateId(Integer RegisteredAssociateId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetRegisteredAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetRegisteredAssociateId_Integer_p_0
+description: NSFormEntity.SetRegisteredAssociateId(Integer p_0)
+intellisense: NSFormEntity.SetRegisteredAssociateId
 sortOrder: 3821
 keywords: SetRegisteredAssociateId(Integer)
+so.topic: reference
 ---
 
 

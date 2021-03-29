@@ -1,10 +1,10 @@
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSDashboardTile/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetVisibleFor
+description: NSDashboardTile.GetVisibleFor()
+intellisense: NSDashboardTile.GetVisibleFor
 sortOrder: 2301
 keywords: GetVisibleFor()
+so.topic: reference
 ---
 
 

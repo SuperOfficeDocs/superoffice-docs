@@ -1,8 +1,8 @@
 ---
-title: NSStatusMonitorPeriods
-path: /EJScript/Classes/NSStatusMonitorPeriods
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitorPeriods
+description: NSStatusMonitorPeriods
+intellisense: Void.NSStatusMonitorPeriods
+so.topic: reference
 ---
 
 

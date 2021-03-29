@@ -1,9 +1,9 @@
 ---
-title: Void SetServer(String Server)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetServer(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_SetServer_String_p_0
+description: NSServiceAuth.SetServer(String p_0)
+intellisense: NSServiceAuth.SetServer
 keywords: SetServer(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetContactOrgNr(String ContactOrgNr)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetContactOrgNr(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetContactOrgNr_String_p_0
+description: NSPerson.SetContactOrgNr(String p_0)
+intellisense: NSPerson.SetContactOrgNr
 keywords: SetContactOrgNr(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAudienceLayoutEntity GetMyAudienceLayout()
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity GetMyAudienceLayout()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetMyAudienceLayout
+description: NSAudienceAgent.GetMyAudienceLayout()
+intellisense: NSAudienceAgent.GetMyAudienceLayout
 sortOrder: 1301
 keywords: GetMyAudienceLayout()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSTicketMessageEntity GetTicketMessageEntity(Integer ticketMessageEntityId)
-path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketMessageEntity GetTicketMessageEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketAgent_GetTicketMessageEntity_Integer_p_0
+description: NSTicketAgent.GetTicketMessageEntity(Integer p_0)
+intellisense: NSTicketAgent.GetTicketMessageEntity
 keywords: GetTicketMessageEntity(Integer)
+so.topic: reference
 ---
 
 

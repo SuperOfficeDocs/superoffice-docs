@@ -1,9 +1,9 @@
 ---
-title: Void deleteRow(Integer row)
-path: /EJScript/Classes/StringMatrix/Member functions/Void deleteRow(Integer row)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_deleteRow_Integer_row
+description: StringMatrix.deleteRow(Integer row)
+intellisense: StringMatrix.deleteRow
 keywords: deleteRow(Integer)
+so.topic: reference
 ---
 
 

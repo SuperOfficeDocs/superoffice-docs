@@ -1,9 +1,9 @@
 ---
-title: Integer GetResourceId()
-path: /EJScript/Classes/NSResourceEntity/Member functions/Integer GetResourceId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceEntity_GetResourceId
+description: NSResourceEntity.GetResourceId()
+intellisense: NSResourceEntity.GetResourceId
 keywords: GetResourceId()
+so.topic: reference
 ---
 
 

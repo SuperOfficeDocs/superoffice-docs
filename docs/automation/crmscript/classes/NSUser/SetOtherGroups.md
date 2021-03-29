@@ -1,9 +1,9 @@
 ---
-title: Void SetOtherGroups(NSUserGroup[] OtherGroups)
-path: /EJScript/Classes/NSUser/Member functions/Void SetOtherGroups(NSUserGroup[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetOtherGroups_NSUserGroup__p_0
+description: NSUser.SetOtherGroups(NSUserGroup[] p_0)
+intellisense: NSUser.SetOtherGroups
 keywords: SetOtherGroups(NSUserGroup[])
+so.topic: reference
 ---
 
 

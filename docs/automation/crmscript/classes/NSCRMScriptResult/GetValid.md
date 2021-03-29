@@ -1,10 +1,10 @@
 ---
-title: Bool GetValid()
-path: /EJScript/Classes/NSCRMScriptResult/Member functions/Bool GetValid()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptResult_GetValid
+description: NSCRMScriptResult.GetValid()
+intellisense: NSCRMScriptResult.GetValid
 sortOrder: 2151
 keywords: GetValid()
+so.topic: reference
 ---
 
 

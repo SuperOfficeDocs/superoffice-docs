@@ -1,10 +1,10 @@
 ---
-title: String GetImageDescription()
-path: /EJScript/Classes/NSCountry/Member functions/String GetImageDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetImageDescription
+description: NSCountry.GetImageDescription()
+intellisense: NSCountry.GetImageDescription
 sortOrder: 2022
 keywords: GetImageDescription()
+so.topic: reference
 ---
 
 

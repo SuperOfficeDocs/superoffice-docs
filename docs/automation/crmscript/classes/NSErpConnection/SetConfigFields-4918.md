@@ -1,10 +1,10 @@
 ---
-title: Void SetConfigFields(StringDictionary ConfigFields)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetConfigFields(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetConfigFields_StringDictionary_p_0
+description: NSErpConnection.SetConfigFields(StringDictionary p_0)
+intellisense: NSErpConnection.SetConfigFields
 sortOrder: 3095
 keywords: SetConfigFields(StringDictionary)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetErrorCount(Integer ErrorCount)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetErrorCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_SetErrorCount_Integer_p_0
+description: NSEMailAccount.SetErrorCount(Integer p_0)
+intellisense: NSEMailAccount.SetErrorCount
 sortOrder: 2756
 keywords: SetErrorCount(Integer)
+so.topic: reference
 ---
 
 

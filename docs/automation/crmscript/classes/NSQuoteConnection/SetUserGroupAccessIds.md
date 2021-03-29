@@ -1,9 +1,9 @@
 ---
-title: Void SetUserGroupAccessIds(Integer[] UserGroupAccessIds)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetUserGroupAccessIds(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetUserGroupAccessIds_Integer__p_0
+description: NSQuoteConnection.SetUserGroupAccessIds(Integer[] p_0)
+intellisense: NSQuoteConnection.SetUserGroupAccessIds
 keywords: SetUserGroupAccessIds(Integer[])
+so.topic: reference
 ---
 
 

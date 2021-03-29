@@ -1,9 +1,9 @@
 ---
-title: NSAddress GetAddress(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSAddress GetAddress(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetAddress_Integer_p_0
+description: NSPersonAgent.GetAddress(Integer p_0)
+intellisense: NSPersonAgent.GetAddress
 keywords: GetAddress(Integer)
+so.topic: reference
 ---
 
 

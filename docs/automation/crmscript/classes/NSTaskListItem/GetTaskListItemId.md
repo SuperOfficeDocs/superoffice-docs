@@ -1,9 +1,9 @@
 ---
-title: Integer GetTaskListItemId()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetTaskListItemId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetTaskListItemId
+description: NSTaskListItem.GetTaskListItemId()
+intellisense: NSTaskListItem.GetTaskListItemId
 keywords: GetTaskListItemId()
+so.topic: reference
 ---
 
 

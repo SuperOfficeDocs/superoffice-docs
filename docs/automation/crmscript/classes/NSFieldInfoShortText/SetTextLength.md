@@ -1,10 +1,10 @@
 ---
-title: Void SetTextLength(Integer TextLength)
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/Void SetTextLength(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText_SetTextLength_Integer_p_0
+description: NSFieldInfoShortText.SetTextLength(Integer p_0)
+intellisense: NSFieldInfoShortText.SetTextLength
 sortOrder: 3556
 keywords: SetTextLength(Integer)
+so.topic: reference
 ---
 
 

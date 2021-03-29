@@ -1,9 +1,9 @@
 ---
-title: Void SetInUseByUserDefinedFields(Bool InUseByUserDefinedFields)
-path: /EJScript/Classes/NSListEntity/Member functions/Void SetInUseByUserDefinedFields(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_SetInUseByUserDefinedFields_Bool_p_0
+description: NSListEntity.SetInUseByUserDefinedFields(Bool p_0)
+intellisense: NSListEntity.SetInUseByUserDefinedFields
 keywords: SetInUseByUserDefinedFields(Bool)
+so.topic: reference
 ---
 
 

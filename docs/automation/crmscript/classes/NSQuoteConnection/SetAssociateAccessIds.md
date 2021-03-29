@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateAccessIds(Integer[] AssociateAccessIds)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetAssociateAccessIds(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetAssociateAccessIds_Integer__p_0
+description: NSQuoteConnection.SetAssociateAccessIds(Integer[] p_0)
+intellisense: NSQuoteConnection.SetAssociateAccessIds
 keywords: SetAssociateAccessIds(Integer[])
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSResourceEntity
-path: /EJScript/Classes/NSResourceEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceEntity
+description: NSResourceEntity
+intellisense: Void.NSResourceEntity
+so.topic: reference
 ---
 
 

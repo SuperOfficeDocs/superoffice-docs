@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSHistory/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_SetName_String_p_0
+description: NSHistory.SetName(String p_0)
+intellisense: NSHistory.SetName
 sortOrder: 3938
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

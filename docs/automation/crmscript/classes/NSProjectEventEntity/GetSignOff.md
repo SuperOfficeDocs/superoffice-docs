@@ -1,9 +1,9 @@
 ---
-title: Bool GetSignOff()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetSignOff()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetSignOff
+description: NSProjectEventEntity.GetSignOff()
+intellisense: NSProjectEventEntity.GetSignOff
 keywords: GetSignOff()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetOnSalesMarketingPocket()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnSalesMarketingPocket()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetOnSalesMarketingPocket
+description: NSWebPanelEntity.GetOnSalesMarketingPocket()
+intellisense: NSWebPanelEntity.GetOnSalesMarketingPocket
 keywords: GetOnSalesMarketingPocket()
+so.topic: reference
 ---
 
 

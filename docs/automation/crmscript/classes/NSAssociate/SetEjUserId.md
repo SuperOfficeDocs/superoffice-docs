@@ -1,10 +1,10 @@
 ---
-title: Void SetEjUserId(Integer EjUserId)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetEjUserId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_SetEjUserId_Integer_p_0
+description: NSAssociate.SetEjUserId(Integer p_0)
+intellisense: NSAssociate.SetEjUserId
 sortOrder: 1268
 keywords: SetEjUserId(Integer)
+so.topic: reference
 ---
 
 

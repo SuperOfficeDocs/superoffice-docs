@@ -1,10 +1,10 @@
 ---
-title: Void SetOnSatellite(Bool OnSatellite)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetOnSatellite(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetOnSatellite_Bool_p_0
+description: NSExtAppEntity.SetOnSatellite(Bool p_0)
+intellisense: NSExtAppEntity.SetOnSatellite
 sortOrder: 3387
 keywords: SetOnSatellite(Bool)
+so.topic: reference
 ---
 
 

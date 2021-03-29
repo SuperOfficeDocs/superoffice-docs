@@ -1,9 +1,9 @@
 ---
-title: Integer GetFree()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Integer GetFree()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetFree
+description: NSModuleLicenseLink.GetFree()
+intellisense: NSModuleLicenseLink.GetFree
 keywords: GetFree()
+so.topic: reference
 ---
 
 

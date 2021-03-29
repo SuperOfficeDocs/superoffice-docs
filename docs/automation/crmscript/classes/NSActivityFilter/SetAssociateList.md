@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateList(NSSelectableMDOListItem[] AssociateList)
-path: /EJScript/Classes/NSActivityFilter/Member functions/Void SetAssociateList(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_SetAssociateList_NSSelectableMDOListItem__p_0
+description: NSActivityFilter.SetAssociateList(NSSelectableMDOListItem[] p_0)
+intellisense: NSActivityFilter.SetAssociateList
 sortOrder: 574
 keywords: SetAssociateList(NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

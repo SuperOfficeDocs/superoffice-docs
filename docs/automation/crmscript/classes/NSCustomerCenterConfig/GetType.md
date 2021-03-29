@@ -1,10 +1,10 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetType
+description: NSCustomerCenterConfig.GetType()
+intellisense: NSCustomerCenterConfig.GetType
 sortOrder: 2200
 keywords: GetType()
+so.topic: reference
 ---
 
 

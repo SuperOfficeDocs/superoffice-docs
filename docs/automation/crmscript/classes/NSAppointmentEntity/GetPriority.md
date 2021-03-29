@@ -1,10 +1,10 @@
 ---
-title: NSPriority GetPriority()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSPriority GetPriority()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetPriority
+description: NSAppointmentEntity.GetPriority()
+intellisense: NSAppointmentEntity.GetPriority
 sortOrder: 968
 keywords: GetPriority()
+so.topic: reference
 ---
 
 

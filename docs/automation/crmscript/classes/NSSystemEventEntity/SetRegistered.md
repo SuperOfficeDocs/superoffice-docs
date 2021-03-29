@@ -1,9 +1,9 @@
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetRegistered_DateTime_p_0
+description: NSSystemEventEntity.SetRegistered(DateTime p_0)
+intellisense: NSSystemEventEntity.SetRegistered
 keywords: SetRegistered(DateTime)
+so.topic: reference
 ---
 
 

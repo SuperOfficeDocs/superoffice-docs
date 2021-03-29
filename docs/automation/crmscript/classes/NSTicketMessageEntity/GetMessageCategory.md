@@ -1,9 +1,9 @@
 ---
-title: NSTicketMessageCategory GetMessageCategory()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSTicketMessageCategory GetMessageCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetMessageCategory
+description: NSTicketMessageEntity.GetMessageCategory()
+intellisense: NSTicketMessageEntity.GetMessageCategory
 keywords: GetMessageCategory()
+so.topic: reference
 ---
 
 

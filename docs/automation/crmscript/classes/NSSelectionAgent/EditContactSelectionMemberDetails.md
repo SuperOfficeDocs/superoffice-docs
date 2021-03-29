@@ -1,9 +1,9 @@
 ---
-title: Void EditContactSelectionMemberDetails(Integer selectionId, NSSelectionMemberEditValues selectionMemberEditValues)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void EditContactSelectionMemberDetails(Integer p_0, NSSelectionMemberEditValues p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_EditContactSelectionMemberDetails_Integer_p_0_NSSelectionMemberEditValues_p_1
+description: NSSelectionAgent.EditContactSelectionMemberDetails(Integer p_0, NSSelectionMemberEditValues p_1)
+intellisense: NSSelectionAgent.EditContactSelectionMemberDetails
 keywords: EditContactSelectionMemberDetails(Integer,NSSelectionMemberEditValues)
+so.topic: reference
 ---
 
 

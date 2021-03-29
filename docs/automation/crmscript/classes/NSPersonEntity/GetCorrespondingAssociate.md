@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetCorrespondingAssociate()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSAssociate GetCorrespondingAssociate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetCorrespondingAssociate
+description: NSPersonEntity.GetCorrespondingAssociate()
+intellisense: NSPersonEntity.GetCorrespondingAssociate
 keywords: GetCorrespondingAssociate()
+so.topic: reference
 ---
 
 

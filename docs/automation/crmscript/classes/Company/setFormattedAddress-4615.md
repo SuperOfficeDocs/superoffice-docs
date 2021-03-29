@@ -1,10 +1,10 @@
 ---
-title: Void setFormattedAddress(NSLocalizedField[][] p0)
-path: /EJScript/Classes/Company/member functions/Void setFormattedAddress(NSLocalizedField[][] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Company_setFormattedAddress_NSLocalizedField___p_0
+description: Company.setFormattedAddress(NSLocalizedField[][] p_0)
+intellisense: Company.setFormattedAddress
 sortOrder: 167
 keywords: setFormattedAddress(NSLocalizedField[][])
+so.topic: reference
 ---
 
 

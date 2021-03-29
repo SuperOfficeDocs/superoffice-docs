@@ -1,9 +1,9 @@
 ---
-title: Void SetBody(String Body)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetBody(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetBody_String_p_0
+description: NSTicketMessageEntity.SetBody(String p_0)
+intellisense: NSTicketMessageEntity.SetBody
 keywords: SetBody(String)
+so.topic: reference
 ---
 
 

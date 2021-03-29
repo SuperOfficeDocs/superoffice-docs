@@ -1,8 +1,8 @@
 ---
-title: NSSource
-path: /EJScript/Classes/NSSource
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSource
+description: NSSource
+intellisense: Void.NSSource
+so.topic: reference
 ---
 
 

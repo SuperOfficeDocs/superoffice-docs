@@ -1,10 +1,10 @@
 ---
-title: NSErpConnection SaveConnection(NSErpConnection connection)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnection SaveConnection(NSErpConnection p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SaveConnection_NSErpConnection_p_0
+description: NSErpSyncAgent.SaveConnection(NSErpConnection p_0)
+intellisense: NSErpSyncAgent.SaveConnection
 sortOrder: 3193
 keywords: SaveConnection(NSErpConnection)
+so.topic: reference
 ---
 
 

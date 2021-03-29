@@ -1,10 +1,10 @@
 ---
-title: Void addHeader(String type, String value)
-path: /EJScript/Classes/Message/Member functions/Void addHeader(String type, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_addHeader_String_type_String_value
+description: Message.addHeader(String type, String value)
+intellisense: Message.addHeader
 sortOrder: 552
 keywords: addHeader(String,String)
+so.topic: reference
 ---
 
 This function adds a header to the message.

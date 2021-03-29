@@ -1,9 +1,9 @@
 ---
-title: String GetVersionId()
-path: /EJScript/Classes/NSReturnInfo/Member functions/String GetVersionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReturnInfo_GetVersionId
+description: NSReturnInfo.GetVersionId()
+intellisense: NSReturnInfo.GetVersionId
 keywords: GetVersionId()
+so.topic: reference
 ---
 
 

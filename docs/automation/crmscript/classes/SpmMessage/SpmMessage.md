@@ -1,8 +1,8 @@
 ---
-title: SpmMessage
-path: /EJScript/Classes/SpmMessage
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmMessage
+description: SpmMessage
+intellisense: Void.SpmMessage
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetFirstMessage()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetFirstMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetFirstMessage
+description: NSChatSummaryItem.GetFirstMessage()
+intellisense: NSChatSummaryItem.GetFirstMessage
 sortOrder: 1539
 keywords: GetFirstMessage()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetNsPluginSender(String NsPluginSender)
-path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetNsPluginSender(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_SetNsPluginSender_String_p_0
+description: NSSmsConfig.SetNsPluginSender(String p_0)
+intellisense: NSSmsConfig.SetNsPluginSender
 keywords: SetNsPluginSender(String)
+so.topic: reference
 ---
 
 

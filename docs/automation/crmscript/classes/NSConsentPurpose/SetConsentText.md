@@ -1,10 +1,10 @@
 ---
-title: Void SetConsentText(String ConsentText)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetConsentText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_SetConsentText_String_p_0
+description: NSConsentPurpose.SetConsentText(String p_0)
+intellisense: NSConsentPurpose.SetConsentText
 sortOrder: 1689
 keywords: SetConsentText(String)
+so.topic: reference
 ---
 
 

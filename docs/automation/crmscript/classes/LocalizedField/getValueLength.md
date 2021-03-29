@@ -1,10 +1,10 @@
 ---
-title: String getValueLength()
-path: /EJScript/Classes/LocalizedField/Member functions/String getValueLength()
-intellisense: 1
-classref: 1
+title: crmscript_ref_LocalizedField_getValueLength
+description: LocalizedField.getValueLength()
+intellisense: LocalizedField.getValueLength
 sortOrder: 472
 keywords: getValueLength()
+so.topic: reference
 ---
 
 

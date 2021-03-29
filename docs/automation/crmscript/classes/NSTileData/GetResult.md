@@ -1,9 +1,9 @@
 ---
-title: NSArchiveListResult GetResult()
-path: /EJScript/Classes/NSTileData/Member functions/NSArchiveListResult GetResult()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTileData_GetResult
+description: NSTileData.GetResult()
+intellisense: NSTileData.GetResult
 keywords: GetResult()
+so.topic: reference
 ---
 
 

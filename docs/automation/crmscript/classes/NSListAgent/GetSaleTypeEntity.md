@@ -1,9 +1,9 @@
 ---
-title: NSSaleTypeEntity GetSaleTypeEntity(Integer saleTypeEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleTypeEntity GetSaleTypeEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSaleTypeEntity_Integer_p_0
+description: NSListAgent.GetSaleTypeEntity(Integer p_0)
+intellisense: NSListAgent.GetSaleTypeEntity
 keywords: GetSaleTypeEntity(Integer)
+so.topic: reference
 ---
 
 

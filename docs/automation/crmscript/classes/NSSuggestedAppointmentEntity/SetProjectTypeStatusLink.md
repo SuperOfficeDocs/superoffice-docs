@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectTypeStatusLink(NSProjectTypeStatusLink ProjectTypeStatusLink)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetProjectTypeStatusLink(NSProjectTypeStatusLink p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetProjectTypeStatusLink_NSProjectTypeStatusLink_p_0
+description: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink(NSProjectTypeStatusLink p_0)
+intellisense: NSSuggestedAppointmentEntity.SetProjectTypeStatusLink
 keywords: SetProjectTypeStatusLink(NSProjectTypeStatusLink)
+so.topic: reference
 ---
 
 

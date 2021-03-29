@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetDocumentsByTemplateHeading(Integer templateHeadingId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetDocumentsByTemplateHeading(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetDocumentsByTemplateHeading_Integer_p_0
+description: NSDocumentAgent.GetDocumentsByTemplateHeading(Integer p_0)
+intellisense: NSDocumentAgent.GetDocumentsByTemplateHeading
 sortOrder: 2478
 keywords: GetDocumentsByTemplateHeading(Integer)
+so.topic: reference
 ---
 
 

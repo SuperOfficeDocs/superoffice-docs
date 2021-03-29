@@ -1,9 +1,9 @@
 ---
-title: DateTime GetWedStop()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetWedStop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetWedStop
+description: NSTicketPriorityEntity.GetWedStop()
+intellisense: NSTicketPriorityEntity.GetWedStop
 keywords: GetWedStop()
+so.topic: reference
 ---
 
 

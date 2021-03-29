@@ -1,10 +1,10 @@
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckoutInfo_GetState
+description: NSCheckoutInfo.GetState()
+intellisense: NSCheckoutInfo.GetState
 sortOrder: 1561
 keywords: GetState()
+so.topic: reference
 ---
 
 

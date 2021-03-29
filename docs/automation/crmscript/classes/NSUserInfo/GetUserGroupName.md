@@ -1,9 +1,9 @@
 ---
-title: String GetUserGroupName()
-path: /EJScript/Classes/NSUserInfo/Member functions/String GetUserGroupName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_GetUserGroupName
+description: NSUserInfo.GetUserGroupName()
+intellisense: NSUserInfo.GetUserGroupName
 keywords: GetUserGroupName()
+so.topic: reference
 ---
 
 

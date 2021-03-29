@@ -1,9 +1,9 @@
 ---
-title: NSImportErpData
-path: /EJScript/Classes/NSImportErpData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportErpData
+description: NSImportErpData
+intellisense: Void.NSImportErpData
 sortOrder: 3966
+so.topic: reference
 ---
 
 

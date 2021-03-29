@@ -1,10 +1,10 @@
 ---
-title: Integer GetAppointmentId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetAppointmentId
+description: NSAppointment.GetAppointmentId()
+intellisense: NSAppointment.GetAppointmentId
 sortOrder: 727
 keywords: GetAppointmentId()
+so.topic: reference
 ---
 
 

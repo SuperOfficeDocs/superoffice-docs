@@ -1,10 +1,10 @@
 ---
-title: Void SetForeignDeviceId(Integer ForeignDeviceId)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetForeignDeviceId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_SetForeignDeviceId_Integer_p_0
+description: NSForeignDevice.SetForeignDeviceId(Integer p_0)
+intellisense: NSForeignDevice.SetForeignDeviceId
 sortOrder: 3728
 keywords: SetForeignDeviceId(Integer)
+so.topic: reference
 ---
 
 

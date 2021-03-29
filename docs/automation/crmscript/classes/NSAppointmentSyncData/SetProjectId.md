@@ -1,10 +1,10 @@
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetProjectId_Integer_p_0
+description: NSAppointmentSyncData.SetProjectId(Integer p_0)
+intellisense: NSAppointmentSyncData.SetProjectId
 sortOrder: 1086
 keywords: SetProjectId(Integer)
+so.topic: reference
 ---
 
 

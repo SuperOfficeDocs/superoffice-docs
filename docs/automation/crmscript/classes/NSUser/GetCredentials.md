@@ -1,9 +1,9 @@
 ---
-title: NSCredential[] GetCredentials()
-path: /EJScript/Classes/NSUser/Member functions/NSCredential[] GetCredentials()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetCredentials
+description: NSUser.GetCredentials()
+intellisense: NSUser.GetCredentials
 keywords: GetCredentials()
+so.topic: reference
 ---
 
 

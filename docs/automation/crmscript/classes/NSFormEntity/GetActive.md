@@ -1,10 +1,10 @@
 ---
-title: Bool GetActive()
-path: /EJScript/Classes/NSFormEntity/Member functions/Bool GetActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetActive
+description: NSFormEntity.GetActive()
+intellisense: NSFormEntity.GetActive
 sortOrder: 3784
 keywords: GetActive()
+so.topic: reference
 ---
 
 

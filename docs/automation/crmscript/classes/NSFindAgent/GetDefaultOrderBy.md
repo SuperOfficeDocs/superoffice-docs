@@ -1,10 +1,10 @@
 ---
-title: NSArchiveOrderByInfo[] GetDefaultOrderBy(String storageType, String providerName, String storageKey)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveOrderByInfo[] GetDefaultOrderBy(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetDefaultOrderBy_String_p_0_String_p_1_String_p_2
+description: NSFindAgent.GetDefaultOrderBy(String p_0, String p_1, String p_2)
+intellisense: NSFindAgent.GetDefaultOrderBy
 sortOrder: 3656
 keywords: GetDefaultOrderBy(String,String,String)
+so.topic: reference
 ---
 
 

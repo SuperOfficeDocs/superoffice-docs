@@ -1,10 +1,10 @@
 ---
-title: String getValue()
-path: /EJScript/Classes/MacroParameter/Member functions/String getValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroParameter_getValue
+description: MacroParameter.getValue()
+intellisense: MacroParameter.getValue
 sortOrder: 486
 keywords: getValue()
+so.topic: reference
 ---
 
 

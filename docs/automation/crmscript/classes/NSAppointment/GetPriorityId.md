@@ -1,10 +1,10 @@
 ---
-title: Integer GetPriorityId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetPriorityId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetPriorityId
+description: NSAppointment.GetPriorityId()
+intellisense: NSAppointment.GetPriorityId
 sortOrder: 740
 keywords: GetPriorityId()
+so.topic: reference
 ---
 
 

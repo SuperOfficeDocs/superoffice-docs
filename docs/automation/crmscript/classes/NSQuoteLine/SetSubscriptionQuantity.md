@@ -1,9 +1,9 @@
 ---
-title: Void SetSubscriptionQuantity(Float SubscriptionQuantity)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetSubscriptionQuantity(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetSubscriptionQuantity_Float_p_0
+description: NSQuoteLine.SetSubscriptionQuantity(Float p_0)
+intellisense: NSQuoteLine.SetSubscriptionQuantity
 keywords: SetSubscriptionQuantity(Float)
+so.topic: reference
 ---
 
 

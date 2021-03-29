@@ -1,10 +1,10 @@
 ---
-title: Integer GetDiaryViewId()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetDiaryViewId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetDiaryViewId
+description: NSDiaryViewEntity.GetDiaryViewId()
+intellisense: NSDiaryViewEntity.GetDiaryViewId
 sortOrder: 2406
 keywords: GetDiaryViewId()
+so.topic: reference
 ---
 
 

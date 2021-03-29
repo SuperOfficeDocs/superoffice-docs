@@ -1,8 +1,8 @@
 ---
-title: NSTableRecord
-path: /EJScript/Classes/NSTableRecord
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTableRecord
+description: NSTableRecord
+intellisense: Void.NSTableRecord
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_SetUpdated_DateTime_p_0
+description: NSConsentInfo.SetUpdated(DateTime p_0)
+intellisense: NSConsentInfo.SetUpdated
 sortOrder: 1656
 keywords: SetUpdated(DateTime)
+so.topic: reference
 ---
 
 

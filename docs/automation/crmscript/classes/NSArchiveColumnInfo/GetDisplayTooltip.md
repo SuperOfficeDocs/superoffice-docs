@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayTooltip()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetDisplayTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetDisplayTooltip
+description: NSArchiveColumnInfo.GetDisplayTooltip()
+intellisense: NSArchiveColumnInfo.GetDisplayTooltip
 sortOrder: 1141
 keywords: GetDisplayTooltip()
+so.topic: reference
 ---
 
 

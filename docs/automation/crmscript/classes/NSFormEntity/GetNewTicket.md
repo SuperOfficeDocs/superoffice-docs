@@ -1,10 +1,10 @@
 ---
-title: Bool GetNewTicket()
-path: /EJScript/Classes/NSFormEntity/Member functions/Bool GetNewTicket()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetNewTicket
+description: NSFormEntity.GetNewTicket()
+intellisense: NSFormEntity.GetNewTicket
 sortOrder: 3785
 keywords: GetNewTicket()
+so.topic: reference
 ---
 
 

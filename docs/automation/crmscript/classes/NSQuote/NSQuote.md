@@ -1,8 +1,8 @@
 ---
-title: NSQuote
-path: /EJScript/Classes/NSQuote
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote
+description: NSQuote
+intellisense: Void.NSQuote
+so.topic: reference
 ---
 
 

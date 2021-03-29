@@ -1,9 +1,9 @@
 ---
-title: Void setCell(Integer row, Integer column, String value)
-path: /EJScript/Classes/StringMatrix/Member functions/Void setCell(Integer row, Integer column, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_setCell_Integer_row_Integer_column_String_value
+description: StringMatrix.setCell(Integer row, Integer column, String value)
+intellisense: StringMatrix.setCell
 keywords: setCell(Integer,Integer,String)
+so.topic: reference
 ---
 
 

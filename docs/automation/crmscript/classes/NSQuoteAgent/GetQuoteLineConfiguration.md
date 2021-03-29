@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer quoteLineConfigurationId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration GetQuoteLineConfiguration(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetQuoteLineConfiguration_Integer_p_0
+description: NSQuoteAgent.GetQuoteLineConfiguration(Integer p_0)
+intellisense: NSQuoteAgent.GetQuoteLineConfiguration
 keywords: GetQuoteLineConfiguration(Integer)
+so.topic: reference
 ---
 
 

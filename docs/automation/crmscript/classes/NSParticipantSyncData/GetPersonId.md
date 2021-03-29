@@ -1,9 +1,9 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPersonId
+description: NSParticipantSyncData.GetPersonId()
+intellisense: NSParticipantSyncData.GetPersonId
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String fieldName)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration GetQuoteLineConfigurationFromFieldName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetQuoteLineConfigurationFromFieldName_String_p_0
+description: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName(String p_0)
+intellisense: NSQuoteAgent.GetQuoteLineConfigurationFromFieldName
 keywords: GetQuoteLineConfigurationFromFieldName(String)
+so.topic: reference
 ---
 
 

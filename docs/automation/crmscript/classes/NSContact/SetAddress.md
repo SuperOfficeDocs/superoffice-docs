@@ -1,10 +1,10 @@
 ---
-title: Void SetAddress(NSAddress Address)
-path: /EJScript/Classes/NSContact/Member functions/Void SetAddress(NSAddress p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetAddress_NSAddress_p_0
+description: NSContact.SetAddress(NSAddress p_0)
+intellisense: NSContact.SetAddress
 sortOrder: 1742
 keywords: SetAddress(NSAddress)
+so.topic: reference
 ---
 
 

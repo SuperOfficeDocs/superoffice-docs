@@ -1,10 +1,10 @@
 ---
-title: Bool loadFromAgentAndKey(Integer agent, String key)
-path: /EJScript/Classes/Company/member functions/Bool loadFromAgentAndKey(Integer agent, String key)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Company_loadFromAgentAndKey_Integer_agent_String_key
+description: Company.loadFromAgentAndKey(Integer agent, String key)
+intellisense: Company.loadFromAgentAndKey
 sortOrder: 161
 keywords: loadFromAgentAndKey(Integer,String)
+so.topic: reference
 ---
 
 Loads a company based on agent id and external key.

@@ -1,10 +1,10 @@
 ---
-title: NSRecurrenceInfo GetEmailAppointmentRecurrence(Integer mailItemId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSRecurrenceInfo GetEmailAppointmentRecurrence(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEmailAppointmentRecurrence_Integer_p_0
+description: NSEMailAgent.GetEmailAppointmentRecurrence(Integer p_0)
+intellisense: NSEMailAgent.GetEmailAppointmentRecurrence
 sortOrder: 2843
 keywords: GetEmailAppointmentRecurrence(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetSessionKey(String SessionKey)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetSessionKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_SetSessionKey_String_p_0
+description: NSIncomingMessage.SetSessionKey(String p_0)
+intellisense: NSIncomingMessage.SetSessionKey
 sortOrder: 3996
 keywords: SetSessionKey(String)
+so.topic: reference
 ---
 
 

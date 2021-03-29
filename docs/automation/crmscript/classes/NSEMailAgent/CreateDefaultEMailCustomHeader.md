@@ -1,10 +1,10 @@
 ---
-title: NSEMailCustomHeader CreateDefaultEMailCustomHeader()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailCustomHeader CreateDefaultEMailCustomHeader()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailCustomHeader
+description: NSEMailAgent.CreateDefaultEMailCustomHeader()
+intellisense: NSEMailAgent.CreateDefaultEMailCustomHeader
 sortOrder: 2811
 keywords: CreateDefaultEMailCustomHeader()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool loadFromAgentAndKey(Integer agent, String key)
-path: /EJScript/Classes/ExtraTable/Member functions/Bool loadFromAgentAndKey(Integer agent, String key)
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraTable_loadFromAgentAndKey_Integer_agent_String_key
+description: ExtraTable.loadFromAgentAndKey(Integer agent, String key)
+intellisense: ExtraTable.loadFromAgentAndKey
 sortOrder: 319
 keywords: loadFromAgentAndKey(Integer,String)
+so.topic: reference
 ---
 
 This function is used for integrating data from external systems.

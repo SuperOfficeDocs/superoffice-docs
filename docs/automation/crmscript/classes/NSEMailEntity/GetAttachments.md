@@ -1,10 +1,10 @@
 ---
-title: NSEMailAttachment[] GetAttachments()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailAttachment[] GetAttachments()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetAttachments
+description: NSEMailEntity.GetAttachments()
+intellisense: NSEMailEntity.GetAttachments
 sortOrder: 2961
 keywords: GetAttachments()
+so.topic: reference
 ---
 
 

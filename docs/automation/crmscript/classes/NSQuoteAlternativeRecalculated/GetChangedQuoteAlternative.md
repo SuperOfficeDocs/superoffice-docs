@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternative GetChangedQuoteAlternative()
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/NSQuoteAlternative GetChangedQuoteAlternative()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternativeRecalculated_GetChangedQuoteAlternative
+description: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative()
+intellisense: NSQuoteAlternativeRecalculated.GetChangedQuoteAlternative
 keywords: GetChangedQuoteAlternative()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionAttachment[] CreateOrUpdateQuoteVersionAttachments(Integer quoteVersionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionAttachment[] CreateOrUpdateQuoteVersionAttachments(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateOrUpdateQuoteVersionAttachments_Integer_p_0
+description: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments(Integer p_0)
+intellisense: NSQuoteAgent.CreateOrUpdateQuoteVersionAttachments
 keywords: CreateOrUpdateQuoteVersionAttachments(Integer)
+so.topic: reference
 ---
 
 

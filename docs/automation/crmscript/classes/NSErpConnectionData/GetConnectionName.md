@@ -1,10 +1,10 @@
 ---
-title: String GetConnectionName()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/String GetConnectionName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_GetConnectionName
+description: NSErpConnectionData.GetConnectionName()
+intellisense: NSErpConnectionData.GetConnectionName
 sortOrder: 3113
 keywords: GetConnectionName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetUserId()
-path: /EJScript/Classes/NSChatPresence/Member functions/Integer GetUserId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_GetUserId
+description: NSChatPresence.GetUserId()
+intellisense: NSChatPresence.GetUserId
 sortOrder: 1521
 keywords: GetUserId()
+so.topic: reference
 ---
 
 

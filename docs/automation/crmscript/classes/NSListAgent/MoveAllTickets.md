@@ -1,9 +1,9 @@
 ---
-title: Void MoveAllTickets(Integer fromTicketCategoryId, Integer toTicketCategoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void MoveAllTickets(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_MoveAllTickets_Integer_p_0_Integer_p_1
+description: NSListAgent.MoveAllTickets(Integer p_0, Integer p_1)
+intellisense: NSListAgent.MoveAllTickets
 keywords: MoveAllTickets(Integer,Integer)
+so.topic: reference
 ---
 
 

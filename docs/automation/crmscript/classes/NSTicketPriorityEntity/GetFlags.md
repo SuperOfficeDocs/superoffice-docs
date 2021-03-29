@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityFlags GetFlags()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityFlags GetFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetFlags
+description: NSTicketPriorityEntity.GetFlags()
+intellisense: NSTicketPriorityEntity.GetFlags
 keywords: GetFlags()
+so.topic: reference
 ---
 
 

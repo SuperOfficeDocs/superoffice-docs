@@ -1,9 +1,9 @@
 ---
-title: Void SetOnCentral(Bool OnCentral)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnCentral(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetOnCentral_Bool_p_0
+description: NSWebPanelEntity.SetOnCentral(Bool p_0)
+intellisense: NSWebPanelEntity.SetOnCentral
 keywords: SetOnCentral(Bool)
+so.topic: reference
 ---
 
 

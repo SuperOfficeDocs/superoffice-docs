@@ -1,10 +1,10 @@
 ---
-title: Void SetPriority(NSPriority Priority)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetPriority(NSPriority p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetPriority_NSPriority_p_0
+description: NSAppointmentEntity.SetPriority(NSPriority p_0)
+intellisense: NSAppointmentEntity.SetPriority
 sortOrder: 1020
 keywords: SetPriority(NSPriority)
+so.topic: reference
 ---
 
 

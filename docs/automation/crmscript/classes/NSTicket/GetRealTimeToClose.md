@@ -1,9 +1,9 @@
 ---
-title: Integer GetRealTimeToClose()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeToClose()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetRealTimeToClose
+description: NSTicket.GetRealTimeToClose()
+intellisense: NSTicket.GetRealTimeToClose
 keywords: GetRealTimeToClose()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetOrderComment()
-path: /EJScript/Classes/NSQuote/Member functions/String GetOrderComment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetOrderComment
+description: NSQuote.GetOrderComment()
+intellisense: NSQuote.GetOrderComment
 keywords: GetOrderComment()
+so.topic: reference
 ---
 
 

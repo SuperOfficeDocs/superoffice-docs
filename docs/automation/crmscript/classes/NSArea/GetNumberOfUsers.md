@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumberOfUsers()
-path: /EJScript/Classes/NSArea/Member functions/Integer GetNumberOfUsers()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_GetNumberOfUsers
+description: NSArea.GetNumberOfUsers()
+intellisense: NSArea.GetNumberOfUsers
 sortOrder: 1244
 keywords: GetNumberOfUsers()
+so.topic: reference
 ---
 
 

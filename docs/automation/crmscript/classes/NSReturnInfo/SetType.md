@@ -1,9 +1,9 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSReturnInfo/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReturnInfo_SetType_Integer_p_0
+description: NSReturnInfo.SetType(Integer p_0)
+intellisense: NSReturnInfo.SetType
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

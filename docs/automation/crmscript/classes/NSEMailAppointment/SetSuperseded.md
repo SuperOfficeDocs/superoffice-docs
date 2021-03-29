@@ -1,10 +1,10 @@
 ---
-title: Void SetSuperseded(Bool Superseded)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetSuperseded(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_SetSuperseded_Bool_p_0
+description: NSEMailAppointment.SetSuperseded(Bool p_0)
+intellisense: NSEMailAppointment.SetSuperseded
 sortOrder: 2889
 keywords: SetSuperseded(Bool)
+so.topic: reference
 ---
 
 

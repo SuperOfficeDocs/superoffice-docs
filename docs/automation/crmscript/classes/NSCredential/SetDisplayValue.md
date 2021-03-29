@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSCredential/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredential_SetDisplayValue_String_p_0
+description: NSCredential.SetDisplayValue(String p_0)
+intellisense: NSCredential.SetDisplayValue
 sortOrder: 2053
 keywords: SetDisplayValue(String)
+so.topic: reference
 ---
 
 

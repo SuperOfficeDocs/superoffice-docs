@@ -1,10 +1,10 @@
 ---
-title: Void ChangeProjectImage(Integer projectId, Integer blobId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void ChangeProjectImage(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_ChangeProjectImage_Integer_p_0_Integer_p_1
+description: NSBLOBAgent.ChangeProjectImage(Integer p_0, Integer p_1)
+intellisense: NSBLOBAgent.ChangeProjectImage
 sortOrder: 1428
 keywords: ChangeProjectImage(Integer,Integer)
+so.topic: reference
 ---
 
 

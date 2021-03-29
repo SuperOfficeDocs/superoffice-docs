@@ -1,8 +1,8 @@
 ---
-title: NSMarketingAgent
-path: /EJScript/Classes/NSMarketingAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent
+description: NSMarketingAgent
+intellisense: Void.NSMarketingAgent
+so.topic: reference
 ---
 
 

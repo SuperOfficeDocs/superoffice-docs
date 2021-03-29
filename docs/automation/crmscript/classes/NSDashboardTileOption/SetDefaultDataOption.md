@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultDataOption(Bool DefaultDataOption)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetDefaultDataOption(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_SetDefaultDataOption_Bool_p_0
+description: NSDashboardTileOption.SetDefaultDataOption(Bool p_0)
+intellisense: NSDashboardTileOption.SetDefaultDataOption
 sortOrder: 2325
 keywords: SetDefaultDataOption(Bool)
+so.topic: reference
 ---
 
 

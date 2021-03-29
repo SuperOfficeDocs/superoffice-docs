@@ -1,9 +1,9 @@
 ---
-title: DateTime GetReadByOwner()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetReadByOwner()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetReadByOwner
+description: NSTicket.GetReadByOwner()
+intellisense: NSTicket.GetReadByOwner
 keywords: GetReadByOwner()
+so.topic: reference
 ---
 
 

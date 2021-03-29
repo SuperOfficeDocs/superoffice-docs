@@ -1,10 +1,10 @@
 ---
-title: Void SetContactDepartment(String ContactDepartment)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetContactDepartment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetContactDepartment_String_p_0
+description: NSAlarmData.SetContactDepartment(String p_0)
+intellisense: NSAlarmData.SetContactDepartment
 sortOrder: 676
 keywords: SetContactDepartment(String)
+so.topic: reference
 ---
 
 

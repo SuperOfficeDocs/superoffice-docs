@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer erpSyncConnectorEntityId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncConnectorEntity GetErpSyncConnectorEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectorEntity_Integer_p_0
+description: NSErpSyncAgent.GetErpSyncConnectorEntity(Integer p_0)
+intellisense: NSErpSyncAgent.GetErpSyncConnectorEntity
 sortOrder: 3201
 keywords: GetErpSyncConnectorEntity(Integer)
+so.topic: reference
 ---
 
 

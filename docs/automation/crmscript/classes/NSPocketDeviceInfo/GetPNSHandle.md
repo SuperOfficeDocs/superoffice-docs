@@ -1,9 +1,9 @@
 ---
-title: String GetPNSHandle()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetPNSHandle()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetPNSHandle
+description: NSPocketDeviceInfo.GetPNSHandle()
+intellisense: NSPocketDeviceInfo.GetPNSHandle
 keywords: GetPNSHandle()
+so.topic: reference
 ---
 
 

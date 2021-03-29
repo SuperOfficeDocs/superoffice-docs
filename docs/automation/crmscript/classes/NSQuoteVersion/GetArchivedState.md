@@ -1,9 +1,9 @@
 ---
-title: Integer GetArchivedState()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetArchivedState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetArchivedState
+description: NSQuoteVersion.GetArchivedState()
+intellisense: NSQuoteVersion.GetArchivedState
 keywords: GetArchivedState()
+so.topic: reference
 ---
 
 State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.

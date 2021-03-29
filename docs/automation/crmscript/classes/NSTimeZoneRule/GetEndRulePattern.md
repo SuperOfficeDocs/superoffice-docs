@@ -1,9 +1,9 @@
 ---
-title: String GetEndRulePattern()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/String GetEndRulePattern()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetEndRulePattern
+description: NSTimeZoneRule.GetEndRulePattern()
+intellisense: NSTimeZoneRule.GetEndRulePattern
 keywords: GetEndRulePattern()
+so.topic: reference
 ---
 
 

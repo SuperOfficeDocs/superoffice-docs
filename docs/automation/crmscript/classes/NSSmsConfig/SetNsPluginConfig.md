@@ -1,9 +1,9 @@
 ---
-title: Void SetNsPluginConfig(StringDictionary NsPluginConfig)
-path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetNsPluginConfig(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_SetNsPluginConfig_StringDictionary_p_0
+description: NSSmsConfig.SetNsPluginConfig(StringDictionary p_0)
+intellisense: NSSmsConfig.SetNsPluginConfig
 keywords: SetNsPluginConfig(StringDictionary)
+so.topic: reference
 ---
 
 

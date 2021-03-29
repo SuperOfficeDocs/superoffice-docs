@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoMdoList
-path: /EJScript/Classes/NSFieldInfoMdoList
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoMdoList
+description: NSFieldInfoMdoList
+intellisense: Void.NSFieldInfoMdoList
 sortOrder: 3529
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetJustification(Integer p0)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetJustification(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetJustification_Integer_p_0
+description: NSUserDefinedFieldInfo.SetJustification(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetJustification
 keywords: SetJustification(Integer)
+so.topic: reference
 ---
 
 Justification

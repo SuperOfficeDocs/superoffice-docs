@@ -1,9 +1,9 @@
 ---
-title: NSErpCrmListItemMapping
-path: /EJScript/Classes/NSErpCrmListItemMapping
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpCrmListItemMapping
+description: NSErpCrmListItemMapping
+intellisense: Void.NSErpCrmListItemMapping
 sortOrder: 3142
+so.topic: reference
 ---
 
 

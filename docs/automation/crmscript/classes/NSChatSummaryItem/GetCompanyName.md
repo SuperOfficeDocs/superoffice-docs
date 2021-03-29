@@ -1,10 +1,10 @@
 ---
-title: String GetCompanyName()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/String GetCompanyName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetCompanyName
+description: NSChatSummaryItem.GetCompanyName()
+intellisense: NSChatSummaryItem.GetCompanyName
 sortOrder: 1538
 keywords: GetCompanyName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetBool()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Bool GetBool()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_GetBool
+description: NSAAAMockAgent.GetBool()
+intellisense: NSAAAMockAgent.GetBool
 sortOrder: 8884
 keywords: GetBool()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetValueType()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetValueType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetValueType
+description: NSFieldValueInfo.GetValueType()
+intellisense: NSFieldValueInfo.GetValueType
 sortOrder: 3631
 keywords: GetValueType()
+so.topic: reference
 ---
 
 

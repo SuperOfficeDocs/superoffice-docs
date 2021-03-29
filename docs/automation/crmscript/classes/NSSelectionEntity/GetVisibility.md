@@ -1,9 +1,9 @@
 ---
-title: Integer GetVisibility()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetVisibility()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetVisibility
+description: NSSelectionEntity.GetVisibility()
+intellisense: NSSelectionEntity.GetVisibility
 keywords: GetVisibility()
+so.topic: reference
 ---
 
 

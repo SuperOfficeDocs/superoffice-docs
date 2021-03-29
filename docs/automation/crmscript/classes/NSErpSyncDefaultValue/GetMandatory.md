@@ -1,10 +1,10 @@
 ---
-title: Bool GetMandatory()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Bool GetMandatory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetMandatory
+description: NSErpSyncDefaultValue.GetMandatory()
+intellisense: NSErpSyncDefaultValue.GetMandatory
 sortOrder: 3252
 keywords: GetMandatory()
+so.topic: reference
 ---
 
 

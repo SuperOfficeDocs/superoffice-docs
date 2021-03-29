@@ -1,9 +1,9 @@
 ---
-title: NSTaskListItem[] GetAllTasks(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTaskListItem[] GetAllTasks(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAllTasks_Bool_p_0
+description: NSListAgent.GetAllTasks(Bool p_0)
+intellisense: NSListAgent.GetAllTasks
 keywords: GetAllTasks(Bool)
+so.topic: reference
 ---
 
 

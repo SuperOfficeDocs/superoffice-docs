@@ -1,9 +1,9 @@
 ---
-title: Void rewind()
-path: /EJScript/Classes/StatResult/Member functions/Void rewind()
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatResult_rewind
+description: StatResult.rewind()
+intellisense: StatResult.rewind
 keywords: rewind()
+so.topic: reference
 ---
 
 

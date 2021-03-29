@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetChatEmails()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetChatEmails()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetChatEmails
+description: NSPersonEntity.GetChatEmails()
+intellisense: NSPersonEntity.GetChatEmails
 keywords: GetChatEmails()
+so.topic: reference
 ---
 
 

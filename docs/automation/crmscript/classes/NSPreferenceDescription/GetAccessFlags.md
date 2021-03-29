@@ -1,9 +1,9 @@
 ---
-title: Integer GetAccessFlags()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetAccessFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetAccessFlags
+description: NSPreferenceDescription.GetAccessFlags()
+intellisense: NSPreferenceDescription.GetAccessFlags
 keywords: GetAccessFlags()
+so.topic: reference
 ---
 
 

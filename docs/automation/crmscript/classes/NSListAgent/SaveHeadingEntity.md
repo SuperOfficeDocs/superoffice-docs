@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity SaveHeadingEntity(NSHeadingEntity headingEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity SaveHeadingEntity(NSHeadingEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveHeadingEntity_NSHeadingEntity_p_0
+description: NSListAgent.SaveHeadingEntity(NSHeadingEntity p_0)
+intellisense: NSListAgent.SaveHeadingEntity
 keywords: SaveHeadingEntity(NSHeadingEntity)
+so.topic: reference
 ---
 
 

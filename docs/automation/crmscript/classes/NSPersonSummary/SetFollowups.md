@@ -1,9 +1,9 @@
 ---
-title: Void SetFollowups(NSActivitySummaryItem[] Followups)
-path: /EJScript/Classes/NSPersonSummary/Member functions/Void SetFollowups(NSActivitySummaryItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_SetFollowups_NSActivitySummaryItem__p_0
+description: NSPersonSummary.SetFollowups(NSActivitySummaryItem[] p_0)
+intellisense: NSPersonSummary.SetFollowups
 keywords: SetFollowups(NSActivitySummaryItem[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetScope()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Integer GetScope()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetScope
+description: NSSystemEventEntity.GetScope()
+intellisense: NSSystemEventEntity.GetScope
 keywords: GetScope()
+so.topic: reference
 ---
 
 

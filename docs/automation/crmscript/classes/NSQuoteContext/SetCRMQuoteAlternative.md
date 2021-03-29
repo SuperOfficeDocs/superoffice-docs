@@ -1,9 +1,9 @@
 ---
-title: Void SetCRMQuoteAlternative(NSQuoteAlternative CRMQuoteAlternative)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteAlternative(NSQuoteAlternative p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_SetCRMQuoteAlternative_NSQuoteAlternative_p_0
+description: NSQuoteContext.SetCRMQuoteAlternative(NSQuoteAlternative p_0)
+intellisense: NSQuoteContext.SetCRMQuoteAlternative
 keywords: SetCRMQuoteAlternative(NSQuoteAlternative)
+so.topic: reference
 ---
 
 

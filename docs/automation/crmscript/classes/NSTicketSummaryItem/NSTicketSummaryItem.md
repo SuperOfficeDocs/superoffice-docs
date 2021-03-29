@@ -1,8 +1,8 @@
 ---
-title: NSTicketSummaryItem
-path: /EJScript/Classes/NSTicketSummaryItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketSummaryItem
+description: NSTicketSummaryItem
+intellisense: Void.NSTicketSummaryItem
+so.topic: reference
 ---
 
 

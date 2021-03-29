@@ -1,9 +1,9 @@
 ---
-title: Void SetCode(String Code)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetCode_String_p_0
+description: NSProduct.SetCode(String p_0)
+intellisense: NSProduct.SetCode
 keywords: SetCode(String)
+so.topic: reference
 ---
 
 

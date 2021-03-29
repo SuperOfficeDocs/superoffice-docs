@@ -1,9 +1,9 @@
 ---
-title: String GetUrl()
-path: /EJScript/Classes/NSProduct/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetUrl
+description: NSProduct.GetUrl()
+intellisense: NSProduct.GetUrl
 keywords: GetUrl()
+so.topic: reference
 ---
 
 

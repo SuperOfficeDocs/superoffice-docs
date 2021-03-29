@@ -1,10 +1,10 @@
 ---
-title: NSAssociate[] GetAssociatesByGroup(Integer groupId, Integer type)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/NSAssociate[] GetAssociatesByGroup(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_GetAssociatesByGroup_Integer_p_0_Integer_p_1
+description: NSAssociateAgent.GetAssociatesByGroup(Integer p_0, Integer p_1)
+intellisense: NSAssociateAgent.GetAssociatesByGroup
 sortOrder: 1283
 keywords: GetAssociatesByGroup(Integer,Integer)
+so.topic: reference
 ---
 
 

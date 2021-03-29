@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(Integer Status)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_SetStatus_Integer_p_0
+description: NSSaleSummaryItem.SetStatus(Integer p_0)
+intellisense: NSSaleSummaryItem.SetStatus
 keywords: SetStatus(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetCrmList(NSMDOListItem CrmList)
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/Void SetCrmList(NSMDOListItem p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMapping_SetCrmList_NSMDOListItem_p_0
+description: NSErpConnectionListMapping.SetCrmList(NSMDOListItem p_0)
+intellisense: NSErpConnectionListMapping.SetCrmList
 sortOrder: 3129
 keywords: SetCrmList(NSMDOListItem)
+so.topic: reference
 ---
 
 

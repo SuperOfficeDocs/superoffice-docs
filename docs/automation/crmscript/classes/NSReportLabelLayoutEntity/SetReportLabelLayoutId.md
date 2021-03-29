@@ -1,9 +1,9 @@
 ---
-title: Void SetReportLabelLayoutId(Integer ReportLabelLayoutId)
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Void SetReportLabelLayoutId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_SetReportLabelLayoutId_Integer_p_0
+description: NSReportLabelLayoutEntity.SetReportLabelLayoutId(Integer p_0)
+intellisense: NSReportLabelLayoutEntity.SetReportLabelLayoutId
 keywords: SetReportLabelLayoutId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSSelectionEntity CreateTemporaryContactSelectionFromSelectionMemberIds(Integer selectionId, Integer[] selectionMemberIds)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateTemporaryContactSelectionFromSelectionMemberIds(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateTemporaryContactSelectionFromSelectionMemberIds_Integer_p_0_Integer__p_1
+description: NSSelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds(Integer p_0, Integer[] p_1)
+intellisense: NSSelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIds
 keywords: CreateTemporaryContactSelectionFromSelectionMemberIds(Integer,Integer[])
+so.topic: reference
 ---
 
 

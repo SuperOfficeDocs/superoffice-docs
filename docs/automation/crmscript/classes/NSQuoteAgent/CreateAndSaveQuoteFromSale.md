@@ -1,9 +1,9 @@
 ---
-title: NSQuoteEntity CreateAndSaveQuoteFromSale(Integer copyFromSaleId, Integer copyToSaleId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteEntity CreateAndSaveQuoteFromSale(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteFromSale_Integer_p_0_Integer_p_1
+description: NSQuoteAgent.CreateAndSaveQuoteFromSale(Integer p_0, Integer p_1)
+intellisense: NSQuoteAgent.CreateAndSaveQuoteFromSale
 keywords: CreateAndSaveQuoteFromSale(Integer,Integer)
+so.topic: reference
 ---
 
 

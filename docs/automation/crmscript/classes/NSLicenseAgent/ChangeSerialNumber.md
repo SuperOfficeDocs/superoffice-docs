@@ -1,9 +1,9 @@
 ---
-title: NSLicenseResult ChangeSerialNumber(String newCompanyName, String newSerialNumber)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseResult ChangeSerialNumber(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_ChangeSerialNumber_String_p_0_String_p_1
+description: NSLicenseAgent.ChangeSerialNumber(String p_0, String p_1)
+intellisense: NSLicenseAgent.ChangeSerialNumber
 keywords: ChangeSerialNumber(String,String)
+so.topic: reference
 ---
 
 

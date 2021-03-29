@@ -1,9 +1,9 @@
 ---
-title: Void setValue(String column, String Value)
-path: /EJScript/Classes/User/Member functions/Void setValue(String column, String Value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_User_setValue_String_column_String_Value
+description: User.setValue(String column, String Value)
+intellisense: User.setValue
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 Sets a value in a given column.

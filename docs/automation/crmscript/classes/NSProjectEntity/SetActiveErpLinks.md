@@ -1,9 +1,9 @@
 ---
-title: Void SetActiveErpLinks(Integer ActiveErpLinks)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetActiveErpLinks(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetActiveErpLinks_Integer_p_0
+description: NSProjectEntity.SetActiveErpLinks(Integer p_0)
+intellisense: NSProjectEntity.SetActiveErpLinks
 keywords: SetActiveErpLinks(Integer)
+so.topic: reference
 ---
 
 

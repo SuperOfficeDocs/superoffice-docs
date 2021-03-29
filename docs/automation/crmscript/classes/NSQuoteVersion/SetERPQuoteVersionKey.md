@@ -1,9 +1,9 @@
 ---
-title: Void SetERPQuoteVersionKey(String ERPQuoteVersionKey)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPQuoteVersionKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetERPQuoteVersionKey_String_p_0
+description: NSQuoteVersion.SetERPQuoteVersionKey(String p_0)
+intellisense: NSQuoteVersion.SetERPQuoteVersionKey
 keywords: SetERPQuoteVersionKey(String)
+so.topic: reference
 ---
 
 

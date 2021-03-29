@@ -1,10 +1,10 @@
 ---
-title: NSMDOListItem[] GetListItems()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/NSMDOListItem[] GetListItems()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_GetListItems
+description: NSDashboardTileOption.GetListItems()
+intellisense: NSDashboardTileOption.GetListItems
 sortOrder: 2320
 keywords: GetListItems()
+so.topic: reference
 ---
 
 

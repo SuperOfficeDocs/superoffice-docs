@@ -1,9 +1,9 @@
 ---
-title: Float GetFutureOpenWeightedOwnCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenWeightedOwnCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetFutureOpenWeightedOwnCurrency
+description: NSSaleSummary.GetFutureOpenWeightedOwnCurrency()
+intellisense: NSSaleSummary.GetFutureOpenWeightedOwnCurrency
 keywords: GetFutureOpenWeightedOwnCurrency()
+so.topic: reference
 ---
 
 

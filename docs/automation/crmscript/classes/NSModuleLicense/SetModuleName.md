@@ -1,9 +1,9 @@
 ---
-title: Void SetModuleName(String ModuleName)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetModuleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetModuleName_String_p_0
+description: NSModuleLicense.SetModuleName(String p_0)
+intellisense: NSModuleLicense.SetModuleName
 keywords: SetModuleName(String)
+so.topic: reference
 ---
 
 

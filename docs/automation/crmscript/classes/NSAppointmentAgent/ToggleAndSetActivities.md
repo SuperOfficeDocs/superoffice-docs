@@ -1,10 +1,10 @@
 ---
-title: String[] ToggleAndSetActivities(String[] activityIdentifiers)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/String[] ToggleAndSetActivities(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_ToggleAndSetActivities_String__p_0
+description: NSAppointmentAgent.ToggleAndSetActivities(String[] p_0)
+intellisense: NSAppointmentAgent.ToggleAndSetActivities
 sortOrder: 908
 keywords: ToggleAndSetActivities(String[])
+so.topic: reference
 ---
 
 

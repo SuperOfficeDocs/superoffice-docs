@@ -1,9 +1,9 @@
 ---
-title: DateTime GetLastGenerated()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/DateTime GetLastGenerated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetLastGenerated
+description: NSStatusMonitor.GetLastGenerated()
+intellisense: NSStatusMonitor.GetLastGenerated
 keywords: GetLastGenerated()
+so.topic: reference
 ---
 
 

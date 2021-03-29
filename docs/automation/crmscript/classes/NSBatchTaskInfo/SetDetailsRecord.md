@@ -1,10 +1,10 @@
 ---
-title: Void SetDetailsRecord(Integer DetailsRecord)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetDetailsRecord(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetDetailsRecord_Integer_p_0
+description: NSBatchTaskInfo.SetDetailsRecord(Integer p_0)
+intellisense: NSBatchTaskInfo.SetDetailsRecord
 sortOrder: 1390
 keywords: SetDetailsRecord(Integer)
+so.topic: reference
 ---
 
 

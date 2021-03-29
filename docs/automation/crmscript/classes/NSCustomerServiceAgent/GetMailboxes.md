@@ -1,10 +1,10 @@
 ---
-title: NSMailbox[] GetMailboxes()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSMailbox[] GetMailboxes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_GetMailboxes
+description: NSCustomerServiceAgent.GetMailboxes()
+intellisense: NSCustomerServiceAgent.GetMailboxes
 sortOrder: 2233
 keywords: GetMailboxes()
+so.topic: reference
 ---
 
 

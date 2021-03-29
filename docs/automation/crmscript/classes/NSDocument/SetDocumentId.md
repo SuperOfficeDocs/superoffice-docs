@@ -1,10 +1,10 @@
 ---
-title: Void SetDocumentId(Integer DocumentId)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetDocumentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument_SetDocumentId_Integer_p_0
+description: NSDocument.SetDocumentId(Integer p_0)
+intellisense: NSDocument.SetDocumentId
 sortOrder: 2452
 keywords: SetDocumentId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetInvitationStatus(Integer InvitationStatus)
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Void SetInvitationStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo_SetInvitationStatus_Integer_p_0
+description: NSParticipantInfo.SetInvitationStatus(Integer p_0)
+intellisense: NSParticipantInfo.SetInvitationStatus
 keywords: SetInvitationStatus(Integer)
+so.topic: reference
 ---
 
 

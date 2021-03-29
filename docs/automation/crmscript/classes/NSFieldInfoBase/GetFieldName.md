@@ -1,10 +1,10 @@
 ---
-title: String GetFieldName()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetFieldName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetFieldName
+description: NSFieldInfoBase.GetFieldName()
+intellisense: NSFieldInfoBase.GetFieldName
 sortOrder: 3471
 keywords: GetFieldName()
+so.topic: reference
 ---
 
 

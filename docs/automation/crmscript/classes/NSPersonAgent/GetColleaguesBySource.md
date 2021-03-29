@@ -1,9 +1,9 @@
 ---
-title: NSPerson[] GetColleaguesBySource(Integer sourceType, Integer p1)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson[] GetColleaguesBySource(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetColleaguesBySource_Integer_p_0_Integer_p_1
+description: NSPersonAgent.GetColleaguesBySource(Integer p_0, Integer p_1)
+intellisense: NSPersonAgent.GetColleaguesBySource
 keywords: GetColleaguesBySource(Integer,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTechExplanation(String TechExplanation)
-path: /EJScript/Classes/NSPluginResponse/Member functions/Void SetTechExplanation(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse_SetTechExplanation_String_p_0
+description: NSPluginResponse.SetTechExplanation(String p_0)
+intellisense: NSPluginResponse.SetTechExplanation
 keywords: SetTechExplanation(String)
+so.topic: reference
 ---
 
 

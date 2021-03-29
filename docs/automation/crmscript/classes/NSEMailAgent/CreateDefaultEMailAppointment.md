@@ -1,10 +1,10 @@
 ---
-title: NSEMailAppointment CreateDefaultEMailAppointment()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAppointment CreateDefaultEMailAppointment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAppointment
+description: NSEMailAgent.CreateDefaultEMailAppointment()
+intellisense: NSEMailAgent.CreateDefaultEMailAppointment
 sortOrder: 2802
 keywords: CreateDefaultEMailAppointment()
+so.topic: reference
 ---
 
 

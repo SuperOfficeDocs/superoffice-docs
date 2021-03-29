@@ -1,9 +1,9 @@
 ---
-title: Integer GetLeftSelectionId()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetLeftSelectionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetLeftSelectionId
+description: NSSelectionEntity.GetLeftSelectionId()
+intellisense: NSSelectionEntity.GetLeftSelectionId
 keywords: GetLeftSelectionId()
+so.topic: reference
 ---
 
 

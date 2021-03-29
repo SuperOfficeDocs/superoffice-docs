@@ -1,10 +1,10 @@
 ---
-title: Void DeleteDocumentEntity(Integer documentEntityId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/Void DeleteDocumentEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_DeleteDocumentEntity_Integer_p_0
+description: NSDocumentAgent.DeleteDocumentEntity(Integer p_0)
+intellisense: NSDocumentAgent.DeleteDocumentEntity
 sortOrder: 2545
 keywords: DeleteDocumentEntity(Integer)
+so.topic: reference
 ---
 
 

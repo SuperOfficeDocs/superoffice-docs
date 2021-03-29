@@ -1,9 +1,9 @@
 ---
-title: String GetMdoListName()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/String GetMdoListName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetMdoListName
+description: NSUserDefinedFieldInfo.GetMdoListName()
+intellisense: NSUserDefinedFieldInfo.GetMdoListName
 keywords: GetMdoListName()
+so.topic: reference
 ---
 
 

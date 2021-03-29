@@ -1,10 +1,10 @@
 ---
-title: Void SetGroupIdx(Integer GroupIdx)
-path: /EJScript/Classes/NSAssociate/Member functions/Void SetGroupIdx(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_SetGroupIdx_Integer_p_0
+description: NSAssociate.SetGroupIdx(Integer p_0)
+intellisense: NSAssociate.SetGroupIdx
 sortOrder: 1271
 keywords: SetGroupIdx(Integer)
+so.topic: reference
 ---
 
 

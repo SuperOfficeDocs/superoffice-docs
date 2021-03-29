@@ -1,9 +1,9 @@
 ---
-title: Void SetImportant(Bool Important)
-path: /EJScript/Classes/NSTicketMessage/Member functions/Void SetImportant(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessage_SetImportant_Bool_p_0
+description: NSTicketMessage.SetImportant(Bool p_0)
+intellisense: NSTicketMessage.SetImportant
 keywords: SetImportant(Bool)
+so.topic: reference
 ---
 
 

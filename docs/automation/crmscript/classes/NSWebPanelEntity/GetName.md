@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetName
+description: NSWebPanelEntity.GetName()
+intellisense: NSWebPanelEntity.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetActionId()
-path: /EJScript/Classes/NSContactActivity/Member functions/Integer GetActionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_GetActionId
+description: NSContactActivity.GetActionId()
+intellisense: NSContactActivity.GetActionId
 sortOrder: 1768
 keywords: GetActionId()
+so.topic: reference
 ---
 
 

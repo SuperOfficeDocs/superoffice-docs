@@ -1,9 +1,9 @@
 ---
-title: Integer GetValidFaxNumbers()
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Integer GetValidFaxNumbers()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecipientStatistics_GetValidFaxNumbers
+description: NSRecipientStatistics.GetValidFaxNumbers()
+intellisense: NSRecipientStatistics.GetValidFaxNumbers
 keywords: GetValidFaxNumbers()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSupportedMessagingFormats(String[] SupportedMessagingFormats)
-path: /EJScript/Classes/NSProviderInfo/Member functions/Void SetSupportedMessagingFormats(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProviderInfo_SetSupportedMessagingFormats_String__p_0
+description: NSProviderInfo.SetSupportedMessagingFormats(String[] p_0)
+intellisense: NSProviderInfo.SetSupportedMessagingFormats
 keywords: SetSupportedMessagingFormats(String[])
+so.topic: reference
 ---
 
 

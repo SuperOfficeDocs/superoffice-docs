@@ -1,9 +1,9 @@
 ---
-title: NSListEntity[] GetListDefinitions(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity[] GetListDefinitions(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetListDefinitions_Bool_p_0
+description: NSListAgent.GetListDefinitions(Bool p_0)
+intellisense: NSListAgent.GetListDefinitions
 keywords: GetListDefinitions(Bool)
+so.topic: reference
 ---
 
 

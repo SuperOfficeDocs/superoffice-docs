@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetDescription
+description: NSSelectionEntity.GetDescription()
+intellisense: NSSelectionEntity.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

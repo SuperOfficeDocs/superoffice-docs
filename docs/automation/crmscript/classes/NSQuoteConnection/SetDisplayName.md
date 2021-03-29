@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetDisplayName_String_p_0
+description: NSQuoteConnection.SetDisplayName(String p_0)
+intellisense: NSQuoteConnection.SetDisplayName
 keywords: SetDisplayName(String)
+so.topic: reference
 ---
 
 

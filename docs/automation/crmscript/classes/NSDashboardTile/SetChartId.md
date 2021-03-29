@@ -1,10 +1,10 @@
 ---
-title: Void SetChartId(String ChartId)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetChartId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetChartId_String_p_0
+description: NSDashboardTile.SetChartId(String p_0)
+intellisense: NSDashboardTile.SetChartId
 sortOrder: 2304
 keywords: SetChartId(String)
+so.topic: reference
 ---
 
 

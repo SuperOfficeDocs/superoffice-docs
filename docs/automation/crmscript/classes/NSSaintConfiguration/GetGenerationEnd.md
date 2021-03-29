@@ -1,9 +1,9 @@
 ---
-title: DateTime GetGenerationEnd()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/DateTime GetGenerationEnd()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_GetGenerationEnd
+description: NSSaintConfiguration.GetGenerationEnd()
+intellisense: NSSaintConfiguration.GetGenerationEnd
 keywords: GetGenerationEnd()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: MacroParameter
-path: /EJScript/Classes/MacroParameter
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroParameter
+description: MacroParameter
+intellisense: Void.MacroParameter
 sortOrder: 476
+so.topic: reference
 ---
 
 

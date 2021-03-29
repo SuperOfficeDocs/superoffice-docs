@@ -1,10 +1,11 @@
 ---
-title: Generic getGenericValue(Generic struct, String name)
-path: /EJScript/Classes/Generic/Member functions/Generic getGenericValue(Generic struct, String name)
-intellisense: 1
+title: crmscript_ref_Generic_getGenericValue_Generic_struct_String_name
+description: Generic.getGenericValue(Generic struct, String name)
+intellisense: Generic.getGenericValue
 langref: 1
 sortOrder: 70
 keywords: getGenericValue(Generic,String)
+so.topic: reference
 ---
 
 

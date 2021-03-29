@@ -1,10 +1,10 @@
 ---
-title: String getName()
-path: /EJScript/Classes/LocalizedField/Member functions/String getName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_LocalizedField_getName
+description: LocalizedField.getName()
+intellisense: LocalizedField.getName
 sortOrder: 469
 keywords: getName()
+so.topic: reference
 ---
 
 

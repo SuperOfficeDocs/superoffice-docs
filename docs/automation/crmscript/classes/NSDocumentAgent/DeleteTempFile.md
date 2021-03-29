@@ -1,10 +1,10 @@
 ---
-title: Void DeleteTempFile(String filename)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/Void DeleteTempFile(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_DeleteTempFile_String_p_0
+description: NSDocumentAgent.DeleteTempFile(String p_0)
+intellisense: NSDocumentAgent.DeleteTempFile
 sortOrder: 2546
 keywords: DeleteTempFile(String)
+so.topic: reference
 ---
 
 

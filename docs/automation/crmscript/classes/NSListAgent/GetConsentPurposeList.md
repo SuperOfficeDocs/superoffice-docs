@@ -1,9 +1,9 @@
 ---
-title: NSConsentPurpose[] GetConsentPurposeList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentPurpose[] GetConsentPurposeList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetConsentPurposeList_Integer__p_0
+description: NSListAgent.GetConsentPurposeList(Integer[] p_0)
+intellisense: NSListAgent.GetConsentPurposeList
 keywords: GetConsentPurposeList(Integer[])
+so.topic: reference
 ---
 
 

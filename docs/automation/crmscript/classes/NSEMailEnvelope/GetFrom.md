@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress GetFrom()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/NSEMailAddress GetFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_GetFrom
+description: NSEMailEnvelope.GetFrom()
+intellisense: NSEMailEnvelope.GetFrom
 sortOrder: 3007
 keywords: GetFrom()
+so.topic: reference
 ---
 
 

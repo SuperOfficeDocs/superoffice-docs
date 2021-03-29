@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetProjectAppointmentsByType(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer appointmentType)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetProjectAppointmentsByType(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetProjectAppointmentsByType_Integer_p_0_DateTime_p_1_DateTime_p_2_Integer_p_3_Integer_p_4
+description: NSAppointmentAgent.GetProjectAppointmentsByType(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer p_4)
+intellisense: NSAppointmentAgent.GetProjectAppointmentsByType
 sortOrder: 863
 keywords: GetProjectAppointmentsByType(Integer,DateTime,DateTime,Integer,Integer)
+so.topic: reference
 ---
 
 

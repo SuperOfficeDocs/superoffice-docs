@@ -1,9 +1,9 @@
 ---
-title: NSVisibleFor GetVisibleFor()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/NSVisibleFor GetVisibleFor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetVisibleFor
+description: NSMailMergeTask.GetVisibleFor()
+intellisense: NSMailMergeTask.GetVisibleFor
 keywords: GetVisibleFor()
+so.topic: reference
 ---
 
 

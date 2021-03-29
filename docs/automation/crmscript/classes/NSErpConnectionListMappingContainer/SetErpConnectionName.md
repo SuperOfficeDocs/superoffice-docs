@@ -1,10 +1,10 @@
 ---
-title: Void SetErpConnectionName(String ErpConnectionName)
-path: /EJScript/Classes/NSErpConnectionListMappingContainer/Member functions/Void SetErpConnectionName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMappingContainer_SetErpConnectionName_String_p_0
+description: NSErpConnectionListMappingContainer.SetErpConnectionName(String p_0)
+intellisense: NSErpConnectionListMappingContainer.SetErpConnectionName
 sortOrder: 3140
 keywords: SetErpConnectionName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetFromAddress(String FromAddress)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetFromAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetFromAddress_String_p_0
+description: NSTicketEntity.SetFromAddress(String p_0)
+intellisense: NSTicketEntity.SetFromAddress
 keywords: SetFromAddress(String)
+so.topic: reference
 ---
 
 

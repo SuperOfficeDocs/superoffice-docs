@@ -1,9 +1,9 @@
 ---
-title: NSSaleStageEntity CreateDefaultSaleStageEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleStageEntity CreateDefaultSaleStageEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultSaleStageEntity
+description: NSListAgent.CreateDefaultSaleStageEntity()
+intellisense: NSListAgent.CreateDefaultSaleStageEntity
 keywords: CreateDefaultSaleStageEntity()
+so.topic: reference
 ---
 
 

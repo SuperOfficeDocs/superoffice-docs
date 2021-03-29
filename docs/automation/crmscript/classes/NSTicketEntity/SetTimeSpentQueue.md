@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeSpentQueue(Integer TimeSpentQueue)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetTimeSpentQueue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetTimeSpentQueue_Integer_p_0
+description: NSTicketEntity.SetTimeSpentQueue(Integer p_0)
+intellisense: NSTicketEntity.SetTimeSpentQueue
 keywords: SetTimeSpentQueue(Integer)
+so.topic: reference
 ---
 
 

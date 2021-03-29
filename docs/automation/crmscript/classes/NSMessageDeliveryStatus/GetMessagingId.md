@@ -1,9 +1,9 @@
 ---
-title: Integer GetMessagingId()
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Integer GetMessagingId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus_GetMessagingId
+description: NSMessageDeliveryStatus.GetMessagingId()
+intellisense: NSMessageDeliveryStatus.GetMessagingId
 keywords: GetMessagingId()
+so.topic: reference
 ---
 
 

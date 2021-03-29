@@ -1,10 +1,10 @@
 ---
-title: Void SetTzLocationId(Integer TzLocationId)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetTzLocationId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_SetTzLocationId_Integer_p_0
+description: NSDiaryViewEntity.SetTzLocationId(Integer p_0)
+intellisense: NSDiaryViewEntity.SetTzLocationId
 sortOrder: 2419
 keywords: SetTzLocationId(Integer)
+so.topic: reference
 ---
 
 

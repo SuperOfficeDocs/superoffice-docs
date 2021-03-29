@@ -1,9 +1,9 @@
 ---
-title: Void SetProgId(String ProgId)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetProgId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetProgId_String_p_0
+description: NSWebPanelEntity.SetProgId(String p_0)
+intellisense: NSWebPanelEntity.SetProgId
 keywords: SetProgId(String)
+so.topic: reference
 ---
 
 

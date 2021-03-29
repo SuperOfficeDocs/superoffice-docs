@@ -1,9 +1,9 @@
 ---
-title: Bool GetUseGroupsAndHeadings()
-path: /EJScript/Classes/NSListEntity/Member functions/Bool GetUseGroupsAndHeadings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_GetUseGroupsAndHeadings
+description: NSListEntity.GetUseGroupsAndHeadings()
+intellisense: NSListEntity.GetUseGroupsAndHeadings
 keywords: GetUseGroupsAndHeadings()
+so.topic: reference
 ---
 
 

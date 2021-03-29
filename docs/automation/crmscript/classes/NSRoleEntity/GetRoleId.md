@@ -1,9 +1,9 @@
 ---
-title: Integer GetRoleId()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetRoleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetRoleId
+description: NSRoleEntity.GetRoleId()
+intellisense: NSRoleEntity.GetRoleId
 keywords: GetRoleId()
+so.topic: reference
 ---
 
 

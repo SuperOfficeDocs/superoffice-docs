@@ -1,9 +1,9 @@
 ---
-title: Time getThuStart()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getThuStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_getThuStart
+description: WeekSchedule.getThuStart()
+intellisense: WeekSchedule.getThuStart
 keywords: getThuStart()
+so.topic: reference
 ---
 
 

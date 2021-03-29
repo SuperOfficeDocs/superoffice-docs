@@ -1,9 +1,9 @@
 ---
-title: Void SetPictureId(Integer PictureId)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetPictureId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetPictureId_Integer_p_0
+description: NSStatusMonitor.SetPictureId(Integer p_0)
+intellisense: NSStatusMonitor.SetPictureId
 keywords: SetPictureId(Integer)
+so.topic: reference
 ---
 
 

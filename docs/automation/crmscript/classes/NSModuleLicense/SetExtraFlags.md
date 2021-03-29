@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraFlags(Integer ExtraFlags)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetExtraFlags(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetExtraFlags_Integer_p_0
+description: NSModuleLicense.SetExtraFlags(Integer p_0)
+intellisense: NSModuleLicense.SetExtraFlags
 keywords: SetExtraFlags(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetChanges(NSChangedData Changes)
-path: /EJScript/Classes/NSQuoteAlternativeRecalculated/Member functions/Void SetChanges(NSChangedData p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternativeRecalculated_SetChanges_NSChangedData_p_0
+description: NSQuoteAlternativeRecalculated.SetChanges(NSChangedData p_0)
+intellisense: NSQuoteAlternativeRecalculated.SetChanges
 keywords: SetChanges(NSChangedData)
+so.topic: reference
 ---
 
 

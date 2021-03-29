@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetMyTasks(Integer count)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetMyTasks(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetMyTasks_Integer_p_0
+description: NSAppointmentAgent.GetMyTasks(Integer p_0)
+intellisense: NSAppointmentAgent.GetMyTasks
 sortOrder: 851
 keywords: GetMyTasks(Integer)
+so.topic: reference
 ---
 
 

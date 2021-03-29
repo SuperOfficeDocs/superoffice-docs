@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetName
+description: NSSuggestedAppointment.GetName()
+intellisense: NSSuggestedAppointment.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

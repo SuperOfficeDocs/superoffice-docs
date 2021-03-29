@@ -1,9 +1,9 @@
 ---
-title: Void SetEmarketingStrictMode(Bool enable)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SetEmarketingStrictMode(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetEmarketingStrictMode_Bool_p_0
+description: NSListAgent.SetEmarketingStrictMode(Bool p_0)
+intellisense: NSListAgent.SetEmarketingStrictMode
 keywords: SetEmarketingStrictMode(Bool)
+so.topic: reference
 ---
 
 

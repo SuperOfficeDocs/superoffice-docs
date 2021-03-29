@@ -1,9 +1,9 @@
 ---
-title: String[] GetDocumentTemplateLanguages(Integer documentTemplateId)
-path: /EJScript/Classes/NSListAgent/Member functions/String[] GetDocumentTemplateLanguages(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateLanguages_Integer_p_0
+description: NSListAgent.GetDocumentTemplateLanguages(Integer p_0)
+intellisense: NSListAgent.GetDocumentTemplateLanguages
 keywords: GetDocumentTemplateLanguages(Integer)
+so.topic: reference
 ---
 
 

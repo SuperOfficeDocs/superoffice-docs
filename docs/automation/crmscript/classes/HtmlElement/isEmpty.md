@@ -1,10 +1,10 @@
 ---
-title: Bool isEmpty()
-path: /EJScript/Classes/HtmlElement/Member functions/Bool isEmpty()
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_isEmpty
+description: HtmlElement.isEmpty()
+intellisense: HtmlElement.isEmpty
 sortOrder: 379
 keywords: isEmpty()
+so.topic: reference
 ---
 
 # Bool isEmpty()

@@ -1,9 +1,9 @@
 ---
-title: Void SetCreatedBy(Integer CreatedBy)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetCreatedBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetCreatedBy_Integer_p_0
+description: NSTicket.SetCreatedBy(Integer p_0)
+intellisense: NSTicket.SetCreatedBy
 keywords: SetCreatedBy(Integer)
+so.topic: reference
 ---
 
 

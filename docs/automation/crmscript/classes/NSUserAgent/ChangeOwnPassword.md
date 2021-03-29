@@ -1,9 +1,9 @@
 ---
-title: Bool ChangeOwnPassword(String oldPassword, String newPassword)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool ChangeOwnPassword(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_ChangeOwnPassword_String_p_0_String_p_1
+description: NSUserAgent.ChangeOwnPassword(String p_0, String p_1)
+intellisense: NSUserAgent.ChangeOwnPassword
 keywords: ChangeOwnPassword(String,String)
+so.topic: reference
 ---
 
 

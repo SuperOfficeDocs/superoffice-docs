@@ -1,10 +1,10 @@
 ---
-title: Bool eof()
-path: /EJScript/Classes/Cache/Member functions/Bool eof()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Cache_eof
+description: Cache.eof()
+intellisense: Cache.eof
 sortOrder: 142
 keywords: eof()
+so.topic: reference
 ---
 
 

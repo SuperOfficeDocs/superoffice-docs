@@ -1,10 +1,10 @@
 ---
-title: NSTicketInfo AddMessageFromMailData(Integer ticketId, String data)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSTicketInfo AddMessageFromMailData(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_AddMessageFromMailData_Integer_p_0_String_p_1
+description: NSCustomerServiceAgent.AddMessageFromMailData(Integer p_0, String p_1)
+intellisense: NSCustomerServiceAgent.AddMessageFromMailData
 sortOrder: 2240
 keywords: AddMessageFromMailData(Integer,String)
+so.topic: reference
 ---
 
 

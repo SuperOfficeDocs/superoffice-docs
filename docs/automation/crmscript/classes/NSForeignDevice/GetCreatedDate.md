@@ -1,10 +1,10 @@
 ---
-title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSForeignDevice/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetCreatedDate
+description: NSForeignDevice.GetCreatedDate()
+intellisense: NSForeignDevice.GetCreatedDate
 sortOrder: 3714
 keywords: GetCreatedDate()
+so.topic: reference
 ---
 
 

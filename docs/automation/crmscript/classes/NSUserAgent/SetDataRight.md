@@ -1,9 +1,9 @@
 ---
-title: Void SetDataRight(Integer roleId, String tableName, Integer relationToOwner, String dataRightValue)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void SetDataRight(Integer p_0, String p_1, Integer p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SetDataRight_Integer_p_0_String_p_1_Integer_p_2_String_p_3
+description: NSUserAgent.SetDataRight(Integer p_0, String p_1, Integer p_2, String p_3)
+intellisense: NSUserAgent.SetDataRight
 keywords: SetDataRight(Integer,String,Integer,String)
+so.topic: reference
 ---
 
 

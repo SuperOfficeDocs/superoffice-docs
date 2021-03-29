@@ -1,9 +1,9 @@
 ---
-title: Void SetIsActive(Bool IsActive)
-path: /EJScript/Classes/NSPriceList/Member functions/Void SetIsActive(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_SetIsActive_Bool_p_0
+description: NSPriceList.SetIsActive(Bool p_0)
+intellisense: NSPriceList.SetIsActive
 keywords: SetIsActive(Bool)
+so.topic: reference
 ---
 
 

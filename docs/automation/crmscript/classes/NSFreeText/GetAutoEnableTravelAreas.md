@@ -1,10 +1,10 @@
 ---
-title: Bool GetAutoEnableTravelAreas()
-path: /EJScript/Classes/NSFreeText/Member functions/Bool GetAutoEnableTravelAreas()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetAutoEnableTravelAreas
+description: NSFreeText.GetAutoEnableTravelAreas()
+intellisense: NSFreeText.GetAutoEnableTravelAreas
 sortOrder: 3852
 keywords: GetAutoEnableTravelAreas()
+so.topic: reference
 ---
 
 

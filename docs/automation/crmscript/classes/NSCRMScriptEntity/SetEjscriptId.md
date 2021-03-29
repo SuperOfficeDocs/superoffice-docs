@@ -1,10 +1,10 @@
 ---
-title: Void SetEjscriptId(Integer EjscriptId)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetEjscriptId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_SetEjscriptId_Integer_p_0
+description: NSCRMScriptEntity.SetEjscriptId(Integer p_0)
+intellisense: NSCRMScriptEntity.SetEjscriptId
 sortOrder: 2139
 keywords: SetEjscriptId(Integer)
+so.topic: reference
 ---
 
 

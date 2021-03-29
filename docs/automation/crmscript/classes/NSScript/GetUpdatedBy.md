@@ -1,9 +1,9 @@
 ---
-title: String GetUpdatedBy()
-path: /EJScript/Classes/NSScript/Member functions/String GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_GetUpdatedBy
+description: NSScript.GetUpdatedBy()
+intellisense: NSScript.GetUpdatedBy
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

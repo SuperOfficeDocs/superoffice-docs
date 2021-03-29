@@ -1,9 +1,9 @@
 ---
-title: Void SetParentMessagingId(Integer ParentMessagingId)
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/Void SetParentMessagingId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_SetParentMessagingId_Integer_p_0
+description: NSOutgoingMessage.SetParentMessagingId(Integer p_0)
+intellisense: NSOutgoingMessage.SetParentMessagingId
 keywords: SetParentMessagingId(Integer)
+so.topic: reference
 ---
 
 

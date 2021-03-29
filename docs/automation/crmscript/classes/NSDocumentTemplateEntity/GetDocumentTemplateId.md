@@ -1,10 +1,10 @@
 ---
-title: Integer GetDocumentTemplateId()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetDocumentTemplateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTemplateId
+description: NSDocumentTemplateEntity.GetDocumentTemplateId()
+intellisense: NSDocumentTemplateEntity.GetDocumentTemplateId
 sortOrder: 2657
 keywords: GetDocumentTemplateId()
+so.topic: reference
 ---
 
 

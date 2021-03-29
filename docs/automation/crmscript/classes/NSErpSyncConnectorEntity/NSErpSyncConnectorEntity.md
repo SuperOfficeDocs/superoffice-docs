@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncConnectorEntity
-path: /EJScript/Classes/NSErpSyncConnectorEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectorEntity
+description: NSErpSyncConnectorEntity
+intellisense: Void.NSErpSyncConnectorEntity
 sortOrder: 3239
+so.topic: reference
 ---
 
 

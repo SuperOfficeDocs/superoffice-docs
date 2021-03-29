@@ -1,10 +1,10 @@
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_SetSaleId_Integer_p_0
+description: NSAAATestClassForModeling.SetSaleId(Integer p_0)
+intellisense: NSAAATestClassForModeling.SetSaleId
 sortOrder: 8943
 keywords: SetSaleId(Integer)
+so.topic: reference
 ---
 
 

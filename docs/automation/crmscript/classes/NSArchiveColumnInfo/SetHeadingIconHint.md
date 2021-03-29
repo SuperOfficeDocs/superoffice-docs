@@ -1,10 +1,10 @@
 ---
-title: Void SetHeadingIconHint(String HeadingIconHint)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetHeadingIconHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetHeadingIconHint_String_p_0
+description: NSArchiveColumnInfo.SetHeadingIconHint(String p_0)
+intellisense: NSArchiveColumnInfo.SetHeadingIconHint
 sortOrder: 1157
 keywords: SetHeadingIconHint(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSecretValue(String SecretValue)
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Void SetSecretValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_SetSecretValue_String_p_0
+description: NSUntrustedCredentials.SetSecretValue(String p_0)
+intellisense: NSUntrustedCredentials.SetSecretValue
 keywords: SetSecretValue(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSArea/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_GetName
+description: NSArea.GetName()
+intellisense: NSArea.GetName
 sortOrder: 1245
 keywords: GetName()
+so.topic: reference
 ---
 
 

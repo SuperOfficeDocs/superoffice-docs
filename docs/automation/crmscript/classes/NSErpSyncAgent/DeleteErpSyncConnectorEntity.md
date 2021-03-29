@@ -1,10 +1,10 @@
 ---
-title: Void DeleteErpSyncConnectorEntity(Integer erpSyncConnectorEntityId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Void DeleteErpSyncConnectorEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_DeleteErpSyncConnectorEntity_Integer_p_0
+description: NSErpSyncAgent.DeleteErpSyncConnectorEntity(Integer p_0)
+intellisense: NSErpSyncAgent.DeleteErpSyncConnectorEntity
 sortOrder: 3221
 keywords: DeleteErpSyncConnectorEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSChatSession
-path: /EJScript/Classes/NSChatSession
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSession
+description: NSChatSession
+intellisense: Void.NSChatSession
 sortOrder: 1529
+so.topic: reference
 ---
 
 

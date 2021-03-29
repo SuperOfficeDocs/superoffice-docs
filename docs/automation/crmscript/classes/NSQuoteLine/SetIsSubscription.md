@@ -1,9 +1,9 @@
 ---
-title: Void SetIsSubscription(Bool IsSubscription)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetIsSubscription(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetIsSubscription_Bool_p_0
+description: NSQuoteLine.SetIsSubscription(Bool p_0)
+intellisense: NSQuoteLine.SetIsSubscription
 keywords: SetIsSubscription(Bool)
+so.topic: reference
 ---
 
 

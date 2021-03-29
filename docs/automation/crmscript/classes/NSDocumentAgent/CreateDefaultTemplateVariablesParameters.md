@@ -1,10 +1,10 @@
 ---
-title: NSTemplateVariablesParameters CreateDefaultTemplateVariablesParameters()
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSTemplateVariablesParameters CreateDefaultTemplateVariablesParameters()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateDefaultTemplateVariablesParameters
+description: NSDocumentAgent.CreateDefaultTemplateVariablesParameters()
+intellisense: NSDocumentAgent.CreateDefaultTemplateVariablesParameters
 sortOrder: 2531
 keywords: CreateDefaultTemplateVariablesParameters()
+so.topic: reference
 ---
 
 

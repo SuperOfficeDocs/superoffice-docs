@@ -1,10 +1,10 @@
 ---
-title: String GetLinkHint()
-path: /EJScript/Classes/NSArchiveColumnData/Member functions/String GetLinkHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnData_GetLinkHint
+description: NSArchiveColumnData.GetLinkHint()
+intellisense: NSArchiveColumnData.GetLinkHint
 sortOrder: 1127
 keywords: GetLinkHint()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetAssociateId
+description: NSSoPrincipalCarrier.GetAssociateId()
+intellisense: NSSoPrincipalCarrier.GetAssociateId
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

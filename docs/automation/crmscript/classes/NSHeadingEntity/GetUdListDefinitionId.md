@@ -1,10 +1,10 @@
 ---
-title: Integer GetUdListDefinitionId()
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Integer GetUdListDefinitionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHeadingEntity_GetUdListDefinitionId
+description: NSHeadingEntity.GetUdListDefinitionId()
+intellisense: NSHeadingEntity.GetUdListDefinitionId
 sortOrder: 3915
 keywords: GetUdListDefinitionId()
+so.topic: reference
 ---
 
 

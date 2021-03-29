@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedAppointmentEntity CreateDefaultSuggestedAppointmentEntity()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSuggestedAppointmentEntity CreateDefaultSuggestedAppointmentEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultSuggestedAppointmentEntity
+description: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity()
+intellisense: NSAppointmentAgent.CreateDefaultSuggestedAppointmentEntity
 sortOrder: 899
 keywords: CreateDefaultSuggestedAppointmentEntity()
+so.topic: reference
 ---
 
 

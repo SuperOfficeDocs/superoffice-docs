@@ -1,9 +1,9 @@
 ---
-title: Void SetHtmlBody(String HtmlBody)
-path: /EJScript/Classes/NSQuickReply/Member functions/Void SetHtmlBody(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply_SetHtmlBody_String_p_0
+description: NSQuickReply.SetHtmlBody(String p_0)
+intellisense: NSQuickReply.SetHtmlBody
 keywords: SetHtmlBody(String)
+so.topic: reference
 ---
 
 

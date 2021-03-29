@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescription GetFromSectionAndKey(String section, String key)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription GetFromSectionAndKey(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetFromSectionAndKey_String_p_0_String_p_1
+description: NSPreferenceAgent.GetFromSectionAndKey(String p_0, String p_1)
+intellisense: NSPreferenceAgent.GetFromSectionAndKey
 keywords: GetFromSectionAndKey(String,String)
+so.topic: reference
 ---
 
 

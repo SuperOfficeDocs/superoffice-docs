@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsBuiltin()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Bool GetIsBuiltin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetIsBuiltin
+description: NSPreferenceDescription.GetIsBuiltin()
+intellisense: NSPreferenceDescription.GetIsBuiltin
 keywords: GetIsBuiltin()
+so.topic: reference
 ---
 
 

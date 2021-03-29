@@ -1,10 +1,10 @@
 ---
-title: NSImportLine[] PreviewImport(NSImportLine[] importLines, String[] columnDefinition, String culture, String context)
-path: /EJScript/Classes/NSImportAgent/Member functions/NSImportLine[] PreviewImport(NSImportLine[] p_0, String[] p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportAgent_PreviewImport_NSImportLine__p_0_String__p_1_String_p_2_String_p_3
+description: NSImportAgent.PreviewImport(NSImportLine[] p_0, String[] p_1, String p_2, String p_3)
+intellisense: NSImportAgent.PreviewImport
 sortOrder: 3957
 keywords: PreviewImport(NSImportLine[],String[],String,String)
+so.topic: reference
 ---
 
 

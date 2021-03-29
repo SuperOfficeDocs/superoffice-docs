@@ -1,9 +1,9 @@
 ---
-title: NSUser CreateDefaultUser()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser CreateDefaultUser()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultUser
+description: NSUserAgent.CreateDefaultUser()
+intellisense: NSUserAgent.CreateDefaultUser
 keywords: CreateDefaultUser()
+so.topic: reference
 ---
 
 

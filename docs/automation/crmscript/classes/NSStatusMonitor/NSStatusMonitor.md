@@ -1,8 +1,8 @@
 ---
-title: NSStatusMonitor
-path: /EJScript/Classes/NSStatusMonitor
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor
+description: NSStatusMonitor
+intellisense: Void.NSStatusMonitor
+so.topic: reference
 ---
 
 

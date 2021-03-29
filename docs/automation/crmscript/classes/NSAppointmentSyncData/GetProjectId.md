@@ -1,10 +1,10 @@
 ---
-title: Integer GetProjectId()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetProjectId
+description: NSAppointmentSyncData.GetProjectId()
+intellisense: NSAppointmentSyncData.GetProjectId
 sortOrder: 1053
 keywords: GetProjectId()
+so.topic: reference
 ---
 
 

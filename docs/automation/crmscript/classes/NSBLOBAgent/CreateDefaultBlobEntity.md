@@ -1,10 +1,10 @@
 ---
-title: NSBlobEntity CreateDefaultBlobEntity()
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity CreateDefaultBlobEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_CreateDefaultBlobEntity
+description: NSBLOBAgent.CreateDefaultBlobEntity()
+intellisense: NSBLOBAgent.CreateDefaultBlobEntity
 sortOrder: 1409
 keywords: CreateDefaultBlobEntity()
+so.topic: reference
 ---
 
 

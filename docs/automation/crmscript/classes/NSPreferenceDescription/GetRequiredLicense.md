@@ -1,9 +1,9 @@
 ---
-title: String GetRequiredLicense()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetRequiredLicense()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetRequiredLicense
+description: NSPreferenceDescription.GetRequiredLicense()
+intellisense: NSPreferenceDescription.GetRequiredLicense
 keywords: GetRequiredLicense()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer quoteAlternative)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternativeRecalculated RecalculateQuoteAlternative(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_RecalculateQuoteAlternative_Integer_p_0
+description: NSQuoteAgent.RecalculateQuoteAlternative(Integer p_0)
+intellisense: NSQuoteAgent.RecalculateQuoteAlternative
 keywords: RecalculateQuoteAlternative(Integer)
+so.topic: reference
 ---
 
 

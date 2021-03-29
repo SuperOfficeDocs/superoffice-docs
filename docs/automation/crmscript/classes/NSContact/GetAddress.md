@@ -1,10 +1,10 @@
 ---
-title: NSAddress GetAddress()
-path: /EJScript/Classes/NSContact/Member functions/NSAddress GetAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetAddress
+description: NSContact.GetAddress()
+intellisense: NSContact.GetAddress
 sortOrder: 1723
 keywords: GetAddress()
+so.topic: reference
 ---
 
 

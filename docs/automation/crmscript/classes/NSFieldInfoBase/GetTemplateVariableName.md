@@ -1,10 +1,10 @@
 ---
-title: String GetTemplateVariableName()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetTemplateVariableName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetTemplateVariableName
+description: NSFieldInfoBase.GetTemplateVariableName()
+intellisense: NSFieldInfoBase.GetTemplateVariableName
 sortOrder: 3473
 keywords: GetTemplateVariableName()
+so.topic: reference
 ---
 
 

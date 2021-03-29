@@ -1,9 +1,9 @@
 ---
-title: String GetIconHint()
-path: /EJScript/Classes/NSMDOListItem/Member functions/String GetIconHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_GetIconHint
+description: NSMDOListItem.GetIconHint()
+intellisense: NSMDOListItem.GetIconHint
 keywords: GetIconHint()
+so.topic: reference
 ---
 
 

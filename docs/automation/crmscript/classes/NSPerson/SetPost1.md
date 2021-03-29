@@ -1,9 +1,9 @@
 ---
-title: Void SetPost1(String Post1)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetPost1(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetPost1_String_p_0
+description: NSPerson.SetPost1(String p_0)
+intellisense: NSPerson.SetPost1
 keywords: SetPost1(String)
+so.topic: reference
 ---
 
 

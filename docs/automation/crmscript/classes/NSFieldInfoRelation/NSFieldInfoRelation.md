@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoRelation
-path: /EJScript/Classes/NSFieldInfoRelation
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation
+description: NSFieldInfoRelation
+intellisense: Void.NSFieldInfoRelation
 sortOrder: 3535
+so.topic: reference
 ---
 
 

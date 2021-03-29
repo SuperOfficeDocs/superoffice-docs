@@ -1,10 +1,10 @@
 ---
-title: Void SetActorTypeCrm(Integer p0)
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/Void SetActorTypeCrm(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorTypeMapping_SetActorTypeCrm_Integer_p_0
+description: NSErpSyncActorTypeMapping.SetActorTypeCrm(Integer p_0)
+intellisense: NSErpSyncActorTypeMapping.SetActorTypeCrm
 sortOrder: 3169
 keywords: SetActorTypeCrm(Integer)
+so.topic: reference
 ---
 
 The actor type (CRM side)

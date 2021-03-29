@@ -1,9 +1,9 @@
 ---
-title: Bool GetMaxDiscountPercentSet()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetMaxDiscountPercentSet()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetMaxDiscountPercentSet
+description: NSSaleTypeEntity.GetMaxDiscountPercentSet()
+intellisense: NSSaleTypeEntity.GetMaxDiscountPercentSet
 keywords: GetMaxDiscountPercentSet()
+so.topic: reference
 ---
 
 

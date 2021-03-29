@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleDate(DateTime SaleDate)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetSaleDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_SetSaleDate_DateTime_p_0
+description: NSSaleSummaryItem.SetSaleDate(DateTime p_0)
+intellisense: NSSaleSummaryItem.SetSaleDate
 keywords: SetSaleDate(DateTime)
+so.topic: reference
 ---
 
 

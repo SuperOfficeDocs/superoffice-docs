@@ -1,9 +1,9 @@
 ---
-title: Integer GetMaxValue()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMaxValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetMaxValue
+description: NSPreferenceDescription.GetMaxValue()
+intellisense: NSPreferenceDescription.GetMaxValue
 keywords: GetMaxValue()
+so.topic: reference
 ---
 
 

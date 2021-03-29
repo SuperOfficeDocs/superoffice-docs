@@ -1,10 +1,10 @@
 ---
-title: NSArchiveRestrictionInfo[] GetRestrictions()
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/NSArchiveRestrictionInfo[] GetRestrictions()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionGroup_GetRestrictions
+description: NSArchiveRestrictionGroup.GetRestrictions()
+intellisense: NSArchiveRestrictionGroup.GetRestrictions
 sortOrder: 1203
 keywords: GetRestrictions()
+so.topic: reference
 ---
 
 

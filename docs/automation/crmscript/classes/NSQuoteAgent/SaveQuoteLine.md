@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLine SaveQuoteLine(NSQuoteLine quoteLine)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine SaveQuoteLine(NSQuoteLine p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuoteLine_NSQuoteLine_p_0
+description: NSQuoteAgent.SaveQuoteLine(NSQuoteLine p_0)
+intellisense: NSQuoteAgent.SaveQuoteLine
 keywords: SaveQuoteLine(NSQuoteLine)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetIsPublished
+description: NSAppointment.GetIsPublished()
+intellisense: NSAppointment.GetIsPublished
 sortOrder: 718
 keywords: GetIsPublished()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetEMailAddress()
-path: /EJScript/Classes/NSEMailAccount/Member functions/String GetEMailAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetEMailAddress
+description: NSEMailAccount.GetEMailAddress()
+intellisense: NSEMailAccount.GetEMailAddress
 sortOrder: 2750
 keywords: GetEMailAddress()
+so.topic: reference
 ---
 
 

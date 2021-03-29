@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayType()
-path: /EJScript/Classes/NSCredentialType/Member functions/String GetDisplayType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_GetDisplayType
+description: NSCredentialType.GetDisplayType()
+intellisense: NSCredentialType.GetDisplayType
 sortOrder: 2075
 keywords: GetDisplayType()
+so.topic: reference
 ---
 
 

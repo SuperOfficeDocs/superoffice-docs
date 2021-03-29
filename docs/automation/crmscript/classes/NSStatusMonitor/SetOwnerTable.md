@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnerTable(Integer OwnerTable)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetOwnerTable(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetOwnerTable_Integer_p_0
+description: NSStatusMonitor.SetOwnerTable(Integer p_0)
+intellisense: NSStatusMonitor.SetOwnerTable
 keywords: SetOwnerTable(Integer)
+so.topic: reference
 ---
 
 

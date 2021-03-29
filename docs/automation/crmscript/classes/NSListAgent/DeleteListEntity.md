@@ -1,9 +1,9 @@
 ---
-title: Void DeleteListEntity(Integer listEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteListEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteListEntity_Integer_p_0
+description: NSListAgent.DeleteListEntity(Integer p_0)
+intellisense: NSListAgent.DeleteListEntity
 keywords: DeleteListEntity(Integer)
+so.topic: reference
 ---
 
 

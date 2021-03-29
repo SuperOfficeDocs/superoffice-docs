@@ -1,9 +1,9 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_SetDescription_String_p_0
+description: NSModuleLicenseLink.SetDescription(String p_0)
+intellisense: NSModuleLicenseLink.SetDescription
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

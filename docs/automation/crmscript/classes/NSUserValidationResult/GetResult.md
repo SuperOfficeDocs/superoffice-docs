@@ -1,9 +1,9 @@
 ---
-title: Bool GetResult()
-path: /EJScript/Classes/NSUserValidationResult/Member functions/Bool GetResult()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserValidationResult_GetResult
+description: NSUserValidationResult.GetResult()
+intellisense: NSUserValidationResult.GetResult
 keywords: GetResult()
+so.topic: reference
 ---
 
 

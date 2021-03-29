@@ -1,10 +1,10 @@
 ---
-title: Bool first()
-path: /EJScript/Classes/Map/Member functions/Bool first()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map_first
+description: Map.first()
+intellisense: Map.first
 sortOrder: 526
 keywords: first()
+so.topic: reference
 ---
 
 Rewind internal iterator to first element.

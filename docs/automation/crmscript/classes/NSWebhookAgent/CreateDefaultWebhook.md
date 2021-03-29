@@ -1,9 +1,9 @@
 ---
-title: NSWebhook CreateDefaultWebhook()
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook CreateDefaultWebhook()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_CreateDefaultWebhook
+description: NSWebhookAgent.CreateDefaultWebhook()
+intellisense: NSWebhookAgent.CreateDefaultWebhook
 keywords: CreateDefaultWebhook()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String[] customTags, String[] customValues, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, String[] p_7, String[] p_8, String p_9)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3_Integer_p_4_Integer_p_5_Integer_p_6_String__p_7_String__p_8_String_p_9
+description: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, String[] p_7, String[] p_8, String p_9)
+intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplateWithCustomTags
 sortOrder: 2501
 keywords: CreateNewPhysicalDocumentFromTemplateWithCustomTags(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String[],String[],String)
+so.topic: reference
 ---
 
 

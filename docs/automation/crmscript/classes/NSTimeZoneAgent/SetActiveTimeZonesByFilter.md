@@ -1,9 +1,9 @@
 ---
-title: Void SetActiveTimeZonesByFilter(String filter, Bool active)
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Void SetActiveTimeZonesByFilter(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_SetActiveTimeZonesByFilter_String_p_0_Bool_p_1
+description: NSTimeZoneAgent.SetActiveTimeZonesByFilter(String p_0, Bool p_1)
+intellisense: NSTimeZoneAgent.SetActiveTimeZonesByFilter
 keywords: SetActiveTimeZonesByFilter(String,Bool)
+so.topic: reference
 ---
 
 

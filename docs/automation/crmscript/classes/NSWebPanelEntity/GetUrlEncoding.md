@@ -1,9 +1,9 @@
 ---
-title: Integer GetUrlEncoding()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetUrlEncoding()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetUrlEncoding
+description: NSWebPanelEntity.GetUrlEncoding()
+intellisense: NSWebPanelEntity.GetUrlEncoding
 keywords: GetUrlEncoding()
+so.topic: reference
 ---
 
 

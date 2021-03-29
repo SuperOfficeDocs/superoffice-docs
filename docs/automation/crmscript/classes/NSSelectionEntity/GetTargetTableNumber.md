@@ -1,9 +1,9 @@
 ---
-title: Integer GetTargetTableNumber()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetTargetTableNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetTargetTableNumber
+description: NSSelectionEntity.GetTargetTableNumber()
+intellisense: NSSelectionEntity.GetTargetTableNumber
 keywords: GetTargetTableNumber()
+so.topic: reference
 ---
 
 

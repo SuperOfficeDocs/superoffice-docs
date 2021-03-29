@@ -1,10 +1,10 @@
 ---
-title: NSEMailAccount GetEMailAccount(Integer eMailAccountId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount GetEMailAccount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailAccount_Integer_p_0
+description: NSEMailAgent.GetEMailAccount(Integer p_0)
+intellisense: NSEMailAgent.GetEMailAccount
 sortOrder: 2796
 keywords: GetEMailAccount(Integer)
+so.topic: reference
 ---
 
 

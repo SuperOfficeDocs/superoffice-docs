@@ -1,9 +1,9 @@
 ---
-title: NSLegalBase[] GetLegalBases()
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase[] GetLegalBases()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLegalBases
+description: NSListAgent.GetLegalBases()
+intellisense: NSListAgent.GetLegalBases
 keywords: GetLegalBases()
+so.topic: reference
 ---
 
 

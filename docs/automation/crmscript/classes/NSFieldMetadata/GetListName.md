@@ -1,10 +1,10 @@
 ---
-title: String GetListName()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetListName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetListName
+description: NSFieldMetadata.GetListName()
+intellisense: NSFieldMetadata.GetListName
 sortOrder: 3584
 keywords: GetListName()
+so.topic: reference
 ---
 
 

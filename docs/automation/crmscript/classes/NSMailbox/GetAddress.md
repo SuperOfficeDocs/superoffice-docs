@@ -1,9 +1,9 @@
 ---
-title: String GetAddress()
-path: /EJScript/Classes/NSMailbox/Member functions/String GetAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox_GetAddress
+description: NSMailbox.GetAddress()
+intellisense: NSMailbox.GetAddress
 keywords: GetAddress()
+so.topic: reference
 ---
 
 

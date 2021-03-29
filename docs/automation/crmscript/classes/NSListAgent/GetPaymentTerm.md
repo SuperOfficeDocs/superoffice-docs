@@ -1,9 +1,9 @@
 ---
-title: NSPaymentTerm GetPaymentTerm(Integer paymentTermId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPaymentTerm GetPaymentTerm(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPaymentTerm_Integer_p_0
+description: NSListAgent.GetPaymentTerm(Integer p_0)
+intellisense: NSListAgent.GetPaymentTerm
 keywords: GetPaymentTerm(Integer)
+so.topic: reference
 ---
 
 

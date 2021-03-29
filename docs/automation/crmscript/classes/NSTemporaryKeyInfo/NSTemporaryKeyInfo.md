@@ -1,8 +1,8 @@
 ---
-title: NSTemporaryKeyInfo
-path: /EJScript/Classes/NSTemporaryKeyInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemporaryKeyInfo
+description: NSTemporaryKeyInfo
+intellisense: Void.NSTemporaryKeyInfo
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetReadOnly()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Bool GetReadOnly()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetReadOnly
+description: NSRefCountEntity.GetReadOnly()
+intellisense: NSRefCountEntity.GetReadOnly
 keywords: GetReadOnly()
+so.topic: reference
 ---
 
 

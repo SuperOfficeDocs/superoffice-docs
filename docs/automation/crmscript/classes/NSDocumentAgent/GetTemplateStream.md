@@ -1,10 +1,10 @@
 ---
-title: NSStream GetTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetTemplateStream(String p_0, Bool p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetTemplateStream_String_p_0_Bool_p_1_String_p_2
+description: NSDocumentAgent.GetTemplateStream(String p_0, Bool p_1, String p_2)
+intellisense: NSDocumentAgent.GetTemplateStream
 sortOrder: 2521
 keywords: GetTemplateStream(String,Bool,String)
+so.topic: reference
 ---
 
 

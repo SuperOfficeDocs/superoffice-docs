@@ -1,10 +1,10 @@
 ---
-title: Void SetNumRows(Integer NumRows)
-path: /EJScript/Classes/NSFieldInfoLongText/Member functions/Void SetNumRows(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoLongText_SetNumRows_Integer_p_0
+description: NSFieldInfoLongText.SetNumRows(Integer p_0)
+intellisense: NSFieldInfoLongText.SetNumRows
 sortOrder: 3527
 keywords: SetNumRows(Integer)
+so.topic: reference
 ---
 
 

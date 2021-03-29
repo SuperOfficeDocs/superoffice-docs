@@ -1,10 +1,10 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSEventData/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetType
+description: NSEventData.GetType()
+intellisense: NSEventData.GetType
 sortOrder: 3340
 keywords: GetType()
+so.topic: reference
 ---
 
 

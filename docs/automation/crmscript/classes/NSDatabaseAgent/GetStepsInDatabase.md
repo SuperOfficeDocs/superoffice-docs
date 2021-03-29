@@ -1,10 +1,10 @@
 ---
-title: NSDictionaryStepInformation[] GetStepsInDatabase()
-path: /EJScript/Classes/NSDatabaseAgent/Member functions/NSDictionaryStepInformation[] GetStepsInDatabase()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseAgent_GetStepsInDatabase
+description: NSDatabaseAgent.GetStepsInDatabase()
+intellisense: NSDatabaseAgent.GetStepsInDatabase
 sortOrder: 2335
 keywords: GetStepsInDatabase()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetPlainBody()
-path: /EJScript/Classes/NSEMailEntity/Member functions/String GetPlainBody()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetPlainBody
+description: NSEMailEntity.GetPlainBody()
+intellisense: NSEMailEntity.GetPlainBody
 sortOrder: 2970
 keywords: GetPlainBody()
+so.topic: reference
 ---
 
 

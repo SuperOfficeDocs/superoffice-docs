@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSChatPresence/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_SetDisplayName_String_p_0
+description: NSChatPresence.SetDisplayName(String p_0)
+intellisense: NSChatPresence.SetDisplayName
 sortOrder: 1525
 keywords: SetDisplayName(String)
+so.topic: reference
 ---
 
 

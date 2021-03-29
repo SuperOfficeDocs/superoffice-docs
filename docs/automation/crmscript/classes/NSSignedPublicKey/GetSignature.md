@@ -1,9 +1,9 @@
 ---
-title: String GetSignature()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/String GetSignature()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_GetSignature
+description: NSSignedPublicKey.GetSignature()
+intellisense: NSSignedPublicKey.GetSignature
 keywords: GetSignature()
+so.topic: reference
 ---
 
 

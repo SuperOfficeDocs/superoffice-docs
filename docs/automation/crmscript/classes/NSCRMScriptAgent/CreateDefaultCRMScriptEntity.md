@@ -1,10 +1,10 @@
 ---
-title: NSCRMScriptEntity CreateDefaultCRMScriptEntity()
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSCRMScriptEntity CreateDefaultCRMScriptEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_CreateDefaultCRMScriptEntity
+description: NSCRMScriptAgent.CreateDefaultCRMScriptEntity()
+intellisense: NSCRMScriptAgent.CreateDefaultCRMScriptEntity
 sortOrder: 2114
 keywords: CreateDefaultCRMScriptEntity()
+so.topic: reference
 ---
 
 

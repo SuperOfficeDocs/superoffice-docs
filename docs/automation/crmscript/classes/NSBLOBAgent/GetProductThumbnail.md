@@ -1,10 +1,10 @@
 ---
-title: NSImage GetProductThumbnail(Integer productId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetProductThumbnail(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetProductThumbnail_Integer_p_0
+description: NSBLOBAgent.GetProductThumbnail(Integer p_0)
+intellisense: NSBLOBAgent.GetProductThumbnail
 sortOrder: 1420
 keywords: GetProductThumbnail(Integer)
+so.topic: reference
 ---
 
 

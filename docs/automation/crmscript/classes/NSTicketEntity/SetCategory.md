@@ -1,9 +1,9 @@
 ---
-title: Void SetCategory(NSTicketCategoryEntity Category)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetCategory(NSTicketCategoryEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetCategory_NSTicketCategoryEntity_p_0
+description: NSTicketEntity.SetCategory(NSTicketCategoryEntity p_0)
+intellisense: NSTicketEntity.SetCategory
 keywords: SetCategory(NSTicketCategoryEntity)
+so.topic: reference
 ---
 
 

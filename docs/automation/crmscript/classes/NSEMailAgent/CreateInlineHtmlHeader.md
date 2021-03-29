@@ -1,10 +1,10 @@
 ---
-title: String CreateInlineHtmlHeader(NSEMailEntity email)
-path: /EJScript/Classes/NSEMailAgent/Member functions/String CreateInlineHtmlHeader(NSEMailEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateInlineHtmlHeader_NSEMailEntity_p_0
+description: NSEMailAgent.CreateInlineHtmlHeader(NSEMailEntity p_0)
+intellisense: NSEMailAgent.CreateInlineHtmlHeader
 sortOrder: 2847
 keywords: CreateInlineHtmlHeader(NSEMailEntity)
+so.topic: reference
 ---
 
 

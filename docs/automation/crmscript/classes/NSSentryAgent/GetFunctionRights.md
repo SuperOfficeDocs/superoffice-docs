@@ -1,9 +1,9 @@
 ---
-title: String[] GetFunctionRights()
-path: /EJScript/Classes/NSSentryAgent/Member functions/String[] GetFunctionRights()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent_GetFunctionRights
+description: NSSentryAgent.GetFunctionRights()
+intellisense: NSSentryAgent.GetFunctionRights
 keywords: GetFunctionRights()
+so.topic: reference
 ---
 
 

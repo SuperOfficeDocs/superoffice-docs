@@ -1,10 +1,10 @@
 ---
-title: String GetEmailSubject()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/String GetEmailSubject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetEmailSubject
+description: NSDocumentTemplateEntity.GetEmailSubject()
+intellisense: NSDocumentTemplateEntity.GetEmailSubject
 sortOrder: 2671
 keywords: GetEmailSubject()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetType
+description: NSUserDefinedFieldInfo.GetType()
+intellisense: NSUserDefinedFieldInfo.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

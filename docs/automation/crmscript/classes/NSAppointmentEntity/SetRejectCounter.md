@@ -1,10 +1,10 @@
 ---
-title: Void SetRejectCounter(Integer RejectCounter)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetRejectCounter(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetRejectCounter_Integer_p_0
+description: NSAppointmentEntity.SetRejectCounter(Integer p_0)
+intellisense: NSAppointmentEntity.SetRejectCounter
 sortOrder: 1027
 keywords: SetRejectCounter(Integer)
+so.topic: reference
 ---
 
 

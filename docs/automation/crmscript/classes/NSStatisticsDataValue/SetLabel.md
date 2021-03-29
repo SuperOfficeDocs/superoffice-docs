@@ -1,9 +1,9 @@
 ---
-title: Void SetLabel(String Label)
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Void SetLabel(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataValue_SetLabel_String_p_0
+description: NSStatisticsDataValue.SetLabel(String p_0)
+intellisense: NSStatisticsDataValue.SetLabel
 keywords: SetLabel(String)
+so.topic: reference
 ---
 
 

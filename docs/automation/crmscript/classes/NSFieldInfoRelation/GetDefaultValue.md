@@ -1,10 +1,10 @@
 ---
-title: Integer GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Integer GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_GetDefaultValue
+description: NSFieldInfoRelation.GetDefaultValue()
+intellisense: NSFieldInfoRelation.GetDefaultValue
 sortOrder: 3538
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

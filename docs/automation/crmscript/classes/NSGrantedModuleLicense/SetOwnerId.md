@@ -1,10 +1,10 @@
 ---
-title: Void SetOwnerId(Integer p0)
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/Void SetOwnerId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_SetOwnerId_Integer_p_0
+description: NSGrantedModuleLicense.SetOwnerId(Integer p_0)
+intellisense: NSGrantedModuleLicense.SetOwnerId
 sortOrder: 3906
 keywords: SetOwnerId(Integer)
+so.topic: reference
 ---
 
 

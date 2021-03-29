@@ -1,9 +1,9 @@
 ---
-title: NSArchiveConfiguration
-path: /EJScript/Classes/NSArchiveConfiguration
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveConfiguration
+description: NSArchiveConfiguration
+intellisense: Void.NSArchiveConfiguration
 sortOrder: 1166
+so.topic: reference
 ---
 
 

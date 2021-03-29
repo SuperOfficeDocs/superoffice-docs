@@ -1,9 +1,9 @@
 ---
-title: String GetAuthType()
-path: /EJScript/Classes/NSServiceAuth/Member functions/String GetAuthType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_GetAuthType
+description: NSServiceAuth.GetAuthType()
+intellisense: NSServiceAuth.GetAuthType
 keywords: GetAuthType()
+so.topic: reference
 ---
 
 

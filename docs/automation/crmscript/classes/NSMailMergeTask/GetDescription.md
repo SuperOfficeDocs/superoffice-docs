@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetDescription
+description: NSMailMergeTask.GetDescription()
+intellisense: NSMailMergeTask.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

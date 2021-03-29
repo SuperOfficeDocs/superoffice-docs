@@ -1,10 +1,10 @@
 ---
-title: Integer GetMaxSubmits()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetMaxSubmits()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetMaxSubmits
+description: NSFormEntity.GetMaxSubmits()
+intellisense: NSFormEntity.GetMaxSubmits
 sortOrder: 3792
 keywords: GetMaxSubmits()
+so.topic: reference
 ---
 
 

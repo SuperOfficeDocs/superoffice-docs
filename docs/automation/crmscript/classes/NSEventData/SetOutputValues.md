@@ -1,10 +1,10 @@
 ---
-title: Void SetOutputValues(StringDictionary OutputValues)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetOutputValues(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetOutputValues_StringDictionary_p_0
+description: NSEventData.SetOutputValues(StringDictionary p_0)
+intellisense: NSEventData.SetOutputValues
 sortOrder: 3352
 keywords: SetOutputValues(StringDictionary)
+so.topic: reference
 ---
 
 

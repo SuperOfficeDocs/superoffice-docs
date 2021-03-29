@@ -1,10 +1,10 @@
 ---
-title: NSLegalBase GetLegalBase()
-path: /EJScript/Classes/NSConsentPerson/Member functions/NSLegalBase GetLegalBase()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_GetLegalBase
+description: NSConsentPerson.GetLegalBase()
+intellisense: NSConsentPerson.GetLegalBase
 sortOrder: 1664
 keywords: GetLegalBase()
+so.topic: reference
 ---
 
 

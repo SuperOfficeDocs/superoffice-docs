@@ -1,10 +1,10 @@
 ---
-title: NSImage GetQuoteLineImage(Integer quoteLineId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetQuoteLineImage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetQuoteLineImage_Integer_p_0
+description: NSBLOBAgent.GetQuoteLineImage(Integer p_0)
+intellisense: NSBLOBAgent.GetQuoteLineImage
 sortOrder: 1423
 keywords: GetQuoteLineImage(Integer)
+so.topic: reference
 ---
 
 

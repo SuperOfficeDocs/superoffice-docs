@@ -1,9 +1,9 @@
 ---
-title: Void setSql(String sqlStatement)
-path: /EJScript/Classes/StatLib/Member functions/Void setSql(String sqlStatement)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatLib_setSql_String_sqlStatement
+description: StatLib.setSql(String sqlStatement)
+intellisense: StatLib.setSql
 keywords: setSql(String)
+so.topic: reference
 ---
 
 

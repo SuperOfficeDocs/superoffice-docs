@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetNsPluginConfig()
-path: /EJScript/Classes/NSSmsConfig/Member functions/StringDictionary GetNsPluginConfig()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_GetNsPluginConfig
+description: NSSmsConfig.GetNsPluginConfig()
+intellisense: NSSmsConfig.GetNsPluginConfig
 keywords: GetNsPluginConfig()
+so.topic: reference
 ---
 
 

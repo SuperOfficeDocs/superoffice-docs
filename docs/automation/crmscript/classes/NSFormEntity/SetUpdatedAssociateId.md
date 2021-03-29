@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedAssociateId(Integer UpdatedAssociateId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetUpdatedAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetUpdatedAssociateId_Integer_p_0
+description: NSFormEntity.SetUpdatedAssociateId(Integer p_0)
+intellisense: NSFormEntity.SetUpdatedAssociateId
 sortOrder: 3826
 keywords: SetUpdatedAssociateId(Integer)
+so.topic: reference
 ---
 
 

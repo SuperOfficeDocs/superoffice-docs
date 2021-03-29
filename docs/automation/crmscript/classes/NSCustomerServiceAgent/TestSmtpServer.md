@@ -1,10 +1,10 @@
 ---
-title: NSSmtpTestResult TestSmtpServer(String smtpUri, String from, Bool useStoredPassword)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSSmtpTestResult TestSmtpServer(String p_0, String p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_TestSmtpServer_String_p_0_String_p_1_Bool_p_2
+description: NSCustomerServiceAgent.TestSmtpServer(String p_0, String p_1, Bool p_2)
+intellisense: NSCustomerServiceAgent.TestSmtpServer
 sortOrder: 2237
 keywords: TestSmtpServer(String,String,Bool)
+so.topic: reference
 ---
 
 

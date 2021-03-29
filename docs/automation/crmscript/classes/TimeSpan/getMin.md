@@ -1,9 +1,9 @@
 ---
-title: Integer getMin()
-path: /EJScript/Classes/TimeSpan/Member functions/Integer getMin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_getMin
+description: TimeSpan.getMin()
+intellisense: TimeSpan.getMin
 keywords: getMin()
+so.topic: reference
 ---
 
 This function will return the minute field of the timespan as an integer.

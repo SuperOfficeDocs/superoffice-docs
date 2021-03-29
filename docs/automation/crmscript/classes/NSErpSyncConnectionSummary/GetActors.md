@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncActorSummary[] GetActors()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/NSErpSyncActorSummary[] GetActors()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_GetActors
+description: NSErpSyncConnectionSummary.GetActors()
+intellisense: NSErpSyncConnectionSummary.GetActors
 sortOrder: 3230
 keywords: GetActors()
+so.topic: reference
 ---
 
 

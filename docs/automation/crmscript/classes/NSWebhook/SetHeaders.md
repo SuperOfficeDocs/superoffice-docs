@@ -1,9 +1,9 @@
 ---
-title: Void SetHeaders(StringDictionary Headers)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetHeaders(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetHeaders_StringDictionary_p_0
+description: NSWebhook.SetHeaders(StringDictionary p_0)
+intellisense: NSWebhook.SetHeaders
 keywords: SetHeaders(StringDictionary)
+so.topic: reference
 ---
 
 

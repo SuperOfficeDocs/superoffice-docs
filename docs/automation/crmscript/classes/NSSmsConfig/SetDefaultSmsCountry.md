@@ -1,9 +1,9 @@
 ---
-title: Void SetDefaultSmsCountry(String DefaultSmsCountry)
-path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetDefaultSmsCountry(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_SetDefaultSmsCountry_String_p_0
+description: NSSmsConfig.SetDefaultSmsCountry(String p_0)
+intellisense: NSSmsConfig.SetDefaultSmsCountry
 keywords: SetDefaultSmsCountry(String)
+so.topic: reference
 ---
 
 

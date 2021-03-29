@@ -1,9 +1,9 @@
 ---
-title: NSSelectionCategory GetSelectionCategory(Integer selectionCategoryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectionCategory GetSelectionCategory(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSelectionCategory_Integer_p_0
+description: NSListAgent.GetSelectionCategory(Integer p_0)
+intellisense: NSListAgent.GetSelectionCategory
 keywords: GetSelectionCategory(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetVisibleFor(VisibleFor[] fields)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetVisibleFor(VisibleFor[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetVisibleFor_VisibleFor__p_0
+description: NSDocumentEntity.SetVisibleFor(VisibleFor[] p_0)
+intellisense: NSDocumentEntity.SetVisibleFor
 sortOrder: 2616
 keywords: SetVisibleFor(VisibleFor[])
+so.topic: reference
 ---
 
 

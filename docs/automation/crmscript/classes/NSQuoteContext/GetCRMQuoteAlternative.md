@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternative GetCRMQuoteAlternative()
-path: /EJScript/Classes/NSQuoteContext/Member functions/NSQuoteAlternative GetCRMQuoteAlternative()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_GetCRMQuoteAlternative
+description: NSQuoteContext.GetCRMQuoteAlternative()
+intellisense: NSQuoteContext.GetCRMQuoteAlternative
 keywords: GetCRMQuoteAlternative()
+so.topic: reference
 ---
 
 

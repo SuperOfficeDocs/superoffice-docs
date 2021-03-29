@@ -1,9 +1,9 @@
 ---
-title: Void SetCategory(NSCategory Category)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetCategory(NSCategory p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetCategory_NSCategory_p_0
+description: NSPersonEntity.SetCategory(NSCategory p_0)
+intellisense: NSPersonEntity.SetCategory
 keywords: SetCategory(NSCategory)
+so.topic: reference
 ---
 
 

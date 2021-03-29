@@ -1,10 +1,10 @@
 ---
-title: String GetEncodedDisplayName()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetEncodedDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetEncodedDisplayName
+description: NSFieldValueInfo.GetEncodedDisplayName()
+intellisense: NSFieldValueInfo.GetEncodedDisplayName
 sortOrder: 3628
 keywords: GetEncodedDisplayName()
+so.topic: reference
 ---
 
 

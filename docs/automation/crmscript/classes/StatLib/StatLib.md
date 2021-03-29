@@ -1,8 +1,8 @@
 ---
-title: StatLib
-path: /EJScript/Classes/StatLib
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatLib
+description: StatLib
+intellisense: Void.StatLib
+so.topic: reference
 ---
 
 

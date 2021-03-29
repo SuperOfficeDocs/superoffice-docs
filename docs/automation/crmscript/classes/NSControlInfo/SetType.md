@@ -1,10 +1,10 @@
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSControlInfo/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_SetType_String_p_0
+description: NSControlInfo.SetType(String p_0)
+intellisense: NSControlInfo.SetType
 sortOrder: 2009
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

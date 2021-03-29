@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetMailFromInReplyTo(String messageId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetMailFromInReplyTo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetMailFromInReplyTo_String_p_0
+description: NSEMailAgent.GetMailFromInReplyTo(String p_0)
+intellisense: NSEMailAgent.GetMailFromInReplyTo
 sortOrder: 2824
 keywords: GetMailFromInReplyTo(String)
+so.topic: reference
 ---
 
 

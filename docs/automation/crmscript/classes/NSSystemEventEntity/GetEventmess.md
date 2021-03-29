@@ -1,9 +1,9 @@
 ---
-title: String GetEventmess()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/String GetEventmess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetEventmess
+description: NSSystemEventEntity.GetEventmess()
+intellisense: NSSystemEventEntity.GetEventmess
 keywords: GetEventmess()
+so.topic: reference
 ---
 
 

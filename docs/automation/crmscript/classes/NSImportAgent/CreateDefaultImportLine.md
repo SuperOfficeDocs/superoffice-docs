@@ -1,10 +1,10 @@
 ---
-title: NSImportLine CreateDefaultImportLine(Integer countColumns)
-path: /EJScript/Classes/NSImportAgent/Member functions/NSImportLine CreateDefaultImportLine(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportAgent_CreateDefaultImportLine_Integer_p_0
+description: NSImportAgent.CreateDefaultImportLine(Integer p_0)
+intellisense: NSImportAgent.CreateDefaultImportLine
 sortOrder: 3956
 keywords: CreateDefaultImportLine(Integer)
+so.topic: reference
 ---
 
 

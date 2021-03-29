@@ -1,9 +1,9 @@
 ---
-title: Float GetFutureOpenTotalOwnCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenTotalOwnCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetFutureOpenTotalOwnCurrency
+description: NSSaleSummary.GetFutureOpenTotalOwnCurrency()
+intellisense: NSSaleSummary.GetFutureOpenTotalOwnCurrency
 keywords: GetFutureOpenTotalOwnCurrency()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetProductKey()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String GetProductKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetProductKey
+description: NSTemplateVariablesParameters.GetProductKey()
+intellisense: NSTemplateVariablesParameters.GetProductKey
 keywords: GetProductKey()
+so.topic: reference
 ---
 
 

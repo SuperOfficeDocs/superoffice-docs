@@ -1,8 +1,8 @@
 ---
-title: NSSaintAgent
-path: /EJScript/Classes/NSSaintAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent
+description: NSSaintAgent
+intellisense: Void.NSSaintAgent
+so.topic: reference
 ---
 
 

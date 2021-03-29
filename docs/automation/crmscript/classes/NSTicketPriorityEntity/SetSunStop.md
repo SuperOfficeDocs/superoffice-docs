@@ -1,9 +1,9 @@
 ---
-title: Void SetSunStop(DateTime SunStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSunStop(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetSunStop_DateTime_p_0
+description: NSTicketPriorityEntity.SetSunStop(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetSunStop
 keywords: SetSunStop(DateTime)
+so.topic: reference
 ---
 
 

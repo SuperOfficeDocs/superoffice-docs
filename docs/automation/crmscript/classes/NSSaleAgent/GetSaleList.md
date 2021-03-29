@@ -1,9 +1,9 @@
 ---
-title: NSSale[] GetSaleList(Integer[] p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetSaleList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSaleList_Integer__p_0
+description: NSSaleAgent.GetSaleList(Integer[] p_0)
+intellisense: NSSaleAgent.GetSaleList
 keywords: GetSaleList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Sale objects.

@@ -1,9 +1,9 @@
 ---
-title: NSResourceEntity SaveResourceEntity(NSResourceEntity resourceEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSResourceEntity SaveResourceEntity(NSResourceEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveResourceEntity_NSResourceEntity_p_0
+description: NSListAgent.SaveResourceEntity(NSResourceEntity p_0)
+intellisense: NSListAgent.SaveResourceEntity
 keywords: SaveResourceEntity(NSResourceEntity)
+so.topic: reference
 ---
 
 

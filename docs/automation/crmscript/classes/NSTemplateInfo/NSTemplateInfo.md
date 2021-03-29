@@ -1,8 +1,8 @@
 ---
-title: NSTemplateInfo
-path: /EJScript/Classes/NSTemplateInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo
+description: NSTemplateInfo
+intellisense: Void.NSTemplateInfo
+so.topic: reference
 ---
 
 

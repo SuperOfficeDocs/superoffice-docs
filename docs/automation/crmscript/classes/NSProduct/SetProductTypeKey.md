@@ -1,9 +1,9 @@
 ---
-title: Void SetProductTypeKey(String ProductTypeKey)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetProductTypeKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetProductTypeKey_String_p_0
+description: NSProduct.SetProductTypeKey(String p_0)
+intellisense: NSProduct.SetProductTypeKey
 keywords: SetProductTypeKey(String)
+so.topic: reference
 ---
 
 

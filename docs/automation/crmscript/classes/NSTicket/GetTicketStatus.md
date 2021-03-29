@@ -1,9 +1,9 @@
 ---
-title: Integer GetTicketStatus()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetTicketStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetTicketStatus
+description: NSTicket.GetTicketStatus()
+intellisense: NSTicket.GetTicketStatus
 keywords: GetTicketStatus()
+so.topic: reference
 ---
 
 

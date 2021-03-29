@@ -1,9 +1,9 @@
 ---
-title: NSDataRights GetDataRights()
-path: /EJScript/Classes/NSRoleEntity/Member functions/NSDataRights GetDataRights()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetDataRights
+description: NSRoleEntity.GetDataRights()
+intellisense: NSRoleEntity.GetDataRights
 keywords: GetDataRights()
+so.topic: reference
 ---
 
 

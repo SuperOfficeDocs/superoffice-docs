@@ -1,9 +1,9 @@
 ---
-title: String GetMailBody()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetMailBody()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetMailBody
+description: NSQuotePublishDocuments.GetMailBody()
+intellisense: NSQuotePublishDocuments.GetMailBody
 keywords: GetMailBody()
+so.topic: reference
 ---
 
 

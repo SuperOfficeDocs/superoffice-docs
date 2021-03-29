@@ -1,9 +1,9 @@
 ---
-title: Integer GetExtraFlags()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetExtraFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_GetExtraFlags
+description: NSModuleLicense.GetExtraFlags()
+intellisense: NSModuleLicense.GetExtraFlags
 keywords: GetExtraFlags()
+so.topic: reference
 ---
 
 

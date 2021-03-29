@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedBy(String UpdatedBy)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetUpdatedBy(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_SetUpdatedBy_String_p_0
+description: NSForeignDevice.SetUpdatedBy(String p_0)
+intellisense: NSForeignDevice.SetUpdatedBy
 sortOrder: 3730
 keywords: SetUpdatedBy(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String[] GetConnectorCapabilities(Integer quoteConnectionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/String[] GetConnectorCapabilities(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetConnectorCapabilities_Integer_p_0
+description: NSQuoteAgent.GetConnectorCapabilities(Integer p_0)
+intellisense: NSQuoteAgent.GetConnectorCapabilities
 keywords: GetConnectorCapabilities(Integer)
+so.topic: reference
 ---
 
 

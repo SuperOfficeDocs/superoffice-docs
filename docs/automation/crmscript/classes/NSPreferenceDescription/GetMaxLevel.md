@@ -1,9 +1,9 @@
 ---
-title: Integer GetMaxLevel()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMaxLevel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetMaxLevel
+description: NSPreferenceDescription.GetMaxLevel()
+intellisense: NSPreferenceDescription.GetMaxLevel
 keywords: GetMaxLevel()
+so.topic: reference
 ---
 
 Lowest allowed setting level, set by user, but not lower than sysMaxLevel

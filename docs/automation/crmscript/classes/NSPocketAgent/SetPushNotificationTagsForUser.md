@@ -1,9 +1,9 @@
 ---
-title: Void SetPushNotificationTagsForUser(Integer associateId, String tags)
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void SetPushNotificationTagsForUser(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForUser_Integer_p_0_String_p_1
+description: NSPocketAgent.SetPushNotificationTagsForUser(Integer p_0, String p_1)
+intellisense: NSPocketAgent.SetPushNotificationTagsForUser
 keywords: SetPushNotificationTagsForUser(Integer,String)
+so.topic: reference
 ---
 
 

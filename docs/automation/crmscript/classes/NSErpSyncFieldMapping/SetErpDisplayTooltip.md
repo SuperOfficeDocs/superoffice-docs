@@ -1,10 +1,10 @@
 ---
-title: Void SetErpDisplayTooltip(String ErpDisplayTooltip)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetErpDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetErpDisplayTooltip_String_p_0
+description: NSErpSyncFieldMapping.SetErpDisplayTooltip(String p_0)
+intellisense: NSErpSyncFieldMapping.SetErpDisplayTooltip
 sortOrder: 3311
 keywords: SetErpDisplayTooltip(String)
+so.topic: reference
 ---
 
 

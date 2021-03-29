@@ -1,9 +1,9 @@
 ---
-title: Void SetValues(NSStatisticsDataValue[] Values)
-path: /EJScript/Classes/NSStatisticsDataSet/Member functions/Void SetValues(NSStatisticsDataValue[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataSet_SetValues_NSStatisticsDataValue__p_0
+description: NSStatisticsDataSet.SetValues(NSStatisticsDataValue[] p_0)
+intellisense: NSStatisticsDataSet.SetValues
 keywords: SetValues(NSStatisticsDataValue[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSSale[] GetOpenSalesForContact(Integer contactId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetOpenSalesForContact(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetOpenSalesForContact_Integer_p_0
+description: NSSaleAgent.GetOpenSalesForContact(Integer p_0)
+intellisense: NSSaleAgent.GetOpenSalesForContact
 keywords: GetOpenSalesForContact(Integer)
+so.topic: reference
 ---
 
 

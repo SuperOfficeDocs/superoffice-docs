@@ -1,10 +1,10 @@
 ---
-title: Void SetCompanyName(String CompanyName)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetCompanyName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_SetCompanyName_String_p_0
+description: NSChatSummaryItem.SetCompanyName(String p_0)
+intellisense: NSChatSummaryItem.SetCompanyName
 sortOrder: 1543
 keywords: SetCompanyName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSPocketDeviceInfo[] GetRegisteredDevices(Integer associateId)
-path: /EJScript/Classes/NSPocketAgent/Member functions/NSPocketDeviceInfo[] GetRegisteredDevices(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_GetRegisteredDevices_Integer_p_0
+description: NSPocketAgent.GetRegisteredDevices(Integer p_0)
+intellisense: NSPocketAgent.GetRegisteredDevices
 keywords: GetRegisteredDevices(Integer)
+so.topic: reference
 ---
 
 

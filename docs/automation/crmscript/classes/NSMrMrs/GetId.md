@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSMrMrs/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMrMrs_GetId
+description: NSMrMrs.GetId()
+intellisense: NSMrMrs.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

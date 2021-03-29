@@ -1,9 +1,9 @@
 ---
-title: Integer GetSortOrder()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Integer GetSortOrder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetSortOrder
+description: NSTicketPriorityEntity.GetSortOrder()
+intellisense: NSTicketPriorityEntity.GetSortOrder
 keywords: GetSortOrder()
+so.topic: reference
 ---
 
 

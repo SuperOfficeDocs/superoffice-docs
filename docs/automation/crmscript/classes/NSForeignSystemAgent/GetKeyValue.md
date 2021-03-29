@@ -1,10 +1,10 @@
 ---
-title: String GetKeyValue(String applicationName, String deviceName, String keyName, String tableName, Integer recordId)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/String GetKeyValue(String p_0, String p_1, String p_2, String p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetKeyValue_String_p_0_String_p_1_String_p_2_String_p_3_Integer_p_4
+description: NSForeignSystemAgent.GetKeyValue(String p_0, String p_1, String p_2, String p_3, Integer p_4)
+intellisense: NSForeignSystemAgent.GetKeyValue
 sortOrder: 3774
 keywords: GetKeyValue(String,String,String,String,Integer)
+so.topic: reference
 ---
 
 

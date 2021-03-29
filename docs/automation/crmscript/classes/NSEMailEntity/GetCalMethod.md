@@ -1,10 +1,10 @@
 ---
-title: Integer GetCalMethod()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetCalMethod()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetCalMethod
+description: NSEMailEntity.GetCalMethod()
+intellisense: NSEMailEntity.GetCalMethod
 sortOrder: 2950
 keywords: GetCalMethod()
+so.topic: reference
 ---
 
 

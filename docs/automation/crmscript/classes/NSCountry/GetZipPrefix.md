@@ -1,10 +1,10 @@
 ---
-title: String GetZipPrefix()
-path: /EJScript/Classes/NSCountry/Member functions/String GetZipPrefix()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetZipPrefix
+description: NSCountry.GetZipPrefix()
+intellisense: NSCountry.GetZipPrefix
 sortOrder: 2029
 keywords: GetZipPrefix()
+so.topic: reference
 ---
 
 

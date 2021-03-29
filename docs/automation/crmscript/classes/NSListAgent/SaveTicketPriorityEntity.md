@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityEntity SaveTicketPriorityEntity(NSTicketPriorityEntity ticketPriorityEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriorityEntity SaveTicketPriorityEntity(NSTicketPriorityEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveTicketPriorityEntity_NSTicketPriorityEntity_p_0
+description: NSListAgent.SaveTicketPriorityEntity(NSTicketPriorityEntity p_0)
+intellisense: NSListAgent.SaveTicketPriorityEntity
 keywords: SaveTicketPriorityEntity(NSTicketPriorityEntity)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSDictionaryStepInformation
-path: /EJScript/Classes/NSDictionaryStepInformation
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDictionaryStepInformation
+description: NSDictionaryStepInformation
+intellisense: Void.NSDictionaryStepInformation
 sortOrder: 2421
+so.topic: reference
 ---
 
 

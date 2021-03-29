@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateName(String AssociateName)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetAssociateName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetAssociateName_String_p_0
+description: NSPerson.SetAssociateName(String p_0)
+intellisense: NSPerson.SetAssociateName
 keywords: SetAssociateName(String)
+so.topic: reference
 ---
 
 

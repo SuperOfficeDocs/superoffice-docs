@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetName
+description: NSTicketCategoryEntity.GetName()
+intellisense: NSTicketCategoryEntity.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

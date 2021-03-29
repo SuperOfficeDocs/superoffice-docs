@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSSatellite/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_GetUpdatedBy
+description: NSSatellite.GetUpdatedBy()
+intellisense: NSSatellite.GetUpdatedBy
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

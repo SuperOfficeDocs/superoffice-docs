@@ -1,10 +1,10 @@
 ---
-title: Void SetMailTemplateId(Integer MailTemplateId)
-path: /EJScript/Classes/NSConsentSource/Member functions/Void SetMailTemplateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentSource_SetMailTemplateId_Integer_p_0
+description: NSConsentSource.SetMailTemplateId(Integer p_0)
+intellisense: NSConsentSource.SetMailTemplateId
 sortOrder: 1712
 keywords: SetMailTemplateId(Integer)
+so.topic: reference
 ---
 
 

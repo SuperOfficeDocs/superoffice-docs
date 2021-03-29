@@ -1,9 +1,9 @@
 ---
-title: Integer GetConnectId()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetConnectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetConnectId
+description: NSTicket.GetConnectId()
+intellisense: NSTicket.GetConnectId
 keywords: GetConnectId()
+so.topic: reference
 ---
 
 

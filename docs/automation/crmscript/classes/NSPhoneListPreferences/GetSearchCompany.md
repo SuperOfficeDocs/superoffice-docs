@@ -1,9 +1,9 @@
 ---
-title: Bool GetSearchCompany()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Bool GetSearchCompany()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_GetSearchCompany
+description: NSPhoneListPreferences.GetSearchCompany()
+intellisense: NSPhoneListPreferences.GetSearchCompany
 keywords: GetSearchCompany()
+so.topic: reference
 ---
 
 

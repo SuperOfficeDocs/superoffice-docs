@@ -1,9 +1,9 @@
 ---
-title: Integer GetProbId()
-path: /EJScript/Classes/NSSaleTypeStageLink/Member functions/Integer GetProbId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeStageLink_GetProbId
+description: NSSaleTypeStageLink.GetProbId()
+intellisense: NSSaleTypeStageLink.GetProbId
 keywords: GetProbId()
+so.topic: reference
 ---
 
 

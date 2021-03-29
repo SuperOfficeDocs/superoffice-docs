@@ -1,10 +1,10 @@
 ---
-title: Integer GetDestinationPersonId()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetDestinationPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetDestinationPersonId
+description: NSContactRelationEntity.GetDestinationPersonId()
+intellisense: NSContactRelationEntity.GetDestinationPersonId
 sortOrder: 1947
 keywords: GetDestinationPersonId()
+so.topic: reference
 ---
 
 

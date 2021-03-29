@@ -1,9 +1,9 @@
 ---
-title: NSCountry[] GetAllCountries(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry[] GetAllCountries(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAllCountries_Bool_p_0
+description: NSListAgent.GetAllCountries(Bool p_0)
+intellisense: NSListAgent.GetAllCountries
 keywords: GetAllCountries(Bool)
+so.topic: reference
 ---
 
 

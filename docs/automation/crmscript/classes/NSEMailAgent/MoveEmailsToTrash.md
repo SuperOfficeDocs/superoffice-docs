@@ -1,10 +1,10 @@
 ---
-title: Void MoveEmailsToTrash(Integer[] ids)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void MoveEmailsToTrash(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_MoveEmailsToTrash_Integer__p_0
+description: NSEMailAgent.MoveEmailsToTrash(Integer[] p_0)
+intellisense: NSEMailAgent.MoveEmailsToTrash
 sortOrder: 2864
 keywords: MoveEmailsToTrash(Integer[])
+so.topic: reference
 ---
 
 

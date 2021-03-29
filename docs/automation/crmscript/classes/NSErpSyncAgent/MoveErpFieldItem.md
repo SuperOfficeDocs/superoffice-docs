@@ -1,10 +1,10 @@
 ---
-title: Void MoveErpFieldItem(Integer erpFieldId, Integer direction, Integer erpConnectionId, Integer erpActorType)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Void MoveErpFieldItem(Integer p_0, Integer p_1, Integer p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_MoveErpFieldItem_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3
+description: NSErpSyncAgent.MoveErpFieldItem(Integer p_0, Integer p_1, Integer p_2, Integer p_3)
+intellisense: NSErpSyncAgent.MoveErpFieldItem
 sortOrder: 3223
 keywords: MoveErpFieldItem(Integer,Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

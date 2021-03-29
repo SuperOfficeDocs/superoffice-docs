@@ -1,10 +1,10 @@
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_SetProjectId_Integer_p_0
+description: NSEMailSOInfo.SetProjectId(Integer p_0)
+intellisense: NSEMailSOInfo.SetProjectId
 sortOrder: 3058
 keywords: SetProjectId(Integer)
+so.topic: reference
 ---
 
 

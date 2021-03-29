@@ -1,9 +1,9 @@
 ---
-title: Void SetPerson(NSPerson Person)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetPerson_NSPerson_p_0
+description: NSTicketMessageEntity.SetPerson(NSPerson p_0)
+intellisense: NSTicketMessageEntity.SetPerson
 keywords: SetPerson(NSPerson)
+so.topic: reference
 ---
 
 

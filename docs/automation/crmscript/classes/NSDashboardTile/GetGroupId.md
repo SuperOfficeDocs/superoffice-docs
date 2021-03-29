@@ -1,10 +1,10 @@
 ---
-title: Integer GetGroupId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetGroupId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetGroupId
+description: NSDashboardTile.GetGroupId()
+intellisense: NSDashboardTile.GetGroupId
 sortOrder: 2292
 keywords: GetGroupId()
+so.topic: reference
 ---
 
 

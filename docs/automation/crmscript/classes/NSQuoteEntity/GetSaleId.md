@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteEntity_GetSaleId
+description: NSQuoteEntity.GetSaleId()
+intellisense: NSQuoteEntity.GetSaleId
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

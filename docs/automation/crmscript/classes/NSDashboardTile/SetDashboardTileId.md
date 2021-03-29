@@ -1,10 +1,10 @@
 ---
-title: Void SetDashboardTileId(Integer DashboardTileId)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetDashboardTileId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetDashboardTileId_Integer_p_0
+description: NSDashboardTile.SetDashboardTileId(Integer p_0)
+intellisense: NSDashboardTile.SetDashboardTileId
 sortOrder: 2307
 keywords: SetDashboardTileId(Integer)
+so.topic: reference
 ---
 
 

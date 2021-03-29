@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayValues(String[] DisplayValues)
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Void SetDisplayValues(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_SetDisplayValues_String__p_0
+description: NSArchiveRestrictionInfo.SetDisplayValues(String[] p_0)
+intellisense: NSArchiveRestrictionInfo.SetDisplayValues
 sortOrder: 1226
 keywords: SetDisplayValues(String[])
+so.topic: reference
 ---
 
 

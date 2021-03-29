@@ -1,10 +1,10 @@
 ---
-title: Void SetActiveErpLinks(Integer ActiveErpLinks)
-path: /EJScript/Classes/NSContact/Member functions/Void SetActiveErpLinks(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetActiveErpLinks_Integer_p_0
+description: NSContact.SetActiveErpLinks(Integer p_0)
+intellisense: NSContact.SetActiveErpLinks
 sortOrder: 1741
 keywords: SetActiveErpLinks(Integer)
+so.topic: reference
 ---
 
 

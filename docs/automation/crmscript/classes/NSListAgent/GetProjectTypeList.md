@@ -1,9 +1,9 @@
 ---
-title: NSProjectType[] GetProjectTypeList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectType[] GetProjectTypeList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProjectTypeList_Integer__p_0
+description: NSListAgent.GetProjectTypeList(Integer[] p_0)
+intellisense: NSListAgent.GetProjectTypeList
 keywords: GetProjectTypeList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of ProjectType objects.

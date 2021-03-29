@@ -1,10 +1,10 @@
 ---
-title: Void SetLayout(Integer Layout)
-path: /EJScript/Classes/NSDashboard/Member functions/Void SetLayout(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboard_SetLayout_Integer_p_0
+description: NSDashboard.SetLayout(Integer p_0)
+intellisense: NSDashboard.SetLayout
 sortOrder: 2268
 keywords: SetLayout(Integer)
+so.topic: reference
 ---
 
 

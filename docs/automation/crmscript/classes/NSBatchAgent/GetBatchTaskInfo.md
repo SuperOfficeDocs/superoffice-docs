@@ -1,10 +1,10 @@
 ---
-title: NSBatchTaskInfo GetBatchTaskInfo(Integer id)
-path: /EJScript/Classes/NSBatchAgent/Member functions/NSBatchTaskInfo GetBatchTaskInfo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent_GetBatchTaskInfo_Integer_p_0
+description: NSBatchAgent.GetBatchTaskInfo(Integer p_0)
+intellisense: NSBatchAgent.GetBatchTaskInfo
 sortOrder: 1353
 keywords: GetBatchTaskInfo(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetIsOnTravel(Bool IsOnTravel)
-path: /EJScript/Classes/NSUser/Member functions/Void SetIsOnTravel(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetIsOnTravel_Bool_p_0
+description: NSUser.SetIsOnTravel(Bool p_0)
+intellisense: NSUser.SetIsOnTravel
 keywords: SetIsOnTravel(Bool)
+so.topic: reference
 ---
 
 

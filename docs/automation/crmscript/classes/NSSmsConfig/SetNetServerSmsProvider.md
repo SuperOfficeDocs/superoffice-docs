@@ -1,9 +1,9 @@
 ---
-title: Void SetNetServerSmsProvider(String NetServerSmsProvider)
-path: /EJScript/Classes/NSSmsConfig/Member functions/Void SetNetServerSmsProvider(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_SetNetServerSmsProvider_String_p_0
+description: NSSmsConfig.SetNetServerSmsProvider(String p_0)
+intellisense: NSSmsConfig.SetNetServerSmsProvider
 keywords: SetNetServerSmsProvider(String)
+so.topic: reference
 ---
 
 

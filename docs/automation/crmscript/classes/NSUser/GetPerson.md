@@ -1,9 +1,9 @@
 ---
-title: NSPerson GetPerson()
-path: /EJScript/Classes/NSUser/Member functions/NSPerson GetPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetPerson
+description: NSUser.GetPerson()
+intellisense: NSUser.GetPerson
 keywords: GetPerson()
+so.topic: reference
 ---
 
 

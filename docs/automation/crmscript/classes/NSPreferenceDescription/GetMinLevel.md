@@ -1,9 +1,9 @@
 ---
-title: Integer GetMinLevel()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetMinLevel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetMinLevel
+description: NSPreferenceDescription.GetMinLevel()
+intellisense: NSPreferenceDescription.GetMinLevel
 keywords: GetMinLevel()
+so.topic: reference
 ---
 
 

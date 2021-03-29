@@ -1,9 +1,9 @@
 ---
-title: Void SetProductFamilyKey(String ProductFamilyKey)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetProductFamilyKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetProductFamilyKey_String_p_0
+description: NSProduct.SetProductFamilyKey(String p_0)
+intellisense: NSProduct.SetProductFamilyKey
 keywords: SetProductFamilyKey(String)
+so.topic: reference
 ---
 
 

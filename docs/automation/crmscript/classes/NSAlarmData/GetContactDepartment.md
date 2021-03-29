@@ -1,10 +1,10 @@
 ---
-title: String GetContactDepartment()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetContactDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetContactDepartment
+description: NSAlarmData.GetContactDepartment()
+intellisense: NSAlarmData.GetContactDepartment
 sortOrder: 659
 keywords: GetContactDepartment()
+so.topic: reference
 ---
 
 

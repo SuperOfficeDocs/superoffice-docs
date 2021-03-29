@@ -1,10 +1,10 @@
 ---
-title: Void SetIsRecurrence(Bool IsRecurrence)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetIsRecurrence(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetIsRecurrence_Bool_p_0
+description: NSAppointment.SetIsRecurrence(Bool p_0)
+intellisense: NSAppointment.SetIsRecurrence
 sortOrder: 799
 keywords: SetIsRecurrence(Bool)
+so.topic: reference
 ---
 
 

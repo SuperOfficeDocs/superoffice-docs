@@ -1,9 +1,9 @@
 ---
-title: Integer GetTemplateId()
-path: /EJScript/Classes/NSReportEntity/Member functions/Integer GetTemplateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_GetTemplateId
+description: NSReportEntity.GetTemplateId()
+intellisense: NSReportEntity.GetTemplateId
 keywords: GetTemplateId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketCategoryId(Integer TicketCategoryId)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetTicketCategoryId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetTicketCategoryId_Integer_p_0
+description: NSTicketCategoryEntity.SetTicketCategoryId(Integer p_0)
+intellisense: NSTicketCategoryEntity.SetTicketCategoryId
 keywords: SetTicketCategoryId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer udListDefinitionId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity CreateDefaultHeadingFromListDefinition(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultHeadingFromListDefinition_Integer_p_0
+description: NSListAgent.CreateDefaultHeadingFromListDefinition(Integer p_0)
+intellisense: NSListAgent.CreateDefaultHeadingFromListDefinition
 keywords: CreateDefaultHeadingFromListDefinition(Integer)
+so.topic: reference
 ---
 
 

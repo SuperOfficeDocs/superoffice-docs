@@ -1,10 +1,10 @@
 ---
-title: Void SetAppointmentType(Integer AppointmentType)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetAppointmentType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetAppointmentType_Integer_p_0
+description: NSAlarmData.SetAppointmentType(Integer p_0)
+intellisense: NSAlarmData.SetAppointmentType
 sortOrder: 671
 keywords: SetAppointmentType(Integer)
+so.topic: reference
 ---
 
 

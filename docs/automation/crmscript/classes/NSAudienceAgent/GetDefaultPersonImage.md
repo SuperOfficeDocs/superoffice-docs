@@ -1,10 +1,10 @@
 ---
-title: NSImage GetDefaultPersonImage(String layoutName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSImage GetDefaultPersonImage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetDefaultPersonImage_String_p_0
+description: NSAudienceAgent.GetDefaultPersonImage(String p_0)
+intellisense: NSAudienceAgent.GetDefaultPersonImage
 sortOrder: 1304
 keywords: GetDefaultPersonImage(String)
+so.topic: reference
 ---
 
 

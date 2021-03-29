@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_GetRank
+description: NSCurrencyEntity.GetRank()
+intellisense: NSCurrencyEntity.GetRank
 sortOrder: 2183
 keywords: GetRank()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetShowInStatusBar()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetShowInStatusBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetShowInStatusBar
+description: NSWebPanelEntity.GetShowInStatusBar()
+intellisense: NSWebPanelEntity.GetShowInStatusBar
 keywords: GetShowInStatusBar()
+so.topic: reference
 ---
 
 

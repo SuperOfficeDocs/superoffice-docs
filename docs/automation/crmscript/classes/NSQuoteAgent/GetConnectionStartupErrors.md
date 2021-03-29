@@ -1,9 +1,9 @@
 ---
-title: NSPluginResponse[] GetConnectionStartupErrors()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPluginResponse[] GetConnectionStartupErrors()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetConnectionStartupErrors
+description: NSQuoteAgent.GetConnectionStartupErrors()
+intellisense: NSQuoteAgent.GetConnectionStartupErrors
 keywords: GetConnectionStartupErrors()
+so.topic: reference
 ---
 
 

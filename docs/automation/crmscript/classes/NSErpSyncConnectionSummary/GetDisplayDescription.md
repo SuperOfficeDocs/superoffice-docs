@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayDescription()
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/String GetDisplayDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_GetDisplayDescription
+description: NSErpSyncConnectionSummary.GetDisplayDescription()
+intellisense: NSErpSyncConnectionSummary.GetDisplayDescription
 sortOrder: 3231
 keywords: GetDisplayDescription()
+so.topic: reference
 ---
 
 

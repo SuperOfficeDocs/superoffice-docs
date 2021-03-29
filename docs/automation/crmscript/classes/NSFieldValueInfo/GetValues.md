@@ -1,10 +1,10 @@
 ---
-title: String[] GetValues()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String[] GetValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetValues
+description: NSFieldValueInfo.GetValues()
+intellisense: NSFieldValueInfo.GetValues
 sortOrder: 3633
 keywords: GetValues()
+so.topic: reference
 ---
 
 

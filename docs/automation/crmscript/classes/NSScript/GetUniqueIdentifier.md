@@ -1,9 +1,9 @@
 ---
-title: String GetUniqueIdentifier()
-path: /EJScript/Classes/NSScript/Member functions/String GetUniqueIdentifier()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_GetUniqueIdentifier
+description: NSScript.GetUniqueIdentifier()
+intellisense: NSScript.GetUniqueIdentifier
 keywords: GetUniqueIdentifier()
+so.topic: reference
 ---
 
 

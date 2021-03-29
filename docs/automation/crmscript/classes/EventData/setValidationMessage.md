@@ -1,10 +1,10 @@
 ---
-title: Void setValidationMessage(String message)
-path: /EJScript/Classes/EventData/member functions/Void setValidationMessage(String message)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_setValidationMessage_String_message
+description: EventData.setValidationMessage(String message)
+intellisense: EventData.setValidationMessage
 sortOrder: 300
 keywords: setValidationMessage(String)
+so.topic: reference
 ---
 
 # Void setValidationMessage(String message)

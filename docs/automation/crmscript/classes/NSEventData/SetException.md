@@ -1,10 +1,10 @@
 ---
-title: Void SetException(String Exception)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetException(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetException_String_p_0
+description: NSEventData.SetException(String p_0)
+intellisense: NSEventData.SetException
 sortOrder: 3348
 keywords: SetException(String)
+so.topic: reference
 ---
 
 

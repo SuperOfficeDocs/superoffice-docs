@@ -1,9 +1,9 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSLocalizedText/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_GetType
+description: NSLocalizedText.GetType()
+intellisense: NSLocalizedText.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

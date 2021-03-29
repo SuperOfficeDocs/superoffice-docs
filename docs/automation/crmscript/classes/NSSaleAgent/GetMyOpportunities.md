@@ -1,9 +1,9 @@
 ---
-title: NSSale[] GetMyOpportunities(Integer count)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSale[] GetMyOpportunities(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetMyOpportunities_Integer_p_0
+description: NSSaleAgent.GetMyOpportunities(Integer p_0)
+intellisense: NSSaleAgent.GetMyOpportunities
 keywords: GetMyOpportunities(Integer)
+so.topic: reference
 ---
 
 

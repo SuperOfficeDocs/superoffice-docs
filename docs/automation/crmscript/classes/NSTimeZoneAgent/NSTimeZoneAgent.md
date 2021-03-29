@@ -1,8 +1,8 @@
 ---
-title: NSTimeZoneAgent
-path: /EJScript/Classes/NSTimeZoneAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent
+description: NSTimeZoneAgent
+intellisense: Void.NSTimeZoneAgent
+so.topic: reference
 ---
 
 

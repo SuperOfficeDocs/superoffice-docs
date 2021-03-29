@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplate[] GetDocumentTemplateList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplate[] GetDocumentTemplateList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateList_Integer__p_0
+description: NSListAgent.GetDocumentTemplateList(Integer[] p_0)
+intellisense: NSListAgent.GetDocumentTemplateList
 keywords: GetDocumentTemplateList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of DocumentTemplate objects.

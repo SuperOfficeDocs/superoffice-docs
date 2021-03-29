@@ -1,10 +1,10 @@
 ---
-title: Void ChangePersonImage(Integer personId, Integer blobId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void ChangePersonImage(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_ChangePersonImage_Integer_p_0_Integer_p_1
+description: NSBLOBAgent.ChangePersonImage(Integer p_0, Integer p_1)
+intellisense: NSBLOBAgent.ChangePersonImage
 sortOrder: 1426
 keywords: ChangePersonImage(Integer,Integer)
+so.topic: reference
 ---
 
 

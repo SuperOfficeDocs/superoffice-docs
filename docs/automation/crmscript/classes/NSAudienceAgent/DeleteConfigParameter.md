@@ -1,10 +1,10 @@
 ---
-title: Void DeleteConfigParameter(String layoutName, String parameterName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/Void DeleteConfigParameter(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_DeleteConfigParameter_String_p_0_String_p_1
+description: NSAudienceAgent.DeleteConfigParameter(String p_0, String p_1)
+intellisense: NSAudienceAgent.DeleteConfigParameter
 sortOrder: 1311
 keywords: DeleteConfigParameter(String,String)
+so.topic: reference
 ---
 
 

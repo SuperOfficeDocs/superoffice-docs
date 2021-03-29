@@ -1,8 +1,8 @@
 ---
-title: String
-path: /EJScript/Classes/String
-intellisense: 1
-classref: 1
+title: crmscript_ref_String
+description: String
+intellisense: Void.String
+so.topic: reference
 ---
 
 

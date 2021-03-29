@@ -1,9 +1,9 @@
 ---
-title: Void RegisterDeviceForPushNotification(NSPocketDeviceInfo deviceInfo)
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void RegisterDeviceForPushNotification(NSPocketDeviceInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_RegisterDeviceForPushNotification_NSPocketDeviceInfo_p_0
+description: NSPocketAgent.RegisterDeviceForPushNotification(NSPocketDeviceInfo p_0)
+intellisense: NSPocketAgent.RegisterDeviceForPushNotification
 keywords: RegisterDeviceForPushNotification(NSPocketDeviceInfo)
+so.topic: reference
 ---
 
 

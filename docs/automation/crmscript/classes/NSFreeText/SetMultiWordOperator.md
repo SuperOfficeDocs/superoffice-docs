@@ -1,10 +1,10 @@
 ---
-title: Void SetMultiWordOperator(Integer MultiWordOperator)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetMultiWordOperator(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_SetMultiWordOperator_Integer_p_0
+description: NSFreeText.SetMultiWordOperator(Integer p_0)
+intellisense: NSFreeText.SetMultiWordOperator
 sortOrder: 3863
 keywords: SetMultiWordOperator(Integer)
+so.topic: reference
 ---
 
 

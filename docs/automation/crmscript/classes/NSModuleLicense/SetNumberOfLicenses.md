@@ -1,9 +1,9 @@
 ---
-title: Void SetNumberOfLicenses(Integer NumberOfLicenses)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetNumberOfLicenses(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetNumberOfLicenses_Integer_p_0
+description: NSModuleLicense.SetNumberOfLicenses(Integer p_0)
+intellisense: NSModuleLicense.SetNumberOfLicenses
 keywords: SetNumberOfLicenses(Integer)
+so.topic: reference
 ---
 
 

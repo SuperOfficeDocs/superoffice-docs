@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSUser/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetDeleted
+description: NSUser.GetDeleted()
+intellisense: NSUser.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetEncodedDataCaptionDescription(String EncodedDataCaptionDescription)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetEncodedDataCaptionDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetEncodedDataCaptionDescription_String_p_0
+description: NSFieldValueInfo.SetEncodedDataCaptionDescription(String p_0)
+intellisense: NSFieldValueInfo.SetEncodedDataCaptionDescription
 sortOrder: 3641
 keywords: SetEncodedDataCaptionDescription(String)
+so.topic: reference
 ---
 
 

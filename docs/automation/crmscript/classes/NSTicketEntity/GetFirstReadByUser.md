@@ -1,9 +1,9 @@
 ---
-title: DateTime GetFirstReadByUser()
-path: /EJScript/Classes/NSTicketEntity/Member functions/DateTime GetFirstReadByUser()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetFirstReadByUser
+description: NSTicketEntity.GetFirstReadByUser()
+intellisense: NSTicketEntity.GetFirstReadByUser
 keywords: GetFirstReadByUser()
+so.topic: reference
 ---
 
 

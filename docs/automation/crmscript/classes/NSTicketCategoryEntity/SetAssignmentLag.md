@@ -1,9 +1,9 @@
 ---
-title: Void SetAssignmentLag(Integer AssignmentLag)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetAssignmentLag(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetAssignmentLag_Integer_p_0
+description: NSTicketCategoryEntity.SetAssignmentLag(Integer p_0)
+intellisense: NSTicketCategoryEntity.SetAssignmentLag
 keywords: SetAssignmentLag(Integer)
+so.topic: reference
 ---
 
 

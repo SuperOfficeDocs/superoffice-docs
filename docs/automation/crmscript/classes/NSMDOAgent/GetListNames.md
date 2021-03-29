@@ -1,9 +1,9 @@
 ---
-title: String[] GetListNames()
-path: /EJScript/Classes/NSMDOAgent/Member functions/String[] GetListNames()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetListNames
+description: NSMDOAgent.GetListNames()
+intellisense: NSMDOAgent.GetListNames
 keywords: GetListNames()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSEMailEnvelope GetInReplyTo()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailEnvelope GetInReplyTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetInReplyTo
+description: NSEMailEntity.GetInReplyTo()
+intellisense: NSEMailEntity.GetInReplyTo
 sortOrder: 2963
 keywords: GetInReplyTo()
+so.topic: reference
 ---
 
 

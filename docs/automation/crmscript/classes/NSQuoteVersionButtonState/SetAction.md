@@ -1,9 +1,9 @@
 ---
-title: Void SetAction(Integer Action)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetAction(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_SetAction_Integer_p_0
+description: NSQuoteVersionButtonState.SetAction(Integer p_0)
+intellisense: NSQuoteVersionButtonState.SetAction
 keywords: SetAction(Integer)
+so.topic: reference
 ---
 
 

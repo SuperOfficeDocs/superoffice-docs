@@ -1,10 +1,10 @@
 ---
-title: DateTime GetCreated()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/DateTime GetCreated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetCreated
+description: NSBatchTaskInfo.GetCreated()
+intellisense: NSBatchTaskInfo.GetCreated
 sortOrder: 1366
 keywords: GetCreated()
+so.topic: reference
 ---
 
 

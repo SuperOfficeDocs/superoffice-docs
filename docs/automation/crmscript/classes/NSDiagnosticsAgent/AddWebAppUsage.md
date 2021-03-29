@@ -1,10 +1,10 @@
 ---
-title: Void AddWebAppUsage(NSWebAppUsage[] webAppUsages)
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void AddWebAppUsage(NSWebAppUsage[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_AddWebAppUsage_NSWebAppUsage__p_0
+description: NSDiagnosticsAgent.AddWebAppUsage(NSWebAppUsage[] p_0)
+intellisense: NSDiagnosticsAgent.AddWebAppUsage
 sortOrder: 2393
 keywords: AddWebAppUsage(NSWebAppUsage[])
+so.topic: reference
 ---
 
 

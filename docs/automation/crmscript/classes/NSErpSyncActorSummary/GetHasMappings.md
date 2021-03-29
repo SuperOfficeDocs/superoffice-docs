@@ -1,10 +1,10 @@
 ---
-title: Bool GetHasMappings()
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Bool GetHasMappings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_GetHasMappings
+description: NSErpSyncActorSummary.GetHasMappings()
+intellisense: NSErpSyncActorSummary.GetHasMappings
 sortOrder: 3152
 keywords: GetHasMappings()
+so.topic: reference
 ---
 
 

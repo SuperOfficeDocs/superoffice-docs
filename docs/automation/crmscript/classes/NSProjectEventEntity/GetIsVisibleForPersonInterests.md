@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsVisibleForPersonInterests()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetIsVisibleForPersonInterests()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetIsVisibleForPersonInterests
+description: NSProjectEventEntity.GetIsVisibleForPersonInterests()
+intellisense: NSProjectEventEntity.GetIsVisibleForPersonInterests
 keywords: GetIsVisibleForPersonInterests()
+so.topic: reference
 ---
 
 

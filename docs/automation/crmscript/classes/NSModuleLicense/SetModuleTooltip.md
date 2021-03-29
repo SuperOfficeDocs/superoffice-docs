@@ -1,9 +1,9 @@
 ---
-title: Void SetModuleTooltip(String ModuleTooltip)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetModuleTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetModuleTooltip_String_p_0
+description: NSModuleLicense.SetModuleTooltip(String p_0)
+intellisense: NSModuleLicense.SetModuleTooltip
 keywords: SetModuleTooltip(String)
+so.topic: reference
 ---
 
 

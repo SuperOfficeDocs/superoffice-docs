@@ -1,9 +1,9 @@
 ---
-title: String[] parseCSV(String delim)
-path: /EJScript/Classes/String/Member functions/String[] parseCSV(String delim)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_parseCSV_String_delim
+description: String.parseCSV(String delim)
+intellisense: String.parseCSV
 keywords: parseCSV(String)
+so.topic: reference
 ---
 
 

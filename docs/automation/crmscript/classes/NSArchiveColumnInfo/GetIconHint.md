@@ -1,10 +1,10 @@
 ---
-title: String GetIconHint()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetIconHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetIconHint
+description: NSArchiveColumnInfo.GetIconHint()
+intellisense: NSArchiveColumnInfo.GetIconHint
 sortOrder: 1144
 keywords: GetIconHint()
+so.topic: reference
 ---
 
 

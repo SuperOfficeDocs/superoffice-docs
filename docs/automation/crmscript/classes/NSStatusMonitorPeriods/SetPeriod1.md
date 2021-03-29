@@ -1,9 +1,9 @@
 ---
-title: Void SetPeriod1(Integer Period1)
-path: /EJScript/Classes/NSStatusMonitorPeriods/Member functions/Void SetPeriod1(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitorPeriods_SetPeriod1_Integer_p_0
+description: NSStatusMonitorPeriods.SetPeriod1(Integer p_0)
+intellisense: NSStatusMonitorPeriods.SetPeriod1
 keywords: SetPeriod1(Integer)
+so.topic: reference
 ---
 
 

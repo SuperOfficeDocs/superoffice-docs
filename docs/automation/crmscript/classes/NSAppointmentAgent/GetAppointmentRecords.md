@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetAppointmentRecords(Integer motherId, Integer recurrenceRuleId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetAppointmentRecords(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetAppointmentRecords_Integer_p_0_Integer_p_1
+description: NSAppointmentAgent.GetAppointmentRecords(Integer p_0, Integer p_1)
+intellisense: NSAppointmentAgent.GetAppointmentRecords
 sortOrder: 838
 keywords: GetAppointmentRecords(Integer,Integer)
+so.topic: reference
 ---
 
 

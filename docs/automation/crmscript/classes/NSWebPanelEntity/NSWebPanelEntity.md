@@ -1,8 +1,8 @@
 ---
-title: NSWebPanelEntity
-path: /EJScript/Classes/NSWebPanelEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity
+description: NSWebPanelEntity
+intellisense: Void.NSWebPanelEntity
+so.topic: reference
 ---
 
 

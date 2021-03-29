@@ -1,9 +1,9 @@
 ---
-title: Integer GetTravelPrefix()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetTravelPrefix()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetTravelPrefix
+description: NSRefCountEntity.GetTravelPrefix()
+intellisense: NSRefCountEntity.GetTravelPrefix
 keywords: GetTravelPrefix()
+so.topic: reference
 ---
 
 

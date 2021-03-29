@@ -1,9 +1,9 @@
 ---
-title: Void SetNextMilestoneDate(DateTime NextMilestoneDate)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetNextMilestoneDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetNextMilestoneDate_DateTime_p_0
+description: NSProjectEntity.SetNextMilestoneDate(DateTime p_0)
+intellisense: NSProjectEntity.SetNextMilestoneDate
 keywords: SetNextMilestoneDate(DateTime)
+so.topic: reference
 ---
 
 

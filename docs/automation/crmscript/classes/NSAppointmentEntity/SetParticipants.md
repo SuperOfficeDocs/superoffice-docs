@@ -1,10 +1,10 @@
 ---
-title: Void SetParticipants(NSParticipantInfo[] Participants)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetParticipants(NSParticipantInfo[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetParticipants_NSParticipantInfo__p_0
+description: NSAppointmentEntity.SetParticipants(NSParticipantInfo[] p_0)
+intellisense: NSAppointmentEntity.SetParticipants
 sortOrder: 1017
 keywords: SetParticipants(NSParticipantInfo[])
+so.topic: reference
 ---
 
 

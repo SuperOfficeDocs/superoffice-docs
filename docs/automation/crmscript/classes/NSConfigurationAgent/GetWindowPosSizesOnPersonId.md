@@ -1,10 +1,10 @@
 ---
-title: NSWindowPosSize[] GetWindowPosSizesOnPersonId(Integer personId)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSWindowPosSize[] GetWindowPosSizesOnPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetWindowPosSizesOnPersonId_Integer_p_0
+description: NSConfigurationAgent.GetWindowPosSizesOnPersonId(Integer p_0)
+intellisense: NSConfigurationAgent.GetWindowPosSizesOnPersonId
 sortOrder: 1601
 keywords: GetWindowPosSizesOnPersonId(Integer)
+so.topic: reference
 ---
 
 

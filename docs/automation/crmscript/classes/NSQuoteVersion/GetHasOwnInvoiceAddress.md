@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasOwnInvoiceAddress()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Bool GetHasOwnInvoiceAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetHasOwnInvoiceAddress
+description: NSQuoteVersion.GetHasOwnInvoiceAddress()
+intellisense: NSQuoteVersion.GetHasOwnInvoiceAddress
 keywords: GetHasOwnInvoiceAddress()
+so.topic: reference
 ---
 
 

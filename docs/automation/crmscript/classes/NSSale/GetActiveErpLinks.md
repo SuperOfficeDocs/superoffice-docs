@@ -1,9 +1,9 @@
 ---
-title: Integer GetActiveErpLinks()
-path: /EJScript/Classes/NSSale/Member functions/Integer GetActiveErpLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetActiveErpLinks
+description: NSSale.GetActiveErpLinks()
+intellisense: NSSale.GetActiveErpLinks
 keywords: GetActiveErpLinks()
+so.topic: reference
 ---
 
 

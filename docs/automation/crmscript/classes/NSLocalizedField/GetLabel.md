@@ -1,9 +1,9 @@
 ---
-title: String GetLabel()
-path: /EJScript/Classes/NSLocalizedField/Member functions/String GetLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedField_GetLabel
+description: NSLocalizedField.GetLabel()
+intellisense: NSLocalizedField.GetLabel
 keywords: GetLabel()
+so.topic: reference
 ---
 
 

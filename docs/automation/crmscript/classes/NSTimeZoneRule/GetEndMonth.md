@@ -1,9 +1,9 @@
 ---
-title: Integer GetEndMonth()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetEndMonth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetEndMonth
+description: NSTimeZoneRule.GetEndMonth()
+intellisense: NSTimeZoneRule.GetEndMonth
 keywords: GetEndMonth()
+so.topic: reference
 ---
 
 

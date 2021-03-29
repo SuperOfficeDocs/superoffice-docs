@@ -1,10 +1,10 @@
 ---
-title: String GetListProviderName()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetListProviderName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_GetListProviderName
+description: NSControlInfo.GetListProviderName()
+intellisense: NSControlInfo.GetListProviderName
 sortOrder: 2000
 keywords: GetListProviderName()
+so.topic: reference
 ---
 
 

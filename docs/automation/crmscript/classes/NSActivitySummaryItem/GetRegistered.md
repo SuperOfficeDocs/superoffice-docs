@@ -1,10 +1,10 @@
 ---
-title: DateTime GetRegistered()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem_GetRegistered
+description: NSActivitySummaryItem.GetRegistered()
+intellisense: NSActivitySummaryItem.GetRegistered
 sortOrder: 596
 keywords: GetRegistered()
+so.topic: reference
 ---
 
 

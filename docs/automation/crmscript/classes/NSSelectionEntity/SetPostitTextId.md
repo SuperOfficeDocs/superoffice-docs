@@ -1,9 +1,9 @@
 ---
-title: Void SetPostitTextId(Integer PostitTextId)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetPostitTextId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetPostitTextId_Integer_p_0
+description: NSSelectionEntity.SetPostitTextId(Integer p_0)
+intellisense: NSSelectionEntity.SetPostitTextId
 keywords: SetPostitTextId(Integer)
+so.topic: reference
 ---
 
 

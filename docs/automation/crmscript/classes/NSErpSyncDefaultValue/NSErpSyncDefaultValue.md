@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncDefaultValue
-path: /EJScript/Classes/NSErpSyncDefaultValue
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue
+description: NSErpSyncDefaultValue
+intellisense: Void.NSErpSyncDefaultValue
 sortOrder: 3249
+so.topic: reference
 ---
 
 

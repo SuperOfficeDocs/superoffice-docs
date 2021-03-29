@@ -1,9 +1,9 @@
 ---
-title: NSStatusMonitorPeriods SaveStatusMonitorPeriods(NSStatusMonitorPeriods statusMonitorPeriods)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSStatusMonitorPeriods SaveStatusMonitorPeriods(NSStatusMonitorPeriods p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_SaveStatusMonitorPeriods_NSStatusMonitorPeriods_p_0
+description: NSSaintAgent.SaveStatusMonitorPeriods(NSStatusMonitorPeriods p_0)
+intellisense: NSSaintAgent.SaveStatusMonitorPeriods
 keywords: SaveStatusMonitorPeriods(NSStatusMonitorPeriods)
+so.topic: reference
 ---
 
 

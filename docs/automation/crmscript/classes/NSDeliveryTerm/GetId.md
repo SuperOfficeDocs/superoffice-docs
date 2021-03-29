@@ -1,10 +1,10 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSDeliveryTerm/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDeliveryTerm_GetId
+description: NSDeliveryTerm.GetId()
+intellisense: NSDeliveryTerm.GetId
 sortOrder: 2366
 keywords: GetId()
+so.topic: reference
 ---
 
 

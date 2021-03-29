@@ -1,10 +1,10 @@
 ---
-title: Void SetFirstMessage(String FirstMessage)
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/Void SetFirstMessage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_SetFirstMessage_String_p_0
+description: NSChatSummaryItem.SetFirstMessage(String p_0)
+intellisense: NSChatSummaryItem.SetFirstMessage
 sortOrder: 1544
 keywords: SetFirstMessage(String)
+so.topic: reference
 ---
 
 

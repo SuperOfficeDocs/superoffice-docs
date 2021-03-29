@@ -1,10 +1,10 @@
 ---
-title: Integer GetRecaptchaMode()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetRecaptchaMode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetRecaptchaMode
+description: NSFormEntity.GetRecaptchaMode()
+intellisense: NSFormEntity.GetRecaptchaMode
 sortOrder: 3793
 keywords: GetRecaptchaMode()
+so.topic: reference
 ---
 
 

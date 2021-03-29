@@ -1,9 +1,9 @@
 ---
-title: NSArchiveListItem[] GetSelectionShadowMembersArchiveRows(Integer selectionId, String select)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveListItem[] GetSelectionShadowMembersArchiveRows(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetSelectionShadowMembersArchiveRows_Integer_p_0_String_p_1
+description: NSSelectionAgent.GetSelectionShadowMembersArchiveRows(Integer p_0, String p_1)
+intellisense: NSSelectionAgent.GetSelectionShadowMembersArchiveRows
 keywords: GetSelectionShadowMembersArchiveRows(Integer,String)
+so.topic: reference
 ---
 
 

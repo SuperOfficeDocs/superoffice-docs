@@ -1,9 +1,9 @@
 ---
-title: String GetField()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/String GetField()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetField
+description: NSRefCountEntity.GetField()
+intellisense: NSRefCountEntity.GetField
 keywords: GetField()
+so.topic: reference
 ---
 
 

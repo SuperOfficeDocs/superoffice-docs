@@ -1,10 +1,10 @@
 ---
-title: NSEventData ExecuteEventHandlers(NSEventData eventData)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSEventData ExecuteEventHandlers(NSEventData p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_ExecuteEventHandlers_NSEventData_p_0
+description: NSCustomerServiceAgent.ExecuteEventHandlers(NSEventData p_0)
+intellisense: NSCustomerServiceAgent.ExecuteEventHandlers
 sortOrder: 2232
 keywords: ExecuteEventHandlers(NSEventData)
+so.topic: reference
 ---
 
 

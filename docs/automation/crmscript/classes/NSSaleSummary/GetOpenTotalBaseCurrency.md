@@ -1,9 +1,9 @@
 ---
-title: Float GetOpenTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetOpenTotalBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetOpenTotalBaseCurrency
+description: NSSaleSummary.GetOpenTotalBaseCurrency()
+intellisense: NSSaleSummary.GetOpenTotalBaseCurrency
 keywords: GetOpenTotalBaseCurrency()
+so.topic: reference
 ---
 
 

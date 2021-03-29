@@ -1,9 +1,9 @@
 ---
-title: Bool eof()
-path: /EJScript/Classes/StatResult/Member functions/Bool eof()
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatResult_eof
+description: StatResult.eof()
+intellisense: StatResult.eof
 keywords: eof()
+so.topic: reference
 ---
 
 

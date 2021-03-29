@@ -1,10 +1,10 @@
 ---
-title: Void setType(String p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroParameter_setType_String_p_0
+description: MacroParameter.setType(String p_0)
+intellisense: MacroParameter.setType
 sortOrder: 494
 keywords: setType(String)
+so.topic: reference
 ---
 
 This function will set the type of the parameter.

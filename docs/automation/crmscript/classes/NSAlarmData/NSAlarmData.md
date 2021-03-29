@@ -1,9 +1,9 @@
 ---
-title: NSAlarmData
-path: /EJScript/Classes/NSAlarmData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData
+description: NSAlarmData
+intellisense: Void.NSAlarmData
 sortOrder: 641
+so.topic: reference
 ---
 
 

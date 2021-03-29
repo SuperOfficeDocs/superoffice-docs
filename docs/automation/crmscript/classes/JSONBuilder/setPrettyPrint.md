@@ -1,10 +1,10 @@
 ---
-title: Void setPrettyPrint(Integer indent)
-path: /EJScript/Classes/JSONBuilder/Member functions/Void setPrettyPrint(Integer indent)
-intellisense: 1
-classref: 1
+title: crmscript_ref_JSONBuilder_setPrettyPrint_Integer_indent
+description: JSONBuilder.setPrettyPrint(Integer indent)
+intellisense: JSONBuilder.setPrettyPrint
 sortOrder: 453
 keywords: setPrettyPrint(Integer)
+so.topic: reference
 ---
 
 Sets whether the JSON should be pretty formatted or not. Indent > 0 will cause pretty printing, where indent is the number of spaces to indent a block level with.

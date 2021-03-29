@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_SetCreatedDate_DateTime_p_0
+description: NSAudienceConfigParameter.SetCreatedDate(DateTime p_0)
+intellisense: NSAudienceConfigParameter.SetCreatedDate
 sortOrder: 1328
 keywords: SetCreatedDate(DateTime)
+so.topic: reference
 ---
 
 

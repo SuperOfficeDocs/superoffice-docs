@@ -1,10 +1,10 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetType
+description: NSAppointment.GetType()
+intellisense: NSAppointment.GetType
 sortOrder: 746
 keywords: GetType()
+so.topic: reference
 ---
 
 

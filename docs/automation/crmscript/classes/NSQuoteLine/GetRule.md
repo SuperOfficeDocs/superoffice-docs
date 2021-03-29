@@ -1,9 +1,9 @@
 ---
-title: String GetRule()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetRule()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetRule
+description: NSQuoteLine.GetRule()
+intellisense: NSQuoteLine.GetRule
 keywords: GetRule()
+so.topic: reference
 ---
 
 

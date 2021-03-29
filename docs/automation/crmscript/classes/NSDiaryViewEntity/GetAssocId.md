@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssocId()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetAssocId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetAssocId
+description: NSDiaryViewEntity.GetAssocId()
+intellisense: NSDiaryViewEntity.GetAssocId
 sortOrder: 2405
 keywords: GetAssocId()
+so.topic: reference
 ---
 
 

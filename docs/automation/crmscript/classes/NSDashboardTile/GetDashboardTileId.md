@@ -1,10 +1,10 @@
 ---
-title: Integer GetDashboardTileId()
-path: /EJScript/Classes/NSDashboardTile/Member functions/Integer GetDashboardTileId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetDashboardTileId
+description: NSDashboardTile.GetDashboardTileId()
+intellisense: NSDashboardTile.GetDashboardTileId
 sortOrder: 2290
 keywords: GetDashboardTileId()
+so.topic: reference
 ---
 
 

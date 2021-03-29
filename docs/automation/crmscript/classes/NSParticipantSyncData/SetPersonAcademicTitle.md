@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonAcademicTitle(String PersonAcademicTitle)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPersonAcademicTitle(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPersonAcademicTitle_String_p_0
+description: NSParticipantSyncData.SetPersonAcademicTitle(String p_0)
+intellisense: NSParticipantSyncData.SetPersonAcademicTitle
 keywords: SetPersonAcademicTitle(String)
+so.topic: reference
 ---
 
 

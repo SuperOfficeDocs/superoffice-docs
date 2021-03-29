@@ -1,9 +1,9 @@
 ---
-title: String GetProgId()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/String GetProgId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetProgId
+description: NSWebPanelEntity.GetProgId()
+intellisense: NSWebPanelEntity.GetProgId
 keywords: GetProgId()
+so.topic: reference
 ---
 
 

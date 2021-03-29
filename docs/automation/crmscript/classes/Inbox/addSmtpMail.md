@@ -1,10 +1,10 @@
 ---
-title: Integer addSmtpMail(String smtpMail, String uidl, Integer filterId)
-path: /EJScript/Classes/Inbox/Member functions/Integer addSmtpMail(String smtpMail, String uidl, Integer filterId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Inbox_addSmtpMail_String_smtpMail_String_uidl_Integer_filterId
+description: Inbox.addSmtpMail(String smtpMail, String uidl, Integer filterId)
+intellisense: Inbox.addSmtpMail
 sortOrder: 421
 keywords: addSmtpMail(String,String,Integer)
+so.topic: reference
 ---
 
 With this method you can insert an SMTP formatted email into eJournal's inbox, which then will be imported when ejournalCron runs. The mail string must conform to the SMTP standard.

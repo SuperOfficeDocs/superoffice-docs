@@ -1,10 +1,10 @@
 ---
-title: NSTileData[] GetDataWithSelection(Integer dashboardTileId, Integer selectionId, String restrictions)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSTileData[] GetDataWithSelection(Integer p_0, Integer p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_GetDataWithSelection_Integer_p_0_Integer_p_1_String_p_2
+description: NSDashboardAgent.GetDataWithSelection(Integer p_0, Integer p_1, String p_2)
+intellisense: NSDashboardAgent.GetDataWithSelection
 sortOrder: 2283
 keywords: GetDataWithSelection(Integer,Integer,String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetAutoeventId(Integer AutoeventId)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetAutoeventId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_SetAutoeventId_Integer_p_0
+description: NSDocumentTemplate.SetAutoeventId(Integer p_0)
+intellisense: NSDocumentTemplate.SetAutoeventId
 sortOrder: 2634
 keywords: SetAutoeventId(Integer)
+so.topic: reference
 ---
 
 

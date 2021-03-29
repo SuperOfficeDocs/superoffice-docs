@@ -1,10 +1,10 @@
 ---
-title: NSSelectableMDOListItem[] GetGroupList()
-path: /EJScript/Classes/NSActivityFilter/Member functions/NSSelectableMDOListItem[] GetGroupList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_GetGroupList
+description: NSActivityFilter.GetGroupList()
+intellisense: NSActivityFilter.GetGroupList
 sortOrder: 573
 keywords: GetGroupList()
+so.topic: reference
 ---
 
 

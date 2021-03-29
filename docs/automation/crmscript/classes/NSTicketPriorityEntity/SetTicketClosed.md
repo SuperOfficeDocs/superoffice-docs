@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketClosed(NSTicketPriorityEscalateEvent TicketClosed)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTicketClosed(NSTicketPriorityEscalateEvent p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetTicketClosed_NSTicketPriorityEscalateEvent_p_0
+description: NSTicketPriorityEntity.SetTicketClosed(NSTicketPriorityEscalateEvent p_0)
+intellisense: NSTicketPriorityEntity.SetTicketClosed
 keywords: SetTicketClosed(NSTicketPriorityEscalateEvent)
+so.topic: reference
 ---
 
 

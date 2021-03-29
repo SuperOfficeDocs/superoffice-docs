@@ -1,10 +1,10 @@
 ---
-title: NSCriteriaInformation SaveRestrictionsAndGetCriteriaInformation2(String storageType, String providerName, String storageKey, String restrictions, String staticColumns)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSCriteriaInformation SaveRestrictionsAndGetCriteriaInformation2(String p_0, String p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_SaveRestrictionsAndGetCriteriaInformation2_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4
+description: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation2(String p_0, String p_1, String p_2, String p_3, String p_4)
+intellisense: NSFindAgent.SaveRestrictionsAndGetCriteriaInformation2
 sortOrder: 3668
 keywords: SaveRestrictionsAndGetCriteriaInformation2(String,String,String,String,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetAssociateId_Integer_p_0
+description: NSWindowPosSize.SetAssociateId(Integer p_0)
+intellisense: NSWindowPosSize.SetAssociateId
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

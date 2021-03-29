@@ -1,9 +1,9 @@
 ---
-title: Integer GetAggregateBin()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetAggregateBin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetAggregateBin
+description: NSWebAppUsage.GetAggregateBin()
+intellisense: NSWebAppUsage.GetAggregateBin
 keywords: GetAggregateBin()
+so.topic: reference
 ---
 
 

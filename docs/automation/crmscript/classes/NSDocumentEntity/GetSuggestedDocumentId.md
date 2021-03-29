@@ -1,10 +1,10 @@
 ---
-title: Integer GetSuggestedDocumentId()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetSuggestedDocumentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetSuggestedDocumentId
+description: NSDocumentEntity.GetSuggestedDocumentId()
+intellisense: NSDocumentEntity.GetSuggestedDocumentId
 sortOrder: 2562
 keywords: GetSuggestedDocumentId()
+so.topic: reference
 ---
 
 

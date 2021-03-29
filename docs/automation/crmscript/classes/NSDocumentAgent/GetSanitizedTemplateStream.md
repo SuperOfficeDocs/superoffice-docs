@@ -1,10 +1,10 @@
 ---
-title: NSStream GetSanitizedTemplateStream(String templateName, Bool allowPersonal, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetSanitizedTemplateStream(String p_0, Bool p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStream_String_p_0_Bool_p_1_String_p_2
+description: NSDocumentAgent.GetSanitizedTemplateStream(String p_0, Bool p_1, String p_2)
+intellisense: NSDocumentAgent.GetSanitizedTemplateStream
 sortOrder: 2518
 keywords: GetSanitizedTemplateStream(String,Bool,String)
+so.topic: reference
 ---
 
 

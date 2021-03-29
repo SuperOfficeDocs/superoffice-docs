@@ -1,9 +1,9 @@
 ---
-title: Integer GetCreatedBy()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetCreatedBy
+description: NSTicket.GetCreatedBy()
+intellisense: NSTicket.GetCreatedBy
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

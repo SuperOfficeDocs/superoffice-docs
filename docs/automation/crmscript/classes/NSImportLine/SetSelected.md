@@ -1,10 +1,10 @@
 ---
-title: Void SetSelected(Bool Selected)
-path: /EJScript/Classes/NSImportLine/Member functions/Void SetSelected(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_SetSelected_Bool_p_0
+description: NSImportLine.SetSelected(Bool p_0)
+intellisense: NSImportLine.SetSelected
 sortOrder: 3981
 keywords: SetSelected(Bool)
+so.topic: reference
 ---
 
 

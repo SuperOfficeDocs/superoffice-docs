@@ -1,9 +1,9 @@
 ---
-title: Void SetDeleted(Integer Deleted)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetDeleted(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_SetDeleted_Integer_p_0
+description: NSRoleEntity.SetDeleted(Integer p_0)
+intellisense: NSRoleEntity.SetDeleted
 keywords: SetDeleted(Integer)
+so.topic: reference
 ---
 
 

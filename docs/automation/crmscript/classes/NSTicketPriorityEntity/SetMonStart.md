@@ -1,9 +1,9 @@
 ---
-title: Void SetMonStart(DateTime MonStart)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetMonStart(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetMonStart_DateTime_p_0
+description: NSTicketPriorityEntity.SetMonStart(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetMonStart
 keywords: SetMonStart(DateTime)
+so.topic: reference
 ---
 
 

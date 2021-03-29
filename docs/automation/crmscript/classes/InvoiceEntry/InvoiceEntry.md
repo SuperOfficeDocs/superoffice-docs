@@ -1,9 +1,9 @@
 ---
-title: InvoiceEntry
-path: /EJScript/Classes/InvoiceEntry
-intellisense: 1
-classref: 1
+title: crmscript_ref_InvoiceEntry
+description: InvoiceEntry
+intellisense: Void.InvoiceEntry
 sortOrder: 430
+so.topic: reference
 ---
 
 This class represent invoice entries. You will be able to create new or modify existing invoice entries with this class.

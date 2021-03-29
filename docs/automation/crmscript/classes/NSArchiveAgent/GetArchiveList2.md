@@ -1,10 +1,10 @@
 ---
-title: NSArchiveListItem[] GetArchiveList2(String guiName, String providerName, String sortOrder, String restriction, String entities, Integer page, Integer pageSize)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSArchiveListItem[] GetArchiveList2(String p_0, String p_1, String p_2, String p_3, String p_4, Integer p_5, Integer p_6)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetArchiveList2_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4_Integer_p_5_Integer_p_6
+description: NSArchiveAgent.GetArchiveList2(String p_0, String p_1, String p_2, String p_3, String p_4, Integer p_5, Integer p_6)
+intellisense: NSArchiveAgent.GetArchiveList2
 sortOrder: 1106
 keywords: GetArchiveList2(String,String,String,String,String,Integer,Integer)
+so.topic: reference
 ---
 
 

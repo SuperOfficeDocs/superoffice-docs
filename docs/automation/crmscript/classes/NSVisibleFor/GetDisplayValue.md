@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayValue()
-path: /EJScript/Classes/NSVisibleFor/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVisibleFor_GetDisplayValue
+description: NSVisibleFor.GetDisplayValue()
+intellisense: NSVisibleFor.GetDisplayValue
 keywords: GetDisplayValue()
+so.topic: reference
 ---
 
 

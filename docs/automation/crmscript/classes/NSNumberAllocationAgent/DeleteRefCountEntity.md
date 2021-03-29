@@ -1,9 +1,9 @@
 ---
-title: Void DeleteRefCountEntity(Integer refCountEntityId)
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/Void DeleteRefCountEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent_DeleteRefCountEntity_Integer_p_0
+description: NSNumberAllocationAgent.DeleteRefCountEntity(Integer p_0)
+intellisense: NSNumberAllocationAgent.DeleteRefCountEntity
 keywords: DeleteRefCountEntity(Integer)
+so.topic: reference
 ---
 
 

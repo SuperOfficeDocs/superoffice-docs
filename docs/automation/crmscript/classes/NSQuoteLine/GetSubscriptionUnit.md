@@ -1,9 +1,9 @@
 ---
-title: String GetSubscriptionUnit()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetSubscriptionUnit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetSubscriptionUnit
+description: NSQuoteLine.GetSubscriptionUnit()
+intellisense: NSQuoteLine.GetSubscriptionUnit
 keywords: GetSubscriptionUnit()
+so.topic: reference
 ---
 
 

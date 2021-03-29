@@ -1,10 +1,10 @@
 ---
-title: Integer GetLicenseType()
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/Integer GetLicenseType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_GetLicenseType
+description: NSGrantedModuleLicense.GetLicenseType()
+intellisense: NSGrantedModuleLicense.GetLicenseType
 sortOrder: 3885
 keywords: GetLicenseType()
+so.topic: reference
 ---
 
 

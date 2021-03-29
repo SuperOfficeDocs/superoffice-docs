@@ -1,9 +1,9 @@
 ---
-title: Integer GetUserType()
-path: /EJScript/Classes/NSUserInfo/Member functions/Integer GetUserType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_GetUserType
+description: NSUserInfo.GetUserType()
+intellisense: NSUserInfo.GetUserType
 keywords: GetUserType()
+so.topic: reference
 ---
 
 

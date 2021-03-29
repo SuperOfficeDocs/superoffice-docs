@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSFormEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetName
+description: NSFormEntity.GetName()
+intellisense: NSFormEntity.GetName
 sortOrder: 3804
 keywords: GetName()
+so.topic: reference
 ---
 
 

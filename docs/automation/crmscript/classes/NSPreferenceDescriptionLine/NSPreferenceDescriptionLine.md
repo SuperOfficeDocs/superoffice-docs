@@ -1,8 +1,8 @@
 ---
-title: NSPreferenceDescriptionLine
-path: /EJScript/Classes/NSPreferenceDescriptionLine
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescriptionLine
+description: NSPreferenceDescriptionLine
+intellisense: Void.NSPreferenceDescriptionLine
+so.topic: reference
 ---
 
 

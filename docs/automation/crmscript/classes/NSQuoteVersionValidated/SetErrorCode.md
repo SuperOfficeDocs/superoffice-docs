@@ -1,9 +1,9 @@
 ---
-title: Void SetErrorCode(String ErrorCode)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetErrorCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_SetErrorCode_String_p_0
+description: NSQuoteVersionValidated.SetErrorCode(String p_0)
+intellisense: NSQuoteVersionValidated.SetErrorCode
 keywords: SetErrorCode(String)
+so.topic: reference
 ---
 
 

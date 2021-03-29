@@ -1,9 +1,9 @@
 ---
-title: Void SetUDListDefinitionId(Integer UDListDefinitionId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetUDListDefinitionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetUDListDefinitionId_Integer_p_0
+description: NSUserDefinedFieldInfo.SetUDListDefinitionId(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetUDListDefinitionId
 keywords: SetUDListDefinitionId(Integer)
+so.topic: reference
 ---
 
 

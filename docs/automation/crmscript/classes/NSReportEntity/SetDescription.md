@@ -1,9 +1,9 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_SetDescription_String_p_0
+description: NSReportEntity.SetDescription(String p_0)
+intellisense: NSReportEntity.SetDescription
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

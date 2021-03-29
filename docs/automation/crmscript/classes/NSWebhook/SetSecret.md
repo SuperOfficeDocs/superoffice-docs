@@ -1,9 +1,9 @@
 ---
-title: Void SetSecret(String Secret)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetSecret(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetSecret_String_p_0
+description: NSWebhook.SetSecret(String p_0)
+intellisense: NSWebhook.SetSecret
 keywords: SetSecret(String)
+so.topic: reference
 ---
 
 

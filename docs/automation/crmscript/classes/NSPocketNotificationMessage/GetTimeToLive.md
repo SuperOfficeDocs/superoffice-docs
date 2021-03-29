@@ -1,9 +1,9 @@
 ---
-title: Integer GetTimeToLive()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Integer GetTimeToLive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetTimeToLive
+description: NSPocketNotificationMessage.GetTimeToLive()
+intellisense: NSPocketNotificationMessage.GetTimeToLive
 keywords: GetTimeToLive()
+so.topic: reference
 ---
 
 

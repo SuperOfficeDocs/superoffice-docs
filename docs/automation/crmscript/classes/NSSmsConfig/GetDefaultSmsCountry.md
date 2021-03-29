@@ -1,9 +1,9 @@
 ---
-title: String GetDefaultSmsCountry()
-path: /EJScript/Classes/NSSmsConfig/Member functions/String GetDefaultSmsCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_GetDefaultSmsCountry
+description: NSSmsConfig.GetDefaultSmsCountry()
+intellisense: NSSmsConfig.GetDefaultSmsCountry
 keywords: GetDefaultSmsCountry()
+so.topic: reference
 ---
 
 

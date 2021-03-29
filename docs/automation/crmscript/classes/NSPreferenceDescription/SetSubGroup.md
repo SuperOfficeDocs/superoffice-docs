@@ -1,9 +1,9 @@
 ---
-title: Void SetSubGroup(String SubGroup)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetSubGroup(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetSubGroup_String_p_0
+description: NSPreferenceDescription.SetSubGroup(String p_0)
+intellisense: NSPreferenceDescription.SetSubGroup
 keywords: SetSubGroup(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetNoMailing()
-path: /EJScript/Classes/NSContactEntity/Member functions/Bool GetNoMailing()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetNoMailing
+description: NSContactEntity.GetNoMailing()
+intellisense: NSContactEntity.GetNoMailing
 sortOrder: 1832
 keywords: GetNoMailing()
+so.topic: reference
 ---
 
 

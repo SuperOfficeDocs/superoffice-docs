@@ -1,10 +1,10 @@
 ---
-title: NSBlobEntity GetBlobEntity(Integer blobEntityId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity GetBlobEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetBlobEntity_Integer_p_0
+description: NSBLOBAgent.GetBlobEntity(Integer p_0)
+intellisense: NSBLOBAgent.GetBlobEntity
 sortOrder: 1410
 keywords: GetBlobEntity(Integer)
+so.topic: reference
 ---
 
 

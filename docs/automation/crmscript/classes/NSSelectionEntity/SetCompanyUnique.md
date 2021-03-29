@@ -1,9 +1,9 @@
 ---
-title: Void SetCompanyUnique(Bool CompanyUnique)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetCompanyUnique(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetCompanyUnique_Bool_p_0
+description: NSSelectionEntity.SetCompanyUnique(Bool p_0)
+intellisense: NSSelectionEntity.SetCompanyUnique
 keywords: SetCompanyUnique(Bool)
+so.topic: reference
 ---
 
 

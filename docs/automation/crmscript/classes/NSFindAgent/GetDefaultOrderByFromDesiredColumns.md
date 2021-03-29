@@ -1,10 +1,10 @@
 ---
-title: NSArchiveOrderByInfo[] GetDefaultOrderByFromDesiredColumns(String providerName, String[] desiredColumns)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveOrderByInfo[] GetDefaultOrderByFromDesiredColumns(String p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetDefaultOrderByFromDesiredColumns_String_p_0_String__p_1
+description: NSFindAgent.GetDefaultOrderByFromDesiredColumns(String p_0, String[] p_1)
+intellisense: NSFindAgent.GetDefaultOrderByFromDesiredColumns
 sortOrder: 3657
 keywords: GetDefaultOrderByFromDesiredColumns(String,String[])
+so.topic: reference
 ---
 
 

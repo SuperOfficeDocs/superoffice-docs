@@ -1,10 +1,10 @@
 ---
-title: Void addItem(String label, String url)
-path: /EJScript/Classes/MainMenu/Member functions/Void addItem(String label, String url)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu_addItem_String_label_String_url
+description: MainMenu.addItem(String label, String url)
+intellisense: MainMenu.addItem
 sortOrder: 513
 keywords: addItem(String,String)
+so.topic: reference
 ---
 
 # Void addItem(String label, String url)

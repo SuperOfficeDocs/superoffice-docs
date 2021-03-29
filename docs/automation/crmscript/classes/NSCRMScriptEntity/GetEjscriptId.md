@@ -1,10 +1,10 @@
 ---
-title: Integer GetEjscriptId()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Integer GetEjscriptId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_GetEjscriptId
+description: NSCRMScriptEntity.GetEjscriptId()
+intellisense: NSCRMScriptEntity.GetEjscriptId
 sortOrder: 2129
 keywords: GetEjscriptId()
+so.topic: reference
 ---
 
 

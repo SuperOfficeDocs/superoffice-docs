@@ -1,9 +1,9 @@
 ---
-title: NSTableRight GetNewTableRight(String tableName)
-path: /EJScript/Classes/NSSentryAgent/Member functions/NSTableRight GetNewTableRight(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent_GetNewTableRight_String_p_0
+description: NSSentryAgent.GetNewTableRight(String p_0)
+intellisense: NSSentryAgent.GetNewTableRight
 keywords: GetNewTableRight(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void setMessage(Integer messageId)
-path: /EJScript/Classes/SpmShipment/Member functions/Void setMessage(Integer messageId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmShipment_setMessage_Integer_messageId
+description: SpmShipment.setMessage(Integer messageId)
+intellisense: SpmShipment.setMessage
 keywords: setMessage(Integer)
+so.topic: reference
 ---
 
 

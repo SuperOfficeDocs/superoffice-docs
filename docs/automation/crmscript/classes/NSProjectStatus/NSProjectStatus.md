@@ -1,8 +1,8 @@
 ---
-title: NSProjectStatus
-path: /EJScript/Classes/NSProjectStatus
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectStatus
+description: NSProjectStatus
+intellisense: Void.NSProjectStatus
+so.topic: reference
 ---
 
 

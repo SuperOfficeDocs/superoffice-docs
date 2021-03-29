@@ -1,9 +1,9 @@
 ---
-title: DateTime GetLastChanged()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetLastChanged()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetLastChanged
+description: NSTicket.GetLastChanged()
+intellisense: NSTicket.GetLastChanged
 keywords: GetLastChanged()
+so.topic: reference
 ---
 
 

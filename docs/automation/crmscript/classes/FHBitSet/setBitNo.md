@@ -1,10 +1,10 @@
 ---
-title: Void setBitNo(Integer number, Bool val)
-path: /EJScript/Classes/FHBitSet/Member functions/Void setBitNo(Integer number, Bool val)
-intellisense: 1
-classref: 1
+title: crmscript_ref_FHBitSet_setBitNo_Integer_number_Bool_val
+description: FHBitSet.setBitNo(Integer number, Bool val)
+intellisense: FHBitSet.setBitNo
 sortOrder: 339
 keywords: setBitNo(Integer,Bool)
+so.topic: reference
 ---
 
 This function sets a specific bit.

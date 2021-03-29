@@ -1,9 +1,9 @@
 ---
-title: Integer GetFieldLeft()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetFieldLeft()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldLeft
+description: NSUserDefinedFieldInfo.GetFieldLeft()
+intellisense: NSUserDefinedFieldInfo.GetFieldLeft
 keywords: GetFieldLeft()
+so.topic: reference
 ---
 
 

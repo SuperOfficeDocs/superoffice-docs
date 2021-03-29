@@ -1,9 +1,9 @@
 ---
-title: Void SetUserDefinedFields(Map fields)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetUserDefinedFields(Map p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetUserDefinedFields_Map_p_0
+description: NSSaleEntity.SetUserDefinedFields(Map p_0)
+intellisense: NSSaleEntity.SetUserDefinedFields
 keywords: SetUserDefinedFields(Map)
+so.topic: reference
 ---
 
 

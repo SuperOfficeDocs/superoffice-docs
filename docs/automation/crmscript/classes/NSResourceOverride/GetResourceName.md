@@ -1,9 +1,9 @@
 ---
-title: String GetResourceName()
-path: /EJScript/Classes/NSResourceOverride/Member functions/String GetResourceName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_GetResourceName
+description: NSResourceOverride.GetResourceName()
+intellisense: NSResourceOverride.GetResourceName
 keywords: GetResourceName()
+so.topic: reference
 ---
 
 

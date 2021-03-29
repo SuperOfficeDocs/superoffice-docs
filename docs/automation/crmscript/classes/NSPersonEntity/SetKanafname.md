@@ -1,9 +1,9 @@
 ---
-title: Void SetKanafname(String Kanafname)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetKanafname(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetKanafname_String_p_0
+description: NSPersonEntity.SetKanafname(String p_0)
+intellisense: NSPersonEntity.SetKanafname
 keywords: SetKanafname(String)
+so.topic: reference
 ---
 
 

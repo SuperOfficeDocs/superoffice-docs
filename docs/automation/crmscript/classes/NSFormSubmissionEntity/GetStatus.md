@@ -1,10 +1,10 @@
 ---
-title: NSFormSubmissionStatus GetStatus()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/NSFormSubmissionStatus GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetStatus
+description: NSFormSubmissionEntity.GetStatus()
+intellisense: NSFormSubmissionEntity.GetStatus
 sortOrder: 3836
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity CreateDefaultDocumentEntity()
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity CreateDefaultDocumentEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateDefaultDocumentEntity
+description: NSDocumentAgent.CreateDefaultDocumentEntity()
+intellisense: NSDocumentAgent.CreateDefaultDocumentEntity
 sortOrder: 2498
 keywords: CreateDefaultDocumentEntity()
+so.topic: reference
 ---
 
 

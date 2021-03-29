@@ -1,9 +1,9 @@
 ---
-title: Bool GetAssigned()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Bool GetAssigned()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetAssigned
+description: NSModuleLicenseLink.GetAssigned()
+intellisense: NSModuleLicenseLink.GetAssigned
 keywords: GetAssigned()
+so.topic: reference
 ---
 
 

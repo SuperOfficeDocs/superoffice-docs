@@ -1,9 +1,9 @@
 ---
-title: Integer GetTargetId()
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Integer GetTargetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemporaryKeyInfo_GetTargetId
+description: NSTemporaryKeyInfo.GetTargetId()
+intellisense: NSTemporaryKeyInfo.GetTargetId
 keywords: GetTargetId()
+so.topic: reference
 ---
 
 

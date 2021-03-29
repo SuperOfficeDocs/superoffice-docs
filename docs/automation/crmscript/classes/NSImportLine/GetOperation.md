@@ -1,10 +1,10 @@
 ---
-title: Integer GetOperation()
-path: /EJScript/Classes/NSImportLine/Member functions/Integer GetOperation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_GetOperation
+description: NSImportLine.GetOperation()
+intellisense: NSImportLine.GetOperation
 sortOrder: 3975
 keywords: GetOperation()
+so.topic: reference
 ---
 
 

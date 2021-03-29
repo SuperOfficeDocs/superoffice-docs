@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeZoneDSTRules(NSTimeZoneRuleDictionary TimeZoneDSTRules)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTimeZoneDSTRules(NSTimeZoneRuleDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_SetTimeZoneDSTRules_NSTimeZoneRuleDictionary_p_0
+description: NSTimeZoneData.SetTimeZoneDSTRules(NSTimeZoneRuleDictionary p_0)
+intellisense: NSTimeZoneData.SetTimeZoneDSTRules
 keywords: SetTimeZoneDSTRules(NSTimeZoneRuleDictionary)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void increaseValueForKey(String p0, Float p1)
-path: /EJScript/Classes/Map/Member functions/Void increaseValueForKey(String p_0, Float p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map_increaseValueForKey_String_p_0_Float_p_1
+description: Map.increaseValueForKey(String p_0, Float p_1)
+intellisense: Map.increaseValueForKey
 sortOrder: 536
 keywords: increaseValueForKey(String,Float)
+so.topic: reference
 ---
 
 

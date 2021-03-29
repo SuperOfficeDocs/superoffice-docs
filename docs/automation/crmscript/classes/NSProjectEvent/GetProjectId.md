@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjectId()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetProjectId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetProjectId
+description: NSProjectEvent.GetProjectId()
+intellisense: NSProjectEvent.GetProjectId
 keywords: GetProjectId()
+so.topic: reference
 ---
 
 

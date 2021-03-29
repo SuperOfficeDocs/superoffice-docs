@@ -1,10 +1,10 @@
 ---
-title: String GetTablename()
-path: /EJScript/Classes/NSChangedDataItem/Member functions/String GetTablename()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChangedDataItem_GetTablename
+description: NSChangedDataItem.GetTablename()
+intellisense: NSChangedDataItem.GetTablename
 sortOrder: 1509
 keywords: GetTablename()
+so.topic: reference
 ---
 
 

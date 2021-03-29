@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetDescription
+description: NSStatusMonitor.GetDescription()
+intellisense: NSStatusMonitor.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

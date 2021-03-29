@@ -1,9 +1,9 @@
 ---
-title: String GetTitle()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/String GetTitle()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetTitle
+description: NSPocketNotificationMessage.GetTitle()
+intellisense: NSPocketNotificationMessage.GetTitle
 keywords: GetTitle()
+so.topic: reference
 ---
 
 

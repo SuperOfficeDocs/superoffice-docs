@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer sourceDocumentTemplateId, NSDocumentTemplateEntity documentTemplateEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SetDocumentTemplateFromDocumentTemplate(Integer p_0, NSDocumentTemplateEntity p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetDocumentTemplateFromDocumentTemplate_Integer_p_0_NSDocumentTemplateEntity_p_1
+description: NSListAgent.SetDocumentTemplateFromDocumentTemplate(Integer p_0, NSDocumentTemplateEntity p_1)
+intellisense: NSListAgent.SetDocumentTemplateFromDocumentTemplate
 keywords: SetDocumentTemplateFromDocumentTemplate(Integer,NSDocumentTemplateEntity)
+so.topic: reference
 ---
 
 

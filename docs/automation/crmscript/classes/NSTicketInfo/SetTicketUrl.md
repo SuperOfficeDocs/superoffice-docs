@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketUrl(String TicketUrl)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetTicketUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_SetTicketUrl_String_p_0
+description: NSTicketInfo.SetTicketUrl(String p_0)
+intellisense: NSTicketInfo.SetTicketUrl
 keywords: SetTicketUrl(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTemplateVariableName(String TemplateVariableName)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetTemplateVariableName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetTemplateVariableName_String_p_0
+description: NSUserDefinedFieldInfo.SetTemplateVariableName(String p_0)
+intellisense: NSUserDefinedFieldInfo.SetTemplateVariableName
 keywords: SetTemplateVariableName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity CreateNewPhysicalDocumentFromTemplate(Integer p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, String p_7)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateNewPhysicalDocumentFromTemplate_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3_Integer_p_4_Integer_p_5_Integer_p_6_String_p_7
+description: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate(Integer p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, String p_7)
+intellisense: NSDocumentAgent.CreateNewPhysicalDocumentFromTemplate
 sortOrder: 2500
 keywords: CreateNewPhysicalDocumentFromTemplate(Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+so.topic: reference
 ---
 
 

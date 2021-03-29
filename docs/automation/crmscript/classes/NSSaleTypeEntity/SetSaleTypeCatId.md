@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleTypeCatId(Integer SaleTypeCatId)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetSaleTypeCatId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetSaleTypeCatId_Integer_p_0
+description: NSSaleTypeEntity.SetSaleTypeCatId(Integer p_0)
+intellisense: NSSaleTypeEntity.SetSaleTypeCatId
 keywords: SetSaleTypeCatId(Integer)
+so.topic: reference
 ---
 
 

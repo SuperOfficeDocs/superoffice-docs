@@ -1,8 +1,8 @@
 ---
-title: Timer
-path: /EJScript/Classes/Timer
-intellisense: 1
-classref: 1
+title: crmscript_ref_Timer
+description: Timer
+intellisense: Void.Timer
+so.topic: reference
 ---
 
 

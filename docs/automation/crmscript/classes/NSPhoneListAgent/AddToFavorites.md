@@ -1,9 +1,9 @@
 ---
-title: Integer AddToFavorites(Integer contactId)
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/Integer AddToFavorites(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_AddToFavorites_Integer_p_0
+description: NSPhoneListAgent.AddToFavorites(Integer p_0)
+intellisense: NSPhoneListAgent.AddToFavorites
 keywords: AddToFavorites(Integer)
+so.topic: reference
 ---
 
 

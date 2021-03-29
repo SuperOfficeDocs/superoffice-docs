@@ -1,9 +1,9 @@
 ---
-title: Bool GetSynchronous()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetSynchronous()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetSynchronous
+description: NSMailMergeSettings.GetSynchronous()
+intellisense: NSMailMergeSettings.GetSynchronous
 keywords: GetSynchronous()
+so.topic: reference
 ---
 
 

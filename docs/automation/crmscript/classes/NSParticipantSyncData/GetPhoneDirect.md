@@ -1,9 +1,9 @@
 ---
-title: String[] GetPhoneDirect()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetPhoneDirect()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPhoneDirect
+description: NSParticipantSyncData.GetPhoneDirect()
+intellisense: NSParticipantSyncData.GetPhoneDirect
 keywords: GetPhoneDirect()
+so.topic: reference
 ---
 
 

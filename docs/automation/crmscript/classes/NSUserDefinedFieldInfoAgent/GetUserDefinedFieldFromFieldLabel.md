@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(String fieldLabel, Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo GetUserDefinedFieldFromFieldLabel(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetUserDefinedFieldFromFieldLabel_String_p_0_Integer_p_1
+description: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel(String p_0, Integer p_1)
+intellisense: NSUserDefinedFieldInfoAgent.GetUserDefinedFieldFromFieldLabel
 keywords: GetUserDefinedFieldFromFieldLabel(String,Integer)
+so.topic: reference
 ---
 
 

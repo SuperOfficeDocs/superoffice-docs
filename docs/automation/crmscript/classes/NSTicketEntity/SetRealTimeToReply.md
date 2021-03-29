@@ -1,9 +1,9 @@
 ---
-title: Void SetRealTimeToReply(Integer RealTimeToReply)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetRealTimeToReply(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetRealTimeToReply_Integer_p_0
+description: NSTicketEntity.SetRealTimeToReply(Integer p_0)
+intellisense: NSTicketEntity.SetRealTimeToReply
 keywords: SetRealTimeToReply(Integer)
+so.topic: reference
 ---
 
 

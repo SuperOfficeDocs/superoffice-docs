@@ -1,10 +1,10 @@
 ---
-title: NSLocalizedField[][] GetAddress()
-path: /EJScript/Classes/NSContact/Member functions/NSLocalizedField[][] GetAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetAddress
+description: NSContact.GetAddress()
+intellisense: NSContact.GetAddress
 sortOrder: 1724
 keywords: GetAddress()
+so.topic: reference
 ---
 
 

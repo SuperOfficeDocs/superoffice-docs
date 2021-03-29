@@ -1,10 +1,10 @@
 ---
-title: Bool GetPresent()
-path: /EJScript/Classes/NSChatPresence/Member functions/Bool GetPresent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_GetPresent
+description: NSChatPresence.GetPresent()
+intellisense: NSChatPresence.GetPresent
 sortOrder: 1519
 keywords: GetPresent()
+so.topic: reference
 ---
 
 

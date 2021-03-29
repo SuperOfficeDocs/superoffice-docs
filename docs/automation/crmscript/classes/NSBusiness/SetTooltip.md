@@ -1,10 +1,10 @@
 ---
-title: Void SetTooltip(String tooltip)
-path: /EJScript/Classes/NSBusiness/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBusiness_SetTooltip_String_p_0
+description: NSBusiness.SetTooltip(String p_0)
+intellisense: NSBusiness.SetTooltip
 sortOrder: 1482
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

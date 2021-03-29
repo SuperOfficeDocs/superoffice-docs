@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetId
+description: NSSelectableMDOListItem.GetId()
+intellisense: NSSelectableMDOListItem.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

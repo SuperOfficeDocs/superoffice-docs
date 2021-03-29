@@ -1,9 +1,9 @@
 ---
-title: NSModuleLicenseLink[] GetUnrestrictedModuleLicenses()
-path: /EJScript/Classes/NSLicenseOwner/Member functions/NSModuleLicenseLink[] GetUnrestrictedModuleLicenses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseOwner_GetUnrestrictedModuleLicenses
+description: NSLicenseOwner.GetUnrestrictedModuleLicenses()
+intellisense: NSLicenseOwner.GetUnrestrictedModuleLicenses
 keywords: GetUnrestrictedModuleLicenses()
+so.topic: reference
 ---
 
 

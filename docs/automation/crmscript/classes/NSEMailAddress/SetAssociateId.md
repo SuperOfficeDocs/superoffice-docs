@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_SetAssociateId_Integer_p_0
+description: NSEMailAddress.SetAssociateId(Integer p_0)
+intellisense: NSEMailAddress.SetAssociateId
 sortOrder: 2772
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem_SetRegistered_DateTime_p_0
+description: NSActivitySummaryItem.SetRegistered(DateTime p_0)
+intellisense: NSActivitySummaryItem.SetRegistered
 sortOrder: 606
 keywords: SetRegistered(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetTooltip
+description: NSSuggestedAppointment.GetTooltip()
+intellisense: NSSuggestedAppointment.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

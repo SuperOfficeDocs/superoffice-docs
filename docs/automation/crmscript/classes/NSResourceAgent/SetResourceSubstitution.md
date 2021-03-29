@@ -1,9 +1,9 @@
 ---
-title: Void SetResourceSubstitution(String resourceName, String resourceValues, String culture, Bool isActive)
-path: /EJScript/Classes/NSResourceAgent/Member functions/Void SetResourceSubstitution(String p_0, String p_1, String p_2, Bool p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceAgent_SetResourceSubstitution_String_p_0_String_p_1_String_p_2_Bool_p_3
+description: NSResourceAgent.SetResourceSubstitution(String p_0, String p_1, String p_2, Bool p_3)
+intellisense: NSResourceAgent.SetResourceSubstitution
 keywords: SetResourceSubstitution(String,String,String,Bool)
+so.topic: reference
 ---
 
 

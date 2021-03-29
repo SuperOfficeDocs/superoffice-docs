@@ -1,9 +1,9 @@
 ---
-title: String GetPriorityName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetPriorityName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_GetPriorityName
+description: NSTicketInfo.GetPriorityName()
+intellisense: NSTicketInfo.GetPriorityName
 keywords: GetPriorityName()
+so.topic: reference
 ---
 
 

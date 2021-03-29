@@ -1,9 +1,9 @@
 ---
-title: Void SetNoEmailReopen(Bool NoEmailReopen)
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/Void SetNoEmailReopen(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketStatusEntity_SetNoEmailReopen_Bool_p_0
+description: NSTicketStatusEntity.SetNoEmailReopen(Bool p_0)
+intellisense: NSTicketStatusEntity.SetNoEmailReopen
 keywords: SetNoEmailReopen(Bool)
+so.topic: reference
 ---
 
 

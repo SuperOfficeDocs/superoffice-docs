@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonFaxNumber(String PersonFaxNumber)
-path: /EJScript/Classes/NSPhoneListItem/Member functions/Void SetPersonFaxNumber(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_SetPersonFaxNumber_String_p_0
+description: NSPhoneListItem.SetPersonFaxNumber(String p_0)
+intellisense: NSPhoneListItem.SetPersonFaxNumber
 keywords: SetPersonFaxNumber(String)
+so.topic: reference
 ---
 
 

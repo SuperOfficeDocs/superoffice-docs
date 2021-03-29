@@ -1,9 +1,9 @@
 ---
-title: Float GetEarning()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Float GetEarning()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetEarning
+description: NSSaleEntity.GetEarning()
+intellisense: NSSaleEntity.GetEarning
 keywords: GetEarning()
+so.topic: reference
 ---
 
 

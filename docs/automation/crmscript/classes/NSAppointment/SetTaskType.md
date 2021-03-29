@@ -1,10 +1,10 @@
 ---
-title: Void SetTaskType(Integer TaskType)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetTaskType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetTaskType_Integer_p_0
+description: NSAppointment.SetTaskType(Integer p_0)
+intellisense: NSAppointment.SetTaskType
 sortOrder: 819
 keywords: SetTaskType(Integer)
+so.topic: reference
 ---
 
 

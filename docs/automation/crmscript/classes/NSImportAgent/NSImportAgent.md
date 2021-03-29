@@ -1,9 +1,9 @@
 ---
-title: NSImportAgent
-path: /EJScript/Classes/NSImportAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportAgent
+description: NSImportAgent
+intellisense: Void.NSImportAgent
 sortOrder: 3952
+so.topic: reference
 ---
 
 

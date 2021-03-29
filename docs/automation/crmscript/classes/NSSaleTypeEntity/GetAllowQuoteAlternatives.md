@@ -1,9 +1,9 @@
 ---
-title: Bool GetAllowQuoteAlternatives()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetAllowQuoteAlternatives()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetAllowQuoteAlternatives
+description: NSSaleTypeEntity.GetAllowQuoteAlternatives()
+intellisense: NSSaleTypeEntity.GetAllowQuoteAlternatives
 keywords: GetAllowQuoteAlternatives()
+so.topic: reference
 ---
 
 

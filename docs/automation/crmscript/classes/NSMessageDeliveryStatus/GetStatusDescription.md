@@ -1,9 +1,9 @@
 ---
-title: String GetStatusDescription()
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/String GetStatusDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus_GetStatusDescription
+description: NSMessageDeliveryStatus.GetStatusDescription()
+intellisense: NSMessageDeliveryStatus.GetStatusDescription
 keywords: GetStatusDescription()
+so.topic: reference
 ---
 
 

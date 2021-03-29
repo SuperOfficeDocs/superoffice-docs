@@ -1,9 +1,9 @@
 ---
-title: Void SetEventmess(String Eventmess)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetEventmess(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetEventmess_String_p_0
+description: NSSystemEventEntity.SetEventmess(String p_0)
+intellisense: NSSystemEventEntity.SetEventmess
 keywords: SetEventmess(String)
+so.topic: reference
 ---
 
 

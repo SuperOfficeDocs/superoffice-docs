@@ -1,9 +1,9 @@
 ---
-title: Void SetWebhookId(Integer WebhookId)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetWebhookId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetWebhookId_Integer_p_0
+description: NSWebhook.SetWebhookId(Integer p_0)
+intellisense: NSWebhook.SetWebhookId
 keywords: SetWebhookId(Integer)
+so.topic: reference
 ---
 
 

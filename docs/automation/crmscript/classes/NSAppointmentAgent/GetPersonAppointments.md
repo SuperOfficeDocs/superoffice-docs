@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetPersonAppointments(Integer personId, Bool includeProjectAppointments, DateTime startTime, DateTime endTime, Integer count)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetPersonAppointments(Integer p_0, Bool p_1, DateTime p_2, DateTime p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetPersonAppointments_Integer_p_0_Bool_p_1_DateTime_p_2_DateTime_p_3_Integer_p_4
+description: NSAppointmentAgent.GetPersonAppointments(Integer p_0, Bool p_1, DateTime p_2, DateTime p_3, Integer p_4)
+intellisense: NSAppointmentAgent.GetPersonAppointments
 sortOrder: 852
 keywords: GetPersonAppointments(Integer,Bool,DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

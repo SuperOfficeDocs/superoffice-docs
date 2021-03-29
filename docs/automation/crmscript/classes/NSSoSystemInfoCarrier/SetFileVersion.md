@@ -1,9 +1,9 @@
 ---
-title: Void SetFileVersion(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetFileVersion(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetFileVersion_String_p_0
+description: NSSoSystemInfoCarrier.SetFileVersion(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetFileVersion
 keywords: SetFileVersion(String)
+so.topic: reference
 ---
 
 

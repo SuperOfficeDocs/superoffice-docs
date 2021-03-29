@@ -1,9 +1,9 @@
 ---
-title: Integer GetTargetId()
-path: /EJScript/Classes/NSPreference/Member functions/Integer GetTargetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetTargetId
+description: NSPreference.GetTargetId()
+intellisense: NSPreference.GetTargetId
 keywords: GetTargetId()
+so.topic: reference
 ---
 
 

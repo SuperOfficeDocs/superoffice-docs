@@ -1,10 +1,10 @@
 ---
-title: NSReturnInfo UndoCheckoutDocument(Integer documentId, String[] allowedReturnTypes)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSReturnInfo UndoCheckoutDocument(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_UndoCheckoutDocument_Integer_p_0_String__p_1
+description: NSDocumentAgent.UndoCheckoutDocument(Integer p_0, String[] p_1)
+intellisense: NSDocumentAgent.UndoCheckoutDocument
 sortOrder: 2513
 keywords: UndoCheckoutDocument(Integer,String[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInMenuBar()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetShowInMenuBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetShowInMenuBar
+description: NSExtAppEntity.GetShowInMenuBar()
+intellisense: NSExtAppEntity.GetShowInMenuBar
 sortOrder: 3363
 keywords: GetShowInMenuBar()
+so.topic: reference
 ---
 
 

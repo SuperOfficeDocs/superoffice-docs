@@ -1,9 +1,9 @@
 ---
-title: Time getThuStop()
-path: /EJScript/Classes/WeekSchedule/Member functions/Time getThuStop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_getThuStop
+description: WeekSchedule.getThuStop()
+intellisense: WeekSchedule.getThuStop
 keywords: getThuStop()
+so.topic: reference
 ---
 
 

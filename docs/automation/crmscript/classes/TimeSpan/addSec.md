@@ -1,9 +1,9 @@
 ---
-title: Void addSec(Integer num)
-path: /EJScript/Classes/TimeSpan/Member functions/Void addSec(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_addSec_Integer_num
+description: TimeSpan.addSec(Integer num)
+intellisense: TimeSpan.addSec
 keywords: addSec(Integer)
+so.topic: reference
 ---
 
 

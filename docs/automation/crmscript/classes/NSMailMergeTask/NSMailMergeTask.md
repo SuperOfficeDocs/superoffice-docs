@@ -1,8 +1,8 @@
 ---
-title: NSMailMergeTask
-path: /EJScript/Classes/NSMailMergeTask
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask
+description: NSMailMergeTask
+intellisense: Void.NSMailMergeTask
+so.topic: reference
 ---
 
 

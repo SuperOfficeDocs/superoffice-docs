@@ -1,10 +1,10 @@
 ---
-title: String GetProgramUrl(String programName, Bool external)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/String GetProgramUrl(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_GetProgramUrl_String_p_0_Bool_p_1
+description: NSCustomerServiceAgent.GetProgramUrl(String p_0, Bool p_1)
+intellisense: NSCustomerServiceAgent.GetProgramUrl
 sortOrder: 2244
 keywords: GetProgramUrl(String,Bool)
+so.topic: reference
 ---
 
 

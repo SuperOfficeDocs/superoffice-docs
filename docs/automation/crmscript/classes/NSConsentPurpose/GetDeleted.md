@@ -1,10 +1,10 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_GetDeleted
+description: NSConsentPurpose.GetDeleted()
+intellisense: NSConsentPurpose.GetDeleted
 sortOrder: 1674
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

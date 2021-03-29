@@ -1,10 +1,10 @@
 ---
-title: NSAudienceConfigParameter GetConfigParameter(String layoutName, String parameterName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter GetConfigParameter(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetConfigParameter_String_p_0_String_p_1
+description: NSAudienceAgent.GetConfigParameter(String p_0, String p_1)
+intellisense: NSAudienceAgent.GetConfigParameter
 sortOrder: 1290
 keywords: GetConfigParameter(String,String)
+so.topic: reference
 ---
 
 

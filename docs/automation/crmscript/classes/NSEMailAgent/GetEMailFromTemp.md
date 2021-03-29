@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetEMailFromTemp(String p0)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetEMailFromTemp(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailFromTemp_String_p_0
+description: NSEMailAgent.GetEMailFromTemp(String p_0)
+intellisense: NSEMailAgent.GetEMailFromTemp
 sortOrder: 2823
 keywords: GetEMailFromTemp(String)
+so.topic: reference
 ---
 
 

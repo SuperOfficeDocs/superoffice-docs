@@ -1,9 +1,9 @@
 ---
-title: Void SetNumNeedUpdate(Integer NumNeedUpdate)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetNumNeedUpdate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetNumNeedUpdate_Integer_p_0
+description: NSStatusMonitor.SetNumNeedUpdate(Integer p_0)
+intellisense: NSStatusMonitor.SetNumNeedUpdate
 keywords: SetNumNeedUpdate(Integer)
+so.topic: reference
 ---
 
 

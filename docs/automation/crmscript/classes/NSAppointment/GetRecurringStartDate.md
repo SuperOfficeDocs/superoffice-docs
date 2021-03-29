@@ -1,10 +1,10 @@
 ---
-title: DateTime GetRecurringStartDate()
-path: /EJScript/Classes/NSAppointment/Member functions/DateTime GetRecurringStartDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetRecurringStartDate
+description: NSAppointment.GetRecurringStartDate()
+intellisense: NSAppointment.GetRecurringStartDate
 sortOrder: 724
 keywords: GetRecurringStartDate()
+so.topic: reference
 ---
 
 

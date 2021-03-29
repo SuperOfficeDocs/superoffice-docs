@@ -1,10 +1,10 @@
 ---
-title: Void SetSeen(Integer appointmentId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void SetSeen(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_SetSeen_Integer_p_0_Integer_p_1
+description: NSAppointmentAgent.SetSeen(Integer p_0, Integer p_1)
+intellisense: NSAppointmentAgent.SetSeen
 sortOrder: 920
 keywords: SetSeen(Integer,Integer)
+so.topic: reference
 ---
 
 

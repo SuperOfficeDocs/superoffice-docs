@@ -1,9 +1,9 @@
 ---
-title: String GetFrom()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_GetFrom
+description: NSOutgoingMessage.GetFrom()
+intellisense: NSOutgoingMessage.GetFrom
 keywords: GetFrom()
+so.topic: reference
 ---
 
 

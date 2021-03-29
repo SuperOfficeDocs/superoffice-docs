@@ -1,9 +1,9 @@
 ---
-title: Integer getNumColumns(Integer row)
-path: /EJScript/Classes/StringMatrix/Member functions/Integer getNumColumns(Integer row)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_getNumColumns_Integer_row
+description: StringMatrix.getNumColumns(Integer row)
+intellisense: StringMatrix.getNumColumns
 keywords: getNumColumns(Integer)
+so.topic: reference
 ---
 
 

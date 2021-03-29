@@ -1,9 +1,9 @@
 ---
-title: String GetErrorMessage()
-path: /EJScript/Classes/NSSmtpTestResult/Member functions/String GetErrorMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmtpTestResult_GetErrorMessage
+description: NSSmtpTestResult.GetErrorMessage()
+intellisense: NSSmtpTestResult.GetErrorMessage
 keywords: GetErrorMessage()
+so.topic: reference
 ---
 
 

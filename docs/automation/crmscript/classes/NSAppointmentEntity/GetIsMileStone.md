@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsMileStone()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetIsMileStone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetIsMileStone
+description: NSAppointmentEntity.GetIsMileStone()
+intellisense: NSAppointmentEntity.GetIsMileStone
 sortOrder: 929
 keywords: GetIsMileStone()
+so.topic: reference
 ---
 
 

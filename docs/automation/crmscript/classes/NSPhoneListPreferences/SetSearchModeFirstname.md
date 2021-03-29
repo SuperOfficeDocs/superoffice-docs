@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchModeFirstname(Integer SearchModeFirstname)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchModeFirstname(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_SetSearchModeFirstname_Integer_p_0
+description: NSPhoneListPreferences.SetSearchModeFirstname(Integer p_0)
+intellisense: NSPhoneListPreferences.SetSearchModeFirstname
 keywords: SetSearchModeFirstname(Integer)
+so.topic: reference
 ---
 
 

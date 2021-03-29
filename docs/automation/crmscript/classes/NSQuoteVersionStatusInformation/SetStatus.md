@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(Integer Status)
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetStatus_Integer_p_0
+description: NSQuoteVersionStatusInformation.SetStatus(Integer p_0)
+intellisense: NSQuoteVersionStatusInformation.SetStatus
 keywords: SetStatus(Integer)
+so.topic: reference
 ---
 
 

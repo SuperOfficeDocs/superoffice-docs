@@ -1,9 +1,9 @@
 ---
-title: Void SetEventkey(String Eventkey)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetEventkey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetEventkey_String_p_0
+description: NSSystemEventEntity.SetEventkey(String p_0)
+intellisense: NSSystemEventEntity.SetEventkey
 keywords: SetEventkey(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetJobResultAsJsonFromBinaryObjectId(String tableName, Integer binaryObjectId)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/String GetJobResultAsJsonFromBinaryObjectId(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_GetJobResultAsJsonFromBinaryObjectId_String_p_0_Integer_p_1
+description: NSBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId(String p_0, Integer p_1)
+intellisense: NSBulkUpdateAgent.GetJobResultAsJsonFromBinaryObjectId
 sortOrder: 1474
 keywords: GetJobResultAsJsonFromBinaryObjectId(String,Integer)
+so.topic: reference
 ---
 
 

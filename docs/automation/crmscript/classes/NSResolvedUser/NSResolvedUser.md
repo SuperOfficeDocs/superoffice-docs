@@ -1,8 +1,8 @@
 ---
-title: NSResolvedUser
-path: /EJScript/Classes/NSResolvedUser
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResolvedUser
+description: NSResolvedUser
+intellisense: Void.NSResolvedUser
+so.topic: reference
 ---
 
 

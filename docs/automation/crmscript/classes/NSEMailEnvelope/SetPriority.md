@@ -1,10 +1,10 @@
 ---
-title: Void SetPriority(Integer Priority)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetPriority(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_SetPriority_Integer_p_0
+description: NSEMailEnvelope.SetPriority(Integer p_0)
+intellisense: NSEMailEnvelope.SetPriority
 sortOrder: 3019
 keywords: SetPriority(Integer)
+so.topic: reference
 ---
 
 

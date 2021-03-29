@@ -1,9 +1,9 @@
 ---
-title: Void SetSignature(String Signature)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetSignature(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_SetSignature_String_p_0
+description: NSSignedPublicKey.SetSignature(String p_0)
+intellisense: NSSignedPublicKey.SetSignature
 keywords: SetSignature(String)
+so.topic: reference
 ---
 
 

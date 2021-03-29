@@ -1,9 +1,9 @@
 ---
-title: Void SetReadByOwner(DateTime ReadByOwner)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetReadByOwner(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetReadByOwner_DateTime_p_0
+description: NSTicket.SetReadByOwner(DateTime p_0)
+intellisense: NSTicket.SetReadByOwner
 keywords: SetReadByOwner(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetPocketVersion()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetPocketVersion()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetPocketVersion
+description: NSPocketDeviceInfo.GetPocketVersion()
+intellisense: NSPocketDeviceInfo.GetPocketVersion
 keywords: GetPocketVersion()
+so.topic: reference
 ---
 
 

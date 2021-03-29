@@ -1,9 +1,9 @@
 ---
-title: NSCategory[] GetCategoryList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCategory[] GetCategoryList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCategoryList_Integer__p_0
+description: NSListAgent.GetCategoryList(Integer[] p_0)
+intellisense: NSListAgent.GetCategoryList
 keywords: GetCategoryList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Category objects.

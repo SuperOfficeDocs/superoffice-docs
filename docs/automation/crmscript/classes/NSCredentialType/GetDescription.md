@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSCredentialType/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_GetDescription
+description: NSCredentialType.GetDescription()
+intellisense: NSCredentialType.GetDescription
 sortOrder: 2074
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

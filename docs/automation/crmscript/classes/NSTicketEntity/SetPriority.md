@@ -1,9 +1,9 @@
 ---
-title: Void SetPriority(NSTicketPriorityEntity Priority)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetPriority(NSTicketPriorityEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetPriority_NSTicketPriorityEntity_p_0
+description: NSTicketEntity.SetPriority(NSTicketPriorityEntity p_0)
+intellisense: NSTicketEntity.SetPriority
 keywords: SetPriority(NSTicketPriorityEntity)
+so.topic: reference
 ---
 
 

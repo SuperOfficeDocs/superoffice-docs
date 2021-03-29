@@ -1,8 +1,8 @@
 ---
-title: NSPriceList
-path: /EJScript/Classes/NSPriceList
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList
+description: NSPriceList
+intellisense: Void.NSPriceList
+so.topic: reference
 ---
 
 

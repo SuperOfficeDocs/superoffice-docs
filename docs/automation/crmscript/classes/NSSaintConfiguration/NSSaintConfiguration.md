@@ -1,8 +1,8 @@
 ---
-title: NSSaintConfiguration
-path: /EJScript/Classes/NSSaintConfiguration
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration
+description: NSSaintConfiguration
+intellisense: Void.NSSaintConfiguration
+so.topic: reference
 ---
 
 

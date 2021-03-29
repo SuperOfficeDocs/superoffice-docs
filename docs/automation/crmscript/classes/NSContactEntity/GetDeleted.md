@@ -1,10 +1,10 @@
 ---
-title: Integer GetDeleted()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetDeleted
+description: NSContactEntity.GetDeleted()
+intellisense: NSContactEntity.GetDeleted
 sortOrder: 1843
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

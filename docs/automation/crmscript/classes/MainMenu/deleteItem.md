@@ -1,10 +1,10 @@
 ---
-title: Void deleteItem(Integer group, Integer index)
-path: /EJScript/Classes/MainMenu/Member functions/Void deleteItem(Integer group, Integer index)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu_deleteItem_Integer_group_Integer_index
+description: MainMenu.deleteItem(Integer group, Integer index)
+intellisense: MainMenu.deleteItem
 sortOrder: 519
 keywords: deleteItem(Integer,Integer)
+so.topic: reference
 ---
 
 

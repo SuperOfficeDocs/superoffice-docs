@@ -1,9 +1,9 @@
 ---
-title: Void SetCheckedInByAssociateId(Integer CheckedInByAssociateId)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetCheckedInByAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_SetCheckedInByAssociateId_Integer_p_0
+description: NSVersionInfo.SetCheckedInByAssociateId(Integer p_0)
+intellisense: NSVersionInfo.SetCheckedInByAssociateId
 keywords: SetCheckedInByAssociateId(Integer)
+so.topic: reference
 ---
 
 

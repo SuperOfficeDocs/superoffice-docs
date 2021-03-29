@@ -1,10 +1,10 @@
 ---
-title: Void SetServerName(String ServerName)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetServerName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetServerName_String_p_0
+description: NSEMailConnectionInfoExtended.SetServerName(String p_0)
+intellisense: NSEMailConnectionInfoExtended.SetServerName
 sortOrder: 2933
 keywords: SetServerName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSLink[] GetLinks()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSLink[] GetLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetLinks
+description: NSAppointmentEntity.GetLinks()
+intellisense: NSAppointmentEntity.GetLinks
 sortOrder: 964
 keywords: GetLinks()
+so.topic: reference
 ---
 
 

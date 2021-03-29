@@ -1,9 +1,9 @@
 ---
-title: Void SetOnSattelite(Bool p0)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnSattelite(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetOnSattelite_Bool_p_0
+description: NSWebPanelEntity.SetOnSattelite(Bool p_0)
+intellisense: NSWebPanelEntity.SetOnSattelite
 keywords: SetOnSattelite(Bool)
+so.topic: reference
 ---
 
 

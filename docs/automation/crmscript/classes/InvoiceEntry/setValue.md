@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String field, String value)
-path: /EJScript/Classes/InvoiceEntry/Member functions/Void setValue(String field, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_InvoiceEntry_setValue_String_field_String_value
+description: InvoiceEntry.setValue(String field, String value)
+intellisense: InvoiceEntry.setValue
 sortOrder: 441
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer getLength()
-path: /EJScript/Classes/String/Member functions/Integer getLength()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_getLength
+description: String.getLength()
+intellisense: String.getLength
 keywords: getLength()
+so.topic: reference
 ---
 
 

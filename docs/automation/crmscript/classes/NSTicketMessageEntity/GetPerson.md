@@ -1,9 +1,9 @@
 ---
-title: NSPerson GetPerson()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSPerson GetPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetPerson
+description: NSTicketMessageEntity.GetPerson()
+intellisense: NSTicketMessageEntity.GetPerson
 keywords: GetPerson()
+so.topic: reference
 ---
 
 

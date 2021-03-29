@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncActorTypeMapping SaveActorTypeMapping(NSErpSyncActorTypeMapping mapping)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncActorTypeMapping SaveActorTypeMapping(NSErpSyncActorTypeMapping p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SaveActorTypeMapping_NSErpSyncActorTypeMapping_p_0
+description: NSErpSyncAgent.SaveActorTypeMapping(NSErpSyncActorTypeMapping p_0)
+intellisense: NSErpSyncAgent.SaveActorTypeMapping
 sortOrder: 3198
 keywords: SaveActorTypeMapping(NSErpSyncActorTypeMapping)
+so.topic: reference
 ---
 
 

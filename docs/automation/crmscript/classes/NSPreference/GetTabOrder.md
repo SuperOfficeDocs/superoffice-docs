@@ -1,9 +1,9 @@
 ---
-title: NSTabOrder GetTabOrder()
-path: /EJScript/Classes/NSPreference/Member functions/NSTabOrder GetTabOrder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetTabOrder
+description: NSPreference.GetTabOrder()
+intellisense: NSPreference.GetTabOrder
 keywords: GetTabOrder()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetViewState(String ViewState)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetViewState(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_SetViewState_String_p_0
+description: NSWebAppUsage.SetViewState(String p_0)
+intellisense: NSWebAppUsage.SetViewState
 keywords: SetViewState(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetOSVersion()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetOSVersion()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetOSVersion
+description: NSPocketDeviceInfo.GetOSVersion()
+intellisense: NSPocketDeviceInfo.GetOSVersion
 keywords: GetOSVersion()
+so.topic: reference
 ---
 
 

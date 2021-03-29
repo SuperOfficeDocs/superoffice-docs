@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity CreateEMailFromDocumentEntity(NSDocumentEntity documentEntity)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity CreateEMailFromDocumentEntity(NSDocumentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateEMailFromDocumentEntity_NSDocumentEntity_p_0
+description: NSEMailAgent.CreateEMailFromDocumentEntity(NSDocumentEntity p_0)
+intellisense: NSEMailAgent.CreateEMailFromDocumentEntity
 sortOrder: 2813
 keywords: CreateEMailFromDocumentEntity(NSDocumentEntity)
+so.topic: reference
 ---
 
 

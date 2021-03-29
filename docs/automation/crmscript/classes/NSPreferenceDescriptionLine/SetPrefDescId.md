@@ -1,9 +1,9 @@
 ---
-title: Void SetPrefDescId(Integer PrefDescId)
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Void SetPrefDescId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefDescId_Integer_p_0
+description: NSPreferenceDescriptionLine.SetPrefDescId(Integer p_0)
+intellisense: NSPreferenceDescriptionLine.SetPrefDescId
 keywords: SetPrefDescId(Integer)
+so.topic: reference
 ---
 
 

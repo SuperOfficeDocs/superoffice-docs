@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOffTaskId(Integer SignOffTaskId)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOffTaskId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetSignOffTaskId_Integer_p_0
+description: NSProjectEventEntity.SetSignOffTaskId(Integer p_0)
+intellisense: NSProjectEventEntity.SetSignOffTaskId
 keywords: SetSignOffTaskId(Integer)
+so.topic: reference
 ---
 
 

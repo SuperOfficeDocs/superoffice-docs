@@ -1,10 +1,10 @@
 ---
-title: String[] GetParticipants()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/String[] GetParticipants()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_GetParticipants
+description: NSEMailAppointment.GetParticipants()
+intellisense: NSEMailAppointment.GetParticipants
 sortOrder: 2881
 keywords: GetParticipants()
+so.topic: reference
 ---
 
 

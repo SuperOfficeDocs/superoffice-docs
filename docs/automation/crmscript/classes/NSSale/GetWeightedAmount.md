@@ -1,9 +1,9 @@
 ---
-title: Float GetWeightedAmount()
-path: /EJScript/Classes/NSSale/Member functions/Float GetWeightedAmount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetWeightedAmount
+description: NSSale.GetWeightedAmount()
+intellisense: NSSale.GetWeightedAmount
 keywords: GetWeightedAmount()
+so.topic: reference
 ---
 
 

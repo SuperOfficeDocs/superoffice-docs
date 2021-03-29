@@ -1,9 +1,9 @@
 ---
-title: NSBlobEntity
-path: /EJScript/Classes/NSBlobEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity
+description: NSBlobEntity
+intellisense: Void.NSBlobEntity
 sortOrder: 1438
+so.topic: reference
 ---
 
 

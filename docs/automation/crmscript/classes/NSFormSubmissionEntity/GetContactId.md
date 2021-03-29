@@ -1,10 +1,10 @@
 ---
-title: Integer GetContactId()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetContactId
+description: NSFormSubmissionEntity.GetContactId()
+intellisense: NSFormSubmissionEntity.GetContactId
 sortOrder: 3831
 keywords: GetContactId()
+so.topic: reference
 ---
 
 

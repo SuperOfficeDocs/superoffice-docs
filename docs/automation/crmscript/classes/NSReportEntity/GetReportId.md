@@ -1,9 +1,9 @@
 ---
-title: Integer GetReportId()
-path: /EJScript/Classes/NSReportEntity/Member functions/Integer GetReportId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_GetReportId
+description: NSReportEntity.GetReportId()
+intellisense: NSReportEntity.GetReportId
 keywords: GetReportId()
+so.topic: reference
 ---
 
 

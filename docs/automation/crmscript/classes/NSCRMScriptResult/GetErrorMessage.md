@@ -1,10 +1,10 @@
 ---
-title: String GetErrorMessage()
-path: /EJScript/Classes/NSCRMScriptResult/Member functions/String GetErrorMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptResult_GetErrorMessage
+description: NSCRMScriptResult.GetErrorMessage()
+intellisense: NSCRMScriptResult.GetErrorMessage
 sortOrder: 2152
 keywords: GetErrorMessage()
+so.topic: reference
 ---
 
 

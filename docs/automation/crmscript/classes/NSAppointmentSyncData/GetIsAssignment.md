@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsAssignment()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsAssignment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetIsAssignment
+description: NSAppointmentSyncData.GetIsAssignment()
+intellisense: NSAppointmentSyncData.GetIsAssignment
 sortOrder: 1042
 keywords: GetIsAssignment()
+so.topic: reference
 ---
 
 

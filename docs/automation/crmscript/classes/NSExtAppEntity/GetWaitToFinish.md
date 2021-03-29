@@ -1,10 +1,10 @@
 ---
-title: Bool GetWaitToFinish()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetWaitToFinish()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetWaitToFinish
+description: NSExtAppEntity.GetWaitToFinish()
+intellisense: NSExtAppEntity.GetWaitToFinish
 sortOrder: 3366
 keywords: GetWaitToFinish()
+so.topic: reference
 ---
 
 

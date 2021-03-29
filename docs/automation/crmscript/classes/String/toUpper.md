@@ -1,9 +1,9 @@
 ---
-title: String toUpper()
-path: /EJScript/Classes/String/Member functions/String toUpper()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toUpper
+description: String.toUpper()
+intellisense: String.toUpper
 keywords: toUpper()
+so.topic: reference
 ---
 
 

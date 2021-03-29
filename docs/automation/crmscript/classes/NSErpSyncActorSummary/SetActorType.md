@@ -1,10 +1,10 @@
 ---
-title: Void SetActorType(Integer ActorType)
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Void SetActorType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_SetActorType_Integer_p_0
+description: NSErpSyncActorSummary.SetActorType(Integer p_0)
+intellisense: NSErpSyncActorSummary.SetActorType
 sortOrder: 3156
 keywords: SetActorType(Integer)
+so.topic: reference
 ---
 
 

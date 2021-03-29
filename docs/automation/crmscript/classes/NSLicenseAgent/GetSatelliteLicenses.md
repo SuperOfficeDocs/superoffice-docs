@@ -1,9 +1,9 @@
 ---
-title: NSLicenseOwner[] GetSatelliteLicenses(Integer satelliteId)
-path: /EJScript/Classes/NSLicenseAgent/Member functions/NSLicenseOwner[] GetSatelliteLicenses(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseAgent_GetSatelliteLicenses_Integer_p_0
+description: NSLicenseAgent.GetSatelliteLicenses(Integer p_0)
+intellisense: NSLicenseAgent.GetSatelliteLicenses
 keywords: GetSatelliteLicenses(Integer)
+so.topic: reference
 ---
 
 

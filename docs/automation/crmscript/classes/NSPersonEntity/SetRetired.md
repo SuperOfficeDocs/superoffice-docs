@@ -1,9 +1,9 @@
 ---
-title: Void SetRetired(Bool Retired)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetRetired(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetRetired_Bool_p_0
+description: NSPersonEntity.SetRetired(Bool p_0)
+intellisense: NSPersonEntity.SetRetired
 keywords: SetRetired(Bool)
+so.topic: reference
 ---
 
 

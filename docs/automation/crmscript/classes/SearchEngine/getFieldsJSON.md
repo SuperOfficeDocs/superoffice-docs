@@ -1,9 +1,9 @@
 ---
-title: String getFieldsJSON()
-path: /EJScript/Classes/SearchEngine/member functions/String getFieldsJSON()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_getFieldsJSON
+description: SearchEngine.getFieldsJSON()
+intellisense: SearchEngine.getFieldsJSON
 keywords: getFieldsJSON()
+so.topic: reference
 ---
 
 

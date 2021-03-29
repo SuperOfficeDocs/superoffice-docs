@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSProjectStatus/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectStatus_GetId
+description: NSProjectStatus.GetId()
+intellisense: NSProjectStatus.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

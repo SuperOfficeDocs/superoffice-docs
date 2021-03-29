@@ -1,9 +1,9 @@
 ---
-title: String GetType()
-path: /EJScript/Classes/NSProject/Member functions/String GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_GetType
+description: NSProject.GetType()
+intellisense: NSProject.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPostit(String Postit)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetPostit(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetPostit_String_p_0
+description: NSSelectionEntity.SetPostit(String p_0)
+intellisense: NSSelectionEntity.SetPostit
 keywords: SetPostit(String)
+so.topic: reference
 ---
 
 

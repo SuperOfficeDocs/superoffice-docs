@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncActorTypeMapping
-path: /EJScript/Classes/NSErpSyncActorTypeMapping
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorTypeMapping
+description: NSErpSyncActorTypeMapping
+intellisense: Void.NSErpSyncActorTypeMapping
 sortOrder: 3160
+so.topic: reference
 ---
 
 

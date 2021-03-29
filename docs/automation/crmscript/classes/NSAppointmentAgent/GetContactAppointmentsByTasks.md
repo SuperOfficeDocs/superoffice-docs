@@ -1,10 +1,10 @@
 ---
-title: NSAppointment[] GetContactAppointmentsByTasks(Integer contactId, DateTime startTime, DateTime endTime, Integer count, Integer[] taskIds)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment[] GetContactAppointmentsByTasks(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer[] p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetContactAppointmentsByTasks_Integer_p_0_DateTime_p_1_DateTime_p_2_Integer_p_3_Integer__p_4
+description: NSAppointmentAgent.GetContactAppointmentsByTasks(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer[] p_4)
+intellisense: NSAppointmentAgent.GetContactAppointmentsByTasks
 sortOrder: 845
 keywords: GetContactAppointmentsByTasks(Integer,DateTime,DateTime,Integer,Integer[])
+so.topic: reference
 ---
 
 

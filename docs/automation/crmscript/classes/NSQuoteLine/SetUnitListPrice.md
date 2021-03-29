@@ -1,9 +1,9 @@
 ---
-title: Void SetUnitListPrice(Float UnitListPrice)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetUnitListPrice(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetUnitListPrice_Float_p_0
+description: NSQuoteLine.SetUnitListPrice(Float p_0)
+intellisense: NSQuoteLine.SetUnitListPrice
 keywords: SetUnitListPrice(Float)
+so.topic: reference
 ---
 
 

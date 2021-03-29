@@ -1,9 +1,9 @@
 ---
-title: Integer GetExtraId()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetExtraId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetExtraId
+description: NSWindowPosSize.GetExtraId()
+intellisense: NSWindowPosSize.GetExtraId
 keywords: GetExtraId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetIsSignedOn(Bool IsSignedOn)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetIsSignedOn(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetIsSignedOn_Bool_p_0
+description: NSProjectEvent.SetIsSignedOn(Bool p_0)
+intellisense: NSProjectEvent.SetIsSignedOn
 keywords: SetIsSignedOn(Bool)
+so.topic: reference
 ---
 
 

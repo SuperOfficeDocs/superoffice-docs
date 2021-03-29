@@ -1,10 +1,10 @@
 ---
-title: Void SetPersonFullName(String PersonFullName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetPersonFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetPersonFullName_String_p_0
+description: NSAlarmData.SetPersonFullName(String p_0)
+intellisense: NSAlarmData.SetPersonFullName
 sortOrder: 685
 keywords: SetPersonFullName(String)
+so.topic: reference
 ---
 
 

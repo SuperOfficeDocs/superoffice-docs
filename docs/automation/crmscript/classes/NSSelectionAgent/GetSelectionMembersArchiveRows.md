@@ -1,9 +1,9 @@
 ---
-title: NSArchiveListItem[] GetSelectionMembersArchiveRows(Integer selectionId, String select)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSArchiveListItem[] GetSelectionMembersArchiveRows(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetSelectionMembersArchiveRows_Integer_p_0_String_p_1
+description: NSSelectionAgent.GetSelectionMembersArchiveRows(Integer p_0, String p_1)
+intellisense: NSSelectionAgent.GetSelectionMembersArchiveRows
 keywords: GetSelectionMembersArchiveRows(Integer,String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetType
+description: NSDocumentEntity.GetType()
+intellisense: NSDocumentEntity.GetType
 sortOrder: 2563
 keywords: GetType()
+so.topic: reference
 ---
 
 

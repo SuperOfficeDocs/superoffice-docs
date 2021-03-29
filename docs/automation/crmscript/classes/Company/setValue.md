@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String column, String value)
-path: /EJScript/Classes/Company/member functions/Void setValue(String column, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Company_setValue_String_column_String_value
+description: Company.setValue(String column, String value)
+intellisense: Company.setValue
 sortOrder: 168
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 

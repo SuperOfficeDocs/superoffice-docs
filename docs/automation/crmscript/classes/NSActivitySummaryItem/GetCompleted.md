@@ -1,10 +1,10 @@
 ---
-title: Integer GetCompleted()
-path: /EJScript/Classes/NSActivitySummaryItem/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummaryItem_GetCompleted
+description: NSActivitySummaryItem.GetCompleted()
+intellisense: NSActivitySummaryItem.GetCompleted
 sortOrder: 598
 keywords: GetCompleted()
+so.topic: reference
 ---
 
 

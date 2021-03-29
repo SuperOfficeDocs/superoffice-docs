@@ -1,10 +1,10 @@
 ---
-title: Void SetProgressPercent(Integer ProgressPercent)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetProgressPercent(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetProgressPercent_Integer_p_0
+description: NSBatchTaskInfo.SetProgressPercent(Integer p_0)
+intellisense: NSBatchTaskInfo.SetProgressPercent
 sortOrder: 1400
 keywords: SetProgressPercent(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetCalReplyStatus()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetCalReplyStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetCalReplyStatus
+description: NSEMailEntity.GetCalReplyStatus()
+intellisense: NSEMailEntity.GetCalReplyStatus
 sortOrder: 2951
 keywords: GetCalReplyStatus()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSFieldValueInfo[] RemoveStoredFieldsAndGetDefaultFields(String tableName, String context)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/NSFieldValueInfo[] RemoveStoredFieldsAndGetDefaultFields(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_RemoveStoredFieldsAndGetDefaultFields_String_p_0_String_p_1
+description: NSBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields(String p_0, String p_1)
+intellisense: NSBulkUpdateAgent.RemoveStoredFieldsAndGetDefaultFields
 sortOrder: 1473
 keywords: RemoveStoredFieldsAndGetDefaultFields(String,String)
+so.topic: reference
 ---
 
 

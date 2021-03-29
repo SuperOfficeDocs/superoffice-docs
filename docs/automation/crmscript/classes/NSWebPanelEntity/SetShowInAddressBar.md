@@ -1,9 +1,9 @@
 ---
-title: Void SetShowInAddressBar(Bool ShowInAddressBar)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetShowInAddressBar(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetShowInAddressBar_Bool_p_0
+description: NSWebPanelEntity.SetShowInAddressBar(Bool p_0)
+intellisense: NSWebPanelEntity.SetShowInAddressBar
 keywords: SetShowInAddressBar(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetRawExtraInfo()
-path: /EJScript/Classes/NSProduct/Member functions/String GetRawExtraInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetRawExtraInfo
+description: NSProduct.GetRawExtraInfo()
+intellisense: NSProduct.GetRawExtraInfo
 keywords: GetRawExtraInfo()
+so.topic: reference
 ---
 
 

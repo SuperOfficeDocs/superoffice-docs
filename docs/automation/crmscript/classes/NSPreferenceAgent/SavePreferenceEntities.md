@@ -1,9 +1,9 @@
 ---
-title: Void SavePreferenceEntities(NSPreference[] preferences, Bool removeLowerLevels)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void SavePreferenceEntities(NSPreference[] p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_SavePreferenceEntities_NSPreference__p_0_Bool_p_1
+description: NSPreferenceAgent.SavePreferenceEntities(NSPreference[] p_0, Bool p_1)
+intellisense: NSPreferenceAgent.SavePreferenceEntities
 keywords: SavePreferenceEntities(NSPreference[],Bool)
+so.topic: reference
 ---
 
 

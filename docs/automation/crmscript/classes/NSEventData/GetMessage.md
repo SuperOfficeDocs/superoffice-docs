@@ -1,10 +1,10 @@
 ---
-title: String GetMessage()
-path: /EJScript/Classes/NSEventData/Member functions/String GetMessage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetMessage
+description: NSEventData.GetMessage()
+intellisense: NSEventData.GetMessage
 sortOrder: 3342
 keywords: GetMessage()
+so.topic: reference
 ---
 
 

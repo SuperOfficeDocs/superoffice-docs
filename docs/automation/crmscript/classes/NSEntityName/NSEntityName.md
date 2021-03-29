@@ -1,9 +1,9 @@
 ---
-title: NSEntityName
-path: /EJScript/Classes/NSEntityName
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEntityName
+description: NSEntityName
+intellisense: Void.NSEntityName
 sortOrder: 3068
+so.topic: reference
 ---
 
 

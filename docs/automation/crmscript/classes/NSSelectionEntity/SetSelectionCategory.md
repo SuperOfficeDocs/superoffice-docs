@@ -1,9 +1,9 @@
 ---
-title: Void SetSelectionCategory(NSSelectionCategory SelectionCategory)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSelectionCategory(NSSelectionCategory p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetSelectionCategory_NSSelectionCategory_p_0
+description: NSSelectionEntity.SetSelectionCategory(NSSelectionCategory p_0)
+intellisense: NSSelectionEntity.SetSelectionCategory
 keywords: SetSelectionCategory(NSSelectionCategory)
+so.topic: reference
 ---
 
 

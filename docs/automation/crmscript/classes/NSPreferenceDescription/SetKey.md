@@ -1,9 +1,9 @@
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetKey_String_p_0
+description: NSPreferenceDescription.SetKey(String p_0)
+intellisense: NSPreferenceDescription.SetKey
 keywords: SetKey(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInStatusBar()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetShowInStatusBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetShowInStatusBar
+description: NSExtAppEntity.GetShowInStatusBar()
+intellisense: NSExtAppEntity.GetShowInStatusBar
 sortOrder: 3364
 keywords: GetShowInStatusBar()
+so.topic: reference
 ---
 
 

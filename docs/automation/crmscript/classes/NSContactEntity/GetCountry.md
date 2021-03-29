@@ -1,10 +1,10 @@
 ---
-title: NSCountry GetCountry()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSCountry GetCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetCountry
+description: NSContactEntity.GetCountry()
+intellisense: NSContactEntity.GetCountry
 sortOrder: 1856
 keywords: GetCountry()
+so.topic: reference
 ---
 
 

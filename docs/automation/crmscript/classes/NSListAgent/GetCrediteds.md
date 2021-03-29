@@ -1,9 +1,9 @@
 ---
-title: NSCredited[] GetCrediteds()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCredited[] GetCrediteds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCrediteds
+description: NSListAgent.GetCrediteds()
+intellisense: NSListAgent.GetCrediteds
 keywords: GetCrediteds()
+so.topic: reference
 ---
 
 

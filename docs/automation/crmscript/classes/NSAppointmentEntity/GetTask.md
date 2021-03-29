@@ -1,10 +1,10 @@
 ---
-title: NSTaskListItem GetTask()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSTaskListItem GetTask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetTask
+description: NSAppointmentEntity.GetTask()
+intellisense: NSAppointmentEntity.GetTask
 sortOrder: 972
 keywords: GetTask()
+so.topic: reference
 ---
 
 

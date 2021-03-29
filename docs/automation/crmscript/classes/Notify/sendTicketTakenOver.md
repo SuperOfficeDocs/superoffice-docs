@@ -1,9 +1,9 @@
 ---
-title: Void sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
-path: /EJScript/Classes/Notify/Member functions/Void sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Notify_sendTicketTakenOver_Integer_ticketId_Integer_oldUserId_Integer_newUserId
+description: Notify.sendTicketTakenOver(Integer ticketId, Integer oldUserId, Integer newUserId)
+intellisense: Notify.sendTicketTakenOver
 keywords: sendTicketTakenOver(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

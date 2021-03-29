@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSLicenseOwner/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseOwner_SetName_String_p_0
+description: NSLicenseOwner.SetName(String p_0)
+intellisense: NSLicenseOwner.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

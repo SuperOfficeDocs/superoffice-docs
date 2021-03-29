@@ -1,9 +1,9 @@
 ---
-title: Void DeleteListEntityByName(String name)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteListEntityByName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteListEntityByName_String_p_0
+description: NSListAgent.DeleteListEntityByName(String p_0)
+intellisense: NSListAgent.DeleteListEntityByName
 keywords: DeleteListEntityByName(String)
+so.topic: reference
 ---
 
 

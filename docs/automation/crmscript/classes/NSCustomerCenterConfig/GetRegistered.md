@@ -1,10 +1,10 @@
 ---
-title: DateTime GetRegistered()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetRegistered
+description: NSCustomerCenterConfig.GetRegistered()
+intellisense: NSCustomerCenterConfig.GetRegistered
 sortOrder: 2195
 keywords: GetRegistered()
+so.topic: reference
 ---
 
 

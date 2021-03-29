@@ -1,9 +1,9 @@
 ---
-title: Void SetTableName(String TableName)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetTableName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetTableName_String_p_0
+description: NSPreferenceDescription.SetTableName(String p_0)
+intellisense: NSPreferenceDescription.SetTableName
 keywords: SetTableName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetExtraInfo(String p0)
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_SetExtraInfo_String_p_0
+description: NSGrantedModuleLicense.SetExtraInfo(String p_0)
+intellisense: NSGrantedModuleLicense.SetExtraInfo
 sortOrder: 3898
 keywords: SetExtraInfo(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String[] GetGrantedLicenses()
-path: /EJScript/Classes/NSUserInfo/Member functions/String[] GetGrantedLicenses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_GetGrantedLicenses
+description: NSUserInfo.GetGrantedLicenses()
+intellisense: NSUserInfo.GetGrantedLicenses
 keywords: GetGrantedLicenses()
+so.topic: reference
 ---
 
 

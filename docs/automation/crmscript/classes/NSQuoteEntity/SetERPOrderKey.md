@@ -1,9 +1,9 @@
 ---
-title: Void SetERPOrderKey(String ERPOrderKey)
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Void SetERPOrderKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteEntity_SetERPOrderKey_String_p_0
+description: NSQuoteEntity.SetERPOrderKey(String p_0)
+intellisense: NSQuoteEntity.SetERPOrderKey
 keywords: SetERPOrderKey(String)
+so.topic: reference
 ---
 
 

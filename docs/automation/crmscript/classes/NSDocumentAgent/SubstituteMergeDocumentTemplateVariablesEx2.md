@@ -1,10 +1,10 @@
 ---
-title: NSStream SubstituteMergeDocumentTemplateVariablesEx2(Integer mergeDocumentId, Integer contactId, Integer personId, Integer projectId, Integer selectionId, Integer appointmentId, Integer documentId, Integer saleId, StringDictionary customTags)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream SubstituteMergeDocumentTemplateVariablesEx2(Integer p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, Integer p_7, StringDictionary p_8)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SubstituteMergeDocumentTemplateVariablesEx2_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3_Integer_p_4_Integer_p_5_Integer_p_6_Integer_p_7_StringDictionary_p_8
+description: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2(Integer p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, Integer p_7, StringDictionary p_8)
+intellisense: NSDocumentAgent.SubstituteMergeDocumentTemplateVariablesEx2
 sortOrder: 2526
 keywords: SubstituteMergeDocumentTemplateVariablesEx2(Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,StringDictionary)
+so.topic: reference
 ---
 
 

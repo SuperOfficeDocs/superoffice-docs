@@ -1,10 +1,10 @@
 ---
-title: NSDashboardTile[] GetTiles()
-path: /EJScript/Classes/NSDashboard/Member functions/NSDashboardTile[] GetTiles()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboard_GetTiles
+description: NSDashboard.GetTiles()
+intellisense: NSDashboard.GetTiles
 sortOrder: 2263
 keywords: GetTiles()
+so.topic: reference
 ---
 
 

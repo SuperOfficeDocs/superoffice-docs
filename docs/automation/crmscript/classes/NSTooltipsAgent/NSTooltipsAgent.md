@@ -1,8 +1,8 @@
 ---
-title: NSTooltipsAgent
-path: /EJScript/Classes/NSTooltipsAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTooltipsAgent
+description: NSTooltipsAgent
+intellisense: Void.NSTooltipsAgent
+so.topic: reference
 ---
 
 

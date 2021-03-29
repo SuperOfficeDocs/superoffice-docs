@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSPriority/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriority_GetValue
+description: NSPriority.GetValue()
+intellisense: NSPriority.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

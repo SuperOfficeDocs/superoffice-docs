@@ -1,9 +1,9 @@
 ---
-title: String GetToFullName()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/String GetToFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetToFullName
+description: NSQuotePublishDocuments.GetToFullName()
+intellisense: NSQuotePublishDocuments.GetToFullName
 keywords: GetToFullName()
+so.topic: reference
 ---
 
 

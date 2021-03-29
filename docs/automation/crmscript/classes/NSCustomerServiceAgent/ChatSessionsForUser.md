@@ -1,10 +1,10 @@
 ---
-title: NSChatSession[] ChatSessionsForUser()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSChatSession[] ChatSessionsForUser()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_ChatSessionsForUser
+description: NSCustomerServiceAgent.ChatSessionsForUser()
+intellisense: NSCustomerServiceAgent.ChatSessionsForUser
 sortOrder: 2225
 keywords: ChatSessionsForUser()
+so.topic: reference
 ---
 
 

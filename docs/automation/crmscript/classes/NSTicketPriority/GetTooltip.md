@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSTicketPriority/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriority_GetTooltip
+description: NSTicketPriority.GetTooltip()
+intellisense: NSTicketPriority.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

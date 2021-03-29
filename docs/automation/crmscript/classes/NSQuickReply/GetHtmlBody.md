@@ -1,9 +1,9 @@
 ---
-title: String GetHtmlBody()
-path: /EJScript/Classes/NSQuickReply/Member functions/String GetHtmlBody()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply_GetHtmlBody
+description: NSQuickReply.GetHtmlBody()
+intellisense: NSQuickReply.GetHtmlBody
 keywords: GetHtmlBody()
+so.topic: reference
 ---
 
 

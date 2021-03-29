@@ -1,10 +1,10 @@
 ---
-title: NSStream GetSanitizedDocumentStream(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetSanitizedDocumentStream(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetSanitizedDocumentStream_Integer_p_0
+description: NSDocumentAgent.GetSanitizedDocumentStream(Integer p_0)
+intellisense: NSDocumentAgent.GetSanitizedDocumentStream
 sortOrder: 2517
 keywords: GetSanitizedDocumentStream(Integer)
+so.topic: reference
 ---
 
 

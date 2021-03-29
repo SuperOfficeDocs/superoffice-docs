@@ -1,9 +1,9 @@
 ---
-title: Void SetUrls(NSEntityElement[] Urls)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetUrls(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetUrls_NSEntityElement__p_0
+description: NSPersonEntity.SetUrls(NSEntityElement[] p_0)
+intellisense: NSPersonEntity.SetUrls
 keywords: SetUrls(NSEntityElement[])
+so.topic: reference
 ---
 
 

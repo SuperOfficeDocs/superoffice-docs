@@ -1,9 +1,9 @@
 ---
-title: Void SetEjUserStatus(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetEjUserStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetEjUserStatus_Integer_p_0
+description: NSSoPrincipalCarrier.SetEjUserStatus(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetEjUserStatus
 keywords: SetEjUserStatus(Integer)
+so.topic: reference
 ---
 
 

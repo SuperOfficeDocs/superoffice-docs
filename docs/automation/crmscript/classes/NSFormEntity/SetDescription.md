@@ -1,10 +1,10 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetDescription_String_p_0
+description: NSFormEntity.SetDescription(String p_0)
+intellisense: NSFormEntity.SetDescription
 sortOrder: 3808
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

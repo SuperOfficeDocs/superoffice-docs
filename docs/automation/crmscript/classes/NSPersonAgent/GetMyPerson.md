@@ -1,9 +1,9 @@
 ---
-title: NSPersonEntity GetMyPerson()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity GetMyPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetMyPerson
+description: NSPersonAgent.GetMyPerson()
+intellisense: NSPersonAgent.GetMyPerson
 keywords: GetMyPerson()
+so.topic: reference
 ---
 
 

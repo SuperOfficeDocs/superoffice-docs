@@ -1,9 +1,9 @@
 ---
-title: Integer GetWidth()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetWidth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetWidth
+description: NSWindowPosSize.GetWidth()
+intellisense: NSWindowPosSize.GetWidth
 keywords: GetWidth()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetWhenSubmitted(DateTime WhenSubmitted)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetWhenSubmitted(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_SetWhenSubmitted_DateTime_p_0
+description: NSFormSubmissionEntity.SetWhenSubmitted(DateTime p_0)
+intellisense: NSFormSubmissionEntity.SetWhenSubmitted
 sortOrder: 3849
 keywords: SetWhenSubmitted(DateTime)
+so.topic: reference
 ---
 
 

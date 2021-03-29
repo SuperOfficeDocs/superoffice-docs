@@ -1,10 +1,10 @@
 ---
-title: NSExecuteOnEvent GetExecuteOnEvent()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/NSExecuteOnEvent GetExecuteOnEvent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetExecuteOnEvent
+description: NSExtAppEntity.GetExecuteOnEvent()
+intellisense: NSExtAppEntity.GetExecuteOnEvent
 sortOrder: 3372
 keywords: GetExecuteOnEvent()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void GenerateFollowUps(Integer selectionId, NSAppointmentEntity appointmentEntity, Integer associateId, Bool saveOnContactOwner, Bool uniqueContact)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void GenerateFollowUps(Integer p_0, NSAppointmentEntity p_1, Integer p_2, Bool p_3, Bool p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GenerateFollowUps_Integer_p_0_NSAppointmentEntity_p_1_Integer_p_2_Bool_p_3_Bool_p_4
+description: NSSelectionAgent.GenerateFollowUps(Integer p_0, NSAppointmentEntity p_1, Integer p_2, Bool p_3, Bool p_4)
+intellisense: NSSelectionAgent.GenerateFollowUps
 keywords: GenerateFollowUps(Integer,NSAppointmentEntity,Integer,Bool,Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetComment()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/String GetComment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_GetComment
+description: NSEMailAppointment.GetComment()
+intellisense: NSEMailAppointment.GetComment
 sortOrder: 2880
 keywords: GetComment()
+so.topic: reference
 ---
 
 

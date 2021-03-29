@@ -1,9 +1,9 @@
 ---
-title: Void SetContactCategory(String ContactCategory)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetContactCategory(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetContactCategory_String_p_0
+description: NSParticipantSyncData.SetContactCategory(String p_0)
+intellisense: NSParticipantSyncData.SetContactCategory
 keywords: SetContactCategory(String)
+so.topic: reference
 ---
 
 

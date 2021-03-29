@@ -1,10 +1,10 @@
 ---
-title: NSForeignKey AddForeignKey(NSForeignKey foreignKey, String applicationName, String deviceName, String deviceIdentifier)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey AddForeignKey(NSForeignKey p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_AddForeignKey_NSForeignKey_p_0_String_p_1_String_p_2_String_p_3
+description: NSForeignSystemAgent.AddForeignKey(NSForeignKey p_0, String p_1, String p_2, String p_3)
+intellisense: NSForeignSystemAgent.AddForeignKey
 sortOrder: 3763
 keywords: AddForeignKey(NSForeignKey,String,String,String)
+so.topic: reference
 ---
 
 

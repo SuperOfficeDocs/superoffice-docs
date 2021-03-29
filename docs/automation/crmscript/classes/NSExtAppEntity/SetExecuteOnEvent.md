@@ -1,10 +1,10 @@
 ---
-title: Void SetExecuteOnEvent(NSExecuteOnEvent ExecuteOnEvent)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetExecuteOnEvent(NSExecuteOnEvent p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetExecuteOnEvent_NSExecuteOnEvent_p_0
+description: NSExtAppEntity.SetExecuteOnEvent(NSExecuteOnEvent p_0)
+intellisense: NSExtAppEntity.SetExecuteOnEvent
 sortOrder: 3380
 keywords: SetExecuteOnEvent(NSExecuteOnEvent)
+so.topic: reference
 ---
 
 

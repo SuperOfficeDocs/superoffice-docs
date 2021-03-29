@@ -1,9 +1,9 @@
 ---
-title: Float GetValue()
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Float GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataValue_GetValue
+description: NSStatisticsDataValue.GetValue()
+intellisense: NSStatisticsDataValue.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

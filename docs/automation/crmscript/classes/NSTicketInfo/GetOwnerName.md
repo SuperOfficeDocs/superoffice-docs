@@ -1,9 +1,9 @@
 ---
-title: String GetOwnerName()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetOwnerName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_GetOwnerName
+description: NSTicketInfo.GetOwnerName()
+intellisense: NSTicketInfo.GetOwnerName
 keywords: GetOwnerName()
+so.topic: reference
 ---
 
 

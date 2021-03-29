@@ -1,8 +1,8 @@
 ---
-title: NSSuggestedDocumentEntity
-path: /EJScript/Classes/NSSuggestedDocumentEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity
+description: NSSuggestedDocumentEntity
+intellisense: Void.NSSuggestedDocumentEntity
+so.topic: reference
 ---
 
 

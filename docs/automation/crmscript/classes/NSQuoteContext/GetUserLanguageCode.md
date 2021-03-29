@@ -1,9 +1,9 @@
 ---
-title: String GetUserLanguageCode()
-path: /EJScript/Classes/NSQuoteContext/Member functions/String GetUserLanguageCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_GetUserLanguageCode
+description: NSQuoteContext.GetUserLanguageCode()
+intellisense: NSQuoteContext.GetUserLanguageCode
 keywords: GetUserLanguageCode()
+so.topic: reference
 ---
 
 

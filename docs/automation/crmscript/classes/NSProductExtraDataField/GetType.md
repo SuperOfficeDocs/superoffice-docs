@@ -1,9 +1,9 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSProductExtraDataField/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProductExtraDataField_GetType
+description: NSProductExtraDataField.GetType()
+intellisense: NSProductExtraDataField.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

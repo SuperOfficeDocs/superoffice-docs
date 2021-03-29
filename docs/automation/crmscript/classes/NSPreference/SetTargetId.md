@@ -1,9 +1,9 @@
 ---
-title: Void SetTargetId(Integer TargetId)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetTargetId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetTargetId_Integer_p_0
+description: NSPreference.SetTargetId(Integer p_0)
+intellisense: NSPreference.SetTargetId
 keywords: SetTargetId(Integer)
+so.topic: reference
 ---
 
 

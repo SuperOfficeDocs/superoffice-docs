@@ -1,9 +1,9 @@
 ---
-title: Void SetSupportsConfig(Bool SupportsConfig)
-path: /EJScript/Classes/NSProviderInfo/Member functions/Void SetSupportsConfig(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProviderInfo_SetSupportsConfig_Bool_p_0
+description: NSProviderInfo.SetSupportsConfig(Bool p_0)
+intellisense: NSProviderInfo.SetSupportsConfig
 keywords: SetSupportsConfig(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetDate()
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterInformationListItem_GetDate
+description: NSRedLetterInformationListItem.GetDate()
+intellisense: NSRedLetterInformationListItem.GetDate
 keywords: GetDate()
+so.topic: reference
 ---
 
 

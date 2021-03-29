@@ -1,10 +1,10 @@
 ---
-title: String GetLabel()
-path: /EJScript/Classes/NSControlInfo/Member functions/String GetLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSControlInfo_GetLabel
+description: NSControlInfo.GetLabel()
+intellisense: NSControlInfo.GetLabel
 sortOrder: 1997
 keywords: GetLabel()
+so.topic: reference
 ---
 
 

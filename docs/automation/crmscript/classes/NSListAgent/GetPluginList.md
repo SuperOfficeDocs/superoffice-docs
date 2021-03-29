@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetPluginList()
-path: /EJScript/Classes/NSListAgent/Member functions/StringDictionary GetPluginList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPluginList
+description: NSListAgent.GetPluginList()
+intellisense: NSListAgent.GetPluginList
 keywords: GetPluginList()
+so.topic: reference
 ---
 
 

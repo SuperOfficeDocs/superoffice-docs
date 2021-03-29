@@ -1,9 +1,9 @@
 ---
-title: Void addVariable(String field, String value)
-path: /EJScript/Classes/Parser/Member functions/Void addVariable(String field, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Parser_addVariable_String_field_String_value
+description: Parser.addVariable(String field, String value)
+intellisense: Parser.addVariable
 keywords: addVariable(String,String)
+so.topic: reference
 ---
 
 This function adds a variable and its value to the parser

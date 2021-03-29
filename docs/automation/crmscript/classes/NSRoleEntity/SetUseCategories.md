@@ -1,9 +1,9 @@
 ---
-title: Void SetUseCategories(Integer UseCategories)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetUseCategories(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_SetUseCategories_Integer_p_0
+description: NSRoleEntity.SetUseCategories(Integer p_0)
+intellisense: NSRoleEntity.SetUseCategories
 keywords: SetUseCategories(Integer)
+so.topic: reference
 ---
 
 

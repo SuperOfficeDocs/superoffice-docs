@@ -1,10 +1,10 @@
 ---
-title: Void SetYourRef(String YourRef)
-path: /EJScript/Classes/NSDocument/Member functions/Void SetYourRef(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument_SetYourRef_String_p_0
+description: NSDocument.SetYourRef(String p_0)
+intellisense: NSDocument.SetYourRef
 sortOrder: 2462
 keywords: SetYourRef(String)
+so.topic: reference
 ---
 
 

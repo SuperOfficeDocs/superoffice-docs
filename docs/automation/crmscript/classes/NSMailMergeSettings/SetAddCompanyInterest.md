@@ -1,9 +1,9 @@
 ---
-title: Void SetAddCompanyInterest(Integer AddCompanyInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetAddCompanyInterest(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetAddCompanyInterest_Integer_p_0
+description: NSMailMergeSettings.SetAddCompanyInterest(Integer p_0)
+intellisense: NSMailMergeSettings.SetAddCompanyInterest
 keywords: SetAddCompanyInterest(Integer)
+so.topic: reference
 ---
 
 

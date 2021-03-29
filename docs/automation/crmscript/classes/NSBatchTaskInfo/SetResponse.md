@@ -1,10 +1,10 @@
 ---
-title: Void SetResponse(String Response)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetResponse(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetResponse_String_p_0
+description: NSBatchTaskInfo.SetResponse(String p_0)
+intellisense: NSBatchTaskInfo.SetResponse
 sortOrder: 1402
 keywords: SetResponse(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetRecaptchaSiteKey(String RecaptchaSiteKey)
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/Void SetRecaptchaSiteKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceStartup_SetRecaptchaSiteKey_String_p_0
+description: NSCustomerServiceStartup.SetRecaptchaSiteKey(String p_0)
+intellisense: NSCustomerServiceStartup.SetRecaptchaSiteKey
 sortOrder: 2255
 keywords: SetRecaptchaSiteKey(String)
+so.topic: reference
 ---
 
 

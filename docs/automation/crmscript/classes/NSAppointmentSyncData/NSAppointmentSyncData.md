@@ -1,9 +1,9 @@
 ---
-title: NSAppointmentSyncData
-path: /EJScript/Classes/NSAppointmentSyncData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData
+description: NSAppointmentSyncData
+intellisense: Void.NSAppointmentSyncData
 sortOrder: 1038
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetCaption(String Caption)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetCaption(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetCaption_String_p_0
+description: NSDashboardTile.SetCaption(String p_0)
+intellisense: NSDashboardTile.SetCaption
 sortOrder: 2303
 keywords: SetCaption(String)
+so.topic: reference
 ---
 
 

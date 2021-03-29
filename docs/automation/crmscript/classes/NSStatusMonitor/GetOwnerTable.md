@@ -1,9 +1,9 @@
 ---
-title: Integer GetOwnerTable()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetOwnerTable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetOwnerTable
+description: NSStatusMonitor.GetOwnerTable()
+intellisense: NSStatusMonitor.GetOwnerTable
 keywords: GetOwnerTable()
+so.topic: reference
 ---
 
 

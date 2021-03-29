@@ -1,10 +1,10 @@
 ---
-title: String GetSaleName()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetSaleName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetSaleName
+description: NSAppointment.GetSaleName()
+intellisense: NSAppointment.GetSaleName
 sortOrder: 764
 keywords: GetSaleName()
+so.topic: reference
 ---
 
 

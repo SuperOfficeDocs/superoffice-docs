@@ -1,10 +1,10 @@
 ---
-title: Integer GetServerId()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetServerId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetServerId
+description: NSEMailEntity.GetServerId()
+intellisense: NSEMailEntity.GetServerId
 sortOrder: 2955
 keywords: GetServerId()
+so.topic: reference
 ---
 
 

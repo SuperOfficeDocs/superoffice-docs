@@ -1,9 +1,9 @@
 ---
-title: NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity webPanelEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity SaveWebPanelEntity(NSWebPanelEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveWebPanelEntity_NSWebPanelEntity_p_0
+description: NSListAgent.SaveWebPanelEntity(NSWebPanelEntity p_0)
+intellisense: NSListAgent.SaveWebPanelEntity
 keywords: SaveWebPanelEntity(NSWebPanelEntity)
+so.topic: reference
 ---
 
 

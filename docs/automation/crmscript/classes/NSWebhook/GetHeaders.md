@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetHeaders()
-path: /EJScript/Classes/NSWebhook/Member functions/StringDictionary GetHeaders()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetHeaders
+description: NSWebhook.GetHeaders()
+intellisense: NSWebhook.GetHeaders
 keywords: GetHeaders()
+so.topic: reference
 ---
 
 

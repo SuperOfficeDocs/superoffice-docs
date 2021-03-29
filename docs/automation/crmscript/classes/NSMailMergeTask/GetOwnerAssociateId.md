@@ -1,9 +1,9 @@
 ---
-title: Integer GetOwnerAssociateId()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetOwnerAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetOwnerAssociateId
+description: NSMailMergeTask.GetOwnerAssociateId()
+intellisense: NSMailMergeTask.GetOwnerAssociateId
 keywords: GetOwnerAssociateId()
+so.topic: reference
 ---
 
 

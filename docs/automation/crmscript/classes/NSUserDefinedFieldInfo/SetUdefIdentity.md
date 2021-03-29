@@ -1,9 +1,9 @@
 ---
-title: Void SetUdefIdentity(Integer UdefIdentity)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetUdefIdentity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetUdefIdentity_Integer_p_0
+description: NSUserDefinedFieldInfo.SetUdefIdentity(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetUdefIdentity
 keywords: SetUdefIdentity(Integer)
+so.topic: reference
 ---
 
 

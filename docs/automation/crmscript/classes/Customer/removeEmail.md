@@ -1,10 +1,10 @@
 ---
-title: Void removeEmail(String email)
-path: /EJScript/Classes/Customer/Member functions/Void removeEmail(String email)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Customer_removeEmail_String_email
+description: Customer.removeEmail(String email)
+intellisense: Customer.removeEmail
 sortOrder: 190
 keywords: removeEmail(String)
+so.topic: reference
 ---
 
 

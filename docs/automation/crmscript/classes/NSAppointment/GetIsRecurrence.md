@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsRecurrence()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsRecurrence()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetIsRecurrence
+description: NSAppointment.GetIsRecurrence()
+intellisense: NSAppointment.GetIsRecurrence
 sortOrder: 719
 keywords: GetIsRecurrence()
+so.topic: reference
 ---
 
 

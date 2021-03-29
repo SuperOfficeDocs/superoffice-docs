@@ -1,10 +1,10 @@
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetCompleted_Integer_p_0
+description: NSAppointment.SetCompleted(Integer p_0)
+intellisense: NSAppointment.SetCompleted
 sortOrder: 781
 keywords: SetCompleted(Integer)
+so.topic: reference
 ---
 
 

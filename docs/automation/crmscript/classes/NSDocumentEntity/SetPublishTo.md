@@ -1,10 +1,10 @@
 ---
-title: Void SetPublishTo(DateTime fields)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetPublishTo(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetPublishTo_DateTime_p_0
+description: NSDocumentEntity.SetPublishTo(DateTime p_0)
+intellisense: NSDocumentEntity.SetPublishTo
 sortOrder: 2609
 keywords: SetPublishTo(DateTime)
+so.topic: reference
 ---
 
 

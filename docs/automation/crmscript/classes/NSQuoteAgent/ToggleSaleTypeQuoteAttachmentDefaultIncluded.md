@@ -1,9 +1,9 @@
 ---
-title: Bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer saleTypeQuoteAttachmentId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Bool ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded_Integer_p_0
+description: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer p_0)
+intellisense: NSQuoteAgent.ToggleSaleTypeQuoteAttachmentDefaultIncluded
 keywords: ToggleSaleTypeQuoteAttachmentDefaultIncluded(Integer)
+so.topic: reference
 ---
 
 

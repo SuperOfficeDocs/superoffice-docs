@@ -1,9 +1,9 @@
 ---
-title: Void SetTotalPrice(Float TotalPrice)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetTotalPrice(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetTotalPrice_Float_p_0
+description: NSQuoteLine.SetTotalPrice(Float p_0)
+intellisense: NSQuoteLine.SetTotalPrice
 keywords: SetTotalPrice(Float)
+so.topic: reference
 ---
 
 

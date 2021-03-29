@@ -1,10 +1,10 @@
 ---
-title: Void SetRowCount(Integer RowCount)
-path: /EJScript/Classes/NSArchiveListResult/Member functions/Void SetRowCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListResult_SetRowCount_Integer_p_0
+description: NSArchiveListResult.SetRowCount(Integer p_0)
+intellisense: NSArchiveListResult.SetRowCount
 sortOrder: 1192
 keywords: SetRowCount(Integer)
+so.topic: reference
 ---
 
 

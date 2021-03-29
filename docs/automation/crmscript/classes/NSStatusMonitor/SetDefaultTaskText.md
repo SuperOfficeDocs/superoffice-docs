@@ -1,9 +1,9 @@
 ---
-title: Void SetDefaultTaskText(String DefaultTaskText)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetDefaultTaskText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetDefaultTaskText_String_p_0
+description: NSStatusMonitor.SetDefaultTaskText(String p_0)
+intellisense: NSStatusMonitor.SetDefaultTaskText
 keywords: SetDefaultTaskText(String)
+so.topic: reference
 ---
 
 

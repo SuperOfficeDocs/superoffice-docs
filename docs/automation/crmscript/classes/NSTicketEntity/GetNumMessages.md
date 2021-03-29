@@ -1,9 +1,9 @@
 ---
-title: Integer GetNumMessages()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetNumMessages()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetNumMessages
+description: NSTicketEntity.GetNumMessages()
+intellisense: NSTicketEntity.GetNumMessages
 keywords: GetNumMessages()
+so.topic: reference
 ---
 
 

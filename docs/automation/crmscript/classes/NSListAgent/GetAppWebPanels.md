@@ -1,9 +1,9 @@
 ---
-title: NSWebPanelEntity[] GetAppWebPanels()
-path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity[] GetAppWebPanels()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAppWebPanels
+description: NSListAgent.GetAppWebPanels()
+intellisense: NSListAgent.GetAppWebPanels
 keywords: GetAppWebPanels()
+so.topic: reference
 ---
 
 

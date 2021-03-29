@@ -1,8 +1,8 @@
 ---
-title: NSRating
-path: /EJScript/Classes/NSRating
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRating
+description: NSRating
+intellisense: Void.NSRating
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer[] GetParentCombinedSelections(Integer selectionId)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer[] GetParentCombinedSelections(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetParentCombinedSelections_Integer_p_0
+description: NSSelectionAgent.GetParentCombinedSelections(Integer p_0)
+intellisense: NSSelectionAgent.GetParentCombinedSelections
 keywords: GetParentCombinedSelections(Integer)
+so.topic: reference
 ---
 
 

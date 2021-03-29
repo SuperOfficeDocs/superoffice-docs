@@ -1,9 +1,9 @@
 ---
-title: Void SetVersion(Integer Version)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetVersion(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_SetVersion_Integer_p_0
+description: NSWebAppUsage.SetVersion(Integer p_0)
+intellisense: NSWebAppUsage.SetVersion
 keywords: SetVersion(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetUserGroupTooltip()
-path: /EJScript/Classes/NSUserInfo/Member functions/String GetUserGroupTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_GetUserGroupTooltip
+description: NSUserInfo.GetUserGroupTooltip()
+intellisense: NSUserInfo.GetUserGroupTooltip
 keywords: GetUserGroupTooltip()
+so.topic: reference
 ---
 
 

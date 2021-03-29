@@ -1,9 +1,9 @@
 ---
-title: NSRoleEntity CreateDefaultRoleEntity()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSRoleEntity CreateDefaultRoleEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultRoleEntity
+description: NSUserAgent.CreateDefaultRoleEntity()
+intellisense: NSUserAgent.CreateDefaultRoleEntity
 keywords: CreateDefaultRoleEntity()
+so.topic: reference
 ---
 
 

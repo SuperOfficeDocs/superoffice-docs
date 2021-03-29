@@ -1,10 +1,10 @@
 ---
-title: Void SetMostRecentTimestamp(String MostRecentTimestamp)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetMostRecentTimestamp(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetMostRecentTimestamp_String_p_0
+description: NSErpConnection.SetMostRecentTimestamp(String p_0)
+intellisense: NSErpConnection.SetMostRecentTimestamp
 sortOrder: 3102
 keywords: SetMostRecentTimestamp(String)
+so.topic: reference
 ---
 
 

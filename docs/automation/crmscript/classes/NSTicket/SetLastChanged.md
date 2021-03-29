@@ -1,9 +1,9 @@
 ---
-title: Void SetLastChanged(DateTime LastChanged)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetLastChanged(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetLastChanged_DateTime_p_0
+description: NSTicket.SetLastChanged(DateTime p_0)
+intellisense: NSTicket.SetLastChanged
 keywords: SetLastChanged(DateTime)
+so.topic: reference
 ---
 
 

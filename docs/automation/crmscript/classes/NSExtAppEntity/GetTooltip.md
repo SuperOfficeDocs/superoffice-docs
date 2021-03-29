@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetTooltip
+description: NSExtAppEntity.GetTooltip()
+intellisense: NSExtAppEntity.GetTooltip
 sortOrder: 3377
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

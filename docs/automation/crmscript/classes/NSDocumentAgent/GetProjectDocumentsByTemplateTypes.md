@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetProjectDocumentsByTemplateTypes(Integer projectId, DateTime startTime, DateTime endTime, Integer count, Integer[] documentTemplateIds)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetProjectDocumentsByTemplateTypes(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer[] p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetProjectDocumentsByTemplateTypes_Integer_p_0_DateTime_p_1_DateTime_p_2_Integer_p_3_Integer__p_4
+description: NSDocumentAgent.GetProjectDocumentsByTemplateTypes(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3, Integer[] p_4)
+intellisense: NSDocumentAgent.GetProjectDocumentsByTemplateTypes
 sortOrder: 2488
 keywords: GetProjectDocumentsByTemplateTypes(Integer,DateTime,DateTime,Integer,Integer[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetAllAccess(Bool AllAccess)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetAllAccess(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetAllAccess_Bool_p_0
+description: NSErpConnection.SetAllAccess(Bool p_0)
+intellisense: NSErpConnection.SetAllAccess
 sortOrder: 3092
 keywords: SetAllAccess(Bool)
+so.topic: reference
 ---
 
 

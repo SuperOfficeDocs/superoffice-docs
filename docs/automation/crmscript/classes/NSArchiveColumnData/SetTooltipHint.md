@@ -1,10 +1,10 @@
 ---
-title: Void SetTooltipHint(String TooltipHint)
-path: /EJScript/Classes/NSArchiveColumnData/Member functions/Void SetTooltipHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnData_SetTooltipHint_String_p_0
+description: NSArchiveColumnData.SetTooltipHint(String p_0)
+intellisense: NSArchiveColumnData.SetTooltipHint
 sortOrder: 1131
 keywords: SetTooltipHint(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetForeignAddressLayoutId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetForeignAddressLayoutId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetForeignAddressLayoutId
+description: NSCountry.GetForeignAddressLayoutId()
+intellisense: NSCountry.GetForeignAddressLayoutId
 sortOrder: 2017
 keywords: GetForeignAddressLayoutId()
+so.topic: reference
 ---
 
 

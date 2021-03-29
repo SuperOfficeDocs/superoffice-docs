@@ -1,9 +1,9 @@
 ---
-title: NSPerson GetPerson(Integer personId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson GetPerson(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetPerson_Integer_p_0
+description: NSPersonAgent.GetPerson(Integer p_0)
+intellisense: NSPersonAgent.GetPerson
 keywords: GetPerson(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSLicenseType GetLicenseType()
-path: /EJScript/Classes/NSModuleLicense/Member functions/NSLicenseType GetLicenseType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_GetLicenseType
+description: NSModuleLicense.GetLicenseType()
+intellisense: NSModuleLicense.GetLicenseType
 keywords: GetLicenseType()
+so.topic: reference
 ---
 
 

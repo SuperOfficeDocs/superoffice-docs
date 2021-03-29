@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayText(String DisplayText)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetDisplayText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_SetDisplayText_String_p_0
+description: NSVersionInfo.SetDisplayText(String p_0)
+intellisense: NSVersionInfo.SetDisplayText
 keywords: SetDisplayText(String)
+so.topic: reference
 ---
 
 

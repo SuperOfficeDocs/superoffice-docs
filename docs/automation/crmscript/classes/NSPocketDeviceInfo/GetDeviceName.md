@@ -1,9 +1,9 @@
 ---
-title: String GetDeviceName()
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/String GetDeviceName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_GetDeviceName
+description: NSPocketDeviceInfo.GetDeviceName()
+intellisense: NSPocketDeviceInfo.GetDeviceName
 keywords: GetDeviceName()
+so.topic: reference
 ---
 
 

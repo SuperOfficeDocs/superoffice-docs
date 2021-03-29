@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncFieldMapping
-path: /EJScript/Classes/NSErpSyncFieldMapping
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping
+description: NSErpSyncFieldMapping
+intellisense: Void.NSErpSyncFieldMapping
 sortOrder: 3283
+so.topic: reference
 ---
 
 

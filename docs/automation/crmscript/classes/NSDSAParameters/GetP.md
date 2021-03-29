@@ -1,10 +1,10 @@
 ---
-title: NSBinary GetP()
-path: /EJScript/Classes/NSDSAParameters/Member functions/NSBinary GetP()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_GetP
+description: NSDSAParameters.GetP()
+intellisense: NSDSAParameters.GetP
 sortOrder: 2709
 keywords: GetP()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetSessionKey()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetSessionKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_GetSessionKey
+description: NSIncomingMessage.GetSessionKey()
+intellisense: NSIncomingMessage.GetSessionKey
 sortOrder: 3990
 keywords: GetSessionKey()
+so.topic: reference
 ---
 
 

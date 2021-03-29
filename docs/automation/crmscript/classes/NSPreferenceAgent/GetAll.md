@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescription[] GetAll()
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription[] GetAll()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetAll
+description: NSPreferenceAgent.GetAll()
+intellisense: NSPreferenceAgent.GetAll
 keywords: GetAll()
+so.topic: reference
 ---
 
 

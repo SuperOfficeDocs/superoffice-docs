@@ -1,10 +1,10 @@
 ---
-title: NSCredentialUser[] GetUsers()
-path: /EJScript/Classes/NSCredentialsGroupUsers/Member functions/NSCredentialUser[] GetUsers()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroupUsers_GetUsers
+description: NSCredentialsGroupUsers.GetUsers()
+intellisense: NSCredentialsGroupUsers.GetUsers
 sortOrder: 2064
 keywords: GetUsers()
+so.topic: reference
 ---
 
 

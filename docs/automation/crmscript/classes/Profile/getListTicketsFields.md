@@ -1,9 +1,9 @@
 ---
-title: String[] getListTicketsFields(Integer p\_user)
-path: /EJScript/Classes/Profile/Member functions/String[] getListTicketsFields(Integer p_user)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Profile_getListTicketsFields_Integer_p_user
+description: Profile.getListTicketsFields(Integer p_user)
+intellisense: Profile.getListTicketsFields
 keywords: getListTicketsFields(Integer)
+so.topic: reference
 ---
 
 

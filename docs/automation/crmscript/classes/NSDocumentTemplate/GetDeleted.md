@@ -1,10 +1,10 @@
 ---
-title: Integer GetDeleted()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_GetDeleted
+description: NSDocumentTemplate.GetDeleted()
+intellisense: NSDocumentTemplate.GetDeleted
 sortOrder: 2621
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

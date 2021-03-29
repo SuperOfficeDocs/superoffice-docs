@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity GetHeadingEntity(Integer headingEntityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity GetHeadingEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetHeadingEntity_Integer_p_0
+description: NSListAgent.GetHeadingEntity(Integer p_0)
+intellisense: NSListAgent.GetHeadingEntity
 keywords: GetHeadingEntity(Integer)
+so.topic: reference
 ---
 
 

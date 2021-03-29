@@ -1,10 +1,10 @@
 ---
-title: Void SetIsExternal(Bool IsExternal)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetIsExternal(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_SetIsExternal_Bool_p_0
+description: NSFieldInfoBase.SetIsExternal(Bool p_0)
+intellisense: NSFieldInfoBase.SetIsExternal
 sortOrder: 3480
 keywords: SetIsExternal(Bool)
+so.topic: reference
 ---
 
 

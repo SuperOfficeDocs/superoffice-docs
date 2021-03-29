@@ -1,9 +1,9 @@
 ---
-title: String GetResourceValue()
-path: /EJScript/Classes/NSResourceOverride/Member functions/String GetResourceValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_GetResourceValue
+description: NSResourceOverride.GetResourceValue()
+intellisense: NSResourceOverride.GetResourceValue
 keywords: GetResourceValue()
+so.topic: reference
 ---
 
 

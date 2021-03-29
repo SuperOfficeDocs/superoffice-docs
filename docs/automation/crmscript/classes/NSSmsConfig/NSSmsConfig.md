@@ -1,8 +1,8 @@
 ---
-title: NSSmsConfig
-path: /EJScript/Classes/NSSmsConfig
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig
+description: NSSmsConfig
+intellisense: Void.NSSmsConfig
+so.topic: reference
 ---
 
 

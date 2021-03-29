@@ -1,10 +1,10 @@
 ---
-title: Bool first()
-path: /EJScript/Classes/GenericSearch/Member functions/Bool first()
-intellisense: 1
-classref: 1
+title: crmscript_ref_GenericSearch_first
+description: GenericSearch.first()
+intellisense: GenericSearch.first
 sortOrder: 364
 keywords: first()
+so.topic: reference
 ---
 
 Set the resultpointer to point at the first row in the resultset

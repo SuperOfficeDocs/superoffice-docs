@@ -1,9 +1,9 @@
 ---
-title: Integer GetCompleted()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_GetCompleted
+description: NSSaleSummaryItem.GetCompleted()
+intellisense: NSSaleSummaryItem.GetCompleted
 keywords: GetCompleted()
+so.topic: reference
 ---
 
 

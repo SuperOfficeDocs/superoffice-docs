@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSSelectionCategory/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionCategory_GetValue
+description: NSSelectionCategory.GetValue()
+intellisense: NSSelectionCategory.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

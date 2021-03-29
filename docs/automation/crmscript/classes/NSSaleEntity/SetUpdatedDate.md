@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdatedDate(DateTime UpdatedDate)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetUpdatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetUpdatedDate_DateTime_p_0
+description: NSSaleEntity.SetUpdatedDate(DateTime p_0)
+intellisense: NSSaleEntity.SetUpdatedDate
 keywords: SetUpdatedDate(DateTime)
+so.topic: reference
 ---
 
 

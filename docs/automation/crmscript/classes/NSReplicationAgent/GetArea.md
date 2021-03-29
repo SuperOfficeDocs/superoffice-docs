@@ -1,9 +1,9 @@
 ---
-title: NSArea GetArea(Integer areaId)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSArea GetArea(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_GetArea_Integer_p_0
+description: NSReplicationAgent.GetArea(Integer p_0)
+intellisense: NSReplicationAgent.GetArea
 keywords: GetArea(Integer)
+so.topic: reference
 ---
 
 

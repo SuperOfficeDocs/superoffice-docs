@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetDeleted
+description: NSSelectableMDOListItem.GetDeleted()
+intellisense: NSSelectableMDOListItem.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

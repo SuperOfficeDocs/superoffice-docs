@@ -1,9 +1,9 @@
 ---
-title: String GetERPPaymentTypeKey()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetERPPaymentTypeKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetERPPaymentTypeKey
+description: NSQuoteVersion.GetERPPaymentTypeKey()
+intellisense: NSQuoteVersion.GetERPPaymentTypeKey
 keywords: GetERPPaymentTypeKey()
+so.topic: reference
 ---
 
 

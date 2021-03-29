@@ -1,9 +1,9 @@
 ---
-title: Void SetRedLetterDetails(NSRedLetterDetails RedLetterDetails)
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/Void SetRedLetterDetails(NSRedLetterDetails p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterInformationListItem_SetRedLetterDetails_NSRedLetterDetails_p_0
+description: NSRedLetterInformationListItem.SetRedLetterDetails(NSRedLetterDetails p_0)
+intellisense: NSRedLetterInformationListItem.SetRedLetterDetails
 keywords: SetRedLetterDetails(NSRedLetterDetails)
+so.topic: reference
 ---
 
 

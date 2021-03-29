@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_SetName_String_p_0
+description: NSAudienceConfigParameter.SetName(String p_0)
+intellisense: NSAudienceConfigParameter.SetName
 sortOrder: 1329
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

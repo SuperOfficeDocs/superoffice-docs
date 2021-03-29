@@ -1,9 +1,9 @@
 ---
-title: NSSelectionEntity CreateDefaultSelectionEntity()
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateDefaultSelectionEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateDefaultSelectionEntity
+description: NSSelectionAgent.CreateDefaultSelectionEntity()
+intellisense: NSSelectionAgent.CreateDefaultSelectionEntity
 keywords: CreateDefaultSelectionEntity()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetStringDescription()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/String GetStringDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetStringDescription
+description: NSAAATestClassForModeling.GetStringDescription()
+intellisense: NSAAATestClassForModeling.GetStringDescription
 sortOrder: 8933
 keywords: GetStringDescription()
+so.topic: reference
 ---
 
 

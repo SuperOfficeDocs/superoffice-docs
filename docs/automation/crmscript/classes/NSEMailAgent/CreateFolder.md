@@ -1,10 +1,10 @@
 ---
-title: Void CreateFolder(NSEMailConnectionInfo connectionInfo)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void CreateFolder(NSEMailConnectionInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateFolder_NSEMailConnectionInfo_p_0
+description: NSEMailAgent.CreateFolder(NSEMailConnectionInfo p_0)
+intellisense: NSEMailAgent.CreateFolder
 sortOrder: 2854
 keywords: CreateFolder(NSEMailConnectionInfo)
+so.topic: reference
 ---
 
 

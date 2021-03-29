@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsLocation()
-path: /EJScript/Classes/NSResourceEntity/Member functions/Bool GetIsLocation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceEntity_GetIsLocation
+description: NSResourceEntity.GetIsLocation()
+intellisense: NSResourceEntity.GetIsLocation
 keywords: GetIsLocation()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocumentEntity CreateDefaultDocumentEntityFromSuggestion(Integer p0)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocumentEntity CreateDefaultDocumentEntityFromSuggestion(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CreateDefaultDocumentEntityFromSuggestion_Integer_p_0
+description: NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion(Integer p_0)
+intellisense: NSDocumentAgent.CreateDefaultDocumentEntityFromSuggestion
 sortOrder: 2499
 keywords: CreateDefaultDocumentEntityFromSuggestion(Integer)
+so.topic: reference
 ---
 
 

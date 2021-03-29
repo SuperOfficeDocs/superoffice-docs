@@ -1,9 +1,9 @@
 ---
-title: String GetCustomAttention()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/String GetCustomAttention()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetCustomAttention
+description: NSMailMergeSettings.GetCustomAttention()
+intellisense: NSMailMergeSettings.GetCustomAttention
 keywords: GetCustomAttention()
+so.topic: reference
 ---
 
 

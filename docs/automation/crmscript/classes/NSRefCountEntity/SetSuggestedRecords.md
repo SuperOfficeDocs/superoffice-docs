@@ -1,9 +1,9 @@
 ---
-title: Void SetSuggestedRecords(NSMDOListItem[] SuggestedRecords)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetSuggestedRecords(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetSuggestedRecords_NSMDOListItem__p_0
+description: NSRefCountEntity.SetSuggestedRecords(NSMDOListItem[] p_0)
+intellisense: NSRefCountEntity.SetSuggestedRecords
 keywords: SetSuggestedRecords(NSMDOListItem[])
+so.topic: reference
 ---
 
 

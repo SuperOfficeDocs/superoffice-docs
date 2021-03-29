@@ -1,9 +1,9 @@
 ---
-title: NSAAATestClassForModeling
-path: /EJScript/Classes/NSAAATestClassForModeling
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling
+description: NSAAATestClassForModeling
+intellisense: Void.NSAAATestClassForModeling
 sortOrder: 8915
+so.topic: reference
 ---
 
 

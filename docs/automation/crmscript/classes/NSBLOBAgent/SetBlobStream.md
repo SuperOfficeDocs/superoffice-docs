@@ -1,10 +1,10 @@
 ---
-title: Void SetBlobStream(Integer blobEntityId, NSStream stream)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Void SetBlobStream(Integer p_0, NSStream p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_SetBlobStream_Integer_p_0_NSStream_p_1
+description: NSBLOBAgent.SetBlobStream(Integer p_0, NSStream p_1)
+intellisense: NSBLOBAgent.SetBlobStream
 sortOrder: 1433
 keywords: SetBlobStream(Integer,NSStream)
+so.topic: reference
 ---
 
 

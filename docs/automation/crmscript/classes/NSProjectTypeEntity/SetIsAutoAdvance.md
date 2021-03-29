@@ -1,9 +1,9 @@
 ---
-title: Void SetIsAutoAdvance(Bool IsAutoAdvance)
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Void SetIsAutoAdvance(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeEntity_SetIsAutoAdvance_Bool_p_0
+description: NSProjectTypeEntity.SetIsAutoAdvance(Bool p_0)
+intellisense: NSProjectTypeEntity.SetIsAutoAdvance
 keywords: SetIsAutoAdvance(Bool)
+so.topic: reference
 ---
 
 

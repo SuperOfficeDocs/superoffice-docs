@@ -1,10 +1,10 @@
 ---
-title: Integer GetAddressLayoutId()
-path: /EJScript/Classes/NSCountry/Member functions/Integer GetAddressLayoutId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetAddressLayoutId
+description: NSCountry.GetAddressLayoutId()
+intellisense: NSCountry.GetAddressLayoutId
 sortOrder: 2013
 keywords: GetAddressLayoutId()
+so.topic: reference
 ---
 
 

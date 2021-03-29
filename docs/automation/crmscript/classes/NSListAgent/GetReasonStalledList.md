@@ -1,9 +1,9 @@
 ---
-title: NSReasonStalled[] GetReasonStalledList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSReasonStalled[] GetReasonStalledList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetReasonStalledList_Integer__p_0
+description: NSListAgent.GetReasonStalledList(Integer[] p_0)
+intellisense: NSListAgent.GetReasonStalledList
 keywords: GetReasonStalledList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of ReasonStalled objects.

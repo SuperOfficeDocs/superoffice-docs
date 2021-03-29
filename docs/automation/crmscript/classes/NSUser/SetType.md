@@ -1,9 +1,9 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSUser/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetType_Integer_p_0
+description: NSUser.SetType(Integer p_0)
+intellisense: NSUser.SetType
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

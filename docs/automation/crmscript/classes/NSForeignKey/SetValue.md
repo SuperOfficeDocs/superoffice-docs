@@ -1,10 +1,10 @@
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_SetValue_String_p_0
+description: NSForeignKey.SetValue(String p_0)
+intellisense: NSForeignKey.SetValue
 sortOrder: 3749
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

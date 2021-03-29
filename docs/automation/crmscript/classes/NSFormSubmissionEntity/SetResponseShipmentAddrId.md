@@ -1,10 +1,10 @@
 ---
-title: Void SetResponseShipmentAddrId(Integer ResponseShipmentAddrId)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetResponseShipmentAddrId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_SetResponseShipmentAddrId_Integer_p_0
+description: NSFormSubmissionEntity.SetResponseShipmentAddrId(Integer p_0)
+intellisense: NSFormSubmissionEntity.SetResponseShipmentAddrId
 sortOrder: 3847
 keywords: SetResponseShipmentAddrId(Integer)
+so.topic: reference
 ---
 
 

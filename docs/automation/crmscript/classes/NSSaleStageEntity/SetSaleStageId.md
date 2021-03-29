@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleStageId(Integer SaleStageId)
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/Void SetSaleStageId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStageEntity_SetSaleStageId_Integer_p_0
+description: NSSaleStageEntity.SetSaleStageId(Integer p_0)
+intellisense: NSSaleStageEntity.SetSaleStageId
 keywords: SetSaleStageId(Integer)
+so.topic: reference
 ---
 
 

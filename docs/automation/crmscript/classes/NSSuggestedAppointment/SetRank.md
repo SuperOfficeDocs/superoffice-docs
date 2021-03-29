@@ -1,9 +1,9 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetRank_Integer_p_0
+description: NSSuggestedAppointment.SetRank(Integer p_0)
+intellisense: NSSuggestedAppointment.SetRank
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

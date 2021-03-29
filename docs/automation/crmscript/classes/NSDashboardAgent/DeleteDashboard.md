@@ -1,10 +1,10 @@
 ---
-title: Void DeleteDashboard(Integer dashboardId)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/Void DeleteDashboard(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_DeleteDashboard_Integer_p_0
+description: NSDashboardAgent.DeleteDashboard(Integer p_0)
+intellisense: NSDashboardAgent.DeleteDashboard
 sortOrder: 2284
 keywords: DeleteDashboard(Integer)
+so.topic: reference
 ---
 
 

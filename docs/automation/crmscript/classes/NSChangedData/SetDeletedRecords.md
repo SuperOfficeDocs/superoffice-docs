@@ -1,10 +1,10 @@
 ---
-title: Void SetDeletedRecords(NSChangedDataItem[] DeletedRecords)
-path: /EJScript/Classes/NSChangedData/Member functions/Void SetDeletedRecords(NSChangedDataItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChangedData_SetDeletedRecords_NSChangedDataItem__p_0
+description: NSChangedData.SetDeletedRecords(NSChangedDataItem[] p_0)
+intellisense: NSChangedData.SetDeletedRecords
 sortOrder: 1504
 keywords: SetDeletedRecords(NSChangedDataItem[])
+so.topic: reference
 ---
 
 

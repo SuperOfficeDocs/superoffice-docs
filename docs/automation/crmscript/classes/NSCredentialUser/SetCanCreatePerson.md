@@ -1,10 +1,10 @@
 ---
-title: Void SetCanCreatePerson(Bool CanCreatePerson)
-path: /EJScript/Classes/NSCredentialUser/Member functions/Void SetCanCreatePerson(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser_SetCanCreatePerson_Bool_p_0
+description: NSCredentialUser.SetCanCreatePerson(Bool p_0)
+intellisense: NSCredentialUser.SetCanCreatePerson
 sortOrder: 2090
 keywords: SetCanCreatePerson(Bool)
+so.topic: reference
 ---
 
 

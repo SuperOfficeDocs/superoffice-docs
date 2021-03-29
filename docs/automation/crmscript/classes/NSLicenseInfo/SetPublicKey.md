@@ -1,9 +1,9 @@
 ---
-title: Void SetPublicKey(NSSignedPublicKey PublicKey)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetPublicKey(NSSignedPublicKey p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetPublicKey_NSSignedPublicKey_p_0
+description: NSLicenseInfo.SetPublicKey(NSSignedPublicKey p_0)
+intellisense: NSLicenseInfo.SetPublicKey
 keywords: SetPublicKey(NSSignedPublicKey)
+so.topic: reference
 ---
 
 

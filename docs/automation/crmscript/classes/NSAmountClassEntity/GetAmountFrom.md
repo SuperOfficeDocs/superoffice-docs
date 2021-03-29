@@ -1,10 +1,10 @@
 ---
-title: Float GetAmountFrom()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Float GetAmountFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_GetAmountFrom
+description: NSAmountClassEntity.GetAmountFrom()
+intellisense: NSAmountClassEntity.GetAmountFrom
 sortOrder: 696
 keywords: GetAmountFrom()
+so.topic: reference
 ---
 
 

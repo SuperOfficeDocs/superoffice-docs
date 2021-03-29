@@ -1,10 +1,10 @@
 ---
-title: NSSalesActivity RequestForInfo(Integer associateIdForNewContact, String channel, String regarding, String contactName, String personFirstname, String personLastname, String emailAddress, String phoneNumber)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSalesActivity RequestForInfo(Integer p_0, String p_1, String p_2, String p_3, String p_4, String p_5, String p_6, String p_7)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_RequestForInfo_Integer_p_0_String_p_1_String_p_2_String_p_3_String_p_4_String_p_5_String_p_6_String_p_7
+description: NSAppointmentAgent.RequestForInfo(Integer p_0, String p_1, String p_2, String p_3, String p_4, String p_5, String p_6, String p_7)
+intellisense: NSAppointmentAgent.RequestForInfo
 sortOrder: 896
 keywords: RequestForInfo(Integer,String,String,String,String,String,String,String)
+so.topic: reference
 ---
 
 

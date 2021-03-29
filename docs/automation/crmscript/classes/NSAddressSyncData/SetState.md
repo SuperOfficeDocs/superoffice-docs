@@ -1,10 +1,10 @@
 ---
-title: Void SetState(String State)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetState(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_SetState_String_p_0
+description: NSAddressSyncData.SetState(String p_0)
+intellisense: NSAddressSyncData.SetState
 sortOrder: 639
 keywords: SetState(String)
+so.topic: reference
 ---
 
 

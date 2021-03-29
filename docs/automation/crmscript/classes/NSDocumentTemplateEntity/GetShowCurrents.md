@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowCurrents()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetShowCurrents()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetShowCurrents
+description: NSDocumentTemplateEntity.GetShowCurrents()
+intellisense: NSDocumentTemplateEntity.GetShowCurrents
 sortOrder: 2654
 keywords: GetShowCurrents()
+so.topic: reference
 ---
 
 

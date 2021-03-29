@@ -1,10 +1,10 @@
 ---
-title: Void SetAssignmentStatus(Integer AssignmentStatus)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetAssignmentStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetAssignmentStatus_Integer_p_0
+description: NSAppointment.SetAssignmentStatus(Integer p_0)
+intellisense: NSAppointment.SetAssignmentStatus
 sortOrder: 773
 keywords: SetAssignmentStatus(Integer)
+so.topic: reference
 ---
 
 

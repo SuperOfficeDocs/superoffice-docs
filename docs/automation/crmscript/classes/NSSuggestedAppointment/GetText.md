@@ -1,9 +1,9 @@
 ---
-title: String GetText()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/String GetText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetText
+description: NSSuggestedAppointment.GetText()
+intellisense: NSSuggestedAppointment.GetText
 keywords: GetText()
+so.topic: reference
 ---
 
 

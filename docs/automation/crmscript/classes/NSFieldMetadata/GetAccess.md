@@ -1,10 +1,10 @@
 ---
-title: Integer GetAccess()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Integer GetAccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetAccess
+description: NSFieldMetadata.GetAccess()
+intellisense: NSFieldMetadata.GetAccess
 sortOrder: 3576
 keywords: GetAccess()
+so.topic: reference
 ---
 
 

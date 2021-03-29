@@ -1,10 +1,10 @@
 ---
-title: String getItemId(Integer p\_groupId, Integer p\_itemId)
-path: /EJScript/Classes/MainMenu/Member functions/String getItemId(Integer p_groupId, Integer p_itemId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MainMenu_getItemId_Integer_p_groupId_Integer_p_itemId
+description: MainMenu.getItemId(Integer p_groupId, Integer p_itemId)
+intellisense: MainMenu.getItemId
 sortOrder: 509
 keywords: getItemId(Integer,Integer)
+so.topic: reference
 ---
 
 # String getItemId(Integer group, Integer pos)

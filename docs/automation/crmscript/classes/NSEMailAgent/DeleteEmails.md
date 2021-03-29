@@ -1,10 +1,10 @@
 ---
-title: Void DeleteEmails(Integer[] ids, String moveToFolder)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void DeleteEmails(Integer[] p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_DeleteEmails_Integer__p_0_String_p_1
+description: NSEMailAgent.DeleteEmails(Integer[] p_0, String p_1)
+intellisense: NSEMailAgent.DeleteEmails
 sortOrder: 2857
 keywords: DeleteEmails(Integer[],String)
+so.topic: reference
 ---
 
 

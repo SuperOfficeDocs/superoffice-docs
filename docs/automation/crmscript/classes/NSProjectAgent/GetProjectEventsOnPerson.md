@@ -1,9 +1,9 @@
 ---
-title: NSProjectEvent[] GetProjectEventsOnPerson(Integer personId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEvent[] GetProjectEventsOnPerson(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetProjectEventsOnPerson_Integer_p_0
+description: NSProjectAgent.GetProjectEventsOnPerson(Integer p_0)
+intellisense: NSProjectAgent.GetProjectEventsOnPerson
 keywords: GetProjectEventsOnPerson(Integer)
+so.topic: reference
 ---
 
 

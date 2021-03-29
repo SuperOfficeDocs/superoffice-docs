@@ -1,10 +1,10 @@
 ---
-title: String GetInstanceLayout()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/String GetInstanceLayout()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_GetInstanceLayout
+description: NSAudienceLayoutEntity.GetInstanceLayout()
+intellisense: NSAudienceLayoutEntity.GetInstanceLayout
 sortOrder: 1340
 keywords: GetInstanceLayout()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetRate(Float Rate)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetRate(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_SetRate_Float_p_0
+description: NSCurrencyEntity.SetRate(Float p_0)
+intellisense: NSCurrencyEntity.SetRate
 sortOrder: 2190
 keywords: SetRate(Float)
+so.topic: reference
 ---
 
 

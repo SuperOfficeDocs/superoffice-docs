@@ -1,10 +1,10 @@
 ---
-title: Void send()
-path: /EJScript/Classes/Email/Member functions/Void send()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Email_send
+description: Email.send()
+intellisense: Email.send
 sortOrder: 283
 keywords: send()
+so.topic: reference
 ---
 
 Sends the email.

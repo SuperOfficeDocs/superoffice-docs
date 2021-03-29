@@ -1,9 +1,9 @@
 ---
-title: Void SetEta(DateTime Eta)
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/Void SetEta(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_SetEta_DateTime_p_0
+description: NSSystemEventEntity.SetEta(DateTime p_0)
+intellisense: NSSystemEventEntity.SetEta
 keywords: SetEta(DateTime)
+so.topic: reference
 ---
 
 

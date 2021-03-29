@@ -1,9 +1,9 @@
 ---
-title: String GetType()
-path: /EJScript/Classes/NSWebhook/Member functions/String GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetType
+description: NSWebhook.GetType()
+intellisense: NSWebhook.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

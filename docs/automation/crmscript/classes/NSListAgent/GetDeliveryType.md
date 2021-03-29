@@ -1,9 +1,9 @@
 ---
-title: NSDeliveryType GetDeliveryType(Integer deliveryTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryType GetDeliveryType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDeliveryType_Integer_p_0
+description: NSListAgent.GetDeliveryType(Integer p_0)
+intellisense: NSListAgent.GetDeliveryType
 keywords: GetDeliveryType(Integer)
+so.topic: reference
 ---
 
 

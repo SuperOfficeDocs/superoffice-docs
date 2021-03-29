@@ -1,10 +1,10 @@
 ---
-title: NSImage GetDefaultProjectImage(String layoutName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSImage GetDefaultProjectImage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetDefaultProjectImage_String_p_0
+description: NSAudienceAgent.GetDefaultProjectImage(String p_0)
+intellisense: NSAudienceAgent.GetDefaultProjectImage
 sortOrder: 1305
 keywords: GetDefaultProjectImage(String)
+so.topic: reference
 ---
 
 

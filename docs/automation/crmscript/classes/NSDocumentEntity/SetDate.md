@@ -1,10 +1,10 @@
 ---
-title: Void SetDate(DateTime Date)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetDate_DateTime_p_0
+description: NSDocumentEntity.SetDate(DateTime p_0)
+intellisense: NSDocumentEntity.SetDate
 sortOrder: 2592
 keywords: SetDate(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCycle(Integer p0)
-path: /EJScript/Classes/NSRecurrenceMonthPattern/Member functions/Void SetCycle(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceMonthPattern_SetCycle_Integer_p_0
+description: NSRecurrenceMonthPattern.SetCycle(Integer p_0)
+intellisense: NSRecurrenceMonthPattern.SetCycle
 keywords: SetCycle(Integer)
+so.topic: reference
 ---
 
 

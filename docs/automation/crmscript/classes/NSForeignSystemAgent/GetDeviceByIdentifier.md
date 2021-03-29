@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice GetDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice GetDeviceByIdentifier(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetDeviceByIdentifier_String_p_0_String_p_1_String_p_2
+description: NSForeignSystemAgent.GetDeviceByIdentifier(String p_0, String p_1, String p_2)
+intellisense: NSForeignSystemAgent.GetDeviceByIdentifier
 sortOrder: 3757
 keywords: GetDeviceByIdentifier(String,String,String)
+so.topic: reference
 ---
 
 

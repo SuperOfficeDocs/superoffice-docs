@@ -1,9 +1,9 @@
 ---
-title: NSCurrencyEntity[] GetAllCurrencies(Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity[] GetAllCurrencies(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAllCurrencies_Bool_p_0
+description: NSListAgent.GetAllCurrencies(Bool p_0)
+intellisense: NSListAgent.GetAllCurrencies
 keywords: GetAllCurrencies(Bool)
+so.topic: reference
 ---
 
 

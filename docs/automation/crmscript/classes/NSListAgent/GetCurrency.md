@@ -1,9 +1,9 @@
 ---
-title: NSCurrency GetCurrency(Integer currencyId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency GetCurrency(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCurrency_Integer_p_0
+description: NSListAgent.GetCurrency(Integer p_0)
+intellisense: NSListAgent.GetCurrency
 keywords: GetCurrency(Integer)
+so.topic: reference
 ---
 
 

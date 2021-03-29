@@ -1,9 +1,9 @@
 ---
-title: Float GetDefaultSubscriptionQuantity()
-path: /EJScript/Classes/NSProduct/Member functions/Float GetDefaultSubscriptionQuantity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetDefaultSubscriptionQuantity
+description: NSProduct.GetDefaultSubscriptionQuantity()
+intellisense: NSProduct.GetDefaultSubscriptionQuantity
 keywords: GetDefaultSubscriptionQuantity()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSProjectMember
-path: /EJScript/Classes/NSProjectMember
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember
+description: NSProjectMember
+intellisense: Void.NSProjectMember
+so.topic: reference
 ---
 
 

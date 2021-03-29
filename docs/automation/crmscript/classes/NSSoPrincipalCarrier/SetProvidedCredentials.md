@@ -1,9 +1,9 @@
 ---
-title: Void SetProvidedCredentials(NSProvidedCredential[] p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetProvidedCredentials(NSProvidedCredential[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetProvidedCredentials_NSProvidedCredential__p_0
+description: NSSoPrincipalCarrier.SetProvidedCredentials(NSProvidedCredential[] p_0)
+intellisense: NSSoPrincipalCarrier.SetProvidedCredentials
 keywords: SetProvidedCredentials(NSProvidedCredential[])
+so.topic: reference
 ---
 
 

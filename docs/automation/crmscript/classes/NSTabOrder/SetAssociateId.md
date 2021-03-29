@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_SetAssociateId_Integer_p_0
+description: NSTabOrder.SetAssociateId(Integer p_0)
+intellisense: NSTabOrder.SetAssociateId
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

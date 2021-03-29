@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultValue(Integer DefaultValue)
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/Void SetDefaultValue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoMdoList_SetDefaultValue_Integer_p_0
+description: NSFieldInfoMdoList.SetDefaultValue(Integer p_0)
+intellisense: NSFieldInfoMdoList.SetDefaultValue
 sortOrder: 3533
 keywords: SetDefaultValue(Integer)
+so.topic: reference
 ---
 
 

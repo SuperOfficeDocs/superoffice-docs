@@ -1,9 +1,9 @@
 ---
-title: Bool SaveCredential(Integer userId, NSCredential credential)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool SaveCredential(Integer p_0, NSCredential p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SaveCredential_Integer_p_0_NSCredential_p_1
+description: NSUserAgent.SaveCredential(Integer p_0, NSCredential p_1)
+intellisense: NSUserAgent.SaveCredential
 keywords: SaveCredential(Integer,NSCredential)
+so.topic: reference
 ---
 
 

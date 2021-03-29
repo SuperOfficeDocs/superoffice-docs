@@ -1,14 +1,14 @@
 ---
-title: HtmlElement
-path: /EJScript/Classes/HtmlElement
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement
+description: HtmlElement
+intellisense: Void.HtmlElement
 sortOrder: 377
 description: HtmlElement
 author:
 so.date:
 keywords:
 so.topic:
+so.topic: reference
 ---
 
 # HtmlElement

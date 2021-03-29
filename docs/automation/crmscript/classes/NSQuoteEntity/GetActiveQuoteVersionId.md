@@ -1,9 +1,9 @@
 ---
-title: Integer GetActiveQuoteVersionId()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/Integer GetActiveQuoteVersionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteEntity_GetActiveQuoteVersionId
+description: NSQuoteEntity.GetActiveQuoteVersionId()
+intellisense: NSQuoteEntity.GetActiveQuoteVersionId
 keywords: GetActiveQuoteVersionId()
+so.topic: reference
 ---
 
 

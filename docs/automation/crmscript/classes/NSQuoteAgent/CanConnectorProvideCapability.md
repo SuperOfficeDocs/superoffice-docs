@@ -1,9 +1,9 @@
 ---
-title: Bool CanConnectorProvideCapability(Integer quoteConnectionId, String capabilityName)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Bool CanConnectorProvideCapability(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CanConnectorProvideCapability_Integer_p_0_String_p_1
+description: NSQuoteAgent.CanConnectorProvideCapability(Integer p_0, String p_1)
+intellisense: NSQuoteAgent.CanConnectorProvideCapability
 keywords: CanConnectorProvideCapability(Integer,String)
+so.topic: reference
 ---
 
 

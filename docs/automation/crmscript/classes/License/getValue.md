@@ -1,10 +1,10 @@
 ---
-title: String getValue(String name)
-path: /EJScript/Classes/License/Member functions/String getValue(String name)
-intellisense: 1
-classref: 1
+title: crmscript_ref_License_getValue_String_name
+description: License.getValue(String name)
+intellisense: License.getValue
 sortOrder: 463
 keywords: getValue(String)
+so.topic: reference
 ---
 
 

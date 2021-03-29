@@ -1,10 +1,10 @@
 ---
-title: Bool getBlockExecution()
-path: /EJScript/Classes/EventData/member functions/Bool getBlockExecution()
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_getBlockExecution
+description: EventData.getBlockExecution()
+intellisense: EventData.getBlockExecution
 sortOrder: 287
 keywords: getBlockExecution()
+so.topic: reference
 ---
 
 ### Bool getBlockExecution()

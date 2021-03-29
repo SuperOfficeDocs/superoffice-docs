@@ -1,9 +1,9 @@
 ---
-title: NSCRMScriptResult
-path: /EJScript/Classes/NSCRMScriptResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptResult
+description: NSCRMScriptResult
+intellisense: Void.NSCRMScriptResult
 sortOrder: 2149
+so.topic: reference
 ---
 
 

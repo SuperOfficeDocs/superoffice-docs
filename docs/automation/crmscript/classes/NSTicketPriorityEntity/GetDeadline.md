@@ -1,9 +1,9 @@
 ---
-title: Integer GetDeadline()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Integer GetDeadline()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetDeadline
+description: NSTicketPriorityEntity.GetDeadline()
+intellisense: NSTicketPriorityEntity.GetDeadline
 keywords: GetDeadline()
+so.topic: reference
 ---
 
 

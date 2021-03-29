@@ -1,9 +1,9 @@
 ---
-title: Bool GetEnabled()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Bool GetEnabled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_GetEnabled
+description: NSSaintConfiguration.GetEnabled()
+intellisense: NSSaintConfiguration.GetEnabled
 keywords: GetEnabled()
+so.topic: reference
 ---
 
 

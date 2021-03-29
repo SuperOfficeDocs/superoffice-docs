@@ -1,10 +1,10 @@
 ---
-title: Integer GetDetailsRecord()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Integer GetDetailsRecord()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetDetailsRecord
+description: NSBatchTaskInfo.GetDetailsRecord()
+intellisense: NSBatchTaskInfo.GetDetailsRecord
 sortOrder: 1369
 keywords: GetDetailsRecord()
+so.topic: reference
 ---
 
 

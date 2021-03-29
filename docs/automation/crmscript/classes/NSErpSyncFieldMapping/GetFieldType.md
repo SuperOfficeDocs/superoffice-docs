@@ -1,10 +1,10 @@
 ---
-title: Integer GetFieldType()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Integer GetFieldType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetFieldType
+description: NSErpSyncFieldMapping.GetFieldType()
+intellisense: NSErpSyncFieldMapping.GetFieldType
 sortOrder: 3294
 keywords: GetFieldType()
+so.topic: reference
 ---
 
 Field type

@@ -1,10 +1,10 @@
 ---
-title: Void SetShowState(Integer ShowState)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetShowState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetShowState_Integer_p_0
+description: NSExtAppEntity.SetShowState(Integer p_0)
+intellisense: NSExtAppEntity.SetShowState
 sortOrder: 3396
 keywords: SetShowState(Integer)
+so.topic: reference
 ---
 
 

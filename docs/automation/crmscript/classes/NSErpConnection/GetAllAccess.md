@@ -1,10 +1,10 @@
 ---
-title: Bool GetAllAccess()
-path: /EJScript/Classes/NSErpConnection/Member functions/Bool GetAllAccess()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_GetAllAccess
+description: NSErpConnection.GetAllAccess()
+intellisense: NSErpConnection.GetAllAccess
 sortOrder: 3077
 keywords: GetAllAccess()
+so.topic: reference
 ---
 
 

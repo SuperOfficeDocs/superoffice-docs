@@ -1,9 +1,9 @@
 ---
-title: Void SetIsAvailable(Bool IsAvailable)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetIsAvailable(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetIsAvailable_Bool_p_0
+description: NSQuoteConnection.SetIsAvailable(Bool p_0)
+intellisense: NSQuoteConnection.SetIsAvailable
 keywords: SetIsAvailable(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetEventDate(DateTime EventDate)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetEventDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetEventDate_DateTime_p_0
+description: NSProjectEventEntity.SetEventDate(DateTime p_0)
+intellisense: NSProjectEventEntity.SetEventDate
 keywords: SetEventDate(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasAttachment()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Bool GetHasAttachment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetHasAttachment
+description: NSTicketEntity.GetHasAttachment()
+intellisense: NSTicketEntity.GetHasAttachment
 keywords: GetHasAttachment()
+so.topic: reference
 ---
 
 

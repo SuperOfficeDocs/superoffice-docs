@@ -1,9 +1,9 @@
 ---
-title: String GetCulture()
-path: /EJScript/Classes/NSResourceOverride/Member functions/String GetCulture()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_GetCulture
+description: NSResourceOverride.GetCulture()
+intellisense: NSResourceOverride.GetCulture
 keywords: GetCulture()
+so.topic: reference
 ---
 
 

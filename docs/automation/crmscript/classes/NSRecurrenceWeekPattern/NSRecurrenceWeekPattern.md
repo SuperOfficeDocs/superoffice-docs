@@ -1,8 +1,8 @@
 ---
-title: NSRecurrenceWeekPattern
-path: /EJScript/Classes/NSRecurrenceWeekPattern
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceWeekPattern
+description: NSRecurrenceWeekPattern
+intellisense: Void.NSRecurrenceWeekPattern
+so.topic: reference
 ---
 
 

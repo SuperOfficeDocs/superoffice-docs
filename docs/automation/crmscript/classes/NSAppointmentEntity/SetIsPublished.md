@@ -1,10 +1,10 @@
 ---
-title: Void SetIsPublished()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetIsPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetIsPublished
+description: NSAppointmentEntity.SetIsPublished()
+intellisense: NSAppointmentEntity.SetIsPublished
 sortOrder: 1009
 keywords: SetIsPublished()
+so.topic: reference
 ---
 
 

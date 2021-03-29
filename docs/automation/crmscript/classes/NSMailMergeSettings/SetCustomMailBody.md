@@ -1,9 +1,9 @@
 ---
-title: Void SetCustomMailBody(String CustomMailBody)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetCustomMailBody(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetCustomMailBody_String_p_0
+description: NSMailMergeSettings.SetCustomMailBody(String p_0)
+intellisense: NSMailMergeSettings.SetCustomMailBody
 keywords: SetCustomMailBody(String)
+so.topic: reference
 ---
 
 

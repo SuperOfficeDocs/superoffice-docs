@@ -1,10 +1,10 @@
 ---
-title: Void SetTableName(String TableName)
-path: /EJScript/Classes/NSEntityName/Member functions/Void SetTableName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEntityName_SetTableName_String_p_0
+description: NSEntityName.SetTableName(String p_0)
+intellisense: NSEntityName.SetTableName
 sortOrder: 3073
 keywords: SetTableName(String)
+so.topic: reference
 ---
 
 

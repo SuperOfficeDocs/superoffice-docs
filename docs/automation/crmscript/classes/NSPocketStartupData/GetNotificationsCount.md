@@ -1,9 +1,9 @@
 ---
-title: Integer GetNotificationsCount()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Integer GetNotificationsCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_GetNotificationsCount
+description: NSPocketStartupData.GetNotificationsCount()
+intellisense: NSPocketStartupData.GetNotificationsCount
 keywords: GetNotificationsCount()
+so.topic: reference
 ---
 
 

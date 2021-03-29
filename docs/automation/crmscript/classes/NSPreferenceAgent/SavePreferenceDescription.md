@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescription SavePreferenceDescription(NSPreferenceDescription preferenceDescription)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription SavePreferenceDescription(NSPreferenceDescription p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_SavePreferenceDescription_NSPreferenceDescription_p_0
+description: NSPreferenceAgent.SavePreferenceDescription(NSPreferenceDescription p_0)
+intellisense: NSPreferenceAgent.SavePreferenceDescription
 keywords: SavePreferenceDescription(NSPreferenceDescription)
+so.topic: reference
 ---
 
 

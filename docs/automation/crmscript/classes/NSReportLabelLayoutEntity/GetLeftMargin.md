@@ -1,9 +1,9 @@
 ---
-title: Integer GetLeftMargin()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetLeftMargin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetLeftMargin
+description: NSReportLabelLayoutEntity.GetLeftMargin()
+intellisense: NSReportLabelLayoutEntity.GetLeftMargin
 keywords: GetLeftMargin()
+so.topic: reference
 ---
 
 

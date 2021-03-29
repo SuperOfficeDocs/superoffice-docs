@@ -1,9 +1,9 @@
 ---
-title: NSUser CreateDefaultUserFromUserType(Integer userType)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser CreateDefaultUserFromUserType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserType_Integer_p_0
+description: NSUserAgent.CreateDefaultUserFromUserType(Integer p_0)
+intellisense: NSUserAgent.CreateDefaultUserFromUserType
 keywords: CreateDefaultUserFromUserType(Integer)
+so.topic: reference
 ---
 
 

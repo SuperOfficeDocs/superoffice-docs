@@ -1,9 +1,9 @@
 ---
-title: Bool IsPublishEventActive(Integer p0)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Bool IsPublishEventActive(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_IsPublishEventActive_Integer_p_0
+description: NSUserDefinedFieldInfoAgent.IsPublishEventActive(Integer p_0)
+intellisense: NSUserDefinedFieldInfoAgent.IsPublishEventActive
 keywords: IsPublishEventActive(Integer)
+so.topic: reference
 ---
 
 

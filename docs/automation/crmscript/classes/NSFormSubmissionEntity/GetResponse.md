@@ -1,10 +1,10 @@
 ---
-title: String GetResponse()
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/String GetResponse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_GetResponse
+description: NSFormSubmissionEntity.GetResponse()
+intellisense: NSFormSubmissionEntity.GetResponse
 sortOrder: 3839
 keywords: GetResponse()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetReason()
-path: /EJScript/Classes/NSLicenseResult/Member functions/String GetReason()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseResult_GetReason
+description: NSLicenseResult.GetReason()
+intellisense: NSLicenseResult.GetReason
 keywords: GetReason()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetUrl_String_p_0
+description: NSWebPanelEntity.SetUrl(String p_0)
+intellisense: NSWebPanelEntity.SetUrl
 keywords: SetUrl(String)
+so.topic: reference
 ---
 
 

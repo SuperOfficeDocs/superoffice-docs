@@ -1,9 +1,9 @@
 ---
-title: NSUntrustedCredentials CreateDefaultUntrustedCredentials()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUntrustedCredentials CreateDefaultUntrustedCredentials()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultUntrustedCredentials
+description: NSUserAgent.CreateDefaultUntrustedCredentials()
+intellisense: NSUserAgent.CreateDefaultUntrustedCredentials
 keywords: CreateDefaultUntrustedCredentials()
+so.topic: reference
 ---
 
 

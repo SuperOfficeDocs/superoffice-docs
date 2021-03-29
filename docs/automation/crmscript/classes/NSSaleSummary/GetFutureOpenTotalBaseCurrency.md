@@ -1,9 +1,9 @@
 ---
-title: Float GetFutureOpenTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetFutureOpenTotalBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetFutureOpenTotalBaseCurrency
+description: NSSaleSummary.GetFutureOpenTotalBaseCurrency()
+intellisense: NSSaleSummary.GetFutureOpenTotalBaseCurrency
 keywords: GetFutureOpenTotalBaseCurrency()
+so.topic: reference
 ---
 
 

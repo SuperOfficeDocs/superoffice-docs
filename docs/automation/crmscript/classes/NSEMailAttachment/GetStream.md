@@ -1,10 +1,10 @@
 ---
-title: NSStream GetStream()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/NSStream GetStream()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_GetStream
+description: NSEMailAttachment.GetStream()
+intellisense: NSEMailAttachment.GetStream
 sortOrder: 2893
 keywords: GetStream()
+so.topic: reference
 ---
 
 

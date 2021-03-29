@@ -1,9 +1,9 @@
 ---
-title: NSResolvedUser ResolveUserFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails, Integer userType, NSCredential credential)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSResolvedUser ResolveUserFromInfo(Integer p_0, String p_1, String[] p_2, String[] p_3, Integer p_4, NSCredential p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_ResolveUserFromInfo_Integer_p_0_String_p_1_String__p_2_String__p_3_Integer_p_4_NSCredential_p_5
+description: NSUserAgent.ResolveUserFromInfo(Integer p_0, String p_1, String[] p_2, String[] p_3, Integer p_4, NSCredential p_5)
+intellisense: NSUserAgent.ResolveUserFromInfo
 keywords: ResolveUserFromInfo(Integer,String,String[],String[],Integer,NSCredential)
+so.topic: reference
 ---
 
 

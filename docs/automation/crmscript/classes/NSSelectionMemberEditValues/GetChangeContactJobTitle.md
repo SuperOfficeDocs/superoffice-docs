@@ -1,9 +1,9 @@
 ---
-title: Bool GetChangeContactJobTitle()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Bool GetChangeContactJobTitle()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetChangeContactJobTitle
+description: NSSelectionMemberEditValues.GetChangeContactJobTitle()
+intellisense: NSSelectionMemberEditValues.GetChangeContactJobTitle
 keywords: GetChangeContactJobTitle()
+so.topic: reference
 ---
 
 

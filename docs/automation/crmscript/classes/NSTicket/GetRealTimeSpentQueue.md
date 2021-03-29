@@ -1,9 +1,9 @@
 ---
-title: Integer GetRealTimeSpentQueue()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetRealTimeSpentQueue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetRealTimeSpentQueue
+description: NSTicket.GetRealTimeSpentQueue()
+intellisense: NSTicket.GetRealTimeSpentQueue
 keywords: GetRealTimeSpentQueue()
+so.topic: reference
 ---
 
 

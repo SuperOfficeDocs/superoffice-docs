@@ -1,9 +1,9 @@
 ---
-title: DateTime GetAdminWarningDate()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/DateTime GetAdminWarningDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetAdminWarningDate
+description: NSLicenseInfo.GetAdminWarningDate()
+intellisense: NSLicenseInfo.GetAdminWarningDate
 keywords: GetAdminWarningDate()
+so.topic: reference
 ---
 
 

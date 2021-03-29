@@ -1,9 +1,9 @@
 ---
-title: NSAreaList[] GetAreaList(Integer[] areaIds)
-path: /EJScript/Classes/NSReplicationAgent/Member functions/NSAreaList[] GetAreaList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReplicationAgent_GetAreaList_Integer__p_0
+description: NSReplicationAgent.GetAreaList(Integer[] p_0)
+intellisense: NSReplicationAgent.GetAreaList
 keywords: GetAreaList(Integer[])
+so.topic: reference
 ---
 
 

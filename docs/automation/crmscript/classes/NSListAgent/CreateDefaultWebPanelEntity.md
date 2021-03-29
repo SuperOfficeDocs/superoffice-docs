@@ -1,9 +1,9 @@
 ---
-title: NSWebPanelEntity CreateDefaultWebPanelEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSWebPanelEntity CreateDefaultWebPanelEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultWebPanelEntity
+description: NSListAgent.CreateDefaultWebPanelEntity()
+intellisense: NSListAgent.CreateDefaultWebPanelEntity
 keywords: CreateDefaultWebPanelEntity()
+so.topic: reference
 ---
 
 

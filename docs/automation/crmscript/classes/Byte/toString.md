@@ -1,10 +1,10 @@
 ---
-title: String toString()
-path: /EJScript/Classes/Byte/Member functions/String toString()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Byte_toString
+description: Byte.toString()
+intellisense: Byte.toString
 sortOrder: 139
 keywords: toString()
+so.topic: reference
 ---
 
 

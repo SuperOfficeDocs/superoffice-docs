@@ -1,10 +1,10 @@
 ---
-title: Integer ToggleActivities(String[] activityIdentifier)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Integer ToggleActivities(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_ToggleActivities_String__p_0
+description: NSAppointmentAgent.ToggleActivities(String[] p_0)
+intellisense: NSAppointmentAgent.ToggleActivities
 sortOrder: 830
 keywords: ToggleActivities(String[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSCredentialsGroup/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroup_GetName
+description: NSCredentialsGroup.GetName()
+intellisense: NSCredentialsGroup.GetName
 sortOrder: 2059
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetStartCount(Integer StartCount)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetStartCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetStartCount_Integer_p_0
+description: NSBatchTaskInfo.SetStartCount(Integer p_0)
+intellisense: NSBatchTaskInfo.SetStartCount
 sortOrder: 1404
 keywords: SetStartCount(Integer)
+so.topic: reference
 ---
 
 

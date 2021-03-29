@@ -1,8 +1,8 @@
 ---
-title: NSNumberAllocationAgent
-path: /EJScript/Classes/NSNumberAllocationAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent
+description: NSNumberAllocationAgent
+intellisense: Void.NSNumberAllocationAgent
+so.topic: reference
 ---
 
 

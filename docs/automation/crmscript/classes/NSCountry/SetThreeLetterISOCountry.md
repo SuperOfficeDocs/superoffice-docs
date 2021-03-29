@@ -1,10 +1,10 @@
 ---
-title: Void SetThreeLetterISOCountry(String ThreeLetterISOCountry)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetThreeLetterISOCountry(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_SetThreeLetterISOCountry_String_p_0
+description: NSCountry.SetThreeLetterISOCountry(String p_0)
+intellisense: NSCountry.SetThreeLetterISOCountry
 sortOrder: 2044
 keywords: SetThreeLetterISOCountry(String)
+so.topic: reference
 ---
 
 

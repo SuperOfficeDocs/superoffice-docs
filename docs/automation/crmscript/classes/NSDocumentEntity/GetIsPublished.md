@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetIsPublished
+description: NSDocumentEntity.GetIsPublished()
+intellisense: NSDocumentEntity.GetIsPublished
 sortOrder: 2551
 keywords: GetIsPublished()
+so.topic: reference
 ---
 
 

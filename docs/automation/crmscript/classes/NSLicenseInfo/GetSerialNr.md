@@ -1,9 +1,9 @@
 ---
-title: String GetSerialNr()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetSerialNr()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetSerialNr
+description: NSLicenseInfo.GetSerialNr()
+intellisense: NSLicenseInfo.GetSerialNr
 keywords: GetSerialNr()
+so.topic: reference
 ---
 
 

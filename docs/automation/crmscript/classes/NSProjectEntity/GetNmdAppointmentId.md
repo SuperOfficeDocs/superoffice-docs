@@ -1,9 +1,9 @@
 ---
-title: Integer GetNmdAppointmentId()
-path: /EJScript/Classes/NSProjectEntity/Member functions/Integer GetNmdAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetNmdAppointmentId
+description: NSProjectEntity.GetNmdAppointmentId()
+intellisense: NSProjectEntity.GetNmdAppointmentId
 keywords: GetNmdAppointmentId()
+so.topic: reference
 ---
 
 

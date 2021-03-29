@@ -1,10 +1,10 @@
 ---
-title: Void SetIsInternalTask(Bool IsInternalTask)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetIsInternalTask(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetIsInternalTask_Bool_p_0
+description: NSBatchTaskInfo.SetIsInternalTask(Bool p_0)
+intellisense: NSBatchTaskInfo.SetIsInternalTask
 sortOrder: 1393
 keywords: SetIsInternalTask(Bool)
+so.topic: reference
 ---
 
 

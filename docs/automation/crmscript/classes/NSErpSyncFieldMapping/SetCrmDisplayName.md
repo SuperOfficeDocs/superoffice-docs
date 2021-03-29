@@ -1,10 +1,10 @@
 ---
-title: Void SetCrmDisplayName(String CrmDisplayName)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetCrmDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetCrmDisplayName_String_p_0
+description: NSErpSyncFieldMapping.SetCrmDisplayName(String p_0)
+intellisense: NSErpSyncFieldMapping.SetCrmDisplayName
 sortOrder: 3307
 keywords: SetCrmDisplayName(String)
+so.topic: reference
 ---
 
 

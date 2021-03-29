@@ -1,9 +1,9 @@
 ---
-title: DateTime GetStartDate()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/DateTime GetStartDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetStartDate
+description: NSMailMergeTask.GetStartDate()
+intellisense: NSMailMergeTask.GetStartDate
 keywords: GetStartDate()
+so.topic: reference
 ---
 
 

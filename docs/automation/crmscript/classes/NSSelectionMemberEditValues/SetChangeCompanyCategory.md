@@ -1,9 +1,9 @@
 ---
-title: Void SetChangeCompanyCategory(Bool p0)
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Void SetChangeCompanyCategory(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_SetChangeCompanyCategory_Bool_p_0
+description: NSSelectionMemberEditValues.SetChangeCompanyCategory(Bool p_0)
+intellisense: NSSelectionMemberEditValues.SetChangeCompanyCategory
 keywords: SetChangeCompanyCategory(Bool)
+so.topic: reference
 ---
 
 

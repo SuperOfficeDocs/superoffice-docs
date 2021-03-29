@@ -1,10 +1,10 @@
 ---
-title: Void SetChosenEntities(String guiName, String providerName, String[] entities)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/Void SetChosenEntities(String p_0, String p_1, String[] p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_SetChosenEntities_String_p_0_String_p_1_String__p_2
+description: NSArchiveAgent.SetChosenEntities(String p_0, String p_1, String[] p_2)
+intellisense: NSArchiveAgent.SetChosenEntities
 sortOrder: 1122
 keywords: SetChosenEntities(String,String,String[])
+so.topic: reference
 ---
 
 

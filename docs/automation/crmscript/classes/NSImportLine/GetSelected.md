@@ -1,10 +1,10 @@
 ---
-title: Bool GetSelected()
-path: /EJScript/Classes/NSImportLine/Member functions/Bool GetSelected()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_GetSelected
+description: NSImportLine.GetSelected()
+intellisense: NSImportLine.GetSelected
 sortOrder: 3974
 keywords: GetSelected()
+so.topic: reference
 ---
 
 

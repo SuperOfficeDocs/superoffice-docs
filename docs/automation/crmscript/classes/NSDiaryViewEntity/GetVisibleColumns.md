@@ -1,10 +1,10 @@
 ---
-title: Integer GetVisibleColumns()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetVisibleColumns()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetVisibleColumns
+description: NSDiaryViewEntity.GetVisibleColumns()
+intellisense: NSDiaryViewEntity.GetVisibleColumns
 sortOrder: 2409
 keywords: GetVisibleColumns()
+so.topic: reference
 ---
 
 

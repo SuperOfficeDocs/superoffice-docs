@@ -1,9 +1,9 @@
 ---
-title: Integer ImportReport(String report)
-path: /EJScript/Classes/NSReportAgent/Member functions/Integer ImportReport(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportAgent_ImportReport_String_p_0
+description: NSReportAgent.ImportReport(String p_0)
+intellisense: NSReportAgent.ImportReport
 keywords: ImportReport(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetAssociateFullName()
-path: /EJScript/Classes/NSProjectEvent/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetAssociateFullName
+description: NSProjectEvent.GetAssociateFullName()
+intellisense: NSProjectEvent.GetAssociateFullName
 keywords: GetAssociateFullName()
+so.topic: reference
 ---
 
 

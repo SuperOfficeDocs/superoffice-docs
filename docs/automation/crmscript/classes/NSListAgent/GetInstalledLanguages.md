@@ -1,9 +1,9 @@
 ---
-title: NSLanguageInfo[] GetInstalledLanguages()
-path: /EJScript/Classes/NSListAgent/Member functions/NSLanguageInfo[] GetInstalledLanguages()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetInstalledLanguages
+description: NSListAgent.GetInstalledLanguages()
+intellisense: NSListAgent.GetInstalledLanguages
 keywords: GetInstalledLanguages()
+so.topic: reference
 ---
 
 

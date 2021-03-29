@@ -1,9 +1,9 @@
 ---
-title: Integer GetWebAppUsageId()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetWebAppUsageId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetWebAppUsageId
+description: NSWebAppUsage.GetWebAppUsageId()
+intellisense: NSWebAppUsage.GetWebAppUsageId
 keywords: GetWebAppUsageId()
+so.topic: reference
 ---
 
 

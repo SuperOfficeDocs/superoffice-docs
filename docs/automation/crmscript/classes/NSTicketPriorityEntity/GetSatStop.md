@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSatStop()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetSatStop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetSatStop
+description: NSTicketPriorityEntity.GetSatStop()
+intellisense: NSTicketPriorityEntity.GetSatStop
 keywords: GetSatStop()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetType(Integer Type)
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Void SetType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_SetType_Integer_p_0
+description: NSDashboardTileOption.SetType(Integer p_0)
+intellisense: NSDashboardTileOption.SetType
 sortOrder: 2330
 keywords: SetType(Integer)
+so.topic: reference
 ---
 
 

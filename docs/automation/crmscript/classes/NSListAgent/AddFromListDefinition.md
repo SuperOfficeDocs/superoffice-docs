@@ -1,9 +1,9 @@
 ---
-title: NSListItemEntity AddFromListDefinition(Integer udListDefinitionId, NSListItemEntity item)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity AddFromListDefinition(Integer p_0, NSListItemEntity p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_AddFromListDefinition_Integer_p_0_NSListItemEntity_p_1
+description: NSListAgent.AddFromListDefinition(Integer p_0, NSListItemEntity p_1)
+intellisense: NSListAgent.AddFromListDefinition
 keywords: AddFromListDefinition(Integer,NSListItemEntity)
+so.topic: reference
 ---
 
 

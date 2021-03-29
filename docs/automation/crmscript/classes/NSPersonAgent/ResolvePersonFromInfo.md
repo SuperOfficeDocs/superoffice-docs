@@ -1,9 +1,9 @@
 ---
-title: NSResolvedPerson ResolvePersonFromInfo(Integer contactId, String personName, String[] phoneNumbers, String[] emails)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSResolvedPerson ResolvePersonFromInfo(Integer p_0, String p_1, String[] p_2, String[] p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_ResolvePersonFromInfo_Integer_p_0_String_p_1_String__p_2_String__p_3
+description: NSPersonAgent.ResolvePersonFromInfo(Integer p_0, String p_1, String[] p_2, String[] p_3)
+intellisense: NSPersonAgent.ResolvePersonFromInfo
 keywords: ResolvePersonFromInfo(Integer,String,String[],String[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetComment(String Comment)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetComment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetComment_String_p_0
+description: NSContactRelationEntity.SetComment(String p_0)
+intellisense: NSContactRelationEntity.SetComment
 sortOrder: 1963
 keywords: SetComment(String)
+so.topic: reference
 ---
 
 

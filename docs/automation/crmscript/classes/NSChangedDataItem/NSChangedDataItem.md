@@ -1,9 +1,9 @@
 ---
-title: NSChangedDataItem
-path: /EJScript/Classes/NSChangedDataItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChangedDataItem
+description: NSChangedDataItem
+intellisense: Void.NSChangedDataItem
 sortOrder: 1506
+so.topic: reference
 ---
 
 

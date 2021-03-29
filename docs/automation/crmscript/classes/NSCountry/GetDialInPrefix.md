@@ -1,10 +1,10 @@
 ---
-title: String GetDialInPrefix()
-path: /EJScript/Classes/NSCountry/Member functions/String GetDialInPrefix()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetDialInPrefix
+description: NSCountry.GetDialInPrefix()
+intellisense: NSCountry.GetDialInPrefix
 sortOrder: 2019
 keywords: GetDialInPrefix()
+so.topic: reference
 ---
 
 

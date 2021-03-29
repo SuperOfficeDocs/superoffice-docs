@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSLocalizedField/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedField_GetValue
+description: NSLocalizedField.GetValue()
+intellisense: NSLocalizedField.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

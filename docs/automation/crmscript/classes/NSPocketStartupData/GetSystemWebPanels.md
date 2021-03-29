@@ -1,9 +1,9 @@
 ---
-title: NSWebPanelEntity[] GetSystemWebPanels()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/NSWebPanelEntity[] GetSystemWebPanels()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_GetSystemWebPanels
+description: NSPocketStartupData.GetSystemWebPanels()
+intellisense: NSPocketStartupData.GetSystemWebPanels
 keywords: GetSystemWebPanels()
+so.topic: reference
 ---
 
 

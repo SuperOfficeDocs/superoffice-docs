@@ -1,10 +1,10 @@
 ---
-title: Bool findExternallyFromEmail(String email, Integer extTable)
-path: /EJScript/Classes/Customer/Member functions/Bool findExternallyFromEmail(String email, Integer extTable)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Customer_findExternallyFromEmail_String_email_Integer_extTable
+description: Customer.findExternallyFromEmail(String email, Integer extTable)
+intellisense: Customer.findExternallyFromEmail
 sortOrder: 174
 keywords: findExternallyFromEmail(String,Integer)
+so.topic: reference
 ---
 
 Find an entry in the external database based on an email address

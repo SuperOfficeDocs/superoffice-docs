@@ -1,10 +1,10 @@
 ---
-title: Void SetRepliedAt(String messageId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void SetRepliedAt(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SetRepliedAt_String_p_0
+description: NSEMailAgent.SetRepliedAt(String p_0)
+intellisense: NSEMailAgent.SetRepliedAt
 sortOrder: 2867
 keywords: SetRepliedAt(String)
+so.topic: reference
 ---
 
 

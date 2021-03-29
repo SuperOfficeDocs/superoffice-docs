@@ -1,9 +1,9 @@
 ---
-title: Void Undelete(Integer id)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void Undelete(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_Undelete_Integer_p_0
+description: NSPersonAgent.Undelete(Integer p_0)
+intellisense: NSPersonAgent.Undelete
 keywords: Undelete(Integer)
+so.topic: reference
 ---
 
 

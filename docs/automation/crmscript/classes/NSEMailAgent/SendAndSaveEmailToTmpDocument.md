@@ -1,10 +1,10 @@
 ---
-title: String SendAndSaveEmailToTmpDocument(NSEMailEntity email, Bool stripAttachments)
-path: /EJScript/Classes/NSEMailAgent/Member functions/String SendAndSaveEmailToTmpDocument(NSEMailEntity p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SendAndSaveEmailToTmpDocument_NSEMailEntity_p_0_Bool_p_1
+description: NSEMailAgent.SendAndSaveEmailToTmpDocument(NSEMailEntity p_0, Bool p_1)
+intellisense: NSEMailAgent.SendAndSaveEmailToTmpDocument
 sortOrder: 2850
 keywords: SendAndSaveEmailToTmpDocument(NSEMailEntity,Bool)
+so.topic: reference
 ---
 
 

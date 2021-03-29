@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetSelectableSimpleList(String name)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] GetSelectableSimpleList(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetSelectableSimpleList_String_p_0
+description: NSMDOAgent.GetSelectableSimpleList(String p_0)
+intellisense: NSMDOAgent.GetSelectableSimpleList
 keywords: GetSelectableSimpleList(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFolderId(Integer FolderId)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetFolderId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetFolderId_Integer_p_0
+description: NSFormEntity.SetFolderId(Integer p_0)
+intellisense: NSFormEntity.SetFolderId
 sortOrder: 3810
 keywords: SetFolderId(Integer)
+so.topic: reference
 ---
 
 

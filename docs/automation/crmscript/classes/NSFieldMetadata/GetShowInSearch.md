@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInSearch()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Bool GetShowInSearch()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetShowInSearch
+description: NSFieldMetadata.GetShowInSearch()
+intellisense: NSFieldMetadata.GetShowInSearch
 sortOrder: 3575
 keywords: GetShowInSearch()
+so.topic: reference
 ---
 
 

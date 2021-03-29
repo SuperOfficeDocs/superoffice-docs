@@ -1,9 +1,9 @@
 ---
-title: String GetReason()
-path: /EJScript/Classes/NSTableRight/Member functions/String GetReason()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTableRight_GetReason
+description: NSTableRight.GetReason()
+intellisense: NSTableRight.GetReason
 keywords: GetReason()
+so.topic: reference
 ---
 
 

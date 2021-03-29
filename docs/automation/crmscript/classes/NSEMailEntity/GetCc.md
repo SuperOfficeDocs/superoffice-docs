@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress[] GetCc()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailAddress[] GetCc()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetCc
+description: NSEMailEntity.GetCc()
+intellisense: NSEMailEntity.GetCc
 sortOrder: 2959
 keywords: GetCc()
+so.topic: reference
 ---
 
 

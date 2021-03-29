@@ -1,10 +1,10 @@
 ---
-title: Integer GetCompleted()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetCompleted
+description: NSDocumentEntity.GetCompleted()
+intellisense: NSDocumentEntity.GetCompleted
 sortOrder: 2559
 keywords: GetCompleted()
+so.topic: reference
 ---
 
 

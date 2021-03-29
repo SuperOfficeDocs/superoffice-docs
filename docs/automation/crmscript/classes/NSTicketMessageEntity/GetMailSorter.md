@@ -1,9 +1,9 @@
 ---
-title: String GetMailSorter()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetMailSorter()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetMailSorter
+description: NSTicketMessageEntity.GetMailSorter()
+intellisense: NSTicketMessageEntity.GetMailSorter
 keywords: GetMailSorter()
+so.topic: reference
 ---
 
 

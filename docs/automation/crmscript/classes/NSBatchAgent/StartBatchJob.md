@@ -1,10 +1,10 @@
 ---
-title: Integer StartBatchJob(NSBatchTaskInfo batchTaskInfo)
-path: /EJScript/Classes/NSBatchAgent/Member functions/Integer StartBatchJob(NSBatchTaskInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent_StartBatchJob_NSBatchTaskInfo_p_0
+description: NSBatchAgent.StartBatchJob(NSBatchTaskInfo p_0)
+intellisense: NSBatchAgent.StartBatchJob
 sortOrder: 1352
 keywords: StartBatchJob(NSBatchTaskInfo)
+so.topic: reference
 ---
 
 

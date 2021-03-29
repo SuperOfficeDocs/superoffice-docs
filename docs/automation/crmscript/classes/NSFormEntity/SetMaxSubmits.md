@@ -1,10 +1,10 @@
 ---
-title: Void SetMaxSubmits(Integer MaxSubmits)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetMaxSubmits(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetMaxSubmits_Integer_p_0
+description: NSFormEntity.SetMaxSubmits(Integer p_0)
+intellisense: NSFormEntity.SetMaxSubmits
 sortOrder: 3815
 keywords: SetMaxSubmits(Integer)
+so.topic: reference
 ---
 
 

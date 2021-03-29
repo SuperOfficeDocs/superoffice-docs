@@ -1,10 +1,10 @@
 ---
-title: Void SetCountry(NSCountry Country)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetCountry(NSCountry p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetCountry_NSCountry_p_0
+description: NSContactEntity.SetCountry(NSCountry p_0)
+intellisense: NSContactEntity.SetCountry
 sortOrder: 1884
 keywords: SetCountry(NSCountry)
+so.topic: reference
 ---
 
 

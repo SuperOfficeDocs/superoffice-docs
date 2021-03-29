@@ -1,10 +1,10 @@
 ---
-title: Bool IsNumberValid(Integer p0, String p1)
-path: /EJScript/Classes/NSContactAgent/Member functions/Bool IsNumberValid(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_IsNumberValid_Integer_p_0_String_p_1
+description: NSContactAgent.IsNumberValid(Integer p_0, String p_1)
+intellisense: NSContactAgent.IsNumberValid
 sortOrder: 1796
 keywords: IsNumberValid(Integer,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Float GetSubTotal()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetSubTotal()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_GetSubTotal
+description: NSQuoteAlternative.GetSubTotal()
+intellisense: NSQuoteAlternative.GetSubTotal
 keywords: GetSubTotal()
+so.topic: reference
 ---
 
 

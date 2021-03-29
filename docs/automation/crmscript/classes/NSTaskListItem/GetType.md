@@ -1,9 +1,9 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetType
+description: NSTaskListItem.GetType()
+intellisense: NSTaskListItem.GetType
 keywords: GetType()
+so.topic: reference
 ---
 
 

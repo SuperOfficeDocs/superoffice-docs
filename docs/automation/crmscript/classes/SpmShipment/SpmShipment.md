@@ -1,8 +1,8 @@
 ---
-title: SpmShipment
-path: /EJScript/Classes/SpmShipment
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmShipment
+description: SpmShipment
+intellisense: Void.SpmShipment
+so.topic: reference
 ---
 
 

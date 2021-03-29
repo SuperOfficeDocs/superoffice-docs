@@ -1,9 +1,9 @@
 ---
-title: NSEMailFolder
-path: /EJScript/Classes/NSEMailFolder
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder
+description: NSEMailFolder
+intellisense: Void.NSEMailFolder
 sortOrder: 3026
+so.topic: reference
 ---
 
 

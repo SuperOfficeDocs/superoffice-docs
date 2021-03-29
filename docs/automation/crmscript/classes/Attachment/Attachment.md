@@ -1,9 +1,9 @@
 ---
-title: Attachment
-path: /EJScript/Classes/Attachment
-intellisense: 1
-classref: 1
+title: crmscript_ref_Attachment
+description: Attachment
+intellisense: Void.Attachment
 sortOrder: 115
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetHideLabel(Bool HideLabel)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetHideLabel(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_SetHideLabel_Bool_p_0
+description: NSFieldInfoBase.SetHideLabel(Bool p_0)
+intellisense: NSFieldInfoBase.SetHideLabel
 sortOrder: 3479
 keywords: SetHideLabel(Bool)
+so.topic: reference
 ---
 
 

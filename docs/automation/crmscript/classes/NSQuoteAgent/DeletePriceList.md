@@ -1,9 +1,9 @@
 ---
-title: Void DeletePriceList(Integer priceListId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeletePriceList(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_DeletePriceList_Integer_p_0
+description: NSQuoteAgent.DeletePriceList(Integer p_0)
+intellisense: NSQuoteAgent.DeletePriceList
 keywords: DeletePriceList(Integer)
+so.topic: reference
 ---
 
 

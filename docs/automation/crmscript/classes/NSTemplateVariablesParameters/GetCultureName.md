@@ -1,9 +1,9 @@
 ---
-title: String GetCultureName()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/String GetCultureName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetCultureName
+description: NSTemplateVariablesParameters.GetCultureName()
+intellisense: NSTemplateVariablesParameters.GetCultureName
 keywords: GetCultureName()
+so.topic: reference
 ---
 
 

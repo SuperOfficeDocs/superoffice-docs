@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsMDOList()
-path: /EJScript/Classes/NSListEntity/Member functions/Bool GetIsMDOList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListEntity_GetIsMDOList
+description: NSListEntity.GetIsMDOList()
+intellisense: NSListEntity.GetIsMDOList
 keywords: GetIsMDOList()
+so.topic: reference
 ---
 
 

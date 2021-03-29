@@ -1,9 +1,9 @@
 ---
-title: NSHistory[] SaveCurrents(NSHistory[] currents)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] SaveCurrents(NSHistory[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_SaveCurrents_NSHistory__p_0
+description: NSViewStateAgent.SaveCurrents(NSHistory[] p_0)
+intellisense: NSViewStateAgent.SaveCurrents
 keywords: SaveCurrents(NSHistory[])
+so.topic: reference
 ---
 
 

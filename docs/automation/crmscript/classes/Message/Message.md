@@ -1,9 +1,9 @@
 ---
-title: Message
-path: /EJScript/Classes/Message
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message
+description: Message
+intellisense: Void.Message
 sortOrder: 539
+so.topic: reference
 ---
 
 

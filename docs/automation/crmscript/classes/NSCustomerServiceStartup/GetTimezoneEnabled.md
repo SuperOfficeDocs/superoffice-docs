@@ -1,10 +1,10 @@
 ---
-title: Bool GetTimezoneEnabled()
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/Bool GetTimezoneEnabled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceStartup_GetTimezoneEnabled
+description: NSCustomerServiceStartup.GetTimezoneEnabled()
+intellisense: NSCustomerServiceStartup.GetTimezoneEnabled
 sortOrder: 2252
 keywords: GetTimezoneEnabled()
+so.topic: reference
 ---
 
 

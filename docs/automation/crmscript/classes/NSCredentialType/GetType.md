@@ -1,10 +1,10 @@
 ---
-title: String GetType()
-path: /EJScript/Classes/NSCredentialType/Member functions/String GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_GetType
+description: NSCredentialType.GetType()
+intellisense: NSCredentialType.GetType
 sortOrder: 2076
 keywords: GetType()
+so.topic: reference
 ---
 
 

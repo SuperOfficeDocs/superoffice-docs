@@ -1,9 +1,9 @@
 ---
-title: Void SetGraceDate(DateTime GraceDate)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetGraceDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetGraceDate_DateTime_p_0
+description: NSLicenseInfo.SetGraceDate(DateTime p_0)
+intellisense: NSLicenseInfo.SetGraceDate
 keywords: SetGraceDate(DateTime)
+so.topic: reference
 ---
 
 

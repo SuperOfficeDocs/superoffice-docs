@@ -1,9 +1,9 @@
 ---
-title: Void SetProperties(NSStringObjectDictionary Properties)
-path: /EJScript/Classes/NSWebhook/Member functions/Void SetProperties(NSStringObjectDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_SetProperties_NSStringObjectDictionary_p_0
+description: NSWebhook.SetProperties(NSStringObjectDictionary p_0)
+intellisense: NSWebhook.SetProperties
 keywords: SetProperties(NSStringObjectDictionary)
+so.topic: reference
 ---
 
 

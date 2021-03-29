@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsOwnerContact()
-path: /EJScript/Classes/NSContact/Member functions/Bool GetIsOwnerContact()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetIsOwnerContact
+description: NSContact.GetIsOwnerContact()
+intellisense: NSContact.GetIsOwnerContact
 sortOrder: 1718
 keywords: GetIsOwnerContact()
+so.topic: reference
 ---
 
 

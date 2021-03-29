@@ -1,10 +1,10 @@
 ---
-title: String GetIconHint()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/String GetIconHint()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetIconHint
+description: NSFieldValueInfo.GetIconHint()
+intellisense: NSFieldValueInfo.GetIconHint
 sortOrder: 3629
 keywords: GetIconHint()
+so.topic: reference
 ---
 
 

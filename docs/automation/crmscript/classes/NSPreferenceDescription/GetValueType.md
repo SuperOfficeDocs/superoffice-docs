@@ -1,9 +1,9 @@
 ---
-title: Integer GetValueType()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Integer GetValueType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetValueType
+description: NSPreferenceDescription.GetValueType()
+intellisense: NSPreferenceDescription.GetValueType
 keywords: GetValueType()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSArchiveRestrictionInfo
-path: /EJScript/Classes/NSArchiveRestrictionInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo
+description: NSArchiveRestrictionInfo
+intellisense: Void.NSArchiveRestrictionInfo
 sortOrder: 1210
+so.topic: reference
 ---
 
 

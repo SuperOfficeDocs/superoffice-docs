@@ -1,9 +1,9 @@
 ---
-title: String GetImageDescription()
-path: /EJScript/Classes/NSProjectEntity/Member functions/String GetImageDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetImageDescription
+description: NSProjectEntity.GetImageDescription()
+intellisense: NSProjectEntity.GetImageDescription
 keywords: GetImageDescription()
+so.topic: reference
 ---
 
 

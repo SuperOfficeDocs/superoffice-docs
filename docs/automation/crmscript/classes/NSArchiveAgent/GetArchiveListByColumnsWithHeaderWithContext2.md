@@ -1,10 +1,10 @@
 ---
-title: NSArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(String providerName, String columns, String sortOrder, String restriction, String entities, Integer page, Integer pageSize, String options, String context)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSArchiveListResult GetArchiveListByColumnsWithHeaderWithContext2(String p_0, String p_1, String p_2, String p_3, String p_4, Integer p_5, Integer p_6, String p_7, String p_8)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2_String_p_0_String_p_1_String_p_2_String_p_3_String_p_4_Integer_p_5_Integer_p_6_String_p_7_String_p_8
+description: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2(String p_0, String p_1, String p_2, String p_3, String p_4, Integer p_5, Integer p_6, String p_7, String p_8)
+intellisense: NSArchiveAgent.GetArchiveListByColumnsWithHeaderWithContext2
 sortOrder: 1117
 keywords: GetArchiveListByColumnsWithHeaderWithContext2(String,String,String,String,String,Integer,Integer,String,String)
+so.topic: reference
 ---
 
 

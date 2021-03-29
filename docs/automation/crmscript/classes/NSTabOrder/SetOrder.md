@@ -1,9 +1,9 @@
 ---
-title: Void SetOrder(String Order)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetOrder(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_SetOrder_String_p_0
+description: NSTabOrder.SetOrder(String p_0)
+intellisense: NSTabOrder.SetOrder
 keywords: SetOrder(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetHeading(String Heading)
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Void SetHeading(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_SetHeading_String_p_0
+description: NSSaleSummaryItem.SetHeading(String p_0)
+intellisense: NSSaleSummaryItem.SetHeading
 keywords: SetHeading(String)
+so.topic: reference
 ---
 
 

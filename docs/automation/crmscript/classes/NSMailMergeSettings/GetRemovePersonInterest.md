@@ -1,9 +1,9 @@
 ---
-title: Integer GetRemovePersonInterest()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Integer GetRemovePersonInterest()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetRemovePersonInterest
+description: NSMailMergeSettings.GetRemovePersonInterest()
+intellisense: NSMailMergeSettings.GetRemovePersonInterest
 keywords: GetRemovePersonInterest()
+so.topic: reference
 ---
 
 

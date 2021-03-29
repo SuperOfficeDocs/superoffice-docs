@@ -1,10 +1,10 @@
 ---
-title: NSQuoteLine GetQuoteLine()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/NSQuoteLine GetQuoteLine()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_GetQuoteLine
+description: NSAAAMockAgent.GetQuoteLine()
+intellisense: NSAAAMockAgent.GetQuoteLine
 sortOrder: 8894
 keywords: GetQuoteLine()
+so.topic: reference
 ---
 
 

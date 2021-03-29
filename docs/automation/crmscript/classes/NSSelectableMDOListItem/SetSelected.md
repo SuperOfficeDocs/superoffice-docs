@@ -1,9 +1,9 @@
 ---
-title: Void SetSelected(Bool Selected)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetSelected(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetSelected_Bool_p_0
+description: NSSelectableMDOListItem.SetSelected(Bool p_0)
+intellisense: NSSelectableMDOListItem.SetSelected
 keywords: SetSelected(Bool)
+so.topic: reference
 ---
 
 

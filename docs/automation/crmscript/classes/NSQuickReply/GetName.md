@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSQuickReply/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply_GetName
+description: NSQuickReply.GetName()
+intellisense: NSQuickReply.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

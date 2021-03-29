@@ -1,9 +1,9 @@
 ---
-title: String GetPoNumber()
-path: /EJScript/Classes/NSQuoteEntity/Member functions/String GetPoNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteEntity_GetPoNumber
+description: NSQuoteEntity.GetPoNumber()
+intellisense: NSQuoteEntity.GetPoNumber
 keywords: GetPoNumber()
+so.topic: reference
 ---
 
 

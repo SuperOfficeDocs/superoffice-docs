@@ -1,9 +1,9 @@
 ---
-title: String GetAssociate()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/String GetAssociate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetAssociate
+description: NSSoPrincipalCarrier.GetAssociate()
+intellisense: NSSoPrincipalCarrier.GetAssociate
 keywords: GetAssociate()
+so.topic: reference
 ---
 
 

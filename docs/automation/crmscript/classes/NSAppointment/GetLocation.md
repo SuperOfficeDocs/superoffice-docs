@@ -1,10 +1,10 @@
 ---
-title: String GetLocation()
-path: /EJScript/Classes/NSAppointment/Member functions/String GetLocation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetLocation
+description: NSAppointment.GetLocation()
+intellisense: NSAppointment.GetLocation
 sortOrder: 759
 keywords: GetLocation()
+so.topic: reference
 ---
 
 

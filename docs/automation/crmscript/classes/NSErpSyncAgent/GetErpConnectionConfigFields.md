@@ -1,10 +1,10 @@
 ---
-title: Map GetErpConnectionConfigFields(Integer p0)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Map GetErpConnectionConfigFields(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetErpConnectionConfigFields_Integer_p_0
+description: NSErpSyncAgent.GetErpConnectionConfigFields(Integer p_0)
+intellisense: NSErpSyncAgent.GetErpConnectionConfigFields
 sortOrder: 3191
 keywords: GetErpConnectionConfigFields(Integer)
+so.topic: reference
 ---
 
 

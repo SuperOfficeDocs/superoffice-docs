@@ -1,10 +1,10 @@
 ---
-title: Integer GetOccurrences()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetOccurrences()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetOccurrences
+description: NSFreeText.GetOccurrences()
+intellisense: NSFreeText.GetOccurrences
 sortOrder: 3857
 keywords: GetOccurrences()
+so.topic: reference
 ---
 
 

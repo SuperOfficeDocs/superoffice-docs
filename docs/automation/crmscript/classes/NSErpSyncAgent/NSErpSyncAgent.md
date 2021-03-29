@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncAgent
-path: /EJScript/Classes/NSErpSyncAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent
+description: NSErpSyncAgent
+intellisense: Void.NSErpSyncAgent
 sortOrder: 3176
+so.topic: reference
 ---
 
 

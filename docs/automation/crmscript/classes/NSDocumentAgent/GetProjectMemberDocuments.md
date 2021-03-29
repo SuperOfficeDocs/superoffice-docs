@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetProjectMemberDocuments(Integer personId, DateTime startTime, DateTime endTime, Integer count)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetProjectMemberDocuments(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetProjectMemberDocuments_Integer_p_0_DateTime_p_1_DateTime_p_2_Integer_p_3
+description: NSDocumentAgent.GetProjectMemberDocuments(Integer p_0, DateTime p_1, DateTime p_2, Integer p_3)
+intellisense: NSDocumentAgent.GetProjectMemberDocuments
 sortOrder: 2489
 keywords: GetProjectMemberDocuments(Integer,DateTime,DateTime,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonId(Integer PersonId)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetPersonId_Integer_p_0
+description: NSWindowPosSize.SetPersonId(Integer p_0)
+intellisense: NSWindowPosSize.SetPersonId
 keywords: SetPersonId(Integer)
+so.topic: reference
 ---
 
 

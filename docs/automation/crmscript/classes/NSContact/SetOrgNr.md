@@ -1,10 +1,10 @@
 ---
-title: Void SetOrgNr(String OrgNr)
-path: /EJScript/Classes/NSContact/Member functions/Void SetOrgNr(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetOrgNr_String_p_0
+description: NSContact.SetOrgNr(String p_0)
+intellisense: NSContact.SetOrgNr
 sortOrder: 1761
 keywords: SetOrgNr(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSRefCountEntity CreateDefaultRefCountEntity()
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/NSRefCountEntity CreateDefaultRefCountEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent_CreateDefaultRefCountEntity
+description: NSNumberAllocationAgent.CreateDefaultRefCountEntity()
+intellisense: NSNumberAllocationAgent.CreateDefaultRefCountEntity
 keywords: CreateDefaultRefCountEntity()
+so.topic: reference
 ---
 
 

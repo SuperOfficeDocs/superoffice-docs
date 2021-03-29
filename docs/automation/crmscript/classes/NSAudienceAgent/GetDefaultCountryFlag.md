@@ -1,10 +1,10 @@
 ---
-title: NSImage GetDefaultCountryFlag(String layoutName)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSImage GetDefaultCountryFlag(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetDefaultCountryFlag_String_p_0
+description: NSAudienceAgent.GetDefaultCountryFlag(String p_0)
+intellisense: NSAudienceAgent.GetDefaultCountryFlag
 sortOrder: 1303
 keywords: GetDefaultCountryFlag(String)
+so.topic: reference
 ---
 
 

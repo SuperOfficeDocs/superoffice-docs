@@ -1,10 +1,10 @@
 ---
-title: Integer ToggleAppointmentStatus(Integer appointmentId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Integer ToggleAppointmentStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_ToggleAppointmentStatus_Integer_p_0
+description: NSAppointmentAgent.ToggleAppointmentStatus(Integer p_0)
+intellisense: NSAppointmentAgent.ToggleAppointmentStatus
 sortOrder: 832
 keywords: ToggleAppointmentStatus(Integer)
+so.topic: reference
 ---
 
 

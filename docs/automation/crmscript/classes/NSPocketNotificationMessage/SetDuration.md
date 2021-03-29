@@ -1,9 +1,9 @@
 ---
-title: Void SetDuration(TimeSpan Duration)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetDuration(TimeSpan p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetDuration_TimeSpan_p_0
+description: NSPocketNotificationMessage.SetDuration(TimeSpan p_0)
+intellisense: NSPocketNotificationMessage.SetDuration
 keywords: SetDuration(TimeSpan)
+so.topic: reference
 ---
 
 

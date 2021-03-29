@@ -1,9 +1,9 @@
 ---
-title: String GetFromAddress()
-path: /EJScript/Classes/NSTicket/Member functions/String GetFromAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetFromAddress
+description: NSTicket.GetFromAddress()
+intellisense: NSTicket.GetFromAddress
 keywords: GetFromAddress()
+so.topic: reference
 ---
 
 

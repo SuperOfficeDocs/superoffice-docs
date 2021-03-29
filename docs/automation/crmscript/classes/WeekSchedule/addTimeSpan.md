@@ -1,9 +1,9 @@
 ---
-title: DateTime addTimeSpan(DateTime start, TimeSpan add)
-path: /EJScript/Classes/WeekSchedule/Member functions/DateTime addTimeSpan(DateTime start, TimeSpan add)
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_addTimeSpan_DateTime_start_TimeSpan_add
+description: WeekSchedule.addTimeSpan(DateTime start, TimeSpan add)
+intellisense: WeekSchedule.addTimeSpan
 keywords: addTimeSpan(DateTime,TimeSpan)
+so.topic: reference
 ---
 
 

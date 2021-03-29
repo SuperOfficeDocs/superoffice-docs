@@ -1,9 +1,9 @@
 ---
-title: Void SetFormatMask(String FormatMask)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetFormatMask(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetFormatMask_String_p_0
+description: NSUserDefinedFieldInfo.SetFormatMask(String p_0)
+intellisense: NSUserDefinedFieldInfo.SetFormatMask
 keywords: SetFormatMask(String)
+so.topic: reference
 ---
 
 

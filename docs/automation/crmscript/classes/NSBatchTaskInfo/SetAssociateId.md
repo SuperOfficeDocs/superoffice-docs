@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetAssociateId_Integer_p_0
+description: NSBatchTaskInfo.SetAssociateId(Integer p_0)
+intellisense: NSBatchTaskInfo.SetAssociateId
 sortOrder: 1385
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

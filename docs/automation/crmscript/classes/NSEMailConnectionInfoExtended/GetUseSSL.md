@@ -1,10 +1,10 @@
 ---
-title: Bool GetUseSSL()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Bool GetUseSSL()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_GetUseSSL
+description: NSEMailConnectionInfoExtended.GetUseSSL()
+intellisense: NSEMailConnectionInfoExtended.GetUseSSL
 sortOrder: 2922
 keywords: GetUseSSL()
+so.topic: reference
 ---
 
 

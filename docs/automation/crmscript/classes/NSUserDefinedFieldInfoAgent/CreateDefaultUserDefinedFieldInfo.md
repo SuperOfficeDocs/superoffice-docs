@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo CreateDefaultUserDefinedFieldInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo
+description: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo()
+intellisense: NSUserDefinedFieldInfoAgent.CreateDefaultUserDefinedFieldInfo
 keywords: CreateDefaultUserDefinedFieldInfo()
+so.topic: reference
 ---
 
 

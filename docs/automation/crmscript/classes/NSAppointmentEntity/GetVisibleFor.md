@@ -1,10 +1,10 @@
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetVisibleFor
+description: NSAppointmentEntity.GetVisibleFor()
+intellisense: NSAppointmentEntity.GetVisibleFor
 sortOrder: 979
 keywords: GetVisibleFor()
+so.topic: reference
 ---
 
 

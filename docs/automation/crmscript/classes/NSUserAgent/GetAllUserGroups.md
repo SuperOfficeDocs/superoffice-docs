@@ -1,9 +1,9 @@
 ---
-title: NSUserGroup[] GetAllUserGroups(Bool includeDeleted)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserGroup[] GetAllUserGroups(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetAllUserGroups_Bool_p_0
+description: NSUserAgent.GetAllUserGroups(Bool p_0)
+intellisense: NSUserAgent.GetAllUserGroups
 keywords: GetAllUserGroups(Bool)
+so.topic: reference
 ---
 
 

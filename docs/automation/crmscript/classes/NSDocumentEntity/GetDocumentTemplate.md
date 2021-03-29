@@ -1,10 +1,10 @@
 ---
-title: NSDocumentTemplate GetDocumentTemplate()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSDocumentTemplate GetDocumentTemplate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetDocumentTemplate
+description: NSDocumentEntity.GetDocumentTemplate()
+intellisense: NSDocumentEntity.GetDocumentTemplate
 sortOrder: 2571
 keywords: GetDocumentTemplate()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetOtherPhones()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetOtherPhones()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetOtherPhones
+description: NSPersonEntity.GetOtherPhones()
+intellisense: NSPersonEntity.GetOtherPhones
 keywords: GetOtherPhones()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetExternalRef(String ExternalRef)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetExternalRef(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetExternalRef_String_p_0
+description: NSDocumentEntity.SetExternalRef(String p_0)
+intellisense: NSDocumentEntity.SetExternalRef
 sortOrder: 2596
 keywords: SetExternalRef(String)
+so.topic: reference
 ---
 
 

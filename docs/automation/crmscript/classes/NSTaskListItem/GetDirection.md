@@ -1,9 +1,9 @@
 ---
-title: Integer GetDirection()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetDirection()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetDirection
+description: NSTaskListItem.GetDirection()
+intellisense: NSTaskListItem.GetDirection
 keywords: GetDirection()
+so.topic: reference
 ---
 
 

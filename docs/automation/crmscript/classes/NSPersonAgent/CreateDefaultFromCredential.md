@@ -1,9 +1,9 @@
 ---
-title: NSPersonEntity CreateDefaultFromCredential(Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultFromCredential(Integer p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_CreateDefaultFromCredential_Integer_p_0_String_p_1_String_p_2_String_p_3
+description: NSPersonAgent.CreateDefaultFromCredential(Integer p_0, String p_1, String p_2, String p_3)
+intellisense: NSPersonAgent.CreateDefaultFromCredential
 keywords: CreateDefaultFromCredential(Integer,String,String,String)
+so.topic: reference
 ---
 
 

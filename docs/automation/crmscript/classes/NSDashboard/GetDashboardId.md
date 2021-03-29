@@ -1,10 +1,10 @@
 ---
-title: Integer GetDashboardId()
-path: /EJScript/Classes/NSDashboard/Member functions/Integer GetDashboardId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboard_GetDashboardId
+description: NSDashboard.GetDashboardId()
+intellisense: NSDashboard.GetDashboardId
 sortOrder: 2261
 keywords: GetDashboardId()
+so.topic: reference
 ---
 
 

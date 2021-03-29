@@ -1,9 +1,9 @@
 ---
-title: Void SetMessageId(String MessageId)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetMessageId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetMessageId_String_p_0
+description: NSTicketMessageEntity.SetMessageId(String p_0)
+intellisense: NSTicketMessageEntity.SetMessageId
 keywords: SetMessageId(String)
+so.topic: reference
 ---
 
 

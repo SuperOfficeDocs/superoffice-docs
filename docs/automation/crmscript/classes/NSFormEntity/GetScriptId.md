@@ -1,10 +1,10 @@
 ---
-title: Integer GetScriptId()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetScriptId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetScriptId
+description: NSFormEntity.GetScriptId()
+intellisense: NSFormEntity.GetScriptId
 sortOrder: 3796
 keywords: GetScriptId()
+so.topic: reference
 ---
 
 

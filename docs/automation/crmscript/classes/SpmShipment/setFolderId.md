@@ -1,9 +1,9 @@
 ---
-title: Void setFolderId(Integer folderId)
-path: /EJScript/Classes/SpmShipment/Member functions/Void setFolderId(Integer folderId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmShipment_setFolderId_Integer_folderId
+description: SpmShipment.setFolderId(Integer folderId)
+intellisense: SpmShipment.setFolderId
 keywords: setFolderId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetAccountId(Integer AccountId)
-path: /EJScript/Classes/NSSyncUserAccount/Member functions/Void SetAccountId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSyncUserAccount_SetAccountId_Integer_p_0
+description: NSSyncUserAccount.SetAccountId(Integer p_0)
+intellisense: NSSyncUserAccount.SetAccountId
 keywords: SetAccountId(Integer)
+so.topic: reference
 ---
 
 

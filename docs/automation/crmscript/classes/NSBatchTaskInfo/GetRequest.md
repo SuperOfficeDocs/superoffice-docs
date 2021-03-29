@@ -1,10 +1,10 @@
 ---
-title: String GetRequest()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetRequest()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetRequest
+description: NSBatchTaskInfo.GetRequest()
+intellisense: NSBatchTaskInfo.GetRequest
 sortOrder: 1381
 keywords: GetRequest()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_SetRegistered_DateTime_p_0
+description: NSConsentInfo.SetRegistered(DateTime p_0)
+intellisense: NSConsentInfo.SetRegistered
 sortOrder: 1654
 keywords: SetRegistered(DateTime)
+so.topic: reference
 ---
 
 

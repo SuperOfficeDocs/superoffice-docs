@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetName
+description: NSExtAppEntity.GetName()
+intellisense: NSExtAppEntity.GetName
 sortOrder: 3374
 keywords: GetName()
+so.topic: reference
 ---
 
 

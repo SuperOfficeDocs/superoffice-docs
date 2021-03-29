@@ -1,9 +1,9 @@
 ---
-title: Void SetNextCheckDate(DateTime NextCheckDate)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetNextCheckDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetNextCheckDate_DateTime_p_0
+description: NSLicenseInfo.SetNextCheckDate(DateTime p_0)
+intellisense: NSLicenseInfo.SetNextCheckDate
 keywords: SetNextCheckDate(DateTime)
+so.topic: reference
 ---
 
 

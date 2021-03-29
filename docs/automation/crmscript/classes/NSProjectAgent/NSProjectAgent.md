@@ -1,8 +1,8 @@
 ---
-title: NSProjectAgent
-path: /EJScript/Classes/NSProjectAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent
+description: NSProjectAgent
+intellisense: Void.NSProjectAgent
+so.topic: reference
 ---
 
 

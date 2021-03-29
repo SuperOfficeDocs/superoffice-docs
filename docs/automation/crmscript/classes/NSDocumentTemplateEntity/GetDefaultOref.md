@@ -1,10 +1,10 @@
 ---
-title: String GetDefaultOref()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/String GetDefaultOref()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetDefaultOref
+description: NSDocumentTemplateEntity.GetDefaultOref()
+intellisense: NSDocumentTemplateEntity.GetDefaultOref
 sortOrder: 2670
 keywords: GetDefaultOref()
+so.topic: reference
 ---
 
 

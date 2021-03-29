@@ -1,9 +1,9 @@
 ---
-title: Void SetAggregateCount(Integer AggregateCount)
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Void SetAggregateCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_SetAggregateCount_Integer_p_0
+description: NSWebAppUsage.SetAggregateCount(Integer p_0)
+intellisense: NSWebAppUsage.SetAggregateCount
 keywords: SetAggregateCount(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity SaveDraft(NSEMailEntity entity)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity SaveDraft(NSEMailEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SaveDraft_NSEMailEntity_p_0
+description: NSEMailAgent.SaveDraft(NSEMailEntity p_0)
+intellisense: NSEMailAgent.SaveDraft
 sortOrder: 2827
 keywords: SaveDraft(NSEMailEntity)
+so.topic: reference
 ---
 
 

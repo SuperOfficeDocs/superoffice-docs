@@ -1,9 +1,9 @@
 ---
-title: NSProductType[] GetProductTypes()
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductType[] GetProductTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProductTypes
+description: NSListAgent.GetProductTypes()
+intellisense: NSListAgent.GetProductTypes
 keywords: GetProductTypes()
+so.topic: reference
 ---
 
 

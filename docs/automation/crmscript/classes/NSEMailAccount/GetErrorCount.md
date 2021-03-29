@@ -1,10 +1,10 @@
 ---
-title: Integer GetErrorCount()
-path: /EJScript/Classes/NSEMailAccount/Member functions/Integer GetErrorCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetErrorCount
+description: NSEMailAccount.GetErrorCount()
+intellisense: NSEMailAccount.GetErrorCount
 sortOrder: 2747
 keywords: GetErrorCount()
+so.topic: reference
 ---
 
 

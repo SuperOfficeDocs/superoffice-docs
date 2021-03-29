@@ -1,10 +1,11 @@
 ---
-title: Date GenericToDate(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Date GenericToDate(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_GenericToDate_Generic_generic
+description: Generic.GenericToDate(Generic generic)
+intellisense: Generic.GenericToDate
 langref: 1
 sortOrder: 40
 keywords: GenericToDate(Generic)
+so.topic: reference
 ---
 
 

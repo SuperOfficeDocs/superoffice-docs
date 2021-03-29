@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityEntity CreateDefaultTicketPriorityEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriorityEntity CreateDefaultTicketPriorityEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultTicketPriorityEntity
+description: NSListAgent.CreateDefaultTicketPriorityEntity()
+intellisense: NSListAgent.CreateDefaultTicketPriorityEntity
 keywords: CreateDefaultTicketPriorityEntity()
+so.topic: reference
 ---
 
 

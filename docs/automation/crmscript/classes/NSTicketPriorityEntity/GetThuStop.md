@@ -1,9 +1,9 @@
 ---
-title: DateTime GetThuStop()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetThuStop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetThuStop
+description: NSTicketPriorityEntity.GetThuStop()
+intellisense: NSTicketPriorityEntity.GetThuStop
 keywords: GetThuStop()
+so.topic: reference
 ---
 
 

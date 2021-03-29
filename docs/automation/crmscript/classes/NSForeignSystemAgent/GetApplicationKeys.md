@@ -1,10 +1,10 @@
 ---
-title: NSForeignKey[] GetApplicationKeys(String applicationName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey[] GetApplicationKeys(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetApplicationKeys_String_p_0
+description: NSForeignSystemAgent.GetApplicationKeys(String p_0)
+intellisense: NSForeignSystemAgent.GetApplicationKeys
 sortOrder: 3769
 keywords: GetApplicationKeys(String)
+so.topic: reference
 ---
 
 

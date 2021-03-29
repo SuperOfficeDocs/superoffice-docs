@@ -1,10 +1,10 @@
 ---
-title: Void SetRights(NSDataRight[][] Rights)
-path: /EJScript/Classes/NSDataRights/Member functions/Void SetRights(NSDataRight[][] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDataRights_SetRights_NSDataRight___p_0
+description: NSDataRights.SetRights(NSDataRight[][] p_0)
+intellisense: NSDataRights.SetRights
 sortOrder: 2354
 keywords: SetRights(NSDataRight[][])
+so.topic: reference
 ---
 
 

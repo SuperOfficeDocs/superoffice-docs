@@ -1,9 +1,9 @@
 ---
-title: Void SetMailSubject(String MailSubject)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetMailSubject(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetMailSubject_String_p_0
+description: NSQuotePublishDocuments.SetMailSubject(String p_0)
+intellisense: NSQuotePublishDocuments.SetMailSubject
 keywords: SetMailSubject(String)
+so.topic: reference
 ---
 
 

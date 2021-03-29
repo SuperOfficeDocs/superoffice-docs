@@ -1,9 +1,9 @@
 ---
-title: NSAudienceConfigParameter
-path: /EJScript/Classes/NSAudienceConfigParameter
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter
+description: NSAudienceConfigParameter
+intellisense: Void.NSAudienceConfigParameter
 sortOrder: 1317
+so.topic: reference
 ---
 
 

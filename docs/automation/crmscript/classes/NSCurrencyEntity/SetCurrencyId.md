@@ -1,10 +1,10 @@
 ---
-title: Void SetCurrencyId(Integer CurrencyId)
-path: /EJScript/Classes/NSCurrencyEntity/Member functions/Void SetCurrencyId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrencyEntity_SetCurrencyId_Integer_p_0
+description: NSCurrencyEntity.SetCurrencyId(Integer p_0)
+intellisense: NSCurrencyEntity.SetCurrencyId
 sortOrder: 2186
 keywords: SetCurrencyId(Integer)
+so.topic: reference
 ---
 
 

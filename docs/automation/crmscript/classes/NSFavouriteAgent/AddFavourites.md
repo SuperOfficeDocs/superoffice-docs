@@ -1,10 +1,10 @@
 ---
-title: Void AddFavourites(String tableName, Integer[] p1, Integer p2, String p3)
-path: /EJScript/Classes/NSFavouriteAgent/Member functions/Void AddFavourites(String p_0, Integer[] p_1, Integer p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavouriteAgent_AddFavourites_String_p_0_Integer__p_1_Integer_p_2_String_p_3
+description: NSFavouriteAgent.AddFavourites(String p_0, Integer[] p_1, Integer p_2, String p_3)
+intellisense: NSFavouriteAgent.AddFavourites
 sortOrder: 3451
 keywords: AddFavourites(String,Integer[],Integer,String)
+so.topic: reference
 ---
 
 

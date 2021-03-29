@@ -1,10 +1,10 @@
 ---
-title: Integer[] GetDuplicatePersonIds()
-path: /EJScript/Classes/NSEMailAddress/Member functions/Integer[] GetDuplicatePersonIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_GetDuplicatePersonIds
+description: NSEMailAddress.GetDuplicatePersonIds()
+intellisense: NSEMailAddress.GetDuplicatePersonIds
 sortOrder: 2766
 keywords: GetDuplicatePersonIds()
+so.topic: reference
 ---
 
 

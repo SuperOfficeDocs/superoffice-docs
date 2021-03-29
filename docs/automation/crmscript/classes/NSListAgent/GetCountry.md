@@ -1,9 +1,9 @@
 ---
-title: NSCountry GetCountry(Integer countryId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry GetCountry(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCountry_Integer_p_0
+description: NSListAgent.GetCountry(Integer p_0)
+intellisense: NSListAgent.GetCountry
 keywords: GetCountry(Integer)
+so.topic: reference
 ---
 
 

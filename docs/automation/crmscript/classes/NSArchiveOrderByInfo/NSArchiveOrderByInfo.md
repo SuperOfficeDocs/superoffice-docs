@@ -1,9 +1,9 @@
 ---
-title: NSArchiveOrderByInfo
-path: /EJScript/Classes/NSArchiveOrderByInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveOrderByInfo
+description: NSArchiveOrderByInfo
+intellisense: Void.NSArchiveOrderByInfo
 sortOrder: 1194
+so.topic: reference
 ---
 
 

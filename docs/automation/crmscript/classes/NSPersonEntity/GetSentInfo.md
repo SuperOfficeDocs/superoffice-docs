@@ -1,9 +1,9 @@
 ---
-title: Integer GetSentInfo()
-path: /EJScript/Classes/NSPersonEntity/Member functions/Integer GetSentInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetSentInfo
+description: NSPersonEntity.GetSentInfo()
+intellisense: NSPersonEntity.GetSentInfo
 keywords: GetSentInfo()
+so.topic: reference
 ---
 
 

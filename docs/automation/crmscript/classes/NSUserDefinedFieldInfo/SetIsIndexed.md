@@ -1,9 +1,9 @@
 ---
-title: Void SetIsIndexed(Bool IsIndexed)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetIsIndexed(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetIsIndexed_Bool_p_0
+description: NSUserDefinedFieldInfo.SetIsIndexed(Bool p_0)
+intellisense: NSUserDefinedFieldInfo.SetIsIndexed
 keywords: SetIsIndexed(Bool)
+so.topic: reference
 ---
 
 

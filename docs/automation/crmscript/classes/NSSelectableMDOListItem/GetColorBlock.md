@@ -1,9 +1,9 @@
 ---
-title: Integer GetColorBlock()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Integer GetColorBlock()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetColorBlock
+description: NSSelectableMDOListItem.GetColorBlock()
+intellisense: NSSelectableMDOListItem.GetColorBlock
 keywords: GetColorBlock()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSArchiveListItem[] GetArchiveListByColumns(String providerName, String[] columns, NSArchiveOrderByInfo[] sortOrder, NSArchiveRestrictionInfo[] restriction, String[] entities, Integer page, Integer pageSize)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/NSArchiveListItem[] GetArchiveListByColumns(String p_0, String[] p_1, NSArchiveOrderByInfo[] p_2, NSArchiveRestrictionInfo[] p_3, String[] p_4, Integer p_5, Integer p_6)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_GetArchiveListByColumns_String_p_0_String__p_1_NSArchiveOrderByInfo__p_2_NSArchiveRestrictionInfo__p_3_String__p_4_Integer_p_5_Integer_p_6
+description: NSArchiveAgent.GetArchiveListByColumns(String p_0, String[] p_1, NSArchiveOrderByInfo[] p_2, NSArchiveRestrictionInfo[] p_3, String[] p_4, Integer p_5, Integer p_6)
+intellisense: NSArchiveAgent.GetArchiveListByColumns
 sortOrder: 1107
 keywords: GetArchiveListByColumns(String,String[],NSArchiveOrderByInfo[],NSArchiveRestrictionInfo[],String[],Integer,Integer)
+so.topic: reference
 ---
 
 

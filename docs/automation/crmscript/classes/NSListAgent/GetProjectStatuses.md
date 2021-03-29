@@ -1,9 +1,9 @@
 ---
-title: NSProjectStatus[] GetProjectStatuses()
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectStatus[] GetProjectStatuses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProjectStatuses
+description: NSListAgent.GetProjectStatuses()
+intellisense: NSListAgent.GetProjectStatuses
 keywords: GetProjectStatuses()
+so.topic: reference
 ---
 
 

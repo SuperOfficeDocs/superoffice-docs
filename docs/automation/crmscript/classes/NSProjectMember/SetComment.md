@@ -1,9 +1,9 @@
 ---
-title: Void SetComment(String Comment)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetComment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_SetComment_String_p_0
+description: NSProjectMember.SetComment(String p_0)
+intellisense: NSProjectMember.SetComment
 keywords: SetComment(String)
+so.topic: reference
 ---
 
 

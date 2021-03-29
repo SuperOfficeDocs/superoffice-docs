@@ -1,9 +1,9 @@
 ---
-title: Integer GetQuoteId()
-path: /EJScript/Classes/NSQuote/Member functions/Integer GetQuoteId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetQuoteId
+description: NSQuote.GetQuoteId()
+intellisense: NSQuote.GetQuoteId
 keywords: GetQuoteId()
+so.topic: reference
 ---
 
 

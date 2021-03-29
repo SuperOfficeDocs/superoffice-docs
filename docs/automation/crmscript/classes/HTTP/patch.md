@@ -1,10 +1,10 @@
 ---
-title: Byte[] patch(String p0)
-path: /EJScript/Classes/HTTP/Member functions/Byte[] patch(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_patch_String_p_0
+description: HTTP.patch(String p_0)
+intellisense: HTTP.patch
 sortOrder: 402
 keywords: patch(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a byte array.

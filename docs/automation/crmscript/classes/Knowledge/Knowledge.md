@@ -1,9 +1,9 @@
 ---
-title: Knowledge
-path: /EJScript/Classes/Knowledge
-intellisense: 1
-classref: 1
+title: crmscript_ref_Knowledge
+description: Knowledge
+intellisense: Void.Knowledge
 sortOrder: 454
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetProductFamilyKey()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetProductFamilyKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetProductFamilyKey
+description: NSQuoteLine.GetProductFamilyKey()
+intellisense: NSQuoteLine.GetProductFamilyKey
 keywords: GetProductFamilyKey()
+so.topic: reference
 ---
 
 

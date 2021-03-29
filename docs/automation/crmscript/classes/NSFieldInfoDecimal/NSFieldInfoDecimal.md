@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoDecimal
-path: /EJScript/Classes/NSFieldInfoDecimal
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDecimal
+description: NSFieldInfoDecimal
+intellisense: Void.NSFieldInfoDecimal
 sortOrder: 3503
+so.topic: reference
 ---
 
 

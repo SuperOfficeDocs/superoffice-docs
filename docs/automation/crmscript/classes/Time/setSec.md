@@ -1,9 +1,9 @@
 ---
-title: Void setSec(Integer sec)
-path: /EJScript/Classes/Time/Member functions/Void setSec(Integer sec)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Time_setSec_Integer_sec
+description: Time.setSec(Integer sec)
+intellisense: Time.setSec
 keywords: setSec(Integer)
+so.topic: reference
 ---
 
 This function sets the seconds of the time.

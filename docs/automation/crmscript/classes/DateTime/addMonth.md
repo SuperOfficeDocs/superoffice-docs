@@ -1,10 +1,10 @@
 ---
-title: DateTime addMonth(Integer num)
-path: /EJScript/Classes/DateTime/Member functions/DateTime addMonth(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_addMonth_Integer_num
+description: DateTime.addMonth(Integer num)
+intellisense: DateTime.addMonth
 sortOrder: 213
 keywords: addMonth(Integer)
+so.topic: reference
 ---
 
 Adds num months to the date and returns datetime object.

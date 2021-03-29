@@ -1,9 +1,9 @@
 ---
-title: Integer GetNoAddresses()
-path: /EJScript/Classes/NSRecipientStatistics/Member functions/Integer GetNoAddresses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecipientStatistics_GetNoAddresses
+description: NSRecipientStatistics.GetNoAddresses()
+intellisense: NSRecipientStatistics.GetNoAddresses
 keywords: GetNoAddresses()
+so.topic: reference
 ---
 
 

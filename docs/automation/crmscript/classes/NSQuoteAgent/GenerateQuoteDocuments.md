@@ -1,9 +1,9 @@
 ---
-title: NSQuotePublishDocuments GenerateQuoteDocuments(Integer quoteVersionId, Integer emailBodyTemplateId, Bool attachMainDocument, Integer quotedProductsTemplateId, Bool includeAttachments, String rawMailSubject)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuotePublishDocuments GenerateQuoteDocuments(Integer p_0, Integer p_1, Bool p_2, Integer p_3, Bool p_4, String p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GenerateQuoteDocuments_Integer_p_0_Integer_p_1_Bool_p_2_Integer_p_3_Bool_p_4_String_p_5
+description: NSQuoteAgent.GenerateQuoteDocuments(Integer p_0, Integer p_1, Bool p_2, Integer p_3, Bool p_4, String p_5)
+intellisense: NSQuoteAgent.GenerateQuoteDocuments
 keywords: GenerateQuoteDocuments(Integer,Integer,Bool,Integer,Bool,String)
+so.topic: reference
 ---
 
 

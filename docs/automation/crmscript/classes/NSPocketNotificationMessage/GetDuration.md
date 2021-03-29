@@ -1,9 +1,9 @@
 ---
-title: TimeSpan GetDuration()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/TimeSpan GetDuration()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetDuration
+description: NSPocketNotificationMessage.GetDuration()
+intellisense: NSPocketNotificationMessage.GetDuration
 keywords: GetDuration()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetCity(String City)
-path: /EJScript/Classes/NSContact/Member functions/Void SetCity(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetCity_String_p_0
+description: NSContact.SetCity(String p_0)
+intellisense: NSContact.SetCity
 sortOrder: 1748
 keywords: SetCity(String)
+so.topic: reference
 ---
 
 

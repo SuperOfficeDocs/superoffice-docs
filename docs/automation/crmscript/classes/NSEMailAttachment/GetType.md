@@ -1,10 +1,10 @@
 ---
-title: String GetType()
-path: /EJScript/Classes/NSEMailAttachment/Member functions/String GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_GetType
+description: NSEMailAttachment.GetType()
+intellisense: NSEMailAttachment.GetType
 sortOrder: 2899
 keywords: GetType()
+so.topic: reference
 ---
 
 

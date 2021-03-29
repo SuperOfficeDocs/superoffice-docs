@@ -1,10 +1,10 @@
 ---
-title: String GetState()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetState
+description: NSAddressSyncData.GetState()
+intellisense: NSAddressSyncData.GetState
 sortOrder: 627
 keywords: GetState()
+so.topic: reference
 ---
 
 

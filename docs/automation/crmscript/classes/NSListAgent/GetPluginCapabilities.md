@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetPluginCapabilities(Integer pluginId)
-path: /EJScript/Classes/NSListAgent/Member functions/StringDictionary GetPluginCapabilities(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPluginCapabilities_Integer_p_0
+description: NSListAgent.GetPluginCapabilities(Integer p_0)
+intellisense: NSListAgent.GetPluginCapabilities
 keywords: GetPluginCapabilities(Integer)
+so.topic: reference
 ---
 
 

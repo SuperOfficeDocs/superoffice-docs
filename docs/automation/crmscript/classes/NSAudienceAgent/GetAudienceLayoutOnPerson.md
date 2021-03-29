@@ -1,10 +1,10 @@
 ---
-title: NSAudienceLayoutEntity GetAudienceLayoutOnPerson(Integer personId)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity GetAudienceLayoutOnPerson(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_GetAudienceLayoutOnPerson_Integer_p_0
+description: NSAudienceAgent.GetAudienceLayoutOnPerson(Integer p_0)
+intellisense: NSAudienceAgent.GetAudienceLayoutOnPerson
 sortOrder: 1300
 keywords: GetAudienceLayoutOnPerson(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsOwnCountryHoliday()
-path: /EJScript/Classes/NSRedLetterSummary/Member functions/Bool GetIsOwnCountryHoliday()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterSummary_GetIsOwnCountryHoliday
+description: NSRedLetterSummary.GetIsOwnCountryHoliday()
+intellisense: NSRedLetterSummary.GetIsOwnCountryHoliday
 keywords: GetIsOwnCountryHoliday()
+so.topic: reference
 ---
 
 

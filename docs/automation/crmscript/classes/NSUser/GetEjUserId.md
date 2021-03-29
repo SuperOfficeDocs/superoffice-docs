@@ -1,9 +1,9 @@
 ---
-title: Integer GetEjUserId()
-path: /EJScript/Classes/NSUser/Member functions/Integer GetEjUserId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetEjUserId
+description: NSUser.GetEjUserId()
+intellisense: NSUser.GetEjUserId
 keywords: GetEjUserId()
+so.topic: reference
 ---
 
 

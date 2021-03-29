@@ -1,9 +1,9 @@
 ---
-title: Integer GetUseCategories()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetUseCategories()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetUseCategories
+description: NSRoleEntity.GetUseCategories()
+intellisense: NSRoleEntity.GetUseCategories
 keywords: GetUseCategories()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetRank
+description: NSStatusMonitor.GetRank()
+intellisense: NSStatusMonitor.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

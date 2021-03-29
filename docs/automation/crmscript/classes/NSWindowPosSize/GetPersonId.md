@@ -1,9 +1,9 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_GetPersonId
+description: NSWindowPosSize.GetPersonId()
+intellisense: NSWindowPosSize.GetPersonId
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

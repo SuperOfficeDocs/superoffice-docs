@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String fieldname, String value)
-path: /EJScript/Classes/ExtraTable/Member functions/Void setValue(String fieldname, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraTable_setValue_String_fieldname_String_value
+description: ExtraTable.setValue(String fieldname, String value)
+intellisense: ExtraTable.setValue
 sortOrder: 325
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 This function sets the value of a given field if it exists.

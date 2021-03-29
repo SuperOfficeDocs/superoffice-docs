@@ -1,10 +1,10 @@
 ---
-title: Integer GetConsentPersonId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetConsentPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_GetConsentPersonId
+description: NSConsentInfo.GetConsentPersonId()
+intellisense: NSConsentInfo.GetConsentPersonId
 sortOrder: 1630
 keywords: GetConsentPersonId()
+so.topic: reference
 ---
 
 

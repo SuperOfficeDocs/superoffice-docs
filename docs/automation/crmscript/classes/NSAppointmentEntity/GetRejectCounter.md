@@ -1,10 +1,10 @@
 ---
-title: Integer GetRejectCounter()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Integer GetRejectCounter()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetRejectCounter
+description: NSAppointmentEntity.GetRejectCounter()
+intellisense: NSAppointmentEntity.GetRejectCounter
 sortOrder: 949
 keywords: GetRejectCounter()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSReason/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReason_SetValue_String_p_0
+description: NSReason.SetValue(String p_0)
+intellisense: NSReason.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

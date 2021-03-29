@@ -1,10 +1,10 @@
 ---
-title: NSSmsConfig SaveSmsConfig(NSSmsConfig smsConfig)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSSmsConfig SaveSmsConfig(NSSmsConfig p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_SaveSmsConfig_NSSmsConfig_p_0
+description: NSCustomerServiceAgent.SaveSmsConfig(NSSmsConfig p_0)
+intellisense: NSCustomerServiceAgent.SaveSmsConfig
 sortOrder: 2236
 keywords: SaveSmsConfig(NSSmsConfig)
+so.topic: reference
 ---
 
 

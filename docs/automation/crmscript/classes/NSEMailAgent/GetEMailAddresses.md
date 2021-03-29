@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress[] GetEMailAddresses(Integer[] emailIds)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAddress[] GetEMailAddresses(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailAddresses_Integer__p_0
+description: NSEMailAgent.GetEMailAddresses(Integer[] p_0)
+intellisense: NSEMailAgent.GetEMailAddresses
 sortOrder: 2801
 keywords: GetEMailAddresses(Integer[])
+so.topic: reference
 ---
 
 

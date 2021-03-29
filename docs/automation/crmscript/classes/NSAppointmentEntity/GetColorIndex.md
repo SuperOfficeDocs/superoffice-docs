@@ -1,10 +1,10 @@
 ---
-title: Integer GetColorIndex()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Integer GetColorIndex()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetColorIndex
+description: NSAppointmentEntity.GetColorIndex()
+intellisense: NSAppointmentEntity.GetColorIndex
 sortOrder: 943
 keywords: GetColorIndex()
+so.topic: reference
 ---
 
 

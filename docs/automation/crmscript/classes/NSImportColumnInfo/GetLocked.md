@@ -1,10 +1,10 @@
 ---
-title: Bool GetLocked()
-path: /EJScript/Classes/NSImportColumnInfo/Member functions/Bool GetLocked()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportColumnInfo_GetLocked
+description: NSImportColumnInfo.GetLocked()
+intellisense: NSImportColumnInfo.GetLocked
 sortOrder: 3960
 keywords: GetLocked()
+so.topic: reference
 ---
 
 

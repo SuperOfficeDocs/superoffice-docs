@@ -1,9 +1,9 @@
 ---
-title: Void SetIsoNumber(Integer IsoNumber)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetIsoNumber(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_SetIsoNumber_Integer_p_0
+description: NSTimeZoneData.SetIsoNumber(Integer p_0)
+intellisense: NSTimeZoneData.SetIsoNumber
 keywords: SetIsoNumber(Integer)
+so.topic: reference
 ---
 
 

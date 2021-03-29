@@ -1,8 +1,8 @@
 ---
-title: NSRecipientStatistics
-path: /EJScript/Classes/NSRecipientStatistics
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecipientStatistics
+description: NSRecipientStatistics
+intellisense: Void.NSRecipientStatistics
+so.topic: reference
 ---
 
 

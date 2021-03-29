@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncConnectorEntity CreateDefaultErpSyncConnectorEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_CreateDefaultErpSyncConnectorEntity
+description: NSErpSyncAgent.CreateDefaultErpSyncConnectorEntity()
+intellisense: NSErpSyncAgent.CreateDefaultErpSyncConnectorEntity
 sortOrder: 3200
 keywords: CreateDefaultErpSyncConnectorEntity()
+so.topic: reference
 ---
 
 

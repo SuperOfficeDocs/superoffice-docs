@@ -1,9 +1,9 @@
 ---
-title: Void SetStartDay(Integer StartDay)
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetStartDay(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_SetStartDay_Integer_p_0
+description: NSTimeZoneRule.SetStartDay(Integer p_0)
+intellisense: NSTimeZoneRule.SetStartDay
 keywords: SetStartDay(Integer)
+so.topic: reference
 ---
 
 

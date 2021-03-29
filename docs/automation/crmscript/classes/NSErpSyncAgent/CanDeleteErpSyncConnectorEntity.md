@@ -1,10 +1,10 @@
 ---
-title: Integer CanDeleteErpSyncConnectorEntity(Integer erpSyncConnectorId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Integer CanDeleteErpSyncConnectorEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_CanDeleteErpSyncConnectorEntity_Integer_p_0
+description: NSErpSyncAgent.CanDeleteErpSyncConnectorEntity(Integer p_0)
+intellisense: NSErpSyncAgent.CanDeleteErpSyncConnectorEntity
 sortOrder: 3188
 keywords: CanDeleteErpSyncConnectorEntity(Integer)
+so.topic: reference
 ---
 
 

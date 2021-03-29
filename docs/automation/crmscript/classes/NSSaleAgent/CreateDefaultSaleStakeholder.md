@@ -1,9 +1,9 @@
 ---
-title: NSSaleStakeholder CreateDefaultSaleStakeholder()
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder CreateDefaultSaleStakeholder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_CreateDefaultSaleStakeholder
+description: NSSaleAgent.CreateDefaultSaleStakeholder()
+intellisense: NSSaleAgent.CreateDefaultSaleStakeholder
 keywords: CreateDefaultSaleStakeholder()
+so.topic: reference
 ---
 
 

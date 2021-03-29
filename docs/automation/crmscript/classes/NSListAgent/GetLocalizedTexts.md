@@ -1,9 +1,9 @@
 ---
-title: NSLocalizedText[] GetLocalizedTexts()
-path: /EJScript/Classes/NSListAgent/Member functions/NSLocalizedText[] GetLocalizedTexts()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLocalizedTexts
+description: NSListAgent.GetLocalizedTexts()
+intellisense: NSListAgent.GetLocalizedTexts
 keywords: GetLocalizedTexts()
+so.topic: reference
 ---
 
 

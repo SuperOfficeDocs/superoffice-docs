@@ -1,9 +1,9 @@
 ---
-title: NSUserGroup SaveUserGroup(NSUserGroup userGroup)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserGroup SaveUserGroup(NSUserGroup p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_SaveUserGroup_NSUserGroup_p_0
+description: NSUserAgent.SaveUserGroup(NSUserGroup p_0)
+intellisense: NSUserAgent.SaveUserGroup
 keywords: SaveUserGroup(NSUserGroup)
+so.topic: reference
 ---
 
 

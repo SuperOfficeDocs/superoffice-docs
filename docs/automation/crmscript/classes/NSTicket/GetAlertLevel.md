@@ -1,9 +1,9 @@
 ---
-title: Integer GetAlertLevel()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetAlertLevel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetAlertLevel
+description: NSTicket.GetAlertLevel()
+intellisense: NSTicket.GetAlertLevel
 keywords: GetAlertLevel()
+so.topic: reference
 ---
 
 

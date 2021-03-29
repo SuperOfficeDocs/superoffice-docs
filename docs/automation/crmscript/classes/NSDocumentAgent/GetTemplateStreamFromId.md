@@ -1,10 +1,10 @@
 ---
-title: NSStream GetTemplateStreamFromId(Integer templateId, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetTemplateStreamFromId(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetTemplateStreamFromId_Integer_p_0_String_p_1
+description: NSDocumentAgent.GetTemplateStreamFromId(Integer p_0, String p_1)
+intellisense: NSDocumentAgent.GetTemplateStreamFromId
 sortOrder: 2522
 keywords: GetTemplateStreamFromId(Integer,String)
+so.topic: reference
 ---
 
 

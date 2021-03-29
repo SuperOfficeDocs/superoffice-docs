@@ -1,10 +1,10 @@
 ---
-title: Void SetLicenseStatus(Integer LicenseStatus)
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/Void SetLicenseStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckLicenseStatusResult_SetLicenseStatus_Integer_p_0
+description: NSCheckLicenseStatusResult.SetLicenseStatus(Integer p_0)
+intellisense: NSCheckLicenseStatusResult.SetLicenseStatus
 sortOrder: 1554
 keywords: SetLicenseStatus(Integer)
+so.topic: reference
 ---
 
 

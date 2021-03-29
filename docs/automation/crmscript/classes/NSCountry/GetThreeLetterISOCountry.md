@@ -1,10 +1,10 @@
 ---
-title: String GetThreeLetterISOCountry()
-path: /EJScript/Classes/NSCountry/Member functions/String GetThreeLetterISOCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetThreeLetterISOCountry
+description: NSCountry.GetThreeLetterISOCountry()
+intellisense: NSCountry.GetThreeLetterISOCountry
 sortOrder: 2026
 keywords: GetThreeLetterISOCountry()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraField3(String ExtraField3)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetExtraField3(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetExtraField3_String_p_0
+description: NSProduct.SetExtraField3(String p_0)
+intellisense: NSProduct.SetExtraField3
 keywords: SetExtraField3(String)
+so.topic: reference
 ---
 
 

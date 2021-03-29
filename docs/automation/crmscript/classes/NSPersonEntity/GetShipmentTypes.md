@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetShipmentTypes()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSSelectableMDOListItem[] GetShipmentTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetShipmentTypes
+description: NSPersonEntity.GetShipmentTypes()
+intellisense: NSPersonEntity.GetShipmentTypes
 keywords: GetShipmentTypes()
+so.topic: reference
 ---
 
 

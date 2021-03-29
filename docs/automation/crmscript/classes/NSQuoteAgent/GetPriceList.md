@@ -1,9 +1,9 @@
 ---
-title: NSPriceList GetPriceList(Integer priceListId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList GetPriceList(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetPriceList_Integer_p_0
+description: NSQuoteAgent.GetPriceList(Integer p_0)
+intellisense: NSQuoteAgent.GetPriceList
 keywords: GetPriceList(Integer)
+so.topic: reference
 ---
 
 

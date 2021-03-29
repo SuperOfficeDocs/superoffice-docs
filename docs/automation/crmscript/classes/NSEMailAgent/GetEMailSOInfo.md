@@ -1,10 +1,10 @@
 ---
-title: NSEMailSOInfo GetEMailSOInfo(Integer eMailSOInfoId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailSOInfo GetEMailSOInfo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailSOInfo_Integer_p_0
+description: NSEMailAgent.GetEMailSOInfo(Integer p_0)
+intellisense: NSEMailAgent.GetEMailSOInfo
 sortOrder: 2839
 keywords: GetEMailSOInfo(Integer)
+so.topic: reference
 ---
 
 

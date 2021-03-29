@@ -1,9 +1,9 @@
 ---
-title: Integer GetPriority()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetPriority()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetPriority
+description: NSTicket.GetPriority()
+intellisense: NSTicket.GetPriority
 keywords: GetPriority()
+so.topic: reference
 ---
 
 

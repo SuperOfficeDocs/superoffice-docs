@@ -1,9 +1,9 @@
 ---
-title: Void SetTabOrder(Integer TabOrder)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetTabOrder(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetTabOrder_Integer_p_0
+description: NSUserDefinedFieldInfo.SetTabOrder(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetTabOrder
 keywords: SetTabOrder(Integer)
+so.topic: reference
 ---
 
 

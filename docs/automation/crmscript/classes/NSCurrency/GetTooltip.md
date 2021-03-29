@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSCurrency/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCurrency_GetTooltip
+description: NSCurrency.GetTooltip()
+intellisense: NSCurrency.GetTooltip
 sortOrder: 2172
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

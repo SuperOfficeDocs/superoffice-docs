@@ -1,9 +1,9 @@
 ---
-title: Bool delete()
-path: /EJScript/Classes/SpmStaticList/Member functions/Bool delete()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmStaticList_delete
+description: SpmStaticList.delete()
+intellisense: SpmStaticList.delete
 keywords: delete()
+so.topic: reference
 ---
 
 

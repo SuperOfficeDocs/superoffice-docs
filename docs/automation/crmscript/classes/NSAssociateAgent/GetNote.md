@@ -1,10 +1,10 @@
 ---
-title: String[] GetNote(Integer associateId)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/String[] GetNote(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_GetNote_Integer_p_0
+description: NSAssociateAgent.GetNote(Integer p_0)
+intellisense: NSAssociateAgent.GetNote
 sortOrder: 1285
 keywords: GetNote(Integer)
+so.topic: reference
 ---
 
 

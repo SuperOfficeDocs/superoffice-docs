@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleDuration()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetSaleDuration()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetSaleDuration
+description: NSSaleTypeEntity.GetSaleDuration()
+intellisense: NSSaleTypeEntity.GetSaleDuration
 keywords: GetSaleDuration()
+so.topic: reference
 ---
 
 

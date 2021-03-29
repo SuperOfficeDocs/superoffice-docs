@@ -1,10 +1,10 @@
 ---
-title: Integer getMDay()
-path: /EJScript/Classes/Date/Member functions/Integer getMDay()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Date_getMDay
+description: Date.getMDay()
+intellisense: Date.getMDay
 sortOrder: 200
 keywords: getMDay()
+so.topic: reference
 ---
 
 

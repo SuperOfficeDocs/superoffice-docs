@@ -1,9 +1,9 @@
 ---
-title: Void SetUseValuesFromQuote(Integer UseValuesFromQuote)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetUseValuesFromQuote(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetUseValuesFromQuote_Integer_p_0
+description: NSQuote.SetUseValuesFromQuote(Integer p_0)
+intellisense: NSQuote.SetUseValuesFromQuote
 keywords: SetUseValuesFromQuote(Integer)
+so.topic: reference
 ---
 
 

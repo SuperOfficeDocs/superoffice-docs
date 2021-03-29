@@ -1,10 +1,10 @@
 ---
-title: Void SetTargetLabel(String TargetLabel)
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Void SetTargetLabel(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_SetTargetLabel_String_p_0
+description: NSFieldInfoRelation.SetTargetLabel(String p_0)
+intellisense: NSFieldInfoRelation.SetTargetLabel
 sortOrder: 3542
 keywords: SetTargetLabel(String)
+so.topic: reference
 ---
 
 

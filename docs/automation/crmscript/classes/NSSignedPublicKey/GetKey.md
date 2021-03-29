@@ -1,9 +1,9 @@
 ---
-title: NSDSAParameters GetKey()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/NSDSAParameters GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_GetKey
+description: NSSignedPublicKey.GetKey()
+intellisense: NSSignedPublicKey.GetKey
 keywords: GetKey()
+so.topic: reference
 ---
 
 

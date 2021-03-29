@@ -1,9 +1,9 @@
 ---
-title: Void SetLegalBaseId(Integer LegalBaseId)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetLegalBaseId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_SetLegalBaseId_Integer_p_0
+description: NSLegalBase.SetLegalBaseId(Integer p_0)
+intellisense: NSLegalBase.SetLegalBaseId
 keywords: SetLegalBaseId(Integer)
+so.topic: reference
 ---
 
 

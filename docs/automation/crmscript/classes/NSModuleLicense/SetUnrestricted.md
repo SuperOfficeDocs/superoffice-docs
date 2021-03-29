@@ -1,9 +1,9 @@
 ---
-title: Void SetUnrestricted(Bool Unrestricted)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetUnrestricted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetUnrestricted_Bool_p_0
+description: NSModuleLicense.SetUnrestricted(Bool p_0)
+intellisense: NSModuleLicense.SetUnrestricted
 keywords: SetUnrestricted(Bool)
+so.topic: reference
 ---
 
 

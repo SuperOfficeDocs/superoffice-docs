@@ -1,9 +1,9 @@
 ---
-title: String GetHeading()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/String GetHeading()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_GetHeading
+description: NSSaleSummaryItem.GetHeading()
+intellisense: NSSaleSummaryItem.GetHeading
 keywords: GetHeading()
+so.topic: reference
 ---
 
 

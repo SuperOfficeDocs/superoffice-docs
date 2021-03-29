@@ -1,9 +1,9 @@
 ---
-title: NSProjectMember SaveProjectMember(NSProjectMember projectMember)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember SaveProjectMember(NSProjectMember p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_SaveProjectMember_NSProjectMember_p_0
+description: NSProjectAgent.SaveProjectMember(NSProjectMember p_0)
+intellisense: NSProjectAgent.SaveProjectMember
 keywords: SaveProjectMember(NSProjectMember)
+so.topic: reference
 ---
 
 

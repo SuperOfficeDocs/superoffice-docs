@@ -1,10 +1,10 @@
 ---
-title: String GetNavigateTo()
-path: /EJScript/Classes/NSEventData/Member functions/String GetNavigateTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetNavigateTo
+description: NSEventData.GetNavigateTo()
+intellisense: NSEventData.GetNavigateTo
 sortOrder: 3343
 keywords: GetNavigateTo()
+so.topic: reference
 ---
 
 

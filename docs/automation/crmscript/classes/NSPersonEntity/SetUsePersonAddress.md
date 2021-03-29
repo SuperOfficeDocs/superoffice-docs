@@ -1,9 +1,9 @@
 ---
-title: Void SetUsePersonAddress(Bool UsePersonAddress)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetUsePersonAddress(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetUsePersonAddress_Bool_p_0
+description: NSPersonEntity.SetUsePersonAddress(Bool p_0)
+intellisense: NSPersonEntity.SetUsePersonAddress
 keywords: SetUsePersonAddress(Bool)
+so.topic: reference
 ---
 
 

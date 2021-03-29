@@ -1,9 +1,9 @@
 ---
-title: NSResourceOverride[] GetResourceSubstitutions(String[] resourceNames, String culture, Bool activeOnly)
-path: /EJScript/Classes/NSResourceAgent/Member functions/NSResourceOverride[] GetResourceSubstitutions(String[] p_0, String p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceAgent_GetResourceSubstitutions_String__p_0_String_p_1_Bool_p_2
+description: NSResourceAgent.GetResourceSubstitutions(String[] p_0, String p_1, Bool p_2)
+intellisense: NSResourceAgent.GetResourceSubstitutions
 keywords: GetResourceSubstitutions(String[],String,Bool)
+so.topic: reference
 ---
 
 

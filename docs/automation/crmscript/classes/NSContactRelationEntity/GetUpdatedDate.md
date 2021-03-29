@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetUpdatedDate
+description: NSContactRelationEntity.GetUpdatedDate()
+intellisense: NSContactRelationEntity.GetUpdatedDate
 sortOrder: 1945
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

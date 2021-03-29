@@ -1,10 +1,10 @@
 ---
-title: Void SetDuplicatePersonIds(Integer[] DuplicatePersonIds)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetDuplicatePersonIds(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_SetDuplicatePersonIds_Integer__p_0
+description: NSEMailAddress.SetDuplicatePersonIds(Integer[] p_0)
+intellisense: NSEMailAddress.SetDuplicatePersonIds
 sortOrder: 2775
 keywords: SetDuplicatePersonIds(Integer[])
+so.topic: reference
 ---
 
 

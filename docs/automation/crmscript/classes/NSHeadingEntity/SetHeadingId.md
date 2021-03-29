@@ -1,10 +1,10 @@
 ---
-title: Void SetHeadingId(Integer HeadingId)
-path: /EJScript/Classes/NSHeadingEntity/Member functions/Void SetHeadingId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHeadingEntity_SetHeadingId_Integer_p_0
+description: NSHeadingEntity.SetHeadingId(Integer p_0)
+intellisense: NSHeadingEntity.SetHeadingId
 sortOrder: 3919
 keywords: SetHeadingId(Integer)
+so.topic: reference
 ---
 
 

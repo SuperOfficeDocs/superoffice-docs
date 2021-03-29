@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternative CopyQuoteAlternative(Integer quoteVersionId, Integer quoteAlternativeId, String quoteAlternativeName)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteAlternative CopyQuoteAlternative(Integer p_0, Integer p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CopyQuoteAlternative_Integer_p_0_Integer_p_1_String_p_2
+description: NSQuoteAgent.CopyQuoteAlternative(Integer p_0, Integer p_1, String p_2)
+intellisense: NSQuoteAgent.CopyQuoteAlternative
 keywords: CopyQuoteAlternative(Integer,Integer,String)
+so.topic: reference
 ---
 
 

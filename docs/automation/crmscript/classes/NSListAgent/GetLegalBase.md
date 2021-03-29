@@ -1,9 +1,9 @@
 ---
-title: NSLegalBase GetLegalBase(Integer legalBaseId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSLegalBase GetLegalBase(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetLegalBase_Integer_p_0
+description: NSListAgent.GetLegalBase(Integer p_0)
+intellisense: NSListAgent.GetLegalBase
 keywords: GetLegalBase(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSImage GetProductImage(Integer productId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSImage GetProductImage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetProductImage_Integer_p_0
+description: NSBLOBAgent.GetProductImage(Integer p_0)
+intellisense: NSBLOBAgent.GetProductImage
 sortOrder: 1419
 keywords: GetProductImage(Integer)
+so.topic: reference
 ---
 
 

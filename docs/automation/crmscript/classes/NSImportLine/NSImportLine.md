@@ -1,9 +1,9 @@
 ---
-title: NSImportLine
-path: /EJScript/Classes/NSImportLine
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine
+description: NSImportLine
+intellisense: Void.NSImportLine
 sortOrder: 3972
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetZipCode()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetZipCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetZipCode
+description: NSAddressSyncData.GetZipCode()
+intellisense: NSAddressSyncData.GetZipCode
 sortOrder: 628
 keywords: GetZipCode()
+so.topic: reference
 ---
 
 

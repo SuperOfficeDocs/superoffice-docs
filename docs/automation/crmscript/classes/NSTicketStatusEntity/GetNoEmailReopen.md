@@ -1,9 +1,9 @@
 ---
-title: Bool GetNoEmailReopen()
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/Bool GetNoEmailReopen()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketStatusEntity_GetNoEmailReopen
+description: NSTicketStatusEntity.GetNoEmailReopen()
+intellisense: NSTicketStatusEntity.GetNoEmailReopen
 keywords: GetNoEmailReopen()
+so.topic: reference
 ---
 
 

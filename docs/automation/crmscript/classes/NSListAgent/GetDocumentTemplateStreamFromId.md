@@ -1,9 +1,9 @@
 ---
-title: NSStream GetDocumentTemplateStreamFromId(Integer documentTemplateId, String languageCode)
-path: /EJScript/Classes/NSListAgent/Member functions/NSStream GetDocumentTemplateStreamFromId(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateStreamFromId_Integer_p_0_String_p_1
+description: NSListAgent.GetDocumentTemplateStreamFromId(Integer p_0, String p_1)
+intellisense: NSListAgent.GetDocumentTemplateStreamFromId
 keywords: GetDocumentTemplateStreamFromId(Integer,String)
+so.topic: reference
 ---
 
 

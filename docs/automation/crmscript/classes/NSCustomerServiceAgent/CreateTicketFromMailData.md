@@ -1,10 +1,10 @@
 ---
-title: NSTicketInfo CreateTicketFromMailData(Integer mailboxId, String data)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSTicketInfo CreateTicketFromMailData(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_CreateTicketFromMailData_Integer_p_0_String_p_1
+description: NSCustomerServiceAgent.CreateTicketFromMailData(Integer p_0, String p_1)
+intellisense: NSCustomerServiceAgent.CreateTicketFromMailData
 sortOrder: 2241
 keywords: CreateTicketFromMailData(Integer,String)
+so.topic: reference
 ---
 
 

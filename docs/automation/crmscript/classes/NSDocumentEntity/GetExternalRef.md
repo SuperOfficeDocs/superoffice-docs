@@ -1,10 +1,10 @@
 ---
-title: String GetExternalRef()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/String GetExternalRef()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetExternalRef
+description: NSDocumentEntity.GetExternalRef()
+intellisense: NSDocumentEntity.GetExternalRef
 sortOrder: 2578
 keywords: GetExternalRef()
+so.topic: reference
 ---
 
 

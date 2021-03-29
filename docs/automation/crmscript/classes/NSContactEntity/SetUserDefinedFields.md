@@ -1,10 +1,10 @@
 ---
-title: Void SetUserDefinedFields(Map fields)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetUserDefinedFields(Map p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetUserDefinedFields_Map_p_0
+description: NSContactEntity.SetUserDefinedFields(Map p_0)
+intellisense: NSContactEntity.SetUserDefinedFields
 sortOrder: 1916
 keywords: SetUserDefinedFields(Map)
+so.topic: reference
 ---
 
 

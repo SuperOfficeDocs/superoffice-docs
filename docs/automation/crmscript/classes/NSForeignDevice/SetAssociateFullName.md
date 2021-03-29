@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateFullName(String AssociateFullName)
-path: /EJScript/Classes/NSForeignDevice/Member functions/Void SetAssociateFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_SetAssociateFullName_String_p_0
+description: NSForeignDevice.SetAssociateFullName(String p_0)
+intellisense: NSForeignDevice.SetAssociateFullName
 sortOrder: 3723
 keywords: SetAssociateFullName(String)
+so.topic: reference
 ---
 
 

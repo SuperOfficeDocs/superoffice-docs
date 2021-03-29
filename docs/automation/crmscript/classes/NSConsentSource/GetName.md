@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSConsentSource/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentSource_GetName
+description: NSConsentSource.GetName()
+intellisense: NSConsentSource.GetName
 sortOrder: 1707
 keywords: GetName()
+so.topic: reference
 ---
 
 

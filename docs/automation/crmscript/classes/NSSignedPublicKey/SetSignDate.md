@@ -1,9 +1,9 @@
 ---
-title: Void SetSignDate(DateTime SignDate)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetSignDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_SetSignDate_DateTime_p_0
+description: NSSignedPublicKey.SetSignDate(DateTime p_0)
+intellisense: NSSignedPublicKey.SetSignDate
 keywords: SetSignDate(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetMotherId(Integer MotherId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetMotherId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetMotherId_Integer_p_0
+description: NSAppointment.SetMotherId(Integer p_0)
+intellisense: NSAppointment.SetMotherId
 sortOrder: 801
 keywords: SetMotherId(Integer)
+so.topic: reference
 ---
 
 

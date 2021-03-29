@@ -1,9 +1,9 @@
 ---
-title: Void SetDiscountAmount(Float DiscountAmount)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetDiscountAmount(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetDiscountAmount_Float_p_0
+description: NSQuoteAlternative.SetDiscountAmount(Float p_0)
+intellisense: NSQuoteAlternative.SetDiscountAmount
 keywords: SetDiscountAmount(Float)
+so.topic: reference
 ---
 
 

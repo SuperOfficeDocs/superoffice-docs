@@ -1,9 +1,9 @@
 ---
-title: DateTime GetWedStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetWedStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetWedStart
+description: NSTicketPriorityEntity.GetWedStart()
+intellisense: NSTicketPriorityEntity.GetWedStart
 keywords: GetWedStart()
+so.topic: reference
 ---
 
 

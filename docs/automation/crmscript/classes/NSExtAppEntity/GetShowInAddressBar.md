@@ -1,10 +1,10 @@
 ---
-title: Bool GetShowInAddressBar()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Bool GetShowInAddressBar()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetShowInAddressBar
+description: NSExtAppEntity.GetShowInAddressBar()
+intellisense: NSExtAppEntity.GetShowInAddressBar
 sortOrder: 3362
 keywords: GetShowInAddressBar()
+so.topic: reference
 ---
 
 

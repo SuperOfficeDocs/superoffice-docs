@@ -1,10 +1,10 @@
 ---
-title: Integer getFlags()
-path: /EJScript/Classes/ExtraTableInfo/Member functions/Integer getFlags()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraTableInfo_getFlags
+description: ExtraTableInfo.getFlags()
+intellisense: ExtraTableInfo.getFlags
 sortOrder: 328
 keywords: getFlags()
+so.topic: reference
 ---
 
 Will return the flags for this extra table.

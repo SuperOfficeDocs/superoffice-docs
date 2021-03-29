@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetDisplayValue_String_p_0
+description: NSPreference.SetDisplayValue(String p_0)
+intellisense: NSPreference.SetDisplayValue
 keywords: SetDisplayValue(String)
+so.topic: reference
 ---
 
 

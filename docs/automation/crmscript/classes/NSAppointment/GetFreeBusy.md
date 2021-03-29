@@ -1,10 +1,10 @@
 ---
-title: Integer GetFreeBusy()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetFreeBusy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetFreeBusy
+description: NSAppointment.GetFreeBusy()
+intellisense: NSAppointment.GetFreeBusy
 sortOrder: 736
 keywords: GetFreeBusy()
+so.topic: reference
 ---
 
 

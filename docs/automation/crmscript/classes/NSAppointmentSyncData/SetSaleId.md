@@ -1,10 +1,10 @@
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetSaleId_Integer_p_0
+description: NSAppointmentSyncData.SetSaleId(Integer p_0)
+intellisense: NSAppointmentSyncData.SetSaleId
 sortOrder: 1088
 keywords: SetSaleId(Integer)
+so.topic: reference
 ---
 
 

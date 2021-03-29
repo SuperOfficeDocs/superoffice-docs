@@ -1,10 +1,10 @@
 ---
-title: Integer GetMailTemplateId()
-path: /EJScript/Classes/NSConsentSource/Member functions/Integer GetMailTemplateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentSource_GetMailTemplateId
+description: NSConsentSource.GetMailTemplateId()
+intellisense: NSConsentSource.GetMailTemplateId
 sortOrder: 1704
 keywords: GetMailTemplateId()
+so.topic: reference
 ---
 
 

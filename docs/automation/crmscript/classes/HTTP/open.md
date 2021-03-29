@@ -1,10 +1,10 @@
 ---
-title: Byte[] open(String p\_url)
-path: /EJScript/Classes/HTTP/Member functions/Byte[] open(String p_url)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_open_String_p_url
+description: HTTP.open(String p_url)
+intellisense: HTTP.open
 sortOrder: 401
 keywords: open(String)
+so.topic: reference
 ---
 
 This function opens an url and returns the result as a Byte array.

@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchCompany(Bool SearchCompany)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchCompany(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_SetSearchCompany_Bool_p_0
+description: NSPhoneListPreferences.SetSearchCompany(Bool p_0)
+intellisense: NSPhoneListPreferences.SetSearchCompany
 keywords: SetSearchCompany(Bool)
+so.topic: reference
 ---
 
 

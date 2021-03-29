@@ -1,10 +1,10 @@
 ---
-title: Void SetSource(Integer Source)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetSource(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetSource_Integer_p_0
+description: NSContactEntity.SetSource(Integer p_0)
+intellisense: NSContactEntity.SetSource
 sortOrder: 1909
 keywords: SetSource(Integer)
+so.topic: reference
 ---
 
 

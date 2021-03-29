@@ -1,9 +1,9 @@
 ---
-title: Void SetActiveQuoteVersionId(Integer ActiveQuoteVersionId)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetActiveQuoteVersionId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetActiveQuoteVersionId_Integer_p_0
+description: NSQuote.SetActiveQuoteVersionId(Integer p_0)
+intellisense: NSQuote.SetActiveQuoteVersionId
 keywords: SetActiveQuoteVersionId(Integer)
+so.topic: reference
 ---
 
 

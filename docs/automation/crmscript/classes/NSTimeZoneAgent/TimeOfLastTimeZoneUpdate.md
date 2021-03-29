@@ -1,9 +1,9 @@
 ---
-title: DateTime TimeOfLastTimeZoneUpdate()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/DateTime TimeOfLastTimeZoneUpdate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_TimeOfLastTimeZoneUpdate
+description: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate()
+intellisense: NSTimeZoneAgent.TimeOfLastTimeZoneUpdate
 keywords: TimeOfLastTimeZoneUpdate()
+so.topic: reference
 ---
 
 

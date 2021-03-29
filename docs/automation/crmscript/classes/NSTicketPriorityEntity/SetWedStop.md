@@ -1,9 +1,9 @@
 ---
-title: Void SetWedStop(DateTime WedStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetWedStop(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetWedStop_DateTime_p_0
+description: NSTicketPriorityEntity.SetWedStop(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetWedStop
 keywords: SetWedStop(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SortListItems(Integer udListDefinitionId, String cultureName)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SortListItems(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SortListItems_Integer_p_0_String_p_1
+description: NSListAgent.SortListItems(Integer p_0, String p_1)
+intellisense: NSListAgent.SortListItems
 keywords: SortListItems(Integer,String)
+so.topic: reference
 ---
 
 

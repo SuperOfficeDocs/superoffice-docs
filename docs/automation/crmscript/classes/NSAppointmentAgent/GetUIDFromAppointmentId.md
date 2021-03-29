@@ -1,10 +1,10 @@
 ---
-title: String GetUIDFromAppointmentId(Integer p0, Bool useMotherId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/String GetUIDFromAppointmentId(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetUIDFromAppointmentId_Integer_p_0_Bool_p_1
+description: NSAppointmentAgent.GetUIDFromAppointmentId(Integer p_0, Bool p_1)
+intellisense: NSAppointmentAgent.GetUIDFromAppointmentId
 sortOrder: 907
 keywords: GetUIDFromAppointmentId(Integer,Bool)
+so.topic: reference
 ---
 
 

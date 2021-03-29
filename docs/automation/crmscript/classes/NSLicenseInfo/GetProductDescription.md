@@ -1,9 +1,9 @@
 ---
-title: String GetProductDescription()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetProductDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetProductDescription
+description: NSLicenseInfo.GetProductDescription()
+intellisense: NSLicenseInfo.GetProductDescription
 keywords: GetProductDescription()
+so.topic: reference
 ---
 
 

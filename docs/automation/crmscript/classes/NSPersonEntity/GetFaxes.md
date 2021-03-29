@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetFaxes()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetFaxes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetFaxes
+description: NSPersonEntity.GetFaxes()
+intellisense: NSPersonEntity.GetFaxes
 keywords: GetFaxes()
+so.topic: reference
 ---
 
 

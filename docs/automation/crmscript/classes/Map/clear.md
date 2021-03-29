@@ -1,10 +1,10 @@
 ---
-title: Void clear()
-path: /EJScript/Classes/Map/Member functions/Void clear()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map_clear
+description: Map.clear()
+intellisense: Map.clear
 sortOrder: 534
 keywords: clear()
+so.topic: reference
 ---
 
 

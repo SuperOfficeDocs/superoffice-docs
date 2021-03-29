@@ -1,9 +1,9 @@
 ---
-title: NSMessageDeliveryStatus[] SendMessagesWithConfig(String plugin, NSOutgoingMessage[] outgoingMessages, StringDictionary config)
-path: /EJScript/Classes/NSMessagingAgent/Member functions/NSMessageDeliveryStatus[] SendMessagesWithConfig(String p_0, NSOutgoingMessage[] p_1, StringDictionary p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessagingAgent_SendMessagesWithConfig_String_p_0_NSOutgoingMessage__p_1_StringDictionary_p_2
+description: NSMessagingAgent.SendMessagesWithConfig(String p_0, NSOutgoingMessage[] p_1, StringDictionary p_2)
+intellisense: NSMessagingAgent.SendMessagesWithConfig
 keywords: SendMessagesWithConfig(String,NSOutgoingMessage[],StringDictionary)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetAssociateId(Integer AssociateId)
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckoutInfo_SetAssociateId_Integer_p_0
+description: NSCheckoutInfo.SetAssociateId(Integer p_0)
+intellisense: NSCheckoutInfo.SetAssociateId
 sortOrder: 1563
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

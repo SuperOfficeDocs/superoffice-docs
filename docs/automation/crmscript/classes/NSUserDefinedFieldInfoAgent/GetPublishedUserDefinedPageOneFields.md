@@ -1,9 +1,9 @@
 ---
-title: NSUserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(Integer ownerType, Integer userGroupId)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSUserDefinedFieldInfo[] GetPublishedUserDefinedPageOneFields(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields_Integer_p_0_Integer_p_1
+description: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields(Integer p_0, Integer p_1)
+intellisense: NSUserDefinedFieldInfoAgent.GetPublishedUserDefinedPageOneFields
 keywords: GetPublishedUserDefinedPageOneFields(Integer,Integer)
+so.topic: reference
 ---
 
 

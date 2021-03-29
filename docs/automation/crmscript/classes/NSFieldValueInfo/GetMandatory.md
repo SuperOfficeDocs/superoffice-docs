@@ -1,10 +1,10 @@
 ---
-title: Bool GetMandatory()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Bool GetMandatory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetMandatory
+description: NSFieldValueInfo.GetMandatory()
+intellisense: NSFieldValueInfo.GetMandatory
 sortOrder: 3621
 keywords: GetMandatory()
+so.topic: reference
 ---
 
 

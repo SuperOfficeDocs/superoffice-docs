@@ -1,9 +1,9 @@
 ---
-title: NSBusiness[] GetBusinesses()
-path: /EJScript/Classes/NSListAgent/Member functions/NSBusiness[] GetBusinesses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetBusinesses
+description: NSListAgent.GetBusinesses()
+intellisense: NSListAgent.GetBusinesses
 keywords: GetBusinesses()
+so.topic: reference
 ---
 
 

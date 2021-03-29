@@ -1,9 +1,9 @@
 ---
-title: NSCsFeatureToggle
-path: /EJScript/Classes/NSCsFeatureToggle
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsFeatureToggle
+description: NSCsFeatureToggle
+intellisense: Void.NSCsFeatureToggle
 sortOrder: 2155
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String[] GetJobResultsFromStorageAsJson()
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/String[] GetJobResultsFromStorageAsJson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_GetJobResultsFromStorageAsJson
+description: NSBulkUpdateAgent.GetJobResultsFromStorageAsJson()
+intellisense: NSBulkUpdateAgent.GetJobResultsFromStorageAsJson
 sortOrder: 1475
 keywords: GetJobResultsFromStorageAsJson()
+so.topic: reference
 ---
 
 

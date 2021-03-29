@@ -1,10 +1,10 @@
 ---
-title: Void DeleteStopWordsById(Integer[] stopWordIds)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void DeleteStopWordsById(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_DeleteStopWordsById_Integer__p_0
+description: NSFreeTextAgent.DeleteStopWordsById(Integer[] p_0)
+intellisense: NSFreeTextAgent.DeleteStopWordsById
 sortOrder: 3873
 keywords: DeleteStopWordsById(Integer[])
+so.topic: reference
 ---
 
 

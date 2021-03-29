@@ -1,10 +1,10 @@
 ---
-title: Void SetPublishFrom(DateTime fields)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetPublishFrom(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetPublishFrom_DateTime_p_0
+description: NSAppointmentEntity.SetPublishFrom(DateTime p_0)
+intellisense: NSAppointmentEntity.SetPublishFrom
 sortOrder: 1024
 keywords: SetPublishFrom(DateTime)
+so.topic: reference
 ---
 
 

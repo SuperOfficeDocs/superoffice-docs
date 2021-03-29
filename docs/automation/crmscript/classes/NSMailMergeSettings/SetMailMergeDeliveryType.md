@@ -1,9 +1,9 @@
 ---
-title: Void SetMailMergeDeliveryType(Integer MailMergeDeliveryType)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetMailMergeDeliveryType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetMailMergeDeliveryType_Integer_p_0
+description: NSMailMergeSettings.SetMailMergeDeliveryType(Integer p_0)
+intellisense: NSMailMergeSettings.SetMailMergeDeliveryType
 keywords: SetMailMergeDeliveryType(Integer)
+so.topic: reference
 ---
 
 

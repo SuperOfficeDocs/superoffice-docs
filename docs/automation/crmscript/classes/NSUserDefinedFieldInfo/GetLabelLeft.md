@@ -1,9 +1,9 @@
 ---
-title: Integer GetLabelLeft()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLabelLeft()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetLabelLeft
+description: NSUserDefinedFieldInfo.GetLabelLeft()
+intellisense: NSUserDefinedFieldInfo.GetLabelLeft
 keywords: GetLabelLeft()
+so.topic: reference
 ---
 
 

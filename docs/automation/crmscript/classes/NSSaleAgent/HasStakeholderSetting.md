@@ -1,9 +1,9 @@
 ---
-title: Bool HasStakeholderSetting(Integer p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Bool HasStakeholderSetting(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_HasStakeholderSetting_Integer_p_0
+description: NSSaleAgent.HasStakeholderSetting(Integer p_0)
+intellisense: NSSaleAgent.HasStakeholderSetting
 keywords: HasStakeholderSetting(Integer)
+so.topic: reference
 ---
 
 

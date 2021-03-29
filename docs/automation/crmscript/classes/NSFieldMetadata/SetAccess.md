@@ -1,10 +1,10 @@
 ---
-title: Void SetAccess(Integer Access)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetAccess(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_SetAccess_Integer_p_0
+description: NSFieldMetadata.SetAccess(Integer p_0)
+intellisense: NSFieldMetadata.SetAccess
 sortOrder: 3585
 keywords: SetAccess(Integer)
+so.topic: reference
 ---
 
 

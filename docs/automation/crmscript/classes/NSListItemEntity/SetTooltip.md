@@ -1,9 +1,9 @@
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSListItemEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListItemEntity_SetTooltip_String_p_0
+description: NSListItemEntity.SetTooltip(String p_0)
+intellisense: NSListItemEntity.SetTooltip
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

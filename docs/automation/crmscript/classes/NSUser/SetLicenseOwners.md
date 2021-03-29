@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenseOwners(NSLicenseOwner[] LicenseOwners)
-path: /EJScript/Classes/NSUser/Member functions/Void SetLicenseOwners(NSLicenseOwner[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetLicenseOwners_NSLicenseOwner__p_0
+description: NSUser.SetLicenseOwners(NSLicenseOwner[] p_0)
+intellisense: NSUser.SetLicenseOwners
 keywords: SetLicenseOwners(NSLicenseOwner[])
+so.topic: reference
 ---
 
 

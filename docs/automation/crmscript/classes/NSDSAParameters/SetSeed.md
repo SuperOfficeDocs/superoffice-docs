@@ -1,10 +1,10 @@
 ---
-title: Void SetSeed(NSBinary p0)
-path: /EJScript/Classes/NSDSAParameters/Member functions/Void SetSeed(NSBinary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_SetSeed_NSBinary_p_0
+description: NSDSAParameters.SetSeed(NSBinary p_0)
+intellisense: NSDSAParameters.SetSeed
 sortOrder: 2718
 keywords: SetSeed(NSBinary)
+so.topic: reference
 ---
 
 

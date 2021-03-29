@@ -1,9 +1,9 @@
 ---
-title: Void SetPage1LineNo(Integer Page1LineNo)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetPage1LineNo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetPage1LineNo_Integer_p_0
+description: NSUserDefinedFieldInfo.SetPage1LineNo(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetPage1LineNo
 keywords: SetPage1LineNo(Integer)
+so.topic: reference
 ---
 
 

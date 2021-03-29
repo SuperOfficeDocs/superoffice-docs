@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeToReply(Integer TimeToReply)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetTimeToReply(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetTimeToReply_Integer_p_0
+description: NSTicket.SetTimeToReply(Integer p_0)
+intellisense: NSTicket.SetTimeToReply
 keywords: SetTimeToReply(Integer)
+so.topic: reference
 ---
 
 

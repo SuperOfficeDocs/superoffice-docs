@@ -1,9 +1,9 @@
 ---
-title: String GetLastname()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetLastname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetLastname
+description: NSSaleStakeholder.GetLastname()
+intellisense: NSSaleStakeholder.GetLastname
 keywords: GetLastname()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsInUseInGuides()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Bool GetIsInUseInGuides()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetIsInUseInGuides
+description: NSDocumentTemplateEntity.GetIsInUseInGuides()
+intellisense: NSDocumentTemplateEntity.GetIsInUseInGuides
 sortOrder: 2653
 keywords: GetIsInUseInGuides()
+so.topic: reference
 ---
 
 

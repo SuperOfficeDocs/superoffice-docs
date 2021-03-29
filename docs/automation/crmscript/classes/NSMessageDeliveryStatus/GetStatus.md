@@ -1,9 +1,9 @@
 ---
-title: Integer GetStatus()
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Integer GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus_GetStatus
+description: NSMessageDeliveryStatus.GetStatus()
+intellisense: NSMessageDeliveryStatus.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

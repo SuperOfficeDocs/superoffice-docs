@@ -1,10 +1,10 @@
 ---
-title: NSAAATestClassForModeling GetAAATestClassForModeling(Integer aAATestClassForModelingId)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/NSAAATestClassForModeling GetAAATestClassForModeling(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_GetAAATestClassForModeling_Integer_p_0
+description: NSAAAMockAgent.GetAAATestClassForModeling(Integer p_0)
+intellisense: NSAAAMockAgent.GetAAATestClassForModeling
 sortOrder: 8896
 keywords: GetAAATestClassForModeling(Integer)
+so.topic: reference
 ---
 
 

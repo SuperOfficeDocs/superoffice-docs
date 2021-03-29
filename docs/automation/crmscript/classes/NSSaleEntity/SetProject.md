@@ -1,9 +1,9 @@
 ---
-title: Void SetProject(NSProject Project)
-path: /EJScript/Classes/NSSaleEntity/Member functions/Void SetProject(NSProject p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_SetProject_NSProject_p_0
+description: NSSaleEntity.SetProject(NSProject p_0)
+intellisense: NSSaleEntity.SetProject
 keywords: SetProject(NSProject)
+so.topic: reference
 ---
 
 

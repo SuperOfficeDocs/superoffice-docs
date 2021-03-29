@@ -1,9 +1,9 @@
 ---
-title: NSHistory GetCurrent(String historyName)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory GetCurrent(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_GetCurrent_String_p_0
+description: NSViewStateAgent.GetCurrent(String p_0)
+intellisense: NSViewStateAgent.GetCurrent
 keywords: GetCurrent(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSForeignAppEntity
-path: /EJScript/Classes/NSForeignAppEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignAppEntity
+description: NSForeignAppEntity
+intellisense: Void.NSForeignAppEntity
 sortOrder: 3696
+so.topic: reference
 ---
 
 

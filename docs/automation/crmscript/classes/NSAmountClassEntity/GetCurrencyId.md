@@ -1,10 +1,10 @@
 ---
-title: Integer GetCurrencyId()
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Integer GetCurrencyId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_GetCurrencyId
+description: NSAmountClassEntity.GetCurrencyId()
+intellisense: NSAmountClassEntity.GetCurrencyId
 sortOrder: 699
 keywords: GetCurrencyId()
+so.topic: reference
 ---
 
 

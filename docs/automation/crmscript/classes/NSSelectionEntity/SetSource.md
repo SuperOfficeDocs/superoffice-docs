@@ -1,9 +1,9 @@
 ---
-title: Void SetSource(Integer Source)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSource(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetSource_Integer_p_0
+description: NSSelectionEntity.SetSource(Integer p_0)
+intellisense: NSSelectionEntity.SetSource
 keywords: SetSource(Integer)
+so.topic: reference
 ---
 
 

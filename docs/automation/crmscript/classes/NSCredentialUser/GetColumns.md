@@ -1,10 +1,10 @@
 ---
-title: String[] GetColumns()
-path: /EJScript/Classes/NSCredentialUser/Member functions/String[] GetColumns()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser_GetColumns
+description: NSCredentialUser.GetColumns()
+intellisense: NSCredentialUser.GetColumns
 sortOrder: 2089
 keywords: GetColumns()
+so.topic: reference
 ---
 
 

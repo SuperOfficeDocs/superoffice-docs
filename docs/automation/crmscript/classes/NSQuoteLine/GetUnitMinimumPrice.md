@@ -1,9 +1,9 @@
 ---
-title: Float GetUnitMinimumPrice()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetUnitMinimumPrice()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetUnitMinimumPrice
+description: NSQuoteLine.GetUnitMinimumPrice()
+intellisense: NSQuoteLine.GetUnitMinimumPrice
 keywords: GetUnitMinimumPrice()
+so.topic: reference
 ---
 
 

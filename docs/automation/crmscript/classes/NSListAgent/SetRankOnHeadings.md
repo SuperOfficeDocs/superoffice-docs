@@ -1,9 +1,9 @@
 ---
-title: Void SetRankOnHeadings(Integer udListDefinitionId, Integer[] headingIds)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SetRankOnHeadings(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetRankOnHeadings_Integer_p_0_Integer__p_1
+description: NSListAgent.SetRankOnHeadings(Integer p_0, Integer[] p_1)
+intellisense: NSListAgent.SetRankOnHeadings
 keywords: SetRankOnHeadings(Integer,Integer[])
+so.topic: reference
 ---
 
 

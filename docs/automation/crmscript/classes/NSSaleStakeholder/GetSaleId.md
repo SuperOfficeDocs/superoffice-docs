@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetSaleId
+description: NSSaleStakeholder.GetSaleId()
+intellisense: NSSaleStakeholder.GetSaleId
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

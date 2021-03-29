@@ -1,9 +1,9 @@
 ---
-title: Void SetIsBuiltIn(Bool IsBuiltIn)
-path: /EJScript/Classes/NSLocalizedText/Member functions/Void SetIsBuiltIn(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedText_SetIsBuiltIn_Bool_p_0
+description: NSLocalizedText.SetIsBuiltIn(Bool p_0)
+intellisense: NSLocalizedText.SetIsBuiltIn
 keywords: SetIsBuiltIn(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetRemovePersonInterest(Integer RemovePersonInterest)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetRemovePersonInterest(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetRemovePersonInterest_Integer_p_0
+description: NSMailMergeSettings.SetRemovePersonInterest(Integer p_0)
+intellisense: NSMailMergeSettings.SetRemovePersonInterest
 keywords: SetRemovePersonInterest(Integer)
+so.topic: reference
 ---
 
 

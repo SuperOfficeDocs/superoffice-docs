@@ -1,9 +1,9 @@
 ---
-title: Integer GetVersion()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetVersion()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetVersion
+description: NSWebAppUsage.GetVersion()
+intellisense: NSWebAppUsage.GetVersion
 keywords: GetVersion()
+so.topic: reference
 ---
 
 

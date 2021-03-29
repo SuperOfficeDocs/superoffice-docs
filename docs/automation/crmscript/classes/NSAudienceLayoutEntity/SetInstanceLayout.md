@@ -1,10 +1,10 @@
 ---
-title: Void SetInstanceLayout(String InstanceLayout)
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/Void SetInstanceLayout(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_SetInstanceLayout_String_p_0
+description: NSAudienceLayoutEntity.SetInstanceLayout(String p_0)
+intellisense: NSAudienceLayoutEntity.SetInstanceLayout
 sortOrder: 1345
 keywords: SetInstanceLayout(String)
+so.topic: reference
 ---
 
 

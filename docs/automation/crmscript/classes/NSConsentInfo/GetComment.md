@@ -1,10 +1,10 @@
 ---
-title: String GetComment()
-path: /EJScript/Classes/NSConsentInfo/Member functions/String GetComment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_GetComment
+description: NSConsentInfo.GetComment()
+intellisense: NSConsentInfo.GetComment
 sortOrder: 1636
 keywords: GetComment()
+so.topic: reference
 ---
 
 

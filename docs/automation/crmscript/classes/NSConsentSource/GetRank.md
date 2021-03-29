@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSConsentSource/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentSource_GetRank
+description: NSConsentSource.GetRank()
+intellisense: NSConsentSource.GetRank
 sortOrder: 1705
 keywords: GetRank()
+so.topic: reference
 ---
 
 

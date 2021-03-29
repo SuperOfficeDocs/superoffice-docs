@@ -1,10 +1,11 @@
 ---
-title: Time GenericToTime(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Time GenericToTime(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_GenericToTime_Generic_generic
+description: Generic.GenericToTime(Generic generic)
+intellisense: Generic.GenericToTime
 langref: 1
 sortOrder: 150
 keywords: GenericToTime(Generic)
+so.topic: reference
 ---
 
 

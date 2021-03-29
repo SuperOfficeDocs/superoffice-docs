@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetValues()
-path: /EJScript/Classes/NSTableRecord/Member functions/StringDictionary GetValues()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTableRecord_GetValues
+description: NSTableRecord.GetValues()
+intellisense: NSTableRecord.GetValues
 keywords: GetValues()
+so.topic: reference
 ---
 
 

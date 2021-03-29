@@ -1,9 +1,9 @@
 ---
-title: Void SetOwnedBy(NSAssociate OwnedBy)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetOwnedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetOwnedBy_NSAssociate_p_0
+description: NSTicketEntity.SetOwnedBy(NSAssociate p_0)
+intellisense: NSTicketEntity.SetOwnedBy
 keywords: SetOwnedBy(NSAssociate)
+so.topic: reference
 ---
 
 

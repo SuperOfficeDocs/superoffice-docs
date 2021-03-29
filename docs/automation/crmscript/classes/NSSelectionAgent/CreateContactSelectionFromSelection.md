@@ -1,9 +1,9 @@
 ---
-title: NSSelectionEntity CreateContactSelectionFromSelection(Integer selectionId, String name, Integer targetSelectionType, Bool copyMembers)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSSelectionEntity CreateContactSelectionFromSelection(Integer p_0, String p_1, Integer p_2, Bool p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_CreateContactSelectionFromSelection_Integer_p_0_String_p_1_Integer_p_2_Bool_p_3
+description: NSSelectionAgent.CreateContactSelectionFromSelection(Integer p_0, String p_1, Integer p_2, Bool p_3)
+intellisense: NSSelectionAgent.CreateContactSelectionFromSelection
 keywords: CreateContactSelectionFromSelection(Integer,String,Integer,Bool)
+so.topic: reference
 ---
 
 

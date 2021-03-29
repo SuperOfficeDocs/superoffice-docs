@@ -1,10 +1,10 @@
 ---
-title: Integer GetEjUserId()
-path: /EJScript/Classes/NSAssociate/Member functions/Integer GetEjUserId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_GetEjUserId
+description: NSAssociate.GetEjUserId()
+intellisense: NSAssociate.GetEjUserId
 sortOrder: 1256
 keywords: GetEjUserId()
+so.topic: reference
 ---
 
 

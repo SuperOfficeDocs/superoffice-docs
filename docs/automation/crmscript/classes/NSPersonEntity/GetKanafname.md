@@ -1,9 +1,9 @@
 ---
-title: String GetKanafname()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetKanafname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetKanafname
+description: NSPersonEntity.GetKanafname()
+intellisense: NSPersonEntity.GetKanafname
 keywords: GetKanafname()
+so.topic: reference
 ---
 
 

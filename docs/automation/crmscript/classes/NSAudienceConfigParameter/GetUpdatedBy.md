@@ -1,10 +1,10 @@
 ---
-title: String GetUpdatedBy()
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/String GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_GetUpdatedBy
+description: NSAudienceConfigParameter.GetUpdatedBy()
+intellisense: NSAudienceConfigParameter.GetUpdatedBy
 sortOrder: 1324
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

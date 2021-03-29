@@ -1,9 +1,9 @@
 ---
-title: String GenerateNavigationUrl(Integer visibleIn, String windowName)
-path: /EJScript/Classes/NSListAgent/Member functions/String GenerateNavigationUrl(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GenerateNavigationUrl_Integer_p_0_String_p_1
+description: NSListAgent.GenerateNavigationUrl(Integer p_0, String p_1)
+intellisense: NSListAgent.GenerateNavigationUrl
 keywords: GenerateNavigationUrl(Integer,String)
+so.topic: reference
 ---
 
 

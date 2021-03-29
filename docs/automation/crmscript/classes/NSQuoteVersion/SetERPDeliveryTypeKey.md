@@ -1,9 +1,9 @@
 ---
-title: Void SetERPDeliveryTypeKey(String ERPDeliveryTypeKey)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetERPDeliveryTypeKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetERPDeliveryTypeKey_String_p_0
+description: NSQuoteVersion.SetERPDeliveryTypeKey(String p_0)
+intellisense: NSQuoteVersion.SetERPDeliveryTypeKey
 keywords: SetERPDeliveryTypeKey(String)
+so.topic: reference
 ---
 
 

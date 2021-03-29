@@ -1,10 +1,10 @@
 ---
-title: Void SetLinks(NSLink[] Links)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetLinks(NSLink[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetLinks_NSLink__p_0
+description: NSAppointmentEntity.SetLinks(NSLink[] p_0)
+intellisense: NSAppointmentEntity.SetLinks
 sortOrder: 1013
 keywords: SetLinks(NSLink[])
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSUserInfo
-path: /EJScript/Classes/NSUserInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo
+description: NSUserInfo
+intellisense: Void.NSUserInfo
+so.topic: reference
 ---
 
 

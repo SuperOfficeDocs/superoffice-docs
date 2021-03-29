@@ -1,9 +1,9 @@
 ---
-title: NSUser CreateDefaultUserFromUserTypeAndCredential(Integer userType, Integer contactId, String credentialType, String credentialValue, String credentialDisplayValue)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser CreateDefaultUserFromUserTypeAndCredential(Integer p_0, Integer p_1, String p_2, String p_3, String p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultUserFromUserTypeAndCredential_Integer_p_0_Integer_p_1_String_p_2_String_p_3_String_p_4
+description: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential(Integer p_0, Integer p_1, String p_2, String p_3, String p_4)
+intellisense: NSUserAgent.CreateDefaultUserFromUserTypeAndCredential
 keywords: CreateDefaultUserFromUserTypeAndCredential(Integer,Integer,String,String,String)
+so.topic: reference
 ---
 
 

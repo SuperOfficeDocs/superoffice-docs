@@ -1,9 +1,9 @@
 ---
-title: String GetPersonAcademicTitle()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonAcademicTitle()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPersonAcademicTitle
+description: NSParticipantSyncData.GetPersonAcademicTitle()
+intellisense: NSParticipantSyncData.GetPersonAcademicTitle
 keywords: GetPersonAcademicTitle()
+so.topic: reference
 ---
 
 

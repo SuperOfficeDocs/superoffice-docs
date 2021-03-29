@@ -1,10 +1,10 @@
 ---
-title: String GetMimeType()
-path: /EJScript/Classes/NSBlobEntity/Member functions/String GetMimeType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_GetMimeType
+description: NSBlobEntity.GetMimeType()
+intellisense: NSBlobEntity.GetMimeType
 sortOrder: 1452
 keywords: GetMimeType()
+so.topic: reference
 ---
 
 

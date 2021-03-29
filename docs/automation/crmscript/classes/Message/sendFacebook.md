@@ -1,10 +1,10 @@
 ---
-title: Void sendFacebook()
-path: /EJScript/Classes/Message/Member functions/Void sendFacebook()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_sendFacebook
+description: Message.sendFacebook()
+intellisense: Message.sendFacebook
 sortOrder: 556
 keywords: sendFacebook()
+so.topic: reference
 ---
 
 

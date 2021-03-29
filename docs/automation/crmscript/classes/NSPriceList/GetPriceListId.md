@@ -1,9 +1,9 @@
 ---
-title: Integer GetPriceListId()
-path: /EJScript/Classes/NSPriceList/Member functions/Integer GetPriceListId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_GetPriceListId
+description: NSPriceList.GetPriceListId()
+intellisense: NSPriceList.GetPriceListId
 keywords: GetPriceListId()
+so.topic: reference
 ---
 
 

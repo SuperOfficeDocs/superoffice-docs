@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsOk()
-path: /EJScript/Classes/NSPluginResponse/Member functions/Bool GetIsOk()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse_GetIsOk
+description: NSPluginResponse.GetIsOk()
+intellisense: NSPluginResponse.GetIsOk
 keywords: GetIsOk()
+so.topic: reference
 ---
 
 

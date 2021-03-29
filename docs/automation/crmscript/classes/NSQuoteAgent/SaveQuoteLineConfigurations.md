@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] quoteLineConfigurations)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLineConfiguration[] SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveQuoteLineConfigurations_NSQuoteLineConfiguration__p_0
+description: NSQuoteAgent.SaveQuoteLineConfigurations(NSQuoteLineConfiguration[] p_0)
+intellisense: NSQuoteAgent.SaveQuoteLineConfigurations
 keywords: SaveQuoteLineConfigurations(NSQuoteLineConfiguration[])
+so.topic: reference
 ---
 
 

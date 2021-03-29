@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(Integer p0)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetStatus_Integer_p_0
+description: NSQuoteAlternative.SetStatus(Integer p_0)
+intellisense: NSQuoteAlternative.SetStatus
 keywords: SetStatus(Integer)
+so.topic: reference
 ---
 
 If there was a problem with for instance calculation, this field is set to warning or error.

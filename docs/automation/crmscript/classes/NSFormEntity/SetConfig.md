@@ -1,10 +1,10 @@
 ---
-title: Void SetConfig(String Config)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetConfig(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetConfig_String_p_0
+description: NSFormEntity.SetConfig(String p_0)
+intellisense: NSFormEntity.SetConfig
 sortOrder: 3807
 keywords: SetConfig(String)
+so.topic: reference
 ---
 
 

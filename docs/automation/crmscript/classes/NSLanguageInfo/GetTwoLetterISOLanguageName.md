@@ -1,10 +1,10 @@
 ---
-title: String GetTwoLetterISOLanguageName()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/String GetTwoLetterISOLanguageName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLanguageInfo_GetTwoLetterISOLanguageName
+description: NSLanguageInfo.GetTwoLetterISOLanguageName()
+intellisense: NSLanguageInfo.GetTwoLetterISOLanguageName
 sortOrder: 4006
 keywords: GetTwoLetterISOLanguageName()
+so.topic: reference
 ---
 
 

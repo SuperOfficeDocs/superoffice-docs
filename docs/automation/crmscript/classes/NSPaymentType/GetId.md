@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSPaymentType/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPaymentType_GetId
+description: NSPaymentType.GetId()
+intellisense: NSPaymentType.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

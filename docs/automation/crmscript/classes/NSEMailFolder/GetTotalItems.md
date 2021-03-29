@@ -1,10 +1,10 @@
 ---
-title: Integer GetTotalItems()
-path: /EJScript/Classes/NSEMailFolder/Member functions/Integer GetTotalItems()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_GetTotalItems
+description: NSEMailFolder.GetTotalItems()
+intellisense: NSEMailFolder.GetTotalItems
 sortOrder: 3030
 keywords: GetTotalItems()
+so.topic: reference
 ---
 
 

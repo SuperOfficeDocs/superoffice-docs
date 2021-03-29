@@ -1,9 +1,9 @@
 ---
-title: DateTime GetDate()
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/DateTime GetDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_GetDate
+description: NSPocketNotificationMessage.GetDate()
+intellisense: NSPocketNotificationMessage.GetDate
 keywords: GetDate()
+so.topic: reference
 ---
 
 

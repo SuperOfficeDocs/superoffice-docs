@@ -1,9 +1,9 @@
 ---
-title: Integer GetApprovedRegisteredBy()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetApprovedRegisteredBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetApprovedRegisteredBy
+description: NSQuoteVersion.GetApprovedRegisteredBy()
+intellisense: NSQuoteVersion.GetApprovedRegisteredBy
 keywords: GetApprovedRegisteredBy()
+so.topic: reference
 ---
 
 

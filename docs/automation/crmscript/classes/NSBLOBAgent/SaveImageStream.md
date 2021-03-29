@@ -1,10 +1,10 @@
 ---
-title: Integer SaveImageStream(Integer type, NSImage image, String description)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/Integer SaveImageStream(Integer p_0, NSImage p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_SaveImageStream_Integer_p_0_NSImage_p_1_String_p_2
+description: NSBLOBAgent.SaveImageStream(Integer p_0, NSImage p_1, String p_2)
+intellisense: NSBLOBAgent.SaveImageStream
 sortOrder: 1408
 keywords: SaveImageStream(Integer,NSImage,String)
+so.topic: reference
 ---
 
 

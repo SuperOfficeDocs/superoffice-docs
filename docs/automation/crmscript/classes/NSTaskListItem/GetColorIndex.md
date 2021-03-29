@@ -1,9 +1,9 @@
 ---
-title: Integer GetColorIndex()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Integer GetColorIndex()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetColorIndex
+description: NSTaskListItem.GetColorIndex()
+intellisense: NSTaskListItem.GetColorIndex
 keywords: GetColorIndex()
+so.topic: reference
 ---
 
 

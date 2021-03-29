@@ -1,9 +1,9 @@
 ---
-title: Void SetQuickReplyId(Integer QuickReplyId)
-path: /EJScript/Classes/NSQuickReply/Member functions/Void SetQuickReplyId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply_SetQuickReplyId_Integer_p_0
+description: NSQuickReply.SetQuickReplyId(Integer p_0)
+intellisense: NSQuickReply.SetQuickReplyId
 keywords: SetQuickReplyId(Integer)
+so.topic: reference
 ---
 
 

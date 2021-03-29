@@ -1,10 +1,10 @@
 ---
-title: String GetURL()
-path: /EJScript/Classes/NSContactActivity/Member functions/String GetURL()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_GetURL
+description: NSContactActivity.GetURL()
+intellisense: NSContactActivity.GetURL
 sortOrder: 1779
 keywords: GetURL()
+so.topic: reference
 ---
 
 

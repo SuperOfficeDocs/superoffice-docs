@@ -1,10 +1,10 @@
 ---
-title: NSEMailConnectionInfoExtended CreateDefaultEMailConnectionInfoExtended()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailConnectionInfoExtended CreateDefaultEMailConnectionInfoExtended()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailConnectionInfoExtended
+description: NSEMailAgent.CreateDefaultEMailConnectionInfoExtended()
+intellisense: NSEMailAgent.CreateDefaultEMailConnectionInfoExtended
 sortOrder: 2810
 keywords: CreateDefaultEMailConnectionInfoExtended()
+so.topic: reference
 ---
 
 

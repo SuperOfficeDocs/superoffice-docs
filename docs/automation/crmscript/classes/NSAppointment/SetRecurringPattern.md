@@ -1,10 +1,10 @@
 ---
-title: Void SetRecurringPattern(Integer RecurringPattern)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetRecurringPattern(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetRecurringPattern_Integer_p_0
+description: NSAppointment.SetRecurringPattern(Integer p_0)
+intellisense: NSAppointment.SetRecurringPattern
 sortOrder: 811
 keywords: SetRecurringPattern(Integer)
+so.topic: reference
 ---
 
 * Unknown=0

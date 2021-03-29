@@ -1,9 +1,9 @@
 ---
-title: Void SetCredentials(NSCredential[] Credentials)
-path: /EJScript/Classes/NSUser/Member functions/Void SetCredentials(NSCredential[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetCredentials_NSCredential__p_0
+description: NSUser.SetCredentials(NSCredential[] p_0)
+intellisense: NSUser.SetCredentials
 keywords: SetCredentials(NSCredential[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetField(String Field)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetField(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetField_String_p_0
+description: NSRefCountEntity.SetField(String p_0)
+intellisense: NSRefCountEntity.SetField
 keywords: SetField(String)
+so.topic: reference
 ---
 
 

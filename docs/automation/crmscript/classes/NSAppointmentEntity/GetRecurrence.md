@@ -1,10 +1,10 @@
 ---
-title: NSRecurrenceInfo GetRecurrence()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSRecurrenceInfo GetRecurrence()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetRecurrence
+description: NSAppointmentEntity.GetRecurrence()
+intellisense: NSAppointmentEntity.GetRecurrence
 sortOrder: 970
 keywords: GetRecurrence()
+so.topic: reference
 ---
 
 

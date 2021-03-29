@@ -1,9 +1,9 @@
 ---
-title: Integer GetAutoSuggest()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetAutoSuggest()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetAutoSuggest
+description: NSSuggestedAppointment.GetAutoSuggest()
+intellisense: NSSuggestedAppointment.GetAutoSuggest
 keywords: GetAutoSuggest()
+so.topic: reference
 ---
 
 

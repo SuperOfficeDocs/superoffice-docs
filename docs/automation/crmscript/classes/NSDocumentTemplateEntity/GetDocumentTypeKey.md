@@ -1,10 +1,10 @@
 ---
-title: Integer GetDocumentTypeKey()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetDocumentTypeKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetDocumentTypeKey
+description: NSDocumentTemplateEntity.GetDocumentTypeKey()
+intellisense: NSDocumentTemplateEntity.GetDocumentTypeKey
 sortOrder: 2658
 keywords: GetDocumentTypeKey()
+so.topic: reference
 ---
 
 

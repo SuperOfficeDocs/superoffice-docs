@@ -1,9 +1,9 @@
 ---
-title: NSSignedPublicKey GetPublicKey()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/NSSignedPublicKey GetPublicKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetPublicKey
+description: NSLicenseInfo.GetPublicKey()
+intellisense: NSLicenseInfo.GetPublicKey
 keywords: GetPublicKey()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSErpConnection GetConnection(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnection GetConnection(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetConnection_Integer_p_0
+description: NSErpSyncAgent.GetConnection(Integer p_0)
+intellisense: NSErpSyncAgent.GetConnection
 sortOrder: 3192
 keywords: GetConnection(Integer)
+so.topic: reference
 ---
 
 

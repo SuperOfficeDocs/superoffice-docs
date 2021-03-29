@@ -1,9 +1,9 @@
 ---
-title: Void SetTypeId(Integer TypeId)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetTypeId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetTypeId_Integer_p_0
+description: NSMailMergeTask.SetTypeId(Integer p_0)
+intellisense: NSMailMergeTask.SetTypeId
 keywords: SetTypeId(Integer)
+so.topic: reference
 ---
 
 

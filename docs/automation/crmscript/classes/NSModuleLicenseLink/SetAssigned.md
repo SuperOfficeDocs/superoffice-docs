@@ -1,9 +1,9 @@
 ---
-title: Void SetAssigned(Bool Assigned)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetAssigned(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_SetAssigned_Bool_p_0
+description: NSModuleLicenseLink.SetAssigned(Bool p_0)
+intellisense: NSModuleLicenseLink.SetAssigned
 keywords: SetAssigned(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSlevel(NSTicketSecurityLevel Slevel)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetSlevel(NSTicketSecurityLevel p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetSlevel_NSTicketSecurityLevel_p_0
+description: NSTicket.SetSlevel(NSTicketSecurityLevel p_0)
+intellisense: NSTicket.SetSlevel
 keywords: SetSlevel(NSTicketSecurityLevel)
+so.topic: reference
 ---
 
 

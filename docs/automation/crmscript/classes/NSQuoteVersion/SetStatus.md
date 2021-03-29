@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(Integer p0)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetStatus(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetStatus_Integer_p_0
+description: NSQuoteVersion.SetStatus(Integer p_0)
+intellisense: NSQuoteVersion.SetStatus
 keywords: SetStatus(Integer)
+so.topic: reference
 ---
 
 If there was a problem with for instance calculation, this field is set to warning or error. Typically shown as an icon. QuoteStatus is an enum with statuses: 

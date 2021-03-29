@@ -1,9 +1,9 @@
 ---
-title: Integer GetErpConnectionId()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Integer GetErpConnectionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetErpConnectionId
+description: NSQuoteConnection.GetErpConnectionId()
+intellisense: NSQuoteConnection.GetErpConnectionId
 keywords: GetErpConnectionId()
+so.topic: reference
 ---
 
 

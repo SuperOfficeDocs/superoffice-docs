@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_SetName_String_p_0
+description: NSCRMScriptEntity.SetName(String p_0)
+intellisense: NSCRMScriptEntity.SetName
 sortOrder: 2142
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void ResyncUsers()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void ResyncUsers()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_ResyncUsers
+description: NSDiagnosticsAgent.ResyncUsers()
+intellisense: NSDiagnosticsAgent.ResyncUsers
 sortOrder: 2402
 keywords: ResyncUsers()
+so.topic: reference
 ---
 
 

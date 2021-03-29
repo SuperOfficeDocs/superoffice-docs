@@ -1,9 +1,9 @@
 ---
-title: Integer GetNumberOfLicenses()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetNumberOfLicenses()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_GetNumberOfLicenses
+description: NSModuleLicense.GetNumberOfLicenses()
+intellisense: NSModuleLicense.GetNumberOfLicenses
 keywords: GetNumberOfLicenses()
+so.topic: reference
 ---
 
 

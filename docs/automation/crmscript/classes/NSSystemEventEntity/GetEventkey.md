@@ -1,9 +1,9 @@
 ---
-title: String GetEventkey()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/String GetEventkey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetEventkey
+description: NSSystemEventEntity.GetEventkey()
+intellisense: NSSystemEventEntity.GetEventkey
 keywords: GetEventkey()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetCategory()
-path: /EJScript/Classes/NSContactActivity/Member functions/String GetCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_GetCategory
+description: NSContactActivity.GetCategory()
+intellisense: NSContactActivity.GetCategory
 sortOrder: 1775
 keywords: GetCategory()
+so.topic: reference
 ---
 
 

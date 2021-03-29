@@ -1,9 +1,9 @@
 ---
-title: NSProductExtraDataField[] GetExtraInfo(String quoteLineExtraData)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProductExtraDataField[] GetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetExtraInfo_String_p_0
+description: NSQuoteAgent.GetExtraInfo(String p_0)
+intellisense: NSQuoteAgent.GetExtraInfo
 keywords: GetExtraInfo(String)
+so.topic: reference
 ---
 
 

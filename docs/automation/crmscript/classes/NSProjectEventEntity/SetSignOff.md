@@ -1,9 +1,9 @@
 ---
-title: Void SetSignOff(Bool SignOff)
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Void SetSignOff(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_SetSignOff_Bool_p_0
+description: NSProjectEventEntity.SetSignOff(Bool p_0)
+intellisense: NSProjectEventEntity.SetSignOff
 keywords: SetSignOff(Bool)
+so.topic: reference
 ---
 
 

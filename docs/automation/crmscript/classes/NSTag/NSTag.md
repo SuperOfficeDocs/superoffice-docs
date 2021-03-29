@@ -1,8 +1,8 @@
 ---
-title: NSTag
-path: /EJScript/Classes/NSTag
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTag
+description: NSTag
+intellisense: Void.NSTag
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SaveChatPresence(NSChatPresence[] chatPresence)
-path: /EJScript/Classes/NSChatAgent/Member functions/Void SaveChatPresence(NSChatPresence[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatAgent_SaveChatPresence_NSChatPresence__p_0
+description: NSChatAgent.SaveChatPresence(NSChatPresence[] p_0)
+intellisense: NSChatAgent.SaveChatPresence
 sortOrder: 1516
 keywords: SaveChatPresence(NSChatPresence[])
+so.topic: reference
 ---
 
 

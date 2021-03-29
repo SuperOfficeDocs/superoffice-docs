@@ -1,10 +1,10 @@
 ---
-title: Bool GetBlockExecution()
-path: /EJScript/Classes/NSEventData/Member functions/Bool GetBlockExecution()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_GetBlockExecution
+description: NSEventData.GetBlockExecution()
+intellisense: NSEventData.GetBlockExecution
 sortOrder: 3339
 keywords: GetBlockExecution()
+so.topic: reference
 ---
 
 

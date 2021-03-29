@@ -1,10 +1,10 @@
 ---
-title: Void SetValues(String[] Values)
-path: /EJScript/Classes/NSImportLine/Member functions/Void SetValues(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_SetValues_String__p_0
+description: NSImportLine.SetValues(String[] p_0)
+intellisense: NSImportLine.SetValues
 sortOrder: 3983
 keywords: SetValues(String[])
+so.topic: reference
 ---
 
 

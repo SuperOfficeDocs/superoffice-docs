@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketMessageId(Integer TicketMessageId)
-path: /EJScript/Classes/NSTicketMessage/Member functions/Void SetTicketMessageId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessage_SetTicketMessageId_Integer_p_0
+description: NSTicketMessage.SetTicketMessageId(Integer p_0)
+intellisense: NSTicketMessage.SetTicketMessageId
 keywords: SetTicketMessageId(Integer)
+so.topic: reference
 ---
 
 

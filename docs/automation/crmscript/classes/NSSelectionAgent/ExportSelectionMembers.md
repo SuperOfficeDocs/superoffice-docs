@@ -1,9 +1,9 @@
 ---
-title: Byte[] ExportSelectionMembers(Integer selectionId, String templateName, Bool useContacts)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Byte[] ExportSelectionMembers(Integer p_0, String p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_ExportSelectionMembers_Integer_p_0_String_p_1_Bool_p_2
+description: NSSelectionAgent.ExportSelectionMembers(Integer p_0, String p_1, Bool p_2)
+intellisense: NSSelectionAgent.ExportSelectionMembers
 keywords: ExportSelectionMembers(Integer,String,Bool)
+so.topic: reference
 ---
 
 

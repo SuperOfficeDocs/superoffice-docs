@@ -1,9 +1,9 @@
 ---
-title: Void SetLabelHeight(Integer LabelHeight)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelHeight(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelHeight_Integer_p_0
+description: NSUserDefinedFieldInfo.SetLabelHeight(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetLabelHeight
 keywords: SetLabelHeight(Integer)
+so.topic: reference
 ---
 
 

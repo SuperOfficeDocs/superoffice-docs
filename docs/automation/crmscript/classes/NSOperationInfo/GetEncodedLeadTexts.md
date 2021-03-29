@@ -1,9 +1,9 @@
 ---
-title: String[] GetEncodedLeadTexts()
-path: /EJScript/Classes/NSOperationInfo/Member functions/String[] GetEncodedLeadTexts()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOperationInfo_GetEncodedLeadTexts
+description: NSOperationInfo.GetEncodedLeadTexts()
+intellisense: NSOperationInfo.GetEncodedLeadTexts
 keywords: GetEncodedLeadTexts()
+so.topic: reference
 ---
 
 

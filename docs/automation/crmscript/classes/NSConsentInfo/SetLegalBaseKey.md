@@ -1,10 +1,10 @@
 ---
-title: Void SetLegalBaseKey(String LegalBaseKey)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetLegalBaseKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_SetLegalBaseKey_String_p_0
+description: NSConsentInfo.SetLegalBaseKey(String p_0)
+intellisense: NSConsentInfo.SetLegalBaseKey
 sortOrder: 1652
 keywords: SetLegalBaseKey(String)
+so.topic: reference
 ---
 
 

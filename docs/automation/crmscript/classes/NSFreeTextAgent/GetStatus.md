@@ -1,10 +1,10 @@
 ---
-title: NSFreeText GetStatus()
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/NSFreeText GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_GetStatus
+description: NSFreeTextAgent.GetStatus()
+intellisense: NSFreeTextAgent.GetStatus
 sortOrder: 3869
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

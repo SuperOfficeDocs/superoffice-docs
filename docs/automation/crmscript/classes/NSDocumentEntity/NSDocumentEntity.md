@@ -1,9 +1,9 @@
 ---
-title: NSDocumentEntity
-path: /EJScript/Classes/NSDocumentEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity
+description: NSDocumentEntity
+intellisense: Void.NSDocumentEntity
 sortOrder: 2549
+so.topic: reference
 ---
 
 

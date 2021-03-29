@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasGuide()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Bool GetHasGuide()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetHasGuide
+description: NSSaleTypeEntity.GetHasGuide()
+intellisense: NSSaleTypeEntity.GetHasGuide
 keywords: GetHasGuide()
+so.topic: reference
 ---
 
 

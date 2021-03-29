@@ -1,9 +1,9 @@
 ---
-title: Void SetHasStakeholders(Bool HasStakeholders)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetHasStakeholders(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetHasStakeholders_Bool_p_0
+description: NSSaleTypeEntity.SetHasStakeholders(Bool p_0)
+intellisense: NSSaleTypeEntity.SetHasStakeholders
 keywords: SetHasStakeholders(Bool)
+so.topic: reference
 ---
 
 

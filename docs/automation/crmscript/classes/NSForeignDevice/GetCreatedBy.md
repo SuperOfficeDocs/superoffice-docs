@@ -1,10 +1,10 @@
 ---
-title: String GetCreatedBy()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetCreatedBy
+description: NSForeignDevice.GetCreatedBy()
+intellisense: NSForeignDevice.GetCreatedBy
 sortOrder: 3719
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

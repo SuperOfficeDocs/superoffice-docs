@@ -1,9 +1,9 @@
 ---
-title: String GetSubGroup()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetSubGroup()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetSubGroup
+description: NSPreferenceDescription.GetSubGroup()
+intellisense: NSPreferenceDescription.GetSubGroup
 keywords: GetSubGroup()
+so.topic: reference
 ---
 
 

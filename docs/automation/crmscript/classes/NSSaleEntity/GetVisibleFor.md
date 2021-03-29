@@ -1,9 +1,9 @@
 ---
-title: VisibleFor[] GetVisibleFor()
-path: /EJScript/Classes/NSSaleEntity/Member functions/VisibleFor[] GetVisibleFor()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetVisibleFor
+description: NSSaleEntity.GetVisibleFor()
+intellisense: NSSaleEntity.GetVisibleFor
 keywords: GetVisibleFor()
+so.topic: reference
 ---
 
 

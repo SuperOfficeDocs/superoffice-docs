@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsPublished()
-path: /EJScript/Classes/NSSaleEntity/Member functions/Bool GetIsPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetIsPublished
+description: NSSaleEntity.GetIsPublished()
+intellisense: NSSaleEntity.GetIsPublished
 keywords: GetIsPublished()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool IsWithinOpeningHours(Integer chatTopicId)
-path: /EJScript/Classes/NSChatAgent/Member functions/Bool IsWithinOpeningHours(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatAgent_IsWithinOpeningHours_Integer_p_0
+description: NSChatAgent.IsWithinOpeningHours(Integer p_0)
+intellisense: NSChatAgent.IsWithinOpeningHours
 sortOrder: 1514
 keywords: IsWithinOpeningHours(Integer)
+so.topic: reference
 ---
 
 

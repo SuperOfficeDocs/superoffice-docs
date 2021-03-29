@@ -1,10 +1,10 @@
 ---
-title: String GetTargetTable()
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/String GetTargetTable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_GetTargetTable
+description: NSFieldInfoRelation.GetTargetTable()
+intellisense: NSFieldInfoRelation.GetTargetTable
 sortOrder: 3540
 keywords: GetTargetTable()
+so.topic: reference
 ---
 
 

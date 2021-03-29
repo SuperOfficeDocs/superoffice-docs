@@ -1,9 +1,9 @@
 ---
-title: NSCsSessionKey
-path: /EJScript/Classes/NSCsSessionKey
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsSessionKey
+description: NSCsSessionKey
+intellisense: Void.NSCsSessionKey
 sortOrder: 2161
+so.topic: reference
 ---
 
 

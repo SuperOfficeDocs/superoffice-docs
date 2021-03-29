@@ -1,10 +1,10 @@
 ---
-title: String GetCreatedBy()
-path: /EJScript/Classes/NSForeignKey/Member functions/String GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_GetCreatedBy
+description: NSForeignKey.GetCreatedBy()
+intellisense: NSForeignKey.GetCreatedBy
 sortOrder: 3737
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

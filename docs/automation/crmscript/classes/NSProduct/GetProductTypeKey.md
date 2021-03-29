@@ -1,9 +1,9 @@
 ---
-title: String GetProductTypeKey()
-path: /EJScript/Classes/NSProduct/Member functions/String GetProductTypeKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetProductTypeKey
+description: NSProduct.GetProductTypeKey()
+intellisense: NSProduct.GetProductTypeKey
 keywords: GetProductTypeKey()
+so.topic: reference
 ---
 
 

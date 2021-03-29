@@ -1,9 +1,9 @@
 ---
-title: Integer GetLabelTop()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetLabelTop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetLabelTop
+description: NSUserDefinedFieldInfo.GetLabelTop()
+intellisense: NSUserDefinedFieldInfo.GetLabelTop
 keywords: GetLabelTop()
+so.topic: reference
 ---
 
 

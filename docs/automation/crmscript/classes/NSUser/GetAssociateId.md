@@ -1,9 +1,9 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSUser/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetAssociateId
+description: NSUser.GetAssociateId()
+intellisense: NSUser.GetAssociateId
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetAssociateName()
-path: /EJScript/Classes/NSSyncUserAccount/Member functions/String GetAssociateName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSyncUserAccount_GetAssociateName
+description: NSSyncUserAccount.GetAssociateName()
+intellisense: NSSyncUserAccount.GetAssociateName
 keywords: GetAssociateName()
+so.topic: reference
 ---
 
 

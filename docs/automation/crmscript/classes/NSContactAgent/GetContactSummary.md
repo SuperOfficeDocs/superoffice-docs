@@ -1,10 +1,10 @@
 ---
-title: NSContactSummary GetContactSummary(Integer contactId, Integer limit)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactSummary GetContactSummary(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetContactSummary_Integer_p_0_Integer_p_1
+description: NSContactAgent.GetContactSummary(Integer p_0, Integer p_1)
+intellisense: NSContactAgent.GetContactSummary
 sortOrder: 1816
 keywords: GetContactSummary(Integer,Integer)
+so.topic: reference
 ---
 
 

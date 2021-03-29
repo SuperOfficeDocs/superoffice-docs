@@ -1,9 +1,9 @@
 ---
-title: String GetERPOrderKey()
-path: /EJScript/Classes/NSQuote/Member functions/String GetERPOrderKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetERPOrderKey
+description: NSQuote.GetERPOrderKey()
+intellisense: NSQuote.GetERPOrderKey
 keywords: GetERPOrderKey()
+so.topic: reference
 ---
 
 

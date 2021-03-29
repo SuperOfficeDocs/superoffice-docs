@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryEntity[] GetTicketCategories()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity[] GetTicketCategories()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTicketCategories
+description: NSListAgent.GetTicketCategories()
+intellisense: NSListAgent.GetTicketCategories
 keywords: GetTicketCategories()
+so.topic: reference
 ---
 
 

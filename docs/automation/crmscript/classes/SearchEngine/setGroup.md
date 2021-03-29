@@ -1,9 +1,9 @@
 ---
-title: Void setGroup(Bool set)
-path: /EJScript/Classes/SearchEngine/member functions/Void setGroup(Bool set)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_setGroup_Bool_set
+description: SearchEngine.setGroup(Bool set)
+intellisense: SearchEngine.setGroup
 keywords: setGroup(Bool)
+so.topic: reference
 ---
 
 Set or remove  a group-clause to all of the fields in the query (added by the `addField()`-function).

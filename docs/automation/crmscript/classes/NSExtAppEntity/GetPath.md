@@ -1,10 +1,10 @@
 ---
-title: String GetPath()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetPath()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetPath
+description: NSExtAppEntity.GetPath()
+intellisense: NSExtAppEntity.GetPath
 sortOrder: 3376
 keywords: GetPath()
+so.topic: reference
 ---
 
 

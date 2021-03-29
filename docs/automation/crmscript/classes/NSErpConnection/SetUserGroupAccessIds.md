@@ -1,10 +1,10 @@
 ---
-title: Void SetUserGroupAccessIds(Integer[] UserGroupAccessIds)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetUserGroupAccessIds(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetUserGroupAccessIds_Integer__p_0
+description: NSErpConnection.SetUserGroupAccessIds(Integer[] p_0)
+intellisense: NSErpConnection.SetUserGroupAccessIds
 sortOrder: 3103
 keywords: SetUserGroupAccessIds(Integer[])
+so.topic: reference
 ---
 
 

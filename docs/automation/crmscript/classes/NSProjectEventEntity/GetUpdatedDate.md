@@ -1,9 +1,9 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetUpdatedDate
+description: NSProjectEventEntity.GetUpdatedDate()
+intellisense: NSProjectEventEntity.GetUpdatedDate
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

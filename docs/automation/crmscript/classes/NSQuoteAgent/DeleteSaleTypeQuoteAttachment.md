@@ -1,9 +1,9 @@
 ---
-title: Void DeleteSaleTypeQuoteAttachment(Integer saleTypeQuoteAttachmentId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteSaleTypeQuoteAttachment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_DeleteSaleTypeQuoteAttachment_Integer_p_0
+description: NSQuoteAgent.DeleteSaleTypeQuoteAttachment(Integer p_0)
+intellisense: NSQuoteAgent.DeleteSaleTypeQuoteAttachment
 keywords: DeleteSaleTypeQuoteAttachment(Integer)
+so.topic: reference
 ---
 
 

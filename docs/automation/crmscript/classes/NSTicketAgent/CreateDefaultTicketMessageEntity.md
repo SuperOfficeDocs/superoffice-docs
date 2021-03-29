@@ -1,9 +1,9 @@
 ---
-title: NSTicketMessageEntity CreateDefaultTicketMessageEntity()
-path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketMessageEntity CreateDefaultTicketMessageEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketAgent_CreateDefaultTicketMessageEntity
+description: NSTicketAgent.CreateDefaultTicketMessageEntity()
+intellisense: NSTicketAgent.CreateDefaultTicketMessageEntity
 keywords: CreateDefaultTicketMessageEntity()
+so.topic: reference
 ---
 
 

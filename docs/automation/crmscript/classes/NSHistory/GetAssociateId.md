@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSHistory/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_GetAssociateId
+description: NSHistory.GetAssociateId()
+intellisense: NSHistory.GetAssociateId
 sortOrder: 3926
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

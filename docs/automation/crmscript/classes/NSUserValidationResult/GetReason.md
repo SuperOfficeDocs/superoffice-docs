@@ -1,9 +1,9 @@
 ---
-title: String GetReason()
-path: /EJScript/Classes/NSUserValidationResult/Member functions/String GetReason()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserValidationResult_GetReason
+description: NSUserValidationResult.GetReason()
+intellisense: NSUserValidationResult.GetReason
 keywords: GetReason()
+so.topic: reference
 ---
 
 

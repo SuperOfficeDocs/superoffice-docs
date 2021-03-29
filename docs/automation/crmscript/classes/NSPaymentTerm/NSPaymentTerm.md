@@ -1,8 +1,8 @@
 ---
-title: NSPaymentTerm
-path: /EJScript/Classes/NSPaymentTerm
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPaymentTerm
+description: NSPaymentTerm
+intellisense: Void.NSPaymentTerm
+so.topic: reference
 ---
 
 

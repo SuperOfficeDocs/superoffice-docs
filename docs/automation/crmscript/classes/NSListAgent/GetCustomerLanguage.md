@@ -1,9 +1,9 @@
 ---
-title: NSCustomerLanguage GetCustomerLanguage(Integer customerLanguageId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCustomerLanguage GetCustomerLanguage(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCustomerLanguage_Integer_p_0
+description: NSListAgent.GetCustomerLanguage(Integer p_0)
+intellisense: NSListAgent.GetCustomerLanguage
 keywords: GetCustomerLanguage(Integer)
+so.topic: reference
 ---
 
 

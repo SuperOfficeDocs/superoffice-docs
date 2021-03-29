@@ -1,10 +1,10 @@
 ---
-title: Void MoveToFolder(NSEMailConnectionInfo connectionInfo, Integer[] messageServerIds, String targetFolder)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void MoveToFolder(NSEMailConnectionInfo p_0, Integer[] p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_MoveToFolder_NSEMailConnectionInfo_p_0_Integer__p_1_String_p_2
+description: NSEMailAgent.MoveToFolder(NSEMailConnectionInfo p_0, Integer[] p_1, String p_2)
+intellisense: NSEMailAgent.MoveToFolder
 sortOrder: 2865
 keywords: MoveToFolder(NSEMailConnectionInfo,Integer[],String)
+so.topic: reference
 ---
 
 

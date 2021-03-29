@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetName_String_p_0
+description: NSStatusMonitor.SetName(String p_0)
+intellisense: NSStatusMonitor.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

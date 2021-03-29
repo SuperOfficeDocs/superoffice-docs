@@ -1,10 +1,10 @@
 ---
-title: NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity systemEventEntity)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSSystemEventEntity SaveSystemEventEntity(NSSystemEventEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_SaveSystemEventEntity_NSSystemEventEntity_p_0
+description: NSConfigurationAgent.SaveSystemEventEntity(NSSystemEventEntity p_0)
+intellisense: NSConfigurationAgent.SaveSystemEventEntity
 sortOrder: 1595
 keywords: SaveSystemEventEntity(NSSystemEventEntity)
+so.topic: reference
 ---
 
 

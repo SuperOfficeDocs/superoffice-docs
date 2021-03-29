@@ -1,9 +1,9 @@
 ---
-title: Void SetIsReadOnly(Bool IsReadOnly)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetIsReadOnly(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetIsReadOnly_Bool_p_0
+description: NSUserDefinedFieldInfo.SetIsReadOnly(Bool p_0)
+intellisense: NSUserDefinedFieldInfo.SetIsReadOnly
 keywords: SetIsReadOnly(Bool)
+so.topic: reference
 ---
 
 

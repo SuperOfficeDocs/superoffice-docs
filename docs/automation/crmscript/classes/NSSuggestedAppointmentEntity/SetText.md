@@ -1,9 +1,9 @@
 ---
-title: Void SetText(String Text)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetText_String_p_0
+description: NSSuggestedAppointmentEntity.SetText(String p_0)
+intellisense: NSSuggestedAppointmentEntity.SetText
 keywords: SetText(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteLinesTemplate(Integer QuoteLinesTemplate)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetQuoteLinesTemplate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetQuoteLinesTemplate_Integer_p_0
+description: NSSaleTypeEntity.SetQuoteLinesTemplate(Integer p_0)
+intellisense: NSSaleTypeEntity.SetQuoteLinesTemplate
 keywords: SetQuoteLinesTemplate(Integer)
+so.topic: reference
 ---
 
 

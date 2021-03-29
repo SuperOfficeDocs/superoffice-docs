@@ -1,9 +1,9 @@
 ---
-title: String GetCompanyOrgNr()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/String GetCompanyOrgNr()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyOrgNr
+description: NSSelectionMemberEditValues.GetCompanyOrgNr()
+intellisense: NSSelectionMemberEditValues.GetCompanyOrgNr
 keywords: GetCompanyOrgNr()
+so.topic: reference
 ---
 
 

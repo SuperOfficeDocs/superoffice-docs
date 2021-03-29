@@ -1,9 +1,9 @@
 ---
-title: Void SetIsOk(Bool IsOk)
-path: /EJScript/Classes/NSPluginUrlResponse/Member functions/Void SetIsOk(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginUrlResponse_SetIsOk_Bool_p_0
+description: NSPluginUrlResponse.SetIsOk(Bool p_0)
+intellisense: NSPluginUrlResponse.SetIsOk
 keywords: SetIsOk(Bool)
+so.topic: reference
 ---
 
 

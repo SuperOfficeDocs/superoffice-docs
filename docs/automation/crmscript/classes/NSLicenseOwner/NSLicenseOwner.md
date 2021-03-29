@@ -1,8 +1,8 @@
 ---
-title: NSLicenseOwner
-path: /EJScript/Classes/NSLicenseOwner
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseOwner
+description: NSLicenseOwner
+intellisense: Void.NSLicenseOwner
+so.topic: reference
 ---
 
 

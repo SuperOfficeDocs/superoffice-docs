@@ -1,10 +1,10 @@
 ---
-title: NSTemplateInfo SaveDocumentTemplateStream(Integer documentTemplateId, NSStream content, String languageCode, Integer pluginId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSTemplateInfo SaveDocumentTemplateStream(Integer p_0, NSStream p_1, String p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SaveDocumentTemplateStream_Integer_p_0_NSStream_p_1_String_p_2_Integer_p_3
+description: NSDocumentAgent.SaveDocumentTemplateStream(Integer p_0, NSStream p_1, String p_2, Integer p_3)
+intellisense: NSDocumentAgent.SaveDocumentTemplateStream
 sortOrder: 2530
 keywords: SaveDocumentTemplateStream(Integer,NSStream,String,Integer)
+so.topic: reference
 ---
 
 

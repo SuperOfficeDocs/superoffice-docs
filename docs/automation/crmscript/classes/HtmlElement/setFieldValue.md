@@ -1,10 +1,10 @@
 ---
-title: Void setFieldValue(String name, Map map)
-path: /EJScript/Classes/HtmlElement/Member functions/Void setFieldValue(String name, Map map)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HtmlElement_setFieldValue_String_name_Map_map
+description: HtmlElement.setFieldValue(String name, Map map)
+intellisense: HtmlElement.setFieldValue
 sortOrder: 391
 keywords: setFieldValue(String,Map)
+so.topic: reference
 ---
 
 # Void setFieldValue(String name, Map map)

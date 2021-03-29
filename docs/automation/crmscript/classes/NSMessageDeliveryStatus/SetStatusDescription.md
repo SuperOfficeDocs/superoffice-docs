@@ -1,9 +1,9 @@
 ---
-title: Void SetStatusDescription(String StatusDescription)
-path: /EJScript/Classes/NSMessageDeliveryStatus/Member functions/Void SetStatusDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus_SetStatusDescription_String_p_0
+description: NSMessageDeliveryStatus.SetStatusDescription(String p_0)
+intellisense: NSMessageDeliveryStatus.SetStatusDescription
 keywords: SetStatusDescription(String)
+so.topic: reference
 ---
 
 

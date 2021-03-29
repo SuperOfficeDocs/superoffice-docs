@@ -1,9 +1,9 @@
 ---
-title: Void DeleteFormSubmissionEntity(Integer formSubmissionEntityId)
-path: /EJScript/Classes/NSMarketingAgent/Member functions/Void DeleteFormSubmissionEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent_DeleteFormSubmissionEntity_Integer_p_0
+description: NSMarketingAgent.DeleteFormSubmissionEntity(Integer p_0)
+intellisense: NSMarketingAgent.DeleteFormSubmissionEntity
 keywords: DeleteFormSubmissionEntity(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetUsers(NSCredentialUser[] Users)
-path: /EJScript/Classes/NSCredentialsGroupUsers/Member functions/Void SetUsers(NSCredentialUser[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroupUsers_SetUsers_NSCredentialUser__p_0
+description: NSCredentialsGroupUsers.SetUsers(NSCredentialUser[] p_0)
+intellisense: NSCredentialsGroupUsers.SetUsers
 sortOrder: 2067
 keywords: SetUsers(NSCredentialUser[])
+so.topic: reference
 ---
 
 

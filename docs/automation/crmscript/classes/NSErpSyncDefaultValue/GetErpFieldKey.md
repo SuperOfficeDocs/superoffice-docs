@@ -1,10 +1,10 @@
 ---
-title: String GetErpFieldKey()
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/String GetErpFieldKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_GetErpFieldKey
+description: NSErpSyncDefaultValue.GetErpFieldKey()
+intellisense: NSErpSyncDefaultValue.GetErpFieldKey
 sortOrder: 3260
 keywords: GetErpFieldKey()
+so.topic: reference
 ---
 
 

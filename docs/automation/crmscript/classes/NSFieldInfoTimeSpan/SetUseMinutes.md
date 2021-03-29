@@ -1,10 +1,10 @@
 ---
-title: Void SetUseMinutes(Bool UseMinutes)
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Void SetUseMinutes(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTimeSpan_SetUseMinutes_Bool_p_0
+description: NSFieldInfoTimeSpan.SetUseMinutes(Bool p_0)
+intellisense: NSFieldInfoTimeSpan.SetUseMinutes
 sortOrder: 3572
 keywords: SetUseMinutes(Bool)
+so.topic: reference
 ---
 
 

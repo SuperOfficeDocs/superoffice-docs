@@ -1,10 +1,10 @@
 ---
-title: Void SetContactDepartment(String ContactDepartment)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetContactDepartment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetContactDepartment_String_p_0
+description: NSAppointmentSyncData.SetContactDepartment(String p_0)
+intellisense: NSAppointmentSyncData.SetContactDepartment
 sortOrder: 1069
 keywords: SetContactDepartment(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/ReplyTemplate/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+title: crmscript_ref_ReplyTemplate_load_Integer_id
+description: ReplyTemplate.load(Integer id)
+intellisense: ReplyTemplate.load
 keywords: load(Integer)
+so.topic: reference
 ---
 
 This function loads a reply template to the object.

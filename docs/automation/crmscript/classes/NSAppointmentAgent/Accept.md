@@ -1,10 +1,10 @@
 ---
-title: Void Accept(Integer appointmentId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void Accept(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_Accept_Integer_p_0_Integer_p_1
+description: NSAppointmentAgent.Accept(Integer p_0, Integer p_1)
+intellisense: NSAppointmentAgent.Accept
 sortOrder: 909
 keywords: Accept(Integer,Integer)
+so.topic: reference
 ---
 
 

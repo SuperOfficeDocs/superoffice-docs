@@ -1,10 +1,10 @@
 ---
-title: Byte[] GetArrayOfBytes()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Byte[] GetArrayOfBytes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_GetArrayOfBytes
+description: NSAAAMockAgent.GetArrayOfBytes()
+intellisense: NSAAAMockAgent.GetArrayOfBytes
 sortOrder: 8885
 keywords: GetArrayOfBytes()
+so.topic: reference
 ---
 
 

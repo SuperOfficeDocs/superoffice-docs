@@ -1,9 +1,9 @@
 ---
-title: Void SetNonDates(DateTime[] NonDates)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetNonDates(DateTime[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetNonDates_DateTime__p_0
+description: NSTicketPriorityEntity.SetNonDates(DateTime[] p_0)
+intellisense: NSTicketPriorityEntity.SetNonDates
 keywords: SetNonDates(DateTime[])
+so.topic: reference
 ---
 
 

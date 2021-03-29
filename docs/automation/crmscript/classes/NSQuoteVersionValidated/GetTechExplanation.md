@@ -1,9 +1,9 @@
 ---
-title: String GetTechExplanation()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/String GetTechExplanation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_GetTechExplanation
+description: NSQuoteVersionValidated.GetTechExplanation()
+intellisense: NSQuoteVersionValidated.GetTechExplanation
 keywords: GetTechExplanation()
+so.topic: reference
 ---
 
 

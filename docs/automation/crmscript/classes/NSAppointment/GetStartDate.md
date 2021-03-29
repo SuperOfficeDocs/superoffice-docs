@@ -1,10 +1,10 @@
 ---
-title: DateTime GetStartDate()
-path: /EJScript/Classes/NSAppointment/Member functions/DateTime GetStartDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetStartDate
+description: NSAppointment.GetStartDate()
+intellisense: NSAppointment.GetStartDate
 sortOrder: 725
 keywords: GetStartDate()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetRawExtraInfo(String RawExtraInfo)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetRawExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetRawExtraInfo_String_p_0
+description: NSQuoteLine.SetRawExtraInfo(String p_0)
+intellisense: NSQuoteLine.SetRawExtraInfo
 keywords: SetRawExtraInfo(String)
+so.topic: reference
 ---
 
 

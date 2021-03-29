@@ -1,10 +1,10 @@
 ---
-title: Void SetOccurrences(Integer Occurrences)
-path: /EJScript/Classes/NSFreeText/Member functions/Void SetOccurrences(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_SetOccurrences_Integer_p_0
+description: NSFreeText.SetOccurrences(Integer p_0)
+intellisense: NSFreeText.SetOccurrences
 sortOrder: 3864
 keywords: SetOccurrences(Integer)
+so.topic: reference
 ---
 
 

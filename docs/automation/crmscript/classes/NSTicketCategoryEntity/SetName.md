@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetName_String_p_0
+description: NSTicketCategoryEntity.SetName(String p_0)
+intellisense: NSTicketCategoryEntity.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

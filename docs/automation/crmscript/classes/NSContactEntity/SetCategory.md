@@ -1,10 +1,10 @@
 ---
-title: Void SetCategory(NSCategory Category)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetCategory(NSCategory p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetCategory_NSCategory_p_0
+description: NSContactEntity.SetCategory(NSCategory p_0)
+intellisense: NSContactEntity.SetCategory
 sortOrder: 1882
 keywords: SetCategory(NSCategory)
+so.topic: reference
 ---
 
 

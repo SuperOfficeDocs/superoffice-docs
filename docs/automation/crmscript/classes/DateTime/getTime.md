@@ -1,10 +1,10 @@
 ---
-title: Time getTime()
-path: /EJScript/Classes/DateTime/Member functions/Time getTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_getTime
+description: DateTime.getTime()
+intellisense: DateTime.getTime
 sortOrder: 240
 keywords: getTime()
+so.topic: reference
 ---
 
 This function returns the time-part of the datetime as a Time-object.

@@ -1,9 +1,9 @@
 ---
-title: String GetFormat()
-path: /EJScript/Classes/NSOutgoingMessage/Member functions/String GetFormat()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSOutgoingMessage_GetFormat
+description: NSOutgoingMessage.GetFormat()
+intellisense: NSOutgoingMessage.GetFormat
 keywords: GetFormat()
+so.topic: reference
 ---
 
 

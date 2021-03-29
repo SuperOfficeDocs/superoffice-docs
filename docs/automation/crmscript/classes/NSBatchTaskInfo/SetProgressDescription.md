@@ -1,10 +1,10 @@
 ---
-title: Void SetProgressDescription(String ProgressDescription)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetProgressDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetProgressDescription_String_p_0
+description: NSBatchTaskInfo.SetProgressDescription(String p_0)
+intellisense: NSBatchTaskInfo.SetProgressDescription
 sortOrder: 1399
 keywords: SetProgressDescription(String)
+so.topic: reference
 ---
 
 

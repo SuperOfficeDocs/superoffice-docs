@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultShowInGui(Bool DefaultShowInGui)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetDefaultShowInGui(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetDefaultShowInGui_Bool_p_0
+description: NSFieldValueInfo.SetDefaultShowInGui(Bool p_0)
+intellisense: NSFieldValueInfo.SetDefaultShowInGui
 sortOrder: 3637
 keywords: SetDefaultShowInGui(Bool)
+so.topic: reference
 ---
 
 

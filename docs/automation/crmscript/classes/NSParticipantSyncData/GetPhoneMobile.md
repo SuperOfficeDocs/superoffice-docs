@@ -1,9 +1,9 @@
 ---
-title: String[] GetPhoneMobile()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetPhoneMobile()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPhoneMobile
+description: NSParticipantSyncData.GetPhoneMobile()
+intellisense: NSParticipantSyncData.GetPhoneMobile
 keywords: GetPhoneMobile()
+so.topic: reference
 ---
 
 

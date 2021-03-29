@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetTicketCategoriesForUserGroups(Integer[] userGroupIds)
-path: /EJScript/Classes/NSListAgent/Member functions/NSMDOListItem[] GetTicketCategoriesForUserGroups(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTicketCategoriesForUserGroups_Integer__p_0
+description: NSListAgent.GetTicketCategoriesForUserGroups(Integer[] p_0)
+intellisense: NSListAgent.GetTicketCategoriesForUserGroups
 keywords: GetTicketCategoriesForUserGroups(Integer[])
+so.topic: reference
 ---
 
 

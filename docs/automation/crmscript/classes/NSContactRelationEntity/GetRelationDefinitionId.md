@@ -1,10 +1,10 @@
 ---
-title: Integer GetRelationDefinitionId()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Integer GetRelationDefinitionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetRelationDefinitionId
+description: NSContactRelationEntity.GetRelationDefinitionId()
+intellisense: NSContactRelationEntity.GetRelationDefinitionId
 sortOrder: 1948
 keywords: GetRelationDefinitionId()
+so.topic: reference
 ---
 
 

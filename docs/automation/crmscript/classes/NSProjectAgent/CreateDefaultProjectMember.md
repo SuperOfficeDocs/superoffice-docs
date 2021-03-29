@@ -1,9 +1,9 @@
 ---
-title: NSProjectMember CreateDefaultProjectMember()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectMember CreateDefaultProjectMember()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_CreateDefaultProjectMember
+description: NSProjectAgent.CreateDefaultProjectMember()
+intellisense: NSProjectAgent.CreateDefaultProjectMember
 keywords: CreateDefaultProjectMember()
+so.topic: reference
 ---
 
 

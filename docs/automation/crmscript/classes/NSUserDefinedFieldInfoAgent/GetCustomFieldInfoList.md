@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoBase[] GetCustomFieldInfoList(String tableName, Bool includeStandard)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/NSFieldInfoBase[] GetCustomFieldInfoList(String p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_GetCustomFieldInfoList_String_p_0_Bool_p_1
+description: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList(String p_0, Bool p_1)
+intellisense: NSUserDefinedFieldInfoAgent.GetCustomFieldInfoList
 keywords: GetCustomFieldInfoList(String,Bool)
+so.topic: reference
 ---
 
 

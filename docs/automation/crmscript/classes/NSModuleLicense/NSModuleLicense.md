@@ -1,8 +1,8 @@
 ---
-title: NSModuleLicense
-path: /EJScript/Classes/NSModuleLicense
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense
+description: NSModuleLicense
+intellisense: Void.NSModuleLicense
+so.topic: reference
 ---
 
 

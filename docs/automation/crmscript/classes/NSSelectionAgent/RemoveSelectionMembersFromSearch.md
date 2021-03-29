@@ -1,9 +1,9 @@
 ---
-title: Integer RemoveSelectionMembersFromSearch(Integer selectionId, String storageKey)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer RemoveSelectionMembersFromSearch(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_RemoveSelectionMembersFromSearch_Integer_p_0_String_p_1
+description: NSSelectionAgent.RemoveSelectionMembersFromSearch(Integer p_0, String p_1)
+intellisense: NSSelectionAgent.RemoveSelectionMembersFromSearch
 keywords: RemoveSelectionMembersFromSearch(Integer,String)
+so.topic: reference
 ---
 
 

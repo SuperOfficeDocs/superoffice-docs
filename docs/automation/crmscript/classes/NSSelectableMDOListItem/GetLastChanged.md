@@ -1,9 +1,9 @@
 ---
-title: DateTime GetLastChanged()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/DateTime GetLastChanged()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetLastChanged
+description: NSSelectableMDOListItem.GetLastChanged()
+intellisense: NSSelectableMDOListItem.GetLastChanged
 keywords: GetLastChanged()
+so.topic: reference
 ---
 
 

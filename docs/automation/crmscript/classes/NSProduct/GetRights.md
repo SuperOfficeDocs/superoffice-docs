@@ -1,9 +1,9 @@
 ---
-title: String GetRights()
-path: /EJScript/Classes/NSProduct/Member functions/String GetRights()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetRights
+description: NSProduct.GetRights()
+intellisense: NSProduct.GetRights
 keywords: GetRights()
+so.topic: reference
 ---
 
 

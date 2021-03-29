@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsActive()
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_GetIsActive
+description: NSFieldValueInfo.GetIsActive()
+intellisense: NSFieldValueInfo.GetIsActive
 sortOrder: 3620
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 

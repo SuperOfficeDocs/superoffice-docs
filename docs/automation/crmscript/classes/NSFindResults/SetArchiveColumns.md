@@ -1,10 +1,10 @@
 ---
-title: Void SetArchiveColumns(NSArchiveColumnInfo[] ArchiveColumns)
-path: /EJScript/Classes/NSFindResults/Member functions/Void SetArchiveColumns(NSArchiveColumnInfo[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindResults_SetArchiveColumns_NSArchiveColumnInfo__p_0
+description: NSFindResults.SetArchiveColumns(NSArchiveColumnInfo[] p_0)
+intellisense: NSFindResults.SetArchiveColumns
 sortOrder: 3693
 keywords: SetArchiveColumns(NSArchiveColumnInfo[])
+so.topic: reference
 ---
 
 

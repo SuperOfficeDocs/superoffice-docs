@@ -1,10 +1,10 @@
 ---
-title: Integer GetPrimaryKey()
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Integer GetPrimaryKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_GetPrimaryKey
+description: NSArchiveListItem.GetPrimaryKey()
+intellisense: NSArchiveListItem.GetPrimaryKey
 sortOrder: 1176
 keywords: GetPrimaryKey()
+so.topic: reference
 ---
 
 

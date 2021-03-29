@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity documentTemplateEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSDocumentTemplateEntity SaveDocumentTemplateEntity(NSDocumentTemplateEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveDocumentTemplateEntity_NSDocumentTemplateEntity_p_0
+description: NSListAgent.SaveDocumentTemplateEntity(NSDocumentTemplateEntity p_0)
+intellisense: NSListAgent.SaveDocumentTemplateEntity
 keywords: SaveDocumentTemplateEntity(NSDocumentTemplateEntity)
+so.topic: reference
 ---
 
 

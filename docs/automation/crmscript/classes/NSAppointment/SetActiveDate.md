@@ -1,10 +1,10 @@
 ---
-title: Void SetActiveDate(DateTime ActiveDate)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetActiveDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetActiveDate_DateTime_p_0
+description: NSAppointment.SetActiveDate(DateTime p_0)
+intellisense: NSAppointment.SetActiveDate
 sortOrder: 767
 keywords: SetActiveDate(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetDeliveryCountryId(Integer DeliveryCountryId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetDeliveryCountryId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetDeliveryCountryId_Integer_p_0
+description: NSQuoteVersion.SetDeliveryCountryId(Integer p_0)
+intellisense: NSQuoteVersion.SetDeliveryCountryId
 keywords: SetDeliveryCountryId(Integer)
+so.topic: reference
 ---
 
 

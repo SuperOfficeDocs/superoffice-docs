@@ -1,10 +1,10 @@
 ---
-title: DateTime addMin(Integer num)
-path: /EJScript/Classes/DateTime/Member functions/DateTime addMin(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_addMin_Integer_num
+description: DateTime.addMin(Integer num)
+intellisense: DateTime.addMin
 sortOrder: 212
 keywords: addMin(Integer)
+so.topic: reference
 ---
 
 Adds num minutes to the time and returns the datetime.

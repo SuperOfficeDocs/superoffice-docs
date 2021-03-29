@@ -1,10 +1,10 @@
 ---
-title: Integer GetDirection()
-path: /EJScript/Classes/NSArchiveOrderByInfo/Member functions/Integer GetDirection()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveOrderByInfo_GetDirection
+description: NSArchiveOrderByInfo.GetDirection()
+intellisense: NSArchiveOrderByInfo.GetDirection
 sortOrder: 1196
 keywords: GetDirection()
+so.topic: reference
 ---
 
 

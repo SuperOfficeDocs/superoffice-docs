@@ -1,9 +1,9 @@
 ---
-title: Integer GetDocumentId()
-path: /EJScript/Classes/NSVersionInfo/Member functions/Integer GetDocumentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_GetDocumentId
+description: NSVersionInfo.GetDocumentId()
+intellisense: NSVersionInfo.GetDocumentId
 keywords: GetDocumentId()
+so.topic: reference
 ---
 
 

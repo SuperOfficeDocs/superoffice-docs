@@ -1,9 +1,9 @@
 ---
-title: Void SetTechExplanation(String TechExplanation)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetTechExplanation(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_SetTechExplanation_String_p_0
+description: NSQuoteVersionValidated.SetTechExplanation(String p_0)
+intellisense: NSQuoteVersionValidated.SetTechExplanation
 keywords: SetTechExplanation(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetReportLayout()
-path: /EJScript/Classes/NSReportEntity/Member functions/Integer GetReportLayout()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_GetReportLayout
+description: NSReportEntity.GetReportLayout()
+intellisense: NSReportEntity.GetReportLayout
 keywords: GetReportLayout()
+so.topic: reference
 ---
 
 

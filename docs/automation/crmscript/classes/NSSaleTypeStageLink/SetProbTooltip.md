@@ -1,9 +1,9 @@
 ---
-title: Void SetProbTooltip(String p0)
-path: /EJScript/Classes/NSSaleTypeStageLink/Member functions/Void SetProbTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeStageLink_SetProbTooltip_String_p_0
+description: NSSaleTypeStageLink.SetProbTooltip(String p_0)
+intellisense: NSSaleTypeStageLink.SetProbTooltip
 keywords: SetProbTooltip(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetDataRight(Integer roleId, String tableName, Integer relationToOwner)
-path: /EJScript/Classes/NSUserAgent/Member functions/String GetDataRight(Integer p_0, String p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetDataRight_Integer_p_0_String_p_1_Integer_p_2
+description: NSUserAgent.GetDataRight(Integer p_0, String p_1, Integer p_2)
+intellisense: NSUserAgent.GetDataRight
 keywords: GetDataRight(Integer,String,Integer)
+so.topic: reference
 ---
 
 

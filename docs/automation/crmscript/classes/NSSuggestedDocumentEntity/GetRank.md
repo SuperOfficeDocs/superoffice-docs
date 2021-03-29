@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetRank
+description: NSSuggestedDocumentEntity.GetRank()
+intellisense: NSSuggestedDocumentEntity.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

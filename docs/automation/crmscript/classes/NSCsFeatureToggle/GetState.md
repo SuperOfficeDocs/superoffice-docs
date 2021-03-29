@@ -1,10 +1,10 @@
 ---
-title: Bool GetState()
-path: /EJScript/Classes/NSCsFeatureToggle/Member functions/Bool GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsFeatureToggle_GetState
+description: NSCsFeatureToggle.GetState()
+intellisense: NSCsFeatureToggle.GetState
 sortOrder: 2157
 keywords: GetState()
+so.topic: reference
 ---
 
 

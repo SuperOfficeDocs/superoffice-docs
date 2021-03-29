@@ -1,10 +1,10 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionGroup_SetName_String_p_0
+description: NSArchiveRestrictionGroup.SetName(String p_0)
+intellisense: NSArchiveRestrictionGroup.SetName
 sortOrder: 1207
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

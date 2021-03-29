@@ -1,9 +1,9 @@
 ---
-title: Void SetMailSorter(String MailSorter)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetMailSorter(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetMailSorter_String_p_0
+description: NSTicketMessageEntity.SetMailSorter(String p_0)
+intellisense: NSTicketMessageEntity.SetMailSorter
 keywords: SetMailSorter(String)
+so.topic: reference
 ---
 
 

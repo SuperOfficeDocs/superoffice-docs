@@ -1,9 +1,9 @@
 ---
-title: DateTime GetRegistered()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_GetRegistered
+description: NSSaleSummaryItem.GetRegistered()
+intellisense: NSSaleSummaryItem.GetRegistered
 keywords: GetRegistered()
+so.topic: reference
 ---
 
 

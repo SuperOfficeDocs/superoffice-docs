@@ -1,10 +1,10 @@
 ---
-title: Integer GetEntityOrParentId()
-path: /EJScript/Classes/NSHistoryRequest/Member functions/Integer GetEntityOrParentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistoryRequest_GetEntityOrParentId
+description: NSHistoryRequest.GetEntityOrParentId()
+intellisense: NSHistoryRequest.GetEntityOrParentId
 sortOrder: 3943
 keywords: GetEntityOrParentId()
+so.topic: reference
 ---
 
 

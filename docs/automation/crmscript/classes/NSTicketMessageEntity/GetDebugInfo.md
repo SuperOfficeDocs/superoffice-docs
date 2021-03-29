@@ -1,9 +1,9 @@
 ---
-title: String GetDebugInfo()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetDebugInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetDebugInfo
+description: NSTicketMessageEntity.GetDebugInfo()
+intellisense: NSTicketMessageEntity.GetDebugInfo
 keywords: GetDebugInfo()
+so.topic: reference
 ---
 
 

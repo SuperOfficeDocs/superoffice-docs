@@ -1,10 +1,10 @@
 ---
-title: Void SetSourcePersonName(String SourcePersonName)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetSourcePersonName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetSourcePersonName_String_p_0
+description: NSContactRelationEntity.SetSourcePersonName(String p_0)
+intellisense: NSContactRelationEntity.SetSourcePersonName
 sortOrder: 1977
 keywords: SetSourcePersonName(String)
+so.topic: reference
 ---
 
 

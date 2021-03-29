@@ -1,9 +1,9 @@
 ---
-title: Integer GetDeleted()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetDeleted
+description: NSSuggestedAppointment.GetDeleted()
+intellisense: NSSuggestedAppointment.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

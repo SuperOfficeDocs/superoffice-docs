@@ -1,10 +1,10 @@
 ---
-title: Void saveInvolved(Vector emailAdresses)
-path: /EJScript/Classes/Message/Member functions/Void saveInvolved(Vector emailAdresses)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_saveInvolved_Vector_emailAdresses
+description: Message.saveInvolved(Vector emailAdresses)
+intellisense: Message.saveInvolved
 sortOrder: 555
 keywords: saveInvolved(Vector)
+so.topic: reference
 ---
 
 

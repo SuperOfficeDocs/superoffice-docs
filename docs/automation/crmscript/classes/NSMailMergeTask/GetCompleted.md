@@ -1,9 +1,9 @@
 ---
-title: Integer GetCompleted()
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Integer GetCompleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_GetCompleted
+description: NSMailMergeTask.GetCompleted()
+intellisense: NSMailMergeTask.GetCompleted
 keywords: GetCompleted()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetEmailId(Integer EmailId)
-path: /EJScript/Classes/NSEMailAddress/Member functions/Void SetEmailId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_SetEmailId_Integer_p_0
+description: NSEMailAddress.SetEmailId(Integer p_0)
+intellisense: NSEMailAddress.SetEmailId
 sortOrder: 2776
 keywords: SetEmailId(Integer)
+so.topic: reference
 ---
 
 

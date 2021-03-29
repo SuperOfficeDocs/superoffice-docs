@@ -1,10 +1,10 @@
 ---
-title: Void setControlConfig(Map p0)
-path: /EJScript/Classes/MacroParameter/Member functions/Void setControlConfig(Map p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroParameter_setControlConfig_Map_p_0
+description: MacroParameter.setControlConfig(Map p_0)
+intellisense: MacroParameter.setControlConfig
 sortOrder: 487
 keywords: setControlConfig(Map)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer[] GetUserGroupAccessIds()
-path: /EJScript/Classes/NSErpConnection/Member functions/Integer[] GetUserGroupAccessIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_GetUserGroupAccessIds
+description: NSErpConnection.GetUserGroupAccessIds()
+intellisense: NSErpConnection.GetUserGroupAccessIds
 sortOrder: 3083
 keywords: GetUserGroupAccessIds()
+so.topic: reference
 ---
 
 

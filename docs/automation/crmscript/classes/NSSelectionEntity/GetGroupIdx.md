@@ -1,9 +1,9 @@
 ---
-title: Integer GetGroupIdx()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetGroupIdx()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetGroupIdx
+description: NSSelectionEntity.GetGroupIdx()
+intellisense: NSSelectionEntity.GetGroupIdx
 keywords: GetGroupIdx()
+so.topic: reference
 ---
 
 

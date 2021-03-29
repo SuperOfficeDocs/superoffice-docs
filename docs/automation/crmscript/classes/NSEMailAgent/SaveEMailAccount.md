@@ -1,10 +1,10 @@
 ---
-title: NSEMailAccount SaveEMailAccount(NSEMailAccount eMailAccount)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAccount SaveEMailAccount(NSEMailAccount p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SaveEMailAccount_NSEMailAccount_p_0
+description: NSEMailAgent.SaveEMailAccount(NSEMailAccount p_0)
+intellisense: NSEMailAgent.SaveEMailAccount
 sortOrder: 2798
 keywords: SaveEMailAccount(NSEMailAccount)
+so.topic: reference
 ---
 
 

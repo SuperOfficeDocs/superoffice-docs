@@ -1,9 +1,9 @@
 ---
-title: NSExtAppEntity CreateDefaultExtAppEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSExtAppEntity CreateDefaultExtAppEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultExtAppEntity
+description: NSListAgent.CreateDefaultExtAppEntity()
+intellisense: NSListAgent.CreateDefaultExtAppEntity
 keywords: CreateDefaultExtAppEntity()
+so.topic: reference
 ---
 
 

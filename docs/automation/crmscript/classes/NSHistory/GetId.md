@@ -1,10 +1,10 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSHistory/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_GetId
+description: NSHistory.GetId()
+intellisense: NSHistory.GetId
 sortOrder: 3928
 keywords: GetId()
+so.topic: reference
 ---
 
 

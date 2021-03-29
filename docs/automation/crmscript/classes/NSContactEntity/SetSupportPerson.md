@@ -1,10 +1,10 @@
 ---
-title: Void SetSupportPerson(NSPerson SupportPerson)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetSupportPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetSupportPerson_NSPerson_p_0
+description: NSContactEntity.SetSupportPerson(NSPerson p_0)
+intellisense: NSContactEntity.SetSupportPerson
 sortOrder: 1911
 keywords: SetSupportPerson(NSPerson)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetOutgoingCredentials(NSServiceAuth OutgoingCredentials)
-path: /EJScript/Classes/NSEMailAccount/Member functions/Void SetOutgoingCredentials(NSServiceAuth p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_SetOutgoingCredentials_NSServiceAuth_p_0
+description: NSEMailAccount.SetOutgoingCredentials(NSServiceAuth p_0)
+intellisense: NSEMailAccount.SetOutgoingCredentials
 sortOrder: 2759
 keywords: SetOutgoingCredentials(NSServiceAuth)
+so.topic: reference
 ---
 
 

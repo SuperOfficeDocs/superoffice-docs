@@ -1,9 +1,9 @@
 ---
-title: NSDocumentTemplate GetDocTmpl()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/NSDocumentTemplate GetDocTmpl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetDocTmpl
+description: NSSuggestedDocumentEntity.GetDocTmpl()
+intellisense: NSSuggestedDocumentEntity.GetDocTmpl
 keywords: GetDocTmpl()
+so.topic: reference
 ---
 
 

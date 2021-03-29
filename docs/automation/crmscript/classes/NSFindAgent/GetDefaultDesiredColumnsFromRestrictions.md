@@ -1,10 +1,10 @@
 ---
-title: NSArchiveColumnInfo[] GetDefaultDesiredColumnsFromRestrictions(String providerName, NSArchiveRestrictionInfo[] restrictions)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveColumnInfo[] GetDefaultDesiredColumnsFromRestrictions(String p_0, NSArchiveRestrictionInfo[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_GetDefaultDesiredColumnsFromRestrictions_String_p_0_NSArchiveRestrictionInfo__p_1
+description: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions(String p_0, NSArchiveRestrictionInfo[] p_1)
+intellisense: NSFindAgent.GetDefaultDesiredColumnsFromRestrictions
 sortOrder: 3654
 keywords: GetDefaultDesiredColumnsFromRestrictions(String,NSArchiveRestrictionInfo[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetEntityOrParentId(Integer EntityOrParentId)
-path: /EJScript/Classes/NSHistoryRequest/Member functions/Void SetEntityOrParentId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistoryRequest_SetEntityOrParentId_Integer_p_0
+description: NSHistoryRequest.SetEntityOrParentId(Integer p_0)
+intellisense: NSHistoryRequest.SetEntityOrParentId
 sortOrder: 3946
 keywords: SetEntityOrParentId(Integer)
+so.topic: reference
 ---
 
 

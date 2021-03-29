@@ -1,10 +1,10 @@
 ---
-title: Integer GetAppointmentId()
-path: /EJScript/Classes/NSAlarmData/Member functions/Integer GetAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetAppointmentId
+description: NSAlarmData.GetAppointmentId()
+intellisense: NSAlarmData.GetAppointmentId
 sortOrder: 646
 keywords: GetAppointmentId()
+so.topic: reference
 ---
 
 

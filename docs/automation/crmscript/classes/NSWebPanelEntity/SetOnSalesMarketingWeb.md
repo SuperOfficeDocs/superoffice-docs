@@ -1,9 +1,9 @@
 ---
-title: Void SetOnSalesMarketingWeb(Bool OnSalesMarketingWeb)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetOnSalesMarketingWeb(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetOnSalesMarketingWeb_Bool_p_0
+description: NSWebPanelEntity.SetOnSalesMarketingWeb(Bool p_0)
+intellisense: NSWebPanelEntity.SetOnSalesMarketingWeb
 keywords: SetOnSalesMarketingWeb(Bool)
+so.topic: reference
 ---
 
 

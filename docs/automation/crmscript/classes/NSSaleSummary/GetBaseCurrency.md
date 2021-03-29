@@ -1,9 +1,9 @@
 ---
-title: String GetBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/String GetBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetBaseCurrency
+description: NSSaleSummary.GetBaseCurrency()
+intellisense: NSSaleSummary.GetBaseCurrency
 keywords: GetBaseCurrency()
+so.topic: reference
 ---
 
 

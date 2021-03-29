@@ -1,9 +1,9 @@
 ---
-title: Void Merge(Integer sourcePersonId, Integer destinationPersonId, DateTime moveAfterDate, Bool deleteSource, Bool replaceEmptyFieldsOnDestination)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void Merge(Integer p_0, Integer p_1, DateTime p_2, Bool p_3, Bool p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_Merge_Integer_p_0_Integer_p_1_DateTime_p_2_Bool_p_3_Bool_p_4
+description: NSPersonAgent.Merge(Integer p_0, Integer p_1, DateTime p_2, Bool p_3, Bool p_4)
+intellisense: NSPersonAgent.Merge
 keywords: Merge(Integer,Integer,DateTime,Bool,Bool)
+so.topic: reference
 ---
 
 

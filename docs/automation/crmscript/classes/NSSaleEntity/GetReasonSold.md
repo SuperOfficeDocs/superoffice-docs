@@ -1,9 +1,9 @@
 ---
-title: NSReasonSold GetReasonSold()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSReasonSold GetReasonSold()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetReasonSold
+description: NSSaleEntity.GetReasonSold()
+intellisense: NSSaleEntity.GetReasonSold
 keywords: GetReasonSold()
+so.topic: reference
 ---
 
 

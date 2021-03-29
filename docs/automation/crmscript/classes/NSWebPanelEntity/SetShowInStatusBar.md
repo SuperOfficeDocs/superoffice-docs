@@ -1,9 +1,9 @@
 ---
-title: Void SetShowInStatusBar(Bool ShowInStatusBar)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetShowInStatusBar(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetShowInStatusBar_Bool_p_0
+description: NSWebPanelEntity.SetShowInStatusBar(Bool p_0)
+intellisense: NSWebPanelEntity.SetShowInStatusBar
 keywords: SetShowInStatusBar(Bool)
+so.topic: reference
 ---
 
 

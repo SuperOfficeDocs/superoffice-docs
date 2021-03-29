@@ -1,9 +1,9 @@
 ---
-title: Void DeleteFromListName(Integer id, String udListDefinitionName)
-path: /EJScript/Classes/NSListAgent/Member functions/Void DeleteFromListName(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_DeleteFromListName_Integer_p_0_String_p_1
+description: NSListAgent.DeleteFromListName(Integer p_0, String p_1)
+intellisense: NSListAgent.DeleteFromListName
 keywords: DeleteFromListName(Integer,String)
+so.topic: reference
 ---
 
 

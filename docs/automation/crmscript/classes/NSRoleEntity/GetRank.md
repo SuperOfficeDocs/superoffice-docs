@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetRank
+description: NSRoleEntity.GetRank()
+intellisense: NSRoleEntity.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

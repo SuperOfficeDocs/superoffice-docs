@@ -1,10 +1,10 @@
 ---
-title: Void SetReason(String p0)
-path: /EJScript/Classes/NSFieldRight/Member functions/Void SetReason(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldRight_SetReason_String_p_0
+description: NSFieldRight.SetReason(String p_0)
+intellisense: NSFieldRight.SetReason
 sortOrder: 3614
 keywords: SetReason(String)
+so.topic: reference
 ---
 
 

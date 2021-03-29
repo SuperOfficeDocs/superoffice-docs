@@ -1,10 +1,10 @@
 ---
-title: Void SetY(NSBinary p0)
-path: /EJScript/Classes/NSDSAParameters/Member functions/Void SetY(NSBinary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_SetY_NSBinary_p_0
+description: NSDSAParameters.SetY(NSBinary p_0)
+intellisense: NSDSAParameters.SetY
 sortOrder: 2719
 keywords: SetY(NSBinary)
+so.topic: reference
 ---
 
 

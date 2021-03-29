@@ -1,8 +1,8 @@
 ---
-title: NSProjectTypeStatusLink
-path: /EJScript/Classes/NSProjectTypeStatusLink
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeStatusLink
+description: NSProjectTypeStatusLink
+intellisense: Void.NSProjectTypeStatusLink
+so.topic: reference
 ---
 
 

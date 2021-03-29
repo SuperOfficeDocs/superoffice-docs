@@ -1,9 +1,9 @@
 ---
-title: Integer GetCategory()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetCategory
+description: NSTicket.GetCategory()
+intellisense: NSTicket.GetCategory
 keywords: GetCategory()
+so.topic: reference
 ---
 
 

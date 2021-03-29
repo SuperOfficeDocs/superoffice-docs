@@ -1,9 +1,9 @@
 ---
-title: Void setDistinct(String field)
-path: /EJScript/Classes/SearchEngine/member functions/Void setDistinct(String field)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_setDistinct_String_field
+description: SearchEngine.setDistinct(String field)
+intellisense: SearchEngine.setDistinct
 keywords: setDistinct(String)
+so.topic: reference
 ---
 
 

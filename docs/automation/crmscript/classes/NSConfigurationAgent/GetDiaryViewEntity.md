@@ -1,10 +1,10 @@
 ---
-title: NSDiaryViewEntity GetDiaryViewEntity(Integer diaryViewEntityId)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSDiaryViewEntity GetDiaryViewEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetDiaryViewEntity_Integer_p_0
+description: NSConfigurationAgent.GetDiaryViewEntity(Integer p_0)
+intellisense: NSConfigurationAgent.GetDiaryViewEntity
 sortOrder: 1591
 keywords: GetDiaryViewEntity(Integer)
+so.topic: reference
 ---
 
 

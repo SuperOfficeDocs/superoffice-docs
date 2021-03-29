@@ -1,10 +1,10 @@
 ---
-title: NSFindResults FindWithExtraRestrictions(String storageType, String providerName, String storageKey, NSArchiveRestrictionInfo[] extraRestrictions, NSArchiveOrderByInfo[] orderBy, String[] desiredColumns, Integer pageSize, Integer pageNumber)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSFindResults FindWithExtraRestrictions(String p_0, String p_1, String p_2, NSArchiveRestrictionInfo[] p_3, NSArchiveOrderByInfo[] p_4, String[] p_5, Integer p_6, Integer p_7)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_FindWithExtraRestrictions_String_p_0_String_p_1_String_p_2_NSArchiveRestrictionInfo__p_3_NSArchiveOrderByInfo__p_4_String__p_5_Integer_p_6_Integer_p_7
+description: NSFindAgent.FindWithExtraRestrictions(String p_0, String p_1, String p_2, NSArchiveRestrictionInfo[] p_3, NSArchiveOrderByInfo[] p_4, String[] p_5, Integer p_6, Integer p_7)
+intellisense: NSFindAgent.FindWithExtraRestrictions
 sortOrder: 3679
 keywords: FindWithExtraRestrictions(String,String,String,NSArchiveRestrictionInfo[],NSArchiveOrderByInfo[],String[],Integer,Integer)
+so.topic: reference
 ---
 
 

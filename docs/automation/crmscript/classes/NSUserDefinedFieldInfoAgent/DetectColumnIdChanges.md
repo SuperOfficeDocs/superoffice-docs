@@ -1,9 +1,9 @@
 ---
-title: Bool DetectColumnIdChanges(Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Bool DetectColumnIdChanges(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_DetectColumnIdChanges_Integer_p_0
+description: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges(Integer p_0)
+intellisense: NSUserDefinedFieldInfoAgent.DetectColumnIdChanges
 keywords: DetectColumnIdChanges(Integer)
+so.topic: reference
 ---
 
 

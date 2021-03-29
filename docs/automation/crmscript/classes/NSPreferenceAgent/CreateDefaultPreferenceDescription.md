@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescription CreateDefaultPreferenceDescription()
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription CreateDefaultPreferenceDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_CreateDefaultPreferenceDescription
+description: NSPreferenceAgent.CreateDefaultPreferenceDescription()
+intellisense: NSPreferenceAgent.CreateDefaultPreferenceDescription
 keywords: CreateDefaultPreferenceDescription()
+so.topic: reference
 ---
 
 Loading default values into a new PreferenceDescription.

@@ -1,9 +1,9 @@
 ---
-title: Bool VerifyGoogleRecaptcha(String token, String optionalSecretKey)
-path: /EJScript/Classes/NSMarketingAgent/Member functions/Bool VerifyGoogleRecaptcha(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent_VerifyGoogleRecaptcha_String_p_0_String_p_1
+description: NSMarketingAgent.VerifyGoogleRecaptcha(String p_0, String p_1)
+intellisense: NSMarketingAgent.VerifyGoogleRecaptcha
 keywords: VerifyGoogleRecaptcha(String,String)
+so.topic: reference
 ---
 
 

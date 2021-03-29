@@ -1,10 +1,10 @@
 ---
-title: NSStream GetSanitizedTemplateStreamFromId(Integer templateId, String uiCulture)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetSanitizedTemplateStreamFromId(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetSanitizedTemplateStreamFromId_Integer_p_0_String_p_1
+description: NSDocumentAgent.GetSanitizedTemplateStreamFromId(Integer p_0, String p_1)
+intellisense: NSDocumentAgent.GetSanitizedTemplateStreamFromId
 sortOrder: 2519
 keywords: GetSanitizedTemplateStreamFromId(Integer,String)
+so.topic: reference
 ---
 
 

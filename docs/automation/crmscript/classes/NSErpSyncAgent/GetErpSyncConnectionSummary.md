@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncConnectionSummary GetErpSyncConnectionSummary(Integer erpSyncConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncConnectionSummary GetErpSyncConnectionSummary(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetErpSyncConnectionSummary_Integer_p_0
+description: NSErpSyncAgent.GetErpSyncConnectionSummary(Integer p_0)
+intellisense: NSErpSyncAgent.GetErpSyncConnectionSummary
 sortOrder: 3199
 keywords: GetErpSyncConnectionSummary(Integer)
+so.topic: reference
 ---
 
 

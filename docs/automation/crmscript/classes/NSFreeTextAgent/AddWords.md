@@ -1,10 +1,10 @@
 ---
-title: Void AddWords(String stopWords)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void AddWords(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_AddWords_String_p_0
+description: NSFreeTextAgent.AddWords(String p_0)
+intellisense: NSFreeTextAgent.AddWords
 sortOrder: 3872
 keywords: AddWords(String)
+so.topic: reference
 ---
 
 

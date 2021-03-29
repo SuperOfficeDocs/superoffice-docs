@@ -1,10 +1,10 @@
 ---
-title: String GetDelimiter()
-path: /EJScript/Classes/NSEMailFolder/Member functions/String GetDelimiter()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailFolder_GetDelimiter
+description: NSEMailFolder.GetDelimiter()
+intellisense: NSEMailFolder.GetDelimiter
 sortOrder: 3032
 keywords: GetDelimiter()
+so.topic: reference
 ---
 
 

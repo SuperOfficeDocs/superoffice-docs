@@ -1,8 +1,8 @@
 ---
-title: NSMDOListItem
-path: /EJScript/Classes/NSMDOListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem
+description: NSMDOListItem
+intellisense: Void.NSMDOListItem
+so.topic: reference
 ---
 
 

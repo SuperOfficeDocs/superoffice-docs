@@ -1,10 +1,10 @@
 ---
-title: String GetFormat()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetFormat()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_GetFormat
+description: NSIncomingMessage.GetFormat()
+intellisense: NSIncomingMessage.GetFormat
 sortOrder: 3987
 keywords: GetFormat()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetClosedAt(DateTime ClosedAt)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetClosedAt(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetClosedAt_DateTime_p_0
+description: NSTicketEntity.SetClosedAt(DateTime p_0)
+intellisense: NSTicketEntity.SetClosedAt
 keywords: SetClosedAt(DateTime)
+so.topic: reference
 ---
 
 

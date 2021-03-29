@@ -1,9 +1,9 @@
 ---
-title: Void SetConfirmationLinesTemplate(Integer ConfirmationLinesTemplate)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetConfirmationLinesTemplate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetConfirmationLinesTemplate_Integer_p_0
+description: NSSaleTypeEntity.SetConfirmationLinesTemplate(Integer p_0)
+intellisense: NSSaleTypeEntity.SetConfirmationLinesTemplate
 keywords: SetConfirmationLinesTemplate(Integer)
+so.topic: reference
 ---
 
 

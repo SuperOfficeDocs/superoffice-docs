@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraFields(String[] ExtraFields)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetExtraFields(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_SetExtraFields_String__p_0
+description: NSVersionInfo.SetExtraFields(String[] p_0)
+intellisense: NSVersionInfo.SetExtraFields
 keywords: SetExtraFields(String[])
+so.topic: reference
 ---
 
 

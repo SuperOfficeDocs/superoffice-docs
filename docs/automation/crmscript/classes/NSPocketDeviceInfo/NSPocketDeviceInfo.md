@@ -1,8 +1,8 @@
 ---
-title: NSPocketDeviceInfo
-path: /EJScript/Classes/NSPocketDeviceInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo
+description: NSPocketDeviceInfo
+intellisense: Void.NSPocketDeviceInfo
+so.topic: reference
 ---
 
 

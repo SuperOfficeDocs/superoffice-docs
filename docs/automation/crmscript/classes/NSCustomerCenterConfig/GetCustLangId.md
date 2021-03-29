@@ -1,10 +1,10 @@
 ---
-title: Integer GetCustLangId()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Integer GetCustLangId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetCustLangId
+description: NSCustomerCenterConfig.GetCustLangId()
+intellisense: NSCustomerCenterConfig.GetCustLangId
 sortOrder: 2198
 keywords: GetCustLangId()
+so.topic: reference
 ---
 
 

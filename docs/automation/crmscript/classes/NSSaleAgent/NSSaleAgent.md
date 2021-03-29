@@ -1,8 +1,8 @@
 ---
-title: NSSaleAgent
-path: /EJScript/Classes/NSSaleAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent
+description: NSSaleAgent
+intellisense: Void.NSSaleAgent
+so.topic: reference
 ---
 
 

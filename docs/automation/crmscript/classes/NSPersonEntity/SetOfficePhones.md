@@ -1,9 +1,9 @@
 ---
-title: Void SetOfficePhones(NSEntityElement[] OfficePhones)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetOfficePhones(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetOfficePhones_NSEntityElement__p_0
+description: NSPersonEntity.SetOfficePhones(NSEntityElement[] p_0)
+intellisense: NSPersonEntity.SetOfficePhones
 keywords: SetOfficePhones(NSEntityElement[])
+so.topic: reference
 ---
 
 

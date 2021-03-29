@@ -1,10 +1,10 @@
 ---
-title: String GetErpListItemId()
-path: /EJScript/Classes/NSErpCrmListItemMapping/Member functions/String GetErpListItemId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpCrmListItemMapping_GetErpListItemId
+description: NSErpCrmListItemMapping.GetErpListItemId()
+intellisense: NSErpCrmListItemMapping.GetErpListItemId
 sortOrder: 3145
 keywords: GetErpListItemId()
+so.topic: reference
 ---
 
 

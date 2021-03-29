@@ -1,10 +1,10 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSDashboardTile/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_GetDescription
+description: NSDashboardTile.GetDescription()
+intellisense: NSDashboardTile.GetDescription
 sortOrder: 2300
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

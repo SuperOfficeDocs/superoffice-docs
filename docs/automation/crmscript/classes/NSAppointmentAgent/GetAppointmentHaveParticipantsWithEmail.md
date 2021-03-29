@@ -1,10 +1,10 @@
 ---
-title: Bool GetAppointmentHaveParticipantsWithEmail(Integer appointmentId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Bool GetAppointmentHaveParticipantsWithEmail(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetAppointmentHaveParticipantsWithEmail_Integer_p_0
+description: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail(Integer p_0)
+intellisense: NSAppointmentAgent.GetAppointmentHaveParticipantsWithEmail
 sortOrder: 824
 keywords: GetAppointmentHaveParticipantsWithEmail(Integer)
+so.topic: reference
 ---
 
 

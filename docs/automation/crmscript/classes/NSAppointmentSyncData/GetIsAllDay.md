@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsAllDay()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Bool GetIsAllDay()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetIsAllDay
+description: NSAppointmentSyncData.GetIsAllDay()
+intellisense: NSAppointmentSyncData.GetIsAllDay
 sortOrder: 1041
 keywords: GetIsAllDay()
+so.topic: reference
 ---
 
 

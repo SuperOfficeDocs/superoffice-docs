@@ -1,9 +1,9 @@
 ---
-title: Void SetCategoryMaster(Integer CategoryMaster)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetCategoryMaster(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetCategoryMaster_Integer_p_0
+description: NSTicketCategoryEntity.SetCategoryMaster(Integer p_0)
+intellisense: NSTicketCategoryEntity.SetCategoryMaster
 keywords: SetCategoryMaster(Integer)
+so.topic: reference
 ---
 
 

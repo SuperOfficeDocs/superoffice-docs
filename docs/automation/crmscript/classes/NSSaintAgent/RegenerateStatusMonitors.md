@@ -1,9 +1,9 @@
 ---
-title: NSBatchTaskInfo RegenerateStatusMonitors(Bool runAsBatch)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSBatchTaskInfo RegenerateStatusMonitors(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_RegenerateStatusMonitors_Bool_p_0
+description: NSSaintAgent.RegenerateStatusMonitors(Bool p_0)
+intellisense: NSSaintAgent.RegenerateStatusMonitors
 keywords: RegenerateStatusMonitors(Bool)
+so.topic: reference
 ---
 
 

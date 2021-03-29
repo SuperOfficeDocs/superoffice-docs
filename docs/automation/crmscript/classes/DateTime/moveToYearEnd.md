@@ -1,10 +1,10 @@
 ---
-title: DateTime moveToYearEnd()
-path: /EJScript/Classes/DateTime/Member functions/DateTime moveToYearEnd()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_moveToYearEnd
+description: DateTime.moveToYearEnd()
+intellisense: DateTime.moveToYearEnd
 sortOrder: 226
 keywords: moveToYearEnd()
+so.topic: reference
 ---
 
 This method will move the current DateTime to the last second in the current year. Returns a reference to itself.

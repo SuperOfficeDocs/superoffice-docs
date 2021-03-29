@@ -1,10 +1,10 @@
 ---
-title: NSTaskListItem SaveTaskListItem(NSTaskListItem taskListItem)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSTaskListItem SaveTaskListItem(NSTaskListItem p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_SaveTaskListItem_NSTaskListItem_p_0
+description: NSAppointmentAgent.SaveTaskListItem(NSTaskListItem p_0)
+intellisense: NSAppointmentAgent.SaveTaskListItem
 sortOrder: 904
 keywords: SaveTaskListItem(NSTaskListItem)
+so.topic: reference
 ---
 
 

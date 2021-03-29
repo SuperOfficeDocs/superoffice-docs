@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetCreatedBy
+description: NSProjectEventEntity.GetCreatedBy()
+intellisense: NSProjectEventEntity.GetCreatedBy
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

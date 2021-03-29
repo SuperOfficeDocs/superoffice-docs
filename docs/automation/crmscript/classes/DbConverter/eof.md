@@ -1,10 +1,10 @@
 ---
-title: Bool eof()
-path: /EJScript/Classes/DbConverter/Member functions/Bool eof()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbConverter_eof
+description: DbConverter.eof()
+intellisense: DbConverter.eof
 sortOrder: 244
 keywords: eof()
+so.topic: reference
 ---
 
 

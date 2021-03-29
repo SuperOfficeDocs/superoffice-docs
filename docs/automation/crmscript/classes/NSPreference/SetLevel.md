@@ -1,9 +1,9 @@
 ---
-title: Void SetLevel(Integer p0)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetLevel(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetLevel_Integer_p_0
+description: NSPreference.SetLevel(Integer p_0)
+intellisense: NSPreference.SetLevel
 keywords: SetLevel(Integer)
+so.topic: reference
 ---
 
 Preference level, using the standard enumerated type. Undefined is returned for preferences that do not have a current setting.

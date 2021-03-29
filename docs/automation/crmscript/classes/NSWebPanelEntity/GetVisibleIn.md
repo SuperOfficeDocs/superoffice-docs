@@ -1,9 +1,9 @@
 ---
-title: Integer GetVisibleIn()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetVisibleIn()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetVisibleIn
+description: NSWebPanelEntity.GetVisibleIn()
+intellisense: NSWebPanelEntity.GetVisibleIn
 keywords: GetVisibleIn()
+so.topic: reference
 ---
 
 

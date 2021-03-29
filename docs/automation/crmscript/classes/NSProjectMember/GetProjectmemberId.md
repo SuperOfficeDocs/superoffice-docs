@@ -1,9 +1,9 @@
 ---
-title: Integer GetProjectmemberId()
-path: /EJScript/Classes/NSProjectMember/Member functions/Integer GetProjectmemberId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_GetProjectmemberId
+description: NSProjectMember.GetProjectmemberId()
+intellisense: NSProjectMember.GetProjectmemberId
 keywords: GetProjectmemberId()
+so.topic: reference
 ---
 
 

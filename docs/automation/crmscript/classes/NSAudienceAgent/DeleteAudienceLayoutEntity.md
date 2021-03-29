@@ -1,10 +1,10 @@
 ---
-title: Void DeleteAudienceLayoutEntity(Integer audienceLayoutEntityId)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/Void DeleteAudienceLayoutEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_DeleteAudienceLayoutEntity_Integer_p_0
+description: NSAudienceAgent.DeleteAudienceLayoutEntity(Integer p_0)
+intellisense: NSAudienceAgent.DeleteAudienceLayoutEntity
 sortOrder: 1310
 keywords: DeleteAudienceLayoutEntity(Integer)
+so.topic: reference
 ---
 
 

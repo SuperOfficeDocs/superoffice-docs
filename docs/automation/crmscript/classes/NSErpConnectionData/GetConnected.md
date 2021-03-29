@@ -1,10 +1,10 @@
 ---
-title: Bool GetConnected()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Bool GetConnected()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_GetConnected
+description: NSErpConnectionData.GetConnected()
+intellisense: NSErpConnectionData.GetConnected
 sortOrder: 3106
 keywords: GetConnected()
+so.topic: reference
 ---
 
 

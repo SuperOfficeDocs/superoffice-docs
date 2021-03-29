@@ -1,10 +1,10 @@
 ---
-title: NSDashboard SaveDashboard(NSDashboard dashboard)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard SaveDashboard(NSDashboard p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_SaveDashboard_NSDashboard_p_0
+description: NSDashboardAgent.SaveDashboard(NSDashboard p_0)
+intellisense: NSDashboardAgent.SaveDashboard
 sortOrder: 2274
 keywords: SaveDashboard(NSDashboard)
+so.topic: reference
 ---
 
 

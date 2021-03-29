@@ -1,8 +1,8 @@
 ---
-title: NSPhoneListPreferences
-path: /EJScript/Classes/NSPhoneListPreferences
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences
+description: NSPhoneListPreferences
+intellisense: Void.NSPhoneListPreferences
+so.topic: reference
 ---
 
 

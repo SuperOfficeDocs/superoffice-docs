@@ -1,10 +1,10 @@
 ---
-title: Integer GetPriority()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Integer GetPriority()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_GetPriority
+description: NSEMailEnvelope.GetPriority()
+intellisense: NSEMailEnvelope.GetPriority
 sortOrder: 3004
 keywords: GetPriority()
+so.topic: reference
 ---
 
 

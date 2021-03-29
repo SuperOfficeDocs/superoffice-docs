@@ -1,9 +1,9 @@
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetRegistered_DateTime_p_0
+description: NSQuoteVersion.SetRegistered(DateTime p_0)
+intellisense: NSQuoteVersion.SetRegistered
 keywords: SetRegistered(DateTime)
+so.topic: reference
 ---
 
 

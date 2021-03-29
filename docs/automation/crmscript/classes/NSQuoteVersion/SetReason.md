@@ -1,9 +1,9 @@
 ---
-title: Void SetReason(String Reason)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetReason(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetReason_String_p_0
+description: NSQuoteVersion.SetReason(String p_0)
+intellisense: NSQuoteVersion.SetReason
 keywords: SetReason(String)
+so.topic: reference
 ---
 
 

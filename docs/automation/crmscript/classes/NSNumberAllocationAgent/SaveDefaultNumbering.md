@@ -1,9 +1,9 @@
 ---
-title: Void SaveDefaultNumbering(NSRefCountEntity refCountEntity)
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/Void SaveDefaultNumbering(NSRefCountEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent_SaveDefaultNumbering_NSRefCountEntity_p_0
+description: NSNumberAllocationAgent.SaveDefaultNumbering(NSRefCountEntity p_0)
+intellisense: NSNumberAllocationAgent.SaveDefaultNumbering
 keywords: SaveDefaultNumbering(NSRefCountEntity)
+so.topic: reference
 ---
 
 

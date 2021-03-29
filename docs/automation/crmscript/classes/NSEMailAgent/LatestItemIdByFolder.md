@@ -1,10 +1,10 @@
 ---
-title: Integer LatestItemIdByFolder(Integer folderId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Integer LatestItemIdByFolder(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_LatestItemIdByFolder_Integer_p_0
+description: NSEMailAgent.LatestItemIdByFolder(Integer p_0)
+intellisense: NSEMailAgent.LatestItemIdByFolder
 sortOrder: 2790
 keywords: LatestItemIdByFolder(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetContactDepartment()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetContactDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetContactDepartment
+description: NSAppointmentSyncData.GetContactDepartment()
+intellisense: NSAppointmentSyncData.GetContactDepartment
 sortOrder: 1057
 keywords: GetContactDepartment()
+so.topic: reference
 ---
 
 

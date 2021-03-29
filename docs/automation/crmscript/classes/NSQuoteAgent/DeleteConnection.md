@@ -1,9 +1,9 @@
 ---
-title: Void DeleteConnection(Integer quoteConnectionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteConnection(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_DeleteConnection_Integer_p_0
+description: NSQuoteAgent.DeleteConnection(Integer p_0)
+intellisense: NSQuoteAgent.DeleteConnection
 keywords: DeleteConnection(Integer)
+so.topic: reference
 ---
 
 

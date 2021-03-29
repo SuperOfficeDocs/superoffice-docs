@@ -1,8 +1,8 @@
 ---
-title: NSPersonEntity
-path: /EJScript/Classes/NSPersonEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity
+description: NSPersonEntity
+intellisense: Void.NSPersonEntity
+so.topic: reference
 ---
 
 

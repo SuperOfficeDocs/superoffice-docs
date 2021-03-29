@@ -1,9 +1,9 @@
 ---
-title: String GetOrderConfirmation(Integer quoteVersionId, Integer confirmationTemplateId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/String GetOrderConfirmation(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetOrderConfirmation_Integer_p_0_Integer_p_1
+description: NSQuoteAgent.GetOrderConfirmation(Integer p_0, Integer p_1)
+intellisense: NSQuoteAgent.GetOrderConfirmation
 keywords: GetOrderConfirmation(Integer,Integer)
+so.topic: reference
 ---
 
 

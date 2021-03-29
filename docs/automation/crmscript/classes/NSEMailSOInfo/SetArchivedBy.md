@@ -1,10 +1,10 @@
 ---
-title: Void SetArchivedBy(Integer ArchivedBy)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchivedBy(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_SetArchivedBy_Integer_p_0
+description: NSEMailSOInfo.SetArchivedBy(Integer p_0)
+intellisense: NSEMailSOInfo.SetArchivedBy
 sortOrder: 3055
 keywords: SetArchivedBy(Integer)
+so.topic: reference
 ---
 
 

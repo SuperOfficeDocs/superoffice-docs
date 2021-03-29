@@ -1,9 +1,9 @@
 ---
-title: String GetNumber()
-path: /EJScript/Classes/NSSaleEntity/Member functions/String GetNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetNumber
+description: NSSaleEntity.GetNumber()
+intellisense: NSSaleEntity.GetNumber
 keywords: GetNumber()
+so.topic: reference
 ---
 
 

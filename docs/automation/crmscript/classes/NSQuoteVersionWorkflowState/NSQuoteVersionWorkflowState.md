@@ -1,8 +1,8 @@
 ---
-title: NSQuoteVersionWorkflowState
-path: /EJScript/Classes/NSQuoteVersionWorkflowState
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState
+description: NSQuoteVersionWorkflowState
+intellisense: Void.NSQuoteVersionWorkflowState
+so.topic: reference
 ---
 
 

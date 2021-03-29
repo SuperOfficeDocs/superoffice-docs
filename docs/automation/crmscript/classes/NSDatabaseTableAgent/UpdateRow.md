@@ -1,10 +1,10 @@
 ---
-title: Void UpdateRow(String tableName, Integer id, StringDictionary values)
-path: /EJScript/Classes/NSDatabaseTableAgent/Member functions/Void UpdateRow(String p_0, Integer p_1, StringDictionary p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseTableAgent_UpdateRow_String_p_0_Integer_p_1_StringDictionary_p_2
+description: NSDatabaseTableAgent.UpdateRow(String p_0, Integer p_1, StringDictionary p_2)
+intellisense: NSDatabaseTableAgent.UpdateRow
 sortOrder: 2341
 keywords: UpdateRow(String,Integer,StringDictionary)
+so.topic: reference
 ---
 
 

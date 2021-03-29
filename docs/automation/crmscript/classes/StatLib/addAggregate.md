@@ -1,9 +1,9 @@
 ---
-title: Void addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals)
-path: /EJScript/Classes/StatLib/Member functions/Void addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals)
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatLib_addAggregate_Integer_groupColumn_Integer_column_String_name_String_type_Integer_decimals
+description: StatLib.addAggregate(Integer groupColumn, Integer column, String name, String type, Integer decimals)
+intellisense: StatLib.addAggregate
 keywords: addAggregate(Integer,Integer,String,String,Integer)
+so.topic: reference
 ---
 
 

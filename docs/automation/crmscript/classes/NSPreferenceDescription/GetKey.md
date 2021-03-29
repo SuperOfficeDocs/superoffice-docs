@@ -1,9 +1,9 @@
 ---
-title: String GetKey()
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/String GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_GetKey
+description: NSPreferenceDescription.GetKey()
+intellisense: NSPreferenceDescription.GetKey
 keywords: GetKey()
+so.topic: reference
 ---
 
 

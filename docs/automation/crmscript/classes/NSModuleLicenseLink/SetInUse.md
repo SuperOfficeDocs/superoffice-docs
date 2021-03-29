@@ -1,9 +1,9 @@
 ---
-title: Void SetInUse(Integer InUse)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetInUse(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_SetInUse_Integer_p_0
+description: NSModuleLicenseLink.SetInUse(Integer p_0)
+intellisense: NSModuleLicenseLink.SetInUse
 keywords: SetInUse(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetActivityPersonId(Integer ActivityPersonId)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetActivityPersonId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_SetActivityPersonId_Integer_p_0
+description: NSContactActivity.SetActivityPersonId(Integer p_0)
+intellisense: NSContactActivity.SetActivityPersonId
 sortOrder: 1783
 keywords: SetActivityPersonId(Integer)
+so.topic: reference
 ---
 
 

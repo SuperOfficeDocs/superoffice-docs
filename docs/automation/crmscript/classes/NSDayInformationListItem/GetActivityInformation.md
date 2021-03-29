@@ -1,10 +1,10 @@
 ---
-title: NSActivitySummary GetActivityInformation()
-path: /EJScript/Classes/NSDayInformationListItem/Member functions/NSActivitySummary GetActivityInformation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDayInformationListItem_GetActivityInformation
+description: NSDayInformationListItem.GetActivityInformation()
+intellisense: NSDayInformationListItem.GetActivityInformation
 sortOrder: 2359
 keywords: GetActivityInformation()
+so.topic: reference
 ---
 
 

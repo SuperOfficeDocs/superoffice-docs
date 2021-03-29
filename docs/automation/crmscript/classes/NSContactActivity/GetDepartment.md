@@ -1,10 +1,10 @@
 ---
-title: String GetDepartment()
-path: /EJScript/Classes/NSContactActivity/Member functions/String GetDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_GetDepartment
+description: NSContactActivity.GetDepartment()
+intellisense: NSContactActivity.GetDepartment
 sortOrder: 1776
 keywords: GetDepartment()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayType()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetDisplayType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetDisplayType
+description: NSArchiveColumnInfo.GetDisplayType()
+intellisense: NSArchiveColumnInfo.GetDisplayType
 sortOrder: 1142
 keywords: GetDisplayType()
+so.topic: reference
 ---
 
 

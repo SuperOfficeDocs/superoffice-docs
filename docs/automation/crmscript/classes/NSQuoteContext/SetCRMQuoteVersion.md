@@ -1,9 +1,9 @@
 ---
-title: Void SetCRMQuoteVersion(NSQuoteVersion CRMQuoteVersion)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteVersion(NSQuoteVersion p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_SetCRMQuoteVersion_NSQuoteVersion_p_0
+description: NSQuoteContext.SetCRMQuoteVersion(NSQuoteVersion p_0)
+intellisense: NSQuoteContext.SetCRMQuoteVersion
 keywords: SetCRMQuoteVersion(NSQuoteVersion)
+so.topic: reference
 ---
 
 

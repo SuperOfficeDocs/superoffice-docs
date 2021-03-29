@@ -1,9 +1,9 @@
 ---
-title: DbConverter
-path: /EJScript/Classes/DbConverter
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbConverter
+description: DbConverter
+intellisense: Void.DbConverter
 sortOrder: 242
+so.topic: reference
 ---
 
 

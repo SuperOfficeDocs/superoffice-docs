@@ -1,10 +1,10 @@
 ---
-title: Void SetKananame(String Kananame)
-path: /EJScript/Classes/NSContact/Member functions/Void SetKananame(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetKananame_String_p_0
+description: NSContact.SetKananame(String p_0)
+intellisense: NSContact.SetKananame
 sortOrder: 1759
 keywords: SetKananame(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetConsentSourceName(String ConsentSourceName)
-path: /EJScript/Classes/NSConsentInfo/Member functions/Void SetConsentSourceName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_SetConsentSourceName_String_p_0
+description: NSConsentInfo.SetConsentSourceName(String p_0)
+intellisense: NSConsentInfo.SetConsentSourceName
 sortOrder: 1650
 keywords: SetConsentSourceName(String)
+so.topic: reference
 ---
 
 

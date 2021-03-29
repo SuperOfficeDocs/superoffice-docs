@@ -1,9 +1,9 @@
 ---
-title: Void SetFieldName(String FieldName)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetFieldName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetFieldName_String_p_0
+description: NSQuoteLineConfiguration.SetFieldName(String p_0)
+intellisense: NSQuoteLineConfiguration.SetFieldName
 keywords: SetFieldName(String)
+so.topic: reference
 ---
 
 

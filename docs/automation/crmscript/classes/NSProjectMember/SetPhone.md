@@ -1,9 +1,9 @@
 ---
-title: Void SetPhone(String Phone)
-path: /EJScript/Classes/NSProjectMember/Member functions/Void SetPhone(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_SetPhone_String_p_0
+description: NSProjectMember.SetPhone(String p_0)
+intellisense: NSProjectMember.SetPhone
 keywords: SetPhone(String)
+so.topic: reference
 ---
 
 

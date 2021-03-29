@@ -1,9 +1,9 @@
 ---
-title: String GetStakeholderRoleName()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetStakeholderRoleName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetStakeholderRoleName
+description: NSSaleStakeholder.GetStakeholderRoleName()
+intellisense: NSSaleStakeholder.GetStakeholderRoleName
 keywords: GetStakeholderRoleName()
+so.topic: reference
 ---
 
 

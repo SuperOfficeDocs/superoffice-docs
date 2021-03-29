@@ -1,10 +1,10 @@
 ---
-title: Bool GetMissingInERP()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Bool GetMissingInERP()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetMissingInERP
+description: NSErpSyncFieldMapping.GetMissingInERP()
+intellisense: NSErpSyncFieldMapping.GetMissingInERP
 sortOrder: 3287
 keywords: GetMissingInERP()
+so.topic: reference
 ---
 
 

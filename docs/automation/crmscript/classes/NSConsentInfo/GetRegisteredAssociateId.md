@@ -1,10 +1,10 @@
 ---
-title: Integer GetRegisteredAssociateId()
-path: /EJScript/Classes/NSConsentInfo/Member functions/Integer GetRegisteredAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentInfo_GetRegisteredAssociateId
+description: NSConsentInfo.GetRegisteredAssociateId()
+intellisense: NSConsentInfo.GetRegisteredAssociateId
 sortOrder: 1634
 keywords: GetRegisteredAssociateId()
+so.topic: reference
 ---
 
 

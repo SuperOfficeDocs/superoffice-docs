@@ -1,9 +1,9 @@
 ---
-title: Integer GetProbability()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Integer GetProbability()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_GetProbability
+description: NSSaleSummaryItem.GetProbability()
+intellisense: NSSaleSummaryItem.GetProbability
 keywords: GetProbability()
+so.topic: reference
 ---
 
 

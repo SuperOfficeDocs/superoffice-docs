@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_SetUpdated_DateTime_p_0
+description: NSCRMScriptEntity.SetUpdated(DateTime p_0)
+intellisense: NSCRMScriptEntity.SetUpdated
 sortOrder: 2147
 keywords: SetUpdated(DateTime)
+so.topic: reference
 ---
 
 

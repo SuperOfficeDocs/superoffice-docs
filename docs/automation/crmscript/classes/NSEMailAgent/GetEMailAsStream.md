@@ -1,10 +1,10 @@
 ---
-title: NSStream GetEMailAsStream(NSEMailConnectionInfo connectionInfo, Integer messageServerId, Bool stripAttachments)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSStream GetEMailAsStream(NSEMailConnectionInfo p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetEMailAsStream_NSEMailConnectionInfo_p_0_Integer_p_1_Bool_p_2
+description: NSEMailAgent.GetEMailAsStream(NSEMailConnectionInfo p_0, Integer p_1, Bool p_2)
+intellisense: NSEMailAgent.GetEMailAsStream
 sortOrder: 2844
 keywords: GetEMailAsStream(NSEMailConnectionInfo,Integer,Bool)
+so.topic: reference
 ---
 
 

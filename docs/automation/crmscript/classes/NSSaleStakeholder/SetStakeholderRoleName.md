@@ -1,9 +1,9 @@
 ---
-title: Void SetStakeholderRoleName(String StakeholderRoleName)
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Void SetStakeholderRoleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_SetStakeholderRoleName_String_p_0
+description: NSSaleStakeholder.SetStakeholderRoleName(String p_0)
+intellisense: NSSaleStakeholder.SetStakeholderRoleName
 keywords: SetStakeholderRoleName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPriceUnit(String PriceUnit)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetPriceUnit(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetPriceUnit_String_p_0
+description: NSQuoteLine.SetPriceUnit(String p_0)
+intellisense: NSQuoteLine.SetPriceUnit
 keywords: SetPriceUnit(String)
+so.topic: reference
 ---
 
 

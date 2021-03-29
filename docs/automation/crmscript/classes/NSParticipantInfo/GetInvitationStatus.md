@@ -1,9 +1,9 @@
 ---
-title: Integer GetInvitationStatus()
-path: /EJScript/Classes/NSParticipantInfo/Member functions/Integer GetInvitationStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantInfo_GetInvitationStatus
+description: NSParticipantInfo.GetInvitationStatus()
+intellisense: NSParticipantInfo.GetInvitationStatus
 keywords: GetInvitationStatus()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetLastRecalculated(DateTime LastRecalculated)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetLastRecalculated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetLastRecalculated_DateTime_p_0
+description: NSQuoteVersion.SetLastRecalculated(DateTime p_0)
+intellisense: NSQuoteVersion.SetLastRecalculated
 keywords: SetLastRecalculated(DateTime)
+so.topic: reference
 ---
 
 

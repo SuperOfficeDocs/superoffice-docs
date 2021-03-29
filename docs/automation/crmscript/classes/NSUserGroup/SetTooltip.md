@@ -1,9 +1,9 @@
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSUserGroup/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserGroup_SetTooltip_String_p_0
+description: NSUserGroup.SetTooltip(String p_0)
+intellisense: NSUserGroup.SetTooltip
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersion CreateAndSaveQuoteVersion(Integer quoteVersionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersion CreateAndSaveQuoteVersion(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateAndSaveQuoteVersion_Integer_p_0
+description: NSQuoteAgent.CreateAndSaveQuoteVersion(Integer p_0)
+intellisense: NSQuoteAgent.CreateAndSaveQuoteVersion
 keywords: CreateAndSaveQuoteVersion(Integer)
+so.topic: reference
 ---
 
 

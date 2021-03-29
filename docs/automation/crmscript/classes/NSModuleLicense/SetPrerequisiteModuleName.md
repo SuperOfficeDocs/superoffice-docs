@@ -1,9 +1,9 @@
 ---
-title: Void SetPrerequisiteModuleName(String PrerequisiteModuleName)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetPrerequisiteModuleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetPrerequisiteModuleName_String_p_0
+description: NSModuleLicense.SetPrerequisiteModuleName(String p_0)
+intellisense: NSModuleLicense.SetPrerequisiteModuleName
 keywords: SetPrerequisiteModuleName(String)
+so.topic: reference
 ---
 
 

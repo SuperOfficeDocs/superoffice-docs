@@ -1,9 +1,9 @@
 ---
-title: Void setMin(Integer min)
-path: /EJScript/Classes/Time/Member functions/Void setMin(Integer min)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Time_setMin_Integer_min
+description: Time.setMin(Integer min)
+intellisense: Time.setMin
 keywords: setMin(Integer)
+so.topic: reference
 ---
 
 This functipn sets the minutes of the time.

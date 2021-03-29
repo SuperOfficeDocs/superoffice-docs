@@ -1,9 +1,9 @@
 ---
-title: NSForeignSystemAgent
-path: /EJScript/Classes/NSForeignSystemAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent
+description: NSForeignSystemAgent
+intellisense: Void.NSForeignSystemAgent
 sortOrder: 3750
+so.topic: reference
 ---
 
 

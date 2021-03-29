@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsAutoAdvance()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Bool GetIsAutoAdvance()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeEntity_GetIsAutoAdvance
+description: NSProjectTypeEntity.GetIsAutoAdvance()
+intellisense: NSProjectTypeEntity.GetIsAutoAdvance
 keywords: GetIsAutoAdvance()
+so.topic: reference
 ---
 
 

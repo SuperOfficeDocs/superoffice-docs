@@ -1,10 +1,10 @@
 ---
-title: Integer GetExtAppId()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetExtAppId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetExtAppId
+description: NSExtAppEntity.GetExtAppId()
+intellisense: NSExtAppEntity.GetExtAppId
 sortOrder: 3367
 keywords: GetExtAppId()
+so.topic: reference
 ---
 
 

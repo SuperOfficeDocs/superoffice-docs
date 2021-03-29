@@ -1,9 +1,9 @@
 ---
-title: Bool
-path: /EJScript/Classes/Bool
-intellisense: 1
-classref: 1
+title: crmscript_ref_Bool
+description: Bool
+intellisense: Void.Bool
 sortOrder: 129
+so.topic: reference
 ---
 
 

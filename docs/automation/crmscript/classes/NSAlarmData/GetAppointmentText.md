@@ -1,10 +1,10 @@
 ---
-title: String GetAppointmentText()
-path: /EJScript/Classes/NSAlarmData/Member functions/String GetAppointmentText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_GetAppointmentText
+description: NSAlarmData.GetAppointmentText()
+intellisense: NSAlarmData.GetAppointmentText
 sortOrder: 658
 keywords: GetAppointmentText()
+so.topic: reference
 ---
 
 

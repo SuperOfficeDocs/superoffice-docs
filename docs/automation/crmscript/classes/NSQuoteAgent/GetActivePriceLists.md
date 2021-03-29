@@ -1,9 +1,9 @@
 ---
-title: NSPriceList[] GetActivePriceLists(Integer quoteConnectionId, String currency)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList[] GetActivePriceLists(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_GetActivePriceLists_Integer_p_0_String_p_1
+description: NSQuoteAgent.GetActivePriceLists(Integer p_0, String p_1)
+intellisense: NSQuoteAgent.GetActivePriceLists
 keywords: GetActivePriceLists(Integer,String)
+so.topic: reference
 ---
 
 

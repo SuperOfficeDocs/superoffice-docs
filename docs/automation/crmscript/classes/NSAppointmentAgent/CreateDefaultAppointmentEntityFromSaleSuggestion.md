@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity CreateDefaultAppointmentEntityFromSaleSuggestion(Integer suggestedAppointmentId, Integer saleId, Bool createNow, Integer p3)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity CreateDefaultAppointmentEntityFromSaleSuggestion(Integer p_0, Integer p_1, Bool p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultAppointmentEntityFromSaleSuggestion_Integer_p_0_Integer_p_1_Bool_p_2_Integer_p_3
+description: NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion(Integer p_0, Integer p_1, Bool p_2, Integer p_3)
+intellisense: NSAppointmentAgent.CreateDefaultAppointmentEntityFromSaleSuggestion
 sortOrder: 878
 keywords: CreateDefaultAppointmentEntityFromSaleSuggestion(Integer,Integer,Bool,Integer)
+so.topic: reference
 ---
 
 

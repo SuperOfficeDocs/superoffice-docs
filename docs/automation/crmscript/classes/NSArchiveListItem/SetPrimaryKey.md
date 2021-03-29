@@ -1,10 +1,10 @@
 ---
-title: Void SetPrimaryKey(Integer PrimaryKey)
-path: /EJScript/Classes/NSArchiveListItem/Member functions/Void SetPrimaryKey(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveListItem_SetPrimaryKey_Integer_p_0
+description: NSArchiveListItem.SetPrimaryKey(Integer p_0)
+intellisense: NSArchiveListItem.SetPrimaryKey
 sortOrder: 1186
 keywords: SetPrimaryKey(Integer)
+so.topic: reference
 ---
 
 

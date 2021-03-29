@@ -1,10 +1,10 @@
 ---
-title: NSDashboardTile SaveDashboardTile(NSDashboardTile dashboardTile)
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboardTile SaveDashboardTile(NSDashboardTile p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_SaveDashboardTile_NSDashboardTile_p_0
+description: NSDashboardAgent.SaveDashboardTile(NSDashboardTile p_0)
+intellisense: NSDashboardAgent.SaveDashboardTile
 sortOrder: 2280
 keywords: SaveDashboardTile(NSDashboardTile)
+so.topic: reference
 ---
 
 

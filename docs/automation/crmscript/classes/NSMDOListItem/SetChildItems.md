@@ -1,9 +1,9 @@
 ---
-title: Void SetChildItems(NSMDOListItem[] ChildItems)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetChildItems(NSMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_SetChildItems_NSMDOListItem__p_0
+description: NSMDOListItem.SetChildItems(NSMDOListItem[] p_0)
+intellisense: NSMDOListItem.SetChildItems
 keywords: SetChildItems(NSMDOListItem[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetCanAssign()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Bool GetCanAssign()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetCanAssign
+description: NSModuleLicenseLink.GetCanAssign()
+intellisense: NSModuleLicenseLink.GetCanAssign
 keywords: GetCanAssign()
+so.topic: reference
 ---
 
 

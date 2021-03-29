@@ -1,10 +1,10 @@
 ---
-title: NSFieldMetadata[] GetFieldsForNewErpActor(Integer erpConnectionId, Integer erpActorType)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSFieldMetadata[] GetFieldsForNewErpActor(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetFieldsForNewErpActor_Integer_p_0_Integer_p_1
+description: NSErpSyncAgent.GetFieldsForNewErpActor(Integer p_0, Integer p_1)
+intellisense: NSErpSyncAgent.GetFieldsForNewErpActor
 sortOrder: 3210
 keywords: GetFieldsForNewErpActor(Integer,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetEncoding(Integer Encoding)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetEncoding(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetEncoding_Integer_p_0
+description: NSTemplateVariablesParameters.SetEncoding(Integer p_0)
+intellisense: NSTemplateVariablesParameters.SetEncoding
 keywords: SetEncoding(Integer)
+so.topic: reference
 ---
 
 

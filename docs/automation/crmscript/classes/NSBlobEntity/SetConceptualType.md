@@ -1,10 +1,10 @@
 ---
-title: Void SetConceptualType(String ConceptualType)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetConceptualType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetConceptualType_String_p_0
+description: NSBlobEntity.SetConceptualType(String p_0)
+intellisense: NSBlobEntity.SetConceptualType
 sortOrder: 1455
 keywords: SetConceptualType(String)
+so.topic: reference
 ---
 
 

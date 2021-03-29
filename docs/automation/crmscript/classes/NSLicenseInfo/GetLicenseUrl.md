@@ -1,9 +1,9 @@
 ---
-title: String GetLicenseUrl()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetLicenseUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetLicenseUrl
+description: NSLicenseInfo.GetLicenseUrl()
+intellisense: NSLicenseInfo.GetLicenseUrl
 keywords: GetLicenseUrl()
+so.topic: reference
 ---
 
 

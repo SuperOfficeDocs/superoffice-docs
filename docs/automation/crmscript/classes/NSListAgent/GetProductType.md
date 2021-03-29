@@ -1,9 +1,9 @@
 ---
-title: NSProductType GetProductType(Integer productTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductType GetProductType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProductType_Integer_p_0
+description: NSListAgent.GetProductType(Integer p_0)
+intellisense: NSListAgent.GetProductType
 keywords: GetProductType(Integer)
+so.topic: reference
 ---
 
 

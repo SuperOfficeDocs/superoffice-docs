@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayValues(String[] DisplayValues)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetDisplayValues(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetDisplayValues_String__p_0
+description: NSFieldValueInfo.SetDisplayValues(String[] p_0)
+intellisense: NSFieldValueInfo.SetDisplayValues
 sortOrder: 3639
 keywords: SetDisplayValues(String[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetBirthDate(DateTime BirthDate)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetBirthDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetBirthDate_DateTime_p_0
+description: NSPersonEntity.SetBirthDate(DateTime p_0)
+intellisense: NSPersonEntity.SetBirthDate
 keywords: SetBirthDate(DateTime)
+so.topic: reference
 ---
 
 

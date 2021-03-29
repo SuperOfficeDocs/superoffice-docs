@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayTooltip(String DisplayTooltip)
-path: /EJScript/Classes/NSQuoteVersionStatusInformation/Member functions/Void SetDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation_SetDisplayTooltip_String_p_0
+description: NSQuoteVersionStatusInformation.SetDisplayTooltip(String p_0)
+intellisense: NSQuoteVersionStatusInformation.SetDisplayTooltip
 keywords: SetDisplayTooltip(String)
+so.topic: reference
 ---
 
 

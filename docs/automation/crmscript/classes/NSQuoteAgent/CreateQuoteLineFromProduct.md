@@ -1,9 +1,9 @@
 ---
-title: NSQuoteLine CreateQuoteLineFromProduct(Integer quoteAlternativeId, NSProduct product)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteLine CreateQuoteLineFromProduct(Integer p_0, NSProduct p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateQuoteLineFromProduct_Integer_p_0_NSProduct_p_1
+description: NSQuoteAgent.CreateQuoteLineFromProduct(Integer p_0, NSProduct p_1)
+intellisense: NSQuoteAgent.CreateQuoteLineFromProduct
 keywords: CreateQuoteLineFromProduct(Integer,NSProduct)
+so.topic: reference
 ---
 
 

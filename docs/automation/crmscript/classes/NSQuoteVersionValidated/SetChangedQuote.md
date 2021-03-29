@@ -1,9 +1,9 @@
 ---
-title: Void SetChangedQuote(NSQuote ChangedQuote)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetChangedQuote(NSQuote p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_SetChangedQuote_NSQuote_p_0
+description: NSQuoteVersionValidated.SetChangedQuote(NSQuote p_0)
+intellisense: NSQuoteVersionValidated.SetChangedQuote
 keywords: SetChangedQuote(NSQuote)
+so.topic: reference
 ---
 
 

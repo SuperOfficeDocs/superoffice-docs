@@ -1,9 +1,9 @@
 ---
-title: NSCompetitor[] GetCompetitorList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCompetitor[] GetCompetitorList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCompetitorList_Integer__p_0
+description: NSListAgent.GetCompetitorList(Integer[] p_0)
+intellisense: NSListAgent.GetCompetitorList
 keywords: GetCompetitorList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Competitor objects.

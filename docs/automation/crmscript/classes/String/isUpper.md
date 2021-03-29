@@ -1,9 +1,9 @@
 ---
-title: Bool isUpper()
-path: /EJScript/Classes/String/Member functions/Bool isUpper()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_isUpper
+description: String.isUpper()
+intellisense: String.isUpper
 keywords: isUpper()
+so.topic: reference
 ---
 
 

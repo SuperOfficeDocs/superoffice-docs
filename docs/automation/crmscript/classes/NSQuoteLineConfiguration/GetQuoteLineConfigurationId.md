@@ -1,9 +1,9 @@
 ---
-title: Integer GetQuoteLineConfigurationId()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Integer GetQuoteLineConfigurationId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetQuoteLineConfigurationId
+description: NSQuoteLineConfiguration.GetQuoteLineConfigurationId()
+intellisense: NSQuoteLineConfiguration.GetQuoteLineConfigurationId
 keywords: GetQuoteLineConfigurationId()
+so.topic: reference
 ---
 
 

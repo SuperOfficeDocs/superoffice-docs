@@ -1,10 +1,10 @@
 ---
-title: Void SetResponse(String Response)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetResponse(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_SetResponse_String_p_0
+description: NSFormSubmissionEntity.SetResponse(String p_0)
+intellisense: NSFormSubmissionEntity.SetResponse
 sortOrder: 3846
 keywords: SetResponse(String)
+so.topic: reference
 ---
 
 

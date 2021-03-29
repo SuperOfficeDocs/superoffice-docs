@@ -1,9 +1,9 @@
 ---
-title: String GetPersonCountry()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String GetPersonCountry()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPersonCountry
+description: NSParticipantSyncData.GetPersonCountry()
+intellisense: NSParticipantSyncData.GetPersonCountry
 keywords: GetPersonCountry()
+so.topic: reference
 ---
 
 

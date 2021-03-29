@@ -1,9 +1,9 @@
 ---
-title: Void SetVAT(Float VAT)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetVAT(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetVAT_Float_p_0
+description: NSQuoteLine.SetVAT(Float p_0)
+intellisense: NSQuoteLine.SetVAT
 keywords: SetVAT(Float)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetOpenTotalOwnCurrency(Float OpenTotalOwnCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpenTotalOwnCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetOpenTotalOwnCurrency_Float_p_0
+description: NSSaleSummary.SetOpenTotalOwnCurrency(Float p_0)
+intellisense: NSSaleSummary.SetOpenTotalOwnCurrency
 keywords: SetOpenTotalOwnCurrency(Float)
+so.topic: reference
 ---
 
 

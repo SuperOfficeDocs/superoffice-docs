@@ -1,9 +1,9 @@
 ---
-title: Bool GetSignOn()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetSignOn()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOn
+description: NSProjectEvent.GetSignOn()
+intellisense: NSProjectEvent.GetSignOn
 keywords: GetSignOn()
+so.topic: reference
 ---
 
 

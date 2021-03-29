@@ -1,10 +1,10 @@
 ---
-title: Integer CleanUpBookingDeleted(Integer[] p0)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Integer CleanUpBookingDeleted(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CleanUpBookingDeleted_Integer__p_0
+description: NSAppointmentAgent.CleanUpBookingDeleted(Integer[] p_0)
+intellisense: NSAppointmentAgent.CleanUpBookingDeleted
 sortOrder: 828
 keywords: CleanUpBookingDeleted(Integer[])
+so.topic: reference
 ---
 
 

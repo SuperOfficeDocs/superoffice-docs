@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescriptionLine GetPreferenceDescriptionLineFromIdAndValue(Integer prefDescId, String prefValue)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescriptionLine GetPreferenceDescriptionLineFromIdAndValue(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetPreferenceDescriptionLineFromIdAndValue_Integer_p_0_String_p_1
+description: NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue(Integer p_0, String p_1)
+intellisense: NSPreferenceAgent.GetPreferenceDescriptionLineFromIdAndValue
 keywords: GetPreferenceDescriptionLineFromIdAndValue(Integer,String)
+so.topic: reference
 ---
 
 

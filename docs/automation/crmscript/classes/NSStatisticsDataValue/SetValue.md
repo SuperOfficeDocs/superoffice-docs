@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(Float Value)
-path: /EJScript/Classes/NSStatisticsDataValue/Member functions/Void SetValue(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatisticsDataValue_SetValue_Float_p_0
+description: NSStatisticsDataValue.SetValue(Float p_0)
+intellisense: NSStatisticsDataValue.SetValue
 keywords: SetValue(Float)
+so.topic: reference
 ---
 
 

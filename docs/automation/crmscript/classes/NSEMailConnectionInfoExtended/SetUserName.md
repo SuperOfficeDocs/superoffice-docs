@@ -1,10 +1,10 @@
 ---
-title: Void SetUserName(String UserName)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetUserName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetUserName_String_p_0
+description: NSEMailConnectionInfoExtended.SetUserName(String p_0)
+intellisense: NSEMailConnectionInfoExtended.SetUserName
 sortOrder: 2934
 keywords: SetUserName(String)
+so.topic: reference
 ---
 
 

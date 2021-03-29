@@ -1,10 +1,10 @@
 ---
-title: Void SetDeleted(Bool Deleted)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetDeleted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetDeleted_Bool_p_0
+description: NSErpConnection.SetDeleted(Bool p_0)
+intellisense: NSErpConnection.SetDeleted
 sortOrder: 3097
 keywords: SetDeleted(Bool)
+so.topic: reference
 ---
 
 

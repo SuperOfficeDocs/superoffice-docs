@@ -1,9 +1,9 @@
 ---
-title: Void SetSystemWebPanels(NSWebPanelEntity[] SystemWebPanels)
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Void SetSystemWebPanels(NSWebPanelEntity[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_SetSystemWebPanels_NSWebPanelEntity__p_0
+description: NSPocketStartupData.SetSystemWebPanels(NSWebPanelEntity[] p_0)
+intellisense: NSPocketStartupData.SetSystemWebPanels
 keywords: SetSystemWebPanels(NSWebPanelEntity[])
+so.topic: reference
 ---
 
 

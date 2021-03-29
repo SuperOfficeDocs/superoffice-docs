@@ -1,9 +1,9 @@
 ---
-title: Integer GetModuleLicenseId()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Integer GetModuleLicenseId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetModuleLicenseId
+description: NSModuleLicenseLink.GetModuleLicenseId()
+intellisense: NSModuleLicenseLink.GetModuleLicenseId
 keywords: GetModuleLicenseId()
+so.topic: reference
 ---
 
 

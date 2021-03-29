@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetCreatedBy
+description: NSAppointmentEntity.GetCreatedBy()
+intellisense: NSAppointmentEntity.GetCreatedBy
 sortOrder: 958
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

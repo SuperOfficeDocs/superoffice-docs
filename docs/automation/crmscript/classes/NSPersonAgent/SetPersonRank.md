@@ -1,9 +1,9 @@
 ---
-title: Bool SetPersonRank(Integer personId, Integer desiredRank)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Bool SetPersonRank(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_SetPersonRank_Integer_p_0_Integer_p_1
+description: NSPersonAgent.SetPersonRank(Integer p_0, Integer p_1)
+intellisense: NSPersonAgent.SetPersonRank
 keywords: SetPersonRank(Integer,Integer)
+so.topic: reference
 ---
 
 

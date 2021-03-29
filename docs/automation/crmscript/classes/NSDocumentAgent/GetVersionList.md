@@ -1,10 +1,10 @@
 ---
-title: NSVersionInfo[] GetVersionList(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSVersionInfo[] GetVersionList(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetVersionList_Integer_p_0
+description: NSDocumentAgent.GetVersionList(Integer p_0)
+intellisense: NSDocumentAgent.GetVersionList
 sortOrder: 2532
 keywords: GetVersionList(Integer)
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSSalesActivity
-path: /EJScript/Classes/NSSalesActivity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSalesActivity
+description: NSSalesActivity
+intellisense: Void.NSSalesActivity
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetPromptUser(Bool PromptUser)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetPromptUser(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_SetPromptUser_Bool_p_0
+description: NSErpSyncDefaultValue.SetPromptUser(Bool p_0)
+intellisense: NSErpSyncDefaultValue.SetPromptUser
 sortOrder: 3274
 keywords: SetPromptUser(Bool)
+so.topic: reference
 ---
 
 

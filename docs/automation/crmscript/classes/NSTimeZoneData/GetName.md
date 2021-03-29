@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_GetName
+description: NSTimeZoneData.GetName()
+intellisense: NSTimeZoneData.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetCreatedBy()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/NSAssociate GetCreatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignAppEntity_GetCreatedBy
+description: NSForeignAppEntity.GetCreatedBy()
+intellisense: NSForeignAppEntity.GetCreatedBy
 sortOrder: 3701
 keywords: GetCreatedBy()
+so.topic: reference
 ---
 
 

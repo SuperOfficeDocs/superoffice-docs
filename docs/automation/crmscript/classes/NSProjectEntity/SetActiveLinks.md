@@ -1,9 +1,9 @@
 ---
-title: Void SetActiveLinks(Integer ActiveLinks)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetActiveLinks(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetActiveLinks_Integer_p_0
+description: NSProjectEntity.SetActiveLinks(Integer p_0)
+intellisense: NSProjectEntity.SetActiveLinks
 keywords: SetActiveLinks(Integer)
+so.topic: reference
 ---
 
 

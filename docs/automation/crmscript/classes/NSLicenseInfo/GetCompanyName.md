@@ -1,9 +1,9 @@
 ---
-title: String GetCompanyName()
-path: /EJScript/Classes/NSLicenseInfo/Member functions/String GetCompanyName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_GetCompanyName
+description: NSLicenseInfo.GetCompanyName()
+intellisense: NSLicenseInfo.GetCompanyName
 keywords: GetCompanyName()
+so.topic: reference
 ---
 
 

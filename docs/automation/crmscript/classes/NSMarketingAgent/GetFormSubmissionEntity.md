@@ -1,9 +1,9 @@
 ---
-title: NSFormSubmissionEntity GetFormSubmissionEntity(Integer formSubmissionEntityId)
-path: /EJScript/Classes/NSMarketingAgent/Member functions/NSFormSubmissionEntity GetFormSubmissionEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMarketingAgent_GetFormSubmissionEntity_Integer_p_0
+description: NSMarketingAgent.GetFormSubmissionEntity(Integer p_0)
+intellisense: NSMarketingAgent.GetFormSubmissionEntity
 keywords: GetFormSubmissionEntity(Integer)
+so.topic: reference
 ---
 
 

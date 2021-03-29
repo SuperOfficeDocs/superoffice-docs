@@ -1,9 +1,9 @@
 ---
-title: Void SetIncludeStoppedRecipients(Bool IncludeStoppedRecipients)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetIncludeStoppedRecipients(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetIncludeStoppedRecipients_Bool_p_0
+description: NSMailMergeSettings.SetIncludeStoppedRecipients(Bool p_0)
+intellisense: NSMailMergeSettings.SetIncludeStoppedRecipients
 keywords: SetIncludeStoppedRecipients(Bool)
+so.topic: reference
 ---
 
 

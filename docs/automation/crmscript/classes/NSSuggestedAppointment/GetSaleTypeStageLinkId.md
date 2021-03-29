@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleTypeStageLinkId()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetSaleTypeStageLinkId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetSaleTypeStageLinkId
+description: NSSuggestedAppointment.GetSaleTypeStageLinkId()
+intellisense: NSSuggestedAppointment.GetSaleTypeStageLinkId
 keywords: GetSaleTypeStageLinkId()
+so.topic: reference
 ---
 
 

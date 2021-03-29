@@ -1,9 +1,9 @@
 ---
-title: NSListItemEntity GetFromListDefinition(Integer id, Integer udListDefinitionId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity GetFromListDefinition(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetFromListDefinition_Integer_p_0_Integer_p_1
+description: NSListAgent.GetFromListDefinition(Integer p_0, Integer p_1)
+intellisense: NSListAgent.GetFromListDefinition
 keywords: GetFromListDefinition(Integer,Integer)
+so.topic: reference
 ---
 
 

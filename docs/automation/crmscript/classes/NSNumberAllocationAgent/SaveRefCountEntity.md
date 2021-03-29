@@ -1,9 +1,9 @@
 ---
-title: NSRefCountEntity SaveRefCountEntity(NSRefCountEntity refCountEntity)
-path: /EJScript/Classes/NSNumberAllocationAgent/Member functions/NSRefCountEntity SaveRefCountEntity(NSRefCountEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSNumberAllocationAgent_SaveRefCountEntity_NSRefCountEntity_p_0
+description: NSNumberAllocationAgent.SaveRefCountEntity(NSRefCountEntity p_0)
+intellisense: NSNumberAllocationAgent.SaveRefCountEntity
 keywords: SaveRefCountEntity(NSRefCountEntity)
+so.topic: reference
 ---
 
 

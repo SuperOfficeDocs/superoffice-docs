@@ -1,9 +1,9 @@
 ---
-title: NSDashboardAgent
-path: /EJScript/Classes/NSDashboardAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent
+description: NSDashboardAgent
+intellisense: Void.NSDashboardAgent
 sortOrder: 2270
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String getValue(String name)
-path: /EJScript/Classes/Attachment/Member functions/String getValue(String name)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Attachment_getValue_String_name
+description: Attachment.getValue(String name)
+intellisense: Attachment.getValue
 sortOrder: 126
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Get a value from the attachment class. Returns the value as a string.

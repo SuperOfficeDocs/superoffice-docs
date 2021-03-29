@@ -1,9 +1,9 @@
 ---
-title: Void SetNumMessages(Integer NumMessages)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetNumMessages(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetNumMessages_Integer_p_0
+description: NSTicket.SetNumMessages(Integer p_0)
+intellisense: NSTicket.SetNumMessages
 keywords: SetNumMessages(Integer)
+so.topic: reference
 ---
 
 

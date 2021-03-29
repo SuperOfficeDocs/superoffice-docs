@@ -1,9 +1,9 @@
 ---
-title: NSSaleSummary CreateDefaultSaleSummary()
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleSummary CreateDefaultSaleSummary()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_CreateDefaultSaleSummary
+description: NSSaleAgent.CreateDefaultSaleSummary()
+intellisense: NSSaleAgent.CreateDefaultSaleSummary
 keywords: CreateDefaultSaleSummary()
+so.topic: reference
 ---
 
 

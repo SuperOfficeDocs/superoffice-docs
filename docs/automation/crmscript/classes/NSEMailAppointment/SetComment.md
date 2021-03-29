@@ -1,10 +1,10 @@
 ---
-title: Void SetComment(String Comment)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetComment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_SetComment_String_p_0
+description: NSEMailAppointment.SetComment(String p_0)
+intellisense: NSEMailAppointment.SetComment
 sortOrder: 2884
 keywords: SetComment(String)
+so.topic: reference
 ---
 
 

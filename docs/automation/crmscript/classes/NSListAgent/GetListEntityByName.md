@@ -1,9 +1,9 @@
 ---
-title: NSListEntity GetListEntityByName(String name)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListEntity GetListEntityByName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetListEntityByName_String_p_0
+description: NSListAgent.GetListEntityByName(String p_0)
+intellisense: NSListAgent.GetListEntityByName
 keywords: GetListEntityByName(String)
+so.topic: reference
 ---
 
 

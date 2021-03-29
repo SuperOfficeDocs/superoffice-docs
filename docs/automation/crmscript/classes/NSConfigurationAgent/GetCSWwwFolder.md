@@ -1,10 +1,10 @@
 ---
-title: String GetCSWwwFolder()
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetCSWwwFolder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetCSWwwFolder
+description: NSConfigurationAgent.GetCSWwwFolder()
+intellisense: NSConfigurationAgent.GetCSWwwFolder
 sortOrder: 1611
 keywords: GetCSWwwFolder()
+so.topic: reference
 ---
 
 

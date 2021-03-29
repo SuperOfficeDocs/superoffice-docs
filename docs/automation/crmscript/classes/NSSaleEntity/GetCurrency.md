@@ -1,9 +1,9 @@
 ---
-title: NSCurrency GetCurrency()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSCurrency GetCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetCurrency
+description: NSSaleEntity.GetCurrency()
+intellisense: NSSaleEntity.GetCurrency
 keywords: GetCurrency()
+so.topic: reference
 ---
 
 

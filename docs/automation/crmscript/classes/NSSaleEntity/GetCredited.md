@@ -1,9 +1,9 @@
 ---
-title: NSCredited GetCredited()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSCredited GetCredited()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetCredited
+description: NSSaleEntity.GetCredited()
+intellisense: NSSaleEntity.GetCredited
 keywords: GetCredited()
+so.topic: reference
 ---
 
 

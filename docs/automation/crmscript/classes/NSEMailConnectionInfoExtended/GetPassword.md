@@ -1,10 +1,10 @@
 ---
-title: String GetPassword()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/String GetPassword()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_GetPassword
+description: NSEMailConnectionInfoExtended.GetPassword()
+intellisense: NSEMailConnectionInfoExtended.GetPassword
 sortOrder: 2925
 keywords: GetPassword()
+so.topic: reference
 ---
 
 

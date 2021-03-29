@@ -1,9 +1,9 @@
 ---
-title: Void SetAmount(Float Amount)
-path: /EJScript/Classes/NSSale/Member functions/Void SetAmount(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetAmount_Float_p_0
+description: NSSale.SetAmount(Float p_0)
+intellisense: NSSale.SetAmount
 keywords: SetAmount(Float)
+so.topic: reference
 ---
 
 

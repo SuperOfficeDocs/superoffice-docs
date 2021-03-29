@@ -1,10 +1,10 @@
 ---
-title: Void SetSent(DateTime Sent)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetSent(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetSent_DateTime_p_0
+description: NSEMailEntity.SetSent(DateTime p_0)
+intellisense: NSEMailEntity.SetSent
 sortOrder: 2995
 keywords: SetSent(DateTime)
+so.topic: reference
 ---
 
 

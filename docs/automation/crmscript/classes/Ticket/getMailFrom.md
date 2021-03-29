@@ -1,9 +1,9 @@
 ---
-title: String getMailFrom()
-path: /EJScript/Classes/Ticket/Member functions/String getMailFrom()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_getMailFrom
+description: Ticket.getMailFrom()
+intellisense: Ticket.getMailFrom
 keywords: getMailFrom()
+so.topic: reference
 ---
 
 

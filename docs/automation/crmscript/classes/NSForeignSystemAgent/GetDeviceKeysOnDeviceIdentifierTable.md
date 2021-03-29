@@ -1,10 +1,10 @@
 ---
-title: NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(String applicationName, String deviceName, String deviceIdentifier, String tableName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey[] GetDeviceKeysOnDeviceIdentifierTable(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetDeviceKeysOnDeviceIdentifierTable_String_p_0_String_p_1_String_p_2_String_p_3
+description: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable(String p_0, String p_1, String p_2, String p_3)
+intellisense: NSForeignSystemAgent.GetDeviceKeysOnDeviceIdentifierTable
 sortOrder: 3772
 keywords: GetDeviceKeysOnDeviceIdentifierTable(String,String,String,String)
+so.topic: reference
 ---
 
 

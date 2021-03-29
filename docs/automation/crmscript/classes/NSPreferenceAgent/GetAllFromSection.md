@@ -1,9 +1,9 @@
 ---
-title: NSPreferenceDescription[] GetAllFromSection(String section)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreferenceDescription[] GetAllFromSection(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetAllFromSection_String_p_0
+description: NSPreferenceAgent.GetAllFromSection(String p_0)
+intellisense: NSPreferenceAgent.GetAllFromSection
 keywords: GetAllFromSection(String)
+so.topic: reference
 ---
 
 

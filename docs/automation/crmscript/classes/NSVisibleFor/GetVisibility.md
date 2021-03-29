@@ -1,9 +1,9 @@
 ---
-title: Integer GetVisibility()
-path: /EJScript/Classes/NSVisibleFor/Member functions/Integer GetVisibility()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVisibleFor_GetVisibility
+description: NSVisibleFor.GetVisibility()
+intellisense: NSVisibleFor.GetVisibility
 keywords: GetVisibility()
+so.topic: reference
 ---
 
 The visibility of the record - 0=All, 1=Associate, 2=Group

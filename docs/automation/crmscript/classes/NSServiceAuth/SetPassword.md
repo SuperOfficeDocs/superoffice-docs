@@ -1,9 +1,9 @@
 ---
-title: Void SetPassword(String Password)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetPassword(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_SetPassword_String_p_0
+description: NSServiceAuth.SetPassword(String p_0)
+intellisense: NSServiceAuth.SetPassword
 keywords: SetPassword(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSDuplicateRule[] GetDuplicateRules()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSDuplicateRule[] GetDuplicateRules()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetDuplicateRules
+description: NSProjectAgent.GetDuplicateRules()
+intellisense: NSProjectAgent.GetDuplicateRules
 keywords: GetDuplicateRules()
+so.topic: reference
 ---
 
 

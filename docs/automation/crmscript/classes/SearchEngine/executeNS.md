@@ -1,9 +1,9 @@
 ---
-title: Integer executeNS()
-path: /EJScript/Classes/SearchEngine/member functions/Integer executeNS()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_executeNS
+description: SearchEngine.executeNS()
+intellisense: SearchEngine.executeNS
 keywords: executeNS()
+so.topic: reference
 ---
 
 

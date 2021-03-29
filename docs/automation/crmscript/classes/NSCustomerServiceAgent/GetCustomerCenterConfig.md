@@ -1,10 +1,10 @@
 ---
-title: NSCustomerCenterConfig GetCustomerCenterConfig(Integer customerCenterConfigId)
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerCenterConfig GetCustomerCenterConfig(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_GetCustomerCenterConfig_Integer_p_0
+description: NSCustomerServiceAgent.GetCustomerCenterConfig(Integer p_0)
+intellisense: NSCustomerServiceAgent.GetCustomerCenterConfig
 sortOrder: 2228
 keywords: GetCustomerCenterConfig(Integer)
+so.topic: reference
 ---
 
 

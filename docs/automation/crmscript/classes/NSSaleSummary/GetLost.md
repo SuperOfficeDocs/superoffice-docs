@@ -1,9 +1,9 @@
 ---
-title: Integer GetLost()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetLost()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetLost
+description: NSSaleSummary.GetLost()
+intellisense: NSSaleSummary.GetLost
 keywords: GetLost()
+so.topic: reference
 ---
 
 

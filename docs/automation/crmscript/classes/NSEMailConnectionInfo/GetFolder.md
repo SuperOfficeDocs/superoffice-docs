@@ -1,10 +1,10 @@
 ---
-title: String GetFolder()
-path: /EJScript/Classes/NSEMailConnectionInfo/Member functions/String GetFolder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfo_GetFolder
+description: NSEMailConnectionInfo.GetFolder()
+intellisense: NSEMailConnectionInfo.GetFolder
 sortOrder: 2911
 keywords: GetFolder()
+so.topic: reference
 ---
 
 

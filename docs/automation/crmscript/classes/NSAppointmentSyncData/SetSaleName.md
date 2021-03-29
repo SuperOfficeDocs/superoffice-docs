@@ -1,10 +1,10 @@
 ---
-title: Void SetSaleName(String SaleName)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetSaleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetSaleName_String_p_0
+description: NSAppointmentSyncData.SetSaleName(String p_0)
+intellisense: NSAppointmentSyncData.SetSaleName
 sortOrder: 1089
 keywords: SetSaleName(String)
+so.topic: reference
 ---
 
 

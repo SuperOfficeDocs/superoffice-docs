@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetSaleId_Integer_p_0
+description: NSTemplateVariablesParameters.SetSaleId(Integer p_0)
+intellisense: NSTemplateVariablesParameters.SetSaleId
 keywords: SetSaleId(Integer)
+so.topic: reference
 ---
 
 

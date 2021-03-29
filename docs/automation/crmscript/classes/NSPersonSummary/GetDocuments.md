@@ -1,9 +1,9 @@
 ---
-title: NSActivitySummaryItem[] GetDocuments()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSActivitySummaryItem[] GetDocuments()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_GetDocuments
+description: NSPersonSummary.GetDocuments()
+intellisense: NSPersonSummary.GetDocuments
 keywords: GetDocuments()
+so.topic: reference
 ---
 
 

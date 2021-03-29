@@ -1,10 +1,10 @@
 ---
-title: Void SetNumberOfLicensesAdded(Integer NumberOfLicensesAdded)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetNumberOfLicensesAdded(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesAdded_Integer_p_0
+description: NSExtendedModuleLicense.SetNumberOfLicensesAdded(Integer p_0)
+intellisense: NSExtendedModuleLicense.SetNumberOfLicensesAdded
 sortOrder: 3427
 keywords: SetNumberOfLicensesAdded(Integer)
+so.topic: reference
 ---
 
 

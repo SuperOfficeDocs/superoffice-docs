@@ -1,9 +1,9 @@
 ---
-title: Void SetCode(String Code)
-path: /EJScript/Classes/NSQuoteLine/Member functions/Void SetCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_SetCode_String_p_0
+description: NSQuoteLine.SetCode(String p_0)
+intellisense: NSQuoteLine.SetCode
 keywords: SetCode(String)
+so.topic: reference
 ---
 
 

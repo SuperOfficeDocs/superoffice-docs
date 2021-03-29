@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetCreatedBy_NSAssociate_p_0
+description: NSAppointmentEntity.SetCreatedBy(NSAssociate p_0)
+intellisense: NSAppointmentEntity.SetCreatedBy
 sortOrder: 994
 keywords: SetCreatedBy(NSAssociate)
+so.topic: reference
 ---
 
 

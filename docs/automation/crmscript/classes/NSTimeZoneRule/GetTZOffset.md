@@ -1,9 +1,9 @@
 ---
-title: Integer GetTZOffset()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetTZOffset()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetTZOffset
+description: NSTimeZoneRule.GetTZOffset()
+intellisense: NSTimeZoneRule.GetTZOffset
 keywords: GetTZOffset()
+so.topic: reference
 ---
 
 

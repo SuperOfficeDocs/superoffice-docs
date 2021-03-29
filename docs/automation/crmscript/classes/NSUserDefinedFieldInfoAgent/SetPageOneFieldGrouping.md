@@ -1,9 +1,9 @@
 ---
-title: Void SetPageOneFieldGrouping(Integer ownerType, Bool active)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void SetPageOneFieldGrouping(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetPageOneFieldGrouping_Integer_p_0_Bool_p_1
+description: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping(Integer p_0, Bool p_1)
+intellisense: NSUserDefinedFieldInfoAgent.SetPageOneFieldGrouping
 keywords: SetPageOneFieldGrouping(Integer,Bool)
+so.topic: reference
 ---
 
 

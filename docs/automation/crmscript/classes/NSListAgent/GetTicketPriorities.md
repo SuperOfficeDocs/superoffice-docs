@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriority[] GetTicketPriorities()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketPriority[] GetTicketPriorities()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTicketPriorities
+description: NSListAgent.GetTicketPriorities()
+intellisense: NSListAgent.GetTicketPriorities
 keywords: GetTicketPriorities()
+so.topic: reference
 ---
 
 

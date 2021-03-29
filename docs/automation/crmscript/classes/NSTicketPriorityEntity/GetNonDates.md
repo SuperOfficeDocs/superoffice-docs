@@ -1,9 +1,9 @@
 ---
-title: DateTime[] GetNonDates()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime[] GetNonDates()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetNonDates
+description: NSTicketPriorityEntity.GetNonDates()
+intellisense: NSTicketPriorityEntity.GetNonDates
 keywords: GetNonDates()
+so.topic: reference
 ---
 
 

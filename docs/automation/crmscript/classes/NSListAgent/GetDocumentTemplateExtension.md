@@ -1,9 +1,9 @@
 ---
-title: String GetDocumentTemplateExtension(Integer documentTemplateId)
-path: /EJScript/Classes/NSListAgent/Member functions/String GetDocumentTemplateExtension(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDocumentTemplateExtension_Integer_p_0
+description: NSListAgent.GetDocumentTemplateExtension(Integer p_0)
+intellisense: NSListAgent.GetDocumentTemplateExtension
 keywords: GetDocumentTemplateExtension(Integer)
+so.topic: reference
 ---
 
 

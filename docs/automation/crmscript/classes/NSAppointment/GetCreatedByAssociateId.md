@@ -1,10 +1,10 @@
 ---
-title: Integer GetCreatedByAssociateId()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetCreatedByAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetCreatedByAssociateId
+description: NSAppointment.GetCreatedByAssociateId()
+intellisense: NSAppointment.GetCreatedByAssociateId
 sortOrder: 735
 keywords: GetCreatedByAssociateId()
+so.topic: reference
 ---
 
 

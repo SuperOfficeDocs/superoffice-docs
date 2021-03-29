@@ -1,9 +1,9 @@
 ---
-title: String GetERPDeliveryTermsKey()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetERPDeliveryTermsKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetERPDeliveryTermsKey
+description: NSQuoteVersion.GetERPDeliveryTermsKey()
+intellisense: NSQuoteVersion.GetERPDeliveryTermsKey
 keywords: GetERPDeliveryTermsKey()
+so.topic: reference
 ---
 
 

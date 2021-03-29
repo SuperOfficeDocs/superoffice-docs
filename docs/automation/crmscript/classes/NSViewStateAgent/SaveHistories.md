@@ -1,9 +1,9 @@
 ---
-title: NSHistory[] SaveHistories(String p0, NSHistory[] history)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] SaveHistories(String p_0, NSHistory[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_SaveHistories_String_p_0_NSHistory__p_1
+description: NSViewStateAgent.SaveHistories(String p_0, NSHistory[] p_1)
+intellisense: NSViewStateAgent.SaveHistories
 keywords: SaveHistories(String,NSHistory[])
+so.topic: reference
 ---
 
 

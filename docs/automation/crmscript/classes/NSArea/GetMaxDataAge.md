@@ -1,10 +1,10 @@
 ---
-title: Integer GetMaxDataAge()
-path: /EJScript/Classes/NSArea/Member functions/Integer GetMaxDataAge()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_GetMaxDataAge
+description: NSArea.GetMaxDataAge()
+intellisense: NSArea.GetMaxDataAge
 sortOrder: 1242
 keywords: GetMaxDataAge()
+so.topic: reference
 ---
 
 

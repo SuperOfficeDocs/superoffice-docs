@@ -1,9 +1,9 @@
 ---
-title: String GetPriceUnit()
-path: /EJScript/Classes/NSProduct/Member functions/String GetPriceUnit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetPriceUnit
+description: NSProduct.GetPriceUnit()
+intellisense: NSProduct.GetPriceUnit
 keywords: GetPriceUnit()
+so.topic: reference
 ---
 
 

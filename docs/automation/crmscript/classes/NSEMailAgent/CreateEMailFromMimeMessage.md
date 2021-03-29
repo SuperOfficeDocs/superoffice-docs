@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity CreateEMailFromMimeMessage(String mimeMessage)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity CreateEMailFromMimeMessage(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateEMailFromMimeMessage_String_p_0
+description: NSEMailAgent.CreateEMailFromMimeMessage(String p_0)
+intellisense: NSEMailAgent.CreateEMailFromMimeMessage
 sortOrder: 2814
 keywords: CreateEMailFromMimeMessage(String)
+so.topic: reference
 ---
 
 

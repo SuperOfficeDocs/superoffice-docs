@@ -1,10 +1,10 @@
 ---
-title: String getRaw()
-path: /EJScript/Classes/Attachment/Member functions/String getRaw()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Attachment_getRaw
+description: Attachment.getRaw()
+intellisense: Attachment.getRaw
 sortOrder: 125
 keywords: getRaw()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSQuoteConnection
-path: /EJScript/Classes/NSQuoteConnection
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection
+description: NSQuoteConnection
+intellisense: Void.NSQuoteConnection
+so.topic: reference
 ---
 
 

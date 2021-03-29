@@ -1,9 +1,9 @@
 ---
-title: NSContact GetContact()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSContact GetContact()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetContact
+description: NSSaleEntity.GetContact()
+intellisense: NSSaleEntity.GetContact
 keywords: GetContact()
+so.topic: reference
 ---
 
 

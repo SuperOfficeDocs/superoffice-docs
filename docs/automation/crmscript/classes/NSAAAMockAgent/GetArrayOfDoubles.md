@@ -1,10 +1,10 @@
 ---
-title: Float[] GetArrayOfDoubles()
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Float[] GetArrayOfDoubles()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_GetArrayOfDoubles
+description: NSAAAMockAgent.GetArrayOfDoubles()
+intellisense: NSAAAMockAgent.GetArrayOfDoubles
 sortOrder: 8889
 keywords: GetArrayOfDoubles()
+so.topic: reference
 ---
 
 

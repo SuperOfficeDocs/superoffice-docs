@@ -1,10 +1,10 @@
 ---
-title: NSTaskListItem CreateDefaultTaskListItem()
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSTaskListItem CreateDefaultTaskListItem()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateDefaultTaskListItem
+description: NSAppointmentAgent.CreateDefaultTaskListItem()
+intellisense: NSAppointmentAgent.CreateDefaultTaskListItem
 sortOrder: 902
 keywords: CreateDefaultTaskListItem()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSConsentSource GetConsentSource(Integer consentSourceId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentSource GetConsentSource(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetConsentSource_Integer_p_0
+description: NSListAgent.GetConsentSource(Integer p_0)
+intellisense: NSListAgent.GetConsentSource
 keywords: GetConsentSource(Integer)
+so.topic: reference
 ---
 
 

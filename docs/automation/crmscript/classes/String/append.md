@@ -1,9 +1,9 @@
 ---
-title: Void append(Byte character)
-path: /EJScript/Classes/String/Member functions/Void append(Byte character)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_append_Byte_character
+description: String.append(Byte character)
+intellisense: String.append
 keywords: append(Byte)
+so.topic: reference
 ---
 
 

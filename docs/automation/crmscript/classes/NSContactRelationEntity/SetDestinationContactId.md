@@ -1,10 +1,10 @@
 ---
-title: Void SetDestinationContactId(Integer DestinationContactId)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetDestinationContactId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetDestinationContactId_Integer_p_0
+description: NSContactRelationEntity.SetDestinationContactId(Integer p_0)
+intellisense: NSContactRelationEntity.SetDestinationContactId
 sortOrder: 1966
 keywords: SetDestinationContactId(Integer)
+so.topic: reference
 ---
 
 

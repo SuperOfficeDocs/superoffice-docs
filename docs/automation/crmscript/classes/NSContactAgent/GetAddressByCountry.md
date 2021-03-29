@@ -1,10 +1,10 @@
 ---
-title: NSAddress GetAddressByCountry(Integer contactId, Integer p1)
-path: /EJScript/Classes/NSContactAgent/Member functions/NSAddress GetAddressByCountry(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetAddressByCountry_Integer_p_0_Integer_p_1
+description: NSContactAgent.GetAddressByCountry(Integer p_0, Integer p_1)
+intellisense: NSContactAgent.GetAddressByCountry
 sortOrder: 1800
 keywords: GetAddressByCountry(Integer,Integer)
+so.topic: reference
 ---
 
 

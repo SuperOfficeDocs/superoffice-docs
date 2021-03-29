@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress[] GetBcc()
-path: /EJScript/Classes/NSEMailEntity/Member functions/NSEMailAddress[] GetBcc()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetBcc
+description: NSEMailEntity.GetBcc()
+intellisense: NSEMailEntity.GetBcc
 sortOrder: 2958
 keywords: GetBcc()
+so.topic: reference
 ---
 
 

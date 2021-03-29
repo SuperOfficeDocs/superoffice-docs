@@ -1,9 +1,9 @@
 ---
-title: Void SetPushNotificationTagsForDevice(String deviceIdentifier, String tags)
-path: /EJScript/Classes/NSPocketAgent/Member functions/Void SetPushNotificationTagsForDevice(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketAgent_SetPushNotificationTagsForDevice_String_p_0_String_p_1
+description: NSPocketAgent.SetPushNotificationTagsForDevice(String p_0, String p_1)
+intellisense: NSPocketAgent.SetPushNotificationTagsForDevice
 keywords: SetPushNotificationTagsForDevice(String,String)
+so.topic: reference
 ---
 
 

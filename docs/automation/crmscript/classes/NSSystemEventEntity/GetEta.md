@@ -1,9 +1,9 @@
 ---
-title: DateTime GetEta()
-path: /EJScript/Classes/NSSystemEventEntity/Member functions/DateTime GetEta()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSystemEventEntity_GetEta
+description: NSSystemEventEntity.GetEta()
+intellisense: NSSystemEventEntity.GetEta
 keywords: GetEta()
+so.topic: reference
 ---
 
 

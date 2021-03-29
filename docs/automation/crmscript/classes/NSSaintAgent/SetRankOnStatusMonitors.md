@@ -1,9 +1,9 @@
 ---
-title: Void SetRankOnStatusMonitors(String type, Integer[] itemsIds)
-path: /EJScript/Classes/NSSaintAgent/Member functions/Void SetRankOnStatusMonitors(String p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_SetRankOnStatusMonitors_String_p_0_Integer__p_1
+description: NSSaintAgent.SetRankOnStatusMonitors(String p_0, Integer[] p_1)
+intellisense: NSSaintAgent.SetRankOnStatusMonitors
 keywords: SetRankOnStatusMonitors(String,Integer[])
+so.topic: reference
 ---
 
 

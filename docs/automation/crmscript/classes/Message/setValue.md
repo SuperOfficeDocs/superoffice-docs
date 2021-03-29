@@ -1,10 +1,10 @@
 ---
-title: Void setValue(String colName, String value)
-path: /EJScript/Classes/Message/Member functions/Void setValue(String colName, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Message_setValue_String_colName_String_value
+description: Message.setValue(String colName, String value)
+intellisense: Message.setValue
 sortOrder: 558
 keywords: setValue(String,String)
+so.topic: reference
 ---
 
 Sets the value of column colName to the given value

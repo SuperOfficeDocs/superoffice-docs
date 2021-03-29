@@ -1,9 +1,9 @@
 ---
-title: Integer GetValueLength()
-path: /EJScript/Classes/NSLocalizedField/Member functions/Integer GetValueLength()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLocalizedField_GetValueLength
+description: NSLocalizedField.GetValueLength()
+intellisense: NSLocalizedField.GetValueLength
 keywords: GetValueLength()
+so.topic: reference
 ---
 
 

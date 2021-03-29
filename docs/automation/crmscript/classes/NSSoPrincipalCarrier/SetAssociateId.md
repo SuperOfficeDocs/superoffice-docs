@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateId(Integer p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetAssociateId_Integer_p_0
+description: NSSoPrincipalCarrier.SetAssociateId(Integer p_0)
+intellisense: NSSoPrincipalCarrier.SetAssociateId
 keywords: SetAssociateId(Integer)
+so.topic: reference
 ---
 
 

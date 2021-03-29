@@ -1,9 +1,9 @@
 ---
-title: Void SetModuleLicenseId(Integer ModuleLicenseId)
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Void SetModuleLicenseId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_SetModuleLicenseId_Integer_p_0
+description: NSModuleLicenseLink.SetModuleLicenseId(Integer p_0)
+intellisense: NSModuleLicenseLink.SetModuleLicenseId
 keywords: SetModuleLicenseId(Integer)
+so.topic: reference
 ---
 
 

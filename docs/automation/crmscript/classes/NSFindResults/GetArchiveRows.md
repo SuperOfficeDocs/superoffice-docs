@@ -1,10 +1,10 @@
 ---
-title: NSArchiveListItem[] GetArchiveRows()
-path: /EJScript/Classes/NSFindResults/Member functions/NSArchiveListItem[] GetArchiveRows()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindResults_GetArchiveRows
+description: NSFindResults.GetArchiveRows()
+intellisense: NSFindResults.GetArchiveRows
 sortOrder: 3692
 keywords: GetArchiveRows()
+so.topic: reference
 ---
 
 

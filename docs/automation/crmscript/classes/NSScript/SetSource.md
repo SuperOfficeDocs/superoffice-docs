@@ -1,9 +1,9 @@
 ---
-title: Void SetSource(String Source)
-path: /EJScript/Classes/NSScript/Member functions/Void SetSource(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_SetSource_String_p_0
+description: NSScript.SetSource(String p_0)
+intellisense: NSScript.SetSource
 keywords: SetSource(String)
+so.topic: reference
 ---
 
 

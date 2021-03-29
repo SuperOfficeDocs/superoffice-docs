@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncFieldValue[] GetFieldValuesFromCrm(Integer recordId, Integer actorTypeCrm)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncFieldValue[] GetFieldValuesFromCrm(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetFieldValuesFromCrm_Integer_p_0_Integer_p_1
+description: NSErpSyncAgent.GetFieldValuesFromCrm(Integer p_0, Integer p_1)
+intellisense: NSErpSyncAgent.GetFieldValuesFromCrm
 sortOrder: 3207
 keywords: GetFieldValuesFromCrm(Integer,Integer)
+so.topic: reference
 ---
 
 

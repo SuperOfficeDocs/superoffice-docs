@@ -1,9 +1,9 @@
 ---
-title: Void SetPreviousOverdue(Integer PreviousOverdue)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetPreviousOverdue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetPreviousOverdue_Integer_p_0
+description: NSSaleSummary.SetPreviousOverdue(Integer p_0)
+intellisense: NSSaleSummary.SetPreviousOverdue
 keywords: SetPreviousOverdue(Integer)
+so.topic: reference
 ---
 
 

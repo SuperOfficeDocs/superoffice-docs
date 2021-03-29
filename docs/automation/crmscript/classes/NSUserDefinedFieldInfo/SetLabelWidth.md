@@ -1,9 +1,9 @@
 ---
-title: Void SetLabelWidth(Integer LabelWidth)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetLabelWidth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetLabelWidth_Integer_p_0
+description: NSUserDefinedFieldInfo.SetLabelWidth(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetLabelWidth
 keywords: SetLabelWidth(Integer)
+so.topic: reference
 ---
 
 

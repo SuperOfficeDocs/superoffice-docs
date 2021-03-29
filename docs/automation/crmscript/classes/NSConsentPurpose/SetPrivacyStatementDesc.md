@@ -1,10 +1,10 @@
 ---
-title: Void SetPrivacyStatementDesc(String PrivacyStatementDesc)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetPrivacyStatementDesc(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_SetPrivacyStatementDesc_String_p_0
+description: NSConsentPurpose.SetPrivacyStatementDesc(String p_0)
+intellisense: NSConsentPurpose.SetPrivacyStatementDesc
 sortOrder: 1694
 keywords: SetPrivacyStatementDesc(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetSaveInDb()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetSaveInDb()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_GetSaveInDb
+description: NSDocumentTemplate.GetSaveInDb()
+intellisense: NSDocumentTemplate.GetSaveInDb
 sortOrder: 2626
 keywords: GetSaveInDb()
+so.topic: reference
 ---
 
 

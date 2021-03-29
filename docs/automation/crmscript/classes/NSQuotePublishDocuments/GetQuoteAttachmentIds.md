@@ -1,9 +1,9 @@
 ---
-title: Integer[] GetQuoteAttachmentIds()
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Integer[] GetQuoteAttachmentIds()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_GetQuoteAttachmentIds
+description: NSQuotePublishDocuments.GetQuoteAttachmentIds()
+intellisense: NSQuotePublishDocuments.GetQuoteAttachmentIds
 keywords: GetQuoteAttachmentIds()
+so.topic: reference
 ---
 
 

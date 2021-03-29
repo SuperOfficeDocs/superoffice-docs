@@ -1,9 +1,9 @@
 ---
-title: Bool GetEnabled()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetEnabled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetEnabled
+description: NSProjectEvent.GetEnabled()
+intellisense: NSProjectEvent.GetEnabled
 keywords: GetEnabled()
+so.topic: reference
 ---
 
 

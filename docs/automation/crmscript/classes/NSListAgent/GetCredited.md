@@ -1,9 +1,9 @@
 ---
-title: NSCredited GetCredited(Integer creditedId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCredited GetCredited(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCredited_Integer_p_0
+description: NSListAgent.GetCredited(Integer p_0)
+intellisense: NSListAgent.GetCredited
 keywords: GetCredited(Integer)
+so.topic: reference
 ---
 
 

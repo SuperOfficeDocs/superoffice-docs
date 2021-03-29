@@ -1,9 +1,9 @@
 ---
-title: Float toFloat()
-path: /EJScript/Classes/String/Member functions/Float toFloat()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toFloat
+description: String.toFloat()
+intellisense: String.toFloat
 keywords: toFloat()
+so.topic: reference
 ---
 
 

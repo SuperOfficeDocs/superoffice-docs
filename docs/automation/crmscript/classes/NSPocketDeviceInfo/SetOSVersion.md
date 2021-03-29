@@ -1,9 +1,9 @@
 ---
-title: Void SetOSVersion(String OSVersion)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetOSVersion(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetOSVersion_String_p_0
+description: NSPocketDeviceInfo.SetOSVersion(String p_0)
+intellisense: NSPocketDeviceInfo.SetOSVersion
 keywords: SetOSVersion(String)
+so.topic: reference
 ---
 
 

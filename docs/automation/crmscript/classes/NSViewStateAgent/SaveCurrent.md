@@ -1,9 +1,9 @@
 ---
-title: NSHistory SaveCurrent(NSHistory current)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory SaveCurrent(NSHistory p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_SaveCurrent_NSHistory_p_0
+description: NSViewStateAgent.SaveCurrent(NSHistory p_0)
+intellisense: NSViewStateAgent.SaveCurrent
 keywords: SaveCurrent(NSHistory)
+so.topic: reference
 ---
 
 

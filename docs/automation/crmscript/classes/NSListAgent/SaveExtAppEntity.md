@@ -1,9 +1,9 @@
 ---
-title: NSExtAppEntity SaveExtAppEntity(NSExtAppEntity extAppEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSExtAppEntity SaveExtAppEntity(NSExtAppEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveExtAppEntity_NSExtAppEntity_p_0
+description: NSListAgent.SaveExtAppEntity(NSExtAppEntity p_0)
+intellisense: NSListAgent.SaveExtAppEntity
 keywords: SaveExtAppEntity(NSExtAppEntity)
+so.topic: reference
 ---
 
 

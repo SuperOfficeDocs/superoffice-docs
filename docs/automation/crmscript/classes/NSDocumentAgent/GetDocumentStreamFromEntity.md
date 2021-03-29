@@ -1,10 +1,10 @@
 ---
-title: NSStream GetDocumentStreamFromEntity(NSDocumentEntity documentEntity)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetDocumentStreamFromEntity(NSDocumentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetDocumentStreamFromEntity_NSDocumentEntity_p_0
+description: NSDocumentAgent.GetDocumentStreamFromEntity(NSDocumentEntity p_0)
+intellisense: NSDocumentAgent.GetDocumentStreamFromEntity
 sortOrder: 2516
 keywords: GetDocumentStreamFromEntity(NSDocumentEntity)
+so.topic: reference
 ---
 
 

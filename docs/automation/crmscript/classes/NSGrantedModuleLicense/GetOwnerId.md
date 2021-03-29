@@ -1,10 +1,10 @@
 ---
-title: Integer GetOwnerId()
-path: /EJScript/Classes/NSGrantedModuleLicense/Member functions/Integer GetOwnerId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSGrantedModuleLicense_GetOwnerId
+description: NSGrantedModuleLicense.GetOwnerId()
+intellisense: NSGrantedModuleLicense.GetOwnerId
 sortOrder: 3887
 keywords: GetOwnerId()
+so.topic: reference
 ---
 
 

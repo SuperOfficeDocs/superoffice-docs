@@ -1,10 +1,10 @@
 ---
-title: Integer GetFieldLength()
-path: /EJScript/Classes/NSFieldProperty/Member functions/Integer GetFieldLength()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldProperty_GetFieldLength
+description: NSFieldProperty.GetFieldLength()
+intellisense: NSFieldProperty.GetFieldLength
 sortOrder: 3597
 keywords: GetFieldLength()
+so.topic: reference
 ---
 
 

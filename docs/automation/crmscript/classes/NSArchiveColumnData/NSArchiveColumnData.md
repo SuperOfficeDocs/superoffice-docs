@@ -1,9 +1,9 @@
 ---
-title: NSArchiveColumnData
-path: /EJScript/Classes/NSArchiveColumnData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnData
+description: NSArchiveColumnData
+intellisense: Void.NSArchiveColumnData
 sortOrder: 1124
+so.topic: reference
 ---
 
 

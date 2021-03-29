@@ -1,9 +1,9 @@
 ---
-title: Void SetDeadline(Integer Deadline)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetDeadline(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetDeadline_Integer_p_0
+description: NSTicketPriorityEntity.SetDeadline(Integer p_0)
+intellisense: NSTicketPriorityEntity.SetDeadline
 keywords: SetDeadline(Integer)
+so.topic: reference
 ---
 
 

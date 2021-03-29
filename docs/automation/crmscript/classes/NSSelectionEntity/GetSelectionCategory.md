@@ -1,9 +1,9 @@
 ---
-title: NSSelectionCategory GetSelectionCategory()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/NSSelectionCategory GetSelectionCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetSelectionCategory
+description: NSSelectionEntity.GetSelectionCategory()
+intellisense: NSSelectionEntity.GetSelectionCategory
 keywords: GetSelectionCategory()
+so.topic: reference
 ---
 
 

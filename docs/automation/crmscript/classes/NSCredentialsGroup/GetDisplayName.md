@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSCredentialsGroup/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialsGroup_GetDisplayName
+description: NSCredentialsGroup.GetDisplayName()
+intellisense: NSCredentialsGroup.GetDisplayName
 sortOrder: 2058
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

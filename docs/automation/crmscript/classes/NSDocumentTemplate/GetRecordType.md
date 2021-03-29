@@ -1,10 +1,10 @@
 ---
-title: Integer GetRecordType()
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Integer GetRecordType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_GetRecordType
+description: NSDocumentTemplate.GetRecordType()
+intellisense: NSDocumentTemplate.GetRecordType
 sortOrder: 2625
 keywords: GetRecordType()
+so.topic: reference
 ---
 
 

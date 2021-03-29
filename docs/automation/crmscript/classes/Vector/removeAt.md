@@ -1,9 +1,9 @@
 ---
-title: Void removeAt(Integer index)
-path: /EJScript/Classes/Vector/Member functions/Void removeAt(Integer index)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Vector_removeAt_Integer_index
+description: Vector.removeAt(Integer index)
+intellisense: Vector.removeAt
 keywords: removeAt(Integer)
+so.topic: reference
 ---
 
 

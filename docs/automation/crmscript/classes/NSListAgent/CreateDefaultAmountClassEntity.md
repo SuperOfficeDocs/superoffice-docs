@@ -1,9 +1,9 @@
 ---
-title: NSAmountClassEntity CreateDefaultAmountClassEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSAmountClassEntity CreateDefaultAmountClassEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultAmountClassEntity
+description: NSListAgent.CreateDefaultAmountClassEntity()
+intellisense: NSListAgent.CreateDefaultAmountClassEntity
 keywords: CreateDefaultAmountClassEntity()
+so.topic: reference
 ---
 
 

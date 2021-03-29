@@ -1,9 +1,9 @@
 ---
-title: NSDepartment
-path: /EJScript/Classes/NSDepartment
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDepartment
+description: NSDepartment
+intellisense: Void.NSDepartment
 sortOrder: 2380
+so.topic: reference
 ---
 
 

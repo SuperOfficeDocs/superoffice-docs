@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenseType(Integer p0)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetLicenseType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetLicenseType_Integer_p_0
+description: NSModuleLicense.SetLicenseType(Integer p_0)
+intellisense: NSModuleLicense.SetLicenseType
 keywords: SetLicenseType(Integer)
+so.topic: reference
 ---
 
 

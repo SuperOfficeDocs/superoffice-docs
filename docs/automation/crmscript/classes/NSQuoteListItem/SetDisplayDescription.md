@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayDescription(String DisplayDescription)
-path: /EJScript/Classes/NSQuoteListItem/Member functions/Void SetDisplayDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteListItem_SetDisplayDescription_String_p_0
+description: NSQuoteListItem.SetDisplayDescription(String p_0)
+intellisense: NSQuoteListItem.SetDisplayDescription
 keywords: SetDisplayDescription(String)
+so.topic: reference
 ---
 
 

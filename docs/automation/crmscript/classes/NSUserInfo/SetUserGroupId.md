@@ -1,9 +1,9 @@
 ---
-title: Void SetUserGroupId(Integer UserGroupId)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserGroupId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_SetUserGroupId_Integer_p_0
+description: NSUserInfo.SetUserGroupId(Integer p_0)
+intellisense: NSUserInfo.SetUserGroupId
 keywords: SetUserGroupId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSContactActivity
-path: /EJScript/Classes/NSContactActivity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity
+description: NSContactActivity
+intellisense: Void.NSContactActivity
 sortOrder: 1764
+so.topic: reference
 ---
 
 

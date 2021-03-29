@@ -1,9 +1,9 @@
 ---
-title: NSBLOBAgent
-path: /EJScript/Classes/NSBLOBAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent
+description: NSBLOBAgent
+intellisense: Void.NSBLOBAgent
 sortOrder: 1406
+so.topic: reference
 ---
 
 

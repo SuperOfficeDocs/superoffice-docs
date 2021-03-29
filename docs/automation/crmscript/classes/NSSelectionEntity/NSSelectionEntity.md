@@ -1,8 +1,8 @@
 ---
-title: NSSelectionEntity
-path: /EJScript/Classes/NSSelectionEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity
+description: NSSelectionEntity
+intellisense: Void.NSSelectionEntity
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void RemoveOwnerContact(Integer contactId)
-path: /EJScript/Classes/NSUserAgent/Member functions/Void RemoveOwnerContact(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_RemoveOwnerContact_Integer_p_0
+description: NSUserAgent.RemoveOwnerContact(Integer p_0)
+intellisense: NSUserAgent.RemoveOwnerContact
 keywords: RemoveOwnerContact(Integer)
+so.topic: reference
 ---
 
 

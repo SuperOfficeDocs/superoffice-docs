@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncDefaultValue GetDefaultValueInfo(Integer erpFieldId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncDefaultValue GetDefaultValueInfo(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetDefaultValueInfo_Integer_p_0
+description: NSErpSyncAgent.GetDefaultValueInfo(Integer p_0)
+intellisense: NSErpSyncAgent.GetDefaultValueInfo
 sortOrder: 3203
 keywords: GetDefaultValueInfo(Integer)
+so.topic: reference
 ---
 
 

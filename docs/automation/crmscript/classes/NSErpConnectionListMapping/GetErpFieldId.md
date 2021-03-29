@@ -1,10 +1,10 @@
 ---
-title: Integer GetErpFieldId()
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/Integer GetErpFieldId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMapping_GetErpFieldId
+description: NSErpConnectionListMapping.GetErpFieldId()
+intellisense: NSErpConnectionListMapping.GetErpFieldId
 sortOrder: 3124
 keywords: GetErpFieldId()
+so.topic: reference
 ---
 
 

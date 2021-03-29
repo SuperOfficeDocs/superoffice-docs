@@ -1,9 +1,9 @@
 ---
-title: NSTicketStatusEntity CreateDefaultTicketStatusEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity CreateDefaultTicketStatusEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultTicketStatusEntity
+description: NSListAgent.CreateDefaultTicketStatusEntity()
+intellisense: NSListAgent.CreateDefaultTicketStatusEntity
 keywords: CreateDefaultTicketStatusEntity()
+so.topic: reference
 ---
 
 

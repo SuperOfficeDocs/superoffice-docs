@@ -1,9 +1,9 @@
 ---
-title: NSMessageDeliveryStatus[] GetDeliveryStatus(Integer[] messagingIds)
-path: /EJScript/Classes/NSMessagingAgent/Member functions/NSMessageDeliveryStatus[] GetDeliveryStatus(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessagingAgent_GetDeliveryStatus_Integer__p_0
+description: NSMessagingAgent.GetDeliveryStatus(Integer[] p_0)
+intellisense: NSMessagingAgent.GetDeliveryStatus
 keywords: GetDeliveryStatus(Integer[])
+so.topic: reference
 ---
 
 

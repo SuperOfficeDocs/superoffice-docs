@@ -1,10 +1,10 @@
 ---
-title: Void SetAudienceLayoutId(Integer AudienceLayoutId)
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/Void SetAudienceLayoutId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_SetAudienceLayoutId_Integer_p_0
+description: NSAudienceLayoutEntity.SetAudienceLayoutId(Integer p_0)
+intellisense: NSAudienceLayoutEntity.SetAudienceLayoutId
 sortOrder: 1342
 keywords: SetAudienceLayoutId(Integer)
+so.topic: reference
 ---
 
 

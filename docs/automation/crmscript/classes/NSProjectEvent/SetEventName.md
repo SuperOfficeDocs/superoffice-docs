@@ -1,9 +1,9 @@
 ---
-title: Void SetEventName(String EventName)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetEventName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetEventName_String_p_0
+description: NSProjectEvent.SetEventName(String p_0)
+intellisense: NSProjectEvent.SetEventName
 keywords: SetEventName(String)
+so.topic: reference
 ---
 
 

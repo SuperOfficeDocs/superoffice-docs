@@ -1,9 +1,9 @@
 ---
-title: NSCurrency[] GetCurrencies()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrency[] GetCurrencies()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCurrencies
+description: NSListAgent.GetCurrencies()
+intellisense: NSListAgent.GetCurrencies
 keywords: GetCurrencies()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetAllAccess(Bool AllAccess)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetAllAccess(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetAllAccess_Bool_p_0
+description: NSQuoteConnection.SetAllAccess(Bool p_0)
+intellisense: NSQuoteConnection.SetAllAccess
 keywords: SetAllAccess(Bool)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSFieldMetadata[] GetConfigurationFields(Integer erpConnectorId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSFieldMetadata[] GetConfigurationFields(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetConfigurationFields_Integer_p_0
+description: NSErpSyncAgent.GetConfigurationFields(Integer p_0)
+intellisense: NSErpSyncAgent.GetConfigurationFields
 sortOrder: 3209
 keywords: GetConfigurationFields(Integer)
+so.topic: reference
 ---
 
 

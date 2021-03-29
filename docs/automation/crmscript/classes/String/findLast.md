@@ -1,9 +1,9 @@
 ---
-title: Integer findLast(String p0)
-path: /EJScript/Classes/String/Member functions/Integer findLast(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_findLast_String_p_0
+description: String.findLast(String p_0)
+intellisense: String.findLast
 keywords: findLast(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetDeleted()
-path: /EJScript/Classes/NSRoleEntity/Member functions/Integer GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_GetDeleted
+description: NSRoleEntity.GetDeleted()
+intellisense: NSRoleEntity.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

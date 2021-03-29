@@ -1,9 +1,9 @@
 ---
-title: Void SetConnectorName(String ConnectorName)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetConnectorName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetConnectorName_String_p_0
+description: NSQuoteConnection.SetConnectorName(String p_0)
+intellisense: NSQuoteConnection.SetConnectorName
 keywords: SetConnectorName(String)
+so.topic: reference
 ---
 
 

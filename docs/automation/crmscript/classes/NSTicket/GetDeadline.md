@@ -1,9 +1,9 @@
 ---
-title: DateTime GetDeadline()
-path: /EJScript/Classes/NSTicket/Member functions/DateTime GetDeadline()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetDeadline
+description: NSTicket.GetDeadline()
+intellisense: NSTicket.GetDeadline
 keywords: GetDeadline()
+so.topic: reference
 ---
 
 

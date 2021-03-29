@@ -1,9 +1,9 @@
 ---
-title: Void SetEndRulePattern(String EndRulePattern)
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Void SetEndRulePattern(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_SetEndRulePattern_String_p_0
+description: NSTimeZoneRule.SetEndRulePattern(String p_0)
+intellisense: NSTimeZoneRule.SetEndRulePattern
 keywords: SetEndRulePattern(String)
+so.topic: reference
 ---
 
 

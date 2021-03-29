@@ -1,10 +1,10 @@
 ---
-title: Void SetSortName(String SortName)
-path: /EJScript/Classes/NSContactOrPersonFromEmail/Member functions/Void SetSortName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactOrPersonFromEmail_SetSortName_String_p_0
+description: NSContactOrPersonFromEmail.SetSortName(String p_0)
+intellisense: NSContactOrPersonFromEmail.SetSortName
 sortOrder: 1935
 keywords: SetSortName(String)
+so.topic: reference
 ---
 
 

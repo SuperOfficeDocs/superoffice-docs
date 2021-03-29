@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSUser/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetDisplayName
+description: NSUser.GetDisplayName()
+intellisense: NSUser.GetDisplayName
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

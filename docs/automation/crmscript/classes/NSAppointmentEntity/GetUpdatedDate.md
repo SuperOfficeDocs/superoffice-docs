@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetUpdatedDate
+description: NSAppointmentEntity.GetUpdatedDate()
+intellisense: NSAppointmentEntity.GetUpdatedDate
 sortOrder: 938
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

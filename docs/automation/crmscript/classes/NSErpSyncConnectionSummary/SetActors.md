@@ -1,10 +1,10 @@
 ---
-title: Void SetActors(NSErpSyncActorSummary[] Actors)
-path: /EJScript/Classes/NSErpSyncConnectionSummary/Member functions/Void SetActors(NSErpSyncActorSummary[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary_SetActors_NSErpSyncActorSummary__p_0
+description: NSErpSyncConnectionSummary.SetActors(NSErpSyncActorSummary[] p_0)
+intellisense: NSErpSyncConnectionSummary.SetActors
 sortOrder: 3234
 keywords: SetActors(NSErpSyncActorSummary[])
+so.topic: reference
 ---
 
 

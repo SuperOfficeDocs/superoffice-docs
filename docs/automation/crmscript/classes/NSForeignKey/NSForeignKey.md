@@ -1,9 +1,9 @@
 ---
-title: NSForeignKey
-path: /EJScript/Classes/NSForeignKey
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey
+description: NSForeignKey
+intellisense: Void.NSForeignKey
 sortOrder: 3732
+so.topic: reference
 ---
 
 

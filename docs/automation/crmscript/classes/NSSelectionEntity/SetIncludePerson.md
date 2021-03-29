@@ -1,9 +1,9 @@
 ---
-title: Void SetIncludePerson(Integer IncludePerson)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetIncludePerson(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetIncludePerson_Integer_p_0
+description: NSSelectionEntity.SetIncludePerson(Integer p_0)
+intellisense: NSSelectionEntity.SetIncludePerson
 keywords: SetIncludePerson(Integer)
+so.topic: reference
 ---
 
 

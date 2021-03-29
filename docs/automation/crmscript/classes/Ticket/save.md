@@ -1,9 +1,9 @@
 ---
-title: Integer save()
-path: /EJScript/Classes/Ticket/Member functions/Integer save()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_save
+description: Ticket.save()
+intellisense: Ticket.save
 keywords: save()
+so.topic: reference
 ---
 
 Saves the ticket, returns database id of the stored ticket.

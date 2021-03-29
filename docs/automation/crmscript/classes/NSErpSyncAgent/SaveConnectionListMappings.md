@@ -1,10 +1,10 @@
 ---
-title: NSErpConnectionListMappingContainer SaveConnectionListMappings(NSErpConnectionListMappingContainer listMapping)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnectionListMappingContainer SaveConnectionListMappings(NSErpConnectionListMappingContainer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SaveConnectionListMappings_NSErpConnectionListMappingContainer_p_0
+description: NSErpSyncAgent.SaveConnectionListMappings(NSErpConnectionListMappingContainer p_0)
+intellisense: NSErpSyncAgent.SaveConnectionListMappings
 sortOrder: 3196
 keywords: SaveConnectionListMappings(NSErpConnectionListMappingContainer)
+so.topic: reference
 ---
 
 

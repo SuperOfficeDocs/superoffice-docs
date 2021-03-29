@@ -1,9 +1,9 @@
 ---
-title: StringDictionary SaveConnectionConfigFields(Integer quoteConnectionId, StringDictionary connectionConfigFields)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/StringDictionary SaveConnectionConfigFields(Integer p_0, StringDictionary p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_SaveConnectionConfigFields_Integer_p_0_StringDictionary_p_1
+description: NSQuoteAgent.SaveConnectionConfigFields(Integer p_0, StringDictionary p_1)
+intellisense: NSQuoteAgent.SaveConnectionConfigFields
 keywords: SaveConnectionConfigFields(Integer,StringDictionary)
+so.topic: reference
 ---
 
 

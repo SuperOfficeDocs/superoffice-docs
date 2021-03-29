@@ -1,10 +1,10 @@
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSCredentialType/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialType_SetType_String_p_0
+description: NSCredentialType.SetType(String p_0)
+intellisense: NSCredentialType.SetType
 sortOrder: 2081
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

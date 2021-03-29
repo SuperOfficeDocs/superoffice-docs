@@ -1,8 +1,8 @@
 ---
-title: NSServiceAuth
-path: /EJScript/Classes/NSServiceAuth
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth
+description: NSServiceAuth
+intellisense: Void.NSServiceAuth
+so.topic: reference
 ---
 
 Properties for service authentication

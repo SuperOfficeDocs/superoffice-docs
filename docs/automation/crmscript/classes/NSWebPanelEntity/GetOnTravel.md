@@ -1,9 +1,9 @@
 ---
-title: Bool GetOnTravel()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Bool GetOnTravel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetOnTravel
+description: NSWebPanelEntity.GetOnTravel()
+intellisense: NSWebPanelEntity.GetOnTravel
 keywords: GetOnTravel()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetTZLocationCode(String TZLocationCode)
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Void SetTZLocationCode(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_SetTZLocationCode_String_p_0
+description: NSTimeZoneData.SetTZLocationCode(String p_0)
+intellisense: NSTimeZoneData.SetTZLocationCode
 keywords: SetTZLocationCode(String)
+so.topic: reference
 ---
 
 

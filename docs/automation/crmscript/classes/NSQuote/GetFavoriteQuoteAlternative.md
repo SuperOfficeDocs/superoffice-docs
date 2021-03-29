@@ -1,9 +1,9 @@
 ---
-title: NSQuoteAlternative GetFavoriteQuoteAlternative()
-path: /EJScript/Classes/NSQuote/Member functions/NSQuoteAlternative GetFavoriteQuoteAlternative()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_GetFavoriteQuoteAlternative
+description: NSQuote.GetFavoriteQuoteAlternative()
+intellisense: NSQuote.GetFavoriteQuoteAlternative
 keywords: GetFavoriteQuoteAlternative()
+so.topic: reference
 ---
 
 

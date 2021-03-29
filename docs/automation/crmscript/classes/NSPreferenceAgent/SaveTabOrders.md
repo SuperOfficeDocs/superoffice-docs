@@ -1,9 +1,9 @@
 ---
-title: Void SaveTabOrders(NSTabOrder[] p0)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void SaveTabOrders(NSTabOrder[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_SaveTabOrders_NSTabOrder__p_0
+description: NSPreferenceAgent.SaveTabOrders(NSTabOrder[] p_0)
+intellisense: NSPreferenceAgent.SaveTabOrders
 keywords: SaveTabOrders(NSTabOrder[])
+so.topic: reference
 ---
 
 

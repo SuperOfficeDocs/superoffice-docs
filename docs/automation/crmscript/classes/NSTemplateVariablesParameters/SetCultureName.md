@@ -1,9 +1,9 @@
 ---
-title: Void SetCultureName(String CultureName)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetCultureName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetCultureName_String_p_0
+description: NSTemplateVariablesParameters.SetCultureName(String p_0)
+intellisense: NSTemplateVariablesParameters.SetCultureName
 keywords: SetCultureName(String)
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSPriority
-path: /EJScript/Classes/NSPriority
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriority
+description: NSPriority
+intellisense: Void.NSPriority
+so.topic: reference
 ---
 
 

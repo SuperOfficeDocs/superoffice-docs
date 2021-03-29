@@ -1,9 +1,9 @@
 ---
-title: String SanitizeMailContent(String content)
-path: /EJScript/Classes/NSTicketAgent/Member functions/String SanitizeMailContent(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketAgent_SanitizeMailContent_String_p_0
+description: NSTicketAgent.SanitizeMailContent(String p_0)
+intellisense: NSTicketAgent.SanitizeMailContent
 keywords: SanitizeMailContent(String)
+so.topic: reference
 ---
 
 

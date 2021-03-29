@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenseUrl(String LicenseUrl)
-path: /EJScript/Classes/NSLicenseInfo/Member functions/Void SetLicenseUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLicenseInfo_SetLicenseUrl_String_p_0
+description: NSLicenseInfo.SetLicenseUrl(String p_0)
+intellisense: NSLicenseInfo.SetLicenseUrl
 keywords: SetLicenseUrl(String)
+so.topic: reference
 ---
 
 

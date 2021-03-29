@@ -1,10 +1,10 @@
 ---
-title: Void SetConfig(String Config)
-path: /EJScript/Classes/NSDashboardTile/Member functions/Void SetConfig(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTile_SetConfig_String_p_0
+description: NSDashboardTile.SetConfig(String p_0)
+intellisense: NSDashboardTile.SetConfig
 sortOrder: 2306
 keywords: SetConfig(String)
+so.topic: reference
 ---
 
 

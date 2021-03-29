@@ -1,10 +1,10 @@
 ---
-title: NSTableRecord ReadRow(String tableName, Integer id)
-path: /EJScript/Classes/NSDatabaseTableAgent/Member functions/NSTableRecord ReadRow(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseTableAgent_ReadRow_String_p_0_Integer_p_1
+description: NSDatabaseTableAgent.ReadRow(String p_0, Integer p_1)
+intellisense: NSDatabaseTableAgent.ReadRow
 sortOrder: 2339
 keywords: ReadRow(String,Integer)
+so.topic: reference
 ---
 
 

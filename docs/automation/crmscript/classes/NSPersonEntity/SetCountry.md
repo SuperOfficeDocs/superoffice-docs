@@ -1,9 +1,9 @@
 ---
-title: Void SetCountry(NSCountry Country)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetCountry(NSCountry p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetCountry_NSCountry_p_0
+description: NSPersonEntity.SetCountry(NSCountry p_0)
+intellisense: NSPersonEntity.SetCountry
 keywords: SetCountry(NSCountry)
+so.topic: reference
 ---
 
 

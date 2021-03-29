@@ -1,10 +1,10 @@
 ---
-title: NSFieldValueInfo[] GetStoredFields(String tablename, String context)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/NSFieldValueInfo[] GetStoredFields(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_GetStoredFields_String_p_0_String_p_1
+description: NSBulkUpdateAgent.GetStoredFields(String p_0, String p_1)
+intellisense: NSBulkUpdateAgent.GetStoredFields
 sortOrder: 1472
 keywords: GetStoredFields(String,String)
+so.topic: reference
 ---
 
 

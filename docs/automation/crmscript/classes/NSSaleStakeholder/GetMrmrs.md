@@ -1,9 +1,9 @@
 ---
-title: String GetMrmrs()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/String GetMrmrs()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetMrmrs
+description: NSSaleStakeholder.GetMrmrs()
+intellisense: NSSaleStakeholder.GetMrmrs
 keywords: GetMrmrs()
+so.topic: reference
 ---
 
 

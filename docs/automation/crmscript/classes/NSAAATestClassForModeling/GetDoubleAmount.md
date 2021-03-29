@@ -1,10 +1,10 @@
 ---
-title: Float GetDoubleAmount()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Float GetDoubleAmount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetDoubleAmount
+description: NSAAATestClassForModeling.GetDoubleAmount()
+intellisense: NSAAATestClassForModeling.GetDoubleAmount
 sortOrder: 8920
 keywords: GetDoubleAmount()
+so.topic: reference
 ---
 
 

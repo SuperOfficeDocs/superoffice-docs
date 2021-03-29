@@ -1,9 +1,9 @@
 ---
-title: String[] GetExtraFields()
-path: /EJScript/Classes/NSVersionInfo/Member functions/String[] GetExtraFields()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_GetExtraFields
+description: NSVersionInfo.GetExtraFields()
+intellisense: NSVersionInfo.GetExtraFields
 keywords: GetExtraFields()
+so.topic: reference
 ---
 
 

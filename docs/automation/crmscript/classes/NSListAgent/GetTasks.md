@@ -1,9 +1,9 @@
 ---
-title: NSTask[] GetTasks()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask[] GetTasks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTasks
+description: NSListAgent.GetTasks()
+intellisense: NSListAgent.GetTasks
 keywords: GetTasks()
+so.topic: reference
 ---
 
 

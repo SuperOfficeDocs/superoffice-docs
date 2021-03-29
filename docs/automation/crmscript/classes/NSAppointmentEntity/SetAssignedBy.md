@@ -1,10 +1,10 @@
 ---
-title: Void SetAssignedBy(NSAssociate AssignedBy)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetAssignedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetAssignedBy_NSAssociate_p_0
+description: NSAppointmentEntity.SetAssignedBy(NSAssociate p_0)
+intellisense: NSAppointmentEntity.SetAssignedBy
 sortOrder: 985
 keywords: SetAssignedBy(NSAssociate)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetArchivedDisplayName(String ArchivedDisplayName)
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/Void SetArchivedDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_SetArchivedDisplayName_String_p_0
+description: NSEMailSOInfo.SetArchivedDisplayName(String p_0)
+intellisense: NSEMailSOInfo.SetArchivedDisplayName
 sortOrder: 3056
 keywords: SetArchivedDisplayName(String)
+so.topic: reference
 ---
 
 

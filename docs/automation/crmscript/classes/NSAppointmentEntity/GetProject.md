@@ -1,10 +1,10 @@
 ---
-title: NSProject GetProject()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/NSProject GetProject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetProject
+description: NSAppointmentEntity.GetProject()
+intellisense: NSAppointmentEntity.GetProject
 sortOrder: 969
 keywords: GetProject()
+so.topic: reference
 ---
 
 

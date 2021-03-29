@@ -1,10 +1,10 @@
 ---
-title: Void SetActiveLinks(Integer ActiveLinks)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetActiveLinks(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetActiveLinks_Integer_p_0
+description: NSAppointmentEntity.SetActiveLinks(Integer p_0)
+intellisense: NSAppointmentEntity.SetActiveLinks
 sortOrder: 981
 keywords: SetActiveLinks(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetKananame()
-path: /EJScript/Classes/NSContactEntity/Member functions/String GetKananame()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetKananame
+description: NSContactEntity.GetKananame()
+intellisense: NSContactEntity.GetKananame
 sortOrder: 1870
 keywords: GetKananame()
+so.topic: reference
 ---
 
 

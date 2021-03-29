@@ -1,9 +1,9 @@
 ---
-title: String GetRule()
-path: /EJScript/Classes/NSProduct/Member functions/String GetRule()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetRule
+description: NSProduct.GetRule()
+intellisense: NSProduct.GetRule
 keywords: GetRule()
+so.topic: reference
 ---
 
 

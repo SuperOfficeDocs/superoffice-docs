@@ -1,9 +1,9 @@
 ---
-title: Void SetDefaultTask(Integer DefaultTask)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetDefaultTask(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetDefaultTask_Integer_p_0
+description: NSStatusMonitor.SetDefaultTask(Integer p_0)
+intellisense: NSStatusMonitor.SetDefaultTask
 keywords: SetDefaultTask(Integer)
+so.topic: reference
 ---
 
 

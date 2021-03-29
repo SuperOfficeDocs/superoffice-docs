@@ -1,10 +1,10 @@
 ---
-title: Integer GetTzLocationId()
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Integer GetTzLocationId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_GetTzLocationId
+description: NSDiaryViewEntity.GetTzLocationId()
+intellisense: NSDiaryViewEntity.GetTzLocationId
 sortOrder: 2408
 keywords: GetTzLocationId()
+so.topic: reference
 ---
 
 

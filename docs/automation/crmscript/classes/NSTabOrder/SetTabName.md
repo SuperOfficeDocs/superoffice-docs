@@ -1,9 +1,9 @@
 ---
-title: Void SetTabName(String TabName)
-path: /EJScript/Classes/NSTabOrder/Member functions/Void SetTabName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_SetTabName_String_p_0
+description: NSTabOrder.SetTabName(String p_0)
+intellisense: NSTabOrder.SetTabName
 keywords: SetTabName(String)
+so.topic: reference
 ---
 
 

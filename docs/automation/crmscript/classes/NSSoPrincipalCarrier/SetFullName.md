@@ -1,9 +1,9 @@
 ---
-title: Void SetFullName(String p0)
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Void SetFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_SetFullName_String_p_0
+description: NSSoPrincipalCarrier.SetFullName(String p_0)
+intellisense: NSSoPrincipalCarrier.SetFullName
 keywords: SetFullName(String)
+so.topic: reference
 ---
 
 

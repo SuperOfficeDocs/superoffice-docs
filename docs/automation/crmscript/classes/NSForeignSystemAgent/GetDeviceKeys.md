@@ -1,10 +1,10 @@
 ---
-title: NSForeignKey[] GetDeviceKeys(String applicationName, String deviceName)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignKey[] GetDeviceKeys(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_GetDeviceKeys_String_p_0_String_p_1
+description: NSForeignSystemAgent.GetDeviceKeys(String p_0, String p_1)
+intellisense: NSForeignSystemAgent.GetDeviceKeys
 sortOrder: 3770
 keywords: GetDeviceKeys(String,String)
+so.topic: reference
 ---
 
 

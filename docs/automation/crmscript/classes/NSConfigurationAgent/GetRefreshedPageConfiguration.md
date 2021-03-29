@@ -1,10 +1,10 @@
 ---
-title: String GetRefreshedPageConfiguration(String application, String instance, String page)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetRefreshedPageConfiguration(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetRefreshedPageConfiguration_String_p_0_String_p_1_String_p_2
+description: NSConfigurationAgent.GetRefreshedPageConfiguration(String p_0, String p_1, String p_2)
+intellisense: NSConfigurationAgent.GetRefreshedPageConfiguration
 sortOrder: 1618
 keywords: GetRefreshedPageConfiguration(String,String,String)
+so.topic: reference
 ---
 
 

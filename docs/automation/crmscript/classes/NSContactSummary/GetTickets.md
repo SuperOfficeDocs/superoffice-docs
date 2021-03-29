@@ -1,10 +1,10 @@
 ---
-title: NSTicketSummaryItem[] GetTickets()
-path: /EJScript/Classes/NSContactSummary/Member functions/NSTicketSummaryItem[] GetTickets()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactSummary_GetTickets
+description: NSContactSummary.GetTickets()
+intellisense: NSContactSummary.GetTickets
 sortOrder: 1987
 keywords: GetTickets()
+so.topic: reference
 ---
 
 

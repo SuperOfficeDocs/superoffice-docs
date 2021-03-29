@@ -1,9 +1,9 @@
 ---
-title: Integer GetSuggestedDocumentId()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Integer GetSuggestedDocumentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetSuggestedDocumentId
+description: NSSuggestedDocumentEntity.GetSuggestedDocumentId()
+intellisense: NSSuggestedDocumentEntity.GetSuggestedDocumentId
 keywords: GetSuggestedDocumentId()
+so.topic: reference
 ---
 
 

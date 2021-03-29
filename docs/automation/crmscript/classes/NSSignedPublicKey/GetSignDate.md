@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSignDate()
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/DateTime GetSignDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_GetSignDate
+description: NSSignedPublicKey.GetSignDate()
+intellisense: NSSignedPublicKey.GetSignDate
 keywords: GetSignDate()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity currencyEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCurrencyEntity SaveCurrencyEntity(NSCurrencyEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveCurrencyEntity_NSCurrencyEntity_p_0
+description: NSListAgent.SaveCurrencyEntity(NSCurrencyEntity p_0)
+intellisense: NSListAgent.SaveCurrencyEntity
 keywords: SaveCurrencyEntity(NSCurrencyEntity)
+so.topic: reference
 ---
 
 

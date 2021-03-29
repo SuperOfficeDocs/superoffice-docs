@@ -1,10 +1,10 @@
 ---
-title: NSReturnInfo DeletePhysicalDocument(Integer documentId, String[] allowedReturnType)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSReturnInfo DeletePhysicalDocument(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_DeletePhysicalDocument_Integer_p_0_String__p_1
+description: NSDocumentAgent.DeletePhysicalDocument(Integer p_0, String[] p_1)
+intellisense: NSDocumentAgent.DeletePhysicalDocument
 sortOrder: 2511
 keywords: DeletePhysicalDocument(Integer,String[])
+so.topic: reference
 ---
 
 

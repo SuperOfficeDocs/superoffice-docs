@@ -1,9 +1,9 @@
 ---
-title: NSListItemEntity[] GetAllFromListDefinition(Integer udListDefinitionId, Bool includeDeleted)
-path: /EJScript/Classes/NSListAgent/Member functions/NSListItemEntity[] GetAllFromListDefinition(Integer p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetAllFromListDefinition_Integer_p_0_Bool_p_1
+description: NSListAgent.GetAllFromListDefinition(Integer p_0, Bool p_1)
+intellisense: NSListAgent.GetAllFromListDefinition
 keywords: GetAllFromListDefinition(Integer,Bool)
+so.topic: reference
 ---
 
 

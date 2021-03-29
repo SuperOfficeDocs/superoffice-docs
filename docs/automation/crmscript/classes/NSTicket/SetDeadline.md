@@ -1,9 +1,9 @@
 ---
-title: Void SetDeadline(DateTime Deadline)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetDeadline(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetDeadline_DateTime_p_0
+description: NSTicket.SetDeadline(DateTime p_0)
+intellisense: NSTicket.SetDeadline
 keywords: SetDeadline(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSCountry SaveCountry(NSCountry country)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry SaveCountry(NSCountry p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveCountry_NSCountry_p_0
+description: NSListAgent.SaveCountry(NSCountry p_0)
+intellisense: NSListAgent.SaveCountry
 keywords: SaveCountry(NSCountry)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSPluginResponse GetInitializeResponse()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/NSPluginResponse GetInitializeResponse()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetInitializeResponse
+description: NSQuoteConnection.GetInitializeResponse()
+intellisense: NSQuoteConnection.GetInitializeResponse
 keywords: GetInitializeResponse()
+so.topic: reference
 ---
 
 

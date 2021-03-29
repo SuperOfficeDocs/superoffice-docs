@@ -1,9 +1,9 @@
 ---
-title: NSPaymentType GetPaymentType(Integer paymentTypeId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPaymentType GetPaymentType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPaymentType_Integer_p_0
+description: NSListAgent.GetPaymentType(Integer p_0)
+intellisense: NSListAgent.GetPaymentType
 keywords: GetPaymentType(Integer)
+so.topic: reference
 ---
 
 

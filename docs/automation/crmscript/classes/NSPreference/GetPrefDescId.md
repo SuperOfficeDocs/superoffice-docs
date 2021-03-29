@@ -1,9 +1,9 @@
 ---
-title: Integer GetPrefDescId()
-path: /EJScript/Classes/NSPreference/Member functions/Integer GetPrefDescId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetPrefDescId
+description: NSPreference.GetPrefDescId()
+intellisense: NSPreference.GetPrefDescId
 keywords: GetPrefDescId()
+so.topic: reference
 ---
 
 

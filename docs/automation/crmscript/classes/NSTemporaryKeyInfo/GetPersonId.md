@@ -1,9 +1,9 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSTemporaryKeyInfo/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemporaryKeyInfo_GetPersonId
+description: NSTemporaryKeyInfo.GetPersonId()
+intellisense: NSTemporaryKeyInfo.GetPersonId
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

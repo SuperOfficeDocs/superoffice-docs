@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSAudienceLayoutEntity/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceLayoutEntity_GetUpdatedDate
+description: NSAudienceLayoutEntity.GetUpdatedDate()
+intellisense: NSAudienceLayoutEntity.GetUpdatedDate
 sortOrder: 1336
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

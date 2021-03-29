@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem GetListItem(String listName, Integer id)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSMDOListItem GetListItem(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_GetListItem_String_p_0_Integer_p_1
+description: NSMDOAgent.GetListItem(String p_0, Integer p_1)
+intellisense: NSMDOAgent.GetListItem
 keywords: GetListItem(String,Integer)
+so.topic: reference
 ---
 
 

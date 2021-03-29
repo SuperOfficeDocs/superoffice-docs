@@ -1,10 +1,10 @@
 ---
-title: Bool GetDefaultDataOption()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/Bool GetDefaultDataOption()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_GetDefaultDataOption
+description: NSDashboardTileOption.GetDefaultDataOption()
+intellisense: NSDashboardTileOption.GetDefaultDataOption
 sortOrder: 2318
 keywords: GetDefaultDataOption()
+so.topic: reference
 ---
 
 

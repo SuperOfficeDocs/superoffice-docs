@@ -1,9 +1,9 @@
 ---
-title: String GetPrerequisiteModuleName()
-path: /EJScript/Classes/NSModuleLicense/Member functions/String GetPrerequisiteModuleName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_GetPrerequisiteModuleName
+description: NSModuleLicense.GetPrerequisiteModuleName()
+intellisense: NSModuleLicense.GetPrerequisiteModuleName
 keywords: GetPrerequisiteModuleName()
+so.topic: reference
 ---
 
 

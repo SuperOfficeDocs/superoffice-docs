@@ -1,9 +1,9 @@
 ---
-title: NSWebhook SaveWebhook(NSWebhook webhook)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/NSWebhook SaveWebhook(NSWebhook p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_SaveWebhook_NSWebhook_p_0
+description: NSWebhookAgent.SaveWebhook(NSWebhook p_0)
+intellisense: NSWebhookAgent.SaveWebhook
 keywords: SaveWebhook(NSWebhook)
+so.topic: reference
 ---
 
 

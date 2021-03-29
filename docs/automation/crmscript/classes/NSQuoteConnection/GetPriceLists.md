@@ -1,9 +1,9 @@
 ---
-title: NSPriceList[] GetPriceLists()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/NSPriceList[] GetPriceLists()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetPriceLists
+description: NSQuoteConnection.GetPriceLists()
+intellisense: NSQuoteConnection.GetPriceLists
 keywords: GetPriceLists()
+so.topic: reference
 ---
 
 

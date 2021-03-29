@@ -1,9 +1,9 @@
 ---
-title: Void SetQuotedProductsId(Integer QuotedProductsId)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetQuotedProductsId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetQuotedProductsId_Integer_p_0
+description: NSQuotePublishDocuments.SetQuotedProductsId(Integer p_0)
+intellisense: NSQuotePublishDocuments.SetQuotedProductsId
 keywords: SetQuotedProductsId(Integer)
+so.topic: reference
 ---
 
 

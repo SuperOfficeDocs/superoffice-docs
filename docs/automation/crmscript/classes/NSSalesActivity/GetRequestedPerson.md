@@ -1,9 +1,9 @@
 ---
-title: NSPerson GetRequestedPerson()
-path: /EJScript/Classes/NSSalesActivity/Member functions/NSPerson GetRequestedPerson()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSalesActivity_GetRequestedPerson
+description: NSSalesActivity.GetRequestedPerson()
+intellisense: NSSalesActivity.GetRequestedPerson
 keywords: GetRequestedPerson()
+so.topic: reference
 ---
 
 

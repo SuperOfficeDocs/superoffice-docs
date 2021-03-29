@@ -1,9 +1,9 @@
 ---
-title: NSTask[] GetTaskList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTask[] GetTaskList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTaskList_Integer__p_0
+description: NSListAgent.GetTaskList(Integer[] p_0)
+intellisense: NSListAgent.GetTaskList
 keywords: GetTaskList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Task objects.

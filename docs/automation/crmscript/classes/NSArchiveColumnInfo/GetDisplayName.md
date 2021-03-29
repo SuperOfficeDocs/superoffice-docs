@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetDisplayName
+description: NSArchiveColumnInfo.GetDisplayName()
+intellisense: NSArchiveColumnInfo.GetDisplayName
 sortOrder: 1140
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

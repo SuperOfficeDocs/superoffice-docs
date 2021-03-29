@@ -1,10 +1,10 @@
 ---
-title: Integer GetEmailItemId()
-path: /EJScript/Classes/NSEMailEntity/Member functions/Integer GetEmailItemId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetEmailItemId
+description: NSEMailEntity.GetEmailItemId()
+intellisense: NSEMailEntity.GetEmailItemId
 sortOrder: 2952
 keywords: GetEmailItemId()
+so.topic: reference
 ---
 
 

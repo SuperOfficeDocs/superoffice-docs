@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedByAssociateId(Integer CreatedByAssociateId)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetCreatedByAssociateId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetCreatedByAssociateId_Integer_p_0
+description: NSAppointment.SetCreatedByAssociateId(Integer p_0)
+intellisense: NSAppointment.SetCreatedByAssociateId
 sortOrder: 785
 keywords: SetCreatedByAssociateId(Integer)
+so.topic: reference
 ---
 
 

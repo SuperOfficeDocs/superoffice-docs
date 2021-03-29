@@ -1,10 +1,10 @@
 ---
-title: Void SetKey(String Key)
-path: /EJScript/Classes/NSCsSessionKey/Member functions/Void SetKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsSessionKey_SetKey_String_p_0
+description: NSCsSessionKey.SetKey(String p_0)
+intellisense: NSCsSessionKey.SetKey
 sortOrder: 2166
 keywords: SetKey(String)
+so.topic: reference
 ---
 
 

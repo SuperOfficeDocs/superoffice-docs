@@ -1,10 +1,10 @@
 ---
-title: Integer GetType()
-path: /EJScript/Classes/NSImportLine/Member functions/Integer GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportLine_GetType
+description: NSImportLine.GetType()
+intellisense: NSImportLine.GetType
 sortOrder: 3976
 keywords: GetType()
+so.topic: reference
 ---
 
 

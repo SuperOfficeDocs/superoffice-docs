@@ -1,9 +1,9 @@
 ---
-title: String GetPost1()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetPost1()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetPost1
+description: NSPersonEntity.GetPost1()
+intellisense: NSPersonEntity.GetPost1
 keywords: GetPost1()
+so.topic: reference
 ---
 
 

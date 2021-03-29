@@ -1,10 +1,10 @@
 ---
-title: Void SetAddressType(Integer AddressType)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetAddressType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_SetAddressType_Integer_p_0
+description: NSAddressSyncData.SetAddressType(Integer p_0)
+intellisense: NSAddressSyncData.SetAddressType
 sortOrder: 633
 keywords: SetAddressType(Integer)
+so.topic: reference
 ---
 
 

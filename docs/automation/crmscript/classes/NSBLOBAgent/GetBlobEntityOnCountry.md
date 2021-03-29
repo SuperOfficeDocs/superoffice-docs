@@ -1,10 +1,10 @@
 ---
-title: NSBlobEntity GetBlobEntityOnCountry(Integer countryId)
-path: /EJScript/Classes/NSBLOBAgent/Member functions/NSBlobEntity GetBlobEntityOnCountry(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBLOBAgent_GetBlobEntityOnCountry_Integer_p_0
+description: NSBLOBAgent.GetBlobEntityOnCountry(Integer p_0)
+intellisense: NSBLOBAgent.GetBlobEntityOnCountry
 sortOrder: 1411
 keywords: GetBlobEntityOnCountry(Integer)
+so.topic: reference
 ---
 
 

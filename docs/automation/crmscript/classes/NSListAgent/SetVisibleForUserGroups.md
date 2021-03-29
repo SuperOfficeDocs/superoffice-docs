@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] SetVisibleForUserGroups(Integer udListDefinitionId, Integer listItemId, NSSelectableMDOListItem[] userGroups)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] SetVisibleForUserGroups(Integer p_0, Integer p_1, NSSelectableMDOListItem[] p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetVisibleForUserGroups_Integer_p_0_Integer_p_1_NSSelectableMDOListItem__p_2
+description: NSListAgent.SetVisibleForUserGroups(Integer p_0, Integer p_1, NSSelectableMDOListItem[] p_2)
+intellisense: NSListAgent.SetVisibleForUserGroups
 keywords: SetVisibleForUserGroups(Integer,Integer,NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

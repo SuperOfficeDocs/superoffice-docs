@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetPersonDocuments(Integer personId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetPersonDocuments(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetPersonDocuments_Integer_p_0
+description: NSDocumentAgent.GetPersonDocuments(Integer p_0)
+intellisense: NSDocumentAgent.GetPersonDocuments
 sortOrder: 2480
 keywords: GetPersonDocuments(Integer)
+so.topic: reference
 ---
 
 

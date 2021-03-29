@@ -1,10 +1,10 @@
 ---
-title: Void SetShowInMenuBar(Bool ShowInMenuBar)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetShowInMenuBar(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetShowInMenuBar_Bool_p_0
+description: NSExtAppEntity.SetShowInMenuBar(Bool p_0)
+intellisense: NSExtAppEntity.SetShowInMenuBar
 sortOrder: 3393
 keywords: SetShowInMenuBar(Bool)
+so.topic: reference
 ---
 
 

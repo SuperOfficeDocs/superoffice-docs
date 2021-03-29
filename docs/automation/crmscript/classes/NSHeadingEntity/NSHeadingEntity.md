@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity
-path: /EJScript/Classes/NSHeadingEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHeadingEntity
+description: NSHeadingEntity
+intellisense: Void.NSHeadingEntity
 sortOrder: 3910
+so.topic: reference
 ---
 
 

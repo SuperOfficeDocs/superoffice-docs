@@ -1,10 +1,10 @@
 ---
-title: NSCustomerServiceStartup GetCustomerServiceStartup()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerServiceStartup GetCustomerServiceStartup()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_GetCustomerServiceStartup
+description: NSCustomerServiceAgent.GetCustomerServiceStartup()
+intellisense: NSCustomerServiceAgent.GetCustomerServiceStartup
 sortOrder: 2231
 keywords: GetCustomerServiceStartup()
+so.topic: reference
 ---
 
 

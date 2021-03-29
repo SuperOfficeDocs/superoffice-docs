@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetRank
+description: NSSelectableMDOListItem.GetRank()
+intellisense: NSSelectableMDOListItem.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

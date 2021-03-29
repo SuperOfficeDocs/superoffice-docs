@@ -1,10 +1,10 @@
 ---
-title: NSEMailFolder[] CacheFolderList()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailFolder[] CacheFolderList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CacheFolderList
+description: NSEMailAgent.CacheFolderList()
+intellisense: NSEMailAgent.CacheFolderList
 sortOrder: 2836
 keywords: CacheFolderList()
+so.topic: reference
 ---
 
 

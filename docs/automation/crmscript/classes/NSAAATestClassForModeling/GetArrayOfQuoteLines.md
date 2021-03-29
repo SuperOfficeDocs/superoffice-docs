@@ -1,10 +1,10 @@
 ---
-title: NSQuoteLine[] GetArrayOfQuoteLines()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/NSQuoteLine[] GetArrayOfQuoteLines()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetArrayOfQuoteLines
+description: NSAAATestClassForModeling.GetArrayOfQuoteLines()
+intellisense: NSAAATestClassForModeling.GetArrayOfQuoteLines
 sortOrder: 8930
 keywords: GetArrayOfQuoteLines()
+so.topic: reference
 ---
 
 

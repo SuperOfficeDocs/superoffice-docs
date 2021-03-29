@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSLegalBase/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_GetRank
+description: NSLegalBase.GetRank()
+intellisense: NSLegalBase.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

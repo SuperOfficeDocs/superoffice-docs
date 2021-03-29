@@ -1,10 +1,10 @@
 ---
-title: NSRecurrenceInfo CalculateDays(NSAppointmentEntity p0)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSRecurrenceInfo CalculateDays(NSAppointmentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CalculateDays_NSAppointmentEntity_p_0
+description: NSAppointmentAgent.CalculateDays(NSAppointmentEntity p_0)
+intellisense: NSAppointmentAgent.CalculateDays
 sortOrder: 891
 keywords: CalculateDays(NSAppointmentEntity)
+so.topic: reference
 ---
 
 

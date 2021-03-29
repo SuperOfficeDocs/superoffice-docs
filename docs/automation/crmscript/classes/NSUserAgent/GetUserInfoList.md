@@ -1,9 +1,9 @@
 ---
-title: NSUserInfo[] GetUserInfoList(Integer[] p0)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUserInfo[] GetUserInfoList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetUserInfoList_Integer__p_0
+description: NSUserAgent.GetUserInfoList(Integer[] p_0)
+intellisense: NSUserAgent.GetUserInfoList
 keywords: GetUserInfoList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of UserInfo objects.

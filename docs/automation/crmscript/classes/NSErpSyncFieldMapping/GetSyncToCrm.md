@@ -1,10 +1,10 @@
 ---
-title: Bool GetSyncToCrm()
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Bool GetSyncToCrm()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_GetSyncToCrm
+description: NSErpSyncFieldMapping.GetSyncToCrm()
+intellisense: NSErpSyncFieldMapping.GetSyncToCrm
 sortOrder: 3290
 keywords: GetSyncToCrm()
+so.topic: reference
 ---
 
 

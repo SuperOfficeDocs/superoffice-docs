@@ -1,10 +1,10 @@
 ---
-title: Void update()
-path: /EJScript/Classes/DBWrite/Member functions/Void update()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DBWrite_update
+description: DBWrite.update()
+intellisense: DBWrite.update
 sortOrder: 271
 keywords: update()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] SetSelected(String name, String additionalInfo, NSSelectableMDOListItem[] selectableMDOList)
-path: /EJScript/Classes/NSMDOAgent/Member functions/NSSelectableMDOListItem[] SetSelected(String p_0, String p_1, NSSelectableMDOListItem[] p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOAgent_SetSelected_String_p_0_String_p_1_NSSelectableMDOListItem__p_2
+description: NSMDOAgent.SetSelected(String p_0, String p_1, NSSelectableMDOListItem[] p_2)
+intellisense: NSMDOAgent.SetSelected
 keywords: SetSelected(String,String,NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

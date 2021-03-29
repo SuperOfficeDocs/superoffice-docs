@@ -1,9 +1,9 @@
 ---
-title: NSRecurrenceDate[] GetDates()
-path: /EJScript/Classes/NSRecurrenceInfo/Member functions/NSRecurrenceDate[] GetDates()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRecurrenceInfo_GetDates
+description: NSRecurrenceInfo.GetDates()
+intellisense: NSRecurrenceInfo.GetDates
 keywords: GetDates()
+so.topic: reference
 ---
 
 

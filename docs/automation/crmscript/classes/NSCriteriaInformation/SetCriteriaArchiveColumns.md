@@ -1,10 +1,10 @@
 ---
-title: Void SetCriteriaArchiveColumns(NSArchiveColumnInfo[] CriteriaArchiveColumns)
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/Void SetCriteriaArchiveColumns(NSArchiveColumnInfo[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCriteriaInformation_SetCriteriaArchiveColumns_NSArchiveColumnInfo__p_0
+description: NSCriteriaInformation.SetCriteriaArchiveColumns(NSArchiveColumnInfo[] p_0)
+intellisense: NSCriteriaInformation.SetCriteriaArchiveColumns
 sortOrder: 2108
 keywords: SetCriteriaArchiveColumns(NSArchiveColumnInfo[])
+so.topic: reference
 ---
 
 

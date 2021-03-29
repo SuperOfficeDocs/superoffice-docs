@@ -1,10 +1,10 @@
 ---
-title: String GetKey()
-path: /EJScript/Classes/NSCsSessionKey/Member functions/String GetKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCsSessionKey_GetKey
+description: NSCsSessionKey.GetKey()
+intellisense: NSCsSessionKey.GetKey
 sortOrder: 2165
 keywords: GetKey()
+so.topic: reference
 ---
 
 

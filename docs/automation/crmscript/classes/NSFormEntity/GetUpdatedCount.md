@@ -1,10 +1,10 @@
 ---
-title: Integer GetUpdatedCount()
-path: /EJScript/Classes/NSFormEntity/Member functions/Integer GetUpdatedCount()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetUpdatedCount
+description: NSFormEntity.GetUpdatedCount()
+intellisense: NSFormEntity.GetUpdatedCount
 sortOrder: 3798
 keywords: GetUpdatedCount()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetJ(NSBinary p0)
-path: /EJScript/Classes/NSDSAParameters/Member functions/Void SetJ(NSBinary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDSAParameters_SetJ_NSBinary_p_0
+description: NSDSAParameters.SetJ(NSBinary p_0)
+intellisense: NSDSAParameters.SetJ
 sortOrder: 2715
 keywords: SetJ(NSBinary)
+so.topic: reference
 ---
 
 

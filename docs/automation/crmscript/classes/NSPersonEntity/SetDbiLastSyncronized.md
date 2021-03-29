@@ -1,9 +1,9 @@
 ---
-title: Void SetDbiLastSyncronized(DateTime DbiLastSyncronized)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiLastSyncronized(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetDbiLastSyncronized_DateTime_p_0
+description: NSPersonEntity.SetDbiLastSyncronized(DateTime p_0)
+intellisense: NSPersonEntity.SetDbiLastSyncronized
 keywords: SetDbiLastSyncronized(DateTime)
+so.topic: reference
 ---
 
 

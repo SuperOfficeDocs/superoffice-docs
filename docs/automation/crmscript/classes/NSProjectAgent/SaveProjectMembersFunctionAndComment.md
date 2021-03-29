@@ -1,9 +1,9 @@
 ---
-title: Void SaveProjectMembersFunctionAndComment(Integer[] p0, Integer p1, String p2)
-path: /EJScript/Classes/NSProjectAgent/Member functions/Void SaveProjectMembersFunctionAndComment(Integer[] p_0, Integer p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_SaveProjectMembersFunctionAndComment_Integer__p_0_Integer_p_1_String_p_2
+description: NSProjectAgent.SaveProjectMembersFunctionAndComment(Integer[] p_0, Integer p_1, String p_2)
+intellisense: NSProjectAgent.SaveProjectMembersFunctionAndComment
 keywords: SaveProjectMembersFunctionAndComment(Integer[],Integer,String)
+so.topic: reference
 ---
 
 

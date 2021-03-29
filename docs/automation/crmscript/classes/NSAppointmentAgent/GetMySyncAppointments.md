@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentSyncData[] GetMySyncAppointments(DateTime startTime, DateTime endTime)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentSyncData[] GetMySyncAppointments(DateTime p_0, DateTime p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetMySyncAppointments_DateTime_p_0_DateTime_p_1
+description: NSAppointmentAgent.GetMySyncAppointments(DateTime p_0, DateTime p_1)
+intellisense: NSAppointmentAgent.GetMySyncAppointments
 sortOrder: 886
 keywords: GetMySyncAppointments(DateTime,DateTime)
+so.topic: reference
 ---
 
 

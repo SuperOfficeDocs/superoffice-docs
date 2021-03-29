@@ -1,9 +1,9 @@
 ---
-title: Float GetLostTotalBaseCurrency()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Float GetLostTotalBaseCurrency()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetLostTotalBaseCurrency
+description: NSSaleSummary.GetLostTotalBaseCurrency()
+intellisense: NSSaleSummary.GetLostTotalBaseCurrency
 keywords: GetLostTotalBaseCurrency()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Bool GetFreetextEnabeled()
-path: /EJScript/Classes/NSArea/Member functions/Bool GetFreetextEnabeled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea_GetFreetextEnabeled
+description: NSArea.GetFreetextEnabeled()
+intellisense: NSArea.GetFreetextEnabeled
 sortOrder: 1240
 keywords: GetFreetextEnabeled()
+so.topic: reference
 ---
 
 

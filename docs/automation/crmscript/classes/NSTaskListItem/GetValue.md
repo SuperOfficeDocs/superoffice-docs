@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSTaskListItem/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetValue
+description: NSTaskListItem.GetValue()
+intellisense: NSTaskListItem.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

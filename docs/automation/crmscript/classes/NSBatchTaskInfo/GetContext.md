@@ -1,10 +1,10 @@
 ---
-title: String GetContext()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/String GetContext()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetContext
+description: NSBatchTaskInfo.GetContext()
+intellisense: NSBatchTaskInfo.GetContext
 sortOrder: 1376
 keywords: GetContext()
+so.topic: reference
 ---
 
 

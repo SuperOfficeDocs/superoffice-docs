@@ -1,9 +1,9 @@
 ---
-title: NSCountry[] GetCountryList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry[] GetCountryList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCountryList_Integer__p_0
+description: NSListAgent.GetCountryList(Integer[] p_0)
+intellisense: NSListAgent.GetCountryList
 keywords: GetCountryList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of Country objects.

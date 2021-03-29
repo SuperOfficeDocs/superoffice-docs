@@ -1,9 +1,9 @@
 ---
-title: NSBatchAgent
-path: /EJScript/Classes/NSBatchAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchAgent
+description: NSBatchAgent
+intellisense: Void.NSBatchAgent
 sortOrder: 1349
+so.topic: reference
 ---
 
 

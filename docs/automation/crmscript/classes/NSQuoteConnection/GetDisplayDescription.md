@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayDescription()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetDisplayDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetDisplayDescription
+description: NSQuoteConnection.GetDisplayDescription()
+intellisense: NSQuoteConnection.GetDisplayDescription
 keywords: GetDisplayDescription()
+so.topic: reference
 ---
 
 

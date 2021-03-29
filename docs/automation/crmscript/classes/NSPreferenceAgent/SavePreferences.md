@@ -1,9 +1,9 @@
 ---
-title: Void SavePreferences(NSPreference[] preferences)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void SavePreferences(NSPreference[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_SavePreferences_NSPreference__p_0
+description: NSPreferenceAgent.SavePreferences(NSPreference[] p_0)
+intellisense: NSPreferenceAgent.SavePreferences
 keywords: SavePreferences(NSPreference[])
+so.topic: reference
 ---
 
 

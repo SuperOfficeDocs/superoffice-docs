@@ -1,9 +1,9 @@
 ---
-title: String GetSecret()
-path: /EJScript/Classes/NSWebhook/Member functions/String GetSecret()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetSecret
+description: NSWebhook.GetSecret()
+intellisense: NSWebhook.GetSecret
 keywords: GetSecret()
+so.topic: reference
 ---
 
 

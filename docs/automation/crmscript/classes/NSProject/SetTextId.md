@@ -1,9 +1,9 @@
 ---
-title: Void SetTextId(Integer TextId)
-path: /EJScript/Classes/NSProject/Member functions/Void SetTextId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_SetTextId_Integer_p_0
+description: NSProject.SetTextId(Integer p_0)
+intellisense: NSProject.SetTextId
 keywords: SetTextId(Integer)
+so.topic: reference
 ---
 
 

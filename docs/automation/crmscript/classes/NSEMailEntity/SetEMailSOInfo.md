@@ -1,10 +1,10 @@
 ---
-title: Void SetEMailSOInfo(NSEMailSOInfo EMailSOInfo)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetEMailSOInfo(NSEMailSOInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetEMailSOInfo_NSEMailSOInfo_p_0
+description: NSEMailEntity.SetEMailSOInfo(NSEMailSOInfo p_0)
+intellisense: NSEMailEntity.SetEMailSOInfo
 sortOrder: 2980
 keywords: SetEMailSOInfo(NSEMailSOInfo)
+so.topic: reference
 ---
 
 

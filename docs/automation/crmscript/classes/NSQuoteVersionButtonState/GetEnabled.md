@@ -1,9 +1,9 @@
 ---
-title: Bool GetEnabled()
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Bool GetEnabled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_GetEnabled
+description: NSQuoteVersionButtonState.GetEnabled()
+intellisense: NSQuoteVersionButtonState.GetEnabled
 keywords: GetEnabled()
+so.topic: reference
 ---
 
 

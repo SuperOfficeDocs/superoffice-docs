@@ -1,9 +1,9 @@
 ---
-title: Void SetExternalName(String ExternalName)
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Void SetExternalName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_SetExternalName_String_p_0
+description: NSTicketCategoryEntity.SetExternalName(String p_0)
+intellisense: NSTicketCategoryEntity.SetExternalName
 keywords: SetExternalName(String)
+so.topic: reference
 ---
 
 

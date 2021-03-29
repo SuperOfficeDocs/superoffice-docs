@@ -1,9 +1,9 @@
 ---
-title: Void SetNativeName(String NativeName)
-path: /EJScript/Classes/NSLanguageInfo/Member functions/Void SetNativeName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLanguageInfo_SetNativeName_String_p_0
+description: NSLanguageInfo.SetNativeName(String p_0)
+intellisense: NSLanguageInfo.SetNativeName
 keywords: SetNativeName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldValue_SetValue_String_p_0
+description: NSErpSyncFieldValue.SetValue(String p_0)
+intellisense: NSErpSyncFieldValue.SetValue
 sortOrder: 3336
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetActionButtons(NSQuoteVersionButtonState[] ActionButtons)
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/Void SetActionButtons(NSQuoteVersionButtonState[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_SetActionButtons_NSQuoteVersionButtonState__p_0
+description: NSQuoteVersionWorkflowState.SetActionButtons(NSQuoteVersionButtonState[] p_0)
+intellisense: NSQuoteVersionWorkflowState.SetActionButtons
 keywords: SetActionButtons(NSQuoteVersionButtonState[])
+so.topic: reference
 ---
 
 

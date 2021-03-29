@@ -1,9 +1,9 @@
 ---
-title: Integer GetSelectionId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetSelectionId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetSelectionId
+description: NSTemplateVariablesParameters.GetSelectionId()
+intellisense: NSTemplateVariablesParameters.GetSelectionId
 keywords: GetSelectionId()
+so.topic: reference
 ---
 
 

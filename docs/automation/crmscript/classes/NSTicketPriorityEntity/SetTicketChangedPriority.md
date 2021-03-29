@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketChangedPriority(NSTicketPriorityEscalateEvent TicketChangedPriority)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetTicketChangedPriority(NSTicketPriorityEscalateEvent p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetTicketChangedPriority_NSTicketPriorityEscalateEvent_p_0
+description: NSTicketPriorityEntity.SetTicketChangedPriority(NSTicketPriorityEscalateEvent p_0)
+intellisense: NSTicketPriorityEntity.SetTicketChangedPriority
 keywords: SetTicketChangedPriority(NSTicketPriorityEscalateEvent)
+so.topic: reference
 ---
 
 

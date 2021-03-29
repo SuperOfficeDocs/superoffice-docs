@@ -1,10 +1,10 @@
 ---
-title: NSCustomerCenterConfig[] GetAllCustomerCenterConfigs()
-path: /EJScript/Classes/NSCustomerServiceAgent/Member functions/NSCustomerCenterConfig[] GetAllCustomerCenterConfigs()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceAgent_GetAllCustomerCenterConfigs
+description: NSCustomerServiceAgent.GetAllCustomerCenterConfigs()
+intellisense: NSCustomerServiceAgent.GetAllCustomerCenterConfigs
 sortOrder: 2230
 keywords: GetAllCustomerCenterConfigs()
+so.topic: reference
 ---
 
 

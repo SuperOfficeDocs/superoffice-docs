@@ -1,9 +1,9 @@
 ---
-title: Void UpdateNetServicesStatus(String xml-or-json)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/Void UpdateNetServicesStatus(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_UpdateNetServicesStatus_String_p_0
+description: NSPreferenceAgent.UpdateNetServicesStatus(String p_0)
+intellisense: NSPreferenceAgent.UpdateNetServicesStatus
 keywords: UpdateNetServicesStatus(String)
+so.topic: reference
 ---
 
 

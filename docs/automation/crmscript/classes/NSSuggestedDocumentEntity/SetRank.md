@@ -1,9 +1,9 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_SetRank_Integer_p_0
+description: NSSuggestedDocumentEntity.SetRank(Integer p_0)
+intellisense: NSSuggestedDocumentEntity.SetRank
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

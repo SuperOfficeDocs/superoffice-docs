@@ -1,9 +1,9 @@
 ---
-title: NSTicketStatusTimeCounter GetTimeCounter()
-path: /EJScript/Classes/NSTicketStatusEntity/Member functions/NSTicketStatusTimeCounter GetTimeCounter()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketStatusEntity_GetTimeCounter
+description: NSTicketStatusEntity.GetTimeCounter()
+intellisense: NSTicketStatusEntity.GetTimeCounter
 keywords: GetTimeCounter()
+so.topic: reference
 ---
 
 

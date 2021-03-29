@@ -1,9 +1,9 @@
 ---
-title: Integer GetAssignmentLag()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetAssignmentLag()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetAssignmentLag
+description: NSTicketCategoryEntity.GetAssignmentLag()
+intellisense: NSTicketCategoryEntity.GetAssignmentLag
 keywords: GetAssignmentLag()
+so.topic: reference
 ---
 
 

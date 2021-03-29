@@ -1,10 +1,10 @@
 ---
-title: Void SetActivityFilter(NSActivityFilter activityFilter)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/Void SetActivityFilter(NSActivityFilter p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_SetActivityFilter_NSActivityFilter_p_0
+description: NSArchiveAgent.SetActivityFilter(NSActivityFilter p_0)
+intellisense: NSArchiveAgent.SetActivityFilter
 sortOrder: 1120
 keywords: SetActivityFilter(NSActivityFilter)
+so.topic: reference
 ---
 
 

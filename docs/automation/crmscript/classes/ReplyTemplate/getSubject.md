@@ -1,9 +1,9 @@
 ---
-title: String getSubject(Integer language)
-path: /EJScript/Classes/ReplyTemplate/Member functions/String getSubject(Integer language)
-intellisense: 1
-classref: 1
+title: crmscript_ref_ReplyTemplate_getSubject_Integer_language
+description: ReplyTemplate.getSubject(Integer language)
+intellisense: ReplyTemplate.getSubject
 keywords: getSubject(Integer)
+so.topic: reference
 ---
 
 

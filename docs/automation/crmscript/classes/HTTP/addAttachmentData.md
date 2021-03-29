@@ -1,10 +1,10 @@
 ---
-title: Bool addAttachmentData(Integer p_attachmentId)
-path: /EJScript/Classes/HTTP/Member functions/Void addAttachmentData(Integer p_attachmentId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_addAttachmentData_Integer_p_attachmentId
+description: HTTP.addAttachmentData(Integer p_attachmentId)
+intellisense: HTTP.addAttachmentData
 sortOrder: 418
 keywords: addAttachmentData(Integer p_attachmentId)
+so.topic: reference
 ---
 
 This function will add the binary data in the Service attachment specified to the body of the request. Must be used together with POST, PUT or PATCH.

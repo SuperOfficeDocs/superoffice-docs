@@ -1,10 +1,10 @@
 ---
-title: Void SetStandardDouble(Float StandardDouble)
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Void SetStandardDouble(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_SetStandardDouble_Float_p_0
+description: NSAAATestClassForModeling.SetStandardDouble(Float p_0)
+intellisense: NSAAATestClassForModeling.SetStandardDouble
 sortOrder: 8947
 keywords: SetStandardDouble(Float)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsPushNotificationEnabled()
-path: /EJScript/Classes/NSPocketStartupData/Member functions/Bool GetIsPushNotificationEnabled()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketStartupData_GetIsPushNotificationEnabled
+description: NSPocketStartupData.GetIsPushNotificationEnabled()
+intellisense: NSPocketStartupData.GetIsPushNotificationEnabled
 keywords: GetIsPushNotificationEnabled()
+so.topic: reference
 ---
 
 

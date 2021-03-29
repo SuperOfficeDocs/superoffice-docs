@@ -1,9 +1,9 @@
 ---
-title: NSDeliveryType[] GetDeliveryTypes()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryType[] GetDeliveryTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDeliveryTypes
+description: NSListAgent.GetDeliveryTypes()
+intellisense: NSListAgent.GetDeliveryTypes
 keywords: GetDeliveryTypes()
+so.topic: reference
 ---
 
 

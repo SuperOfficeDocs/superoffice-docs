@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetCreatedDate_DateTime_p_0
+description: NSBlobEntity.SetCreatedDate(DateTime p_0)
+intellisense: NSBlobEntity.SetCreatedDate
 sortOrder: 1457
 keywords: SetCreatedDate(DateTime)
+so.topic: reference
 ---
 
 

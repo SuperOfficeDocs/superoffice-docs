@@ -1,9 +1,9 @@
 ---
-title: Void SetArchivedState(Integer p0)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetArchivedState(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetArchivedState_Integer_p_0
+description: NSQuoteVersion.SetArchivedState(Integer p_0)
+intellisense: NSQuoteVersion.SetArchivedState
 keywords: SetArchivedState(Integer)
+so.topic: reference
 ---
 
 State that this quote version had, right before it was changed to Archived; in this way we can show what happened before the archiving.

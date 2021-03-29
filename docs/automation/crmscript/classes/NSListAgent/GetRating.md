@@ -1,9 +1,9 @@
 ---
-title: NSRating GetRating(Integer ratingId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSRating GetRating(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetRating_Integer_p_0
+description: NSListAgent.GetRating(Integer p_0)
+intellisense: NSListAgent.GetRating
 keywords: GetRating(Integer)
+so.topic: reference
 ---
 
 

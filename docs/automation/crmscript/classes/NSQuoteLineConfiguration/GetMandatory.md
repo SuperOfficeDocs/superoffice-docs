@@ -1,9 +1,9 @@
 ---
-title: Bool GetMandatory()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Bool GetMandatory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetMandatory
+description: NSQuoteLineConfiguration.GetMandatory()
+intellisense: NSQuoteLineConfiguration.GetMandatory
 keywords: GetMandatory()
+so.topic: reference
 ---
 
 

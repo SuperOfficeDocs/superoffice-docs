@@ -1,9 +1,9 @@
 ---
-title: Integer GetTabOrderId()
-path: /EJScript/Classes/NSTabOrder/Member functions/Integer GetTabOrderId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_GetTabOrderId
+description: NSTabOrder.GetTabOrderId()
+intellisense: NSTabOrder.GetTabOrderId
 keywords: GetTabOrderId()
+so.topic: reference
 ---
 
 

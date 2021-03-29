@@ -1,9 +1,9 @@
 ---
-title: Void SetPocketVersion(String PocketVersion)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetPocketVersion(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetPocketVersion_String_p_0
+description: NSPocketDeviceInfo.SetPocketVersion(String p_0)
+intellisense: NSPocketDeviceInfo.SetPocketVersion
 keywords: SetPocketVersion(String)
+so.topic: reference
 ---
 
 

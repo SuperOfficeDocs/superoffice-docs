@@ -1,9 +1,9 @@
 ---
-title: Void SetUserExplanation(String UserExplanation)
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/Void SetUserExplanation(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_SetUserExplanation_String_p_0
+description: NSQuoteVersionValidated.SetUserExplanation(String p_0)
+intellisense: NSQuoteVersionValidated.SetUserExplanation
 keywords: SetUserExplanation(String)
+so.topic: reference
 ---
 
 

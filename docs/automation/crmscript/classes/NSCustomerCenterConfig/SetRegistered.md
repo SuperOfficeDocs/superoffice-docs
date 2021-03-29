@@ -1,10 +1,10 @@
 ---
-title: Void SetRegistered(DateTime Registered)
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/Void SetRegistered(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_SetRegistered_DateTime_p_0
+description: NSCustomerCenterConfig.SetRegistered(DateTime p_0)
+intellisense: NSCustomerCenterConfig.SetRegistered
 sortOrder: 2206
 keywords: SetRegistered(DateTime)
+so.topic: reference
 ---
 
 

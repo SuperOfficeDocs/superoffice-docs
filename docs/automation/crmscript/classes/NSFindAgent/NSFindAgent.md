@@ -1,9 +1,9 @@
 ---
-title: NSFindAgent
-path: /EJScript/Classes/NSFindAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent
+description: NSFindAgent
+intellisense: Void.NSFindAgent
 sortOrder: 3651
+so.topic: reference
 ---
 
 

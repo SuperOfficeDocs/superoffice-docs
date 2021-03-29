@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedDate(DateTime CreatedDate)
-path: /EJScript/Classes/NSForeignKey/Member functions/Void SetCreatedDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignKey_SetCreatedDate_DateTime_p_0
+description: NSForeignKey.SetCreatedDate(DateTime p_0)
+intellisense: NSForeignKey.SetCreatedDate
 sortOrder: 3743
 keywords: SetCreatedDate(DateTime)
+so.topic: reference
 ---
 
 

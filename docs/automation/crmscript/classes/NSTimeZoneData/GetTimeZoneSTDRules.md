@@ -1,9 +1,9 @@
 ---
-title: NSTimeZoneRuleDictionary GetTimeZoneSTDRules()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/NSTimeZoneRuleDictionary GetTimeZoneSTDRules()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_GetTimeZoneSTDRules
+description: NSTimeZoneData.GetTimeZoneSTDRules()
+intellisense: NSTimeZoneData.GetTimeZoneSTDRules
 keywords: GetTimeZoneSTDRules()
+so.topic: reference
 ---
 
 

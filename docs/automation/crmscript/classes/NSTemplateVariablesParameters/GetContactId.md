@@ -1,9 +1,9 @@
 ---
-title: Integer GetContactId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetContactId
+description: NSTemplateVariablesParameters.GetContactId()
+intellisense: NSTemplateVariablesParameters.GetContactId
 keywords: GetContactId()
+so.topic: reference
 ---
 
 

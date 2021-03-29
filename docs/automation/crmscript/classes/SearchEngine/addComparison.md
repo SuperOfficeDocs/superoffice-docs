@@ -1,9 +1,9 @@
 ---
-title: Void addComparison(String field1, String compOperator, String field2, String rowOperator, Integer priority)
-path: /EJScript/Classes/SearchEngine/member functions/Void addComparison(String field1, String compOperator, String field2, String rowOperator, Integer priority)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addComparison_String_field1_String_compOperator_String_field2_String_rowOperator_Integer_priority
+description: SearchEngine.addComparison(String field1, String compOperator, String field2, String rowOperator, Integer priority)
+intellisense: SearchEngine.addComparison
 keywords: addComparison(String,String,String,String,Integer)
+so.topic: reference
 ---
 
 

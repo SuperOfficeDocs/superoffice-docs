@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayTooltip(String DisplayTooltip)
-path: /EJScript/Classes/NSPreference/Member functions/Void SetDisplayTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_SetDisplayTooltip_String_p_0
+description: NSPreference.SetDisplayTooltip(String p_0)
+intellisense: NSPreference.SetDisplayTooltip
 keywords: SetDisplayTooltip(String)
+so.topic: reference
 ---
 
 

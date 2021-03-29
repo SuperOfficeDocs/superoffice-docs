@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncFieldMapping[] GetFieldMappings()
-path: /EJScript/Classes/NSErpSyncActorTypeMapping/Member functions/NSErpSyncFieldMapping[] GetFieldMappings()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorTypeMapping_GetFieldMappings
+description: NSErpSyncActorTypeMapping.GetFieldMappings()
+intellisense: NSErpSyncActorTypeMapping.GetFieldMappings
 sortOrder: 3168
 keywords: GetFieldMappings()
+so.topic: reference
 ---
 
 

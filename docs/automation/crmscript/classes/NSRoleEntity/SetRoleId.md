@@ -1,9 +1,9 @@
 ---
-title: Void SetRoleId(Integer RoleId)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetRoleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_SetRoleId_Integer_p_0
+description: NSRoleEntity.SetRoleId(Integer p_0)
+intellisense: NSRoleEntity.SetRoleId
 keywords: SetRoleId(Integer)
+so.topic: reference
 ---
 
 

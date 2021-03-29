@@ -1,9 +1,9 @@
 ---
-title: NSCountry[] GetCountries()
-path: /EJScript/Classes/NSListAgent/Member functions/NSCountry[] GetCountries()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetCountries
+description: NSListAgent.GetCountries()
+intellisense: NSListAgent.GetCountries
 keywords: GetCountries()
+so.topic: reference
 ---
 
 

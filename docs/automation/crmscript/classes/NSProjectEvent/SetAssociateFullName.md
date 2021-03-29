@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociateFullName(String AssociateFullName)
-path: /EJScript/Classes/NSProjectEvent/Member functions/Void SetAssociateFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_SetAssociateFullName_String_p_0
+description: NSProjectEvent.SetAssociateFullName(String p_0)
+intellisense: NSProjectEvent.SetAssociateFullName
 keywords: SetAssociateFullName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetMailBody(String MailBody)
-path: /EJScript/Classes/NSQuotePublishDocuments/Member functions/Void SetMailBody(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuotePublishDocuments_SetMailBody_String_p_0
+description: NSQuotePublishDocuments.SetMailBody(String p_0)
+intellisense: NSQuotePublishDocuments.SetMailBody
 keywords: SetMailBody(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCRMQuoteLine(NSQuoteLine CRMQuoteLine)
-path: /EJScript/Classes/NSQuoteContext/Member functions/Void SetCRMQuoteLine(NSQuoteLine p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteContext_SetCRMQuoteLine_NSQuoteLine_p_0
+description: NSQuoteContext.SetCRMQuoteLine(NSQuoteLine p_0)
+intellisense: NSQuoteContext.SetCRMQuoteLine
 keywords: SetCRMQuoteLine(NSQuoteLine)
+so.topic: reference
 ---
 
 

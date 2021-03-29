@@ -1,9 +1,9 @@
 ---
-title: Void SetPeriod2(Integer Period2)
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Void SetPeriod2(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_SetPeriod2_Integer_p_0
+description: NSSaintConfiguration.SetPeriod2(Integer p_0)
+intellisense: NSSaintConfiguration.SetPeriod2
 keywords: SetPeriod2(Integer)
+so.topic: reference
 ---
 
 

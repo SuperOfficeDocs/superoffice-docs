@@ -1,10 +1,11 @@
 ---
-title: Integer getTypeDimensions(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Integer getTypeDimensions(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_getTypeDimensions_Generic_generic
+description: Generic.getTypeDimensions(Generic generic)
+intellisense: Generic.getTypeDimensions
 langref: 1
 sortOrder: 110
 keywords: getTypeDimensions(Generic)
+so.topic: reference
 ---
 
 

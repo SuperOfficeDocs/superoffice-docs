@@ -1,10 +1,10 @@
 ---
-title: Void SetWidth(String Width)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetWidth(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetWidth_String_p_0
+description: NSArchiveColumnInfo.SetWidth(String p_0)
+intellisense: NSArchiveColumnInfo.SetWidth
 sortOrder: 1165
 keywords: SetWidth(String)
+so.topic: reference
 ---
 
 

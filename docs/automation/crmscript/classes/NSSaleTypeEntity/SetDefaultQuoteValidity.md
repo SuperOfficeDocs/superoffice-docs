@@ -1,9 +1,9 @@
 ---
-title: Void SetDefaultQuoteValidity(Integer DefaultQuoteValidity)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetDefaultQuoteValidity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetDefaultQuoteValidity_Integer_p_0
+description: NSSaleTypeEntity.SetDefaultQuoteValidity(Integer p_0)
+intellisense: NSSaleTypeEntity.SetDefaultQuoteValidity
 keywords: SetDefaultQuoteValidity(Integer)
+so.topic: reference
 ---
 
 

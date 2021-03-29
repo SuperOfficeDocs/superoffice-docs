@@ -1,9 +1,9 @@
 ---
-title: Void SaveQuickReplies(NSQuickReply[] quickReplies)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SaveQuickReplies(NSQuickReply[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveQuickReplies_NSQuickReply__p_0
+description: NSListAgent.SaveQuickReplies(NSQuickReply[] p_0)
+intellisense: NSListAgent.SaveQuickReplies
 keywords: SaveQuickReplies(NSQuickReply[])
+so.topic: reference
 ---
 
 

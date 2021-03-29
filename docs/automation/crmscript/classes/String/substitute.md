@@ -1,9 +1,9 @@
 ---
-title: String substitute(String src, String dest)
-path: /EJScript/Classes/String/Member functions/String substitute(String src, String dest)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_substitute_String_src_String_dest
+description: String.substitute(String src, String dest)
+intellisense: String.substitute
 keywords: substitute(String,String)
+so.topic: reference
 ---
 
 

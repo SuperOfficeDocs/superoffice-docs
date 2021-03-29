@@ -1,10 +1,10 @@
 ---
-title: DateTime GetWhenEnded()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/DateTime GetWhenEnded()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetWhenEnded
+description: NSChatSummaryItem.GetWhenEnded()
+intellisense: NSChatSummaryItem.GetWhenEnded
 sortOrder: 1535
 keywords: GetWhenEnded()
+so.topic: reference
 ---
 
 

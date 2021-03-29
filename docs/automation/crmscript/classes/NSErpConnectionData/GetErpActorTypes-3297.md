@@ -1,10 +1,10 @@
 ---
-title: NSErpActorType[] GetErpActorTypes()
-path: /EJScript/Classes/NSErpConnectionData/Member functions/NSErpActorType[] GetErpActorTypes()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_GetErpActorTypes
+description: NSErpConnectionData.GetErpActorTypes()
+intellisense: NSErpConnectionData.GetErpActorTypes
 sortOrder: 3111
 keywords: GetErpActorTypes()
+so.topic: reference
 ---
 
 

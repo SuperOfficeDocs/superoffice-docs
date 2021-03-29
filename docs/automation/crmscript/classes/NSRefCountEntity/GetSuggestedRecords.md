@@ -1,9 +1,9 @@
 ---
-title: NSMDOListItem[] GetSuggestedRecords()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/NSMDOListItem[] GetSuggestedRecords()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetSuggestedRecords
+description: NSRefCountEntity.GetSuggestedRecords()
+intellisense: NSRefCountEntity.GetSuggestedRecords
 keywords: GetSuggestedRecords()
+so.topic: reference
 ---
 
 

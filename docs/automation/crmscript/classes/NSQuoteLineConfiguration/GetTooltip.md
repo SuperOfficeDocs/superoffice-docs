@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetTooltip
+description: NSQuoteLineConfiguration.GetTooltip()
+intellisense: NSQuoteLineConfiguration.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

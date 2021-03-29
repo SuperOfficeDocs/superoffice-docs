@@ -1,9 +1,9 @@
 ---
-title: String GetUrl()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetUrl
+description: NSQuoteLine.GetUrl()
+intellisense: NSQuoteLine.GetUrl
 keywords: GetUrl()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetTimeToClose()
-path: /EJScript/Classes/NSTicket/Member functions/Integer GetTimeToClose()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_GetTimeToClose
+description: NSTicket.GetTimeToClose()
+intellisense: NSTicket.GetTimeToClose
 keywords: GetTimeToClose()
+so.topic: reference
 ---
 
 

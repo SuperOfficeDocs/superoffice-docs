@@ -1,9 +1,9 @@
 ---
-title: Float GetEarningPercent()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Float GetEarningPercent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_GetEarningPercent
+description: NSQuoteAlternative.GetEarningPercent()
+intellisense: NSQuoteAlternative.GetEarningPercent
 keywords: GetEarningPercent()
+so.topic: reference
 ---
 
 

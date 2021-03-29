@@ -1,9 +1,9 @@
 ---
-title: Integer execute()
-path: /EJScript/Classes/SearchEngine/member functions/Integer execute()
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_execute
+description: SearchEngine.execute()
+intellisense: SearchEngine.execute
 keywords: execute()
+so.topic: reference
 ---
 
 

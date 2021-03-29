@@ -1,10 +1,10 @@
 ---
-title: String GetAddress3()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetAddress3()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetAddress3
+description: NSAddressSyncData.GetAddress3()
+intellisense: NSAddressSyncData.GetAddress3
 sortOrder: 623
 keywords: GetAddress3()
+so.topic: reference
 ---
 
 

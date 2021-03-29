@@ -1,9 +1,9 @@
 ---
-title: String GetSalutation()
-path: /EJScript/Classes/NSPersonEntity/Member functions/String GetSalutation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetSalutation
+description: NSPersonEntity.GetSalutation()
+intellisense: NSPersonEntity.GetSalutation
 keywords: GetSalutation()
+so.topic: reference
 ---
 
 

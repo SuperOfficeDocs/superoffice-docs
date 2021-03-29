@@ -1,10 +1,10 @@
 ---
-title: Void SetWorkdir(String Workdir)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetWorkdir(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetWorkdir_String_p_0
+description: NSExtAppEntity.SetWorkdir(String p_0)
+intellisense: NSExtAppEntity.SetWorkdir
 sortOrder: 3400
 keywords: SetWorkdir(String)
+so.topic: reference
 ---
 
 

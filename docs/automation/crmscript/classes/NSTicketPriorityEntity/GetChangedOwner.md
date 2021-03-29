@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityEscalateEvent GetChangedOwner()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityEscalateEvent GetChangedOwner()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetChangedOwner
+description: NSTicketPriorityEntity.GetChangedOwner()
+intellisense: NSTicketPriorityEntity.GetChangedOwner
 keywords: GetChangedOwner()
+so.topic: reference
 ---
 
 

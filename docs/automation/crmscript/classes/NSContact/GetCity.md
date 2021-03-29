@@ -1,10 +1,10 @@
 ---
-title: String GetCity()
-path: /EJScript/Classes/NSContact/Member functions/String GetCity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetCity
+description: NSContact.GetCity()
+intellisense: NSContact.GetCity
 sortOrder: 1728
 keywords: GetCity()
+so.topic: reference
 ---
 
 

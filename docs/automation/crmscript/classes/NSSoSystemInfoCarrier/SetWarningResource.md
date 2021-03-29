@@ -1,9 +1,9 @@
 ---
-title: Void SetWarningResource(String p0)
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/Void SetWarningResource(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_SetWarningResource_String_p_0
+description: NSSoSystemInfoCarrier.SetWarningResource(String p_0)
+intellisense: NSSoSystemInfoCarrier.SetWarningResource
 keywords: SetWarningResource(String)
+so.topic: reference
 ---
 
 

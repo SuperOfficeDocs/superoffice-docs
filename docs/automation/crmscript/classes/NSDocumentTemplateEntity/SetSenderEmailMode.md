@@ -1,10 +1,10 @@
 ---
-title: Void SetSenderEmailMode(NSSenderMailMode SenderEmailMode)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetSenderEmailMode(NSSenderMailMode p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetSenderEmailMode_NSSenderMailMode_p_0
+description: NSDocumentTemplateEntity.SetSenderEmailMode(NSSenderMailMode p_0)
+intellisense: NSDocumentTemplateEntity.SetSenderEmailMode
 sortOrder: 2701
 keywords: SetSenderEmailMode(NSSenderMailMode)
+so.topic: reference
 ---
 
 

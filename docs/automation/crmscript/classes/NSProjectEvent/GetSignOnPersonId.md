@@ -1,9 +1,9 @@
 ---
-title: Integer GetSignOnPersonId()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetSignOnPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOnPersonId
+description: NSProjectEvent.GetSignOnPersonId()
+intellisense: NSProjectEvent.GetSignOnPersonId
 keywords: GetSignOnPersonId()
+so.topic: reference
 ---
 
 

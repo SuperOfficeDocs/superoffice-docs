@@ -1,10 +1,10 @@
 ---
-title: Bool BreakActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool BreakActorLink(Integer p_0, Integer p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_BreakActorLink_Integer_p_0_Integer_p_1_Integer_p_2
+description: NSErpSyncAgent.BreakActorLink(Integer p_0, Integer p_1, Integer p_2)
+intellisense: NSErpSyncAgent.BreakActorLink
 sortOrder: 3178
 keywords: BreakActorLink(Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

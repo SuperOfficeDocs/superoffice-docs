@@ -1,9 +1,9 @@
 ---
-title: Void SetDebugInfo(String DebugInfo)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetDebugInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetDebugInfo_String_p_0
+description: NSTicketMessageEntity.SetDebugInfo(String p_0)
+intellisense: NSTicketMessageEntity.SetDebugInfo
 keywords: SetDebugInfo(String)
+so.topic: reference
 ---
 
 

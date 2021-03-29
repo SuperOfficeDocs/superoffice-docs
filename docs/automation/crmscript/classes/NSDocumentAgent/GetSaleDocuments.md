@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetSaleDocuments(Integer saleId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetSaleDocuments(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetSaleDocuments_Integer_p_0
+description: NSDocumentAgent.GetSaleDocuments(Integer p_0)
+intellisense: NSDocumentAgent.GetSaleDocuments
 sortOrder: 2497
 keywords: GetSaleDocuments(Integer)
+so.topic: reference
 ---
 
 

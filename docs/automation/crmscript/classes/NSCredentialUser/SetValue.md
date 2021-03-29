@@ -1,10 +1,10 @@
 ---
-title: Void SetValue(String Value)
-path: /EJScript/Classes/NSCredentialUser/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCredentialUser_SetValue_String_p_0
+description: NSCredentialUser.SetValue(String p_0)
+intellisense: NSCredentialUser.SetValue
 sortOrder: 2093
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

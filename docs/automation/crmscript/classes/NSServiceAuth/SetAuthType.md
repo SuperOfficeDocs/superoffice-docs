@@ -1,9 +1,9 @@
 ---
-title: Void SetAuthType(String AuthType)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetAuthType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_SetAuthType_String_p_0
+description: NSServiceAuth.SetAuthType(String p_0)
+intellisense: NSServiceAuth.SetAuthType
 keywords: SetAuthType(String)
+so.topic: reference
 ---
 
 

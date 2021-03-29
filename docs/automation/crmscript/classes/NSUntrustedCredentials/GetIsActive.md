@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsActive()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_GetIsActive
+description: NSUntrustedCredentials.GetIsActive()
+intellisense: NSUntrustedCredentials.GetIsActive
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 

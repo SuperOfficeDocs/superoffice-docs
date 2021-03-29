@@ -1,9 +1,9 @@
 ---
-title: Void SetLicenseOwners(NSLicenseOwner[] LicenseOwners)
-path: /EJScript/Classes/NSSatellite/Member functions/Void SetLicenseOwners(NSLicenseOwner[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSatellite_SetLicenseOwners_NSLicenseOwner__p_0
+description: NSSatellite.SetLicenseOwners(NSLicenseOwner[] p_0)
+intellisense: NSSatellite.SetLicenseOwners
 keywords: SetLicenseOwners(NSLicenseOwner[])
+so.topic: reference
 ---
 
 

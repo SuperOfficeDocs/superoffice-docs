@@ -1,10 +1,10 @@
 ---
-title: Void SetGroupList(NSSelectableMDOListItem[] GroupList)
-path: /EJScript/Classes/NSActivityFilter/Member functions/Void SetGroupList(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_SetGroupList_NSSelectableMDOListItem__p_0
+description: NSActivityFilter.SetGroupList(NSSelectableMDOListItem[] p_0)
+intellisense: NSActivityFilter.SetGroupList
 sortOrder: 577
 keywords: SetGroupList(NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

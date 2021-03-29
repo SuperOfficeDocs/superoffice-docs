@@ -1,10 +1,10 @@
 ---
-title: Void RemoveAllFavourites(String tableName, Integer p1)
-path: /EJScript/Classes/NSFavouriteAgent/Member functions/Void RemoveAllFavourites(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFavouriteAgent_RemoveAllFavourites_String_p_0_Integer_p_1
+description: NSFavouriteAgent.RemoveAllFavourites(String p_0, Integer p_1)
+intellisense: NSFavouriteAgent.RemoveAllFavourites
 sortOrder: 3452
 keywords: RemoveAllFavourites(String,Integer)
+so.topic: reference
 ---
 
 

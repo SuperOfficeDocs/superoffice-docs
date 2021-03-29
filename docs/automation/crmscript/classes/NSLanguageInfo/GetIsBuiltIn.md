@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsBuiltIn()
-path: /EJScript/Classes/NSLanguageInfo/Member functions/Bool GetIsBuiltIn()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLanguageInfo_GetIsBuiltIn
+description: NSLanguageInfo.GetIsBuiltIn()
+intellisense: NSLanguageInfo.GetIsBuiltIn
 sortOrder: 4000
 keywords: GetIsBuiltIn()
+so.topic: reference
 ---
 
 

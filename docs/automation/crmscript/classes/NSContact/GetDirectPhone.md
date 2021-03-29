@@ -1,10 +1,10 @@
 ---
-title: String GetDirectPhone()
-path: /EJScript/Classes/NSContact/Member functions/String GetDirectPhone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetDirectPhone
+description: NSContact.GetDirectPhone()
+intellisense: NSContact.GetDirectPhone
 sortOrder: 1731
 keywords: GetDirectPhone()
+so.topic: reference
 ---
 
 

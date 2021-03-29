@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsActive()
-path: /EJScript/Classes/NSPriceList/Member functions/Bool GetIsActive()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPriceList_GetIsActive
+description: NSPriceList.GetIsActive()
+intellisense: NSPriceList.GetIsActive
 keywords: GetIsActive()
+so.topic: reference
 ---
 
 

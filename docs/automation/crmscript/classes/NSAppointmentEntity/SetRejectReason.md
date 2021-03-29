@@ -1,10 +1,10 @@
 ---
-title: Void SetRejectReason(String RejectReason)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetRejectReason(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetRejectReason_String_p_0
+description: NSAppointmentEntity.SetRejectReason(String p_0)
+intellisense: NSAppointmentEntity.SetRejectReason
 sortOrder: 1028
 keywords: SetRejectReason(String)
+so.topic: reference
 ---
 
 

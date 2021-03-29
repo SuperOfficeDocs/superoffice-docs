@@ -1,10 +1,10 @@
 ---
-title: String GetServerName()
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/String GetServerName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_GetServerName
+description: NSEMailConnectionInfoExtended.GetServerName()
+intellisense: NSEMailConnectionInfoExtended.GetServerName
 sortOrder: 2927
 keywords: GetServerName()
+so.topic: reference
 ---
 
 

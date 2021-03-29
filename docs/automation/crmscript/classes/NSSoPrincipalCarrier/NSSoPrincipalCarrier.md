@@ -1,8 +1,8 @@
 ---
-title: NSSoPrincipalCarrier
-path: /EJScript/Classes/NSSoPrincipalCarrier
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier
+description: NSSoPrincipalCarrier
+intellisense: Void.NSSoPrincipalCarrier
+so.topic: reference
 ---
 
 

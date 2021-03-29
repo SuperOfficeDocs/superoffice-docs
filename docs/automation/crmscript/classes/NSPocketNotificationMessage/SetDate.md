@@ -1,9 +1,9 @@
 ---
-title: Void SetDate(DateTime Date)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetDate_DateTime_p_0
+description: NSPocketNotificationMessage.SetDate(DateTime p_0)
+intellisense: NSPocketNotificationMessage.SetDate
 keywords: SetDate(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedAppointmentEntity GetSuggestedAppointmentEntity(Integer suggestedAppointmentEntityId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSuggestedAppointmentEntity GetSuggestedAppointmentEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetSuggestedAppointmentEntity_Integer_p_0
+description: NSAppointmentAgent.GetSuggestedAppointmentEntity(Integer p_0)
+intellisense: NSAppointmentAgent.GetSuggestedAppointmentEntity
 sortOrder: 900
 keywords: GetSuggestedAppointmentEntity(Integer)
+so.topic: reference
 ---
 
 

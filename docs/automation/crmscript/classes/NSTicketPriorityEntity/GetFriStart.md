@@ -1,9 +1,9 @@
 ---
-title: DateTime GetFriStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetFriStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetFriStart
+description: NSTicketPriorityEntity.GetFriStart()
+intellisense: NSTicketPriorityEntity.GetFriStart
 keywords: GetFriStart()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayDescription()
-path: /EJScript/Classes/NSFieldMetadata/Member functions/String GetDisplayDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_GetDisplayDescription
+description: NSFieldMetadata.GetDisplayDescription()
+intellisense: NSFieldMetadata.GetDisplayDescription
 sortOrder: 3581
 keywords: GetDisplayDescription()
+so.topic: reference
 ---
 
 

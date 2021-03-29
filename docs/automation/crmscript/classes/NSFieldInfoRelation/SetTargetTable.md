@@ -1,10 +1,10 @@
 ---
-title: Void SetTargetTable(String TargetTable)
-path: /EJScript/Classes/NSFieldInfoRelation/Member functions/Void SetTargetTable(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoRelation_SetTargetTable_String_p_0
+description: NSFieldInfoRelation.SetTargetTable(String p_0)
+intellisense: NSFieldInfoRelation.SetTargetTable
 sortOrder: 3543
 keywords: SetTargetTable(String)
+so.topic: reference
 ---
 
 

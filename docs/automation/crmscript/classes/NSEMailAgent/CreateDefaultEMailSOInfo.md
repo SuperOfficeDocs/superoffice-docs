@@ -1,10 +1,10 @@
 ---
-title: NSEMailSOInfo CreateDefaultEMailSOInfo()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailSOInfo CreateDefaultEMailSOInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailSOInfo
+description: NSEMailAgent.CreateDefaultEMailSOInfo()
+intellisense: NSEMailAgent.CreateDefaultEMailSOInfo
 sortOrder: 2838
 keywords: CreateDefaultEMailSOInfo()
+so.topic: reference
 ---
 
 

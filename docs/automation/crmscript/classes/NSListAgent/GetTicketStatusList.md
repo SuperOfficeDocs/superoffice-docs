@@ -1,9 +1,9 @@
 ---
-title: NSTicketStatusEntity[] GetTicketStatusList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketStatusEntity[] GetTicketStatusList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetTicketStatusList_Integer__p_0
+description: NSListAgent.GetTicketStatusList(Integer[] p_0)
+intellisense: NSListAgent.GetTicketStatusList
 keywords: GetTicketStatusList(Integer[])
+so.topic: reference
 ---
 
 

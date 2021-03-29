@@ -1,9 +1,9 @@
 ---
-title: Void SetAuthor(String Author)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetAuthor(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetAuthor_String_p_0
+description: NSTicketEntity.SetAuthor(String p_0)
+intellisense: NSTicketEntity.SetAuthor
 keywords: SetAuthor(String)
+so.topic: reference
 ---
 
 

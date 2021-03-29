@@ -1,10 +1,10 @@
 ---
-title: Void SetFieldType(Integer p0)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetFieldType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetFieldType_Integer_p_0
+description: NSErpSyncFieldMapping.SetFieldType(Integer p_0)
+intellisense: NSErpSyncFieldMapping.SetFieldType
 sortOrder: 3314
 keywords: SetFieldType(Integer)
+so.topic: reference
 ---
 
 Field type

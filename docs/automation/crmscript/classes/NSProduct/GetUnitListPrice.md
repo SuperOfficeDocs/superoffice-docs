@@ -1,9 +1,9 @@
 ---
-title: Float GetUnitListPrice()
-path: /EJScript/Classes/NSProduct/Member functions/Float GetUnitListPrice()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetUnitListPrice
+description: NSProduct.GetUnitListPrice()
+intellisense: NSProduct.GetUnitListPrice
 keywords: GetUnitListPrice()
+so.topic: reference
 ---
 
 

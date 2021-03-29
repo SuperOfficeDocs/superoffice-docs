@@ -1,10 +1,10 @@
 ---
-title: Bool GetXstop()
-path: /EJScript/Classes/NSContactEntity/Member functions/Bool GetXstop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetXstop
+description: NSContactEntity.GetXstop()
+intellisense: NSContactEntity.GetXstop
 sortOrder: 1833
 keywords: GetXstop()
+so.topic: reference
 ---
 
 

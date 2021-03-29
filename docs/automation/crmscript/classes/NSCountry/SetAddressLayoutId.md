@@ -1,10 +1,10 @@
 ---
-title: Void SetAddressLayoutId(Integer AddressLayoutId)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetAddressLayoutId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_SetAddressLayoutId_Integer_p_0
+description: NSCountry.SetAddressLayoutId(Integer p_0)
+intellisense: NSCountry.SetAddressLayoutId
 sortOrder: 2030
 keywords: SetAddressLayoutId(Integer)
+so.topic: reference
 ---
 
 

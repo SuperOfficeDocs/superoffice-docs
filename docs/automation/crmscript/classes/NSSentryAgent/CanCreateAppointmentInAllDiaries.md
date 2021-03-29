@@ -1,9 +1,9 @@
 ---
-title: Bool CanCreateAppointmentInAllDiaries()
-path: /EJScript/Classes/NSSentryAgent/Member functions/Bool CanCreateAppointmentInAllDiaries()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSentryAgent_CanCreateAppointmentInAllDiaries
+description: NSSentryAgent.CanCreateAppointmentInAllDiaries()
+intellisense: NSSentryAgent.CanCreateAppointmentInAllDiaries
 keywords: CanCreateAppointmentInAllDiaries()
+so.topic: reference
 ---
 
 

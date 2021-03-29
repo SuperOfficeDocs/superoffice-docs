@@ -1,8 +1,8 @@
 ---
-title: NSParticipantSyncData
-path: /EJScript/Classes/NSParticipantSyncData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData
+description: NSParticipantSyncData
+intellisense: Void.NSParticipantSyncData
+so.topic: reference
 ---
 
 

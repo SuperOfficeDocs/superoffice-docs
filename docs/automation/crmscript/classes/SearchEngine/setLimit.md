@@ -1,9 +1,9 @@
 ---
-title: Void setLimit(Integer number)
-path: /EJScript/Classes/SearchEngine/member functions/Void setLimit(Integer number)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_setLimit_Integer_number
+description: SearchEngine.setLimit(Integer number)
+intellisense: SearchEngine.setLimit
 keywords: setLimit(Integer)
+so.topic: reference
 ---
 
 

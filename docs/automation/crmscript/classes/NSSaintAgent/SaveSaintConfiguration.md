@@ -1,9 +1,9 @@
 ---
-title: NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration saintConfiguration)
-path: /EJScript/Classes/NSSaintAgent/Member functions/NSSaintConfiguration SaveSaintConfiguration(NSSaintConfiguration p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_SaveSaintConfiguration_NSSaintConfiguration_p_0
+description: NSSaintAgent.SaveSaintConfiguration(NSSaintConfiguration p_0)
+intellisense: NSSaintAgent.SaveSaintConfiguration
 keywords: SaveSaintConfiguration(NSSaintConfiguration)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetStreetAddress(NSAddressSyncData StreetAddress)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetStreetAddress(NSAddressSyncData p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetStreetAddress_NSAddressSyncData_p_0
+description: NSParticipantSyncData.SetStreetAddress(NSAddressSyncData p_0)
+intellisense: NSParticipantSyncData.SetStreetAddress
 keywords: SetStreetAddress(NSAddressSyncData)
+so.topic: reference
 ---
 
 

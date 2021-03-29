@@ -1,9 +1,9 @@
 ---
-title: Void SetExternalReference(String ExternalReference)
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetExternalReference(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo_SetExternalReference_String_p_0
+description: NSTemplateInfo.SetExternalReference(String p_0)
+intellisense: NSTemplateInfo.SetExternalReference
 keywords: SetExternalReference(String)
+so.topic: reference
 ---
 
 

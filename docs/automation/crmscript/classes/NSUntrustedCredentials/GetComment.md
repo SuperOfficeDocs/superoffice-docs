@@ -1,9 +1,9 @@
 ---
-title: String GetComment()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/String GetComment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_GetComment
+description: NSUntrustedCredentials.GetComment()
+intellisense: NSUntrustedCredentials.GetComment
 keywords: GetComment()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSAddressSyncData GetPostalAddress()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/NSAddressSyncData GetPostalAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPostalAddress
+description: NSParticipantSyncData.GetPostalAddress()
+intellisense: NSParticipantSyncData.GetPostalAddress
 keywords: GetPostalAddress()
+so.topic: reference
 ---
 
 

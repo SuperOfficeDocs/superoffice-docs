@@ -1,9 +1,9 @@
 ---
-title: Void ToggleActiveTimeZoneRow(Integer id)
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Void ToggleActiveTimeZoneRow(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_ToggleActiveTimeZoneRow_Integer_p_0
+description: NSTimeZoneAgent.ToggleActiveTimeZoneRow(Integer p_0)
+intellisense: NSTimeZoneAgent.ToggleActiveTimeZoneRow
 keywords: ToggleActiveTimeZoneRow(Integer)
+so.topic: reference
 ---
 
 

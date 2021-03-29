@@ -1,9 +1,9 @@
 ---
-title: Void SetPreferences(NSPhoneListPreferences preferences)
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/Void SetPreferences(NSPhoneListPreferences p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_SetPreferences_NSPhoneListPreferences_p_0
+description: NSPhoneListAgent.SetPreferences(NSPhoneListPreferences p_0)
+intellisense: NSPhoneListAgent.SetPreferences
 keywords: SetPreferences(NSPhoneListPreferences)
+so.topic: reference
 ---
 
 

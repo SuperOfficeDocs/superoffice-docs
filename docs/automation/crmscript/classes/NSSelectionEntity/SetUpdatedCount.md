@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdatedCount(Integer UpdatedCount)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetUpdatedCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetUpdatedCount_Integer_p_0
+description: NSSelectionEntity.SetUpdatedCount(Integer p_0)
+intellisense: NSSelectionEntity.SetUpdatedCount
 keywords: SetUpdatedCount(Integer)
+so.topic: reference
 ---
 
 

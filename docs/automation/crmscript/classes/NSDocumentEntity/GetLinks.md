@@ -1,10 +1,10 @@
 ---
-title: NSLink[] GetLinks()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/NSLink[] GetLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetLinks
+description: NSDocumentEntity.GetLinks()
+intellisense: NSDocumentEntity.GetLinks
 sortOrder: 2572
 keywords: GetLinks()
+so.topic: reference
 ---
 
 

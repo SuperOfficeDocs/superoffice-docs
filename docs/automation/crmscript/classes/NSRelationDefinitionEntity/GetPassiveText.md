@@ -1,9 +1,9 @@
 ---
-title: String GetPassiveText()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/String GetPassiveText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_GetPassiveText
+description: NSRelationDefinitionEntity.GetPassiveText()
+intellisense: NSRelationDefinitionEntity.GetPassiveText
 keywords: GetPassiveText()
+so.topic: reference
 ---
 
 

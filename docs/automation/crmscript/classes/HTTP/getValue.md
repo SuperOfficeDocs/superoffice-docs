@@ -1,10 +1,10 @@
 ---
-title: String getValue(String name)
-path: /EJScript/Classes/HTTP/Member functions/String getValue(String name)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_getValue_String_name
+description: HTTP.getValue(String name)
+intellisense: HTTP.getValue
 sortOrder: 414
 keywords: getValue(String)
+so.topic: reference
 ---
 
 

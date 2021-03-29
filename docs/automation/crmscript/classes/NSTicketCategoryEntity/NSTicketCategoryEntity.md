@@ -1,8 +1,8 @@
 ---
-title: NSTicketCategoryEntity
-path: /EJScript/Classes/NSTicketCategoryEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity
+description: NSTicketCategoryEntity
+intellisense: Void.NSTicketCategoryEntity
+so.topic: reference
 ---
 
 

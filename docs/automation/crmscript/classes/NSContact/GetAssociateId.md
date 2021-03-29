@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSContact/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetAssociateId
+description: NSContact.GetAssociateId()
+intellisense: NSContact.GetAssociateId
 sortOrder: 1720
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetTypeId()
-path: /EJScript/Classes/NSProject/Member functions/Integer GetTypeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_GetTypeId
+description: NSProject.GetTypeId()
+intellisense: NSProject.GetTypeId
 keywords: GetTypeId()
+so.topic: reference
 ---
 
 

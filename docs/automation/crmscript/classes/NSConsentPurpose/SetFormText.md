@@ -1,10 +1,10 @@
 ---
-title: Void SetFormText(String FormText)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetFormText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_SetFormText_String_p_0
+description: NSConsentPurpose.SetFormText(String p_0)
+intellisense: NSConsentPurpose.SetFormText
 sortOrder: 1691
 keywords: SetFormText(String)
+so.topic: reference
 ---
 
 

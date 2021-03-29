@@ -1,10 +1,10 @@
 ---
-title: Void SaveNote(Integer associateId, String[] note)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/Void SaveNote(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_SaveNote_Integer_p_0_String__p_1
+description: NSAssociateAgent.SaveNote(Integer p_0, String[] p_1)
+intellisense: NSAssociateAgent.SaveNote
 sortOrder: 1287
 keywords: SaveNote(Integer,String[])
+so.topic: reference
 ---
 
 

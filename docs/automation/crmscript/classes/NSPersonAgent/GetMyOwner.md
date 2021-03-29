@@ -1,9 +1,9 @@
 ---
-title: NSPerson GetMyOwner()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson GetMyOwner()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetMyOwner
+description: NSPersonAgent.GetMyOwner()
+intellisense: NSPersonAgent.GetMyOwner
 keywords: GetMyOwner()
+so.topic: reference
 ---
 
 

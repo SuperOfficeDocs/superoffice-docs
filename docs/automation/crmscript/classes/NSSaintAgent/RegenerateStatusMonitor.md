@@ -1,9 +1,9 @@
 ---
-title: Void RegenerateStatusMonitor(Integer statusMonitorId)
-path: /EJScript/Classes/NSSaintAgent/Member functions/Void RegenerateStatusMonitor(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintAgent_RegenerateStatusMonitor_Integer_p_0
+description: NSSaintAgent.RegenerateStatusMonitor(Integer p_0)
+intellisense: NSSaintAgent.RegenerateStatusMonitor
 keywords: RegenerateStatusMonitor(Integer)
+so.topic: reference
 ---
 
 

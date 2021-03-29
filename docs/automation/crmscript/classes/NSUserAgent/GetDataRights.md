@@ -1,9 +1,9 @@
 ---
-title: StringDictionary GetDataRights(Integer roleId, String tableName)
-path: /EJScript/Classes/NSUserAgent/Member functions/StringDictionary GetDataRights(Integer p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetDataRights_Integer_p_0_String_p_1
+description: NSUserAgent.GetDataRights(Integer p_0, String p_1)
+intellisense: NSUserAgent.GetDataRights
 keywords: GetDataRights(Integer,String)
+so.topic: reference
 ---
 
 

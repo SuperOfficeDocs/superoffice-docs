@@ -1,10 +1,10 @@
 ---
-title: Integer GetActorType()
-path: /EJScript/Classes/NSErpSyncActorSummary/Member functions/Integer GetActorType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncActorSummary_GetActorType
+description: NSErpSyncActorSummary.GetActorType()
+intellisense: NSErpSyncActorSummary.GetActorType
 sortOrder: 3153
 keywords: GetActorType()
+so.topic: reference
 ---
 
 

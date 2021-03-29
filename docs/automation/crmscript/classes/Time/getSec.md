@@ -1,9 +1,9 @@
 ---
-title: Integer getSec()
-path: /EJScript/Classes/Time/Member functions/Integer getSec()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Time_getSec
+description: Time.getSec()
+intellisense: Time.getSec
 keywords: getSec()
+so.topic: reference
 ---
 
 This function returns the seconds of the time as an Integer.

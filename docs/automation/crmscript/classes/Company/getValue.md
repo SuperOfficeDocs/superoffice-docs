@@ -1,10 +1,10 @@
 ---
-title: String getValue(String colName)
-path: /EJScript/Classes/Company/member functions/String getValue(String colName)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Company_getValue_String_colName
+description: Company.getValue(String colName)
+intellisense: Company.getValue
 sortOrder: 165
 keywords: getValue(String)
+so.topic: reference
 ---
 
 Gets a String with the value of a given column.

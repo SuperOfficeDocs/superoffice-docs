@@ -1,9 +1,9 @@
 ---
-title: Void SetDeviceIdentifier(String DeviceIdentifier)
-path: /EJScript/Classes/NSPocketDeviceInfo/Member functions/Void SetDeviceIdentifier(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketDeviceInfo_SetDeviceIdentifier_String_p_0
+description: NSPocketDeviceInfo.SetDeviceIdentifier(String p_0)
+intellisense: NSPocketDeviceInfo.SetDeviceIdentifier
 keywords: SetDeviceIdentifier(String)
+so.topic: reference
 ---
 
 

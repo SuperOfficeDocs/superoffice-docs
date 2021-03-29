@@ -1,9 +1,9 @@
 ---
-title: String[] toStringArray()
-path: /EJScript/Classes/Vector/Member functions/String[] toStringArray()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Vector_toStringArray
+description: Vector.toStringArray()
+intellisense: Vector.toStringArray
 keywords: toStringArray()
+so.topic: reference
 ---
 
 

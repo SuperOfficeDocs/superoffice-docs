@@ -1,10 +1,10 @@
 ---
-title: NSStream GetDocumentStream(Integer documentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetDocumentStream(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetDocumentStream_Integer_p_0
+description: NSDocumentAgent.GetDocumentStream(Integer p_0)
+intellisense: NSDocumentAgent.GetDocumentStream
 sortOrder: 2515
 keywords: GetDocumentStream(Integer)
+so.topic: reference
 ---
 
 

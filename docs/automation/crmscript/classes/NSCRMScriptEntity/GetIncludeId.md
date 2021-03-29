@@ -1,10 +1,10 @@
 ---
-title: String GetIncludeId()
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/String GetIncludeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_GetIncludeId
+description: NSCRMScriptEntity.GetIncludeId()
+intellisense: NSCRMScriptEntity.GetIncludeId
 sortOrder: 2134
 keywords: GetIncludeId()
+so.topic: reference
 ---
 
 

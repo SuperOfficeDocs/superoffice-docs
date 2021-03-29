@@ -1,9 +1,9 @@
 ---
-title: Void setSunStop(Time t)
-path: /EJScript/Classes/WeekSchedule/Member functions/Void setSunStop(Time t)
-intellisense: 1
-classref: 1
+title: crmscript_ref_WeekSchedule_setSunStop_Time_t
+description: WeekSchedule.setSunStop(Time t)
+intellisense: WeekSchedule.setSunStop
 keywords: setSunStop(Time)
+so.topic: reference
 ---
 
 

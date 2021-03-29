@@ -1,10 +1,10 @@
 ---
-title: Void SetInputValues(StringDictionary InputValues)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetInputValues(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetInputValues_StringDictionary_p_0
+description: NSEventData.SetInputValues(StringDictionary p_0)
+intellisense: NSEventData.SetInputValues
 sortOrder: 3349
 keywords: SetInputValues(StringDictionary)
+so.topic: reference
 ---
 
 

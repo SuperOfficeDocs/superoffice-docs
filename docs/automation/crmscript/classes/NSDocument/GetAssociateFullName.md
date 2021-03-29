@@ -1,10 +1,10 @@
 ---
-title: String GetAssociateFullName()
-path: /EJScript/Classes/NSDocument/Member functions/String GetAssociateFullName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocument_GetAssociateFullName
+description: NSDocument.GetAssociateFullName()
+intellisense: NSDocument.GetAssociateFullName
 sortOrder: 2435
 keywords: GetAssociateFullName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPostalAddress(NSAddressSyncData PostalAddress)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPostalAddress(NSAddressSyncData p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPostalAddress_NSAddressSyncData_p_0
+description: NSParticipantSyncData.SetPostalAddress(NSAddressSyncData p_0)
+intellisense: NSParticipantSyncData.SetPostalAddress
 keywords: SetPostalAddress(NSAddressSyncData)
+so.topic: reference
 ---
 
 

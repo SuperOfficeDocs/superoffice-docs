@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity suggestedAppointmentEntity)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSuggestedAppointmentEntity SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_SaveSuggestedAppointmentEntity_NSSuggestedAppointmentEntity_p_0
+description: NSAppointmentAgent.SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity p_0)
+intellisense: NSAppointmentAgent.SaveSuggestedAppointmentEntity
 sortOrder: 901
 keywords: SaveSuggestedAppointmentEntity(NSSuggestedAppointmentEntity)
+so.topic: reference
 ---
 
 

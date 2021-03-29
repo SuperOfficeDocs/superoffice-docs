@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSCheckoutInfo/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckoutInfo_GetAssociateId
+description: NSCheckoutInfo.GetAssociateId()
+intellisense: NSCheckoutInfo.GetAssociateId
 sortOrder: 1560
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

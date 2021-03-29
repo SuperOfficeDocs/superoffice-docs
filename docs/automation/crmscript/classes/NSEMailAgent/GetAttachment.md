@@ -1,10 +1,10 @@
 ---
-title: NSEMailAttachment GetAttachment(NSEMailConnectionInfo connectionInfo, Integer messageServerId, String attachmentId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAttachment GetAttachment(NSEMailConnectionInfo p_0, Integer p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetAttachment_NSEMailConnectionInfo_p_0_Integer_p_1_String_p_2
+description: NSEMailAgent.GetAttachment(NSEMailConnectionInfo p_0, Integer p_1, String p_2)
+intellisense: NSEMailAgent.GetAttachment
 sortOrder: 2805
 keywords: GetAttachment(NSEMailConnectionInfo,Integer,String)
+so.topic: reference
 ---
 
 

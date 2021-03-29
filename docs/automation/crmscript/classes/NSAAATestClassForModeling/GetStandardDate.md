@@ -1,10 +1,10 @@
 ---
-title: DateTime GetStandardDate()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/DateTime GetStandardDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetStandardDate
+description: NSAAATestClassForModeling.GetStandardDate()
+intellisense: NSAAATestClassForModeling.GetStandardDate
 sortOrder: 8919
 keywords: GetStandardDate()
+so.topic: reference
 ---
 
 

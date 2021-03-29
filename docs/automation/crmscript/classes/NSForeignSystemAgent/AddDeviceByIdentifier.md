@@ -1,10 +1,10 @@
 ---
-title: NSForeignDevice AddDeviceByIdentifier(String applicationName, String deviceName, String deviceIdentifier)
-path: /EJScript/Classes/NSForeignSystemAgent/Member functions/NSForeignDevice AddDeviceByIdentifier(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignSystemAgent_AddDeviceByIdentifier_String_p_0_String_p_1_String_p_2
+description: NSForeignSystemAgent.AddDeviceByIdentifier(String p_0, String p_1, String p_2)
+intellisense: NSForeignSystemAgent.AddDeviceByIdentifier
 sortOrder: 3756
 keywords: AddDeviceByIdentifier(String,String,String)
+so.topic: reference
 ---
 
 

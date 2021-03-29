@@ -1,9 +1,9 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetRank_Integer_p_0
+description: NSSaleTypeEntity.SetRank(Integer p_0)
+intellisense: NSSaleTypeEntity.SetRank
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

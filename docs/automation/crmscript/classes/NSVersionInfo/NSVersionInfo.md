@@ -1,8 +1,8 @@
 ---
-title: NSVersionInfo
-path: /EJScript/Classes/NSVersionInfo
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo
+description: NSVersionInfo
+intellisense: Void.NSVersionInfo
+so.topic: reference
 ---
 
 

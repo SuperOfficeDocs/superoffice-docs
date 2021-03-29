@@ -1,9 +1,9 @@
 ---
-title: Float GetDiscountPercent()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetDiscountPercent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetDiscountPercent
+description: NSQuoteLine.GetDiscountPercent()
+intellisense: NSQuoteLine.GetDiscountPercent
 keywords: GetDiscountPercent()
+so.topic: reference
 ---
 
 

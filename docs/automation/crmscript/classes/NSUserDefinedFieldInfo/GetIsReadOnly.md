@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsReadOnly()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetIsReadOnly()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetIsReadOnly
+description: NSUserDefinedFieldInfo.GetIsReadOnly()
+intellisense: NSUserDefinedFieldInfo.GetIsReadOnly
 keywords: GetIsReadOnly()
+so.topic: reference
 ---
 
 

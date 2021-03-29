@@ -1,9 +1,9 @@
 ---
-title: Integer GetColumnId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetColumnId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetColumnId
+description: NSUserDefinedFieldInfo.GetColumnId()
+intellisense: NSUserDefinedFieldInfo.GetColumnId
 keywords: GetColumnId()
+so.topic: reference
 ---
 
 

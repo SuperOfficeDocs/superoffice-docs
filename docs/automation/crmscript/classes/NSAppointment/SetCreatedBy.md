@@ -1,10 +1,10 @@
 ---
-title: Void SetCreatedBy(String CreatedBy)
-path: /EJScript/Classes/NSAppointment/Member functions/Void SetCreatedBy(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_SetCreatedBy_String_p_0
+description: NSAppointment.SetCreatedBy(String p_0)
+intellisense: NSAppointment.SetCreatedBy
 sortOrder: 784
 keywords: SetCreatedBy(String)
+so.topic: reference
 ---
 
 

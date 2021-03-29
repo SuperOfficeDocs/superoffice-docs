@@ -1,10 +1,10 @@
 ---
-title: String GetDocumentUrl(Integer documentId, String versionId, Bool writeableUrl)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/String GetDocumentUrl(Integer p_0, String p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetDocumentUrl_Integer_p_0_String_p_1_Bool_p_2
+description: NSDocumentAgent.GetDocumentUrl(Integer p_0, String p_1, Bool p_2)
+intellisense: NSDocumentAgent.GetDocumentUrl
 sortOrder: 2534
 keywords: GetDocumentUrl(Integer,String,Bool)
+so.topic: reference
 ---
 
 

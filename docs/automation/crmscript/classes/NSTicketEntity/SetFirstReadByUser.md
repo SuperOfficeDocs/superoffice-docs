@@ -1,9 +1,9 @@
 ---
-title: Void SetFirstReadByUser(DateTime FirstReadByUser)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetFirstReadByUser(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetFirstReadByUser_DateTime_p_0
+description: NSTicketEntity.SetFirstReadByUser(DateTime p_0)
+intellisense: NSTicketEntity.SetFirstReadByUser
 keywords: SetFirstReadByUser(DateTime)
+so.topic: reference
 ---
 
 

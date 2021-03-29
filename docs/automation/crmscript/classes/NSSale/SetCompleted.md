@@ -1,9 +1,9 @@
 ---
-title: Void SetCompleted(Integer Completed)
-path: /EJScript/Classes/NSSale/Member functions/Void SetCompleted(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetCompleted_Integer_p_0
+description: NSSale.SetCompleted(Integer p_0)
+intellisense: NSSale.SetCompleted
 keywords: SetCompleted(Integer)
+so.topic: reference
 ---
 
 

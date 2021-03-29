@@ -1,10 +1,10 @@
 ---
-title: DateTime GetSent()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/DateTime GetSent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_GetSent
+description: NSEMailEnvelope.GetSent()
+intellisense: NSEMailEnvelope.GetSent
 sortOrder: 3002
 keywords: GetSent()
+so.topic: reference
 ---
 
 

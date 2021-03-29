@@ -1,9 +1,9 @@
 ---
-title: String GetFieldName()
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/String GetFieldName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_GetFieldName
+description: NSQuoteLineConfiguration.GetFieldName()
+intellisense: NSQuoteLineConfiguration.GetFieldName
 keywords: GetFieldName()
+so.topic: reference
 ---
 
 

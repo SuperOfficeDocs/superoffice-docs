@@ -1,9 +1,9 @@
 ---
-title: String GetFirstname()
-path: /EJScript/Classes/NSProjectMember/Member functions/String GetFirstname()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectMember_GetFirstname
+description: NSProjectMember.GetFirstname()
+intellisense: NSProjectMember.GetFirstname
 keywords: GetFirstname()
+so.topic: reference
 ---
 
 

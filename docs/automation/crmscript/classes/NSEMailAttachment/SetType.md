@@ -1,10 +1,10 @@
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSEMailAttachment/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAttachment_SetType_String_p_0
+description: NSEMailAttachment.SetType(String p_0)
+intellisense: NSEMailAttachment.SetType
 sortOrder: 2907
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

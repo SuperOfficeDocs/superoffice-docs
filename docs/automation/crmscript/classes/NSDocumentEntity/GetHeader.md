@@ -1,10 +1,10 @@
 ---
-title: String GetHeader()
-path: /EJScript/Classes/NSDocumentEntity/Member functions/String GetHeader()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_GetHeader
+description: NSDocumentEntity.GetHeader()
+intellisense: NSDocumentEntity.GetHeader
 sortOrder: 2579
 keywords: GetHeader()
+so.topic: reference
 ---
 
 

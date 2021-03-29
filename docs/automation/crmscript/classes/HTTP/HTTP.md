@@ -1,9 +1,9 @@
 ---
-title: HTTP
-path: /EJScript/Classes/HTTP
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP
+description: HTTP
+intellisense: Void.HTTP
 sortOrder: 396
+so.topic: reference
 ---
 
 

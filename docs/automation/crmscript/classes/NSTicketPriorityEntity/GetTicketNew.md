@@ -1,9 +1,9 @@
 ---
-title: NSTicketPriorityEscalateEvent GetTicketNew()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/NSTicketPriorityEscalateEvent GetTicketNew()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetTicketNew
+description: NSTicketPriorityEntity.GetTicketNew()
+intellisense: NSTicketPriorityEntity.GetTicketNew
 keywords: GetTicketNew()
+so.topic: reference
 ---
 
 

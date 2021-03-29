@@ -1,9 +1,9 @@
 ---
-title: NSPhoneListItem[] Search(String searchString)
-path: /EJScript/Classes/NSPhoneListAgent/Member functions/NSPhoneListItem[] Search(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListAgent_Search_String_p_0
+description: NSPhoneListAgent.Search(String p_0)
+intellisense: NSPhoneListAgent.Search
 keywords: Search(String)
+so.topic: reference
 ---
 
 

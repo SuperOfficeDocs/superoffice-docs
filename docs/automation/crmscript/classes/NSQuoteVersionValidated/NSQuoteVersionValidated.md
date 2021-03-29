@@ -1,8 +1,8 @@
 ---
-title: NSQuoteVersionValidated
-path: /EJScript/Classes/NSQuoteVersionValidated
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated
+description: NSQuoteVersionValidated
+intellisense: Void.NSQuoteVersionValidated
+so.topic: reference
 ---
 
 

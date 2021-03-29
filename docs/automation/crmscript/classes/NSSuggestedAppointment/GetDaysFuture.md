@@ -1,9 +1,9 @@
 ---
-title: Integer GetDaysFuture()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetDaysFuture()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetDaysFuture
+description: NSSuggestedAppointment.GetDaysFuture()
+intellisense: NSSuggestedAppointment.GetDaysFuture
 keywords: GetDaysFuture()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSContactAgent
-path: /EJScript/Classes/NSContactAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent
+description: NSContactAgent
+intellisense: Void.NSContactAgent
 sortOrder: 1794
+so.topic: reference
 ---
 
 

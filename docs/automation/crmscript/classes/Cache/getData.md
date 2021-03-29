@@ -1,10 +1,10 @@
 ---
-title: Void getData(String p0)
-path: /EJScript/Classes/Cache/Member functions/Void getData(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Cache_getData_String_p_0
+description: Cache.getData(String p_0)
+intellisense: Cache.getData
 sortOrder: 146
 keywords: getData(String)
+so.topic: reference
 ---
 
 This function will return data from a cached table.

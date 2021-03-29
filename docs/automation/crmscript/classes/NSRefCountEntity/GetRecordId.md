@@ -1,9 +1,9 @@
 ---
-title: Integer GetRecordId()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Integer GetRecordId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetRecordId
+description: NSRefCountEntity.GetRecordId()
+intellisense: NSRefCountEntity.GetRecordId
 keywords: GetRecordId()
+so.topic: reference
 ---
 
 

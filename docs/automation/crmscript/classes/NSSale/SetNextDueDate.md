@@ -1,9 +1,9 @@
 ---
-title: Void SetNextDueDate(DateTime NextDueDate)
-path: /EJScript/Classes/NSSale/Member functions/Void SetNextDueDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetNextDueDate_DateTime_p_0
+description: NSSale.SetNextDueDate(DateTime p_0)
+intellisense: NSSale.SetNextDueDate
 keywords: SetNextDueDate(DateTime)
+so.topic: reference
 ---
 
 

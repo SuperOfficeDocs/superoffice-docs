@@ -1,10 +1,10 @@
 ---
-title: NSFindResults FindOrderBy(String storageType, String providerName, String storageKey, Integer pageSize, Integer pageNumber, NSArchiveOrderByInfo[] orderBy)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSFindResults FindOrderBy(String p_0, String p_1, String p_2, Integer p_3, Integer p_4, NSArchiveOrderByInfo[] p_5)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_FindOrderBy_String_p_0_String_p_1_String_p_2_Integer_p_3_Integer_p_4_NSArchiveOrderByInfo__p_5
+description: NSFindAgent.FindOrderBy(String p_0, String p_1, String p_2, Integer p_3, Integer p_4, NSArchiveOrderByInfo[] p_5)
+intellisense: NSFindAgent.FindOrderBy
 sortOrder: 3676
 keywords: FindOrderBy(String,String,String,Integer,Integer,NSArchiveOrderByInfo[])
+so.topic: reference
 ---
 
 

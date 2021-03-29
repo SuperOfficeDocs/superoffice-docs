@@ -1,10 +1,10 @@
 ---
-title: String GetOrganizerName(Integer motherAppointmentId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/String GetOrganizerName(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetOrganizerName_Integer_p_0
+description: NSAppointmentAgent.GetOrganizerName(Integer p_0)
+intellisense: NSAppointmentAgent.GetOrganizerName
 sortOrder: 906
 keywords: GetOrganizerName(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetSaleTypeName()
-path: /EJScript/Classes/NSSaleTypeStageLink/Member functions/String GetSaleTypeName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeStageLink_GetSaleTypeName
+description: NSSaleTypeStageLink.GetSaleTypeName()
+intellisense: NSSaleTypeStageLink.GetSaleTypeName
 keywords: GetSaleTypeName()
+so.topic: reference
 ---
 
 

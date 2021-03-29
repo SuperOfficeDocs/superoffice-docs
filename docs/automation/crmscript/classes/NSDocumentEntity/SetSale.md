@@ -1,10 +1,10 @@
 ---
-title: Void SetSale(NSSale Sale)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetSale(NSSale p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetSale_NSSale_p_0
+description: NSDocumentEntity.SetSale(NSSale p_0)
+intellisense: NSDocumentEntity.SetSale
 sortOrder: 2610
 keywords: SetSale(NSSale)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetRequiredLicense(String RequiredLicense)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetRequiredLicense(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetRequiredLicense_String_p_0
+description: NSPreferenceDescription.SetRequiredLicense(String p_0)
+intellisense: NSPreferenceDescription.SetRequiredLicense
 keywords: SetRequiredLicense(String)
+so.topic: reference
 ---
 
 

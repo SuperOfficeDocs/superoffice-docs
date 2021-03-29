@@ -1,10 +1,10 @@
 ---
-title: String GetInterAreaPrefix()
-path: /EJScript/Classes/NSCountry/Member functions/String GetInterAreaPrefix()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetInterAreaPrefix
+description: NSCountry.GetInterAreaPrefix()
+intellisense: NSCountry.GetInterAreaPrefix
 sortOrder: 2023
 keywords: GetInterAreaPrefix()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void addYear(Integer num)
-path: /EJScript/Classes/TimeSpan/Member functions/Void addYear(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_addYear_Integer_num
+description: TimeSpan.addYear(Integer num)
+intellisense: TimeSpan.addYear
 keywords: addYear(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetNew(NSModuleLicense New)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetNew(NSModuleLicense p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedModuleLicense_SetNew_NSModuleLicense_p_0
+description: NSExtendedModuleLicense.SetNew(NSModuleLicense p_0)
+intellisense: NSExtendedModuleLicense.SetNew
 sortOrder: 3426
 keywords: SetNew(NSModuleLicense)
+so.topic: reference
 ---
 
 

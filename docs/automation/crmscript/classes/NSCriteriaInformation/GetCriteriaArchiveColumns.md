@@ -1,10 +1,10 @@
 ---
-title: NSArchiveColumnInfo[] GetCriteriaArchiveColumns()
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/NSArchiveColumnInfo[] GetCriteriaArchiveColumns()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCriteriaInformation_GetCriteriaArchiveColumns
+description: NSCriteriaInformation.GetCriteriaArchiveColumns()
+intellisense: NSCriteriaInformation.GetCriteriaArchiveColumns
 sortOrder: 2104
 keywords: GetCriteriaArchiveColumns()
+so.topic: reference
 ---
 
 

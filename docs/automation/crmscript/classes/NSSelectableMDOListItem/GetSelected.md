@@ -1,9 +1,9 @@
 ---
-title: Bool GetSelected()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Bool GetSelected()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetSelected
+description: NSSelectableMDOListItem.GetSelected()
+intellisense: NSSelectableMDOListItem.GetSelected
 keywords: GetSelected()
+so.topic: reference
 ---
 
 

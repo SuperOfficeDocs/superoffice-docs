@@ -1,9 +1,9 @@
 ---
-title: Bool ChangePasswordFromName(String associateName, String oldPassword, String newPassword)
-path: /EJScript/Classes/NSUserAgent/Member functions/Bool ChangePasswordFromName(String p_0, String p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_ChangePasswordFromName_String_p_0_String_p_1_String_p_2
+description: NSUserAgent.ChangePasswordFromName(String p_0, String p_1, String p_2)
+intellisense: NSUserAgent.ChangePasswordFromName
 keywords: ChangePasswordFromName(String,String,String)
+so.topic: reference
 ---
 
 

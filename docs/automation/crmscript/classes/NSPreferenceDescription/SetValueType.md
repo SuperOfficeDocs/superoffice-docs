@@ -1,9 +1,9 @@
 ---
-title: Void SetValueType(Integer ValueType)
-path: /EJScript/Classes/NSPreferenceDescription/Member functions/Void SetValueType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescription_SetValueType_Integer_p_0
+description: NSPreferenceDescription.SetValueType(Integer p_0)
+intellisense: NSPreferenceDescription.SetValueType
 keywords: SetValueType(Integer)
+so.topic: reference
 ---
 
 

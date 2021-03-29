@@ -1,9 +1,9 @@
 ---
-title: Integer GetState()
-path: /EJScript/Classes/NSWebhook/Member functions/Integer GetState()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetState
+description: NSWebhook.GetState()
+intellisense: NSWebhook.GetState
 keywords: GetState()
+so.topic: reference
 ---
 
 

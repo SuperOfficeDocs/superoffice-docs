@@ -1,9 +1,9 @@
 ---
-title: NSDuplicateEntry
-path: /EJScript/Classes/NSDuplicateEntry
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDuplicateEntry
+description: NSDuplicateEntry
+intellisense: Void.NSDuplicateEntry
 sortOrder: 2720
+so.topic: reference
 ---
 
 

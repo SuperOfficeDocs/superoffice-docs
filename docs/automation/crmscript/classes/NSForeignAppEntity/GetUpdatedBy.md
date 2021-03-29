@@ -1,10 +1,10 @@
 ---
-title: NSAssociate GetUpdatedBy()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/NSAssociate GetUpdatedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignAppEntity_GetUpdatedBy
+description: NSForeignAppEntity.GetUpdatedBy()
+intellisense: NSForeignAppEntity.GetUpdatedBy
 sortOrder: 3702
 keywords: GetUpdatedBy()
+so.topic: reference
 ---
 
 

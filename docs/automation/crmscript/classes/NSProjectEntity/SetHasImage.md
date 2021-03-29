@@ -1,9 +1,9 @@
 ---
-title: Void SetHasImage(Bool HasImage)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetHasImage(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetHasImage_Bool_p_0
+description: NSProjectEntity.SetHasImage(Bool p_0)
+intellisense: NSProjectEntity.SetHasImage
 keywords: SetHasImage(Bool)
+so.topic: reference
 ---
 
 

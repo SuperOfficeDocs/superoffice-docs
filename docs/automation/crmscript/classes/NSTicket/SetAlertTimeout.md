@@ -1,9 +1,9 @@
 ---
-title: Void SetAlertTimeout(DateTime AlertTimeout)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetAlertTimeout(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetAlertTimeout_DateTime_p_0
+description: NSTicket.SetAlertTimeout(DateTime p_0)
+intellisense: NSTicket.SetAlertTimeout
 keywords: SetAlertTimeout(DateTime)
+so.topic: reference
 ---
 
 

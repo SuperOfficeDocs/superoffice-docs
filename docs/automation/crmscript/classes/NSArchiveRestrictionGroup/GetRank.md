@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionGroup_GetRank
+description: NSArchiveRestrictionGroup.GetRank()
+intellisense: NSArchiveRestrictionGroup.GetRank
 sortOrder: 1202
 keywords: GetRank()
+so.topic: reference
 ---
 
 

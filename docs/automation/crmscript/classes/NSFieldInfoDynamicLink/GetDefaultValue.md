@@ -1,10 +1,10 @@
 ---
-title: Integer GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoDynamicLink/Member functions/Integer GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDynamicLink_GetDefaultValue
+description: NSFieldInfoDynamicLink.GetDefaultValue()
+intellisense: NSFieldInfoDynamicLink.GetDefaultValue
 sortOrder: 3511
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFieldRight(Integer p0)
-path: /EJScript/Classes/NSFieldRight/Member functions/Void SetFieldRight(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldRight_SetFieldRight_Integer_p_0
+description: NSFieldRight.SetFieldRight(Integer p_0)
+intellisense: NSFieldRight.SetFieldRight
 sortOrder: 3612
 keywords: SetFieldRight(Integer)
+so.topic: reference
 ---
 
 

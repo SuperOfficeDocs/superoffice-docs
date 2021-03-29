@@ -1,9 +1,9 @@
 ---
-title: String GetToolTip()
-path: /EJScript/Classes/NSTag/Member functions/String GetToolTip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTag_GetToolTip
+description: NSTag.GetToolTip()
+intellisense: NSTag.GetToolTip
 keywords: GetToolTip()
+so.topic: reference
 ---
 
 

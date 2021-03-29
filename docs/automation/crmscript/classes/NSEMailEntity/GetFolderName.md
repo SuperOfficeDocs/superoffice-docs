@@ -1,10 +1,10 @@
 ---
-title: String GetFolderName()
-path: /EJScript/Classes/NSEMailEntity/Member functions/String GetFolderName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetFolderName
+description: NSEMailEntity.GetFolderName()
+intellisense: NSEMailEntity.GetFolderName
 sortOrder: 2967
 keywords: GetFolderName()
+so.topic: reference
 ---
 
 

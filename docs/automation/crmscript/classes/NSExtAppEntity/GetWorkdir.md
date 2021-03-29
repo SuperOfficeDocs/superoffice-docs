@@ -1,10 +1,10 @@
 ---
-title: String GetWorkdir()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/String GetWorkdir()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetWorkdir
+description: NSExtAppEntity.GetWorkdir()
+intellisense: NSExtAppEntity.GetWorkdir
 sortOrder: 3378
 keywords: GetWorkdir()
+so.topic: reference
 ---
 
 

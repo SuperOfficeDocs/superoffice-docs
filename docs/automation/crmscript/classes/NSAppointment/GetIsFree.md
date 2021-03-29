@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsFree()
-path: /EJScript/Classes/NSAppointment/Member functions/Bool GetIsFree()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetIsFree
+description: NSAppointment.GetIsFree()
+intellisense: NSAppointment.GetIsFree
 sortOrder: 717
 keywords: GetIsFree()
+so.topic: reference
 ---
 
 

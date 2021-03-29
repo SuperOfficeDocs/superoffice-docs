@@ -1,10 +1,10 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSAssociate/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate_GetPersonId
+description: NSAssociate.GetPersonId()
+intellisense: NSAssociate.GetPersonId
 sortOrder: 1258
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPagers(NSEntityElement[] p0)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetPagers(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetPagers_NSEntityElement__p_0
+description: NSPersonEntity.SetPagers(NSEntityElement[] p_0)
+intellisense: NSPersonEntity.SetPagers
 keywords: SetPagers(NSEntityElement[])
+so.topic: reference
 ---
 
 

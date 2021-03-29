@@ -1,10 +1,10 @@
 ---
-title: NSAudienceConfigParameter SaveConfigParameter(String layoutName, NSAudienceConfigParameter configParameter)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceConfigParameter SaveConfigParameter(String p_0, NSAudienceConfigParameter p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_SaveConfigParameter_String_p_0_NSAudienceConfigParameter_p_1
+description: NSAudienceAgent.SaveConfigParameter(String p_0, NSAudienceConfigParameter p_1)
+intellisense: NSAudienceAgent.SaveConfigParameter
 sortOrder: 1293
 keywords: SaveConfigParameter(String,NSAudienceConfigParameter)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetUserDefinedPageOneField(Integer ownerType, Integer udefFieldId, Integer userGroupId, Integer fieldLineNo)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void SetUserDefinedPageOneField(Integer p_0, Integer p_1, Integer p_2, Integer p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_SetUserDefinedPageOneField_Integer_p_0_Integer_p_1_Integer_p_2_Integer_p_3
+description: NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField(Integer p_0, Integer p_1, Integer p_2, Integer p_3)
+intellisense: NSUserDefinedFieldInfoAgent.SetUserDefinedPageOneField
 keywords: SetUserDefinedPageOneField(Integer,Integer,Integer,Integer)
+so.topic: reference
 ---
 
 

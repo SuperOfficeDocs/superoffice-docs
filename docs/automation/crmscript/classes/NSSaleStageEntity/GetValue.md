@@ -1,9 +1,9 @@
 ---
-title: String GetValue()
-path: /EJScript/Classes/NSSaleStageEntity/Member functions/String GetValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStageEntity_GetValue
+description: NSSaleStageEntity.GetValue()
+intellisense: NSSaleStageEntity.GetValue
 keywords: GetValue()
+so.topic: reference
 ---
 
 

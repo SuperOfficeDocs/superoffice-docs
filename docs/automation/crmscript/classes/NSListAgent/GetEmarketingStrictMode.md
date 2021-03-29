@@ -1,9 +1,9 @@
 ---
-title: Bool GetEmarketingStrictMode()
-path: /EJScript/Classes/NSListAgent/Member functions/Bool GetEmarketingStrictMode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetEmarketingStrictMode
+description: NSListAgent.GetEmarketingStrictMode()
+intellisense: NSListAgent.GetEmarketingStrictMode
 keywords: GetEmarketingStrictMode()
+so.topic: reference
 ---
 
 

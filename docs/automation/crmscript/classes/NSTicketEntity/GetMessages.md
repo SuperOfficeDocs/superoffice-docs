@@ -1,9 +1,9 @@
 ---
-title: NSTicketMessage[] GetMessages()
-path: /EJScript/Classes/NSTicketEntity/Member functions/NSTicketMessage[] GetMessages()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetMessages
+description: NSTicketEntity.GetMessages()
+intellisense: NSTicketEntity.GetMessages
 keywords: GetMessages()
+so.topic: reference
 ---
 
 

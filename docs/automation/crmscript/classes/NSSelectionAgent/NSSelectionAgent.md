@@ -1,8 +1,8 @@
 ---
-title: NSSelectionAgent
-path: /EJScript/Classes/NSSelectionAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent
+description: NSSelectionAgent
+intellisense: Void.NSSelectionAgent
+so.topic: reference
 ---
 
 

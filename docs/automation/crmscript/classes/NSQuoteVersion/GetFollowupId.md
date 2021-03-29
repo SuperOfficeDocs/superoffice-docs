@@ -1,9 +1,9 @@
 ---
-title: Integer GetFollowupId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetFollowupId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetFollowupId
+description: NSQuoteVersion.GetFollowupId()
+intellisense: NSQuoteVersion.GetFollowupId
 keywords: GetFollowupId()
+so.topic: reference
 ---
 
 

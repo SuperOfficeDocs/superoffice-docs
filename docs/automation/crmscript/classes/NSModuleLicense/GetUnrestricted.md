@@ -1,9 +1,9 @@
 ---
-title: Bool GetUnrestricted()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Bool GetUnrestricted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_GetUnrestricted
+description: NSModuleLicense.GetUnrestricted()
+intellisense: NSModuleLicense.GetUnrestricted
 keywords: GetUnrestricted()
+so.topic: reference
 ---
 
 

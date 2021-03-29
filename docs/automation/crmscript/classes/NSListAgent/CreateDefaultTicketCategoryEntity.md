@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryEntity CreateDefaultTicketCategoryEntity()
-path: /EJScript/Classes/NSListAgent/Member functions/NSTicketCategoryEntity CreateDefaultTicketCategoryEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_CreateDefaultTicketCategoryEntity
+description: NSListAgent.CreateDefaultTicketCategoryEntity()
+intellisense: NSListAgent.CreateDefaultTicketCategoryEntity
 keywords: CreateDefaultTicketCategoryEntity()
+so.topic: reference
 ---
 
 

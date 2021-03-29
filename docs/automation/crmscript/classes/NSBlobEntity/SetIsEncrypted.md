@@ -1,10 +1,10 @@
 ---
-title: Void SetIsEncrypted(Bool IsEncrypted)
-path: /EJScript/Classes/NSBlobEntity/Member functions/Void SetIsEncrypted(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBlobEntity_SetIsEncrypted_Bool_p_0
+description: NSBlobEntity.SetIsEncrypted(Bool p_0)
+intellisense: NSBlobEntity.SetIsEncrypted
 sortOrder: 1460
 keywords: SetIsEncrypted(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetEntityName()
-path: /EJScript/Classes/NSLink/Member functions/String GetEntityName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLink_GetEntityName
+description: NSLink.GetEntityName()
+intellisense: NSLink.GetEntityName
 keywords: GetEntityName()
+so.topic: reference
 ---
 
 

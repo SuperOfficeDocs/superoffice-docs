@@ -1,9 +1,9 @@
 ---
-title: String GetItemNumber()
-path: /EJScript/Classes/NSProduct/Member functions/String GetItemNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetItemNumber
+description: NSProduct.GetItemNumber()
+intellisense: NSProduct.GetItemNumber
 keywords: GetItemNumber()
+so.topic: reference
 ---
 
 

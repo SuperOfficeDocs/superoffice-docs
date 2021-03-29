@@ -1,10 +1,10 @@
 ---
-title: Void SetNavigateTo(String NavigateTo)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetNavigateTo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetNavigateTo_String_p_0
+description: NSEventData.SetNavigateTo(String p_0)
+intellisense: NSEventData.SetNavigateTo
 sortOrder: 3351
 keywords: SetNavigateTo(String)
+so.topic: reference
 ---
 
 

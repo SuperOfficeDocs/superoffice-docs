@@ -1,9 +1,9 @@
 ---
-title: Void SetListItemsForUserGroupFromListName(String udListDefinitionName, Integer usergroupId, Integer[] listItemsID, Bool enable)
-path: /EJScript/Classes/NSListAgent/Member functions/Void SetListItemsForUserGroupFromListName(String p_0, Integer p_1, Integer[] p_2, Bool p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SetListItemsForUserGroupFromListName_String_p_0_Integer_p_1_Integer__p_2_Bool_p_3
+description: NSListAgent.SetListItemsForUserGroupFromListName(String p_0, Integer p_1, Integer[] p_2, Bool p_3)
+intellisense: NSListAgent.SetListItemsForUserGroupFromListName
 keywords: SetListItemsForUserGroupFromListName(String,Integer,Integer[],Bool)
+so.topic: reference
 ---
 
 

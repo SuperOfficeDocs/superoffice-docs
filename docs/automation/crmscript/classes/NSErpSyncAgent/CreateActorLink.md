@@ -1,10 +1,10 @@
 ---
-title: Bool CreateActorLink(Integer erpConnectionId, Integer crmRecordId, Integer crmActorType, String erpKey, Integer erpActorType)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool CreateActorLink(Integer p_0, Integer p_1, Integer p_2, String p_3, Integer p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_CreateActorLink_Integer_p_0_Integer_p_1_Integer_p_2_String_p_3_Integer_p_4
+description: NSErpSyncAgent.CreateActorLink(Integer p_0, Integer p_1, Integer p_2, String p_3, Integer p_4)
+intellisense: NSErpSyncAgent.CreateActorLink
 sortOrder: 3179
 keywords: CreateActorLink(Integer,Integer,Integer,String,Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultValue(Integer DefaultValue)
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Void SetDefaultValue(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTimeSpan_SetDefaultValue_Integer_p_0
+description: NSFieldInfoTimeSpan.SetDefaultValue(Integer p_0)
+intellisense: NSFieldInfoTimeSpan.SetDefaultValue
 sortOrder: 3569
 keywords: SetDefaultValue(Integer)
+so.topic: reference
 ---
 
 

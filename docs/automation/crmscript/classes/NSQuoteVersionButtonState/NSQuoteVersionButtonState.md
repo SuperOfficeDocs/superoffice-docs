@@ -1,8 +1,8 @@
 ---
-title: NSQuoteVersionButtonState
-path: /EJScript/Classes/NSQuoteVersionButtonState
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState
+description: NSQuoteVersionButtonState
+intellisense: Void.NSQuoteVersionButtonState
+so.topic: reference
 ---
 
 

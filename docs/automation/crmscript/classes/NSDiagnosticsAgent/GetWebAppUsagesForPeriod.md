@@ -1,10 +1,10 @@
 ---
-title: NSWebAppUsage[] GetWebAppUsagesForPeriod(DateTime p0, DateTime p1, String searchTerm)
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/NSWebAppUsage[] GetWebAppUsagesForPeriod(DateTime p_0, DateTime p_1, String p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_GetWebAppUsagesForPeriod_DateTime_p_0_DateTime_p_1_String_p_2
+description: NSDiagnosticsAgent.GetWebAppUsagesForPeriod(DateTime p_0, DateTime p_1, String p_2)
+intellisense: NSDiagnosticsAgent.GetWebAppUsagesForPeriod
 sortOrder: 2391
 keywords: GetWebAppUsagesForPeriod(DateTime,DateTime,String)
+so.topic: reference
 ---
 
 

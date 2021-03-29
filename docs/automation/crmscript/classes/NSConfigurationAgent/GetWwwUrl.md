@@ -1,10 +1,10 @@
 ---
-title: String GetWwwUrl(String client)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetWwwUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetWwwUrl_String_p_0
+description: NSConfigurationAgent.GetWwwUrl(String p_0)
+intellisense: NSConfigurationAgent.GetWwwUrl
 sortOrder: 1619
 keywords: GetWwwUrl(String)
+so.topic: reference
 ---
 
 

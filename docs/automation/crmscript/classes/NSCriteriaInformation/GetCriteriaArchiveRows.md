@@ -1,10 +1,10 @@
 ---
-title: NSArchiveListItem[] GetCriteriaArchiveRows()
-path: /EJScript/Classes/NSCriteriaInformation/Member functions/NSArchiveListItem[] GetCriteriaArchiveRows()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCriteriaInformation_GetCriteriaArchiveRows
+description: NSCriteriaInformation.GetCriteriaArchiveRows()
+intellisense: NSCriteriaInformation.GetCriteriaArchiveRows
 sortOrder: 2105
 keywords: GetCriteriaArchiveRows()
+so.topic: reference
 ---
 
 

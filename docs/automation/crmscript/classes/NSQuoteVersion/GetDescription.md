@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetDescription
+description: NSQuoteVersion.GetDescription()
+intellisense: NSQuoteVersion.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

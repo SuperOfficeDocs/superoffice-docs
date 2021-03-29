@@ -1,10 +1,10 @@
 ---
-title: Void SetSyncToErp(Bool SyncToErp)
-path: /EJScript/Classes/NSErpSyncFieldValue/Member functions/Void SetSyncToErp(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldValue_SetSyncToErp_Bool_p_0
+description: NSErpSyncFieldValue.SetSyncToErp(Bool p_0)
+intellisense: NSErpSyncFieldValue.SetSyncToErp
 sortOrder: 3335
 keywords: SetSyncToErp(Bool)
+so.topic: reference
 ---
 
 

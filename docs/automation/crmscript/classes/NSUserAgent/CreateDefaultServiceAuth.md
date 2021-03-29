@@ -1,9 +1,9 @@
 ---
-title: NSServiceAuth CreateDefaultServiceAuth()
-path: /EJScript/Classes/NSUserAgent/Member functions/NSServiceAuth CreateDefaultServiceAuth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_CreateDefaultServiceAuth
+description: NSUserAgent.CreateDefaultServiceAuth()
+intellisense: NSUserAgent.CreateDefaultServiceAuth
 keywords: CreateDefaultServiceAuth()
+so.topic: reference
 ---
 
 

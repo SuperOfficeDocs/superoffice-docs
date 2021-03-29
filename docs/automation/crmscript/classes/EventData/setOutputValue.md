@@ -1,10 +1,10 @@
 ---
-title: Void setOutputValue(String fieldName, String val)
-path: /EJScript/Classes/EventData/member functions/Void setOutputValue(String fieldName, String val)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_setOutputValue_String_fieldName_String_val
+description: EventData.setOutputValue(String fieldName, String val)
+intellisense: EventData.setOutputValue
 sortOrder: 298
 keywords: setOutputValue(String,String)
+so.topic: reference
 ---
 
 # Void setOutputValue(String name, String value)

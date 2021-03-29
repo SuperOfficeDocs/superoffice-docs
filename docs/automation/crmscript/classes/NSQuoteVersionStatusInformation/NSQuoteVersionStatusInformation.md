@@ -1,8 +1,8 @@
 ---
-title: NSQuoteVersionStatusInformation
-path: /EJScript/Classes/NSQuoteVersionStatusInformation
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionStatusInformation
+description: NSQuoteVersionStatusInformation
+intellisense: Void.NSQuoteVersionStatusInformation
+so.topic: reference
 ---
 
 

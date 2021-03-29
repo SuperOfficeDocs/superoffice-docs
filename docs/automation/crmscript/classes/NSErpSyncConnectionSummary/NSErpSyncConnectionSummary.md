@@ -1,9 +1,9 @@
 ---
-title: NSErpSyncConnectionSummary
-path: /EJScript/Classes/NSErpSyncConnectionSummary
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncConnectionSummary
+description: NSErpSyncConnectionSummary
+intellisense: Void.NSErpSyncConnectionSummary
 sortOrder: 3225
+so.topic: reference
 ---
 
 

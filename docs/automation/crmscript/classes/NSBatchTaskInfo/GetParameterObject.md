@@ -1,10 +1,10 @@
 ---
-title: Map GetParameterObject()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Map GetParameterObject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetParameterObject
+description: NSBatchTaskInfo.GetParameterObject()
+intellisense: NSBatchTaskInfo.GetParameterObject
 sortOrder: 1375
 keywords: GetParameterObject()
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: NSPocketNotificationMessage
-path: /EJScript/Classes/NSPocketNotificationMessage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage
+description: NSPocketNotificationMessage
+intellisense: Void.NSPocketNotificationMessage
+so.topic: reference
 ---
 
 

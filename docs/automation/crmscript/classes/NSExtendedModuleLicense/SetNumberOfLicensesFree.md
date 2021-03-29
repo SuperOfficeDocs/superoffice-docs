@@ -1,10 +1,10 @@
 ---
-title: Void SetNumberOfLicensesFree(Integer NumberOfLicensesFree)
-path: /EJScript/Classes/NSExtendedModuleLicense/Member functions/Void SetNumberOfLicensesFree(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtendedModuleLicense_SetNumberOfLicensesFree_Integer_p_0
+description: NSExtendedModuleLicense.SetNumberOfLicensesFree(Integer p_0)
+intellisense: NSExtendedModuleLicense.SetNumberOfLicensesFree
 sortOrder: 3428
 keywords: SetNumberOfLicensesFree(Integer)
+so.topic: reference
 ---
 
 

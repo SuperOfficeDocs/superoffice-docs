@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedAppointment GetNextSuggestedAppointmentBySale(Integer saleId, Integer currentAppointmentId, Bool skipCompleteCheck)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSSuggestedAppointment GetNextSuggestedAppointmentBySale(Integer p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetNextSuggestedAppointmentBySale_Integer_p_0_Integer_p_1_Bool_p_2
+description: NSAppointmentAgent.GetNextSuggestedAppointmentBySale(Integer p_0, Integer p_1, Bool p_2)
+intellisense: NSAppointmentAgent.GetNextSuggestedAppointmentBySale
 sortOrder: 897
 keywords: GetNextSuggestedAppointmentBySale(Integer,Integer,Bool)
+so.topic: reference
 ---
 
 

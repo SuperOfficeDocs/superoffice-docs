@@ -1,10 +1,10 @@
 ---
-title: Void SetStepNumber(Integer StepNumber)
-path: /EJScript/Classes/NSDictionaryStepInformation/Member functions/Void SetStepNumber(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDictionaryStepInformation_SetStepNumber_Integer_p_0
+description: NSDictionaryStepInformation.SetStepNumber(Integer p_0)
+intellisense: NSDictionaryStepInformation.SetStepNumber
 sortOrder: 2426
 keywords: SetStepNumber(Integer)
+so.topic: reference
 ---
 
 

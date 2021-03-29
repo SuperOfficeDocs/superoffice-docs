@@ -1,9 +1,9 @@
 ---
-title: Void SignalEvent(String eventName, Integer primaryKey, NSStringObjectDictionary data)
-path: /EJScript/Classes/NSWebhookAgent/Member functions/Void SignalEvent(String p_0, Integer p_1, NSStringObjectDictionary p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhookAgent_SignalEvent_String_p_0_Integer_p_1_NSStringObjectDictionary_p_2
+description: NSWebhookAgent.SignalEvent(String p_0, Integer p_1, NSStringObjectDictionary p_2)
+intellisense: NSWebhookAgent.SignalEvent
 keywords: SignalEvent(String,Integer,NSStringObjectDictionary)
+so.topic: reference
 ---
 
 

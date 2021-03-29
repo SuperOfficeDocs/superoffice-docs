@@ -1,10 +1,10 @@
 ---
-title: Void SetTo(String To)
-path: /EJScript/Classes/NSIncomingMessage/Member functions/Void SetTo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_SetTo_String_p_0
+description: NSIncomingMessage.SetTo(String p_0)
+intellisense: NSIncomingMessage.SetTo
 sortOrder: 3997
 keywords: SetTo(String)
+so.topic: reference
 ---
 
 

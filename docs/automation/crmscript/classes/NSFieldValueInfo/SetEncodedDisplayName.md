@@ -1,10 +1,10 @@
 ---
-title: Void SetEncodedDisplayName(String EncodedDisplayName)
-path: /EJScript/Classes/NSFieldValueInfo/Member functions/Void SetEncodedDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldValueInfo_SetEncodedDisplayName_String_p_0
+description: NSFieldValueInfo.SetEncodedDisplayName(String p_0)
+intellisense: NSFieldValueInfo.SetEncodedDisplayName
 sortOrder: 3643
 keywords: SetEncodedDisplayName(String)
+so.topic: reference
 ---
 
 

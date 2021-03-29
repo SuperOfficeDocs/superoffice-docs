@@ -1,9 +1,9 @@
 ---
-title: Integer GetCompanyBusiness()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Integer GetCompanyBusiness()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyBusiness
+description: NSSelectionMemberEditValues.GetCompanyBusiness()
+intellisense: NSSelectionMemberEditValues.GetCompanyBusiness
 keywords: GetCompanyBusiness()
+so.topic: reference
 ---
 
 

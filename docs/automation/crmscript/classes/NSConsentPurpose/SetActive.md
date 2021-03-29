@@ -1,10 +1,10 @@
 ---
-title: Void SetActive(Integer Active)
-path: /EJScript/Classes/NSConsentPurpose/Member functions/Void SetActive(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_SetActive_Integer_p_0
+description: NSConsentPurpose.SetActive(Integer p_0)
+intellisense: NSConsentPurpose.SetActive
 sortOrder: 1687
 keywords: SetActive(Integer)
+so.topic: reference
 ---
 
 

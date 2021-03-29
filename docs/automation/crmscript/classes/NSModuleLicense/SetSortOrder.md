@@ -1,9 +1,9 @@
 ---
-title: Void SetSortOrder(Integer SortOrder)
-path: /EJScript/Classes/NSModuleLicense/Member functions/Void SetSortOrder(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_SetSortOrder_Integer_p_0
+description: NSModuleLicense.SetSortOrder(Integer p_0)
+intellisense: NSModuleLicense.SetSortOrder
 keywords: SetSortOrder(Integer)
+so.topic: reference
 ---
 
 

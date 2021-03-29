@@ -1,9 +1,9 @@
 ---
-title: String[] GetPhonePrivate()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetPhonePrivate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetPhonePrivate
+description: NSParticipantSyncData.GetPhonePrivate()
+intellisense: NSParticipantSyncData.GetPhonePrivate
 keywords: GetPhonePrivate()
+so.topic: reference
 ---
 
 

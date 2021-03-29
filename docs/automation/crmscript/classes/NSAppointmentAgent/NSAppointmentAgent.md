@@ -1,9 +1,9 @@
 ---
-title: NSAppointmentAgent
-path: /EJScript/Classes/NSAppointmentAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent
+description: NSAppointmentAgent
+intellisense: Void.NSAppointmentAgent
 sortOrder: 821
+so.topic: reference
 ---
 
 

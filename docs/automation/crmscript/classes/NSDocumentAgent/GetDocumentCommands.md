@@ -1,10 +1,10 @@
 ---
-title: NSCommandInfo[] GetDocumentCommands(Integer documentId, String[] allowedReturnTypes)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSCommandInfo[] GetDocumentCommands(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetDocumentCommands_Integer_p_0_String__p_1
+description: NSDocumentAgent.GetDocumentCommands(Integer p_0, String[] p_1)
+intellisense: NSDocumentAgent.GetDocumentCommands
 sortOrder: 2469
 keywords: GetDocumentCommands(Integer,String[])
+so.topic: reference
 ---
 
 

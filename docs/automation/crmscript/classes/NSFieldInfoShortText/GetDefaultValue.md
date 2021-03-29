@@ -1,10 +1,10 @@
 ---
-title: String GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoShortText/Member functions/String GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoShortText_GetDefaultValue
+description: NSFieldInfoShortText.GetDefaultValue()
+intellisense: NSFieldInfoShortText.GetDefaultValue
 sortOrder: 3549
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

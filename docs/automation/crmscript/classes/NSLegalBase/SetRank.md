@@ -1,9 +1,9 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSLegalBase/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_SetRank_Integer_p_0
+description: NSLegalBase.SetRank(Integer p_0)
+intellisense: NSLegalBase.SetRank
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

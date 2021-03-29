@@ -1,9 +1,9 @@
 ---
-title: Void SetFullName(String FullName)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetFullName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_SetFullName_String_p_0
+description: NSMDOListItem.SetFullName(String p_0)
+intellisense: NSMDOListItem.SetFullName
 keywords: SetFullName(String)
+so.topic: reference
 ---
 
 

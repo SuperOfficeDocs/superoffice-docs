@@ -1,9 +1,9 @@
 ---
-title: Integer GetReportCategory()
-path: /EJScript/Classes/NSReportEntity/Member functions/Integer GetReportCategory()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_GetReportCategory
+description: NSReportEntity.GetReportCategory()
+intellisense: NSReportEntity.GetReportCategory
 keywords: GetReportCategory()
+so.topic: reference
 ---
 
 

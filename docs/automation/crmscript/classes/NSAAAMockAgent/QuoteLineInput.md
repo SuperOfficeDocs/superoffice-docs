@@ -1,10 +1,10 @@
 ---
-title: Void QuoteLineInput(NSQuoteLine quoteLineArgument)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void QuoteLineInput(NSQuoteLine p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_QuoteLineInput_NSQuoteLine_p_0
+description: NSAAAMockAgent.QuoteLineInput(NSQuoteLine p_0)
+intellisense: NSAAAMockAgent.QuoteLineInput
 sortOrder: 8913
 keywords: QuoteLineInput(NSQuoteLine)
+so.topic: reference
 ---
 
 

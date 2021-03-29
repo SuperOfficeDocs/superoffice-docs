@@ -1,10 +1,10 @@
 ---
-title: Void SetPassiveText(String PassiveText)
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/Void SetPassiveText(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_SetPassiveText_String_p_0
+description: NSContactRelationEntity.SetPassiveText(String p_0)
+intellisense: NSContactRelationEntity.SetPassiveText
 sortOrder: 1970
 keywords: SetPassiveText(String)
+so.topic: reference
 ---
 
 

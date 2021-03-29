@@ -1,9 +1,9 @@
 ---
-title: NSHistory[] GetHistoriesByNamesAndIds(NSHistoryRequest[] requests)
-path: /EJScript/Classes/NSViewStateAgent/Member functions/NSHistory[] GetHistoriesByNamesAndIds(NSHistoryRequest[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent_GetHistoriesByNamesAndIds_NSHistoryRequest__p_0
+description: NSViewStateAgent.GetHistoriesByNamesAndIds(NSHistoryRequest[] p_0)
+intellisense: NSViewStateAgent.GetHistoriesByNamesAndIds
 keywords: GetHistoriesByNamesAndIds(NSHistoryRequest[])
+so.topic: reference
 ---
 
 

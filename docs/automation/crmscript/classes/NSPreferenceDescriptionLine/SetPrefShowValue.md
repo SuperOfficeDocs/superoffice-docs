@@ -1,9 +1,9 @@
 ---
-title: Void SetPrefShowValue(String PrefShowValue)
-path: /EJScript/Classes/NSPreferenceDescriptionLine/Member functions/Void SetPrefShowValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceDescriptionLine_SetPrefShowValue_String_p_0
+description: NSPreferenceDescriptionLine.SetPrefShowValue(String p_0)
+intellisense: NSPreferenceDescriptionLine.SetPrefShowValue
 keywords: SetPrefShowValue(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetProbName()
-path: /EJScript/Classes/NSSaleTypeStageLink/Member functions/String GetProbName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeStageLink_GetProbName
+description: NSSaleTypeStageLink.GetProbName()
+intellisense: NSSaleTypeStageLink.GetProbName
 keywords: GetProbName()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetResult(String Result)
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Void SetResult(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_SetResult_String_p_0
+description: NSBatchTaskInfo.SetResult(String p_0)
+intellisense: NSBatchTaskInfo.SetResult
 sortOrder: 1403
 keywords: SetResult(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Map insert(String key, String value)
-path: /EJScript/Classes/Map/Member functions/Map insert(String key, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map_insert_String_key_String_value
+description: Map.insert(String key, String value)
+intellisense: Map.insert
 sortOrder: 529
 keywords: insert(String,String)
+so.topic: reference
 ---
 
 Insert a new key-value pair in the map. This function will reset the internal iterator in the map.

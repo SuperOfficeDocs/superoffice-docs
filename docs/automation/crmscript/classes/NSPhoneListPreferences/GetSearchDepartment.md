@@ -1,9 +1,9 @@
 ---
-title: Bool GetSearchDepartment()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Bool GetSearchDepartment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_GetSearchDepartment
+description: NSPhoneListPreferences.GetSearchDepartment()
+intellisense: NSPhoneListPreferences.GetSearchDepartment
 keywords: GetSearchDepartment()
+so.topic: reference
 ---
 
 

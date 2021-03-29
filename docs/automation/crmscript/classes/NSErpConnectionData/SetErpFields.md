@@ -1,10 +1,10 @@
 ---
-title: Void SetErpFields(NSFieldMetadata[] ErpFields)
-path: /EJScript/Classes/NSErpConnectionData/Member functions/Void SetErpFields(NSFieldMetadata[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionData_SetErpFields_NSFieldMetadata__p_0
+description: NSErpConnectionData.SetErpFields(NSFieldMetadata[] p_0)
+intellisense: NSErpConnectionData.SetErpFields
 sortOrder: 3121
 keywords: SetErpFields(NSFieldMetadata[])
+so.topic: reference
 ---
 
 

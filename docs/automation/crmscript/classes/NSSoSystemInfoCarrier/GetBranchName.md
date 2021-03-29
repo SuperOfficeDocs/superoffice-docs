@@ -1,9 +1,9 @@
 ---
-title: String GetBranchName()
-path: /EJScript/Classes/NSSoSystemInfoCarrier/Member functions/String GetBranchName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoSystemInfoCarrier_GetBranchName
+description: NSSoSystemInfoCarrier.GetBranchName()
+intellisense: NSSoSystemInfoCarrier.GetBranchName
 keywords: GetBranchName()
+so.topic: reference
 ---
 
 

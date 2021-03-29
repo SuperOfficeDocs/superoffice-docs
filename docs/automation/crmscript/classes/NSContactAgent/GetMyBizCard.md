@@ -1,10 +1,10 @@
 ---
-title: NSContactEntity GetMyBizCard()
-path: /EJScript/Classes/NSContactAgent/Member functions/NSContactEntity GetMyBizCard()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_GetMyBizCard
+description: NSContactAgent.GetMyBizCard()
+intellisense: NSContactAgent.GetMyBizCard
 sortOrder: 1812
 keywords: GetMyBizCard()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetPath(String Path)
-path: /EJScript/Classes/NSScript/Member functions/Void SetPath(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_SetPath_String_p_0
+description: NSScript.SetPath(String p_0)
+intellisense: NSScript.SetPath
 keywords: SetPath(String)
+so.topic: reference
 ---
 
 

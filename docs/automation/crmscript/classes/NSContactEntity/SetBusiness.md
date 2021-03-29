@@ -1,10 +1,10 @@
 ---
-title: Void SetBusiness(NSBusiness Business)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetBusiness(NSBusiness p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetBusiness_NSBusiness_p_0
+description: NSContactEntity.SetBusiness(NSBusiness p_0)
+intellisense: NSContactEntity.SetBusiness
 sortOrder: 1881
 keywords: SetBusiness(NSBusiness)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryClosingStatus GetClosingStatus()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/NSTicketCategoryClosingStatus GetClosingStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetClosingStatus
+description: NSTicketCategoryEntity.GetClosingStatus()
+intellisense: NSTicketCategoryEntity.GetClosingStatus
 keywords: GetClosingStatus()
+so.topic: reference
 ---
 
 

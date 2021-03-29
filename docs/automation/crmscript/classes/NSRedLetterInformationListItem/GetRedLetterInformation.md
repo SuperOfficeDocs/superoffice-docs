@@ -1,9 +1,9 @@
 ---
-title: NSRedLetterSummary GetRedLetterInformation()
-path: /EJScript/Classes/NSRedLetterInformationListItem/Member functions/NSRedLetterSummary GetRedLetterInformation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRedLetterInformationListItem_GetRedLetterInformation
+description: NSRedLetterInformationListItem.GetRedLetterInformation()
+intellisense: NSRedLetterInformationListItem.GetRedLetterInformation
 keywords: GetRedLetterInformation()
+so.topic: reference
 ---
 
 

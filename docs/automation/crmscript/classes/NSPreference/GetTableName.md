@@ -1,9 +1,9 @@
 ---
-title: String GetTableName()
-path: /EJScript/Classes/NSPreference/Member functions/String GetTableName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetTableName
+description: NSPreference.GetTableName()
+intellisense: NSPreference.GetTableName
 keywords: GetTableName()
+so.topic: reference
 ---
 
 

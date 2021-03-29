@@ -1,9 +1,9 @@
 ---
-title: Integer GetSearchModeCompany()
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Integer GetSearchModeCompany()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_GetSearchModeCompany
+description: NSPhoneListPreferences.GetSearchModeCompany()
+intellisense: NSPhoneListPreferences.GetSearchModeCompany
 keywords: GetSearchModeCompany()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetInterParenthesis()
-path: /EJScript/Classes/NSArchiveRestrictionInfo/Member functions/Integer GetInterParenthesis()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionInfo_GetInterParenthesis
+description: NSArchiveRestrictionInfo.GetInterParenthesis()
+intellisense: NSArchiveRestrictionInfo.GetInterParenthesis
 sortOrder: 1215
 keywords: GetInterParenthesis()
+so.topic: reference
 ---
 
 

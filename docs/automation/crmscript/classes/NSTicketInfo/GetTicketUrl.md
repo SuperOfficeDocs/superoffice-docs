@@ -1,9 +1,9 @@
 ---
-title: String GetTicketUrl()
-path: /EJScript/Classes/NSTicketInfo/Member functions/String GetTicketUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_GetTicketUrl
+description: NSTicketInfo.GetTicketUrl()
+intellisense: NSTicketInfo.GetTicketUrl
 keywords: GetTicketUrl()
+so.topic: reference
 ---
 
 

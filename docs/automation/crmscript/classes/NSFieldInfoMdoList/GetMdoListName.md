@@ -1,10 +1,10 @@
 ---
-title: String GetMdoListName()
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/String GetMdoListName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoMdoList_GetMdoListName
+description: NSFieldInfoMdoList.GetMdoListName()
+intellisense: NSFieldInfoMdoList.GetMdoListName
 sortOrder: 3532
 keywords: GetMdoListName()
+so.topic: reference
 ---
 
 

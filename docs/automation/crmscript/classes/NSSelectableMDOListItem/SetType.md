@@ -1,9 +1,9 @@
 ---
-title: Void SetType(String Type)
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/Void SetType(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_SetType_String_p_0
+description: NSSelectableMDOListItem.SetType(String p_0)
+intellisense: NSSelectableMDOListItem.SetType
 keywords: SetType(String)
+so.topic: reference
 ---
 
 

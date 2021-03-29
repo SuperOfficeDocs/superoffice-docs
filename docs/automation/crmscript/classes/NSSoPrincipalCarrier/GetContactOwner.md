@@ -1,9 +1,9 @@
 ---
-title: Integer GetContactOwner()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetContactOwner()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetContactOwner
+description: NSSoPrincipalCarrier.GetContactOwner()
+intellisense: NSSoPrincipalCarrier.GetContactOwner
 keywords: GetContactOwner()
+so.topic: reference
 ---
 
 

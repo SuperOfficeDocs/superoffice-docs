@@ -1,9 +1,9 @@
 ---
-title: Integer GetSaleId()
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Integer GetSaleId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_GetSaleId
+description: NSTemplateVariablesParameters.GetSaleId()
+intellisense: NSTemplateVariablesParameters.GetSaleId
 keywords: GetSaleId()
+so.topic: reference
 ---
 
 

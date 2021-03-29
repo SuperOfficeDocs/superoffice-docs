@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSForeignAppEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignAppEntity_GetName
+description: NSForeignAppEntity.GetName()
+intellisense: NSForeignAppEntity.GetName
 sortOrder: 3704
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetWindowName(String WindowName)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetWindowName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetWindowName_String_p_0
+description: NSWebPanelEntity.SetWindowName(String p_0)
+intellisense: NSWebPanelEntity.SetWindowName
 keywords: SetWindowName(String)
+so.topic: reference
 ---
 
 

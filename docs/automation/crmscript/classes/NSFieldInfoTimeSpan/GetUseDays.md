@@ -1,10 +1,10 @@
 ---
-title: Bool GetUseDays()
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Bool GetUseDays()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTimeSpan_GetUseDays
+description: NSFieldInfoTimeSpan.GetUseDays()
+intellisense: NSFieldInfoTimeSpan.GetUseDays
 sortOrder: 3565
 keywords: GetUseDays()
+so.topic: reference
 ---
 
 

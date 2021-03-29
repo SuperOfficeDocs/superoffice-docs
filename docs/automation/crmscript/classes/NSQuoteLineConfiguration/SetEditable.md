@@ -1,9 +1,9 @@
 ---
-title: Void SetEditable(Bool Editable)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetEditable(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetEditable_Bool_p_0
+description: NSQuoteLineConfiguration.SetEditable(Bool p_0)
+intellisense: NSQuoteLineConfiguration.SetEditable
 keywords: SetEditable(Bool)
+so.topic: reference
 ---
 
 

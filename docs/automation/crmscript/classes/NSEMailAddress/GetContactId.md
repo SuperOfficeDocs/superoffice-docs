@@ -1,10 +1,10 @@
 ---
-title: Integer GetContactId()
-path: /EJScript/Classes/NSEMailAddress/Member functions/Integer GetContactId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_GetContactId
+description: NSEMailAddress.GetContactId()
+intellisense: NSEMailAddress.GetContactId
 sortOrder: 2763
 keywords: GetContactId()
+so.topic: reference
 ---
 
 

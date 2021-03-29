@@ -1,10 +1,10 @@
 ---
-title: NSSuggestedDocumentEntity GetSuggestedDocumentEntity(Integer suggestedDocumentEntityId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSSuggestedDocumentEntity GetSuggestedDocumentEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetSuggestedDocumentEntity_Integer_p_0
+description: NSDocumentAgent.GetSuggestedDocumentEntity(Integer p_0)
+intellisense: NSDocumentAgent.GetSuggestedDocumentEntity
 sortOrder: 2528
 keywords: GetSuggestedDocumentEntity(Integer)
+so.topic: reference
 ---
 
 

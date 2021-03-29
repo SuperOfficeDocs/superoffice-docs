@@ -1,9 +1,9 @@
 ---
-title: Integer GetCountryId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetCountryId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetCountryId
+description: NSSoPrincipalCarrier.GetCountryId()
+intellisense: NSSoPrincipalCarrier.GetCountryId
 keywords: GetCountryId()
+so.topic: reference
 ---
 
 

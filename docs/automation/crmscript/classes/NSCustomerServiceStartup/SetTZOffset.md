@@ -1,10 +1,10 @@
 ---
-title: Void SetTZOffset(Integer TZOffset)
-path: /EJScript/Classes/NSCustomerServiceStartup/Member functions/Void SetTZOffset(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerServiceStartup_SetTZOffset_Integer_p_0
+description: NSCustomerServiceStartup.SetTZOffset(Integer p_0)
+intellisense: NSCustomerServiceStartup.SetTZOffset
 sortOrder: 2257
 keywords: SetTZOffset(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSunStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetSunStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetSunStart
+description: NSTicketPriorityEntity.GetSunStart()
+intellisense: NSTicketPriorityEntity.GetSunStart
 keywords: GetSunStart()
+so.topic: reference
 ---
 
 

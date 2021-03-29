@@ -1,10 +1,10 @@
 ---
-title: Void SetListName(String ListName)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetListName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_SetListName_String_p_0
+description: NSErpSyncDefaultValue.SetListName(String p_0)
+intellisense: NSErpSyncDefaultValue.SetListName
 sortOrder: 3272
 keywords: SetListName(String)
+so.topic: reference
 ---
 
 

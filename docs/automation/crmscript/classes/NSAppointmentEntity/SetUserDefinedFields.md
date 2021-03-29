@@ -1,10 +1,10 @@
 ---
-title: Void SetUserDefinedFields(Map fields)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetUserDefinedFields(Map p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetUserDefinedFields_Map_p_0
+description: NSAppointmentEntity.SetUserDefinedFields(Map p_0)
+intellisense: NSAppointmentEntity.SetUserDefinedFields
 sortOrder: 1036
 keywords: SetUserDefinedFields(Map)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetIntentId()
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Integer GetIntentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_GetIntentId
+description: NSDocumentTemplateEntity.GetIntentId()
+intellisense: NSDocumentTemplateEntity.GetIntentId
 sortOrder: 2659
 keywords: GetIntentId()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetPublishedProjectDocuments(Integer projectId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetPublishedProjectDocuments(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetPublishedProjectDocuments_Integer_p_0
+description: NSDocumentAgent.GetPublishedProjectDocuments(Integer p_0)
+intellisense: NSDocumentAgent.GetPublishedProjectDocuments
 sortOrder: 2496
 keywords: GetPublishedProjectDocuments(Integer)
+so.topic: reference
 ---
 
 

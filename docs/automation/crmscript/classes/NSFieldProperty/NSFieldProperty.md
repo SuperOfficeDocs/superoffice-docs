@@ -1,9 +1,9 @@
 ---
-title: NSFieldProperty
-path: /EJScript/Classes/NSFieldProperty
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldProperty
+description: NSFieldProperty
+intellisense: Void.NSFieldProperty
 sortOrder: 3595
+so.topic: reference
 ---
 
 

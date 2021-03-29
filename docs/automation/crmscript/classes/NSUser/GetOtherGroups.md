@@ -1,9 +1,9 @@
 ---
-title: NSUserGroup[] GetOtherGroups()
-path: /EJScript/Classes/NSUser/Member functions/NSUserGroup[] GetOtherGroups()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetOtherGroups
+description: NSUser.GetOtherGroups()
+intellisense: NSUser.GetOtherGroups
 keywords: GetOtherGroups()
+so.topic: reference
 ---
 
 

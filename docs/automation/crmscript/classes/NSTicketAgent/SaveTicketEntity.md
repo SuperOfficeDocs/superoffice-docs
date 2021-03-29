@@ -1,9 +1,9 @@
 ---
-title: NSTicketEntity SaveTicketEntity(NSTicketEntity ticketEntity)
-path: /EJScript/Classes/NSTicketAgent/Member functions/NSTicketEntity SaveTicketEntity(NSTicketEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketAgent_SaveTicketEntity_NSTicketEntity_p_0
+description: NSTicketAgent.SaveTicketEntity(NSTicketEntity p_0)
+intellisense: NSTicketAgent.SaveTicketEntity
 keywords: SaveTicketEntity(NSTicketEntity)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetColorBlock(Integer ColorBlock)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetColorBlock(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_SetColorBlock_Integer_p_0
+description: NSMDOListItem.SetColorBlock(Integer p_0)
+intellisense: NSMDOListItem.SetColorBlock
 keywords: SetColorBlock(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetName
+description: NSSaleTypeEntity.GetName()
+intellisense: NSSaleTypeEntity.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

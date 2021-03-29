@@ -1,9 +1,9 @@
 ---
-title: Void SetServiceAuthId(Integer ServiceAuthId)
-path: /EJScript/Classes/NSServiceAuth/Member functions/Void SetServiceAuthId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_SetServiceAuthId_Integer_p_0
+description: NSServiceAuth.SetServiceAuthId(Integer p_0)
+intellisense: NSServiceAuth.SetServiceAuthId
 keywords: SetServiceAuthId(Integer)
+so.topic: reference
 ---
 
 

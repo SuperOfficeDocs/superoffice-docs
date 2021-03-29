@@ -1,10 +1,10 @@
 ---
-title: NSConsentSource GetConsentSource()
-path: /EJScript/Classes/NSConsentPerson/Member functions/NSConsentSource GetConsentSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_GetConsentSource
+description: NSConsentPerson.GetConsentSource()
+intellisense: NSConsentPerson.GetConsentSource
 sortOrder: 1663
 keywords: GetConsentSource()
+so.topic: reference
 ---
 
 

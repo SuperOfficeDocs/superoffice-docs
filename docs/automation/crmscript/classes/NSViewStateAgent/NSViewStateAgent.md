@@ -1,8 +1,8 @@
 ---
-title: NSViewStateAgent
-path: /EJScript/Classes/NSViewStateAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSViewStateAgent
+description: NSViewStateAgent
+intellisense: Void.NSViewStateAgent
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetCustomTags(String[][] CustomTags)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetCustomTags(String[][] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetCustomTags_String___p_0
+description: NSTemplateVariablesParameters.SetCustomTags(String[][] p_0)
+intellisense: NSTemplateVariablesParameters.SetCustomTags
 keywords: SetCustomTags(String[][])
+so.topic: reference
 ---
 
 

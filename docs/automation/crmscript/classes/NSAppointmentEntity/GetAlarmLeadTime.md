@@ -1,10 +1,10 @@
 ---
-title: TimeSpan GetAlarmLeadTime()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/TimeSpan GetAlarmLeadTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetAlarmLeadTime
+description: NSAppointmentEntity.GetAlarmLeadTime()
+intellisense: NSAppointmentEntity.GetAlarmLeadTime
 sortOrder: 976
 keywords: GetAlarmLeadTime()
+so.topic: reference
 ---
 
 

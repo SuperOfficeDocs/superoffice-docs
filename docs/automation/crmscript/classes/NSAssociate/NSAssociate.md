@@ -1,9 +1,9 @@
 ---
-title: NSAssociate
-path: /EJScript/Classes/NSAssociate
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociate
+description: NSAssociate
+intellisense: Void.NSAssociate
 sortOrder: 1252
+so.topic: reference
 ---
 
 

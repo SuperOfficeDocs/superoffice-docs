@@ -1,9 +1,9 @@
 ---
-title: NSSelectableMDOListItem[] GetVisibleForUserGroupsFromListName(String udListDefinitionName, Integer listItemId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSelectableMDOListItem[] GetVisibleForUserGroupsFromListName(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetVisibleForUserGroupsFromListName_String_p_0_Integer_p_1
+description: NSListAgent.GetVisibleForUserGroupsFromListName(String p_0, Integer p_1)
+intellisense: NSListAgent.GetVisibleForUserGroupsFromListName
 keywords: GetVisibleForUserGroupsFromListName(String,Integer)
+so.topic: reference
 ---
 
 

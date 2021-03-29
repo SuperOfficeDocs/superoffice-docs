@@ -1,10 +1,10 @@
 ---
-title: DateTime GetUpdatedDate()
-path: /EJScript/Classes/NSConsentPurpose/Member functions/DateTime GetUpdatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPurpose_GetUpdatedDate
+description: NSConsentPurpose.GetUpdatedDate()
+intellisense: NSConsentPurpose.GetUpdatedDate
 sortOrder: 1675
 keywords: GetUpdatedDate()
+so.topic: reference
 ---
 
 

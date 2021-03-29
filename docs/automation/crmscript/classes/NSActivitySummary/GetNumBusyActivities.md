@@ -1,10 +1,10 @@
 ---
-title: Integer GetNumBusyActivities()
-path: /EJScript/Classes/NSActivitySummary/Member functions/Integer GetNumBusyActivities()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummary_GetNumBusyActivities
+description: NSActivitySummary.GetNumBusyActivities()
+intellisense: NSActivitySummary.GetNumBusyActivities
 sortOrder: 587
 keywords: GetNumBusyActivities()
+so.topic: reference
 ---
 
 

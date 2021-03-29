@@ -1,10 +1,10 @@
 ---
-title: String GetErpConnectionName()
-path: /EJScript/Classes/NSErpConnectionListMappingContainer/Member functions/String GetErpConnectionName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMappingContainer_GetErpConnectionName
+description: NSErpConnectionListMappingContainer.GetErpConnectionName()
+intellisense: NSErpConnectionListMappingContainer.GetErpConnectionName
 sortOrder: 3138
 keywords: GetErpConnectionName()
+so.topic: reference
 ---
 
 

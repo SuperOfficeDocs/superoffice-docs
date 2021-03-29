@@ -1,10 +1,10 @@
 ---
-title: Void SetMdoListName(String MdoListName)
-path: /EJScript/Classes/NSFieldInfoMdoList/Member functions/Void SetMdoListName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoMdoList_SetMdoListName_String_p_0
+description: NSFieldInfoMdoList.SetMdoListName(String p_0)
+intellisense: NSFieldInfoMdoList.SetMdoListName
 sortOrder: 3534
 keywords: SetMdoListName(String)
+so.topic: reference
 ---
 
 

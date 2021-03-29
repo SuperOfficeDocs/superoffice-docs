@@ -1,9 +1,9 @@
 ---
-title: NSRelationDefinitionEntity SaveRelationDefinitionEntity(NSRelationDefinitionEntity relationDefinitionEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSRelationDefinitionEntity SaveRelationDefinitionEntity(NSRelationDefinitionEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveRelationDefinitionEntity_NSRelationDefinitionEntity_p_0
+description: NSListAgent.SaveRelationDefinitionEntity(NSRelationDefinitionEntity p_0)
+intellisense: NSListAgent.SaveRelationDefinitionEntity
 keywords: SaveRelationDefinitionEntity(NSRelationDefinitionEntity)
+so.topic: reference
 ---
 
 

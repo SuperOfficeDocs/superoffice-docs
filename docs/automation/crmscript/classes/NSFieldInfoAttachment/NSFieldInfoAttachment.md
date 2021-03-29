@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoAttachment
-path: /EJScript/Classes/NSFieldInfoAttachment
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoAttachment
+description: NSFieldInfoAttachment
+intellisense: Void.NSFieldInfoAttachment
 sortOrder: 3455
+so.topic: reference
 ---
 
 

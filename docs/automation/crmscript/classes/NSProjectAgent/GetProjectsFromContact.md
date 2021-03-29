@@ -1,9 +1,9 @@
 ---
-title: NSProject[] GetProjectsFromContact(Integer contactId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProject[] GetProjectsFromContact(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetProjectsFromContact_Integer_p_0
+description: NSProjectAgent.GetProjectsFromContact(Integer p_0)
+intellisense: NSProjectAgent.GetProjectsFromContact
 keywords: GetProjectsFromContact(Integer)
+so.topic: reference
 ---
 
 

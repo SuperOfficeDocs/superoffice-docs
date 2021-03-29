@@ -1,9 +1,9 @@
 ---
-title: Date toDate()
-path: /EJScript/Classes/String/Member functions/Date toDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toDate
+description: String.toDate()
+intellisense: String.toDate
 keywords: toDate()
+so.topic: reference
 ---
 
 

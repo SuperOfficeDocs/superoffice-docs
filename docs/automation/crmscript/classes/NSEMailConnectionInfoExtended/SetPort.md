@@ -1,10 +1,10 @@
 ---
-title: Void SetPort(Integer Port)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetPort(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetPort_Integer_p_0
+description: NSEMailConnectionInfoExtended.SetPort(Integer p_0)
+intellisense: NSEMailConnectionInfoExtended.SetPort
 sortOrder: 2931
 keywords: SetPort(Integer)
+so.topic: reference
 ---
 
 

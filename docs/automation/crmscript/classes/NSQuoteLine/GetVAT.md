@@ -1,9 +1,9 @@
 ---
-title: Float GetVAT()
-path: /EJScript/Classes/NSQuoteLine/Member functions/Float GetVAT()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetVAT
+description: NSQuoteLine.GetVAT()
+intellisense: NSQuoteLine.GetVAT
 keywords: GetVAT()
+so.topic: reference
 ---
 
 

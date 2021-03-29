@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSEMailAddress/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAddress_GetName
+description: NSEMailAddress.GetName()
+intellisense: NSEMailAddress.GetName
 sortOrder: 2769
 keywords: GetName()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetStatus()
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Integer GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_GetStatus
+description: NSQuoteAlternative.GetStatus()
+intellisense: NSQuoteAlternative.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 If there was a problem with for instance calculation, this field is set to warning or error.

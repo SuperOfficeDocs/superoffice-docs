@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsSignedOn()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Bool GetIsSignedOn()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetIsSignedOn
+description: NSProjectEvent.GetIsSignedOn()
+intellisense: NSProjectEvent.GetIsSignedOn
 keywords: GetIsSignedOn()
+so.topic: reference
 ---
 
 

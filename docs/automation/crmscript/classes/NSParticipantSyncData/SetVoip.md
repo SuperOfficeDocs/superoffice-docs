@@ -1,9 +1,9 @@
 ---
-title: Void SetVoip(String[] Voip)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetVoip(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetVoip_String__p_0
+description: NSParticipantSyncData.SetVoip(String[] p_0)
+intellisense: NSParticipantSyncData.SetVoip
 keywords: SetVoip(String[])
+so.topic: reference
 ---
 
 

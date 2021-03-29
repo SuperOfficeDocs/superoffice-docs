@@ -1,9 +1,9 @@
 ---
-title: NSHistory
-path: /EJScript/Classes/NSHistory
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory
+description: NSHistory
+intellisense: Void.NSHistory
 sortOrder: 3924
+so.topic: reference
 ---
 
 

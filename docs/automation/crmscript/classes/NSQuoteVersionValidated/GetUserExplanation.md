@@ -1,9 +1,9 @@
 ---
-title: String GetUserExplanation()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/String GetUserExplanation()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_GetUserExplanation
+description: NSQuoteVersionValidated.GetUserExplanation()
+intellisense: NSQuoteVersionValidated.GetUserExplanation
 keywords: GetUserExplanation()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: DateTime GetUpdated()
-path: /EJScript/Classes/NSScript/Member functions/DateTime GetUpdated()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSScript_GetUpdated
+description: NSScript.GetUpdated()
+intellisense: NSScript.GetUpdated
 keywords: GetUpdated()
+so.topic: reference
 ---
 
 

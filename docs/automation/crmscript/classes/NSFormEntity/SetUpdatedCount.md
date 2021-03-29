@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedCount(Integer UpdatedCount)
-path: /EJScript/Classes/NSFormEntity/Member functions/Void SetUpdatedCount(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_SetUpdatedCount_Integer_p_0
+description: NSFormEntity.SetUpdatedCount(Integer p_0)
+intellisense: NSFormEntity.SetUpdatedCount
 sortOrder: 3827
 keywords: SetUpdatedCount(Integer)
+so.topic: reference
 ---
 
 

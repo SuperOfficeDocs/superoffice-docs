@@ -1,9 +1,9 @@
 ---
-title: NSProjectStatus GetProjectStatus()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSProjectStatus GetProjectStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetProjectStatus
+description: NSProjectEntity.GetProjectStatus()
+intellisense: NSProjectEntity.GetProjectStatus
 keywords: GetProjectStatus()
+so.topic: reference
 ---
 
 

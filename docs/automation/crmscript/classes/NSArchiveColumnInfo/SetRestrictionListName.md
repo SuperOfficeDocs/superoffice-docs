@@ -1,10 +1,10 @@
 ---
-title: Void SetRestrictionListName(String RestrictionListName)
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/Void SetRestrictionListName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_SetRestrictionListName_String_p_0
+description: NSArchiveColumnInfo.SetRestrictionListName(String p_0)
+intellisense: NSArchiveColumnInfo.SetRestrictionListName
 sortOrder: 1162
 keywords: SetRestrictionListName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: DateTime GetWhenRequested()
-path: /EJScript/Classes/NSChatSummaryItem/Member functions/DateTime GetWhenRequested()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatSummaryItem_GetWhenRequested
+description: NSChatSummaryItem.GetWhenRequested()
+intellisense: NSChatSummaryItem.GetWhenRequested
 sortOrder: 1536
 keywords: GetWhenRequested()
+so.topic: reference
 ---
 
 

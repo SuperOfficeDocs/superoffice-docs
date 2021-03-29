@@ -1,9 +1,9 @@
 ---
-title: Void SetReportId(Integer ReportId)
-path: /EJScript/Classes/NSReportEntity/Member functions/Void SetReportId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_SetReportId_Integer_p_0
+description: NSReportEntity.SetReportId(Integer p_0)
+intellisense: NSReportEntity.SetReportId
 keywords: SetReportId(Integer)
+so.topic: reference
 ---
 
 

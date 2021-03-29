@@ -1,9 +1,9 @@
 ---
-title: Void SetVATInfo(String VATInfo)
-path: /EJScript/Classes/NSQuoteAlternative/Member functions/Void SetVATInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAlternative_SetVATInfo_String_p_0
+description: NSQuoteAlternative.SetVATInfo(String p_0)
+intellisense: NSQuoteAlternative.SetVATInfo
 keywords: SetVATInfo(String)
+so.topic: reference
 ---
 
 

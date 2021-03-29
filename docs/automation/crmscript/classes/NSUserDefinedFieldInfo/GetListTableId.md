@@ -1,9 +1,9 @@
 ---
-title: Integer GetListTableId()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetListTableId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetListTableId
+description: NSUserDefinedFieldInfo.GetListTableId()
+intellisense: NSUserDefinedFieldInfo.GetListTableId
 keywords: GetListTableId()
+so.topic: reference
 ---
 
 

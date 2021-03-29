@@ -1,10 +1,10 @@
 ---
-title: Void SetEnglishName(String EnglishName)
-path: /EJScript/Classes/NSCountry/Member functions/Void SetEnglishName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_SetEnglishName_String_p_0
+description: NSCountry.SetEnglishName(String p_0)
+intellisense: NSCountry.SetEnglishName
 sortOrder: 2037
 keywords: SetEnglishName(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSForeignDevice/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSForeignDevice_GetName
+description: NSForeignDevice.GetName()
+intellisense: NSForeignDevice.GetName
 sortOrder: 3721
 keywords: GetName()
+so.topic: reference
 ---
 
 

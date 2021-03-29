@@ -1,10 +1,10 @@
 ---
-title: Void increaseValueForKey(String p0, Integer p1)
-path: /EJScript/Classes/Map/Member functions/Void increaseValueForKey(String p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map_increaseValueForKey_String_p_0_Integer_p_1
+description: Map.increaseValueForKey(String p_0, Integer p_1)
+intellisense: Map.increaseValueForKey
 sortOrder: 537
 keywords: increaseValueForKey(String,Integer)
+so.topic: reference
 ---
 
 This function will add the given integer to the value of the given key.

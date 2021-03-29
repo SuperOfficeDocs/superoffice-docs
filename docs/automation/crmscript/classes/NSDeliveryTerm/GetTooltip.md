@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSDeliveryTerm/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDeliveryTerm_GetTooltip
+description: NSDeliveryTerm.GetTooltip()
+intellisense: NSDeliveryTerm.GetTooltip
 sortOrder: 2367
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

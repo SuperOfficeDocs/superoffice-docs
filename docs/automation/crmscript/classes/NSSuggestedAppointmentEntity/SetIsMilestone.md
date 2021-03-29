@@ -1,9 +1,9 @@
 ---
-title: Void SetIsMilestone(Bool IsMilestone)
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Void SetIsMilestone(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_SetIsMilestone_Bool_p_0
+description: NSSuggestedAppointmentEntity.SetIsMilestone(Bool p_0)
+intellisense: NSSuggestedAppointmentEntity.SetIsMilestone
 keywords: SetIsMilestone(Bool)
+so.topic: reference
 ---
 
 

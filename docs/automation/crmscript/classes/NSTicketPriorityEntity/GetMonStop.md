@@ -1,9 +1,9 @@
 ---
-title: DateTime GetMonStop()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetMonStop()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetMonStop
+description: NSTicketPriorityEntity.GetMonStop()
+intellisense: NSTicketPriorityEntity.GetMonStop
 keywords: GetMonStop()
+so.topic: reference
 ---
 
 

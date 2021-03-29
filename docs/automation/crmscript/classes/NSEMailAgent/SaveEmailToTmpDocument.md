@@ -1,10 +1,10 @@
 ---
-title: String SaveEmailToTmpDocument(NSEMailEntity email, Integer folderId, Bool stripAttachments)
-path: /EJScript/Classes/NSEMailAgent/Member functions/String SaveEmailToTmpDocument(NSEMailEntity p_0, Integer p_1, Bool p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_SaveEmailToTmpDocument_NSEMailEntity_p_0_Integer_p_1_Bool_p_2
+description: NSEMailAgent.SaveEmailToTmpDocument(NSEMailEntity p_0, Integer p_1, Bool p_2)
+intellisense: NSEMailAgent.SaveEmailToTmpDocument
 sortOrder: 2849
 keywords: SaveEmailToTmpDocument(NSEMailEntity,Integer,Bool)
+so.topic: reference
 ---
 
 

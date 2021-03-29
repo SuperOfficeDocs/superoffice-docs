@@ -1,9 +1,9 @@
 ---
-title: String GetEmailHeader()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/String GetEmailHeader()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetEmailHeader
+description: NSTicketMessageEntity.GetEmailHeader()
+intellisense: NSTicketMessageEntity.GetEmailHeader
 keywords: GetEmailHeader()
+so.topic: reference
 ---
 
 

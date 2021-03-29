@@ -1,9 +1,9 @@
 ---
-title: Bool GetHasOwnDeliveryAddress()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Bool GetHasOwnDeliveryAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetHasOwnDeliveryAddress
+description: NSQuoteVersion.GetHasOwnDeliveryAddress()
+intellisense: NSQuoteVersion.GetHasOwnDeliveryAddress
 keywords: GetHasOwnDeliveryAddress()
+so.topic: reference
 ---
 
 

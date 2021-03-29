@@ -1,9 +1,9 @@
 ---
-title: Void SetSatStop(DateTime SatStop)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetSatStop(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetSatStop_DateTime_p_0
+description: NSTicketPriorityEntity.SetSatStop(DateTime p_0)
+intellisense: NSTicketPriorityEntity.SetSatStop
 keywords: SetSatStop(DateTime)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchLastname(Bool SearchLastname)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchLastname(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_SetSearchLastname_Bool_p_0
+description: NSPhoneListPreferences.SetSearchLastname(Bool p_0)
+intellisense: NSPhoneListPreferences.SetSearchLastname
 keywords: SetSearchLastname(Bool)
+so.topic: reference
 ---
 
 

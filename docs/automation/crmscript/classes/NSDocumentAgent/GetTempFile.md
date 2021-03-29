@@ -1,10 +1,10 @@
 ---
-title: NSStream GetTempFile(String filename)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSStream GetTempFile(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetTempFile_String_p_0
+description: NSDocumentAgent.GetTempFile(String p_0)
+intellisense: NSDocumentAgent.GetTempFile
 sortOrder: 2520
 keywords: GetTempFile(String)
+so.topic: reference
 ---
 
 

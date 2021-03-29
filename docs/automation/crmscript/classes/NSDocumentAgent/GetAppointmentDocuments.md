@@ -1,10 +1,10 @@
 ---
-title: NSDocument[] GetAppointmentDocuments(Integer appointmentId)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSDocument[] GetAppointmentDocuments(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_GetAppointmentDocuments_Integer_p_0
+description: NSDocumentAgent.GetAppointmentDocuments(Integer p_0)
+intellisense: NSDocumentAgent.GetAppointmentDocuments
 sortOrder: 2472
 keywords: GetAppointmentDocuments(Integer)
+so.topic: reference
 ---
 
 

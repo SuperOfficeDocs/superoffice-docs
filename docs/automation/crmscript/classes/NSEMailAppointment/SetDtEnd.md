@@ -1,10 +1,10 @@
 ---
-title: Void SetDtEnd(DateTime DtEnd)
-path: /EJScript/Classes/NSEMailAppointment/Member functions/Void SetDtEnd(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_SetDtEnd_DateTime_p_0
+description: NSEMailAppointment.SetDtEnd(DateTime p_0)
+intellisense: NSEMailAppointment.SetDtEnd
 sortOrder: 2885
 keywords: SetDtEnd(DateTime)
+so.topic: reference
 ---
 
 

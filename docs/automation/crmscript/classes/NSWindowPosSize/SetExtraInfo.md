@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraInfo(String ExtraInfo)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetExtraInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetExtraInfo_String_p_0
+description: NSWindowPosSize.SetExtraInfo(String p_0)
+intellisense: NSWindowPosSize.SetExtraInfo
 keywords: SetExtraInfo(String)
+so.topic: reference
 ---
 
 

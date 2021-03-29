@@ -1,9 +1,9 @@
 ---
-title: DateTime GetNextDueDate(Integer saleId)
-path: /EJScript/Classes/NSSaleAgent/Member functions/DateTime GetNextDueDate(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetNextDueDate_Integer_p_0
+description: NSSaleAgent.GetNextDueDate(Integer p_0)
+intellisense: NSSaleAgent.GetNextDueDate
 keywords: GetNextDueDate(Integer)
+so.topic: reference
 ---
 
 

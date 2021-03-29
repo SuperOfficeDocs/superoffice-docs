@@ -1,9 +1,9 @@
 ---
-title: NSDatabaseAgent
-path: /EJScript/Classes/NSDatabaseAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseAgent
+description: NSDatabaseAgent
+intellisense: Void.NSDatabaseAgent
 sortOrder: 2332
+so.topic: reference
 ---
 
 

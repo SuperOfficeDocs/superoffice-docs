@@ -1,10 +1,10 @@
 ---
-title: NSCRMScriptResult ValidateScript(Integer cRMScriptId)
-path: /EJScript/Classes/NSCRMScriptAgent/Member functions/NSCRMScriptResult ValidateScript(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptAgent_ValidateScript_Integer_p_0
+description: NSCRMScriptAgent.ValidateScript(Integer p_0)
+intellisense: NSCRMScriptAgent.ValidateScript
 sortOrder: 2117
 keywords: ValidateScript(Integer)
+so.topic: reference
 ---
 
 

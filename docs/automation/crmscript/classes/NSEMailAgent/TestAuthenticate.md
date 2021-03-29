@@ -1,10 +1,10 @@
 ---
-title: Bool TestAuthenticate()
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool TestAuthenticate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_TestAuthenticate
+description: NSEMailAgent.TestAuthenticate()
+intellisense: NSEMailAgent.TestAuthenticate
 sortOrder: 2787
 keywords: TestAuthenticate()
+so.topic: reference
 ---
 
 

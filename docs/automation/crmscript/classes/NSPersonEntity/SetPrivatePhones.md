@@ -1,9 +1,9 @@
 ---
-title: Void SetPrivatePhones(NSEntityElement[] PrivatePhones)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetPrivatePhones(NSEntityElement[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetPrivatePhones_NSEntityElement__p_0
+description: NSPersonEntity.SetPrivatePhones(NSEntityElement[] p_0)
+intellisense: NSPersonEntity.SetPrivatePhones
 keywords: SetPrivatePhones(NSEntityElement[])
+so.topic: reference
 ---
 
 

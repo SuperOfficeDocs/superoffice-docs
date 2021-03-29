@@ -1,10 +1,10 @@
 ---
-title: DateTime GetRegistered()
-path: /EJScript/Classes/NSFormEntity/Member functions/DateTime GetRegistered()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetRegistered
+description: NSFormEntity.GetRegistered()
+intellisense: NSFormEntity.GetRegistered
 sortOrder: 3787
 keywords: GetRegistered()
+so.topic: reference
 ---
 
 

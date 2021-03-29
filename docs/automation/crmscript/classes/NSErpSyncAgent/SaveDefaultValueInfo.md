@@ -1,10 +1,10 @@
 ---
-title: NSErpSyncDefaultValue SaveDefaultValueInfo(NSErpSyncDefaultValue erpSyncDefaultValue)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpSyncDefaultValue SaveDefaultValueInfo(NSErpSyncDefaultValue p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_SaveDefaultValueInfo_NSErpSyncDefaultValue_p_0
+description: NSErpSyncAgent.SaveDefaultValueInfo(NSErpSyncDefaultValue p_0)
+intellisense: NSErpSyncAgent.SaveDefaultValueInfo
 sortOrder: 3204
 keywords: SaveDefaultValueInfo(NSErpSyncDefaultValue)
+so.topic: reference
 ---
 
 

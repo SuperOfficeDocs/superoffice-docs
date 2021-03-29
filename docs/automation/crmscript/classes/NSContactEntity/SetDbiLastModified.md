@@ -1,10 +1,10 @@
 ---
-title: Void SetDbiLastModified(DateTime DbiLastModified)
-path: /EJScript/Classes/NSContactEntity/Member functions/Void SetDbiLastModified(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_SetDbiLastModified_DateTime_p_0
+description: NSContactEntity.SetDbiLastModified(DateTime p_0)
+intellisense: NSContactEntity.SetDbiLastModified
 sortOrder: 1891
 keywords: SetDbiLastModified(DateTime)
+so.topic: reference
 ---
 
 

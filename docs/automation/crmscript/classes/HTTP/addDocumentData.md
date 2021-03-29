@@ -1,10 +1,10 @@
 ---
-title: Bool addDocumentData(Integer p_documentId)
-path: /EJScript/Classes/HTTP/Member functions/Void addDocumentData(Integer p_documentId)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_addDocumentData_Integer_p_documentId
+description: HTTP.addDocumentData(Integer p_documentId)
+intellisense: HTTP.addDocumentData
 sortOrder: 418
 keywords: addDocumentData(Integer p_documentId)
+so.topic: reference
 ---
 
 This function will add the binary data in the document specified to the body of the request. Must be used together with POST, PUT or PATCH.

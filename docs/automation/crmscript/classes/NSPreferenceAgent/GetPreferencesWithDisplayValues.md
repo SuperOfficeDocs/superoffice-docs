@@ -1,9 +1,9 @@
 ---
-title: NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] specifications)
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/NSPreference[] GetPreferencesWithDisplayValues(NSPreferenceSpec[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetPreferencesWithDisplayValues_NSPreferenceSpec__p_0
+description: NSPreferenceAgent.GetPreferencesWithDisplayValues(NSPreferenceSpec[] p_0)
+intellisense: NSPreferenceAgent.GetPreferencesWithDisplayValues
 keywords: GetPreferencesWithDisplayValues(NSPreferenceSpec[])
+so.topic: reference
 ---
 
 Get one or more preferences based on a set of specifications\<br/>The PrefDisplayValue and PrefDisplaytooltip are populated, at some additional processing cost.

@@ -1,9 +1,9 @@
 ---
-title: String GetStatus()
-path: /EJScript/Classes/NSProject/Member functions/String GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_GetStatus
+description: NSProject.GetStatus()
+intellisense: NSProject.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

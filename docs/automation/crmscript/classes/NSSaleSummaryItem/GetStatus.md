@@ -1,9 +1,9 @@
 ---
-title: Integer GetStatus()
-path: /EJScript/Classes/NSSaleSummaryItem/Member functions/Integer GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummaryItem_GetStatus
+description: NSSaleSummaryItem.GetStatus()
+intellisense: NSSaleSummaryItem.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetValue(String value)
-path: /EJScript/Classes/NSPaymentTerm/Member functions/Void SetValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPaymentTerm_SetValue_String_p_0
+description: NSPaymentTerm.SetValue(String p_0)
+intellisense: NSPaymentTerm.SetValue
 keywords: SetValue(String)
+so.topic: reference
 ---
 
 

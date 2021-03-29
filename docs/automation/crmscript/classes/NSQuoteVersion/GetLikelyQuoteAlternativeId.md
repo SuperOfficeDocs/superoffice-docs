@@ -1,9 +1,9 @@
 ---
-title: Integer GetLikelyQuoteAlternativeId()
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Integer GetLikelyQuoteAlternativeId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_GetLikelyQuoteAlternativeId
+description: NSQuoteVersion.GetLikelyQuoteAlternativeId()
+intellisense: NSQuoteVersion.GetLikelyQuoteAlternativeId
 keywords: GetLikelyQuoteAlternativeId()
+so.topic: reference
 ---
 
 

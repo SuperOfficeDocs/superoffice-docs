@@ -1,10 +1,10 @@
 ---
-title: Void EnumInput(Integer enumArgument)
-path: /EJScript/Classes/NSAAAMockAgent/Member functions/Void EnumInput(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAAMockAgent_EnumInput_Integer_p_0
+description: NSAAAMockAgent.EnumInput(Integer p_0)
+intellisense: NSAAAMockAgent.EnumInput
 sortOrder: 8909
 keywords: EnumInput(Integer)
+so.topic: reference
 ---
 
 

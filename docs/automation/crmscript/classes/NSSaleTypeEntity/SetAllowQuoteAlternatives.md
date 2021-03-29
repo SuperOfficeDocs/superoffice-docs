@@ -1,9 +1,9 @@
 ---
-title: Void SetAllowQuoteAlternatives(Bool AllowQuoteAlternatives)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetAllowQuoteAlternatives(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetAllowQuoteAlternatives_Bool_p_0
+description: NSSaleTypeEntity.SetAllowQuoteAlternatives(Bool p_0)
+intellisense: NSSaleTypeEntity.SetAllowQuoteAlternatives
 keywords: SetAllowQuoteAlternatives(Bool)
+so.topic: reference
 ---
 
 

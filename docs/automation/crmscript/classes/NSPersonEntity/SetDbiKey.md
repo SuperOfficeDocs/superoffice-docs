@@ -1,9 +1,9 @@
 ---
-title: Void SetDbiKey(String DbiKey)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetDbiKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetDbiKey_String_p_0
+description: NSPersonEntity.SetDbiKey(String p_0)
+intellisense: NSPersonEntity.SetDbiKey
 keywords: SetDbiKey(String)
+so.topic: reference
 ---
 
 

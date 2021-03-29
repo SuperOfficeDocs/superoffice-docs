@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultOref(String DefaultOref)
-path: /EJScript/Classes/NSDocumentTemplate/Member functions/Void SetDefaultOref(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplate_SetDefaultOref_String_p_0
+description: NSDocumentTemplate.SetDefaultOref(String p_0)
+intellisense: NSDocumentTemplate.SetDefaultOref
 sortOrder: 2635
 keywords: SetDefaultOref(String)
+so.topic: reference
 ---
 
 

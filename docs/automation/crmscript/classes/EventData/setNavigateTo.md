@@ -1,10 +1,10 @@
 ---
-title: Void setNavigateTo(String navigateTo)
-path: /EJScript/Classes/EventData/member functions/Void setNavigateTo(String navigateTo)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_setNavigateTo_String_navigateTo
+description: EventData.setNavigateTo(String navigateTo)
+intellisense: EventData.setNavigateTo
 sortOrder: 297
 keywords: setNavigateTo(String)
+so.topic: reference
 ---
 
 # Void setNavigateTo(String url)

@@ -1,10 +1,10 @@
 ---
-title: Void SetChosenColumns(String guiName, String providerName, String[] chosenColumns)
-path: /EJScript/Classes/NSArchiveAgent/Member functions/Void SetChosenColumns(String p_0, String p_1, String[] p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveAgent_SetChosenColumns_String_p_0_String_p_1_String__p_2
+description: NSArchiveAgent.SetChosenColumns(String p_0, String p_1, String[] p_2)
+intellisense: NSArchiveAgent.SetChosenColumns
 sortOrder: 1121
 keywords: SetChosenColumns(String,String,String[])
+so.topic: reference
 ---
 
 

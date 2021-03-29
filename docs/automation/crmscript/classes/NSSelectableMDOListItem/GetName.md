@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSSelectableMDOListItem/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectableMDOListItem_GetName
+description: NSSelectableMDOListItem.GetName()
+intellisense: NSSelectableMDOListItem.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

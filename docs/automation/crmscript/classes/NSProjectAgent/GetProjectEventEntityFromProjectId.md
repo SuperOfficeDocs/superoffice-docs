@@ -1,9 +1,9 @@
 ---
-title: NSProjectEventEntity GetProjectEventEntityFromProjectId(Integer projectId)
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEventEntity GetProjectEventEntityFromProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetProjectEventEntityFromProjectId_Integer_p_0
+description: NSProjectAgent.GetProjectEventEntityFromProjectId(Integer p_0)
+intellisense: NSProjectAgent.GetProjectEventEntityFromProjectId
 keywords: GetProjectEventEntityFromProjectId(Integer)
+so.topic: reference
 ---
 
 

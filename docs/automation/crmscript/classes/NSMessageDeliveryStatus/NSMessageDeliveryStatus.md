@@ -1,8 +1,8 @@
 ---
-title: NSMessageDeliveryStatus
-path: /EJScript/Classes/NSMessageDeliveryStatus
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessageDeliveryStatus
+description: NSMessageDeliveryStatus
+intellisense: Void.NSMessageDeliveryStatus
+so.topic: reference
 ---
 
 

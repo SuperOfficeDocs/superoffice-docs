@@ -1,9 +1,9 @@
 ---
-title: Void SetShipmentTypes(NSSelectableMDOListItem[] ShipmentTypes)
-path: /EJScript/Classes/NSPersonEntity/Member functions/Void SetShipmentTypes(NSSelectableMDOListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_SetShipmentTypes_NSSelectableMDOListItem__p_0
+description: NSPersonEntity.SetShipmentTypes(NSSelectableMDOListItem[] p_0)
+intellisense: NSPersonEntity.SetShipmentTypes
 keywords: SetShipmentTypes(NSSelectableMDOListItem[])
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoDate
-path: /EJScript/Classes/NSFieldInfoDate
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoDate
+description: NSFieldInfoDate
+intellisense: Void.NSFieldInfoDate
 sortOrder: 3491
+so.topic: reference
 ---
 
 

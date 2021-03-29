@@ -1,10 +1,10 @@
 ---
-title: Void SetSaleName(String SaleName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetSaleName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetSaleName_String_p_0
+description: NSAlarmData.SetSaleName(String p_0)
+intellisense: NSAlarmData.SetSaleName
 sortOrder: 690
 keywords: SetSaleName(String)
+so.topic: reference
 ---
 
 

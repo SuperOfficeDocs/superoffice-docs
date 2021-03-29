@@ -1,9 +1,9 @@
 ---
-title: Bool GetCompanyUnique()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Bool GetCompanyUnique()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetCompanyUnique
+description: NSSelectionEntity.GetCompanyUnique()
+intellisense: NSSelectionEntity.GetCompanyUnique
 keywords: GetCompanyUnique()
+so.topic: reference
 ---
 
 

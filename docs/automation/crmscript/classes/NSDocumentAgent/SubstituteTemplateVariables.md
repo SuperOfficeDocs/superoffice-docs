@@ -1,10 +1,10 @@
 ---
-title: String SubstituteTemplateVariables(String source, Integer generatorEncoding, Integer contactId, Integer personId, Integer appointmentId, Integer documentId, Integer saleId, Integer selectionId, Integer projectId, String cultureName)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/String SubstituteTemplateVariables(String p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, Integer p_7, Integer p_8, String p_9)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_SubstituteTemplateVariables_String_p_0_Integer_p_1_Integer_p_2_Integer_p_3_Integer_p_4_Integer_p_5_Integer_p_6_Integer_p_7_Integer_p_8_String_p_9
+description: NSDocumentAgent.SubstituteTemplateVariables(String p_0, Integer p_1, Integer p_2, Integer p_3, Integer p_4, Integer p_5, Integer p_6, Integer p_7, Integer p_8, String p_9)
+intellisense: NSDocumentAgent.SubstituteTemplateVariables
 sortOrder: 2536
 keywords: SubstituteTemplateVariables(String,Integer,Integer,Integer,Integer,Integer,Integer,Integer,Integer,String)
+so.topic: reference
 ---
 
 

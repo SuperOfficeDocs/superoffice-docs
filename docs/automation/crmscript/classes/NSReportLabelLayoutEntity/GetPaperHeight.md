@@ -1,9 +1,9 @@
 ---
-title: Integer GetPaperHeight()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetPaperHeight()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetPaperHeight
+description: NSReportLabelLayoutEntity.GetPaperHeight()
+intellisense: NSReportLabelLayoutEntity.GetPaperHeight
 keywords: GetPaperHeight()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetKey(NSDSAParameters Key)
-path: /EJScript/Classes/NSSignedPublicKey/Member functions/Void SetKey(NSDSAParameters p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSignedPublicKey_SetKey_NSDSAParameters_p_0
+description: NSSignedPublicKey.SetKey(NSDSAParameters p_0)
+intellisense: NSSignedPublicKey.SetKey
 keywords: SetKey(NSDSAParameters)
+so.topic: reference
 ---
 
 

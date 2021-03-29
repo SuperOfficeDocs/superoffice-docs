@@ -1,9 +1,9 @@
 ---
-title: Void SetUserName(String UserName)
-path: /EJScript/Classes/NSUser/Member functions/Void SetUserName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_SetUserName_String_p_0
+description: NSUser.SetUserName(String p_0)
+intellisense: NSUser.SetUserName
 keywords: SetUserName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSChatAgent
-path: /EJScript/Classes/NSChatAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatAgent
+description: NSChatAgent
+intellisense: Void.NSChatAgent
 sortOrder: 1512
+so.topic: reference
 ---
 
 

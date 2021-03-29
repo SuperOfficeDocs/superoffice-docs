@@ -1,10 +1,10 @@
 ---
-title: String GetConfig()
-path: /EJScript/Classes/NSCustomerCenterConfig/Member functions/String GetConfig()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerCenterConfig_GetConfig
+description: NSCustomerCenterConfig.GetConfig()
+intellisense: NSCustomerCenterConfig.GetConfig
 sortOrder: 2202
 keywords: GetConfig()
+so.topic: reference
 ---
 
 

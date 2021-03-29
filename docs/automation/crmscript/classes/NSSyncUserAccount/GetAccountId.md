@@ -1,9 +1,9 @@
 ---
-title: Integer GetAccountId()
-path: /EJScript/Classes/NSSyncUserAccount/Member functions/Integer GetAccountId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSyncUserAccount_GetAccountId
+description: NSSyncUserAccount.GetAccountId()
+intellisense: NSSyncUserAccount.GetAccountId
 keywords: GetAccountId()
+so.topic: reference
 ---
 
 

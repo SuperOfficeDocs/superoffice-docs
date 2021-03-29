@@ -1,9 +1,9 @@
 ---
-title: NSProjectType GetProjectType()
-path: /EJScript/Classes/NSProjectEntity/Member functions/NSProjectType GetProjectType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_GetProjectType
+description: NSProjectEntity.GetProjectType()
+intellisense: NSProjectEntity.GetProjectType
 keywords: GetProjectType()
+so.topic: reference
 ---
 
 

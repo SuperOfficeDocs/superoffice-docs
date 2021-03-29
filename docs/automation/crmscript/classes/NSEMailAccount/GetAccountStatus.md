@@ -1,10 +1,10 @@
 ---
-title: Integer GetAccountStatus()
-path: /EJScript/Classes/NSEMailAccount/Member functions/Integer GetAccountStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAccount_GetAccountStatus
+description: NSEMailAccount.GetAccountStatus()
+intellisense: NSEMailAccount.GetAccountStatus
 sortOrder: 2744
 keywords: GetAccountStatus()
+so.topic: reference
 ---
 
 The account status (Disabled or...) Readonly field

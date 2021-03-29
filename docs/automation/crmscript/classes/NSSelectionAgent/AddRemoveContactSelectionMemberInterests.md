@@ -1,9 +1,9 @@
 ---
-title: Void AddRemoveContactSelectionMemberInterests(Integer selectionId, Integer[] addCompanyInterests, Integer[] removeCompanyInterests, Integer[] addContactInterests, Integer[] removeContactInterests)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Void AddRemoveContactSelectionMemberInterests(Integer p_0, Integer[] p_1, Integer[] p_2, Integer[] p_3, Integer[] p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_AddRemoveContactSelectionMemberInterests_Integer_p_0_Integer__p_1_Integer__p_2_Integer__p_3_Integer__p_4
+description: NSSelectionAgent.AddRemoveContactSelectionMemberInterests(Integer p_0, Integer[] p_1, Integer[] p_2, Integer[] p_3, Integer[] p_4)
+intellisense: NSSelectionAgent.AddRemoveContactSelectionMemberInterests
 keywords: AddRemoveContactSelectionMemberInterests(Integer,Integer[],Integer[],Integer[],Integer[])
+so.topic: reference
 ---
 
 

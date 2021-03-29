@@ -1,9 +1,9 @@
 ---
-title: Void SetDisplayValue(String DisplayValue)
-path: /EJScript/Classes/NSQuoteListItem/Member functions/Void SetDisplayValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteListItem_SetDisplayValue_String_p_0
+description: NSQuoteListItem.SetDisplayValue(String p_0)
+intellisense: NSQuoteListItem.SetDisplayValue
 keywords: SetDisplayValue(String)
+so.topic: reference
 ---
 
 

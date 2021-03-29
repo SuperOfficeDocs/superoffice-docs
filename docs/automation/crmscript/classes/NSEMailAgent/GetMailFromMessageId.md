@@ -1,10 +1,10 @@
 ---
-title: NSEMailEntity GetMailFromMessageId(String messageId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailEntity GetMailFromMessageId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetMailFromMessageId_String_p_0
+description: NSEMailAgent.GetMailFromMessageId(String p_0)
+intellisense: NSEMailAgent.GetMailFromMessageId
 sortOrder: 2825
 keywords: GetMailFromMessageId(String)
+so.topic: reference
 ---
 
 

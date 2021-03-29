@@ -1,9 +1,9 @@
 ---
-title: NSUser GetUserFromName(String userName)
-path: /EJScript/Classes/NSUserAgent/Member functions/NSUser GetUserFromName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GetUserFromName_String_p_0
+description: NSUserAgent.GetUserFromName(String p_0)
+intellisense: NSUserAgent.GetUserFromName
 keywords: GetUserFromName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetSignOffPersonId()
-path: /EJScript/Classes/NSProjectEvent/Member functions/Integer GetSignOffPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEvent_GetSignOffPersonId
+description: NSProjectEvent.GetSignOffPersonId()
+intellisense: NSProjectEvent.GetSignOffPersonId
 keywords: GetSignOffPersonId()
+so.topic: reference
 ---
 
 

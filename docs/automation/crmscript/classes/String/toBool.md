@@ -1,9 +1,9 @@
 ---
-title: Bool toBool()
-path: /EJScript/Classes/String/Member functions/Bool toBool()
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_toBool
+description: String.toBool()
+intellisense: String.toBool
 keywords: toBool()
+so.topic: reference
 ---
 
 

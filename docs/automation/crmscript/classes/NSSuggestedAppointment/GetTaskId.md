@@ -1,9 +1,9 @@
 ---
-title: Integer GetTaskId()
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Integer GetTaskId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_GetTaskId
+description: NSSuggestedAppointment.GetTaskId()
+intellisense: NSSuggestedAppointment.GetTaskId
 keywords: GetTaskId()
+so.topic: reference
 ---
 
 

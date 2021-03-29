@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayName()
-path: /EJScript/Classes/NSChatPresence/Member functions/String GetDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChatPresence_GetDisplayName
+description: NSChatPresence.GetDisplayName()
+intellisense: NSChatPresence.GetDisplayName
 sortOrder: 1523
 keywords: GetDisplayName()
+so.topic: reference
 ---
 
 

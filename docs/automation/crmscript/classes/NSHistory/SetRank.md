@@ -1,10 +1,10 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSHistory/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSHistory_SetRank_Integer_p_0
+description: NSHistory.SetRank(Integer p_0)
+intellisense: NSHistory.SetRank
 sortOrder: 3939
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

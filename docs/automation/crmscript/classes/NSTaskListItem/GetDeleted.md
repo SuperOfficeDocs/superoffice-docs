@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetDeleted
+description: NSTaskListItem.GetDeleted()
+intellisense: NSTaskListItem.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

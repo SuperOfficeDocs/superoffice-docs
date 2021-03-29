@@ -1,9 +1,9 @@
 ---
-title: Void SetSelectionUnionType(Integer SelectionUnionType)
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Void SetSelectionUnionType(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_SetSelectionUnionType_Integer_p_0
+description: NSSelectionEntity.SetSelectionUnionType(Integer p_0)
+intellisense: NSSelectionEntity.SetSelectionUnionType
 keywords: SetSelectionUnionType(Integer)
+so.topic: reference
 ---
 
 

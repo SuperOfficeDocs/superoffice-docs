@@ -1,9 +1,9 @@
 ---
-title: NSConsentInfo[] GetConsents()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSConsentInfo[] GetConsents()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetConsents
+description: NSPersonEntity.GetConsents()
+intellisense: NSPersonEntity.GetConsents
 keywords: GetConsents()
+so.topic: reference
 ---
 
 

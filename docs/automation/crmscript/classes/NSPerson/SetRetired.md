@@ -1,9 +1,9 @@
 ---
-title: Void SetRetired(Integer Retired)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetRetired(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetRetired_Integer_p_0
+description: NSPerson.SetRetired(Integer p_0)
+intellisense: NSPerson.SetRetired
 keywords: SetRetired(Integer)
+so.topic: reference
 ---
 
 

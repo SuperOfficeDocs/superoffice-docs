@@ -1,9 +1,9 @@
 ---
-title: Integer GetFieldWidth()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetFieldWidth()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetFieldWidth
+description: NSUserDefinedFieldInfo.GetFieldWidth()
+intellisense: NSUserDefinedFieldInfo.GetFieldWidth
 keywords: GetFieldWidth()
+so.topic: reference
 ---
 
 

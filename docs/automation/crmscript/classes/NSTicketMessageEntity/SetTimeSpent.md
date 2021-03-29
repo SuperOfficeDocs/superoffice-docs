@@ -1,9 +1,9 @@
 ---
-title: Void SetTimeSpent(Integer TimeSpent)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetTimeSpent(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetTimeSpent_Integer_p_0
+description: NSTicketMessageEntity.SetTimeSpent(Integer p_0)
+intellisense: NSTicketMessageEntity.SetTimeSpent
 keywords: SetTimeSpent(Integer)
+so.topic: reference
 ---
 
 

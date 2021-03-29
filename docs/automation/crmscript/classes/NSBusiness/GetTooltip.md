@@ -1,10 +1,10 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSBusiness/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBusiness_GetTooltip
+description: NSBusiness.GetTooltip()
+intellisense: NSBusiness.GetTooltip
 sortOrder: 1479
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetDisplayType()
-path: /EJScript/Classes/NSPreference/Member functions/Integer GetDisplayType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreference_GetDisplayType
+description: NSPreference.GetDisplayType()
+intellisense: NSPreference.GetDisplayType
 keywords: GetDisplayType()
+so.topic: reference
 ---
 
 

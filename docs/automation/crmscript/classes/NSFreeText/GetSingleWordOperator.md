@@ -1,10 +1,10 @@
 ---
-title: Integer GetSingleWordOperator()
-path: /EJScript/Classes/NSFreeText/Member functions/Integer GetSingleWordOperator()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeText_GetSingleWordOperator
+description: NSFreeText.GetSingleWordOperator()
+intellisense: NSFreeText.GetSingleWordOperator
 sortOrder: 3858
 keywords: GetSingleWordOperator()
+so.topic: reference
 ---
 
 

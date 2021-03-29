@@ -1,10 +1,10 @@
 ---
-title: Void SetProtocol(String Protocol)
-path: /EJScript/Classes/NSEMailConnectionInfoExtended/Member functions/Void SetProtocol(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailConnectionInfoExtended_SetProtocol_String_p_0
+description: NSEMailConnectionInfoExtended.SetProtocol(String p_0)
+intellisense: NSEMailConnectionInfoExtended.SetProtocol
 sortOrder: 2932
 keywords: SetProtocol(String)
+so.topic: reference
 ---
 
 

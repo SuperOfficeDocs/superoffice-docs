@@ -1,9 +1,9 @@
 ---
-title: Integer GetCountColumns()
-path: /EJScript/Classes/NSReportLabelLayoutEntity/Member functions/Integer GetCountColumns()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportLabelLayoutEntity_GetCountColumns
+description: NSReportLabelLayoutEntity.GetCountColumns()
+intellisense: NSReportLabelLayoutEntity.GetCountColumns
 keywords: GetCountColumns()
+so.topic: reference
 ---
 
 

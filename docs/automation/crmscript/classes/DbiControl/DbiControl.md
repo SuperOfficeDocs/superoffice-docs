@@ -1,9 +1,9 @@
 ---
-title: DbiControl
-path: /EJScript/Classes/DbiControl
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbiControl
+description: DbiControl
+intellisense: Void.DbiControl
 sortOrder: 251
+so.topic: reference
 ---
 
 

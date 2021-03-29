@@ -1,9 +1,9 @@
 ---
-title: NSTicketCategoryDelegateMethod GetDelegateMethod()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/NSTicketCategoryDelegateMethod GetDelegateMethod()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetDelegateMethod
+description: NSTicketCategoryEntity.GetDelegateMethod()
+intellisense: NSTicketCategoryEntity.GetDelegateMethod
 keywords: GetDelegateMethod()
+so.topic: reference
 ---
 
 

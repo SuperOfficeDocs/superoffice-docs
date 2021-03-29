@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectMembers(NSProjectMember[] ProjectMembers)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetProjectMembers(NSProjectMember[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetProjectMembers_NSProjectMember__p_0
+description: NSProjectEntity.SetProjectMembers(NSProjectMember[] p_0)
+intellisense: NSProjectEntity.SetProjectMembers
 keywords: SetProjectMembers(NSProjectMember[])
+so.topic: reference
 ---
 
 

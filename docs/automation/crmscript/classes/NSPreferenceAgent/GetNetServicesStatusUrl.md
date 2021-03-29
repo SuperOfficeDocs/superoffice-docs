@@ -1,9 +1,9 @@
 ---
-title: String GetNetServicesStatusUrl()
-path: /EJScript/Classes/NSPreferenceAgent/Member functions/String GetNetServicesStatusUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPreferenceAgent_GetNetServicesStatusUrl
+description: NSPreferenceAgent.GetNetServicesStatusUrl()
+intellisense: NSPreferenceAgent.GetNetServicesStatusUrl
 keywords: GetNetServicesStatusUrl()
+so.topic: reference
 ---
 
 

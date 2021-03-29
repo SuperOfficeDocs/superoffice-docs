@@ -1,9 +1,9 @@
 ---
-title: Void SetCulture(String Culture)
-path: /EJScript/Classes/NSResourceOverride/Member functions/Void SetCulture(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_SetCulture_String_p_0
+description: NSResourceOverride.SetCulture(String p_0)
+intellisense: NSResourceOverride.SetCulture
 keywords: SetCulture(String)
+so.topic: reference
 ---
 
 

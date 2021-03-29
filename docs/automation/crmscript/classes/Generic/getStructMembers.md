@@ -1,10 +1,11 @@
 ---
-title: String[] getStructMembers(String name)
-path: /EJScript/Classes/Generic/Member functions/String[] getStructMembers(String name)
-intellisense: 1
+title: crmscript_ref_Generic_getStructMembers_String_name
+description: Generic.getStructMembers(String name)
+intellisense: Generic.getStructMembers
 langref: 1
 sortOrder: 145
 keywords: getStructMembers(String)
+so.topic: reference
 ---
 
 

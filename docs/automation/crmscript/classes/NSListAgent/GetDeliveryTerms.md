@@ -1,9 +1,9 @@
 ---
-title: NSDeliveryTerm[] GetDeliveryTerms()
-path: /EJScript/Classes/NSListAgent/Member functions/NSDeliveryTerm[] GetDeliveryTerms()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetDeliveryTerms
+description: NSListAgent.GetDeliveryTerms()
+intellisense: NSListAgent.GetDeliveryTerms
 keywords: GetDeliveryTerms()
+so.topic: reference
 ---
 
 

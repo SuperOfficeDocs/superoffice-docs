@@ -1,9 +1,9 @@
 ---
-title: NSLink[] GetLinks()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSLink[] GetLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetLinks
+description: NSSaleEntity.GetLinks()
+intellisense: NSSaleEntity.GetLinks
 keywords: GetLinks()
+so.topic: reference
 ---
 
 

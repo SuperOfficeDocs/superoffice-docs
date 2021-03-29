@@ -1,9 +1,9 @@
 ---
-title: String GetExtraData()
-path: /EJScript/Classes/NSQuoteConnection/Member functions/String GetExtraData()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_GetExtraData
+description: NSQuoteConnection.GetExtraData()
+intellisense: NSQuoteConnection.GetExtraData
 keywords: GetExtraData()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFirstSyncDefaultValue(String FirstSyncDefaultValue)
-path: /EJScript/Classes/NSErpSyncDefaultValue/Member functions/Void SetFirstSyncDefaultValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncDefaultValue_SetFirstSyncDefaultValue_String_p_0
+description: NSErpSyncDefaultValue.SetFirstSyncDefaultValue(String p_0)
+intellisense: NSErpSyncDefaultValue.SetFirstSyncDefaultValue
 sortOrder: 3270
 keywords: SetFirstSyncDefaultValue(String)
+so.topic: reference
 ---
 
 

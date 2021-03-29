@@ -1,10 +1,10 @@
 ---
-title: Integer GetActiveErpLinks()
-path: /EJScript/Classes/NSContact/Member functions/Integer GetActiveErpLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_GetActiveErpLinks
+description: NSContact.GetActiveErpLinks()
+intellisense: NSContact.GetActiveErpLinks
 sortOrder: 1719
 keywords: GetActiveErpLinks()
+so.topic: reference
 ---
 
 

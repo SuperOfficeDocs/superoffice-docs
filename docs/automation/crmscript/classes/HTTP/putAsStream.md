@@ -1,10 +1,10 @@
 ---
-title: NSStream putAsStream(String p0)
-path: /EJScript/Classes/HTTP/Member functions/NSStream putAsStream(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_putAsStream_String_p_0
+description: HTTP.putAsStream(String p_0)
+intellisense: HTTP.putAsStream
 sortOrder: 410
 keywords: putAsStream(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a NSStream.

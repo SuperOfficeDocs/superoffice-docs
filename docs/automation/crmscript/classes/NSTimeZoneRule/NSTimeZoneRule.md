@@ -1,8 +1,8 @@
 ---
-title: NSTimeZoneRule
-path: /EJScript/Classes/NSTimeZoneRule
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule
+description: NSTimeZoneRule
+intellisense: Void.NSTimeZoneRule
+so.topic: reference
 ---
 
 

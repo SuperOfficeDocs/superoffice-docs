@@ -1,10 +1,10 @@
 ---
-title: Void SetLCID(Integer LCID)
-path: /EJScript/Classes/NSLanguageInfo/Member functions/Void SetLCID(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLanguageInfo_SetLCID_Integer_p_0
+description: NSLanguageInfo.SetLCID(Integer p_0)
+intellisense: NSLanguageInfo.SetLCID
 sortOrder: 4010
 keywords: SetLCID(Integer)
+so.topic: reference
 ---
 
 

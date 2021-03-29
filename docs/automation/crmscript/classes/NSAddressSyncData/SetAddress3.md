@@ -1,10 +1,10 @@
 ---
-title: Void SetAddress3(String Address3)
-path: /EJScript/Classes/NSAddressSyncData/Member functions/Void SetAddress3(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_SetAddress3_String_p_0
+description: NSAddressSyncData.SetAddress3(String p_0)
+intellisense: NSAddressSyncData.SetAddress3
 sortOrder: 631
 keywords: SetAddress3(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSPerson[] GetPersons()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSPerson[] GetPersons()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetPersons
+description: NSContactEntity.GetPersons()
+intellisense: NSContactEntity.GetPersons
 sortOrder: 1864
 keywords: GetPersons()
+so.topic: reference
 ---
 
 

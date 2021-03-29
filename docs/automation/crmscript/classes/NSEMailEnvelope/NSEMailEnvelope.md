@@ -1,9 +1,9 @@
 ---
-title: NSEMailEnvelope
-path: /EJScript/Classes/NSEMailEnvelope
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope
+description: NSEMailEnvelope
+intellisense: Void.NSEMailEnvelope
 sortOrder: 3000
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetVisibleFor(NSVisibleFor VisibleFor)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetVisibleFor(NSVisibleFor p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetVisibleFor_NSVisibleFor_p_0
+description: NSMailMergeTask.SetVisibleFor(NSVisibleFor p_0)
+intellisense: NSMailMergeTask.SetVisibleFor
 keywords: SetVisibleFor(NSVisibleFor)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSProduct/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_SetUrl_String_p_0
+description: NSProduct.SetUrl(String p_0)
+intellisense: NSProduct.SetUrl
 keywords: SetUrl(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetStatus(NSTicketPriorityStatus Status)
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/Void SetStatus(NSTicketPriorityStatus p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_SetStatus_NSTicketPriorityStatus_p_0
+description: NSTicketPriorityEntity.SetStatus(NSTicketPriorityStatus p_0)
+intellisense: NSTicketPriorityEntity.SetStatus
 keywords: SetStatus(NSTicketPriorityStatus)
+so.topic: reference
 ---
 
 

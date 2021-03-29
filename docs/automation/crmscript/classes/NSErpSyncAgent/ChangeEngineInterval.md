@@ -1,10 +1,10 @@
 ---
-title: Void ChangeEngineInterval(TimeSpan interval)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Void ChangeEngineInterval(TimeSpan p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_ChangeEngineInterval_TimeSpan_p_0
+description: NSErpSyncAgent.ChangeEngineInterval(TimeSpan p_0)
+intellisense: NSErpSyncAgent.ChangeEngineInterval
 sortOrder: 3218
 keywords: ChangeEngineInterval(TimeSpan)
+so.topic: reference
 ---
 
 

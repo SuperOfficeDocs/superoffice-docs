@@ -1,9 +1,9 @@
 ---
-title: Integer GetReldefId()
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Integer GetReldefId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_GetReldefId
+description: NSRelationDefinitionEntity.GetReldefId()
+intellisense: NSRelationDefinitionEntity.GetReldefId
 keywords: GetReldefId()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetNsPluginSender()
-path: /EJScript/Classes/NSSmsConfig/Member functions/String GetNsPluginSender()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSmsConfig_GetNsPluginSender
+description: NSSmsConfig.GetNsPluginSender()
+intellisense: NSSmsConfig.GetNsPluginSender
 keywords: GetNsPluginSender()
+so.topic: reference
 ---
 
 

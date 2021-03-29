@@ -1,9 +1,9 @@
 ---
-title: NSExtAppEntity
-path: /EJScript/Classes/NSExtAppEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity
+description: NSExtAppEntity
+intellisense: Void.NSExtAppEntity
 sortOrder: 3355
+so.topic: reference
 ---
 
 

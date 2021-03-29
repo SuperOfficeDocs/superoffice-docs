@@ -1,9 +1,9 @@
 ---
-title: NSProjectStatus[] GetProjectStatusList(Integer[] p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSProjectStatus[] GetProjectStatusList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProjectStatusList_Integer__p_0
+description: NSListAgent.GetProjectStatusList(Integer[] p_0)
+intellisense: NSListAgent.GetProjectStatusList
 keywords: GetProjectStatusList(Integer[])
+so.topic: reference
 ---
 
 Gets an array of ProjectStatus objects.

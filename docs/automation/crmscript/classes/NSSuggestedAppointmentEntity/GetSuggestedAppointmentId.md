@@ -1,9 +1,9 @@
 ---
-title: Integer GetSuggestedAppointmentId()
-path: /EJScript/Classes/NSSuggestedAppointmentEntity/Member functions/Integer GetSuggestedAppointmentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointmentEntity_GetSuggestedAppointmentId
+description: NSSuggestedAppointmentEntity.GetSuggestedAppointmentId()
+intellisense: NSSuggestedAppointmentEntity.GetSuggestedAppointmentId
 keywords: GetSuggestedAppointmentId()
+so.topic: reference
 ---
 
 

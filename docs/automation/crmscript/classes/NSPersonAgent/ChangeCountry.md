@@ -1,9 +1,9 @@
 ---
-title: NSPersonEntity ChangeCountry(NSPersonEntity personEntity, Integer toCountryId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity ChangeCountry(NSPersonEntity p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_ChangeCountry_NSPersonEntity_p_0_Integer_p_1
+description: NSPersonAgent.ChangeCountry(NSPersonEntity p_0, Integer p_1)
+intellisense: NSPersonAgent.ChangeCountry
 keywords: ChangeCountry(NSPersonEntity,Integer)
+so.topic: reference
 ---
 
 

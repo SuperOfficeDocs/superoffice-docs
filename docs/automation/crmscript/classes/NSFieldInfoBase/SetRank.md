@@ -1,10 +1,10 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_SetRank_Integer_p_0
+description: NSFieldInfoBase.SetRank(Integer p_0)
+intellisense: NSFieldInfoBase.SetRank
 sortOrder: 3484
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

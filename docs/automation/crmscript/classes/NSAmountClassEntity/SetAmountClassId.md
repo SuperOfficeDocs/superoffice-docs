@@ -1,10 +1,10 @@
 ---
-title: Void SetAmountClassId(Integer AmountClassId)
-path: /EJScript/Classes/NSAmountClassEntity/Member functions/Void SetAmountClassId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAmountClassEntity_SetAmountClassId_Integer_p_0
+description: NSAmountClassEntity.SetAmountClassId(Integer p_0)
+intellisense: NSAmountClassEntity.SetAmountClassId
 sortOrder: 703
 keywords: SetAmountClassId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetRestrictionType()
-path: /EJScript/Classes/NSArchiveColumnInfo/Member functions/String GetRestrictionType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnInfo_GetRestrictionType
+description: NSArchiveColumnInfo.GetRestrictionType()
+intellisense: NSArchiveColumnInfo.GetRestrictionType
 sortOrder: 1147
 keywords: GetRestrictionType()
+so.topic: reference
 ---
 
 

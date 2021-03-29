@@ -1,9 +1,9 @@
 ---
-title: String GetERPQuoteListItemKey()
-path: /EJScript/Classes/NSQuoteListItem/Member functions/String GetERPQuoteListItemKey()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteListItem_GetERPQuoteListItemKey
+description: NSQuoteListItem.GetERPQuoteListItemKey()
+intellisense: NSQuoteListItem.GetERPQuoteListItemKey
 keywords: GetERPQuoteListItemKey()
+so.topic: reference
 ---
 
 

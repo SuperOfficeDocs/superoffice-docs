@@ -1,9 +1,9 @@
 ---
-title: Void SetKanalname(String Kanalname)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetKanalname(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetKanalname_String_p_0
+description: NSPerson.SetKanalname(String p_0)
+intellisense: NSPerson.SetKanalname
 keywords: SetKanalname(String)
+so.topic: reference
 ---
 
 

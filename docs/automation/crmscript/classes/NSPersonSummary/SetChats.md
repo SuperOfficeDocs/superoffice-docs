@@ -1,9 +1,9 @@
 ---
-title: Void SetChats(NSChatSummaryItem[] Chats)
-path: /EJScript/Classes/NSPersonSummary/Member functions/Void SetChats(NSChatSummaryItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_SetChats_NSChatSummaryItem__p_0
+description: NSPersonSummary.SetChats(NSChatSummaryItem[] p_0)
+intellisense: NSPersonSummary.SetChats
 keywords: SetChats(NSChatSummaryItem[])
+so.topic: reference
 ---
 
 

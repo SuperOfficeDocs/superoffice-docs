@@ -1,9 +1,9 @@
 ---
-title: NSPerson[] GetColleaguesByDepartment(Integer departmentId)
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPerson[] GetColleaguesByDepartment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_GetColleaguesByDepartment_Integer_p_0
+description: NSPersonAgent.GetColleaguesByDepartment(Integer p_0)
+intellisense: NSPersonAgent.GetColleaguesByDepartment
 keywords: GetColleaguesByDepartment(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetSearchDepartment(Bool SearchDepartment)
-path: /EJScript/Classes/NSPhoneListPreferences/Member functions/Void SetSearchDepartment(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListPreferences_SetSearchDepartment_Bool_p_0
+description: NSPhoneListPreferences.SetSearchDepartment(Bool p_0)
+intellisense: NSPhoneListPreferences.SetSearchDepartment
 keywords: SetSearchDepartment(Bool)
+so.topic: reference
 ---
 
 

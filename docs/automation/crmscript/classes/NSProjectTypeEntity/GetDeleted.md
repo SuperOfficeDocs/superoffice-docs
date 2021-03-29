@@ -1,9 +1,9 @@
 ---
-title: Bool GetDeleted()
-path: /EJScript/Classes/NSProjectTypeEntity/Member functions/Bool GetDeleted()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectTypeEntity_GetDeleted
+description: NSProjectTypeEntity.GetDeleted()
+intellisense: NSProjectTypeEntity.GetDeleted
 keywords: GetDeleted()
+so.topic: reference
 ---
 
 

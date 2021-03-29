@@ -1,9 +1,9 @@
 ---
-title: Void SetTitle(String Title)
-path: /EJScript/Classes/NSPerson/Member functions/Void SetTitle(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPerson_SetTitle_String_p_0
+description: NSPerson.SetTitle(String p_0)
+intellisense: NSPerson.SetTitle
 keywords: SetTitle(String)
+so.topic: reference
 ---
 
 

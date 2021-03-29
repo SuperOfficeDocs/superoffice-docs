@@ -1,10 +1,10 @@
 ---
-title: Void DeleteFolder(NSEMailConnectionInfo connectionInfo)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void DeleteFolder(NSEMailConnectionInfo p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_DeleteFolder_NSEMailConnectionInfo_p_0
+description: NSEMailAgent.DeleteFolder(NSEMailConnectionInfo p_0)
+intellisense: NSEMailAgent.DeleteFolder
 sortOrder: 2859
 keywords: DeleteFolder(NSEMailConnectionInfo)
+so.topic: reference
 ---
 
 

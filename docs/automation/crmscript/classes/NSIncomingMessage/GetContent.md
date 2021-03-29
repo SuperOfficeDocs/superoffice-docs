@@ -1,10 +1,10 @@
 ---
-title: String GetContent()
-path: /EJScript/Classes/NSIncomingMessage/Member functions/String GetContent()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSIncomingMessage_GetContent
+description: NSIncomingMessage.GetContent()
+intellisense: NSIncomingMessage.GetContent
 sortOrder: 3986
 keywords: GetContent()
+so.topic: reference
 ---
 
 

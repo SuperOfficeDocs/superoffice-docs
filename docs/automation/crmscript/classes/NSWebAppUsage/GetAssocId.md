@@ -1,9 +1,9 @@
 ---
-title: Integer GetAssocId()
-path: /EJScript/Classes/NSWebAppUsage/Member functions/Integer GetAssocId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebAppUsage_GetAssocId
+description: NSWebAppUsage.GetAssocId()
+intellisense: NSWebAppUsage.GetAssocId
 keywords: GetAssocId()
+so.topic: reference
 ---
 
 

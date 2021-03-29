@@ -1,9 +1,9 @@
 ---
-title: Void addData(String field, String value)
-path: /EJScript/Classes/SearchEngine/member functions/Void addData(String field, String value)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SearchEngine_addData_String_field_String_value
+description: SearchEngine.addData(String field, String value)
+intellisense: SearchEngine.addData
 keywords: addData(String,String)
+so.topic: reference
 ---
 
 

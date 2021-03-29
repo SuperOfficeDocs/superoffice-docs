@@ -1,9 +1,9 @@
 ---
-title: Void SetWebPanelId(Integer WebPanelId)
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Void SetWebPanelId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_SetWebPanelId_Integer_p_0
+description: NSWebPanelEntity.SetWebPanelId(Integer p_0)
+intellisense: NSWebPanelEntity.SetWebPanelId
 keywords: SetWebPanelId(Integer)
+so.topic: reference
 ---
 
 

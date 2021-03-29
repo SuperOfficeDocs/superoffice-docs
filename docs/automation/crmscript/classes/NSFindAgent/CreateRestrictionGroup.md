@@ -1,10 +1,10 @@
 ---
-title: NSArchiveRestrictionGroup CreateRestrictionGroup(String storageType, String providerName, String storageKey, String context)
-path: /EJScript/Classes/NSFindAgent/Member functions/NSArchiveRestrictionGroup CreateRestrictionGroup(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindAgent_CreateRestrictionGroup_String_p_0_String_p_1_String_p_2_String_p_3
+description: NSFindAgent.CreateRestrictionGroup(String p_0, String p_1, String p_2, String p_3)
+intellisense: NSFindAgent.CreateRestrictionGroup
 sortOrder: 3658
 keywords: CreateRestrictionGroup(String,String,String,String)
+so.topic: reference
 ---
 
 

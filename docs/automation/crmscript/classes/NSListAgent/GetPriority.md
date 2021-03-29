@@ -1,9 +1,9 @@
 ---
-title: NSPriority GetPriority(Integer priorityId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSPriority GetPriority(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetPriority_Integer_p_0
+description: NSListAgent.GetPriority(Integer p_0)
+intellisense: NSListAgent.GetPriority
 keywords: GetPriority(Integer)
+so.topic: reference
 ---
 
 

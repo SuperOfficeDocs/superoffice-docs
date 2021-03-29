@@ -1,10 +1,10 @@
 ---
-title: Void RejectWithEmailConfirmation(Integer appointmentId, String rejectReason, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void RejectWithEmailConfirmation(Integer p_0, String p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_RejectWithEmailConfirmation_Integer_p_0_String_p_1_Integer_p_2
+description: NSAppointmentAgent.RejectWithEmailConfirmation(Integer p_0, String p_1, Integer p_2)
+intellisense: NSAppointmentAgent.RejectWithEmailConfirmation
 sortOrder: 917
 keywords: RejectWithEmailConfirmation(Integer,String,Integer)
+so.topic: reference
 ---
 
 

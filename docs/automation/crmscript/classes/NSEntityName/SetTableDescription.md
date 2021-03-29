@@ -1,10 +1,10 @@
 ---
-title: Void SetTableDescription(String TableDescription)
-path: /EJScript/Classes/NSEntityName/Member functions/Void SetTableDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEntityName_SetTableDescription_String_p_0
+description: NSEntityName.SetTableDescription(String p_0)
+intellisense: NSEntityName.SetTableDescription
 sortOrder: 3072
 keywords: SetTableDescription(String)
+so.topic: reference
 ---
 
 

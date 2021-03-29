@@ -1,10 +1,10 @@
 ---
-title: Void SetAlarmTime(DateTime AlarmTime)
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/Void SetAlarmTime(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_SetAlarmTime_DateTime_p_0
+description: NSAppointmentSyncData.SetAlarmTime(DateTime p_0)
+intellisense: NSAppointmentSyncData.SetAlarmTime
 sortOrder: 1066
 keywords: SetAlarmTime(DateTime)
+so.topic: reference
 ---
 
 

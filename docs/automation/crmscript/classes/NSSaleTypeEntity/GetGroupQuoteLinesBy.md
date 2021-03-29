@@ -1,9 +1,9 @@
 ---
-title: Integer GetGroupQuoteLinesBy()
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Integer GetGroupQuoteLinesBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_GetGroupQuoteLinesBy
+description: NSSaleTypeEntity.GetGroupQuoteLinesBy()
+intellisense: NSSaleTypeEntity.GetGroupQuoteLinesBy
 keywords: GetGroupQuoteLinesBy()
+so.topic: reference
 ---
 
 

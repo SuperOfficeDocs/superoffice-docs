@@ -1,9 +1,9 @@
 ---
-title: String getName()
-path: /EJScript/Classes/XMLNode/Member functions/String getName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_XMLNode_getName
+description: XMLNode.getName()
+intellisense: XMLNode.getName
 keywords: getName()
+so.topic: reference
 ---
 
 

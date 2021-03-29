@@ -1,10 +1,10 @@
 ---
-title: Void SetDepartment(String Department)
-path: /EJScript/Classes/NSContactActivity/Member functions/Void SetDepartment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactActivity_SetDepartment_String_p_0
+description: NSContactActivity.SetDepartment(String p_0)
+intellisense: NSContactActivity.SetDepartment
 sortOrder: 1789
 keywords: SetDepartment(String)
+so.topic: reference
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: User
-path: /EJScript/Classes/User
-intellisense: 1
-classref: 1
+title: crmscript_ref_User
+description: User
+intellisense: Void.User
+so.topic: reference
 ---
 
 

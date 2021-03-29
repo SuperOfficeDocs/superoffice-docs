@@ -1,9 +1,9 @@
 ---
-title: String[] GetContactUrl()
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/String[] GetContactUrl()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_GetContactUrl
+description: NSParticipantSyncData.GetContactUrl()
+intellisense: NSParticipantSyncData.GetContactUrl
 keywords: GetContactUrl()
+so.topic: reference
 ---
 
 

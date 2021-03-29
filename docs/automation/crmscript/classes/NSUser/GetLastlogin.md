@@ -1,9 +1,9 @@
 ---
-title: DateTime GetLastlogin()
-path: /EJScript/Classes/NSUser/Member functions/DateTime GetLastlogin()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetLastlogin
+description: NSUser.GetLastlogin()
+intellisense: NSUser.GetLastlogin
 keywords: GetLastlogin()
+so.topic: reference
 ---
 
 

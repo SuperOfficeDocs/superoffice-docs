@@ -1,9 +1,9 @@
 ---
-title: Void SetTicketId(Integer TicketId)
-path: /EJScript/Classes/NSTicketInfo/Member functions/Void SetTicketId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketInfo_SetTicketId_Integer_p_0
+description: NSTicketInfo.SetTicketId(Integer p_0)
+intellisense: NSTicketInfo.SetTicketId
 keywords: SetTicketId(Integer)
+so.topic: reference
 ---
 
 

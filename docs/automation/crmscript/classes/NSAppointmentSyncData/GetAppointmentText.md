@@ -1,10 +1,10 @@
 ---
-title: String GetAppointmentText()
-path: /EJScript/Classes/NSAppointmentSyncData/Member functions/String GetAppointmentText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentSyncData_GetAppointmentText
+description: NSAppointmentSyncData.GetAppointmentText()
+intellisense: NSAppointmentSyncData.GetAppointmentText
 sortOrder: 1056
 keywords: GetAppointmentText()
+so.topic: reference
 ---
 
 

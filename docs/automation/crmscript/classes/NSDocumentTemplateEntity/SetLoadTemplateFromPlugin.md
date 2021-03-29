@@ -1,10 +1,10 @@
 ---
-title: Void SetLoadTemplateFromPlugin(Integer LoadTemplateFromPlugin)
-path: /EJScript/Classes/NSDocumentTemplateEntity/Member functions/Void SetLoadTemplateFromPlugin(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentTemplateEntity_SetLoadTemplateFromPlugin_Integer_p_0
+description: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin(Integer p_0)
+intellisense: NSDocumentTemplateEntity.SetLoadTemplateFromPlugin
 sortOrder: 2690
 keywords: SetLoadTemplateFromPlugin(Integer)
+so.topic: reference
 ---
 
 

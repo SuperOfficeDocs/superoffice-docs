@@ -1,10 +1,10 @@
 ---
-title: NSSelectableMDOListItem[] GetInterests()
-path: /EJScript/Classes/NSContactEntity/Member functions/NSSelectableMDOListItem[] GetInterests()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetInterests
+description: NSContactEntity.GetInterests()
+intellisense: NSContactEntity.GetInterests
 sortOrder: 1865
 keywords: GetInterests()
+so.topic: reference
 ---
 
 

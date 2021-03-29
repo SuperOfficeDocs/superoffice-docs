@@ -1,9 +1,9 @@
 ---
-title: Void SetName(String Name)
-path: /EJScript/Classes/NSQuickReply/Member functions/Void SetName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply_SetName_String_p_0
+description: NSQuickReply.SetName(String p_0)
+intellisense: NSQuickReply.SetName
 keywords: SetName(String)
+so.topic: reference
 ---
 
 

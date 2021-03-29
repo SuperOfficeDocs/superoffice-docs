@@ -1,10 +1,10 @@
 ---
-title: String getParameter(String name)
-path: /EJScript/Classes/DbiControl/Member functions/String getParameter(String name)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbiControl_getParameter_String_name
+description: DbiControl.getParameter(String name)
+intellisense: DbiControl.getParameter
 sortOrder: 255
 keywords: getParameter(String)
+so.topic: reference
 ---
 
 This function returns the value of the given parameter.

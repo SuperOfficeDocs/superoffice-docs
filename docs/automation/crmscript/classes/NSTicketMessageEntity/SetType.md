@@ -1,9 +1,9 @@
 ---
-title: Void SetType(NSTicketMessageType Type)
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/Void SetType(NSTicketMessageType p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_SetType_NSTicketMessageType_p_0
+description: NSTicketMessageEntity.SetType(NSTicketMessageType p_0)
+intellisense: NSTicketMessageEntity.SetType
 keywords: SetType(NSTicketMessageType)
+so.topic: reference
 ---
 
 

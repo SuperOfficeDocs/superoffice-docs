@@ -1,9 +1,9 @@
 ---
-title: String GetSupplierCode()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetSupplierCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetSupplierCode
+description: NSQuoteLine.GetSupplierCode()
+intellisense: NSQuoteLine.GetSupplierCode
 keywords: GetSupplierCode()
+so.topic: reference
 ---
 
 

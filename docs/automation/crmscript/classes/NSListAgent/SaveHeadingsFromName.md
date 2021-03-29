@@ -1,9 +1,9 @@
 ---
-title: NSHeadingEntity[] SaveHeadingsFromName(String name, NSHeadingEntity[] entities)
-path: /EJScript/Classes/NSListAgent/Member functions/NSHeadingEntity[] SaveHeadingsFromName(String p_0, NSHeadingEntity[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveHeadingsFromName_String_p_0_NSHeadingEntity__p_1
+description: NSListAgent.SaveHeadingsFromName(String p_0, NSHeadingEntity[] p_1)
+intellisense: NSListAgent.SaveHeadingsFromName
 keywords: SaveHeadingsFromName(String,NSHeadingEntity[])
+so.topic: reference
 ---
 
 

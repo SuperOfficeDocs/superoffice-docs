@@ -1,9 +1,9 @@
 ---
-title: NSDatabaseTableAgent
-path: /EJScript/Classes/NSDatabaseTableAgent
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseTableAgent
+description: NSDatabaseTableAgent
+intellisense: Void.NSDatabaseTableAgent
 sortOrder: 2336
+so.topic: reference
 ---
 
 

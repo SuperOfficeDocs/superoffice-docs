@@ -1,9 +1,9 @@
 ---
-title: Void SetAdditionalInfo(String AdditionalInfo)
-path: /EJScript/Classes/NSReturnInfo/Member functions/Void SetAdditionalInfo(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReturnInfo_SetAdditionalInfo_String_p_0
+description: NSReturnInfo.SetAdditionalInfo(String p_0)
+intellisense: NSReturnInfo.SetAdditionalInfo
 keywords: SetAdditionalInfo(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetRecurringPattern()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetRecurringPattern()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetRecurringPattern
+description: NSAppointment.GetRecurringPattern()
+intellisense: NSAppointment.GetRecurringPattern
 sortOrder: 743
 keywords: GetRecurringPattern()
+so.topic: reference
 ---
 
 * Unknown=0

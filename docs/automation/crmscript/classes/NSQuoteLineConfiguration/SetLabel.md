@@ -1,9 +1,9 @@
 ---
-title: Void SetLabel(String Label)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetLabel(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetLabel_String_p_0
+description: NSQuoteLineConfiguration.SetLabel(String p_0)
+intellisense: NSQuoteLineConfiguration.SetLabel
 keywords: SetLabel(String)
+so.topic: reference
 ---
 
 

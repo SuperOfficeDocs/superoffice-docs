@@ -1,10 +1,10 @@
 ---
-title: Void SetDefaultPersonImage(String layoutName, NSImage image)
-path: /EJScript/Classes/NSAudienceAgent/Member functions/Void SetDefaultPersonImage(String p_0, NSImage p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_SetDefaultPersonImage_String_p_0_NSImage_p_1
+description: NSAudienceAgent.SetDefaultPersonImage(String p_0, NSImage p_1)
+intellisense: NSAudienceAgent.SetDefaultPersonImage
 sortOrder: 1314
 keywords: SetDefaultPersonImage(String,NSImage)
+so.topic: reference
 ---
 
 

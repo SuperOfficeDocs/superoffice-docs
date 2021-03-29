@@ -1,9 +1,9 @@
 ---
-title: String toString(Integer mode, Integer lang, Integer maxMode, Bool short)
-path: /EJScript/Classes/TimeSpan/Member functions/String toString(Integer mode, Integer lang, Integer maxMode, Bool short)
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeSpan_toString_Integer_mode_Integer_lang_Integer_maxMode_Bool_short
+description: TimeSpan.toString(Integer mode, Integer lang, Integer maxMode, Bool short)
+intellisense: TimeSpan.toString
 keywords: toString(Integer,Integer,Integer,Bool)
+so.topic: reference
 ---
 
 

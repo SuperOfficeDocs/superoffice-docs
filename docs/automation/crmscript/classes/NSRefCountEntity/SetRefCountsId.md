@@ -1,9 +1,9 @@
 ---
-title: Void SetRefCountsId(Integer RefCountsId)
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Void SetRefCountsId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_SetRefCountsId_Integer_p_0
+description: NSRefCountEntity.SetRefCountsId(Integer p_0)
+intellisense: NSRefCountEntity.SetRefCountsId
 keywords: SetRefCountsId(Integer)
+so.topic: reference
 ---
 
 

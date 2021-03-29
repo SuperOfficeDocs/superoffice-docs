@@ -1,10 +1,10 @@
 ---
-title: Integer getWeekDay()
-path: /EJScript/Classes/DateTime/Member functions/Integer getWeekDay()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_getWeekDay
+description: DateTime.getWeekDay()
+intellisense: DateTime.getWeekDay
 sortOrder: 234
 keywords: getWeekDay()
+so.topic: reference
 ---
 
 Returns the weekDay as an Integer. 0 is Monday, ... 6 is Sunday

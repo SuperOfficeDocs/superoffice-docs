@@ -1,9 +1,9 @@
 ---
-title: NSAlarmData[] GetAlarms()
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/NSAlarmData[] GetAlarms()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMultiAlarmData_GetAlarms
+description: NSMultiAlarmData.GetAlarms()
+intellisense: NSMultiAlarmData.GetAlarms
 keywords: GetAlarms()
+so.topic: reference
 ---
 
 

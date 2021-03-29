@@ -1,9 +1,9 @@
 ---
-title: Integer GetNumNeedUpdate()
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Integer GetNumNeedUpdate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_GetNumNeedUpdate
+description: NSStatusMonitor.GetNumNeedUpdate()
+intellisense: NSStatusMonitor.GetNumNeedUpdate
 keywords: GetNumNeedUpdate()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSProjectEventEntity CreateDefaultProjectEventEntity()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEventEntity CreateDefaultProjectEventEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_CreateDefaultProjectEventEntity
+description: NSProjectAgent.CreateDefaultProjectEventEntity()
+intellisense: NSProjectAgent.CreateDefaultProjectEventEntity
 keywords: CreateDefaultProjectEventEntity()
+so.topic: reference
 ---
 
 

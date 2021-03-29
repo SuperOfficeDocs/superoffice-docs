@@ -1,10 +1,10 @@
 ---
-title: Void SetExtAppId(Integer ExtAppId)
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Void SetExtAppId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_SetExtAppId_Integer_p_0
+description: NSExtAppEntity.SetExtAppId(Integer p_0)
+intellisense: NSExtAppEntity.SetExtAppId
 sortOrder: 3381
 keywords: SetExtAppId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSSale/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_GetPersonId
+description: NSSale.GetPersonId()
+intellisense: NSSale.GetPersonId
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

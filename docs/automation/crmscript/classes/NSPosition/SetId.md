@@ -1,9 +1,9 @@
 ---
-title: Void SetId(Integer id)
-path: /EJScript/Classes/NSPosition/Member functions/Void SetId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPosition_SetId_Integer_p_0
+description: NSPosition.SetId(Integer p_0)
+intellisense: NSPosition.SetId
 keywords: SetId(Integer)
+so.topic: reference
 ---
 
 

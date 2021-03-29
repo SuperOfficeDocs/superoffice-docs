@@ -1,10 +1,10 @@
 ---
-title: Integer GetReturnType()
-path: /EJScript/Classes/NSCommandInfo/Member functions/Integer GetReturnType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCommandInfo_GetReturnType
+description: NSCommandInfo.GetReturnType()
+intellisense: NSCommandInfo.GetReturnType
 sortOrder: 1568
 keywords: GetReturnType()
+so.topic: reference
 ---
 
 

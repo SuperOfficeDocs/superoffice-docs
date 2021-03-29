@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleId(Integer SaleId)
-path: /EJScript/Classes/NSSale/Member functions/Void SetSaleId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSale_SetSaleId_Integer_p_0
+description: NSSale.SetSaleId(Integer p_0)
+intellisense: NSSale.SetSaleId
 keywords: SetSaleId(Integer)
+so.topic: reference
 ---
 
 

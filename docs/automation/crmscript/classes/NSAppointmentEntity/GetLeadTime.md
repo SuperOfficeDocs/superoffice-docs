@@ -1,10 +1,10 @@
 ---
-title: TimeSpan GetLeadTime()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/TimeSpan GetLeadTime()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetLeadTime
+description: NSAppointmentEntity.GetLeadTime()
+intellisense: NSAppointmentEntity.GetLeadTime
 sortOrder: 978
 keywords: GetLeadTime()
+so.topic: reference
 ---
 
 

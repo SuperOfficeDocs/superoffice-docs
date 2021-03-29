@@ -1,9 +1,9 @@
 ---
-title: Bool GetAlwaysUseCustomAttention()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetAlwaysUseCustomAttention()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetAlwaysUseCustomAttention
+description: NSMailMergeSettings.GetAlwaysUseCustomAttention()
+intellisense: NSMailMergeSettings.GetAlwaysUseCustomAttention
 keywords: GetAlwaysUseCustomAttention()
+so.topic: reference
 ---
 
 

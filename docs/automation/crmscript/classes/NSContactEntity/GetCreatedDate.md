@@ -1,10 +1,10 @@
 ---
-title: DateTime GetCreatedDate()
-path: /EJScript/Classes/NSContactEntity/Member functions/DateTime GetCreatedDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetCreatedDate
+description: NSContactEntity.GetCreatedDate()
+intellisense: NSContactEntity.GetCreatedDate
 sortOrder: 1834
 keywords: GetCreatedDate()
+so.topic: reference
 ---
 
 

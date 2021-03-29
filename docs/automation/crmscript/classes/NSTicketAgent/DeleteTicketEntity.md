@@ -1,9 +1,9 @@
 ---
-title: Void DeleteTicketEntity(Integer ticketEntityId)
-path: /EJScript/Classes/NSTicketAgent/Member functions/Void DeleteTicketEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketAgent_DeleteTicketEntity_Integer_p_0
+description: NSTicketAgent.DeleteTicketEntity(Integer p_0)
+intellisense: NSTicketAgent.DeleteTicketEntity
 keywords: DeleteTicketEntity(Integer)
+so.topic: reference
 ---
 
 

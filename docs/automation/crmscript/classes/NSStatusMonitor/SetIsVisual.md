@@ -1,9 +1,9 @@
 ---
-title: Void SetIsVisual(Bool IsVisual)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetIsVisual(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetIsVisual_Bool_p_0
+description: NSStatusMonitor.SetIsVisual(Bool p_0)
+intellisense: NSStatusMonitor.SetIsVisual
 keywords: SetIsVisual(Bool)
+so.topic: reference
 ---
 
 

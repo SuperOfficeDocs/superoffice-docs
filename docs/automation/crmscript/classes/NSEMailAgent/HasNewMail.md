@@ -1,10 +1,10 @@
 ---
-title: Bool HasNewMail(Integer mailItemId, Integer folderId)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool HasNewMail(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_HasNewMail_Integer_p_0_Integer_p_1
+description: NSEMailAgent.HasNewMail(Integer p_0, Integer p_1)
+intellisense: NSEMailAgent.HasNewMail
 sortOrder: 2786
 keywords: HasNewMail(Integer,Integer)
+so.topic: reference
 ---
 
 

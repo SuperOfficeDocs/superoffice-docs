@@ -1,10 +1,10 @@
 ---
-title: NSErpConnectionListMappingContainer GetConnectionListMappings(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/NSErpConnectionListMappingContainer GetConnectionListMappings(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_GetConnectionListMappings_Integer_p_0
+description: NSErpSyncAgent.GetConnectionListMappings(Integer p_0)
+intellisense: NSErpSyncAgent.GetConnectionListMappings
 sortOrder: 3195
 keywords: GetConnectionListMappings(Integer)
+so.topic: reference
 ---
 
 

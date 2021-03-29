@@ -1,9 +1,9 @@
 ---
-title: Void SetUserInfoId(Integer UserInfoId)
-path: /EJScript/Classes/NSUserInfo/Member functions/Void SetUserInfoId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserInfo_SetUserInfoId_Integer_p_0
+description: NSUserInfo.SetUserInfoId(Integer p_0)
+intellisense: NSUserInfo.SetUserInfoId
 keywords: SetUserInfoId(Integer)
+so.topic: reference
 ---
 
 

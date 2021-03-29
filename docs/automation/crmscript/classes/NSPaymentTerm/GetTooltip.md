@@ -1,9 +1,9 @@
 ---
-title: String GetTooltip()
-path: /EJScript/Classes/NSPaymentTerm/Member functions/String GetTooltip()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPaymentTerm_GetTooltip
+description: NSPaymentTerm.GetTooltip()
+intellisense: NSPaymentTerm.GetTooltip
 keywords: GetTooltip()
+so.topic: reference
 ---
 
 

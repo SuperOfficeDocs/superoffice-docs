@@ -1,9 +1,9 @@
 ---
-title: NSSale GetChangedSale()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/NSSale GetChangedSale()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_GetChangedSale
+description: NSQuoteVersionValidated.GetChangedSale()
+intellisense: NSQuoteVersionValidated.GetChangedSale
 keywords: GetChangedSale()
+so.topic: reference
 ---
 
 

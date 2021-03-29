@@ -1,10 +1,10 @@
 ---
-title: String readLine()
-path: /EJScript/Classes/File/Member functions/String readLine()
-intellisense: 1
-classref: 1
+title: crmscript_ref_File_readLine
+description: File.readLine()
+intellisense: File.readLine
 sortOrder: 348
 keywords: readLine()
+so.topic: reference
 ---
 
 

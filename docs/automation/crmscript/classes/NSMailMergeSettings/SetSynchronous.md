@@ -1,9 +1,9 @@
 ---
-title: Void SetSynchronous(Bool Synchronous)
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Void SetSynchronous(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_SetSynchronous_Bool_p_0
+description: NSMailMergeSettings.SetSynchronous(Bool p_0)
+intellisense: NSMailMergeSettings.SetSynchronous
 keywords: SetSynchronous(Bool)
+so.topic: reference
 ---
 
 

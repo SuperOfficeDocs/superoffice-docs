@@ -1,9 +1,9 @@
 ---
-title: Integer GetServiceAuthId()
-path: /EJScript/Classes/NSServiceAuth/Member functions/Integer GetServiceAuthId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSServiceAuth_GetServiceAuthId
+description: NSServiceAuth.GetServiceAuthId()
+intellisense: NSServiceAuth.GetServiceAuthId
 keywords: GetServiceAuthId()
+so.topic: reference
 ---
 
 

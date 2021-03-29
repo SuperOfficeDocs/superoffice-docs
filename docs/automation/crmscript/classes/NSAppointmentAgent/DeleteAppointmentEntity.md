@@ -1,10 +1,10 @@
 ---
-title: Void DeleteAppointmentEntity(Integer appointmentEntityId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void DeleteAppointmentEntity(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_DeleteAppointmentEntity_Integer_p_0
+description: NSAppointmentAgent.DeleteAppointmentEntity(Integer p_0)
+intellisense: NSAppointmentAgent.DeleteAppointmentEntity
 sortOrder: 915
 keywords: DeleteAppointmentEntity(Integer)
+so.topic: reference
 ---
 
 

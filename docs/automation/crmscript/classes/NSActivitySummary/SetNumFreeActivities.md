@@ -1,10 +1,10 @@
 ---
-title: Void SetNumFreeActivities(Integer NumFreeActivities)
-path: /EJScript/Classes/NSActivitySummary/Member functions/Void SetNumFreeActivities(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummary_SetNumFreeActivities_Integer_p_0
+description: NSActivitySummary.SetNumFreeActivities(Integer p_0)
+intellisense: NSActivitySummary.SetNumFreeActivities
 sortOrder: 591
 keywords: SetNumFreeActivities(Integer)
+so.topic: reference
 ---
 
 

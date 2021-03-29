@@ -1,10 +1,10 @@
 ---
-title: Integer GetUshortProbability()
-path: /EJScript/Classes/NSAAATestClassForModeling/Member functions/Integer GetUshortProbability()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAAATestClassForModeling_GetUshortProbability
+description: NSAAATestClassForModeling.GetUshortProbability()
+intellisense: NSAAATestClassForModeling.GetUshortProbability
 sortOrder: 8927
 keywords: GetUshortProbability()
+so.topic: reference
 ---
 
 

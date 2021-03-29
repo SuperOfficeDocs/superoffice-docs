@@ -1,10 +1,10 @@
 ---
-title: Integer CreateNewEntry(NSDuplicateEntry duplicate)
-path: /EJScript/Classes/NSContactAgent/Member functions/Integer CreateNewEntry(NSDuplicateEntry p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactAgent_CreateNewEntry_NSDuplicateEntry_p_0
+description: NSContactAgent.CreateNewEntry(NSDuplicateEntry p_0)
+intellisense: NSContactAgent.CreateNewEntry
 sortOrder: 1798
 keywords: CreateNewEntry(NSDuplicateEntry)
+so.topic: reference
 ---
 
 

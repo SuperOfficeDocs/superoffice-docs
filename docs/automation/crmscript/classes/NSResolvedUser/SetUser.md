@@ -1,9 +1,9 @@
 ---
-title: Void SetUser(NSUser User)
-path: /EJScript/Classes/NSResolvedUser/Member functions/Void SetUser(NSUser p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResolvedUser_SetUser_NSUser_p_0
+description: NSResolvedUser.SetUser(NSUser p_0)
+intellisense: NSResolvedUser.SetUser
 keywords: SetUser(NSUser)
+so.topic: reference
 ---
 
 

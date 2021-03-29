@@ -1,8 +1,8 @@
 ---
-title: NSReportEntity
-path: /EJScript/Classes/NSReportEntity
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity
+description: NSReportEntity
+intellisense: Void.NSReportEntity
+so.topic: reference
 ---
 
 

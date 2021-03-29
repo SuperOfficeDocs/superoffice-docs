@@ -1,9 +1,9 @@
 ---
-title: NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity saleTypeEntity)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSaleTypeEntity SaveSaleTypeEntity(NSSaleTypeEntity p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveSaleTypeEntity_NSSaleTypeEntity_p_0
+description: NSListAgent.SaveSaleTypeEntity(NSSaleTypeEntity p_0)
+intellisense: NSListAgent.SaveSaleTypeEntity
 keywords: SaveSaleTypeEntity(NSSaleTypeEntity)
+so.topic: reference
 ---
 
 

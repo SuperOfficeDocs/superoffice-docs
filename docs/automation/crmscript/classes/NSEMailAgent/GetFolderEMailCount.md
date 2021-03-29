@@ -1,10 +1,10 @@
 ---
-title: Integer GetFolderEMailCount(NSEMailConnectionInfo connectionInfo, Bool onlyUnread)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Integer GetFolderEMailCount(NSEMailConnectionInfo p_0, Bool p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetFolderEMailCount_NSEMailConnectionInfo_p_0_Bool_p_1
+description: NSEMailAgent.GetFolderEMailCount(NSEMailConnectionInfo p_0, Bool p_1)
+intellisense: NSEMailAgent.GetFolderEMailCount
 sortOrder: 2789
 keywords: GetFolderEMailCount(NSEMailConnectionInfo,Bool)
+so.topic: reference
 ---
 
 

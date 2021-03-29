@@ -1,9 +1,9 @@
 ---
-title: Integer GetBaseTimeZoneId()
-path: /EJScript/Classes/NSTimeZoneAgent/Member functions/Integer GetBaseTimeZoneId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneAgent_GetBaseTimeZoneId
+description: NSTimeZoneAgent.GetBaseTimeZoneId()
+intellisense: NSTimeZoneAgent.GetBaseTimeZoneId
 keywords: GetBaseTimeZoneId()
+so.topic: reference
 ---
 
 

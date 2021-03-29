@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedBy(String UpdatedBy)
-path: /EJScript/Classes/NSAudienceConfigParameter/Member functions/Void SetUpdatedBy(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceConfigParameter_SetUpdatedBy_String_p_0
+description: NSAudienceConfigParameter.SetUpdatedBy(String p_0)
+intellisense: NSAudienceConfigParameter.SetUpdatedBy
 sortOrder: 1330
 keywords: SetUpdatedBy(String)
+so.topic: reference
 ---
 
 

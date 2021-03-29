@@ -1,9 +1,9 @@
 ---
-title: Void Publish(Integer ownerType)
-path: /EJScript/Classes/NSUserDefinedFieldInfoAgent/Member functions/Void Publish(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfoAgent_Publish_Integer_p_0
+description: NSUserDefinedFieldInfoAgent.Publish(Integer p_0)
+intellisense: NSUserDefinedFieldInfoAgent.Publish
 keywords: Publish(Integer)
+so.topic: reference
 ---
 
 

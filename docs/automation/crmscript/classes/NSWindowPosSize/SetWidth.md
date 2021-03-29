@@ -1,9 +1,9 @@
 ---
-title: Void SetWidth(Integer Width)
-path: /EJScript/Classes/NSWindowPosSize/Member functions/Void SetWidth(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWindowPosSize_SetWidth_Integer_p_0
+description: NSWindowPosSize.SetWidth(Integer p_0)
+intellisense: NSWindowPosSize.SetWidth
 keywords: SetWidth(Integer)
+so.topic: reference
 ---
 
 

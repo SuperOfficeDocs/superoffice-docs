@@ -1,10 +1,10 @@
 ---
-title: NSAudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
-path: /EJScript/Classes/NSAudienceAgent/Member functions/NSAudienceLayoutEntity CreateDefaultAudienceLayoutEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAudienceAgent_CreateDefaultAudienceLayoutEntity
+description: NSAudienceAgent.CreateDefaultAudienceLayoutEntity()
+intellisense: NSAudienceAgent.CreateDefaultAudienceLayoutEntity
 sortOrder: 1297
 keywords: CreateDefaultAudienceLayoutEntity()
+so.topic: reference
 ---
 
 

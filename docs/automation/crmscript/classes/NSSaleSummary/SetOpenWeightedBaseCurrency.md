@@ -1,9 +1,9 @@
 ---
-title: Void SetOpenWeightedBaseCurrency(Float OpenWeightedBaseCurrency)
-path: /EJScript/Classes/NSSaleSummary/Member functions/Void SetOpenWeightedBaseCurrency(Float p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_SetOpenWeightedBaseCurrency_Float_p_0
+description: NSSaleSummary.SetOpenWeightedBaseCurrency(Float p_0)
+intellisense: NSSaleSummary.SetOpenWeightedBaseCurrency
 keywords: SetOpenWeightedBaseCurrency(Float)
+so.topic: reference
 ---
 
 

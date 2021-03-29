@@ -1,9 +1,9 @@
 ---
-title: Void SetResourceValue(String ResourceValue)
-path: /EJScript/Classes/NSResourceOverride/Member functions/Void SetResourceValue(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceOverride_SetResourceValue_String_p_0
+description: NSResourceOverride.SetResourceValue(String p_0)
+intellisense: NSResourceOverride.SetResourceValue
 keywords: SetResourceValue(String)
+so.topic: reference
 ---
 
 

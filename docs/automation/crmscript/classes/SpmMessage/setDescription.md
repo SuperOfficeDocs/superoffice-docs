@@ -1,9 +1,9 @@
 ---
-title: Void setDescription(String description)
-path: /EJScript/Classes/SpmMessage/Member functions/Void setDescription(String description)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmMessage_setDescription_String_description
+description: SpmMessage.setDescription(String description)
+intellisense: SpmMessage.setDescription
 keywords: setDescription(String)
+so.topic: reference
 ---
 
 

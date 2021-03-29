@@ -1,9 +1,9 @@
 ---
-title: Integer GetParentId()
-path: /EJScript/Classes/NSTicketCategoryEntity/Member functions/Integer GetParentId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketCategoryEntity_GetParentId
+description: NSTicketCategoryEntity.GetParentId()
+intellisense: NSTicketCategoryEntity.GetParentId
 keywords: GetParentId()
+so.topic: reference
 ---
 
 

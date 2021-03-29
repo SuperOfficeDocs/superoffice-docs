@@ -1,9 +1,9 @@
 ---
-title: String getTimeZone()
-path: /EJScript/Classes/TimeZone/Member functions/String getTimeZone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_TimeZone_getTimeZone
+description: TimeZone.getTimeZone()
+intellisense: TimeZone.getTimeZone
 keywords: getTimeZone()
+so.topic: reference
 ---
 
 

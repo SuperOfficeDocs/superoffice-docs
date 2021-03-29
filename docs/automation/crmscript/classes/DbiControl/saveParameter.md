@@ -1,10 +1,10 @@
 ---
-title: Void saveParameter(String name, String val)
-path: /EJScript/Classes/DbiControl/Member functions/Void saveParameter(String name, String val)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbiControl_saveParameter_String_name_String_val
+description: DbiControl.saveParameter(String name, String val)
+intellisense: DbiControl.saveParameter
 sortOrder: 256
 keywords: saveParameter(String,String)
+so.topic: reference
 ---
 
 

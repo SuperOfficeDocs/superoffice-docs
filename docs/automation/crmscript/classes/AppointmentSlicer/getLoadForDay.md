@@ -1,10 +1,10 @@
 ---
-title: Integer getLoadForDay(Date day, Time start, Time stop, Integer max)
-path: /EJScript/Classes/AppointmentSlicer/Member functions/Integer getLoadForDay(Date day, Time start, Time stop, Integer max)
-intellisense: 1
-classref: 1
+title: crmscript_ref_AppointmentSlicer_getLoadForDay_Date_day_Time_start_Time_stop_Integer_max
+description: AppointmentSlicer.getLoadForDay(Date day, Time start, Time stop, Integer max)
+intellisense: AppointmentSlicer.getLoadForDay
 sortOrder: 110
 keywords: getLoadForDay(Date,Time,Time,Integer)
+so.topic: reference
 ---
 
 This function will return the accumulated load for a given day. The load is calculated by adding all the appointments for that day, cutting them at the start and stop times. Finally, the value returned is never more than max (unless max is -1, in which case there is no limit).

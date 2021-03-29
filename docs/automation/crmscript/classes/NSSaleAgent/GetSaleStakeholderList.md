@@ -1,9 +1,9 @@
 ---
-title: NSSaleStakeholder[] GetSaleStakeholderList(Integer[] p0)
-path: /EJScript/Classes/NSSaleAgent/Member functions/NSSaleStakeholder[] GetSaleStakeholderList(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_GetSaleStakeholderList_Integer__p_0
+description: NSSaleAgent.GetSaleStakeholderList(Integer[] p_0)
+intellisense: NSSaleAgent.GetSaleStakeholderList
 keywords: GetSaleStakeholderList(Integer[])
+so.topic: reference
 ---
 
 

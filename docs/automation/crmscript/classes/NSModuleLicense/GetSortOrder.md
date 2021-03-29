@@ -1,9 +1,9 @@
 ---
-title: Integer GetSortOrder()
-path: /EJScript/Classes/NSModuleLicense/Member functions/Integer GetSortOrder()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicense_GetSortOrder
+description: NSModuleLicense.GetSortOrder()
+intellisense: NSModuleLicense.GetSortOrder
 keywords: GetSortOrder()
+so.topic: reference
 ---
 
 

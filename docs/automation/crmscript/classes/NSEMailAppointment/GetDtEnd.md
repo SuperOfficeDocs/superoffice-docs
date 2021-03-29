@@ -1,10 +1,10 @@
 ---
-title: DateTime GetDtEnd()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/DateTime GetDtEnd()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_GetDtEnd
+description: NSEMailAppointment.GetDtEnd()
+intellisense: NSEMailAppointment.GetDtEnd
 sortOrder: 2875
 keywords: GetDtEnd()
+so.topic: reference
 ---
 
 

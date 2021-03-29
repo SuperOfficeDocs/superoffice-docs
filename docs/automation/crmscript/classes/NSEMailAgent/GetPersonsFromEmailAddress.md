@@ -1,10 +1,10 @@
 ---
-title: NSPerson[] GetPersonsFromEmailAddress(String emailAddress)
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSPerson[] GetPersonsFromEmailAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_GetPersonsFromEmailAddress_String_p_0
+description: NSEMailAgent.GetPersonsFromEmailAddress(String p_0)
+intellisense: NSEMailAgent.GetPersonsFromEmailAddress
 sortOrder: 2841
 keywords: GetPersonsFromEmailAddress(String)
+so.topic: reference
 ---
 
 

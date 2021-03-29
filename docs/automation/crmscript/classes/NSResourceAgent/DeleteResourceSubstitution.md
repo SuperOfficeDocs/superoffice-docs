@@ -1,9 +1,9 @@
 ---
-title: Void DeleteResourceSubstitution(String resourceName, String culture)
-path: /EJScript/Classes/NSResourceAgent/Member functions/Void DeleteResourceSubstitution(String p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceAgent_DeleteResourceSubstitution_String_p_0_String_p_1
+description: NSResourceAgent.DeleteResourceSubstitution(String p_0, String p_1)
+intellisense: NSResourceAgent.DeleteResourceSubstitution
 keywords: DeleteResourceSubstitution(String,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void setSendRate(Integer sendRate)
-path: /EJScript/Classes/SpmShipment/Member functions/Void setSendRate(Integer sendRate)
-intellisense: 1
-classref: 1
+title: crmscript_ref_SpmShipment_setSendRate_Integer_sendRate
+description: SpmShipment.setSendRate(Integer sendRate)
+intellisense: SpmShipment.setSendRate
 keywords: setSendRate(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSSaleStakeholder/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleStakeholder_GetRank
+description: NSSaleStakeholder.GetRank()
+intellisense: NSSaleStakeholder.GetRank
 keywords: GetRank()
+so.topic: reference
 ---
 
 

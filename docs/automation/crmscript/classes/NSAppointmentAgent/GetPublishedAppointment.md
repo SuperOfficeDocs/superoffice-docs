@@ -1,10 +1,10 @@
 ---
-title: NSAppointment GetPublishedAppointment(Integer appointmentId)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointment GetPublishedAppointment(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_GetPublishedAppointment_Integer_p_0
+description: NSAppointmentAgent.GetPublishedAppointment(Integer p_0)
+intellisense: NSAppointmentAgent.GetPublishedAppointment
 sortOrder: 835
 keywords: GetPublishedAppointment(Integer)
+so.topic: reference
 ---
 
 

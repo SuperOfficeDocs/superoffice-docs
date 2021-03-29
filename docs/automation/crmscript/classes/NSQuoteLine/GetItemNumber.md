@@ -1,9 +1,9 @@
 ---
-title: String GetItemNumber()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetItemNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetItemNumber
+description: NSQuoteLine.GetItemNumber()
+intellisense: NSQuoteLine.GetItemNumber
 keywords: GetItemNumber()
+so.topic: reference
 ---
 
 

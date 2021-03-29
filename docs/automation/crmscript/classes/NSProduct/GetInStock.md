@@ -1,9 +1,9 @@
 ---
-title: Float GetInStock()
-path: /EJScript/Classes/NSProduct/Member functions/Float GetInStock()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetInStock
+description: NSProduct.GetInStock()
+intellisense: NSProduct.GetInStock
 keywords: GetInStock()
+so.topic: reference
 ---
 
 

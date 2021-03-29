@@ -1,10 +1,10 @@
 ---
-title: Bool eof()
-path: /EJScript/Classes/Map/Member functions/Bool eof()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map_eof
+description: Map.eof()
+intellisense: Map.eof
 sortOrder: 524
 keywords: eof()
+so.topic: reference
 ---
 
 

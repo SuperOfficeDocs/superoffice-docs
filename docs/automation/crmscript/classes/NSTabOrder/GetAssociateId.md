@@ -1,9 +1,9 @@
 ---
-title: Integer GetAssociateId()
-path: /EJScript/Classes/NSTabOrder/Member functions/Integer GetAssociateId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTabOrder_GetAssociateId
+description: NSTabOrder.GetAssociateId()
+intellisense: NSTabOrder.GetAssociateId
 keywords: GetAssociateId()
+so.topic: reference
 ---
 
 

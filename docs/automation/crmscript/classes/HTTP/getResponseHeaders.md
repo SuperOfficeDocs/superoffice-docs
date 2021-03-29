@@ -1,10 +1,10 @@
 ---
-title: Map getResponseHeaders()
-path: /EJScript/Classes/HTTP/Member functions/Map getResponseHeaders()
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_getResponseHeaders
+description: HTTP.getResponseHeaders()
+intellisense: HTTP.getResponseHeaders
 sortOrder: 404
 keywords: getResponseHeaders()
+so.topic: reference
 ---
 
 This function will get a map of all the headers from the HTTP response headers after making a HTTP call.

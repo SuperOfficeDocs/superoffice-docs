@@ -1,10 +1,10 @@
 ---
-title: Byte[] delete(String p0)
-path: /EJScript/Classes/HTTP/Member functions/Byte[] delete(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_delete_String_p_0
+description: HTTP.delete(String p_0)
+intellisense: HTTP.delete
 sortOrder: 399
 keywords: delete(String)
+so.topic: reference
 ---
 
 Supports both http and https. Returns the result in a byte array.

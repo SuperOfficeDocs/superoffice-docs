@@ -1,9 +1,9 @@
 ---
-title: Integer GetVersion()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Integer GetVersion()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetVersion
+description: NSUserDefinedFieldInfo.GetVersion()
+intellisense: NSUserDefinedFieldInfo.GetVersion
 keywords: GetVersion()
+so.topic: reference
 ---
 
 

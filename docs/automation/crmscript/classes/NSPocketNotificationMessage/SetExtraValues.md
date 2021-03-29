@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraValues(StringDictionary ExtraValues)
-path: /EJScript/Classes/NSPocketNotificationMessage/Member functions/Void SetExtraValues(StringDictionary p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPocketNotificationMessage_SetExtraValues_StringDictionary_p_0
+description: NSPocketNotificationMessage.SetExtraValues(StringDictionary p_0)
+intellisense: NSPocketNotificationMessage.SetExtraValues
 keywords: SetExtraValues(StringDictionary)
+so.topic: reference
 ---
 
 

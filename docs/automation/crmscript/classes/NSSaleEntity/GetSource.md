@@ -1,9 +1,9 @@
 ---
-title: NSSource GetSource()
-path: /EJScript/Classes/NSSaleEntity/Member functions/NSSource GetSource()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleEntity_GetSource
+description: NSSaleEntity.GetSource()
+intellisense: NSSaleEntity.GetSource
 keywords: GetSource()
+so.topic: reference
 ---
 
 

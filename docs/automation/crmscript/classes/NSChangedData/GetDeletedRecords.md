@@ -1,10 +1,10 @@
 ---
-title: NSChangedDataItem[] GetDeletedRecords()
-path: /EJScript/Classes/NSChangedData/Member functions/NSChangedDataItem[] GetDeletedRecords()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChangedData_GetDeletedRecords
+description: NSChangedData.GetDeletedRecords()
+intellisense: NSChangedData.GetDeletedRecords
 sortOrder: 1501
 keywords: GetDeletedRecords()
+so.topic: reference
 ---
 
 

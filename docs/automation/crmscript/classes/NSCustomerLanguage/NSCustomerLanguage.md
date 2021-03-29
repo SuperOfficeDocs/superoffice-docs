@@ -1,9 +1,9 @@
 ---
-title: NSCustomerLanguage
-path: /EJScript/Classes/NSCustomerLanguage
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCustomerLanguage
+description: NSCustomerLanguage
+intellisense: Void.NSCustomerLanguage
 sortOrder: 2211
+so.topic: reference
 ---
 
 

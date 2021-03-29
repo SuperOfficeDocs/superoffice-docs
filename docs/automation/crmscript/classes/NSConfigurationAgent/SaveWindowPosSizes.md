@@ -1,10 +1,10 @@
 ---
-title: NSWindowPosSize[] SaveWindowPosSizes(NSWindowPosSize[] windowPosSizes)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/NSWindowPosSize[] SaveWindowPosSizes(NSWindowPosSize[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_SaveWindowPosSizes_NSWindowPosSize__p_0
+description: NSConfigurationAgent.SaveWindowPosSizes(NSWindowPosSize[] p_0)
+intellisense: NSConfigurationAgent.SaveWindowPosSizes
 sortOrder: 1602
 keywords: SaveWindowPosSizes(NSWindowPosSize[])
+so.topic: reference
 ---
 
 

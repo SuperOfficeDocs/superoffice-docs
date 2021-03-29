@@ -1,10 +1,10 @@
 ---
-title: String GetSubject()
-path: /EJScript/Classes/NSEMailEntity/Member functions/String GetSubject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_GetSubject
+description: NSEMailEntity.GetSubject()
+intellisense: NSEMailEntity.GetSubject
 sortOrder: 2971
 keywords: GetSubject()
+so.topic: reference
 ---
 
 

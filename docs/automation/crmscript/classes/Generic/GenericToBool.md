@@ -1,10 +1,11 @@
 ---
-title: Bool GenericToBool(Generic generic)
-path: /EJScript/Classes/Generic/Member functions/Bool GenericToBool(Generic generic)
-intellisense: 1
+title: crmscript_ref_Generic_GenericToBool_Generic_generic
+description: Generic.GenericToBool(Generic generic)
+intellisense: Generic.GenericToBool
 langref: 1
 sortOrder: 10
 keywords: GenericToBool(Generic)
+so.topic: reference
 ---
 
 Explicit downcast from a generic to a Bool.

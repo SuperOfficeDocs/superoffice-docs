@@ -1,10 +1,10 @@
 ---
-title: Void CreateAndAccept(Integer emailItemId, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Void CreateAndAccept(Integer p_0, Integer p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_CreateAndAccept_Integer_p_0_Integer_p_1
+description: NSAppointmentAgent.CreateAndAccept(Integer p_0, Integer p_1)
+intellisense: NSAppointmentAgent.CreateAndAccept
 sortOrder: 911
 keywords: CreateAndAccept(Integer,Integer)
+so.topic: reference
 ---
 
 

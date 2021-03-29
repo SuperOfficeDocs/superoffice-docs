@@ -1,10 +1,10 @@
 ---
-title: Void SetUpdatedRecords(NSChangedDataItem[] UpdatedRecords)
-path: /EJScript/Classes/NSChangedData/Member functions/Void SetUpdatedRecords(NSChangedDataItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSChangedData_SetUpdatedRecords_NSChangedDataItem__p_0
+description: NSChangedData.SetUpdatedRecords(NSChangedDataItem[] p_0)
+intellisense: NSChangedData.SetUpdatedRecords
 sortOrder: 1505
 keywords: SetUpdatedRecords(NSChangedDataItem[])
+so.topic: reference
 ---
 
 

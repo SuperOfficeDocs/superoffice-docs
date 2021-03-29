@@ -1,9 +1,9 @@
 ---
-title: NSAssociate GetRegisteredAssociate()
-path: /EJScript/Classes/NSWebhook/Member functions/NSAssociate GetRegisteredAssociate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebhook_GetRegisteredAssociate
+description: NSWebhook.GetRegisteredAssociate()
+intellisense: NSWebhook.GetRegisteredAssociate
 keywords: GetRegisteredAssociate()
+so.topic: reference
 ---
 
 

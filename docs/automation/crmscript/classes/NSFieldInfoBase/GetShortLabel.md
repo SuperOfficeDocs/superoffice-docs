@@ -1,10 +1,10 @@
 ---
-title: String GetShortLabel()
-path: /EJScript/Classes/NSFieldInfoBase/Member functions/String GetShortLabel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoBase_GetShortLabel
+description: NSFieldInfoBase.GetShortLabel()
+intellisense: NSFieldInfoBase.GetShortLabel
 sortOrder: 3472
 keywords: GetShortLabel()
+so.topic: reference
 ---
 
 

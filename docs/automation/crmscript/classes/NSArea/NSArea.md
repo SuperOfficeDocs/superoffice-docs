@@ -1,9 +1,9 @@
 ---
-title: NSArea
-path: /EJScript/Classes/NSArea
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArea
+description: NSArea
+intellisense: Void.NSArea
 sortOrder: 1238
+so.topic: reference
 ---
 
 

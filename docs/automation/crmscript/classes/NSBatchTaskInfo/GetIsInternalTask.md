@@ -1,10 +1,10 @@
 ---
-title: Bool GetIsInternalTask()
-path: /EJScript/Classes/NSBatchTaskInfo/Member functions/Bool GetIsInternalTask()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBatchTaskInfo_GetIsInternalTask
+description: NSBatchTaskInfo.GetIsInternalTask()
+intellisense: NSBatchTaskInfo.GetIsInternalTask
 sortOrder: 1364
 keywords: GetIsInternalTask()
+so.topic: reference
 ---
 
 

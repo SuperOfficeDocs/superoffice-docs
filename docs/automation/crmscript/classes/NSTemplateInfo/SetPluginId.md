@@ -1,9 +1,9 @@
 ---
-title: Void SetPluginId(Integer PluginId)
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetPluginId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo_SetPluginId_Integer_p_0
+description: NSTemplateInfo.SetPluginId(Integer p_0)
+intellisense: NSTemplateInfo.SetPluginId
 keywords: SetPluginId(Integer)
+so.topic: reference
 ---
 
 

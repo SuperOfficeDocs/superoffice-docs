@@ -1,10 +1,10 @@
 ---
-title: Void SetTo(NSEMailAddress[] To)
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Void SetTo(NSEMailAddress[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_SetTo_NSEMailAddress__p_0
+description: NSEMailEnvelope.SetTo(NSEMailAddress[] p_0)
+intellisense: NSEMailEnvelope.SetTo
 sortOrder: 3025
 keywords: SetTo(NSEMailAddress[])
+so.topic: reference
 ---
 
 

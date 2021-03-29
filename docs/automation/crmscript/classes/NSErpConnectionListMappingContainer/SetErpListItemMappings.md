@@ -1,10 +1,10 @@
 ---
-title: Void SetErpListItemMappings(NSErpConnectionListMapping[] ErpListItemMappings)
-path: /EJScript/Classes/NSErpConnectionListMappingContainer/Member functions/Void SetErpListItemMappings(NSErpConnectionListMapping[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMappingContainer_SetErpListItemMappings_NSErpConnectionListMapping__p_0
+description: NSErpConnectionListMappingContainer.SetErpListItemMappings(NSErpConnectionListMapping[] p_0)
+intellisense: NSErpConnectionListMappingContainer.SetErpListItemMappings
 sortOrder: 3141
 keywords: SetErpListItemMappings(NSErpConnectionListMapping[])
+so.topic: reference
 ---
 
 

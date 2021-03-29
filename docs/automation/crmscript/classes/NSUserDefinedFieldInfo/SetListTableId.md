@@ -1,9 +1,9 @@
 ---
-title: Void SetListTableId(Integer ListTableId)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetListTableId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetListTableId_Integer_p_0
+description: NSUserDefinedFieldInfo.SetListTableId(Integer p_0)
+intellisense: NSUserDefinedFieldInfo.SetListTableId
 keywords: SetListTableId(Integer)
+so.topic: reference
 ---
 
 

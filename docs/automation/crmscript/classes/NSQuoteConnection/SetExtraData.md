@@ -1,9 +1,9 @@
 ---
-title: Void SetExtraData(String ExtraData)
-path: /EJScript/Classes/NSQuoteConnection/Member functions/Void SetExtraData(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteConnection_SetExtraData_String_p_0
+description: NSQuoteConnection.SetExtraData(String p_0)
+intellisense: NSQuoteConnection.SetExtraData
 keywords: SetExtraData(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetErpFieldId(Integer ErpFieldId)
-path: /EJScript/Classes/NSErpConnectionListMapping/Member functions/Void SetErpFieldId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnectionListMapping_SetErpFieldId_Integer_p_0
+description: NSErpConnectionListMapping.SetErpFieldId(Integer p_0)
+intellisense: NSErpConnectionListMapping.SetErpFieldId
 sortOrder: 3132
 keywords: SetErpFieldId(Integer)
+so.topic: reference
 ---
 
 

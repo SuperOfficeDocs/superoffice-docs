@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSDashboardTileOption/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardTileOption_GetName
+description: NSDashboardTileOption.GetName()
+intellisense: NSDashboardTileOption.GetName
 sortOrder: 2323
 keywords: GetName()
+so.topic: reference
 ---
 
 

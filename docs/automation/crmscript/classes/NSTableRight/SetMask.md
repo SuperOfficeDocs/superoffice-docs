@@ -1,9 +1,9 @@
 ---
-title: Void SetMask(Integer p0)
-path: /EJScript/Classes/NSTableRight/Member functions/Void SetMask(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTableRight_SetMask_Integer_p_0
+description: NSTableRight.SetMask(Integer p_0)
+intellisense: NSTableRight.SetMask
 keywords: SetMask(Integer)
+so.topic: reference
 ---
 
 

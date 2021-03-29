@@ -1,9 +1,9 @@
 ---
-title: Void SetDescription(String Description)
-path: /EJScript/Classes/NSTemplateInfo/Member functions/Void SetDescription(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateInfo_SetDescription_String_p_0
+description: NSTemplateInfo.SetDescription(String p_0)
+intellisense: NSTemplateInfo.SetDescription
 keywords: SetDescription(String)
+so.topic: reference
 ---
 
 

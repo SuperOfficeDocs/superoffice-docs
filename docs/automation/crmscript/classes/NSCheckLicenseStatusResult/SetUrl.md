@@ -1,10 +1,10 @@
 ---
-title: Void SetUrl(String Url)
-path: /EJScript/Classes/NSCheckLicenseStatusResult/Member functions/Void SetUrl(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCheckLicenseStatusResult_SetUrl_String_p_0
+description: NSCheckLicenseStatusResult.SetUrl(String p_0)
+intellisense: NSCheckLicenseStatusResult.SetUrl
 sortOrder: 1557
 keywords: SetUrl(String)
+so.topic: reference
 ---
 
 

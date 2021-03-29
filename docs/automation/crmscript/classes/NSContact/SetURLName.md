@@ -1,10 +1,10 @@
 ---
-title: Void SetURLName(String URLName)
-path: /EJScript/Classes/NSContact/Member functions/Void SetURLName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContact_SetURLName_String_p_0
+description: NSContact.SetURLName(String p_0)
+intellisense: NSContact.SetURLName
 sortOrder: 1763
 keywords: SetURLName(String)
+so.topic: reference
 ---
 
 

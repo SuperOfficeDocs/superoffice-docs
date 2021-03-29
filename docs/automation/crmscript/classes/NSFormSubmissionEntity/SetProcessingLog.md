@@ -1,10 +1,10 @@
 ---
-title: Void SetProcessingLog(String ProcessingLog)
-path: /EJScript/Classes/NSFormSubmissionEntity/Member functions/Void SetProcessingLog(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormSubmissionEntity_SetProcessingLog_String_p_0
+description: NSFormSubmissionEntity.SetProcessingLog(String p_0)
+intellisense: NSFormSubmissionEntity.SetProcessingLog
 sortOrder: 3845
 keywords: SetProcessingLog(String)
+so.topic: reference
 ---
 
 

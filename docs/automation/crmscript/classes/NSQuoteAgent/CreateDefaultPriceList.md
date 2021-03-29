@@ -1,9 +1,9 @@
 ---
-title: NSPriceList CreateDefaultPriceList()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSPriceList CreateDefaultPriceList()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateDefaultPriceList
+description: NSQuoteAgent.CreateDefaultPriceList()
+intellisense: NSQuoteAgent.CreateDefaultPriceList
 keywords: CreateDefaultPriceList()
+so.topic: reference
 ---
 
 

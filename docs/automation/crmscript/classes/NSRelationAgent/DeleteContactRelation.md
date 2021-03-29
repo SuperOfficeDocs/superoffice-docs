@@ -1,9 +1,9 @@
 ---
-title: Void DeleteContactRelation(Integer contactRelationEntityId)
-path: /EJScript/Classes/NSRelationAgent/Member functions/Void DeleteContactRelation(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationAgent_DeleteContactRelation_Integer_p_0
+description: NSRelationAgent.DeleteContactRelation(Integer p_0)
+intellisense: NSRelationAgent.DeleteContactRelation
 keywords: DeleteContactRelation(Integer)
+so.topic: reference
 ---
 
 

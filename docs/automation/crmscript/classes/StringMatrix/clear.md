@@ -1,9 +1,9 @@
 ---
-title: Void clear()
-path: /EJScript/Classes/StringMatrix/Member functions/Void clear()
-intellisense: 1
-classref: 1
+title: crmscript_ref_StringMatrix_clear
+description: StringMatrix.clear()
+intellisense: StringMatrix.clear
 keywords: clear()
+so.topic: reference
 ---
 
 

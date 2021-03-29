@@ -1,9 +1,9 @@
 ---
-title: Integer GetId()
-path: /EJScript/Classes/NSTicketPriority/Member functions/Integer GetId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriority_GetId
+description: NSTicketPriority.GetId()
+intellisense: NSTicketPriority.GetId
 keywords: GetId()
+so.topic: reference
 ---
 
 

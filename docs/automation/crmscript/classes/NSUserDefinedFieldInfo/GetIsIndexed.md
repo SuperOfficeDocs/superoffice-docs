@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsIndexed()
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Bool GetIsIndexed()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_GetIsIndexed
+description: NSUserDefinedFieldInfo.GetIsIndexed()
+intellisense: NSUserDefinedFieldInfo.GetIsIndexed
 keywords: GetIsIndexed()
+so.topic: reference
 ---
 
 

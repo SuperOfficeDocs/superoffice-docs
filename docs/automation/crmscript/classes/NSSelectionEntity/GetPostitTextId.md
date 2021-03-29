@@ -1,9 +1,9 @@
 ---
-title: Integer GetPostitTextId()
-path: /EJScript/Classes/NSSelectionEntity/Member functions/Integer GetPostitTextId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionEntity_GetPostitTextId
+description: NSSelectionEntity.GetPostitTextId()
+intellisense: NSSelectionEntity.GetPostitTextId
 keywords: GetPostitTextId()
+so.topic: reference
 ---
 
 

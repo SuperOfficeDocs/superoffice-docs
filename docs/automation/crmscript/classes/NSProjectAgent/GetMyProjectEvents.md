@@ -1,9 +1,9 @@
 ---
-title: NSProjectEvent[] GetMyProjectEvents()
-path: /EJScript/Classes/NSProjectAgent/Member functions/NSProjectEvent[] GetMyProjectEvents()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectAgent_GetMyProjectEvents
+description: NSProjectAgent.GetMyProjectEvents()
+intellisense: NSProjectAgent.GetMyProjectEvents
 keywords: GetMyProjectEvents()
+so.topic: reference
 ---
 
 

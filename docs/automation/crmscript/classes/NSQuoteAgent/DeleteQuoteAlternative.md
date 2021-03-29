@@ -1,9 +1,9 @@
 ---
-title: Void DeleteQuoteAlternative(Integer quoteAlternativeId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/Void DeleteQuoteAlternative(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_DeleteQuoteAlternative_Integer_p_0
+description: NSQuoteAgent.DeleteQuoteAlternative(Integer p_0)
+intellisense: NSQuoteAgent.DeleteQuoteAlternative
 keywords: DeleteQuoteAlternative(Integer)
+so.topic: reference
 ---
 
 

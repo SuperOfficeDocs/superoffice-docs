@@ -1,9 +1,9 @@
 ---
-title: Void SetSaleDuration(Integer SaleDuration)
-path: /EJScript/Classes/NSSaleTypeEntity/Member functions/Void SetSaleDuration(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleTypeEntity_SetSaleDuration_Integer_p_0
+description: NSSaleTypeEntity.SetSaleDuration(Integer p_0)
+intellisense: NSSaleTypeEntity.SetSaleDuration
 keywords: SetSaleDuration(Integer)
+so.topic: reference
 ---
 
 

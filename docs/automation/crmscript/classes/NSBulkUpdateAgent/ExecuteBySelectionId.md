@@ -1,10 +1,10 @@
 ---
-title: Integer ExecuteBySelectionId(NSFieldValueInfo[] fieldValueInfos, String tableName, String context, Integer selectionId, Bool isShadow)
-path: /EJScript/Classes/NSBulkUpdateAgent/Member functions/Integer ExecuteBySelectionId(NSFieldValueInfo[] p_0, String p_1, String p_2, Integer p_3, Bool p_4)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSBulkUpdateAgent_ExecuteBySelectionId_NSFieldValueInfo__p_0_String_p_1_String_p_2_Integer_p_3_Bool_p_4
+description: NSBulkUpdateAgent.ExecuteBySelectionId(NSFieldValueInfo[] p_0, String p_1, String p_2, Integer p_3, Bool p_4)
+intellisense: NSBulkUpdateAgent.ExecuteBySelectionId
 sortOrder: 1470
 keywords: ExecuteBySelectionId(NSFieldValueInfo[],String,String,Integer,Bool)
+so.topic: reference
 ---
 
 

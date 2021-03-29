@@ -1,10 +1,10 @@
 ---
-title: String GetArchivedDisplayName()
-path: /EJScript/Classes/NSEMailSOInfo/Member functions/String GetArchivedDisplayName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailSOInfo_GetArchivedDisplayName
+description: NSEMailSOInfo.GetArchivedDisplayName()
+intellisense: NSEMailSOInfo.GetArchivedDisplayName
 sortOrder: 3051
 keywords: GetArchivedDisplayName()
+so.topic: reference
 ---
 
 

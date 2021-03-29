@@ -1,9 +1,9 @@
 ---
-title: Void SetChanges(NSChangedData Changes)
-path: /EJScript/Classes/NSPluginResponse/Member functions/Void SetChanges(NSChangedData p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPluginResponse_SetChanges_NSChangedData_p_0
+description: NSPluginResponse.SetChanges(NSChangedData p_0)
+intellisense: NSPluginResponse.SetChanges
 keywords: SetChanges(NSChangedData)
+so.topic: reference
 ---
 
 

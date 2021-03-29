@@ -1,10 +1,10 @@
 ---
-title: NSDashboard CreateDefaultDashboard()
-path: /EJScript/Classes/NSDashboardAgent/Member functions/NSDashboard CreateDefaultDashboard()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDashboardAgent_CreateDefaultDashboard
+description: NSDashboardAgent.CreateDefaultDashboard()
+intellisense: NSDashboardAgent.CreateDefaultDashboard
 sortOrder: 2272
 keywords: CreateDefaultDashboard()
+so.topic: reference
 ---
 
 

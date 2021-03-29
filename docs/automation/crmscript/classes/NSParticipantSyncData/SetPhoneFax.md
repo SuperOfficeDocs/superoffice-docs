@@ -1,9 +1,9 @@
 ---
-title: Void SetPhoneFax(String[] PhoneFax)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetPhoneFax(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetPhoneFax_String__p_0
+description: NSParticipantSyncData.SetPhoneFax(String[] p_0)
+intellisense: NSParticipantSyncData.SetPhoneFax
 keywords: SetPhoneFax(String[])
+so.topic: reference
 ---
 
 

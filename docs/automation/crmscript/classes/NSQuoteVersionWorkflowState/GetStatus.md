@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionStatusInformation GetStatus()
-path: /EJScript/Classes/NSQuoteVersionWorkflowState/Member functions/NSQuoteVersionStatusInformation GetStatus()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionWorkflowState_GetStatus
+description: NSQuoteVersionWorkflowState.GetStatus()
+intellisense: NSQuoteVersionWorkflowState.GetStatus
 keywords: GetStatus()
+so.topic: reference
 ---
 
 

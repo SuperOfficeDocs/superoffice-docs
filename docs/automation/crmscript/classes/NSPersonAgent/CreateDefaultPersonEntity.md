@@ -1,9 +1,9 @@
 ---
-title: NSPersonEntity CreateDefaultPersonEntity()
-path: /EJScript/Classes/NSPersonAgent/Member functions/NSPersonEntity CreateDefaultPersonEntity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_CreateDefaultPersonEntity
+description: NSPersonAgent.CreateDefaultPersonEntity()
+intellisense: NSPersonAgent.CreateDefaultPersonEntity
 keywords: CreateDefaultPersonEntity()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetEndDay()
-path: /EJScript/Classes/NSTimeZoneRule/Member functions/Integer GetEndDay()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneRule_GetEndDay
+description: NSTimeZoneRule.GetEndDay()
+intellisense: NSTimeZoneRule.GetEndDay
 keywords: GetEndDay()
+so.topic: reference
 ---
 
 

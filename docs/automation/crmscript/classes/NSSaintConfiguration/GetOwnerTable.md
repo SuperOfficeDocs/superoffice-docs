@@ -1,9 +1,9 @@
 ---
-title: Integer GetOwnerTable()
-path: /EJScript/Classes/NSSaintConfiguration/Member functions/Integer GetOwnerTable()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaintConfiguration_GetOwnerTable
+description: NSSaintConfiguration.GetOwnerTable()
+intellisense: NSSaintConfiguration.GetOwnerTable
 keywords: GetOwnerTable()
+so.topic: reference
 ---
 
 

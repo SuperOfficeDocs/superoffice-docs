@@ -1,9 +1,9 @@
 ---
-title: Void SetResourceId(Integer ResourceId)
-path: /EJScript/Classes/NSResourceEntity/Member functions/Void SetResourceId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceEntity_SetResourceId_Integer_p_0
+description: NSResourceEntity.SetResourceId(Integer p_0)
+intellisense: NSResourceEntity.SetResourceId
 keywords: SetResourceId(Integer)
+so.topic: reference
 ---
 
 

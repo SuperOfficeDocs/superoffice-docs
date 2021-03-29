@@ -1,10 +1,10 @@
 ---
-title: Void SetIconHint(String IconHint)
-path: /EJScript/Classes/NSCommandInfo/Member functions/Void SetIconHint(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCommandInfo_SetIconHint_String_p_0
+description: NSCommandInfo.SetIconHint(String p_0)
+intellisense: NSCommandInfo.SetIconHint
 sortOrder: 1575
 keywords: SetIconHint(String)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetFreeBusy(Bool p0)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetFreeBusy(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetFreeBusy_Bool_p_0
+description: NSAppointmentEntity.SetFreeBusy(Bool p_0)
+intellisense: NSAppointmentEntity.SetFreeBusy
 sortOrder: 1000
 keywords: SetFreeBusy(Bool)
+so.topic: reference
 ---
 
 

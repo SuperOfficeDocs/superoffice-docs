@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsHidden()
-path: /EJScript/Classes/NSModuleLicenseLink/Member functions/Bool GetIsHidden()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSModuleLicenseLink_GetIsHidden
+description: NSModuleLicenseLink.GetIsHidden()
+intellisense: NSModuleLicenseLink.GetIsHidden
 keywords: GetIsHidden()
+so.topic: reference
 ---
 
 

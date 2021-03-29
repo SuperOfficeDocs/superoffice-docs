@@ -1,9 +1,9 @@
 ---
-title: Void SetAssociate(NSAssociate Associate)
-path: /EJScript/Classes/NSSuggestedAppointment/Member functions/Void SetAssociate(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedAppointment_SetAssociate_NSAssociate_p_0
+description: NSSuggestedAppointment.SetAssociate(NSAssociate p_0)
+intellisense: NSSuggestedAppointment.SetAssociate
 keywords: SetAssociate(NSAssociate)
+so.topic: reference
 ---
 
 

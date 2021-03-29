@@ -1,9 +1,9 @@
 ---
-title: String GetThumbnail()
-path: /EJScript/Classes/NSQuoteLine/Member functions/String GetThumbnail()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLine_GetThumbnail
+description: NSQuoteLine.GetThumbnail()
+intellisense: NSQuoteLine.GetThumbnail
 keywords: GetThumbnail()
+so.topic: reference
 ---
 
 

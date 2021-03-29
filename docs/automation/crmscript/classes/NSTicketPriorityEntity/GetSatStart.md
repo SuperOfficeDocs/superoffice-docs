@@ -1,9 +1,9 @@
 ---
-title: DateTime GetSatStart()
-path: /EJScript/Classes/NSTicketPriorityEntity/Member functions/DateTime GetSatStart()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketPriorityEntity_GetSatStart
+description: NSTicketPriorityEntity.GetSatStart()
+intellisense: NSTicketPriorityEntity.GetSatStart
 keywords: GetSatStart()
+so.topic: reference
 ---
 
 

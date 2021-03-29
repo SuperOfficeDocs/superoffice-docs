@@ -1,10 +1,10 @@
 ---
-title: Void EmptyFolder(NSEMailConnectionInfo connectionInfo, String moveToFolder)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Void EmptyFolder(NSEMailConnectionInfo p_0, String p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_EmptyFolder_NSEMailConnectionInfo_p_0_String_p_1
+description: NSEMailAgent.EmptyFolder(NSEMailConnectionInfo p_0, String p_1)
+intellisense: NSEMailAgent.EmptyFolder
 sortOrder: 2860
 keywords: EmptyFolder(NSEMailConnectionInfo,String)
+so.topic: reference
 ---
 
 

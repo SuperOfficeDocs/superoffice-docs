@@ -1,10 +1,10 @@
 ---
-title: DateTime GetFromDate()
-path: /EJScript/Classes/NSActivityFilter/Member functions/DateTime GetFromDate()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityFilter_GetFromDate
+description: NSActivityFilter.GetFromDate()
+intellisense: NSActivityFilter.GetFromDate
 sortOrder: 569
 keywords: GetFromDate()
+so.topic: reference
 ---
 
 

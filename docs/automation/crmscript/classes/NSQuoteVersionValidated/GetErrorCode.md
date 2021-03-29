@@ -1,9 +1,9 @@
 ---
-title: String GetErrorCode()
-path: /EJScript/Classes/NSQuoteVersionValidated/Member functions/String GetErrorCode()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionValidated_GetErrorCode
+description: NSQuoteVersionValidated.GetErrorCode()
+intellisense: NSQuoteVersionValidated.GetErrorCode
 keywords: GetErrorCode()
+so.topic: reference
 ---
 
 

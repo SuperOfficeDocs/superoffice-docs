@@ -1,9 +1,9 @@
 ---
-title: Void SetProjectId(Integer ProjectId)
-path: /EJScript/Classes/NSMailMergeTask/Member functions/Void SetProjectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeTask_SetProjectId_Integer_p_0
+description: NSMailMergeTask.SetProjectId(Integer p_0)
+intellisense: NSMailMergeTask.SetProjectId
 keywords: SetProjectId(Integer)
+so.topic: reference
 ---
 
 

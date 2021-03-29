@@ -1,10 +1,10 @@
 ---
-title: Integer GetActiveStatusMonitorId()
-path: /EJScript/Classes/NSContactEntity/Member functions/Integer GetActiveStatusMonitorId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactEntity_GetActiveStatusMonitorId
+description: NSContactEntity.GetActiveStatusMonitorId()
+intellisense: NSContactEntity.GetActiveStatusMonitorId
 sortOrder: 1840
 keywords: GetActiveStatusMonitorId()
+so.topic: reference
 ---
 
 

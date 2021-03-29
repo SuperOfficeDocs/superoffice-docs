@@ -1,9 +1,9 @@
 ---
-title: Void SetResult(NSArchiveListResult Result)
-path: /EJScript/Classes/NSTileData/Member functions/Void SetResult(NSArchiveListResult p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTileData_SetResult_NSArchiveListResult_p_0
+description: NSTileData.SetResult(NSArchiveListResult p_0)
+intellisense: NSTileData.SetResult
 keywords: SetResult(NSArchiveListResult)
+so.topic: reference
 ---
 
 

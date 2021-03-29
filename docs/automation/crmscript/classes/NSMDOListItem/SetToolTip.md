@@ -1,9 +1,9 @@
 ---
-title: Void SetToolTip(String ToolTip)
-path: /EJScript/Classes/NSMDOListItem/Member functions/Void SetToolTip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMDOListItem_SetToolTip_String_p_0
+description: NSMDOListItem.SetToolTip(String p_0)
+intellisense: NSMDOListItem.SetToolTip
 keywords: SetToolTip(String)
+so.topic: reference
 ---
 
 

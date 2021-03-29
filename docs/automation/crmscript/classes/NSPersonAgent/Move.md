@@ -1,9 +1,9 @@
 ---
-title: Void Move(Integer personId, Integer destinationContactId, DateTime moveAfterDate)
-path: /EJScript/Classes/NSPersonAgent/Member functions/Void Move(Integer p_0, Integer p_1, DateTime p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonAgent_Move_Integer_p_0_Integer_p_1_DateTime_p_2
+description: NSPersonAgent.Move(Integer p_0, Integer p_1, DateTime p_2)
+intellisense: NSPersonAgent.Move
 keywords: Move(Integer,Integer,DateTime)
+so.topic: reference
 ---
 
 

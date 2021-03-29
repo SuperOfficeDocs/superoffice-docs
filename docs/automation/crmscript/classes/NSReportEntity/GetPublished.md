@@ -1,9 +1,9 @@
 ---
-title: Bool GetPublished()
-path: /EJScript/Classes/NSReportEntity/Member functions/Bool GetPublished()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReportEntity_GetPublished
+description: NSReportEntity.GetPublished()
+intellisense: NSReportEntity.GetPublished
 keywords: GetPublished()
+so.topic: reference
 ---
 
 

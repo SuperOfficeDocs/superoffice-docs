@@ -1,9 +1,9 @@
 ---
-title: Void SetCheckedInDate(DateTime CheckedInDate)
-path: /EJScript/Classes/NSVersionInfo/Member functions/Void SetCheckedInDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_SetCheckedInDate_DateTime_p_0
+description: NSVersionInfo.SetCheckedInDate(DateTime p_0)
+intellisense: NSVersionInfo.SetCheckedInDate
 keywords: SetCheckedInDate(DateTime)
+so.topic: reference
 ---
 
 

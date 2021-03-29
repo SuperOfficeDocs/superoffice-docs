@@ -1,9 +1,9 @@
 ---
-title: Integer GetPeriod1()
-path: /EJScript/Classes/NSStatusMonitorPeriods/Member functions/Integer GetPeriod1()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitorPeriods_GetPeriod1
+description: NSStatusMonitorPeriods.GetPeriod1()
+intellisense: NSStatusMonitorPeriods.GetPeriod1
 keywords: GetPeriod1()
+so.topic: reference
 ---
 
 

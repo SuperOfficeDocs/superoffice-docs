@@ -1,10 +1,10 @@
 ---
-title: Void SetProject(NSProject Project)
-path: /EJScript/Classes/NSDocumentEntity/Member functions/Void SetProject(NSProject p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentEntity_SetProject_NSProject_p_0
+description: NSDocumentEntity.SetProject(NSProject p_0)
+intellisense: NSDocumentEntity.SetProject
 sortOrder: 2606
 keywords: SetProject(NSProject)
+so.topic: reference
 ---
 
 

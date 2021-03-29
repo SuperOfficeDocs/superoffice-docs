@@ -1,10 +1,10 @@
 ---
-title: Integer GetSize()
-path: /EJScript/Classes/NSEMailEnvelope/Member functions/Integer GetSize()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEnvelope_GetSize
+description: NSEMailEnvelope.GetSize()
+intellisense: NSEMailEnvelope.GetSize
 sortOrder: 3006
 keywords: GetSize()
+so.topic: reference
 ---
 
 

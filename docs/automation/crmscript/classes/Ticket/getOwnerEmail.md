@@ -1,9 +1,9 @@
 ---
-title: String getOwnerEmail()
-path: /EJScript/Classes/Ticket/Member functions/String getOwnerEmail()
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_getOwnerEmail
+description: Ticket.getOwnerEmail()
+intellisense: Ticket.getOwnerEmail
 keywords: getOwnerEmail()
+so.topic: reference
 ---
 
 

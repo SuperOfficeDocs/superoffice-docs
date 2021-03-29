@@ -1,9 +1,9 @@
 ---
-title: Integer GetPersonId()
-path: /EJScript/Classes/NSSoPrincipalCarrier/Member functions/Integer GetPersonId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSoPrincipalCarrier_GetPersonId
+description: NSSoPrincipalCarrier.GetPersonId()
+intellisense: NSSoPrincipalCarrier.GetPersonId
 keywords: GetPersonId()
+so.topic: reference
 ---
 
 

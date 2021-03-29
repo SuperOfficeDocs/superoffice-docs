@@ -1,9 +1,9 @@
 ---
-title: NSSaleSummaryItem[] GetSales()
-path: /EJScript/Classes/NSPersonSummary/Member functions/NSSaleSummaryItem[] GetSales()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonSummary_GetSales
+description: NSPersonSummary.GetSales()
+intellisense: NSPersonSummary.GetSales
 keywords: GetSales()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer GetMailInFilterId()
-path: /EJScript/Classes/NSMailbox/Member functions/Integer GetMailInFilterId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailbox_GetMailInFilterId
+description: NSMailbox.GetMailInFilterId()
+intellisense: NSMailbox.GetMailInFilterId
 keywords: GetMailInFilterId()
+so.topic: reference
 ---
 
 

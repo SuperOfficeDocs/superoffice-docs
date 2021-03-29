@@ -1,10 +1,10 @@
 ---
-title: Integer GetAssignedBy()
-path: /EJScript/Classes/NSAppointment/Member functions/Integer GetAssignedBy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointment_GetAssignedBy
+description: NSAppointment.GetAssignedBy()
+intellisense: NSAppointment.GetAssignedBy
 sortOrder: 728
 keywords: GetAssignedBy()
+so.topic: reference
 ---
 
 

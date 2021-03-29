@@ -1,9 +1,9 @@
 ---
-title: Void SetUpdated(DateTime Updated)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetUpdated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetUpdated_DateTime_p_0
+description: NSQuoteVersion.SetUpdated(DateTime p_0)
+intellisense: NSQuoteVersion.SetUpdated
 keywords: SetUpdated(DateTime)
+so.topic: reference
 ---
 
 

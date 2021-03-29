@@ -1,10 +1,10 @@
 ---
-title: String getTableName()
-path: /EJScript/Classes/ExtraFieldsInfo/Member functions/String getTableName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraFieldsInfo_getTableName
+description: ExtraFieldsInfo.getTableName()
+intellisense: ExtraFieldsInfo.getTableName
 sortOrder: 309
 keywords: getTableName()
+so.topic: reference
 ---
 
 

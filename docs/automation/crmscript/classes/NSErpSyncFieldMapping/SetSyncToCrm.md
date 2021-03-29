@@ -1,10 +1,10 @@
 ---
-title: Void SetSyncToCrm(Bool SyncToCrm)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetSyncToCrm(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetSyncToCrm_Bool_p_0
+description: NSErpSyncFieldMapping.SetSyncToCrm(Bool p_0)
+intellisense: NSErpSyncFieldMapping.SetSyncToCrm
 sortOrder: 3321
 keywords: SetSyncToCrm(Bool)
+so.topic: reference
 ---
 
 

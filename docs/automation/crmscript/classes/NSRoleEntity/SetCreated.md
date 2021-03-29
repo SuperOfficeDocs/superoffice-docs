@@ -1,9 +1,9 @@
 ---
-title: Void SetCreated(DateTime Created)
-path: /EJScript/Classes/NSRoleEntity/Member functions/Void SetCreated(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRoleEntity_SetCreated_DateTime_p_0
+description: NSRoleEntity.SetCreated(DateTime p_0)
+intellisense: NSRoleEntity.SetCreated
 keywords: SetCreated(DateTime)
+so.topic: reference
 ---
 
 

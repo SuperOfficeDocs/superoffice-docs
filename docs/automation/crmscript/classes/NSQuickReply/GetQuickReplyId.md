@@ -1,9 +1,9 @@
 ---
-title: Integer GetQuickReplyId()
-path: /EJScript/Classes/NSQuickReply/Member functions/Integer GetQuickReplyId()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuickReply_GetQuickReplyId
+description: NSQuickReply.GetQuickReplyId()
+intellisense: NSQuickReply.GetQuickReplyId
 keywords: GetQuickReplyId()
+so.topic: reference
 ---
 
 

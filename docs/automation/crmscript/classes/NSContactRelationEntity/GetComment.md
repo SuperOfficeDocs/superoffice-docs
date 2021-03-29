@@ -1,10 +1,10 @@
 ---
-title: String GetComment()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetComment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetComment
+description: NSContactRelationEntity.GetComment()
+intellisense: NSContactRelationEntity.GetComment
 sortOrder: 1956
 keywords: GetComment()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSErpConnection/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpConnection_SetDisplayName_String_p_0
+description: NSErpConnection.SetDisplayName(String p_0)
+intellisense: NSErpConnection.SetDisplayName
 sortOrder: 3099
 keywords: SetDisplayName(String)
+so.topic: reference
 ---
 
 

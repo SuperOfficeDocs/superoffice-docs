@@ -1,9 +1,9 @@
 ---
-title: Integer AddSelectionMembers(Integer selectionId, Integer[] ids)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/Integer AddSelectionMembers(Integer p_0, Integer[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_AddSelectionMembers_Integer_p_0_Integer__p_1
+description: NSSelectionAgent.AddSelectionMembers(Integer p_0, Integer[] p_1)
+intellisense: NSSelectionAgent.AddSelectionMembers
 keywords: AddSelectionMembers(Integer,Integer[])
+so.topic: reference
 ---
 
 

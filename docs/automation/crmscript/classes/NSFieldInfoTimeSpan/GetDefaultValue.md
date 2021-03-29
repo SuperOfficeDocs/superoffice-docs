@@ -1,10 +1,10 @@
 ---
-title: Integer GetDefaultValue()
-path: /EJScript/Classes/NSFieldInfoTimeSpan/Member functions/Integer GetDefaultValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoTimeSpan_GetDefaultValue
+description: NSFieldInfoTimeSpan.GetDefaultValue()
+intellisense: NSFieldInfoTimeSpan.GetDefaultValue
 sortOrder: 3568
 keywords: GetDefaultValue()
+so.topic: reference
 ---
 
 

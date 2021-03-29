@@ -1,10 +1,10 @@
 ---
-title: Void LogOffWindowsUsers(Integer[] associateIds)
-path: /EJScript/Classes/NSAssociateAgent/Member functions/Void LogOffWindowsUsers(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAssociateAgent_LogOffWindowsUsers_Integer__p_0
+description: NSAssociateAgent.LogOffWindowsUsers(Integer[] p_0)
+intellisense: NSAssociateAgent.LogOffWindowsUsers
 sortOrder: 1286
 keywords: LogOffWindowsUsers(Integer[])
+so.topic: reference
 ---
 
 

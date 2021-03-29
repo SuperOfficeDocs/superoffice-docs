@@ -1,9 +1,9 @@
 ---
-title: Void setChildren(XMLNode[] children)
-path: /EJScript/Classes/XMLNode/Member functions/Void setChildren(XMLNode[] children)
-intellisense: 1
-classref: 1
+title: crmscript_ref_XMLNode_setChildren_XMLNode__children
+description: XMLNode.setChildren(XMLNode[] children)
+intellisense: XMLNode.setChildren
 keywords: setChildren(XMLNode[])
+so.topic: reference
 ---
 
 Set an array of XMLNodes as the children of the current node.

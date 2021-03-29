@@ -1,9 +1,9 @@
 ---
-title: Void SetEnabled(Bool Enabled)
-path: /EJScript/Classes/NSQuoteVersionButtonState/Member functions/Void SetEnabled(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersionButtonState_SetEnabled_Bool_p_0
+description: NSQuoteVersionButtonState.SetEnabled(Bool p_0)
+intellisense: NSQuoteVersionButtonState.SetEnabled
 keywords: SetEnabled(Bool)
+so.topic: reference
 ---
 
 

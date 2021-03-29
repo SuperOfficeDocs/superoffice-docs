@@ -1,9 +1,9 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSLegalBase/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLegalBase_GetName
+description: NSLegalBase.GetName()
+intellisense: NSLegalBase.GetName
 keywords: GetName()
+so.topic: reference
 ---
 
 

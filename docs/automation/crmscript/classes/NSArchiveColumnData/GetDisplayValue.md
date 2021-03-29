@@ -1,10 +1,10 @@
 ---
-title: String GetDisplayValue()
-path: /EJScript/Classes/NSArchiveColumnData/Member functions/String GetDisplayValue()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveColumnData_GetDisplayValue
+description: NSArchiveColumnData.GetDisplayValue()
+intellisense: NSArchiveColumnData.GetDisplayValue
 sortOrder: 1126
 keywords: GetDisplayValue()
+so.topic: reference
 ---
 
 

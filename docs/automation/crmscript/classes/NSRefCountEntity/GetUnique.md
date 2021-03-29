@@ -1,9 +1,9 @@
 ---
-title: Bool GetUnique()
-path: /EJScript/Classes/NSRefCountEntity/Member functions/Bool GetUnique()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRefCountEntity_GetUnique
+description: NSRefCountEntity.GetUnique()
+intellisense: NSRefCountEntity.GetUnique
 keywords: GetUnique()
+so.topic: reference
 ---
 
 

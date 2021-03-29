@@ -1,10 +1,10 @@
 ---
-title: Void SetArchiveRows(NSArchiveListItem[] ArchiveRows)
-path: /EJScript/Classes/NSFindResults/Member functions/Void SetArchiveRows(NSArchiveListItem[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFindResults_SetArchiveRows_NSArchiveListItem__p_0
+description: NSFindResults.SetArchiveRows(NSArchiveListItem[] p_0)
+intellisense: NSFindResults.SetArchiveRows
 sortOrder: 3694
 keywords: SetArchiveRows(NSArchiveListItem[])
+so.topic: reference
 ---
 
 

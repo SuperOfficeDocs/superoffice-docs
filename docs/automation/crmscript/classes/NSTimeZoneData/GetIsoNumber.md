@@ -1,9 +1,9 @@
 ---
-title: Integer GetIsoNumber()
-path: /EJScript/Classes/NSTimeZoneData/Member functions/Integer GetIsoNumber()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTimeZoneData_GetIsoNumber
+description: NSTimeZoneData.GetIsoNumber()
+intellisense: NSTimeZoneData.GetIsoNumber
 keywords: GetIsoNumber()
+so.topic: reference
 ---
 
 

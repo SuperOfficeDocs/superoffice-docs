@@ -1,10 +1,10 @@
 ---
-title: Void addBinaryData(Byte[] p_binaryData)
-path: /EJScript/Classes/HTTP/Member functions/Void addBinaryData(Byte[] p_binaryData)
-intellisense: 1
-classref: 1
+title: crmscript_ref_HTTP_addBinaryData_Byte__p_binaryData
+description: HTTP.addBinaryData(Byte[] p_binaryData)
+intellisense: HTTP.addBinaryData
 sortOrder: 418
 keywords: addBinaryData(Byte[])
+so.topic: reference
 ---
 
 This function will add the binary data to the body of the request. Must be used together with POST, PUT or PATCH.

@@ -1,9 +1,9 @@
 ---
-title: Void SetLocationAddress(String LocationAddress)
-path: /EJScript/Classes/NSResourceEntity/Member functions/Void SetLocationAddress(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResourceEntity_SetLocationAddress_String_p_0
+description: NSResourceEntity.SetLocationAddress(String p_0)
+intellisense: NSResourceEntity.SetLocationAddress
 keywords: SetLocationAddress(String)
+so.topic: reference
 ---
 
 

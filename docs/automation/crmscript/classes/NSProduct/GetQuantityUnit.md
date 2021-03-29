@@ -1,9 +1,9 @@
 ---
-title: String GetQuantityUnit()
-path: /EJScript/Classes/NSProduct/Member functions/String GetQuantityUnit()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProduct_GetQuantityUnit
+description: NSProduct.GetQuantityUnit()
+intellisense: NSProduct.GetQuantityUnit
 keywords: GetQuantityUnit()
+so.topic: reference
 ---
 
 

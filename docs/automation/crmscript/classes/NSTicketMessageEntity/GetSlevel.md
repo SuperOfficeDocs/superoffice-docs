@@ -1,9 +1,9 @@
 ---
-title: NSTicketSecurityLevel GetSlevel()
-path: /EJScript/Classes/NSTicketMessageEntity/Member functions/NSTicketSecurityLevel GetSlevel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketMessageEntity_GetSlevel
+description: NSTicketMessageEntity.GetSlevel()
+intellisense: NSTicketMessageEntity.GetSlevel
 keywords: GetSlevel()
+so.topic: reference
 ---
 
 

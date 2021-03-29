@@ -1,10 +1,10 @@
 ---
-title: Bool TestConnectionById(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Bool TestConnectionById(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_TestConnectionById_Integer_p_0
+description: NSErpSyncAgent.TestConnectionById(Integer p_0)
+intellisense: NSErpSyncAgent.TestConnectionById
 sortOrder: 3186
 keywords: TestConnectionById(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetErpFieldKey(String ErpFieldKey)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetErpFieldKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetErpFieldKey_String_p_0
+description: NSErpSyncFieldMapping.SetErpFieldKey(String p_0)
+intellisense: NSErpSyncFieldMapping.SetErpFieldKey
 sortOrder: 3313
 keywords: SetErpFieldKey(String)
+so.topic: reference
 ---
 
 

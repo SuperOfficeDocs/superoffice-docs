@@ -1,9 +1,9 @@
 ---
-title: String GetAdditionalInfo()
-path: /EJScript/Classes/NSReturnInfo/Member functions/String GetAdditionalInfo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSReturnInfo_GetAdditionalInfo
+description: NSReturnInfo.GetAdditionalInfo()
+intellisense: NSReturnInfo.GetAdditionalInfo
 keywords: GetAdditionalInfo()
+so.topic: reference
 ---
 
 

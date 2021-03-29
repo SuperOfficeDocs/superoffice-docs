@@ -1,10 +1,10 @@
 ---
-title: Void SetFolderName(String FolderName)
-path: /EJScript/Classes/NSEMailEntity/Member functions/Void SetFolderName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailEntity_SetFolderName_String_p_0
+description: NSEMailEntity.SetFolderName(String p_0)
+intellisense: NSEMailEntity.SetFolderName
 sortOrder: 2983
 keywords: SetFolderName(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Integer[] FindRolesWithoutFunctionalRights(String[] functionalRightNames)
-path: /EJScript/Classes/NSUserAgent/Member functions/Integer[] FindRolesWithoutFunctionalRights(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_FindRolesWithoutFunctionalRights_String__p_0
+description: NSUserAgent.FindRolesWithoutFunctionalRights(String[] p_0)
+intellisense: NSUserAgent.FindRolesWithoutFunctionalRights
 keywords: FindRolesWithoutFunctionalRights(String[])
+so.topic: reference
 ---
 
 

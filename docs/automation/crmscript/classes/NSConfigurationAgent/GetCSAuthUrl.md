@@ -1,10 +1,10 @@
 ---
-title: String GetCSAuthUrl(String language, String programName, String action, String extraParameters)
-path: /EJScript/Classes/NSConfigurationAgent/Member functions/String GetCSAuthUrl(String p_0, String p_1, String p_2, String p_3)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConfigurationAgent_GetCSAuthUrl_String_p_0_String_p_1_String_p_2_String_p_3
+description: NSConfigurationAgent.GetCSAuthUrl(String p_0, String p_1, String p_2, String p_3)
+intellisense: NSConfigurationAgent.GetCSAuthUrl
 sortOrder: 1607
 keywords: GetCSAuthUrl(String,String,String,String)
+so.topic: reference
 ---
 
 

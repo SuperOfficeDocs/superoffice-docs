@@ -1,9 +1,9 @@
 ---
-title: Void SetMessenger(String[] Messenger)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetMessenger(String[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetMessenger_String__p_0
+description: NSParticipantSyncData.SetMessenger(String[] p_0)
+intellisense: NSParticipantSyncData.SetMessenger
 keywords: SetMessenger(String[])
+so.topic: reference
 ---
 
 

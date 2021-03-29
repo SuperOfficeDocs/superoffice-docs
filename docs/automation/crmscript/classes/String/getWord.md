@@ -1,9 +1,9 @@
 ---
-title: String getWord(Integer num)
-path: /EJScript/Classes/String/Member functions/String getWord(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_String_getWord_Integer_num
+description: String.getWord(Integer num)
+intellisense: String.getWord
 keywords: getWord(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: DateTime addHour(Integer num)
-path: /EJScript/Classes/DateTime/Member functions/DateTime addHour(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_DateTime_addHour_Integer_num
+description: DateTime.addHour(Integer num)
+intellisense: DateTime.addHour
 sortOrder: 211
 keywords: addHour(Integer)
+so.topic: reference
 ---
 
 Adds num hours to the time and returns the datetime.

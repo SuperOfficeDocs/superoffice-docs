@@ -1,10 +1,10 @@
 ---
-title: Bool GetHasConflict()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Bool GetHasConflict()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetHasConflict
+description: NSAppointmentEntity.GetHasConflict()
+intellisense: NSAppointmentEntity.GetHasConflict
 sortOrder: 926
 keywords: GetHasConflict()
+so.topic: reference
 ---
 
 

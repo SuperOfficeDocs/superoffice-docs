@@ -1,9 +1,9 @@
 ---
-title: Integer GetSilentAfter()
-path: /EJScript/Classes/NSMultiAlarmData/Member functions/Integer GetSilentAfter()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMultiAlarmData_GetSilentAfter
+description: NSMultiAlarmData.GetSilentAfter()
+intellisense: NSMultiAlarmData.GetSilentAfter
 keywords: GetSilentAfter()
+so.topic: reference
 ---
 
 

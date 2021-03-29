@@ -1,10 +1,10 @@
 ---
-title: String GetActiveText()
-path: /EJScript/Classes/NSContactRelationEntity/Member functions/String GetActiveText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSContactRelationEntity_GetActiveText
+description: NSContactRelationEntity.GetActiveText()
+intellisense: NSContactRelationEntity.GetActiveText
 sortOrder: 1955
 keywords: GetActiveText()
+so.topic: reference
 ---
 
 

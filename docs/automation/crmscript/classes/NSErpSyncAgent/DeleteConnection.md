@@ -1,10 +1,10 @@
 ---
-title: Void DeleteConnection(Integer erpConnectionId)
-path: /EJScript/Classes/NSErpSyncAgent/Member functions/Void DeleteConnection(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncAgent_DeleteConnection_Integer_p_0
+description: NSErpSyncAgent.DeleteConnection(Integer p_0)
+intellisense: NSErpSyncAgent.DeleteConnection
 sortOrder: 3220
 keywords: DeleteConnection(Integer)
+so.topic: reference
 ---
 
 

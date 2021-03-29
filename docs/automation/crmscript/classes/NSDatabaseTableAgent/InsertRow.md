@@ -1,10 +1,10 @@
 ---
-title: Integer InsertRow(String tableName, StringDictionary values)
-path: /EJScript/Classes/NSDatabaseTableAgent/Member functions/Integer InsertRow(String p_0, StringDictionary p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDatabaseTableAgent_InsertRow_String_p_0_StringDictionary_p_1
+description: NSDatabaseTableAgent.InsertRow(String p_0, StringDictionary p_1)
+intellisense: NSDatabaseTableAgent.InsertRow
 sortOrder: 2338
 keywords: InsertRow(String,StringDictionary)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GenerateNewPasswordForExternalUser(String associateName)
-path: /EJScript/Classes/NSUserAgent/Member functions/String GenerateNewPasswordForExternalUser(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserAgent_GenerateNewPasswordForExternalUser_String_p_0
+description: NSUserAgent.GenerateNewPasswordForExternalUser(String p_0)
+intellisense: NSUserAgent.GenerateNewPasswordForExternalUser
 keywords: GenerateNewPasswordForExternalUser(String)
+so.topic: reference
 ---
 
 

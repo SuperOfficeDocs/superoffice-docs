@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSImportColumnInfo/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSImportColumnInfo_GetName
+description: NSImportColumnInfo.GetName()
+intellisense: NSImportColumnInfo.GetName
 sortOrder: 3962
 keywords: GetName()
+so.topic: reference
 ---
 
 

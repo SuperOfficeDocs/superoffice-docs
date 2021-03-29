@@ -1,9 +1,9 @@
 ---
-title: Integer GetTimeToReply()
-path: /EJScript/Classes/NSTicketEntity/Member functions/Integer GetTimeToReply()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_GetTimeToReply
+description: NSTicketEntity.GetTimeToReply()
+intellisense: NSTicketEntity.GetTimeToReply
 keywords: GetTimeToReply()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetOurRef()
-path: /EJScript/Classes/NSSuggestedDocumentEntity/Member functions/String GetOurRef()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSuggestedDocumentEntity_GetOurRef
+description: NSSuggestedDocumentEntity.GetOurRef()
+intellisense: NSSuggestedDocumentEntity.GetOurRef
 keywords: GetOurRef()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: String GetURLName()
-path: /EJScript/Classes/NSProject/Member functions/String GetURLName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProject_GetURLName
+description: NSProject.GetURLName()
+intellisense: NSProject.GetURLName
 keywords: GetURLName()
+so.topic: reference
 ---
 
 

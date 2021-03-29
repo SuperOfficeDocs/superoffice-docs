@@ -1,9 +1,9 @@
 ---
-title: Bool sendMessages(String subject, StringMatrix recipients, Bool fromCust, String messages, Integer msgId, String comment)
-path: /EJScript/Classes/Ticket/Member functions/Bool sendMessages(String subject, StringMatrix recipients, Bool fromCust, String messages, Integer msgId, String comment)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Ticket_sendMessages_String_subject_StringMatrix_recipients_Bool_fromCust_String_messages_Integer_msgId_String_comment
+description: Ticket.sendMessages(String subject, StringMatrix recipients, Bool fromCust, String messages, Integer msgId, String comment)
+intellisense: Ticket.sendMessages
 keywords: sendMessages(String,StringMatrix,Bool,String,Integer,String)
+so.topic: reference
 ---
 
 

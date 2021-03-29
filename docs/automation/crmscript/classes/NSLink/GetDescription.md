@@ -1,9 +1,9 @@
 ---
-title: String GetDescription()
-path: /EJScript/Classes/NSLink/Member functions/String GetDescription()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSLink_GetDescription
+description: NSLink.GetDescription()
+intellisense: NSLink.GetDescription
 keywords: GetDescription()
+so.topic: reference
 ---
 
 

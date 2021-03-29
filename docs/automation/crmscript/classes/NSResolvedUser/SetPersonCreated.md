@@ -1,9 +1,9 @@
 ---
-title: Void SetPersonCreated(Bool PersonCreated)
-path: /EJScript/Classes/NSResolvedUser/Member functions/Void SetPersonCreated(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSResolvedUser_SetPersonCreated_Bool_p_0
+description: NSResolvedUser.SetPersonCreated(Bool p_0)
+intellisense: NSResolvedUser.SetPersonCreated
 keywords: SetPersonCreated(Bool)
+so.topic: reference
 ---
 
 

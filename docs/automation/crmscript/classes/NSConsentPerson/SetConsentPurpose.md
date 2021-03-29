@@ -1,10 +1,10 @@
 ---
-title: Void SetConsentPurpose(NSConsentPurpose ConsentPurpose)
-path: /EJScript/Classes/NSConsentPerson/Member functions/Void SetConsentPurpose(NSConsentPurpose p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSConsentPerson_SetConsentPurpose_NSConsentPurpose_p_0
+description: NSConsentPerson.SetConsentPurpose(NSConsentPurpose p_0)
+intellisense: NSConsentPerson.SetConsentPurpose
 sortOrder: 1668
 keywords: SetConsentPurpose(NSConsentPurpose)
+so.topic: reference
 ---
 
 

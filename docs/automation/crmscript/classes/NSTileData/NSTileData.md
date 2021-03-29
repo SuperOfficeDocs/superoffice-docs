@@ -1,8 +1,8 @@
 ---
-title: NSTileData
-path: /EJScript/Classes/NSTileData
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTileData
+description: NSTileData
+intellisense: Void.NSTileData
+so.topic: reference
 ---
 
 

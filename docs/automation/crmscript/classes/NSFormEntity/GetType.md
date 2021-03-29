@@ -1,10 +1,10 @@
 ---
-title: NSFormType GetType()
-path: /EJScript/Classes/NSFormEntity/Member functions/NSFormType GetType()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFormEntity_GetType
+description: NSFormEntity.GetType()
+intellisense: NSFormEntity.GetType
 sortOrder: 3799
 keywords: GetType()
+so.topic: reference
 ---
 
 

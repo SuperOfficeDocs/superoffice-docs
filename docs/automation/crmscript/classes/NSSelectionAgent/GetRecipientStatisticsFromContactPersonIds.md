@@ -1,9 +1,9 @@
 ---
-title: NSRecipientStatistics GetRecipientStatisticsFromContactPersonIds(NSContactPersonId[] contactPersonIds)
-path: /EJScript/Classes/NSSelectionAgent/Member functions/NSRecipientStatistics GetRecipientStatisticsFromContactPersonIds(NSContactPersonId[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionAgent_GetRecipientStatisticsFromContactPersonIds_NSContactPersonId__p_0
+description: NSSelectionAgent.GetRecipientStatisticsFromContactPersonIds(NSContactPersonId[] p_0)
+intellisense: NSSelectionAgent.GetRecipientStatisticsFromContactPersonIds
 keywords: GetRecipientStatisticsFromContactPersonIds(NSContactPersonId[])
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: NSAppointment GetAppointment()
-path: /EJScript/Classes/NSEMailAppointment/Member functions/NSAppointment GetAppointment()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAppointment_GetAppointment
+description: NSEMailAppointment.GetAppointment()
+intellisense: NSEMailAppointment.GetAppointment
 sortOrder: 2879
 keywords: GetAppointment()
+so.topic: reference
 ---
 
 

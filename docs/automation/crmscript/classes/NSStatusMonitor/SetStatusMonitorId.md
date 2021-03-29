@@ -1,9 +1,9 @@
 ---
-title: Void SetStatusMonitorId(Integer StatusMonitorId)
-path: /EJScript/Classes/NSStatusMonitor/Member functions/Void SetStatusMonitorId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSStatusMonitor_SetStatusMonitorId_Integer_p_0
+description: NSStatusMonitor.SetStatusMonitorId(Integer p_0)
+intellisense: NSStatusMonitor.SetStatusMonitorId
 keywords: SetStatusMonitorId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSConsentSource SaveConsentSource(NSConsentSource p0)
-path: /EJScript/Classes/NSListAgent/Member functions/NSConsentSource SaveConsentSource(NSConsentSource p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_SaveConsentSource_NSConsentSource_p_0
+description: NSListAgent.SaveConsentSource(NSConsentSource p_0)
+intellisense: NSListAgent.SaveConsentSource
 keywords: SaveConsentSource(NSConsentSource)
+so.topic: reference
 ---
 
 

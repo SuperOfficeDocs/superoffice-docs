@@ -1,9 +1,9 @@
 ---
-title: NSProductFamily[] GetProductFamilies()
-path: /EJScript/Classes/NSListAgent/Member functions/NSProductFamily[] GetProductFamilies()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetProductFamilies
+description: NSListAgent.GetProductFamilies()
+intellisense: NSListAgent.GetProductFamilies
 keywords: GetProductFamilies()
+so.topic: reference
 ---
 
 

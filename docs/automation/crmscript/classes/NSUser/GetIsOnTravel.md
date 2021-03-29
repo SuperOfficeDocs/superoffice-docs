@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsOnTravel()
-path: /EJScript/Classes/NSUser/Member functions/Bool GetIsOnTravel()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUser_GetIsOnTravel
+description: NSUser.GetIsOnTravel()
+intellisense: NSUser.GetIsOnTravel
 keywords: GetIsOnTravel()
+so.topic: reference
 ---
 
 

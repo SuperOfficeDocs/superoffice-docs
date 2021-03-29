@@ -1,10 +1,10 @@
 ---
-title: Void SetInvitedPerson(NSPerson InvitedPerson)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetInvitedPerson(NSPerson p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetInvitedPerson_NSPerson_p_0
+description: NSAppointmentEntity.SetInvitedPerson(NSPerson p_0)
+intellisense: NSAppointmentEntity.SetInvitedPerson
 sortOrder: 1005
 keywords: SetInvitedPerson(NSPerson)
+so.topic: reference
 ---
 
 

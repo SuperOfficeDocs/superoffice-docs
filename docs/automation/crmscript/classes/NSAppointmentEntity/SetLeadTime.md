@@ -1,10 +1,10 @@
 ---
-title: Void SetLeadTime(TimeSpan LeadTime)
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Void SetLeadTime(TimeSpan p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_SetLeadTime_TimeSpan_p_0
+description: NSAppointmentEntity.SetLeadTime(TimeSpan p_0)
+intellisense: NSAppointmentEntity.SetLeadTime
 sortOrder: 1012
 keywords: SetLeadTime(TimeSpan)
+so.topic: reference
 ---
 
 

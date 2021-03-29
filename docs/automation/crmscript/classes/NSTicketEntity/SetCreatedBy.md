@@ -1,9 +1,9 @@
 ---
-title: Void SetCreatedBy(NSAssociate CreatedBy)
-path: /EJScript/Classes/NSTicketEntity/Member functions/Void SetCreatedBy(NSAssociate p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicketEntity_SetCreatedBy_NSAssociate_p_0
+description: NSTicketEntity.SetCreatedBy(NSAssociate p_0)
+intellisense: NSTicketEntity.SetCreatedBy
 keywords: SetCreatedBy(NSAssociate)
+so.topic: reference
 ---
 
 

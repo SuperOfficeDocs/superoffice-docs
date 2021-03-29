@@ -1,10 +1,10 @@
 ---
-title: String getName()
-path: /EJScript/Classes/MacroReturnValue/Member functions/String getName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_MacroReturnValue_getName
+description: MacroReturnValue.getName()
+intellisense: MacroReturnValue.getName
 sortOrder: 499
 keywords: getName()
+so.topic: reference
 ---
 
 

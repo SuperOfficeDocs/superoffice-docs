@@ -1,9 +1,9 @@
 ---
-title: Void SetHasOwnDeliveryAddress(Bool HasOwnDeliveryAddress)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetHasOwnDeliveryAddress(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetHasOwnDeliveryAddress_Bool_p_0
+description: NSQuoteVersion.SetHasOwnDeliveryAddress(Bool p_0)
+intellisense: NSQuoteVersion.SetHasOwnDeliveryAddress
 keywords: SetHasOwnDeliveryAddress(Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: Void SetQuoteLineConfigurationId(Integer QuoteLineConfigurationId)
-path: /EJScript/Classes/NSQuoteLineConfiguration/Member functions/Void SetQuoteLineConfigurationId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteLineConfiguration_SetQuoteLineConfigurationId_Integer_p_0
+description: NSQuoteLineConfiguration.SetQuoteLineConfigurationId(Integer p_0)
+intellisense: NSQuoteLineConfiguration.SetQuoteLineConfigurationId
 keywords: SetQuoteLineConfigurationId(Integer)
+so.topic: reference
 ---
 
 

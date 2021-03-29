@@ -1,9 +1,9 @@
 ---
-title: NSProduct CreateDefaultProduct()
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSProduct CreateDefaultProduct()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_CreateDefaultProduct
+description: NSQuoteAgent.CreateDefaultProduct()
+intellisense: NSQuoteAgent.CreateDefaultProduct
 keywords: CreateDefaultProduct()
+so.topic: reference
 ---
 
 

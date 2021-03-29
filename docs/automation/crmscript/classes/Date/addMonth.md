@@ -1,10 +1,10 @@
 ---
-title: Date addMonth(Integer num)
-path: /EJScript/Classes/Date/Member functions/Date addMonth(Integer num)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Date_addMonth_Integer_num
+description: Date.addMonth(Integer num)
+intellisense: Date.addMonth
 sortOrder: 198
 keywords: addMonth(Integer)
+so.topic: reference
 ---
 
 

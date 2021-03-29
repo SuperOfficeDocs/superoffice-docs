@@ -1,9 +1,9 @@
 ---
-title: Void SetEndDate(DateTime EndDate)
-path: /EJScript/Classes/NSProjectEntity/Member functions/Void SetEndDate(DateTime p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEntity_SetEndDate_DateTime_p_0
+description: NSProjectEntity.SetEndDate(DateTime p_0)
+intellisense: NSProjectEntity.SetEndDate
 keywords: SetEndDate(DateTime)
+so.topic: reference
 ---
 
 

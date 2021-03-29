@@ -1,9 +1,9 @@
 ---
-title: Map
-path: /EJScript/Classes/Map
-intellisense: 1
-classref: 1
+title: crmscript_ref_Map
+description: Map
+intellisense: Void.Map
 sortOrder: 522
+so.topic: reference
 ---
 
 

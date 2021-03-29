@@ -1,10 +1,10 @@
 ---
-title: Integer GetPercentageBusy()
-path: /EJScript/Classes/NSActivitySummary/Member functions/Integer GetPercentageBusy()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivitySummary_GetPercentageBusy
+description: NSActivitySummary.GetPercentageBusy()
+intellisense: NSActivitySummary.GetPercentageBusy
 sortOrder: 589
 keywords: GetPercentageBusy()
+so.topic: reference
 ---
 
 

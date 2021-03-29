@@ -1,10 +1,10 @@
 ---
-title: Void SetCrmFieldKey(String CrmFieldKey)
-path: /EJScript/Classes/NSErpSyncFieldMapping/Member functions/Void SetCrmFieldKey(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSErpSyncFieldMapping_SetCrmFieldKey_String_p_0
+description: NSErpSyncFieldMapping.SetCrmFieldKey(String p_0)
+intellisense: NSErpSyncFieldMapping.SetCrmFieldKey
 sortOrder: 3309
 keywords: SetCrmFieldKey(String)
+so.topic: reference
 ---
 
 

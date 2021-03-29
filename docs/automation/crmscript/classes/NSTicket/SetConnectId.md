@@ -1,9 +1,9 @@
 ---
-title: Void SetConnectId(Integer ConnectId)
-path: /EJScript/Classes/NSTicket/Member functions/Void SetConnectId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTicket_SetConnectId_Integer_p_0
+description: NSTicket.SetConnectId(Integer p_0)
+intellisense: NSTicket.SetConnectId
 keywords: SetConnectId(Integer)
+so.topic: reference
 ---
 
 

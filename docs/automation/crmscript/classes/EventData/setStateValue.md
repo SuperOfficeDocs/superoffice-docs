@@ -1,10 +1,10 @@
 ---
-title: Void setStateValue(String stateName, String val)
-path: /EJScript/Classes/EventData/member functions/Void setStateValue(String stateName, String val)
-intellisense: 1
-classref: 1
+title: crmscript_ref_EventData_setStateValue_String_stateName_String_val
+description: EventData.setStateValue(String stateName, String val)
+intellisense: EventData.setStateValue
 sortOrder: 299
 keywords: setStateValue(String,String)
+so.topic: reference
 ---
 
 This method sets a state value that can be accessed later, also by other EventData objects in the same script (i.e. custom value).

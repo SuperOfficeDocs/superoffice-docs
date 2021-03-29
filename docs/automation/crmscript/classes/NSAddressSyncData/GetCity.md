@@ -1,10 +1,10 @@
 ---
-title: String GetCity()
-path: /EJScript/Classes/NSAddressSyncData/Member functions/String GetCity()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAddressSyncData_GetCity
+description: NSAddressSyncData.GetCity()
+intellisense: NSAddressSyncData.GetCity
 sortOrder: 624
 keywords: GetCity()
+so.topic: reference
 ---
 
 

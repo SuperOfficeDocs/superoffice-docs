@@ -1,10 +1,10 @@
 ---
-title: Void SetRank(Integer Rank)
-path: /EJScript/Classes/NSDiaryViewEntity/Member functions/Void SetRank(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiaryViewEntity_SetRank_Integer_p_0
+description: NSDiaryViewEntity.SetRank(Integer p_0)
+intellisense: NSDiaryViewEntity.SetRank
 sortOrder: 2417
 keywords: SetRank(Integer)
+so.topic: reference
 ---
 
 

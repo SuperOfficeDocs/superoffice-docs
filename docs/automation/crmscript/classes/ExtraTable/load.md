@@ -1,10 +1,10 @@
 ---
-title: Bool load(Integer id)
-path: /EJScript/Classes/ExtraTable/Member functions/Bool load(Integer id)
-intellisense: 1
-classref: 1
+title: crmscript_ref_ExtraTable_load_Integer_id
+description: ExtraTable.load(Integer id)
+intellisense: ExtraTable.load
 sortOrder: 318
 keywords: load(Integer)
+so.topic: reference
 ---
 
 Loads the extra table entry with the given id

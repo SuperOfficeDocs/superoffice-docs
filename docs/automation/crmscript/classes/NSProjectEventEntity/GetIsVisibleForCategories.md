@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsVisibleForCategories()
-path: /EJScript/Classes/NSProjectEventEntity/Member functions/Bool GetIsVisibleForCategories()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSProjectEventEntity_GetIsVisibleForCategories
+description: NSProjectEventEntity.GetIsVisibleForCategories()
+intellisense: NSProjectEventEntity.GetIsVisibleForCategories
 keywords: GetIsVisibleForCategories()
+so.topic: reference
 ---
 
 

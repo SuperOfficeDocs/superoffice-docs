@@ -1,9 +1,9 @@
 ---
-title: Void setHour(Integer hour)
-path: /EJScript/Classes/Time/Member functions/Void setHour(Integer hour)
-intellisense: 1
-classref: 1
+title: crmscript_ref_Time_setHour_Integer_hour
+description: Time.setHour(Integer hour)
+intellisense: Time.setHour
 keywords: setHour(Integer)
+so.topic: reference
 ---
 
 

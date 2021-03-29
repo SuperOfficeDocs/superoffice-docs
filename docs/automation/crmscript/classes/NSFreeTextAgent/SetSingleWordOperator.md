@@ -1,10 +1,10 @@
 ---
-title: Void SetSingleWordOperator(Integer freeTextOperator)
-path: /EJScript/Classes/NSFreeTextAgent/Member functions/Void SetSingleWordOperator(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFreeTextAgent_SetSingleWordOperator_Integer_p_0
+description: NSFreeTextAgent.SetSingleWordOperator(Integer p_0)
+intellisense: NSFreeTextAgent.SetSingleWordOperator
 sortOrder: 3877
 keywords: SetSingleWordOperator(Integer)
+so.topic: reference
 ---
 
 

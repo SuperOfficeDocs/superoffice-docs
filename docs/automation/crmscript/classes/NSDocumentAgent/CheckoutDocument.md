@@ -1,10 +1,10 @@
 ---
-title: NSReturnInfo CheckoutDocument(Integer documentId, String[] allowedReturnTypes)
-path: /EJScript/Classes/NSDocumentAgent/Member functions/NSReturnInfo CheckoutDocument(Integer p_0, String[] p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDocumentAgent_CheckoutDocument_Integer_p_0_String__p_1
+description: NSDocumentAgent.CheckoutDocument(Integer p_0, String[] p_1)
+intellisense: NSDocumentAgent.CheckoutDocument
 sortOrder: 2510
 keywords: CheckoutDocument(Integer,String[])
+so.topic: reference
 ---
 
 

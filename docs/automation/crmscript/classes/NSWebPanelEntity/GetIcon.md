@@ -1,9 +1,9 @@
 ---
-title: Integer GetIcon()
-path: /EJScript/Classes/NSWebPanelEntity/Member functions/Integer GetIcon()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSWebPanelEntity_GetIcon
+description: NSWebPanelEntity.GetIcon()
+intellisense: NSWebPanelEntity.GetIcon
 keywords: GetIcon()
+so.topic: reference
 ---
 
 

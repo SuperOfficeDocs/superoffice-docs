@@ -1,9 +1,9 @@
 ---
-title: NSFieldInfoLongText
-path: /EJScript/Classes/NSFieldInfoLongText
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldInfoLongText
+description: NSFieldInfoLongText
+intellisense: Void.NSFieldInfoLongText
 sortOrder: 3517
+so.topic: reference
 ---
 
 

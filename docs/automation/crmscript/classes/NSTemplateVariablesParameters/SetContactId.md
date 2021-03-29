@@ -1,9 +1,9 @@
 ---
-title: Void SetContactId(Integer ContactId)
-path: /EJScript/Classes/NSTemplateVariablesParameters/Member functions/Void SetContactId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTemplateVariablesParameters_SetContactId_Integer_p_0
+description: NSTemplateVariablesParameters.SetContactId(Integer p_0)
+intellisense: NSTemplateVariablesParameters.SetContactId
 keywords: SetContactId(Integer)
+so.topic: reference
 ---
 
 

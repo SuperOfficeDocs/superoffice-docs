@@ -1,9 +1,9 @@
 ---
-title: String GetPersonDirectPhone()
-path: /EJScript/Classes/NSPhoneListItem/Member functions/String GetPersonDirectPhone()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPhoneListItem_GetPersonDirectPhone
+description: NSPhoneListItem.GetPersonDirectPhone()
+intellisense: NSPhoneListItem.GetPersonDirectPhone
 keywords: GetPersonDirectPhone()
+so.topic: reference
 ---
 
 

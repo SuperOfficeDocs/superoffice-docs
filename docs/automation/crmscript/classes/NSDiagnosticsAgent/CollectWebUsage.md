@@ -1,10 +1,10 @@
 ---
-title: Void CollectWebUsage()
-path: /EJScript/Classes/NSDiagnosticsAgent/Member functions/Void CollectWebUsage()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSDiagnosticsAgent_CollectWebUsage
+description: NSDiagnosticsAgent.CollectWebUsage()
+intellisense: NSDiagnosticsAgent.CollectWebUsage
 sortOrder: 2397
 keywords: CollectWebUsage()
+so.topic: reference
 ---
 
 

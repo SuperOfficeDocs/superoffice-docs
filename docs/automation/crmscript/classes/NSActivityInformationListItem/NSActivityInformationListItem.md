@@ -1,9 +1,9 @@
 ---
-title: NSActivityInformationListItem
-path: /EJScript/Classes/NSActivityInformationListItem
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSActivityInformationListItem
+description: NSActivityInformationListItem
+intellisense: Void.NSActivityInformationListItem
 sortOrder: 579
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-title: NSQuoteVersionValidated UpdateQuoteVersionPrices(Integer quoteVersionId)
-path: /EJScript/Classes/NSQuoteAgent/Member functions/NSQuoteVersionValidated UpdateQuoteVersionPrices(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteAgent_UpdateQuoteVersionPrices_Integer_p_0
+description: NSQuoteAgent.UpdateQuoteVersionPrices(Integer p_0)
+intellisense: NSQuoteAgent.UpdateQuoteVersionPrices
 keywords: UpdateQuoteVersionPrices(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetName()
-path: /EJScript/Classes/NSArchiveRestrictionGroup/Member functions/String GetName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSArchiveRestrictionGroup_GetName
+description: NSArchiveRestrictionGroup.GetName()
+intellisense: NSArchiveRestrictionGroup.GetName
 sortOrder: 1205
 keywords: GetName()
+so.topic: reference
 ---
 
 

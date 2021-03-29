@@ -1,10 +1,10 @@
 ---
-title: Integer GetRank()
-path: /EJScript/Classes/NSExtAppEntity/Member functions/Integer GetRank()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSExtAppEntity_GetRank
+description: NSExtAppEntity.GetRank()
+intellisense: NSExtAppEntity.GetRank
 sortOrder: 3369
 keywords: GetRank()
+so.topic: reference
 ---
 
 

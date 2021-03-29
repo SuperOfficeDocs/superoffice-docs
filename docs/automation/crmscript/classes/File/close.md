@@ -1,10 +1,10 @@
 ---
-title: Void close()
-path: /EJScript/Classes/File/Member functions/Void close()
-intellisense: 1
-classref: 1
+title: crmscript_ref_File_close
+description: File.close()
+intellisense: File.close
 sortOrder: 349
 keywords: close()
+so.topic: reference
 ---
 
 

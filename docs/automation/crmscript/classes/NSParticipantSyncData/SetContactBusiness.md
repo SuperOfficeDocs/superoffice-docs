@@ -1,9 +1,9 @@
 ---
-title: Void SetContactBusiness(String ContactBusiness)
-path: /EJScript/Classes/NSParticipantSyncData/Member functions/Void SetContactBusiness(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSParticipantSyncData_SetContactBusiness_String_p_0
+description: NSParticipantSyncData.SetContactBusiness(String p_0)
+intellisense: NSParticipantSyncData.SetContactBusiness
 keywords: SetContactBusiness(String)
+so.topic: reference
 ---
 
 

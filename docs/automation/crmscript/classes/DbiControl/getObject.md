@@ -1,10 +1,10 @@
 ---
-title: Map getObject()
-path: /EJScript/Classes/DbiControl/Member functions/Map getObject()
-intellisense: 1
-classref: 1
+title: crmscript_ref_DbiControl_getObject
+description: DbiControl.getObject()
+intellisense: DbiControl.getObject
 sortOrder: 253
 keywords: getObject()
+so.topic: reference
 ---
 
 

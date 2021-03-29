@@ -1,10 +1,10 @@
 ---
-title: Bool UpdateAppointmentFromIcsResponse(String emailAddress, NSStream icsData)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/Bool UpdateAppointmentFromIcsResponse(String p_0, NSStream p_1)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_UpdateAppointmentFromIcsResponse_String_p_0_NSStream_p_1
+description: NSAppointmentAgent.UpdateAppointmentFromIcsResponse(String p_0, NSStream p_1)
+intellisense: NSAppointmentAgent.UpdateAppointmentFromIcsResponse
 sortOrder: 825
 keywords: UpdateAppointmentFromIcsResponse(String,NSStream)
+so.topic: reference
 ---
 
 

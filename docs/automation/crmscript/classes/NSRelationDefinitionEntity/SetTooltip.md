@@ -1,9 +1,9 @@
 ---
-title: Void SetTooltip(String Tooltip)
-path: /EJScript/Classes/NSRelationDefinitionEntity/Member functions/Void SetTooltip(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSRelationDefinitionEntity_SetTooltip_String_p_0
+description: NSRelationDefinitionEntity.SetTooltip(String p_0)
+intellisense: NSRelationDefinitionEntity.SetTooltip
 keywords: SetTooltip(String)
+so.topic: reference
 ---
 
 

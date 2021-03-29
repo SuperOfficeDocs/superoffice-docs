@@ -1,9 +1,9 @@
 ---
-title: Void SetFollowupId(Integer FollowupId)
-path: /EJScript/Classes/NSQuoteVersion/Member functions/Void SetFollowupId(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuoteVersion_SetFollowupId_Integer_p_0
+description: NSQuoteVersion.SetFollowupId(Integer p_0)
+intellisense: NSQuoteVersion.SetFollowupId
 keywords: SetFollowupId(Integer)
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: String GetEnglishName()
-path: /EJScript/Classes/NSCountry/Member functions/String GetEnglishName()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCountry_GetEnglishName
+description: NSCountry.GetEnglishName()
+intellisense: NSCountry.GetEnglishName
 sortOrder: 2021
 keywords: GetEnglishName()
+so.topic: reference
 ---
 
 

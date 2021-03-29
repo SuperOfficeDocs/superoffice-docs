@@ -1,9 +1,9 @@
 ---
-title: Bool GetIsDefaultFree()
-path: /EJScript/Classes/NSTaskListItem/Member functions/Bool GetIsDefaultFree()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSTaskListItem_GetIsDefaultFree
+description: NSTaskListItem.GetIsDefaultFree()
+intellisense: NSTaskListItem.GetIsDefaultFree
 keywords: GetIsDefaultFree()
+so.topic: reference
 ---
 
 

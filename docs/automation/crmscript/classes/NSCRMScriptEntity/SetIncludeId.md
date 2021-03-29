@@ -1,10 +1,10 @@
 ---
-title: Void SetIncludeId(String IncludeId)
-path: /EJScript/Classes/NSCRMScriptEntity/Member functions/Void SetIncludeId(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSCRMScriptEntity_SetIncludeId_String_p_0
+description: NSCRMScriptEntity.SetIncludeId(String p_0)
+intellisense: NSCRMScriptEntity.SetIncludeId
 sortOrder: 2141
 keywords: SetIncludeId(String)
+so.topic: reference
 ---
 
 

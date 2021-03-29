@@ -1,9 +1,9 @@
 ---
-title: Void CreateMessage(NSIncomingMessage p0)
-path: /EJScript/Classes/NSMessagingAgent/Member functions/Void CreateMessage(NSIncomingMessage p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMessagingAgent_CreateMessage_NSIncomingMessage_p_0
+description: NSMessagingAgent.CreateMessage(NSIncomingMessage p_0)
+intellisense: NSMessagingAgent.CreateMessage
 keywords: CreateMessage(NSIncomingMessage)
+so.topic: reference
 ---
 
 

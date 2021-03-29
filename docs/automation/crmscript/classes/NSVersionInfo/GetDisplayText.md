@@ -1,9 +1,9 @@
 ---
-title: String GetDisplayText()
-path: /EJScript/Classes/NSVersionInfo/Member functions/String GetDisplayText()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSVersionInfo_GetDisplayText
+description: NSVersionInfo.GetDisplayText()
+intellisense: NSVersionInfo.GetDisplayText
 keywords: GetDisplayText()
+so.topic: reference
 ---
 
 

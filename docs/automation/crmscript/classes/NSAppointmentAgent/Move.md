@@ -1,10 +1,10 @@
 ---
-title: NSAppointmentEntity Move(Integer appointmentId, DateTime newStartTime, Integer updateMode)
-path: /EJScript/Classes/NSAppointmentAgent/Member functions/NSAppointmentEntity Move(Integer p_0, DateTime p_1, Integer p_2)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentAgent_Move_Integer_p_0_DateTime_p_1_Integer_p_2
+description: NSAppointmentAgent.Move(Integer p_0, DateTime p_1, Integer p_2)
+intellisense: NSAppointmentAgent.Move
 sortOrder: 882
 keywords: Move(Integer,DateTime,Integer)
+so.topic: reference
 ---
 
 

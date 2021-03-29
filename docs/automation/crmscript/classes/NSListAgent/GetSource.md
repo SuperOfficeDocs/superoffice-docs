@@ -1,9 +1,9 @@
 ---
-title: NSSource GetSource(Integer sourceId)
-path: /EJScript/Classes/NSListAgent/Member functions/NSSource GetSource(Integer p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSListAgent_GetSource_Integer_p_0
+description: NSListAgent.GetSource(Integer p_0)
+intellisense: NSListAgent.GetSource
 keywords: GetSource(Integer)
+so.topic: reference
 ---
 
 

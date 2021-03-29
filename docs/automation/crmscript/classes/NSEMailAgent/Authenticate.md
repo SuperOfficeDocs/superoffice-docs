@@ -1,10 +1,10 @@
 ---
-title: Bool Authenticate(NSEMailConnectionInfoExtended p0)
-path: /EJScript/Classes/NSEMailAgent/Member functions/Bool Authenticate(NSEMailConnectionInfoExtended p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_Authenticate_NSEMailConnectionInfoExtended_p_0
+description: NSEMailAgent.Authenticate(NSEMailConnectionInfoExtended p_0)
+intellisense: NSEMailAgent.Authenticate
 sortOrder: 2782
 keywords: Authenticate(NSEMailConnectionInfoExtended)
+so.topic: reference
 ---
 
 

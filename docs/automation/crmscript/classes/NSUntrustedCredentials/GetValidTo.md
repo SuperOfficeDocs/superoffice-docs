@@ -1,9 +1,9 @@
 ---
-title: DateTime GetValidTo()
-path: /EJScript/Classes/NSUntrustedCredentials/Member functions/DateTime GetValidTo()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUntrustedCredentials_GetValidTo
+description: NSUntrustedCredentials.GetValidTo()
+intellisense: NSUntrustedCredentials.GetValidTo
 keywords: GetValidTo()
+so.topic: reference
 ---
 
 

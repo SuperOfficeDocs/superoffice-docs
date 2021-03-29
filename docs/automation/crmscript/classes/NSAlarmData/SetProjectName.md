@@ -1,10 +1,10 @@
 ---
-title: Void SetProjectName(String ProjectName)
-path: /EJScript/Classes/NSAlarmData/Member functions/Void SetProjectName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAlarmData_SetProjectName_String_p_0
+description: NSAlarmData.SetProjectName(String p_0)
+intellisense: NSAlarmData.SetProjectName
 sortOrder: 688
 keywords: SetProjectName(String)
+so.topic: reference
 ---
 
 

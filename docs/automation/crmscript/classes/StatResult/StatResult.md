@@ -1,8 +1,8 @@
 ---
-title: StatResult
-path: /EJScript/Classes/StatResult
-intellisense: 1
-classref: 1
+title: crmscript_ref_StatResult
+description: StatResult
+intellisense: Void.StatResult
+so.topic: reference
 ---
 
 

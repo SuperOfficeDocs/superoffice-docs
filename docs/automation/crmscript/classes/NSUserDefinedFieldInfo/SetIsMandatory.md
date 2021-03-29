@@ -1,9 +1,9 @@
 ---
-title: Void SetIsMandatory(Bool IsMandatory)
-path: /EJScript/Classes/NSUserDefinedFieldInfo/Member functions/Void SetIsMandatory(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSUserDefinedFieldInfo_SetIsMandatory_Bool_p_0
+description: NSUserDefinedFieldInfo.SetIsMandatory(Bool p_0)
+intellisense: NSUserDefinedFieldInfo.SetIsMandatory
 keywords: SetIsMandatory(Bool)
+so.topic: reference
 ---
 
 

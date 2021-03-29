@@ -1,10 +1,10 @@
 ---
-title: Void SetBlockExecution(Bool BlockExecution)
-path: /EJScript/Classes/NSEventData/Member functions/Void SetBlockExecution(Bool p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEventData_SetBlockExecution_Bool_p_0
+description: NSEventData.SetBlockExecution(Bool p_0)
+intellisense: NSEventData.SetBlockExecution
 sortOrder: 3347
 keywords: SetBlockExecution(Bool)
+so.topic: reference
 ---
 
 

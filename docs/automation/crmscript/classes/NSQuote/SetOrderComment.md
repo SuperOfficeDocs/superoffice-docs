@@ -1,9 +1,9 @@
 ---
-title: Void SetOrderComment(String OrderComment)
-path: /EJScript/Classes/NSQuote/Member functions/Void SetOrderComment(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSQuote_SetOrderComment_String_p_0
+description: NSQuote.SetOrderComment(String p_0)
+intellisense: NSQuote.SetOrderComment
 keywords: SetOrderComment(String)
+so.topic: reference
 ---
 
 

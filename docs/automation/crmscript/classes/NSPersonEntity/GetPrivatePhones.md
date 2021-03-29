@@ -1,9 +1,9 @@
 ---
-title: NSEntityElement[] GetPrivatePhones()
-path: /EJScript/Classes/NSPersonEntity/Member functions/NSEntityElement[] GetPrivatePhones()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSPersonEntity_GetPrivatePhones
+description: NSPersonEntity.GetPrivatePhones()
+intellisense: NSPersonEntity.GetPrivatePhones
 keywords: GetPrivatePhones()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Integer GetActiveLinks()
-path: /EJScript/Classes/NSAppointmentEntity/Member functions/Integer GetActiveLinks()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSAppointmentEntity_GetActiveLinks
+description: NSAppointmentEntity.GetActiveLinks()
+intellisense: NSAppointmentEntity.GetActiveLinks
 sortOrder: 939
 keywords: GetActiveLinks()
+so.topic: reference
 ---
 
 

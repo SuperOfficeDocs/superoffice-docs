@@ -1,9 +1,9 @@
 ---
-title: Integer GetCompanyOurContact()
-path: /EJScript/Classes/NSSelectionMemberEditValues/Member functions/Integer GetCompanyOurContact()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSelectionMemberEditValues_GetCompanyOurContact
+description: NSSelectionMemberEditValues.GetCompanyOurContact()
+intellisense: NSSelectionMemberEditValues.GetCompanyOurContact
 keywords: GetCompanyOurContact()
+so.topic: reference
 ---
 
 

@@ -1,10 +1,10 @@
 ---
-title: Void SetDisplayName(String DisplayName)
-path: /EJScript/Classes/NSFieldMetadata/Member functions/Void SetDisplayName(String p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSFieldMetadata_SetDisplayName_String_p_0
+description: NSFieldMetadata.SetDisplayName(String p_0)
+intellisense: NSFieldMetadata.SetDisplayName
 sortOrder: 3588
 keywords: SetDisplayName(String)
+so.topic: reference
 ---
 
 

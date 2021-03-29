@@ -1,9 +1,9 @@
 ---
-title: Bool GetSaveDocument()
-path: /EJScript/Classes/NSMailMergeSettings/Member functions/Bool GetSaveDocument()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSMailMergeSettings_GetSaveDocument
+description: NSMailMergeSettings.GetSaveDocument()
+intellisense: NSMailMergeSettings.GetSaveDocument
 keywords: GetSaveDocument()
+so.topic: reference
 ---
 
 

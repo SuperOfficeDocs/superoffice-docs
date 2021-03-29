@@ -1,10 +1,10 @@
 ---
-title: NSEMailAddress CreateDefaultEMailAddress()
-path: /EJScript/Classes/NSEMailAgent/Member functions/NSEMailAddress CreateDefaultEMailAddress()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSEMailAgent_CreateDefaultEMailAddress
+description: NSEMailAgent.CreateDefaultEMailAddress()
+intellisense: NSEMailAgent.CreateDefaultEMailAddress
 sortOrder: 2799
 keywords: CreateDefaultEMailAddress()
+so.topic: reference
 ---
 
 

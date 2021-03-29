@@ -1,9 +1,9 @@
 ---
-title: Integer GetOpen()
-path: /EJScript/Classes/NSSaleSummary/Member functions/Integer GetOpen()
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleSummary_GetOpen
+description: NSSaleSummary.GetOpen()
+intellisense: NSSaleSummary.GetOpen
 keywords: GetOpen()
+so.topic: reference
 ---
 
 

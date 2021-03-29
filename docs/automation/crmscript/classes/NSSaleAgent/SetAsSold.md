@@ -1,9 +1,9 @@
 ---
-title: Void SetAsSold(Integer[] saleIds)
-path: /EJScript/Classes/NSSaleAgent/Member functions/Void SetAsSold(Integer[] p_0)
-intellisense: 1
-classref: 1
+title: crmscript_ref_NSSaleAgent_SetAsSold_Integer__p_0
+description: NSSaleAgent.SetAsSold(Integer[] p_0)
+intellisense: NSSaleAgent.SetAsSold
 keywords: SetAsSold(Integer[])
+so.topic: reference
 ---
 
 
