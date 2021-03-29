@@ -5,8 +5,6 @@ items:
     href: ../apps/custom.md
   - name: Client ID  and secret
     href: ../apps/client-id-secret.md
-  - name: App store
-    href: ../apps/app-store.md
   - name: Requirements
     href: ../apps/requirements/index.md
     items:
@@ -49,6 +47,19 @@ items:
       href: ../apps/getting-started/integration-points.md
     - name: What API to use?
       href: ../apps/getting-started/what-api-to-use.md
+  - name: Tenant status
+    href: ../apps/tenant-status/index.md
+    items:
+    - name: Online tenant status
+      href: ../apps/tenant-status/online-tenant-status.md
+    - name: Check status
+      href: ../apps/tenant-status/check-status.md
+    - name: Manage status changes
+      href: ../apps/tenant-status/manage-status-changes.md
+    - name: Get notifications
+      href: ../apps/tenant-status/get-notifications.md
+    - name: Notifications example
+      href: ../apps/tenant-status/notifications-example.md
   - name: Provisioning
     href: ../apps/provisioning/index.md
     items:
@@ -67,13 +78,23 @@ items:
       href: ../apps/redirects/endpoint-types.md
     - name: Add and update
       href: ../apps/redirects/add-update.md
-  - name: Validation
-    href: ../apps/validation/index.md
+  - name: Manage
+    items:
+    - name: Update app
+      href: ../apps/manage/update-app.md
+    - name: Revoke app
+      href: ../apps/manage/revoke-app.md
+  - name: Activate
+    href: ../apps/activate/index.md
     items:
     - name: Checklist
-      href: ../apps/validation/checklist.md
+      href: ../apps/activate/checklist.md
     - name: Validate app
-      href: ../apps/validation/validate-app.md
+      href: ../apps/activate/validate-app.md
+    - name: Activate custom app
+      href: ../apps/activate/activate-custom-app.md
+  - name: App store
+    href: ../apps/app-store.md
   - name: Certification
     href: ../apps/certification/index.md
     items:
@@ -90,10 +111,7 @@ items:
       - name: Watchcom testimonials
         href: ../apps/certification/watchcom-testimonials.md
   - name: Publish
-    href: ../apps/publish/activate-custom-app.md
     items:
-    - name: Activate custom app
-      href: ../apps/publish/activate-custom-app.md
     - name: Get listed
       href: ../apps/publish/get-listed.md
     - name: Publish standard app
@@ -102,24 +120,3 @@ items:
       href: ../apps/publish/beta-period.md
     - name: How to get noticed
       href: ../apps/publish/how-to-get-noticed.md
-  - name: Tenant status
-    href: ../apps/tenant-status/index.md
-    items:
-    - name: Online tenant status
-      href: ../apps/tenant-status/online-tenant-status.md
-    - name: Check status
-      href: ../apps/tenant-status/check-status.md
-    - name: Manage status changes
-      href: ../apps/tenant-status/manage-status-changes.md
-    - name: Get notifications
-      href: ../apps/tenant-status/get-notifications.md
-    - name: Notifications example
-      href: ../apps/tenant-status/notifications-example.md
-  - name: Manage
-    items:
-    - name: Update app
-      href: ../apps/manage/update-app.md
-    - name: Revoke app
-      href: ../apps/manage/revoke-app.md
-  - name: Security enhancements
-    href: ../apps/security-enhancements.md

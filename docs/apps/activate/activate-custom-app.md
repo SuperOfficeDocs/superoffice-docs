@@ -44,7 +44,7 @@ This is usually initiated by the customer.
 3. As an administrator, sign in to SuperOffice and [give consent][4] to this specific tenant.
 
 <!-- Referenced links -->
-[1]: ../validation/validate-app.md
+[1]: validate-app.md
 [2]: ../../license/expander-services/index.md
 [3]: ../provisioning/index.md
 [4]: ../provisioning/consent.md

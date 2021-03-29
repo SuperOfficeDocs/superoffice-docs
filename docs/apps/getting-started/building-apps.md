@@ -95,8 +95,8 @@ Creating an application for the SuperOffice App Store is not something to take l
 [3]: ../client-id-secret.md
 [4]: ../redirects/index.md
 [6]: ../certification/certify-app.md
-[7]: ../validation/validate-app.md
+[7]: ../activate/validate-app.md
 [8]: ../publish/get-listed.md
-[9]: ../publish/activate-custom-app.md
+[9]: ../activate/activate-custom-app.md
 [10]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/native-app-quickstart.md
 [11]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/auth-code-flow-quickstart.md

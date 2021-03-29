@@ -49,5 +49,5 @@ Your custom application is almost ready. Before we go live, we need to ensure th
 
 <!-- Referenced links -->
 [1]: checklist.md
-[2]: ../publish/activate-custom-app.md
-[3]: https://community.superoffice.com/en/developer/create-apps/resources/start-application-validation/
+[2]: activate-custom-app.md
+[3]: https://community.superoffice.com/en/developer/create-apps/resources/start-application-activate/

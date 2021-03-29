@@ -78,7 +78,7 @@ Always keep in mind the [OWASP top ten list][13].
 [3]: ../certification/secure-app.md
 [4]: ../publish/beta-period.md
 [5]: ../custom.md
-[6]: ../validation/validate-app.md
+[6]: ../activate/validate-app.md
 [7]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/authentication/online/federated-auth.md
 [8]: ../getting-started/models.md
 [9]: ../client-id-secret.md

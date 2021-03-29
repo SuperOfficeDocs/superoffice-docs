@@ -3,6 +3,8 @@ items:
   href: ../online/index.md
 - name: System requirements
   href: ../online/system-requirements.md
+- name: Security enhancements
+  href: ../online/security-enhancements.md
 - name: Version history
   href: ../online/version-history.md
 - name: Test environment
