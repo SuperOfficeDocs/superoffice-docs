@@ -103,7 +103,7 @@ On the computer in each hosting environment:
 <!-- Referenced links -->
 [1]: index.md
 [2]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/assets/downloads.md
-[3]: ../../apps/getting-started/app-envir.md
+[3]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
 [4]: override-resolver.md
 [5]: add-certificate-snap-in.md
 

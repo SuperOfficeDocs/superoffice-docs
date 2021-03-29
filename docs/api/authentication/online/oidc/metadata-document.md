@@ -38,4 +38,4 @@ The **environment** sub-domain is unique to each [application environment:][1
 [!include[ALT](./includes/oidc-metadata.md)]
 
 <!-- Referenced links -->
-[1]: ../../apps/getting-started/app-envir.md
+[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md

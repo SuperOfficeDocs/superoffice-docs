@@ -51,7 +51,7 @@ While SuperOffice only requires the `openid` scope, as required by the OIDC sp
 
 <!-- Referenced links -->
 [1]: https://tools.ietf.org/html/rfc8252
-[2]: ../../apps/redirects/index.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
 [3]: https://tools.ietf.org/html/rfc8252#page-11
 [4]: https://github.com/SuperOfficeDocs/data-access/blob/main/docs/tutorials/native-app-flow-tutorial.md
 [5]: https://tools.ietf.org/html/rfc7636

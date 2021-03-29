@@ -63,7 +63,7 @@ The `SuperIdTokenHandler` class is responsible for validating security tokens. B
     * there are hidden characters in the value field - such as an "&shy;" character
 
 <!-- Referenced links -->
-[1]: ../../apps/getting-started/app-envir.md
+[1]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/getting-started/app-envir.md
 [2]: validate-security-tokens.md
 [3]: ../error-codes.md
 [4]: configure.md

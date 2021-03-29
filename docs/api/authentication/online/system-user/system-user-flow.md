@@ -40,7 +40,7 @@ High-level intro to system user flow for non-interactive server-to-server commun
 
 <!-- Referenced links -->
 [1]: ../federated-auth.md
-[2]: ../../apps/redirects/index.md
+[2]: https://github.com/SuperOfficeDocs/superoffice-docs/blob/main/docs/apps/redirects/index.md
 [3]: ../certificates/validate-security-tokens.md
 [4]: ../id-token.md
 [5]: ../oidc/claims-scope.md
