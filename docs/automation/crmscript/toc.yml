@@ -220,6 +220,21 @@ items:
       href: searchengine/se-insert-update-delete.md
     - name: Using the SearchEngine class (blog post)
       href: searchengine/using-the-searchengine-class-blog-post.md
+  - name: Chatbots
+    href: chatbot/index.md
+    items:
+    - name: Registration
+      href: chatbot/registration.md
+    - name: Sessions
+      href: chatbot/sessions.md
+    - name: Messages
+      href: chatbot/messages.md
+    - name: Examples
+      href: chatbot/examples.md
+    - name: Alternatives
+      href: chatbot/alternatives.md
+    - name: Reference
+      href: chatbot/reference.md
 - name: Tutorials
   items:
   - name: Script-based selections
