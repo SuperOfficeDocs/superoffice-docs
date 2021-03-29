@@ -24,21 +24,12 @@ items:
       - name: MS Office
         href: ../onsite-setup/compatibility/ms-office.md
       - name: Database
-<<<<<<< HEAD
-        href: ../onsite/compatibility/database.md
-        items:
-        - name: MS SQL Server
-          href: ../onsite/compatibility/ms-sql-server.md
-        - name: Oracle
-          href: ../onsite/compatibility/oracle.md
-=======
         href: ../onsite-setup/compatibility/database.md
         items:
         - name: MS SQL Server
           href: ../onsite-setup/compatibility/ms-sql-server.md
         - name: Oracle
           href: ../onsite-setup/compatibility/oracle.md
->>>>>>> a12779384562de24d810a9c2ad85c3acbda3739d
     - name: Security
       href: ../onsite-setup//security/index.md
       items:

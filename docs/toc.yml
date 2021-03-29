@@ -1,9 +1,6 @@
 items:
-<<<<<<< HEAD
 - name: Setup
   href: 01-setup/toc.yml
-=======
->>>>>>> a12779384562de24d810a9c2ad85c3acbda3739d
 - name: Admin
   href: admin/index.md
   items:
