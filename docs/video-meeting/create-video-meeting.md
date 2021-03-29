@@ -10,7 +10,7 @@ so.client: online            # online, web, win, pocket, or mobile
 
 # Create a video meeting
 
-You can easily set up a video meeting when [creating a follow up][1].
+You can easily set up a video meeting when [creating a follow-up][1].
 
 1. Go to the Follow-up dialog (example: go to the diary and create a new appointment).
 

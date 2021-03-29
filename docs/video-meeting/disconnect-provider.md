@@ -22,7 +22,20 @@ In the **Video meetings** tab you can disconnect the Zoom video meeti
 
 ![image67mh.png][2]
 
+Some providers that you uninstall too. These are:
+
+* [Zoom][1]
+* [Webex][2]
+* [Google][3]
+* [Microsoft Teams][4]
+
 Now you are able to start the configuration over.
+
+<!-- Referenced links -->
+[1]: zoom/uninstall.md
+[2]: webex/uninstall.md
+[3]: google-meet/uninstall.md
+[4]: ms-teams/uninstall.md
 
 <!-- Referenced images -->
 [1]: ../media/icons/preferences.bmp
