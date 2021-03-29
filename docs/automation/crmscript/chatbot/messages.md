@@ -4,35 +4,26 @@ description: Chatbot messages
 author: christianm
 so.date: 2021-03-08
 keywords: chatbot, ai
-so.topic: reference
+so.topic: concept
 ---
 
 
-## Bot Message Received
+## `Bot Message Received`
 
 This script is called when user sends new message to bot - not called when bot posts messages.
 Called after the generic ChatBeforeSaveNewMessage and ChatAfterSaveNewMessage triggers have run.
 
-Bot can respond using `addChatMessage(Integer sessionId, String message, Integer type, String author, Integer specialType, String specialParams, DateTime whenPosted)`
-to add more messages to the chat. Use type = 1 to indicate message is sent to customer.
+Bot can respond using `addChatMessage(sessionId, message, type, author, specialType, specialParams, whenPosted)`
+to add more messages to the chat. 
+
+Use type = 1 to indicate message is sent from bot to customer.
 
 You can use the `whenPosted` parameter to space out the bot replies to make them seem less robotic.
 
-Input values:
+Some of the input values:
 
 * `chatSession.topicId`
-* `chatSession.status`
-* `chatSession.userId`
-* `chatSession.customerId`
-* `chatSession.contactId`
-* `chatSession.projectId`
-* `chatSession.saleId`
-* `chatSession.ticketId`
-* `chatSession.botActive`
-* `chatSession.customerName`
-* `chatSession.customerEmail`
-* `chatSession.companyName`
-* `chatSession.customerPhone`
+* `chatSession.status` - pre-chat form, in-queue, user message, etc
 * `chatMessage.sessionId`
 * `chatMessage.id`
 * `chatMessage.message` - what the customer typed
@@ -46,7 +37,7 @@ Input values:
 The bot script can call a web service for help, or do its own text processing in the script.
 The bot script should post a response message.
 
-Response messages may be just text, or can include special response types, like options and links.
+Response messages may be just text, or can include special response types, like options or links.
 
 In addition to the bot script, these things also happen:
 
@@ -54,7 +45,6 @@ In addition to the bot script, these things also happen:
 * Webhooks for **chatSession.message** are dispatched.
 
 Note that the triggers and webhooks are fired for both incoming and outgoing messages, while the bot scripts are only fired for incoming messages.
-
 
 ### Example
 
@@ -86,29 +76,3 @@ addChatMessage(sessionId, message, toCustomer, botName, 0, "" );
 if( human )   resetChat(sessionId);
 if( stop )   setChatStatus(sessionId, 7); // 7 = closed
 ```
-
-### Chat Message types
-
-* ToCustomer = 1,
-* ToUser = 2,
-* Special = 3
-
-### Chat Message Special types
-
-* None = 0,
-* Welcome = 1,
-* Url = 2,
-* Block = 3,
-* NewSession = 5,
-* TransferedSession = 6,
-* Error = 7,
-* Deleted = 8,
-* FaqSuccessQuestion = 9,
-* ClosedByUser = 10,
-* ClosedByCustomer = 11,
-* ClosedByIdle = 12,
-* TransferRejected = 13,
-* ReopenedByCustomer = 14,
-* ClickedOption = 15,
-* Options = 17 *Message has a list of clickable options. Options are as JSON array in specialParam*
-

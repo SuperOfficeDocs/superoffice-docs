@@ -2,30 +2,30 @@
 title: chatbot_registration
 description: Chatbot registration
 author: christianm
-so.date: 2021-03-08
+so.date: 2021-03-29
 keywords: chatbot, ai
-so.topic: reference
+so.topic: concept
 ---
 
 ![Chat channel admin: chatbot tab](../media/chatbot-channel-admin.png)
 
 You pick a folder containing a CrmScript named `echobot register`.
 
-## Bot Register
+## `Bot Register`
 
-This script is called when a bot is configured / saved in channel admin. Not called during chat with customer.
+This script is called when a bot is configured / saved in channel admin.
+Not called during chat with customer.
 
 This script identifies the script folder as a chatbot. It must exist in order for a script folder to be recognized as a chatbot.
 
 First any existing **bot register** script that is registered on the channel is called with input values:
 
 * `action` = "unregister"
-* `topicid` = the id of the topic the bot is active on. 
+* `topicid` = the id of the topic the bot is active on.
 
 This is to allow the old bot to clean up its scripts and triggers that it may have installed.
 
 The script is also called during channel delete.
-
 
 The new bot's register script is called with input values:
 
@@ -56,3 +56,4 @@ and pick up the new id.
 String action = getEventData().getInputValue("action");
 log("Echobot registered called: " + action);
 ```
+
