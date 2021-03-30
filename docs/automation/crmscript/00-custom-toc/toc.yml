@@ -238,7 +238,7 @@ items:
   - name: Messages
     href: ../chatbot/messages.md
   - name: Script reference
-    href: ../chatbot.md
+    href: ../chatbot/reference.md
 - name: API reference
   items:
   - name: Classes
