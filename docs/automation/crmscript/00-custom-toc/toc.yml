@@ -228,6 +228,17 @@ items:
     href: ../tutorials/udef-agent.md
   - name: Build custom rest API methods
     href: ../persons-and-organizations/build-custom-rest-api-methods.md
+- name: Chatbot
+  href: ../chatbot/index.md
+  items:
+  - name: Registration
+    href: ../chatbot/registration.md
+  - name: Chat sessions
+    href: ../chatbot/sessions.md
+  - name: Messages
+    href: ../chatbot/messages.md
+  - name: Script reference
+    href: ../chatbot/reference.md
 - name: API reference
   items:
   - name: Classes
