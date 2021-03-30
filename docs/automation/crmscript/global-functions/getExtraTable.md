@@ -1,9 +1,9 @@
 ---
 description: ExtraTable getExtraTable(String name)
-path: /EJScript/Global functions/ExtraTable getExtraTable(String name)
-intellisense: 1
+intellisense: Void.getExtraTable
 langref: 1
 keywords: getExtraTable(String)
+so.topic: reference
 ---
 
 

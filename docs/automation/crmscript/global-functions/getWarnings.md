@@ -1,9 +1,9 @@
 ---
 description: Map getWarnings()
-path: /EJScript/Global functions/Map getWarnings()
-intellisense: 1
+intellisense: Void.getWarnings
 langref: 1
 keywords: getWarnings()
+so.topic: reference
 ---
 
 

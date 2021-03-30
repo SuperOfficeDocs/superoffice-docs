@@ -1,9 +1,9 @@
 ---
 description: String getCgiUrl()
-path: /EJScript/Global functions/String getCgiUrl()
-intellisense: 1
+intellisense: Void.getCgiUrl
 langref: 1
 keywords: getCgiUrl()
+so.topic: reference
 ---
 
 

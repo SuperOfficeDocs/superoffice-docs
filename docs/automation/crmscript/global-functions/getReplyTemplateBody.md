@@ -1,9 +1,9 @@
 ---
 description: String getReplyTemplateBody(Integer id, Bool useHTML, Integer langId)
-path: /EJScript/Global functions/String getReplyTemplateBody(Integer id, Bool useHTML, Integer langId)
-intellisense: 1
+intellisense: Void.getReplyTemplateBody
 langref: 1
 keywords: getReplyTemplateBody(Integer,Bool,Integer)
+so.topic: reference
 ---
 
 

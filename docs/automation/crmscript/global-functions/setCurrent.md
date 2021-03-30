@@ -1,9 +1,9 @@
 ---
 description: Void setCurrent(String key, String value)
-path: /EJScript/Global functions/Void setCurrent(String key, String value)
-intellisense: 1
+intellisense: Void.setCurrent
 langref: 1
 keywords: setCurrent(String,String)
+so.topic: reference
 ---
 
 

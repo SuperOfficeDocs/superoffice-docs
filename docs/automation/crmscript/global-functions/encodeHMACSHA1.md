@@ -1,9 +1,9 @@
 ---
 description: String encodeHMACSHA1(String key, String value)
-path: /EJScript/Global functions/String encodeHMACSHA1(String key, String value)
-intellisense: 1
+intellisense: Void.encodeHMACSHA1
 langref: 1
 keywords: encodeHMACSHA1(String,String)
+so.topic: reference
 ---
 
 

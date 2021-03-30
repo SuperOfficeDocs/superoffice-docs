@@ -1,9 +1,9 @@
 ---
 description: Void assertEquals(Bool bool1, Bool bool2)
-path: /EJScript/Global functions/Void assertEquals(Bool bool1, Bool bool2)
-intellisense: 1
+intellisense: Void.assertEquals
 langref: 1
 keywords: assertEquals(Bool,Bool)
+so.topic: reference
 ---
 
 

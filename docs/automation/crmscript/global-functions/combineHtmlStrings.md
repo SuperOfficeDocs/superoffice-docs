@@ -1,9 +1,9 @@
 ---
 description: String combineHtmlStrings(Vector htmlStrings)
-path: /EJScript/Global functions/String combineHtmlStrings(Vector htmlStrings)
-intellisense: 1
+intellisense: Void.combineHtmlStrings
 langref: 1
 keywords: combineHtmlStrings(Vector)
+so.topic: reference
 ---
 
 

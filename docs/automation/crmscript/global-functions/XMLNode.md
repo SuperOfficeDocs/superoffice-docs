@@ -1,9 +1,9 @@
 ---
 description: XMLNode XMLNode(String p0)
-path: /EJScript/Global functions/XMLNode XMLNode(String p_0)
-intellisense: 1
+intellisense: Void.XMLNode
 langref: 1
 keywords: XMLNode(String)
+so.topic: reference
 ---
 
 

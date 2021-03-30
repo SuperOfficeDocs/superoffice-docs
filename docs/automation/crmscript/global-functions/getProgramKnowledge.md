@@ -1,9 +1,9 @@
 ---
 description: String getProgramKnowledge()
-path: /EJScript/Global functions/String getProgramKnowledge()
-intellisense: 1
+intellisense: Void.getProgramKnowledge
 langref: 1
 keywords: getProgramKnowledge()
+so.topic: reference
 ---
 
 

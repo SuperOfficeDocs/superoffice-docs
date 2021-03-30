@@ -1,9 +1,9 @@
 ---
 description: String getEnvVariable(String name)
-path: /EJScript/Global functions/String getEnvVariable(String name)
-intellisense: 1
+intellisense: Void.getEnvVariable
 langref: 1
 keywords: getEnvVariable(String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Integer getAgentId(String idString)
-path: /EJScript/Global functions/Integer getAgentId(String idString)
-intellisense: 1
+intellisense: Void.getAgentId
 langref: 1
 keywords: getAgentId(String)
+so.topic: reference
 ---
 
 

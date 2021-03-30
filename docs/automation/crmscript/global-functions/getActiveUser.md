@@ -1,9 +1,9 @@
 ---
 description: User getActiveUser()
-path: /EJScript/Global functions/User getActiveUser()
-intellisense: 1
+intellisense: Void.getActiveUser
 langref: 1
 keywords: getActiveUser()
+so.topic: reference
 ---
 
 

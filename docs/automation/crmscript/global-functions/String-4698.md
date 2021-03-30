@@ -1,9 +1,9 @@
 ---
 description: String String(NSStream byteArray, String codepage)
-path: /EJScript/Global functions/String String(NSStream byteArray, String codepage)
-intellisense: 1
+intellisense: Void.String
 langref: 1
 keywords: String(NSStream,String)
+so.topic: reference
 ---
 
 

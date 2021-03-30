@@ -1,9 +1,9 @@
 ---
 description: HtmlElement addHtmlElement(Integer id, String name, Integer type, Map config)
-path: /EJScript/Global functions/HtmlElement addHtmlElement(Integer id, String name, Integer type, Map config)
-intellisense: 1
+intellisense: Void.addHtmlElement
 langref: 1
 keywords: addHtmlElement(Integer,String,Integer,Map)
+so.topic: reference
 ---
 
 

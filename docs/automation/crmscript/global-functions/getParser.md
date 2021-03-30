@@ -1,9 +1,9 @@
 ---
 description: Parser getParser()
-path: /EJScript/Global functions/Parser getParser()
-intellisense: 1
+intellisense: Void.getParser
 langref: 1
 keywords: getParser()
+so.topic: reference
 ---
 
 Return a reference to the global Parser instance.

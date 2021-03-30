@@ -1,9 +1,9 @@
 ---
 description: String String(Byte[] byteArray, String codepage)
-path: /EJScript/Global functions/String String(Byte[] byteArray, String codepage)
-intellisense: 1
+intellisense: Void.String
 langref: 1
 keywords: String(Byte[],String)
+so.topic: reference
 ---
 
 

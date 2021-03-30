@@ -1,9 +1,9 @@
 ---
 description: Integer findReplyTemplateToMerge(Integer p\_categoryId)
-path: /EJScript/Global functions/Integer findReplyTemplateToMerge(Integer p_categoryId)
-intellisense: 1
+intellisense: Void.findReplyTemplateToMerge
 langref: 1
 keywords: findReplyTemplateToMerge(Integer)
+so.topic: reference
 ---
 
 

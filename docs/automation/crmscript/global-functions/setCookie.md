@@ -1,9 +1,9 @@
 ---
 description: Void setCookie(String name, String value, Bool persistent)
-path: /EJScript/Global functions/Void setCookie(String name, String value, Bool persistent)
-intellisense: 1
+intellisense: Void.setCookie
 langref: 1
 keywords: setCookie(String,String,Bool)
+so.topic: reference
 ---
 
 

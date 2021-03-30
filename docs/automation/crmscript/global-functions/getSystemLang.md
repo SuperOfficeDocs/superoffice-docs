@@ -1,9 +1,9 @@
 ---
 description: String getSystemLang()
-path: /EJScript/Global functions/String getSystemLang()
-intellisense: 1
+intellisense: Void.getSystemLang
 langref: 1
 keywords: getSystemLang()
+so.topic: reference
 ---
 
 

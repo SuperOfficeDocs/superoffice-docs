@@ -1,9 +1,9 @@
 ---
 description: Void resetChat(Integer sessionId)
-path: /EJScript/Global functions/Void resetChat(Integer sessionId)
-intellisense: 1
+intellisense: Void.resetChat
 langref: 1
 keywords: resetChat(Integer)
+so.topic: reference
 ---
 
 

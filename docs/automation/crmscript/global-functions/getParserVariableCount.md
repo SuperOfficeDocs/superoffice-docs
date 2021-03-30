@@ -1,9 +1,9 @@
 ---
 description: Integer getParserVariableCount(String varName)
-path: /EJScript/Global functions/Integer getParserVariableCount(String varName)
-intellisense: 1
+intellisense: Void.getParserVariableCount
 langref: 1
 keywords: getParserVariableCount(String)
+so.topic: reference
 ---
 
 

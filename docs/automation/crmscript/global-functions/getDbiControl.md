@@ -1,9 +1,9 @@
 ---
 description: DbiControl getDbiControl()
-path: /EJScript/Global functions/DbiControl getDbiControl()
-intellisense: 1
+intellisense: Void.getDbiControl
 langref: 1
 keywords: getDbiControl()
+so.topic: reference
 ---
 
 This function is used to access the global DBI control object, which is used for database integration.

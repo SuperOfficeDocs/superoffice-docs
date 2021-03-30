@@ -1,9 +1,9 @@
 ---
 description: String encodeBase64(NSStream data)
-path: /EJScript/Global functions/String encodeBase64(NSStream data)
-intellisense: 1
+intellisense: Void.encodeBase64
 langref: 1
 keywords: encodeBase64(NSStream)
+so.topic: reference
 ---
 
 

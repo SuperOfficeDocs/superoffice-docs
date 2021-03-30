@@ -1,9 +1,9 @@
 ---
 description: String idToLang(Integer langId)
-path: /EJScript/Global functions/String idToLang(Integer langId)
-intellisense: 1
+intellisense: Void.idToLang
 langref: 1
 keywords: idToLang(Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Integer getParserParameterCount(String paramName)
-path: /EJScript/Global functions/Integer getParserParameterCount(String paramName)
-intellisense: 1
+intellisense: Void.getParserParameterCount
 langref: 1
 keywords: getParserParameterCount(String)
+so.topic: reference
 ---
 
 

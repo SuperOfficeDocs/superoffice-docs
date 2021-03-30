@@ -1,9 +1,9 @@
 ---
 description: Map getGlobalStaticMap()
-path: /EJScript/Global functions/Map getGlobalStaticMap()
-intellisense: 1
+intellisense: Void.getGlobalStaticMap
 langref: 1
 keywords: getGlobalStaticMap()
+so.topic: reference
 ---
 
 

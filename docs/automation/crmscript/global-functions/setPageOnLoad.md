@@ -1,9 +1,9 @@
 ---
 description: Void setPageOnLoad(String p0)
-path: /EJScript/Global functions/Void setPageOnLoad(String p_0)
-intellisense: 1
+intellisense: Void.setPageOnLoad
 langref: 1
 keywords: setPageOnLoad(String)
+so.topic: reference
 ---
 
 

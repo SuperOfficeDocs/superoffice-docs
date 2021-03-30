@@ -1,9 +1,9 @@
 ---
 description: Map mapValue(String value)
-path: /EJScript/Global functions/Map mapValue(String value)
-intellisense: 1
+intellisense: Void.mapValue
 langref: 1
 keywords: mapValue(String)
+so.topic: reference
 ---
 
 

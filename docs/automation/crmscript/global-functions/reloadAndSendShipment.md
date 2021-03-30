@@ -1,9 +1,9 @@
 ---
 description: Bool reloadAndSendShipment(Integer shipmentId)
-path: /EJScript/Global functions/Bool reloadAndSendShipment(Integer shipmentId)
-intellisense: 1
+intellisense: Void.reloadAndSendShipment
 langref: 1
 keywords: reloadAndSendShipment(Integer)
+so.topic: reference
 ---
 
 

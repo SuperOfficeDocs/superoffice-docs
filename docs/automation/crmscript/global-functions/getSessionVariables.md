@@ -1,9 +1,9 @@
 ---
 description: Map getSessionVariables()
-path: /EJScript/Global functions/Map getSessionVariables()
-intellisense: 1
+intellisense: Void.getSessionVariables
 langref: 1
 keywords: getSessionVariables()
+so.topic: reference
 ---
 
 

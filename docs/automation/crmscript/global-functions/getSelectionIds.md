@@ -1,9 +1,9 @@
 ---
 description: Integer[] getSelectionIds(Integer p0)
-path: /EJScript/Global functions/Integer[] getSelectionIds(Integer p_0)
-intellisense: 1
+intellisense: Void.getSelectionIds
 langref: 1
 keywords: getSelectionIds(Integer)
+so.topic: reference
 ---
 
 

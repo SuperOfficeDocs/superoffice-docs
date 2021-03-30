@@ -1,9 +1,9 @@
 ---
 description: String getProgramDocument()
-path: /EJScript/Global functions/String getProgramDocument()
-intellisense: 1
+intellisense: Void.getProgramDocument
 langref: 1
 keywords: getProgramDocument()
+so.topic: reference
 ---
 
 

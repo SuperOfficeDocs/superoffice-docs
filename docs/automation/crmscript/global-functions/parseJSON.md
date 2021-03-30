@@ -1,9 +1,9 @@
 ---
 description: XMLNode parseJSON(String jsonDocument)
-path: /EJScript/Global functions/XMLNode parseJSON(String jsonDocument)
-intellisense: 1
+intellisense: Void.parseJSON
 langref: 1
 keywords: parseJSON(String)
+so.topic: reference
 ---
 
 

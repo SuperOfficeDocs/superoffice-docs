@@ -1,9 +1,9 @@
 ---
 description: Void print(String s)
-path: /EJScript/Global functions/Void print(String s)
-intellisense: 1
+intellisense: Void.print
 langref: 1
 keywords: print(String)
+so.topic: reference
 ---
 
 

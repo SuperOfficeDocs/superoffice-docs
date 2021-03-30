@@ -1,9 +1,9 @@
 ---
 description: Void setUserIsTyping(Integer sessionId, Bool isTyping)
-path: /EJScript/Global functions/Void setUserIsTyping(Integer sessionId, Bool isTyping)
-intellisense: 1
+intellisense: Void.setUserIsTyping
 langref: 1
 keywords: setUserIsTyping(Integer,Bool)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Float Float(String number)
-path: /EJScript/Global functions/Float Float(String number)
-intellisense: 1
+intellisense: Void.Float
 langref: 1
 keywords: Float(String)
+so.topic: reference
 ---
 
 

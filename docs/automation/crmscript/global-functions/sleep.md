@@ -1,9 +1,9 @@
 ---
 description: Void sleep(Float seconds)
-path: /EJScript/Global functions/Void sleep(Float seconds)
-intellisense: 1
+intellisense: Void.sleep
 langref: 1
 keywords: sleep(Float)
+so.topic: reference
 ---
 
 

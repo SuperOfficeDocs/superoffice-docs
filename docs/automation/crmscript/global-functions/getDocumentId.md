@@ -1,9 +1,9 @@
 ---
 description: Integer getDocumentId(String name)
-path: /EJScript/Global functions/Integer getDocumentId(String name)
-intellisense: 1
+intellisense: Void.getDocumentId
 langref: 1
 keywords: getDocumentId(String)
+so.topic: reference
 ---
 
 

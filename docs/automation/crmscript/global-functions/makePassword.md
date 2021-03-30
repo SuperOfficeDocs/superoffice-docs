@@ -1,9 +1,9 @@
 ---
 description: String makePassword(Integer p\_len)
-path: /EJScript/Global functions/String makePassword(Integer p_len)
-intellisense: 1
+intellisense: Void.makePassword
 langref: 1
 keywords: makePassword(Integer)
+so.topic: reference
 ---
 
 

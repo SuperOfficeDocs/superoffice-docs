@@ -1,9 +1,9 @@
 ---
 description: String getNtUser()
-path: /EJScript/Global functions/String getNtUser()
-intellisense: 1
+intellisense: Void.getNtUser
 langref: 1
 keywords: getNtUser()
+so.topic: reference
 ---
 
 

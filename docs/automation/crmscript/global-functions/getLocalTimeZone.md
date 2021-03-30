@@ -1,9 +1,9 @@
 ---
 description: TimeZone getLocalTimeZone()
-path: /EJScript/Global functions/TimeZone getLocalTimeZone()
-intellisense: 1
+intellisense: Void.getLocalTimeZone
 langref: 1
 keywords: getLocalTimeZone()
+so.topic: reference
 ---
 
 

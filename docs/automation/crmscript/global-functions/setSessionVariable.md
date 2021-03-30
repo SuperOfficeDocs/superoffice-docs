@@ -1,9 +1,9 @@
 ---
 description: String setSessionVariable(String p0, String p1)
-path: /EJScript/Global functions/String setSessionVariable(String p_0, String p_1)
-intellisense: 1
+intellisense: Void.setSessionVariable
 langref: 1
 keywords: setSessionVariable(String,String)
+so.topic: reference
 ---
 
 

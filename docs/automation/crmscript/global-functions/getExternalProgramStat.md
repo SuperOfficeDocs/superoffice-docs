@@ -1,9 +1,9 @@
 ---
 description: String getExternalProgramStat()
-path: /EJScript/Global functions/String getExternalProgramStat()
-intellisense: 1
+intellisense: Void.getExternalProgramStat
 langref: 1
 keywords: getExternalProgramStat()
+so.topic: reference
 ---
 
 

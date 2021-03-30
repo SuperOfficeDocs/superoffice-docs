@@ -1,9 +1,9 @@
 ---
 description: String getParserParameter(String paramName, Integer index)
-path: /EJScript/Global functions/String getParserParameter(String paramName, Integer index)
-intellisense: 1
+intellisense: Void.getParserParameter
 langref: 1
 keywords: getParserParameter(String,Integer)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Integer rand(Integer min, Integer max)
-path: /EJScript/Global functions/Integer rand(Integer min, Integer max)
-intellisense: 1
+intellisense: Void.rand
 langref: 1
 keywords: rand(Integer,Integer)
+so.topic: reference
 ---
 
 

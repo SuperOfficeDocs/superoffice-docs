@@ -1,9 +1,9 @@
 ---
 description: String getExecutable()
-path: /EJScript/Global functions/String getExecutable()
-intellisense: 1
+intellisense: Void.getExecutable
 langref: 1
 keywords: getExecutable()
+so.topic: reference
 ---
 
 

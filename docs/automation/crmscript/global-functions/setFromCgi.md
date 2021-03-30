@@ -1,9 +1,9 @@
 ---
 description: Void setFromCgi()
-path: /EJScript/Global functions/Void setFromCgi()
-intellisense: 1
+intellisense: Void.setFromCgi
 langref: 1
 keywords: setFromCgi()
+so.topic: reference
 ---
 
 

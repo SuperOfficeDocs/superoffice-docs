@@ -1,9 +1,9 @@
 ---
 description: Integer modulo(Integer a, Integer b)
-path: /EJScript/Global functions/Integer modulo(Integer a, Integer b)
-intellisense: 1
+intellisense: Void.modulo
 langref: 1
 keywords: modulo(Integer,Integer)
+so.topic: reference
 ---
 
 

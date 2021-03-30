@@ -1,9 +1,9 @@
 ---
 description: Bool checkReply(String email)
-path: /EJScript/Global functions/Bool checkReply(String email)
-intellisense: 1
+intellisense: Void.checkReply
 langref: 1
 keywords: checkReply(String)
+so.topic: reference
 ---
 
 This function will return true if it is ok to send a receipt to the indicated email address, false otherwise.

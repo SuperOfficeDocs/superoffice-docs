@@ -1,9 +1,9 @@
 ---
 description: String getProgramBlogic()
-path: /EJScript/Global functions/String getProgramBlogic()
-intellisense: 1
+intellisense: Void.getProgramBlogic
 langref: 1
 keywords: getProgramBlogic()
+so.topic: reference
 ---
 
 

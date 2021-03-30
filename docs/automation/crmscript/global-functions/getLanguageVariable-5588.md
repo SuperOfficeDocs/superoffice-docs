@@ -1,9 +1,9 @@
 ---
 description: String getLanguageVariable(String langVar, String langCode)
-path: /EJScript/Global functions/String getLanguageVariable(String langVar, String langCode)
-intellisense: 1
+intellisense: Void.getLanguageVariable
 langref: 1
 keywords: getLanguageVariable(String,String)
+so.topic: reference
 ---
 
 

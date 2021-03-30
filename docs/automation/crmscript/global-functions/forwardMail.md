@@ -1,9 +1,9 @@
 ---
 description: Void forwardMail(String p\_mail, String p\_to, Integer p\_ticketId)
-path: /EJScript/Global functions/Void forwardMail(String p_mail, String p_to, Integer p_ticketId)
-intellisense: 1
+intellisense: Void.forwardMail
 langref: 1
 keywords: forwardMail(String,String,Integer)
+so.topic: reference
 ---
 
 Forward preformatted email

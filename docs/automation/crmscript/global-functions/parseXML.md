@@ -1,9 +1,9 @@
 ---
 description: XMLNode parseXML(String xmlDocument)
-path: /EJScript/Global functions/XMLNode parseXML(String xmlDocument)
-intellisense: 1
+intellisense: Void.parseXML
 langref: 1
 keywords: parseXML(String)
+so.topic: reference
 ---
 
 Parse an XML document and generate a tree of XMLNode's.

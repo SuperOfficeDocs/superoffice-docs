@@ -1,9 +1,9 @@
 ---
 description: String getExternalProgramDocument()
-path: /EJScript/Global functions/String getExternalProgramDocument()
-intellisense: 1
+intellisense: Void.getExternalProgramDocument
 langref: 1
 keywords: getExternalProgramDocument()
+so.topic: reference
 ---
 
 

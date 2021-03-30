@@ -1,9 +1,9 @@
 ---
 description: Void setHidden(String name, String value)
-path: /EJScript/Global functions/Void setHidden(String name, String value)
-intellisense: 1
+intellisense: Void.setHidden
 langref: 1
 keywords: setHidden(String,String)
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: String[][] getFunctionList()
-path: /EJScript/Global functions/String[][] getFunctionList()
-intellisense: 1
+intellisense: Void.getFunctionList
 langref: 1
 keywords: getFunctionList()
+so.topic: reference
 ---
 
 

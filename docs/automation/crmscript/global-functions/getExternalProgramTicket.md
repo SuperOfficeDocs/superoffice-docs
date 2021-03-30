@@ -1,9 +1,9 @@
 ---
 description: String getExternalProgramTicket()
-path: /EJScript/Global functions/String getExternalProgramTicket()
-intellisense: 1
+intellisense: Void.getExternalProgramTicket
 langref: 1
 keywords: getExternalProgramTicket()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Integer getSystemFlags()
-path: /EJScript/Global functions/Integer getSystemFlags()
-intellisense: 1
+intellisense: Void.getSystemFlags
 langref: 1
 keywords: getSystemFlags()
+so.topic: reference
 ---
 
 

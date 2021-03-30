@@ -1,9 +1,9 @@
 ---
 description: String getParserVariable(String varName)
-path: /EJScript/Global functions/String getParserVariable(String varName)
-intellisense: 1
+intellisense: Void.getParserVariable
 langref: 1
 keywords: getParserVariable(String)
+so.topic: reference
 ---
 
 

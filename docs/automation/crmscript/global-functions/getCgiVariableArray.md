@@ -1,9 +1,9 @@
 ---
 description: String[] getCgiVariableArray(String name)
-path: /EJScript/Global functions/String[] getCgiVariableArray(String name)
-intellisense: 1
+intellisense: Void.getCgiVariableArray
 langref: 1
 keywords: getCgiVariableArray(String)
+so.topic: reference
 ---
 
 

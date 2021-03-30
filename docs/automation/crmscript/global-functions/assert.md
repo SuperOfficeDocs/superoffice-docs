@@ -1,9 +1,9 @@
 ---
 description: Void assert(Bool condition)
-path: /EJScript/Global functions/Void assert(Bool condition)
-intellisense: 1
+intellisense: Void.assert
 langref: 1
 keywords: assert(Bool)
+so.topic: reference
 ---
 
 

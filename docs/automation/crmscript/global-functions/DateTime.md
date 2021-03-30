@@ -1,9 +1,9 @@
 ---
 description: DateTime DateTime(DateTime dt)
-path: /EJScript/Global functions/DateTime DateTime(DateTime dt)
-intellisense: 1
+intellisense: Void.DateTime
 langref: 1
 keywords: DateTime(DateTime)
+so.topic: reference
 ---
 
 DateTime constructor

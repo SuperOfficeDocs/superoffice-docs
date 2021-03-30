@@ -1,9 +1,9 @@
 ---
 description: DateTime getCurrentDateTime()
-path: /EJScript/Global functions/DateTime getCurrentDateTime()
-intellisense: 1
+intellisense: Void.getCurrentDateTime
 langref: 1
 keywords: getCurrentDateTime()
+so.topic: reference
 ---
 
 

@@ -1,9 +1,9 @@
 ---
 description: Bool cgiWasPost()
-path: /EJScript/Global functions/Bool cgiWasPost()
-intellisense: 1
+intellisense: Void.cgiWasPost
 langref: 1
 keywords: cgiWasPost()
+so.topic: reference
 ---
 
 

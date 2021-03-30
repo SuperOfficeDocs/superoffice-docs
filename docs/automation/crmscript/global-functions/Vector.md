@@ -1,9 +1,9 @@
 ---
 description: Vector Vector(IntegerArray values)
-path: /EJScript/Global functions/Vector Vector(IntegerArray values)
-intellisense: 1
+intellisense: Void.Vector
 langref: 1
 keywords: Vector(IntegerArray)
+so.topic: reference
 ---
 
 

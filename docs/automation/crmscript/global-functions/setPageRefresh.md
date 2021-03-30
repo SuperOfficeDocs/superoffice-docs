@@ -1,9 +1,9 @@
 ---
 description: Void setPageRefresh(Integer p\_seconds)
-path: /EJScript/Global functions/Void setPageRefresh(Integer p_seconds)
-intellisense: 1
+intellisense: Void.setPageRefresh
 langref: 1
 keywords: setPageRefresh(Integer)
+so.topic: reference
 ---
 
 

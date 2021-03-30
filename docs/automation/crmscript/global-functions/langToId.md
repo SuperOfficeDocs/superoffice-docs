@@ -1,9 +1,9 @@
 ---
 description: Integer langToId(String langCode)
-path: /EJScript/Global functions/Integer langToId(String langCode)
-intellisense: 1
+intellisense: Void.langToId
 langref: 1
 keywords: langToId(String)
+so.topic: reference
 ---
 
 

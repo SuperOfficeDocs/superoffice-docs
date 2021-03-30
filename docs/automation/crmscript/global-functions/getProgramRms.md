@@ -1,9 +1,9 @@
 ---
 description: String getProgramRms()
-path: /EJScript/Global functions/String getProgramRms()
-intellisense: 1
+intellisense: Void.getProgramRms
 langref: 1
 keywords: getProgramRms()
+so.topic: reference
 ---
 
 

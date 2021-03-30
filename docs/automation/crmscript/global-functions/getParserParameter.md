@@ -1,9 +1,9 @@
 ---
 description: String getParserParameter(String name)
-path: /EJScript/Global functions/String getParserParameter(String name)
-intellisense: 1
+intellisense: Void.getParserParameter
 langref: 1
 keywords: getParserParameter(String)
+so.topic: reference
 ---
 
 

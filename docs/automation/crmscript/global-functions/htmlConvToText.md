@@ -1,9 +1,9 @@
 ---
 description: String htmlConvToText(String text)
-path: /EJScript/Global functions/String htmlConvToText(String text)
-intellisense: 1
+intellisense: Void.htmlConvToText
 langref: 1
 keywords: htmlConvToText(String)
+so.topic: reference
 ---
 
 

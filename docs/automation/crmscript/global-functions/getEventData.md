@@ -1,9 +1,9 @@
 ---
 description: EventData getEventData()
-path: /EJScript/Global functions/EventData getEventData()
-intellisense: 1
+intellisense: Void.getEventData
 langref: 1
 keywords: getEventData()
+so.topic: reference
 ---
 
 

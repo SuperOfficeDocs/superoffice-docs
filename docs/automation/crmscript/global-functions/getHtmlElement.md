@@ -1,9 +1,9 @@
 ---
 description: HtmlElement getHtmlElement(String name)
-path: /EJScript/Global functions/HtmlElement getHtmlElement(String name)
-intellisense: 1
+intellisense: Void.getHtmlElement
 langref: 1
 keywords: getHtmlElement(String)
+so.topic: reference
 ---
 
 Returns a reference to an HtmlElement in the associated screen.

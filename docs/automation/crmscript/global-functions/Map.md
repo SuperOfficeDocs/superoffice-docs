@@ -1,9 +1,9 @@
 ---
 description: Map Map()
-path: /EJScript/Global functions/Map Map()
-intellisense: 1
+intellisense: Void.Map
 langref: 1
 keywords: Map()
+so.topic: reference
 ---
 
 

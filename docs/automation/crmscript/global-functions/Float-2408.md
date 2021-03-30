@@ -1,9 +1,9 @@
 ---
 description: Float Float(Integer value)
-path: /EJScript/Global functions/Float Float(Integer value)
-intellisense: 1
+intellisense: Void.Float
 langref: 1
 keywords: Float(Integer)
+so.topic: reference
 ---
 
 

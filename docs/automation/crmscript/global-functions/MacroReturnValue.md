@@ -1,9 +1,9 @@
 ---
 description: MacroReturnValue MacroReturnValue(String p0, String p1)
-path: /EJScript/Global functions/MacroReturnValue MacroReturnValue(String p_0, String p_1)
-intellisense: 1
+intellisense: Void.MacroReturnValue
 langref: 1
 keywords: MacroReturnValue(String,String)
+so.topic: reference
 ---
 
 
