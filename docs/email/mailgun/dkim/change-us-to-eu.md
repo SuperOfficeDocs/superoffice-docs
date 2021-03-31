@@ -33,9 +33,9 @@ Please plan and schedule for this change as soon as possible, and no later than 
 
 2. Notify SuperOffice you have removed the current DKIM (use this [form][1]).
     * SuperOffice will:
-      a) Delete the US DKIM key for your domain
-      b) Create a new EU DKIM key for your domain
-      c) Send you this new EU DKIM key
+        a) Delete the US DKIM key for your domain
+        b) Create a new EU DKIM key for your domain
+        c) Send you this new EU DKIM key
 
 3. Add new EU DKIM for Mailgun in your DNS
 
